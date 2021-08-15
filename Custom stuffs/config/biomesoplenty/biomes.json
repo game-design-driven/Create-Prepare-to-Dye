@@ -9,6 +9,9 @@
     "biomesoplenty:cherry_blossom_grove": {
       "weight": 1
     },
+    "biomesoplenty:cold_desert": {
+      "weight": 7
+    },
     "biomesoplenty:coniferous_forest": {
       "weight": 10
     },
@@ -23,6 +26,9 @@
     },
     "biomesoplenty:fungal_jungle": {
       "weight": 1
+    },
+    "biomesoplenty:grassland": {
+      "weight": 3
     },
     "biomesoplenty:grove": {
       "weight": 10
@@ -39,8 +45,14 @@
     "biomesoplenty:lush_desert": {
       "weight": 1
     },
+    "biomesoplenty:marsh": {
+      "weight": 7
+    },
     "biomesoplenty:meadow": {
       "weight": 7
+    },
+    "biomesoplenty:muskeg": {
+      "weight": 1
     },
     "biomesoplenty:mystic_grove": {
       "weight": 1
@@ -66,9 +78,6 @@
     "biomesoplenty:shrubland": {
       "weight": 7
     },
-    "biomesoplenty:silkglade": {
-      "weight": 1
-    },
     "biomesoplenty:snowy_coniferous_forest": {
       "weight": 5
     },
@@ -90,8 +99,8 @@
     "biomesoplenty:withered_abyss": {
       "weight": 3
     },
-    "biomesoplenty:wooded_wasteland": {
-      "weight": 1
+    "biomesoplenty:woodland": {
+      "weight": 7
     }
   },
   "technical_biome_toggles": {
@@ -131,13 +140,17 @@
       "weight": 100,
       "rarity": 1.0
     },
-    "biomesoplenty:dead_swamp": {
-      "weight": 100,
-      "rarity": 0.75
-    },
     "biomesoplenty:deep_bayou": {
       "weight": 100,
       "rarity": 1.0
+    },
+    "biomesoplenty:dense_marsh": {
+      "weight": 100,
+      "rarity": 1.0
+    },
+    "biomesoplenty:dense_woodland": {
+      "weight": 100,
+      "rarity": 0.9
     },
     "biomesoplenty:dry_boneyard": {
       "weight": 100,
@@ -159,6 +172,10 @@
       "weight": 100,
       "rarity": 1.0
     },
+    "biomesoplenty:grassland_clover_patch": {
+      "weight": 100,
+      "rarity": 1.0
+    },
     "biomesoplenty:grove_clearing": {
       "weight": 100,
       "rarity": 1.0
@@ -174,10 +191,6 @@
     "biomesoplenty:highland_moor": {
       "weight": 100,
       "rarity": 0.75
-    },
-    "biomesoplenty:jade_grassland": {
-      "weight": 100,
-      "rarity": 0.85
     },
     "biomesoplenty:lavender_forest": {
       "weight": 100,
@@ -199,10 +212,6 @@
       "weight": 100,
       "rarity": 0.75
     },
-    "biomesoplenty:overgrown_fungal_jungle": {
-      "weight": 100,
-      "rarity": 0.65
-    },
     "biomesoplenty:rainforest_cliffs": {
       "weight": 100,
       "rarity": 2.0
@@ -223,13 +232,13 @@
       "weight": 100,
       "rarity": 1.0
     },
+    "biomesoplenty:shroomy_wetland": {
+      "weight": 100,
+      "rarity": 1.5
+    },
     "biomesoplenty:shrubland_hills": {
       "weight": 100,
       "rarity": 0.75
-    },
-    "biomesoplenty:silkglade_nest": {
-      "weight": 100,
-      "rarity": 0.45
     },
     "biomesoplenty:snowy_fir_clearing": {
       "weight": 100,
@@ -239,7 +248,7 @@
       "weight": 100,
       "rarity": 1.25
     },
-    "biomesoplenty:tropic_plains": {
+    "biomesoplenty:tall_dead_forest": {
       "weight": 100,
       "rarity": 0.75
     },
@@ -251,17 +260,13 @@
       "weight": 100,
       "rarity": 2.0
     },
-    "biomesoplenty:wetland_marsh": {
+    "biomesoplenty:wetland_forest": {
       "weight": 100,
-      "rarity": 1.0
+      "rarity": 1.5
     },
     "biomesoplenty:wooded_scrubland": {
       "weight": 100,
       "rarity": 1.0
-    },
-    "biomesoplenty:wooded_wasteland": {
-      "weight": 100,
-      "rarity": 0.85
     }
   },
   "island_biome_toggles": {

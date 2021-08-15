@@ -47,6 +47,11 @@
 	# 
 	#Show item descriptions on Shift and controls on Ctrl.
 	enableTooltips = true
+	# 
+	#[in Blocks]
+	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed
+	#Range: 1.0 ~ 3.4028234663852886E38
+	filterItemRenderDistance = 10.0
 
 	# 
 	#Sound settings
