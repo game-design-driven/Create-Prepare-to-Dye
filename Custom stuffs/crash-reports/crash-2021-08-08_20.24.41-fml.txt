@@ -1,0 +1,118 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 8/8/21 8:24 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:85) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:188) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:976) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.16.5-36.1.61.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:88) ~[forge:?] {re:classloading}
+-- MOD cofh_core --
+Details:
+	Mod File: cofh_core-1.16.5-1.3.1.jar
+	Failure message: Mod cofh_core requires forge 36.2.0 or above
+		Currently, forge is 36.1.61
+	Mod Version: 1.3.1
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:88) ~[forge:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_242] {}
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:86) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:188) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:976) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.16.5-36.1.61.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {}
+
+
+-- MOD create --
+Details:
+	Mod File: create-mc1.16.5_v0.3.2c.jar
+	Failure message: Mod create requires forge 36.2.0 or above
+		Currently, forge is 36.1.61
+	Mod Version: v0.3.2c for 1.16.5
+	Mod Issue URL: https://github.com/Creators-of-Create/Create/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD create --
+Details:
+	Mod File: create-mc1.16.5_v0.3.2c.jar
+	Failure message: Mod create requires flywheel 1.16-0.2 or above, and below 1.16-0.3
+		Currently, flywheel is 1.16-0.1.1
+	Mod Version: v0.3.2c for 1.16.5
+	Mod Issue URL: https://github.com/Creators-of-Create/Create/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_242, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
+	Memory: 803174696 bytes (765 MB) / 1783627776 bytes (1701 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 8
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx4096m -Xms4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms256m
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.1.61.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.61.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.1.61.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.61.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.1.61.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.1
+	Forge: net.minecraftforge:36.1.61
+	FML Language Providers: 
+		javafml@36.1
+		minecraft@1
+	Mod List: 
+		forge-1.16.5-36.1.61-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.1.61-universal.jar                |Forge                         |forge                         |36.1.61             |NONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
