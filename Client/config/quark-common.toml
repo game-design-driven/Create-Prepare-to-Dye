@@ -386,7 +386,7 @@
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
-		"Disable Recipe Book" = false
+		"Disable Recipe Book" = true
 		"Force Limited Crafting" = false
 
 	[tweaks.hoe_harvesting]
@@ -476,7 +476,7 @@
 		"Enable Clock Nerf" = true
 
 	[tweaks.campfires_boost_elytra]
-		"Boost Strength" = 0.5
+		"Boost Strength" = 0.8
 		"Max Speed" = 1.0
 
 	[tweaks.replace_scaffolding]
@@ -1871,7 +1871,7 @@
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Chest Searching" = true
 
 	[client.usage_ticker]
@@ -1926,12 +1926,12 @@
 			G = [0.0, 1.11, 0.0]
 
 [oddities]
-	"Totem Of Holding" = false
-	Backpack = false
-	Crate = false
-	"Matrix Enchanting" = false
-	Magnets = false
-	Pipes = false
+	"Totem Of Holding" = true
+	Backpack = true
+	Crate = true
+	"Matrix Enchanting" = true
+	Magnets = true
+	Pipes = true
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -2011,7 +2011,7 @@
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
 		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 5
+		"Pipe Speed" = 1
 
 [experimental]
 	Shiba = false
@@ -2075,4 +2075,3 @@
 		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
 		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
 		Shader = "none"
-
