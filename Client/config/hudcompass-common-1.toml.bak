@@ -1,0 +1,9 @@
+
+[general]
+	#If set to FALSE, vanilla map waypoints won't be displayed in the compass.
+	enableVanillaMapIntegration = true
+	#If set to FALSE, the spawn point location will not be shown.
+	enableXaeroMinimapIntegration = true
+	#If set to TRUE, the server will not advertise itself to the clients, making them work in client-only mode.
+	disableServerHello = false
+
