@@ -1,7 +1,7 @@
 #Used for debugging
 compatibility_render_mode = false
 #Reduced Portal Rendering
-reduced_portal_rendering = false
+reduced_portal_rendering = true
 #Used for debugging
 check_gl_error = false
 #Max Portal-in-portal Render Layer
@@ -19,4 +19,3 @@ lag_attack_proof = true
 model_data_fix_new = true
 #...
 dimension_render_redirect = "immersive_portals:alternate1->minecraft:overworld\nimmersive_portals:alternate2->minecraft:overworld\nimmersive_portals:alternate3->minecraft:overworld\nimmersive_portals:alternate4->minecraft:overworld\nimmersive_portals:alternate5->minecraft:overworld\n"
-
