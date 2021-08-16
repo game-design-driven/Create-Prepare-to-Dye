@@ -21,20 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+Client/natives
 
-Custom stuffs/natives
-
-Custom stuffs/usercache.json
-Custom stuffs/usernamecache.json
-Custom stuffs/minecraftinstance.json
-Custom stuffs/journeymap
-Custom stuffs/local
-Custom stuffs/logs
-Custom stuffs/saves
-Custom stuffs/servers.dat
-Custom stuffs/servers.dat_old
-Custom stuffs/config/minecolonies-client.toml
-Custom stuffs/.mixin.out/audit/mixin_implementation_report.txt
-Custom stuffs/config.json
-Custom stuffs/crash-reports/crash-2021-08-15_20.33.41-fml.txt
-Custom stuffs/reauth.toml
+Client/usercache.json
+Client/usernamecache.json
+Client/minecraftinstance.json
+Client/journeymap
+Client/local
+Client/logs
+Client/saves
+Client/servers.dat
+Client/servers.dat_old
+Client/config/minecolonies-client.toml
+Client/config.json
+Client/crash-reports/crash-2021-08-15_20.33.41-fml.txt
+Client/reauth.toml
+Client/.mixin.out
+Server/.mixin.out
+Server/logs
