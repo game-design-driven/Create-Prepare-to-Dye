@@ -46,3 +46,4 @@ Server/usercache.json
 Client/config/jei/ingredient-list-mod-sort-order.ini
 Client/config/jei/ingredient-list-mod-sort-order.ini
 Client/config/oreexcavation/shapes.json
+*.bak

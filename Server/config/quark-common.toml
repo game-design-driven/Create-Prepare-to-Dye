@@ -1,4 +1,16 @@
 
+[categories]
+	Automation = true
+	Building = true
+	Management = true
+	Tools = true
+	Tweaks = true
+	World = true
+	Mobs = true
+	Client = true
+	Oddities = true
+	Experimental = true
+
 [general]
 	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
@@ -23,18 +35,6 @@
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
-
-[categories]
-	Automation = true
-	Building = true
-	Management = true
-	Tools = true
-	Tweaks = true
-	World = true
-	Mobs = true
-	Client = true
-	Oddities = true
-	Experimental = true
 
 [automation]
 	"Chain Linkage" = true

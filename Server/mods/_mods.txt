@@ -18,6 +18,7 @@ flywheel-1.16-0.2.3.jar
 ftb-chunks-forge-1605.3.1-build.41.jar
 ftb-library-forge-1605.3.1-build.58.jar
 ftb-teams-forge-1605.2.1-build.20.jar
+HudCompass-1.16.5-0.1.5.jar
 immersive-portals-0.16-mc1.16.5-forge.jar
 Inspirations-1.16.5-1.2.3.38.jar
 jei-1.16.5-7.7.1.118.jar

@@ -12,7 +12,7 @@
 	#If disabled, reach is set to level 3 for survival players.
 	enableReachUpgrades = false
 	#Maximum reach in survival with three upgrades
-	maxReachLevel3 = 200
+	maxReachLevel3 = 100
 	#Maximum reach in survival without upgrades
 	#Reach upgrades are craftable consumables that permanently increase reach.
 	#Set to 0 to disable Effortless Building until the player has consumed a reach upgrade.
@@ -56,4 +56,3 @@
 	shaderTreshold = 1500
 	#Use fancy shaders while placing blocks
 	useShaders = true
-
