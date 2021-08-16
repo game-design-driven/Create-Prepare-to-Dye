@@ -42,3 +42,4 @@ Client/config.bak.json
 Server/logs
 Server/.mixin.out
 Server/world
+Server/usercache.json
