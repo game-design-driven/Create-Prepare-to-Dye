@@ -39,3 +39,4 @@ Client/reauth.toml
 Client/.mixin.out
 Server/.mixin.out
 Server/logs
+Client/BotaniaVars.dat
