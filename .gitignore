@@ -37,7 +37,8 @@ Client/config.json
 Client/crash-reports/crash-2021-08-15_20.33.41-fml.txt
 Client/reauth.toml
 Client/.mixin.out
-Server/.mixin.out
-Server/logs
 Client/BotaniaVars.dat
+Client/config.bak.json
+Server/logs
+Server/.mixin.out
 Server/world
