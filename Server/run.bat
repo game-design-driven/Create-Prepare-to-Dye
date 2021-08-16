@@ -1,2 +1,2 @@
-java -Xmx3524M -Xms3524M -jar minecraft_server.1.16.5.jar nogui
+java -Xmx3524M -Xms3524M -jar forge-1.16.5-36.2.2.jar nogui
 PAUSE
