@@ -3,15 +3,15 @@
 	#Debug mode enabled
 	DebugMode = false
 	#Display search bar in the center
-	CenterSearch = false
+	CenterSearch = true
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 18
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
