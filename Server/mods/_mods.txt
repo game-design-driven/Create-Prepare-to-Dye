@@ -1,7 +1,6 @@
 appleskin-forge-mc1.16.x-2.1.0.jar
 architectury-1.20.29-forge.jar
 AutoRegLib-1.6-49.jar
-BiomesOPlenty-1.16.5-13.1.0.482-universal.jar
 Botania-1.16.5-419.jar
 cloth-config-4.11.26-forge.jar
 Clumps-6.0.0.25.jar
@@ -29,7 +28,6 @@ modnametooltip_1.16.2-1.15.0.jar
 MouseTweaks-2.14-mc1.16.2.jar
 OreExcavation-1.8.157.jar
 Patchouli-1.16.4-53.1.jar
-performant-1.16.2-5-3.72m.jar
 Placebo-1.16.4-4.5.0.jar
 pneumaticcraft-repressurized-1.16.5-2.13.3-211.jar
 Quark-r2.4-316.jar

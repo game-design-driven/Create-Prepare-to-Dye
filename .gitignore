@@ -48,3 +48,5 @@ Client/config/jei/ingredient-list-mod-sort-order.ini
 Client/config/oreexcavation/shapes.json
 *.bak
 Client/config/jei/bookmarks.ini
+Client/crash-reports/crash-2021-08-17_17.38.23-fml.txt
+Client/config_new_temp.json

@@ -10,7 +10,6 @@ CraftTweaker-1.16.5-7.1.0.390.jar
 create-mc1.16.5_v0.3.2d.jar
 createchunkloading-0.2.0.jar
 createplus-1.16.4_v0.3.2.1.jar
-CTM-MC1.16.1-1.1.2.6.jar
 curios-forge-1.16.5-4.0.5.2.jar
 effortlessbuilding-1.16.3-2.23.jar
 FastSuite-1.16.4-1.1.1.jar
@@ -38,7 +37,6 @@ ReAuth-1.16-Forge-3.9.3.jar
 shutupexperimentalsettings-1.0.3.jar
 sounddeviceoptions-1.4.3.jar
 StorageDrawers-1.16.3-8.3.0.jar
-TConstruct-1.16.5-3.1.1.252.jar
 theoneprobe-1.16-3.1.4.jar
 _modLister.bat
 _mods.txt
