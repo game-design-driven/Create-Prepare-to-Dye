@@ -40,7 +40,7 @@ tankbarAlternateFilledColor = "ff000043"
 tankbarBorderColor = "ff555555"
 #If the number of items in an inventory is lower or equal then this number then more info is shown
 #Range: 0 ~ 20
-showItemDetailThresshold = 4
+showItemDetailThresshold = 9
 #The maximum amount of slots (empty or not) to show without sneaking
 #Range: 0 ~ 1000
 showSmallChestContentsWithoutSneaking = 0

@@ -134,21 +134,6 @@
         "OOXOO",
         "OOOOO"
       ]
-    },
-    {
-      "name": "Stairs Down",
-      "depth": -1,
-      "reverse": 0,
-      "reticle": 17,
-      "stride": 1,
-      "elevation": -1,
-      "mask": [
-        "OOOOO",
-        "OOXOO",
-        "OOXOO",
-        "OOXOO",
-        "OOOOO"
-      ]
     }
   ]
 }
