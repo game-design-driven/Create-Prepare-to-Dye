@@ -1161,12 +1161,12 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Marble" = true
-		"Enable Limestone" = true
-		"Enable Jasper" = true
+		"Enable Marble" = false
+		"Enable Limestone" = false
+		"Enable Jasper" = false
 		"Enable Slate" = true
-		"Enable Voidstone" = true
-		"Enable Myalite" = true
+		"Enable Voidstone" = false
+		"Enable Myalite" = false
 
 		[world.new_stone_types.marble]
 
