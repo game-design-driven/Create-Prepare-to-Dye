@@ -1,0 +1,18 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:infested_stone",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 8,
+      "spawnRate": 7.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+        "minecraft:mountains",
+        "minecraft:wooded_mountains",
+        "minecraft:gravelly_mountains"
+      ]
+    }
+  ]
+}
