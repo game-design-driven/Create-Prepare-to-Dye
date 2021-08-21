@@ -62,3 +62,5 @@ craftingTable.addShaped("redstone_copper", <item:create:copper_ore>, [
 <recipetype:create:mixing>.addRecipe("redstone_copper_mix", "heated",<item:create:copper_ore>*3, [<tag:items:forge:dusts/redstone>*16,<tag:items:forge:ores>,<tag:items:forge:stone>]);
 
 <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("redstone_copper_pressure", [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8],[<item:create:copper_ore>*5,<item:minecraft:stone> *3] , 2.5);
+
+//should remove inspirations pipe
