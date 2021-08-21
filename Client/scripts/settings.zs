@@ -10,6 +10,7 @@
 // static showRestricteddItemsForSurvivalPlayers as bool = false;
 // static showRestrictedItemsForCreateivePlayers as bool = true;
 
-public class settings{
-  public static val t = 1;
+public class settingss{
+  public static val t = "many potatoes";
 }
+print(settingss.t);
