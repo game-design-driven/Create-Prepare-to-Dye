@@ -1137,8 +1137,8 @@
 		"Chance Per Chunk" = 0.8
 		"Min Y" = 5
 		"Max Y" = 30
-		"Min Mob Count" = 4
-		"Max Mob Count" = 7
+		"Min Mob Count" = 5
+		"Max Mob Count" = 8
 		"Enable Extra Loot Table" = true
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
 		"Search Range" = 6
@@ -1161,12 +1161,12 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Marble" = false
-		"Enable Limestone" = false
-		"Enable Jasper" = false
+		"Enable Marble" = true
+		"Enable Limestone" = true
+		"Enable Jasper" = true
 		"Enable Slate" = true
-		"Enable Voidstone" = false
-		"Enable Myalite" = false
+		"Enable Voidstone" = true
+		"Enable Myalite" = true
 
 		[world.new_stone_types.marble]
 

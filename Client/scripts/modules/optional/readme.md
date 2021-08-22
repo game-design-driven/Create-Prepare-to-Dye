@@ -1,0 +1,1 @@
+optional modules can be removed without breaking the pack, the goal is to have as many modules optional as possible

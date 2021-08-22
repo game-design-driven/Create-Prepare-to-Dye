@@ -7,7 +7,7 @@
 	#Range: 0 ~ 100
 	surface_oil_generation_chance = 25
 	#Enable mod dungeon loot generation
-	enable_dungeon_loot = true
+	enable_dungeon_loot = false
 	#Enable Drone Suffocation Damage
 	enable_drone_suffocation = true
 	#Efficiency of fuel buckets as furnace fuel (default 0.05 means 1 bucket of LPG smelts 450 items in a vanilla furnace)

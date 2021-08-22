@@ -1,0 +1,18 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:emerald_ore",
+      "filler": "minecraft:stone",
+      "minY": 4,
+      "maxY": 32,
+      "maxVeinSize": 1,
+      "spawnRate": 5.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+        "minecraft:mountains",
+        "minecraft:wooded_mountains",
+        "minecraft:gravelly_mountains"
+      ]
+    }
+  ]
+}
