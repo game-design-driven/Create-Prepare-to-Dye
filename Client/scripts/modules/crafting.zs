@@ -1,4 +1,4 @@
-#priority 0
+#priority 5
 
 import crafttweaker.api.item.IIngredient;
 import mods.botania.RuneAltar;
@@ -19,25 +19,16 @@ val g = <tag:items:forge:gunpowder>;
 val r = <tag:items:forge:dyes/red>;
 <recipetype:botania:runic_altar>.addRecipe("bulk_tnt", <item:minecraft:tnt>*16, 1000, [s,s,s,s,g,g,g,g,r,r,r,r,r,r,r,r]as IIngredient[]);
 
-<tag:items:minecraft:sand>.add(<item:create:limesand>);
-<tag:items:pneumaticcraft:upgrade_components>.add(<item:inspirations:blue_dyed_bottle>);
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/manasteel>);
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/brass>);
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/compressed_iron>);
+
 
 craftingTable.addShapeless("paper_ineff",<item:minecraft:paper>*2,[<item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>]);
 craftingTable.addShapeless("glass_reset",<item:minecraft:glass>,[<tag:items:forge:stained_glass>]);
 craftingTable.addShaped("tnt_but_more",<item:minecraft:tnt> * 2, [[g, s , g], [s , g, s ], [g, s , g]]);
-craftingTable.addShaped("red_alloy_wire_copper",<item:morered:red_alloy_wire> * 8, [[<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper> , <tag:items:forge:ingots/copper>]]);
 val cobble = <tag:items:forge:cobblestone>;
 craftingTable.addShaped("dispenser",<item:minecraft:dispenser>,
     [[cobble, cobble, cobble],
     [cobble, <item:minecraft:piston>, cobble],
     [cobble, <tag:items:forge:dusts/redstone>, cobble]
-]);
-craftingTable.addShaped("minecart_eff",<item:minecraft:minecart>*2,[
-    [<tag:items:crafttweaker:strong_alloys>, <item:minecraft:air>, <tag:items:crafttweaker:strong_alloys>],
-    [<tag:items:crafttweaker:strong_alloys>, <tag:items:crafttweaker:strong_alloys>, <tag:items:crafttweaker:strong_alloys>]
 ]);
 craftingTable.addShaped("piston", <item:minecraft:piston>, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:forge:cobblestone>, <tag:items:forge:ingots/iron>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]]);
 craftingTable.addShaped("piston_eff", <item:minecraft:piston>*2, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:forge:cobblestone>, <tag:items:crafttweaker:strong_alloys>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]]);
@@ -66,7 +57,6 @@ craftingTable.addShaped("redstone_copper", <item:create:copper_ore>, [
 
 <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("redstone_copper_pressure", [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8],[<item:create:copper_ore>*5,<item:minecraft:stone> *3] , 2.5);
 
-<tag:items:crafttweaker:fertilizer>.add(<item:minecraft:bone_meal>);
 
 <recipetype:create:mixing>.addRecipe("redstone_copper_mix", "heated",<item:create:copper_ore>*3, [<tag:items:forge:dusts/redstone>*16,<tag:items:forge:ores>,<tag:items:forge:stone>]);
 <recipetype:create:mixing>.addRecipe("dirt_coursedirt", "none", <item:minecraft:dirt>, [<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
@@ -77,9 +67,6 @@ craftingTable.addShaped("redstone_copper", <item:create:copper_ore>, [
 // Turn sugarcane into kelp (stolen from gear)
 <recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
 
-craftingTable.addShaped("zinc_bucket", <item:minecraft:bucket>*2,
-	[[<tag:items:forge:ingots/zinc>, <item:minecraft:air>, <tag:items:forge:ingots/zinc>],
-	 [<tag:items:forge:ingots/zinc>, <tag:items:forge:ingots/zinc>, <tag:items:forge:ingots/zinc>]]);
 //TODO remove inspirations pipe
 //TODO add more recipes to belts ie leather, but not as good as kelp
 //TODO quark pipe from iron sheet instead of iron and make less

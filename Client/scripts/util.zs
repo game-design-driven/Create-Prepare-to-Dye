@@ -8,7 +8,6 @@ import crafttweaker.api.item.IIngredient;
 #priority 10
 public class core{
   public static hide(itemToHide as IItemStack) as void{
-      JEI.hideItem(itemToHide);
   }
   public static hideBulk(items as IItemStack[]) as void{
     for item in items {
@@ -26,14 +25,39 @@ public class core{
       }
   }
 
-  public static removeAndReplaceItem(itemToRemove as IIngredient, replacement as IIngredient) as void{
+  public static removeAndReplaceItem(itemToRemove as IItemStack, replacement as IIngredient) as void{
     replaceItem(itemToRemove, replacement);
     removeItem(itemToRemove);
   }
 
-  public static replaceItem(itemToReplace as IIngredient, replacement as IIngredient)as void{
-    Replacer.forAllTypes().replace(itemToReplace, replacement).execute();
+  public static replaceItem(itemToReplace as IItemStack, replacement as IIngredient)as void{
+    Replacer.forAllTypes().suppressWarnings().replace(itemToReplace, replacement).execute();
   }
+}
+
+public expand IItemStack {
+    public hide() as IItemStack {
+        JEI.hideItem(this);
+        return this;
+    }
+    public remove() as IItemStack{
+      recipes.removeRecipe(this);
+      hide();
+      return this;
+    } 
+    public replace(replacement as IIngredient) as IItemStack{
+      Replacer.forAllTypes().suppressWarnings().replace(this, replacement).execute();
+      return this;
+    }
+    public removeAndReplace(replacement as IIngredient) as IItemStack{
+      remove();
+      replace(replacement);
+      return this;
+    }
+}
+public expand IItemStack[] {
+  public hide() as IItemStack[] {for item in this{item.hide();}return this;}
+  public remove() as IItemStack[] {for item in this{item.remove();}return this;}
 }
 
 

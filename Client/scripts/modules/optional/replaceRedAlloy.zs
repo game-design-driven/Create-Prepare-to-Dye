@@ -1,2 +1,0 @@
-core.removeAndReplaceItem(<item:morered:red_alloy_ingot>,<tag:items:forge:ingots/copper>);
-// <recipetype:create:mechanical_crafting>.addRecipe("long_red_alloy", <item:morered:red_alloy_wire>*16, [[<tag:items:forge:dusts>,<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper> , <tag:items:forge:ingots/copper>,<tag:items:forge:dusts>]]);
