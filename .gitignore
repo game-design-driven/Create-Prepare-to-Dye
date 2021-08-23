@@ -45,6 +45,8 @@ Server/.mixin.out
 Server/world
 Server/mods
 Server/config
+Client/crash_reports
+Server/crash_reports
 Server/usercache.json
 Client/config/jei/ingredient-list-mod-sort-order.ini
 Client/config/jei/ingredient-list-mod-sort-order.ini
