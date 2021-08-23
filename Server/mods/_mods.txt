@@ -6,14 +6,16 @@ cloth-config-4.11.26-forge.jar
 Clumps-6.0.0.25.jar
 cofh_core-1.16.5-1.3.1.jar
 Controlling-7.0.0.23.jar
-CraftTweaker-1.16.5-7.1.0.390.jar
+CraftTweaker-1.16.5-7.1.1.400.jar
 create-mc1.16.5_v0.3.2d.jar
 createchunkloading-0.2.0.jar
 createplus-1.16.4_v0.3.2.1.jar
+CreateTweaker-1.0.0.18.jar
 curios-forge-1.16.5-4.0.5.2.jar
 effortlessbuilding-1.16.3-2.23.jar
 FastSuite-1.16.4-1.1.1.jar
 flywheel-1.16-0.2.3.jar
+ftb-backups-2.1.1.6.jar
 ftb-chunks-forge-1605.3.1-build.41.jar
 ftb-library-forge-1605.3.1-build.58.jar
 ftb-teams-forge-1605.2.1-build.20.jar
@@ -25,8 +27,10 @@ JEITweaker-1.16.5-1.0.1.34.jar
 light-overlay-5.8.1.jar
 Mantle-1.16.5-1.6.115.jar
 modnametooltip_1.16.2-1.15.0.jar
+morered-1.16.5-2.1.1.0.jar
 MouseTweaks-2.14-mc1.16.2.jar
 OreExcavation-1.8.157.jar
+OreTweaker-1.16.5-2.4.0.jar
 Patchouli-1.16.4-53.1.jar
 Placebo-1.16.4-4.5.0.jar
 pneumaticcraft-repressurized-1.16.5-2.13.3-211.jar
@@ -38,5 +42,6 @@ shutupexperimentalsettings-1.0.3.jar
 sounddeviceoptions-1.4.3.jar
 StorageDrawers-1.16.3-8.3.0.jar
 theoneprobe-1.16-3.1.4.jar
+toms_storage-1.2.16.jar
 _modLister.bat
 _mods.txt
