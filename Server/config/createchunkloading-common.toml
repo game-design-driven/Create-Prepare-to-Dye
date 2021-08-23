@@ -1,6 +1,0 @@
-
-#General settings
-[general]
-	#Do chat output of chunk loaders?
-	feedback = false
-
