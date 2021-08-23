@@ -27,11 +27,11 @@ public class core{
   }
 
   public static removeAndReplaceItem(itemToRemove as IIngredient, replacement as IIngredient) as void{
-    replace(itemToRemove, replacement);
+    replaceItem(itemToRemove, replacement);
     removeItem(itemToRemove);
   }
 
-  public static replace(itemToReplace as IItemStack, replacement as IItemStack)as void{
+  public static replaceItem(itemToReplace as IIngredient, replacement as IIngredient)as void{
     Replacer.forAllTypes().replace(itemToReplace, replacement).execute();
   }
 }
