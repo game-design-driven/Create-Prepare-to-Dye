@@ -1,1 +1,0 @@
-<item:create:zinc_ingot>.removeAndReplace(<item:minecraft:gold_ingot>);
