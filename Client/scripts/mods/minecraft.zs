@@ -42,7 +42,7 @@ RecipeGenerator.shapeless({
 });
 
 
-RecipeGenerator.mix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
+RecipeGenerator.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
 
 ///
 val s = <tag:items:minecraft:sand>;
