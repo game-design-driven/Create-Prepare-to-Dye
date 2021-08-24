@@ -1,4 +1,4 @@
-//TODO add more recipes for shulker shell (that require itself maybe)
+//TODO #5 add more recipes for shulker shell (that require itself maybe)
 //TODO remove inspirations pipe
 //TODO add more recipes to belts ie leather, but not as good as kelp
 //TODO quark pipe from iron sheet instead of iron and make less
