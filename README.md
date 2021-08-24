@@ -29,3 +29,10 @@ Create.run is an opinionated, minimalistic modpack centered around complex and i
 
 ## Lightweight
 * The pack has around 50 mods
+
+
+
+
+
+
+[Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
