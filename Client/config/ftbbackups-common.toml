@@ -37,3 +37,4 @@ force_on_shutdown = true
 	#Buffer size for writing files.
 	#Range: 256 ~ 65536
 	buffer_size = 4096
+

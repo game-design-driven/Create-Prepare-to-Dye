@@ -3,8 +3,6 @@
 import crafttweaker.api.item.IIngredient;
 import mods.botania.RuneAltar;
 
-<recipetype:morered:gatecrafting>.removeAll();
-
 craftingTable.addShapeless("fire_charge_with_redstone",<item:minecraft:fire_charge> * 1, [
   <tag:items:forge:dusts/redstone>.asIIngredient()  ,<tag:items:forge:dusts/redstone>.asIIngredient(),
   <tag:items:forge:gunpowder>.asIIngredient(),<tag:items:minecraft:coals>.asIIngredient()]
@@ -74,13 +72,14 @@ craftingTable.addShaped("redstone_copper", <item:create:copper_ore>, [
 <recipetype:create:mixing>.addRecipe("dirt_coursedirt", "none", <item:minecraft:dirt>, [<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
 
 
-<recipetype:create:mechanical_crafting>.addRecipe("long_red_alloy", <item:morered:red_alloy_wire>*16, [[<tag:items:forge:dusts>,<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper> , <tag:items:forge:ingots/copper>,<tag:items:forge:dusts>]]);
 
-///---
-craftingTable.addShaped("redwire_post", <item:morered:redwire_post>, [[<tag:items:forge:ingots/zinc>], [<tag:items:forge:ingots/copper>]]);
-craftingTable.addShaped("redwire_post_plate", <item:morered:redwire_post_plate>, [[<item:minecraft:air>, <tag:items:forge:ingots/zinc>, <item:minecraft:air>], [<item:minecraft:air>, <tag:items:forge:ingots/copper>, <item:minecraft:air>], [<tag:items:forge:quarter_slabs/smooth_stone>, <tag:items:forge:quarter_slabs/smooth_stone>, <tag:items:forge:quarter_slabs/smooth_stone>]]);
-craftingTable.addShaped("redwire_post_relay_plate", <item:morered:redwire_post_relay_plate>, [[<item:minecraft:air>, <tag:items:forge:ingots/zinc>, <item:minecraft:air>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/copper>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:quarter_slabs/smooth_stone>, <tag:items:forge:quarter_slabs/smooth_stone>, <tag:items:forge:quarter_slabs/smooth_stone>]]);
 
+// Turn sugarcane into kelp (stolen from gear)
+<recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
+
+craftingTable.addShaped("zinc_bucket", <item:minecraft:bucket>*2,
+	[[<tag:items:forge:ingots/zinc>, <item:minecraft:air>, <tag:items:forge:ingots/zinc>],
+	 [<tag:items:forge:ingots/zinc>, <tag:items:forge:ingots/zinc>, <tag:items:forge:ingots/zinc>]]);
 //TODO remove inspirations pipe
 //TODO add more recipes to belts ie leather, but not as good as kelp
 //TODO quark pipe from iron sheet instead of iron and make less
