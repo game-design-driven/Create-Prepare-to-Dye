@@ -1865,7 +1865,7 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Back Button Keybind" = true
 	"Chest Searching" = true
 	"Greener Grass" = true
@@ -1936,7 +1936,7 @@
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
 
@@ -1997,9 +1997,9 @@
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 5
+		"Pipe Speed" = 8
 		#Set to 0 if you don't want pipes to have a max amount of items
-		"Max Pipe Items" = 16
+		"Max Pipe Items" = 8
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
 
