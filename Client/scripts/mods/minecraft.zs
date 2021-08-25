@@ -73,6 +73,8 @@ RecipeGenerator.shapeless({
 
 RecipeGenerator.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
 
+RecipeGenerator.addCrushing([<item:minecraft:orange_dye> % 50],<tag:items:forge:crops/carrot>);
+RecipeGenerator.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
 ///
 val s = <tag:items:minecraft:sand>;
 val g = <tag:items:forge:gunpowder>;
