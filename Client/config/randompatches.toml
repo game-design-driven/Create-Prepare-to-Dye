@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Create.run on Minecraft ${mcversion} with ${modsloaded}"
+		title = "Create.run - mc ${mcversion} - ${modsloaded} mods"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Create.run on Minecraft ${mcversion} with ${modsloaded} - ${activity}"
+		title_with_activity = "Create.run - mc ${mcversion} - ${modsloaded} mods - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
