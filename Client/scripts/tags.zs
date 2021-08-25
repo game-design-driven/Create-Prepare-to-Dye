@@ -1,4 +1,4 @@
-#priority 10
+#priority 100
 <tag:items:minecraft:sand>.add(<item:create:limesand>); //TODO add a way to wash limesand into sand instead
 <tag:items:pneumaticcraft:upgrade_components>.add(<item:inspirations:blue_dyed_bottle>);
 <tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/manasteel>);

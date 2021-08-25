@@ -1,4 +1,3 @@
-#priority 0
 
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;

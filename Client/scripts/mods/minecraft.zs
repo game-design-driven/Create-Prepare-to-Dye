@@ -2,9 +2,12 @@
 //TODO find out why defult priority is not 0
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
-// mechanicalCrafting.addRecipe("red_alloy_wire", <item:morered:red_alloy_wire>*64, [[<tag:items:forge:dusts>,<item:morered:red_alloy_ingot>,<item:morered:red_alloy_ingot>,<item:morered:red_alloy_ingot>,<item:morered:red_alloy_ingot>,<item:morered:red_alloy_ingot>,<item:morered:red_alloy_ingot>, <item:morered:red_alloy_ingot> , <item:morered:red_alloy_ingot>,<tag:items:forge:dusts>]]);
-// craftingTable.addShaped("red_alloy_wire_copper",<item:morered:red_alloy_wire> * 8, [[<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper> , <tag:items:forge:ingots/copper>]]);
-// craftingTable.addShaped("piston_eff", <item:minecraft:piston>*2, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:forge:cobblestone>, <tag:items:crafttweaker:strong_alloys>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]]);
+
+mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
+mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
+mods.jei.JEI.addItem(<item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998));
+mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998));
+
 <item:minecraft:paper>.removeRecipe();
 RecipeGenerator.shaped({
     <item:minecraft:piston>*2 : [
@@ -30,6 +33,24 @@ RecipeGenerator.shaped({
         [<item:pneumaticcraft:plastic>],
         [<tag:items:forge:chests>],
         [<item:pneumaticcraft:plastic>]
+    ],
+    
+    <item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998) : [
+        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
+        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
+    ],
+    <item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998) : [
+        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>],
+        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
+        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>]
+    ],
+    <item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998) : [
+        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
+        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>],
+        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
+    ],
+    <item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998) : [
+        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
     ]
 });
 
