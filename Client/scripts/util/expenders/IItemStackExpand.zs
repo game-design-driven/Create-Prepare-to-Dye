@@ -42,6 +42,7 @@ public expand IItemStack {
     return this;
   }
   public remove() as IItemStack{
+    this.addTooltip("removed!");
     removeRecipe();
     hide();
     return this;
