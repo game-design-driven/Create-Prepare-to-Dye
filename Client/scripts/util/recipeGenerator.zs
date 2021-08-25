@@ -6,6 +6,7 @@ import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.util.NameUtils;
+import mods.botania.StateIngredient;
 import stdlib.List;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
@@ -68,6 +69,15 @@ public class RecipeGenerator{
         val recipeType = "crushing";
         <recipetype:create:crushing>.addRecipe(recipeType+"_"+output[0].stack.getNiceName()+"_"+getNewId(), output, input);
     }
+
+    public static addInfusion(output as IItemStack, input as IIngredient, mana as int = 1000, catalyst as StateIngredient) as void{
+        val recipeType = "infusion";
+        <recipetype:botania:mana_infusion>.addRecipe(recipeType+"_"+output.getNiceName()+"_"+getNewId(),
+            output, input, mana, catalyst
+        );
+    // ManaInfusion.addRecipe(name as string, output as IItemStack, input as IIngredient, mana as int, catalyst as StateIngredient, group as string, function as RecipeFunctionSingle) as void
+    }
+
 
 }
 
