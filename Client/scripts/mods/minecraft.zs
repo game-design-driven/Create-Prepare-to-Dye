@@ -66,8 +66,8 @@ RecipeGenerator.shapeless({
     <item:minecraft:shulker_box> : [
         <item:minecraft:white_shulker_box>,<tag:items:forge:dyes/purple>
     ],
-    <item:minecraft:paper> : [<item:pneumaticcraft:tag_filter>]
-    //TODO recipe for TNT that makes more of it
+    <item:minecraft:paper> : [<item:pneumaticcraft:tag_filter>],
+    <item:minecraft:name_tag> * 4:[<item:pneumaticcraft:plastic>,<tag:items:forge:string>]
 });
 
 
