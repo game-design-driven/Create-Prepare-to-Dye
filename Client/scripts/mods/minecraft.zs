@@ -25,6 +25,11 @@ RecipeGenerator.shaped({
     <item:minecraft:torch> * 8: [
         [<item:quark:tallow>],
 	    [<tag:items:forge:rods/wooden>]
+    ],
+    <item:minecraft:white_shulker_box> : [
+        [<item:pneumaticcraft:plastic>],
+        [<tag:items:forge:chests>],
+        [<item:pneumaticcraft:plastic>]
     ]
 });
 
@@ -36,6 +41,9 @@ RecipeGenerator.shapeless({
     <item:minecraft:glass> : [<tag:items:forge:stained_glass>],
     <item:minecraft:paper>*2 : [
         <item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>
+    ],
+    <item:minecraft:shulker_box> : [
+        <item:minecraft:white_shulker_box>,<tag:items:forge:dyes/purple>
     ],
     <item:minecraft:paper> : [<item:pneumaticcraft:tag_filter>]
     //TODO recipe for TNT that makes more of it
