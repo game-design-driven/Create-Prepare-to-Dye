@@ -12,5 +12,6 @@
 
 public class settings{
   public static val t = "many potatoes";
+  public static val infusionSimpleRecipeManaCost = 500;
 }
 
