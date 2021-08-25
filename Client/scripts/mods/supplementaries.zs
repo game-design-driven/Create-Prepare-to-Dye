@@ -1,0 +1,1 @@
+<item:supplementaries:cog_block>.remove();
