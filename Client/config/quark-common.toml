@@ -138,7 +138,7 @@
 	[building.cobblestone_bricks]
 		"Enable Blackstone Bricks" = false
 		"Enable Dirt Bricks" = false
-		"Enable Netherrack Bricks" = true
+		"Enable Netherrack Bricks" = false
 		"Enable Basalt Bricks" = false
 
 	[building.compressed_blocks]
@@ -1161,12 +1161,12 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Marble" = true
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Slate" = true
-		"Enable Voidstone" = true
-		"Enable Myalite" = true
+		"Enable Marble" = false
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Slate" = false
+		"Enable Voidstone" = false
+		"Enable Myalite" = false
 
 		[world.new_stone_types.marble]
 
