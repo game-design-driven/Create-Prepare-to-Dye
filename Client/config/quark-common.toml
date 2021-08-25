@@ -96,7 +96,7 @@
 	"Bamboo Mat" = true
 	"Burn Vines" = true
 	"Celebratory Lamps" = true
-	"Cobblestone Bricks" = true
+	"Cobblestone Bricks" = false
 	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
@@ -107,27 +107,27 @@
 	"Item Frames" = true
 	"Leaf Carpet" = true
 	"Lit Lamp" = true
-	Midori = true
-	"More Brick Types" = true
+	Midori = false
+	"More Brick Types" = false
 	"More Potted Plants" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 	"Nether Brick Fence Gate" = true
 	"Paper Decor" = true
 	"Quilted Wool" = true
 	Rope = true
 	"Shallow Dirt" = true
 	Shingles = true
-	"Soul Sandstone" = true
+	"Soul Sandstone" = false
 	"Stained Planks" = true
 	Stools = true
-	"Sturdy Stone" = true
+	"Sturdy Stone" = false
 	"Tallow And Candles" = true
 	Thatch = true
 	"Tie Leads To Fences" = true
 	Turf = true
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
-	"Variant Ladders" = true
+	"Variant Ladders" = false
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
@@ -136,10 +136,10 @@
 		"Light Level" = 15
 
 	[building.cobblestone_bricks]
-		"Enable Blackstone Bricks" = true
-		"Enable Dirt Bricks" = true
+		"Enable Blackstone Bricks" = false
+		"Enable Dirt Bricks" = false
 		"Enable Netherrack Bricks" = true
-		"Enable Basalt Bricks" = true
+		"Enable Basalt Bricks" = false
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -152,43 +152,43 @@
 		#Allowed values: [0,)
 		"Bamboo Bundle Fuel Time" = 500
 		"Enable Charcoal Block" = true
-		"Enable Sugar Cane Block" = true
-		"Enable Bamboo Block" = true
-		"Enable Cactus Block" = true
-		"Enable Chorus Fruit Block" = true
-		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
-		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Beetroot Crate" = true
-		"Enable Cocoa Bean Sack" = true
-		"Enable Nether Wart Sack" = true
-		"Enable Gunpowder Sack" = true
-		"Enable Berry Sack" = true
-		"Enable Blaze Lantern" = true
-		"Enable Bonded Leather" = true
-		"Enable Bonded Rabbit Hide" = true
+		"Enable Sugar Cane Block" = false
+		"Enable Bamboo Block" = false
+		"Enable Cactus Block" = false
+		"Enable Chorus Fruit Block" = false
+		"Enable Stick Block" = false
+		"Enable Apple Crate" = false
+		"Enable Golden Apple Crate" = false
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Beetroot Crate" = false
+		"Enable Cocoa Bean Sack" = false
+		"Enable Nether Wart Sack" = false
+		"Enable Gunpowder Sack" = false
+		"Enable Berry Sack" = false
+		"Enable Blaze Lantern" = false
+		"Enable Bonded Leather" = false
+		"Enable Bonded Rabbit Hide" = false
 
 	[building.item_frames]
 		"Glass Item Frames Update Maps" = true
 
 	[building.more_brick_types]
-		"Enable Sandy Bricks" = true
-		"Enable Snow Bricks" = true
-		"Enable Magma Bricks" = true
-		"Enable Charred Nether Bricks" = true
-		"Enable Blackstone Variant Bricks" = true
+		"Enable Sandy Bricks" = false
+		"Enable Snow Bricks" = false
+		"Enable Magma Bricks" = false
+		"Enable Charred Nether Bricks" = false
+		"Enable Blackstone Variant Bricks" = false
 		#This also comes with a utility recipe for Red Nether Bricks
-		"Enable Blue Nether Bricks" = true
+		"Enable Blue Nether Bricks" = false
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
-		"Enable Sandstone Bricks" = true
+		"Enable Sandstone Bricks" = false
 
 	[building.more_stone_variants]
-		"Enable Bricks" = true
-		"Enable Chiseled Bricks" = true
-		"Enable Pavement" = true
-		"Enable Pillar" = true
+		"Enable Bricks" = false
+		"Enable Chiseled Bricks" = false
+		"Enable Pavement" = false
+		"Enable Pillar" = false
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -215,7 +215,7 @@
 		"Change Names" = true
 
 	[building.variant_chests]
-		"Replace Worldgen Chests" = true
+		"Replace Worldgen Chests" = false
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
@@ -357,10 +357,10 @@
 	"Dragon Scales" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Hoe Harvesting" = true
-	"Improved Sleeping" = true
-	"Infinity Bucket" = true
+	"Improved Sleeping" = false
+	"Infinity Bucket" = false
 	"Lava Bucket As Trash" = true
 	"Lock Rotation" = true
 	"More Banner Layers" = true
