@@ -4,6 +4,7 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.Ingredient;
 import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.fluid.IFluidStack;
+import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.util.NameUtils;
 import stdlib.List;
 import mods.jei.JEI;
@@ -61,6 +62,12 @@ public class RecipeGenerator{
     public static removePressureChamber(output as IItemStack) as void{
         <recipeType:pneumaticcraft:pressure_chamber>.removeRecipe(output);
     }
+
+    public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
+        val recipeType = "crushing";
+        <recipetype:create:crushing>.addRecipe(recipeType+"_"+output[0].stack.getNiceName()+"_"+getNewId(), output, input);
+    }
+
 }
 
 
