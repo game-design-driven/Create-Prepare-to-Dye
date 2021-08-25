@@ -9,6 +9,10 @@ import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 
 public expand IItemStack {
+    public shaped(input as IIngredient[][]) as IItemStack{
+      RecipeGenerator.shaped(this, input);
+      return this;
+    } 
     public hide() as IItemStack {
         JEI.hideItem(this);
         return this;
