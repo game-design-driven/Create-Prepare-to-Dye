@@ -58,9 +58,10 @@ public class RecipeGenerator{
         <recipetype:pneumaticcraft:pressure_chamber>.addRecipe(recipeType+"_"+output[0].getNiceName()+"_"+getNewId(), input, output, pressure);
         //todo post an issiue about the pneumaticraft 
     }
-
-    public static removePressureChamber(output as IItemStack) as void{
-        <recipeType:pneumaticcraft:pressure_chamber>.removeRecipe(output);
+    
+    public static addExplosion(output as IItemStack[],input as IIngredientWithAmount, lossRate as int = 0) as void{
+        val recipeType = "explosion";
+        <recipetype:pneumaticcraft:explosion_crafting>.addRecipe(recipeType+"_"+output[0].getNiceName()+"_"+getNewId(), input, output, lossRate);
     }
 
     public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
