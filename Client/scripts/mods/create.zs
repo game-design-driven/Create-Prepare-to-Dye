@@ -17,7 +17,7 @@ RecipeGenerator.shaped({
     ]
 });
 
-RecipeGenerator.addMix(<item:create:copper_ore>*3,"heated",[<tag:items:forge:dusts/redstone>*16,<tag:items:forge:ores>,<tag:items:forge:stone>]);
+RecipeGenerator.addMix(<item:create:copper_ore>*3,"heated",[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ores>,<tag:items:forge:stone>]);
 // <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("redstone_copper_pressure", [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8],[<item:create:copper_ore>*5,<item:minecraft:stone> *3] , 2.5);
 RecipeGenerator.addPressureChamber(
     [<item:create:copper_ore>*5,<item:minecraft:stone> *3],

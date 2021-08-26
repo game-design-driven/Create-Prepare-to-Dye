@@ -32,6 +32,10 @@ public expand IItemStack {
     RecipeGenerator.shaped(this, input);
     return this;
   } 
+  public shapeless(input as IIngredient[]) as IItemStack{
+    RecipeGenerator.shapeless(this,input);
+    return this;
+  }
   public hide() as IItemStack {
       JEI.hideItem(this);
       return this;
