@@ -128,10 +128,13 @@ mods.jei.JEI.addInfo(<item:pneumaticcraft:unassembled_pcb>, ["Made by etching an
     <fluid:pneumaticcraft:lubricant>
 ].remove();
 
-//replace refinery
+//replace refinery and fluid_mixer
 <recipetype:pneumaticcraft:refinery>.removeAll();
 <item:pneumaticcraft:refinery>.remove();
+<recipetype:pneumaticcraft:fluid_mixer>.removeall();
 <item:pneumaticcraft:refinery_output>.remove();
+<item:pneumaticcraft:glycerol>.remove();
+<item:pneumaticcraft:fluid_mixer>.remove();
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 10,"superheated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 5,"heated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 1,"none" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
@@ -140,11 +143,6 @@ RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 50,"heated" ,[],[<fluid:p
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
 
 <recipetype:pneumaticcraft:refinery>.addRecipe("smallref", <fluid:pneumaticcraft:diesel> * 50, [<fluid:pneumaticcraft:lpg> * 25, <fluid:pneumaticcraft:lubricant> * 25], 473);
-
-
-//remove glycerol
-<item:pneumaticcraft:glycerol>.remove();
-<recipetype:pneumaticcraft:fluid_mixer>.removeByName("pneumaticcraft:fluid_mixer/biodiesel");
 
 //replace pneumatic cylinder
 <item:pneumaticcraft:pneumatic_cylinder>.removeAndReplace(<item:pneumaticcraft:plastic>);
@@ -255,6 +253,7 @@ RecipeGenerator.addMix(<fluid:pneumaticcraft:vegetable_oil>*150,"none", [<tag:it
 <item:pneumaticcraft:flux_compressor>.remove();
 <item:pneumaticcraft:pneumatic_dynamo>.remove();
 <item:pneumaticcraft:compressed_iron_gear>.remove();
+<item:pneumaticcraft:electrostatic_compressor>.remove();
 
 //remove elevator
 <item:pneumaticcraft:elevator_base>.remove();
