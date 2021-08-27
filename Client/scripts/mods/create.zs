@@ -1,9 +1,15 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.fluid.IFluidStack;
+import crafttweaker.api.item.IIngredientWithAmount;
 
+//flour stuffs
 craftingTable.removeByName("create:crafting/appliances/dough");
 RecipeGenerator.addInfusion(<item:create:dough>*2,<item:create:wheat_flour>,1000,<block:minecraft:nether_gold_ore>);
+RecipeGenerator.addExplosion([<item:create:wheat_flour>*8],<item:minecraft:wheat>,50);
+
+
+
 //removing zinc
 <item:create:zinc_ingot>.removeAndReplace(<item:minecraft:gold_ingot>);
 RecipeGenerator.removeMix(<item:create:brass_ingot>);
