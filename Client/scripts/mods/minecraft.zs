@@ -1,6 +1,7 @@
 #priority 0
 //TODO find out why defult priority is not 0
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IIngredient;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
@@ -8,7 +9,7 @@ mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synth
 mods.jei.JEI.addItem(<item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998));
 mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998));
 
-<item:minecraft:paper>.removeRecipe();
+<item:minecraft:paper>.removeCraftingRecipe();
 RecipeGenerator.shaped({
     <item:minecraft:piston>*2 : [
         [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
@@ -82,3 +83,14 @@ val r = <tag:items:forge:dyes/red>;
 <recipetype:botania:runic_altar>.addRecipe("bulk_tnt", <item:minecraft:tnt>*16, 1000, [s,s,s,s,g,g,g,g,r,r,r,r,r,r,r,r]as IIngredient[]);
 //stolen from prject gear coz it looks cool
 <recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
+
+
+//remove assembly from pnc
+<recipetype:pneumaticcraft:heat_frame_cooling>.addRecipe("temphearredstone", <tag:items:forge:dusts/redstone>, <item:minecraft:red_dye>*4, 233);
+///alter pressure valve stuff
+<item:pneumaticcraft:pressure_chamber_valve>.removeRecipe();
+<item:pneumaticcraft:pressure_chamber_valve>.shaped([
+    [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>],
+    [<tag:items:forge:ingots/compressed_iron>,<item:pneumaticcraft:pressure_tube>,<tag:items:forge:ingots/compressed_iron>],
+    [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>]
+]);

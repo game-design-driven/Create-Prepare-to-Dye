@@ -45,8 +45,16 @@ public expand IItemStack {
     recipes.removeRecipe(this);
     return this;
   }
+  public removeCraftingRecipe() as IItemStack{
+    print("removing recipe for --- "+this as string);
+    craftingTable.removeRecipe(this);
+    return this;
+  }
   public remove() as IItemStack{
-    this.addTooltip("removed!");
+    this.addTooltip("removed!");//TODO #60 change to red
+    for tag in <tagManager:items>.getAllTagsFor(this){
+      tag.remove(this);
+    }
     removeRecipe();
     hide();
     return this;
@@ -56,9 +64,9 @@ public expand IItemStack {
     return this;
   }
   public removeAndReplace(replacement as IIngredient) as IItemStack{
-    // remove();
+    remove();
     replace(replacement);
-    hide();
+    // hide();
     return this;
   }
   public getNiceName() as string{

@@ -7,7 +7,9 @@ import crafttweaker.api.fluid.IFluidStack;
 <recipetype:morered:gatecrafting>.removeAll();
 <item:morered:gatecrafting_plinth>.remove();
 
-//remove red alloy ingot
+//remove red alloy ingot 
+
+<item:morered:red_alloy_wire>.removeRecipe();
 <item:morered:red_alloy_ingot>.removeAndReplace(<tag:items:forge:ingots/copper>);
 
 RecipeGenerator.shapeless({
