@@ -122,7 +122,7 @@
 	#Range: 1 ~ 100
 	pressurizable_sync_precision = 10
 	#When set to true, Drones will not execute any program. This is useful to set to true when due to a bug Drones are lagging your server or crashing it. Please report any such bugs as a PneumaticCraft: Repressurized issue so it can be investigated.
-	stop_drone_ai = false
+	stop_drone_ai = true
 	#Don't remove a water source block when picking up (drones, liquid hoppers, gas lift) if it has at least two water source neighbours. This can reduce lag due to frequent block updates, and can also potentially make water import much faster. Set this to false if you want no-infinite-water rules in a world, or want to limit the speed of water importing to vanilla block update rates.
 	dont_update_infinite_water_sources = true
 	#How far will a drone go to find a Charging Station when it's low on air? Note: drones will teleport, possibly across the world to someone else's base, if this range is very large.
