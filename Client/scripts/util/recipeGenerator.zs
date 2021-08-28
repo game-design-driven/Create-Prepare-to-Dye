@@ -119,5 +119,3 @@ public class RecipeGenerator{
 //     val fluidMixer = <recipetype:pneumaticcraft:fluid_mixer>;
 //     val fuelQuality = <recipetype:pneumaticcraft:fuel_quality>;
 //     val heatProperties = <recipetype:pneumaticcraft:heat_properties>;
-//     val cauldron = <recipetype:inspirations:cauldron>;
-//     val cauldronTransform = <recipetype:inspirations:cauldron_transform>;

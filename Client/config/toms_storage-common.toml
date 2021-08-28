@@ -1,6 +1,6 @@
 #Inventory Connector Range
 #Range: 4 ~ 256
-inventoryConnectorRange = 16
+inventoryConnectorRange = 4
 #Only Allow Trims to Connect Inventories
 onlyTrimsConnect = false
 #Inventory Cable Connector Maximum number of cables

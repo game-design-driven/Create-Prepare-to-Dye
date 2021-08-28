@@ -1,1 +1,0 @@
-<item:inspirations:pipe>.remove();

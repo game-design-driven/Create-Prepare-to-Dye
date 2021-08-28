@@ -10,6 +10,15 @@ import stdlib.List;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 public expand IItemStack {
+  public addTip(t as string) as IItemStack{
+    // <item:minecraft:dirt>.modifyShiftTooltip((stack, tooltip, advanced) => {
+    //   tooltip.add("message: I am shifted");
+    // }, (stack, tooltip, advanced)  => {
+    //   tooltip.add("Press shift to see message");
+    // });
+    this.addShiftTooltip(t,"sneak for info...");
+      return this;
+  }
   public withNameAndColor(name as string, color as int)as IItemStack{ //yes I wrote a function for just a few uses, kill me
     return this.withTag({
       display: {

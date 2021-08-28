@@ -48,7 +48,7 @@ displayTooLargePackets = true
 	adaptiveSpeed = true
 	#Entity spawn interval setting, determines how frequently entities are spawned overall. 1 = Vanilla default, default = 10
 	#Range: 1 ~ 1000
-	spawnInterval = 10
+	spawnInterval = 25
 	#Fix leash lag from entities on a leash, default = true
 	fixLeash = true
 	#Enables improved entity collision and movement calculations for any non item entity, default = true
@@ -80,7 +80,7 @@ displayTooLargePackets = true
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in vanilla 1.12)
 	#Range: 1 ~ 500
-	goalselectorrate = 4
+	goalselectorrate = 10
 	#Enables a slower updated AI tempt goal, tempt is used e.g. for luring sheep with wheat. default = true
 	optimizeTempt = true
 	#Enables a slower updated AI avoid entity goal, avoid is used e.g. for villagers avoiding zombies so it constantly searches for mobs in the area. default = true
