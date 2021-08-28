@@ -131,7 +131,7 @@ mods.jei.JEI.addInfo(<item:pneumaticcraft:unassembled_pcb>, ["Made by etching an
 //replace refinery and fluid_mixer
 <recipetype:pneumaticcraft:refinery>.removeAll();
 <item:pneumaticcraft:refinery>.remove();
-<recipetype:pneumaticcraft:fluid_mixer>.removeall();
+<recipetype:pneumaticcraft:fluid_mixer>.removeAll();
 <item:pneumaticcraft:refinery_output>.remove();
 <item:pneumaticcraft:glycerol>.remove();
 <item:pneumaticcraft:fluid_mixer>.remove();
@@ -178,12 +178,6 @@ var builderrr = <recipetype:create:sequenced_assembly>.builder("seq_test3")
 RecipeGenerator.addInfusion(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),<item:pneumaticcraft:empty_pcb>,250,<block:minecraft:purple_wool>);
 RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),"none",[<item:pneumaticcraft:empty_pcb>,<tag:items:forge:dusts/redstone>*4,<tag:items:forge:dusts/glowstone>*8]);
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_test_catalyst", <item:pneumaticcraft:empty_pcb>, <item:pneumaticcraft:empty_pcb>, 200, <block:botania:alchemy_catalyst>, "uv", (usualOut as IItemStack, input as IItemStack) => {print("POTATO: "+input.tag.asMap()["pneumaticcraft:uv_exposure"].getString()); return usualOut.withTag(input.tag); });
-
-
-//make veg oil from bad seeds
-RecipeGenerator.addMix(<fluid:pneumaticcraft:vegetable_oil>*150,"none", [<tag:items:crafttweaker:anoyying_seeds>]);
-
-
 
 //remove pneumaticraft stone stuff
 <item:pneumaticcraft:reinforced_bricks>.removeAndReplace(<tag:items:forge:ingots/compressed_iron>);
