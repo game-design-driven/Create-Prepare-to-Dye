@@ -58,3 +58,4 @@ Client/config_new_temp.json
 Client/config/jei/ingredient-list-type-sort-order.ini
 Client/config/sounddeviceoptions-client.toml
 *.bat
+Client/config/jei/recipe-category-sort-order.ini
