@@ -3,13 +3,15 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.recipe.Replacer;
 
+
+
 //remove stone base
 <item:pneumaticcraft:stone_base>.removeAndReplace(<tag:items:forge:stone>);
 
 //remove advanced pcb
 <item:pneumaticcraft:advanced_pcb>.remove();
-
 //remove assembly
+<item:pneumaticcraft:printed_circuit_board>.removeCraftingRecipe();
 [
     <item:pneumaticcraft:assembly_laser>,
     <item:pneumaticcraft:assembly_drill>,
@@ -142,7 +144,15 @@ RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25,"superheated" ,[],[<fl
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 50,"heated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
 RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
 
-<recipetype:pneumaticcraft:refinery>.addRecipe("smallref", <fluid:pneumaticcraft:diesel> * 50, [<fluid:pneumaticcraft:lpg> * 25, <fluid:pneumaticcraft:lubricant> * 25], 473);
+//replace plaastic recipe
+<recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/plastic_from_biodiesel"); 
+<recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/plastic_from_lpg"); 
+<recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/lpg"); 
+<recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/gasoline"); 
+<recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/kerosene"); 
+RecipeGenerator.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:charcoal>],[<fluid:pneumaticcraft:diesel> * 250]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:coal>],[<fluid:pneumaticcraft:diesel> * 200]);
+RecipeGenerator.addPurify(<blockstate:pneumaticcraft:plastic:level=0>,<blockstate:pneumaticcraft:diesel:level=0>);
 
 //replace pneumatic cylinder
 <item:pneumaticcraft:pneumatic_cylinder>.removeAndReplace(<item:pneumaticcraft:plastic>);
@@ -232,6 +242,7 @@ RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:
     <item:pneumaticcraft:display_table>,
     <item:pneumaticcraft:standby_upgrade>,
     <item:pneumaticcraft:reinforced_chest_kit>,
+    <item:pneumaticcraft:reinforced_chest>,
     <item:pneumaticcraft:security_station>,
     <item:pneumaticcraft:logistics_configurator>,
     <item:pneumaticcraft:camo_applicator>,
@@ -272,7 +283,11 @@ RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:
 <item:pneumaticcraft:minigun_upgrade>.remove();
 <item:pneumaticcraft:sentry_turret>.remove();
 
+//remove agitator
+<item:pneumaticcraft:spawner_agitator>.remove();
+
 //remove pnc lego
+<item:pneumaticcraft:plastic>.removeRecipe();//made with leggo
 [
     <item:pneumaticcraft:plastic_brick_lime>,
     <item:pneumaticcraft:plastic_brick_blue>,
@@ -289,7 +304,7 @@ RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:
     <item:pneumaticcraft:plastic_brick_cyan>,
     <item:pneumaticcraft:plastic_brick_black>,
     <item:pneumaticcraft:plastic_brick_yellow>,
-    <item:pneumaticcraft:plastic_brick_purple>,
+    <item:pneumaticcraft:plastic_brick_purple>
 ].remove();
 //remve lamps
 [
@@ -342,4 +357,6 @@ RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:
 <item:pneumaticcraft:compressed_iron_chestplate>.removeAndReplace(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
 <item:pneumaticcraft:compressed_iron_leggings>.removeAndReplace(<item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998));
 <item:pneumaticcraft:compressed_iron_boots>.removeAndReplace(<item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998));
+
+//
 

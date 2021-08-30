@@ -96,7 +96,7 @@
 	"Bamboo Mat" = true
 	"Burn Vines" = true
 	"Celebratory Lamps" = true
-	"Cobblestone Bricks" = false
+	"Cobblestone Bricks" = true
 	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
@@ -107,27 +107,27 @@
 	"Item Frames" = true
 	"Leaf Carpet" = true
 	"Lit Lamp" = true
-	Midori = false
-	"More Brick Types" = false
+	Midori = true
+	"More Brick Types" = true
 	"More Potted Plants" = true
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 	"Nether Brick Fence Gate" = true
 	"Paper Decor" = true
 	"Quilted Wool" = true
 	Rope = true
 	"Shallow Dirt" = true
 	Shingles = true
-	"Soul Sandstone" = false
+	"Soul Sandstone" = true
 	"Stained Planks" = true
 	Stools = true
-	"Sturdy Stone" = false
+	"Sturdy Stone" = true
 	"Tallow And Candles" = true
 	Thatch = true
 	"Tie Leads To Fences" = true
 	Turf = true
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
-	"Variant Ladders" = false
+	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
@@ -136,10 +136,10 @@
 		"Light Level" = 15
 
 	[building.cobblestone_bricks]
-		"Enable Blackstone Bricks" = false
-		"Enable Dirt Bricks" = false
-		"Enable Netherrack Bricks" = false
-		"Enable Basalt Bricks" = false
+		"Enable Blackstone Bricks" = true
+		"Enable Dirt Bricks" = true
+		"Enable Netherrack Bricks" = true
+		"Enable Basalt Bricks" = true
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -152,43 +152,43 @@
 		#Allowed values: [0,)
 		"Bamboo Bundle Fuel Time" = 500
 		"Enable Charcoal Block" = true
-		"Enable Sugar Cane Block" = false
-		"Enable Bamboo Block" = false
-		"Enable Cactus Block" = false
-		"Enable Chorus Fruit Block" = false
-		"Enable Stick Block" = false
-		"Enable Apple Crate" = false
-		"Enable Golden Apple Crate" = false
-		"Enable Potato Crate" = false
-		"Enable Carrot Crate" = false
-		"Enable Beetroot Crate" = false
-		"Enable Cocoa Bean Sack" = false
-		"Enable Nether Wart Sack" = false
-		"Enable Gunpowder Sack" = false
-		"Enable Berry Sack" = false
-		"Enable Blaze Lantern" = false
-		"Enable Bonded Leather" = false
-		"Enable Bonded Rabbit Hide" = false
+		"Enable Sugar Cane Block" = true
+		"Enable Bamboo Block" = true
+		"Enable Cactus Block" = true
+		"Enable Chorus Fruit Block" = true
+		"Enable Stick Block" = true
+		"Enable Apple Crate" = true
+		"Enable Golden Apple Crate" = true
+		"Enable Potato Crate" = true
+		"Enable Carrot Crate" = true
+		"Enable Beetroot Crate" = true
+		"Enable Cocoa Bean Sack" = true
+		"Enable Nether Wart Sack" = true
+		"Enable Gunpowder Sack" = true
+		"Enable Berry Sack" = true
+		"Enable Blaze Lantern" = true
+		"Enable Bonded Leather" = true
+		"Enable Bonded Rabbit Hide" = true
 
 	[building.item_frames]
 		"Glass Item Frames Update Maps" = true
 
 	[building.more_brick_types]
-		"Enable Sandy Bricks" = false
-		"Enable Snow Bricks" = false
-		"Enable Magma Bricks" = false
-		"Enable Charred Nether Bricks" = false
-		"Enable Blackstone Variant Bricks" = false
+		"Enable Sandy Bricks" = true
+		"Enable Snow Bricks" = true
+		"Enable Magma Bricks" = true
+		"Enable Charred Nether Bricks" = true
+		"Enable Blackstone Variant Bricks" = true
 		#This also comes with a utility recipe for Red Nether Bricks
-		"Enable Blue Nether Bricks" = false
+		"Enable Blue Nether Bricks" = true
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
-		"Enable Sandstone Bricks" = false
+		"Enable Sandstone Bricks" = true
 
 	[building.more_stone_variants]
-		"Enable Bricks" = false
-		"Enable Chiseled Bricks" = false
-		"Enable Pavement" = false
-		"Enable Pillar" = false
+		"Enable Bricks" = true
+		"Enable Chiseled Bricks" = true
+		"Enable Pavement" = true
+		"Enable Pillar" = true
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.

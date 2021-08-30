@@ -6,8 +6,10 @@ import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.util.NameUtils;
+import mods.botania.PureDaisy;
 import mods.botania.StateIngredient;
 import stdlib.List;
+import crafttweaker.api.blocks.MCBlockState;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 
@@ -77,6 +79,14 @@ public class RecipeGenerator{
         );
     // ManaInfusion.addRecipe(name as string, output as IItemStack, input as IIngredient, mana as int, catalyst as StateIngredient, group as string, function as RecipeFunctionSingle) as void
     }
+    public static addPurify(output as MCBlockState, input as StateIngredient,time as int = 150) as void{
+        // PureDaisy.addRecipe(name as string, output as MCBlockState, input as StateIngredient, time as int) as void
+        val recipeType = "infusion";
+        <recipetype:botania:pure_daisy>.addRecipe(recipeType+"_"+output.block.getNiceName()+"_"+getNewId(),
+            output,input,time
+        );
+    }
+    
 
 
 }
