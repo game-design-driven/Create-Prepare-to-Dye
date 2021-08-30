@@ -4,6 +4,9 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.data.IData;
+import crafttweaker.api.blocks.MCBlockState;
+import crafttweaker.api.blocks.MCBlock;
+import stdlib.List;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
 mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
@@ -116,12 +119,7 @@ RecipeGenerator.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraf
 RecipeGenerator.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
 
 //emerald recipes
-
-// https://github.com/jaredlll08/CreateTweaker/issues/12
-// https://docs.blamejared.com/1.16/en/mods/Create/util/SequencedAssemblyRecipeBuilder/ <-building
-// https://docs.blamejared.com/1.16/en/mods/Create/util/ProcessingRecipeBuilder/ <- list of all possible processes
-// <recipetype:create:filling>.addRecipe(IItemStack output, IIngredient inputContainer, IFluidStack inputFluid, @Optional(100) int duration)
-
+<recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
 var fakeemerald = <recipetype:create:sequenced_assembly>.builder("seq_emerald")
     .transitionTo(<item:minecraft:diamond>.withTag({"diamond in a process": 1 as int}))
     .require(<item:minecraft:diamond>)
@@ -144,29 +142,6 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*8))
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 250));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
-//<recipetype:create:filling>.addRecipe("filling_test", <item:minecraft:diamond>, <item:minecraft:dirt>, <fluid:minecraft:lava>);
-//// <recipetype:create:deploying>.addRecipe(String name, IIngredient processedItem, IIngredient heldItem, MCWeightedItemStack[] outputs)
-//<recipetype:create:deploying>.addRecipe("deploy_test", <item:minecraft:glass>, <item:minecraft:air>, [<item:minecraft:dirt>]);
 
-
-
-
-
-
-// <recipetype:interactio:item_fluid_transform>.addJSONRecipe("stone_to_blackstone",
-// {
-//   "inputs": [ <tag:items:forge:stone> as IData ],
-//   "fluid": {
-//     "fluid": "water"
-//   },
-//   "output": {
-//      "entries": [ {
-//        "result": <item:minecraft:blackstone> as IData,
-//        "weight": 100
-//      } ],
-//      "empty_weight": 0,
-//      "rolls": 1
-//   },
-//   "consume": 0.15,
-//   "type": "interactio:item_fluid_transform"
-// });
+RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore>,100);
+// // print("XXXX"+<item:storagedrawers:oak_full_drawers_4>.registryName.namespace+":"+<item:storagedrawers:oak_full_drawers_4>.registryName.patht);

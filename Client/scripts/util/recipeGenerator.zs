@@ -14,6 +14,9 @@ import crafttweaker.api.blocks.MCBlockState;
 import mods.jei.JEI;
 import crafttweaker.api.SmokerManager;
 import crafttweaker.api.recipe.Replacer;
+import crafttweaker.api.data.IData;
+import crafttweaker.api.blocks.MCBlockState;
+import crafttweaker.api.blocks.MCBlock;
 
 public class RecipeGenerator{
     public static var recipeID = 0;
@@ -93,10 +96,30 @@ public class RecipeGenerator{
         <recipetype:pneumaticcraft:thermo_plant>.addRecipe(output.genRecipeName("thermo_plant"), fluidInputs, input, fluidOutput, output, pressure, minTemp, maxTemp,speedMultiplier,isExothermic);
     }
 
-
-
+    
+// var block as MCBlock= <block:storagedrawers:oak_full_drawers_4>;
+// var blockRef as string = block.registryName.namespace+":"+block.registryName.path;
+    public static addBlockExplosion(output as MCBlock,input as MCBlock,emptyWeightAgainst100 as int = 0) as void{
+        <recipetype:interactio:block_explode>.addJSONRecipe("emerald_from_copper",
+        {
+        "input": {
+            "block": input.getJsonName()
+        },
+        "output": {
+            "type": "block",
+            "entries": [
+            {
+                "result": {
+                "block": output.getJsonName()
+                },
+                "weight": 100
+            }
+            ],
+            "empty_weight": emptyWeightAgainst100
+        }
+        });
+    }
 }
-
 
 
 

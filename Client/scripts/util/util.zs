@@ -11,7 +11,6 @@ import crafttweaker.api.item.IIngredient;
 // <item:minecraft:apple>.modifyTooltip((stack, tooltip, advanced) => {
 //     tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(<formatting:red>));
 // });
-
 // <item:minecraft:apple>.modifyTooltip((stack, tooltip, advanced) => {
 //   tooltip.add(
 //       ("important " as MCTextComponent).setStyle(
