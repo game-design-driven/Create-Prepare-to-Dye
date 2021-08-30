@@ -248,11 +248,11 @@
 
 [tools]
 	Abacus = true
-	"Ambient Discs" = true
+	"Ambient Discs" = false
 	"Ancient Tomes" = true
 	"Bottled Cloud" = true
 	Camera = true
-	"Color Runes" = true
+	"Color Runes" = false
 	"Pathfinder Maps" = true
 	Pickarang = true
 	"Seed Pouch" = true
@@ -260,7 +260,7 @@
 	Trowel = true
 
 	[tools.ambient_discs]
-		"Drop On Spider Kill" = true
+		"Drop On Spider Kill" = false
 
 	[tools.ancient_tomes]
 		#Set to 0 to not generate in Dungeons

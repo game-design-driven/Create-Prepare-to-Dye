@@ -12,12 +12,16 @@ import mods.botania.StateIngredient;
 import stdlib.List;
 import crafttweaker.api.blocks.MCBlockState;
 import mods.jei.JEI;
+import crafttweaker.api.SmokerManager;
 import crafttweaker.api.recipe.Replacer;
 
 public class RecipeGenerator{
     public static var recipeID = 0;
     public static getNewId() as int{
         return(recipeID++);
+    }
+    public static addSmoking(input as IItemStack, output as IIngredient,xp as float = 1.0,time as int = 30){
+        smoker.addRecipe(input.genRecipeName("smoking"), output, input, xp, time);
     }
     public static shaped(output as IItemStack, recipe as IIngredient[][])as void{
         craftingTable.addShaped(output.genRecipeName("shaped"),output,recipe);
@@ -42,6 +46,9 @@ public class RecipeGenerator{
     }
     public static addMix(output as IFluidStack,heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
         <recipetype:create:mixing>.addRecipe(output.genRecipeName("mixing"), heat, output, itemInputs,fluidInputs,duration);
+    }
+    public static addCompact(output as IItemStack,itemInputs as IIngredientWithAmount[],fluidInputs as IFluidStack[] = [], heat as string = "none", duration as int = 250) as void{
+        <recipetype:create:compacting>.addRecipe(output.genRecipeName("compacting"), heat, output, itemInputs, fluidInputs, duration);
     }
     public static removeMix(output as IItemStack) as void{
         <recipetype:create:mixing>.removeRecipe(output);
@@ -82,10 +89,10 @@ public class RecipeGenerator{
         <recipetype:create:filling>.addRecipe(output.genRecipeName("filling"), output, input, fluidInput);
     }
 
-    public static addThermo(output as IItemStack, fluidOutput as IFluidStack, input as IIngredient, fluidInputs as FluidIngredient,pressure as float, minTemp as int,maxTemp as int = 2147483647,speedMultiplier as float = 1.0,isExothermic as bool = false) as void{
+    public static addThermo(output as IItemStack, fluidOutput as IFluidStack, input as IIngredient, fluidInputs as FluidIngredient,pressure as float = 2, minTemp as int = 0,maxTemp as int = 2147483647,speedMultiplier as float = 1.0,isExothermic as bool = false) as void{
         <recipetype:pneumaticcraft:thermo_plant>.addRecipe(output.genRecipeName("thermo_plant"), fluidInputs, input, fluidOutput, output, pressure, minTemp, maxTemp,speedMultiplier,isExothermic);
     }
-    
+
 
 
 }

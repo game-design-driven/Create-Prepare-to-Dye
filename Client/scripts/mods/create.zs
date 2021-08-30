@@ -2,6 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.item.IIngredientWithAmount;
+import mods.botania.Orechid;
 
 //flour stuffs
 craftingTable.removeByName("create:crafting/appliances/dough");
@@ -11,6 +12,15 @@ RecipeGenerator.addExplosion([<item:create:wheat_flour>*8],<item:minecraft:wheat
 
 
 //removing zinc
+// Orechid.removeOreWeight(state as MCBlockState) as void
+
+Orechid.main.removeOreWeight(<blockstate:create:zinc_ore>);
+[
+    <item:create:crushed_zinc_ore>,
+    <item:create:zinc_nugget>,
+    <item:create:zinc_block>,
+    <item:create:zinc_ore>
+].remove();
 <item:create:zinc_ingot>.removeAndReplace(<item:minecraft:gold_ingot>);
 RecipeGenerator.removeMix(<item:create:brass_ingot>);
 RecipeGenerator.addMix(<item:create:brass_ingot>, "heated",[<tag:items:forge:ingots/copper>,<tag:items:forge:ingots/gold>]);
