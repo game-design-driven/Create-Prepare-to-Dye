@@ -1,1 +1,16 @@
 <item:botania:mana_fluxfield>.remove();
+[<item:botania:white_mystical_flower>,
+<item:botania:orange_mystical_flower>,
+<item:botania:magenta_mystical_flower>,
+<item:botania:light_blue_mystical_flower>,
+<item:botania:yellow_mystical_flower>,
+<item:botania:lime_mystical_flower>,
+<item:botania:pink_mystical_flower>,
+<item:botania:gray_mystical_flower>,
+<item:botania:light_gray_mystical_flower>,
+<item:botania:cyan_mystical_flower>,
+<item:botania:purple_mystical_flower>,
+<item:botania:blue_mystical_flower>,
+<item:botania:brown_mystical_flower>,
+<item:botania:green_mystical_flower>,
+<item:botania:red_mystical_flower>].addTip("Use Floral Fertilizer to acquire");

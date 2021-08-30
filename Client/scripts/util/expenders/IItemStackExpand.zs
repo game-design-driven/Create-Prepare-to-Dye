@@ -85,4 +85,5 @@ public expand IItemStack {
 public expand IItemStack[] {
   public hide() as IItemStack[] {for item in this{item.hide();}return this;}
   public remove() as IItemStack[] {for item in this{item.remove();}return this;}
+  public addTip(tip as string) as IItemStack[] {for item in this{item.addTip(tip);}return this;}
 }
