@@ -137,12 +137,13 @@ mods.jei.JEI.addInfo(<item:pneumaticcraft:unassembled_pcb>, ["Made by etching an
 <item:pneumaticcraft:refinery_output>.remove();
 <item:pneumaticcraft:glycerol>.remove();
 <item:pneumaticcraft:fluid_mixer>.remove();
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 10,"superheated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 5,"heated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 1,"none" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25,"superheated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 50,"heated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+val dieselEfficeincyModifer as int = 5;
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 10*dieselEfficeincyModifer,"superheated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 5*dieselEfficeincyModifer,"heated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 1*dieselEfficeincyModifer,"none" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"superheated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 50*dieselEfficeincyModifer,"heated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
 
 //replace plaastic recipe
 <recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/plastic_from_biodiesel"); 

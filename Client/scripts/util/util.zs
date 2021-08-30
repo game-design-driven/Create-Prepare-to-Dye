@@ -5,6 +5,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IIngredient;
 
+// <item:easy_villagers:villager>.withTag({villager: {Brain: {Age: -23886 as int}}).shapeless([<item:minecraft:stone>]);
 //.withTag({Unbreakable: 1 as byte, display: {Name: "{\"text\":\"no italics!\",\"italic\":\"false\"}" as string}}) this renames without italics
 
 // <item:minecraft:apple>.modifyTooltip((stack, tooltip, advanced) => {

@@ -19,8 +19,7 @@ public class RecipeGenerator{
         return(recipeID++);
     }
     public static shaped(output as IItemStack, recipe as IIngredient[][])as void{
-        var recipeName = "shaped_"+output.getNiceName()+"_"+getNewId();
-        craftingTable.addShaped(recipeName,output,recipe);
+        craftingTable.addShaped(output.genRecipeName("shaped"),output,recipe);
         // RecipeGenerator.addMechanicalCrafting(output,recipe); //it seems they do add themselves auautomatically, they just don't show up in JEI
     }
     public static shaped(recipes as IIngredient[][][IItemStack])as void{
@@ -29,9 +28,8 @@ public class RecipeGenerator{
         }
     }
     public static shapeless(output as IItemStack, recipe as IIngredient[])as void{
-        var recipeName = "shaped_"+output.getNiceName()+"_"+getNewId();
         RecipeGenerator.addMix(output, "none",recipe.fakeAmount());
-        craftingTable.addShapeless(recipeName,output,recipe);
+        craftingTable.addShapeless(output.genRecipeName("shapeless"),output,recipe);
     }
     public static shapeless(recipes as IIngredient[][IItemStack])as void{
         for output, recipe in recipes{
@@ -39,52 +37,45 @@ public class RecipeGenerator{
         }
     }
     public static addMix(output as IItemStack, heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
-        val recipeType = "mixing";
-        val recipeName = recipeType+"_"+output.getNiceName()+"_"+getNewId(); 
-        <recipetype:create:mixing>.addRecipe(recipeName, heat, output, itemInputs,fluidInputs,duration);
+        <recipetype:create:mixing>.addRecipe(output.genRecipeName("mixing"), heat, output, itemInputs,fluidInputs,duration);
     }
     public static addMix(output as IFluidStack,heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
-        val recipeType = "mixing";
-        val recipeName = recipeType+"_"+NameUtils.fixing(output.registryName)+getNewId(); 
-        <recipetype:create:mixing>.addRecipe(recipeName, heat, output, itemInputs,fluidInputs,duration);
+        <recipetype:create:mixing>.addRecipe(output.genRecipeName("mixing"), heat, output, itemInputs,fluidInputs,duration);
     }
     public static removeMix(output as IItemStack) as void{
         <recipetype:create:mixing>.removeRecipe(output);
     }
     public static addMechanicalCrafting(output as IItemStack, input as IIngredient[][])as void{
-        val recipeType = "mechanical_crafting";
-        <recipetype:create:mechanical_crafting>.addRecipe(recipeType+"_"+output.getNiceName()+"_"+getNewId(), output, input);
+        <recipetype:create:mechanical_crafting>.addRecipe(output.genRecipeName("mechanical_crafting"), output, input);
     }
 
     public static addPressureChamber(output as IItemStack[], input as IIngredientWithAmount[], pressure as float = 2.0)as void{
-        val recipeType = "pressure_chamber";
-        <recipetype:pneumaticcraft:pressure_chamber>.addRecipe(recipeType+"_"+output[0].getNiceName()+"_"+getNewId(), input, output, pressure);
+        <recipetype:pneumaticcraft:pressure_chamber>.addRecipe(output.genRecipeName("pressure_chamber"), input, output, pressure);
         //todo post an issiue about the pneumaticraft 
     }
     
     public static addExplosion(output as IItemStack[],input as IIngredientWithAmount, lossRate as int = 0) as void{
-        val recipeType = "explosion";
-        <recipetype:pneumaticcraft:explosion_crafting>.addRecipe(recipeType+"_"+output[0].getNiceName()+"_"+getNewId(), input, output, lossRate);
+        <recipetype:pneumaticcraft:explosion_crafting>.addRecipe(output.genRecipeName("explosion"), input, output, lossRate);
     }
 
     public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
-        val recipeType = "crushing";
-        <recipetype:create:crushing>.addRecipe(recipeType+"_"+output[0].stack.getNiceName()+"_"+getNewId(), output, input);
+        <recipetype:create:crushing>.addRecipe(output.genRecipeName("crushing"), output, input);
     }
 
     public static addInfusion(output as IItemStack, input as IIngredient, mana as int = 1000, catalyst as StateIngredient) as void{
-        val recipeType = "infusion";
-        <recipetype:botania:mana_infusion>.addRecipe(recipeType+"_"+output.getNiceName()+"_"+getNewId(),
+        <recipetype:botania:mana_infusion>.addRecipe(output.genRecipeName("infusion"),
             output, input, mana, catalyst
         );
     // ManaInfusion.addRecipe(name as string, output as IItemStack, input as IIngredient, mana as int, catalyst as StateIngredient, group as string, function as RecipeFunctionSingle) as void
     }
     public static addPurify(output as MCBlockState, input as StateIngredient,time as int = 150) as void{
-        // PureDaisy.addRecipe(name as string, output as MCBlockState, input as StateIngredient, time as int) as void
         val recipeType = "infusion";
-        <recipetype:botania:pure_daisy>.addRecipe(recipeType+"_"+output.block.getNiceName()+"_"+getNewId(),
+        <recipetype:botania:pure_daisy>.addRecipe(recipeType+"_"+output.block.getNiceName()+"_"+getNewId(), //TODO replace with new system
             output,input,time
         );
+    }
+    public static addTrade(output as IItemStack[],input as IIngredient[]) as void{
+        <recipetype:botania:elven_trade>.addRecipe(output.genRecipeName("trading"), output, input);
     }
     
 

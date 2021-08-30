@@ -4,6 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.Ingredient;
 import crafttweaker.api.item.IIngredientWithAmount;
+import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.util.NameUtils;
 import stdlib.List;
@@ -60,7 +61,7 @@ public expand IItemStack {
     return this;
   }
   public remove() as IItemStack{
-    this.addTooltip("§cremoved!§c");//TODO #60 change to red
+    this.addTooltip("§cremoved!");//TODO #60 change to red
     for tag in <tagManager:items>.getAllTagsFor(this){
       tag.remove(this);
     }
@@ -81,9 +82,34 @@ public expand IItemStack {
   public getNiceName() as string{
       return NameUtils.fixing(this.registryName);
   }
+
+  public genRecipeName(recipeType as string)as string{
+    return recipeType+"_"+this.getNiceName()+"/"+getNewId();
+  }
+
+  public static var recipeID = 0;
+  public getNewId() as int{
+      return(recipeID++);
+  }
 }
 public expand IItemStack[] {
   public hide() as IItemStack[] {for item in this{item.hide();}return this;}
   public remove() as IItemStack[] {for item in this{item.remove();}return this;}
   public addTip(tip as string) as IItemStack[] {for item in this{item.addTip(tip);}return this;}
+  public genRecipeName(recipeType as string) as string{
+    var name as string= "arr.";
+    for item in this{
+      name += "_"+item.genRecipeName(recipeType);
+    }
+    return name;
+  }
+}
+public expand MCWeightedItemStack[] {
+  public genRecipeName(recipeType as string) as string{
+    var name as string= "arr.";
+    for item in this{
+      name += "_"+item.stack.genRecipeName(recipeType);
+    }
+    return name;
+  }
 }

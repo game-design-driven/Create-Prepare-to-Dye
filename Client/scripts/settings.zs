@@ -13,5 +13,7 @@
 public class settings{
   public static val t = "many potatoes";
   public static val infusionSimpleRecipeManaCost = 500;
+  public static val villagerBabyAge as int = -23955;
+  public static val villagerBabyName as string = "Wild eyed Villager";
 }
 

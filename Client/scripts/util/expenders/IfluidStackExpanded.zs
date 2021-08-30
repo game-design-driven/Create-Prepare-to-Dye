@@ -1,4 +1,5 @@
 import crafttweaker.api.fluid.IFluidStack;
+import crafttweaker.util.NameUtils;
 
 public expand IFluidStack{
     public hide() as IFluidStack{
@@ -9,6 +10,18 @@ public expand IFluidStack{
         hide();
         return this;
     }
+      public getNiceName() as string{
+      return NameUtils.fixing(this.registryName);
+  }
+
+  public genRecipeName(recipeType as string)as string{
+    return recipeType+"_"+this.getNiceName()+"/"+getNewId();
+  }
+
+  public static var recipeID = 0;
+  public getNewId() as int{
+      return(recipeID++);
+  }
 }
 public expand IFluidStack[]{
     public remove() as IFluidStack[]{
