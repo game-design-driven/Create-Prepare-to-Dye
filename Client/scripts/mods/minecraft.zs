@@ -11,6 +11,16 @@ mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic 
 
 <item:minecraft:paper>.removeCraftingRecipe();
 RecipeGenerator.shaped({
+    <item:minecraft:chest> : [
+        [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
+        [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
+        [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>]
+    ],
+    <item:minecraft:chest>*4 : [
+        [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>],
+        [<tag:items:minecraft:logs>,<item:minecraft:air>,<tag:items:minecraft:logs>],
+        [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>]
+    ],
     <item:minecraft:piston>*2 : [
         [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
         [<tag:items:forge:cobblestone>, <tag:items:crafttweaker:strong_alloys>, <tag:items:forge:cobblestone>], 
