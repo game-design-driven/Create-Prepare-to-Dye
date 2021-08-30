@@ -60,7 +60,7 @@ public expand IItemStack {
     return this;
   }
   public remove() as IItemStack{
-    this.addTooltip("removed!");//TODO #60 change to red
+    this.addTooltip("§cremoved!§c");//TODO #60 change to red
     for tag in <tagManager:items>.getAllTagsFor(this){
       tag.remove(this);
     }
