@@ -2,6 +2,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.Ingredient;
+import crafttweaker.api.fluid.FluidIngredient;
 import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.item.MCWeightedItemStack;
@@ -76,6 +77,13 @@ public class RecipeGenerator{
     }
     public static addTrade(output as IItemStack[],input as IIngredient[]) as void{
         <recipetype:botania:elven_trade>.addRecipe(output.genRecipeName("trading"), output, input);
+    }
+    public static addFill(output as IItemStack, input as IIngredient,fluidInput as IFluidStack,duration as int = 100) as void{
+        <recipetype:create:filling>.addRecipe(output.genRecipeName("filling"), output, input, fluidInput);
+    }
+
+    public static addThermo(output as IItemStack, fluidOutput as IFluidStack, input as IIngredient, fluidInputs as FluidIngredient,pressure as float, minTemp as int,maxTemp as int = 2147483647,speedMultiplier as float = 1.0,isExothermic as bool = false) as void{
+        <recipetype:pneumaticcraft:thermo_plant>.addRecipe(output.genRecipeName("thermo_plant"), fluidInputs, input, fluidOutput, output, pressure, minTemp, maxTemp,speedMultiplier,isExothermic);
     }
     
 
