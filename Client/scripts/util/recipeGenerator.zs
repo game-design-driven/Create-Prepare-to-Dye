@@ -20,7 +20,7 @@ public class RecipeGenerator{
     public static getNewId() as int{
         return(recipeID++);
     }
-    public static addSmoking(input as IItemStack, output as IIngredient,xp as float = 1.0,time as int = 30){
+    public static addSmoking(input as IItemStack, output as IIngredient,xp as float = 1.0,time as int = 30) as void{
         smoker.addRecipe(input.genRecipeName("smoking"), output, input, xp, time);
     }
     public static shaped(output as IItemStack, recipe as IIngredient[][])as void{

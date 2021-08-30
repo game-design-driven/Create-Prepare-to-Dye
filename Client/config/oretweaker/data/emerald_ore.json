@@ -6,7 +6,7 @@
       "minY": 4,
       "maxY": 200,
       "maxVeinSize": 2,
-      "spawnRate": 5.0,
+      "spawnRate": 0.0,
       "biomeBlacklist": [],
       "biomeWhitelist": [
         "minecraft:mountains",

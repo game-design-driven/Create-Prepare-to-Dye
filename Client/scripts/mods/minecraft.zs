@@ -3,6 +3,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.data.IData;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
 mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
@@ -113,3 +114,59 @@ RecipeGenerator.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_
 RecipeGenerator.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
 RecipeGenerator.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
 RecipeGenerator.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
+
+//emerald recipes
+
+// https://github.com/jaredlll08/CreateTweaker/issues/12
+// https://docs.blamejared.com/1.16/en/mods/Create/util/SequencedAssemblyRecipeBuilder/ <-building
+// https://docs.blamejared.com/1.16/en/mods/Create/util/ProcessingRecipeBuilder/ <- list of all possible processes
+// <recipetype:create:filling>.addRecipe(IItemStack output, IIngredient inputContainer, IFluidStack inputFluid, @Optional(100) int duration)
+
+var fakeemerald = <recipetype:create:sequenced_assembly>.builder("seq_emerald")
+    .transitionTo(<item:minecraft:diamond>.withTag({"diamond in a process": 1 as int}))
+    .require(<item:minecraft:diamond>)
+    .loops(4)
+    .addOutput(<item:minecraft:emerald>, 10)
+    .addOutput(<item:quark:cactus_paste>, 1)
+    .addOutput(<item:minecraft:coal>, 1)
+    .addOutput(<item:minecraft:green_dye>, 2)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>))
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 250));
+<recipetype:create:sequenced_assembly>.addRecipe(fakeemerald);
+var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_mana")
+    .transitionTo(<item:botania:mana_diamond>.withTag({"diamond in a process": 1 as int}))
+    .require(<item:botania:mana_diamond>)
+    .loops(2)
+    .addOutput(<item:minecraft:emerald>, 14)
+    .addOutput(<item:quark:cactus_paste>, 1)
+    .addOutput(<item:minecraft:coal>, 1)
+    .addOutput(<item:minecraft:green_dye>, 2)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*8))
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 250));
+<recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
+//<recipetype:create:filling>.addRecipe("filling_test", <item:minecraft:diamond>, <item:minecraft:dirt>, <fluid:minecraft:lava>);
+//// <recipetype:create:deploying>.addRecipe(String name, IIngredient processedItem, IIngredient heldItem, MCWeightedItemStack[] outputs)
+//<recipetype:create:deploying>.addRecipe("deploy_test", <item:minecraft:glass>, <item:minecraft:air>, [<item:minecraft:dirt>]);
+
+
+
+
+
+
+// <recipetype:interactio:item_fluid_transform>.addJSONRecipe("stone_to_blackstone",
+// {
+//   "inputs": [ <tag:items:forge:stone> as IData ],
+//   "fluid": {
+//     "fluid": "water"
+//   },
+//   "output": {
+//      "entries": [ {
+//        "result": <item:minecraft:blackstone> as IData,
+//        "weight": 100
+//      } ],
+//      "empty_weight": 0,
+//      "rolls": 1
+//   },
+//   "consume": 0.15,
+//   "type": "interactio:item_fluid_transform"
+// });
