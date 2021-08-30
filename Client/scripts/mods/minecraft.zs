@@ -104,3 +104,12 @@ val r = <tag:items:forge:dyes/red>;
     [<tag:items:forge:ingots/compressed_iron>,<item:pneumaticcraft:pressure_tube>,<tag:items:forge:ingots/compressed_iron>],
     [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>]
 ]);
+
+//gold from honey
+RecipeGenerator.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000);
+ 
+ //more ways to get red stone
+RecipeGenerator.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
+RecipeGenerator.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
+RecipeGenerator.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
+RecipeGenerator.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
