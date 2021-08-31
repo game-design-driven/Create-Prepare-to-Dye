@@ -4,8 +4,8 @@ Create.run is an opinionated, minimalistic modpack centered around complex and i
 
 ## Core values
 * Complex and unique automation
+* Radical simplifcation, No clutter. Every item and block has a reason to be in the game.
 * Lower amount of tasks that aren't "making cool stuff"
-* Precise items, No clutter. Every item has a reason to be in the game.
 * Lightweight
 * Documentation
 * Customization - we have a clear gameplay loop we try to inforce, but if there is something that doesn't fit, you should be able to change it easily.
