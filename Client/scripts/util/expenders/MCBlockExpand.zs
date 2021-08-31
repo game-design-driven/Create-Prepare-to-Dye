@@ -10,7 +10,13 @@ public expand MCBlock{
       // var blockRef as string = block.registryName.namespace+":"+block.registryName.path;
     return this.registryName.namespace+":"+this.registryName.path;
   }
+  public genRecipeName(recipeType as string)as string{
+    return recipeType+"_"+this.getNiceName()+"/"+getNewId();
+  }
+  public static var recipeID = 0;
+  public getNewId() as int{
+      return(recipeID++);
+  }
 }
-public expand MCBlockState{
-
+public expand MCBlock{
 }

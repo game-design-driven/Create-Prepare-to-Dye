@@ -155,8 +155,7 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
 RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
-val flowers = <tag:items:minecraft:flowers>.getElements();
-for flower in flowers{
+for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
     RecipeGenerator.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
 }

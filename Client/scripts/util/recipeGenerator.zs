@@ -97,64 +97,25 @@ public class RecipeGenerator{
     }
 
     
-// var block as MCBlock= <block:storagedrawers:oak_full_drawers_4>;
-// var blockRef as string = block.registryName.namespace+":"+block.registryName.path;
     public static addBlockExplosion(output as MCBlock,input as MCBlock,emptyWeightAgainst100 as int = 0) as void{
-        <recipetype:interactio:block_explode>.addJSONRecipe("emerald_from_copper",
-        {
+        <recipetype:interactio:block_explode>.addJSONRecipe(output.genRecipeName("block_explode"),{
         "input": {
             "block": input.getJsonName()
         },
         "output": {
             "type": "block",
-            "entries": [
-            {
+            "entries": [{
                 "result": {
                 "block": output.getJsonName()
                 },
                 "weight": 100
-            }
-            ],
+            }],
             "empty_weight": emptyWeightAgainst100
         }
         });
     }
+    public static addItemFluidTransform() as void{
+    
+    
+    }
 }
-
-
-
-//     val gatecrafting = <recipetype:morered:gatecrafting>;
-//     val elvenTrade = <recipetype:botania:elven_trade>;
-//     val manaInfusion = <recipetype:botania:mana_infusion>;
-//     val pureDaisy = <recipetype:botania:pure_daisy>;
-//     val brew = <recipetype:botania:brew>;
-//     val petalApothecary = <recipetype:botania:petal_apothecary>;
-//     val runicAltar = <recipetype:botania:runic_altar>;
-//     val terraPlate = <recipetype:botania:terra_plate>;
-//     val mechanicalCrafting = <recipetype:create:mechanical_crafting>;
-//     val conversion = <recipetype:create:conversion>;
-//     val crushing = <recipetype:create:crushing>;
-//     val cutting = <recipetype:create:cutting>;
-//     val milling = <recipetype:create:milling>;
-//     val basin = <recipetype:create:basin>;
-//     val mixing = <recipetype:create:mixing>;
-//     val compacting = <recipetype:create:compacting>;
-//     val pressing = <recipetype:create:pressing>;
-//     val sandpaperPolishing = <recipetype:create:sandpaper_polishing>;
-//     val splashing = <recipetype:create:splashing>;
-//     val deploying = <recipetype:create:deploying>;
-//     val filling = <recipetype:create:filling>;
-//     val emptying = <recipetype:create:emptying>;
-//     val sequencedSssembly = <recipetype:create:sequenced_assembly>;
-//     val amadron = <recipetype:pneumaticcraft:amadron>;
-//     val assemblyLaser = <recipetype:pneumaticcraft:assembly_laser>;
-//     val assemblyDrill = <recipetype:pneumaticcraft:assembly_drill>;
-//     val assemblyDrillLaser = <recipetype:pneumaticcraft:assembly_drill_laser>;
-//     val explosionCrafting = <recipetype:pneumaticcraft:explosion_crafting>;
-//     val heatFrameCooling = <recipetype:pneumaticcraft:heat_frame_cooling>;
-//     val pressureChamber = <recipetype:pneumaticcraft:pressure_chamber>;
-//     val refinery = <recipetype:pneumaticcraft:refinery>;
-//     val thermoPlant = <recipetype:pneumaticcraft:thermo_plant>;
-//     val fluidMixer = <recipetype:pneumaticcraft:fluid_mixer>;
-//     val fuelQuality = <recipetype:pneumaticcraft:fuel_quality>;
-//     val heatProperties = <recipetype:pneumaticcraft:heat_properties>;

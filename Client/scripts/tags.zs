@@ -26,3 +26,23 @@
     <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration" as string}),
     <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_regeneration" as string})
 ]);
+<tag:items:crafttweaker:regular_flowers>.add([
+    <item:minecraft:dandelion>,
+    <item:minecraft:poppy>,
+    <item:minecraft:blue_orchid>,
+    <item:minecraft:allium>,
+    <item:minecraft:azure_bluet>,
+    <item:minecraft:red_tulip>,
+    <item:minecraft:orange_tulip>,
+    <item:minecraft:white_tulip>,
+    <item:minecraft:pink_tulip>,
+    <item:minecraft:oxeye_daisy>,
+    <item:minecraft:cornflower>,
+    <item:minecraft:lily_of_the_valley>,
+    <item:minecraft:crimson_roots>,
+    <item:minecraft:warped_roots>,
+    <item:minecraft:sunflower>,
+    <item:minecraft:lilac>,
+    <item:minecraft:rose_bush>,
+    <item:minecraft:peony>
+]);

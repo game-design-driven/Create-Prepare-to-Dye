@@ -13,7 +13,7 @@
 public class settings{
   public static val t = "many potatoes";
   public static val infusionSimpleRecipeManaCost = 500;
-  public static val beeDupingManaCost = 250;
+  public static val beeDupingManaCost = 1000;
   public static val villagerBabyAge as int = -23955;
   public static val villagerBabyName as string = "Wild eyed Villager";
   public static val tooltipWrap as int = 30;

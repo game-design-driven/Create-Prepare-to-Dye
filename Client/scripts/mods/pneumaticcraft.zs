@@ -93,10 +93,10 @@ RecipeGenerator.shaped({
 
 //removing acid tank
 <item:pneumaticcraft:empty_pcb>.removeTooltip("Put in an Etching Tank to develop...");
-<item:pneumaticcraft:empty_pcb>.addTooltip("Put in Etching Acid to develop...");
+<item:pneumaticcraft:empty_pcb>.addTip("Put in Etching Acid to develop...");
 mods.jei.JEI.addInfo(<item:pneumaticcraft:empty_pcb>, ["Put in Etching Acid to develop..."]); //TODO loclize
 
-<item:pneumaticcraft:unassembled_pcb>.addTooltip("Made by etching an empty pcb in acid");
+<item:pneumaticcraft:unassembled_pcb>.addTip("Made by etching an empty pcb in acid");
 mods.jei.JEI.addInfo(<item:pneumaticcraft:unassembled_pcb>, ["Made by etching an empty pcb in acid"]); //TODO loclize
 
 //remove amadrone

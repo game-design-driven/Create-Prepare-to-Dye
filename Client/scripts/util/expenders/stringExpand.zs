@@ -39,6 +39,7 @@ public expand string{
                 locationInLine=0;
             }
         }
+        output.add(str);
         return output;
     }
     
