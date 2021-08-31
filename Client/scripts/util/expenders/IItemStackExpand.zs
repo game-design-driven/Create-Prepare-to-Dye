@@ -7,18 +7,29 @@ import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.util.NameUtils;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
 import stdlib.List;
 import mods.jei.JEI;
+import crafttweaker.api.util.text.MCTextComponent;
 import crafttweaker.api.recipe.Replacer;
 public expand IItemStack {
   public addTip(t as string) as IItemStack{
-    // <item:minecraft:dirt>.modifyShiftTooltip((stack, tooltip, advanced) => {
-    //   tooltip.add("message: I am shifted");
-    // }, (stack, tooltip, advanced)  => {
-    //   tooltip.add("Press shift to see message");
-    // });
-    this.addShiftTooltip(t,"sneak for info...");
-      return this;
+    if (settings.tooltipRequireSneak){
+      this.modifyShiftTooltip((stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
+        for s in t.wrapToList(settings.tooltipWrap){
+          tooltip.add(s.tooltipColor());
+        }}, (stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
+          tooltip.add("hold ".tooltipPromptColor()+"[Sneak]".tooltipHighLightColor()+ " for info...".tooltipPromptColor());
+        });
+    }else{
+      this.modifyTooltip((stack, tooltip, advanced) => {
+        for s in t.wrapToList(){
+          tooltip.add(s.tooltipColor());
+        }
+      });
+
+    }
+    return this;
   }
   public withNameAndColor(name as string, color as int)as IItemStack{ //yes I wrote a function for just a few uses, kill me
     return this.withTag({
