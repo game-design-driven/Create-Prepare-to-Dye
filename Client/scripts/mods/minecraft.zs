@@ -110,7 +110,7 @@ val r = <tag:items:forge:dyes/red>;
 ]);
 
 //gold from honey
-RecipeGenerator.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000);
+RecipeGenerator.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
  
  //more ways to get red stone
 RecipeGenerator.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
@@ -144,4 +144,3 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
 
 RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore>,100);
-// // print("XXXX"+<item:storagedrawers:oak_full_drawers_4>.registryName.namespace+":"+<item:storagedrawers:oak_full_drawers_4>.registryName.patht);
