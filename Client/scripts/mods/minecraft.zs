@@ -139,8 +139,8 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addOutput(<item:quark:cactus_paste>, 1)
     .addOutput(<item:minecraft:coal>, 1)
     .addOutput(<item:minecraft:green_dye>, 2)
-    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*8))
-    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 250));
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*4))
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
 
 RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore>,100);
