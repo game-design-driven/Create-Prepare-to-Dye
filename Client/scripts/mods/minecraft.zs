@@ -6,6 +6,7 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.data.IData;
 import crafttweaker.api.blocks.MCBlockState;
 import crafttweaker.api.blocks.MCBlock;
+import mods.botania.StateIngredient;
 import stdlib.List;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
@@ -109,9 +110,19 @@ val r = <tag:items:forge:dyes/red>;
     [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>]
 ]);
 
+//more gold recipes
 //gold from honey
 RecipeGenerator.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
  
+var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
+    .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
+    .require(<item:minecraft:egg>)
+    .loops(2)
+    .addOutput(<item:minecraft:gold_nugget>, 1)
+    .addOutput(<item:minecraft:white_dye>, 4)
+    .addOutput(<item:minecraft:air>, 3)
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:minecraft:lava> * 250));
+<recipetype:create:sequenced_assembly>.addRecipe(goldMaker);
  //more ways to get red stone
 RecipeGenerator.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
 RecipeGenerator.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
@@ -142,5 +153,16 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*4))
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
+RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
+<item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
+val flowers = <tag:items:minecraft:flowers>.getElements();
+for flower in flowers{
+    val f = flower.getDefaultInstance();
+    RecipeGenerator.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+}
+for sapling in <tag:items:minecraft:saplings>.getElements(){
+    RecipeGenerator.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+}
+<item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 
-RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore>,100);
+
