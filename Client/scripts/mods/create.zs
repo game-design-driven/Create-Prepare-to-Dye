@@ -43,10 +43,10 @@ Recipes.addPressureChamber(
 
 
 ///
-//temp recipe for porting from zinc
-Recipes.addCrushing([
-    <item:minecraft:gold_nugget> % 50,
-    <item:minecraft:iron_nugget> % 25,
-    <item:create:copper_nugget> % 25,
-    <item:minecraft:andesite> % 10
-],<tag:items:forge:ingots/zinc>);
+// //temp recipe for porting from zinc
+// Recipes.addCrushing([
+//     <item:minecraft:gold_nugget> % 50,
+//     <item:minecraft:iron_nugget> % 25,
+//     <item:create:copper_nugget> % 25,
+//     <item:minecraft:andesite> % 10
+// ],<tag:items:forge:ingots/zinc>);
