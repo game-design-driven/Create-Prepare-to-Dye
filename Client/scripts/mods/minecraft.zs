@@ -168,15 +168,11 @@ for sapling in <tag:items:minecraft:saplings>.getElements(){
 
 //
 
-Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>*5).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,5,0);
+//prismarine_crystals are no longer mob drop and prismarine_shard disolve into them (and some dyes)
+Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,5,0);
 <item:minecraft:prismarine_shard>.addTip("Warning! desolves in water");
 // <entitytype:minecraft:guardian>.removeDrop(<item:minecraft:prismarine_crystals>);
 <entitytype:minecraft:guardian>.addLootModifier("remove_prismarine_crystals_g", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 <entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
-// CommonLootModifiers.removeAll(<item:minecraft:prismarine_crystals>);
 
-// import loottweaker.vanilla.loot.LootTables;
-// import loottweaker.vanilla.loot.LootTable;
-// import loottweaker.vanilla.loot.LootPool;
-
-// LootTables.getTable("minecraft:entities/pig").getPool("main").removeEntry("minecraft:porkchop");
+Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>);

@@ -233,16 +233,21 @@ public class Recipes{
         <recipetype:interactio:item_fluid_transform>.addJSONRecipe(output.genRecipeName("item_fluid_transform"),{
             "inputs":inputsData as IData[],
             "fluid":{"fluid":fluid.registryName},
-            "output":{"entries":outputsData as IData[]},
-            "empty_weight": emptyWeight,
-            "rolls": rolls
+            "output":{
+                "entries":outputsData as IData[],
+                "empty_weight": emptyWeight,
+                "rolls": rolls
+            },
+            // "consume_fluid": 0.1,
+            
         });
     }
 }
-Recipes.addAnvilSmashBlock(<block:minecraft:oak_log>,<block:minecraft:shulker_box>);
-Recipes.addFluidToItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:water>);
-Recipes.addItemExplosion([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
-Recipes.addAnvilSmashItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
+//examples
+// Recipes.addAnvilSmashBlock(<block:minecraft:oak_log>,<block:minecraft:shulker_box>);
+// Recipes.addFluidToItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:water>);
+// Recipes.addItemExplosion([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
+// Recipes.addAnvilSmashItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
 class testObject {
 
 }
