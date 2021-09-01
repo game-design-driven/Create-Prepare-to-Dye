@@ -26,6 +26,9 @@ public class RecipeGenerator{
     public static getNewId() as int{
         return(recipeID++);
     }
+    public static addAltar(output as IItemStack, mana as int, inputs as IIngredient[]) as void{
+        <recipetype:botania:runic_altar>.addRecipe(output.genRecipeName("runic_altar"), output, mana, inputs);
+    }
     public static addSmoking(input as IItemStack, output as IIngredient,xp as float = 1.0,time as int = 30) as void{
         smoker.addRecipe(input.genRecipeName("smoking"), output, input, xp, time);
     }
@@ -145,22 +148,21 @@ public class RecipeGenerator{
         }
         });
     }
-    public static addAnvilSmashBlock(output as MCBlock,input as MCBlock,damage as int = 1) as void{
+    public static addAnvilSmashBlock(output as MCBlock,input as MCBlock,damage as int = 1,weight as int = 1, emptyWeight as int = 0) as void{
         <recipetype:interactio:block_anvil_smashing>.addJSONRecipe(output.genRecipeName("block_anvil_smashing"),{
             "input": {
                  "block":input.registryName
             },
-            // "output": output.registryName,
             "output": {
                 "type": "block",
                 "entries": [{
                     "result": {
                     "block": output.registryName
-                    },"weight": 4
+                    },"weight": weight
                 }]
             },
             "damage": damage,
-            "empty_weight": 5
+            "empty_weight": emptyWeight
         });
     }
     public static addAnvilSmashItem(output as MCWeightedItemStack[],input as MCTagWithAmount<MCItemDefinition>[],damage as int = 1, emptyWeight as int = 0) as void{
