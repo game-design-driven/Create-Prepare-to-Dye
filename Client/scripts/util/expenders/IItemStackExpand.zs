@@ -31,7 +31,9 @@ public expand IItemStack {
       this.modifyShiftTooltip((stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
         for s in t.wrapToList(settings.tooltipWrap){
           tooltip.add(s.tooltipColor());
-        }}, (stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
+        }
+        tooltip.add("");
+        }, (stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
           tooltip.add("hold ".tooltipPromptColor()+"[Sneak]".tooltipHighLightColor()+ " for info...".tooltipPromptColor());
         });
     }else{

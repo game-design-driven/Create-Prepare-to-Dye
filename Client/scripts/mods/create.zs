@@ -33,6 +33,7 @@ Recipes.shaped({
     ]
 });
 
+<item:create:copper_ore>.addTip("Does not naturally occur, has to be crafted");
 Recipes.addMix(<item:create:copper_ore>*3,"heated",[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ores>,<tag:items:forge:stone>]);
 // <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("redstone_copper_pressure", [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8],[<item:create:copper_ore>*5,<item:minecraft:stone> *3] , 2.5);
 Recipes.addPressureChamber(
@@ -40,8 +41,19 @@ Recipes.addPressureChamber(
     [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8], 2.5
 ); 
 
+<recipetype:create:milling>.removeByName("create:milling/sand");
+<recipetype:create:milling>.removeByName("create:milling/diorite");
+Recipes.addMilling([
+    <item:create:limesand>,
+    <item:create:limesand> % 50,
+],<tag:items:forge:sand/colorless>);
 
-
+for millRecipe in <recipetype:create:milling>.getAllRecipes(){
+    if (millRecipe.output.amount == 1){
+        Recipes.addMilling([millRecipe.output*2],millRecipe.ingredients[0], 100);
+        <recipetype:create:milling>.removeByName(millRecipe.id);
+    }
+}
 ///
 // //temp recipe for porting from zinc
 // Recipes.addCrushing([

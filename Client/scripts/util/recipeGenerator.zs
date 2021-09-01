@@ -74,6 +74,10 @@ public class Recipes{
     public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
         <recipetype:create:crushing>.addRecipe(output.genRecipeName("crushing"), output, input);
     }
+    public static addMilling(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
+        <recipetype:create:milling>.addRecipe(output.genRecipeName("milling"), output, input);
+    }
+
 
     public static addInfusion(output as IItemStack, input as IIngredient, mana as int = 1000, catalyst as StateIngredient) as void{
         <recipetype:botania:mana_infusion>.addRecipe(output.genRecipeName("infusion"),
