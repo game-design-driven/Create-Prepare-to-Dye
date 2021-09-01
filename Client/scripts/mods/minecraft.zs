@@ -169,10 +169,10 @@ for sapling in <tag:items:minecraft:saplings>.getElements(){
 //
 
 //prismarine_crystals are no longer mob drop and prismarine_shard disolve into them (and some dyes)
-Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,5,0);
+Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,0,5,0);
 <item:minecraft:prismarine_shard>.addTip("Warning! desolves in water");
 // <entitytype:minecraft:guardian>.removeDrop(<item:minecraft:prismarine_crystals>);
 <entitytype:minecraft:guardian>.addLootModifier("remove_prismarine_crystals_g", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 <entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 
-Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>);
+Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>,0.20);
