@@ -12,7 +12,20 @@ import stdlib.List;
 import mods.jei.JEI;
 import crafttweaker.api.util.text.MCTextComponent;
 import crafttweaker.api.recipe.Replacer;
+
+public expand MCWeightedItemStack{
+  public getNiceName() as string{
+      return NameUtils.fixing(this.stack.registryName);
+  }
+  public static var recipeID = 0;
+  public genRecipeName(recipeType as string)as string{
+    return recipeType+"_"+this.getNiceName()+"/"+recipeID++;
+  }
+}
 public expand IItemStack {
+    public getJsonName() as string{
+        return this.registryName.namespace+":"+this.registryName.path;
+    }
   public addTip(t as string) as IItemStack{
     if (settings.tooltipRequireSneak){
       this.modifyShiftTooltip((stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
@@ -93,15 +106,11 @@ public expand IItemStack {
   public getNiceName() as string{
       return NameUtils.fixing(this.registryName);
   }
-
-  public genRecipeName(recipeType as string)as string{
-    return recipeType+"_"+this.getNiceName()+"/"+getNewId();
-  }
-
   public static var recipeID = 0;
-  public getNewId() as int{
-      return(recipeID++);
+  public genRecipeName(recipeType as string)as string{
+    return recipeType+"_"+this.getNiceName()+"/"+recipeID++;
   }
+
 }
 public expand IItemStack[] {
   public hide() as IItemStack[] {for item in this{item.hide();}return this;}

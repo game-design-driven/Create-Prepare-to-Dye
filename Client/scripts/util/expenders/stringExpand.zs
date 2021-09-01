@@ -11,6 +11,10 @@ public expand string[IItemStack]{
 }
 
 public expand string{
+    public printMe() as string{
+        print(this);
+        return this;
+    }
     public red() as string{
         return "\u00A7c"+this+"\u00A7f";
     }
