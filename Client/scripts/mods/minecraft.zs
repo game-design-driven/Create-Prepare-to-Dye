@@ -8,6 +8,7 @@ import crafttweaker.api.blocks.MCBlockState;
 import crafttweaker.api.blocks.MCBlock;
 import mods.botania.StateIngredient;
 import stdlib.List;
+import crafttweaker.api.loot.modifiers.CommonLootModifiers;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
 mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
@@ -165,3 +166,17 @@ for sapling in <tag:items:minecraft:saplings>.getElements(){
 <item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 
 
+//
+
+Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>*5).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,5,0);
+<item:minecraft:prismarine_shard>.addTip("Warning! desolves in water");
+// <entitytype:minecraft:guardian>.removeDrop(<item:minecraft:prismarine_crystals>);
+<entitytype:minecraft:guardian>.addLootModifier("remove_prismarine_crystals_g", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
+<entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
+// CommonLootModifiers.removeAll(<item:minecraft:prismarine_crystals>);
+
+// import loottweaker.vanilla.loot.LootTables;
+// import loottweaker.vanilla.loot.LootTable;
+// import loottweaker.vanilla.loot.LootPool;
+
+// LootTables.getTable("minecraft:entities/pig").getPool("main").removeEntry("minecraft:porkchop");

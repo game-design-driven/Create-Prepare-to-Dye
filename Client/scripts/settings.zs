@@ -20,7 +20,7 @@ public class settings{
   public static val tooltip_highLightColor as string = "\u00A73";
   public static val tooltip_color as string = "\u00A73";
   public static val tooltipRequireSneak as bool = true;
-  public static val tooltip_prompt_color as string = "\u00A77";
+  public static val tooltip_prompt_color as string = "\u00A78";
 }
 
 // Black

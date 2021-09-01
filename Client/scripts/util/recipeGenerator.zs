@@ -22,10 +22,6 @@ import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.tag.MCTagWithAmount;
 import crafttweaker.api.fluid.MCFluid;
 public class Recipes{
-    public static var recipeID = 0;
-    public static getNewId() as int{
-        return(recipeID++);
-    }
     public static addAltar(output as IItemStack, inputs as IIngredient[],mana as int = 2500) as void{
         <recipetype:botania:runic_altar>.addRecipe(output.genRecipeName("runic_altar"), output, mana, inputs);
     }
@@ -86,8 +82,7 @@ public class Recipes{
     // ManaInfusion.addRecipe(name as string, output as IItemStack, input as IIngredient, mana as int, catalyst as StateIngredient, group as string, function as RecipeFunctionSingle) as void
     }
     public static addPurify(output as MCBlockState, input as StateIngredient,time as int = 150) as void{
-        val recipeType = "infusion";
-        <recipetype:botania:pure_daisy>.addRecipe(recipeType+"_"+output.block.getNiceName()+"_"+getNewId(), //TODO replace with new system
+        <recipetype:botania:pure_daisy>.addRecipe(output.genRecipeName("pure_daisy"), //TODO replace with new system
             output,input,time
         );
     }
@@ -216,7 +211,7 @@ public class Recipes{
     }
     //making items by putting items in a fluid
     // Recipes.addFluidToItem([(<item:minecraft:iron_ingot> * 60).weight(1),<item:minecraft:iron_ingot>.weight(2)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:lava>);
-    public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid) as void{
+    public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid = <fluid:minecraft:water>,rolls as int = 1,emptyWeight as int =0) as void{
         val inputsData = new List<IData>();
         for item in input{ //item is MCTagWithAmount
             inputsData.add({
@@ -238,7 +233,9 @@ public class Recipes{
         <recipetype:interactio:item_fluid_transform>.addJSONRecipe(output.genRecipeName("item_fluid_transform"),{
             "inputs":inputsData as IData[],
             "fluid":{"fluid":fluid.registryName},
-            "output":{"entries":outputsData as IData[]}
+            "output":{"entries":outputsData as IData[]},
+            "empty_weight": emptyWeight,
+            "rolls": rolls
         });
     }
 }
