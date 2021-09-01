@@ -1,6 +1,6 @@
 import crafttweaker.api.mods.Mods;
 
-RecipeGenerator.addMix(<fluid:pneumaticcraft:oil> * 250,"none",[<tag:items:forge:ores/biotite>],[<fluid:minecraft:water> * 250],1);
+Recipes.addMix(<fluid:pneumaticcraft:oil> * 250,"none",[<tag:items:forge:ores/biotite>],[<fluid:minecraft:water> * 250],1);
 
 //remove feeding_trough
 <item:quark:feeding_trough>.removeRecipe();

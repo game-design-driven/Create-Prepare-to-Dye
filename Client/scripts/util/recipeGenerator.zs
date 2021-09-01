@@ -21,12 +21,12 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.tag.MCTagWithAmount;
 import crafttweaker.api.fluid.MCFluid;
-public class RecipeGenerator{
+public class Recipes{
     public static var recipeID = 0;
     public static getNewId() as int{
         return(recipeID++);
     }
-    public static addAltar(output as IItemStack, mana as int, inputs as IIngredient[]) as void{
+    public static addAltar(output as IItemStack, inputs as IIngredient[],mana as int = 2500) as void{
         <recipetype:botania:runic_altar>.addRecipe(output.genRecipeName("runic_altar"), output, mana, inputs);
     }
     public static addSmoking(input as IItemStack, output as IIngredient,xp as float = 1.0,time as int = 30) as void{
@@ -34,20 +34,20 @@ public class RecipeGenerator{
     }
     public static shaped(output as IItemStack, recipe as IIngredient[][])as void{
         craftingTable.addShaped(output.genRecipeName("shaped"),output,recipe);
-        // RecipeGenerator.addMechanicalCrafting(output,recipe); //it seems they do add themselves auautomatically, they just don't show up in JEI
+        // Recipes.addMechanicalCrafting(output,recipe); //it seems they do add themselves auautomatically, they just don't show up in JEI
     }
     public static shaped(recipes as IIngredient[][][IItemStack])as void{
         for output, recipe in recipes{
-            RecipeGenerator.shaped(output,recipe);
+            Recipes.shaped(output,recipe);
         }
     }
     public static shapeless(output as IItemStack, recipe as IIngredient[])as void{
-        RecipeGenerator.addMix(output, "none",recipe.fakeAmount());
+        Recipes.addMix(output, "none",recipe.fakeAmount());
         craftingTable.addShapeless(output.genRecipeName("shapeless"),output,recipe);
     }
     public static shapeless(recipes as IIngredient[][IItemStack])as void{
         for output, recipe in recipes{
-            RecipeGenerator.shapeless(output,recipe);
+            Recipes.shapeless(output,recipe);
         }
     }
     public static addMix(output as IItemStack, heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
@@ -192,7 +192,7 @@ public class RecipeGenerator{
         });
     }
     //making a fluid by putting something in another fluid
-    // example RecipeGenerator.addFluidToFluid(<fluid:create:honey>, <fluid:minecraft:water>, [<tag:items:forge:ingots>*2,<tag:blocks:forge:dirt>]);
+    // example Recipes.addFluidToFluid(<fluid:create:honey>, <fluid:minecraft:water>, [<tag:items:forge:ingots>*2,<tag:blocks:forge:dirt>]);
     public static addFluidToFluid(output as MCFluid, input as MCFluid, catalysts as MCTagWithAmount<MCItemDefinition>[]) as void{
         var items = new List<IData>();
         for item in catalysts{
@@ -208,14 +208,14 @@ public class RecipeGenerator{
                 "entries": [{
                     "result": {
                     "fluid": output.registryName
-                    },"weight": 4
+                    },"weight": 1
                 }]
             }
         });
 
     }
     //making items by putting items in a fluid
-    // RecipeGenerator.addFluidToItem([(<item:minecraft:iron_ingot> * 60).weight(1),<item:minecraft:iron_ingot>.weight(2)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:lava>);
+    // Recipes.addFluidToItem([(<item:minecraft:iron_ingot> * 60).weight(1),<item:minecraft:iron_ingot>.weight(2)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:lava>);
     public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid) as void{
         val inputsData = new List<IData>();
         for item in input{ //item is MCTagWithAmount
@@ -242,10 +242,10 @@ public class RecipeGenerator{
         });
     }
 }
-RecipeGenerator.addAnvilSmashBlock(<block:minecraft:oak_log>,<block:minecraft:shulker_box>);
-RecipeGenerator.addFluidToItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:water>);
-RecipeGenerator.addItemExplosion([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
-RecipeGenerator.addAnvilSmashItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
+Recipes.addAnvilSmashBlock(<block:minecraft:oak_log>,<block:minecraft:shulker_box>);
+Recipes.addFluidToItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:water>);
+Recipes.addItemExplosion([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
+Recipes.addAnvilSmashItem([(<item:minecraft:shulker_box>.withTag({BlockEntityTag: {x: 0 as int, y: 0 as int, z: 0 as int, Items: [{Slot: 0 as byte, id: "minecraft:iron_ingot" as string, Count: 64 as byte}], id: "minecraft:shulker_box" as string}}) * 2).weight(1)],[<tag:items:forge:nuggets>*2]);
 class testObject {
 
 }

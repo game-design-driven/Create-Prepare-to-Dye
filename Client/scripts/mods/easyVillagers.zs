@@ -13,4 +13,4 @@ val vil = <item:easy_villagers:villager>.withTag({villager: {Brain: {memories: {
     display: {
         Name: "{\"text\":\""+settings.villagerBabyName+"\",\"italic\":\"false\"}" as string
     }});
-RecipeGenerator.addTrade([vil],[<item:pneumaticcraft:cod_n_chips>*16|<item:create:honeyed_apple>*32|<item:pneumaticcraft:salmon_tempura>*32|<item:minecraft:pumpkin_pie>*32|<item:create:sweet_roll>*64|<item:pneumaticcraft:sourdough_bread>*64]);
+Recipes.addTrade([vil],[<item:pneumaticcraft:cod_n_chips>*16|<item:create:honeyed_apple>*32|<item:pneumaticcraft:salmon_tempura>*32|<item:minecraft:pumpkin_pie>*32|<item:create:sweet_roll>*64|<item:pneumaticcraft:sourdough_bread>*64]);

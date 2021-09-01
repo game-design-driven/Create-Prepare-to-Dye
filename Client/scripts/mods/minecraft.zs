@@ -15,7 +15,7 @@ mods.jei.JEI.addItem(<item:minecraft:leather_leggings>.withNameAndColor("Synthet
 mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998));
 
 <item:minecraft:paper>.removeCraftingRecipe();
-RecipeGenerator.shaped({
+Recipes.shaped({
     <item:minecraft:chest> : [
         [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
         [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
@@ -70,7 +70,7 @@ RecipeGenerator.shaped({
     ]
 });
 
-RecipeGenerator.shapeless({
+Recipes.shapeless({
     <item:minecraft:fire_charge>*2:[
         <tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>,
         <tag:items:forge:gunpowder>,<tag:items:minecraft:coals>
@@ -87,10 +87,10 @@ RecipeGenerator.shapeless({
 });
 
 
-RecipeGenerator.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
+Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
 
-RecipeGenerator.addCrushing([<item:minecraft:orange_dye> % 50],<tag:items:forge:crops/carrot>);
-RecipeGenerator.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
+Recipes.addCrushing([<item:minecraft:orange_dye> % 50],<tag:items:forge:crops/carrot>);
+Recipes.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
 ///
 val s = <tag:items:minecraft:sand>;
 val g = <tag:items:forge:gunpowder>;
@@ -112,7 +112,7 @@ val r = <tag:items:forge:dyes/red>;
 
 //more gold recipes
 //gold from honey
-RecipeGenerator.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
+Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
  
 var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
@@ -124,10 +124,10 @@ var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:minecraft:lava> * 250));
 <recipetype:create:sequenced_assembly>.addRecipe(goldMaker);
  //more ways to get red stone
-RecipeGenerator.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
-RecipeGenerator.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
-RecipeGenerator.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
-RecipeGenerator.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
+Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
+Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
+Recipes.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
+Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
 
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
@@ -153,14 +153,14 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*4))
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
-RecipeGenerator.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
+Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
 for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
-    RecipeGenerator.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
 }
 for sapling in <tag:items:minecraft:saplings>.getElements(){
-    RecipeGenerator.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
 }
 <item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 

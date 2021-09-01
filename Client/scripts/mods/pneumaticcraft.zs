@@ -56,8 +56,8 @@ var builderr = <recipetype:create:sequenced_assembly>.builder("seq_test2")
 <item:pneumaticcraft:turbine_rotor>.removeRecipe();
 <item:pneumaticcraft:flow_detector_module>.removeRecipe();
 <recipeType:pneumaticcraft:pressure_chamber>.removeByName("pneumaticcraft:pressure_chamber/turbine_blade");
-RecipeGenerator.addPressureChamber([<item:pneumaticcraft:turbine_rotor>],[<tag:items:forge:dusts/redstone>*6,<tag:items:forge:ingots/gold>*3,<item:pneumaticcraft:ingot_iron_compressed>]);
-RecipeGenerator.addPressureChamber([<item:pneumaticcraft:flow_detector_module>],[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ingots/gold>*4,<item:pneumaticcraft:pressure_tube>]);
+Recipes.addPressureChamber([<item:pneumaticcraft:turbine_rotor>],[<tag:items:forge:dusts/redstone>*6,<tag:items:forge:ingots/gold>*3,<item:pneumaticcraft:ingot_iron_compressed>]);
+Recipes.addPressureChamber([<item:pneumaticcraft:flow_detector_module>],[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ingots/gold>*4,<item:pneumaticcraft:pressure_tube>]);
 
 //remove pneumaticraft flour
 <recipetype:pneumaticcraft:explosion_crafting>.removeByName("pneumaticcraft:explosion_crafting/wheat_flour");
@@ -68,18 +68,18 @@ RecipeGenerator.addPressureChamber([<item:pneumaticcraft:flow_detector_module>],
 //make compressed iron effiecieent with explosions, it's cool!
 <recipetype:pneumaticcraft:explosion_crafting>.removeByName("pneumaticcraft:explosion_crafting/compressed_iron_block");
 <recipetype:pneumaticcraft:explosion_crafting>.removeByName("pneumaticcraft:explosion_crafting/compressed_iron_ingot");
-RecipeGenerator.addPressureChamber([<item:pneumaticcraft:ingot_iron_compressed>],[<item:minecraft:iron_ingot>]);
-RecipeGenerator.addExplosion([<item:pneumaticcraft:ingot_iron_compressed>],<item:minecraft:iron_ingot>);
-RecipeGenerator.addExplosion([<item:pneumaticcraft:compressed_iron_block>],<item:minecraft:iron_block>);
+Recipes.addPressureChamber([<item:pneumaticcraft:ingot_iron_compressed>],[<item:minecraft:iron_ingot>]);
+Recipes.addExplosion([<item:pneumaticcraft:ingot_iron_compressed>],<item:minecraft:iron_ingot>);
+Recipes.addExplosion([<item:pneumaticcraft:compressed_iron_block>],<item:minecraft:iron_block>);
 
 
-RecipeGenerator.addMix(<item:pneumaticcraft:sourdough>,"none",[<item:create:wheat_flour>],[<fluid:pneumaticcraft:yeast_culture> * 1000]);
-RecipeGenerator.addMix(<item:pneumaticcraft:sourdough>*2,"none",[<item:create:dough>],[<fluid:pneumaticcraft:yeast_culture> * 1000]);
-RecipeGenerator.shapeless({
+Recipes.addMix(<item:pneumaticcraft:sourdough>,"none",[<item:create:wheat_flour>],[<fluid:pneumaticcraft:yeast_culture> * 1000]);
+Recipes.addMix(<item:pneumaticcraft:sourdough>*2,"none",[<item:create:dough>],[<fluid:pneumaticcraft:yeast_culture> * 1000]);
+Recipes.shapeless({
     <item:pneumaticcraft:sourdough> :[<item:create:wheat_flour>,<item:pneumaticcraft:yeast_culture_bucket>],
     <item:pneumaticcraft:sourdough>*2 :[<item:create:dough>,<item:pneumaticcraft:yeast_culture_bucket>],
 });
-RecipeGenerator.shaped({
+Recipes.shaped({
     <item:pneumaticcraft:range_upgrade> :[
         [<tag:items:pneumaticcraft:upgrade_components>, <tag:items:minecraft:arrows>, <tag:items:pneumaticcraft:upgrade_components>],
         [<tag:items:minecraft:arrows>, <item:minecraft:piston>, <tag:items:minecraft:arrows>],
@@ -138,12 +138,12 @@ mods.jei.JEI.addInfo(<item:pneumaticcraft:unassembled_pcb>, ["Made by etching an
 <item:pneumaticcraft:glycerol>.remove();
 <item:pneumaticcraft:fluid_mixer>.remove();
 val dieselEfficeincyModifer as int = 5;
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 10*dieselEfficeincyModifer,"superheated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 5*dieselEfficeincyModifer,"heated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 1*dieselEfficeincyModifer,"none" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"superheated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 50*dieselEfficeincyModifer,"heated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 10*dieselEfficeincyModifer,"superheated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 5*dieselEfficeincyModifer,"heated" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 1*dieselEfficeincyModifer,"none" ,[<item:create:limesand>],[<fluid:pneumaticcraft:oil> * 10]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"superheated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 50*dieselEfficeincyModifer,"heated" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
+Recipes.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModifer,"none" ,[],[<fluid:pneumaticcraft:ethanol> * 25,<fluid:pneumaticcraft:vegetable_oil> * 25]);
 
 //replace plaastic recipe
 <recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/plastic_from_biodiesel"); 
@@ -151,9 +151,9 @@ RecipeGenerator.addMix(<fluid:pneumaticcraft:diesel> * 25*dieselEfficeincyModife
 <recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/lpg"); 
 <recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/gasoline"); 
 <recipetype:pneumaticcraft:thermo_plant>.removeByName("pneumaticcraft:thermo_plant/kerosene"); 
-RecipeGenerator.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:charcoal>],[<fluid:pneumaticcraft:diesel> * 250]);
-RecipeGenerator.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:coal>],[<fluid:pneumaticcraft:diesel> * 200]);
-RecipeGenerator.addPurify(<blockstate:pneumaticcraft:plastic:level=0>,<blockstate:pneumaticcraft:diesel:level=0>);
+Recipes.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:charcoal>],[<fluid:pneumaticcraft:diesel> * 250]);
+Recipes.addMix(<fluid:pneumaticcraft:plastic> * 250,"superheated" ,[<item:minecraft:coal>],[<fluid:pneumaticcraft:diesel> * 200]);
+Recipes.addPurify(<blockstate:pneumaticcraft:plastic:level=0>,<blockstate:pneumaticcraft:diesel:level=0>);
 
 //replace pneumatic cylinder
 <item:pneumaticcraft:pneumatic_cylinder>.removeAndReplace(<item:pneumaticcraft:plastic>);
@@ -186,8 +186,8 @@ var builderrr = <recipetype:create:sequenced_assembly>.builder("seq_test3")
 <recipetype:create:sequenced_assembly>.addRecipe(builderrr);
 <item:pneumaticcraft:capacitor>.remove();
 <item:pneumaticcraft:transistor>.remove();
-RecipeGenerator.addInfusion(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),<item:pneumaticcraft:empty_pcb>,250,<block:minecraft:purple_wool>);
-RecipeGenerator.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),"none",[<item:pneumaticcraft:empty_pcb>,<tag:items:forge:dusts/redstone>*4,<tag:items:forge:dusts/glowstone>*8]);
+Recipes.addInfusion(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),<item:pneumaticcraft:empty_pcb>,250,<block:minecraft:purple_wool>);
+Recipes.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),"none",[<item:pneumaticcraft:empty_pcb>,<tag:items:forge:dusts/redstone>*4,<tag:items:forge:dusts/glowstone>*8]);
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_test_catalyst", <item:pneumaticcraft:empty_pcb>, <item:pneumaticcraft:empty_pcb>, 200, <block:botania:alchemy_catalyst>, "uv", (usualOut as IItemStack, input as IItemStack) => {print("POTATO: "+input.tag.asMap()["pneumaticcraft:uv_exposure"].getString()); return usualOut.withTag(input.tag); });
 
 //remove pneumaticraft stone stuff

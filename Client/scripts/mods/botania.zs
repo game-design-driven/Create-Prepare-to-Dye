@@ -18,10 +18,10 @@
 //ideas: yeast, mixer,
 
 
-RecipeGenerator.addMix(<item:botania:fertilizer>,"none",[<tag:items:botania:petals>*8,<item:minecraft:bone_meal>]);
-RecipeGenerator.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:pneumaticcraft:yeast_culture>* 100);
+Recipes.addMix(<item:botania:fertilizer>,"none",[<tag:items:botania:petals>*8,<item:minecraft:bone_meal>]);
+Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:pneumaticcraft:yeast_culture>* 100);
 // val aRealFluid as FluidIngredient= <fluid:create:potion>.withTag({Potion: "minecraft:healing" as string});
-// RecipeGenerator.addThermo(
+// Recipes.addThermo(
 //     <item:botania:fertilizer> as IItemStack,
 //     <fluid:minecraft:water> as IFluidStack,
 //     <item:minecraft:bone_meal> as IIngredient,

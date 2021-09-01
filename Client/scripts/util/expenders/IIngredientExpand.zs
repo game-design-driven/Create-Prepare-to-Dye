@@ -27,7 +27,7 @@ import crafttweaker.api.tag.MCTag;
 public expand IIngredient[][][IItemStack]{
     public genShaped() as IIngredient[][][IItemStack]{
         for output, recipe in this{
-            RecipeGenerator.shaped(output,recipe);
+            Recipes.shaped(output,recipe);
         }
         return this;
     }
@@ -36,7 +36,7 @@ public expand IIngredient[][][IItemStack]{
 public expand IIngredient[][IItemStack]{
     public genShapeless() as IIngredient[][IItemStack]{
         for output, recipe in this{
-            RecipeGenerator.shapeless(output,recipe);
+            Recipes.shapeless(output,recipe);
         }
         return this;
     }
