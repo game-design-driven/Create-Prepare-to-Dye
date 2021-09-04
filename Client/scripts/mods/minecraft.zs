@@ -185,5 +185,8 @@ Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorl
 
 //lighter colors with milk
 
-//
+//crushing sandstone
 Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items:forge:sandstone>);
+
+//
+Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:diorite>%10,<item:minecraft:gray_dye>%10],<item:minecraft:cobblestone>);
