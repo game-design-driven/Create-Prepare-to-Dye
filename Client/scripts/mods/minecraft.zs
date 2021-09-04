@@ -114,7 +114,11 @@ val r = <tag:items:forge:dyes/red>;
 //more gold recipes
 //gold from honey
 Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
- 
+<item:minecraft:gold_ore>.shaped([
+    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>,<tag:items:forge:ores>,<item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>]
+]);
 var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
     .require(<item:minecraft:egg>)
