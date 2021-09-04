@@ -5,7 +5,7 @@
 <tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/compressed_iron>);
 <tag:items:createrun:fertilizer>.add(<item:minecraft:bone_meal>);
 <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
-
+<tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
 <tag:items:crafttweaker:life_potions>.add([
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen" as string}),
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen_weak" as string}),

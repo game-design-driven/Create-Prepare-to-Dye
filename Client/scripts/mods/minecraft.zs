@@ -197,4 +197,7 @@ Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:gravel>%25,<item:mi
 
 //recipes to diamonds
 Recipes.addCompact(<item:minecraft:diamond>,[<tag:items:forge:storage_blocks/coal>*8],[],"superheated");
-Recipes.addCompact(<item:minecraft:diamond>,[<tag:items:forge:storage_blocks/coal>*64,<tag:items:forge:nuggets>],[],"superheated");
+Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag:items:forge:nuggets>],[],"superheated");
+
+//recipes to obsidian
+Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);

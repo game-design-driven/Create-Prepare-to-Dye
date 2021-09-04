@@ -129,7 +129,7 @@ public expand Recipes{
     }
     //making items by putting items in a fluid
     // Recipes.addFluidToItem([(<item:minecraft:iron_ingot> * 60).weight(1),<item:minecraft:iron_ingot>.weight(2)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:lava>);
-    public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid = <fluid:minecraft:water>,consumeChance as float = 0.0,rolls as int = 1,emptyWeight as int =0) as void{
+    public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid = <fluid:minecraft:water> as MCFluid,consumeChance as float = 0.0,rolls as int = 1,emptyWeight as int =0) as void{
         val inputsData = new List<IData>();
         for item in input{ //item is MCTagWithAmount
             inputsData.add({
