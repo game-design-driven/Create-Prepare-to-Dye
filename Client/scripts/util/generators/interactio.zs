@@ -34,7 +34,7 @@ public expand Recipes{
     }
     //make items by blowing up other items
     //example 
-    public static addItemExplosion(output as MCWeightedItemStack[],input as MCTagWithAmount<MCItemDefinition>[], emptyWeight as int = 0) as void{
+    public static addItemExplosion(output as MCWeightedItemStack[],input as MCTagWithAmount<MCItemDefinition>[],rolls as int = 1, emptyWeight as int = 0) as void{
         val outputsData = new List<IData>();
         for item in output{
             outputsData.add({
@@ -57,6 +57,7 @@ public expand Recipes{
             "type": "block",
             "entries": outputsData as IData[],
             "empty_weight": emptyWeight,
+            "rolls": rolls
         }
         });
     }
