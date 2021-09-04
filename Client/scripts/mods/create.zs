@@ -25,6 +25,16 @@ Orechid.main.removeOreWeight(<blockstate:create:zinc_ore>);
 Recipes.removeMix(<item:create:brass_ingot>);
 Recipes.addMix(<item:create:brass_ingot>, "heated",[<tag:items:forge:ingots/copper>,<tag:items:forge:ingots/gold>]);
 
+//cooper recipes
+Recipes.addDeploy([<item:create:copper_nugget>],<item:minecraft:gold_nugget>,<item:minecraft:redstone>);
+var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_copper_gold")
+    .transitionTo(<item:minecraft:gold_ingot>.withTag({"gold in process": 1 as int}))
+    .require(<item:minecraft:gold_ingot>)
+    .loops(4)
+    .addOutput(<item:create:copper_ingot>, 9)
+    .addOutput(<item:minecraft:brick>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:redstone>));
+<recipetype:create:sequenced_assembly>.addRecipe(goldMaker);
 Recipes.shaped({
     <item:create:copper_ore>: [
         [<item:minecraft:air>, <tag:items:forge:dusts/redstone>, <item:minecraft:air>],

@@ -31,4 +31,7 @@ public expand Recipes{
     public static addFill(output as IItemStack, input as IIngredient,fluidInput as IFluidStack,duration as int = 100) as void{
         <recipetype:create:filling>.addRecipe(output.genRecipeName("filling"), output, input, fluidInput);
     }
+    public static addDeploy(outputs as MCWeightedItemStack[],input as IIngredient, activator as IIngredient) as void{
+        <recipetype:create:deploying>.addRecipe(outputs.genRecipeName("deploying"), input, activator, outputs);
+    }
 }
