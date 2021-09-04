@@ -102,7 +102,8 @@ val r = <tag:items:forge:dyes/red>;
 //stolen from prject gear coz it looks cool
 <recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
 
-
+Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
+Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*16,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 //remove assembly from pnc
 <recipetype:pneumaticcraft:heat_frame_cooling>.addRecipe("temphearredstone", <tag:items:forge:dusts/redstone>, <item:minecraft:red_dye>*4, 233);
 ///alter pressure valve stuff
@@ -189,4 +190,4 @@ Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorl
 Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items:forge:sandstone>);
 
 //
-Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:diorite>%10,<item:minecraft:gray_dye>%10],<item:minecraft:cobblestone>);
+Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:gravel>%25,<item:minecraft:diorite>%10,<item:minecraft:gray_dye>%10],<item:minecraft:cobblestone>);

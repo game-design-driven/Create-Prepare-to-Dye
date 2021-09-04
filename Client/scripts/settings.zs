@@ -1,5 +1,6 @@
 #priority 99
-
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
 //Displays the disabled items in JEI if true for debuging
 // static showDisabled as bool = true;
 //
