@@ -1,3 +1,8 @@
+
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
+
+
 <item:botania:mana_fluxfield>.remove();
 [<item:botania:white_mystical_flower>,
 <item:botania:orange_mystical_flower>,
@@ -81,3 +86,25 @@ Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:pneu
 <item:quark:music_disc_crickets>,
 <item:quark:music_disc_chatter>
 ].remove();
+
+  val petals as IIngredient[] =[
+    <item:botania:black_petal>,
+    <item:botania:red_petal>,
+    <item:botania:green_petal>,
+    <item:botania:brown_petal>,
+    <item:botania:blue_petal>,
+    <item:botania:purple_petal>,
+    <item:botania:cyan_petal>,
+    <item:botania:light_gray_petal>,
+    <item:botania:gray_petal>,
+    <item:botania:pink_petal>,
+    <item:botania:lime_petal>,
+    <item:botania:yellow_petal>,
+    <item:botania:light_blue_petal>,
+    <item:botania:magenta_petal>,
+    <item:botania:orange_petal>,
+    <item:botania:white_petal>
+];
+
+//crushing recipoe to pettals
+Recipes.addCrushing([<item:minecraft:fern>%25,<item:minecraft:grass>%25,<item:minecraft:seagrass>%25,<item:minecraft:wheat_seeds>%10,<item:botania:mana_powder>%5],<tag:items:botania:petals>);
