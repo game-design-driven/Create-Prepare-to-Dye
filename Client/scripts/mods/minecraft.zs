@@ -136,6 +136,9 @@ Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_blo
 Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
 Recipes.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
 Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
+Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
+Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
+<item:minecraft:composter>.addTip("When almost full, can be used as a catalyst in a manapool");
 
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
@@ -165,10 +168,10 @@ Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:coppe
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
 for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
-    Recipes.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(f*2, f, <blockstate:minecraft:bee_nest:honey_level=5>, settings.beeDupingManaCost);
 }
 for sapling in <tag:items:minecraft:saplings>.getElements(){
-    Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), <blockstate:minecraft:bee_nest:honey_level=5>,settings.beeDupingManaCost);
 }
 <item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 
