@@ -13,6 +13,9 @@ public expand Recipes{
     public static addMix(output as IFluidStack,heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
         <recipetype:create:mixing>.addRecipe(output.genRecipeName("mixing"), heat, output, itemInputs,fluidInputs,duration);
     }
+    public static addPress(output as MCWeightedItemStack[], input as IIngredientWithAmount) as void{
+        <recipetype:create:pressing>.addRecipe(output.genRecipeName("pressing"),output,input);
+    }
     public static addCompact(output as IItemStack,itemInputs as IIngredientWithAmount[],fluidInputs as IFluidStack[] = [], heat as string = "none", duration as int = 250) as void{
         <recipetype:create:compacting>.addRecipe(output.genRecipeName("compacting"), heat, output, itemInputs, fluidInputs, duration);
     }

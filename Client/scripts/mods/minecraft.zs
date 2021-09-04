@@ -191,3 +191,7 @@ Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items
 
 //
 Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:gravel>%25,<item:minecraft:diorite>%10,<item:minecraft:gray_dye>%10],<item:minecraft:cobblestone>);
+
+//recipes to diamonds
+Recipes.addCompact(<item:minecraft:diamond>,[<tag:items:forge:storage_blocks/coal>*8],[],"superheated");
+Recipes.addCompact(<item:minecraft:diamond>,[<tag:items:forge:storage_blocks/coal>*64,<tag:items:forge:nuggets>],[],"superheated");
