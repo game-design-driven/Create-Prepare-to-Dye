@@ -29,7 +29,7 @@ Recipes.shaped({
     ],
     <item:minecraft:piston>*2 : [
         [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
-        [<tag:items:forge:cobblestone>, <tag:items:crafttweaker:strong_alloys>, <tag:items:forge:cobblestone>], 
+        [<tag:items:forge:cobblestone>, <tag:items:createrun:strong_alloys>, <tag:items:forge:cobblestone>], 
         [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:dispenser> : [
@@ -38,9 +38,9 @@ Recipes.shaped({
         [<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:hopper> : [
-        [<tag:items:crafttweaker:strong_alloys>, <item:minecraft:air>, <tag:items:crafttweaker:strong_alloys>],
-        [<tag:items:crafttweaker:strong_alloys>, <tag:items:forge:chests/wooden>, <tag:items:crafttweaker:strong_alloys>],
-        [<item:minecraft:air>, <tag:items:crafttweaker:strong_alloys>, <item:minecraft:air>]
+        [<tag:items:createrun:strong_alloys>, <item:minecraft:air>, <tag:items:createrun:strong_alloys>],
+        [<tag:items:createrun:strong_alloys>, <tag:items:forge:chests/wooden>, <tag:items:createrun:strong_alloys>],
+        [<item:minecraft:air>, <tag:items:createrun:strong_alloys>, <item:minecraft:air>]
     ],
     <item:minecraft:torch> * 8: [
         [<item:quark:tallow>],
@@ -88,9 +88,11 @@ Recipes.shapeless({
 });
 
 
-Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
+Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:createrun:fertilizer>]);
 
-Recipes.addCrushing([<item:minecraft:orange_dye> % 50],<tag:items:forge:crops/carrot>);
+Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:green_dye> % 4, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
+Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
+// Recipes.addFluidToItem([<item:minecraft:slime_ball>],[<tag:items:forge:dyes/lime>*9],<fluid:minecraft:milk>);
 Recipes.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
 ///
 val s = <tag:items:minecraft:sand>;
@@ -180,3 +182,8 @@ Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:m
 <entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 
 Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>,0.20);
+
+//lighter colors with milk
+
+//
+Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items:forge:sandstone>);
