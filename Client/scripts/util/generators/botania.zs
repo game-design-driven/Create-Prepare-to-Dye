@@ -8,7 +8,7 @@ public expand Recipes{
     public static addAltar(output as IItemStack, inputs as IIngredient[],mana as int = 2500) as void{
         <recipetype:botania:runic_altar>.addRecipe(output.genRecipeName("runic_altar"), output, mana, inputs);
     }
-    public static addInfusion(output as IItemStack, input as IIngredient, mana as int = 1000, catalyst as StateIngredient) as void{
+    public static addInfusion(output as IItemStack, input as IIngredient, catalyst as StateIngredient,mana as int = 1000) as void{
         <recipetype:botania:mana_infusion>.addRecipe(output.genRecipeName("infusion"),
             output, input, mana, catalyst
         );
