@@ -1,4 +1,5 @@
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.util.text.MCTextComponent;
 import stdlib.List;
 
 public expand string[IItemStack]{
@@ -65,3 +66,14 @@ public expand string{
 //   public hide() as IItemStack[] {for item in this{item.hide();}return this;}
 //   public remove() as IItemStack[] {for item in this{item.remove();}return this;}
 // }
+public expand List<MCTextComponent>{
+    public contains(element as MCTextComponent) as bool{
+        for e in this{
+            print(e.formattedText);
+            if e.formattedText == element.formattedText{
+                return true;
+            }
+        }
+        return false;
+    }
+}
