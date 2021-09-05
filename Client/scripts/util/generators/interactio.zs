@@ -13,7 +13,6 @@ import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.tag.MCTagWithAmount;
 import crafttweaker.api.fluid.MCFluid;
 import stdlib.List;
-
 public expand Recipes{
     public static addBlockExplosion(output as MCBlock,input as MCBlock,emptyWeightAgainst100 as int = 0) as void{
         <recipetype:interactio:block_explode>.addJSONRecipe(output.genRecipeName("block_explode"),{
