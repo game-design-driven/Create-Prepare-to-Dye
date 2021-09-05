@@ -44,10 +44,10 @@
 	#https://minecraft.fandom.com/wiki/Tick#Random_tick
 	#WARNING: This setting manipulates the randomTickSpeed game rule. To modify the base random tick speed,
 	#use the sleep.baseRandomTickSpeed config setting instead of changing the game rule directly.
-	accelerateRandomTicking = false
+	accelerateRandomTicking = true
 	#The base random tick speed to use when sleep.accelerateRandomTickSpeed config is enabled.
 	#Range: > 0
-	baseRandomTickSpeed = 3
+	baseRandomTickSpeed = 2
 
 #This section defines settings for notification messages.
 #All messages in this section support Minecraft formatting codes (https://minecraft.fandom.com/wiki/Formatting_codes).
@@ -59,7 +59,7 @@
 	#sleepingPlayers -> the number of players in the current dimension who were sleeping.
 	#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 	#sleepingPercentage -> the percentage of players in the current dimension who were sleeping (does not include % symbol).
-	morningMessage = "§e§oTempus fugit!"
+	morningMessage = ""
 	#Sets the message type for the morning message.
 	#SYSTEM: Appears as a message in the chat. (e.g., "Respawn point set")
 	#GAME_INFO: Game information that appears above the hotbar (e.g., "You may not rest now, the bed is too far away").
