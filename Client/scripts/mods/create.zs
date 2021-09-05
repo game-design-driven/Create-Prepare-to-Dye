@@ -79,3 +79,16 @@ for millRecipe in <recipetype:create:milling>.getAllRecipes(){
 <recipetype:create:mixing>.removeByName("create:mixing/chromatic_compound");
 Recipes.addMix(<item:create:chromatic_compound>,("superheated"),[<item:minecraft:obsidian>*3,<item:minecraft:glowstone_dust>*3,<item:create:polished_rose_quartz>]);
 Recipes.addAltar(<item:create:chromatic_compound>*3,[<item:minecraft:obsidian>*4,<item:create:polished_rose_quartz>*2]);
+
+// sweetroll stole
+var sweetroll = <recipetype:create:sequenced_assembly>.builder("sweetbread")
+     .transitionTo(<item:minecraft:bread>.withTag({"bread in process": 1 as int}))
+     .require(<item:minecraft:bread>)
+     .loops(1)
+     .addOutput(<item:create:sweet_roll>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:sugar>))
+     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:minecraft:milk> * 250))
+     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:sugar>));
+<recipetype:create:sequenced_assembly>.addRecipe(sweetroll);
+
+<recipetype:create:filling>.removeByName("create:filling/sweet_roll");
