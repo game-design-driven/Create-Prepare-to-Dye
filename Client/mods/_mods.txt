@@ -5,7 +5,6 @@ Babel-1.0.5.jar
 BetterF3-1.1.3-forge-1.16.5.jar
 Botania-1.16.5-419.jar
 catalogue-1.3.0-1.16.5.jar
-CharcoalPit[1.16.5]-2.13.jar
 cloth-config-4.11.26-forge.jar
 Clumps-6.0.0.25.jar
 Controlling-7.0.0.24.jar
@@ -42,11 +41,11 @@ Placebo-1.16.5-4.6.0.jar
 pneumaticcraft-repressurized-1.16.5-2.14.1-245.jar
 Quark-r2.4-316.jar
 QuarkOddities-1.16.3.jar
-randomconfigs-1.16.2-1.4.2.2.jar
 randompatches-2.4.4-forge.jar
 ReAuth-1.16-Forge-3.9.3.jar
 refinedstorage-1.9.15.jar
 selene-1.16.5-1.6.1.jar
+serverconfigupdater-1.3.jar
 shutupexperimentalsettings-1.0.3.jar
 smoothboot-forge-1.16.4-1.2.2.jar
 sounddeviceoptions-1.4.3.jar
