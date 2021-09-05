@@ -14,5 +14,5 @@
 
 ["Version History"]
 	#Editing these values will not affect any worlds that are already on that version.
-	history = "1=hourglass,refinedstorage,create;2=hourglass,refinedstorage,create;"
+	history = "1=hourglass,easy_villagers,refinedstorage,create;2=hourglass,refinedstorage,create;"
 
