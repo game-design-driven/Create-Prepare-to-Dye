@@ -87,7 +87,7 @@ Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:pneu
 <item:quark:music_disc_chatter>
 ].remove();
 
-  val petals as IIngredient[] =[
+val petals as IIngredient[] =[
     <item:botania:black_petal>,
     <item:botania:red_petal>,
     <item:botania:green_petal>,

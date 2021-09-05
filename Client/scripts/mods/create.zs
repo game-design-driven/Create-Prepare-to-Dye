@@ -73,3 +73,9 @@ for millRecipe in <recipetype:create:milling>.getAllRecipes(){
 //     <item:create:copper_nugget> % 25,
 //     <item:minecraft:andesite> % 10
 // ],<tag:items:forge:ingots/zinc>);
+
+//replase pwdered obsidian
+<item:create:powdered_obsidian>.remove();
+<recipetype:create:mixing>.removeByName("create:mixing/chromatic_compound");
+Recipes.addMix(<item:create:chromatic_compound>,("superheated"),[<item:minecraft:obsidian>*3,<item:minecraft:glowstone_dust>*3,<item:create:polished_rose_quartz>]);
+Recipes.addAltar(<item:create:chromatic_compound>*3,[<item:minecraft:obsidian>*4,<item:create:polished_rose_quartz>*2]);
