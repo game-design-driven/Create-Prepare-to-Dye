@@ -316,7 +316,7 @@
 	# 
 	#Maximum possible range in blocks of redstone link connections.
 	#Range: > 1
-	linkRange = 128
+	linkRange = 256
 
 # 
 #Everything related to Schematic tools
