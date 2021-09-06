@@ -103,7 +103,7 @@ val r = <tag:items:forge:dyes/red>;
 <recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
 
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
-Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*16,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
+Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 //remove assembly from pnc
 <recipetype:pneumaticcraft:heat_frame_cooling>.addRecipe("temphearredstone", <tag:items:forge:dusts/redstone>, <item:minecraft:red_dye>*4, 233);
 ///alter pressure valve stuff
@@ -201,3 +201,7 @@ Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag
 
 //recipes to obsidian
 Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);
+
+//oxydised gunpowder
+
+Recipes.addMix(<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("Oxydised Gunpowder"),"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);

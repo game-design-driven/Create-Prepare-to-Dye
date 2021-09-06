@@ -47,3 +47,27 @@
     <item:minecraft:rose_bush>,
     <item:minecraft:peony>
 ]);
+<tag:items:createrun:oxidiesers>.add([
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string}),
+    <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string}),
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})
+]);
+//fake version of tag because they behave wierd?
+public class tag{
+    public static val oxidiesers =     
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string})*4|
+    <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string})|
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string});
+}
