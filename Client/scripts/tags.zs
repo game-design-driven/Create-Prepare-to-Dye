@@ -1,10 +1,11 @@
 #priority 100
 <tag:items:minecraft:sand>.add(<item:create:limesand>); //TODO add a way to wash limesand into sand instead
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/manasteel>);
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/brass>);
-<tag:items:crafttweaker:strong_alloys>.add(<tag:items:forge:ingots/compressed_iron>);
-<tag:items:crafttweaker:fertilizer>.add(<item:minecraft:bone_meal>);
-
+<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/manasteel>);
+<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/brass>);
+<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/compressed_iron>);
+<tag:items:createrun:fertilizer>.add(<item:minecraft:bone_meal>);
+<tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
+<tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
 <tag:items:crafttweaker:life_potions>.add([
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen" as string}),
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen_weak" as string}),
@@ -46,3 +47,27 @@
     <item:minecraft:rose_bush>,
     <item:minecraft:peony>
 ]);
+<tag:items:createrun:oxidiesers>.add([
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string}),
+    <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string}),
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string}),
+    <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string}),
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})
+]);
+//fake version of tag because they behave wierd?
+public class tag{
+    public static val oxidiesers =     
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string})*4|
+    <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string})|
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+    <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string});
+}

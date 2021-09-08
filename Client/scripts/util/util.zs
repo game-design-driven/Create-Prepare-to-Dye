@@ -27,3 +27,5 @@ import crafttweaker.api.item.IIngredient;
 //         ));
 
 // "Some things are "+"more important".red()+" than others" <- this is how I want this to work
+
+//tests

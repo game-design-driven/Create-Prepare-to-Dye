@@ -186,7 +186,7 @@ var builderrr = <recipetype:create:sequenced_assembly>.builder("seq_test3")
 <recipetype:create:sequenced_assembly>.addRecipe(builderrr);
 <item:pneumaticcraft:capacitor>.remove();
 <item:pneumaticcraft:transistor>.remove();
-Recipes.addInfusion(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),<item:pneumaticcraft:empty_pcb>,250,<block:minecraft:purple_wool>);
+Recipes.addInfusion(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),<item:pneumaticcraft:empty_pcb>,<block:minecraft:purple_wool>);
 Recipes.addMix(<item:pneumaticcraft:empty_pcb>.withTag({"pneumaticcraft:uv_exposure": 25 as int}),"none",[<item:pneumaticcraft:empty_pcb>,<tag:items:forge:dusts/redstone>*4,<tag:items:forge:dusts/glowstone>*8]);
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_test_catalyst", <item:pneumaticcraft:empty_pcb>, <item:pneumaticcraft:empty_pcb>, 200, <block:botania:alchemy_catalyst>, "uv", (usualOut as IItemStack, input as IItemStack) => {print("POTATO: "+input.tag.asMap()["pneumaticcraft:uv_exposure"].getString()); return usualOut.withTag(input.tag); });
 

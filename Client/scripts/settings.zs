@@ -1,5 +1,6 @@
 #priority 99
-
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
 //Displays the disabled items in JEI if true for debuging
 // static showDisabled as bool = true;
 //
@@ -21,6 +22,7 @@ public class settings{
   public static val tooltip_color as string = "\u00A73";
   public static val tooltipRequireSneak as bool = true;
   public static val tooltip_prompt_color as string = "\u00A78";
+  public static val tooltip_prompt as string = "hold ".tooltipPromptColor()+"[Sneak]".tooltipHighLightColor()+ " for info...".tooltipPromptColor();
 }
 
 // Black

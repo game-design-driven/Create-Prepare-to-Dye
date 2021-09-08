@@ -34,7 +34,9 @@ public expand IItemStack {
         }
         tooltip.add("");
         }, (stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
-          tooltip.add("hold ".tooltipPromptColor()+"[Sneak]".tooltipHighLightColor()+ " for info...".tooltipPromptColor());
+          if (!tooltip.contains(settings.tooltip_prompt as MCTextComponent)){
+            tooltip.add(settings.tooltip_prompt);
+          }
         });
     }else{
       this.modifyTooltip((stack, tooltip, advanced) => {

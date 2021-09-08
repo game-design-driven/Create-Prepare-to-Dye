@@ -29,7 +29,7 @@ Recipes.shaped({
     ],
     <item:minecraft:piston>*2 : [
         [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
-        [<tag:items:forge:cobblestone>, <tag:items:crafttweaker:strong_alloys>, <tag:items:forge:cobblestone>], 
+        [<tag:items:forge:cobblestone>, <tag:items:createrun:strong_alloys>, <tag:items:forge:cobblestone>], 
         [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:dispenser> : [
@@ -38,9 +38,9 @@ Recipes.shaped({
         [<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:hopper> : [
-        [<tag:items:crafttweaker:strong_alloys>, <item:minecraft:air>, <tag:items:crafttweaker:strong_alloys>],
-        [<tag:items:crafttweaker:strong_alloys>, <tag:items:forge:chests/wooden>, <tag:items:crafttweaker:strong_alloys>],
-        [<item:minecraft:air>, <tag:items:crafttweaker:strong_alloys>, <item:minecraft:air>]
+        [<tag:items:createrun:strong_alloys>, <item:minecraft:air>, <tag:items:createrun:strong_alloys>],
+        [<tag:items:createrun:strong_alloys>, <tag:items:forge:chests/wooden>, <tag:items:createrun:strong_alloys>],
+        [<item:minecraft:air>, <tag:items:createrun:strong_alloys>, <item:minecraft:air>]
     ],
     <item:minecraft:torch> * 8: [
         [<item:quark:tallow>],
@@ -88,9 +88,11 @@ Recipes.shapeless({
 });
 
 
-Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:crafttweaker:fertilizer>]);
+Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:createrun:fertilizer>]);
 
-Recipes.addCrushing([<item:minecraft:orange_dye> % 50],<tag:items:forge:crops/carrot>);
+Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:green_dye> % 4, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
+Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
+// Recipes.addFluidToItem([<item:minecraft:slime_ball>],[<tag:items:forge:dyes/lime>*9],<fluid:minecraft:milk>);
 Recipes.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
 ///
 val s = <tag:items:minecraft:sand>;
@@ -100,7 +102,8 @@ val r = <tag:items:forge:dyes/red>;
 //stolen from prject gear coz it looks cool
 <recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
 
-
+Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
+Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 //remove assembly from pnc
 <recipetype:pneumaticcraft:heat_frame_cooling>.addRecipe("temphearredstone", <tag:items:forge:dusts/redstone>, <item:minecraft:red_dye>*4, 233);
 ///alter pressure valve stuff
@@ -114,7 +117,11 @@ val r = <tag:items:forge:dyes/red>;
 //more gold recipes
 //gold from honey
 Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
- 
+<item:minecraft:gold_ore>.shaped([
+    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>,<tag:items:forge:ores>,<item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>]
+]);
 var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
     .require(<item:minecraft:egg>)
@@ -129,6 +136,9 @@ Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_blo
 Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
 Recipes.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
 Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
+Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
+Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
+<item:minecraft:composter>.addTip("When almost full, can be used as a catalyst in a manapool");
 
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
@@ -158,10 +168,10 @@ Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:coppe
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
 for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
-    Recipes.addInfusion(f*2, f, settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(f*2, f, <blockstate:minecraft:bee_nest:honey_level=5>, settings.beeDupingManaCost);
 }
 for sapling in <tag:items:minecraft:saplings>.getElements(){
-    Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), settings.beeDupingManaCost, <blockstate:minecraft:bee_nest:honey_level=5>);
+    Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), <blockstate:minecraft:bee_nest:honey_level=5>,settings.beeDupingManaCost);
 }
 <item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 
@@ -176,3 +186,22 @@ Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:m
 <entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 
 Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>,0.20);
+
+//lighter colors with milk
+
+//crushing sandstone
+Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items:forge:sandstone>);
+
+//
+Recipes.addCrushing([<item:minecraft:gravel>,<item:minecraft:gravel>%25,<item:minecraft:diorite>%10,<item:minecraft:gray_dye>%10],<item:minecraft:cobblestone>);
+
+//recipes to diamonds
+Recipes.addCompact(<item:minecraft:diamond>,[<tag:items:forge:storage_blocks/coal>*8],[],"superheated");
+Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag:items:forge:nuggets>],[],"superheated");
+
+//recipes to obsidian
+Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);
+
+//oxydised gunpowder
+val oxydisedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("Oxydised Gunpowder"); 
+Recipes.addMix(oxydisedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
