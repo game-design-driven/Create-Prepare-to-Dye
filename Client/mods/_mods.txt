@@ -7,6 +7,7 @@ Botania-1.16.5-419.jar
 catalogue-1.3.0-1.16.5.jar
 cloth-config-4.11.26-forge.jar
 Clumps-6.0.0.25.jar
+ContentTweaker-1.16-1.0.0.develop.22.jar
 Controlling-7.0.0.24.jar
 CraftTweaker-1.16.5-7.1.2.416.jar
 create-mc1.16.5_v0.3.2d.jar
