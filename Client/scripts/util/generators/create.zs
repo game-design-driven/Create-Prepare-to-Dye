@@ -37,4 +37,8 @@ public expand Recipes{
     public static addDeploy(outputs as MCWeightedItemStack[],input as IIngredient, activator as IIngredient) as void{
         <recipetype:create:deploying>.addRecipe(outputs.genRecipeName("deploying"), input, activator, outputs);
     }
+    public static addSplashing(outputs as MCWeightedItemStack[],input as IIngredient) as void{
+        <recipetype:create:splashing>.addRecipe(outputs.genRecipeName("splashing"), outputs, input);
+    }
+
 }

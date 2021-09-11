@@ -24,7 +24,7 @@ import crafttweaker.api.item.IIngredient;
 
 
 Recipes.addMix(<item:botania:fertilizer>,"none",[<tag:items:botania:petals>*8,<item:minecraft:bone_meal>]);
-Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:pneumaticcraft:yeast_culture>* 100);
+Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:minecraft:milk>* 100);
 // val aRealFluid as FluidIngredient= <fluid:create:potion>.withTag({Potion: "minecraft:healing" as string});
 // Recipes.addThermo(
 //     <item:botania:fertilizer> as IItemStack,
