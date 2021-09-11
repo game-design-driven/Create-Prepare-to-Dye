@@ -6,6 +6,10 @@
 <tag:items:createrun:fertilizer>.add(<item:minecraft:bone_meal>);
 <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
 <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
+<tag:items:forge:plastic>.add(<item:contenttweaker:plastic_nurdle>);
+<tag:items:forge:acidic>.add(<item:contenttweaker:oxydised_gunpowder>);
+
+
 <tag:items:crafttweaker:life_potions>.add([
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen" as string}),
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen_weak" as string}),
