@@ -245,7 +245,7 @@ SummoningDirector.addSummonInfo(
                 "CustomNameVisible":1
             })
         )
-        .setWeight(100)
+        .setWeight(1)
     .setMutator((attempt as SummoningAttempt) => {
         if (attempt.world.raining) {
             attempt.message = "wheh?";
