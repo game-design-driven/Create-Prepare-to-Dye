@@ -301,3 +301,7 @@ Recipes.addAltar(<item:minecraft:phantom_membrane>,[<tag:items:minecraft:beds>,<
 
 Recipes.addMix(<item:minecraft:ghast_tear>*4,"none",[<item:botania:rune_sloth>,<item:botania:rune_air>]);
 Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>]);
+
+Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
+
+//, id: "minecraft:ghast_tear" as string (* 1)
