@@ -202,6 +202,3 @@ Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag
 //recipes to obsidian
 Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);
 
-//oxydised gunpowder
-val oxydisedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("Oxydised Gunpowder"); 
-Recipes.addMix(oxydisedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
