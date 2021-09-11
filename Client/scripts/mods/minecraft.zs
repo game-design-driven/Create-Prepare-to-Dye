@@ -304,4 +304,7 @@ Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>
 
 Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
 
+//firecharge recipe with oxydised_gunpowder
+Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxydised_gunpowder> * 8,<tag:items:minecraft:coals>]);
+
 //, id: "minecraft:ghast_tear" as string (* 1)
