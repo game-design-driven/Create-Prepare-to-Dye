@@ -75,8 +75,12 @@ public expand IItemStack {
     return this;
   }
   public hide() as IItemStack {
+    if (settings.debug_showHiddenItems){
+
+    }else{
       JEI.hideItem(this);
-      return this;
+    }
+    return this;
   }
   public removeRecipe() as IItemStack{
     print("removing recipe for --- "+this as string);

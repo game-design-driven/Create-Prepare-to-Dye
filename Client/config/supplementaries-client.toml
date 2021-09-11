@@ -177,3 +177,8 @@
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
 
+#Items
+[items]
+	#Adds an overlay to slingshots in gui displaying currently selected block
+	slingshot_overlay = true
+

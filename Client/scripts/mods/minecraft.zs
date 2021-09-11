@@ -9,6 +9,12 @@ import crafttweaker.api.blocks.MCBlock;
 import mods.botania.StateIngredient;
 import stdlib.List;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
+import mods.zensummoning.SummoningDirector;
+import mods.zensummoning.SummoningAttempt;
+import mods.zensummoning.SummoningInfo;
+import mods.zensummoning.MobInfo;
 
 mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
 mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
@@ -205,3 +211,93 @@ Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/
 //oxydised gunpowder
 val oxydisedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("Oxydised Gunpowder"); 
 Recipes.addMix(oxydisedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
+
+
+//summoning
+
+
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:minecraft:oak_sapling>)
+        .setReagents([<item:minecraft:stone>])
+        .addMob(MobInfo.create()
+            .setMob(<entityType:minecraft:cow>)
+        )
+);
+
+
+
+
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:minecraft:ender_eye>)
+        .setReagents([<item:minecraft:end_crystal>*4])
+        .addMob(MobInfo.create()
+            .setMob(<entityType:minecraft:ender_dragon>)
+        )
+        .setWeight(1)
+    .setMutator((attempt as SummoningAttempt) => {
+        if (attempt.world.raining) {
+            attempt.message = "Shes comiming!";
+            } else {
+            attempt.success = false;
+                attempt.message = "summon this in the rain!";
+        }
+    })
+);
+
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:minecraft:ender_eye>)
+        .setReagents([<item:minecraft:end_crystal>*4])
+        .addMob(MobInfo.create()
+            .setMob(<entityType:minecraft:enderman>)
+            .setData({
+                "CustomName":"confused enderman",
+                "CustomNameVisible":1
+            })
+        )
+        .setWeight(100)
+    .setMutator((attempt as SummoningAttempt) => {
+        if (attempt.world.raining) {
+            attempt.message = "wheh?";
+             } else {
+            attempt.success = false;
+                attempt.message = "summon this in the rain!";
+        }
+        
+    })
+);
+
+
+
+
+
+//elaitra recipe
+Recipes.addCrushing([<item:quark:dragon_scale>%50,<item:minecraft:black_dye>%75,<item:minecraft:magenta_dye>%75],<item:minecraft:dragon_head>);
+
+Recipes.addAltar(<item:minecraft:phantom_membrane>,[<tag:items:minecraft:beds>,<item:minecraft:cake>,<item:minecraft:cake>,<item:minecraft:leather>],1000);
+
+(<item:minecraft:elytra>).shaped([
+    [<item:minecraft:phantom_membrane>,<tag:items:forge:plastic>,<item:minecraft:phantom_membrane>],
+    [<item:minecraft:phantom_membrane>,<item:minecraft:air>,<item:minecraft:phantom_membrane>],
+    [<item:minecraft:phantom_membrane>,<item:minecraft:air>,<item:minecraft:phantom_membrane>]
+]);
+
+(<item:minecraft:phantom_membrane>).shaped([
+    [<item:botania:phantom_ink>,<item:botania:phantom_ink>,<item:botania:phantom_ink>],
+    [<item:botania:phantom_ink>,<tag:items:forge:plastic>,<item:botania:phantom_ink>],
+    [<item:botania:phantom_ink>,<item:botania:phantom_ink>,<item:botania:phantom_ink>]
+]);
+
+// Recipes.addDeploy([<item:minecraft:phantom_membrane>],(<tag:items:forge:plastic>*3),<item:botania:phantom_ink>);
+// var phanmemb = <recipetype:create:sequenced_assembly>.builder("fine_silky_nurdles")
+//     .transitionTo((<tag:items:forge:plastic>*3).withTag({"fine_nurdles": 1 as int}))
+//     .require(<tag:items:forge:plastic>*3)
+//     .loops(4)
+//     .addOutput(<item:minecraft:phantom_membrane>, 1)
+//     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:botania:phantom_ink>));
+// <recipetype:create:sequenced_assembly>.addRecipe(phanmemb);
+
+Recipes.addMix(<item:minecraft:ghast_tear>*4,"none",[<item:botania:rune_sloth>,<item:botania:rune_air>]);
+Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>]);

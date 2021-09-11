@@ -22,4 +22,5 @@ public expand Recipes{
             Recipes.shapeless(output,recipe);
         }
     }
+    //note: should use IItemStackExpand functions instead
 }
