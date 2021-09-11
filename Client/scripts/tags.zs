@@ -8,7 +8,12 @@
 <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
 <tag:items:forge:plastic>.add(<item:contenttweaker:plastic_nurdle>);
 <tag:items:forge:acidic>.add(<item:contenttweaker:oxydised_gunpowder>);
-
+<tag:items:forge:fish_bucket>.add([
+    <item:minecraft:pufferfish_bucket>,
+    <item:minecraft:salmon_bucket>,
+    <item:minecraft:cod_bucket>,
+    <item:minecraft:tropical_fish_bucket>
+]);
 
 <tag:items:crafttweaker:life_potions>.add([
     <item:botania:brew_flask>.withTag({brewKey: "botania:regen" as string}),
