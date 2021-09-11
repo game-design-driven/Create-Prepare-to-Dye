@@ -8,13 +8,14 @@ import stdlib.List;
 import mods.jei.JEI;
 import crafttweaker.api.tag.MCTag;
 
-// public expand IIngredient{
-//     // public getJsonName() as string{
-//     //     // print("LOG: "+this.commandString);
-//     //     // return "";
-//     //     return this.id.namespace+":"+this.registryName.path;
-//     // }
-// }
+public expand IIngredient{
+
+    // public getJsonName() as string{
+    //     // print("LOG: "+this.commandString);
+    //     // return "";
+    //     return this.id.namespace+":"+this.registryName.path;
+    // }
+}
 // public expand MCTag<IItemStack>{
 //     public getJsonName() as string{
 //         // print("LOG: "+this.commandString);
