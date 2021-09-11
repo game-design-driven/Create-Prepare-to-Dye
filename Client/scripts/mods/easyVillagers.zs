@@ -13,4 +13,10 @@ val vil = <item:easy_villagers:villager>.withTag({villager: {Brain: {memories: {
     display: {
         Name: "{\"text\":\""+settings.villagerBabyName+"\",\"italic\":\"false\"}" as string
     }});
-Recipes.addTrade([vil],[<item:pneumaticcraft:cod_n_chips>*16|<item:create:honeyed_apple>*32|<item:pneumaticcraft:salmon_tempura>*32|<item:minecraft:pumpkin_pie>*32|<item:create:sweet_roll>*64|<item:pneumaticcraft:sourdough_bread>*64]);
+
+//TODO: Add function to package ingridients in shulker boxes
+Recipes.addTrade([vil],[
+    <item:minecraft:white_shulker_box>.withTag({BlockEntityTag: {Items: [{Slot: 0 as byte, id: "create:honeyed_apple" as string, Count: 32 as byte}]}})|
+    <item:minecraft:white_shulker_box>.withTag({BlockEntityTag: {Items: [{Slot: 0 as byte, id: "minecraft:pumpkin_pie" as string, Count: 32 as byte}]}})|
+    <item:minecraft:white_shulker_box>.withTag({BlockEntityTag: {Items: [{Slot: 0 as byte, id: "create:sweet_roll" as string, Count: 64 as byte}]}})
+]);
