@@ -126,6 +126,27 @@ public expand Recipes{
         });
 
     }
+    // public static addFluidToFluid(output as MCFluid, input as MCFluid, catalysts as IIngredientWithAmount[]) as void{
+    //     var items = new List<IData>();
+    //     for item in catalysts{
+    //         items.add({
+    //             "item": item.stack.registryName,
+    //             "count": item.amount,
+    //         });
+    //     }
+    //     <recipetype:interactio:fluid_fluid_transform>.addJSONRecipe(output.genRecipeName("fluid_fluid_transform"),{
+    //         "items": items as IData[],
+    //         "input": {"fluid": input.registryName},
+    //         "output": {
+    //             "entries": [{
+    //                 "result": {
+    //                 "fluid": output.registryName
+    //                 },"weight": 1
+    //             }]
+    //         }
+    //     });
+
+    // }
     //making items by putting items in a fluid
     // Recipes.addFluidToItem([(<item:minecraft:iron_ingot> * 60).weight(1),<item:minecraft:iron_ingot>.weight(2)],[<tag:items:forge:nuggets>*2], <fluid:minecraft:lava>);
     public static addFluidToItem(output as MCWeightedItemStack[], input as MCTagWithAmount<MCItemDefinition>[], fluid as MCFluid = <fluid:minecraft:water> as MCFluid,consumeChance as float = 0.0,rolls as int = 1,emptyWeight as int =0) as void{
