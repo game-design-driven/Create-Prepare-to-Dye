@@ -1,8 +1,7 @@
 #priority 100
 <tag:items:minecraft:sand>.add(<item:create:limesand>); //TODO add a way to wash limesand into sand instead
-<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/manasteel>);
-<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/brass>);
-<tag:items:createrun:strong_alloys>.add(<tag:items:forge:ingots/compressed_iron>);
+<tag:items:forge:alloys/strong>.add(<tag:items:forge:ingots/manasteel>);
+<tag:items:forge:alloys/strong>.add(<tag:items:forge:ingots/brass>);
 <tag:items:createrun:fertilizer>.add(<item:minecraft:bone_meal>);
 <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
 <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);

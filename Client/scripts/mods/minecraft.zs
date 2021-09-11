@@ -35,7 +35,7 @@ Recipes.shaped({
     ],
     <item:minecraft:piston>*2 : [
         [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
-        [<tag:items:forge:cobblestone>, <tag:items:createrun:strong_alloys>, <tag:items:forge:cobblestone>], 
+        [<tag:items:forge:cobblestone>, <tag:items:forge:alloys/strong>, <tag:items:forge:cobblestone>], 
         [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:dispenser> : [
@@ -44,36 +44,36 @@ Recipes.shaped({
         [<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
     ],
     <item:minecraft:hopper> : [
-        [<tag:items:createrun:strong_alloys>, <item:minecraft:air>, <tag:items:createrun:strong_alloys>],
-        [<tag:items:createrun:strong_alloys>, <tag:items:forge:chests/wooden>, <tag:items:createrun:strong_alloys>],
-        [<item:minecraft:air>, <tag:items:createrun:strong_alloys>, <item:minecraft:air>]
+        [<tag:items:forge:alloys/strong>, <item:minecraft:air>, <tag:items:forge:alloys/strong>],
+        [<tag:items:forge:alloys/strong>, <tag:items:forge:chests/wooden>, <tag:items:forge:alloys/strong>],
+        [<item:minecraft:air>, <tag:items:forge:alloys/strong>, <item:minecraft:air>]
     ],
     <item:minecraft:torch> * 8: [
         [<item:quark:tallow>],
 	    [<tag:items:forge:rods/wooden>]
     ],
     <item:minecraft:white_shulker_box> : [
-        [<item:pneumaticcraft:plastic>],
+        [<tag:items:forge:plastic>],
         [<tag:items:forge:chests>],
-        [<item:pneumaticcraft:plastic>]
+        [<tag:items:forge:plastic>]
     ],
     
     <item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998) : [
-        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
-        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
+        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
     ],
     <item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998) : [
-        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>],
-        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
-        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>]
+        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
+        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>]
     ],
     <item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998) : [
-        [<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>,<item:pneumaticcraft:plastic>],
-        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>],
-        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
+        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
+        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
     ],
     <item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998) : [
-        [<item:pneumaticcraft:plastic>,<item:minecraft:air>,<item:pneumaticcraft:plastic>]
+        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
     ]
 });
 
@@ -89,8 +89,7 @@ Recipes.shapeless({
     <item:minecraft:shulker_box> : [
         <item:minecraft:white_shulker_box>,<tag:items:forge:dyes/purple>
     ],
-    <item:minecraft:paper> : [<item:pneumaticcraft:tag_filter>],
-    <item:minecraft:name_tag> * 4:[<item:pneumaticcraft:plastic>,<tag:items:forge:string>]
+    <item:minecraft:name_tag> * 4:[<tag:items:forge:plastic>,<tag:items:forge:string>]
 });
 
 
@@ -99,7 +98,6 @@ Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:
 Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:green_dye> % 4, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
 Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
 // Recipes.addFluidToItem([<item:minecraft:slime_ball>],[<tag:items:forge:dyes/lime>*9],<fluid:minecraft:milk>);
-Recipes.addPressureChamber([<item:minecraft:orange_dye>*4],[<tag:items:forge:crops/carrot>], 4.0);
 ///
 val s = <tag:items:minecraft:sand>;
 val g = <tag:items:forge:gunpowder>;
@@ -110,15 +108,6 @@ val r = <tag:items:forge:dyes/red>;
 
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
-//remove assembly from pnc
-<recipetype:pneumaticcraft:heat_frame_cooling>.addRecipe("temphearredstone", <tag:items:forge:dusts/redstone>, <item:minecraft:red_dye>*4, 233);
-///alter pressure valve stuff
-<item:pneumaticcraft:pressure_chamber_valve>.removeRecipe();
-<item:pneumaticcraft:pressure_chamber_valve>.shaped([
-    [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>],
-    [<tag:items:forge:ingots/compressed_iron>,<item:pneumaticcraft:pressure_tube>,<tag:items:forge:ingots/compressed_iron>],
-    [<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>,<tag:items:forge:ingots/compressed_iron>]
-]);
 
 //more gold recipes
 //gold from honey
@@ -140,7 +129,6 @@ var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
  //more ways to get red stone
 Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
 Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>);
-Recipes.addPressureChamber([<item:minecraft:redstone>*2],[<item:minecraft:nether_wart>,<item:minecraft:gold_nugget>]);
 Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
@@ -157,7 +145,7 @@ var fakeemerald = <recipetype:create:sequenced_assembly>.builder("seq_emerald")
     .addOutput(<item:minecraft:coal>, 1)
     .addOutput(<item:minecraft:green_dye>, 2)
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>))
-    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 250));
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 250));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald);
 var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_mana")
     .transitionTo(<item:botania:mana_diamond>.withTag({"diamond in a process": 1 as int}))
@@ -168,7 +156,7 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addOutput(<item:minecraft:coal>, 1)
     .addOutput(<item:minecraft:green_dye>, 2)
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*4))
-    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:pneumaticcraft:etching_acid> * 1000));
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
 Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
@@ -302,7 +290,7 @@ Recipes.addAltar(<item:minecraft:phantom_membrane>,[<tag:items:minecraft:beds>,<
 Recipes.addMix(<item:minecraft:ghast_tear>*4,"none",[<item:botania:rune_sloth>,<item:botania:rune_air>]);
 Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>]);
 
-Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
+// Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
 
 //firecharge recipe with oxydised_gunpowder
 Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxydised_gunpowder> * 8,<tag:items:minecraft:coals>]);

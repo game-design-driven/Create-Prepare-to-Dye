@@ -47,10 +47,10 @@ Recipes.addItemExplosion([<item:create:copper_ore>.weight(5),<item:minecraft:sto
 <item:create:copper_ore>.addTip("Does not naturally occur, has to be crafted");
 Recipes.addMix(<item:create:copper_ore>*3,"heated",[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ores>,<tag:items:forge:stone>]);
 // <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("redstone_copper_pressure", [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8],[<item:create:copper_ore>*5,<item:minecraft:stone> *3] , 2.5);
-Recipes.addPressureChamber(
-    [<item:create:copper_ore>*5,<item:minecraft:stone> *3],
-    [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8], 2.5
-); 
+// Recipes.addPressureChamber(
+//     [<item:create:copper_ore>*5,<item:minecraft:stone> *3],
+//     [<tag:items:forge:dusts/redstone>,<tag:items:forge:ores>*8], 2.5
+// ); 
 
 <recipetype:create:milling>.removeByName("create:milling/sand");
 <recipetype:create:milling>.removeByName("create:milling/diorite");
