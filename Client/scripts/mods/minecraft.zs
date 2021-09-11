@@ -202,3 +202,5 @@ Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag
 //recipes to obsidian
 Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);
 
+//firecharge with oxydised gunpowder
+Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxydised_gunpowder> * 8,<tag:items:minecraft:coals>]);
