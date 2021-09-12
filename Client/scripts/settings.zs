@@ -12,7 +12,7 @@ import crafttweaker.api.item.IIngredient;
 // static showRestrictedItemsForCreateivePlayers as bool = true;
 
 public class settings{
-  public static val debug_showHiddenItems = true;
+  public static val debug_showHiddenItems = false;
   public static val t = "many potatoes";
   public static val infusionSimpleRecipeManaCost = 500;
   public static val beeDupingManaCost = 1000;

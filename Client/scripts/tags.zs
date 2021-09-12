@@ -1,4 +1,8 @@
 #priority 100
+<tag:items:create:crushed_ores/iron>.add(<item:create:crushed_iron_ore>);
+<tag:items:create:crushed_ores/gold>.add(<item:create:crushed_gold_ore>);
+<tag:items:create:crushed_ores/copper>.add(<item:create:crushed_copper_ore>);
+<tag:items:create:crushed_ores/brass>.add(<item:create:crushed_brass>);
 <tag:items:minecraft:sand>.add(<item:create:limesand>); //TODO add a way to wash limesand into sand instead
 <tag:items:forge:alloys/strong>.add(<tag:items:forge:ingots/manasteel>);
 <tag:items:forge:alloys/strong>.add(<tag:items:forge:ingots/brass>);

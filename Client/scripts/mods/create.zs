@@ -21,9 +21,17 @@ Orechid.main.removeOreWeight(<blockstate:create:zinc_ore>);
     <item:create:zinc_block>,
     <item:create:zinc_ore>
 ].remove();
-<item:create:zinc_ingot>.removeAndReplace(<item:minecraft:gold_ingot>);
+<item:create:zinc_ingot>.removeAndReplace(<item:minecraft:iron_ingot>);
 Recipes.removeMix(<item:create:brass_ingot>);
-Recipes.addMix(<item:create:brass_ingot>, "heated",[<tag:items:forge:ingots/copper>,<tag:items:forge:ingots/gold>]);
+Recipes.addMix(<item:create:brass_ingot>, "heated",[<tag:items:forge:ingots/copper>,<tag:items:forge:ingots/iron>]);
+//brass
+Recipes.addMix(<item:create:brass_ingot>*3, "heated",[<tag:items:forge:ingots/copper>*2,<tag:items:forge:ingots/iron>*3,<tag:items:forge:ingots/gold>]);
+Recipes.removeMix(<item:create:crushed_brass>);
+Recipes.addMix(<item:create:crushed_brass>*2, "heated",[<item:create:crushed_copper_ore>*4,<item:create:crushed_iron_ore>]);
+Recipes.addMix(<item:create:crushed_brass>*2, "heated",[<item:create:crushed_copper_ore>,<item:create:crushed_iron_ore>,<tag:items:forge:nuggets/manasteel>]);
+Recipes.addMix(<item:create:crushed_brass>*2, "heated",[<item:create:crushed_copper_ore>,<tag:items:forge:nuggets/manasteel> * 9]);
+Recipes.addTrade([<item:create:crushed_brass>],[<tag:items:forge:ingots/copper>,<item:minecraft:bread>]);
+Recipes.addItemExplosion([(<item:minecraft:redstone>*2).weight(25),(<item:create:crushed_brass>*4).weight(75)],[<tag:items:forge:dusts/mana>,<tag:items:create:crushed_ores/iron>,<tag:items:create:crushed_ores/copper>]);
 
 //cooper recipes
 Recipes.addDeploy([<item:create:copper_nugget>],<item:minecraft:gold_nugget>,<item:minecraft:redstone>);
@@ -92,3 +100,4 @@ var sweetroll = <recipetype:create:sequenced_assembly>.builder("sweetbread")
 <recipetype:create:sequenced_assembly>.addRecipe(sweetroll);
 
 <recipetype:create:filling>.removeByName("create:filling/sweet_roll");
+
