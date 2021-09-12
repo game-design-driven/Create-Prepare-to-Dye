@@ -296,3 +296,7 @@ Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>
 Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxydised_gunpowder> * 8,<tag:items:minecraft:coals>]);
 
 //, id: "minecraft:ghast_tear" as string (* 1)
+
+//metherack and nether bricks
+Recipes.addCrushing([<item:minecraft:brick>%50,<item:minecraft:netherrack>%25,<item:minecraft:nether_wart>%10],<item:minecraft:nether_brick>);
+Recipes.addBlockExplosion(<block:minecraft:netherrack>,<block:minecraft:red_nether_bricks>);
