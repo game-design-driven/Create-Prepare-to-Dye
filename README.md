@@ -4,17 +4,16 @@ Create.run is an opinionated, minimalistic modpack centered around complex and i
 
 ## Core values
 * Complex and unique automation
-* Radical simplifcation, No clutter. Every item and block has a reason to be in the game.
+* Radical simplification, No clutter. Every item and block has a reason to be in the game.
 * Lower amount of tasks that aren't "making cool stuff"
 * Lightweight
 * Documentation
-* Customization - we have a clear gameplay loop we try to inforce, but if there is something that doesn't fit, you should be able to change it easily.
+* Customization - we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
 
 
 ## Complex and unique automation:
-* Create - A core part of the pack, the uniqeue logistics and processes of the mod allow us to explore new teretory in problem solving and creative automation*1
+* Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation*1
 * Botania - Another core element of the run epxeriance.
-* Pneumaticraft - This mod has a lot of interesting systems to build on
 * Quark + oddities
 * Supplementaries
 
@@ -40,9 +39,12 @@ Create.run is an opinionated, minimalistic modpack centered around complex and i
 [Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
 
 # Roadmap
-| Goal                                  |      Estimated Progress      |  Priority |
-|---------------------------------------|:-------------:|------:|
-| Core Mod List                         | ![](https://progress-bar.dev/50) | Critical |
-| Core Gameplay loop                    | ![](https://progress-bar.dev/80) | Critical |
-| Loop Entry Point / Game Start and End | ![](https://progress-bar.dev/25) | High |
+|Goal                              	    |Estimated Progress           |Priority  |Alpha Ready	|Description |
+|--------------------------------------|:---------------------------------:|-----------:|-------------:|------------------------:|
+|Core Mod List                         | ![](https://progress-bar.dev/50)  | Critical   | ✔				| The mods that help construct the core gameplay loop|
+|Core Gameplay loop                    | ![](https://progress-bar.dev/80)  | Critical   | ✔				| The basic elements that repeats and evolve as the game loops|
+|Loop Entry Point / Game Start and End | ![](https://progress-bar.dev/25)  | High       |   			| A goal for the player to push them into the game and give them a reason to enter the core gameplay loop|
+|Documentation                         | ![](https://progress-bar.dev/30)  | High       |   			| The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value |
+|Modularity                            | ![](https://progress-bar.dev/80)  | Standard   |   			| All core aspects of the pack are configurable|
+|Performance                           | ![](https://progress-bar.dev/65)  | Low       	|   			| The pack starts up fast and can run on low end pcs well even through the end game|
 
