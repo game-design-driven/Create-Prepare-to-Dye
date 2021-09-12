@@ -38,3 +38,11 @@ Create.run is an opinionated, minimalistic modpack centered around complex and i
 
 
 [Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
+
+# Roadmap
+| Goal                                  |      Estimated Progress      |  Priority |
+|---------------------------------------|:-------------:|------:|
+| Core Mod List                         | ![](https://progress-bar.dev/50) | Critical |
+| Core Gameplay loop                    | ![](https://progress-bar.dev/80) | Critical |
+| Loop Entry Point / Game Start and End | ![](https://progress-bar.dev/25) | High |
+
