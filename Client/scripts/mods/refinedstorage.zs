@@ -94,3 +94,24 @@ var cableAssembly = <recipetype:create:sequenced_assembly>.builder("cable_ass")
     [<item:refinedstorage:cable>,<item:minecraft:ender_eye>,<item:refinedstorage:cable>],
     [<item:refinedstorage:cable>,<item:refinedstorage:cable>,<item:refinedstorage:cable>]
 ]);
+
+<item:refinedstorage:controller>.shaped([
+    [<item:create:andesite_casing>,<tag:items:forge:ingots/copper>,<item:create:andesite_casing>],
+    [<tag:items:forge:ingots/copper>,<tag:items:forge:dusts/mana>,<tag:items:forge:ingots/copper>],
+    [<item:create:andesite_casing>,<tag:items:forge:ingots/copper>,<item:create:andesite_casing>]
+]);
+
+<item:refinedstorage:grid>.shaped([
+    [<item:create:andesite_casing>,<item:create:andesite_casing>,<tag:items:forge:glass>],
+    [<tag:items:forge:ingots/copper>,<tag:items:forge:dusts/mana>,<tag:items:forge:glass>],
+    [<item:create:andesite_casing>,<item:create:andesite_casing>,<tag:items:forge:glass>]
+]);
+
+<item:refinedstorage:storage_monitor>.shaped([
+    [<item:create:andesite_casing>,<item:create:andesite_casing>,<tag:items:forge:glass>],
+    [<tag:items:forge:ingots/copper>,<tag:items:forge:dusts/mana>,<item:minecraft:comparator>],
+    [<item:create:andesite_casing>,<item:create:andesite_casing>,<tag:items:forge:glass>]
+]);
+
+Recipes.addItemExplosion([<item:refinedstorage:crafting_grid>],[<tag:items:forge:screen>,<tag:items:charm:crafting_tables>,<tag:items:forge:slimeballs>]);
+Recipes.addTrade([<item:refinedstorage:crafting_grid>],[<tag:items:forge:screen>,<tag:items:charm:crafting_tables>,<item:minecraft:bread>]);

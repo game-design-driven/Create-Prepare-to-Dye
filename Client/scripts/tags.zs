@@ -83,3 +83,8 @@ public class tag{
     <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
     <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string});
 }
+
+<tag:items:forge:screen>.add([
+    <item:refinedstorage:grid>,
+    <item:refinedstorage:storage_monitor>
+]);
