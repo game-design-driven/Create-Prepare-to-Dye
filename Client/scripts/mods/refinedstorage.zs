@@ -65,16 +65,13 @@ for item in loadedMods.getMod("refinedstorage").items{
         item.remove();
     }
 }
-
-//silicon recieps
-Recipes.addItemExplosion([<item:refinedstorage:silicon>.weight(10)],[<tag:items:forge:gems/quartz>*4],2,25);
-Recipes.addMix(<item:refinedstorage:silicon>*8,"superheated",[<tag:items:forge:gems/quartz>*4,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:coals>]);
-
+//remove silicon
+<item:refinedstorage:silicon>.remove();
 //cable recipes
 (<item:refinedstorage:cable>*4).shaped([
-    [<tag:items:forge:silicon>,<tag:items:forge:silicon>,<tag:items:forge:silicon>],
+    [<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>],
     [<item:create:polished_rose_quartz>,<item:create:polished_rose_quartz>,<item:create:polished_rose_quartz>],
-    [<tag:items:forge:silicon>,<tag:items:forge:silicon>,<tag:items:forge:silicon>]
+    [<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>]
 ]);
 
 (<item:refinedstorage:cable>).shaped([
@@ -88,7 +85,7 @@ var cableAssembly = <recipetype:create:sequenced_assembly>.builder("cable_ass")
     .require(<item:morered:red_alloy_wire>*64)
     .loops(6)
     .addOutput(<item:refinedstorage:cable>*32, 1)
-    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:silicon>));
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:contenttweaker:plastic_nurdle>));
 <recipetype:create:sequenced_assembly>.addRecipe(cableAssembly);
 
 (<item:refinedstorage:external_storage>*4).shapeless([<item:refinedstorage:cable>,<tag:items:forge:ender_pearls>,<item:refinedstorage:cable>]);
