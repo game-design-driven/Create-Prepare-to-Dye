@@ -300,3 +300,5 @@ Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>
 //metherack and nether bricks
 Recipes.addCrushing([<item:minecraft:brick>%50,<item:minecraft:netherrack>%25,<item:minecraft:nether_wart>%10],<item:minecraft:nether_brick>);
 Recipes.addBlockExplosion(<block:minecraft:netherrack>,<block:minecraft:red_nether_bricks>);
+
+Recipes.addFluidToItem([<item:minecraft:kelp>%50],[<item:minecraft:fern>]);
