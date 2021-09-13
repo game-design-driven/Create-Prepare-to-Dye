@@ -11,7 +11,8 @@ import crafttweaker.api.fluid.IFluidStack;
 
 <item:morered:red_alloy_wire>.removeRecipe();
 <item:morered:red_alloy_ingot>.removeAndReplace(<tag:items:forge:ingots/copper>);
-
+//remove and replace the red alloy tag as well
+(<tag:items:forge:ingots/redstone_alloy> as IIngredient).replace(<tag:items:forge:ingots/copper>);
 Recipes.shapeless({
     <item:morered:red_alloy_wire> * 8:[
         <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper> , <tag:items:forge:ingots/copper>

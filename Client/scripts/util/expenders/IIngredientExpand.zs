@@ -7,14 +7,13 @@ import crafttweaker.util.NameUtils;
 import stdlib.List;
 import mods.jei.JEI;
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.recipe.Replacer;
 
 public expand IIngredient{
-
-    // public getJsonName() as string{
-    //     // print("LOG: "+this.commandString);
-    //     // return "";
-    //     return this.id.namespace+":"+this.registryName.path;
-    // }
+  public replace(replacement as IIngredient) as IIngredient{
+    Replacer.forAllTypes().suppressWarnings().replace(this, replacement).execute();
+    return this;
+  }
 }
 // public expand MCTag<IItemStack>{
 //     public getJsonName() as string{
