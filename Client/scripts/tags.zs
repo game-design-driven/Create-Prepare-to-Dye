@@ -88,3 +88,9 @@ public class tag{
     <item:refinedstorage:grid>,
     <item:refinedstorage:storage_monitor>
 ]);
+
+<tag:items:forge:bush>.add(
+    <item:minecraft:dead_bush>,
+    <item:minecraft:fern>,
+    <item:minecraft:rose_bush>
+);
