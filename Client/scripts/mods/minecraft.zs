@@ -302,3 +302,11 @@ Recipes.addCrushing([<item:minecraft:brick>%50,<item:minecraft:netherrack>%25,<i
 Recipes.addBlockExplosion(<block:minecraft:netherrack>,<block:minecraft:red_nether_bricks>);
 
 Recipes.addFluidToItem([<item:minecraft:kelp>%50],[<tag:items:forge:bush>]);
+
+//alternate beacon recipe
+<item:minecraft:beacon>.shaped([
+    [<tag:items:forge:glass>,<tag:items:forge:glass>,<tag:items:forge:glass>],
+    [<tag:items:forge:glass>,<item:create:refined_radiance>,<tag:items:forge:glass>],
+    [<tag:items:forge:obsidian>,<tag:items:forge:ingots/netherite>,<tag:items:forge:obsidian>]
+]);
+
