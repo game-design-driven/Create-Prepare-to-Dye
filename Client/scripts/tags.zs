@@ -10,7 +10,7 @@
 <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
 <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
 <tag:items:forge:plastic>.add(<item:contenttweaker:plastic_nurdle>);
-<tag:items:forge:acidic>.add(<item:contenttweaker:oxydised_gunpowder>);
+<tag:items:forge:acidic>.add(<item:contenttweaker:oxidized_gunpowder>);
 <tag:items:forge:fish_bucket>.add([
     <item:minecraft:pufferfish_bucket>,
     <item:minecraft:salmon_bucket>,

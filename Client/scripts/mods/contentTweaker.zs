@@ -1,8 +1,8 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
-//oxydised gunpowder
-Recipes.addMix(<item:contenttweaker:oxydised_gunpowder>,"heated",[tag.oxidiesers,<item:minecraft:gunpowder>]);
+//oxidized gunpowder
+Recipes.addMix(<item:contenttweaker:oxidized_gunpowder>,"heated",[tag.oxidiesers,<item:minecraft:gunpowder>]);
 
 // plastic
 var plastic = <recipetype:create:sequenced_assembly>.builder("plastic_assembly")

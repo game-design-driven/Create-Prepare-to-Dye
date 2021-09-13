@@ -95,7 +95,7 @@ Recipes.shapeless({
 
 Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:createrun:fertilizer>]);
 
-Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:green_dye> % 4, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
+Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
 Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
 // Recipes.addFluidToItem([<item:minecraft:slime_ball>],[<tag:items:forge:dyes/lime>*9],<fluid:minecraft:milk>);
 ///
@@ -196,9 +196,9 @@ Recipes.addCompact(<item:minecraft:diamond>,[<item:quark:charcoal_block>*64,<tag
 //recipes to obsidian
 Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/lava>]);
 
-//oxydised gunpowder
-val oxydisedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("Oxydised Gunpowder"); 
-Recipes.addMix(oxydisedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
+//oxidized gunpowder
+val oxidizedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("oxidized Gunpowder"); 
+Recipes.addMix(oxidizedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
 
 
 //summoning
@@ -292,8 +292,8 @@ Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>
 
 // Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
 
-//firecharge recipe with oxydised_gunpowder
-Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxydised_gunpowder> * 8,<tag:items:minecraft:coals>]);
+//firecharge recipe with oxidized_gunpowder
+Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxidized_gunpowder> * 8,<tag:items:minecraft:coals>]);
 
 //, id: "minecraft:ghast_tear" as string (* 1)
 
