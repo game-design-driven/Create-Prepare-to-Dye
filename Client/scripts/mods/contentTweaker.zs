@@ -15,8 +15,19 @@ var plastic = <recipetype:create:sequenced_assembly>.builder("plastic_assembly")
     // .addStep(<recipetype:create:emptying>.factory(), (rb) => rb.output(<fluid:minecraft:water> * 1000))
     .addStep(<recipetype:create:cutting>.factory())    
     .addStep(<recipetype:create:pressing>.factory())
+;
+var plasticPearl = <recipetype:create:sequenced_assembly>.builder("plastic_assembly_pearl")
+    .transitionTo(<item:minecraft:ender_pearl>.withNameAndColor("viscous  oil",color.darkGreen))
+    .require(<tag:items:forge:ender_pearls>)
+    .loops(5)
+    .addOutput(<item:contenttweaker:plastic_nurdle>, 2)
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:oil> * 1000))   
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 25))
+    .addStep(<recipetype:create:cutting>.factory())    
+    .addStep(<recipetype:create:pressing>.factory())
 ; 
 <recipetype:create:sequenced_assembly>.addRecipe(plastic);
+<recipetype:create:sequenced_assembly>.addRecipe(plasticPearl);
 
 //acid
 Recipes.addFluidToFluid(<fluid:contenttweaker:acid>,<fluid:minecraft:water>,[<tag:items:forge:acidic>]);

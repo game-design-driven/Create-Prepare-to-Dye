@@ -94,3 +94,7 @@ public class tag{
     <item:minecraft:fern>,
     <item:minecraft:rose_bush>
 );
+<tag:items:forge:plasticables>.add([
+    <item:minecraft:ender_pearl>,
+    
+]);
