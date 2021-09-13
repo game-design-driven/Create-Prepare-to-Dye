@@ -3,7 +3,7 @@
 	#Debug mode enabled
 	DebugMode = false
 	#Display search bar in the center
-	CenterSearch = true
+	CenterSearch = false
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
 	#How items should be handed to you
@@ -36,13 +36,13 @@
 	TagSearchMode = "ENABLED"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "DISABLED"
+	CreativeTabSearchMode = "ENABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ColorSearchMode = "DISABLED"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "ENABLED"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = true
 
