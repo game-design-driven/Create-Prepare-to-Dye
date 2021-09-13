@@ -23,4 +23,7 @@ reloadVersion:0
 reloadEverything:false
 zoomButtons:false
 waypointBackgrounds:true
+detectAmbiguousY:true
+showDisabledWaypoints:false
+closeWaypointsWhenHopping:true
 globalVersion:1
