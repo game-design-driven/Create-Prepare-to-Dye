@@ -544,7 +544,7 @@
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
 
 		[world.big_stone_clusters.granite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -624,9 +624,9 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
-			"Horizontal Size" = 14
+			"Horizontal Size" = 16
 			#Allowed values: [0,)
-			"Vertical Size" = 14
+			"Vertical Size" = 16
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,)
@@ -652,7 +652,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.marble]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -688,7 +688,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -724,7 +724,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.jasper]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -760,7 +760,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.slate]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -796,7 +796,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.voidstone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 20
 			#Allowed values: [0,255]
