@@ -317,5 +317,5 @@ Recipes.addMilling([<item:minecraft:black_dye>%10],<item:minecraft:charcoal>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:gray_dye>%25],<item:minecraft:coal>);
 Recipes.addCrushing([<item:minecraft:gray_dye>%10,<item:minecraft:black_dye>%5],<item:minecraft:charcoal>);
 
-Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);;
+Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);

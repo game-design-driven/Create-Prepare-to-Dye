@@ -42,7 +42,7 @@
 	ColorSearchMode = "DISABLED"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "REQUIRE_PREFIX"
+	ResourceIdSearchMode = "ENABLED"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = true
 
