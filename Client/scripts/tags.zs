@@ -10,7 +10,10 @@
 <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
 <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
 <tag:items:forge:plastic>.add(<item:contenttweaker:plastic_nurdle>);
-<tag:items:forge:acidic>.add(<item:contenttweaker:oxidized_gunpowder>);
+<tag:items:forge:acidic>.add([
+    <item:contenttweaker:oxidized_gunpowder>,
+    <item:botania:fel_pumpkin>
+]);
 <tag:items:forge:fish_bucket>.add([
     <item:minecraft:pufferfish_bucket>,
     <item:minecraft:salmon_bucket>,
@@ -73,15 +76,27 @@
 //fake version of tag because they behave wierd?
 public class tag{
     public static val oxidiesers =     
-    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})|
-    <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string})*4|
-    <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string})|
-    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
-    <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
-    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
-    <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
-    <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
-    <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string});
+        <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+        <item:botania:brew_flask>.withTag({brewKey: "botania:water_breathing" as string})*4|
+        <item:botania:brew_vial>.withTag({brewKey: "botania:water_breathing" as string})|
+        <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+        <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+        <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+        <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing" as string})|
+        <item:minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing" as string})|
+        <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string})
+    ;
+    public static val poison =
+        <item:minecraft:potion>.withTag({Potion: "minecraft:poison" as string})|
+        <item:minecraft:potion>.withTag({Potion: "minecraft:long_poison" as string})|
+        <item:minecraft:potion>.withTag({Potion: "minecraft:strong_poison" as string})|
+        <item:minecraft:splash_potion>.withTag({Potion: "minecraft:poison" as string})|
+        <item:minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison" as string})|
+        <item:minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison" as string})|
+        <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:poison" as string})|
+        <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison" as string})|
+        <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison" as string})
+    ;
 }
 
 <tag:items:forge:screen>.add([
@@ -99,3 +114,7 @@ public class tag{
     
 ]);
 <tag:items:forge:andesite>.add(<item:minecraft:andesite>);
+
+<tag:items:forge:food/poison>.add([
+    <item:minecraft:poisonous_potato>
+]);

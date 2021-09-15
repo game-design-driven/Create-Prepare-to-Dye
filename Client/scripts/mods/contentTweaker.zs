@@ -31,6 +31,7 @@ var plasticPearl = <recipetype:create:sequenced_assembly>.builder("plastic_assem
 
 //acid
 Recipes.addFluidToFluid(<fluid:contenttweaker:acid>,<fluid:minecraft:water>,[<tag:items:forge:acidic>]);
+Recipes.addFluidToFluid(<fluid:contenttweaker:acid>,<fluid:minecraft:water>,[<tag:items:forge:food/poison>*8]);
 
 var acid = <recipetype:create:sequenced_assembly>.builder("acid")
     .transitionTo(<item:minecraft:milk_bucket>.withNameAndColor("Lactic acid",color.darkGreen))
