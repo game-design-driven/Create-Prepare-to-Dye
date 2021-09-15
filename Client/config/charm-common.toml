@@ -49,7 +49,7 @@
 #Extends the lifetime of netherite-based items before they despawn.
 "ExtendNetherite enabled" = true
 #Adds custom recipes.
-"ExtraRecipes enabled" = false
+"ExtraRecipes enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 "ExtractEnchantments enabled" = false
 #A player wearing feather falling enchanted boots will not trample crops.
@@ -254,15 +254,15 @@
 
 [ExtraRecipes]
 	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
-	"Gilded Blackstone" = false
+	"Gilded Blackstone" = true
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye" = false
 	#If true, adds a recipe for the Trident using prismarine shards and crystals.
 	Trident = false
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
-	"Soul Torch" = false
+	"Soul Torch" = true
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.
-	"Green Dye" = false
+	"Green Dye" = true
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
