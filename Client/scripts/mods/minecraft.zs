@@ -320,4 +320,4 @@ Recipes.addCrushing([<item:minecraft:gray_dye>%10,<item:minecraft:black_dye>%5],
 Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
-Recipes.addInfusion(<item:minecraft:cyan_dye>,[<item:minecraft:warped_roots>]);
+Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>); 
