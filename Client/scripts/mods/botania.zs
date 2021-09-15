@@ -20,8 +20,7 @@ import crafttweaker.api.item.IIngredient;
 <item:botania:green_mystical_flower>,
 <item:botania:red_mystical_flower>].addTip("Use Floral Fertilizer to acquire");
 
-//ideas: yeast, mixer,
-
+<item:botania:fel_pumpkin>.addTip("If placed on top of two Iron Bars, will spawn a Blaze that will drop Blaze Powder instead of Blaze Rods.");
 
 Recipes.addMix(<item:botania:fertilizer>,"none",[<tag:items:botania:petals>*8,<item:minecraft:bone_meal>]);
 Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:minecraft:milk>* 100);
