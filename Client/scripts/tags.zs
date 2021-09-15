@@ -98,3 +98,4 @@ public class tag{
     <item:minecraft:ender_pearl>,
     
 ]);
+<tag:items:forge:andesite>.add(<item:minecraft:andesite>);

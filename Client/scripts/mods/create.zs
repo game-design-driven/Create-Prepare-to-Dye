@@ -15,15 +15,27 @@ Recipes.addItemExplosion([(<item:create:wheat_flour>*8).weight(50)],[<tag:items:
 // Orechid.removeOreWeight(state as MCBlockState) as void
 
 Orechid.main.removeOreWeight(<blockstate:create:zinc_ore>);
+<item:create:zinc_ingot>.removeAndReplace(<item:minecraft:iron_ingot>);
+
 [
-    <item:create:crushed_zinc_ore>,
     <item:create:zinc_nugget>,
+    <item:create:crushed_zinc_ore>,
     <item:create:zinc_block>,
     <item:create:zinc_ore>
 ].remove();
-<item:create:zinc_ingot>.removeAndReplace(<item:minecraft:iron_ingot>);
 Recipes.removeMix(<item:create:brass_ingot>);
 Recipes.addMix(<item:create:brass_ingot>, "heated",[<tag:items:forge:ingots/copper>,<tag:items:forge:ingots/iron>]);
+//andesite alloy
+<item:create:andesite_alloy>.removeRecipe();
+<item:create:andesite_alloy>.shapeless([
+    <item:minecraft:andesite>,<item:minecraft:iron_nugget>,<item:minecraft:andesite>,<item:minecraft:iron_nugget>
+]);
+<recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);
+Recipes.addFluidToItem([<item:create:andesite_alloy>],[<tag:items:forge:ingots>,<tag:items:forge:andesite>],<fluid:contenttweaker:acid>,0.1);
+Recipes.addMix(<item:create:andesite_alloy>,"none",[<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>,<item:minecraft:andesite>]);
+Recipes.addMix(<item:create:andesite_alloy>,"none",[<tag:items:forge:nuggets/manasteel>,<item:minecraft:andesite>]);
+Recipes.addMix(<item:create:andesite_alloy>,"none",[<tag:items:forge:nuggets/copper>,<item:minecraft:andesite>,<item:minecraft:andesite>]);
+Recipes.addTrade([<item:create:andesite_alloy>*2],[<tag:items:forge:nuggets/manasteel>,<tag:items:forge:nuggets/manasteel>,<item:minecraft:andesite>,<item:minecraft:bread>]);
 //brass
 Recipes.addMix(<item:create:brass_ingot>*3, "heated",[<tag:items:forge:ingots/copper>*2,<tag:items:forge:ingots/iron>*3,<tag:items:forge:ingots/gold>]);
 Recipes.removeMix(<item:create:crushed_brass>);
