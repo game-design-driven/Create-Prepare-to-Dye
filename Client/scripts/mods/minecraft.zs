@@ -120,11 +120,11 @@ Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:crea
 var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
     .require(<item:minecraft:egg>)
-    .loops(2)
+    .loops(8)
     .addOutput(<item:minecraft:gold_nugget>, 1)
     .addOutput(<item:minecraft:white_dye>, 4)
     .addOutput(<item:minecraft:air>, 3)
-    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:minecraft:lava> * 250));
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 250));
 <recipetype:create:sequenced_assembly>.addRecipe(goldMaker);
  //more ways to get red stone
 Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
