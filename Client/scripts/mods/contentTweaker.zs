@@ -45,7 +45,7 @@ var acid = <recipetype:create:sequenced_assembly>.builder("acid")
 ; 
 <recipetype:create:sequenced_assembly>.addRecipe(acid);
 
-Recipes.addTrade([<item:contenttweaker:acid_bucket>],[<item:minecraft:lava_bucket>,<item:minecraft:spider_eye>]);
+Recipes.addTrade([<item:contenttweaker:acid_bucket>],[<item:minecraft:lava_bucket>,<item:minecraft:spider_eye>,<item:minecraft:rotten_flesh>,<item:minecraft:cookie>|<item:minecraft:honey_bottle>]);
 
 //oil
 Recipes.addMix(<fluid:contenttweaker:oil>*25, "heated",[<tag:items:forge:seeds>]);
