@@ -26,13 +26,13 @@ public expand IItemStack {
     public getJsonName() as string{
         return this.registryName.namespace+":"+this.registryName.path;
     }
-  public addTip(t as string) as IItemStack{
+  public addTip(t as string) as IItemStack{ //todo move to itemdefinition
     if (settings.tooltipRequireSneak){
       this.modifyShiftTooltip((stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
         for s in t.wrapToList(settings.tooltipWrap){
           tooltip.add(s.tooltipColor());
         }
-        tooltip.add("");
+        // tooltip.add("");
         }, (stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
           if (!tooltip.contains(settings.tooltip_prompt as MCTextComponent)){
             tooltip.add(settings.tooltip_prompt);
