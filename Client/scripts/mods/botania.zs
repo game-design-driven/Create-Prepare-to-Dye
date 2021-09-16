@@ -357,7 +357,15 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
 <item:botania:livingwood_bow>.remove();
 
 //remove manasteel_pick, the vicarius pick is the equivelent and it has drawbacks so even better
-<item:botania:manasteel_pick>.remove():
+<item:botania:manasteel_pick>.remove();
 
 //slingshot
 <item:botania:slingshot>.remove();
+
+//remove assemlby halo and change manufactory halo recipe
+<item:botania:crafting_halo>.murdurFamily();
+<item:botania:auto_crafting_halo>.shaped([
+    [<item:botania:mana_pearl>,<item:create:cogwheel>,<item:botania:mana_pearl>],
+    [<item:botania:manasteel_ingot>,<item:minecraft:crafting_table>,<item:botania:manasteel_ingot>],
+    [<item:minecraft:air>,<item:botania:manasteel_ingot>,<item:minecraft:air>]
+]);
