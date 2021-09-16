@@ -18,7 +18,7 @@ splashes = true
 	#Range: > 0
 	manaBarHeight = 29
 	#Set this to true if you use lots of floating flowers and are experiencing rendering lag. Will disable the floating flowers' animations and render them statically for a major performance boost. Hit F3+A in-world after toggling this.
-	staticFloaters = false
+	staticFloaters = true
 
 	[rendering.fancySkybox]
 		#Set this to false to disable the fancy skybox in Garden of Glass
