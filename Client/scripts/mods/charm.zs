@@ -16,3 +16,4 @@ var netheriteNugget = <recipetype:create:sequenced_assembly>.builder("seq_nether
 <recipetype:create:sequenced_assembly>.addRecipe(netheriteNugget);
 
 Recipes.addInfusion(<item:charm:netherite_nugget>*9,<item:minecraft:netherite_ingot>,<blockstate:minecraft:bedrock>);
+<item:charm:glowball>.remove(); //doesn't seem to actually do light?
