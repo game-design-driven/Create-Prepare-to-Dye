@@ -6,3 +6,7 @@ plastic.build("plastic_nurdle");
 
 val oxidizedGunpowder = new ItemBuilder();
 plastic.build("oxidized_gunpowder");
+
+// val concept
+// val mechanic
+// val tip
