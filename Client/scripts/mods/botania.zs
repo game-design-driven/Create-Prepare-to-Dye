@@ -358,3 +358,6 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
 
 //remove manasteel_pick, the vicarius pick is the equivelent and it has drawbacks so even better
 <item:botania:manasteel_pick>.remove():
+
+//slingshot
+<item:botania:slingshot>.remove();
