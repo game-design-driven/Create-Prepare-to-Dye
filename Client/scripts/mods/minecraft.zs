@@ -16,11 +16,6 @@ import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 
-mods.jei.JEI.addItem(<item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998));
-mods.jei.JEI.addItem(<item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998));
-mods.jei.JEI.addItem(<item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998));
-mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998));
-
 <item:minecraft:paper>.removeCraftingRecipe();
 Recipes.shaped({
     <item:minecraft:chest> : [
@@ -132,7 +127,6 @@ Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:neth
 Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
-<item:minecraft:composter>.addTip("When almost full, can be used as a catalyst in a manapool");
 
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
@@ -159,7 +153,6 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
 Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
-<item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
 for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
     Recipes.addInfusion(f*2, f, <blockstate:minecraft:bee_nest:honey_level=5>, settings.beeDupingManaCost);
@@ -167,21 +160,17 @@ for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
 for sapling in <tag:items:minecraft:saplings>.getElements(){
     Recipes.addInfusion(sapling.getDefaultInstance()*2, sapling.getDefaultInstance(), <blockstate:minecraft:bee_nest:honey_level=5>,settings.beeDupingManaCost);
 }
-<item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 
 
 //
 
 //prismarine_crystals are no longer mob drop and prismarine_shard disolve into them (and some dyes)
 Recipes.addFluidToItem([(<item:minecraft:prismarine_crystals>).weight(7),<item:minecraft:blue_dye>,<item:minecraft:light_blue_dye>,<item:minecraft:cyan_dye>],[<tag:items:forge:dusts/prismarine>],<fluid:minecraft:water>,0,5,0);
-<item:minecraft:prismarine_shard>.addTip("Warning! desolves in water");
 // <entitytype:minecraft:guardian>.removeDrop(<item:minecraft:prismarine_crystals>);
 <entitytype:minecraft:guardian>.addLootModifier("remove_prismarine_crystals_g", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 <entitytype:minecraft:elder_guardian>.addLootModifier("remove_prismarine_crystals_eg", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
 
 Recipes.addFluidToItem([<item:minecraft:red_sand>],[<tag:items:forge:sand/colorless>],<fluid:create:honey>,0.20);
-
-//lighter colors with milk
 
 //crushing sandstone
 Recipes.addCrushing([<item:minecraft:sand>,<item:minecraft:stick>%25],<tag:items:forge:sandstone>);
@@ -200,68 +189,7 @@ Recipes.addFluidToItem([<item:minecraft:obsidian>],[<tag:items:createrun:bucket/
 val oxidizedGunpowder =<item:minecraft:gunpowder>.withTag({oxidiesed: true as bool}).withName("oxidized Gunpowder"); 
 Recipes.addMix(oxidizedGunpowder,"heated",[tag.oxidiesers*4,<item:minecraft:gunpowder>]);
 
-
-//summoning
-
-
-SummoningDirector.addSummonInfo(
-    SummoningInfo.create()
-        .setCatalyst(<item:minecraft:oak_sapling>)
-        .setReagents([<item:minecraft:stone>])
-        .addMob(MobInfo.create()
-            .setMob(<entityType:minecraft:cow>)
-        )
-);
-
-
-
-
-SummoningDirector.addSummonInfo(
-    SummoningInfo.create()
-        .setCatalyst(<item:minecraft:ender_eye>)
-        .setReagents([<item:minecraft:end_crystal>*4])
-        .addMob(MobInfo.create()
-            .setMob(<entityType:minecraft:ender_dragon>)
-        )
-        .setWeight(1)
-    .setMutator((attempt as SummoningAttempt) => {
-        if (attempt.world.raining) {
-            attempt.message = "Shes comiming!";
-            } else {
-            attempt.success = false;
-                attempt.message = "summon this in the rain!";
-        }
-    })
-);
-
-SummoningDirector.addSummonInfo(
-    SummoningInfo.create()
-        .setCatalyst(<item:minecraft:ender_eye>)
-        .setReagents([<item:minecraft:end_crystal>*4])
-        .addMob(MobInfo.create()
-            .setMob(<entityType:minecraft:enderman>)
-            .setData({
-                "CustomName":"confused enderman",
-                "CustomNameVisible":1
-            })
-        )
-        .setWeight(1)
-    .setMutator((attempt as SummoningAttempt) => {
-        if (attempt.world.raining) {
-            attempt.message = "wheh?";
-             } else {
-            attempt.success = false;
-                attempt.message = "summon this in the rain!";
-        }
-        
-    })
-);
-
-
-
-
-
-//elaitra recipe
+//elytra recipe
 Recipes.addCrushing([<item:quark:dragon_scale>%50,<item:minecraft:black_dye>%75,<item:minecraft:magenta_dye>%75],<item:minecraft:dragon_head>);
 
 Recipes.addAltar(<item:minecraft:phantom_membrane>,[<tag:items:minecraft:beds>,<item:minecraft:cake>,<item:minecraft:cake>,<item:minecraft:leather>],1000);
@@ -320,4 +248,4 @@ Recipes.addCrushing([<item:minecraft:gray_dye>%10,<item:minecraft:black_dye>%5],
 Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
-Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>); 
+Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>,<blockstate:create:andesite_casing>); 

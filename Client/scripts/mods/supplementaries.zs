@@ -1,6 +1,8 @@
-import crafttweaker.api.util.text.MCStyle;
-import crafttweaker.api.util.text.MCTextComponent;
-import crafttweaker.api.text.TextFormatting;
+#priority 0
+
+// import crafttweaker.api.util.text.MCStyle;
+// import crafttweaker.api.util.text.MCTextComponent;
+// import crafttweaker.api.text.TextFormatting;
 import crafttweaker.api.item.IItemStack;
 
 <item:supplementaries:cog_block>.remove();
