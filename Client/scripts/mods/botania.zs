@@ -3,9 +3,8 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 <item:botania:fel_pumpkin>.addTip("If placed on top of two Iron Bars, will spawn a Blaze that will drop Blaze Powder instead of Blaze Rods.");
-
-Recipes.addMix(<item:botania:fertilizer>,"none",[<tag:items:botania:petals>*8,<item:minecraft:bone_meal>]);
-Recipes.addFill(<item:botania:fertilizer>,<item:minecraft:bone_meal>,<fluid:minecraft:milk>* 100);
+//overgroth seed
+Recipes.addFill(<item:botania:overgrowth_seed>,<item:minecraft:bone_meal>*8,<fluid:minecraft:milk>* 1000);
 // val aRealFluid as FluidIngredient= <fluid:create:potion>.withTag({Potion: "minecraft:healing" as string});
 // Recipes.addThermo(
 //     <item:botania:fertilizer> as IItemStack,
@@ -169,6 +168,22 @@ t.add();
     <item:minecraft:red_dye>,
     <item:minecraft:black_dye>,
 ]);
+[<item:botania:black_petal_block>,
+<item:botania:red_petal_block>,
+<item:botania:green_petal_block>,
+<item:botania:brown_petal_block>,
+<item:botania:blue_petal_block>,
+<item:botania:purple_petal_block>,
+<item:botania:cyan_petal_block>,
+<item:botania:light_gray_petal_block>,
+<item:botania:gray_petal_block>,
+<item:botania:pink_petal_block>,
+<item:botania:lime_petal_block>,
+<item:botania:yellow_petal_block>,
+<item:botania:light_blue_petal_block>,
+<item:botania:magenta_petal_block>,
+<item:botania:orange_petal_block>,
+<item:botania:white_petal_block>].remove();
 val ripMap = {
     <item:botania:orange_petal>:<item:minecraft:orange_dye>,
     <item:botania:magenta_petal>:<item:minecraft:magenta_dye>,
@@ -369,3 +384,4 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
     [<item:botania:manasteel_ingot>,<item:minecraft:crafting_table>,<item:botania:manasteel_ingot>],
     [<item:minecraft:air>,<item:botania:manasteel_ingot>,<item:minecraft:air>]
 ]);
+
