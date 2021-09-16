@@ -118,3 +118,6 @@ public class tag{
 <tag:items:forge:food/poison>.add([
     <item:minecraft:poisonous_potato>
 ]);
+
+<tag:items:minecraft:logs_that_burn>.remove(<item:minecraft:spruce_log>);
+<tag:items:minecraft:logs_that_burn>.remove(<item:minecraft:birch_log>);

@@ -249,3 +249,36 @@ Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>,<blockstate:create:andesite_casing>); 
+
+//making wood greate again (any type of wood should have a reson to exsists)
+//oak is turned into apple tree by name as it's already in function
+Recipes.addMilling([<item:minecraft:apple>%20],<item:minecraft:oak_leaves>);
+Recipes.addCrushing([<item:minecraft:apple>%5,<item:minecraft:green_dye>%5,<item:minecraft:stick>%5],<item:minecraft:oak_leaves>);
+//dark oak is dark apple and is used for making paper
+var darkToPaper = <recipetype:create:sequenced_assembly>.builder("seq_paper_wood")
+    .transitionTo(<item:minecraft:dark_oak_log>.withTag({"wood in a process": 1 as int}))
+    .require(<item:minecraft:dark_oak_log>)
+    .loops(2)
+    .addOutput(<item:minecraft:paper> * 8, 8)
+    .addOutput(<item:minecraft:brown_dye>, 1)
+    .addOutput(<item:minecraft:stick>, 1)
+    .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 25))
+    .addStep(<recipetype:create:pressing>.factory())
+    ;
+<recipetype:create:sequenced_assembly>.addRecipe(darkToPaper);
+//jungle is already special as it's big, grows vines and cocobeans(if planted)
+//acacia
+(<item:minecraft:acacia_planks> * 4).removeCraftingRecipe();
+(<item:minecraft:acacia_planks> * 2).shapeless([<item:minecraft:acacia_log>]);
+(<item:minecraft:stick>*16).shaped([
+    [<item:minecraft:acacia_planks>],
+    [<item:minecraft:acacia_planks>]
+]);
+//
+(<item:minecraft:spruce_planks> * 4).removeCraftingRecipe();
+(<item:minecraft:spruce_planks> * 2).shapeless([<item:minecraft:spruce_log>]);
+Recipes.addSmelting((<item:minecraft:charcoal>*2),<item:minecraft:spruce_log>,400);
+//
+(<item:minecraft:birch_planks> * 4).removeCraftingRecipe();
+(<item:minecraft:birch_planks> * 8).shapeless([<item:minecraft:birch_log>]);
+Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:spruce_log>,100);

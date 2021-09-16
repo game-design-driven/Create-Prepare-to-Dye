@@ -22,5 +22,8 @@ public expand Recipes{
             Recipes.shapeless(output,recipe);
         }
     }
+    public static addSmelting(output as IItemStack, input as IIngredient,cookTime as int = 10,xp as float = 0.15) as void{
+        furnace.addRecipe(output.genRecipeName("smelting"),output,input,xp,cookTime);
+    }
     //note: should use IItemStackExpand functions instead
 }

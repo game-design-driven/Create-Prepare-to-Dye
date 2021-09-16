@@ -6,3 +6,8 @@ mods.jei.JEI.addItem(<item:minecraft:leather_boots>.withNameAndColor("Synthetic 
 <item:create:copper_ore>.addTip("When oxidiesed, some of the copper can crystlize into Emeralds if exposed to an extreme chemical reaction");
 <item:minecraft:bee_nest>.addTip("While full of honey, can be used as a catalyst in a manapool");
 <item:minecraft:prismarine_shard>.addTip("Warning! desolves in water");
+<item:minecraft:birch_planks>.addTip("Burns fast, can be made into many planks");
+<item:minecraft:spruce_planks>.addTip("Not very good for making planks but makes more charcoal when burned");
+<item:minecraft:acacia_planks>.addTip("Not very good for making planks but makes more sticks");
+<item:minecraft:dark_oak_log>.addTip("Grows apples and Can be used for making paper");
+<item:minecraft:dark_oak_log>.addTip("Grows apples and the leaves can be processed for more apples");
