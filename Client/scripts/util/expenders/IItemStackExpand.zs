@@ -111,8 +111,8 @@ public expand IItemStack {
     return this;
   }
   public removeAndReplace(replacement as IIngredient) as IItemStack{
-    remove();
     replace(replacement);
+    remove();
     // hide();
     return this;
   }

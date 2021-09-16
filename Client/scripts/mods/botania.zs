@@ -130,7 +130,7 @@ craftingTable.removeByName("botania:elf_quartz");
 // .addTip("");
 
 //remove pettles and flowers
-// (<tag:items:botania:petals> as IIngredient).replace(<tag:items:forge:dyes>);
+<item:botania:fertilizer>.removeAndReplace(<item:minecraft:bone_meal>);
 val t = {
     <tag:items:botania:petals/white>:<tag:items:forge:dyes/white>,
     <tag:items:botania:petals/orange>:<tag:items:forge:dyes/orange>,
@@ -150,7 +150,6 @@ val t = {
     <tag:items:botania:petals/red>:<tag:items:forge:dyes/red>,
     <tag:items:botania:petals/black>:<tag:items:forge:dyes/black>,
 };
-// t.toIngridientMap().replace();
 t.add();
 <tag:items:botania:petals>.add([
     <item:minecraft:white_dye>,
@@ -333,3 +332,24 @@ Recipes.addMix(<item:botania:spell_cloth>*4,"heated",[<item:botania:mana_pearl>,
 
 //remove mana infused string
 <item:botania:mana_string>.removeAndReplace(<item:minecraft:string>);
+
+//replace elementium with refined_radiance
+<item:botania:elementium_ingot>.removeAndReplace(<item:create:refined_radiance>);
+<recipetype:botania:elven_trade>.removeRecipe(<item:botania:elementium_ingot>);
+Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingot>,<item:botania:terrasteel_ingot>]);
+<item:botania:elementium_nugget>.remove();
+
+[
+    <item:botania:elementium_block>,
+    <item:botania:elementium_shears>,
+    <item:botania:elementium_sword>,
+    <item:botania:elementium_axe>,
+    <item:botania:elementium_hoe>,
+    <item:botania:elementium_shovel>,
+    <item:botania:elementium_pickaxe>,
+    <item:botania:elementium_boots>,
+    <item:botania:elementium_leggings>,
+    <item:botania:elementium_chestplate>,
+    <item:botania:elementium_helmet>,
+].remove();
+
