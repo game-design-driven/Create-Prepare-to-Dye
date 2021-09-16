@@ -324,3 +324,12 @@ var floaties = {
     <item:botania:labellia>:<item:botania:floating_labellia>,
 };
 floaties.shapeless([<item:minecraft:dirt>,<item:botania:grass_seeds>,<item:minecraft:barrier>]);
+
+//remove manaweave_cloth
+<item:botania:manaweave_cloth>.removeAndReplace(<item:botania:spell_cloth>);
+<item:botania:spell_cloth>.removeCraftingRecipe();
+<item:botania:spell_cloth>.shapeless([<item:botania:mana_pearl>,<item:minecraft:string>,<item:minecraft:string>,<item:minecraft:string>]);
+Recipes.addMix(<item:botania:spell_cloth>*4,"heated",[<item:botania:mana_pearl>,<item:minecraft:white_wool>*4]);
+
+//remove mana infused string
+<item:botania:mana_string>.removeAndReplace(<item:minecraft:string>);
