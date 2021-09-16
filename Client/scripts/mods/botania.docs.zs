@@ -1,9 +1,9 @@
 //tool tips
 
-var Cosmetic_Baubles = "Will appear on you. Can be crafted with other Botania baubles to override their appearance. Putting a bauble with a cosmetic override into the crafting grid will remove it from the other bauble.";
-var blood_pendants = "Gives the potion effect infused into the pendant. Infusing requires putting it in a Botanical Brewery with all the brew ingredients. The infusion takes 10 times as much Mana as brewing a vial with the same potion.";
-var Flügel_Tiaras = "Gives Creative flight by consuming Mana.";
-var Pasture_Seeds = "When right-clicked on a Dirt block some of the surrounding Dirt blocks will be turned into the Grass Blocks of their corresponding type.";
+val Cosmetic_Baubles = "Will appear on you. Can be crafted with other Botania baubles to override their appearance. Putting a bauble with a cosmetic override into the crafting grid will remove it from the other bauble.";
+val blood_pendants = "Gives the potion effect infused into the pendant. Infusing requires putting it in a Botanical Brewery with all the brew ingredients. The infusion takes 10 times as much Mana as brewing a vial with the same potion.";
+val Flügel_Tiaras = "Gives Creative flight by consuming Mana.";
+val Pasture_Seeds = "When right-clicked on a Dirt block some of the surrounding Dirt blocks will be turned into the Grass Blocks of their corresponding type.";
 val tipsbotania ={
     //wands
     <item:botania:twig_wand> :"Used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.",
