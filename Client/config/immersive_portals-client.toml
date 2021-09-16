@@ -6,7 +6,7 @@ reduced_portal_rendering = false
 check_gl_error = false
 #Max Portal-in-portal Render Layer
 #Range: 1 ~ 10
-max_portal_layer = 5
+max_portal_layer = 3
 #Render Yourself In Portal
 render_yourself_in_portal = true
 #...
