@@ -355,3 +355,6 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
 
 //remove livingwood_bow
 <item:botania:livingwood_bow>.remove();
+
+//remove manasteel_pick, the vicarius pick is the equivelent and it has drawbacks so even better
+<item:botania:manasteel_pick>.remove():
