@@ -130,7 +130,7 @@ craftingTable.removeByName("botania:elf_quartz");
 // .addTip("");
 
 //remove pettles and flowers
-// (<tag:items:botania:petals> as IIngredient).replace(<tag:items:forge:dyes>);
+<item:botania:fertilizer>.removeAndReplace(<item:minecraft:bone_meal>);
 val t = {
     <tag:items:botania:petals/white>:<tag:items:forge:dyes/white>,
     <tag:items:botania:petals/orange>:<tag:items:forge:dyes/orange>,
@@ -150,7 +150,6 @@ val t = {
     <tag:items:botania:petals/red>:<tag:items:forge:dyes/red>,
     <tag:items:botania:petals/black>:<tag:items:forge:dyes/black>,
 };
-// t.toIngridientMap().replace();
 t.add();
 <tag:items:botania:petals>.add([
     <item:minecraft:white_dye>,
@@ -324,3 +323,49 @@ var floaties = {
     <item:botania:labellia>:<item:botania:floating_labellia>,
 };
 floaties.shapeless([<item:minecraft:dirt>,<item:botania:grass_seeds>,<item:minecraft:barrier>]);
+
+//remove manaweave_cloth
+<item:botania:manaweave_cloth>.removeAndReplace(<item:botania:spell_cloth>);
+<item:botania:spell_cloth>.removeCraftingRecipe();
+<item:botania:spell_cloth>.shapeless([<item:botania:mana_pearl>,<item:minecraft:string>,<item:minecraft:string>,<item:minecraft:string>]);
+Recipes.addMix(<item:botania:spell_cloth>*4,"heated",[<item:botania:mana_pearl>,<item:minecraft:white_wool>*4]);
+
+//remove mana infused string
+<item:botania:mana_string>.removeAndReplace(<item:minecraft:string>);
+
+//replace elementium with refined_radiance
+<item:botania:elementium_ingot>.removeAndReplace(<item:create:refined_radiance>);
+<recipetype:botania:elven_trade>.removeRecipe(<item:botania:elementium_ingot>);
+Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingot>,<item:botania:terrasteel_ingot>]);
+<item:botania:elementium_nugget>.remove();
+
+[
+    <item:botania:elementium_block>,
+    <item:botania:elementium_shears>,
+    <item:botania:elementium_sword>,
+    <item:botania:elementium_axe>,
+    <item:botania:elementium_hoe>,
+    <item:botania:elementium_shovel>,
+    <item:botania:elementium_pickaxe>,
+    <item:botania:elementium_boots>,
+    <item:botania:elementium_leggings>,
+    <item:botania:elementium_chestplate>,
+    <item:botania:elementium_helmet>,
+].remove();
+
+//remove livingwood_bow
+<item:botania:livingwood_bow>.remove();
+
+//remove manasteel_pick, the vicarius pick is the equivelent and it has drawbacks so even better
+<item:botania:manasteel_pick>.remove();
+
+//slingshot
+<item:botania:slingshot>.remove();
+
+//remove assemlby halo and change manufactory halo recipe
+<item:botania:crafting_halo>.murdurFamily();
+<item:botania:auto_crafting_halo>.shaped([
+    [<item:botania:mana_pearl>,<item:create:cogwheel>,<item:botania:mana_pearl>],
+    [<item:botania:manasteel_ingot>,<item:minecraft:crafting_table>,<item:botania:manasteel_ingot>],
+    [<item:minecraft:air>,<item:botania:manasteel_ingot>,<item:minecraft:air>]
+]);

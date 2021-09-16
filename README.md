@@ -2,19 +2,21 @@
 
 Create.run is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
+    A small but ambitious project to give create the stage it deserves
 ## Core values
 * Complex and unique automation
 * Radical simplification, No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game.
 * Low amount of tasks that aren't "making cool stuff"
 * Lightweight
-* Documentation
-* Consistency and sense based processes over realistic ones
+* Heavily Documented, in game
+* Consistency and fun, sense based processes over realistic ones
 * Customization - we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
 
 
 ## Complex and unique automation:
+Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options.
 * Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation*1
-* Botania - Another core element of the run epxeriance.
+* Botania - Another core element of the run experience.
 * Quark + oddities
 * Supplementaries
 
