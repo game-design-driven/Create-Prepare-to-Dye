@@ -353,3 +353,5 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
     <item:botania:elementium_helmet>,
 ].remove();
 
+//remove livingwood_bow
+<item:botania:livingwood_bow>.remove();
