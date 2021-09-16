@@ -41,6 +41,14 @@ public expand IIngredient[][IItemStack]{
         return this;
     }
 }
+public expand IIngredient[IIngredient]{
+    public replace() as IIngredient[IIngredient]{
+        for from, to in this{
+            to.replace(to);
+        }
+        return this;
+    }
+}
 public expand IIngredient[]{
     public fakeAmount() as IIngredientWithAmount[]{
         var output =new List<IIngredientWithAmount>();

@@ -23,9 +23,14 @@ public expand MCWeightedItemStack{
   }
 }
 public expand IItemStack {
-    public getJsonName() as string{
-        return this.registryName.namespace+":"+this.registryName.path;
-    }
+  public getJsonName() as string{
+      return this.registryName.namespace+":"+this.registryName.path;
+  }
+  public murdurFamily() as IItemStack{ // removes item and any child recipes
+    this.remove();
+    craftingTable.removeRecipeByInput(this);
+    return this;
+  }
   public addTip(t as string) as IItemStack{ //todo move to itemdefinition
     if (settings.tooltipRequireSneak){
       this.modifyShiftTooltip((stack as IItemStack, tooltip as List<MCTextComponent>, advanced as bool) as void => {
@@ -130,6 +135,28 @@ public expand IItemStack[] {
       name += "_"+item.genRecipeName(recipeType);
     }
     return name;
+  }
+}
+public expand IItemStack[IItemStack]{
+  public removeAndReplace() as IItemStack[IItemStack] {
+    for subject, replacement in this{
+      subject.removeAndReplace(replacement);
+    }
+    return this;
+  }
+  public shapeless(recipe as IIngredient[]) as IItemStack[IItemStack]{
+    for uniqueInput,subject in this{
+      var r =new List<IIngredient>();
+      for ingredient in recipe{
+        if (ingredient==<item:minecraft:barrier>){
+          r.add(uniqueInput);
+        }else{
+          r.add(ingredient);
+        }
+      }
+      subject.shapeless(r);
+    }
+    return this;
   }
 }
 public expand MCWeightedItemStack[] {
