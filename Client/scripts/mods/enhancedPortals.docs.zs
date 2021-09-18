@@ -1,1 +1,1 @@
-<item:create:refined_radiance_casing>.addTip("Can be used as a frame for custom portals with 64 blocks range");
+<item:create:refined_radiance_casing>.addTip("Can be used as a frame for custom portals with 64 blocks range. Make two frames in the same shape (Doesn't have to be the same size), then throw a Manapearl in one of the portals");

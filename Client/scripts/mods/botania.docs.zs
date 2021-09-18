@@ -2,7 +2,7 @@
 
 val Cosmetic_Baubles = "Will appear on you. Can be crafted with other Botania baubles to override their appearance. Putting a bauble with a cosmetic override into the crafting grid will remove it from the other bauble.";
 val blood_pendants = "Gives the potion effect infused into the pendant. Infusing requires putting it in a Botanical Brewery with all the brew ingredients. The infusion takes 10 times as much Mana as brewing a vial with the same potion.";
-val Flügel_Tiaras = "Gives Creative flight by consuming Mana.";
+val Flugel_Tiaras = "Gives Creative flight by consuming Mana.";
 val Pasture_Seeds = "When right-clicked on a Dirt block some of the surrounding Dirt blocks will be turned into the Grass Blocks of their corresponding type.";
 val tipsbotania ={
     //wands
@@ -52,15 +52,15 @@ val tipsbotania ={
     <item:botania:diva_charm> :"Uses Mana to turn attackers on their comrades.",
     <item:botania:itemfinder> :"If you hold an item, the item or container holding that item will emit green clouds. If you sneak, all items on the ground will emit green clouds.",
     <item:botania:bauble_box> :"Can hold up to 24 Baubles or Mana storing items",
-    <item:botania:flight_tiara>.withTag({"variant": 0 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 1 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 2 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 3 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 4 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 5 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 6 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 7 as int}) :Flügel_Tiaras,
-    <item:botania:flight_tiara>.withTag({"variant": 8 as int}) :Flügel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 0 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 1 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 2 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 3 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 4 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 5 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 6 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 7 as int}) :Flugel_Tiaras,
+    <item:botania:flight_tiara>.withTag({"variant": 8 as int}) :Flugel_Tiaras,
     <item:botania:blood_pendant> :blood_pendants,
     <item:botania:blood_pendant>.withTag({brewKey: "botania:speed" as string}) :blood_pendants,
     <item:botania:blood_pendant>.withTag({brewKey: "botania:strength" as string}) :blood_pendants,
@@ -134,16 +134,18 @@ val tipsbotania ={
     <item:botania:mana_gun> :"Shoots Mana bursts using Mana. Compared to a Mana Spreader, Mana bursts fired by the blaster are 5 times faster, but hold 25% less Mana. Mana Lenses can be used with the Blaster to provide it with their effects.",
     //Brewery
     <item:botania:incense_plate> :"Once an Incense Stick is placed onto it, right-clicking with a Flint and Steel will ignite the stick. This can also be done with a Mana burst with the Kindle Lens. Also accept items from a Hopper or any other inputting mechanism. It will also emit Comparator signals, where 1 signals there is a stick present, and 2 signals the stick is currently burning.",
+    <item:botania:incense_stick>  :"Infuse brews created from the Botanical Brewery. Place on an Incense Plate and ignite to release the effects of the brew in a 24 block radius",
     <item:botania:vial> :"A container for brews created from the Botanical Brewery. It can hold 4 doses of a brew.",
     <item:botania:flask> :"A container for brews created in the Botanical Brewery. It can hold 6 doses of a brew. When drinking a brew from an Alfglass Flask, the speed of which the dose is consumed is faster than from a Managlass Vial. However, the cost of Mana for brewing is doubled when using an Alfglass Flask.",
+    <item:botania:brew_vial>.withTag({brewKey: "botania:clear" as string})  :"basiclly milk...",
+    <item:botania:brew_flask>.withTag({brewKey: "botania:clear" as string})  :"basiclly milk...",
+    <item:botania:brew_vial>.withTag({brewKey: "botania:bloodthirst" as string}) :"",
      :"",
-     :"",
-     :"",
-     :"",
-     :"",
-     :"",
-     :"",
-    
+   
+   
+   
+    //  :"",
+   
 
 
 }.addTips();
