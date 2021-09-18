@@ -282,3 +282,8 @@ Recipes.addSmelting((<item:minecraft:charcoal>*2),<item:minecraft:spruce_log>,40
 (<item:minecraft:birch_planks> * 4).removeCraftingRecipe();
 (<item:minecraft:birch_planks> * 8).shapeless([<item:minecraft:birch_log>]);
 Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:birch_log>,100);
+
+//mill/magenta
+<recipetype:create:milling>.removeByName("create:milling/lilac");
+Recipes.addMilling([<item:minecraft:magenta_dye>*3], <item:minecraft:lilac>);
+Recipes.addCrushing([<item:minecraft:magenta_dye>%80,<item:minecraft:purple_dye>%40,<item:minecraft:brown_dye>%4], <item:minecraft:lilac>);
