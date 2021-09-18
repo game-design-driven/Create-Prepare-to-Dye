@@ -1,6 +1,7 @@
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
+import mods.botania.StateIngredient;
 
 <item:botania:fel_pumpkin>.addTip("If placed on top of two Iron Bars, will spawn a Blaze that will drop Blaze Powder instead of Blaze Rods.");
 //overgroth seed
@@ -202,6 +203,7 @@ val ripMap = {
     <item:botania:black_mushroom>:<item:minecraft:black_dye>,
 };
 ripMap.removeAndReplace();
+<item:botania:flower_bag>.remove();
 // <item:botania:pestle_and_mortar>.remove();
 <item:botania:pestle_and_mortar>.murdurFamily();
 [<item:botania:orange_shiny_flower>,
@@ -368,5 +370,33 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
     [<item:minecraft:air>,<item:botania:manasteel_ingot>,<item:minecraft:air>]
 ]);
 
+
+<item:botania:conjuration_catalyst>.murdurFamily();
+//
+
+
+
+//replace all regular infusion recipes
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_powder>);
 Recipes.addInfusion(<item:botania:mana_powder>, <tag:items:forge:dusts>);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_pearl>);
+Recipes.addInfusion(<item:botania:mana_pearl>, <item:minecraft:ender_pearl>|<tag:items:forge:plastic>, 6000);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_diamond>);
+Recipes.addInfusion(<item:botania:mana_diamond>, <item:minecraft:diamond>, 10000);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:grass_seeds>);
+Recipes.addInfusion(<item:botania:grass_seeds>, <item:minecraft:grass>);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:podzol_seeds>);
+Recipes.addInfusion(<item:botania:podzol_seeds>, <item:minecraft:dead_bush>);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mycelium_seeds>);
+Recipes.addInfusion(<item:botania:mycelium_seeds>, <tag:items:forge:mushrooms>);
+
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_ingot>);
+Recipes.addInfusion(<item:botania:manasteel_ingot>, <item:minecraft:iron_ingot>,3000);
+
+//remove alchemy catalyst
+<item:botania:alchemy_catalyst>.remove();

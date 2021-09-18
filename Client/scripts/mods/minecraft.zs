@@ -98,9 +98,9 @@ val s = <tag:items:minecraft:sand>;
 val g = <tag:items:forge:gunpowder>;
 val r = <tag:items:forge:dyes/red>;
 <recipetype:botania:runic_altar>.addRecipe("bulk_tnt", <item:minecraft:tnt>*16, 1000, [s,s,s,s,g,g,g,g,r,r,r,r,r,r,r,r]as IIngredient[]);
-//stolen from prject gear coz it looks cool
-<recipetype:botania:mana_infusion>.addRecipe("gear_sugarcane_to_kelp_alchemy_catalyst", <item:minecraft:kelp>, <item:minecraft:sugar_cane>, 2000, <blockstate:botania:alchemy_catalyst>);
-
+//kelp from sugar cane
+Recipes.addInfusion(<item:minecraft:kelp>, <item:minecraft:sugar_cane>);
+//
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 
