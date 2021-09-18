@@ -49,7 +49,7 @@
 	trade_cycling = true
 	#If the villager reputation should be the same for every player
 	#This affects the prices of cured/converted villagers and the prices of the auto trader
-	universal_reputation = true
+	universal_reputation = false
 
 [incubator]
 	#The speed at which the incubator ages the villagers
