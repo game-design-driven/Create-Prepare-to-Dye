@@ -368,3 +368,5 @@ Recipes.addTrade([<item:create:refined_radiance>],[<item:botania:terrasteel_ingo
     [<item:minecraft:air>,<item:botania:manasteel_ingot>,<item:minecraft:air>]
 ]);
 
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_powder>);
+Recipes.addInfusion(<item:botania:mana_powder>, <tag:items:forge:dusts>);

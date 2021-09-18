@@ -139,10 +139,12 @@ val tipsbotania ={
     <item:botania:flask> :"A container for brews created in the Botanical Brewery. It can hold 6 doses of a brew. When drinking a brew from an Alfglass Flask, the speed of which the dose is consumed is faster than from a Managlass Vial. However, the cost of Mana for brewing is doubled when using an Alfglass Flask.",
     <item:botania:brew_vial>.withTag({brewKey: "botania:clear" as string})  :"basiclly milk...",
     <item:botania:brew_flask>.withTag({brewKey: "botania:clear" as string})  :"basiclly milk...",
-    <item:botania:brew_vial>.withTag({brewKey: "botania:bloodthirst" as string}) :"",
-     :"",
-   
-   
+    <item:botania:brew_vial>.withTag({brewKey: "botania:bloodthirst" as string}) :"Allows monsters to spawn within a 64 block radius, regardless of spawning conditions.",
+    <item:botania:brew_flask>.withTag({brewKey: "botania:bloodthirst" as string}) :"Allows monsters to spawn within a 64 block radius, regardless of spawning conditions.",
+    <item:botania:incense_stick>.withTag({brewKey: "botania:bloodthirst" as string}) :"Allows monsters to spawn within a 64 block radius, regardless of spawning conditions.",
+    <item:botania:brew_vial>.withTag({brewKey: "botania:soul_cross" as string}) :"",
+    <item:botania:brew_flask>.withTag({brewKey: "botania:soul_cross" as string}) :"",
+    <item:botania:incense_stick>.withTag({brewKey: "botania:soul_cross" as string}) :"",
    
     //  :"",
    
