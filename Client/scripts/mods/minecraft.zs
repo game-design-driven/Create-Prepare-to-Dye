@@ -264,7 +264,7 @@ var darkToPaper = <recipetype:create:sequenced_assembly>.builder("seq_paper_wood
     .addOutput(<item:minecraft:stick>, 1)
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 25))
     .addStep(<recipetype:create:pressing>.factory())
-    ;
+;
 <recipetype:create:sequenced_assembly>.addRecipe(darkToPaper);
 //jungle is already special as it's big, grows vines and cocobeans(if planted)
 //acacia
@@ -281,4 +281,4 @@ Recipes.addSmelting((<item:minecraft:charcoal>*2),<item:minecraft:spruce_log>,40
 //
 (<item:minecraft:birch_planks> * 4).removeCraftingRecipe();
 (<item:minecraft:birch_planks> * 8).shapeless([<item:minecraft:birch_log>]);
-Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:spruce_log>,100);
+Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:birch_log>,100);
