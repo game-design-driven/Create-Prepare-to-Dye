@@ -122,7 +122,7 @@ var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 250));
 <recipetype:create:sequenced_assembly>.addRecipe(goldMaker);
  //more ways to get red stone
-Recipes.addCompact(<item:minecraft:redstone>*2, [<item:minecraft:nether_wart_block>,<item:minecraft:sugar>]);
+Recipes.addCompact(<item:minecraft:redstone>, [<item:minecraft:nether_wart_block>,<item:botania:mana_powder>]);
 // Recipes.addPurify(<blockstate:minecraft:redstone_ore>,<blockstate:minecraft:nether_wart_block>); //nerfed
 Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,1,120);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
@@ -248,7 +248,7 @@ Recipes.addCrushing([<item:minecraft:gray_dye>%10,<item:minecraft:black_dye>%5],
 Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
-Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>,<blockstate:create:andesite_casing>); 
+Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>); 
 
 //making wood greate again (any type of wood should have a reson to exsists)
 //oak is turned into apple tree by name as it's already in function
