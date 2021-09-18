@@ -17,7 +17,9 @@ Recipes.addFill(<item:botania:overgrowth_seed>,<item:minecraft:bone_meal>*8,<flu
 
 
 //crushing recipoe to pettals (only relavent if petals are enabled)
-Recipes.addCrushing([<item:minecraft:fern>%25,<item:minecraft:grass>%25,<item:minecraft:seagrass>%25,<item:minecraft:wheat_seeds>%10,<item:botania:mana_powder>%5],<tag:items:botania:petals>);
+if (false){
+    Recipes.addCrushing([<item:minecraft:fern>%25,<item:minecraft:grass>%25,<item:minecraft:seagrass>%25,<item:minecraft:wheat_seeds>%10,<item:botania:mana_powder>%5],<tag:items:botania:petals>);
+}
 
 //replace red quartz
 //<item:botania:quartz_red>.removeAndReplace(<item:create:rose_quartz>);
@@ -108,25 +110,6 @@ craftingTable.removeByName("botania:elf_quartz");
 <item:botania:quartz_red>.remove();
 <item:botania:quartz_mana>.remove();
 
-//tool tips
-<item:botania:twig_wand>.addTip("The general multi-use tool for a botanist. It is used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.");
-<item:botania:obedience_stick>.addTip("Will bind all generating flowers in its range to it when used on any Mana Spreader, and do the same for functional flowers when used on a Mana Pool.");
-<item:botania:rainbow_rod>.addTip("Create bridges in the direction you are looking at.");
-<item:botania:cobble_rod>.addTip("Create a Cobblestone block. Can provide the Rod of the Shifting Crust with Cobblestone.");
-<item:botania:fire_rod>.addTip("Casts a circle of fire, any entity including the caster will burn inside the circle.");
-<item:botania:skydirt_rod>.addTip("All of the Rod of the Lands' abilities and can place a Dirt block in mid-air using mana by facing in the disired direction and right-clicking.");
-<item:botania:dirt_rod>.addTip("Create a Dirt block. Can provide the Rod of the Shifting Crust with Dirt.");
-<item:botania:smelt_rod>.addTip("Smelt targeted blocks");
-<item:botania:divining_rod>.addTip("Show nearby ores.");
-<item:botania:water_rod>.addTip("Create a Water source block. Can also be used to refill a Petal Apothecary.");
-<item:botania:gravity_rod>.addTip("Move and launch mobs and items.");
-<item:botania:exchange_rod>.addTip("Replace blocks of one type in its range with a different one from the player's inventory.");
-<item:botania:tornado_rod>.addTip("Propels the player into the air at a very high velocity.");
-<item:botania:terraform_rod>.addTip("Flatten and level the ground to where you are standing by either removing blocks or placing Dirt.");
-<item:botania:missile_rod>.addTip("Create homing missiles which attack nearby foes.");
-// .addTip("");
-// .addTip("");
-// .addTip("");
 
 //remove pettles and flowers
 <item:botania:fertilizer>.removeAndReplace(<item:minecraft:bone_meal>);

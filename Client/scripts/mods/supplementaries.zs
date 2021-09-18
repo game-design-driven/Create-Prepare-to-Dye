@@ -36,7 +36,7 @@ val tipsToAdd ={
     <item:supplementaries:item_shelf> :"Similarl to item frames. Can be placed on chests to label them.",
     <item:supplementaries:doormat> :"A hybrid between a sign and a carpet. Cats love to sit on it from time to time. You can also hide one item under a carpet by shift clicking on its side",
     <item:supplementaries:magma_cream_block> :"Something in between a magma block and a slime block. They are sticky on one side and terracotta like on the other, only stickying to themselves",
-    <item:supplementaries:raked_gravel> :"A new path like block that can be obtained by hoeing gravel. Can be curved (a bit like rails) to create interesting patterns",
+    <item:supplementaries:raked_gravel> :"A path like block that can be obtained by hoeing gravel. Can be curved (a bit like rails) to create interesting patterns",
     <item:supplementaries:pulley_block> :"A single slot inventory that accept a stack of ropes or chains. Once rotated with a turn table it will start deploying or pulling back the block underneath it. You can also activate it manually by shift clicking on a rope that's attached to it or via a crank attached to it",
     <item:supplementaries:flower_box> :"Plant flowers",
     <item:supplementaries:statue> :"A decorative item",

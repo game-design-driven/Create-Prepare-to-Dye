@@ -6,7 +6,7 @@ import mods.botania.Orechid;
 
 //flour stuffs
 craftingTable.removeByName("create:crafting/appliances/dough");
-Recipes.addInfusion(<item:create:dough>*2,<item:create:wheat_flour>,<block:minecraft:nether_gold_ore>,1000);
+Recipes.addInfusion(<item:create:dough>*2,<item:create:wheat_flour>,<block:minecraft:blue_stained_glass>,1000);
 Recipes.addItemExplosion([(<item:create:wheat_flour>*8).weight(50)],[<tag:items:forge:crops/wheat>],1,50);
 
 
