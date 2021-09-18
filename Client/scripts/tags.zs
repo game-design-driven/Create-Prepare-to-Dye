@@ -121,3 +121,6 @@ public class tag{
 
 <tag:items:minecraft:logs_that_burn>.remove(<item:minecraft:spruce_log>);
 <tag:items:minecraft:logs_that_burn>.remove(<item:minecraft:birch_log>);
+
+<tag:items:forge:dusts>.add(<item:minecraft:sugar>);
+<tag:items:forge:dusts/sugar>.add(<item:minecraft:sugar>);
