@@ -88,12 +88,10 @@ public expand IItemStack {
     return this;
   }
   public removeRecipe() as IItemStack{
-    print("removing recipe for --- "+this as string);
     recipes.removeRecipe(this);
     return this;
   }
   public removeCraftingRecipe() as IItemStack{
-    print("removing recipe for --- "+this as string);
     craftingTable.removeRecipe(this);
     return this;
   }

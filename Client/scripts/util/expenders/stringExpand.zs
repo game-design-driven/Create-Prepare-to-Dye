@@ -69,7 +69,7 @@ public expand string{
 public expand List<MCTextComponent>{
     public contains(element as MCTextComponent) as bool{
         for e in this{
-            print(e.formattedText);
+            // print(e.formattedText);
             if e.formattedText == element.formattedText{
                 return true;
             }
