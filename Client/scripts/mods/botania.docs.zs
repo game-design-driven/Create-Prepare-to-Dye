@@ -205,7 +205,7 @@ val tipsbotania ={
     <item:botania:manasteel_pick> :mana_equipment+" Will place a torch from inventory when right clicked on a surface.",
     <item:botania:manasteel_shovel> :mana_equipment+" When used on Dirt or Grass Blocks, the block will turn into a Grass Path. when used on a Grass Path, it will turn into Farmland.",
     <item:botania:manasteel_hoe> :mana_equipment,
-    <item:botania:manasteel_axe> :mana_equipment+" Right clicking on dirt with the tool will plant a sapling from the player's inventory.",
+    <item:botania:manasteel_axe> :mana_equipment+" Right clicking on dirt with the tool will plant a sapling from the inventory.",
     <item:botania:manasteel_sword> :mana_equipment,
     <item:botania:manasteel_shears> :mana_equipment+" Will trigger tripwire.",
     <item:botania:terrasteel_helmet> :mana_equipment,
@@ -235,7 +235,21 @@ val tipsbotania ={
     <item:botania:terra_sword> :mana_equipment+" When swung and the attack recharge meter is full, it will use Mana to create a damaging Mana burst",
     <item:botania:terra_axe> :mana_equipment+" When used to break a log or leaf block, it will start breaking all logs and leaves connected either directly or through. Right clicking on dirt with the tool will plant a sapling from the player's inventory.",
     <item:botania:terra_pick> :mana_equipment+" Has several ranks. To upgrade rank drop onto a Mana Pool to absorb Mana. Rright click to activate. While active, break blocks in an extended area.",
-
+    <item:botania:star_sword> :mana_equipment+" When swung, it has a chance to spawn a missile falling at the targeted block.",
+    <item:botania:thunder_sword> :mana_equipment+" Conjure lightning. Zap multiple targets at once.",
+    <item:botania:ender_dagger> :"tears through Endermen as if they were butter.",
+    <item:botania:livingwood_bow> :mana_equipment,
+    <item:botania:crystal_bow> :"Uses Mana instead of arrows. If the bow is enchanted with Infinity the cost is halved. Twice as fast to draw. If Tipped Arrows are present in the inventory, will fire arrows with their effects.",
+    <item:botania:glass_pickaxe> :mana_equipment+" will place a torch from the inventory when right clicked on a surface. When Glass of any type is mined, it will be dropped as if a Silk Touch was used.",
+    <item:botania:thorn_chakram> :"When thrown, a chakram pierces through enemies, dealing damage with a chance to leave behind poison. It bounces off blocks, and returns to its thrower after about three seconds like a boomerang. Up to 6 Thorn Chakrams can be stacked together, making them deadly in closed spaces.",
+    <item:botania:flare_chakram> :"Works nearly the same as the original Thorn Chakram, except it sets mobs on fire too.",
+    <item:botania:dice> :"When used, the dice will turn into a random relic not yet obtained by you. Bound item.",
+    <item:botania:infinite_fruit> :"",
+    <item:botania:king_key> :"",
+    <item:botania:flugel_eye> :"",
+    <item:botania:thor_ring> :"",
+    <item:botania:odin_ring> :"",
+    <item:botania:loki_ring> :"",
 
 
 

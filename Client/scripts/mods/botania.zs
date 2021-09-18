@@ -202,6 +202,12 @@ val ripMap = {
     <item:botania:red_mushroom>:<item:minecraft:red_dye>,
     <item:botania:black_mushroom>:<item:minecraft:black_dye>,
 };
+<recipetype:create:milling>.removeByRegex("^.*petal.*$");
+
+// for millRecipe in <recipetype:create:milling>{
+//     // if (millRecipe.ingredients[0].items[0].
+//     //remove all stuff that has input pettal
+// }
 ripMap.removeAndReplace();
 <item:botania:flower_bag>.remove();
 // <item:botania:pestle_and_mortar>.remove();
