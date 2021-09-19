@@ -287,3 +287,10 @@ Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:birch_log>,100);
 <recipetype:create:milling>.removeByName("create:milling/lilac");
 Recipes.addMilling([<item:minecraft:magenta_dye>*3], <item:minecraft:lilac>);
 Recipes.addCrushing([<item:minecraft:magenta_dye>%80,<item:minecraft:purple_dye>%40,<item:minecraft:brown_dye>%4], <item:minecraft:lilac>);
+
+//craft gray dye with gunpowder
+<item:minecraft:gray_dye>.shapeless([<item:minecraft:gunpowder>]);
+
+//crush soulsand /brown dye
+Recipes.addMilling([<item:minecraft:brown_dye>],<item:minecraft:soul_sand>);
+Recipes.addCrushing([<item:minecraft:brown_dye>%40,<item:minecraft:sand>%40,<item:minecraft:quartz>%5],<item:minecraft:soul_sand>);
