@@ -313,3 +313,7 @@ Recipes.addTrade([<item:minecraft:yellow_dye>],[<item:minecraft:glowstone_dust>,
 
 Recipes.addFluidToItem([<item:minecraft:yellow_dye>*4],[<tag:items:forge:dyes/white>*4],<fluid:create:honey>,1);
 
+//
+<recipetype:create:milling>.removeByName("create:milling/bone");
+Recipes.addMilling([<item:minecraft:bone_meal>*3,<item:minecraft:bone_meal>*2%50], <item:minecraft:bone>);
+Recipes.addCrushing([<item:minecraft:bone_meal>*3,<item:minecraft:white_dye>*3%80,<item:minecraft:pink_dye>%40], <item:minecraft:bone>);
