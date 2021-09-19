@@ -1953,7 +1953,7 @@
 		#The maximum enchanting power the matrix enchanter can accept
 		"Max Bookshelves" = 15
 		#Should this be X, the price of a piece increase by 1 every X pieces you generate
-		"Piece Price Scale" = 9
+		"Piece Price Scale" = 5
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#How many pieces you can generate without any bookshelves
@@ -1963,7 +1963,7 @@
 		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
 		"Min Level Cutoff" = 10
 		#How many pieces a single Lapis can generate
-		"Charge Per Lapis" = 4
+		"Charge Per Lapis" = 1
 		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
 		"Min Level Scale Factor" = 1.5
 		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
@@ -1983,7 +1983,7 @@
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
 		"Allow Underwater Enchanting" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = []
+		"Disallowed Enchantments" = ["charm:tinted"]
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
 		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
@@ -1997,7 +1997,7 @@
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 8
+		"Pipe Speed" = 16
 		#Set to 0 if you don't want pipes to have a max amount of items
 		"Max Pipe Items" = 8
 		#When items eject or are absorbed by pipes, should they make sounds?
