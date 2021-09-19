@@ -245,7 +245,8 @@ Recipes.addMilling([<item:minecraft:black_dye>%10],<item:minecraft:charcoal>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:gray_dye>%25],<item:minecraft:coal>);
 Recipes.addCrushing([<item:minecraft:gray_dye>%10,<item:minecraft:black_dye>%5],<item:minecraft:charcoal>);
 
-Recipes.addMilling([<item:minecraft:black_dye>],<item:minecraft:ink_sac>);
+<recipetype:create:milling>.removeByName("create:milling/ink_sac");
+Recipes.addMilling([<item:minecraft:black_dye>*2],<item:minecraft:ink_sac>);
 Recipes.addCrushing([<item:minecraft:black_dye>%50,<item:minecraft:light_blue_dye>%25,<item:minecraft:light_gray_dye>%25],<item:minecraft:ink_sac>);
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 Recipes.addInfusion(<item:minecraft:cyan_dye>,<item:minecraft:warped_roots>); 
@@ -283,7 +284,7 @@ Recipes.addSmelting((<item:minecraft:charcoal>*2),<item:minecraft:spruce_log>,40
 (<item:minecraft:birch_planks> * 8).shapeless([<item:minecraft:birch_log>]);
 Recipes.addSmelting((<item:minecraft:charcoal>),<item:minecraft:birch_log>,100);
 
-//mill/magenta
+//mill/->magenta
 <recipetype:create:milling>.removeByName("create:milling/lilac");
 Recipes.addMilling([<item:minecraft:magenta_dye>*3], <item:minecraft:lilac>);
 Recipes.addCrushing([<item:minecraft:magenta_dye>%80,<item:minecraft:purple_dye>%40,<item:minecraft:brown_dye>%4], <item:minecraft:lilac>);
@@ -294,3 +295,21 @@ Recipes.addCrushing([<item:minecraft:magenta_dye>%80,<item:minecraft:purple_dye>
 //crush soulsand /brown dye
 Recipes.addMilling([<item:minecraft:brown_dye>],<item:minecraft:soul_sand>);
 Recipes.addCrushing([<item:minecraft:brown_dye>%40,<item:minecraft:sand>%40,<item:minecraft:quartz>%5],<item:minecraft:soul_sand>);
+
+//mill /bonemeal->
+<recipetype:create:milling>.removeByName("create:milling/bone_meal");
+Recipes.addMilling([<item:minecraft:white_dye>*2], <item:minecraft:bone_meal>);
+Recipes.addCrushing([<item:minecraft:white_dye>%80,<item:minecraft:light_gray_dye>%40,<item:minecraft:gray_dye>%10], <item:minecraft:bone_meal>);
+
+//mill /->pink,red
+Recipes.addCrushing([<item:minecraft:pink_dye>%80,<item:minecraft:red_dye>%40], <item:minecraft:porkchop>);
+Recipes.addCrushing([<item:minecraft:red_dye>%40,<item:minecraft:pink_dye>%20], <item:minecraft:beef>);
+
+//bone from meat in acid
+Recipes.addFluidToItem([<item:minecraft:bone>],[<tag:items:forge:meat>*8],<fluid:contenttweaker:acid>,0.1);
+
+//yellow dye
+Recipes.addTrade([<item:minecraft:yellow_dye>],[<item:minecraft:glowstone_dust>,<item:minecraft:cooked_porkchop>|<item:create:honeyed_apple>]);
+
+Recipes.addFluidToItem([<item:minecraft:yellow_dye>*4],[<tag:items:forge:dyes/white>*4],<fluid:create:honey>,1);
+

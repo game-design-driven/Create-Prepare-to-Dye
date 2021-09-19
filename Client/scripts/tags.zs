@@ -124,3 +124,8 @@ public class tag{
 
 <tag:items:forge:dusts>.add(<item:minecraft:sugar>);
 <tag:items:forge:dusts/sugar>.add(<item:minecraft:sugar>);
+
+<tag:items:forge:meat>.add([
+    <item:minecraft:porkchop>,
+    <item:minecraft:beef>
+]);
