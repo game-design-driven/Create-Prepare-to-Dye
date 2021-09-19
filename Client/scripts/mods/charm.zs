@@ -17,3 +17,4 @@ var netheriteNugget = <recipetype:create:sequenced_assembly>.builder("seq_nether
 
 Recipes.addInfusion(<item:charm:netherite_nugget>*9,<item:minecraft:netherite_ingot>,<blockstate:minecraft:bedrock>);
 <item:charm:glowball>.remove(); //doesn't seem to actually do light?
+<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "charm:tinted" as string}]}).remove();
