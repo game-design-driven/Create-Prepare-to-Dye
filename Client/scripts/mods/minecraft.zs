@@ -109,6 +109,8 @@ Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gol
 //more gold recipes
 //gold from honey
 Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
+Recipes.addFluidToItem([<item:minecraft:nether_gold_ore>],[<tag:items:forge:netherrack>*8],<fluid:create:honey>,1);
+
 // <item:minecraft:nether_gold_ore>.shaped([
 //     [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],
 //     [<item:minecraft:honeycomb>,<tag:items:forge:ores>,<item:minecraft:honeycomb>],
@@ -319,3 +321,8 @@ Recipes.addFluidToItem([<item:minecraft:yellow_dye>*4],[<tag:items:forge:dyes/wh
 <recipetype:create:milling>.removeByName("create:milling/bone");
 Recipes.addMilling([<item:minecraft:bone_meal>*3,<item:minecraft:bone_meal>*2%50], <item:minecraft:bone>);
 Recipes.addCrushing([<item:minecraft:bone_meal>*3,<item:minecraft:white_dye>*3%80,<item:minecraft:pink_dye>%40], <item:minecraft:bone>);
+
+
+//
+Recipes.addInfusion(<item:minecraft:bamboo>,<item:minecraft:sugar_cane>,<blockstate:create:blaze_burner:blaze=kindled>,10000);
+Recipes.addInfusion(<item:minecraft:bamboo>,<item:minecraft:sugar_cane>,<blockstate:create:blaze_burner:blaze=kindled>,2500);
