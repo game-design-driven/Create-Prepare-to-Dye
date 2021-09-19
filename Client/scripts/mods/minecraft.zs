@@ -104,14 +104,16 @@ Recipes.addInfusion(<item:minecraft:kelp>, <item:minecraft:sugar_cane>);
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 
+//remove regular gold ore
+<item:minecraft:gold_ore>.remove();
 //more gold recipes
 //gold from honey
 Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
-<item:minecraft:gold_ore>.shaped([
-    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],
-    [<item:minecraft:honeycomb>,<tag:items:forge:ores>,<item:minecraft:honeycomb>],
-    [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>]
-]);
+// <item:minecraft:nether_gold_ore>.shaped([
+//     [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],
+//     [<item:minecraft:honeycomb>,<tag:items:forge:ores>,<item:minecraft:honeycomb>],
+//     [<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>]
+// ]);
 var goldMaker = <recipetype:create:sequenced_assembly>.builder("seq_gold_egg")
     .transitionTo(<item:minecraft:egg>.withTag({"egg in a process": 1 as int}))
     .require(<item:minecraft:egg>)
