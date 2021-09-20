@@ -223,7 +223,7 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				hand_crank = 8.0
+				hand_crank = 16.0
 				furnace_engine = 1024.0
 				encased_fan = 18.0
 				creative_motor = 16384.0
