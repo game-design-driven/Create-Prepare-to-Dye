@@ -3,10 +3,10 @@
     {
       "ore": "minecraft:diorite",
       "filler": "minecraft:stone",
-      "minY": 1,
-      "maxY": 80,
-      "maxVeinSize": 32,
-      "spawnRate": 8.0,
+      "minY": 40,
+      "maxY": 120,
+      "maxVeinSize": 5,
+      "spawnRate": 9.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

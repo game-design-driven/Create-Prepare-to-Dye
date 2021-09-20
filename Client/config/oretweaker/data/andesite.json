@@ -3,10 +3,10 @@
     {
       "ore": "minecraft:andesite",
       "filler": "minecraft:stone",
-      "minY": 1,
-      "maxY": 80,
-      "maxVeinSize": 32,
-      "spawnRate": 10.0,
+      "minY": 100,
+      "maxY": 140,
+      "maxVeinSize": 100,
+      "spawnRate": 0.3,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

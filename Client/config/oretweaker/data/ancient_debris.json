@@ -15,7 +15,7 @@
       "filler": "minecraft:netherrack",
       "minY": 8,
       "maxY": 24,
-      "maxVeinSize": 2,
+      "maxVeinSize": 4,
       "spawnRate": 1.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []

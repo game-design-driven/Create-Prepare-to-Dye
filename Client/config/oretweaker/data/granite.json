@@ -4,9 +4,9 @@
       "ore": "minecraft:granite",
       "filler": "minecraft:stone",
       "minY": 1,
-      "maxY": 80,
-      "maxVeinSize": 32,
-      "spawnRate": 10.0,
+      "maxY": 40,
+      "maxVeinSize": 5,
+      "spawnRate": 9.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

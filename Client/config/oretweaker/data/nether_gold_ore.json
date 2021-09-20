@@ -3,20 +3,10 @@
     {
       "ore": "minecraft:nether_gold_ore",
       "filler": "minecraft:netherrack",
-      "minY": 10,
-      "maxY": 118,
-      "maxVeinSize": 24,
-      "spawnRate": 10.0,
-      "biomeBlacklist": [],
-      "biomeWhitelist": []
-    },
-    {
-      "ore": "minecraft:nether_gold_ore",
-      "filler": "minecraft:netherrack",
-      "minY": 10,
+      "minY": 20,
       "maxY": 118,
       "maxVeinSize": 10,
-      "spawnRate": 20.0,
+      "spawnRate": 40.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

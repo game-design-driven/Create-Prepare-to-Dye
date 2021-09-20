@@ -3,20 +3,10 @@
     {
       "ore": "minecraft:nether_quartz_ore",
       "filler": "minecraft:netherrack",
-      "minY": 10,
+      "minY": 30,
       "maxY": 246,
-      "maxVeinSize": 16,
-      "spawnRate": 10.0,
-      "biomeBlacklist": [],
-      "biomeWhitelist": []
-    },
-    {
-      "ore": "minecraft:nether_quartz_ore",
-      "filler": "minecraft:netherrack",
-      "minY": 10,
-      "maxY": 246,
-      "maxVeinSize": 14,
-      "spawnRate": 32.0,
+      "maxVeinSize": 30,
+      "spawnRate": 6.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

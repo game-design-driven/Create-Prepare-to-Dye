@@ -489,13 +489,13 @@
 
 [world]
 	"Big Dungeon" = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	Biotite = true
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
-	Deepslate = true
+	Deepslate = false
 	"Fairy Rings" = true
 	"Mega Caves" = true
 	"Monster Box" = true
@@ -505,8 +505,8 @@
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
 	"Elder Prismarine Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Lush Underground Biome" = true
@@ -616,7 +616,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.andesite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
