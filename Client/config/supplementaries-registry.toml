@@ -10,7 +10,7 @@
 		#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 		dispensers = true
 		#Creates a creative tab full of filled jars
-		jar_tab = false
+		jar_tab = true
 
 	[initialization.entities]
 		firefly = true
@@ -39,7 +39,7 @@
 		slingshot = true
 		wattle_and_daub = true
 		stone_lamp = true
-		cog_block = true
+		cog_block = false
 		crank = true
 		copper_lantern = true
 		pancake = true
