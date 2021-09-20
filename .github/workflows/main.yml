@@ -37,19 +37,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Store changelog
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: CHANGELOG.md
+  changelog:
+    runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.changelog }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Generate changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
           output-file: 'CHANGELOG.md'
-          release-count: '3'
       - name: Store changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
           path: CHANGELOG.md
-
   build:
     runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
