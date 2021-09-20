@@ -29,27 +29,6 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-  # changelog:
-  #   runs-on: ubuntu-latest
-  #   outputs:
-  #     changelog: ${{ steps.changelog.outputs.changelog }}
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v2
-  #     - name: Generate changelog
-  #       id: changelog
-  #       uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-  #       with:
-  #         token: ${{ secrets.GITHUB_TOKEN }}
-  #         output: CHANGELOG.md
-  #         compareLink: true
-  #         stripGeneratorNotice: true
-  #     - name: Store changelog
-  #       uses: actions/upload-artifact@v2
-  #       with:
-  #         name: changelog
-  #         path: CHANGELOG.md
 - name: Conventional Changelog Action
   uses: TriPSs/conventional-changelog-action@v3
   with:
