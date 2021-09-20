@@ -106,7 +106,7 @@ Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<t
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 
 //remove regular gold ore
-<item:minecraft:gold_ore>.remove();
+<item:minecraft:gold_ore>.murdurFamily():
 Orechid.main.removeOreWeight(<blockstate:minecraft:gold_ore>);
 //more gold recipes
 //gold from honey
@@ -135,7 +135,7 @@ Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <bl
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
 
 //remove emerald ore
-<item:minecraft:emerald_ore>.remove();
+<item:minecraft:emerald_ore>.murdurFamily();
 Orechid.main.removeOreWeight(<blockstate:minecraft:emerald_ore>);
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
