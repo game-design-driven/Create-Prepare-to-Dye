@@ -10,18 +10,18 @@ val mana_equipment = "Can use Mana to prevent item damage or repair itself.";
 val elementium_armor = " When attacked there's a chance to spawn a Pixie that goes after the attacker. stacks with other worn armor and accessories.";
 val pure_daisys = "Converts Wood and Stone into Livingwood and Livingrock respectively. Can also convert Netherrack into Cobblestone, Blaze Mesh into Obsidian, Soul Sand into Sand, Ice into Packed Ice and Water into Snow. Surround by blocks to purify.  Take 60 seconds.";
 val manastars = "Will show whether a nearby pool is gaining or losing Mana over time.";
-val hydroangeases = "Produces a little Mana from consuming Water sources blocks in a 3×3 area around it, but will wither after 1 hour.";
-val endoflames = "Consumes any fuel dropped in a 7×7×7 area around it, then produces Mana for half of the fuel's burn time. Doesn't consume fuel while it's active. Fuels that leave a container or byproduct will not be consumed.";
+val hydroangeases = "Produces a little Mana from consuming Water sources blocks in a 3x3 area around it, but will wither after 1 hour.";
+val endoflames = "Consumes any fuel dropped in a 7x7x7 area around it, then produces Mana for half of the fuel's burn time. Doesn't consume fuel while it's active. Fuels that leave a container or byproduct will not be consumed.";
 val thermalilys = "Generates a lot of Mana by consuming Lava for 45 seconds, then go on cooldown for 6,000 ticks (5 minutes). During cooldown destroys lava blocks without generating mana";
 val rosas_arcanas = "Generates Mana by absorbing experience from nearby players (1 block). Can also synthesize mana from experience orbs and enchanted items in the world, for a bit less mana.";
 val munchdews = "Generates Mana by eating Leaves. Range of 8 blocks horizontally and 16 blocks above. If it cannot find leaves, it goes to sleep for 80 seconds before trying again.";
 val entropinnyums = "Generates Mana by absorbing the explosion of TNT.";
-val kekimuruses = "Generates Mana by consuming Cake in an 11×11×11 area around itself.";
-val gourmaryllises = "Generates Mana from food in a 3×3×3 area around it. Only digests one food at a time. Will devour any other foods while digesting, but yield no mana. Loves variety in its diet. Mana yield depends on the food's nutritional value";
-val narslimmuses = "Generates Mana by consuming Slimes, naturally spawned in slime chunks, in a 5×5×5 area around it.";
+val kekimuruses = "Generates Mana by consuming Cake in an 11x11x11 area around itself.";
+val gourmaryllises = "Generates Mana from food in a 3x3x3 area around it. Only digests one food at a time. Will devour any other foods while digesting, but yield no mana. Loves variety in its diet. Mana yield depends on the food's nutritional value";
+val narslimmuses = "Generates Mana by consuming Slimes, naturally spawned in slime chunks, in a 5x5x5 area around it.";
 val spectroluses = "Generates Mana by consuming Wool (whithin 1 block) of specific colors. Will consume all wool, but will only generate Mana when dropped in the correct sequence of colors: White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Grey, Light Grey, Cyan, Purple, Blue, Brown, Green, Red, Black. The color desired can be seen over the flower with a Wand of the Forest.";
-val dandelifeons = "Generates Mana by simulating Conway's Game of Life in a 25×25 area around it. When a redstone signal is applied to it, it will advance one generation every half second (10 ticks).";
-val rafflowsias = "Generates Mana by consuming other Botania flowers in a 11×11×11 area. Its best to feed them varying diets.";
+val dandelifeons = "Generates Mana by simulating Conway's Game of Life in a 25x25 area around it. When a redstone signal is applied to it, it will advance one generation every half second (10 ticks).";
+val rafflowsias = "Generates Mana by consuming other Botania flowers in a 11x11x11 area. Its best to feed them varying diets.";
 val shulk_me_nots = "Generates Mana from the power of the Shulker's Levitation. Has a spherical radius of 8 blocks. If a nearby (both entities must be within range) monster is hit with a Shulker's projectile, and the Shulk Me Not's internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process.";
 val agricarnations = "When supplied with Mana will cause plants to grow faster in an area of 5 blocks around it.";
 val bellethorns = "When supplied with Mana, will attempt to damage a random nearby mob every 5 ticks. Range of 6 blocks around itself, the Petite has a range of only 1 around itself. hates witches.";
@@ -37,11 +37,19 @@ val Hopperhocks = "picks up items around it and puts them in adjacent inventorie
 val hyciduses = "When supplied with Mana, inflict nearby mobs with the Poison status effect. Undead mobs are unaffected.";
 val jaded_amaranthuses = "When supplied with Mana, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks.";
 val jiyuulias = "When supplied with a small amount of Mana, keep any nearby mobs or animals out of a circular area.";
+val labellias = "When supplied with a moderate amount of Mana, picks up Name Tags dropped on top of it, and uses them to name nearby items and mobs within a 5x5 radius.";
 val looniums = "When supplied with an extreme amount of Mana, spawn monsters stronger than usual. When killed these monsters will drop items normally found in dungeon chests.";
-
-
-
-
+val marimorphosise= "When supplied with Mana, converts all nearby Stone into a random type of decorative Metamorphic Stone. The affected area is a 17x17x11 cuboid. Associated biome type are 12 times more likely to generate.";
+val medumones = "When supplied with Mana, halt all creatures movements (except players) in a 13x13x13 area around itself.";
+val orechid_ignems = "When supplied with a lot of Mana, turns nearby Netherrack blocks into Nether ores in a 11x11x7 area. Has to be in the Nether to function.";
+val orechids = "When supplied with a lot of Mana, turns nearby stone blocks into ores in a 11x11x7 area.";
+val pollidisiacs = "When supplied with a bit of Mana, takes any appropriate nearby food items and feeds them to animals nearby.";
+val rannuncarpuses = "Placed items in the world. Will only place blocks on top of a block of the same type as the one directly below the soil the flower is planted on. Supplying it with Mana increases its range.";
+val solegnolias = "Prevents the Ring of Magnetization from pulling items inside its range. Does not use Mana.";
+val spectranthemums = "When supplied with Mana, teleports items in a 5x5x5 area around itself to the top of the bound block in a 12 block radius. To bind, sneak-right click with the Wand of the Forest in Bind Mode, then sneak-right click the chosen block.";
+val tangleberries = "When supplied with a bit of Mana, keeps mobs and animals within a circle.";
+val tigerseyes = "When supplied with Mana, causes Creepers to be unable to explode and run away from players.";
+val vinculotuses = "When supplied with Mana any Enderman in its functional range attempting to teleport will teleport to the flower.";
 
 
 val tipsbotania ={
@@ -193,6 +201,7 @@ val tipsbotania ={
     <item:botania:brew_flask>.withTag({brewKey: "botania:overload" as string})  :"Gives Strength IV, Speed III, Weakness III and Hunger III effects.",
     //utility
     <item:botania:flower_bag> :"Can hold a stack each of Mystical Flowers.",
+    <item:botania:monocle> :"Shows nearby Mana bursts and the functional radii of flowers.",
     <item:botania:slingshot> :"Can fire Vine Balls that ignore the rules of gravity.",
     <item:botania:pestle_and_mortar> :"Crush Mystical Petals into Floral Powders.",
     <item:botania:horn_grass> :"Harvests grass, flowers and crops.",
@@ -343,7 +352,52 @@ val tipsbotania ={
     <item:botania:corporea_interceptor> :"",
     <item:botania:corporea_funnel> :"",
     <item:botania:corporea_index> :"",
-
+    //mana stuff
+    <item:botania:mana_pool> :"",
+    <item:botania:diluted_pool> :"",
+    <item:botania:mana_spreader> :"",
+    <item:botania:redstone_spreader> :"",
+    <item:botania:elven_spreader> :"",
+    <item:botania:gaia_spreader> :"",
+    <item:botania:spark> :"",
+    <item:botania:spark_upgrade_dispersive> :"",
+    <item:botania:spark_upgrade_dominant> :"",
+    <item:botania:spark_upgrade_recessive> :"",
+    <item:botania:spark_upgrade_isolated> :"",
+    <item:botania:spark_changer> :"",
+    <item:botania:mana_distributor> :"",
+    <item:botania:mana_void> :"",
+    <item:botania:mana_detector> :"",
+    <item:botania:mana_fluxfield> :"",
+    <item:botania:prism> :"",
+    <item:botania:pump> :"",
+    <item:botania:bellows> :"",
+    <item:botania:pool_minecart> :"",
+    //lenses
+    <item:botania:lens_normal> :"",
+    <item:botania:lens_speed> :"",
+    <item:botania:lens_power> :"",
+    <item:botania:lens_time> :"",
+    <item:botania:lens_efficiency> :"",
+    <item:botania:lens_bounce> :"",
+    <item:botania:lens_gravity> :"",
+    <item:botania:lens_mine> :"",
+    <item:botania:lens_damage> :"",
+    <item:botania:lens_phantom> :"",
+    <item:botania:lens_magnet> :"",
+    <item:botania:lens_explosive> :"",
+    <item:botania:lens_influence> :"",
+    <item:botania:lens_weight> :"",
+    <item:botania:lens_paint> :"",
+    <item:botania:lens_fire> :"",
+    <item:botania:lens_piston> :"",
+    <item:botania:lens_light> :"",
+    <item:botania:lens_warp> :"",
+    <item:botania:lens_redirect> :"",
+    <item:botania:lens_firework> :"",
+    <item:botania:lens_flare> :"",
+    <item:botania:lens_messenger> :"",
+    <item:botania:lens_tripwire> :"",
     //magic flowis
     <item:botania:pure_daisy> :pure_daisys,
     <item:botania:floating_pure_daisy> :pure_daisys,
@@ -391,27 +445,27 @@ val tipsbotania ={
     <item:botania:hyacidus> :hyciduses,
     <item:botania:jaded_amaranthus> :jaded_amaranthuses,
     <item:botania:jiyuulia> :jiyuulias,
-    //<item:botania:labellia> :"",
+    <item:botania:labellia> :labellias,
     <item:botania:loonium> :looniums,
-    //<item:botania:marimorphosis>
-    //<item:botania:medumone>
-    //<item:botania:orechid_ignem>
-    //<item:botania:orechid>
-    //<item:botania:pollidisiac>
-    //<item:botania:rannuncarpus>
-    //<item:botania:solegnolia>
-    //<item:botania:spectranthemum>
-    //<item:botania:tangleberrie>
-    //<item:botania:tigerseye>
-    //<item:botania:vinculotus>
+    <item:botania:marimorphosis> :marimorphosise,
+    <item:botania:medumone> :medumones,
+    <item:botania:orechid_ignem> :orechid_ignems,
+    <item:botania:orechid> :orechids,
+    <item:botania:pollidisiac> :pollidisiacs,
+    <item:botania:rannuncarpus> :rannuncarpuses,
+    <item:botania:solegnolia> :solegnolias,
+    <item:botania:spectranthemum> :spectranthemums,
+    <item:botania:tangleberrie> :tangleberries,
+    <item:botania:tigerseye> :tigerseyes,
+    <item:botania:vinculotus> :vinculotuses,
     <item:botania:agricarnation_chibi> :agricarnations,
     <item:botania:bellethorn_chibi> :bellethorns,
     <item:botania:bubbell_chibi> :bubbells,
     <item:botania:clayconia_chibi> :clayconias,
     <item:botania:hopperhock_chibi> :Hopperhocks,
-    //<item:botania:marimorphosis_chibi>
-    //<item:botania:rannuncarpus_chibi>
-    //<item:botania:solegnolia_chibi>
+    <item:botania:marimorphosis_chibi> :marimorphosise,
+    <item:botania:rannuncarpus_chibi> :rannuncarpuses,
+    <item:botania:solegnolia_chibi> :solegnolias,
     <item:botania:floating_agricarnation> :agricarnations,
     <item:botania:floating_bellethorn> :bellethorns,
     <item:botania:floating_bergamute> :bergamutes,
@@ -426,35 +480,27 @@ val tipsbotania ={
     <item:botania:floating_hyacidus> :hyciduses,
     <item:botania:floating_jaded_amaranthus> :jaded_amaranthuses,
     <item:botania:floating_jiyuulia> :jiyuulias,
-    //<item:botania:floating_labellia> :"",
+    <item:botania:floating_labellia> :labellias,
     <item:botania:floating_loonium> :looniums,
-    //<item:botania:floating_marimorphosis>
-    //<item:botania:floating_medumone>
-    //<item:botania:floating_orechid_ignem>
-    //<item:botania:floating_orechid>
-    //<item:botania:floating_pollidisiac>
-    //<item:botania:floating_rannuncarpus>
-    //<item:botania:floating_solegnolia>
-    //<item:botania:floating_spectranthemum>
-    //<item:botania:floating_tangleberrie>
-    //<item:botania:floating_tigerseye>
-    //<item:botania:floating_vinculotus>
+    <item:botania:floating_marimorphosis> :marimorphosise,
+    <item:botania:floating_medumone> :medumones,
+    <item:botania:floating_orechid_ignem> :orechid_ignems,
+    <item:botania:floating_orechid> :orechids,
+    <item:botania:floating_pollidisiac> :pollidisiacs,
+    <item:botania:floating_rannuncarpus> :rannuncarpuses,
+    <item:botania:floating_solegnolia> :solegnolias,
+    <item:botania:floating_spectranthemum> :spectranthemums,
+    <item:botania:floating_tangleberrie> :tangleberries,
+    <item:botania:floating_tigerseye> :tigerseyes,
+    <item:botania:floating_vinculotus> :vinculotuses,
     <item:botania:floating_agricarnation_chibi> :agricarnations,
     <item:botania:floating_bellethorn_chibi> :bellethorns,
     <item:botania:floating_bubbell_chibi> :bubbells,
     <item:botania:floating_clayconia_chibi> :clayconias,
     <item:botania:floating_hopperhock_chibi> :Hopperhocks,
-    //<item:botania:floating_marimorphosis_chibi>
-    //<item:botania:floating_rannuncarpus_chibi>
-    //<item:botania:floating_solegnolia_chibi>
-
-
-
-
-
-
-
-
+    <item:botania:floating_marimorphosis_chibi> :marimorphosise,
+    <item:botania:floating_rannuncarpus_chibi> :rannuncarpuses,
+    <item:botania:floating_solegnolia_chibi> :solegnolias,
 
 
     //  :"",
