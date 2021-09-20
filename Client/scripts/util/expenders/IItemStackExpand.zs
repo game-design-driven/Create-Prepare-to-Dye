@@ -28,7 +28,13 @@ public expand IItemStack {
   }
   public murdurFamily() as IItemStack{ // removes item and any child recipes
     this.remove();
-    craftingTable.removeRecipeByInput(this);
+    for recipe in recipes.getAllRecipes(){
+      for ing in recipe.ingredients{
+        if (ing.items[0]==this){
+          recipes.removeByName(recipe.id);
+        }
+      }
+    }
     return this;
   }
   public addTip(t as string) as IItemStack{ //todo move to itemdefinition
@@ -96,7 +102,7 @@ public expand IItemStack {
     return this;
   }
   public remove() as IItemStack{
-    this.addTooltip("removed!".red());//TODO #60 change to red
+    this.addTooltip("removed!".red());
     for tag in <tagManager:items>.getAllTagsFor(this){
       tag.remove(this);
     }
