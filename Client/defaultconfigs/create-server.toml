@@ -94,7 +94,7 @@
 	# 
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	#Range: > 5
-	kineticValidationFrequency = 60
+	kineticValidationFrequency = 80
 	# 
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	#Range: 0.0 ~ 1.0
@@ -102,7 +102,7 @@
 	# 
 	#Amount of sail-type blocks required for a windmill to assemble successfully.
 	#Range: > 0
-	minimumWindmillSails = 8
+	minimumWindmillSails = 4
 	# 
 	#Max Distance in blocks a Weighted Ejector can throw
 	#Range: > 0
