@@ -41,6 +41,8 @@ jobs:
         github-token: ${{ secrets.github_token }}
         output-file: 'CHANGELOG.md'
         release-count: '3'
+    - name: Store changelog
+      uses: actions/upload-artifact@v2
 
   build:
     runs-on: ubuntu-latest
