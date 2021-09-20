@@ -328,7 +328,7 @@
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	#Range: > 16
-	maxSchematics = 256
+	maxSchematics = 1024
 	# 
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
