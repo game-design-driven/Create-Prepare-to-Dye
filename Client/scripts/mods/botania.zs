@@ -2,8 +2,6 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import mods.botania.StateIngredient;
-
-<item:botania:fel_pumpkin>.addTip("If placed on top of two Iron Bars, will spawn a Blaze that will drop Blaze Powder instead of Blaze Rods.");
 //overgroth seed
 Recipes.addFill(<item:botania:overgrowth_seed>,<item:minecraft:bone_meal>*8,<fluid:minecraft:milk>* 1000);
 // val aRealFluid as FluidIngredient= <fluid:create:potion>.withTag({Potion: "minecraft:healing" as string});
@@ -208,6 +206,8 @@ val ripMap = {
 //     // if (millRecipe.ingredients[0].items[0].
 //     //remove all stuff that has input pettal
 // }
+//remove flower that makes mystical flowers
+<item:botania:jaded_amaranthus>.remove();
 ripMap.removeAndReplace();
 <item:botania:flower_bag>.remove();
 // <item:botania:pestle_and_mortar>.remove();
