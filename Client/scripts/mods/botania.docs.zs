@@ -244,12 +244,76 @@ val tipsbotania ={
     <item:botania:thorn_chakram> :"When thrown, a chakram pierces through enemies, dealing damage with a chance to leave behind poison. It bounces off blocks, and returns to its thrower after about three seconds like a boomerang. Up to 6 Thorn Chakrams can be stacked together, making them deadly in closed spaces.",
     <item:botania:flare_chakram> :"Works nearly the same as the original Thorn Chakram, except it sets mobs on fire too.",
     <item:botania:dice> :"When used, the dice will turn into a random relic not yet obtained by you. Bound item.",
-    <item:botania:infinite_fruit> :"",
-    <item:botania:king_key> :"",
-    <item:botania:flugel_eye> :"",
-    <item:botania:thor_ring> :"",
-    <item:botania:odin_ring> :"",
-    <item:botania:loki_ring> :"",
+    <item:botania:infinite_fruit> :"Use Mana to fill hunger.",
+    <item:botania:king_key> :"Uses mana to spawn weapon-shaped projectiles.",
+    <item:botania:flugel_eye> :"Sneak-right clicking this eye somewhere will bind it to that position. Holding right-click with a bound Eye will then use Mana to warp its owner back to its bound location. can't warp its user across dimensions. Having it allows a Flügel Tiara user to fly with an empty flight bar (at a higher Mana cost).",
+    <item:botania:thor_ring> :"When equipped, it dramatically increases a Terra Shatterer's area of effect.",
+    <item:botania:odin_ring> :"Provides extra health and protection from elemental damage, including drowning, suffocation, fire, lava, starvation, and fall damage.",
+    <item:botania:loki_ring> :"Gain the abillity to place multiple blocks at once in selected locations. Shift right-clicking with an empty hand will select a location. The first block selected is the source block. Selected blocks are marked with a glowing outline, the source block outline is larger. Selecting an already chosen location will remove that selection. If the source block is unselected, all selections are reset. Shift right-clicking with a block will attempt to place blocks on the relative positions to the selected block. costs Mana.",
+    //block
+    <item:botania:apothecary_default> :"Create generational and functional flowers. Given some water, and the correct ingredients, throwing any Seeds in will finalize the crafting process. Sneak-right clicking with an empty hand will remove the last item thrown in. After crafting, right-clicking an apothecary filled with water with an empty hand will place items used for the last recipe.",
+    <item:botania:runic_altar> :"Place (via either a right-click or a simple toss) the components upon the altar. Shift right-clicking the Runic Altar with an empty hand will return the last placed item into the inventory. Point a Mana Spreader with a supply of Mana at the altar. When enough Mana is received, drop or right-click a piece of Livingrock upon the altar, then use the wand of the Forest on it to collect. After crafting, right-clicking with an empty hand,  while the altar is not accepting mana, will place items used for the last recipe. An attached Comparator will emit signal strength 1 if the altar is accepting Mana, and signal strength 2 if it's ready to craft the rune.",
+    <item:botania:brewery> :"To start brewing, the Managlass Vial, or Alfglass Flask is added. Then, if a valid combination of reagents are added to the Brewery, any bound Mana Spreader will start supplying Mana automatically.",
+    <item:botania:alchemy_catalyst> :"Can be attached to the bottom of a Mana Pool, allowing to transform certain items into others.",
+    <item:botania:conjuration_catalyst> :"Cloning simple resources from Mana. Toss the relevant item into a Mana Pool with a catalyst attached below.",
+    //Mechanical
+    <item:botania:turntable> :"can spin Mana Spreaders that are placed right above it, as long as a redstone signal is not applied. The rotation speed can be sped up and reset using a Wand of the Forest by right-clicking.",
+    <item:botania:forest_eye> :"When pushed by a Piston, the block it's bound to is pushed the same way. To bind it to a block, right-click it with a Wand of the Forest, then right-click on the block you want to bind it to. To retrieve a Force Relay, sneak-right click it, or use a Dispenser on it, with a Wand of the Forest; any other attempts to retrieve it will destroy it. ignores Sticky Pistons.",
+    <item:botania:piston_relay> :"Sneak-right clicking a Note Block with a Cacophonium. When powered by a Redstone signal it will emit a sound of the entity the used Cacophonium was set to.",
+    <item:botania:ender_eye_block> :"Emits a Redstone signal when directly looked at.",
+    <item:botania:cacophonium_block> :"An adjacent Comparator will output a redstone signal proportional to the number of animals in a 6 blocks radius. Its count starts from 2.",
+    <item:botania:open_crate> :"Accepts each item from a Hopper or other item outputter, and drops the item directly below it. When given a redstone signal, any items it drops won't be picked up by flowers like the Hopperhock, Rannuncarpus, or Pollidisiac for around ten seconds longer than they otherwise would.",
+    <item:botania:crafty_crate> :"Automatically crafts items. Item slots are filled from left to right and top to bottom. The Crafting Placeholder is an empty slot. When all slots are filled, it will craft and eject the results, as well as any leftovers. Attaching a Comparator will emit a signal strength equivalent to the number of items inside. A pattern locks specific slots in the recipe. Applied by right-clicking on the crate (doesn't consume the pattern).",
+    <item:botania:red_string_container> :"Transfers items in a short range. Binds to the first inventory in a straight line within 8 blocks. It cannot bind to other Red String blocks.",
+    <item:botania:red_string_dispenser> :"Transfer items into Dispensers and Droppers and activate them in a short range. Binds to the first Dispenser or Dropper in a straight line within 8 blocks. It cannot bind to other Red String blocks. Powering it with a redstone signal will trigger the bound block.",
+    <item:botania:red_string_fertilizer> :"Fertilize blocks remotely. Binds to the first block that accepts Bone Meal in a straight line within 8 blocks. It cannot bind to other Red String blocks.",
+    <item:botania:red_string_comparator> :"Measure the contents or states of a block in a short range. Binds to the first block with Redstone Comparator output in a straight line within 8 blocks. It cannot bind to other Red String blocks. Use Redstone Comparator on it to measure the bound block.",
+    <item:botania:red_string_relay> :"Apply effects of Botania flowers to other plants. Binds to the first flower or mushroom in a straight line within 8 blocks. It cannot bind to any Botania flowers. Place Botania flowers on top of the spoofer.",
+    <item:botania:red_string_interceptor> :"Detect interaction with nearby blocks. bind to the first tile entity in a straight line within 8 blocks. It cannot bind to other Red String blocks. When interacting with the bound block, the interceptor will make a noise and emit a redstone signal for 2 ticks.",
+    // range of about eight blocks. If a block is bound, its String can be viewed by holding a Wand of the Forest. The Red String won't be affected by intervening blocks, but Red Stringed blocks can't be chained.
+    //in a straight line within 8 blocks. It cannot bind to other Red String blocks. The connection can be seen when holding a Wand of the Forest.
+    //utility
+    <item:botania:starfield> :"When placed on the ground in any dimension, it will create sparkling stars in the sky above at night.",
+    <item:botania:animated_torch> :"provids a redstone signal in the direction it is facing. Sneak-right clicking the torch will rotate it 90 degrees. By default whenever the torch is actuated (by either a Mana Burst or an adjacent Hovering Hourglass), it'll turn 180 degrees. Using a Wand of the Forest on the torch changes its mode. The mode are Toggle, Rotate, in which the torch rotates 90 degrees each actuation, and Random, in which the torch points randomly each actuation.",
+    <item:botania:enchanted_soil> :"When a Mana generating flower is placed on it, it will work twice as fast. Created by right-clicking an Overgrowth Seed on a Grass Block. Once placed, the Enchanted Soil cannot be moved.",
+    <item:botania:cocoon> :"Two minutes after placing it will turn into a baby animal. Up to 20 Chorus Fruit can be given to the cocoon to give it a chance to spawn a Shulker. Emeralds will give it achance to spawn a baby Villager instead.",
+    <item:botania:fel_pumpkin> :"If placed on top of two Iron Bars, it will spawn a Blaze that will drop 6 Blaze Powder.",
+    <item:botania:hourglass> :"A Redstone timer configurable with different types of sand. Hit with a Mana pulse to pause. If Mana Powder is used, the Hourglass acts as a counter. Each Mana burst will count up. When the counter reaches the amount of powder it will emit a redstone signal and reset. Using a Wand of the Forest on will lock it.",
+    <item:botania:cell_block> :"Generate Mana for the Dandelifeon. It is a fragile block.",
+    <item:botania:spawner_claw> :"When placed on top of a Monster Spawner, it will allow it to work when no players are in its range for the cost of mana.",
+    <item:botania:drum_wild> :"Whenever hit with a Mana burst, it will harvest 32 grass, flower or crop blocks.",
+    <item:botania:drum_gathering> :"When hit with a Mana burst any unsheared Sheep will drop Wool. Any empty Buckets dropped below a Cow will fill with Milk when the Drum plays.",
+    <item:botania:drum_canopy> :"When hit with a Mana burst Leaves will be broken.",
+    <item:botania:tiny_potato> :"When placed in the world, it can be right-clicked to spawn heart particles and bounce around. Can hold items.",
+    <item:botania:tiny_planet_block> :"Will pull any nearby Mana bursts into an orbit around it.",
+    <item:botania:avatar> :"When provided Mana with a Mana Spreader, it can use certain rods.",
+    <item:botania:ghost_rail> :"When a minecart enters the rail, it will be launched into air slightly, and be able to pass through blocks. The effect ends after 1 second, when the cart enters any kind of Dreamwood blocks, or lands on a rail.",
+    <item:botania:abstruse_platform> :"Allows players and entities to stand on it, unless they're sneaking. Mana bursts always travel through it. Right-click the platform with a block to be camouflaged as",
+    <item:botania:spectral_platform> :"Everything will go through it on any side. Right-click the platform with a block to be camouflaged as.",
+    <item:botania:infrangible_platform> :"The platform is unbreakable, and cannot be passed through. The only exception is the Mana burst. Right-click the platform with a block to be camouflaged as.",
+    <item:botania:mana_bomb> :"When hit by a Mana burst, it will turn into a Manastorm Epicenter—an entity which spawns explosive Mana bursts at an increasing rate and the explodes.",
+    <item:botania:light_relay> :"Transport players and mobs between points. Bind to other Luminizers with a Wand of the Forest. Right-clicking a Luminizer will transport its user to the Luminizer it's bound to. Luminizers have a range of twenty blocks each, but can be chained together to create paths.",
+    <item:botania:detector_light_relay> :"Emits a redstone pulse when something reaches (or passes through) it.",
+    <item:botania:fork_light_relay> :"will react to an Animated Torch, any incoming entities will be sent to a Luminizer in the direction that the Torch is pointing towards.",
+    <item:botania:toggle_light_relay> :"When powered by redstone, will drop anything passing through.",
+    <item:botania:light_launcher> :"Oמ redstone signal, it will put all entities standing on it into a random, adjacent luminizer.",
+    <item:botania:mana_pylon> :"If used in place of a Bookshelf near an Enchanting Table, it will boost the enchanting level by 16.",
+    <item:botania:natura_pylon> :"If used in place of a Bookshelf near an Enchanting Table, it will boost the enchanting level by 30.",
+    <item:botania:gaia_pylon> :"If used in place of a Bookshelf near an Enchanting Table, it will boost the enchanting level by 30.",
+    //corporea
+    <item:botania:corporea_spark> :"Can be placed on any inventory to provide access to its contents to the Corporea network. When placed on a Corporea block, it will allow it to pull from the network's contents. Can be colored by with a dye. Only sparks of the same color can connect.",
+    <item:botania:corporea_spark_master> :"Exactly one is required for a network to form. it does not provide access to items in an inventory.",
+    <item:botania:corporea_retainer> :"",
+    <item:botania:corporea_crystal_cube> :"",
+    <item:botania:corporea_interceptor> :"",
+    <item:botania:corporea_funnel> :"",
+    <item:botania:corporea_index> :"",
+
+
+
+
+
+
 
 
 
