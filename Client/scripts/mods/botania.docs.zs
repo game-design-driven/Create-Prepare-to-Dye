@@ -8,6 +8,41 @@ val Crafting_Patterns = "Used to restrict items from entering some slots of the 
 val Shards_of_Laputa = "When used on a block, it will start lifting the nearby ground slowly creating a floating island. Each additional level of Shard Power increases the radius and dimensions of the island.";
 val mana_equipment = "Can use Mana to prevent item damage or repair itself.";
 val elementium_armor = " When attacked there's a chance to spawn a Pixie that goes after the attacker. stacks with other worn armor and accessories.";
+val pure_daisys = "Converts Wood and Stone into Livingwood and Livingrock respectively. Can also convert Netherrack into Cobblestone, Blaze Mesh into Obsidian, Soul Sand into Sand, Ice into Packed Ice and Water into Snow. Surround by blocks to purify.  Take 60 seconds.";
+val manastars = "Will show whether a nearby pool is gaining or losing Mana over time.";
+val hydroangeases = "Produces a little Mana from consuming Water sources blocks in a 3×3 area around it, but will wither after 1 hour.";
+val endoflames = "Consumes any fuel dropped in a 7×7×7 area around it, then produces Mana for half of the fuel's burn time. Doesn't consume fuel while it's active. Fuels that leave a container or byproduct will not be consumed.";
+val thermalilys = "Generates a lot of Mana by consuming Lava for 45 seconds, then go on cooldown for 6,000 ticks (5 minutes). During cooldown destroys lava blocks without generating mana";
+val rosas_arcanas = "Generates Mana by absorbing experience from nearby players (1 block). Can also synthesize mana from experience orbs and enchanted items in the world, for a bit less mana.";
+val munchdews = "Generates Mana by eating Leaves. Range of 8 blocks horizontally and 16 blocks above. If it cannot find leaves, it goes to sleep for 80 seconds before trying again.";
+val entropinnyums = "Generates Mana by absorbing the explosion of TNT.";
+val kekimuruses = "Generates Mana by consuming Cake in an 11×11×11 area around itself.";
+val gourmaryllises = "Generates Mana from food in a 3×3×3 area around it. Only digests one food at a time. Will devour any other foods while digesting, but yield no mana. Loves variety in its diet. Mana yield depends on the food's nutritional value";
+val narslimmuses = "Generates Mana by consuming Slimes, naturally spawned in slime chunks, in a 5×5×5 area around it.";
+val spectroluses = "Generates Mana by consuming Wool (whithin 1 block) of specific colors. Will consume all wool, but will only generate Mana when dropped in the correct sequence of colors: White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Grey, Light Grey, Cyan, Purple, Blue, Brown, Green, Red, Black. The color desired can be seen over the flower with a Wand of the Forest.";
+val dandelifeons = "Generates Mana by simulating Conway's Game of Life in a 25×25 area around it. When a redstone signal is applied to it, it will advance one generation every half second (10 ticks).";
+val rafflowsias = "Generates Mana by consuming other Botania flowers in a 11×11×11 area. Its best to feed them varying diets.";
+val shulk_me_nots = "Generates Mana from the power of the Shulker's Levitation. Has a spherical radius of 8 blocks. If a nearby (both entities must be within range) monster is hit with a Shulker's projectile, and the Shulk Me Not's internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process.";
+val agricarnations = "When supplied with Mana will cause plants to grow faster in an area of 5 blocks around it.";
+val bellethorns = "When supplied with Mana, will attempt to damage a random nearby mob every 5 ticks. Range of 6 blocks around itself, the Petite has a range of only 1 around itself. hates witches.";
+val bergamutes = "Reduces the volume of all sounds in a radius of 4 blocks by 85%. Does not use Mana.";
+val bubbells = "When supplied with Mana, generate a dome of air (12 blocks in radius), keeping water at bay. A constant supply of Mana is required to maintain. The Petite affects a radius of 6 blocks.";
+val clayconias = "When supplied with Mana, will cause Sand to turn into Clay in a 5 block radios.";
+val daffomills = "When supplied with Mana pushes any items in front of it forward. Sneak-right clicking it with a Wand of the Forest changes its orientation. Can push items that are 3 blocks higher than the block it is placed on, 2 blocks lower and 2 blocks on each of its sides to the way it's facing. It will push blocks a maximum of 16 blocks.";
+val dreadthorns = "When supplied with Mana, damages only adult animals. Range of 6 blocks around itself, the Petite has a range of only 1 around itself.";
+val exoflames = "When supplied with Mana, generates heat. Any Furnaces near an active Exoflame are fueled and given a speed boost.";
+val fallen_kanades = "When supplied with Mana, will gives players around it the Regeneration status effect.";
+val heisei_dreams = "When supplied with Mana, turns mobs against each other.";
+val Hopperhocks = "picks up items around it and puts them in adjacent inventories. Supplying it with Mana increases its range. Range of 6 blocks increased to 10 with Mana. Placing Item Frames on inventories will specify which items can or can't go in them. Labelled inventories will take priority. Sneak-right click with a Wand of the Forest to change the rule used to sort items.";
+val hyciduses = "When supplied with Mana, inflict nearby mobs with the Poison status effect. Undead mobs are unaffected.";
+val jaded_amaranthuses = "When supplied with Mana, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks.";
+val jiyuulias = "When supplied with a small amount of Mana, keep any nearby mobs or animals out of a circular area.";
+val looniums = "When supplied with an extreme amount of Mana, spawn monsters stronger than usual. When killed these monsters will drop items normally found in dungeon chests.";
+
+
+
+
+
 
 val tipsbotania ={
     //wands
@@ -309,6 +344,110 @@ val tipsbotania ={
     <item:botania:corporea_funnel> :"",
     <item:botania:corporea_index> :"",
 
+    //magic flowis
+    <item:botania:pure_daisy> :pure_daisys,
+    <item:botania:floating_pure_daisy> :pure_daisys,
+    <item:botania:manastar> :manastars,
+    <item:botania:floating_manastar> :manastars,
+    //generating flowis
+    <item:botania:hydroangeas> :hydroangeases,
+    <item:botania:floating_hydroangeas> :hydroangeases,
+    <item:botania:endoflame> :endoflames,
+    <item:botania:floating_endoflame> :endoflames,
+    <item:botania:thermalily> :thermalilys,
+    <item:botania:floating_thermalily> :thermalilys,
+    <item:botania:rosa_arcana> :rosas_arcanas,
+    <item:botania:floating_rosa_arcana> :rosas_arcanas,
+    <item:botania:munchdew> :munchdews,
+    <item:botania:floating_munchdew> :munchdews,
+    <item:botania:entropinnyum> :entropinnyums,
+    <item:botania:floating_entropinnyum> :entropinnyums,
+    <item:botania:kekimurus> :kekimuruses,
+    <item:botania:floating_kekimurus> :kekimuruses,
+    <item:botania:gourmaryllis> :gourmaryllises,
+    <item:botania:floating_gourmaryllis> :gourmaryllises,
+    <item:botania:narslimmus> :narslimmuses,
+    <item:botania:floating_narslimmus> :narslimmuses,
+    <item:botania:spectrolus> :spectroluses,
+    <item:botania:floating_spectrolus> :spectroluses,
+    <item:botania:dandelifeon> :dandelifeons,
+    <item:botania:floating_dandelifeon> :dandelifeons,
+    <item:botania:rafflowsia> :rafflowsias,
+    <item:botania:floating_rafflowsia> :rafflowsias,
+    <item:botania:shulk_me_not> :shulk_me_nots,
+    <item:botania:floating_shulk_me_not> :shulk_me_nots,
+    //functional flowis
+    <item:botania:agricarnation> :agricarnations,
+    <item:botania:bellethorn> :bellethorns,
+    <item:botania:bergamute> :bergamutes,
+    <item:botania:bubbell> :bubbells,
+    <item:botania:clayconia> :clayconias,
+    <item:botania:daffomill> :daffomills,
+    <item:botania:dreadthorn> :dreadthorns,
+    <item:botania:exoflame> :exoflames,
+    <item:botania:fallen_kanade> :fallen_kanades,
+    <item:botania:heisei_dream> :heisei_dreams,
+    <item:botania:hopperhock> :Hopperhocks,
+    <item:botania:hyacidus> :hyciduses,
+    <item:botania:jaded_amaranthus> :jaded_amaranthuses,
+    <item:botania:jiyuulia> :jiyuulias,
+    //<item:botania:labellia> :"",
+    <item:botania:loonium> :looniums,
+    //<item:botania:marimorphosis>
+    //<item:botania:medumone>
+    //<item:botania:orechid_ignem>
+    //<item:botania:orechid>
+    //<item:botania:pollidisiac>
+    //<item:botania:rannuncarpus>
+    //<item:botania:solegnolia>
+    //<item:botania:spectranthemum>
+    //<item:botania:tangleberrie>
+    //<item:botania:tigerseye>
+    //<item:botania:vinculotus>
+    <item:botania:agricarnation_chibi> :agricarnations,
+    <item:botania:bellethorn_chibi> :bellethorns,
+    <item:botania:bubbell_chibi> :bubbells,
+    <item:botania:clayconia_chibi> :clayconias,
+    <item:botania:hopperhock_chibi> :Hopperhocks,
+    //<item:botania:marimorphosis_chibi>
+    //<item:botania:rannuncarpus_chibi>
+    //<item:botania:solegnolia_chibi>
+    <item:botania:floating_agricarnation> :agricarnations,
+    <item:botania:floating_bellethorn> :bellethorns,
+    <item:botania:floating_bergamute> :bergamutes,
+    <item:botania:floating_bubbell> :bubbells,
+    <item:botania:floating_clayconia> :clayconias,
+    <item:botania:floating_daffomill> :daffomills,
+    <item:botania:floating_dreadthorn> :dreadthorns,
+    <item:botania:floating_exoflame> :exoflames,
+    <item:botania:floating_fallen_kanade> :fallen_kanades,
+    <item:botania:floating_heisei_dream> :heisei_dreams,
+    <item:botania:floating_hopperhock> :Hopperhocks,
+    <item:botania:floating_hyacidus> :hyciduses,
+    <item:botania:floating_jaded_amaranthus> :jaded_amaranthuses,
+    <item:botania:floating_jiyuulia> :jiyuulias,
+    //<item:botania:floating_labellia> :"",
+    <item:botania:floating_loonium> :looniums,
+    //<item:botania:floating_marimorphosis>
+    //<item:botania:floating_medumone>
+    //<item:botania:floating_orechid_ignem>
+    //<item:botania:floating_orechid>
+    //<item:botania:floating_pollidisiac>
+    //<item:botania:floating_rannuncarpus>
+    //<item:botania:floating_solegnolia>
+    //<item:botania:floating_spectranthemum>
+    //<item:botania:floating_tangleberrie>
+    //<item:botania:floating_tigerseye>
+    //<item:botania:floating_vinculotus>
+    <item:botania:floating_agricarnation_chibi> :agricarnations,
+    <item:botania:floating_bellethorn_chibi> :bellethorns,
+    <item:botania:floating_bubbell_chibi> :bubbells,
+    <item:botania:floating_clayconia_chibi> :clayconias,
+    <item:botania:floating_hopperhock_chibi> :Hopperhocks,
+    //<item:botania:floating_marimorphosis_chibi>
+    //<item:botania:floating_rannuncarpus_chibi>
+    //<item:botania:floating_solegnolia_chibi>
+
 
 
 
@@ -323,3 +462,17 @@ val tipsbotania ={
 
 
 }.addTips();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
