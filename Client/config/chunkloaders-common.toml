@@ -1,0 +1,19 @@
+
+[General]
+	#In what radius should the Single Chunk Loader be able to load chunks?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 8  Default: 1
+	singleChunkLoaderRadius = 1
+	#In what radius should the Basic Chunk Loader be able to load chunks?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 8  Default: 2
+	basicChunkLoaderRadius = 2
+	#In what radius should the Advanced Chunk Loader be able to load chunks?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 8  Default: 3
+	advancedChunkLoaderRadius = 3
+	#In what radius should the Ultimate Chunk Loader be able to load chunks?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 8  Default: 4
+	ultimateChunkLoaderRadius = 4
+
