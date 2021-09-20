@@ -15,6 +15,7 @@ import mods.zensummoning.SummoningDirector;
 import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
+import mods.botania.Orechid;
 
 <item:minecraft:paper>.removeCraftingRecipe();
 Recipes.shaped({
@@ -106,6 +107,7 @@ Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gol
 
 //remove regular gold ore
 <item:minecraft:gold_ore>.remove();
+Orechid.main.removeOreWeight(<blockstate:minecraft:gold_ore>);
 //more gold recipes
 //gold from honey
 Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
@@ -132,6 +134,9 @@ Recipes.addSmoking(<item:minecraft:redstone>,<item:minecraft:nether_wart_block>,
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=6>);
 Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <blockstate:minecraft:composter:level=5>);
 
+//remove emerald ore
+<item:minecraft:emerald_ore>.remove();
+Orechid.main.removeOreWeight(<blockstate:minecraft:emerald_ore>);
 //emerald recipes
 <recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
 var fakeemerald = <recipetype:create:sequenced_assembly>.builder("seq_emerald")
@@ -156,7 +161,7 @@ var fakeemerald2 = <recipetype:create:sequenced_assembly>.builder("seq_emerald_m
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:green_dye>*4))
     .addStep(<recipetype:create:filling>.factory(), (rb) => rb.require(<fluid:contenttweaker:acid> * 1000));
 <recipetype:create:sequenced_assembly>.addRecipe(fakeemerald2);
-Recipes.addBlockExplosion(<block:minecraft:emerald_ore>,<blockstate:create:copper_ore:oxidization=7>,100); // oxidization doesn't seem to work
+Recipes.addBlockExplosion(<block:create:copper_block>,<blockstate:minecraft:emerald_block>,100); // oxidization doesn't seem to work
 for flower in <tag:items:crafttweaker:regular_flowers>.getElements(){
     val f = flower.getDefaultInstance();
     Recipes.addInfusion(f*2, f, <blockstate:minecraft:bee_nest:honey_level=5>, settings.beeDupingManaCost);
@@ -225,7 +230,7 @@ Recipes.addMix(<fluid:minecraft:milk> * 1000,"none",[<item:minecraft:ghast_tear>
 // Recipes.addFluidToItem(<item:minecraft:ghast_tear>.weight(1),[<item:minecraft:fermented_spider_eye>,<item:minecraft:shulker_shell>], <fluid:minecraft:water>);
 
 //firecharge recipe with oxidized_gunpowder
-Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxidized_gunpowder> * 8,<tag:items:minecraft:coals>]);
+Recipes.addTrade([<item:minecraft:fire_charge>*8],[<item:minecraft:blaze_powder>,<item:contenttweaker:oxidized_gunpowder> * 2,<tag:items:minecraft:coals>]);
 
 //, id: "minecraft:ghast_tear" as string (* 1)
 
@@ -335,4 +340,5 @@ Recipes.addInfusion(<item:minecraft:bamboo>,<item:minecraft:sugar_cane>,<blockst
 Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);
 Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>],[<tag:items:forge:dusts/mana>]);
 //remove lapis ore
-<item:minecraft:lapis_ore>.remove():
+<item:minecraft:lapis_ore>.murdurFamily();
+Orechid.main.removeOreWeight(<blockstate:minecraft:lapis_ore>);
