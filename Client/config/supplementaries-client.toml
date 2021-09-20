@@ -176,9 +176,20 @@
 	crossbows_colors = true
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
+	#Renders an enchantment glint on placeable enchanted books
+	placeable_books_glint = false
 
 #Items
 [items]
-	#Adds an overlay to slingshots in gui displaying currently selected block
-	slingshot_overlay = true
+
+	[items.slingshot]
+		#Adds an overlay to slingshots in gui displaying currently selected block
+		overlay = true
+		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
+		stasis_block_outline = true
+		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
+		block_outline_color = "ffffff66"
+		#How big should a slingshot projectile look
+		#Range: 0.0 ~ 1.0
+		projectile_scale = 0.5
 
