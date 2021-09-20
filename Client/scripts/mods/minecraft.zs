@@ -341,3 +341,16 @@ Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>],[<tag:items:forge:dusts/m
 //remove lapis ore
 <item:minecraft:lapis_ore>.murdurFamily();
 Orechid.main.removeOreWeight(<blockstate:minecraft:lapis_ore>);
+
+//rail recipes
+<item:minecraft:rail>.removeCraftingRecipe();
+(<item:minecraft:rail>*8).shaped([
+    [<tag:items:forge:ingots/iron>,<item:minecraft:air>,<tag:items:forge:ingots/iron>],
+    [<tag:items:forge:ingots/iron>,<item:minecraft:stick>,<tag:items:forge:ingots/iron>],
+    [<tag:items:forge:ingots/iron>,<item:minecraft:air>,<tag:items:forge:ingots/iron>]
+]);
+(<item:minecraft:rail>*16).shaped([
+    [<item:create:andesite_alloy>,<item:minecraft:air>,<item:create:andesite_alloy>],
+    [<item:create:andesite_alloy>,<item:minecraft:stick>,<item:create:andesite_alloy>],
+    [<item:create:andesite_alloy>,<item:minecraft:air>,<item:create:andesite_alloy>]
+]);
