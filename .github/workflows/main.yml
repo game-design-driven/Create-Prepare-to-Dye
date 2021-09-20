@@ -43,6 +43,9 @@ jobs:
         release-count: '3'
     - name: Store changelog
       uses: actions/upload-artifact@v2
+      with:
+        name: changelog
+        path: CHANGELOG.md
 
   build:
     runs-on: ubuntu-latest
