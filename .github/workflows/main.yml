@@ -35,7 +35,7 @@ jobs:
     outputs:
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
-    - name: CCA
+    - name: changelog
       uses: TriPSs/conventional-changelog-action@v3
       with:
         github-token: ${{ secrets.github_token }}
