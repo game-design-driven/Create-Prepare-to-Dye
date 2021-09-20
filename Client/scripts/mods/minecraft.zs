@@ -328,7 +328,11 @@ Recipes.addInfusion(<item:minecraft:bamboo>,<item:minecraft:sugar_cane>,<blockst
 Recipes.addInfusion(<item:minecraft:bamboo>,<item:minecraft:sugar_cane>,<blockstate:create:blaze_burner:blaze=kindled>,2500);
 
 //ores
-<recipetype:create:crushing>.removeByName("create:crushing/iron_ore");
-Recipes.addCrushing([<item:create:crushed_iron_ore>,<item:create:crushed_copper_ore>%30,<item:create:crushed_gold_ore>%5],<item:minecraft:iron_ore>);
-<recipetype:create:splashing>.removeRecipe(<item:minecraft:iron_nugget>);
-Recipes.addSplashing([<item:minecraft:iron_nugget>*10,<item:create:copper_nugget>*5%50],<item:create:crushed_iron_ore>);
+// <recipetype:create:crushing>.removeByName("create:crushing/iron_ore");
+// Recipes.addCrushing([<item:create:crushed_iron_ore>,<item:create:crushed_copper_ore>%30,<item:create:crushed_gold_ore>%5],<item:minecraft:iron_ore>);
+// <recipetype:create:splashing>.removeRecipe(<item:minecraft:iron_nugget>);
+// Recipes.addSplashing([<item:minecraft:iron_nugget>*10,<item:create:copper_nugget>*5%50],<item:create:crushed_iron_ore>);
+Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);
+Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>],[<tag:items:forge:dusts/mana>]);
+//remove lapis ore
+<item:minecraft:lapis_ore>.remove():
