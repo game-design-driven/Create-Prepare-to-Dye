@@ -21,7 +21,7 @@ jobs:
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat ./workspace/modpack/manifest.json`
+            manifestjson=`cat ./modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
@@ -67,7 +67,7 @@ jobs:
         with:
           name: changelog
       - name: Move changelog
-        run:  mv ./workspace/CHANGELOG.md ./workspace/modpack/CHANGELOG.md
+        run:  mv ./CHANGELOG.md ./modpack/CHANGELOG.md
       - name: Export modpack
         run: |
           sudo chmod +x ./pax
