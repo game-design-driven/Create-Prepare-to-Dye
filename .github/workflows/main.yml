@@ -29,20 +29,7 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-  changelog:
-    runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Store changelog
-        uses: actions/upload-artifact@v2
-        with:
-          name: changelog
-          path: CHANGELOG.md
+        
   changelog:
     runs-on: ubuntu-latest
     outputs:
