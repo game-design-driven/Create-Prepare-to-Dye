@@ -106,7 +106,7 @@ Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<t
 Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 
 //remove regular gold ore
-<item:minecraft:gold_ore>.murdurFamily():
+<item:minecraft:gold_ore>.murdurFamily();
 Orechid.main.removeOreWeight(<blockstate:minecraft:gold_ore>);
 //more gold recipes
 //gold from honey
@@ -138,7 +138,6 @@ Recipes.addInfusion(<item:minecraft:red_dye> * 4, <item:minecraft:redstone>, <bl
 <item:minecraft:emerald_ore>.murdurFamily();
 Orechid.main.removeOreWeight(<blockstate:minecraft:emerald_ore>);
 //emerald recipes
-<recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
 var fakeemerald = <recipetype:create:sequenced_assembly>.builder("seq_emerald")
     .transitionTo(<item:minecraft:diamond>.withTag({"diamond in a process": 1 as int}))
     .require(<item:minecraft:diamond>)
