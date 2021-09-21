@@ -39,12 +39,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate changelog
         id: changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.2
+        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
-          issues: false
-          onlyLastTag: true
           stripGeneratorNotice: true
       - name: Store changelog
         uses: actions/upload-artifact@v2
