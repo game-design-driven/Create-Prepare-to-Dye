@@ -114,3 +114,5 @@ var sweetroll = <recipetype:create:sequenced_assembly>.builder("sweetbread")
 <recipetype:create:filling>.removeByName("create:filling/sweet_roll");
 
 Recipes.addCrushing([<item:create:rose_quartz>%80,<item:minecraft:black_dye>%80,<item:minecraft:rose_bush>%80],<item:minecraft:wither_rose>);
+
+<item:create:tree_fertilizer>.remove(); //it's lame

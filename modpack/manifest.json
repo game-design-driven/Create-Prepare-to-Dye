@@ -1,0 +1,592 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge-36.2.2",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.14",
+  "author": "PandaBoy444",
+  "name": "Create.run",
+  "files": [
+    {
+      "projectID": 60089,
+      "fileID": 3202662,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3402515,
+      "required": true,
+      "__meta": {
+        "name": "Storage Drawers"
+      }
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3386883,
+      "required": true,
+      "__meta": {
+        "name": "Botania",
+        "dependencies": [
+          306770,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 237065,
+      "fileID": 3383429,
+      "required": true,
+      "__meta": {
+        "name": "ContentTweaker",
+        "dependencies": [
+          239197
+        ]
+      }
+    },
+    {
+      "projectID": 237701,
+      "fileID": 3105779,
+      "required": true,
+      "__meta": {
+        "name": "ReAuth"
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3438494,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 238747,
+      "fileID": 3038982,
+      "required": true,
+      "__meta": {
+        "name": "Mod Name Tooltip"
+      }
+    },
+    {
+      "projectID": 239197,
+      "fileID": 3466376,
+      "required": true,
+      "__meta": {
+        "name": "CraftTweaker",
+        "dependencies": [
+          368718
+        ]
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3435305,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 242436,
+      "fileID": 3439648,
+      "required": true,
+      "__meta": {
+        "name": "Ore Tweaker"
+      }
+    },
+    {
+      "projectID": 243076,
+      "fileID": 3400575,
+      "required": true,
+      "__meta": {
+        "name": "Refined Storage"
+      }
+    },
+    {
+      "projectID": 243121,
+      "fileID": 3394265,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 245211,
+      "fileID": 3319255,
+      "required": true,
+      "__meta": {
+        "name": "The One Probe"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3395800,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3326041,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib"
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3434370,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250898,
+      "fileID": 3260763,
+      "required": true,
+      "__meta": {
+        "name": "Ore Excavation"
+      }
+    },
+    {
+      "projectID": 263420,
+      "fileID": 3438623,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's Minimap"
+      }
+    },
+    {
+      "projectID": 265917,
+      "fileID": 3202331,
+      "required": true,
+      "__meta": {
+        "name": "JEI Integration",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 283644,
+      "fileID": 3437009,
+      "required": true,
+      "__meta": {
+        "name": "Placebo"
+      }
+    },
+    {
+      "projectID": 285612,
+      "fileID": 3211323,
+      "required": true,
+      "__meta": {
+        "name": "RandomPatches (Forge)"
+      }
+    },
+    {
+      "projectID": 301051,
+      "fileID": 3088871,
+      "required": true,
+      "__meta": {
+        "name": "Quark Oddities",
+        "dependencies": [
+          250363,
+          243121
+        ]
+      }
+    },
+    {
+      "projectID": 302113,
+      "fileID": 3316956,
+      "required": true,
+      "__meta": {
+        "name": "Effortless Building"
+      }
+    },
+    {
+      "projectID": 306555,
+      "fileID": 3421094,
+      "required": true,
+      "__meta": {
+        "name": "Sound Device Options"
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3459118,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli"
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 3456953,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)"
+      }
+    },
+    {
+      "projectID": 310029,
+      "fileID": 3423680,
+      "required": true,
+      "__meta": {
+        "name": "Zen Summoning"
+      }
+    },
+    {
+      "projectID": 314904,
+      "fileID": 3038811,
+      "required": true,
+      "__meta": {
+        "name": "FTB Backups (Forge)"
+      }
+    },
+    {
+      "projectID": 317780,
+      "fileID": 3443618,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's World Map"
+      }
+    },
+    {
+      "projectID": 317792,
+      "fileID": 3089690,
+      "required": true,
+      "__meta": {
+        "name": "The Mighty Architect"
+      }
+    },
+    {
+      "projectID": 325492,
+      "fileID": 3296489,
+      "required": true,
+      "__meta": {
+        "name": "Light Overlay (Rift/Forge/Fabric)",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 3419412,
+      "required": true,
+      "__meta": {
+        "name": "Create",
+        "dependencies": [
+          486392
+        ]
+      }
+    },
+    {
+      "projectID": 342584,
+      "fileID": 3454173,
+      "required": true,
+      "__meta": {
+        "name": "Collective"
+      }
+    },
+    {
+      "projectID": 347898,
+      "fileID": 3407854,
+      "required": true,
+      "__meta": {
+        "name": "Easy Elytra Takeoff (Forge)",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3311352,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Forge)"
+      }
+    },
+    {
+      "projectID": 354339,
+      "fileID": 3199872,
+      "required": true,
+      "__meta": {
+        "name": "Open Loader"
+      }
+    },
+    {
+      "projectID": 355440,
+      "fileID": 3215256,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Portals (for Forge)"
+      }
+    },
+    {
+      "projectID": 359344,
+      "fileID": 3146507,
+      "required": true,
+      "__meta": {
+        "name": "Interactio - In-World Crafting with Datapacks!"
+      }
+    },
+    {
+      "projectID": 365281,
+      "fileID": 3034936,
+      "required": true,
+      "__meta": {
+        "name": "ServerConfig Updater"
+      }
+    },
+    {
+      "projectID": 368718,
+      "fileID": 3393971,
+      "required": true,
+      "__meta": {
+        "name": "JEITweaker"
+      }
+    },
+    {
+      "projectID": 381605,
+      "fileID": 3035686,
+      "required": true,
+      "__meta": {
+        "name": "Drawers Tooltip",
+        "dependencies": [
+          223852
+        ]
+      }
+    },
+    {
+      "projectID": 387638,
+      "fileID": 3338192,
+      "required": true,
+      "__meta": {
+        "name": "More Red"
+      }
+    },
+    {
+      "projectID": 400514,
+      "fileID": 3327024,
+      "required": true,
+      "__meta": {
+        "name": "Easy Villagers"
+      }
+    },
+    {
+      "projectID": 402924,
+      "fileID": 3274740,
+      "required": true,
+      "__meta": {
+        "name": "Chunk Loaders",
+        "dependencies": [
+          438332
+        ]
+      }
+    },
+    {
+      "projectID": 404465,
+      "fileID": 3456644,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Forge)",
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 407174,
+      "fileID": 3188120,
+      "required": true,
+      "__meta": {
+        "name": "Shutup Experimental Settings!"
+      }
+    },
+    {
+      "projectID": 412082,
+      "fileID": 3466032,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980
+        ]
+      }
+    },
+    {
+      "projectID": 417645,
+      "fileID": 3198370,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Professions (JEP)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 3462013,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Forge)"
+      }
+    },
+    {
+      "projectID": 420913,
+      "fileID": 3224252,
+      "required": true,
+      "__meta": {
+        "name": "Smooth Boot (Forge)"
+      }
+    },
+    {
+      "projectID": 430988,
+      "fileID": 3214651,
+      "required": true,
+      "__meta": {
+        "name": "Charm Reforged"
+      }
+    },
+    {
+      "projectID": 434087,
+      "fileID": 3414746,
+      "required": true,
+      "__meta": {
+        "name": "Forgery"
+      }
+    },
+    {
+      "projectID": 436964,
+      "fileID": 3196072,
+      "required": true,
+      "__meta": {
+        "name": "Babel"
+      }
+    },
+    {
+      "projectID": 437558,
+      "fileID": 3172880,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Piglin Bartering",
+        "dependencies": [
+          436964
+        ]
+      }
+    },
+    {
+      "projectID": 437717,
+      "fileID": 3460295,
+      "required": true,
+      "__meta": {
+        "name": "CreateTweaker",
+        "dependencies": [
+          239197,
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 438332,
+      "fileID": 3413938,
+      "required": true,
+      "__meta": {
+        "name": "SuperMartijn642's Config Lib"
+      }
+    },
+    {
+      "projectID": 442354,
+      "fileID": 3270426,
+      "required": true,
+      "__meta": {
+        "name": "Not Enough Crashes (Forge)"
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 3434071,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 459701,
+      "fileID": 3399554,
+      "required": true,
+      "__meta": {
+        "name": "Catalogue"
+      }
+    },
+    {
+      "projectID": 475117,
+      "fileID": 3419895,
+      "required": true,
+      "__meta": {
+        "name": "FastSuite",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 486392,
+      "fileID": 3459739,
+      "required": true,
+      "__meta": {
+        "name": "Flywheel"
+      }
+    },
+    {
+      "projectID": 499980,
+      "fileID": 3464540,
+      "required": true,
+      "__meta": {
+        "name": "Selene Lib"
+      }
+    },
+    {
+      "projectID": 511172,
+      "fileID": 3461505,
+      "required": true,
+      "__meta": {
+        "name": "Hourglass"
+      }
+    },
+    {
+      "projectID": 517959,
+      "fileID": 3459155,
+      "required": true,
+      "__meta": {
+        "name": "Incorporeal 2 + Rhododendrite",
+        "dependencies": [
+          225643
+        ]
+      }
+    }
+  ]
+}
