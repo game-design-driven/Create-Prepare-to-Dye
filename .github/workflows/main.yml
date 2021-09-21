@@ -43,7 +43,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
-          issues: false
           onlyLastTag: true
           stripGeneratorNotice: true
           #
@@ -129,7 +128,5 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ needs.changelog.outputs.changelog }}"
-          changelog_type: markdown
           game_versions: ${{ needs.modpack-info.outputs.version }}
           release_type: ${{ steps.release-type.outputs.type }}
