@@ -28,7 +28,7 @@ Using Create and Botanias natural automation focus as a loose base, we are const
 
 
 ## Radical simplification
-* Less random materials and ingots with one use, we make sure to reduce the amount of items as much as possible while delegating complexity to other parts of the chain. 
+* Less random materials and ingots with one use, we make sure to reduce the amount of items as much as possible while delegating complexity to other parts of the chain.
 
 
 ## Lightweight
@@ -44,11 +44,10 @@ Using Create and Botanias natural automation focus as a loose base, we are const
 # Roadmap
 |Goal                              	    |Estimated Progress           |Priority  |Alpha Ready	|Description |
 |--------------------------------------|:---------------------------------:|-----------:|-------------:|------------------------:|
-|Core Mod List                         | ![](https://progress-bar.dev/70)  | Critical   | ✔				| The mods that help construct the core gameplay loop|
+|Core Mod List                         | ![](https://progress-bar.dev/75)  | Critical   | ✔				| The mods that help construct the core gameplay loop|
 |Core Gameplay loop                    | ![](https://progress-bar.dev/80)  | Critical   | ✔				| The basic elements that repeats and evolve as the game loops|
-|Loop Entry Point / Game Start and End | ![](https://progress-bar.dev/25)  | High       |   			| A goal for the player to push them into the game and give them a reason to enter the core gameplay loop|
-|Documentation                         | ![](https://progress-bar.dev/30)  | High       |   			| The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value |
+|Loop Entry Point / Game Start and End | ![](https://progress-bar.dev/30)  | High       |   			| A goal for the player to push them into the game and give them a reason to enter the core gameplay loop|
+|Documentation                         | ![](https://progress-bar.dev/40)  | High       |   			| The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value |
 |Script base                           | ![](https://progress-bar.dev/75)  | Critical   | ✔			| The scripting tools and libraries needed to develop and modify the pack efficiently are implemented|
 |Modularity                            | ![](https://progress-bar.dev/70)  | Standard   |   			| All core aspects of the pack are configurable|
 |Performance                           | ![](https://progress-bar.dev/65)  | Low       	|   			| The pack starts up fast and can run on low end pcs well even through the end game|
-

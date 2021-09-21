@@ -23,6 +23,16 @@
 hs_err_pid*
 Client/natives
 
+### PAX ###
+pax
+pax.exe
+libssl*.dll
+libcrypto*.dll
+cacert.pem
+
+### Modpack ###
+.out/
+
 Client/usercache.json
 Client/usernamecache.json
 Client/minecraftinstance.json
