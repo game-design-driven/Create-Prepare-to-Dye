@@ -45,6 +45,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
           issues: false
+          #
           onlyLastTag: true
           stripHeaders: true
           stripGeneratorNotice: true
