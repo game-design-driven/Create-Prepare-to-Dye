@@ -45,7 +45,6 @@ jobs:
           output: CHANGELOG.md
           issues: false
           onlyLastTag: true
-          stripHeaders: true
           stripGeneratorNotice: true
       - name: Store changelog
         uses: actions/upload-artifact@v2
