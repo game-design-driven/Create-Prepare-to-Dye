@@ -46,6 +46,7 @@ jobs:
           issues: false
           onlyLastTag: true
           stripGeneratorNotice: true
+          #
       - name: Store changelog
         uses: actions/upload-artifact@v2
         with:
