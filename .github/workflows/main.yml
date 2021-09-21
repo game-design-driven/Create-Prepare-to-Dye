@@ -41,11 +41,9 @@ jobs:
         id: changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
-          compareLink: true
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
           issues: false
-          ####
           onlyLastTag: true
           stripHeaders: true
           stripGeneratorNotice: true
