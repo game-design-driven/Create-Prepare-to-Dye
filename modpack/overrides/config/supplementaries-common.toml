@@ -68,11 +68,11 @@
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 
 	[blocks.notice_board]
 		#Allows notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
+		allow_any_item = true
 
 	[blocks.sack]
 		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
@@ -93,7 +93,7 @@
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
+		colored_blackboard = ture
 
 	[blocks.candle_holder]
 		#Candle holder light level
