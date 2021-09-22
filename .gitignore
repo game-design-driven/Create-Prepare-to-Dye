@@ -70,3 +70,4 @@ Client/config/sounddeviceoptions-client.toml
 Server/local/ftbutilities/backups.json
 *.bat
 Client/config/jei/recipe-category-sort-order.ini
+modpack/overrides/config/jei/bookmarks.ini
