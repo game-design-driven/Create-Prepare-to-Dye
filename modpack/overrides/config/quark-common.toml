@@ -1953,7 +1953,7 @@
 		#The maximum enchanting power the matrix enchanter can accept
 		"Max Bookshelves" = 15
 		#Should this be X, the price of a piece increase by 1 every X pieces you generate
-		"Piece Price Scale" = 5
+		"Piece Price Scale" = 10
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#How many pieces you can generate without any bookshelves
