@@ -406,3 +406,6 @@ Recipes.addInfusion(<item:botania:manasteel_ingot>, <item:minecraft:iron_ingot>,
 
 //remove alchemy catalyst
 <item:botania:alchemy_catalyst>.remove();
+
+//replace red root
+<item:botania:redstone_root>.removeAndReplace(<item:minecraft:redstone>);
