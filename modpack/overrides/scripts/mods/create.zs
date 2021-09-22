@@ -62,7 +62,7 @@ Recipes.shaped({
         [<item:minecraft:air>, <tag:items:forge:dusts/redstone>, <item:minecraft:air>]
     ]
 });
-Recipes.addItemExplosion([<item:create:copper_ore>.weight(5),<item:minecraft:stone>.weight(3)],[<tag:items:forge:ores>*8,<tag:items:forge:dusts/redstone>],8);
+Recipes.addItemExplosion([(<item:create:copper_ore>*8).weight(8),(<item:minecraft:stone>*8).weight(2)],[<tag:items:forge:ores>*8,<tag:items:forge:dusts/redstone>]);
 
 <item:create:copper_ore>.addTip("Does not naturally occur, has to be crafted");
 Recipes.addMix(<item:create:copper_ore>*3,"heated",[<tag:items:forge:dusts/redstone>*9,<tag:items:forge:ores>,<tag:items:forge:stone>]);
@@ -98,7 +98,7 @@ for millRecipe in <recipetype:create:milling>.getAllRecipes(){
 <item:create:powdered_obsidian>.remove();
 <recipetype:create:mixing>.removeByName("create:mixing/chromatic_compound");
 Recipes.addMix(<item:create:chromatic_compound>,("superheated"),[<item:minecraft:obsidian>*3,<item:minecraft:glowstone_dust>*3,<item:create:polished_rose_quartz>]);
-Recipes.addAltar(<item:create:chromatic_compound>*3,[<item:minecraft:obsidian>*4,<item:create:polished_rose_quartz>*2]);
+Recipes.addAltar(<item:create:chromatic_compound>,[<item:minecraft:obsidian>,<item:create:polished_rose_quartz>*2]);
 
 // sweetroll stole
 var sweetroll = <recipetype:create:sequenced_assembly>.builder("sweetbread")
