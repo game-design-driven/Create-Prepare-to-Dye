@@ -93,7 +93,7 @@
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = ture
+		colored_blackboard = true
 
 	[blocks.candle_holder]
 		#Candle holder light level
@@ -104,7 +104,7 @@
 		#Replace a timber frame with wattle and daub block when daub is placed in it
 		replace_daub = true
 		#Allow placing a timber frame directly on a block by holding shift
-		swap_on_shift = false
+		swap_on_shift = true
 
 	[blocks.hourglass]
 		#Time in ticks for sugar
