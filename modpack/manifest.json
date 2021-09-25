@@ -63,6 +63,18 @@
       }
     },
     {
+      "projectID": 238086,
+      "fileID": 3470374,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS (Forge)",
+        "dependencies": [
+          419699,
+          416294
+        ]
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 3438494,
       "required": true,
@@ -433,6 +445,18 @@
         "name": "Supplementaries",
         "dependencies": [
           499980
+        ]
+      }
+    },
+    {
+      "projectID": 416294,
+      "fileID": 3461548,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false,
+        "dependencies": [
+          419699
         ]
       }
     },

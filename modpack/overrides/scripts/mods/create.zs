@@ -12,7 +12,6 @@ Recipes.addItemExplosion([(<item:create:wheat_flour>*8).weight(50)],[<tag:items:
 
 
 //removing zinc
-// Orechid.removeOreWeight(state as MCBlockState) as void
 
 Orechid.main.removeOreWeight(<blockstate:create:zinc_ore>);
 <item:create:zinc_ingot>.removeAndReplace(<item:minecraft:iron_ingot>);
