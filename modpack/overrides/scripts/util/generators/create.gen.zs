@@ -7,6 +7,9 @@ import crafttweaker.api.item.MCWeightedItemStack;
 import crafttweaker.api.item.IIngredientWithAmount;
 
 public expand Recipes{
+    public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
+        <recipetype:create:crushing>.addRecipe(output.genRecipeName("crushing"), output, input);
+    }
     public static addMix(output as IItemStack, heat as string = "none", itemInputs as IIngredientWithAmount[] , fluidInputs as IFluidStack[] = [], duration as int = 100) as void{
         <recipetype:create:mixing>.addRecipe(output.genRecipeName("mixing"), heat, output, itemInputs,fluidInputs,duration);
     }
@@ -24,9 +27,6 @@ public expand Recipes{
     }
     public static addMechanicalCrafting(output as IItemStack, input as IIngredient[][])as void{
         <recipetype:create:mechanical_crafting>.addRecipe(output.genRecipeName("mechanical_crafting"), output, input);
-    }
-    public static addCrushing(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
-        <recipetype:create:crushing>.addRecipe(output.genRecipeName("crushing"), output, input);
     }
     public static addMilling(output as MCWeightedItemStack[],input as IIngredient, duration as int = 100)as void{
         <recipetype:create:milling>.addRecipe(output.genRecipeName("milling"), output, input);

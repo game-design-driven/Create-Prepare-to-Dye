@@ -1,7 +1,6 @@
 // priority: 100
-var modpackRecipes = []
 /**
- * @param {item} output
+ * @param {fluid} output
  * @param {ingredient} input
  * @param {number} mana Amount of mana the recipe uses, defaults to 1000
  * @param {block} catalyst
@@ -10,7 +9,7 @@ function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
     let recipeOut = {
         type: 'botania:mana_infusion',
-        input: Ingredient.of(input),
+        input: solveIngredient(input),
         output: solveItem(output),
         mana: mana
     }
@@ -39,18 +38,12 @@ function addInfusion(output, input, mana, catalyst) {
 }
 addAltar
 /**
- * @param {item} output
+ * @param {fluid} output
  * @param {ingredient[]} inputs
  * @param {number} mana Amount of mana the recipe uses. default(2500)
  */
 function addAltar(output, inputs, mana) {
     if (!mana) mana = 2500
-    // let ingredients = [];
-
-    // inputs.forEach((input) => {
-    //     ingredients.push(Ingredient.of(input).toJson());
-    // });
-
     let recipeOut = {
         type: 'botania:runic_altar',
         output: solveItem(output),
@@ -78,7 +71,7 @@ function addPurify(output, input, time) {
     modpackRecipes.push(recipeOut);
 }
 /**
- * @param {item[]} outputs
+ * @param {fluid[]} outputs
  * @param {ingredient[]} inputs
  */
 function addElvenTrade(outputs, inputs) {
@@ -89,7 +82,7 @@ function addElvenTrade(outputs, inputs) {
     })
 }
 /**
- * @param {item} output
+ * @param {fluid} output
  * @param {ingredient[]} inputs
  */
 function addApothecary(output, inputs) {
@@ -100,7 +93,7 @@ function addApothecary(output, inputs) {
     })
 }
 /**
- * @param {item} output
+ * @param {fluid} output
  * @param {ingredient[]} inputs
  * @param {number} mana default(100000)
  */
