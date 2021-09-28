@@ -2,12 +2,17 @@
 
 /**
  * Is itemStack that can have amount and/or chance
- * @example 'minecraft:stick' or '5x minecraft:stick' or 'minecraft:stick %25' or '5x minecraft:stick %25'  
+ * @example 'minecraft:stick', '5x minecraft:stick', 'minecraft:stick %25', '5x minecraft:stick %25'  
  */
 class item { }
 /**
+ * 
+ */
+class fluid { }
+/**
  * Can be itemStack or tag
- * Example = 'minecraft:stick' or '#forge:stick'
+ * @example 'minecraft:stick', '#forge:stick'
  */
 class ingredient { }
 class block { }
+

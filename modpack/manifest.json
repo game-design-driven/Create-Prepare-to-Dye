@@ -602,6 +602,14 @@
       }
     },
     {
+      "projectID": 514397,
+      "fileID": 3425361,
+      "required": true,
+      "__meta": {
+        "name": "NBT Ingredient Predicate"
+      }
+    },
+    {
       "projectID": 517959,
       "fileID": 3459155,
       "required": true,

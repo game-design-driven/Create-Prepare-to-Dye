@@ -9,7 +9,7 @@ function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
     let recipeOut = {
         type: 'botania:mana_infusion',
-        input: solveIngredient(input),
+        input: solveIngredients(input),
         output: solveItem(output),
         mana: mana
     }

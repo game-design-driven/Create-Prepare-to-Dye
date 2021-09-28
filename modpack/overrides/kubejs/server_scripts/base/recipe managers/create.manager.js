@@ -3,7 +3,6 @@
 // - addBasin
 // - addFilling
 // - addEmptying
-
 function addCrushing(output, input, processingTime) {
     addProcessingRecipe('create:crushing', output, input, processingTime)
 }
@@ -34,6 +33,13 @@ function addDeploying(output, input, heldItem) {
     inputArr.push(heldItem)
     addProcessingRecipe('create:deploying', output, inputArr)
 }
+function addFilling(output, input, fluid) {
+    let inputArr = []
+    inputArr.push(input)
+    inputArr.push(fluid)
+    addProcessingRecipe('create:filling', output, inputArr)
+}
+
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
     if (!processingTime) processingTime = 300
     modpackRecipes.push({
@@ -43,4 +49,11 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })
+    console.log({
+        type: type,
+        ingredients: solveIngredients(input),
+        results: solveItems(output),
+        processingTime: processingTime,
+        heatRequirement: heatRequirement
+    });
 }
