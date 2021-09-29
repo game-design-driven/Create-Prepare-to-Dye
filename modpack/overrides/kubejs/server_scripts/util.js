@@ -14,7 +14,7 @@ function solveItem(item) {
     let chance = 1.0
     let solved;
     if (typeof item !== "string") {         //already an object
-        if (item.toJson !== "function") {   //already json, is ready
+        if (typeof item.toJson !== "function") {   //already json, is ready
             solved = item
         } else {                              //a kubejs object, that needs conversion to json
             solved = item.toJson()
@@ -39,20 +39,30 @@ function solveIngredients(ingredients) {
 function solveIngredient(ingredient) {
     let solved;
     console.log(ingredient);
+    solved = Ingredient.of(ingredient)
     if (typeof ingredient !== "string") {         //already an object
-        console.log('im an object');
+        console.log("im an object");
         if (typeof ingredient.toJson !== "function") {   //already json, is ready
             console.log('im json');
             solved = ingredient
         } else {                              //a kubejs object, that needs conversion to json
             solved = ingredient.toJson()
-            console.log('im kjs');
+            console.log('im kubjs');
         }
     } else {// a string object, lets apply custom handling!
         solved = Ingredient.of(ingredient).toJson()
-        console.log('im special');
+        if (ingredient.includes('x '))
+            solved = Ingredient.of(ingredient.split('x ')[1]).withCount(ingredient.split('x ')[0]).toJson()
+        else
+            console.log('im special2 ' + solved);
+        // solved = ingredient
+
     }
+    console.log("after" + solved);
     return solved
+}
+function solveFluid(fluid) {
+    return Fluid.of(fluid)
 }
 // if (typeof ingredient !== "string"){         //already an object
 //     if (ingredient.toJson !== "function"){   //already json, is ready

@@ -13,7 +13,7 @@ function addMilling(output, input, processingTime) {
     addProcessingRecipe('create:milling', output, input, processingTime)
 }
 function addMixing(output, input, heatRequirement, processingTime) {
-    addProcessingRecipe('create:basin', output, input, processingTime, heatRequirement)
+    addProcessingRecipe('create:mixing', output, input, processingTime, heatRequirement)
 }
 function addCompacting(output, input, heatRequirement, processingTime) {
     addProcessingRecipe('create:compacting', output, input, processingTime, heatRequirement)
@@ -36,7 +36,7 @@ function addDeploying(output, input, heldItem) {
 function addFilling(output, input, fluid) {
     let inputArr = []
     inputArr.push(input)
-    inputArr.push(fluid)
+    inputArr.push(solveFluid(fluid))
     addProcessingRecipe('create:filling', output, inputArr)
 }
 
