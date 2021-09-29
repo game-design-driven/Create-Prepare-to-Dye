@@ -49,11 +49,4 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })
-    console.log({
-        type: type,
-        ingredients: solveIngredients(input),
-        results: solveItems(output),
-        processingTime: processingTime,
-        heatRequirement: heatRequirement
-    });
 }

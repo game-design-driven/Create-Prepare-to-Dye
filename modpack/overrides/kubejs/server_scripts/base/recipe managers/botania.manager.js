@@ -17,7 +17,7 @@ function addInfusion(output, input, mana, catalyst) {
     if (catalyst)
         if (catalyst.includes('@')) {
             //has state data
-            var properties = {}
+            let properties = {}
             catalyst.split('@')[1].split(',').forEach(property => {
                 properties[property.split('=')[0]] = property.split('=')[1]
             });
