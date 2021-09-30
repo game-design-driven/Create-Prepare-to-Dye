@@ -12,9 +12,7 @@ function addCutting(output, input, processingTime) {
 function addMilling(output, input, processingTime) {
     addProcessingRecipe('create:milling', output, input, processingTime)
 }
-function addMixing(output, input, heatRequirement, processingTime) {
-    addProcessingRecipe('create:mixing', output, input, processingTime, heatRequirement)
-}
+
 function addCompacting(output, input, heatRequirement, processingTime) {
     addProcessingRecipe('create:compacting', output, input, processingTime, heatRequirement)
 }
@@ -39,13 +37,33 @@ function addFilling(output, input, fluid) {
     inputArr.push(solveFluid(fluid))
     addProcessingRecipe('create:filling', output, inputArr)
 }
-
+function addMixing(output, input, heatRequirement, processingTime) {
+    // if (!processingTime) processingTime = 300
+    // let recipe = {
+    //     type: 'create:mixing',
+    //     ingredients: [
+    //         Ingredient.of('2x minecraft:gray_concrete').toJson()
+    //     ],
+    //     results: [
+    //         Item.of('2x minecraft:white_concrete').toResultJson()
+    //     ],
+    //     processingTime: processingTime,
+    //     heatRequirement: temperature.none
+    // }
+    // console.log(recipe);
+    // modpackRecipes.push(recipe)
+    addProcessingRecipe('create:mixing', output, input, processingTime, heatRequirement)
+}
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
     if (!processingTime) processingTime = 300
     modpackRecipes.push({
         type: type,
-        ingredients: solveIngredients(input),
-        results: solveItems(output),
+        ingredients: [
+            Ingredient.of(input)
+        ],
+        results: [
+            Item.of(output)
+        ],
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })

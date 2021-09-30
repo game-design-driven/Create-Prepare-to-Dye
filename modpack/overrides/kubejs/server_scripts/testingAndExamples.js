@@ -32,12 +32,12 @@ onEvent('recipes', event => {
         event.remove({ id: 'create:crafting/appliances/dough' })
     }
     //examples
-    addInfusion('2x minecraft:white_concrete','minecraft:gray_concrete')
-    addInfusion('2x minecraft:white_concrete','2x minecraft:gray_concrete')
-    addInfusion('2x minecraft:white_concrete','#forge:stone')
-    addInfusion('2x minecraft:white_concrete','2x #forge:stone')
-    addMixing('minecraft:white_concrete','2x minecraft:gray_concrete')
-    addMixing('minecraft:white_concrete','2x #forge:stone')
+    addMixing('2x minecraft:white_concrete','2x #forge:stone')
+    // addInfusion('2x minecraft:white_concrete','minecraft:gray_concrete')
+    // addInfusion('2x minecraft:white_concrete','2x minecraft:gray_concrete')
+    // addInfusion('2x minecraft:white_concrete','#forge:stone')
+    // addInfusion('2x minecraft:white_concrete','2x #forge:stone')
+    // addMixing('minecraft:white_concrete','2x minecraft:gray_concrete')
     // addCrushing(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'),'#forge:stone')
     // addInfusion(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
     // addCrushing('2x minecraft:white_concrete%25',Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'))
