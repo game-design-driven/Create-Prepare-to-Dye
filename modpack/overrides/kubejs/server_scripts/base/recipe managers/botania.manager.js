@@ -63,38 +63,37 @@ function addPurify(output, input, time) {
     modpackRecipes.push(recipeOut);
 }
 /**
- * @param {fluid[]} outputs
+ * @param {result[]} outputs
  * @param {ingredient[]} inputs
  */
 function addElvenTrade(outputs, inputs) {
     modpackRecipes.push({
         type: 'botania:elven_trade',
         ingredients: solveIngredients(inputs),
-        output: solveItems(outputs)
+        output: solveResults(outputs)
     })
 }
 /**
- * @param {fluid} output
+ * @param {result} output
  * @param {ingredient[]} inputs
  */
 function addApothecary(output, inputs) {
     modpackRecipes.push({
         type: 'botania:petal_apothecary',
-        output: solveItem(output),
+        output: solveResult(output),
         ingredients: solveIngredients(inputs)
     })
 }
 /**
- * @param {fluid} output
+ * @param {result} output
  * @param {ingredient[]} inputs
  * @param {number} mana default(100000)
  */
 function addTerraPlate(output, inputs, mana) {
     (!mana) ? mana = 100000 :
-
         modpackRecipes.push({
             type: 'botania:terra_plate',
-            result: solveItem(output),
+            result: solveResult(output),
             ingredients: solveIngredients(inputs),
             mana: mana
         })
