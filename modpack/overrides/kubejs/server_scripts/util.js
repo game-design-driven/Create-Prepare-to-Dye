@@ -22,7 +22,7 @@ function solveIngredients(ingredients) {
     return outArr
 }
 function solveIngredient(ingredient) {
-    return Ingredient.of(ingredient).toJson()
+    return Ingredient.of(ingredient)
 }
 function solveFluid(fluid) {
     return Fluid.of(fluid)

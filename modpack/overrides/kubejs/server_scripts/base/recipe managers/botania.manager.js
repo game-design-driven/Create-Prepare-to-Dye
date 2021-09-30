@@ -9,8 +9,8 @@ function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
     let recipeOut = {
         type: 'botania:mana_infusion',
-        input: solveIngredients(input),
-        output: solveItem(output),
+        input: Ingredient.of(input),
+        output: Item.of(output),
         mana: mana
     }
     //<blockstate:minecraft:furnace@lit=false,facing=north> using this as example bcause ct hand gives that
