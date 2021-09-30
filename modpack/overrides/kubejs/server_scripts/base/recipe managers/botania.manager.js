@@ -1,56 +1,52 @@
 // priority: 100
+
+function solveStateIngredient(block) {
+    if (!block) return
+    if (!block.includes('[')) {
+        return block.startsWith('#')
+            ? { type: 'tag', tag: block.slice(1) }
+            : { type: 'block', block: block }
+    } else {
+        let properties = {}
+        block.split('[')[1].replace(']', '').split(',').forEach(property => {
+            properties[property.split('=')[0]] = property.split('=')[1]
+        })
+        return {
+            type: 'state',
+            name: block.split('[')[0],
+            properties: properties
+        }
+    }
+}
 /**
- * @param {fluid} output
+ * @param {result} output
  * @param {ingredient} input
  * @param {number} mana Amount of mana the recipe uses, defaults to 1000
  * @param {block} catalyst
  */
 function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
-    let recipeOut = {
+    modpackRecipes.push({
         type: 'botania:mana_infusion',
-        input: Ingredient.of(input),
-        output: Item.of(output),
-        mana: mana
-    }
-    //<blockstate:minecraft:furnace@lit=false,facing=north> using this as example bcause ct hand gives that
-    if (catalyst)
-        if (catalyst.includes('@')) {
-            //has state data
-            let properties = {}
-            catalyst.split('@')[1].split(',').forEach(property => {
-                properties[property.split('=')[0]] = property.split('=')[1]
-            });
-            recipeOut.catalyst = {
-                type: 'state',
-                name: catalyst.split('@')[0],
-                properties: {
-                    blaze: "kindled"
-                }
-            }
-        } else {
-            recipeOut.catalyst = {
-                type: 'block',
-                block: catalyst
-            }
-        }
-    modpackRecipes.push(recipeOut)
+        input: solveIngredient(input),
+        output: solveResult(output),
+        mana: mana,
+        catalyst: solveStateIngredient(catalyst)
+    })
 }
-addAltar
 /**
- * @param {fluid} output
+ * @param {result} output
  * @param {ingredient[]} inputs
  * @param {number} mana Amount of mana the recipe uses. default(2500)
  */
 function addAltar(output, inputs, mana) {
     if (!mana) mana = 2500
-    let recipeOut = {
+    modpackRecipes.push({
         type: 'botania:runic_altar',
-        output: solveItem(output),
+        output: solveResult(output),
         mana: mana,
         ingredients: solveIngredients(inputs)
-    }
-    modpackRecipes.push(recipeOut)
+    })
 }
 /**
  * @param {block} output
@@ -58,15 +54,11 @@ function addAltar(output, inputs, mana) {
  * @param {number} time amount of time in ticks default(150)
  */
 function addPurify(output, input, time) {
-    let blockIngredient =
-        input.startsWith('#')
-            ? { type: 'tag', tag: input.slice(1) }
-            : { type: 'block', block: input };
-
     let recipeOut = {
         type: 'botania:pure_daisy',
-        input: blockIngredient,
-        output: { name: output }
+        input: solveStateIngredient(input),
+        output: solveStateIngredient(output),
+        time: time
     }
     modpackRecipes.push(recipeOut);
 }
@@ -98,12 +90,12 @@ function addApothecary(output, inputs) {
  * @param {number} mana default(100000)
  */
 function addTerraPlate(output, inputs, mana) {
-    (!mana)?mana= 100000:
+    (!mana) ? mana = 100000 :
 
-    modpackRecipes.push({
-        type: 'botania:terra_plate',
-        result: solveItem(output),
-        ingredients: solveIngredients(inputs),
-        mana:mana
-    })
+        modpackRecipes.push({
+            type: 'botania:terra_plate',
+            result: solveItem(output),
+            ingredients: solveIngredients(inputs),
+            mana: mana
+        })
 }

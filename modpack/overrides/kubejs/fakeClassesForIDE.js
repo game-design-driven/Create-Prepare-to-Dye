@@ -14,5 +14,5 @@ class fluid { }
  * @example 'minecraft:stick', '#forge:stick'
  */
 class ingredient { }
-class block { }
+class result {}
 

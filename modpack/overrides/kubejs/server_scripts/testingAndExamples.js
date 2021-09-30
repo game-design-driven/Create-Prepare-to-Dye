@@ -32,7 +32,31 @@ onEvent('recipes', event => {
         event.remove({ id: 'create:crafting/appliances/dough' })
     }
     //examples
-    addMixing('2x minecraft:white_concrete','2x #forge:stone')
+    addMixing('1x white_concrete', '5x #forge:stone')
+    addMixing(Item.of('2x minecraft:white_concrete'), Ingredient.of('2x #forge:stone'))
+    addMixing(Item.of('3x minecraft:white_concrete'), {
+        "tag": "forge:stone",
+        "amount": 42
+    })
+    addMixing(['4x minecraft:white_concrete', {
+        "item": "minecraft:gray_concrete",
+        "count": 4
+    }], ['minecraft:gray_concrete', 'minecraft:stick'])
+    addCrushing(['1x minecraft:white_concrete', {
+        "item": "minecraft:gray_concrete",
+        "count": 4,
+        "chance": "0.3"
+    }, Item.of('minecraft:stick').withChance(0.4)], ['minecraft:gray_concrete', 'minecraft:stick'])
+    addMixing('5x minecraft:white_concrete%5', '5x #forge:stone') //shouldn't work, but shouldn't break
+    addCrushing('2x minecraft:white_concrete %5', '5x #forge:stone')
+    addInfusion('white_concrete', 'gray_concrete')
+    addInfusion('2x white_concrete', 'gray_concrete', 10000, 'minecraft:furnace')
+    addInfusion('3x white_concrete', 'stick', 10000, 'minecraft:furnace[lit=true]')
+    addInfusion('3x white_concrete', 'stick', 10000, '#forge:cobblestone')
+    addAltar('54x minecraft:white_concrete', ['create:wheat_flour', '#forge:stone'])
+    addPurify('minecraft:furnace[lit=true]', '#forge:stone')
+    // addCrushing('minecraft:white_concrete %50',)
+
     // addInfusion('2x minecraft:white_concrete','minecraft:gray_concrete')
     // addInfusion('2x minecraft:white_concrete','2x minecraft:gray_concrete')
     // addInfusion('2x minecraft:white_concrete','#forge:stone')
@@ -56,7 +80,6 @@ onEvent('recipes', event => {
     // addInfusion('54x minecraft:white_concrete', Item.of('minecraft:enchanted_book', { StoredEnchantments: [{ lvl: 1, id: "minecraft:sweeping" }] }))
     // addInfusion('54x minecraft:white_concrete', '#forge:stone')
     // addInfusion('minecraft:white_concrete', '2x minecraft:oak_leaves', 2000, 'minecraft:furnace@lit=false,facing=north')
-    // addAltar('54x minecraft:white_concrete', ['create:wheat_flour', '#forge:stone'])
     // addPurify('minecraft:white_concrete', '#forge:stone');
     // addElvenTrade(['12x minecraft:white_concrete', 'minecraft:gray_concrete'], ['#forge:stone', 'create:wheat_flour'])
     // addElvenTrade('4x minecraft:white_concrete', '#forge:stone')

@@ -2,16 +2,24 @@
 const syntax = {
     multiplicationSymbols: ['x', '*']
 }
-function solveItems(items) {
+function solveResults(items) {
     var outArr = [];
     (Array.isArray(items)) ?
         items.forEach(item => {
-            outArr.push(solveItem(item))
-        }) : outArr.push(solveItem(items))
+            outArr.push(solveResult(item))
+        }) : outArr.push(solveResult(items))
     return outArr
 }
-function solveItem(item) {
-    return Item.of(item).toJson()
+function solveResult(item) {
+    if (typeof item === "string") {//is string, apply custom syntax
+        // console.log(item + " is a string and can be messed with!")
+        if (item.includes('%')) {
+            let i = Item.of(item.split('%')[0])
+            let c = parseFloat(item.split('%')[1])/100
+            return i.withChance(c)
+        }
+    }
+    return Item.of(item)
 }
 function solveIngredients(ingredients) {
     var outArr = [];

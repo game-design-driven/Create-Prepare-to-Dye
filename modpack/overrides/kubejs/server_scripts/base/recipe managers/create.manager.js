@@ -58,12 +58,8 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
     if (!processingTime) processingTime = 300
     modpackRecipes.push({
         type: type,
-        ingredients: [
-            Ingredient.of(input)
-        ],
-        results: [
-            Item.of(output)
-        ],
+        ingredients:solveIngredients(input),
+        results:solveResults(output),
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })
