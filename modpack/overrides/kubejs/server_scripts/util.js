@@ -15,12 +15,28 @@ function solveResult(item) {
         // console.log(item + " is a string and can be messed with!")
         if (item.includes('%')) {
             let i = Item.of(item.split('%')[0])
-            let c = parseFloat(item.split('%')[1])/100
+            let c = parseFloat(item.split('%')[1]) / 100
             return i.withChance(c)
         }
     }
     return Item.of(item)
 }
+function solveLimitedIngredients(limitedIngredients) {
+    var outArr = [];
+    (Array.isArray(limitedIngredients)) ?
+        limitedIngredients.forEach((limitedIngredient) => {
+            outArr.push(solveLimitedIngredient(limitedIngredient));
+        }) : outArr.push(solveLimitedIngredient(limitedIngredients))
+    return outArr
+}
+function solveLimitedIngredient(limitedIngredient) { //an ingredient that isn't allowed to have count
+    if (typeof limitedIngredient === 'string') {
+        if (limitedIngredient.includes('x '))
+            return solveIngredient(limitedIngredient.split('x ')[1])
+    }
+    return solveIngredient(limitedIngredient)
+}
+
 function solveIngredients(ingredients) {
     var outArr = [];
     (Array.isArray(ingredients)) ?

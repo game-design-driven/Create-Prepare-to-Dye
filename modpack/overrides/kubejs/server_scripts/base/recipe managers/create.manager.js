@@ -38,28 +38,14 @@ function addFilling(output, input, fluid) {
     addProcessingRecipe('create:filling', output, inputArr)
 }
 function addMixing(output, input, heatRequirement, processingTime) {
-    // if (!processingTime) processingTime = 300
-    // let recipe = {
-    //     type: 'create:mixing',
-    //     ingredients: [
-    //         Ingredient.of('2x minecraft:gray_concrete').toJson()
-    //     ],
-    //     results: [
-    //         Item.of('2x minecraft:white_concrete').toResultJson()
-    //     ],
-    //     processingTime: processingTime,
-    //     heatRequirement: temperature.none
-    // }
-    // console.log(recipe);
-    // modpackRecipes.push(recipe)
     addProcessingRecipe('create:mixing', output, input, processingTime, heatRequirement)
 }
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
     if (!processingTime) processingTime = 300
     modpackRecipes.push({
         type: type,
-        ingredients:solveIngredients(input),
-        results:solveResults(output),
+        ingredients: solveIngredients(input),
+        results: solveResults(output),
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })

@@ -1,11 +1,19 @@
 // priority: 100
-
+function solveStateResult(block) {
+    return solveStateBlock(block, true)
+}
 function solveStateIngredient(block) {
+    return solveStateBlock(block, false)
+}
+function solveStateBlock(block, basic) {
     if (!block) return
     if (!block.includes('[')) {
-        return block.startsWith('#')
-            ? { type: 'tag', tag: block.slice(1) }
-            : { type: 'block', block: block }
+        if (basic)
+            return { name: block }
+        else
+            return block.startsWith('#')
+                ? { type: 'tag', tag: block.slice(1) }
+                : { type: 'block', block: block }
     } else {
         let properties = {}
         block.split('[')[1].replace(']', '').split(',').forEach(property => {
@@ -28,7 +36,7 @@ function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
     modpackRecipes.push({
         type: 'botania:mana_infusion',
-        input: solveIngredient(input),
+        input: solveLimitedIngredient(input),
         output: solveResult(output),
         mana: mana,
         catalyst: solveStateIngredient(catalyst)
@@ -45,7 +53,7 @@ function addAltar(output, inputs, mana) {
         type: 'botania:runic_altar',
         output: solveResult(output),
         mana: mana,
-        ingredients: solveIngredients(inputs)
+        ingredients: solveLimitedIngredients(inputs)
     })
 }
 /**
@@ -54,13 +62,12 @@ function addAltar(output, inputs, mana) {
  * @param {number} time amount of time in ticks default(150)
  */
 function addPurify(output, input, time) {
-    let recipeOut = {
+    modpackRecipes.push({
         type: 'botania:pure_daisy',
         input: solveStateIngredient(input),
-        output: solveStateIngredient(output),
+        output: solveStateResult(output),
         time: time
-    }
-    modpackRecipes.push(recipeOut);
+    });
 }
 /**
  * @param {result[]} outputs
@@ -69,7 +76,7 @@ function addPurify(output, input, time) {
 function addElvenTrade(outputs, inputs) {
     modpackRecipes.push({
         type: 'botania:elven_trade',
-        ingredients: solveIngredients(inputs),
+        ingredients: solveLimitedIngredients(inputs),
         output: solveResults(outputs)
     })
 }
@@ -81,7 +88,7 @@ function addApothecary(output, inputs) {
     modpackRecipes.push({
         type: 'botania:petal_apothecary',
         output: solveResult(output),
-        ingredients: solveIngredients(inputs)
+        ingredients: solveLimitedIngredients(inputs)
     })
 }
 /**
@@ -94,7 +101,7 @@ function addTerraPlate(output, inputs, mana) {
         modpackRecipes.push({
             type: 'botania:terra_plate',
             result: solveResult(output),
-            ingredients: solveIngredients(inputs),
+            ingredients: solveLimitedIngredients(inputs),
             mana: mana
         })
 }
