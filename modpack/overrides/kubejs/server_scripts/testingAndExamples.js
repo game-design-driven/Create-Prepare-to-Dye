@@ -35,15 +35,15 @@ onEvent('recipes', event => {
 
     // addCrushing('minecraft:white_concrete %50',)
 
-    addInfusion('2x minecraft:white_concrete','minecraft:gray_concrete')
-    addInfusion('2x minecraft:white_concrete','2x minecraft:gray_concrete')
-    addInfusion('2x minecraft:white_concrete','#forge:stone')
-    addInfusion('2x minecraft:white_concrete','2x #forge:stone')
-    addMixing('minecraft:white_concrete','2x minecraft:gray_concrete')
-    addCrushing(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'),'#forge:stone')
+    addInfusion('2x minecraft:white_concrete', 'minecraft:gray_concrete')
+    addInfusion('2x minecraft:white_concrete', '2x minecraft:gray_concrete')
+    addInfusion('2x minecraft:white_concrete', '#forge:stone')
+    addInfusion('2x minecraft:white_concrete', '2x #forge:stone')
+    addMixing('minecraft:white_concrete', '2x minecraft:gray_concrete')
+    addCrushing(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
     addInfusion(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
-    addCrushing('2x minecraft:white_concrete%25',Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'))
-    addCrushing('2x minecraft:white_concrete%65',{
+    addCrushing('2x minecraft:white_concrete%25', Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'))
+    addCrushing('2x minecraft:white_concrete%65', {
         "item": 'minecraft:potion',
         "type": "forge:nbt",
         "nbt": {
@@ -53,9 +53,9 @@ onEvent('recipes', event => {
     addCrushing({
         "item": 'minecraft:white_concrete',
         "count": 6
-    },'minecraft:gray_concrete')
+    }, 'minecraft:gray_concrete')
     addInfusion('54x minecraft:white_concrete', Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'))
-    addInfusion('54x minecraft:white_concrete', Item.of('minecraft:enchanted_book', { StoredEnchantments: [{ lvl: 1, id: "minecraft:sweeping" }] }).toJson())
+    addInfusion('54x minecraft:white_concrete', Item.of('minecraft:enchanted_book', { StoredEnchantments: [{ lvl: 1, id: "minecraft:sweeping" }] }))
     addInfusion('54x minecraft:white_concrete', '#forge:stone')
     addInfusion('minecraft:white_concrete', '2x minecraft:oak_leaves', 2000, 'minecraft:furnace[lit=false,facing=north]')
     addElvenTrade(['12x minecraft:white_concrete', 'minecraft:gray_concrete'], ['#forge:stone', 'create:wheat_flour'])
@@ -73,7 +73,9 @@ onEvent('recipes', event => {
     addDeploying('minecraft:white_concrete', '#forge:stone', 'minecraft:gray_concrete')
     addDeploying('minecraft:white_concrete', '#forge:stone', 'create:wheat_flour', 2000)
     addDeploying('minecraft:white_concrete', '#forge:stone', Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), 2000)
+    addInfusion(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), 'stick')
     // addFilling('minecraft:white_concrete', 'minecraft:gray_concrete', Fluid.of('minecraft:water', 250))
+    // addFilling('minecraft:white_concrete', 'minecraft:gray_concrete', 'minecraft:water')
     // addFilling('minecraft:white_concrete', 'minecraft:gray_concrete', {
     //     "fluid": "create:potion",
     //     "nbt": {

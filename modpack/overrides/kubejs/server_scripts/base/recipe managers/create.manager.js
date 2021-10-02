@@ -32,9 +32,11 @@ function addDeploying(output, input, heldItem) {
     addProcessingRecipe('create:deploying', output, inputArr)
 }
 function addFilling(output, input, fluid) {
+    console.log('FILLING IS ALIVE ' + fluid);
     let inputArr = []
     inputArr.push(input)
-    inputArr.push(solveFluid(fluid))
+    inputArr.push(Fluid.of('minecraft:water',1000))
+    console.log(inputArr);
     addProcessingRecipe('create:filling', output, inputArr)
 }
 function addMixing(output, input, heatRequirement, processingTime) {
@@ -44,8 +46,8 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
     if (!processingTime) processingTime = 300
     modpackRecipes.push({
         type: type,
-        ingredients: solveIngredients(input),
         results: solveResults(output),
+        ingredients: solveIngredients(input),
         processingTime: processingTime,
         heatRequirement: heatRequirement
     })
