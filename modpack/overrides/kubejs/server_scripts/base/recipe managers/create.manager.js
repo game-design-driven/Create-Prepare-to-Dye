@@ -3,6 +3,11 @@
 // - addBasin
 // - addFilling
 // - addEmptying
+const temperature = {
+    none: 'none',
+    heated: "heated",
+    superHeated: "superheated"
+}
 function addCrushing(output, input, processingTime) {
     addProcessingRecipe('create:crushing', solveResults(output), solveLimitedIngredient(input), processingTime)
 }
@@ -14,9 +19,10 @@ function addMilling(output, input, processingTime) {
 }
 
 function addCompacting(output, input, heatRequirement, processingTime, fluidOutput, fluidInput) {
+    console.log('List of the stuffs '+solveLimitedIngredients(input).concat(solveFluids(fluidInput)));
     addProcessingRecipe('create:compacting',
-        [solveResult(output)],
-        solveIngredients(input),
+        [solveResult(output)].concat(solveFluid(fluidOutput)),
+        solveLimitedIngredients(input).concat(solveFluids(fluidInput)),
         processingTime, heatRequirement)
 }
 function addPressing(output, input, processingTime) {

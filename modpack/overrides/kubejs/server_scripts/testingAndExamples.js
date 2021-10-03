@@ -8,7 +8,10 @@ onEvent('recipes', event => {
         event.remove({ id: 'create:crafting/appliances/dough' })
     }
     //examples
-    addCompacting('2x white_concrete %50',['2x cobblestone','2x stick'])
+    addCompacting('1x white_concrete', ['2x cobblestone', '2x stick'], temperature.heated, 1000, 'water', ['water', 'lava'])
+    addCompacting('2x white_concrete', 'stick', temperature.heated)
+    addCompacting('3x white_concrete', 'stick', temperature.heated, 1, '', 'lava')
+    addCompacting('4x white_concrete', '', temperature.heated, 1, 'lava','water')
     // addMixing('1x white_concrete', '5x #forge:stone')
     // addMixing(Item.of('2x minecraft:white_concrete'), Ingredient.of('2x #forge:stone'))
     // addMixing(Item.of('3x minecraft:white_concrete'), {

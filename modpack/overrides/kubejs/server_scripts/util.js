@@ -46,6 +46,7 @@ function solveIngredients(ingredients) {
     return outArr
 }
 function solveIngredient(ingredient) {
+    if (!ingredient) return //experimental
     console.log(ingredient + " is beeing solved");
     if (typeof ingredient === "string") {//is string, apply custom syntax
     }
@@ -64,5 +65,5 @@ function solveFluid(fluid) {
     if (!fluid) return
     console.log('entered fluid solving');
     // console.log('solving fluid ' + fluid + ' into ' + Fluid.of(fluid));
-    return Fluid.of('minecraft:water').withAmount(1).toJson()
+    return Fluid.of(fluid).withAmount(100).toJson()
 }
