@@ -77,8 +77,9 @@ function solveFluid(fluid) {
         if (fluid.includes('x ')) {
             console.log(fluid + " haz amount");
             amount = parseInt(fluid.split('x ')[0])
+            fluid = fluid.split('x ')[1]
         }
     }
     // console.log('solving fluid ' + fluid + ' into ' + Fluid.of(fluid));
-    return Fluid.of(fluid,amount).toJson()
+    return Fluid.of(fluid).withAmount(amount).toJson()
 }
