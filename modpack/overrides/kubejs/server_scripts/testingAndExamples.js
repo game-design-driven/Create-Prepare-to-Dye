@@ -9,9 +9,16 @@ onEvent('recipes', event => {
     }
     //examples
     addCompacting('1x white_concrete', ['2x cobblestone', '2x stick'], temperature.heated, 1000, 'water', ['water', 'lava'])
+    addCompacting('5x white_concrete', ['stick'], temperature.heated)
     addCompacting('2x white_concrete', 'stick', temperature.heated)
     addCompacting('3x white_concrete', 'stick', temperature.heated, 1, '', 'lava')
-    addCompacting('4x white_concrete', '', temperature.heated, 1, 'lava','water')
+    addCompacting('4x white_concrete', '', temperature.heated, 1, 'lava', 'water')
+    addPressing('2x white_concrete', 'white_concrete')
+    addPressing(['4x white_concrete', 'apple%50'], 'white_concrete')
+    addSandpaperPolishing('2x white_concrete', 'stick')
+    addFilling('white_concrete', 'gray_concrete', 'water')
+    addMixing('white_concrete', 'gray_concrete')
+    addMixing('5x white_concrete %75', 'gray_concrete', temperature.superHeated, 1, ['500x lava', 'water'], ['create:honey', 'milk'])
     // addMixing('1x white_concrete', '5x #forge:stone')
     // addMixing(Item.of('2x minecraft:white_concrete'), Ingredient.of('2x #forge:stone'))
     // addMixing(Item.of('3x minecraft:white_concrete'), {
