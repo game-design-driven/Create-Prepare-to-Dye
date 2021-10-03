@@ -51,7 +51,17 @@ function solveIngredient(ingredient) {
     }
     return Ingredient.of(ingredient).toJson()//experimental, the toJson can cause problems!
 }
+function solveFluids(fluids) {
+    // if (!fluids) return []
+    var outArr = [];
+    (Array.isArray(fluids)) ?
+        fluids.forEach((fluid) => {
+            outArr.push(solveFluid(fluid));
+        }) : outArr.push(solveFluid(fluids))
+    return outArr
+}
 function solveFluid(fluid) {
+    if (!fluid) return
     console.log('entered fluid solving');
     // console.log('solving fluid ' + fluid + ' into ' + Fluid.of(fluid));
     return Fluid.of('minecraft:water').withAmount(1).toJson()
