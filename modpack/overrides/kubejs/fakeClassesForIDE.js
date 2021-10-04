@@ -6,13 +6,23 @@
  */
 class item { }
 /**
- * 
+ * Can be fluidStack or fluid tag, can have amount (defaults to 500mb)
+ * @example 'water','700x lava', '100x #forge:hot'
  */
 class fluid { }
 /**
- * Can be itemStack or tag
- * @example 'minecraft:stick', '#forge:stick'
+ * Can be itemStack or tag, can have amount
+ * @example 'minecraft:stick', '#forge:stick', '4x stick'
  */
 class ingredient { }
-class result {}
+/**
+ * Can be itemStack or tag, can't have amount (note: if used in list, can have amount)
+ * @example 'minecraft:stick', '#forge:stick'
+ */
+class limitedIngredient { }
+/**
+ * is itemStack, can have amount, can have chance
+ * @example 'minecraft:stick', '#forge:stick', '4x stick %50'
+ */
+class result { }
 

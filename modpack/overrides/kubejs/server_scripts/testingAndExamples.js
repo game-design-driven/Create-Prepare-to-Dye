@@ -18,58 +18,55 @@ onEvent('recipes', event => {
     addSandpaperPolishing('2x white_concrete', 'stick')
     addFilling('white_concrete', 'gray_concrete', 'water')
     addMixing('white_concrete', 'gray_concrete')
-    addMixing('5x white_concrete %75', 'gray_concrete', temperature.superHeated, 1, ['500x lava', 'water'], ['create:honey', 'milk'])
-    // addMixing('1x white_concrete', '5x #forge:stone')
-    // addMixing(Item.of('2x minecraft:white_concrete'), Ingredient.of('2x #forge:stone'))
-    // addMixing(Item.of('3x minecraft:white_concrete'), {
-    //     "tag": "forge:stone",
-    //     "amount": 42
-    // })
-    // addMixing(['4x minecraft:white_concrete', {
-    //     "item": "minecraft:gray_concrete",
-    //     "count": 4
-    // }], ['minecraft:gray_concrete', 'minecraft:stick'])
-    // addCrushing(['1x minecraft:white_concrete', {
-    //     "item": "minecraft:gray_concrete",
-    //     "count": 4,
-    //     "chance": "0.3"
-    // }, Item.of('minecraft:stick').withChance(0.4)], ['minecraft:gray_concrete', 'minecraft:stick'])
-    // addMixing('5x minecraft:white_concrete%5', '5x #forge:stone') //shouldn't work, but shouldn't break
-    // addCrushing('2x minecraft:white_concrete %5', '5x #forge:stone')
-    // addInfusion('white_concrete', 'gray_concrete')
-    // addInfusion('2x white_concrete', 'gray_concrete', 10000, 'minecraft:furnace')
-    // addInfusion('3x white_concrete', 'stick', 10000, 'minecraft:furnace[lit=true]')
-    // addInfusion('3x white_concrete', 'stick', 10000, '#forge:cobblestone')
-    // addAltar('54x minecraft:white_concrete', ['create:wheat_flour', '#forge:stone'])
-    // addPurify('minecraft:furnace[lit=true]', '#forge:stone')
-    // addPurify('minecraft:white_concrete', '#forge:planks');
+    addMixing('5x white_concrete', 'gray_concrete', temperature.superHeated, 1, ['500x lava', 'water'], ['create:honey', 'milk'])
+    addMixing('1x white_concrete', '5x #forge:stone')
+    addMixing('42x white_concrete', ['5x #forge:stone','5x stick'])
+    addMixing(Item.of('2x minecraft:white_concrete'), Ingredient.of('#forge:stone'))
+    addMixing(Item.of('3x minecraft:white_concrete'), {
+        "tag": "forge:stone",
+    })
+    addMixing(['4x minecraft:white_concrete', {
+        "item": "minecraft:gray_concrete",
+    }], ['minecraft:gray_concrete', 'minecraft:stick'])
+    addCrushing(['1x minecraft:white_concrete', {
+        "item": "minecraft:gray_concrete",
+        "count": 4,
+        "chance": "0.3"
+    }, Item.of('minecraft:stick').withChance(0.4)], ['minecraft:gray_concrete', 'minecraft:stick'])
+    addMixing('5x minecraft:white_concrete%5', '5x #forge:stone') //shouldn't work, but shouldn't break
+    addCrushing('2x minecraft:white_concrete %5', '5x #forge:stone')
+    addInfusion('white_concrete', 'gray_concrete')
+    addInfusion('2x white_concrete', 'gray_concrete', 10000, 'minecraft:furnace')
+    addInfusion('3x white_concrete', 'stick', 10000, 'minecraft:furnace[lit=true]')
+    addInfusion('3x white_concrete', 'stick', 10000, '#forge:cobblestone')
+    addAltar('54x minecraft:white_concrete', ['create:wheat_flour', '#forge:stone'])
+    addPurify('minecraft:furnace[lit=true]', '#forge:stone')
+    addPurify('minecraft:white_concrete', '#forge:planks');
 
-    // // addCrushing('minecraft:white_concrete %50',)
+    addCrushing('minecraft:white_concrete %50','stick')
 
-    // addInfusion('2x minecraft:white_concrete', 'minecraft:gray_concrete')
-    // addInfusion('2x minecraft:white_concrete', '2x minecraft:gray_concrete')
-    // addInfusion('2x minecraft:white_concrete', '#forge:stone')
-    // addInfusion('2x minecraft:white_concrete', '2x #forge:stone')
-    // addMixing('minecraft:white_concrete', '2x minecraft:gray_concrete')
-    // addCrushing(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
-    // addInfusion(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
-    // addCrushing('2x minecraft:white_concrete%25', Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'))
-    // addCrushing('2x minecraft:white_concrete%65', {
-    //     "item": 'minecraft:potion',
-    //     "type": "forge:nbt",
-    //     "nbt": {
-    //         "Potion": "minecraft:harming"
-    //     }
-    // })
-    // addCrushing({
-    //     "item": 'minecraft:white_concrete',
-    //     "count": 6
-    // }, 'minecraft:gray_concrete')
-    // addInfusion('54x minecraft:white_concrete', Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'))
-    // addInfusion('54x minecraft:white_concrete', Item.of('minecraft:enchanted_book', { StoredEnchantments: [{ lvl: 1, id: "minecraft:sweeping" }] }))
-    // addInfusion('54x minecraft:white_concrete', '#forge:stone')
-    // addInfusion('minecraft:white_concrete', '2x minecraft:oak_leaves', 2000, 'minecraft:furnace[lit=false,facing=north]')
-    // addElvenTrade(['12x minecraft:white_concrete', 'minecraft:gray_concrete'], ['#forge:stone', 'create:wheat_flour'])
+    addInfusion('2x minecraft:white_concrete', 'minecraft:gray_concrete')
+    addInfusion('2x minecraft:white_concrete', '2x minecraft:gray_concrete')
+    addInfusion('2x minecraft:white_concrete', '2x #forge:stone')
+    addCrushing(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
+    addInfusion(Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'), '#forge:stone')
+    addCrushing('2x minecraft:white_concrete%25', Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'))
+    addCrushing('2x minecraft:white_concrete%65', {
+        "item": 'minecraft:potion',
+        "type": "forge:nbt",
+        "nbt": {
+            "Potion": "minecraft:harming"
+        }
+    })
+    addCrushing({
+        "item": 'minecraft:white_concrete',
+        "count": 6
+    }, 'minecraft:gray_concrete')
+    addInfusion('54x minecraft:white_concrete', Item.of('minecraft:potion', '{Potion:"minecraft:harming"}'))
+    addInfusion('54x minecraft:white_concrete', Item.of('minecraft:enchanted_book', { StoredEnchantments: [{ lvl: 1, id: "minecraft:sweeping" }] }))
+    addInfusion('minecraft:white_concrete', '2x minecraft:oak_leaves', 2000, 'minecraft:furnace[lit=false,facing=north]')
+    addElvenTrade(['12x minecraft:white_concrete', 'minecraft:gray_concrete'], ['4x #forge:stone', 'create:wheat_flour'])
+    addElvenTrade(['12x minecraft:white_concrete', 'minecraft:gray_concrete'], ['4x stone', 'create:wheat_flour'])
     // addElvenTrade('4x minecraft:white_concrete', '#forge:stone')
     // addApothecary('minecraft:white_concrete', ['minecraft:gray_concrete', '#forge:stone'])
     // addTerraPlate('minecraft:white_concrete', 'minecraft:gray_concrete', 1)

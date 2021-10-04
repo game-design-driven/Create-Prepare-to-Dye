@@ -23,7 +23,7 @@ function solveResult(item) {
 }
 function solveLimitedIngredients(limitedIngredients) {
     var outArr = [];
-    (Array.isArray(limitedIngredients)) ?
+    if (Array.isArray(limitedIngredients)) {
         limitedIngredients.forEach((limitedIngredient) => {
 
             if (typeof limitedIngredient === 'string' && limitedIngredient.includes('x ')) {
@@ -35,7 +35,8 @@ function solveLimitedIngredients(limitedIngredients) {
                 }
             }
             outArr.push(solveLimitedIngredient(limitedIngredient));
-        }) : outArr.push(solveLimitedIngredient(limitedIngredients))
+        })
+    } else return solveLimitedIngredients([limitedIngredients]) //if not array, restart with it as array
     return outArr
 }
 function solveLimitedIngredient(limitedIngredient) { //an ingredient that isn't allowed to have count
