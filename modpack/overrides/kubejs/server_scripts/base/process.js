@@ -6,12 +6,27 @@ let recipeIdSuffix = "pack"
 onEvent('recipes', event => {
     modpackRecipes.forEach(recipe => {
         console.log(recipe);
+
+        removeAir(recipe)
+        // removeAir(recipe)
         event.custom(recipe).id = getUniqueName(recipe)
     });
 })
 
-function getUniqueName(recipe) {
-    console.log('making name for ' + recipe);
+function removeAir(recipe) {
+    if (Array.isArray(recipe.ingredients)) {
+        console.log(recipe.ingredients);
+        recipe.ingredients.forEach(ingredient => {
+            if ((ingredient + "").includes("minecraft:air")) {
+                console.log("success! " + ingredient);
+                // delete recipe.ingredients[ingredient]
+                recipe.ingredients = recipe.ingredients.filter(i => i !== ingredient)
+            }
+        });
+        console.log("filtered " + recipe.ingredients)
+    }
+}
+function getUniqueName(recipe) { //doesn't 
     let results =
         recipe['results'] && Array.isArray(recipe['results']) ? recipe['results'][0] :
             recipe['results'] ? recipe['results'] :
@@ -29,7 +44,6 @@ function getUniqueName(recipe) {
         name = (name + "") + "/" + id
     }
     allIds.push(name)
-    console.log(name);
     return name + "/" + recipeIdSuffix
 }
 
