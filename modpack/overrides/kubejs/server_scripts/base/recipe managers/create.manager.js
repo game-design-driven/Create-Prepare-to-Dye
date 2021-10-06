@@ -1,14 +1,10 @@
 // priority: 100
-// - addConversion
-// - addBasin
-// - addFilling
-// - addEmptying
+// - addConversion is still missing
 const temperature = {
     none: 'none',
     heated: "heated",
     superHeated: "superheated"
 }
-const defaultProcessingTime = 300
 /**
 * @param {result[]} output will be treated as a pool
 * @param {ingredient} input
@@ -16,12 +12,12 @@ const defaultProcessingTime = 300
 * @param {number} loops 
 * @param {limitedIngredient} transitionalItem 
  */
-function addSequencedAssembly(output, input, steps, loops, transitionalItem) {
-    console.log("Before cleaning  "+modpackRecipes);
+function addAssembly(output, input, steps, loops, transitionalItem) {
+    console.log("Before cleaning  " + modpackRecipes);
     steps.forEach((recipe) => {
         modpackRecipes = modpackRecipes.filter(item => item !== recipe)
     })
-    console.log("AFter cleaning  "+modpackRecipes);
+    console.log("AFter cleaning  " + modpackRecipes);
 
     if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })
     if (!loops) loops = 1
@@ -104,7 +100,7 @@ function addSplashing(output, input, processingTime) {
  * @param {ingredient} heldItem
  */
 function addDeploying(output, input, heldItem) {
-    return addProcessingRecipe('create:deploying', solveResults(output), solveIngredients([input,heldItem]))
+    return addProcessingRecipe('create:deploying', solveResults(output), solveIngredients([input, heldItem]))
 }
 /**
  * @param {result} output
@@ -112,10 +108,6 @@ function addDeploying(output, input, heldItem) {
  * @param {fluid} fluid 
  */
 function addFilling(output, input, fluid) {
-    // if (!output && !input) output = fluid
-    // let inputArr = []
-    // inputArr.push(solveIngredient(input))
-    // inputArr.push(solveFluid(fluid))
     return addProcessingRecipe('create:filling', [solveResult(output)], [solveIngredient(input), solveFluid(fluid)])
 }
 /**
@@ -124,11 +116,6 @@ function addFilling(output, input, fluid) {
  * @param {fluid} fluid 
  */
 function addEmptying(output, input, fluid) {
-    // let outputArr = [solveResult(output)]
-    // outputArr.push(solveResult(output))
-    // outputArr.push(solveFluid(fluid))
-    // console.log("emptying " + outputArr);
-
     return addProcessingRecipe('create:emptying', [solveResult(output), solveFluid(fluid)], [solveLimitedIngredient(input)])
 }
 /**
@@ -155,7 +142,6 @@ function addMechanicalCrafting(output, pattern, key) {
     return recipe;
 }
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
-    if (!processingTime) processingTime = defaultProcessingTime
     let recipe = {
         type: type,
         results: output,
