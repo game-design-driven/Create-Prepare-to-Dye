@@ -27,9 +27,7 @@ function solveLimitedIngredients(limitedIngredients) {
         limitedIngredients.forEach((limitedIngredient) => {
 
             if (typeof limitedIngredient === 'string' && limitedIngredient.includes('x ')) {
-                console.log("limited ingredient haz numbar?! i fix!");
                 let times = parseInt(limitedIngredient.split('x ')[0])
-                console.log("haz " + times + " repeates");
                 for (i = 1; i < times; i++) {//starts from one because we'll push the default one later anyways
                     outArr.push(solveLimitedIngredient(limitedIngredient))
                 }
@@ -56,8 +54,7 @@ function solveIngredients(ingredients) {
     return outArr
 }
 function solveIngredient(ingredient) {
-    if (!ingredient) return //experimental
-    console.log(ingredient + " is beeing solved");
+    // if (!ingredient) return //experimental
     if (typeof ingredient === "string") {//is string, apply custom syntax
     }
     return Ingredient.of(ingredient).toJson()//experimental, the toJson can cause problems!
@@ -76,7 +73,6 @@ function solveFluid(fluid) {
     let amount = parseInt(500) //for some reason can't be 1000 //it turns 1000 into nothing because it thinks it's default
     if (typeof fluid === "string") {//is string, apply custom syntax
         if (fluid.includes('x ')) {
-            console.log(fluid + " haz amount");
             amount = parseInt(fluid.split('x ')[0])
             fluid = fluid.split('x ')[1]
         }

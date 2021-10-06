@@ -25,4 +25,9 @@ class limitedIngredient { }
  * @example 'minecraft:stick', '#forge:stick', '4x stick %50'
  */
 class result { }
-
+/**
+ * A json object of a recipe that supports assembly
+ * Has to have null output
+ * Get one by calling any recipe add of a supported recipe with null as output
+ */
+ class process { }

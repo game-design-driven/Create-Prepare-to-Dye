@@ -10,12 +10,39 @@ const temperature = {
 }
 const defaultProcessingTime = 300
 /**
+* @param {result[]} output will be treated as a pool
+* @param {ingredient} input
+* @param {process[]} steps 
+* @param {number} loops 
+* @param {limitedIngredient} transitionalItem 
+ */
+function addSequencedAssembly(output, input, steps, loops, transitionalItem) {
+    console.log("Before cleaning  "+modpackRecipes);
+    steps.forEach((recipe) => {
+        modpackRecipes = modpackRecipes.filter(item => item !== recipe)
+    })
+    console.log("AFter cleaning  "+modpackRecipes);
+
+    if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })
+    if (!loops) loops = 1
+    console.log("The steps are: " + steps[3].type);
+    let recipe = {
+        type: "create:sequenced_assembly",
+        ingredient: solveIngredient(input),
+        transitionalItem: solveIngredient(transitionalItem),
+        sequence: steps,
+        results: solveResults(output),
+        loops: loops
+    }
+    modpackRecipes.push(recipe)
+}
+/**
  * @param {result[]} output
  * @param {ingredient} input
  * @param {number} processingTime amount of time in ticks default(300)
  */
 function addCrushing(output, input, processingTime) {
-    addProcessingRecipe('create:crushing', solveResults(output), [solveLimitedIngredient(input)], processingTime)
+    return addProcessingRecipe('create:crushing', solveResults(output), [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result} output
@@ -23,7 +50,7 @@ function addCrushing(output, input, processingTime) {
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addCutting(output, input, processingTime) {
-    addProcessingRecipe('create:cutting', [solveResult(output)], [solveLimitedIngredient(input)], processingTime)
+    return addProcessingRecipe('create:cutting', [solveResult(output)], [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
@@ -31,7 +58,7 @@ function addCutting(output, input, processingTime) {
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addMilling(output, input, processingTime) {
-    addProcessingRecipe('create:milling', solveResults(output), [solveLimitedIngredient(input)], processingTime)
+    return addProcessingRecipe('create:milling', solveResults(output), [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result} output
@@ -42,7 +69,7 @@ function addMilling(output, input, processingTime) {
  * @param {fluid[]} fluidInput
  */
 function addCompacting(output, input, heatRequirement, processingTime, fluidOutput, fluidInput) {
-    addProcessingRecipe('create:compacting',
+    return addProcessingRecipe('create:compacting',
         [solveResult(output)].concat(solveFluid(fluidOutput)),
         solveLimitedIngredients(input).concat(solveFluids(fluidInput)),
         processingTime, heatRequirement)
@@ -53,7 +80,7 @@ function addCompacting(output, input, heatRequirement, processingTime, fluidOutp
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addPressing(output, input, processingTime) {
-    addProcessingRecipe('create:pressing', solveResults(output), [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:pressing', solveResults(output), [solveIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
@@ -61,7 +88,7 @@ function addPressing(output, input, processingTime) {
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addSandpaperPolishing(output, input, processingTime) {
-    addProcessingRecipe('create:sandpaper_polishing', [solveResult(output)], [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:sandpaper_polishing', [solveResult(output)], [solveIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
@@ -69,7 +96,7 @@ function addSandpaperPolishing(output, input, processingTime) {
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addSplashing(output, input, processingTime) {
-    addProcessingRecipe('create:splashing', solveResults(output), [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:splashing', solveResults(output), [solveIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
@@ -77,21 +104,32 @@ function addSplashing(output, input, processingTime) {
  * @param {ingredient} heldItem
  */
 function addDeploying(output, input, heldItem) {
-    let inputArr = []
-    inputArr.push(solveIngredient(input))
-    inputArr.push(solveIngredient(heldItem))
-    addProcessingRecipe('create:deploying', solveResults(output), inputArr)
+    return addProcessingRecipe('create:deploying', solveResults(output), solveIngredients([input,heldItem]))
 }
 /**
- * @param {result[]} output
+ * @param {result} output
  * @param {ingredient} input
  * @param {fluid} fluid 
  */
 function addFilling(output, input, fluid) {
-    let inputArr = []
-    inputArr.push(solveIngredient(input))
-    inputArr.push(solveFluid(fluid))
-    addProcessingRecipe('create:filling', solveResults(output), inputArr)
+    // if (!output && !input) output = fluid
+    // let inputArr = []
+    // inputArr.push(solveIngredient(input))
+    // inputArr.push(solveFluid(fluid))
+    return addProcessingRecipe('create:filling', [solveResult(output)], [solveIngredient(input), solveFluid(fluid)])
+}
+/**
+ * @param {result} output
+ * @param {ingredient} input
+ * @param {fluid} fluid 
+ */
+function addEmptying(output, input, fluid) {
+    // let outputArr = [solveResult(output)]
+    // outputArr.push(solveResult(output))
+    // outputArr.push(solveFluid(fluid))
+    // console.log("emptying " + outputArr);
+
+    return addProcessingRecipe('create:emptying', [solveResult(output), solveFluid(fluid)], [solveLimitedIngredient(input)])
 }
 /**
  * @param {result[]} output
@@ -104,16 +142,27 @@ function addFilling(output, input, fluid) {
 function addMixing(output, input, heatRequirement, processingTime, fluidOutput, fluidInput) {
     let inputArr = solveLimitedIngredients(input).concat(solveFluids(fluidInput))
     let outputArr = solveResults(output).concat(solveFluids(fluidOutput))
-    console.log("why no mixz? " + outputArr + " in : " + inputArr);
-    addProcessingRecipe('create:mixing', outputArr, inputArr, processingTime, heatRequirement)
+    return addProcessingRecipe('create:mixing', outputArr, inputArr, processingTime, heatRequirement)
+}
+function addMechanicalCrafting(output, pattern, key) {
+    let recipe = {
+        type: "create:mechanical_crafting",
+        pattern: pattern,
+        result: output,
+        key: key,
+    };
+    modpackRecipes.push(recipe)
+    return recipe;
 }
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
     if (!processingTime) processingTime = defaultProcessingTime
-    modpackRecipes.push({
+    let recipe = {
         type: type,
         results: output,
         ingredients: input,
         processingTime: processingTime,
         heatRequirement: heatRequirement
-    })
+    }
+    modpackRecipes.push(recipe)
+    return recipe
 }
