@@ -7,7 +7,13 @@ onEvent('recipes', event => {
     if (feature('Adapting flour and dough recipes')) {
         event.remove({ id: 'create:crafting/appliances/dough' })
     }
-    addShaped('white_concrete', ['aaa'], { 'a': 'stick' })
+    addFluidFluidTransform('lava', 'stick', 'water')
+    addFluidFluidTransform('lava', 'glass', 'water')
+    addFluidFluidTransform('lava', 'gray_concrete', 'water')
+    addFluidFluidTransform(['lava', 'milk%2'], 'white_tulip', 'water')
+    addItemFluidTransform(['white_concrete %2', 'stick %1', 'glass'], Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'), 'water', 0.5)
+    addShaped('white_concrete', ['aaa'], { a: 'stick' })
+    addShaped('white_concrete', ['aba'], { 'a': 'stick', 'b': '#forge:stone' })
     addShapeless('white_concrete', 'stick')
     addShapeless('white_concrete', '9x stick')
     addSmelting('white_concrete', 'stick')

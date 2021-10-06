@@ -1,5 +1,9 @@
 // priority: 100
-
+/**
+ * @param {result} output 
+ * @param {string[]} pattern ['aaa','bbb','aaa']
+ * @param {Map<any,string>} key { a: 'stick', b: 'gray_concrete' }
+ */
 function addShaped(output, pattern, key) {
     let recipe = {
         type: "minecraft:crafting_shaped",
@@ -10,6 +14,10 @@ function addShaped(output, pattern, key) {
     modpackRecipes.push(recipe)
     return recipe;
 }
+/**
+ * @param {result} output '4x stick'
+ * @param {ingredient[]} input ['glass','stick'] 
+ */
 function addShapeless(output, input) {
     let recipe = {
         type: "minecraft:crafting_shapeless",
@@ -19,6 +27,10 @@ function addShapeless(output, input) {
     modpackRecipes.push(recipe)
     return recipe;
 }
+/**
+ * @param {result} output '4x stick'
+ * @param {ingredient} input 'glass' 
+ */
 function addStonecutting(output, input) {
     let recipe = {
         type: "minecraft:stonecutting",
@@ -28,7 +40,12 @@ function addStonecutting(output, input) {
     modpackRecipes.push(recipe)
     return recipe;
 }
-function addSmithing(output, input,addition) {
+/**
+ * @param {result} output
+ * @param {ingredient} input 
+ * @param {ingredient} addition 
+ */
+function addSmithing(output, input, addition) {
     let recipe = {
         type: "minecraft:smithing",
         result: solveResult(output),
@@ -38,15 +55,39 @@ function addSmithing(output, input,addition) {
     modpackRecipes.push(recipe)
     return recipe;
 }
+/**
+ * @param {result} output 
+ * @param {ingredient} input 
+ * @param {Number} experience 
+ * @param {Number} cookingTime 
+ */
 function addSmelting(output, input, experience, cookingTime) {
     return mcProcess('minecraft:smelting', output, input, experience, cookingTime)
 }
+/**
+ * @param {result} output 
+ * @param {ingredient} input 
+ * @param {Number} experience 
+ * @param {Number} cookingTime 
+ */
 function addCampfire(output, input, experience, cookingTime) {
     return mcProcess('minecraft:campfire_cooking', output, input, experience, cookingTime)
 }
+/**
+ * @param {result} output 
+ * @param {ingredient} input 
+ * @param {Number} experience 
+ * @param {Number} cookingTime 
+ */
 function addBlasting(output, input, experience, cookingTime) {
     return mcProcess('minecraft:blasting', output, input, experience, cookingTime)
 }
+/**
+ * @param {result} output 
+ * @param {ingredient} input 
+ * @param {Number} experience 
+ * @param {Number} cookingTime 
+ */
 function addSmoking(output, input, experience, cookingTime) {
     return mcProcess('minecraft:smoking', output, input, experience, cookingTime)
 }
