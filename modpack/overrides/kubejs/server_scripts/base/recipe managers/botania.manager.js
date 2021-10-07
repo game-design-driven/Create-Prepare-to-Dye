@@ -105,3 +105,15 @@ function addTerraPlate(output, inputs, mana) {
             mana: mana
         })
 }
+/**
+ * 
+ * @param {string} output 'botania:absorption' 
+ * @param {ingredient[]} input 
+ */
+function addBrew(output, input) {
+    modpackRecipes.push({
+        type: 'botania:brew',
+        brew: output,
+        ingredients: solveLimitedIngredients(input)
+    })
+}

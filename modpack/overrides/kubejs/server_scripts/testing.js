@@ -1,17 +1,28 @@
 settings.logAddedRecipes = true
 settings.logRemovedRecipes = true
 settings.logErroringRecipes = true
-
+// settings.invertClassLoader = true
+//	default void sparkleFX(World world, double x, double y, double z, float r, float g, float b, float size, int m) {} inside botania api
 console.info('initiating create scripts...')
 onEvent('recipes', event => {
     if (feature('Adapting flour and dough recipes')) {
         event.remove({ id: 'create:crafting/appliances/dough' })
     }
-    addFluidFluidTransform('lava', 'stick', 'water')
-    addFluidFluidTransform('lava', 'glass', 'water')
-    addFluidFluidTransform('lava', 'gray_concrete', 'water')
-    addFluidFluidTransform(['lava', 'milk%2'], 'white_tulip', 'water')
-    addItemFluidTransform(['white_concrete %2', 'stick %1', 'glass'], Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'), 'water', 0.5)
+    addLightning('white_concrete', ['stick', 'glass'])
+    addBlockAnvil(['white_concrete', 'sand%2'], 'glass', 1)
+    addItemExplode('white_concrete', 'stick')
+    addBlockExplode('white_concrete', 'minecraft:cobblestone')
+    addBlockExplode(['white_concrete', 'cobblestone'], 'minecraft:cobblestone')
+    addBlockExplode('white_concrete%2', 'minecraft:cobblestone', 4, 2)
+    addItemExplode(['white_concrete %1', 'gray_concrete %2'], 'glass')
+    addItemExplode(['white_concrete %1', 'gray_concrete %1'], 'stick', 2)
+    addItemAnvil(['white_concrete', 'gray_concrete'], ['stick', '2x glass'])
+    addBrew('botania:absorption', 'stick')
+    addFluidTransformFluid('lava', 'stick', 'water')
+    addFluidTransformFluid('lava', 'glass', 'water')
+    addFluidTransformFluid('lava', 'gray_concrete', 'water')
+    addFluidTransformFluid(['lava', 'milk%2'], 'white_tulip', 'water')
+    addFluidTransomItem(['white_concrete %2', 'stick %1', 'glass'], Item.of('minecraft:potion', '{Potion:"minecraft:healing"}'), 'water', 0.5)
     addShaped('white_concrete', ['aaa'], { a: 'stick' })
     addShaped('white_concrete', ['aba'], { 'a': 'stick', 'b': '#forge:stone' })
     addShapeless('white_concrete', 'stick')
