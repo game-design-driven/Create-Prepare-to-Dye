@@ -131,3 +131,5 @@ public class tag{
 ]);
 
 <tag:items:forge:lime>.add([<item:create:limesand>]);
+// <tag:blocks:botania:enchanter_flowers>.add(<block:botania:pure_daisy>);
+<tag:blocks:botania:enchanter_flowers>.add(<tag:blocks:botania:special_flowers>.getElements());
