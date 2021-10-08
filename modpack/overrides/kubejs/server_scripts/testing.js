@@ -4,6 +4,14 @@ settings.logErroringRecipes = true
 // settings.invertClassLoader = true
 //	default void sparkleFX(World world, double x, double y, double z, float r, float g, float b, float size, int m) {} inside botania api
 console.info('initiating create scripts...')
+addToOrechid('white_concrete')
+addToOrechid('gray_concrete')
+addToOrechid('glass')
+addToOrechid('dirt')
+addToOrechid('dirt', 0)
+console.log(testCrossScript);
+removeItem('minecraft:cobblestone')
+removeFromOrechid('minecraft:iron_ore')
 onEvent('recipes', event => {
     if (feature('Adapting flour and dough recipes')) {
         event.remove({ id: 'create:crafting/appliances/dough' })

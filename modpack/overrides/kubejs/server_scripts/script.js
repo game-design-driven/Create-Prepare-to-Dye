@@ -19,13 +19,3 @@ onEvent('item.tags', event => {
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
 
-var features = new Map();
-function feature(name){
-    if (features.has(name)){
-        return features.get(name);
-    }
-    return true //all features enabled by default
-}
-function disableFeature(name){
-    features.set(name, false)
-}
