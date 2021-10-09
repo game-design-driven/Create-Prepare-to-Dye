@@ -9,6 +9,7 @@ addToOrechid('gray_concrete')
 addToOrechid('glass')
 addToOrechid('dirt')
 addToOrechid('dirt', 0)
+// removeAndReplace('stick', '#forge:stone')
 removeFromOrechid('minecraft:iron_ore')
 onEvent('recipes', event => {
     event.remove({ id: 'create:crafting/appliances/dough' })
@@ -54,7 +55,7 @@ onEvent('recipes', event => {
             addCutting(),
         ])
     //examples
-    addDeploying('44x white_concrete', '5x stick','potato')
+    addDeploying('44x white_concrete', '5x stick', 'potato')
     addCompacting('1x white_concrete', ['2x cobblestone', '2x stick'], temperature.heated, 1000, 'water', ['water', 'lava'])
     addCompacting('5x white_concrete', ['stick'], temperature.heated)
     addCompacting('2x white_concrete', 'stick', temperature.heated)

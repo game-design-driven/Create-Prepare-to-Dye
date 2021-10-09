@@ -1,4 +1,20 @@
 // priority: 100
+function replaceShaped(output, pattern, key, onlyShaped) {
+    if (onlyShaped) {
+        removeRecipe({ type: 'minecraft:crafting_shaped', output: output })
+    } else {
+        removeRecipe({ output: output })
+    }
+    return addShaped(output, pattern, key)
+}
+function replaceShapeless(output, input, onlyShapeless) {
+    if (onlyShapeless) {
+        removeRecipe({ type: 'minecraft:crafting_shapeless', output: output })
+    } else {
+        removeRecipe({ output: output })
+    }
+    return addShapeless(output, input)
+}
 /**
  * @param {result} output 
  * @param {string[]} pattern ['aaa','bbb','aaa']

@@ -1,3 +1,5 @@
+// priority: 100
+
 function addFluidTransomItem(output, input, fluid, consumeFluidChance, emptyWeight, rolls) {
     if (!fluid) fluid = solveFluid('water')
     let recipe = {

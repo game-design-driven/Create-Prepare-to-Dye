@@ -1,35 +1,41 @@
+//priority:10
 function getIdOfEntry(entry) {
 	onEvent('item.tags', event => {
-        return event.getIdOfEntry(entry)
-    })
+		return event.getIdOfEntry(entry)
+	})
 }
 
 
-function get( id) {
+function get(id) {
 	onEvent('item.tags', event => {
 		return event.get(id)
 	})
 }
 
-function addToTag (tag,  ids) {
+function addToTag(tag, ids) {
+	if (tag.includes('/')) {
+		//should also add parent tag
+		addToTag(tag.split('/')[0], ids)
+	}
+	const t = tag.includes('#') ? tag.replace('#', '') : tag
 	onEvent('item.tags', event => {
-		return event.addToTag(tag,  ids)
-	})	
+		return event.add(tag, ids)
+	})
 }
 
-function removeFromTag( tag, ids) {
+function removeFromTag(tag, ids) {
 	onEvent('item.tags', event => {
-		return event.removeFromTag(tag,  ids)
-	})		
+		return event.remove(tag, ids)
+	})
 }
 
-function removeAllFromTag( tag) {
+function removeAllFromTag(tag) {
 	onEvent('item.tags', event => {
-		return event.removeAllFromTag(tag)
-	})	
+		return event.removeAll(tag)
+	})
 }
 
-function removeAllTagsFrom( ids) {
+function removeAllTagsFrom(ids) {
 	onEvent('item.tags', event => {
 		return event.removeAllTagsFrom(ids)
 	})

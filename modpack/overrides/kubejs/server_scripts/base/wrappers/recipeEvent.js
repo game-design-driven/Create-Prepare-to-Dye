@@ -1,4 +1,4 @@
-
+//priority:10
 function getRecipes() {
     onEvent('recipes', event => {
         return event.getRecipes()
@@ -49,11 +49,11 @@ function replaceInputForRecipes(ingredient, withIngredient, filter, exact) { //t
 
 }
 
-function replaceOutputForRecipes(filter, ingredient, withIngredient, exact) {
+function replaceOutputForRecipes(output, withOutput, exact, filter) {
     if (!filter) filter = {}
     if (!exact) exact = false
     onEvent('recipes', event => {
-        return event.replaceOutput(filter, ingredient, withIngredient, exact)
+        return event.replaceOutput(filter, output, withOutput, exact)
     })
 }
 

@@ -1,6 +1,7 @@
 global.features = new Map();
 global.functions = {}
 global.itemsToHide = []
+global.itemsToRemove = []
 global.feature = (name) => {
     if (global.features.has(name)) {
         return features.get(name);
