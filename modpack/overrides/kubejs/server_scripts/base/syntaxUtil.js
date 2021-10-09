@@ -110,12 +110,10 @@ String.prototype.replaceAll = function (search, replacement) {
 
 function removeAirFromRecipe(recipe) {
     if (Array.isArray(recipe.ingredients)) {
-        console.log(recipe.ingredients);
         recipe.ingredients.forEach(ingredient => {
             if ((ingredient + "").includes("minecraft:air")) {
                 recipe.ingredients = recipe.ingredients.filter(i => i !== ingredient)
             }
         });
-        console.log("filtered " + recipe.ingredients)
     }
 }

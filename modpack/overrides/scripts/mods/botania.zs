@@ -3,7 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import mods.botania.StateIngredient;
 //overgroth seed
-Recipes.addFill(<item:botania:overgrowth_seed>,<item:minecraft:bone_meal>*8,<fluid:minecraft:milk>* 1000);
+// Recipes.addFill(<item:botania:overgrowth_seed>,<item:minecraft:bone_meal>*8,<fluid:minecraft:milk>* 1000);
 // val aRealFluid as FluidIngredient= <fluid:create:potion>.withTag({Potion: "minecraft:healing" as string});
 // Recipes.addThermo(
 //     <item:botania:fertilizer> as IItemStack,
@@ -25,79 +25,79 @@ if (false){
 
 //tiara recipes
 
-(<item:botania:flight_tiara>.withTag({"variant": 1 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:minecraft:quartz_block>]);
-craftingTable.removeByName("botania:flighttiara_1");
+// (<item:botania:flight_tiara>.withTag({"variant": 1 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:minecraft:quartz_block>]);
+// craftingTable.removeByName("botania:flighttiara_1");
 
-(<item:botania:flight_tiara>.withTag({"variant": 2 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:dark_quartz>]);
-craftingTable.removeByName("botania:flighttiara_2");
+// (<item:botania:flight_tiara>.withTag({"variant": 2 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:dark_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_2");
 
-(<item:botania:flight_tiara>.withTag({"variant": 3 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:mana_quartz>]);
-craftingTable.removeByName("botania:flighttiara_3");
+// (<item:botania:flight_tiara>.withTag({"variant": 3 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:mana_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_3");
 
-(<item:botania:flight_tiara>.withTag({"variant": 4 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:blaze_quartz>]);
-craftingTable.removeByName("botania:flighttiara_4");
+// (<item:botania:flight_tiara>.withTag({"variant": 4 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:blaze_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_4");
 
-(<item:botania:flight_tiara>.withTag({"variant": 5 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:lavender_quartz>]);
-craftingTable.removeByName("botania:flighttiara_5");
+// (<item:botania:flight_tiara>.withTag({"variant": 5 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:lavender_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_5");
 
-(<item:botania:flight_tiara>.withTag({"variant": 6 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:red_quartz>]);
-craftingTable.removeByName("botania:flighttiara_6");
+// (<item:botania:flight_tiara>.withTag({"variant": 6 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:red_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_6");
 
-(<item:botania:flight_tiara>.withTag({"variant": 7 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:elf_quartz>]);
-craftingTable.removeByName("botania:flighttiara_7");
+// (<item:botania:flight_tiara>.withTag({"variant": 7 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:elf_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_7");
 
-(<item:botania:flight_tiara>.withTag({"variant": 8 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:sunny_quartz>]);
-craftingTable.removeByName("botania:flighttiara_8");
+// (<item:botania:flight_tiara>.withTag({"variant": 8 as int})).shapeless([<item:botania:flight_tiara>.withTag({"variant": 0 as int}),<item:botania:sunny_quartz>]);
+// craftingTable.removeByName("botania:flighttiara_8");
 
 //block of quertz recipes
-(<item:botania:dark_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<tag:items:minecraft:coals>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:dark_quartz");
+// (<item:botania:dark_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<tag:items:minecraft:coals>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:dark_quartz");
 
-(<item:botania:blaze_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:blaze_powder>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:blaze_quartz");
+// (<item:botania:blaze_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:blaze_powder>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:blaze_quartz");
 
-(<item:botania:lavender_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:magenta_dye>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:lavender_quartz");
+// (<item:botania:lavender_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:magenta_dye>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:lavender_quartz");
 
-(<item:botania:sunny_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:sunflower>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:sunny_quartz");
+// (<item:botania:sunny_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:sunflower>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:sunny_quartz");
 
-(<item:botania:red_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:redstone>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:red_quartz");
+// (<item:botania:red_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:redstone>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:red_quartz");
 
-(<item:botania:mana_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:botania:mana_bottle>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:mana_quartz");
+// (<item:botania:mana_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:botania:mana_bottle>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:mana_quartz");
 
-(<item:botania:elf_quartz>*8).shaped([
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:botania:elf_glass>,<item:minecraft:quartz_block>],
-    [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
-]);
-craftingTable.removeByName("botania:elf_quartz");
+// (<item:botania:elf_quartz>*8).shaped([
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:botania:elf_glass>,<item:minecraft:quartz_block>],
+//     [<item:minecraft:quartz_block>,<item:minecraft:quartz_block>,<item:minecraft:quartz_block>]
+// ]);
+// craftingTable.removeByName("botania:elf_quartz");
 
 //replace red quartz
 
