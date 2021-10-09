@@ -102,3 +102,4 @@ function mcProcess(type, output, input, experience, cookingTime) {
     modpackRecipes.push(recipe)
     return recipe;
 }
+
