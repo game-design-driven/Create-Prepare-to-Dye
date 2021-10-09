@@ -21,7 +21,6 @@ function addAssembly(output, input, steps, loops, transitionalItem) {
 
     if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })
     if (!loops) loops = 1
-    console.log("The steps are: " + steps[3].type);
     let recipe = {
         type: "create:sequenced_assembly",
         ingredient: solveIngredient(input),

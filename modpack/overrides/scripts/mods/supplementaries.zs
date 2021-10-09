@@ -5,7 +5,7 @@
 // import crafttweaker.api.text.TextFormatting;
 import crafttweaker.api.item.IItemStack;
 <item:supplementaries:jar>.removeTooltip("shift");
-<item:supplementaries:cog_block>.remove();
+// <item:supplementaries:cog_block>.remove();
 var bamboo_spikes_text = "Tipped bamboo spikes will always have 15 poison charges to begin which will get consumed once and entity walks on top of the block, receiving the poison status effect for 6 seconds. You can charge them back with dispensers and can be easily automated since they will only make observers pulse once they get fully depleted";
 var hanging_sign_text = "A decorative item that comes in all 8 wood types. You can either write text on them by right-clicking the sign with an empty hand, or you can right-click any item onto the sign to display it.";
 var sign_post_text = "Up to two sign posts can be place on any fence block. They will function like a normal sign, and you can sneak right-click to reverse its orientation. If you use a compass on them, they point towards wherever the compass directs to, so it works for spawn points and lodestones. ";
