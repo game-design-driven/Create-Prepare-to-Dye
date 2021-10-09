@@ -24,7 +24,15 @@ if (global.feature('Replace colored quartz')) {
         addShaped('8x ' + quartzBlock, ['###', '#i#', '###'], { '#': 'quartz_block', 'i': quartzMap[quartzBlock] })
     }
     //need to remove the quartz itself
-    global.itemsToHide.push('stick')
+    removeAndReplace('botania:quartz_elven', 'botania: dragonstone')
+    removeItems([
+        'botania:quartz_dark',
+        'botania:quartz_lavender',
+        'botania:quartz_sunny',
+        'botania:quartz_blaze',
+        'botania:quartz_red',
+        'botania:quartz_mana',
+    ])
 }
 if (global.feature('Tiara recipes use quartz blocks instead of quartz')) {
     const ingredients = ['quartz_block', 'botania:dark_quartz', 'botania:mana_quartz', 'botania:blaze_quartz', 'botania:lavender_quartz', 'botania:red_quartz', 'botania:elf_quartz', 'botania:sunny_quartz']
