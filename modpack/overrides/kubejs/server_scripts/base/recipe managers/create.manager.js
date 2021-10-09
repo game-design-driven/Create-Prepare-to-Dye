@@ -72,43 +72,43 @@ function addCompacting(output, input, heatRequirement, processingTime, fluidOutp
 }
 /**
  * @param {result[]} output
- * @param {ingredient} input
+ * @param {limitedIngredient} input
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addPressing(output, input, processingTime) {
-    return addProcessingRecipe('create:pressing', solveResults(output), [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:pressing', solveResults(output), [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
- * @param {ingredient} input
+ * @param {limitedIngredient} input
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addSandpaperPolishing(output, input, processingTime) {
-    return addProcessingRecipe('create:sandpaper_polishing', [solveResult(output)], [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:sandpaper_polishing', [solveResult(output)], [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
- * @param {ingredient} input
+ * @param {limitedIngredient} input
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addSplashing(output, input, processingTime) {
-    return addProcessingRecipe('create:splashing', solveResults(output), [solveIngredient(input)], processingTime)
+    return addProcessingRecipe('create:splashing', solveResults(output), [solveLimitedIngredient(input)], processingTime)
 }
 /**
  * @param {result[]} output
- * @param {ingredient} input
- * @param {ingredient} heldItem
+ * @param {limitedIngredient} input
+ * @param {limitedIngredient} heldItem
  */
 function addDeploying(output, input, heldItem) {
-    return addProcessingRecipe('create:deploying', solveResults(output), solveIngredients([input, heldItem]))
+    return addProcessingRecipe('create:deploying', solveResults(output), solveLimitedIngredients([input, heldItem]))
 }
 /**
  * @param {result} output
- * @param {ingredient} input
+ * @param {limitedIngredient} input
  * @param {fluid} fluid 
  */
 function addFilling(output, input, fluid) {
-    return addProcessingRecipe('create:filling', [solveResult(output)], [solveIngredient(input), solveFluid(fluid)])
+    return addProcessingRecipe('create:filling', [solveResult(output)], [solveLimitedIngredient(input), solveFluid(fluid)])
 }
 /**
  * @param {result} output
