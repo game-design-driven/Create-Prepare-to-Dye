@@ -1,0 +1,29 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 8, 2021 11:19:18 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:honey
+- create:flowing_honey
+- create:honey
