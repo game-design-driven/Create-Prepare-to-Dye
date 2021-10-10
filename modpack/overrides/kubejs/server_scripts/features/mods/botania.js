@@ -26,20 +26,14 @@ if (global.feature('Replace mystical flowers and petals with dyes')) {
         replaceShapeless('botania:floating_' + flower, ['botania:' + flower, '#forge:dirt', 'botania:grass_seeds'])
     });
 }
-
-
 if (global.feature('overgrowth_seed recipes')) {
     addFilling('botania:overgrowth_seed', Item.of('minecraft:bone_meal').withCount(6), '500x milk')
     addItemExplode('botania:overgrowth_seed', ['4x #forge:seeds', Item.of('minecraft:potion', '{Potion:"minecraft:strength"}')])
 }
-
-
 if (global.feature('Petal processing') &&
     !global.feature('Replace mystical flowers with dyes')) {
     addCrushing(['fern%25', 'grass%25', 'seagrass%25', 'wheat_seeds%10'], '#botania:petals')
 }
-
-
 if (global.feature('Replace colored quartz')) {
     const quartzMap = {
         'botania:elf_quartz': 'create:refined_radiance',
@@ -65,8 +59,6 @@ if (global.feature('Replace colored quartz')) {
     removeRecipe({ id: 'botania:elven_trade/elf_quartz' })
 
 }
-
-
 if (global.feature('Tiara recipes use quartz blocks instead of quartz')) {
     const ingredients = ['quartz_block', 'botania:dark_quartz', 'botania:mana_quartz', 'botania:blaze_quartz', 'botania:lavender_quartz', 'botania:red_quartz', 'botania:elf_quartz', 'botania:sunny_quartz']
     for (i = 1; i <= 8; i++) {
@@ -76,13 +68,11 @@ if (global.feature('Tiara recipes use quartz blocks instead of quartz')) {
         )
     }
 }
-
 if (global.feature('Remove manaweave cloth')) {
     removeAndReplace('botania:manaweave_cloth', 'botania:spell_cloth')
     replaceShaped('botania:spell_cloth', [' s ', 'sms', ' s '], { s: 'string', m: 'botania:mana_pearl' })
     addMixing('4x botania:spell_cloth', ['botania:mana_pearl', '6x white_wool'], temperature.heated)
 }
-
 if (global.feature('Replace_mana_string')) {
     removeAndReplace('botania:mana_string', 'string')
 }

@@ -1,7 +1,7 @@
 // priority: 100
 
 function addFluidTransomItem(output, input, fluid, consumeFluidChance, emptyWeight, rolls) {
-    if (!fluid) fluid = solveFluid('water')
+    if (!fluid) fluid = 'water'
     let recipe = {
         type: "interactio:item_fluid_transform",
         output: {

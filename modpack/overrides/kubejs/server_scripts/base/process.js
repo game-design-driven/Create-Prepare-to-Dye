@@ -1,19 +1,22 @@
 // priority: -100
+console.log('removving invalid recipes!');
+modpackRecipes.forEach(recipe => {
+    if (hasRemovedItems(recipe) == true) {
+        modpackRecipes.splice(modpackRecipes.indexOf(recipe), 1)
+    }
+});
+console.log('Done removing invalid recipes');
 onEvent('recipes', event => {
     modpackRecipes.forEach(recipe => {
         removeAirFromRecipe(recipe)
-        if (hasRemovedItems(recipe)==true) {
-            console.log("didn't add recipe " + recipe.output);
-        } else {
-            event.custom(recipe).id = getUniqueRecipeName(recipe)
-        }
+        event.custom(recipe).id = getUniqueRecipeName(recipe)
     });
 })
 //add tooltip
 //remove recipes
 global.itemsToRemove.forEach(item => {
-    removeRecipe({ output: item })
-    removeRecipe({ input: item })
+    // console.log("remove global "+removeRecipe({ output: item }))
+    // console.log("remove global "+removeRecipe({ input: item }))
     //remove tags from item
     removeAllTagsFrom(item)
 });

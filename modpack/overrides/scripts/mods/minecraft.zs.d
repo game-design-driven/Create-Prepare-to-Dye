@@ -17,93 +17,93 @@ import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 import mods.botania.Orechid;
 
-<item:minecraft:paper>.removeCraftingRecipe();
+// <item:minecraft:paper>.removeCraftingRecipe();
 Recipes.shaped({
-    <item:minecraft:chest> : [
-        [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
-        [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
-        [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>]
-    ],
-    <item:minecraft:chest>*4 : [
-        [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>],
-        [<tag:items:minecraft:logs>,<item:minecraft:air>,<tag:items:minecraft:logs>],
-        [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>]
-    ],
-    <item:minecraft:piston>*2 : [
-        [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
-        [<tag:items:forge:cobblestone>, <tag:items:forge:alloys/strong>, <tag:items:forge:cobblestone>], 
-        [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]
-    ],
-    <item:minecraft:dispenser> : [
-        [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>],
-        [<tag:items:forge:cobblestone>, <item:minecraft:piston>, <tag:items:forge:cobblestone>],
-        [<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
-    ],
-    <item:minecraft:hopper> : [
-        [<tag:items:forge:alloys/strong>, <item:minecraft:air>, <tag:items:forge:alloys/strong>],
-        [<tag:items:forge:alloys/strong>, <tag:items:forge:chests/wooden>, <tag:items:forge:alloys/strong>],
-        [<item:minecraft:air>, <tag:items:forge:alloys/strong>, <item:minecraft:air>]
-    ],
-    <item:minecraft:torch> * 8: [
-        [<item:quark:tallow>],
-	    [<tag:items:forge:rods/wooden>]
-    ],
-    <item:minecraft:white_shulker_box> : [
-        [<tag:items:forge:plastic>],
-        [<tag:items:forge:chests>],
-        [<tag:items:forge:plastic>]
-    ],
+    // <item:minecraft:chest> : [
+    //     [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
+    //     [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
+    //     [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>]
+    // ],
+    // <item:minecraft:chest>*4 : [
+    //     [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>],
+    //     [<tag:items:minecraft:logs>,<item:minecraft:air>,<tag:items:minecraft:logs>],
+    //     [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>]
+    // ],
+    // <item:minecraft:piston>*2 : [
+    //     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
+    //     [<tag:items:forge:cobblestone>, <tag:items:forge:alloys/strong>, <tag:items:forge:cobblestone>], 
+    //     [<tag:items:forge:cobblestone>, <item:minecraft:redstone>, <tag:items:forge:cobblestone>]
+    // ],
+    // <item:minecraft:dispenser> : [
+    //     [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>],
+    //     [<tag:items:forge:cobblestone>, <item:minecraft:piston>, <tag:items:forge:cobblestone>],
+    //     [<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
+    // ],
+    // <item:minecraft:hopper> : [
+    //     [<tag:items:forge:alloys/strong>, <item:minecraft:air>, <tag:items:forge:alloys/strong>],
+    //     [<tag:items:forge:alloys/strong>, <tag:items:forge:chests/wooden>, <tag:items:forge:alloys/strong>],
+    //     [<item:minecraft:air>, <tag:items:forge:alloys/strong>, <item:minecraft:air>]
+    // ],
+    // <item:minecraft:torch> * 8: [
+    //     [<item:quark:tallow>],
+	//     [<tag:items:forge:rods/wooden>]
+    // ],
+    // <item:minecraft:white_shulker_box> : [
+    //     [<tag:items:forge:plastic>],
+    //     [<tag:items:forge:chests>],
+    //     [<tag:items:forge:plastic>]
+    // ],
     
-    <item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998) : [
-        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-    ],
-    <item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998) : [
-        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
-        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>]
-    ],
-    <item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998) : [
-        [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
-        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-    ],
-    <item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998) : [
-        [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-    ]
+    // <item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998) : [
+    //     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+    //     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
+    // ],
+    // <item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998) : [
+    //     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
+    //     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+    //     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>]
+    // ],
+    // <item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998) : [
+    //     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
+    //     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
+    //     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
+    // ],
+    // <item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998) : [
+    //     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
+    // ]
 });
 
 Recipes.shapeless({
-    <item:minecraft:fire_charge>*2:[
-        <tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>,
-        <tag:items:forge:gunpowder>,<tag:items:minecraft:coals>
-    ],
-    <item:minecraft:glass> : [<tag:items:forge:stained_glass>],
-    <item:minecraft:paper>*2 : [
-        <item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>
-    ],
-    <item:minecraft:shulker_box> : [
-        <item:minecraft:white_shulker_box>,<tag:items:forge:dyes/purple>
-    ],
-    <item:minecraft:name_tag> * 4:[<tag:items:forge:plastic>,<tag:items:forge:string>]
+    // <item:minecraft:fire_charge>*2:[
+    //     <tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>,
+    //     <tag:items:forge:gunpowder>,<tag:items:minecraft:coals>
+    // ],
+    // <item:minecraft:glass> : [<tag:items:forge:stained_glass>],
+    // <item:minecraft:paper>*2 : [
+    //     <item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>,<item:minecraft:sugar_cane>
+    // ],
+    // <item:minecraft:shulker_box> : [
+    //     <item:minecraft:white_shulker_box>,<tag:items:forge:dyes/purple>
+    // ],
+    // <item:minecraft:name_tag> * 4:[<tag:items:forge:plastic>,<tag:items:forge:string>]
 });
 
 
-Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:createrun:fertilizer>]);
+// Recipes.addMix(<item:minecraft:dirt>,"none",[<item:minecraft:coarse_dirt>, <tag:items:createrun:fertilizer>]);
 
-Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
-Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
+// Recipes.addCrushing([<item:minecraft:orange_dye> % 25, <item:minecraft:red_dye> % 4,<item:minecraft:brown_dye> % 4,<item:minecraft:yellow_dye> % 4],<tag:items:forge:crops/carrot>);
+// Recipes.addMilling([<item:minecraft:orange_dye> * 2],<tag:items:forge:crops/carrot>);
 // Recipes.addFluidToItem([<item:minecraft:slime_ball>],[<tag:items:forge:dyes/lime>*9],<fluid:minecraft:milk>);
 ///
-val s = <tag:items:minecraft:sand>;
-val g = <tag:items:forge:gunpowder>;
-val r = <tag:items:forge:dyes/red>;
-<recipetype:botania:runic_altar>.addRecipe("bulk_tnt", <item:minecraft:tnt>*16, 1000, [s,s,s,s,g,g,g,g,r,r,r,r,r,r,r,r]as IIngredient[]);
+// val s = <tag:items:minecraft:sand>;
+// val g = <tag:items:forge:gunpowder>;
+// val r = <tag:items:forge:dyes/red>;
+// <recipetype:botania:runic_altar>.addRecipe("bulk_tnt", <item:minecraft:tnt>*16, 1000, [s,s,s,s,g,g,g,g,r,r,r,r,r,r,r,r]as IIngredient[]);
 //kelp from sugar cane
-Recipes.addInfusion(<item:minecraft:kelp>, <item:minecraft:sugar_cane>);
+// Recipes.addInfusion(<item:minecraft:kelp>, <item:minecraft:sugar_cane>);
 //
-Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
-Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
+// Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets>,<tag:items:forge:crops/nether_wart>],<fluid:create:honey>,1.0);
+// Recipes.addFluidToItem([<item:minecraft:redstone>],[<tag:items:forge:nuggets/gold>*32,<tag:items:forge:crops/nether_wart>*4],<fluid:minecraft:water>);
 
 //remove regular gold ore
 <item:minecraft:gold_ore>.murdurFamily();

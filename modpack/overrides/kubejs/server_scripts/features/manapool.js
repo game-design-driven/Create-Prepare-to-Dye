@@ -9,13 +9,15 @@ if (global.feature('Make alchemy recipes use blaze burner')) {
         let json = recipe.json;
         if (json.get('catalyst') === '{"type":"block","block":"botania:alchemy_catalyst"}') {
             console.log("alchemy_catalyst " + json.get('mana'));
-            addAlchemyRecipe(json.get('output'), json.get('input'), parseInt(json.get('mana') * 2))
+            addAlchemyRecipe(json.get('output'), json.get('input'), parseInt(json.get('mana')))
             removeRecipe({ id: recipe.getId() })
         }
     })
 }
-
+if (global.feature('More infusion recipes')) {
+    addInfusion('kelp', 'sugar_cane')
+}
 function addAlchemyRecipe(output, input, mana) {
     addInfusion(output, input, mana, 'create:blaze_burner[blaze=fading]')
-    addInfusion(output, input, mana * 4, 'create:blaze_burner[blaze=kindled]')
+    addInfusion(output, input, mana * 5, 'create:blaze_burner[blaze=kindled]')
 }
