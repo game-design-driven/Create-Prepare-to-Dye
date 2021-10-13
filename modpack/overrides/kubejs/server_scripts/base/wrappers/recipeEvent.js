@@ -58,9 +58,9 @@ function replaceOutputForRecipes(output, withOutput, exact, filter) {
 }
 
 
-function addCustom(Object) {
+function addCustomRecipe(Object, id) {
     onEvent('recipes', event => {
-        return event.addCustom(Object)
+        return event.addCustom(Object).id = id;
     })
 }
 
@@ -74,4 +74,11 @@ function stage(filter, stage) {
     onEvent('recipes', event => {
         return event.stage(filter, stage)
     })
+}
+
+//modpack:
+
+function addModpackRecipe(recipeJson) {
+    // recipeJson = removeAirFromRecipe(recipeJson);
+    modpackRecipes.push(recipeJson)
 }

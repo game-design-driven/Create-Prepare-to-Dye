@@ -6,7 +6,7 @@ global.feature = (name) => {
     if (global.features.has(name)) {
         return features.get(name);
     }
-    return false //all features enabled by default //temp off
+    return true //all features enabled by default //temp off
 }
 global.disableFeature = (name) => {
     global.features.set(name, false)

@@ -28,7 +28,7 @@ function addShaped(output, pattern, key) {
         result: solveResult(output),
         key: key,
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 /**
@@ -41,7 +41,7 @@ function addShapeless(output, input) {
         result: solveResult(output),
         ingredients: solveIngredients(input)
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 /**
@@ -54,7 +54,7 @@ function addStonecutting(output, input) {
         result: solveResult(output),
         ingredient: solveLimitedIngredient(input),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 /**
@@ -69,7 +69,7 @@ function addSmithing(output, input, addition) {
         base: solveLimitedIngredient(input),
         addition: solveLimitedIngredient(addition),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 /**
@@ -116,7 +116,7 @@ function mcProcess(type, output, input, experience, cookingTime) {
         experience: experience,
         cookingtime: cookingTime
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 

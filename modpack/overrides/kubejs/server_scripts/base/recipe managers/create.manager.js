@@ -13,11 +13,9 @@ const temperature = {
 * @param {limitedIngredient} transitionalItem 
  */
 function addAssembly(output, input, steps, loops, transitionalItem) {
-    console.log("Before cleaning  " + modpackRecipes);
     steps.forEach((recipe) => {
-        modpackRecipes = modpackRecipes.filter(item => item !== recipe)
+        modpackRecipes = modpackRecipes.filter(item => item !== removeAirFromRecipe(recipe))
     })
-    console.log("AFter cleaning  " + modpackRecipes);
 
     if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })
     if (!loops) loops = 1
@@ -29,7 +27,7 @@ function addAssembly(output, input, steps, loops, transitionalItem) {
         results: solveResults(output),
         loops: loops
     }
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
 }
 /**
  * @param {result[]} output
@@ -137,7 +135,7 @@ function addMechanicalCrafting(output, pattern, key) {
         result: output,
         key: key,
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addProcessingRecipe(type, output, input, processingTime, heatRequirement) {
@@ -148,6 +146,6 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
         processingTime: processingTime,
         heatRequirement: heatRequirement
     }
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe
 }

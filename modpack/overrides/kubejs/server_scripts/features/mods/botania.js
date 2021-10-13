@@ -1,4 +1,4 @@
-if (global.feature('Replace mystical flowers and petals with dyes')) {
+if (feature('Replace mystical flowers and petals with dyes')) {
     removeAndReplace('botania:fertilizer', 'bone_meal')
     let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'magenta', 'blue', 'brown', 'green', 'red', 'black']
     colors.forEach(color => {
@@ -26,15 +26,15 @@ if (global.feature('Replace mystical flowers and petals with dyes')) {
         replaceShapeless('botania:floating_' + flower, ['botania:' + flower, '#forge:dirt', 'botania:grass_seeds'])
     });
 }
-if (global.feature('overgrowth_seed recipes')) {
+if (feature('overgrowth_seed recipes')) {
     addFilling('botania:overgrowth_seed', Item.of('minecraft:bone_meal').withCount(6), '500x milk')
     addItemExplode('botania:overgrowth_seed', ['4x #forge:seeds', Item.of('minecraft:potion', '{Potion:"minecraft:strength"}')])
 }
-if (global.feature('Petal processing') &&
-    !global.feature('Replace mystical flowers with dyes')) {
+if (feature('Petal processing') &&
+    !feature('Replace mystical flowers with dyes')) {
     addCrushing(['fern%25', 'grass%25', 'seagrass%25', 'wheat_seeds%10'], '#botania:petals')
 }
-if (global.feature('Replace colored quartz')) {
+if (feature('Replace colored quartz')) {
     const quartzMap = {
         'botania:elf_quartz': 'create:refined_radiance',
         'botania:dark_quartz': '#minecraft:coals',
@@ -47,7 +47,7 @@ if (global.feature('Replace colored quartz')) {
     for (let quartzBlock in quartzMap) {
         replaceShaped('8x ' + quartzBlock, ['###', '#i#', '###'], { '#': 'quartz_block', 'i': quartzMap[quartzBlock] })
     }
-    removeAndReplace('botania:quartz_elven', 'botania: dragonstone')
+    removeAndReplace('botania:quartz_elven', 'botania:dragonstone')
     removeItems([
         'botania:quartz_dark',
         'botania:quartz_lavender',
@@ -59,7 +59,7 @@ if (global.feature('Replace colored quartz')) {
     removeRecipe({ id: 'botania:elven_trade/elf_quartz' })
 
 }
-if (global.feature('Tiara recipes use quartz blocks instead of quartz')) {
+if (feature('Tiara recipes use quartz blocks instead of quartz')) {
     const ingredients = ['quartz_block', 'botania:dark_quartz', 'botania:mana_quartz', 'botania:blaze_quartz', 'botania:lavender_quartz', 'botania:red_quartz', 'botania:elf_quartz', 'botania:sunny_quartz']
     for (i = 1; i <= 8; i++) {
         replaceShapeless(
@@ -68,15 +68,15 @@ if (global.feature('Tiara recipes use quartz blocks instead of quartz')) {
         )
     }
 }
-if (global.feature('Remove manaweave cloth')) {
+if (feature('Remove manaweave cloth')) {
     removeAndReplace('botania:manaweave_cloth', 'botania:spell_cloth')
     replaceShaped('botania:spell_cloth', [' s ', 'sms', ' s '], { s: 'string', m: 'botania:mana_pearl' })
     addMixing('4x botania:spell_cloth', ['botania:mana_pearl', '6x white_wool'], temperature.heated)
 }
-if (global.feature('Replace_mana_string')) {
+if (feature('Replace_mana_string')) {
     removeAndReplace('botania:mana_string', 'string')
 }
-if (global.feature('Replace_elementium_with_refined_radiance')) {
+if (feature('Replace_elementium_with_refined_radiance')) {
     removeRecipe({ id: 'botania:elven_trade/elementium' })
     removeRecipe({ output: 'botania:elementium_ingot' })
     removeAndReplace('botania:elementium_ingot', 'create:refined_radiance')
@@ -98,16 +98,16 @@ if (global.feature('Replace_elementium_with_refined_radiance')) {
         'botania:elementium_helmet',
     ])
 }
-if (global.feature('Remove livingwood bow')) {
+if (feature('Remove livingwood bow')) {
     //it's just a more powerful bow, doesn't bring much else to the table
     removeItem('botania:livingwood_bow')
 }
-if (global.feature('Remove assembly halo and change manufactory halo recipe')) {
+if (feature('Remove assembly halo and change manufactory halo recipe')) {
     removeItem('botania:crafting_halo')
     addShaped('botania:auto_crafting_halo', ['pcp', 'mtm', ' m '],
         { p: 'botania:mana_pearl', c: 'create:cogwheel', t: 'crafting_table', m: 'botania:manasteel_ingot' })
 }
-if (global.feature('Rebalance regular infusion recipes')) {
+if (feature('Rebalance regular infusion recipes')) {
     removeRecipe({ id: "botania:mana_infusion/mana_powder_dye" })
 
 }

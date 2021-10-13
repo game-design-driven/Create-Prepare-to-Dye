@@ -83,6 +83,7 @@ function solveFluid(fluid) {
 }
 
 function getUniqueRecipeName(recipe) { //doesn't 
+    if (!recipe) return 'NO_RECIPE'
     let results =
         recipe['results'] && Array.isArray(recipe['results']) ? recipe['results'][0] :
             recipe['results'] ? recipe['results'] :
@@ -112,7 +113,7 @@ function removeAirFromRecipe(recipe) {
     if (Array.isArray(recipe.ingredients)) {
         recipe.ingredients.forEach(ingredient => {
             if ((ingredient + "").includes("minecraft:air")) {
-                recipe.ingredients = recipe.ingredients.filter(i => i !== ingredient)
+                recipe.ingredients = recipe.ingredients.filter(i => i != ingredient)
             }
         });
     }

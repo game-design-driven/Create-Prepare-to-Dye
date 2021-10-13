@@ -34,7 +34,7 @@ function solveStateBlock(block, basic) {
  */
 function addInfusion(output, input, mana, catalyst) {
     if (!mana) mana = 1000
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:mana_infusion',
         input: solveLimitedIngredient(input),
         output: solveResult(output),
@@ -49,7 +49,7 @@ function addInfusion(output, input, mana, catalyst) {
  */
 function addAltar(output, inputs, mana) {
     if (!mana) mana = 2500
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:runic_altar',
         output: solveResult(output),
         mana: mana,
@@ -62,7 +62,7 @@ function addAltar(output, inputs, mana) {
  * @param {number} time amount of time in ticks default(150)
  */
 function addPurify(output, input, time) {
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:pure_daisy',
         input: solveStateIngredient(input),
         output: solveStateResult(output),
@@ -74,7 +74,7 @@ function addPurify(output, input, time) {
  * @param {ingredient[]} inputs
  */
 function addElvenTrade(outputs, inputs) {
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:elven_trade',
         ingredients: solveLimitedIngredients(inputs),
         output: solveResults(outputs)
@@ -85,7 +85,7 @@ function addElvenTrade(outputs, inputs) {
  * @param {ingredient[]} inputs
  */
 function addApothecary(output, inputs) {
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:petal_apothecary',
         output: solveResult(output),
         ingredients: solveLimitedIngredients(inputs)
@@ -98,7 +98,7 @@ function addApothecary(output, inputs) {
  */
 function addTerraPlate(output, inputs, mana) {
     (!mana) ? mana = 100000 :
-        modpackRecipes.push({
+        addModpackRecipe({
             type: 'botania:terra_plate',
             result: solveResult(output),
             ingredients: solveLimitedIngredients(inputs),
@@ -111,7 +111,7 @@ function addTerraPlate(output, inputs, mana) {
  * @param {ingredient[]} input 
  */
 function addBrew(output, input) {
-    modpackRecipes.push({
+    addModpackRecipe({
         type: 'botania:brew',
         brew: output,
         ingredients: solveLimitedIngredients(input)

@@ -13,7 +13,7 @@ function addFluidTransomItem(output, input, fluid, consumeFluidChance, emptyWeig
         fluid: solveFluid(fluid),
         consume_fluid: consumeFluidChance
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addFluidTransformFluid(output, input, fluid, emptyWeight) {
@@ -28,7 +28,7 @@ function addFluidTransformFluid(output, input, fluid, emptyWeight) {
         items: solveIngredients(input),
         input: solveFluid(fluid),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addItemExplode(output, input, emptyWeight, rolls) {
@@ -41,7 +41,7 @@ function addItemExplode(output, input, emptyWeight, rolls) {
         },
         inputs: solveIngredients(input),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addItemAnvil(output, input, anvilDamage, emptyWeight, rolls) {
@@ -55,7 +55,7 @@ function addItemAnvil(output, input, anvilDamage, emptyWeight, rolls) {
         inputs: solveIngredients(input),
         damage: anvilDamage
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addBlockExplode(output, input, emptyWeight, rolls) {
@@ -69,7 +69,7 @@ function addBlockExplode(output, input, emptyWeight, rolls) {
         },
         input: solveInteractioBlock(input, true),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function addBlockAnvil(output, input, emptyWeight, rolls) {
@@ -83,7 +83,7 @@ function addBlockAnvil(output, input, emptyWeight, rolls) {
         },
         input: solveInteractioBlock(input, true),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function solveInteractioBlock(block, basic) {
@@ -119,7 +119,7 @@ function addLightning(output, input, emptyWeight, rolls) {
         },
         inputs: solveIngredients(input),
     };
-    modpackRecipes.push(recipe)
+    addModpackRecipe(recipe)
     return recipe;
 }
 function solveInteractioFluidResults(results) {

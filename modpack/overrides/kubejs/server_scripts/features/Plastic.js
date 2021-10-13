@@ -1,4 +1,4 @@
-if (global.feature('Vanilla recipe alternatives (plastic)')) {
+if (feature('Vanilla recipe alternatives (plastic)')) {
     addShaped('white_shulker_box', ['p', 'c', 'p'], { p: '#forge:plastic', c: '#forge:chests' })
     addShapeless('shulker_box', ['#forge:dyes/purple', 'white_shulker_box'])
     addShapeless('4x name_tag', ['string', '#forge:plastic'])
