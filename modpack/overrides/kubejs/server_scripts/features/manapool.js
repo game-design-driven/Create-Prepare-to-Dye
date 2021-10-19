@@ -1,9 +1,9 @@
-if (global.feature('Remove conjuration catalyst stuff')) {
+if (feature('Remove conjuration catalyst stuff')) {
     removeRecipe({ id: '/^.*dupe.*$/' })
     removeRecipe({ id: 'botania:mana_infusion/grass' })
     removeItem('botania:conjuration_catalyst')
 }
-if (global.feature('Make alchemy recipes use blaze burner')) {
+if (feature('Make alchemy recipes use blaze burner')) {
     removeItem('botania:alchemy_catalyst')
     forEachRecipe({ type: 'botania:mana_infusion' }, recipe => {
         let json = recipe.json;

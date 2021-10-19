@@ -1,4 +1,4 @@
-if(global.feature('incorporeal removal')) {
+if(feature('incorporeal removal')) {
     removeItems(["incorporeal:natural_comparator","incorporeal:natural_repeater","incorporeal:soul_core_frame"])
 
     removeRecipe({output:"incorporeal:ender_soul_core"})

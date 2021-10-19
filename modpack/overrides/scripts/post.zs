@@ -1,9 +1,9 @@
 #priority -99
-for recipe in craftingTable.getAllRecipes(){
-    if (recipe.ingredients.length == 1){
-        Recipes.addInfusion(recipe.output, recipe.ingredients[0], <block:minecraft:crafting_table>,settings.infusionSimpleRecipeManaCost);
-    }
-}
+// for recipe in craftingTable.getAllRecipes(){
+//     if (recipe.ingredients.length == 1){
+//         Recipes.addInfusion(recipe.output, recipe.ingredients[0], <block:minecraft:crafting_table>,settings.infusionSimpleRecipeManaCost);
+//     }
+// }
 // for recipe in <recipetype:botania:mana_infusion>.getAllRecipes(){
 //     for recipe2 in <recipetype:botania:mana_infusion>.getAllRecipes(){
 //         if (recipe.ingredients==recipe2.ingredients&&recipe.output==recipe2.output&&recipe!=recipe2){
