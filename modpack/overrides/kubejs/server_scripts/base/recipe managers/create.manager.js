@@ -14,7 +14,7 @@ const temperature = {
  */
 function addAssembly(output, input, steps, loops, transitionalItem) {
     steps.forEach((recipe) => {
-        modpackRecipes = modpackRecipes.filter(item => item !== removeAirFromRecipe(recipe))
+        modpackRecipes = modpackRecipes.filter(item => item !== recipe)
     })
 
     if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })

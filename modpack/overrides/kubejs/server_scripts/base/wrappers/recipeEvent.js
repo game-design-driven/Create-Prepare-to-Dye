@@ -79,6 +79,5 @@ function stage(filter, stage) {
 //modpack:
 
 function addModpackRecipe(recipeJson) {
-    // recipeJson = removeAirFromRecipe(recipeJson);
     modpackRecipes.push(recipeJson)
 }

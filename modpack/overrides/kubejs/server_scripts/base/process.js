@@ -7,6 +7,7 @@ settings.logErroringRecipes = true
 
 onEvent('recipes', event => {
     modpackRecipes.forEach(recipe => {
+        removeAirFromRecipe(recipe)
         let name = getUniqueRecipeName(recipe)
         event.custom(recipe)
     });
