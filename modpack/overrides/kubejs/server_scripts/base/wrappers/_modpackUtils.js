@@ -10,10 +10,10 @@ function removeItem(item) {
     global.itemsToRemove.push(item)
     // //add tooltip
     // //remove recipes
-    // removeRecipe({ output: item })
-    // removeRecipe({ input: item })
-    // //remove tags from item
-    // removeAllTagsFrom(item)
+    removeRecipe({ output: item })
+    removeRecipe({ input: item })
+    //remove tags from item
+    removeAllTagsFrom(item)
 }
 function removeAndReplace(item, withItem, alsoTags) {
     //replace in recipes

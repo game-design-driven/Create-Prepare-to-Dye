@@ -89,7 +89,7 @@ onEvent('recipes', event => {
     addInfusion('3x white_concrete', 'stick', 10000, '#forge:cobblestone')
     addAltar('54x minecraft:white_concrete', ['create:wheat_flour', '#forge:stone'])
     addPurify('minecraft:furnace[lit=true]', '#forge:stone')
-    addPurify('minecraft:white_concrete', '#forge:planks');
+    addPurify('minecraft:white_concrete', '#minecraft:planks');
 
     addCrushing('minecraft:white_concrete %50', 'stick')
 
