@@ -5,6 +5,7 @@ if (feature('remove gate crafting')) {
 }
 
 if (feature('remove red alloy ingot')) {
+    removeRecipe({ output: 'morered:red_alloy_ingot' })
     removeAndReplace("morered:red_alloy_ingot", "#forge:ingots/copper")
     removeAndReplace("#forge:ingots/redstone_alloy", "#forge:ingots/copper")
     removeRecipe({ output: "morered:red_alloy_wire" })

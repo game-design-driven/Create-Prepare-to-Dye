@@ -7,7 +7,7 @@
 function removeItem(item) {
     //hide
     global.itemsToHide.push(item)
-    global.itemsToRemove.push(item)
+    // global.itemsToRemove.push(item)
     // //add tooltip
     // //remove recipes
     removeRecipe({ output: item })
@@ -29,4 +29,15 @@ function removeItems(items) {
     items.forEach(item => {
         removeItem(item)
     });
+}
+function hideItem(item) {
+    global.itemsToHide.push(item)
+}
+function hideItems(items) {
+    items.forEach(item => {
+        removeItem(item)
+    });
+}
+function hideRecipeType(cat) {
+    global.categoriesToHide.push(cat)
 }

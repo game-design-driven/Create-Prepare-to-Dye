@@ -1,7 +1,6 @@
 if (feature('Replace mystical flowers and petals with dyes')) {
     removeAndReplace('botania:fertilizer', 'bone_meal')
-    let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'magenta', 'blue', 'brown', 'green', 'red', 'black']
-    colors.forEach(color => {
+    global.colors.forEach(color => {
         addToTag(('botania:petals/' + color), 'minecraft:' + color + '_dye')
         removeItem('botania:' + color + '_petal_block')
         removeItem('botania:' + color + '_shiny_flower')
@@ -109,5 +108,11 @@ if (feature('Remove assembly halo and change manufactory halo recipe')) {
 }
 if (feature('Rebalance regular infusion recipes')) {
     removeRecipe({ id: "botania:mana_infusion/mana_powder_dye" })
+}
 
+//modpack
+
+function addAlchemyRecipe(output, input, mana) {
+    addInfusion(output, input, mana, 'create:blaze_burner[blaze=fading]')
+    addInfusion(output, input, mana * 4, 'create:blaze_burner[blaze=kindled]')
 }

@@ -12,6 +12,7 @@ function solveResults(items) {
     return outArr
 }
 function solveResult(item) {
+    if (!item || item == '') return
     if (typeof item === "string") {//is string, apply custom syntax
         // console.log(item + " is a string and can be messed with!")
         if (item.includes('%')) {
@@ -71,11 +72,16 @@ function solveFluids(fluids) {
 }
 function solveFluid(fluid) {
     if (!fluid) return
-    let amount = parseInt(500) //for some reason can't be 1000 //it turns 1000 into nothing because it thinks it's default
+    let amount = parseInt(1000) //for some reason can't be 1000 //it turns 1000 into nothing because it thinks it's default
     if (typeof fluid === "string") {//is string, apply custom syntax
         if (fluid.includes('x ')) {
             amount = parseInt(fluid.split('x ')[0])
             fluid = fluid.split('x ')[1]
+        }
+        if (!fluid.includes(':')) fluid = 'minecraft:' + fluid
+        return {
+            fluid: fluid,
+            amount: amount
         }
     }
     // console.log('solving fluid ' + fluid + ' into ' + Fluid.of(fluid));

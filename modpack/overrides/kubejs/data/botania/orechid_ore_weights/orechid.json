@@ -1,0 +1,209 @@
+{
+  "values": [
+    {
+      "type": "block",
+      "block": "minecraft:coal_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:iron_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:redstone_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:gold_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:emerald_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:lapis_ore",
+      "weight": 0
+    },
+    {
+      "type": "block",
+      "block": "minecraft:diamond_ore",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/aluminium",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/aluminum",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/copper",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/ferrous",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/galena",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/lead",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/mithril",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/mythril",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/nickel",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/osmium",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/platinum",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/silver",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/tin",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/tungsten",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/uranium",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/zinc",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/amber",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/ruby",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/sapphire",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/topaz",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/amethyst",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/malachite",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/yellorite",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/teslatite",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/dark",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/apatite",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/inferium",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/prosperity",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/olivine",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/sulfur",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/sulphur",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/adamantium",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/bismuth",
+      "weight": 0
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/cinnabar",
+      "weight": 0
+    }
+  ]
+}

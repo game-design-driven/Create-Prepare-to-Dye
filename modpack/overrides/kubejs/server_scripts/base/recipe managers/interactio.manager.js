@@ -16,7 +16,7 @@ function addFluidTransomItem(output, input, fluid, consumeFluidChance, emptyWeig
     modpackRecipes.push(recipe)
     return recipe;
 }
-function addFluidTransformFluid(output, input, fluid, emptyWeight) {
+function addFluidTransformFluid(output, input, fluid) {
     // if (!emptyWeight) emptyWeight = 0
     if (!fluid) fluid = 'water'
     let recipe = {

@@ -9,3 +9,8 @@ onEvent('jei.hide.items', event => {
 		console.log("hiding " + item);
 	});
 })
+onEvent('jei.remove.categories', event => {
+	global.categoriesToHide.forEach(cat => {
+		event.remove(cat)
+	});
+})

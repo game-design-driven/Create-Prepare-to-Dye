@@ -109,6 +109,7 @@ function addSmoking(output, input, experience, cookingTime) {
     return mcProcess('minecraft:smoking', output, input, experience, cookingTime)
 }
 function mcProcess(type, output, input, experience, cookingTime) {
+    if (!experience) experience = 15
     let recipe = {
         type: type,
         result: solveResult(output),

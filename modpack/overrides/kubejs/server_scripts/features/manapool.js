@@ -14,8 +14,14 @@ if (feature('Make alchemy recipes use blaze burner')) {
         }
     })
 }
-
-function addAlchemyRecipe(output, input, mana) {
-    addInfusion(output, input, mana, 'create:blaze_burner[blaze=fading]')
-    addInfusion(output, input, mana * 4, 'create:blaze_burner[blaze=kindled]')
+if (feature('Manapool single ingredient crafting')) {
+    // for recipe in craftingTable.getAllRecipes(){
+    //     if (recipe.ingredients.length == 1){
+    //         Recipes.addInfusion(recipe.output, recipe.ingredients[0], <block:minecraft:crafting_table>,settings.infusionSimpleRecipeManaCost);
+    //     }
+    // }
+    forEachRecipe([{ type: 'minecraft:crafting_shaped' }, { type: 'minecraft:crafting_shapeless' }], recipe => {
+        //if only one input
+        // addInfusion(recipe.originalRecipe.getResultItem(), recipe.originalRecipe.getIngredients(), 500, 'crafting_table')
+    })
 }
