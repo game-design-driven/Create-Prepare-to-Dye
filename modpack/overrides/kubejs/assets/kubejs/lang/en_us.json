@@ -1,7 +1,10 @@
 {
-    "fluid.kubejs.acid": "Acid",
-    "item.kubejs.acid_bucket": "Acid bucket",
-    "fluid.kubejs.oil": "Oil",
-    "item.kubejs.oil_bucket": "Oil bucket",
-    "item.kubejs.plastic_nurdle": "Plastic nurdle"
+  "botania.ponder.enchant.mana_enchnting.header": "mana enchanting",
+  "kubejs.ponder.tag.botania_ponder.description": "how to botania",
+  "kubejs.ponder.tag.botania_ponder": "botania",
+  "botania.ponder.elf.elven_trading.header": "elven portal",
+  "botania.ponder.terra.basic_usage_2.header": "Terrestrial Agglomeration",
+  "kubejs.ponder.tag.vanilla_ponder.description": "good to know",
+  "kubejs.ponder.tag.vanilla_ponder": "vanilla",
+  "enigmatica.ponder.respawn_ender_dragon.respawn_ender_dragon.header": "Ender Dragon Respawning"
 }
