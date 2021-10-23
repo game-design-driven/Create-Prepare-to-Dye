@@ -40,7 +40,6 @@ OreExcavation-1.8.157.jar
 OreTweaker-1.16.5-2.5.1.jar
 Patchouli-1.16.4-53.2.jar
 Placebo-1.16.5-4.6.0.jar
-ponderjs-1.16.5-1.0.3a.jar
 Quark-r2.4-319.jar
 QuarkOddities-1.16.3.jar
 randompatches-2.4.4-forge.jar
