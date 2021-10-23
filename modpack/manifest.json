@@ -63,6 +63,18 @@
       }
     },
     {
+      "projectID": 238086,
+      "fileID": 3470374,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS (Forge)",
+        "dependencies": [
+          419699,
+          416294
+        ]
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 3438494,
       "required": true,
@@ -437,6 +449,18 @@
       }
     },
     {
+      "projectID": 416294,
+      "fileID": 3461548,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 417645,
       "fileID": 3198370,
       "required": true,
@@ -575,6 +599,14 @@
       "required": true,
       "__meta": {
         "name": "Hourglass"
+      }
+    },
+    {
+      "projectID": 514397,
+      "fileID": 3425361,
+      "required": true,
+      "__meta": {
+        "name": "NBT Ingredient Predicate"
       }
     },
     {

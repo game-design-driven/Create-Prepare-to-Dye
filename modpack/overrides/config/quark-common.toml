@@ -354,7 +354,7 @@
 	"Compasses Work Everywhere" = true
 	"Dirt To Path" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	Emotes = true
 	"Enhanced Ladders" = true
 	"Glass Shard" = false
