@@ -14,7 +14,7 @@
 	MaxColumns = 18
 	#Max. recipe gui height
 	#Range: > 175
-	RecipeGuiHeight = 350
+	RecipeGuiHeight = 600
 
 [colors]
 	#Color values to search for
@@ -39,7 +39,7 @@
 	CreativeTabSearchMode = "ENABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "DISABLED"
+	ColorSearchMode = "REQUIRE_PREFIX"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceIdSearchMode = "ENABLED"

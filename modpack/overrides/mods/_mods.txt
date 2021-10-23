@@ -24,7 +24,7 @@ ftb-library-forge-1605.3.3-build.74.jar
 hourglass-1.16.5-1.2.1.0.jar
 immersive-portals-0.16-mc1.16.5-forge.jar
 Interactio-1.16.4-3.1.1.jar
-jei-1.16.5-7.7.1.126.jar
+jei-1.16.5-7.7.1.125.jar
 JEPB-1.0.0.jar
 JustEnoughProfessions-1.16.5-1.2.2.jar
 JustEnoughResources-1.16.5-0.12.1.128.jar

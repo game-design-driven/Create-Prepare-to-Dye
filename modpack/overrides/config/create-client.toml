@@ -12,6 +12,7 @@
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
 	# 
+	#Higher density means more spawned particles.
 	#Range: 0.0 ~ 1.0
 	fanParticleDensity = 0.5
 	# 
@@ -36,7 +37,7 @@
 	mainMenuConfigButtonRow = 2
 	# 
 	#Offset the Create config button in the main menu by this many pixels on the X axis
-	#The sign (+/-) of this value determines what side of the row the button appears on (right/left)
+	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
 	#Range: > -2147483648
 	mainMenuConfigButtonOffsetX = -4
 	# 
@@ -46,7 +47,7 @@
 	ingameMenuConfigButtonRow = 3
 	# 
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
-	#The sign (+/-) of this value determines what side of the row the button appears on (right/left)
+	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
 	#Range: > -2147483648
 	ingameMenuConfigButtonOffsetX = -4
 	# 
@@ -57,11 +58,11 @@
 	#Settings for the Goggle Overlay
 	[client.goggleOverlay]
 		# 
-		#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
+		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
 		overlayOffsetX = 20
 		# 
-		#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
+		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
 		overlayOffsetY = 0
 		# 

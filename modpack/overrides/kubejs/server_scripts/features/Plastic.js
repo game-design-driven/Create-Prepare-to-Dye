@@ -1,6 +1,6 @@
 if (feature('Acid recipes')) {
     addFluidTransformFluid('kubejs:acid', '#forge:acidic', 'water')
-    addFluidTransformFluid(['kubejs:acid%3', 'water'], '8x poisonous_potato', 'water')
+    addFluidTransformFluid(['kubejs:acid%3', 'water%7'], '8x poisonous_potato', 'water')
     addAssembly(['kubejs:acid_bucket %7', 'crimson_fungus%1', 'brown_mushroom%1', 'red_mushroom%1'], 'milk_bucket', [
         addDeploying('', '', 'rotten_flesh'),
         addPressing()

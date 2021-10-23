@@ -26,7 +26,7 @@ if (feature('Replace mystical flowers and petals with dyes')) {
     });
 }
 if (feature('overgrowth_seed recipes')) {
-    addFilling('botania:overgrowth_seed', Item.of('minecraft:bone_meal').withCount(6), '500x milk')
+    addFilling('botania:overgrowth_seed', 'minecraft:bone_meal', '750x milk')
     addItemExplode('botania:overgrowth_seed', ['4x #forge:seeds', Item.of('minecraft:potion', '{Potion:"minecraft:strength"}')])
 }
 if (feature('Petal processing') &&

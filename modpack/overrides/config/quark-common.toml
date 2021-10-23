@@ -224,6 +224,9 @@
 		"Change Names" = true
 		"Enable Iron Ladder" = true
 
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
@@ -258,6 +261,7 @@
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
+	"Endermosh Music Disc" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = false
@@ -343,6 +347,12 @@
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
 		"Trowel Max Durability" = 0
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
+		"Loot Quality" = 1
 
 [tweaks]
 	"Skull Pikes" = true
@@ -889,6 +899,7 @@
 			"Cluster Count" = 16
 
 	[world.blossom_trees]
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.blue]
 			Rarity = 200
@@ -1806,6 +1817,12 @@
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["quark:root_item", "minecraft:cactus"]
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Regrow Chance" = 3
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false
@@ -1924,6 +1941,7 @@
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
+		"Enable Shiny Dolphin" = true
 
 [oddities]
 	Backpack = true
@@ -2020,6 +2038,7 @@
 	"Narrator Readout" = false
 	"Overlay Shader" = false
 	Shiba = false
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
