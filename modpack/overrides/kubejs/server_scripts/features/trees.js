@@ -7,7 +7,7 @@ if (feature('Oak aka applewood')) {
 }
 if (feature('dark oak')) {
     addAssembly(['8x paper %8', 'brown_dye', 'stick'], 'dark_oak_log', [
-        addFilling('', '', 'contenttweaker:acid'),//change to kjs acid
+        addFilling('', '', 'kubejs:acid'),//change to kjs acid
         addPressing()
     ], 2)
 }

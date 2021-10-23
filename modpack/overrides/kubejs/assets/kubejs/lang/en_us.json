@@ -1,1 +1,7 @@
-{}
+{
+    "fluid.kubejs.acid": "Acid",
+    "item.kubejs.acid_bucket": "Acid bucket",
+    "fluid.kubejs.oil": "Oil",
+    "item.kubejs.oil_bucket": "Oil bucket",
+    "item.kubejs.plastic_nurdle": "Plastic nurdle"
+}

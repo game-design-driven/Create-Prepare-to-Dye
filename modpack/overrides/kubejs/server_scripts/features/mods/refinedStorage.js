@@ -65,9 +65,9 @@ Ingredient.of('@refinedstorage').stacks.forEach(item => {
 // <item:refinedstorage:silicon>.remove();
 // //cable recipes
 // (<item:refinedstorage:cable>*4).shaped([
-//     [<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>],
+//     [<item:kubejs:plastic>,<item:kubejs:plastic>,<item:kubejs:plastic>],
 //     [<item:create:polished_rose_quartz>,<item:create:polished_rose_quartz>,<item:create:polished_rose_quartz>],
-//     [<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>,<item:contenttweaker:plastic_nurdle>]
+//     [<item:kubejs:plastic>,<item:kubejs:plastic>,<item:kubejs:plastic>]
 // ]);
 
 // (<item:refinedstorage:cable>).shaped([
@@ -81,7 +81,7 @@ Ingredient.of('@refinedstorage').stacks.forEach(item => {
 //     .require(<item:morered:red_alloy_wire>*64)
 //     .loops(6)
 //     .addOutput(<item:refinedstorage:cable>*32, 1)
-//     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:contenttweaker:plastic_nurdle>));
+//     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:plastic>));
 // <recipetype:create:sequenced_assembly>.addRecipe(cableAssembly);
 
 // (<item:refinedstorage:external_storage>*4).shapeless([<item:refinedstorage:cable>,<tag:items:forge:ender_pearls>,<item:refinedstorage:cable>]);

@@ -1,6 +1,6 @@
 //priority:1
 addToTag('forge:dirt', 'dirt')
-addToTag('forge:plastic', 'contenttweaker:plastic_nurdle')
+addToTag('forge:plastic', 'kubejs:plastic')
 addToTag('forge:fertilizer', 'bone_meal')
 addToTag('forge:regular_flowers', [
     'dandelion',
@@ -42,6 +42,10 @@ addToTag('forge:acidic', [
     'botania:fel_pumpkin'
 ])
 addToTag('forge:ingots/andesite_alloy', 'create:andesite_alloy')
+addToTag('forge:fish_bucket',[
+    'pufferfish_bucket',
+    'tropical_fish_bucket'
+])
 // <tag:items:create:crushed_ores/iron>.add(<item:create:crushed_iron_ore>);
 // <tag:items:create:crushed_ores/gold>.add(<item:create:crushed_gold_ore>);
 // <tag:items:create:crushed_ores/copper>.add(<item:create:crushed_copper_ore>);
@@ -52,7 +56,7 @@ addToTag('forge:ingots/andesite_alloy', 'create:andesite_alloy')
 // <tag:items:createrun:fertilizer>.add(<item:minecraft:bone_meal>);
 // <tag:items:createrun:bucket/water>.add(<item:minecraft:water_bucket>);
 // <tag:items:createrun:bucket/lava>.add(<item:minecraft:lava_bucket>);
-// <tag:items:forge:plastic>.add(<item:contenttweaker:plastic_nurdle>);
+// <tag:items:forge:plastic>.add(<item:kubejs:plastic>);
 // <tag:items:forge:acidic>.add([
 //     <item:contenttweaker:oxidized_gunpowder>,
 //     <item:botania:fel_pumpkin>

@@ -84,7 +84,7 @@ if (feature('Dye from meat')) {
     addCrushing(['red_dye%50', 'pink_dye%40'], 'beef')
 }
 if (feature('Bone recipes')) {
-    addFluidTransomItem('bone', '8x #forge:meat', 'contenttweaker:acid', 0.1)//use kjs acid
+    addFluidTransomItem('bone', '8x #forge:meat', 'kubejs:acid', 0.1)//use kjs acid
 }
 if (feature('Bamboo recipes')) {
     addAlchemyRecipe('bamboo', 'sugar_cane')
@@ -92,4 +92,7 @@ if (feature('Bamboo recipes')) {
 if (feature('Rail recipes')) {
     replaceShaped('8x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/iron', s: 'stick' })
     addShaped('16x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/andesite_alloy', s: 'stick' })
+}
+if (feature('Crying obsidian recipes')) {
+    addBlockAnvil('crying_obsidian', 'obsidian')
 }

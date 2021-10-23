@@ -6,7 +6,7 @@ if (feature('Gold')) {
     addFilling('gold_ingot', '#forge:ingots', 'create:honey')
     addFluidTransomItem('nether_gold_ore', '8x netherrack', 'create:honey')
     addAssembly(['gold_nugget %1', 'white_dye %3', 'yellow_dye %3', 'red_dye %3'], 'egg', [
-        addFilling('', '', '250x contenttweaker:acid')//replace with kjs acid
+        addFilling('', '', '250x kubejs:acid')//replace with kjs acid
     ])
 }
 if (feature('Remove emerald ore')) {
@@ -14,14 +14,14 @@ if (feature('Remove emerald ore')) {
     //remove orechid ore weight
     addAssembly(['emerald %10', 'green_dye %3', '2x green_dye %3', 'coal %2', 'diamond %2'], 'diamond', [
         addDeploying('', '', 'green_dye'),
-        addFilling('', '', '250x contenttweaker:acid')//replace with kjs acid
+        addFilling('', '', '250x kubejs:acid')//replace with kjs acid
     ], 4)
     addAssembly(['emerald %15', 'green_dye %3', 'coal %2'], 'botania:mana_diamond', [
         addDeploying('', '', 'green_dye'),
         addDeploying('', '', 'green_dye'),
         addDeploying('', '', 'green_dye'),
         addDeploying('', '', 'green_dye'),
-        addFilling('', '', 'contenttweaker:acid')//replace with kjs acid
+        addFilling('', '', 'kubejs:acid')//replace with kjs acid
     ], 2)
 }
 if (feature('Remove zinc')) {
