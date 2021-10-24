@@ -1,4 +1,4 @@
-# Create.run
+# ⚙️Create.run
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/PandaBoy444/Create.run)
 ![GitHub all releases](https://img.shields.io/github/downloads/PandaBoy444/Create.run/total)
 ![GitHub issues](https://img.shields.io/github/issues/PandaBoy444/Create.run)
