@@ -38,24 +38,3 @@ if (feature('Plastic elytra')) {
 if (feature('Oil recipes')) {
     addMixing('', '#forge:ores/biotite', temperature.heated, 600, '250x kubejs:oil')
 }
-// <item:minecraft:leather_helmet>.withNameAndColor("Synthetic Cap",16383998) : [
-//     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-//     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-// ],
-// <item:minecraft:leather_chestplate>.withNameAndColor("Synthetic Tunic",16383998) : [
-//     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
-//     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-//     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>]
-// ],
-// <item:minecraft:leather_leggings>.withNameAndColor("Synthetic Pants",16383998) : [
-//     [<tag:items:forge:plastic>,<tag:items:forge:plastic>,<tag:items:forge:plastic>],
-//     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>],
-//     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-// ],
-// <item:minecraft:leather_boots>.withNameAndColor("Synthetic Boots",16383998) : [
-//     [<tag:items:forge:plastic>,<item:minecraft:air>,<tag:items:forge:plastic>]
-// ]
-
-//oxidized gunpowder
-// Recipes.addMix(<item:contenttweaker:oxidized_gunpowder>,"heated",[tag.oxidiesers,<item:minecraft:gunpowder>]);
-
