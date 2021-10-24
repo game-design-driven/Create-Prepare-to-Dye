@@ -2,7 +2,7 @@
 // settings.logRemovedRecipes = true
 // settings.logErroringRecipes = true
 // disableFeature('Testing')
-enableFeature('Testing')
+disableFeature('Testing')
 if (feature('Testing')) {
     onEvent('recipes', event => {
 

@@ -7,3 +7,6 @@ if (feature('Remove powdered_obsidian')) {
 if (feature('Remove tree fertilizer')) {
     removeItem('create:tree_fertilizer')
 }
+if (feature('Remove vanilla honey bottle recipe')) {
+    removeRecipe({id: 'minecraft:honey_bottle'})
+}
