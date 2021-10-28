@@ -39,7 +39,7 @@
 	CreativeTabSearchMode = "ENABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "REQUIRE_PREFIX"
+	ColorSearchMode = "DISABLED"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceIdSearchMode = "ENABLED"
