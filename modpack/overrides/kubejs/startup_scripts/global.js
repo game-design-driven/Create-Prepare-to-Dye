@@ -3,6 +3,10 @@ global.itemsToHide = []
 global.categoriesToHide = []
 global.itemsToRemove = []
 
+// I think its text.translate('key.text')
+// Because instead of string you are using a text component
+// {translate: 'key.text'} also might work
+
 //old settings 
 // #priority 99
 // import crafttweaker.api.item.IItemStack;

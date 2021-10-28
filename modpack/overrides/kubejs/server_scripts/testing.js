@@ -2,6 +2,14 @@
 // settings.logRemovedRecipes = true
 // settings.logErroringRecipes = true
 // disableFeature('Testing')
+if (feature('Lang testing')) {
+    // item.kubejs.oil_bucket
+    // I think its text.translate('key.text')
+    // Because instead of string you are using a text component
+    // {translate: 'key.text'} also might work
+    console.log("TRANSLATED TEXT "+text.translate('item.kubejs.oil_buckett'));
+    console.log("TRANSLATED TEXT "+{translate: 'item.kubejs.oil_bucket'});
+}
 disableFeature('Testing')
 if (feature('Testing')) {
     onEvent('recipes', event => {

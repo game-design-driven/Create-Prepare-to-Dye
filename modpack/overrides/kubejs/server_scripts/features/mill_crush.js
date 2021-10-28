@@ -4,14 +4,6 @@
 //     <item:create:limesand>,
 //     <item:create:limesand> % 50,
 // ],<tag:items:forge:sand/colorless>);
-
-// for millRecipe in <recipetype:create:milling>.getAllRecipes(){
-//     if (millRecipe.output.amount == 1){
-//         Recipes.addMilling([millRecipe.output*2],millRecipe.ingredients[0], 100);
-//         <recipetype:create:milling>.removeByName(millRecipe.id);
-//     }
-// }
-
 if (feature('Improve milling recipes')) {
     addMilling('2x orange_dye', '#forge:crops/carrot')
 
