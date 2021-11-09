@@ -109,6 +109,10 @@ if (feature('Remove assembly halo and change manufactory halo recipe')) {
 if (feature('Rebalance regular infusion recipes')) {
     removeRecipe({ id: "botania:mana_infusion/mana_powder_dye" })
 }
+if (feature('Remove garden of glass items that are not in use')) {
+    removeItem('botania:pebble')
+    removeItem('botania:living_root')
+}
 
 //modpack
 
