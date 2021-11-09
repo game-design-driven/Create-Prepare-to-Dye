@@ -6,6 +6,6 @@ if (feature('Dye crafting')) {
 
     addShapeless('gray_dye', 'gunpowder')
 
-    addElvenTrade('yellow_dye', ['glowstone_dust', 'bread'])
+    addElvenTrade('4x yellow_dye', ['glowstone_dust', 'bread'])
     addFluidTransomItem('4x yellow_dye', '4x forge:dyes/white', 'honey', 1)
 }
