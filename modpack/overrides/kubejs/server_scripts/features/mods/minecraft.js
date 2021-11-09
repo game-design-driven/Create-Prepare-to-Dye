@@ -99,3 +99,6 @@ if (feature('Crying obsidian recipes')) {
 if (feature('Shulker box Recipes')) {
     replaceShaped('shulker_box',['a','b','a'],{a:'shulker_shell',b:'#forge:chests'})
 }
+if (feature('Shapeless lever')) {
+    replaceShapeless('lever',['#forge:cobblestone','#forge:rods'])
+}

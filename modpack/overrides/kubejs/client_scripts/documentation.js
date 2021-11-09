@@ -10,24 +10,24 @@
 //     })
 //     if(line.length >= 0) e.add(item, line)
 //   }
+let iteratedItems = []
 onEvent('item.tooltip', event => {
-    event.addAdvanced(Item.of('botania:blood_pendant', '{brewKey:"botania:strength"}'), (s, adv, text) => {
-        text.add("should be only on the strength one")
-    })
+    // Item.typeList.forEach(stack =>{ // doesn't seem to work
     Item.list.forEach(stack => {
-        // if (stack.hasNBT()) return
-        let key = 'tooltip.' + stack.id.replace(':', '.')
-        let translated = text.translate(key)
-        if (key != translated) { //means we found a tooltip
-            console.log(stack.toString());
-            console.log(stack.toJson());
-            console.log(stack);
-            event.addAdvanced(Item.of(stack, stack.getNbt()), (s, adv, text) => {
-                if (event.shift) {
-                    text.add(parseTooltip(translated))
-                }
-            })
-        }
+        if (iteratedItems.includes(stack.id)) return
+        iteratedItems.push(stack.id)
+        event.addAdvanced(stack, (s, adv, tooltipText) => {
+            let key = 'tooltip.' + stack.id.replace(':', '.')
+            if (s.nbt) {
+                key = key + s.getNbt().toString()   .replaceAll('"', "'")
+            }
+            let translated = text.translate(key)
+            if (translated != key){
+                console.log(s+" "+"The key is " + key + " " + " \n the translation is " + translated)
+                tooltipText.add(parseTooltip(translated))
+            }
+        })
+
     });
 })
 function parseTooltip(tip) {
