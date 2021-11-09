@@ -102,3 +102,6 @@ if (feature('Shulker box Recipes')) {
 if (feature('Shapeless lever')) {
     replaceShapeless('lever',['#forge:cobblestone','#forge:rods'])
 }
+if (feature('Sponge recipes')) {
+    addMixing('sponge',['#minecraft:leaves', '9x #forge:plastic'],temperature.heated,2000)
+}
