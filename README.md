@@ -7,36 +7,50 @@
 Create.run is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
     A small but ambitious project to give create the stage it deserves
-## Core values
-* Complex and unique automation
-* Radical simplification, No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game.
-* Low amount of tasks that aren't "making cool stuff"
-* Lightweight
-* Heavily Documented, in game
-* Consistency and fun, sense based processes over realistic ones
-* Customization - we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
-
-
-## Complex and unique automation:
+## About the project
+### Core values
+<details>
+  <summary>Complex and unique automation</summary>
+  
 Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options.
 * Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation*1
 * Botania - Another core element of the run experience.
 * Quark + oddities
 * Supplementaries
-
-
-## Lower amount of tasks that aren't "making cool stuff"
+</details>
+<details>
+  <summary>Radical simplification</summary>
+  
+    No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game.
+</details>
+<details>
+  <summary>Low amount of tasks that aren't "making cool stuff"</summary>
+  
 * Effortless building - with the configs that allow you to build and destroy huge things right out of the gate.
 * Ore excavator - trees and veins are quickly dealt with
 * Refined Storage - without any automation parts, it is just a fancy way to access your storage to make your life easier without taking away any of the cool automation
+</details>
+<details>
+  <summary>Lightweight</summary>
+  
+The pack has around 60 mods, takes less than a minute to boot!
+</details>
+<details>
+  <summary>Heavily Documented, in game</summary>
+  
+    
+</details>
+<details>
+  <summary>A new take on progression</summary>
+  
+Consistency and fun, sense based processes over realistic ones
+</details>
 
-
-## Radical simplification
-* Less random materials and ingots with one use, we make sure to reduce the amount of items as much as possible while delegating complexity to other parts of the chain.
-
-
-## Lightweight
-* The pack has around 60 mods
+<details>
+  <summary>Customization</summary>
+  
+we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
+</details>
 
 
 
