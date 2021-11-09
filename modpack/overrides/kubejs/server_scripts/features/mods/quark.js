@@ -88,3 +88,6 @@ if (feature('Remove cactus paste')) {
 if (feature('Remove quark chute')) {
     removeItem('quark:chute')
 }
+if (feature('XP from xp bottle in furnace')) {
+    addSmelting('bottle','experience_bottle',6)
+}
