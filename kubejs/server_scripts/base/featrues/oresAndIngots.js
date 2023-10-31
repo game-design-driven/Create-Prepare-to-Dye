@@ -148,10 +148,10 @@ if (feature('Lapis')) {
 // }
 
 if (feature('slime from dough and lime')) {
-    addAssembly(['2x slime_ball'], '#forge:dough',[
-        addDeploying('2x slime_ball', '#forge:dough', 'lime_dye')
+    addAssembly(['3x slime_ball'], '#forge:dough',[
+        addDeploying('3x slime_ball', '#forge:dough', 'lime_dye')
     ],3)
-    addMixing(['2x slime_ball'], ['3x #forge:dough', 'lime_dye'], temperature.heated)
+    addMixing(['3x slime_ball'], ['3x #forge:dough', 'lime_dye'], temperature.heated)
 }
 
 // let example_block = Item.of('minecraft:stone')

@@ -23,7 +23,7 @@ if (feature('Make alchemy recipes use blaze burner')) {
     })
 }
 
-if (feature('Manapool single ingredient crafting')) {
+if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
     forEachRecipe([{ type: 'minecraft:crafting_shapeless' }], recipe => {
         let ingredients = recipe.getOriginalRecipeIngredients();
         if (ingredients.length != 1) return;

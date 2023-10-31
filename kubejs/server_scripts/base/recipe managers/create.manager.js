@@ -57,12 +57,6 @@ function addCutting(output, input, processingTime) {
  * @param {number} processingTime amount of time in ticks default(150)
  */
 function addMilling(output, input, processingTime) {
-
-    // ServerEvents.recipes(e => {
-    //     e.recipes.create.milling(solveResults(output), solveIngredients(input))
-    //     // e.recipes.create.milling(['diamond', 'emerald'], 'coal_block')
-    //     // e.recipes.create.milling(['diamond', Item.of('diamond').withChance(0.5)], 'coal_block')
-    // })
     return addProcessingRecipe('create:milling', solveResults(output), [solveLimitedIngredient(input)])
 }
 /**
@@ -165,7 +159,8 @@ function addProcessingRecipe(type, output, input, processingTime, heatRequiremen
     return recipe
 }
 
-function addItemApplication(result, input){
+function addItemApplication(result, block_input, item_input){
+    let input = [block_input, item_input]
     let recipe = {
         type: "create:item_application",
         results: solveResult(result),
