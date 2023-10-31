@@ -8,12 +8,12 @@
 	#on X, Y, or Z planes.  The default value of 50 gives the controller a very
 	#large range, but not beyond the chunk load distance.
 	#Range: 1 ~ 75
-	controllerRange = 50
-	enableUI = true
+	controllerRange = 10
+	enableUI = false
 	enableSidedInput = true
 	enableSidedOutput = true
-	enableItemConversion = true
-	enableExtraCompactingRules = true
+	enableItemConversion = false
+	enableExtraCompactingRules = false
 	debugTrace = false
 	#List of rules in format "domain:item1, domain:item2, n".
 	#Creates a compacting drawer rule to convert 1 of item1 into n of item2.
