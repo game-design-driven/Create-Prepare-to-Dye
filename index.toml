@@ -597,8 +597,8 @@ file = "mods/cloth-config-8.3.103-forge.jar"
 hash = "46e6008ca40a1b76e07c3b474bd5b0ab26e8da301b61b2f9cb23a3ed70a1c634"
 
 [[files]]
-file = "mods/collective-1.19.2-6.66.jar"
-hash = "6fcac9ef429dbe1ae927d07ea0b517ab5d8291d3636835aa1782b3cdf4d42e72"
+file = "mods/collective-1.19.2-6.72.jar"
+hash = "ddceaf85b4776bb809fd20c151d6e9a401f03c7ac8c8174b92986670cae44e08"
 
 [[files]]
 file = "mods/create-1.19.2-0.5.1.e.jar"
@@ -657,8 +657,8 @@ file = "mods/kubejs-create-forge-1902.2.4-build.29.jar"
 hash = "7c22d9dfab832a53ff7c7cb06ade7bd3fc91ad629001597ae61b96e290770a46"
 
 [[files]]
-file = "mods/kubejs-forge-1902.6.2-build.33.jar"
-hash = "db03b962936171ff2e809817c93066f56d59a6137089edb861c27f23e15bbc1c"
+file = "mods/kubejs-forge-1902.6.2-build.37.jar"
+hash = "f2c70f4a27f69ee9e9652a6027b1afaa5f80daac2af6194b80aea7ea5e2040a1"
 
 [[files]]
 file = "mods/kubejsadditions-forge-3.2.0.jar"
@@ -677,8 +677,8 @@ file = "mods/lootjs-forge-1.19.2-2.9.1.jar"
 hash = "89cebea241a0b3b34ef0c41700569b5e1ab4f131bd6bfa78ac30d80650908d3c"
 
 [[files]]
-file = "mods/moonlight-1.19.2-2.2.46-forge.jar"
-hash = "5ac7785e3cb140b02e9275ec319b732e3972fd776d1f43c6788171191d13e702"
+file = "mods/moonlight-1.19.2-2.3.3-forge.jar"
+hash = "0b042d5fa33a5dec56d14b9d54ac2b48032af6da0e2408fd6978114eec6cb4e1"
 
 [[files]]
 file = "mods/notenoughcrashes-4.2.1+1.19.2-forge.jar"
@@ -717,8 +717,8 @@ file = "mods/supermartijn642corelib-1.1.15-forge-mc1.19.2.jar"
 hash = "831460d14da8fd40ae5a491b3488bfb1c437899603b48e5140f56981e609d3cd"
 
 [[files]]
-file = "mods/supplementaries-1.19.2-2.3.24.jar"
-hash = "dd346deb808de4301b20daa12db4f8f11ed796599fbddc18fd5f35834c83d555"
+file = "mods/supplementaries-1.19.2-2.4.4.jar"
+hash = "8db036e81e179b31ef84f23b0ea5fb81270b9a0a35abf75bea4cca0f40e98e0b"
 
 [[files]]
 file = "mods/suppsquared-1.19.2-1.0.8.jar"
