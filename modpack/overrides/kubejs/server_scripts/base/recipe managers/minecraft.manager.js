@@ -21,6 +21,7 @@ function replaceShapeless(output, input, onlyShapeless) {
  * @param {Map<any,string>} key { a: 'stick', b: 'gray_concrete' }
  */
 function addShaped(output, pattern, key) {
+    if (!Array.isArray(pattern)) pattern = [pattern]
     let recipe = {
         type: "minecraft:crafting_shaped",
         pattern: pattern,
@@ -108,6 +109,7 @@ function addSmoking(output, input, experience, cookingTime) {
     return mcProcess('minecraft:smoking', output, input, experience, cookingTime)
 }
 function mcProcess(type, output, input, experience, cookingTime) {
+    if (!experience) experience = 15
     let recipe = {
         type: type,
         result: solveResult(output),

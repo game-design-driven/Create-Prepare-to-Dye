@@ -1,12 +1,12 @@
 //priority:10
-function getIdOfEntry(entry) {
+function getIdOfTagEntry(entry) {
 	onEvent('item.tags', event => {
 		return event.getIdOfEntry(entry)
 	})
 }
 
 
-function get(id) {
+function getTag(id) {
 	onEvent('item.tags', event => {
 		return event.get(id)
 	})

@@ -9,14 +9,6 @@ onEvent('recipes', event => {
         }
     });
 })
-//add tooltip
-//remove recipes
-global.itemsToRemove.forEach(item => {
-    removeRecipe({ output: item })
-    removeRecipe({ input: item })
-    //remove tags from item
-    removeAllTagsFrom(item)
-});
 
 onEvent('server.datapack.low_priority', (event) => {
     event.addJson('botania:orechid_ore_weights/orechid.json', {

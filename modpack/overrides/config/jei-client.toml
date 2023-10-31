@@ -14,7 +14,7 @@
 	MaxColumns = 18
 	#Max. recipe gui height
 	#Range: > 175
-	RecipeGuiHeight = 350
+	RecipeGuiHeight = 600
 
 [colors]
 	#Color values to search for
