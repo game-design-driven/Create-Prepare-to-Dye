@@ -17,17 +17,17 @@ Using Create and Botanias natural automation focus as a loose base, we are const
 * Botania - Another core element of the run experience.
 * Quark + oddities
 * Supplementaries
+---
 </details>
 <details>
   <summary>Radical simplification</summary>
-  
-    No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game.
+
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted
 </details>
 <details>
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
   
 * Effortless building - with the configs that allow you to build and destroy huge things right out of the gate.
-* Ore excavator - trees and veins are quickly dealt with
 * Refined Storage - without any automation parts, it is just a fancy way to access your storage to make your life easier without taking away any of the cool automation
 </details>
 <details>
@@ -38,7 +38,7 @@ The pack has around 60 mods, takes less than a minute to boot!
 <details>
   <summary>Heavily Documented, in game</summary>
   
-    
+JEI is a core gameplay element. Imagine playing botania without needing to open a book or a wiki
 </details>
 <details>
   <summary>A new take on progression</summary>
@@ -47,9 +47,33 @@ Consistency and fun, sense based processes over realistic ones
 </details>
 
 <details>
-  <summary>Customization</summary>
+  <summary>Customization and Modularity</summary>
   
 we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
+Out script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers. Examples:
+```javascript
+if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
+    forEachRecipe([{ type: 'minecraft:crafting_shapeless' }], recipe => {
+        let ingredients = recipe.getOriginalRecipeIngredients();
+        if (ingredients.length != 1) return;
+
+        let resultId = recipe.getOriginalRecipeResult().getId();
+        let ingredientId = ingredients[0].getItemIds()[0];
+
+        let hasRemovedItems = [resultId, ingredientId].some(id => global.itemsToRemove.includes(id));
+        if (hasRemovedItems) return;
+
+        if (manapool_single_crafting_blacklist.includes(recipe.getId())) return;
+        console.info('recipe: ' + resultId + ' ' + ingredientId + ' ' + recipe.getId()+ 'removed: ' + recipe.removed)
+        if (recipe.removed) return;
+        addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 500, 'minecraft:crafting_table');
+        console.info('Adding infusion for "' + resultId + '" and "' + ingredientId+'"');
+    });
+}
+```
+This is an example feature that adds all crafting table recipes that have one ingredient to a new process of using a mana pool with a crafting table underneath.
+
+If you don't like this feature, or any other feature, you can use `disabledFeature('Manapool-crafting-table recipes for single ingredient crafting')` in your script to disable it.
 </details>
 
 
