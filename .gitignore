@@ -23,13 +23,6 @@
 hs_err_pid*
 Client/natives
 
-### PAX ###
-pax
-pax.exe
-libssl*.dll
-libcrypto*.dll
-cacert.pem
-
 ### Modpack ###
 .out/
 
@@ -71,3 +64,4 @@ Server/local/ftbutilities/backups.json
 *.bat
 Client/config/jei/recipe-category-sort-order.ini
 modpack/overrides/config/jei/bookmarks.ini
+mods/
