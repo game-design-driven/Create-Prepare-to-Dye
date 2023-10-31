@@ -1,13 +1,28 @@
-# ⚙️Create.run         [![](http://cf.way2muchnoise.eu/versions/518606_latest.svg)](https://minecraft.curseforge.com/projects/518606)
+# ⚙️ Create : Prepare to Dye         [![](http://cf.way2muchnoise.eu/versions/518606_latest.svg)](https://minecraft.curseforge.com/projects/518606)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/releases)
 [![GitHub issues](https://img.shields.io/github/issues/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/commits)
 [![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
 
-Create.run is an opinionated, minimalistic modpack centered around complex and interesting automation.
+⚙️ Create : Prepare to Dye is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
     A small but ambitious project to give create the stage it deserves
+
+## Intro
+As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, iiradiated planet called earth.
+
+Earth is mostly depleated in resources, and has a high concentration of hostile life. You must take the planet, and sell as much as possible back to the hungy society of the "United SPACE consumer union plus plus" in order to reastablish your company as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to build factories and trade routes create lasting relationships, compete with rivals and backstab your way to the top.
 ## About the project
+
+### Concept
+- You inhibit the body of a robot. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
+- This planet is depleted from resources, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
+- Your goal is to be the highest rated producer in the system.
+### Gameplay loop
+- You accept trade deals with various companies
+- You produce the resources needed to fulfill the trade deals
+- You use the resources to grow your production and get better trade deals
+- Successful trade deals can level up your trade contract, giving you access to more advanced trade deals
 ### Core values
 <details>
   <summary>Complex and unique automation</summary>
@@ -18,11 +33,24 @@ Using Create and Botanias natural automation focus as a loose base, we are const
 * Quark + oddities
 * Supplementaries
 ---
+On top of those we add many processing lines (over 600 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate.
 </details>
 <details>
   <summary>Radical simplification</summary>
 
 No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted
+</details>
+<details>
+  <summary>Remove tiers</summary>
+
+* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of th game. For example the grindstones from create are not a flat upgrade over the millstone, the millstone produces of a single product, while the grindstones produce multiple products, but at a lower rate. Every recipe will have advantages and disadvantages, and depending on your exsisting processing lines it might make sense to use different ones.
+* With the exception of stone. Tools and armor have been rebalanced to have a place at any point in the game.
+  * wood tools do not exist
+  * iron tools have the most durability
+    * botania's manasteel has less durability but can be replenished with mana
+  * diamond tools have the high speed
+  * gold tools have the most enchantability and are the fastest, but have the least durability (but more than in vanilla)
+  * netherite tools are the most well rounded. But are slower than diamond, have less enchantability than gold and have less durability than iron
 </details>
 <details>
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
