@@ -65,3 +65,4 @@ Server/local/ftbutilities/backups.json
 Client/config/jei/recipe-category-sort-order.ini
 modpack/overrides/config/jei/bookmarks.ini
 mods/
+*.mrpack
