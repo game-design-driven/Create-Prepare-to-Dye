@@ -1,0 +1,13 @@
+name = "Create: Prepare to Dye"
+author = "Yarden-zamir"
+version = "3.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "48c3b9654d8d906a343a4b41360f7108c737f2479e4a1370d0832f71ef47ea8e"
+
+[versions]
+forge = "43.3.2"
+minecraft = "1.19.2"

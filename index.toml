@@ -1,0 +1,13 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".github/workflows/main.yml"
+hash = "bf55f7eac43e1a77adda1f8e6e309fc02d246bcf8cec80227ba177796762e128"
+
+[[files]]
+file = ".vscode/settings.json"
+hash = "41100ff71e9032f29b18d903bea88d45095c58c655c79678e55383637dba9931"
+
+[[files]]
+file = "README.md"
+hash = "9429398217f2fc6502f81a1b27e54ce63b80d3ec56c2331162d6ca29fd151c29"
