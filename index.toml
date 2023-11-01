@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "3fdb6799be9687a7926cb39cb460e79ceda3b747133514d0ec8730686a014a80"
+
+[[files]]
+file = "README.md"
+hash = "c9dbc4e34f6677b3cd7ca3db998e5470dcd305785b0eb4b69eed9448daee2d6a"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -159,10 +167,6 @@ hash = "8f986a34dbe2053ece09b3f6d7635e38b17ea5c49befb91e87d2c2e1a44c8b1a"
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
 hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "cf40555b140015f8afc26e18aa357f91a2696f7434fc5db359bcf5a3b12177f2"
 
 [[files]]
 file = "config/jei/world/local/New_World__8/bookmarks.ini"

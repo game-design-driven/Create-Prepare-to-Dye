@@ -3,21 +3,25 @@
 *.mrpack
 
 *.jar
+*.zip
 
-config/jei/recipe-category-sort-order.ini
-config/jei/bookmarks.ini
+/config/jei/recipe-category-sort-order.ini
+/config/jei/bookmarks.ini
 
-crash-reports/
-debug/
-logs/
-local/
-saves/
-servers.dat
-usercache.json
-usernamecache.json
-keybindings.txt
-knownkeys.txt
-options.txt
-patchouli_data.json
-profile.json
-rhino.local.properties
+/crash-reports/
+/debug/
+/logs/
+/local/
+/saves/
+/servers.dat
+/usercache.json
+/usernamecache.json
+/keybindings.txt
+/knownkeys.txt
+/options.txt
+/patchouli_data.json
+/profile.json
+/rhino.local.properties
+
+/.github/
+/.vscode/
