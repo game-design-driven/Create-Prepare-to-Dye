@@ -93,7 +93,6 @@ if (feature('dye mixing')) {
     addFilling('purple_dye', '2x red_dye', 'water')
     //white + water = light blue
     addFilling('light_blue_dye', '2x white_dye', 'water')
-
 }
 
 if (feature('brown dye is more expensive')) {
