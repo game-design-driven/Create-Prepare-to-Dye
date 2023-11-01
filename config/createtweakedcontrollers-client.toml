@@ -1,0 +1,24 @@
+
+["Configs for Create: Tweaked Controllers"]
+	#Wether or not to use custom axis/button mappings, default is false
+	use_custom_mappings = false
+	#Does the mouse cursor focus key acts as toggle instead of hold, default is false
+	toggle_mouse_focus = false
+	#Does the mouse cursor inputs are automatically reset when the controller item is put down, default is true
+	auto_reset_mouse_focus = true
+	#Row of the Controller Settings button in the main menu, default is 2
+	#Range: 0 ~ 4
+	config_button_main_menu_row = 2
+	#X Offset of the Controller Settings button in the main menu, default is 4
+	#Range: > -2147483648
+	config_button_main_menu_offset = 4
+	#Row of the Controller Settings button in the ingame pause menu, default is 3
+	#Range: 0 ~ 5
+	config_button_ingame_menu_row = 3
+	#X Offset of the Controller Settings button in the ingame pause menu, default is 4
+	#Range: > -2147483648
+	config_button_main_ingame_offset = 4
+	#What is the layout used for the display controller in the config menus, default is XBOX
+	#Allowed Values: XBOX, NINTENDO, PLAYSTATION
+	controller_layout_type = "XBOX"
+
