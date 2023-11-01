@@ -32,10 +32,9 @@ jobs:
             {"type":"mod","section":"Modlist Changes","hidden":false},
             {"type":"update","section":"Mod Updates","hidden":false},
             {"type":"chore","section":"Miscellaneous","hidden":true}]
-          extra-files: >
-            [{"type": "toml",
-              "path": ${{ env.pack-file }},
-              "jsonpath": "$.version"}] 
+          extra-files: |
+            ${{ env.pack-file }}
+            
     #   # --- Parse version from PR Title when creating PR's
     #   # Had to do this cause like to bump on the release pleae branch
     #   # The tests for the shitty Regex can be found here: https://regexr.com/7lb8e
