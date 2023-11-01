@@ -1,12 +1,12 @@
-name = "Create: Prepare to Dye"
-author = "Yarden-zamir"
+name = "Create-Prepare-to-Dye"
+author = "yarden-zamir"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5b5c7bc78cbebf7358a0f5f5b6e665f837db2c7dee4769c1167c325df5b68ae5"
+hash = "2c8cd1fd49f6a37d5622101cbe29ecff1b9845a146296c7e47a67ecc4ee1fdc9"
 
 [versions]
 forge = "43.3.2"
