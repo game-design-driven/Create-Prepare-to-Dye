@@ -1,0 +1,30 @@
+# Automerge prs with label "autorelease: pending" or with "/auto-merge" in the description
+name: automerge
+
+on:
+  pull_request_target:
+  
+jobs:
+  label:
+    permissions: write-all  
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR description
+        uses: actions/github-script@v3
+        id: pr
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const pr = await github.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number
+            })
+            return pr.data.body
+      - uses: actions/checkout@v3
+        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease: pending') }}
+      - name: Enable Pull Request Automerge
+        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease: pending') }}
+        run: gh pr merge --merge --auto ${{ github.event.pull_request.number }} --body "Merged by auto-merge action."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
