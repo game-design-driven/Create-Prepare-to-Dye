@@ -8,7 +8,6 @@ if (feature('Dye crafting')) {
     addInfusion('gray_dye', 'gunpowder')
 
     addElvenTrade('4x yellow_dye', ['glowstone_dust', 'bread'])
-    // // addFluidTransomItem('4x yellow_dye', '4x forge:dyes/white', 'honey', 1)
     addInfusion('yellow_dye', '#forge:dyes', 3000, 'bee_nest[honey_level=5]')
 
     removeRecipe({ id: 'minecraft:yellow_dye_from_sunflower' })
