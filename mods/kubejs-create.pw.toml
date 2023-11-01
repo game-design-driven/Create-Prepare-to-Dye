@@ -1,0 +1,13 @@
+name = "KubeJS Create"
+filename = "kubejs-create-forge-1902.2.4-build.29.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T38eAZQC/versions/Jqn5DRIj/kubejs-create-forge-1902.2.4-build.29.jar"
+hash-format = "sha1"
+hash = "169e221a5c5df56356270e026f7be636b976fce4"
+
+[update]
+[update.modrinth]
+mod-id = "T38eAZQC"
+version = "Jqn5DRIj"
