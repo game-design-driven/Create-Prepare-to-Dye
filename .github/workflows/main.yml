@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
-
+concurrency: 
+    cancel-in-progress: true
+    group: ${{ github.workflow }}-${{ github.ref }}
 env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
