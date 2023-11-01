@@ -102,6 +102,8 @@ if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
 This is an example feature that adds all crafting table recipes that have one ingredient to a new process of using a mana pool with a crafting table underneath.
 
 If you don't like this feature, or any other feature, you can use `disabledFeature('Manapool-crafting-table recipes for single ingredient crafting')` in your script to disable it.
+
+See all features [here](kubejs/server_scripts/base/featrues)
 </details>
 
 
