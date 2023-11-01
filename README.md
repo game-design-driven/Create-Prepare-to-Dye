@@ -16,7 +16,7 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
 ## About the project
 
 ### Concept
-- You inhibit the body of a robot. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
+- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
 - This planet is depleted, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
 - Your goal is to be the highest rated producer in the system.
 ### Gameplay loop
@@ -30,9 +30,8 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
   
 Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options.
 * Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation*1
-* Botania - Another core element of the run experience.
+* Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack 
 * Quark + oddities
-* Supplementaries
 ---
 On top of those we add many processing lines (over 600 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate.
 </details>
