@@ -4,36 +4,47 @@ on:
   push:
     branches:
       - main
-concurrency: 
-    cancel-in-progress: true
-    group: ${{ github.workflow }}-${{ github.ref }}
 env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
-  default-release-curseforge: "false"
   name: 'create-prepare-to-dye'
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
+          token: ${{ secrets.GH_TOKEN }}
       # --- Release please
       # Creates and manages the prs and releases
-      - name: Perform Release with Release Please
-        id: release-please
-        uses: google-github-actions/release-please-action@v3
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          release-type: simple
-          package-name: ${{ env.name }}
-          changelog-types: >
-            [{"type":"feat","section":"Features","hidden":false},
-            {"type":"fix","section":"Fixes","hidden":false},
-            {"type":"mod","section":"Modlist Changes","hidden":false},
-            {"type":"update","section":"Mod Updates","hidden":false},
-            {"type":"chore","section":"Miscellaneous","hidden":true}]
-          extra-files: |
-            ${{ env.pack-file }}
+      # - name: Perform Release with Release Please
+      #   id: release-please
+      #   uses: google-github-actions/release-please-action@v3
+      #   with:
+      #     token: ${{ secrets.GH_TOKEN }}
+      #     release-type: simple
+      #     package-name: ${{ env.name }}
+      #     changelog-types: >
+      #       [{"type":"feat","section":"Features","hidden":false},
+      #       {"type":"fix","section":"Fixes","hidden":false},
+      #       {"type":"mod","section":"Modlist Changes","hidden":false},
+      #       {"type":"update","section":"Mod Updates","hidden":false},
+      #       {"type":"chore","section":"Miscellaneous","hidden":true}]
+      #     extra-files: |
+      #       ${{ env.pack-file }}
             
     #   # --- Parse version from PR Title when creating PR's
     #   # Had to do this cause like to bump on the release pleae branch
