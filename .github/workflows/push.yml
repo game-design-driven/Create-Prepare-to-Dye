@@ -31,8 +31,11 @@ jobs:
           name: "packwiz"
           version: "linux"
 
+      - name: Build name
+        id: build_name
+        run: echo 'name="${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [modrinth]' >> $GITHUB_OUTPUT
       - name: Build Modrinth Modpack
-        run: packwiz modrinth export --output "${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}.mrpack"
+        run: packwiz modrinth export --output "${{ steps.build_name.outputs.name }}.mrpack"
 
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
@@ -56,4 +59,5 @@ jobs:
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
-          name: ${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}
+          name: ${{ steps.build_name.outputs.name }}
+          
