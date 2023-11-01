@@ -32,7 +32,23 @@ jobs:
             {"type":"mod","section":"Modlist Changes","hidden":false},
             {"type":"update","section":"Mod Updates","hidden":false},
             {"type":"chore","section":"Miscellaneous","hidden":true}]
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.release-please.outputs.pr.headBranchName }}
+      - name: update version in pack file toml (whatever the old value is)
+        if: ${{ ! steps.release-please.outputs.releases_created }}
+        run: |
+          sed -i.bak 's/version = ".*"/version = "${{ steps.release-please.outputs.tag_name }}"/' ${{ env.pack-file }}
 
+        
+      - name: Commit version bump to pr
+        if: ${{ ! steps.release-please.outputs.releases_created }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${{ env.pack-file }}
+          git commit -m "chore(${{ steps.release-please.outputs.tag_name}}): bump version"
+          git push origin ${{ steps.release-please.outputs.pr.headBranchName }}
     #   # --- Parse version from PR Title when creating PR's
     #   # Had to do this cause like to bump on the release pleae branch
     #   # The tests for the shitty Regex can be found here: https://regexr.com/7lb8e
