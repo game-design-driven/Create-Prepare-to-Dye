@@ -121,3 +121,4 @@ If you don't like this feature, or any other feature, you can use `disabledFeatu
 |Script base                           | ![](https://progress-bar.dev/100)  | Critical   | ✔			| The scripting tools and libraries needed to develop and modify the pack efficiently are implemented|
 |Modularity                            | ![](https://progress-bar.dev/90)  | Standard   |   			| All core aspects of the pack are configurable|
 |Performance                           | ![](https://progress-bar.dev/90)  | Low       	|   			| The pack starts up fast and can run on low end pcs well even through the end game|
+|Trading System                        | ![](https://progress-bar.dev/20)  | Critical   |   			| The system responsible for making intergalactic trades|
