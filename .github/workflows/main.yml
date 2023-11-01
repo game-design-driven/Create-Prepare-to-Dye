@@ -14,48 +14,8 @@ env:
   name: 'create-prepare-to-dye'
 
 jobs:
-  parse-current-modpacks:
-    name: Parse current modpacks to a list
-
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-
-    outputs:
-      modpack-folders: ${{ steps.list-modpacks.outputs.modpack-folders }}
-
-    steps:
-      # -- Checkout repo
-      - name: Check Out Git Repository
-        uses: actions/checkout@v4
-
-      # --- Parse the modpacks to and list
-      # This just parses the folders that have pack.toml
-      - name: List Modpacks
-        id: list-modpacks
-        run: |
-          modpackFolders=()
-          for folder in *; do
-            if [ -d "$folder" ]; then
-              if [ -e "$folder/${{ env.pack-file }}" ]; then
-                modpackFolders+=("$folder")
-              fi
-            fi
-          done
-
-          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
-
-      # --- Print an nice msg about parsing
-      - name: Current detected modpacks
-        run: |
-          echo "::notice ::⚙ Current detected modpacks: ${{ steps.list-modpacks.outputs.modpack-folders }}"
-
   release:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
       # --- Release please
       # Creates and manages the prs and releases
