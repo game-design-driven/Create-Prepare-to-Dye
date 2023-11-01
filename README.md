@@ -125,3 +125,4 @@ See all features [here](kubejs/server_scripts/base/featrues)
 |Modularity                            | ![](https://progress-bar.dev/90)  | Standard   |   			| All core aspects of the pack are configurable|
 |Performance                           | ![](https://progress-bar.dev/90)  | Low       	|  ✔ 			| The pack starts up fast and can run on low end pcs well even through the end game|
 |Trading System                        | ![](https://progress-bar.dev/20)  | Critical   |   			| The system responsible for making intergalactic trades|
+|Community                              | ![](https://progress-bar.dev/2)   | Low       |  ✔ 			| The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute|
