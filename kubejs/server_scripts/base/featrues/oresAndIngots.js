@@ -6,7 +6,7 @@ if (feature('iron and redstone basic income')) {
     addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'red_dye'])
     addItemApplication('deepslate_redstone_ore',['minecraft:deepslate', 'nether_wart'])
 
-    addShaped('raw_iron',['red_dye', 'red_dye', '#forge:dyes', 'cobblestone', 'cobblestone'])
+    addShapeless('raw_iron',['red_dye', 'red_dye', '#forge:dyes', 'cobblestone', 'cobblestone'])
 }
 
 if (feature('Ore processing')) {
