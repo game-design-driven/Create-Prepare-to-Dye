@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Bump version and push tag
         id: tag_version
@@ -22,6 +22,7 @@ jobs:
         with:
           tag_prefix: ''
           github_token: ${{ secrets.GH_TOKEN }}
+
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
@@ -29,6 +30,8 @@ jobs:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
+          artifacts: |
+            ${{ env.pack-file }}
       # --- Release please
       # Creates and manages the prs and releases
       # - name: Perform Release with Release Please
