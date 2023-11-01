@@ -64,7 +64,7 @@ Server/local/ftbutilities/backups.json
 *.bat
 Client/config/jei/recipe-category-sort-order.ini
 modpack/overrides/config/jei/bookmarks.ini
-mods/
+
 *.mrpack
 crash-reports/
 debug/
@@ -81,3 +81,4 @@ options.txt
 patchouli_data.json
 profile.json
 rhino.local.properties
+temp/
