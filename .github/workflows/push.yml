@@ -43,20 +43,16 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           artifacts: |
             *.mrpack
-    #   # --- Release
-    #   - name: Release Modpack to Vendors
-    #     uses: ./.github/actions/release
-    #     with:
-    #       modpack: ${{ matrix.modpack }}
-    #       release-tag: ${{ steps.tag.outputs.tag }}
-    #       loader: ${{ steps.parse.outputs.loader }}
-    #       game-version: ${{ steps.parse.outputs.game-version }}
-    #       upload-modrinth: ${{ steps.set-mod-vendors.outputs.modrinth }}
-    #       upload-curse: ${{ steps.set-mod-vendors.outputs.curseforge }}
-    #       MODRINTH_ID: ${{ secrets.MODRINTH_ID }}
-    #       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-    #       CURSEFORGE_ID: ${{ secrets.CURSEFORGE_ID }}
-    #       CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-    #     if: |
-    #       steps.release-please.outputs.releases_created &&
-    #       (steps.set-mod-vendors.outputs.modrinth || steps.set-mod-vendors.outputs.curseforge)
+
+      - name: Publish to Modrinth
+        id: modrinth
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          loaders: forge
+          game-versions: 1.19.2
+          changelog-file: CHANGELOG.release.*
+          files: "*.mrpack"
+          version: ${{ steps.tag_version.outputs.new_tag }}
+          version-type: release
