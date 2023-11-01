@@ -59,4 +59,11 @@ jobs:
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
-          name: ${{ steps.build_name.outputs.name }}
+          name: ${{ steps.build_name.outputs.name }} ${{github.}}
+      - name: Update modrinth description to match reademe
+        run: |
+          curl -X PATCH \
+            -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "$(cat README.md | jq -R -s '{body: .}')" \
+            https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
