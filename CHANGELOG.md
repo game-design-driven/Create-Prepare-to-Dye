@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.1](https://github.com/Yarden-zamir/Create.run/compare/v3.2.0...v3.2.1) (2023-11-01)
+
+
+### Fixes
+
+* added newline ([664cec2](https://github.com/Yarden-zamir/Create.run/commit/664cec20076b7c4cde4ecd574fdda214a542d5d1))
+* use please release generic updater ([608d969](https://github.com/Yarden-zamir/Create.run/commit/608d9699868193cd205fc04052840f13b3e2ee0a))
+
 ## [3.2.0](https://github.com/Yarden-zamir/Create.run/compare/v3.1.0...v3.2.0) (2023-11-01)
 
 
