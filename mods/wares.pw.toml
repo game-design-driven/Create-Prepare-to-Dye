@@ -1,0 +1,13 @@
+name = "Wares"
+filename = "wares-1.19.2-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jz71ddli/versions/oBn7FxLM/wares-1.19.2-1.2.1.jar"
+hash-format = "sha1"
+hash = "3cc2d7c853346cc691fdb8d3ae58c3eaf055e7e5"
+
+[update]
+[update.modrinth]
+mod-id = "Jz71ddli"
+version = "oBn7FxLM"

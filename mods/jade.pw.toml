@@ -1,0 +1,13 @@
+name = "Jade 🔍"
+filename = "Jade-1.19.1-forge-8.9.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nvQzSEkH/versions/SpOQVu02/Jade-1.19.1-forge-8.9.1.jar"
+hash-format = "sha1"
+hash = "73fceb55299091c1ce1a6b81264c65990630fe18"
+
+[update]
+[update.modrinth]
+mod-id = "nvQzSEkH"
+version = "SpOQVu02"

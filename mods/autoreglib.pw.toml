@@ -1,0 +1,13 @@
+name = "AutoRegLib"
+filename = "AutoRegLib-1.8.2-55.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NvZ9ZhwE/versions/pwEa2yJ2/AutoRegLib-1.8.2-55.jar"
+hash-format = "sha1"
+hash = "342cac5511fe7009a260bc0a25fee777179ba530"
+
+[update]
+[update.modrinth]
+mod-id = "NvZ9ZhwE"
+version = "pwEa2yJ2"

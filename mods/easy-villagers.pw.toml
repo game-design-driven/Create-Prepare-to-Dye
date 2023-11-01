@@ -1,0 +1,13 @@
+name = "Easy Villagers"
+filename = "easy_villagers-1.19.2-1.0.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kaov2qgi/versions/tuYSkMXf/easy_villagers-1.19.2-1.0.14.jar"
+hash-format = "sha1"
+hash = "9e22b9a7e46dfb157c3db670040cd2165dc6588d"
+
+[update]
+[update.modrinth]
+mod-id = "Kaov2qgi"
+version = "tuYSkMXf"

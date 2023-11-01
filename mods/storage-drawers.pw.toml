@@ -1,0 +1,7 @@
+name = "storage-drawers"
+filename = "StorageDrawers-1.19-11.1.2.jar"
+
+[download]
+url = "https://github.com/jaquadro/StorageDrawers/releases/download/sd-11.1.2/StorageDrawers-1.19-11.1.2.jar"
+hash-format = "sha256"
+hash = "45cf9a7b48cd4961a93a53abbcca43d8bb6d9a767e96633b2854db8fb69867be"

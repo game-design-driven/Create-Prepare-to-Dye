@@ -1,0 +1,13 @@
+name = "Not Enough Crashes"
+filename = "notenoughcrashes-4.2.1+1.19.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yM94ont6/versions/D7Tg80lr/notenoughcrashes-4.2.1%2B1.19.2-forge.jar"
+hash-format = "sha1"
+hash = "eecb31640eefae392c5c778028f2116e1094798c"
+
+[update]
+[update.modrinth]
+mod-id = "yM94ont6"
+version = "D7Tg80lr"
