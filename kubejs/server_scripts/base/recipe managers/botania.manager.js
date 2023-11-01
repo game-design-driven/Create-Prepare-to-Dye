@@ -45,8 +45,8 @@ function addInfusion(output, input, mana, catalyst) {
 }
 
 function addAlchemyRecipe(output, input, mana) {
-    addInfusion(output, input, mana, 'create:blaze_burner[blaze=fading,facing=south]')
-    addInfusion(output, input, mana * 2, 'create:blaze_burner[blaze=kindled,facing=south]')
+    addInfusion(output, input, mana / 3, 'create:blaze_burner[blaze=fading,facing=south]')
+    addInfusion(output, input, mana, 'create:blaze_burner[blaze=kindled,facing=south]')
 }
 
 
