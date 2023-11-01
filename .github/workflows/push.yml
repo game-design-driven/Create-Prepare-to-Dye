@@ -32,7 +32,7 @@ jobs:
           version: "linux"
 
       - name: Build Modrinth Modpack
-        run: packwiz modrinth export --output ${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}.mrpack
+        run: packwiz modrinth export --output "${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}.mrpack"
 
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
