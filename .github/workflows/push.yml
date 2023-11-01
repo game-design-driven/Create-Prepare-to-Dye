@@ -56,3 +56,4 @@ jobs:
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
+          name: ${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}
