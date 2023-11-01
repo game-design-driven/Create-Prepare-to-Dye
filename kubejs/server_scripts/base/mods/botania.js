@@ -55,3 +55,7 @@ if (feature('Remove and replace red string')) {
     removeRecipe({ id: 'botania:red_string_alt' })
     removeAndReplace('botania:red_string', 'minecraft:string')
 }
+
+if (feature('livingwood makes more charcoal')) {
+    addSmelting('3x charcoal', 'botania:livingwood', 0.1, 40)
+}
