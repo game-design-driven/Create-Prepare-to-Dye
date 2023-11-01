@@ -8,6 +8,7 @@ env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
   name: 'Create: Prepare to Dye'
+  modrinth-url: 'https://modrinth.com/modpack/create-prepare-to-dye'
 
 jobs:
   release:
@@ -42,7 +43,7 @@ jobs:
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}
+          body: ${{ steps.tag_version.outputs.changelog }} \n --- \n download from modrinth ${{ env.modrinth-url }}
           token: ${{ secrets.GH_TOKEN }}
           artifacts: |
             *.mrpack
