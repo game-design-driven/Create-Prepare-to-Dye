@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir export-dir
           cp -R \
-            CHANGELOG.md config defaultconfigs index.toml kubejs mods pack.toml \
+            CHANGELOG.md config defaultconfigs index.toml kubejs pack.toml \
             export-dir
           cd export-dir && packwiz modrinth export
 
