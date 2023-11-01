@@ -33,7 +33,7 @@ jobs:
 
       - name: Build name
         id: build_name
-        run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [modrinth]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [forge][modrinth]' >> $GITHUB_OUTPUT
       - name: Build Modrinth Modpack
         run: packwiz modrinth export --output "${{ steps.build_name.outputs.name }}.mrpack"
 
@@ -60,4 +60,3 @@ jobs:
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
           name: ${{ steps.build_name.outputs.name }}
-          
