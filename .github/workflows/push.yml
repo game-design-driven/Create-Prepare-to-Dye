@@ -52,7 +52,7 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           loaders: forge
           game-versions: 1.19.2
-          changelog-file: CHANGELOG.release.*
+          changelog: ${{ steps.tag_version.outputs.changelog }}
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
