@@ -23,6 +23,40 @@ jobs:
           tag_prefix: ''
           github_token: ${{ secrets.GH_TOKEN }}
 
+      - name: Parse the pack.toml
+        id: parse
+        run: |
+          loaders=("fabric" "forge" "quilt" "neoforge")
+          for loader in "${loaders[@]}"; do
+            if [[ $(<"${{ inputs.pack-file }}") == *"$loader ="* ]]; then
+              LOADER="$loader" && break
+            fi
+          done
+
+          [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.pack-file }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
+
+          GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
+          echo "loader=$LOADER" >> $GITHUB_OUTPUT
+          echo "game-version=$GAME_VERSION" >> $GITHUB_OUTPUT
+
+          echo "::notice ::⚙ The detected loader for ${{ inputs.modpack }} is $LOADER"
+          echo "::notice ::⚙ The detected game version for ${{ inputs.modpack }} is $GAME_VERSION"
+
+      - name: Install packwiz
+        uses: supplypike/setup-bin@v3
+        with:
+          uri: "https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
+          name: "packwiz"
+          version: "linux"
+
+      - name: Build Modrinth Modpack
+        run: |
+          mkdir export_folder
+          cp -R \
+            CHANGELOG.md config defaultconfigs index.toml kubejs mods pack.toml \
+            export-dir
+          cd export-dir && packwiz modrinth export
+
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
@@ -31,87 +65,7 @@ jobs:
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
           artifacts: |
-            ${{ env.pack-file }}
-      # --- Release please
-      # Creates and manages the prs and releases
-      # - name: Perform Release with Release Please
-      #   id: release-please
-      #   uses: google-github-actions/release-please-action@v3
-      #   with:
-      #     token: ${{ secrets.GH_TOKEN }}
-      #     release-type: simple
-      #     package-name: ${{ env.name }}
-      #     changelog-types: >
-      #       [{"type":"feat","section":"Features","hidden":false},
-      #       {"type":"fix","section":"Fixes","hidden":false},
-      #       {"type":"mod","section":"Modlist Changes","hidden":false},
-      #       {"type":"update","section":"Mod Updates","hidden":false},
-      #       {"type":"chore","section":"Miscellaneous","hidden":true}]
-      #     extra-files: |
-      #       ${{ env.pack-file }}
-            
-    #   # --- Parse version from PR Title when creating PR's
-    #   # Had to do this cause like to bump on the release pleae branch
-    #   # The tests for the shitty Regex can be found here: https://regexr.com/7lb8e
-    #   - name: Parse tag from PR title
-    #     uses: actions-ecosystem/action-regex-match@v2
-    #     id: version
-    #     with:
-    #       text: ${{ fromJson(steps.release-please.outputs.pr).title }}
-    #       regex: '(?<=\s)(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$'
-    #     if: ${{ steps.release-please.outputs.pr != '' }}
-
-    #   # --- Checkout the git repo
-    #   # Remembed to do this AFTER release please
-    #   - name: Check Out Git Repository
-    #     uses: actions/checkout@v4
-    #     with:
-    #       fetch-depth: 0
-
-    #   # --- Bump version
-    #   # Now we should use the parsed release to bump the version on the files on the release please branch
-    #   - name: Bump Version
-    #     uses: ./.github/actions/bump-pack
-    #     with:
-    #       release-tag: ${{ steps.version.outputs.match }}
-    #       modpack: ${{ matrix.modpack }}
-    #       branch:
-    #         ${{ fromJson(steps.release-please.outputs.pr).headBranchName }}
-    #     if: ${{ steps.release-please.outputs.pr != '' }}
-
-    #   # --- Get latest tag
-    #   # Should probably be switched to use the release please tag but whatever
-    #   - name: Get Latest tag
-    #     id: tag
-    #     uses: WyriHaximus/github-action-get-previous-tag@v1
-    #     if: ${{ steps.release-please.outputs.releases_created }}
-
-    #   # --- Handle the configs
-    #   - name: Parse Pack File
-    #     id: parse
-    #     uses: ./.github/actions/parse
-    #     with:
-    #       modpack: ${{ matrix.modpack }}
-    #     if: ${{ steps.release-please.outputs.releases_created }}
-
-    #   - name: Set Mod Vendors
-    #     id: set-mod-vendors
-    #     run: |
-    #       [[ ! -z "${{ secrets.CURSEFORGE_TOKEN }}" && ! -z "${{ secrets.CURSEFORGE_ID }}" ]] && echo "curseforge=true" >> $GITHUB_OUTPUT || echo "curseforge=false" >> $GITHUB_OUTPUT
-    #       [[ ! -z "${{ secrets.MODRINTH_TOKEN }}" && ! -z "${{ secrets.MODRINTH_ID }}" ]] && echo "modrinth=true" >> $GITHUB_OUTPUT || echo "modrinth=false" >> $GITHUB_OUTPUT
-    #     shell: bash
-    #     if: ${{ steps.release-please.outputs.releases_created }}
-
-    #   # --- Build an release
-    #   - name: Build Modpack
-    #     uses: ./.github/actions/build
-    #     with:
-    #       modpack: ${{ matrix.modpack }}
-    #       release-tag: ${{ steps.tag.outputs.tag }}
-    #       build-modrinth: ${{ env.default-release-modrinth }}
-    #       build-curse: ${{ env.default-release-curseforge }}
-    #     if: ${{ steps.release-please.outputs.releases_created }}
-
+            export-dir/*.mrpack
     #   # --- Release
     #   - name: Release Modpack to Vendors
     #     uses: ./.github/actions/release
