@@ -22,26 +22,7 @@ jobs:
         with:
           tag_prefix: ''
           github_token: ${{ secrets.GH_TOKEN }}
-
-      - name: Parse the pack.toml
-        id: parse
-        run: |
-          loaders=("fabric" "forge" "quilt" "neoforge")
-          for loader in "${loaders[@]}"; do
-            if [[ $(<"${{ inputs.pack-file }}") == *"$loader ="* ]]; then
-              LOADER="$loader" && break
-            fi
-          done
-
-          [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.pack-file }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
-
-          GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
-          echo "loader=$LOADER" >> $GITHUB_OUTPUT
-          echo "game-version=$GAME_VERSION" >> $GITHUB_OUTPUT
-
-          echo "::notice ::⚙ The detected loader for ${{ inputs.modpack }} is $LOADER"
-          echo "::notice ::⚙ The detected game version for ${{ inputs.modpack }} is $GAME_VERSION"
-
+          
       - name: Install packwiz
         uses: supplypike/setup-bin@v3
         with:
