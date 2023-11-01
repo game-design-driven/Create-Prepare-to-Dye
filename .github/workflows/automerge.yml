@@ -22,9 +22,9 @@ jobs:
             })
             return pr.data.body
       - uses: actions/checkout@v3
-        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease: pending') }}
+        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease') }}
       - name: Enable Pull Request Automerge
-        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease: pending') }}
+        if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease') }}
         run: gh pr merge --merge --auto ${{ github.event.pull_request.number }} --body "Merged by auto-merge action."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
