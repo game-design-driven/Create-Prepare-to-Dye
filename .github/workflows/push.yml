@@ -22,7 +22,7 @@ jobs:
         with:
           tag_prefix: ''
           github_token: ${{ secrets.GH_TOKEN }}
-          
+
       - name: Install packwiz
         uses: supplypike/setup-bin@v3
         with:
@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Modrinth Modpack
         run: |
-          mkdir export_folder
+          mkdir export-dir
           cp -R \
             CHANGELOG.md config defaultconfigs index.toml kubejs mods pack.toml \
             export-dir
