@@ -10,14 +10,14 @@
     A small but ambitious project to give create the stage it deserves
 
 ## Intro
-As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, iiradiated planet called earth.
+As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, iiradiated planet called *Chroma Prime*.
 
-Earth is mostly depleated in resources, and has a high concentration of hostile life. You must take the planet, and sell as much as possible back to the hungy society of the "United SPACE consumer union plus plus" in order to reastablish your company as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to build factories and trade routes create lasting relationships, compete with rivals and backstab your way to the top.
+*Chroma Prime* is mostly depleated in resources. You must take the planet, and *sell as much as possible* back to the hungry society of the "United SPACE consumer union plus plus" in order to *reestablish your company* as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to *build factories* and *trade routes* create lasting *relationships*, compete with rivals and back-stab your way to the top.
 ## About the project
 
 ### Concept
 - You inhibit the body of a robot. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
-- This planet is depleted from resources, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
+- This planet is depleted, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
 - Your goal is to be the highest rated producer in the system.
 ### Gameplay loop
 - You accept trade deals with various companies
