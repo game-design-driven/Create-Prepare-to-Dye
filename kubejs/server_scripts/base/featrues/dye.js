@@ -42,6 +42,7 @@ if (feature('black dye is more expensive')) {
 
 if (feature('Red from meat')) {
     addMilling('red_dye %80', '#forge:meat')
+    addCrushing(['red_dye %40', 'bone_meal %15'], '#forge:meat')
 }
 
 if (feature('Red from cinder flour')) {
