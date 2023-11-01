@@ -40,7 +40,8 @@ jobs:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
-          artifacts: *.mrpack
+          artifacts: |
+            *.mrpack
     #   # --- Release
     #   - name: Release Modpack to Vendors
     #     uses: ./.github/actions/release
