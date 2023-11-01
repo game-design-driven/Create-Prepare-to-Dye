@@ -63,6 +63,7 @@ jobs:
         id: release-please
         uses: google-github-actions/release-please-action@v3
         with:
+          token: ${{ secrets.GH_TOKEN }}
           release-type: simple
           package-name: ${{ env.name }}
           prerelease: true
