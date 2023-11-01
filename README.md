@@ -111,6 +111,7 @@ See all features [here](kubejs/server_scripts/base/featrues)
 
 
 
+[Modrinth page](https://modrinth.com/modpack/create-prepare-to-dye)
 [Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
 
 # Roadmap
@@ -122,5 +123,5 @@ See all features [here](kubejs/server_scripts/base/featrues)
 |Documentation                         | ![](https://progress-bar.dev/30)  | High       |   			| The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value |
 |Script base                           | ![](https://progress-bar.dev/100)  | Critical   | ✔			| The scripting tools and libraries needed to develop and modify the pack efficiently are implemented|
 |Modularity                            | ![](https://progress-bar.dev/90)  | Standard   |   			| All core aspects of the pack are configurable|
-|Performance                           | ![](https://progress-bar.dev/90)  | Low       	|   			| The pack starts up fast and can run on low end pcs well even through the end game|
+|Performance                           | ![](https://progress-bar.dev/90)  | Low       	|  ✔ 			| The pack starts up fast and can run on low end pcs well even through the end game|
 |Trading System                        | ![](https://progress-bar.dev/20)  | Critical   |   			| The system responsible for making intergalactic trades|
