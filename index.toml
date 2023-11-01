@@ -10,7 +10,7 @@ hash = "bf55f7eac43e1a77adda1f8e6e309fc02d246bcf8cec80227ba177796762e128"
 
 [[files]]
 file = ".github/workflows/push.yml"
-hash = "8d5e78528bde49d89dafb2b45007b289dcc5ff9aee580397d1e962e703b6fe0c"
+hash = "aaff182da416a385db5b2be032a8d9a79bda587d8b2c92f8139cee7d71ea3960"
 
 [[files]]
 file = ".vscode/settings.json"
@@ -397,6 +397,38 @@ file = "kubejs/server_scripts/base/loot.js"
 hash = "4d7e5dd30252de1d3bd9987d31d45e62348df2aea37336d710d796007438e408"
 
 [[files]]
+file = "kubejs/server_scripts/base/mods/botania.js"
+hash = "c4120d25edf486b7725307087cb038b68308ac4a28b581cc6e90744f6a381935"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/charm.js"
+hash = "ee9f2db87f03d94c10d81a581b207f1eb4f87eb433b5cd96a96c19db7293c99f"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/chunkloaders.js"
+hash = "1ab57c21b209cee8ca2b8b87e0e028f95aae1385d1824de09d7ee07d00c4cee0"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/create.js"
+hash = "3fd519ffd77e2f4ef2ba32c1f44c0329606ef986228dbd67a01b8a56ce748495"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/minecraft.js"
+hash = "3a7cc111b45b8347ef6c6137fccf270b86e8ac403311d9e80f74cd6ef9e59d03"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/quark.js"
+hash = "c1063e036bee7e3b7b2e10d5f24a8cd89fc33a9a9f5c8467dd660e057dc24244"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/refinedStorage.js"
+hash = "f585fb47b689ed2018d55695dfa3cb58b64a88e371d1cdaa04cdbbbdea87f1ba"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/supplementaries.js"
+hash = "a0361a85fc3224ece975c7b5159254bcd7ed78109aa0c84ac3e27cbad5c1a072"
+
+[[files]]
 file = "kubejs/server_scripts/base/process.js"
 hash = "e3a14341b6bbcb485c2f42f0264b74e85599766dea071fe40de3620fb3aa14b2"
 
@@ -471,6 +503,254 @@ hash = "13fd99a525efa5d966c94b15995704b16dbc9393aeefc042ae5a30a24a6944dc"
 [[files]]
 file = "kubejs/startup_scripts/worldgen.js"
 hash = "7c641b84c53de2e20792ff308b10de7be53665b3ec4bea55de5f3a81f5f6efaf"
+
+[[files]]
+file = "mods/AutoRegLib-1.8.2-55.jar"
+hash = "a6e61dd9ba08d375146cf850d3c8c30f6478c9c898fda7245a507732368fd377"
+
+[[files]]
+file = "mods/BlockRunner-v4.2.2-1.19.2-Forge.jar"
+hash = "a651666ee79a0fef19eb3ad9a423b7a47cc55c92142532116104c699508cda64"
+
+[[files]]
+file = "mods/Botania-1.19.2-440-FORGE.jar"
+hash = "cd56e89845349b9dff7a8112c4811818fab8e325c8597277059d531ddde6111f"
+
+[[files]]
+file = "mods/Controlling-forge-1.19.2-10.0+7.jar"
+hash = "183a25828decbbcf4aec72ff2c3e17e152edd9d54f7a206e39725c5cf1621de0"
+
+[[files]]
+file = "mods/GlobalGameRules-1.19.2-7.0.1.7.jar"
+hash = "b7b6ecf199f20e523a0526d8ae4e1b117bedbe94178fd3e947054e5d649ca3c2"
+
+[[files]]
+file = "mods/ImmediatelyFast-1.2.6+1.19.2.jar"
+hash = "4340f46f53fdbb5933534e32a9c9f9272d217e19d44e3c88b2f08d129f675ef2"
+
+[[files]]
+file = "mods/Jade-1.19.1-forge-8.9.1.jar"
+hash = "a2dfefef7ed90d71ca448e6a78e54c5f87791d856074c7b629def897943fd008"
+
+[[files]]
+file = "mods/JadeAddons-1.19.2-forge-3.5.0.jar"
+hash = "d2ce1a5e986fc3a1276630cbb5dc9dc3b448099ffe89bac8809542e65676f801"
+
+[[files]]
+file = "mods/LeavesBeGone-v4.0.1-1.19.2-Forge.jar"
+hash = "2072f435d3921c46cf436a7b3a0ae1956286f8a4fa2e3b274054b430b47ea2b8"
+
+[[files]]
+file = "mods/Lychee-1.19.2-forge-3.14.1.jar"
+hash = "764d6484897289164bd0f1a5f595d48263c6bfd915f9a6c6c7c2efadbb4cd4b5"
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.19-2.23.jar"
+hash = "bf918fbaee669121d431c295337bd24ad90d2f9cb5e88bc46a241991ab401f81"
+
+[[files]]
+file = "mods/Patchouli-1.19.2-77.jar"
+hash = "ac3310decfc55493bd5b07da1ffb000f6be7a6cc24b3112088263d4cc64d100a"
+
+[[files]]
+file = "mods/PuzzlesLib-v4.4.3-1.19.2-Forge.jar"
+hash = "bb95c2854dd24d60f0bf93c7f3e45e79661067920618ed590e140000cc67210d"
+
+[[files]]
+file = "mods/Quark-3.4-418.jar"
+hash = "88802b12b343afa9a70483459eba6bc360007a8c40fe18f9c49ea1f5704dd131"
+
+[[files]]
+file = "mods/QuarkOddities-1.18.jar"
+hash = "3353852e58f5fcd0991d08dc26beb7305ed04e529a757f7ec3b6fa55b8dafdba"
+
+[[files]]
+file = "mods/SimpleRPC-forge-1.19-3.2.4.jar"
+hash = "93c9b08a052ff3757ad3cdaf11f052bc63f35bab4eea4b5def486a49eafce911"
+
+[[files]]
+file = "mods/StorageDrawers-1.19-11.1.2.jar"
+hash = "45cf9a7b48cd4961a93a53abbcca43d8bb6d9a767e96633b2854db8fb69867be"
+
+[[files]]
+file = "mods/UniversalBoneMeal-v4.2.0-1.19.2-Forge.jar"
+hash = "f75c2c0e7183f8a2b5e726e02c4235a46f084e52490c9142b73be3a5858409d9"
+
+[[files]]
+file = "mods/alternate-current-mc1.19-1.7.0.jar"
+hash = "c368e89707b545ad79ab15d5f48610dc7c83466a48a491b6e4b19402e7ce3f7e"
+
+[[files]]
+file = "mods/architectury-6.5.85-forge.jar"
+hash = "c480cb342a5226f7ff863752349752a71f93c7496918b1585ee92d063cd94648"
+
+[[files]]
+file = "mods/balm-forge-1.19.2-4.6.0.jar"
+hash = "16057fe2f0d22a38465cc8adedfe1e38222e5ab35a88fc15c08c539393f189af"
+
+[[files]]
+file = "mods/better_climbing-forge-2.jar"
+hash = "a2c26b5166aad45461c21ca43d8a74cc1a49317f9c05b24b64dbee685b03fc53"
+
+[[files]]
+file = "mods/canary-mc1.19.2-0.2.8.jar"
+hash = "872983198849ed10d3ce4ecab0913c3fd32bb145cbb9f717238c101ed5b1f1f5"
+
+[[files]]
+file = "mods/charm-fabric-1.19.2-4.4.4.jar"
+hash = "7a2756b51ed8875f6ca12cbabbf2208f66eb63909589cfa087159116a315e808"
+
+[[files]]
+file = "mods/chunkloaders-1.2.8-forge-mc1.19.jar"
+hash = "849d04e8ecbb414056df39260314514d58a3cbdd99140cca52dd9f97ad12836a"
+
+[[files]]
+file = "mods/cloth-config-8.3.103-forge.jar"
+hash = "46e6008ca40a1b76e07c3b474bd5b0ab26e8da301b61b2f9cb23a3ed70a1c634"
+
+[[files]]
+file = "mods/collective-1.19.2-6.66.jar"
+hash = "6fcac9ef429dbe1ae927d07ea0b517ab5d8291d3636835aa1782b3cdf4d42e72"
+
+[[files]]
+file = "mods/create-1.19.2-0.5.1.e.jar"
+hash = "45c00c39f88836aec415f5eb61c72df89fff3b58d42a8ec83c3e0c1a8d79c39a"
+
+[[files]]
+file = "mods/create_enchantment_industry-1.19.2-for-create-0.5.1.e-1.2.7.c.jar"
+hash = "d75d398948562c3b4d60512bf39320ff8d0f50a04740f35feee0be02e4929c6d"
+
+[[files]]
+file = "mods/create_jetpack-forge-3.2.3.jar"
+hash = "7aaee5d112b1482bcd95105645b43300a039384310a701555654827cd7e758ff"
+
+[[files]]
+file = "mods/create_tweaked_controllers-1.19.2-1.2.2.jar"
+hash = "917a8b3d07e0d8063c5f67cb717d49c27cd1462a9e7355c924ba6d0a378ed9c1"
+
+[[files]]
+file = "mods/curios-forge-1.19.2-5.1.4.1.jar"
+hash = "576ae983832f1f3cd0c66ff24da6ced83101ea440a9fb49dc25bd4e3f9b3c634"
+
+[[files]]
+file = "mods/defaultoptions-forge-1.19-15.0.2.jar"
+hash = "1f017a329a9aa8f1cd1d31859ff260c82b243070675b9d86eb7204923bcdb412"
+
+[[files]]
+file = "mods/easy_villagers-1.19.2-1.0.14.jar"
+hash = "113691c45def73a073b779b2c3b0cfb4812d528f9693fe9b94ddc38f30f99726"
+
+[[files]]
+file = "mods/easyelytratakeoff-1.19.2-4.0.jar"
+hash = "ad4e0915ca15731ff90291be5bfe9b153c5ec309546be86ede6cdb9934fdf923"
+
+[[files]]
+file = "mods/effortlessbuilding-1.19.2-3.5-all.jar"
+hash = "50d5766c56f8db6134154a545bcc5f43163c78ca0b02ba0cb28018d5ab65df73"
+
+[[files]]
+file = "mods/fabric-api-0.76.1+1.19.2.jar"
+hash = "2dfe04b0aa227a6ff6211b57a95eae00af21c239c902ad55a349a9f1d0082662"
+
+[[files]]
+file = "mods/hourglass-1.19.1-1.2.1.1.jar"
+hash = "f93118c294dfdd89f8c98ce53f953ed5527f118f9959e0577c58269d16f5aec0"
+
+[[files]]
+file = "mods/immersive-portals-2.3.2-mc1.19.2-fabric.jar"
+hash = "c037e88ac2856dc00868a5d3ca2cae65c55db877b7b2704dd91695000d42582d"
+
+[[files]]
+file = "mods/jei-1.19.2-forge-11.6.0.1018.jar"
+hash = "98ac3f21e6c33c8adc484b426e7033edc032896b46b54a7aa71670735aea7c06"
+
+[[files]]
+file = "mods/kotlinforforge-3.12.0-all.jar"
+hash = "a42d10a97afd3313af57ecc88f531fffb048d89b2aa2fd01c586d67c161fdcca"
+
+[[files]]
+file = "mods/kubejs-create-forge-1902.2.4-build.29.jar"
+hash = "7c22d9dfab832a53ff7c7cb06ade7bd3fc91ad629001597ae61b96e290770a46"
+
+[[files]]
+file = "mods/kubejs-forge-1902.6.2-build.33.jar"
+hash = "db03b962936171ff2e809817c93066f56d59a6137089edb861c27f23e15bbc1c"
+
+[[files]]
+file = "mods/kubejsadditions-forge-3.2.0.jar"
+hash = "f136834ff2207d90d8ba97f9cdcacda71483b408e555d33e8bc62f07ff94bdf2"
+
+[[files]]
+file = "mods/kubejsoffline-2.1.6.jar"
+hash = "c6f12c396ada81f4d46357cd4dcfea95690d77ecbbddbaaec02899cb2973071e"
+
+[[files]]
+file = "mods/lithium-fabric-mc1.19.2-0.11.1.jar"
+hash = "7ee6a12cc5dabd0bcd6d368743270de08bc2dbac11d2b5c6d621841b8f448621"
+
+[[files]]
+file = "mods/lootjs-forge-1.19.2-2.9.1.jar"
+hash = "89cebea241a0b3b34ef0c41700569b5e1ab4f131bd6bfa78ac30d80650908d3c"
+
+[[files]]
+file = "mods/moonlight-1.19.2-2.2.46-forge.jar"
+hash = "5ac7785e3cb140b02e9275ec319b732e3972fd776d1f43c6788171191d13e702"
+
+[[files]]
+file = "mods/notenoughcrashes-4.2.1+1.19.2-forge.jar"
+hash = "5c21e53f092a3d96faf24bed2b3d3449be26f329ad4e057323eccce5589f2398"
+
+[[files]]
+file = "mods/owo-lib-0.9.3+1.19.jar"
+hash = "a85cf97cf08301086abe783fde90b964c799450ceff01cd79ce6d3d3b70e4a9c"
+
+[[files]]
+file = "mods/pluto-mc1.19.2-0.0.9.jar"
+hash = "dfe402bc55d676639fe4302e0128ee9548285dc86add91fd8c424469704002f4"
+
+[[files]]
+file = "mods/radon-0.8.2.jar"
+hash = "344eda2db688b1e15e56437a9616b96b5f252619050d2cebb8ac6a6a8fd6878d"
+
+[[files]]
+file = "mods/refinedstorage-1.11.6.jar"
+hash = "944b4c772b2e39e80bf063b653c8fb0049682f9172ccfffc2b0c47d0de71e3a5"
+
+[[files]]
+file = "mods/rhino-forge-1902.2.2-build.280.jar"
+hash = "0dc7db781fa9609d08932533661683a9686608b088a65f6b62bbd48ffd1316f8"
+
+[[files]]
+file = "mods/sodium-fabric-mc1.19.2-0.4.4+build.18.jar"
+hash = "12ecf3a81bcc18ae87e879124ccbc5d079e500be10e238bf61f56da5c3f7cf53"
+
+[[files]]
+file = "mods/supermartijn642configlib-1.1.8-forge-mc1.19.jar"
+hash = "506814fe38e5fb97cb41d9c94cbd8ce7b24d1d8cd5edd29498bc1fadf2a2bc6a"
+
+[[files]]
+file = "mods/supermartijn642corelib-1.1.15-forge-mc1.19.2.jar"
+hash = "831460d14da8fd40ae5a491b3488bfb1c437899603b48e5140f56981e609d3cd"
+
+[[files]]
+file = "mods/supplementaries-1.19.2-2.3.24.jar"
+hash = "dd346deb808de4301b20daa12db4f8f11ed796599fbddc18fd5f35834c83d555"
+
+[[files]]
+file = "mods/suppsquared-1.19.2-1.0.8.jar"
+hash = "ed7de464bb6cbc8b4764eec9ffdbe20beabb8def4643ae2b501aace2b771e15f"
+
+[[files]]
+file = "mods/tradeuses-1.2.1-1.19.2-FORGE.jar"
+hash = "ad6036563007d3cd661eb52779ca18c16b9e357385c9e9a33f8fa2cd0e539275"
+
+[[files]]
+file = "mods/trinkets-3.4.2.jar"
+hash = "5807e380000c8e0ccfa3a29d359819d557600b3bb4dd0890e9053c846e3fecd8"
+
+[[files]]
+file = "mods/wares-1.19.2-1.2.1.jar"
+hash = "a3f9e369622cfc215e39f73925401241441a1c57976e66bd58181aff63f90950"
 
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
