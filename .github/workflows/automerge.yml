@@ -27,4 +27,4 @@ jobs:
         if: ${{ contains(steps.pr.outputs.result, '/auto-merge') }} || ${{ contains(github.event.pull_request.labels.*.name, 'autorelease') }}
         run: gh pr merge --merge --auto ${{ github.event.pull_request.number }} --body "Merged by auto-merge action."
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: "${{ secrets.GH_TOKEN }}"
