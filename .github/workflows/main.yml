@@ -9,6 +9,7 @@ env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
   default-release-curseforge: "false"
+  name: 'create-prepare-to-dye'
 
 jobs:
   parse-current-modpacks:
@@ -60,17 +61,15 @@ jobs:
         id: release-please
         uses: google-github-actions/release-please-action@v3
         with:
-          monorepo-tags: true
-          path: ${{ matrix.modpack }}
           release-type: simple
-          package-name: ${{ matrix.modpack }}
+          package-name: ${{ env.name }}
           prerelease: true
           changelog-types: >
-            [{"type":"feat","section":"★ Features","hidden":false},
-            {"type":"fix","section":"♻ Bug Fixes","hidden":false},
-            {"type":"mod","section":"☀ Modpack Changes","hidden":false},
-            {"type":"update","section":"⚘ Modpack Updates","hidden":false},
-            {"type":"chore","section":"⛭ Miscellaneous","hidden":true}]
+            [{"type":"feat","section":"Features","hidden":false},
+            {"type":"fix","section":"Fixes","hidden":false},
+            {"type":"mod","section":"Modlist Changes","hidden":false},
+            {"type":"update","section":"Mod Updates","hidden":false},
+            {"type":"chore","section":"Miscellaneous","hidden":true}]
 
     #   # --- Parse version from PR Title when creating PR's
     #   # Had to do this cause like to bump on the release pleae branch
