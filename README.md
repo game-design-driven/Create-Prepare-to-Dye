@@ -1,8 +1,9 @@
-# ⚙️ Create : Prepare to Dye         [![](http://cf.way2muchnoise.eu/versions/518606_latest.svg)](https://minecraft.curseforge.com/projects/518606)
+# ⚙️ Create : Prepare to Dye         [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/releases)
 [![GitHub issues](https://img.shields.io/github/issues/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PandaBoy444/Create.run)](https://github.com/PandaBoy444/Create.run/commits)
 [![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 
 ⚙️ Create : Prepare to Dye is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
