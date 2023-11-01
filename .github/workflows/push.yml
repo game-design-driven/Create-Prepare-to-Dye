@@ -59,7 +59,7 @@ jobs:
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
-          name: ${{ steps.build_name.outputs.name }} ${{github.}}
+          name: ${{ steps.build_name.outputs.name }}
       - name: Update modrinth description to match reademe
         run: |
           curl -X PATCH \
