@@ -31,12 +31,7 @@ jobs:
           version: "linux"
 
       - name: Build Modrinth Modpack
-        run: |
-          mkdir export-dir
-          cp -R \
-            CHANGELOG.md config defaultconfigs index.toml kubejs pack.toml \
-            export-dir
-          cd export-dir && packwiz modrinth export
+        run: packwiz modrinth export --output ${{ env.name }}-modrinth-v${{ steps.tag_version.outputs.new_tag }}
 
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
@@ -45,8 +40,7 @@ jobs:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
-          artifacts: |
-            export-dir/*.mrpack
+          artifacts: *.mrpack
     #   # --- Release
     #   - name: Release Modpack to Vendors
     #     uses: ./.github/actions/release
