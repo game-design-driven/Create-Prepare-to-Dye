@@ -18,8 +18,8 @@ WorldgenEvents.remove(event => {
   event.removeOres(props => {
     props.blocks = ['minecraft:redstone_ore','minecraft:iron_ore','minecraft:gold_ore', 'minecraft:copper_ore', 'minecraft:lapis_ore', 'minecraft:emerald_ore']
   })  
-
-  // WorldgenEvents.add(event => {
+})
+WorldgenEvents.add(event => {
   //   event.addOre((ore) => {
   //     ore.addTarget('#minecraft:stone_ore_replaceables', 'minecraft:iron_ore')
   //     ore.count([0, 5])
