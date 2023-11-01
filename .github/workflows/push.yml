@@ -7,7 +7,7 @@ on:
 env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
-  name: 'create-prepare-to-dye'
+  name: 'Create: Prepare to Dye'
 
 jobs:
   release:
