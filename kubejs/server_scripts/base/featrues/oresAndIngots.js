@@ -1,6 +1,7 @@
 if (feature('iron and redstone basic income')) {
     // simple automated ways to acquire iron and redstone
     addItemApplication('iron_ore',['minecraft:stone', 'red_dye'])
+    addItemApplication('iron_ore',['minecraft:smooth_stone', '2x red_dye'])
     addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
     addItemApplication('redstone_ore',['minecraft:stone', 'nether_wart'])    
     addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'red_dye'])
@@ -21,11 +22,11 @@ if (feature('Ore processing')) {
 
     addMilling(['2x create:crushed_raw_iron', 'create:crushed_raw_iron %75'], '#forge:ores/iron')
 
-    addMilling('5x create:crushed_copper_ore', '#forge:ores/copper')
+    addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
     let crush_to_ingot_table = {
         'create:crushed_raw_iron': 'minecraft:iron_ingot',
-        'create:crushed_copper_ore': 'minecraft:copper_ingot',
+        'create:crushed_raw_copper': 'minecraft:copper_ingot',
         'create:crushed_gold_ore': 'minecraft:gold_ingot'
     }
     Object.entries(crush_to_ingot_table).forEach(entry => {
@@ -105,7 +106,7 @@ if (feature('Brass')) {
     addMixing('4x create:brass_ingot', ['#forge:ingots/gold', '#forge:ingots/copper'], temperature.heated)
     addMixing('2x create:brass_ingot', ['#forge:ingots/manasteel', '#forge:ingots/copper'])
     addElvenTrade('2x create:brass_ingot', ['#forge:ingots/copper', 'create:sweet_roll'])
-    // addItemExplode(['create:crushed_brass %75', '2x redstone %25'], ['2x #forge:dusts/mana', 'create:crushed_copper_ore'])
+    // addItemExplode(['create:crushed_brass %75', '2x redstone %25'], ['2x #forge:dusts/mana', 'create:crushed_raw_copper'])
 }
 if (feature('Copper')) {
     addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'minecraft:redstone')
