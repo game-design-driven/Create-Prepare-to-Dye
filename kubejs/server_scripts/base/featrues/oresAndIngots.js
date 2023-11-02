@@ -123,7 +123,7 @@ if (feature('Brass is gold')) {
 
 if (feature('Copper')) {
     addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'red_dye')
-    addFilling('minecraft:copper_ingot', '#forge:ingots', '1000x create:chocolate'),
+    addFilling('minecraft:copper_ingot', '#forge:ingots', '1000x create:chocolate')
 }
 if (feature('Lapis')) {
     // Recipes.addFluidToItem([<item:minecraft: lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);
