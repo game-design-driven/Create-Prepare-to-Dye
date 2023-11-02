@@ -27,7 +27,7 @@ if (feature('Ore processing')) {
     let crush_to_ingot_table = {
         'create:crushed_raw_iron': 'minecraft:iron_ingot',
         'create:crushed_raw_copper': 'minecraft:copper_ingot',
-        'create:crushed_gold_ore': 'minecraft:gold_ingot'
+        'create:crushed_raw_gold': 'minecraft:gold_ingot'
     }
     Object.entries(crush_to_ingot_table).forEach(entry => {
         const [crushed, ingot] = entry;
