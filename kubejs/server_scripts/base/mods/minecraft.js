@@ -148,3 +148,6 @@ if (feature('Enchanting table from amathist')) {
     // addShaped('enchanting_table',[' a ','cdc','ddd'], {b:'book',c:'',d:'obsidian'})
     
 }
+if (feature('Calcite from quartz')) {
+    addInfusion('calcite', 'quartz_block', 500, 'obsidian')
+}
