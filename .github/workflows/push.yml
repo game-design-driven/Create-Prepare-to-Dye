@@ -43,7 +43,6 @@ jobs:
         id: build_args
         run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
       - name: Build Modpack
-        if: matrix.platform == 'modrinth'
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
@@ -57,7 +56,6 @@ jobs:
             *.zip
 
       - name: Publish to Modrinth
-        if: matrix.platform == 'modrinth'
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           modrinth-id: ${{ vars.MODRINTH_ID }}
