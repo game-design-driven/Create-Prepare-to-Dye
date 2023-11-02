@@ -57,5 +57,5 @@ if (feature('Remove and replace red string')) {
 }
 
 if (feature('livingwood makes more charcoal')) {
-    addSmelting('3x charcoal', 'botania:livingwood', 0.1, 40)
+    addSmelting('3x charcoal', 'botania:livingwood', 0.1, 800)
 }
