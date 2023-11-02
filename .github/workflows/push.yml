@@ -84,7 +84,7 @@ jobs:
           curseforge-token: ${{ secrets.CF_API_TOKEN }}
           loaders: forge
           game-versions: 1.19.2
-          changelog-file: ${{ steps.tag_version.outputs.changelog }}
+          changelog: ${{ steps.tag_version.outputs.changelog }}
           files: "*.zip"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
