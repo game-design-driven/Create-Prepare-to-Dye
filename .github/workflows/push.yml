@@ -14,8 +14,6 @@ jobs:
   release:
     strategy:
       matrix:
-        platform: [modrinth, curseforge]
-        file_suffix: [mrpack, zip]
         include:
           - platform: modrinth
             file_suffix: mrpack
