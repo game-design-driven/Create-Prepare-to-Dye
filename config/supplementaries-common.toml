@@ -183,7 +183,7 @@
 
 [building]
 	daub = true
-	ash_bricks = true
+	ash_bricks = false
 	lapis_bricks = true
 	deepslate_lamp = true
 	end_stone_lamp = true
@@ -466,7 +466,7 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.lantern_tweaks]
 		#Allow wall lanterns placement
