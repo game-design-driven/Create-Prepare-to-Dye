@@ -8,6 +8,7 @@ env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
   name: 'Create: Prepare to Dye'
+  slug: 'create-prepare-to-dye'
   modrinth-url: 'https://modrinth.com/modpack/create-prepare-to-dye'
 
 jobs:
@@ -56,7 +57,7 @@ jobs:
 
       - name: Build args
         id: build_args
-        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
 
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
