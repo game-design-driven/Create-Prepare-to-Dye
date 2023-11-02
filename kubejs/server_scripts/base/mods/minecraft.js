@@ -151,3 +151,7 @@ if (feature('Enchanting table from amathist')) {
 if (feature('Calcite from quartz')) {
     addInfusion('calcite', 'quartz_block', 500, 'obsidian')
 }
+
+if (feature('Deepslate from livingwood')) {
+    addAlchemyRecipe('deepslate', 'botania:livingwood')
+}
