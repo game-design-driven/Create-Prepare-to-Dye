@@ -12,6 +12,15 @@ env:
 
 jobs:
   release:
+    strategy:
+      matrix:
+        platform: [modrinth, curseforge]
+        file_suffix: [mrpack, zip]
+        include:
+          - platform: modrinth
+            file_suffix: mrpack
+          - platform: curseforge 
+            file_suffix: zip
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -22,7 +31,7 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.1
         with:
           tag_prefix: ''
-          custom_release_rules: feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes
+          custom_release_rules: feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration
           github_token: ${{ secrets.GH_TOKEN }}
 
       - name: Install packwiz
@@ -32,12 +41,12 @@ jobs:
           name: "packwiz"
           version: "linux"
 
-      - name: Build name
-        id: build_name
-        run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [forge][modrinth]' >> $GITHUB_OUTPUT
-      - name: Build Modrinth Modpack
-        run: packwiz modrinth export --output "${{ steps.build_name.outputs.name }}.mrpack"
-
+      - name: Build args
+        id: build_args
+        run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+      - name: Build Modpack
+        if: matrix.platform == 'modrinth'
+        run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
@@ -47,9 +56,10 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           artifacts: |
             *.mrpack
+            *.zip
 
       - name: Publish to Modrinth
-        id: modrinth
+        if: matrix.platform == 'modrinth'
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           modrinth-id: ${{ vars.MODRINTH_ID }}
@@ -60,11 +70,24 @@ jobs:
           files: "*.mrpack"
           version: ${{ steps.tag_version.outputs.new_tag }}
           version-type: release
-          name: ${{ steps.build_name.outputs.name }}
+          name: ${{ steps.build_args.outputs.name }}
       - name: Update modrinth description to match reademe
+        if: matrix.platform == 'modrinth'
         run: |
           curl -X PATCH \
             -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
+      - name: Publish to CurseForge
+        if: matrix.platform == 'curseforge'
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          curseforge-id: ${{ vars.CF_ID }}
+          curseforge-token: ${{ secrets.CF_API_TOKEN }}
+          loaders: forge
+          game-versions: 1.19.2
+          changelog-file: ${{ steps.tag_version.outputs.changelog }}
+          files: "*.zip"
+          version: ${{ steps.tag_version.outputs.new_tag }}
+          version-type: release
