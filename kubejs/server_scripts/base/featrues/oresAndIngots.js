@@ -1,13 +1,19 @@
-if (feature('iron and redstone basic income')) {
+if (feature('Ores from dyes')) {
     // simple automated ways to acquire iron and redstone
-    addItemApplication('iron_ore',['minecraft:stone', 'red_dye'])
-    addItemApplication('iron_ore',['minecraft:smooth_stone', 'red_dye'])
-    addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
-    addItemApplication('redstone_ore',['minecraft:stone', 'nether_wart'])    
-    addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'red_dye'])
-    addItemApplication('deepslate_redstone_ore',['minecraft:deepslate', 'nether_wart'])
+    addItemApplication('iron_ore',['minecraft:stone', 'white_dye'])
+    addItemApplication('iron_ore',['minecraft:smooth_stone', 'white_dye'])
+    addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'white_dye'])
+    addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', 'cobblestone'])
 
-    addShapeless('raw_iron',['red_dye', 'red_dye', '#forge:dyes', 'cobblestone', 'cobblestone'])
+    addItemApplication('redstone_ore',['minecraft:stone', 'red_dye'])    
+    addItemApplication('deepslate_redstone_ore',['minecraft:deepslate', 'red_dye'])
+
+    addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
+
+    addItemApplication('copper_ore',['minecraft:stone', 'orange_dye'])
+    addItemApplication('deepslate_copper_ore',['minecraft:deepslate', 'orange_dye'])
+
+
 }
 
 if (feature('Ore processing')) {
@@ -116,29 +122,8 @@ if (feature('Brass is gold')) {
 
 
 if (feature('Copper')) {
-    addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'minecraft:redstone')
-    addAssembly(['minecraft:copper_ingot %8', 'brick %2'], 'gold_ingot', [
-        addDeploying('minecraft:copper_ingot', 'gold_ingot', 'redstone')
-    ], 3)    
-    addAssembly(['minecraft:copper_ingot %9', 'brick %1'], 'gold_ingot', [
-        addDeploying('minecraft:copper_ingot', 'gold_ingot', 'redstone'),
-        addFilling('minecraft:copper_ingot', 'gold_ingot', '250x create:chocolate'),
-        addDeploying('minecraft:copper_ingot', 'gold_ingot', 'redstone')
-    ])    
-    addAssembly(['minecraft:copper_ingot %8', '9x iron_nugget %1', 'redstone %1'], 'iron_ingot', [
-        addDeploying('minecraft:copper_ingot', 'iron_ingot', 'redstone'),
-        addFilling('minecraft:copper_ingot', 'iron_ingot', '1000x create:chocolate'),
-        addDeploying('minecraft:copper_ingot', 'iron_ingot', 'redstone')
-    ])
-    addShaped('minecraft:copper_ore', [' r ', 'r#r', ' r '], { r: 'redstone', '#': '#forge:ores' })
-    // addItemExplode(['8x minecraft:copper_ore %8', '2x stone %2'], ['8x #forge:ores', '#forge:dusts/redstone'])
-    addMixing('3x minecraft:copper_ore', ['9x redstone', '#forge:ores'], temperature.heated)
-    //add tip that copper needs to be crafted instead of mined
-    // addBlockExplode(['create:copper_block', 'lime_stained_glass', 'green_stained_glass'], 'emerald_block')
-    // Recipes.addBlockExplosion(<block:create:copper_block>,<blockstate:minecraft:emerald_block>,100); // oxidization doesn't seem to work
-    addAssembly('minecraft:copper_ore', '#forge:ores',[
-        addDeploying('minecraft:copper_ore', '#forge:ores', 'redstone'),
-    ],4)    
+    addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'red_dye')
+    addFilling('minecraft:copper_ingot', '#forge:ingots', '1000x create:chocolate'),
 }
 if (feature('Lapis')) {
     // Recipes.addFluidToItem([<item:minecraft: lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);
@@ -169,3 +154,6 @@ if (feature('slime from dough and lime')) {
 // console.log('^'+Block.getBlock('minecraft:stone').defaultDestroyTime())
 // // console.log('^'+Block.getBlock('minecraft:stone').properties.harvestLevel)
 // // console.log('^'+Block.getBlock('minecraft:stone').defaultBlockState().asState().properties['hardness'].value)
+if (feature('Replace bricks with copper (orange ingot)')) {
+    removeAndReplace('minecraft:brick', '#forge:ingots/copper')
+}
