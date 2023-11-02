@@ -102,11 +102,16 @@ if (feature('Andesite_alloy')) {
     addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x bread'])
 }
 if (feature('Brass is gold')) {
-    addMixing('2x create:brass_ingot', ['#forge:ingots/iron', '#forge:ingots/copper'], temperature.heated)
-    addMixing('4x create:brass_ingot', ['#forge:ingots/gold', '#forge:ingots/copper'], temperature.heated)
-    addMixing('2x create:brass_ingot', ['#forge:ingots/manasteel', '#forge:ingots/copper'])
-    addElvenTrade('2x create:brass_ingot', ['#forge:ingots/copper', 'create:sweet_roll'])
+    addMixing('2x gold_ingot', ['#forge:ingots/iron', '#forge:ingots/copper'], temperature.heated)
+    // addMixing('4x create:brass_ingot', ['#forge:ingots/gold', '#forge:ingots/copper'], temperature.heated)
+    addMixing('2x gold_ingot', ['#forge:ingots/manasteel', '#forge:ingots/copper'])
+    addElvenTrade('8x gold_ingot', ['#forge:ingots/copper', 'create:sweet_roll'])
     // addItemExplode(['create:crushed_brass %75', '2x redstone %25'], ['2x #forge:dusts/mana', 'create:crushed_raw_copper'])
+    addToTag('forge:ingots/brass', 'gold_ingot')
+    removeItem('create:brass_ingot')
+
+    addToTag('forge:nuggets/brass', 'gold_nugget')
+    removeItem('create:brass_nugget')
 }
 
 
