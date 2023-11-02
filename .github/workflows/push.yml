@@ -8,6 +8,7 @@ env:
   pack-file: "pack.toml"
   default-release-modrinth: "true"
   name: 'Create: Prepare to Dye'
+  slug: 'create-prepare-to-dye'
   modrinth-url: 'https://modrinth.com/modpack/create-prepare-to-dye'
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}   download from modrinth ${{ env.modrinth-url }}
+          body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
   release:
     needs: tag_and_release
@@ -56,8 +57,11 @@ jobs:
 
       - name: Build args
         id: build_args
-        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
 
+      - name: Detect curseforge jars
+        if: matrix.platform == 'curseforge'
+        run: packwiz curseforge detect
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
