@@ -8,7 +8,7 @@ if (feature('Dye crafting')) {
     addInfusion('gray_dye', 'gunpowder')
 
     addElvenTrade('4x yellow_dye', ['glowstone_dust', 'bread'])
-    addInfusion('yellow_dye', '#forge:dyes', 3000, 'bee_nest[honey_level=5]')
+    addInfusion('yellow_dye', '#forge:dyes', 300, 'bee_nest[honey_level=5]')
 
     removeRecipe({ id: 'minecraft:yellow_dye_from_sunflower' })
     addShapeless('yellow_dye', 'sunflower')
