@@ -11,7 +11,30 @@ env:
   modrinth-url: 'https://modrinth.com/modpack/create-prepare-to-dye'
 
 jobs:
+  tag_and_release:
+    runs-on: ubuntu-latest
+    outputs:
+      new_tag: ${{ steps.tag_version.outputs.new_tag }}
+      changelog: ${{ steps.tag_version.outputs.changelog }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          tag_prefix: ''
+          custom_release_rules: feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration
+          github_token: ${{ secrets.GH_TOKEN }}
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}   download from modrinth ${{ env.modrinth-url }}
+          token: ${{ secrets.GH_TOKEN }}
   release:
+    needs: tag_and_release
     strategy:
       matrix:
         include:
@@ -24,14 +47,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v6.1
-        with:
-          tag_prefix: ''
-          custom_release_rules: feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration
-          github_token: ${{ secrets.GH_TOKEN }}
-
       - name: Install packwiz
         uses: supplypike/setup-bin@v3
         with:
@@ -41,23 +56,14 @@ jobs:
 
       - name: Build args
         id: build_args
-        run: echo 'name=${{ steps.tag_version.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.name }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
-      - name: Create a GitHub release
-        if: matrix.platform == 'modrinth'
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{ steps.tag_version.outputs.new_tag }}
-          name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}   download from modrinth ${{ env.modrinth-url }}
-          token: ${{ secrets.GH_TOKEN }}
-          artifacts: |
-            *.mrpack
-      - name: Upload CurseForge Modpack to GitHub Releases
-        if: matrix.platform == 'curseforge'
+
+      - name: Upload Modpack ffile to GitHub Releases
         run: |
-          gh release upload ${{ steps.tag_version.outputs.new_tag }} *.zip \
+          gh release upload ${{ needs.tag_and_release.outputs.new_tag }} *.${{ matrix.file_suffix }} \
             --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
             --clobber
         env:
@@ -70,9 +76,9 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           loaders: forge
           game-versions: 1.19.2
-          changelog: ${{ steps.tag_version.outputs.changelog }}
+          changelog: ${{ needs.tag_and_release.outputs.changelog }}
           files: "*.mrpack"
-          version: ${{ steps.tag_version.outputs.new_tag }}
+          version: ${{ needs.tag_and_release.outputs.new_tag }}
           version-type: release
           name: ${{ steps.build_args.outputs.name }}
       - name: Update modrinth description to match reademe
@@ -91,7 +97,7 @@ jobs:
           curseforge-token: ${{ secrets.CF_API_TOKEN }}
           loaders: forge
           game-versions: 1.19.2
-          changelog: ${{ steps.tag_version.outputs.changelog }}
+          changelog: ${{ needs.tag_and_release.outputs.changelog }}
           files: "*.zip"
-          version: ${{ steps.tag_version.outputs.new_tag }}
+          version: ${{ needs.tag_and_release.outputs.new_tag }}
           version-type: release
