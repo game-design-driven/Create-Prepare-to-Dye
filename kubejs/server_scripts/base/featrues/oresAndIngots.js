@@ -1,7 +1,7 @@
 if (feature('iron and redstone basic income')) {
     // simple automated ways to acquire iron and redstone
     addItemApplication('iron_ore',['minecraft:stone', 'red_dye'])
-    addItemApplication('iron_ore',['minecraft:smooth_stone', '2x minecraft:red_dye'])
+    addItemApplication('iron_ore',['minecraft:smooth_stone', 'red_dye'])
     addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
     addItemApplication('redstone_ore',['minecraft:stone', 'nether_wart'])    
     addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'red_dye'])
@@ -101,13 +101,15 @@ if (feature('Andesite_alloy')) {
     ])
     addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x bread'])
 }
-if (feature('Brass')) {
+if (feature('Brass is gold')) {
     addMixing('2x create:brass_ingot', ['#forge:ingots/iron', '#forge:ingots/copper'], temperature.heated)
     addMixing('4x create:brass_ingot', ['#forge:ingots/gold', '#forge:ingots/copper'], temperature.heated)
     addMixing('2x create:brass_ingot', ['#forge:ingots/manasteel', '#forge:ingots/copper'])
     addElvenTrade('2x create:brass_ingot', ['#forge:ingots/copper', 'create:sweet_roll'])
     // addItemExplode(['create:crushed_brass %75', '2x redstone %25'], ['2x #forge:dusts/mana', 'create:crushed_raw_copper'])
 }
+
+
 if (feature('Copper')) {
     addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'minecraft:redstone')
     addAssembly(['minecraft:copper_ingot %8', 'brick %2'], 'gold_ingot', [
