@@ -45,16 +45,21 @@ jobs:
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
       - name: Create a GitHub release
+        if: matrix.platform == 'modrinth'
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }} \n --- \n download from modrinth ${{ env.modrinth-url }}
+          body: ${{ steps.tag_version.outputs.changelog }}   download from modrinth ${{ env.modrinth-url }}
           token: ${{ secrets.GH_TOKEN }}
           artifacts: |
             *.mrpack
-            *.zip
-
+      - name: Upload CurseForge Modpack to GitHub Releases
+        if: matrix.platform == 'curseforge'
+        run: |
+          gh release upload ${{ steps.tag_version.outputs.new_tag }} *.zip \
+            --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
+            --clobber
       - name: Publish to Modrinth
         if: matrix.platform == 'modrinth'
         uses: Kir-Antipov/mc-publish@v3.2
