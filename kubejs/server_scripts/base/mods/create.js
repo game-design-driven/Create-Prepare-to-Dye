@@ -148,13 +148,13 @@ if (feature('better tracks')) {
 if (feature('Funnels and tunnels with silicon and leather')) {
     addShaped('2x create:andesite_funnel',['a','l'],{a:'create:andesite_alloy', l:'leather'})
     addShaped('2x create:andesite_funnel',['a','l'],{a:'create:andesite_alloy', l:'refinedstorage:silicon'})
-    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:electron_tube',a:'create:andesite_alloy', l:'leather'})
-    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:electron_tube',a:'create:andesite_alloy', l:'refinedstorage:silicon'})
+    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:andesite_alloy', l:'leather'})
+    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:andesite_alloy', l:'refinedstorage:silicon'})
     
-    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:brass_ingot', l:'leather'})
-    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:brass_ingot', l:'refinedstorage:silicon'})
-    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:electron_tube',a:'create:brass_ingot', l:'leather'})
-    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:electron_tube',a:'create:brass_ingot', l:'refinedstorage:silicon'})
+    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'refinedstorage:silicon'})
+    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'leather'})
+    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'leather'})
+    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'refinedstorage:silicon'})
 }
 
 // if (feature('Experiment')) {
