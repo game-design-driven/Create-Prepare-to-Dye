@@ -1,7 +1,6 @@
 if (feature('Ores from dyes')) {
     // simple automated ways to acquire iron and redstone
     addItemApplication('iron_ore',['minecraft:stone', 'white_dye'])
-    addItemApplication('iron_ore',['minecraft:smooth_stone', 'white_dye'])
     addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'white_dye'])
     addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', 'cobblestone'])
 
@@ -13,7 +12,16 @@ if (feature('Ores from dyes')) {
     addItemApplication('copper_ore',['minecraft:stone', 'orange_dye'])
     addItemApplication('deepslate_copper_ore',['minecraft:deepslate', 'orange_dye'])
 
+    addItemApplication('deepslate_emerald_ore',['minecraft:deepslate', 'lime_green_dye'])
 
+    addItemApplication('deepslate_lapis_ore',['minecraft:deepslate', 'blue_dye'])
+
+    addItemApplication('deepslate_diamond_ore',['minecraft:deepslate', 'cyan_dye'])
+
+    addItemApplication('coal_ore',['minecraft:stone', 'black_dye'])
+    addItemApplication('deepslate_coal_ore',['minecraft:deepslate', 'black_dye'])
+
+    addItemApplication('deepslate_gold_ore',['minecraft:deepslate', 'yellow_dye'])
 }
 
 if (feature('Ore processing')) {
@@ -48,10 +56,11 @@ if (feature('Dye into ore')) {
 }
 if (feature('Gold')) {
     removeItem('gold_ore')
+    removeItem('deepslate_gold_ore')
     //remove orechid pool
     // Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
     // Recipes.addFluidToItem([<item:minecraft:nether_gold_ore>],[<tag:items:forge:netherrack>*8],<fluid:create:honey>,1);
-    addFilling('gold_ingot', '#forge:ingots', '250x create:honey')
+    addFilling('gold_ingot', '#forge:ingots', '50x create:honey')
     // addFluidTransomItem('nether_gold_ore', '8x netherrack', 'create:honey')
     // addAssembly(['gold_nugget %1', 'white_dye %3', 'yellow_dye %3', 'red_dye %3'], 'egg', [
     //     addFilling('', '', '250x kubejs:acid')//replace with kjs acid
@@ -59,6 +68,9 @@ if (feature('Gold')) {
     addCrushing(['gold_nugget %3', 'red_dye %3', 'feather %3'], 'egg')
     addMilling('gold_nugget %5', 'egg')
     addItemApplication('minecraft:raw_gold_block', ['minecraft:honeycomb_block', '#forge:ingots/terrasteel'])
+}
+if (feature('Remove diamond ore')) {
+    removeItem('diamond_ore')
 }
 if (feature('Remove emerald ore')) {
     removeItem('emerald_ore')
