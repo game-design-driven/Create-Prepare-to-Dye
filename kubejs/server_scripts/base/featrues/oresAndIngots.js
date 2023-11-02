@@ -1,7 +1,7 @@
 if (feature('iron and redstone basic income')) {
     // simple automated ways to acquire iron and redstone
     addItemApplication('iron_ore',['minecraft:stone', 'red_dye'])
-    addItemApplication('iron_ore',['minecraft:smooth_stone', '2x red_dye'])
+    addItemApplication('iron_ore',['minecraft:smooth_stone', '2x minecraft:red_dye'])
     addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
     addItemApplication('redstone_ore',['minecraft:stone', 'nether_wart'])    
     addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'red_dye'])
