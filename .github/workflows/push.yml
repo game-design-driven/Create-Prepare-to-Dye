@@ -60,6 +60,8 @@ jobs:
           gh release upload ${{ steps.tag_version.outputs.new_tag }} *.zip \
             --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
             --clobber
+        env:
+          github_token: ${{ secrets.GH_TOKEN }}
       - name: Publish to Modrinth
         if: matrix.platform == 'modrinth'
         uses: Kir-Antipov/mc-publish@v3.2
