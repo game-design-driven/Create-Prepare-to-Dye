@@ -16,7 +16,7 @@ WorldgenEvents.remove(event => {
     'botania:mystical_mushrooms'
   ])
   event.removeOres(props => {
-    props.blocks = ['minecraft:redstone_ore','minecraft:iron_ore','minecraft:gold_ore', 'minecraft:copper_ore', 'minecraft:lapis_ore', 'minecraft:emerald_ore']
+    props.blocks = ['minecraft:diamond_ore','minecraft:redstone_ore','minecraft:iron_ore','minecraft:gold_ore', 'minecraft:copper_ore', 'minecraft:lapis_ore', 'minecraft:emerald_ore']
   })  
 })
 WorldgenEvents.add(event => {
