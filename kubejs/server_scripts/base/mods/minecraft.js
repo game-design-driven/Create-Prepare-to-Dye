@@ -152,3 +152,7 @@ if (feature('Calcite from quartz')) {
 if (feature('Deepslate from livingwood')) {
     addAlchemyRecipe('deepslate', 'botania:livingwood')
 }
+
+if (feature('Remove and replace shulker shell with purple dye')) {
+    removeAndReplace('shulker_shell', '#forge:dyes/purple')
+}
