@@ -28,4 +28,12 @@ if (feature('Remove almost all tools')) {
         'botania:manasteel_pick',
         'botania:manasteel_sword'
     ])
+    //gold
+    removeItems([
+        'minecraft:golden_axe',
+        'minecraft:golden_hoe',
+        'minecraft:golden_pickaxe',
+        'minecraft:golden_shovel',
+        'minecraft:golden_sword'
+    ])
 }
