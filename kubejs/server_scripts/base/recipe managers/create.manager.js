@@ -16,7 +16,7 @@ function addAssembly(output, input, steps, loops, transitionalItem) {
     console.log("Before cleaning  " + modpackRecipes);
     steps.forEach((recipe) => {
         modpackRecipes = modpackRecipes.filter(item => item !== recipe)
-        console.log("adding recipe !!! " + JSON.stringify(recipe));
+        // console.log("adding recipe !!! " + JSON.stringify(recipe));
     })
     console.log("AFter cleaning  " + modpackRecipes);
 
@@ -32,7 +32,7 @@ function addAssembly(output, input, steps, loops, transitionalItem) {
         results: solveResults(output),
         loops: loops
     }
-    console.log("adding recipe !!! " + JSON.stringify(recipe));
+    // console.log("adding recipe !!! " + JSON.stringify(recipe));
     modpackRecipes.push(recipe)
 }
 /**
