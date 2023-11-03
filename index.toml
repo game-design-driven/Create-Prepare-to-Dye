@@ -520,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "dd21e314c808385295c29f9fa960274acccfb261c9d8bdda6c662a2c89d33a9e"
+hash = "fcf564690f970e3b66d3f9c90ed73b6d3208608f28ae68154c004a6635d1b761"
 metafile = true
 
 [[files]]
@@ -530,17 +530,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "f4f299e08182f37c81a4ff8a875058ca51b750cd39352c916567fa422349e200"
+hash = "5310e389fc77e7f725a2b68ecea8c82034858371bcc9b4ef6693584a43447033"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "e383476cde5d88b8f24936f1030defde1b202e6eedd52e078169f19fc7735c7c"
+hash = "8f7b16bd319a4c534acbc80f83e4359b756b301c76444d5a0afa1d1cb45d20a4"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "e6100fffd00b339e62efc3a6eaad54ca697b197813dff048d6dce2613676ef92"
+hash = "a89d8b3b63fa4eaff3f93cb2a08a6c78dcc10182ab1229819508c68fbb70f73f"
 metafile = true
 
 [[files]]
@@ -625,7 +625,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "496f8daedff8685ee2db6f74ef65e871bd9bab7150f84919899e8f28c0390882"
+hash = "24d74a37e9c13998089fdb0d5596fedbdf1e64457cc35c001526929f45befcd2"
 metafile = true
 
 [[files]]
@@ -680,7 +680,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "83f164138c78e7c45386f26508b40fbf8772c5ce04a2027a85f381d8d4df6ec1"
+hash = "21572cd9b2baa2c77c43a32c17f4883808fc47c68cd2f01a6730a1f67273d7a3"
 metafile = true
 
 [[files]]
