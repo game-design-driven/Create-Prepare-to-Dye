@@ -574,6 +574,11 @@ hash = "58ca900c088deaee6d6801c247cb7780fedb0cafcf046caed79a6ecef72c75c3"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "255962e47185fd89150f8c9c9bd3fbc835e99bb453ae8f04d4915484004ad222"
+metafile = true
+
+[[files]]
 file = "mods/global-gamerules.pw.toml"
 hash = "6b7cf7049c350f5bf3d225584b55c1419078510822cac50f49020db867391180"
 metafile = true
@@ -601,6 +606,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "f22c5baa35be596f72485c0011c80597d3f2e06492574973912dee5e4aa54cac"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "5402b8c2d09491f95f2d794459f7adad102f52b09a07a1568b148493ab91d504"
 metafile = true
 
 [[files]]
