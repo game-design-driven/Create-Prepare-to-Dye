@@ -159,6 +159,7 @@ if (feature('Funnels and tunnels with silicon and leather')) {
 
 if (feature('Replace electron tube with polished quartz')) {
     removeAndReplace('create:electron_tube', 'create:polished_rose_quartz')
+    removeRecipe({id:'create:crafting/materials/electron_tube'})
 }
 // if (feature('Experiment')) {
 //     let out = Item.of('wares:delivery_agreement', '{ordered:10,paymentItems:[{Count:1,id:"minecraft:emerald"}],requestedItems:[{Count:384,id:"minecraft:baked_potato"}],title:\'{"text":"A Great Deal"}\'}')
