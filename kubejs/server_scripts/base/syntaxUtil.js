@@ -73,7 +73,7 @@ function solveIngredients(ingredients) {
           //is string, apply custom syntax
           if (ingredient.includes("x ")) {
             let times = parseInt(ingredient.split("x ")[0]);
-            for (let i = 1; i < times; i++) {
+            for (let i = 0; i < times; i++) {
               // starts from one because we'll push the default one later anyways
               outArr.push(solveIngredient(ingredient.split("x ")[1]));
             }
