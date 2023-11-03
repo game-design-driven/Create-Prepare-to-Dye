@@ -8,6 +8,20 @@ function addItemInside(post, input, block_in) {
     }
     modpackRecipes.push(result)
 }
+
+function addBlockInteract(block_out, block_in, item_in) {
+    let post = {
+        type: 'place',
+        block: block_out,
+    }
+    let recipe = {
+        type: 'lychee:block_interacting',
+        item_in: solveLimitedIngredient(item_in),
+        block_in: block_in,
+        post: post,
+    }
+    modpackRecipes.push(recipe)
+}
 addItemInside([
     {type: 'drop_item', item: 'white_dye'},
     {type: 'place', block: {blocks: ['water_cauldron'], state: {level: 2}}},
