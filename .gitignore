@@ -48,3 +48,4 @@ config/jei/recipe-category-sort-order.ini
 config/collective/checked.txt
 *.db
 *.local
+emi.json
