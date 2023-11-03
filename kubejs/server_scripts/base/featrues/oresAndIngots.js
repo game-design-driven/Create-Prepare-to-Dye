@@ -23,8 +23,8 @@ if (feature('Ores from dyes')) {
         addBlockInteract(ore, 'minecraft:deepslate', dye)
     })
     
-    addShapeless('raw_iron','white_dye', 'white_dye', '#forge:dyes', 'cobblestone')
-    addShapeless('raw_copper','orange_dye', 'orange_dye', '#forge:dyes', 'cobblestone')    
+    addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', 'cobblestone'])
+    addShapeless('raw_copper',['orange_dye', 'orange_dye', '#forge:dyes', 'cobblestone'])    
 }
 
 if (feature('Ore processing')) {
