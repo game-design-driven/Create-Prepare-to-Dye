@@ -1,28 +1,29 @@
 if (feature('Ores from dyes')) {
     // simple automated ways to acquire iron and redstone
     // addBlockInteract('iron_ore',['minecraft:stone', 'white_dye'])
-    addBlockInteract('minecraft:iron_ore', 'minecraft:stone', 'white_dye')
-    addBlockInteract('deepslate_iron_ore','minecraft:deepslate', 'white_dye')
+    let basicOres = {
+        'iron_ore': 'white_dye',
+        'redstone_ore': 'red_dye',
+        'copper_ore': 'orange_dye',
+        'coal_ore': 'black_dye',
+    }
+    let deepslateOnlyOres = {
+        'deepslate_emerald_ore': 'lime_dye',
+        'deepslate_lapis_ore': 'blue_dye',
+        'deepslate_diamond_ore': 'cyan_dye',
+        'deepslate_gold_ore': 'yellow_dye',
+    }
+    Object.entries(basicOres).forEach(entry => {
+        const [ore, dye] = entry;
+        addBlockInteract(ore, 'minecraft:stone', dye)
+        addBlockInteract('deepslate_'+ore, 'minecraft:deepslate', dye)
+    })
+    Object.entries(deepslateOnlyOres).forEach(entry => {
+        const [ore, dye] = entry;
+        addBlockInteract(ore, 'minecraft:deepslate', dye)
+    })
+    
     addShapeless('raw_iron','white_dye', 'white_dye', '#forge:dyes', 'cobblestone')
-
-    addBlockInteract('redstone_ore','minecraft:stone', 'red_dye')    
-    addBlockInteract('deepslate_redstone_ore','minecraft:deepslate', 'red_dye')
-
-    addBlockInteract('nether_quartz_ore','netherrack', 'white_dye')
-
-    addBlockInteract('copper_ore','minecraft:stone', 'orange_dye')
-    addBlockInteract('deepslate_copper_ore','minecraft:deepslate', 'orange_dye')
-
-    addBlockInteract('deepslate_emerald_ore','minecraft:deepslate', 'lime_dye')
-
-    addBlockInteract('deepslate_lapis_ore','minecraft:deepslate', 'blue_dye')
-
-    addBlockInteract('deepslate_diamond_ore','minecraft:deepslate', 'cyan_dye')
-
-    addBlockInteract('coal_ore','minecraft:stone', 'black_dye')
-    addBlockInteract('deepslate_coal_ore','minecraft:deepslate', 'black_dye')
-
-    addBlockInteract('deepslate_gold_ore','minecraft:deepslate', 'yellow_dye')
 }
 
 if (feature('Ore processing')) {
