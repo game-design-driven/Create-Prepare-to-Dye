@@ -114,3 +114,11 @@ customization {
   height = 20
 }
 
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 42
+}
+
