@@ -27,7 +27,7 @@ if (feature('ae2 recipes')) {
         'PPP',
         'RRR',
         'PPP'
-    ], {P: 'refinedstorage:silicon',R: 'create:polished_rose_quartz'})
+    ], {P: '#forge:silicon',R: 'create:polished_rose_quartz'})
     addShaped('2x ae2:fluix_smart_cable', [
         'PPP',
         'RDR',
@@ -57,6 +57,7 @@ if (feature('ae2 recipes')) {
     ], { A: 'create:andesite_casing', C: '#forge:ingots/copper', D: '#forge:dusts/mana', G: '#forge:glass', '#': 'minecraft:comparator' })
     removeRecipe({id: 'ae2:network/parts/storage_bus'})
     removeRecipe({id: 'ae2:smelting/silicon_from_certus_quartz_dust'})
-    addSmelting('ae2:silicon', 'quartz', 0.1, 3600)
+    removeRecipe({id: 'ae2:blasting/silicon_from_certus_quartz_dust'})
 
+    addSmelting('ae2:silicon', 'quartz', 0.1, 3600)
 }
