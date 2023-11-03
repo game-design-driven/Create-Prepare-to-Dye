@@ -1,0 +1,274 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Create: Prepare to Dye
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 12
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -10
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 64
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 36
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 64
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -32
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 64
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 0f0e17d0-5f9e-48b7-ae08-2a47f39e3e681699022868283
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 4542b693-768a-44fa-915e-51713ba41e1c1699022868288
+  y = 215
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 4d491377-6aa8-45ca-9d21-1154465e159d1699022868288
+  y = 237
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = b74728f0-b564-4fdc-9ff6-8984be081aed1699022868288
+  y = 164
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = e59e90f8-a647-4879-9afd-d1867e2eec691699022868288
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fe2a3f57-5931-4a5c-85ca-1207e0cc8f851699022868288
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = Issues
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Yarden-zamir/Create.run/issues%btnaction_splitter_fm%
+  x = -32
+  width = 64
+  action = addbutton
+  actionid = a5bbd468-f840-4c2a-a718-5b9deca551d31699023046313
+  y = 32
+  label = Feedback
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/5bMXvw4tPx%btnaction_splitter_fm%
+  x = 36
+  width = 64
+  action = addbutton
+  actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
+  y = 32
+  label = Discord
+  height = 20
+}
+
+customization {
+  delayappearanceseconds = 0.0
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 328193c3-7ba1-4cd6-9a01-26dcf80eb6d51699026326345
+  playername = YardenZmr
+  delayappearance = true
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/6ac6ca262d67bcfb3dbc924ba8215a18195497c780058a5749de674217721892
+  crouching = false
+  x = 83
+  width = 18
+  parrot_left_shoulder = false
+  y = 51
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  path = fancymenu_data/pipes.png
+  orientation = top-centered
+  x = -45
+  width = 90
+  action = addtexture
+  actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
+  y = 26
+  height = 90
+}
+
