@@ -5,10 +5,10 @@
 //     <item:create:limesand> % 50,
 // ],<tag:items:forge:sand/colorless>);
 if (feature('Improve milling recipes')) {
-    addMilling('2x orange_dye', '#forge:crops/carrot')
+    addMilling('orange_dye', '#forge:crops/carrot')
     
     removeRecipe({ id: 'create:milling/cocoa_beans' })
-    addMilling('2x brown_dye', 'cocoa_beans')
+    addMilling('brown_dye', 'cocoa_beans')
 
     removeRecipe({ id: 'create:milling/sandstone' })
     addMilling(['3x sand', 'sand %50'], '#forge:sandstone')
