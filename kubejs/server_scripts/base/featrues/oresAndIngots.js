@@ -1,27 +1,28 @@
 if (feature('Ores from dyes')) {
     // simple automated ways to acquire iron and redstone
-    addItemApplication('iron_ore',['minecraft:stone', 'white_dye'])
-    addItemApplication('deepslate_iron_ore',['minecraft:deepslate', 'white_dye'])
-    addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', 'cobblestone'])
+    // addBlockInteract('iron_ore',['minecraft:stone', 'white_dye'])
+    addBlockInteract('minecraft:iron_ore', 'minecraft:stone', 'white_dye')
+    addBlockInteract('deepslate_iron_ore','minecraft:deepslate', 'white_dye')
+    addShapeless('raw_iron','white_dye', 'white_dye', '#forge:dyes', 'cobblestone')
 
-    addItemApplication('redstone_ore',['minecraft:stone', 'red_dye'])    
-    addItemApplication('deepslate_redstone_ore',['minecraft:deepslate', 'red_dye'])
+    addBlockInteract('redstone_ore','minecraft:stone', 'red_dye')    
+    addBlockInteract('deepslate_redstone_ore','minecraft:deepslate', 'red_dye')
 
-    addItemApplication('nether_quartz_ore',['netherrack', 'white_dye'])
+    addBlockInteract('nether_quartz_ore','netherrack', 'white_dye')
 
-    addItemApplication('copper_ore',['minecraft:stone', 'orange_dye'])
-    addItemApplication('deepslate_copper_ore',['minecraft:deepslate', 'orange_dye'])
+    addBlockInteract('copper_ore','minecraft:stone', 'orange_dye')
+    addBlockInteract('deepslate_copper_ore','minecraft:deepslate', 'orange_dye')
 
-    addItemApplication('deepslate_emerald_ore',['minecraft:deepslate', 'lime_green_dye'])
+    addBlockInteract('deepslate_emerald_ore','minecraft:deepslate', 'lime_dye')
 
-    addItemApplication('deepslate_lapis_ore',['minecraft:deepslate', 'blue_dye'])
+    addBlockInteract('deepslate_lapis_ore','minecraft:deepslate', 'blue_dye')
 
-    addItemApplication('deepslate_diamond_ore',['minecraft:deepslate', 'cyan_dye'])
+    addBlockInteract('deepslate_diamond_ore','minecraft:deepslate', 'cyan_dye')
 
-    addItemApplication('coal_ore',['minecraft:stone', 'black_dye'])
-    addItemApplication('deepslate_coal_ore',['minecraft:deepslate', 'black_dye'])
+    addBlockInteract('coal_ore','minecraft:stone', 'black_dye')
+    addBlockInteract('deepslate_coal_ore','minecraft:deepslate', 'black_dye')
 
-    addItemApplication('deepslate_gold_ore',['minecraft:deepslate', 'yellow_dye'])
+    addBlockInteract('deepslate_gold_ore','minecraft:deepslate', 'yellow_dye')
 }
 
 if (feature('Ore processing')) {
