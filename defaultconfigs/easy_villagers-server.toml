@@ -10,6 +10,7 @@
 	converting_time = 6000
 
 [farmer]
+	#The chance that a crop grows a stage in a farmer
 	#Lower values mean faster growth
 	#Range: > 1
 	farm_speed = 10
