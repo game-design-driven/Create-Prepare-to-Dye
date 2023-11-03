@@ -100,14 +100,15 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  x = 244
+  buttonaction = openlink;https://github.com/Yarden-zamir/Create.run/issues%btnaction_splitter_fm%
+  x = 4
   width = 98
   action = addbutton
   actionid = d0246075-29d9-4995-be8b-e0ee7846a8071699029859694
-  y = 145
+  y = 17
   description = Create: Prepare to Dye issue tracker
   label = Feedback
   height = 20

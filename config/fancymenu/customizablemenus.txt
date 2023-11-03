@@ -12,9 +12,9 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
-net.minecraft.client.gui.screens.PauseScreen {
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.InventoryScreen {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
