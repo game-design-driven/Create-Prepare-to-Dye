@@ -93,3 +93,7 @@ if (feature('Iron plate block from black')) {
     removeRecipe({id: 'quark:building/crafting/iron_plate'})
     addShapeless('16x quark:iron_plate',['3x #forge:plates/iron','#forge:dyes/black'])
 }
+
+if (feature('Remove forgotten hat')) {
+    removeItem('quark:forgotten_hat')
+}

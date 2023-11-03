@@ -1341,7 +1341,7 @@
 	Stonelings = true
 	Shiba = true
 	Foxhound = false
-	Forgotten = true
+	Forgotten = false
 	Crabs = true
 
 	[mobs.wraith]
