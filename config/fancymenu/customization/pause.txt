@@ -31,7 +31,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 17
+  y = 16
 }
 
 customization {
@@ -81,7 +81,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 42
+  y = 40
 }
 
 customization {
@@ -100,14 +100,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -8
-}
-
-customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
@@ -116,9 +108,17 @@ customization {
   width = 98
   action = addbutton
   actionid = d0246075-29d9-4995-be8b-e0ee7846a8071699029859694
-  y = 17
+  y = 16
   description = Create: Prepare to Dye issue tracker
   label = Feedback
   height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -8
 }
 
