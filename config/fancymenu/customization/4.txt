@@ -203,6 +203,17 @@ customization {
 }
 
 customization {
+  path = fancymenu_data/pipes.png
+  orientation = top-centered
+  x = -75
+  width = 150
+  action = addtexture
+  actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
+  y = 16
+  height = 150
+}
+
+customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   hoverlabel = Issues
@@ -229,46 +240,5 @@ customization {
   y = 32
   label = Discord
   height = 20
-}
-
-customization {
-  delayappearanceseconds = 0.0
-  slim = false
-  auto_skin = false
-  scale = 30
-  showname = true
-  follow_mouse = true
-  action = custom_layout_element:fancymenu_customization_player_entity
-  actionid = 328193c3-7ba1-4cd6-9a01-26dcf80eb6d51699026326345
-  playername = YardenZmr
-  delayappearance = true
-  bodyrotationx = 0.0
-  bodyrotationy = 0.0
-  auto_cape = false
-  is_baby = false
-  height = 54
-  orientation = top-centered
-  copy_client_player = true
-  headrotationy = 0.0
-  headrotationx = 0.0
-  skinurl = http://textures.minecraft.net/texture/6ac6ca262d67bcfb3dbc924ba8215a18195497c780058a5749de674217721892
-  crouching = false
-  x = 83
-  width = 18
-  parrot_left_shoulder = false
-  y = 51
-  parrot = false
-  delayappearanceeverytime = false
-}
-
-customization {
-  path = fancymenu_data/pipes.png
-  orientation = top-centered
-  x = -45
-  width = 90
-  action = addtexture
-  actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
-  y = 26
-  height = 90
 }
 
