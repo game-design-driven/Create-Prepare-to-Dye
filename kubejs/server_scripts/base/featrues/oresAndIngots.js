@@ -59,7 +59,6 @@ if (feature('Dye into ore')) {
 }
 if (feature('Gold')) {
     removeItem('gold_ore')
-    removeItem('deepslate_gold_ore')
     //remove orechid pool
     // Recipes.addFill(<item:minecraft:gold_ingot>,<tag:items:forge:ingots>,<fluid:create:honey> * 1000); 
     // Recipes.addFluidToItem([<item:minecraft:nether_gold_ore>],[<tag:items:forge:netherrack>*8],<fluid:create:honey>,1);
