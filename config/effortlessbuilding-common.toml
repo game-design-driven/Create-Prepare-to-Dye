@@ -6,13 +6,13 @@
 	#Maximum reach in survival without upgrades
 	#Consume Power Level upgrades to permanently increase this.
 	#Range: 0 ~ 1000
-	reachLevel0 = 0
+	reachLevel0 = 100
 	#Range: 0 ~ 1000
-	reachLevel1 = 8
+	reachLevel1 = 100
 	#Range: 0 ~ 1000
-	reachLevel2 = 16
+	reachLevel2 = 100
 	#Range: 0 ~ 1000
-	reachLevel3 = 32
+	reachLevel3 = 100
 
 [MaxBlocksPlacedAtOnce]
 	#How many blocks can be placed in one click.
@@ -22,11 +22,11 @@
 	#Consume Power Level upgrades to permanently increase this.
 	#Set to 0 to disable Effortless Building until the player has increased their Building Power Level.
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel0 = 128
+	maxBlocksPlacedAtOnceLevel0 = 640
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel1 = 192
+	maxBlocksPlacedAtOnceLevel1 = 640
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel2 = 320
+	maxBlocksPlacedAtOnceLevel2 = 640
 	#Range: 0 ~ 100000
 	maxBlocksPlacedAtOnceLevel3 = 640
 
@@ -38,11 +38,11 @@
 	#In survival without upgrades
 	#Consume Power Level upgrades to permanently increase this.
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel0 = 8
+	maxBlocksPerAxisLevel0 = 20
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel1 = 12
+	maxBlocksPerAxisLevel1 = 20
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel2 = 16
+	maxBlocksPerAxisLevel2 = 20
 	#Range: 0 ~ 1000
 	maxBlocksPerAxisLevel3 = 20
 

@@ -1,0 +1,39 @@
+if (feature('Remove almost all tools')) {
+    //keep one tool per material, remove the rest
+    //iron
+    removeItems([
+        'minecraft:iron_hoe',
+        'minecraft:iron_pickaxe',
+        'minecraft:iron_shovel',
+        'minecraft:iron_sword'
+    ])
+    //diamond
+    removeItems([
+        'minecraft:diamond_axe',
+        'minecraft:diamond_hoe',
+        'minecraft:diamond_shovel',
+        'minecraft:diamond_sword'
+    ])
+    //netherite
+    removeItems([
+        'minecraft:netherite_axe',
+        'minecraft:netherite_hoe',
+        'minecraft:netherite_shovel',
+        'minecraft:netherite_pickaxe',
+    ])
+    //manasteel
+    removeItems([
+        'botania:manasteel_axe',
+        'botania:manasteel_hoe',
+        'botania:manasteel_pick',
+        'botania:manasteel_sword'
+    ])
+    //gold
+    removeItems([
+        'minecraft:golden_axe',
+        'minecraft:golden_hoe',
+        'minecraft:golden_pickaxe',
+        'minecraft:golden_shovel',
+        'minecraft:golden_sword'
+    ])
+}

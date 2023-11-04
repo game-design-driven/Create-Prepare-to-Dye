@@ -57,11 +57,11 @@ jobs:
 
       - name: Build args
         id: build_args
-        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }} - ${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }}-${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
 
-      - name: Detect curseforge jars
-        if: matrix.platform == 'curseforge'
-        run: packwiz curseforge detect
+      # - name: Detect curseforge jars
+      #   if: matrix.platform == 'curseforge'
+      #   run: packwiz curseforge detect
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
@@ -93,15 +93,15 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
-      - name: Publish to CurseForge
-        if: matrix.platform == 'curseforge'
-        uses: Kir-Antipov/mc-publish@v3.2
-        with:
-          curseforge-id: ${{ vars.CF_ID }}
-          curseforge-token: ${{ secrets.CF_API_TOKEN }}
-          loaders: forge
-          game-versions: 1.19.2
-          changelog: ${{ needs.tag_and_release.outputs.changelog }}
-          files: "*.zip"
-          version: ${{ needs.tag_and_release.outputs.new_tag }}
-          version-type: release
+      # - name: Publish to CurseForge
+      #   if: matrix.platform == 'curseforge'
+      #   uses: Kir-Antipov/mc-publish@v3.2
+      #   with:
+      #     curseforge-id: ${{ vars.CF_ID }}
+      #     curseforge-token: ${{ secrets.CF_API_TOKEN }}
+      #     loaders: forge
+      #     game-versions: 1.19.2
+      #     changelog: ${{ needs.tag_and_release.outputs.changelog }}
+      #     files: "*.zip"
+      #     version: ${{ needs.tag_and_release.outputs.new_tag }}
+      #     version-type: release

@@ -1341,7 +1341,7 @@
 	Stonelings = true
 	Shiba = true
 	Foxhound = false
-	Forgotten = true
+	Forgotten = false
 	Crabs = true
 
 	[mobs.wraith]
@@ -1785,7 +1785,7 @@
 	"Totem Of Holding" = true
 	"Tiny Potato" = true
 	Pipes = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Crate = true
 	Backpack = true

@@ -93,9 +93,6 @@ if (feature('Rail recipes')) {
 if (feature('Crying obsidian recipes')) {
     // addBlockAnvil('crying_obsidian', 'obsidian')
 }
-if (feature('Shulker box Recipes')) {
-    replaceShaped('shulker_box',['a','b','a'],{a:'shulker_shell',b:'#forge:chests'})
-}
 if (feature('Shapeless lever')) {
     replaceShapeless('lever',['#forge:cobblestone','#forge:rods'])
 }
@@ -147,4 +144,15 @@ if (feature('Dirt to sand')) {
 if (feature('Enchanting table from amathist')) {
     // addShaped('enchanting_table',[' a ','cdc','ddd'], {b:'book',c:'',d:'obsidian'})
     
+}
+if (feature('Calcite from quartz')) {
+    addInfusion('calcite', 'quartz_block', 500, 'obsidian')
+}
+
+if (feature('Deepslate from livingwood')) {
+    addAlchemyRecipe('deepslate', 'botania:livingwood')
+}
+
+if (feature('Remove and replace shulker shell with purple dye')) {
+    removeAndReplace('shulker_shell', '#forge:dyes/purple')
 }

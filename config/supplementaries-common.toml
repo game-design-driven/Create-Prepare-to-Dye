@@ -5,9 +5,9 @@
 	redstone_illuminator = true
 	crank = true
 	faucet = true
-	cog_block = true
-	gold_door = true
-	gold_trapdoor = true
+	cog_block = false
+	gold_door = false
+	gold_trapdoor = false
 	lock_block = true
 	dispenser_minecart = true
 	crystal_display = true
@@ -73,7 +73,7 @@
 		mineshaft_elevator = 0.02
 
 [functional]
-	fodder = true
+	fodder = false
 	hourglass = true
 
 	[functional.rope]
@@ -183,7 +183,7 @@
 
 [building]
 	daub = true
-	ash_bricks = true
+	ash_bricks = false
 	lapis_bricks = true
 	deepslate_lamp = true
 	end_stone_lamp = true
@@ -466,7 +466,7 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.lantern_tweaks]
 		#Allow wall lanterns placement

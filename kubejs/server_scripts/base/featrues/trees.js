@@ -20,7 +20,7 @@ if (feature('Acacia')) {
 if (feature('Spruce')) {
     removeRecipe({ id: 'minecraft:charcoal' })
     addSmelting('charcoal', '#logs_that_burn')
-    addSmelting('2x charcoal', 'spruce_log', undefined, 400)
+    addSmelting('2x charcoal', 'spruce_log', undefined, 800)
 }
 if (feature('Birch')) {
     removeRecipe({ id: 'minecraft:birch_planks' })

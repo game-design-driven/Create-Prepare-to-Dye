@@ -80,9 +80,10 @@ if (feature('Cogs')) {
 }
 
 if (feature('Application recipes')) {
-    addItemApplication('create:adjustable_chain_gearshift', 'create:encased_chain_drive', 'create:electron_tube')
+    addItemApplication('create:adjustable_chain_gearshift', 'create:encased_chain_drive', 'create:polished_rose_quartz')
     removeRecipe({id:'create:crafting/kinetics/depot'})
     addItemApplication('create:depot', 'create:andesite_casing', 'create:andesite_alloy')
+    addItemApplication('create:depot', 'create:andesite_casing', '#forge:tools/axes')
     addItemApplication('create:sail_frame', 'create:white_sail','#forge:tools/axes')
     addItemApplication('create:white_sail', 'create:sail_frame','#forge:tools/axes')
 }
@@ -124,7 +125,6 @@ if (feature('Alternate precision mechanism')) {
     addAssembly(['create:precision_mechanism %80','create:brass_sheet %5', 'create:andesite_alloy %5', 'create:cogwheel %5', 'minecraft:clock %5'], 'create:brass_sheet',[
         addDeploying(p,b,'minecraft:gold_nugget'),
         addDeploying(p,b,'#forge:cogs'),
-        addDeploying(p,b,'#forge:nuggets'),
         addDeploying(p,b,'#forge:dyes'),
     ],4, 'create:incomplete_precision_mechanism')
 }
@@ -147,16 +147,20 @@ if (feature('better tracks')) {
 
 if (feature('Funnels and tunnels with silicon and leather')) {
     addShaped('2x create:andesite_funnel',['a','l'],{a:'create:andesite_alloy', l:'leather'})
-    addShaped('2x create:andesite_funnel',['a','l'],{a:'create:andesite_alloy', l:'refinedstorage:silicon'})
-    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:electron_tube',a:'create:andesite_alloy', l:'leather'})
-    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:electron_tube',a:'create:andesite_alloy', l:'refinedstorage:silicon'})
+    addShaped('2x create:andesite_funnel',['a','l'],{a:'create:andesite_alloy', l:'#forge:silicon'})
+    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:andesite_alloy', l:'leather'})
+    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:andesite_alloy', l:'#forge:silicon'})
     
-    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:brass_ingot', l:'leather'})
-    addShaped('2x create:andesite_tunnel',['aa','ll'],{a:'create:brass_ingot', l:'refinedstorage:silicon'})
-    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:electron_tube',a:'create:brass_ingot', l:'leather'})
-    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:electron_tube',a:'create:brass_ingot', l:'refinedstorage:silicon'})
+    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'#forge:silicon'})
+    addShaped('2x create:brass_funnel',['e','a','l'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'leather'})
+    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'leather'})
+    addShaped('2x create:brass_tunnel',['e ','aa','ll'],{e:'create:polished_rose_quartz',a:'#forge:ingots/brass', l:'#forge:silicon'})
 }
 
+if (feature('Replace electron tube with polished quartz')) {
+    removeAndReplace('create:electron_tube', 'create:polished_rose_quartz')
+    removeRecipe({id:'create:crafting/materials/electron_tube'})
+}
 // if (feature('Experiment')) {
 //     let out = Item.of('wares:delivery_agreement', '{ordered:10,paymentItems:[{Count:1,id:"minecraft:emerald"}],requestedItems:[{Count:384,id:"minecraft:baked_potato"}],title:\'{"text":"A Great Deal"}\'}')
 //     addShapeless(out, 'paper')

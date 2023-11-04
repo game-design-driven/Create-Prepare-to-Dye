@@ -1,13 +1,13 @@
 name = "Collective"
-filename = "collective-1.19.2-6.72.jar"
+filename = "collective-1.19.2-6.80.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/SqveMGRg/collective-1.19.2-6.72.jar"
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/9ZSiuwOI/collective-1.19.2-6.80.jar"
 hash-format = "sha1"
-hash = "ab6f8423d0cbc36bfc0634525be229a244ce056a"
+hash = "56b9ac5d0b2e2cfb6df204ca6da320317928bfd0"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "SqveMGRg"
+version = "9ZSiuwOI"

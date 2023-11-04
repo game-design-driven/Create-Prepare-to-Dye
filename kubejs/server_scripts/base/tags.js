@@ -43,7 +43,7 @@ addToTag('forge:fish_bucket',[
     'tropical_fish_bucket'
 ])
 
-addToTag('forge:plastic', 'refinedstorage:silicon')
+addToTag('forge:plastic', '#forge:silicon')
 addToTag('forge:dusts', 'minecraft:gunpowder')
 addToTag('forge:dusts', 'minecraft:blaze_powder')
 addToTag('forge:dusts', 'create:cinder_flour')

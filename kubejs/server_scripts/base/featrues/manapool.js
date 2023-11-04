@@ -17,6 +17,8 @@ if (feature('Make alchemy recipes use blaze burner')) {
             let resultId = recipe.getOriginalRecipeResult().getId();
             let ingredientId = ingredients[0].getItemIds()[0];
             
+            if (global.itemsToRemove.includes(resultId) || global.itemsToRemove.includes(ingredientId)) return;
+
             addAlchemyRecipe(recipe.getOriginalRecipeResult(), ingredients[0], parseInt(json.get('mana')))
             recipe.remove()
         }
