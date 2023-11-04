@@ -49,3 +49,4 @@ config/collective/checked.txt
 *.db
 *.local
 emi.json
+config/jade/sort-order.json
