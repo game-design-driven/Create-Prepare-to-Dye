@@ -42,30 +42,30 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 12
+  x = 84
   action = movebutton
-  y = 68
+  y = 56
 }
 
 customization {
   identifier = %id=376322%
   orientation = mid-centered
-  x = -10
+  x = 36
   action = movebutton
-  y = 68
+  y = 56
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -100
+  x = -104
   action = movebutton
-  y = 68
+  y = 56
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 64
+  width = 68
   action = resizebutton
   height = 20
 }
@@ -81,12 +81,12 @@ customization {
   orientation = mid-centered
   x = 36
   action = movebutton
-  y = 68
+  y = 80
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 64
+  width = 68
   action = resizebutton
   height = 20
 }
@@ -94,9 +94,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -32
+  x = 60
   action = movebutton
-  y = 68
+  y = 56
 }
 
 customization {
@@ -117,14 +117,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -100
+  x = -104
   action = movebutton
   y = 32
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 64
+  width = 68
   action = resizebutton
   height = 20
 }
@@ -204,13 +204,13 @@ customization {
 
 customization {
   path = fancymenu_data/pipes.png
-  orientation = top-centered
-  x = -75
-  width = 150
+  orientation = mid-centered
+  x = -35
+  width = 70
   action = addtexture
   actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
-  y = 16
-  height = 150
+  y = 30
+  height = 70
 }
 
 customization {
@@ -219,11 +219,11 @@ customization {
   hoverlabel = Issues
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/Yarden-zamir/Create.run/issues%btnaction_splitter_fm%
-  x = -32
-  width = 64
+  x = -104
+  width = 68
   action = addbutton
   actionid = a5bbd468-f840-4c2a-a718-5b9deca551d31699023046313
-  y = 32
+  y = 80
   label = Feedback
   height = 20
 }
@@ -234,7 +234,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/5bMXvw4tPx%btnaction_splitter_fm%
   x = 36
-  width = 64
+  width = 68
   action = addbutton
   actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
   y = 32
