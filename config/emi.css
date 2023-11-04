@@ -29,6 +29,7 @@
 	/**
 	 * Whether normal search queries should include the stack's tags.
 	 */
+	search-tags-by-default: false;
 }
 
 #ui {
