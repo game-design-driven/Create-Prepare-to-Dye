@@ -27,14 +27,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -100
+  x = -107
   action = movebutton
-  y = -10
+  y = -20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 98
+  width = 105
   action = resizebutton
   height = 20
 }
@@ -42,25 +42,25 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 90
+  x = 93
   action = movebutton
-  y = 38
+  y = 28
 }
 
 customization {
   identifier = %id=376322%
   orientation = mid-centered
-  x = 42
+  x = 45
   action = movebutton
-  y = 38
+  y = 28
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -110
+  x = -113
   action = movebutton
-  y = 38
+  y = 28
 }
 
 customization {
@@ -79,9 +79,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 42
+  x = 45
   action = movebutton
-  y = 62
+  y = 52
 }
 
 customization {
@@ -94,9 +94,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = 66
+  x = 69
   action = movebutton
-  y = 38
+  y = 28
 }
 
 customization {
@@ -104,12 +104,12 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = -10
+  y = -20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 98
+  width = 105
   action = resizebutton
   height = 20
 }
@@ -117,9 +117,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -110
+  x = -113
   action = movebutton
-  y = 14
+  y = 4
 }
 
 customization {
@@ -205,12 +205,12 @@ customization {
 customization {
   path = fancymenu_data/pipes.png
   orientation = mid-centered
-  x = -40
-  width = 80
+  x = -41
+  width = 82
   action = addtexture
   actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
-  y = 14
-  height = 80
+  y = 4
+  height = 82
 }
 
 customization {
@@ -219,11 +219,11 @@ customization {
   hoverlabel = Issues
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/Yarden-zamir/Create.run/issues%btnaction_splitter_fm%
-  x = -110
+  x = -113
   width = 68
   action = addbutton
   actionid = a5bbd468-f840-4c2a-a718-5b9deca551d31699023046313
-  y = 62
+  y = 52
   label = Feedback
   height = 20
 }
@@ -233,11 +233,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/5bMXvw4tPx%btnaction_splitter_fm%
-  x = 42
+  x = 45
   width = 68
   action = addbutton
   actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
-  y = 14
+  y = 4
   label = Discord
   height = 20
 }
