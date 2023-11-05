@@ -1690,7 +1690,7 @@
 		#Fixes several piston physics exploits, most notably including TNT duping
 		"Disable Piston Physics Exploits" = false
 		#Fixes mushroom growth being able to replace blocks
-		"Disable Mushroom Block Removal" = true
+		"Disable Mushroom Block Removal" = false
 		#Makes tripwire hooks unable to be duplicated
 		"Disable Tripwire Hook Dupe" = true
 		#Makes Mending II still work even if mending is nerfed.
