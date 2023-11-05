@@ -1683,7 +1683,7 @@
 		"Enable Selective Mob Griefing" = true
 		"Non Griefing Entities" = ["minecraft:enderman"]
 		#Force Elytra to only work in specific dimensions
-		"Enable Dimension Locked Elytra" = true
+		"Enable Dimension Locked Elytra" = false
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
