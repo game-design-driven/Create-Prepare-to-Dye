@@ -156,3 +156,7 @@ if (feature('Deepslate from livingwood')) {
 if (feature('Remove and replace shulker shell with purple dye')) {
     removeAndReplace('shulker_shell', '#forge:dyes/purple')
 }
+
+if (feature('kelp to sugar_cane')) {
+    addInfusion('sugar_cane', 'kelp')
+}
