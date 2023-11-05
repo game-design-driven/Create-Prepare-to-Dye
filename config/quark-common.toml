@@ -1672,7 +1672,7 @@
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
 		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = true
+		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = true
 		#Makes Boats not glide on ice
