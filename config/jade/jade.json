@@ -18,7 +18,7 @@
   "overlay": {
     "overlayPosX": 0.5,
     "overlayPosY": 1.0,
-    "overlayScale": 1.0,
+    "overlayScale": 0.85,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
@@ -63,7 +63,7 @@
         "textShadow": true
       }
     },
-    "activeTheme": "jade:dark",
+    "activeTheme": "jade:create",
     "iconMode": "TOP",
     "animation": true
   },
