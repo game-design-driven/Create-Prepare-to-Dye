@@ -1674,7 +1674,7 @@
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
