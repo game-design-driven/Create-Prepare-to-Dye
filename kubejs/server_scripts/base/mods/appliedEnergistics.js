@@ -61,3 +61,7 @@ if (feature('ae2 recipes')) {
 
     addSmelting('ae2:silicon', 'quartz', 0.1, 3600)
 }
+
+if (feature('Energy cell recycling')) {
+    addCrushing(['9x quartz %75', '4x redstone %50', 'sand %40'], 'ae2:energy_cell')
+}
