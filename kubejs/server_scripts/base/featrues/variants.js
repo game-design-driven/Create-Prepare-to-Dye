@@ -1,5 +1,11 @@
-if (feature('Remove recipes for blocks gotten using varients')) {
-    removeRecipe({id: 'create:deploying/large_cogwheel'})
+if (feature('Combine create devices using variants')) {
+    //some logic is in quark's config
+    replaceShaped('2x create:smart_chute', [' b ','pip',' I '],{
+        b:'#forge:plates/brass',
+        p:'create:polished_rose_quartz',
+        i:'#forge:ingots/iron',
+        I:'#forge:plates/iron'
+    })
 }
 
 if (feature('Remove and add stone cutting for variant recipes')) {
