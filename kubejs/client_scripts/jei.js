@@ -1,8 +1,4 @@
 // priority: 0
-
-console.info(
-  "Hello, World! (You will see this line every time client resources reload)"
-);
 if (global.itemsToHide == undefined) {
   global.itemsToHide = [
     "botania:conjuration_catalyst",
@@ -471,9 +467,7 @@ JEIEvents.hideItems((event) => {
     event.hide(item);
     console.log("hiding " + item);
   });
+  global.variants.forEach(variant => {
+    event.hide(variant[0]);
+  })
 });
-// onEvent('jei.remove.categories', event => {
-// 	global.categoriesToHide.forEach(cat => {
-// 		event.remove(cat)
-// 	});
-// })
