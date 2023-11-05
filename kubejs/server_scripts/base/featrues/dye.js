@@ -105,3 +105,7 @@ if (feature('dye from glow ink sack')) {
     addMilling(['light_blue_dye %50', 'glowstone_dust %25'], 'glow_ink_sac')
     addCrushing(['light_blue_dye %30', 'glowstone_dust %30', 'black_dye %20'], 'glow_ink_sac')
 }
+if (feature('Purple from choros fruit')) {
+    addMilling(['purple_dye', 'string %10'], 'popped_chorus_fruit')
+    addCrushing(['purple_dye %25', 'string %25', 'end_stone %2'], 'popped_chorus_fruit')
+}

@@ -159,3 +159,7 @@ if (feature('Replace electron tube with polished quartz')) {
 //         addDeploying(out, 'minecraft:iron_nugget','minecraft:stone_axe'),
 //     ],100)
 // }
+if (feature('Better cookie recipe')) {
+    removeRecipe({output: 'minecraft:cookie'})
+    addFilling('8x minecraft:cookie', 'create:dough','100x create:chocolate')
+}
