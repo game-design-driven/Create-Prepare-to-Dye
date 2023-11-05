@@ -2,15 +2,15 @@
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
-    "harvest_tool.show_unbreakable": true,
+    "harvest_tool.show_unbreakable": false,
     "chicken_egg": true,
-    "block_inventory.items_per_line": 9,
+    "block_inventory.items_per_line": 16,
     "jukebox": true,
     "brewing_stand": true,
     "animal_owner": true,
     "block_inventory.normal_amount": 9,
     "energy_storage.detailed": false,
-    "harvest_tool.effective_tool": true,
+    "harvest_tool.effective_tool": false,
     "note_block": true,
     "beehive": true,
     "block_inventory.show_name_amount": 5,
@@ -51,8 +51,8 @@
   },
   "easy_villagers": {
     "villager": true,
-    "converter": true,
-    "breeder": true
+    "converter": false,
+    "breeder": false
   },
   "jade": {
     "coordinates.rel": false,
@@ -64,7 +64,7 @@
   },
   "create": {
     "filter": true,
-    "goggles.requires_goggles": true,
+    "goggles.requires_goggles": false,
     "goggles": true,
     "copper_backtank": true,
     "blaze_burner": true,
@@ -88,6 +88,6 @@
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,
-    "display.status": true
+    "display.status": false
   }
 }
