@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = top-right
   copy_client_player = true
   slim = false
   auto_skin = false
@@ -25,12 +25,12 @@ customization {
   showname = true
   crouching = false
   follow_mouse = true
-  x = 443
+  x = -62
   width = 18
   parrot_left_shoulder = false
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = 06e2eb2c-8577-4965-9423-446711cc93b61699027626535
-  y = 191
+  y = 26
   playername = YardenZmr
   bodyrotationx = 0.0
   parrot = false
