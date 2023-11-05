@@ -47,7 +47,7 @@ addToTag('forge:plastic', '#forge:silicon')
 addToTag('forge:dusts', 'minecraft:gunpowder')
 addToTag('forge:dusts', 'minecraft:blaze_powder')
 addToTag('forge:dusts', 'create:cinder_flour')
-addToTag('forge:cogs', ['create:large_cogwheel', 'create:cogwheel'])
+addToTag('forge:cogs', 'create:cogwheel')
 addToTag('forge:stone', 'minecraft:smooth_stone')
 addToTag('forge:plates/gold', 'create:brass_sheet')
 
