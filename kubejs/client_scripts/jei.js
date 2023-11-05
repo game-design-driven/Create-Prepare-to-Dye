@@ -467,7 +467,6 @@ if (global.itemsToHide == undefined) {
   ];
 }
 JEIEvents.hideItems((event) => {
-  event.hide("minecraft:stone");
   global.itemsToHide.forEach((item) => {
     event.hide(item);
     console.log("hiding " + item);
