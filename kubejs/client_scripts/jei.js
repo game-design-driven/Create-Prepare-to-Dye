@@ -467,4 +467,12 @@ JEIEvents.hideItems((event) => {
     event.hide(item);
     console.log("hiding " + item);
   });
+  //hide colored create stuff
+  global.colors.forEach((color) => {
+    event.hide(`create:${color}_valve_handle`)
+    if (color!='brown') event.hide(`create:${color}_toolbox`)
+    if (color!='white') event.hide(`create:${color}_seat`)
+  })
 });
+
+
