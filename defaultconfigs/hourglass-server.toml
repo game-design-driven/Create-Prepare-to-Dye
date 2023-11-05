@@ -101,7 +101,7 @@
 	#Night is defined as any time between 12500 (middle of dusk) and 23500 (middle of dawn).
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 5.0
+	nightSpeed = 9.0
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
