@@ -29,7 +29,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = -5
+  y = -10
 }
 
 customization {
@@ -44,7 +44,7 @@ customization {
   orientation = mid-centered
   x = 90
   action = movebutton
-  y = 43
+  y = 38
 }
 
 customization {
@@ -52,7 +52,7 @@ customization {
   orientation = mid-centered
   x = 42
   action = movebutton
-  y = 43
+  y = 38
 }
 
 customization {
@@ -60,7 +60,7 @@ customization {
   orientation = mid-centered
   x = -110
   action = movebutton
-  y = 43
+  y = 38
 }
 
 customization {
@@ -81,7 +81,7 @@ customization {
   orientation = mid-centered
   x = 42
   action = movebutton
-  y = 67
+  y = 62
 }
 
 customization {
@@ -96,7 +96,7 @@ customization {
   orientation = mid-centered
   x = 66
   action = movebutton
-  y = 43
+  y = 38
 }
 
 customization {
@@ -104,7 +104,7 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = -5
+  y = -10
 }
 
 customization {
@@ -119,7 +119,7 @@ customization {
   orientation = mid-centered
   x = -110
   action = movebutton
-  y = 19
+  y = 14
 }
 
 customization {
@@ -209,7 +209,7 @@ customization {
   width = 80
   action = addtexture
   actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
-  y = 18
+  y = 14
   height = 80
 }
 
@@ -223,7 +223,7 @@ customization {
   width = 68
   action = addbutton
   actionid = a5bbd468-f840-4c2a-a718-5b9deca551d31699023046313
-  y = 67
+  y = 62
   label = Feedback
   height = 20
 }
@@ -237,7 +237,7 @@ customization {
   width = 68
   action = addbutton
   actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
-  y = 19
+  y = 14
   label = Discord
   height = 20
 }
