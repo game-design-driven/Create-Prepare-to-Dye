@@ -487,9 +487,9 @@
 		"Item Quality" = 0
 		"Apply Cost" = 5
 		#Whether you can blend runes of each of the 'primary' colors plus white to create rainbow runes.
-		"Rainbow Rune Craftable" = true
+		"Rainbow Rune Craftable" = false
 		#Whether you can blend runes of the 'primary' colors to create other colors of rune.
-		"Color Blending Runes" = true
+		"Color Blending Runes" = false
 
 	[tools.bottled_cloud]
 		"Cloud Level Bottom" = 191
@@ -1026,7 +1026,7 @@
 		"Double Crystal Chance" = 0.2
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
-		"Crystals Craft Runes" = true
+		"Crystals Craft Runes" = false
 		"Enable Collateral Movement" = true
 
 		[world.corundum.generation_settings]
