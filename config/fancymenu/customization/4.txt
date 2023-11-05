@@ -42,7 +42,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 87
+  x = 90
   action = movebutton
   y = 48
 }
@@ -50,7 +50,7 @@ customization {
 customization {
   identifier = %id=376322%
   orientation = mid-centered
-  x = 39
+  x = 42
   action = movebutton
   y = 48
 }
@@ -58,7 +58,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -107
+  x = -110
   action = movebutton
   y = 48
 }
@@ -79,7 +79,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 39
+  x = 42
   action = movebutton
   y = 72
 }
@@ -94,7 +94,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = 63
+  x = 66
   action = movebutton
   y = 48
 }
@@ -117,7 +117,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -107
+  x = -110
   action = movebutton
   y = 24
 }
@@ -209,7 +209,7 @@ customization {
   width = 80
   action = addtexture
   actionid = f21e466a-4153-49ae-b667-4a1d7f4b5c291699026891919
-  y = 20
+  y = 23
   height = 80
 }
 
@@ -219,7 +219,7 @@ customization {
   hoverlabel = Issues
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/Yarden-zamir/Create.run/issues%btnaction_splitter_fm%
-  x = -107
+  x = -110
   width = 68
   action = addbutton
   actionid = a5bbd468-f840-4c2a-a718-5b9deca551d31699023046313
@@ -233,7 +233,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/5bMXvw4tPx%btnaction_splitter_fm%
-  x = 39
+  x = 42
   width = 68
   action = addbutton
   actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
