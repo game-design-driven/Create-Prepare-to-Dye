@@ -5,9 +5,6 @@ ServerEvents.recipes(event => {
         if (hasRemovedItems(recipe)==true) {
             console.log("didn't add recipe " + recipe.output);
         } else {
-            console.info(recipe.toString())
-            // event.custom(recipe)
-
             let r = event.custom(recipe)
             r.id = getUniqueRecipeName(r)
         }
