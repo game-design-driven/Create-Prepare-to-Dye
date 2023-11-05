@@ -13,6 +13,10 @@ if (feature('Ores from dyes')) {
         'deepslate_diamond_ore': 'cyan_dye',
         'deepslate_gold_ore': 'yellow_dye',
     }
+    let nether_ores = {
+        'nether_quartz_ore': 'white_dye',
+        'nether_gold_ore': 'yellow_dye'
+    }
     Object.entries(basicOres).forEach(entry => {
         const [ore, dye] = entry;
         addBlockInteract(ore, 'minecraft:stone', dye)
@@ -21,6 +25,10 @@ if (feature('Ores from dyes')) {
     Object.entries(deepslateOnlyOres).forEach(entry => {
         const [ore, dye] = entry;
         addBlockInteract(ore, 'minecraft:deepslate', dye)
+    })
+    Object.entries(nether_ores).forEach(entry =>{
+        const [ore, dye] = entry;
+        addBlockInteract(ore, 'minecraft:netherrack', dye)
     })
     
     addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', 'cobblestone'])
