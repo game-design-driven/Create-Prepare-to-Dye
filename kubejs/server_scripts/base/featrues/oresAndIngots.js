@@ -113,6 +113,10 @@ if (feature('Remove zinc')) {
     removeRecipe({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
     removeRecipe({ id: 'create:mixing/andesite_alloy_from_zinc' })
     removeRecipe({ id: 'create:crafting/kinetics/rose_quartz_lamp' })
+    removeRecipe({ id: 'create:copycat_step_from_ingots_zinc_stonecutting'})
+    removeRecipe({ id: 'create:copycat_panel_from_ingots_zinc_stonecutting'})
+    addCutting('create:copycat_step', '#forge:ingots')
+    addCutting('create:copycat_panel', '#forge:ingots')
     // addItemApplication('create:rose_quartz_lamp', ['minecraft:redstone_lamp', 'create:polished_rose_quartz'])
 
 }
