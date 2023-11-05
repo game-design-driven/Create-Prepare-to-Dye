@@ -17,6 +17,8 @@ ServerEvents.recipes(event => {
     });
 })
 
+console.info("All the removed and hidden items: "+global.itemsToHide)
+
 // onEvent('server.datapack.low_priority', (event) => {
 //     event.addJson('botania:orechid_ore_weights/orechid.json', {
 //         values: botaniaOrechidList
