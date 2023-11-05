@@ -460,6 +460,7 @@ if (global.itemsToHide == undefined) {
     "botania:pebble",
     "botania:living_root",
     "botania:red_strin",
+    "create_enchantment_industry:experience_rotor",
   ];
 }
 JEIEvents.hideItems((event) => {
