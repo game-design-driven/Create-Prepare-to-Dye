@@ -55,8 +55,8 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "spawnPressesInMeteorites": true,
-    "generateMeteorites": true
+    "spawnPressesInMeteorites": false,
+    "generateMeteorites": false
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
