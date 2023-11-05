@@ -467,7 +467,4 @@ JEIEvents.hideItems((event) => {
     event.hide(item);
     console.log("hiding " + item);
   });
-  global.variants.forEach(variant => {
-    event.hide(variant[0]);
-  })
 });
