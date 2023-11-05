@@ -64,28 +64,19 @@ if (feature('Simpler deployer')) {
 }
 
 if (feature('Cogs')) {
-    addShaped('create:large_cogwheel',[' w ','wsw',' w '],{
+    addShaped('2x create:cogwheel',[' w ','wsw',' w '],{
         w : '#minecraft:planks',
         s : 'create:shaft'
     })
     removeRecipe({id:'create:crafting/kinetics/large_cogwheel'})
     removeRecipe({id:'create:crafting/kinetics/cogwheel'})
     removeRecipe({id:'create:crafting/kinetics/large_cogwheel_from_little'})
-    addItemApplication('create:large_cogwheel', 'create:cogwheel', '#forge:tools/axes')
-    addItemApplication('create:cogwheel', 'create:large_cogwheel', '#forge:tools/axes')
-    addShapeless('create:cogwheel','create:large_cogwheel')
-    addShapeless('create:large_cogwheel', 'create:cogwheel')
     replaceInputForRecipes('create:cogwheel', '#forge:cogs', { type:'minecraft:crafting_shaped' })   
     replaceInputForRecipes('create:cogwheel', '#forge:cogs', { type:'minecraft:crafting_shapeless' })   
 }
 
 if (feature('Application recipes')) {
     addItemApplication('create:adjustable_chain_gearshift', 'create:encased_chain_drive', 'create:polished_rose_quartz')
-    removeRecipe({id:'create:crafting/kinetics/depot'})
-    addItemApplication('create:depot', 'create:andesite_casing', 'create:andesite_alloy')
-    addItemApplication('create:depot', 'create:andesite_casing', '#forge:tools/axes')
-    addItemApplication('create:sail_frame', 'create:white_sail','#forge:tools/axes')
-    addItemApplication('create:white_sail', 'create:sail_frame','#forge:tools/axes')
 }
 
 if (feature('Replace golden sheet with brass one')) {
