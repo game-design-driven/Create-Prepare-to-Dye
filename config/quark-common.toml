@@ -1688,7 +1688,7 @@
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
 		#Fixes several piston physics exploits, most notably including TNT duping
-		"Disable Piston Physics Exploits" = true
+		"Disable Piston Physics Exploits" = false
 		#Fixes mushroom growth being able to replace blocks
 		"Disable Mushroom Block Removal" = true
 		#Makes tripwire hooks unable to be duplicated
