@@ -50,3 +50,8 @@ addToTag('forge:dusts', 'create:cinder_flour')
 addToTag('forge:cogs', ['create:large_cogwheel', 'create:cogwheel'])
 addToTag('forge:stone', 'minecraft:smooth_stone')
 addToTag('forge:plates/gold', 'create:brass_sheet')
+
+addToTag('minecraft:stairs',[
+    'create:oxidized_copper_shingle_stairs',
+    'create:oxidized_copper_tile_stairs'
+])
