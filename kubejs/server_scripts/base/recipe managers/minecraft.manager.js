@@ -49,6 +49,8 @@ function addShapeless(output, input) {
  * @param {ingredient} input 'glass' 
  */
 function addStonecutting(output, input) {
+    if (Item.of(output).id=='minecraft:air') return;
+    if (Item.of(input).id=='minecraft:air') return;
     let recipe = {
         type: "minecraft:stonecutting",
         result: solveResult(output),
