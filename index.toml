@@ -677,6 +677,11 @@ hash = "58ca900c088deaee6d6801c247cb7780fedb0cafcf046caed79a6ecef72c75c3"
 metafile = true
 
 [[files]]
+file = "mods/fabrication.pw.toml"
+hash = "72c452a9de9683037b26c8c5c694f6e6320b5150fd333a9f52d98790a8ec9f8c"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "255962e47185fd89150f8c9c9bd3fbc835e99bb453ae8f04d4915484004ad222"
 metafile = true
