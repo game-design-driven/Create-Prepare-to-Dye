@@ -1,4 +1,5 @@
 name: Release Pipeline
+# credit to mc-modpack-kit for some of the steps here
 on:
   push:
     branches:
