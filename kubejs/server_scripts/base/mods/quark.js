@@ -97,3 +97,9 @@ if (feature('Iron plate block from black')) {
 if (feature('Remove forgotten hat')) {
     removeItem('quark:forgotten_hat')
 }
+
+if (feature('bag from silicon')) {
+    addShaped('quark:backpack',['sis','scs','sis'],{
+        s:'#forge:silicon', i:'#forge:ingot', c:'#forge:chests'
+    })
+}
