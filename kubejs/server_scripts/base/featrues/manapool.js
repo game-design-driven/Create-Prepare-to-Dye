@@ -37,10 +37,10 @@ if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
         if (hasRemovedItems) return;
 
         if (manapool_single_crafting_blacklist.includes(recipe.getId())) return;
-        console.info('recipe: ' + resultId + ' ' + ingredientId + ' ' + recipe.getId()+ 'removed: ' + recipe.removed)
+        // console.info('recipe: ' + resultId + ' ' + ingredientId + ' ' + recipe.getId()+ 'removed: ' + recipe.removed)
         if (recipe.removed) return;
         addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 500, 'minecraft:crafting_table');
-        console.info('Adding infusion for "' + resultId + '" and "' + ingredientId+'"');
+        // console.info('Adding infusion for "' + resultId + '" and "' + ingredientId+'"');
     });
 }
 
