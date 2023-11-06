@@ -6,10 +6,11 @@ on:
       - main
 env:
   pack-file: "pack.toml"
-  default-release-modrinth: "true"
   name: 'Create: Prepare to Dye'
   slug: 'create-prepare-to-dye'
   modrinth-url: 'https://modrinth.com/modpack/create-prepare-to-dye'
+  loader: 'forge'
+  mc_version: '1.19.2'
 
 jobs:
   tag_and_release:
@@ -65,7 +66,7 @@ jobs:
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
-      - name: Upload Modpack ffile to GitHub Releases
+      - name: Upload Modpack file to GitHub Releases
         run: |
           gh release upload ${{ needs.tag_and_release.outputs.new_tag }} *.${{ matrix.file_suffix }} \
             --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
@@ -78,8 +79,8 @@ jobs:
         with:
           modrinth-id: ${{ vars.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          loaders: forge
-          game-versions: 1.19.2
+          loaders: ${{ env.loader}}
+          game-versions: ${{ env.mc_version}}
           changelog: ${{ needs.tag_and_release.outputs.changelog }}
           files: "*.mrpack"
           version: ${{ needs.tag_and_release.outputs.new_tag }}
