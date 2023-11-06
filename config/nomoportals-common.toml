@@ -1,0 +1,13 @@
+
+["Portals Handler"]
+	#Enable or disable End portal teleportation interaction (set to 'true' to restore default functionality).
+	End_Portal_Teleportation = false
+	#Enable or disable Nether portal generation functionality (set to 'true' to restore default functionality).
+	Nether_Portal_Creation = false
+
+["Extra Features"]
+	#Enable or disable Ender Eye's Stronghold search interaction (set to 'true' to restore default functionality).
+	Ender_Eye_Search = false
+	#Enable or disable Ender Pearl's teleport feature. (set to 'true' to restore default functionality).
+	Ender_Pearl_Teleport = true
+
