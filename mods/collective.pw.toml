@@ -3,11 +3,11 @@ filename = "collective-1.19.2-6.80.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/9ZSiuwOI/collective-1.19.2-6.80.jar"
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/191cluA2/collective-1.19.2-6.80.jar"
 hash-format = "sha1"
 hash = "56b9ac5d0b2e2cfb6df204ca6da320317928bfd0"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "9ZSiuwOI"
+version = "191cluA2"
