@@ -1,3 +1,4 @@
+// priority: 100
 
 function addItemInside(post, input, block_in) {
     let result = {
