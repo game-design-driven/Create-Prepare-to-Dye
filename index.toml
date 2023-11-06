@@ -40151,6 +40151,11 @@ hash = "8895f6fc1d8d8280539f3e381f3b0316d912600d7a8dda216ce83466abaa5aee"
 metafile = true
 
 [[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "6a21038e6dc7fac6eb72ac3e9be413a32ff20512b6e303a9cd1d26c16f44d1f7"
+metafile = true
+
+[[files]]
 file = "mods/pluto.pw.toml"
 hash = "c90d1f76411f74e449eb7a170406303b8106b743e45d1dbb6641fd4e6f2702cd"
 metafile = true

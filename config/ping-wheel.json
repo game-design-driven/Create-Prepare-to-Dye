@@ -1,0 +1,10 @@
+{
+  "pingVolume": 100,
+  "pingDuration": 20,
+  "pingDistance": 2048,
+  "raycastDistance": 1024,
+  "correctionPeriod": 1.0,
+  "itemIconVisible": true,
+  "pingSize": 100,
+  "channel": ""
+}
