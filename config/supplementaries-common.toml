@@ -353,7 +353,7 @@
 		bypass_when_on = "MAIN_HAND"
 
 	[tools.rope_arrow]
-		enabled = true
+		enabled = false
 		#Max number of robe items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 32
