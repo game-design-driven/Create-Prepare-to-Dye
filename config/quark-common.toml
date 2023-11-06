@@ -337,7 +337,7 @@
 	"Torch Arrow" = true
 	"Slime In A Bucket" = true
 	"Skull Pikes" = true
-	"Seed Pouch" = true
+	"Seed Pouch" = false
 	Pickarang = true
 	"Pathfinder Maps" = true
 	"Parrot Eggs" = false
