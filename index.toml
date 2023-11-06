@@ -40137,6 +40137,11 @@ hash = "9cba22bdbc8c89d44438b1e22ae677f7d6bf1c7f1adecfff2760427f2d974dee"
 metafile = true
 
 [[files]]
+file = "mods/nomoreportals.pw.toml"
+hash = "6baeea1637f766f94645de4754303acd30f8772ae6b80132315b83d473af4b51"
+metafile = true
+
+[[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "28e52215ad15eb6ba9f8a4cdda8bbadc25dd9bb3a241b66b2048c64e44e1e709"
 metafile = true
