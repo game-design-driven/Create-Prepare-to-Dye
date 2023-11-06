@@ -786,17 +786,17 @@
 	"Spiral Spires" = false
 	Permafrost = true
 	"No More Lava Pockets" = false
-	"New Stone Types" = true
-	"Nether Obsidian Spikes" = false
+	"New Stone Types" = false
+	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true
 	"Fairy Rings" = true
-	Corundum = true
+	Corundum = false
 	"Chorus Vegetation" = false
 	"Blossom Trees" = true
-	"Big Stone Clusters" = true
-	"Azalea Wood" = true
-	"Ancient Wood" = true
+	"Big Stone Clusters" = false
+	"Azalea Wood" = false
+	"Ancient Wood" = false
 
 	[world.spiral_spires]
 		Rarity = 200
