@@ -1,0 +1,8 @@
+{
+    "tooltip.minecraft.stick": "A pice of wood from wood",
+    "tooltip.minecraft.potion{Potion:'minecraft:strength'}":"Potion n stuffs",
+    "tooltip.botania.twig_wand": "Used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.",
+    "tooltip.botania.incense_plate": "Once an Incense Stick is placed onto it, right-clicking with a Flint and Steel will ignite the stick. This can also be done with a Mana burst with the Kindle Lens. Also accept items from a Hopper or any other inputting mechanism. It will also emit Comparator signals, where 1 signals there is a stick present, and 2 signals the stick is currently burning.",
+    "generator.minecraft.normal": "Chroma Prime",
+    "generator.minecraft.normal.info": "A small, dead, irradiated planet called Chroma Prime. It's all I have, lets make the most of it."
+}
