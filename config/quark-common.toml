@@ -346,7 +346,7 @@
 	"Bundle Recipe" = true
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Ambient Discs" = false
 	Abacus = true
 
