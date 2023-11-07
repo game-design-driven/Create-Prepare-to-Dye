@@ -35,7 +35,7 @@ Using Create and Botanias natural automation focus as a loose base, we are const
 * Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack 
 * Quark + oddities
 ---
-On top of those we add many processing lines (over 600 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate.
+On top of those we add many processing lines (over 1200 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate.
 </details>
 <details>
   <summary>Radical simplification</summary>
