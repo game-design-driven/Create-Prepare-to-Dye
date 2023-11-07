@@ -7,7 +7,7 @@ WanderingTraderSellsAgreements = true
 	DefaultDeliveryTime = 500
 	#Each delivery requires (and consumes) a packaging. ('wares:delivery_boxes' tag)
 	#A slot for boxes will be added to delivery table. Default: true
-	DeliveriesRequireBoxes = true
+	DeliveriesRequireBoxes = false
 
 	[Delivery.Packager]
 		#Packager worker is required for Delivery Table to work.
