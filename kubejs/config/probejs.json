@@ -1,6 +1,6 @@
 {
-  "firstLoad": true,
-  "noAggressiveProbing": false,
+  "firstLoad": false,
+  "noAggressiveProbing": true,
   "docsTimestamp": 0,
   "allowRegistryObjectDumps": false,
   "requireSingleAndPerm": true,
