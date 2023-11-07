@@ -13,12 +13,12 @@ const temperature = {
 * @param {limitedIngredient} transitionalItem 
  */
 function addAssembly(output, input, steps, loops, transitionalItem) {
-    console.log("Before cleaning  " + modpackRecipes);
+    // console.log("Before cleaning  " + modpackRecipes);
     steps.forEach((recipe) => {
         modpackRecipes = modpackRecipes.filter(item => item !== recipe)
         // console.log("adding recipe !!! " + JSON.stringify(recipe));
     })
-    console.log("AFter cleaning  " + modpackRecipes);
+    // console.log("AFter cleaning  " + modpackRecipes);
 
     // if (!transitionalItem) transitionalItem = Ingredient.of(input).withNBT({ Process: 1 })
     // if (!transitionalItem) transitionalItem = Item.of('item id here', {nbt here})
