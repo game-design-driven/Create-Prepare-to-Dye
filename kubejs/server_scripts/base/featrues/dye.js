@@ -31,6 +31,9 @@ if (feature('white dye is more expensive')) {
     removeRecipe({ id: 'create:milling/lily_of_the_valley' })   
     addMilling('3x white_dye', 'lily_of_the_valley')
 
+    addMixing('white_dye %75',['#forge:flour/wheat', '300mb milk'])
+
+
 }
 
 if (feature('black dye is more expensive')) {
