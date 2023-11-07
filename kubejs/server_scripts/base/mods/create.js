@@ -17,15 +17,16 @@ if (feature('Remove vanilla honey bottle recipe')) {
 
 if (feature('Mechanical belt recipes')) {
     //leather
-    addShaped('4x create:belt_connector', ['lll','lll'], { l: '#forge:leather' })
+    addShaped('3x create:belt_connector', ['lll','lll'], { l: '#forge:leather' })
     //silicon
-    addShaped('4x create:belt_connector', ['sss','sss'], { s: '#forge:silicon' })
+    addShaped('3x create:belt_connector', ['sss','sss'], { s: '#forge:silicon' })
     //combined
-    addShaped('8x create:belt_connector', ['lll','sss','kkk'], { 
+    addShaped('6x create:belt_connector', ['lll','sss','kkk'], { 
         l: '#forge:leather',
         s: '#forge:silicon',
         k: 'minecraft:dried_kelp'
     })
+    // addAssembly
 }
 
 if (feature('Simpler encased fan')) {
@@ -59,7 +60,7 @@ if (feature('Simpler deployer')) {
         a : 'create:andesite_alloy',
         c : 'create:andesite_casing',
         e : '#forge:cogs',
-        b : 'create:brass_sheet'
+        b : 'create:iron_sheet'
     })
 }
 
