@@ -55,3 +55,8 @@ addToTag('minecraft:stairs',[
     'create:oxidized_copper_shingle_stairs',
     'create:oxidized_copper_tile_stairs'
 ])
+
+addToTag('forge:rods', [
+    'create:shaft',
+    'bone'
+])
