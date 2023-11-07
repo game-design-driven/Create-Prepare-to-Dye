@@ -1,0 +1,7 @@
+name = "probe-js"
+filename = "probejs-5.3.0-forge.jar"
+
+[download]
+url = "https://github.com/Prunoideae/ProbeJS/releases/download/v5.3.0/probejs-5.3.0-forge.jar"
+hash-format = "sha256"
+hash = "24615e1f431a3bc060ac4176eb0891563f9d88da9e0464335accc543c1f8061d"
