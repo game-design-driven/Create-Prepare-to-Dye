@@ -44,10 +44,12 @@ if (feature('add recipes for createdieselgenerators')) {
 if (feature('Ethanol')) {
   removeRecipe({id: 'createdieselgenerators:basin_fermenting/fermentable'})
   //createdieselgenerators:ethanol
-  addFermenting(['100mb kubejs:fermented_goop'], ['minecraft:bone_meal', '#forge:fermentable'], 800)
+  addFermenting(['100mb kubejs:fermented_goop'], ['minecraft:bone_meal', '#forge:fermentable'])
 
-  addFermenting(['200mb kubejs:fermented_goop', '4x minecraft:white_dye'], ['2x minecraft:bone_meal', '250mb milk'])
+  addFermenting(['400mb kubejs:fermented_goop', '8x minecraft:white_dye'], ['4x minecraft:bone_meal', '500mb milk'], 200)
+  addFermenting(['200mb kubejs:fermented_goop', '4x minecraft:white_dye'], ['500mb milk'])
 
   addDistillation(['10mb createdieselgenerators:ethanol', '10mb water'], ['20mb kubejs:fermented_goop'], 40,  temperature.heated)
 
 }
+
