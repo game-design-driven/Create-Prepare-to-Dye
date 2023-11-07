@@ -57,3 +57,7 @@ config/jade/sort-order.json
 /mods/pack.mcmeta
 /mods/logo.png
 /kubejs/probe/
+.vscode/fluid-attributes.json
+.vscode/item-attributes.json
+.vscode/item-tag-attributes.json
+.vscode/probe.code-snippets
