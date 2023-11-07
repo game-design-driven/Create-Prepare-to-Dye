@@ -11,8 +11,6 @@
 
 ⚙️ Create : Prepare to Dye is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
-    A small but ambitious project to give create the stage it deserves
-
 ## Intro
 As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called *Chroma Prime*.
 
