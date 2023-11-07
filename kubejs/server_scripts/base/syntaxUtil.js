@@ -16,10 +16,16 @@ function solveResult(item) {
   if (!item || item == "") return;
   if (typeof item === "string") {
     //is string, apply custom syntax
-    if (item.includes("%")) {
+    if (item.includes("mb ")) {
+      //fluid
+      console.log("fluid!"+item);
+      let amount = parseInt(item.split("mb ")[0]);
+      return Fluid.of(item.split("mb ")[1]).withAmount(amount).toJson();
+    }
+    if (item.includes(" %")) {
       return {
-        item: item.split("%")[0],
-        chance: parseFloat(item.split("%")[1]) / 100,
+        item: item.split(" %")[0],
+        chance: parseFloat(item.split(" %")[1]) / 100,
       };
     }
     // }else if (item.includes('x ')) {
@@ -88,6 +94,12 @@ function solveIngredients(ingredients) {
 function solveIngredient(ingredient) {
   // if (!ingredient) return //experimental
   if (typeof ingredient === "string") {
+    if (ingredient.includes("mb ")) {
+      //fluid
+      console.log("fluid!"+ingredient);
+      let amount = parseInt(ingredient.split("mb ")[0]);
+      return Fluid.of(ingredient.split("mb ")[1]).withAmount(amount).toJson();
+    }
     //is string, apply custom syntax
   }
   return Ingredient.of(ingredient).toJson(); //experimental, the toJson can cause problems!
