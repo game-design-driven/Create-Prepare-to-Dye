@@ -104,7 +104,7 @@ if (
   !feature("Replace mystical flowers with dyes")
 ) {
   addCrushing(
-    ["fern%25", "grass%25", "seagrass%25", "wheat_seeds%10"],
+    ["fern %25", "grass %25", "seagrass %25", "wheat_seeds %10"],
     "#botania:petals"
   );
 }
