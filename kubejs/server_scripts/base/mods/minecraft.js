@@ -77,8 +77,8 @@ if (feature('Uses for netherite')) {
     addShaped('beacon', ['ggg', 'grg', 'ono'], { g: '#forge:glass', r: 'botania:terrasteel_ingot', o: 'obsidian', n: '#forge:storage_blocks/netherite' })
 }
 if (feature('Dye from meat')) {
-    addCrushing(['pink_dye%75', 'red_dye%25'], 'porkchop')
-    addCrushing(['red_dye%75', 'pink_dye%25'], 'beef')
+    addCrushing(['pink_dye %75', 'red_dye %25'], 'porkchop')
+    addCrushing(['red_dye %75', 'pink_dye %25'], 'beef')
 }
 if (feature('Bone recipes')) {
     // addFluidTransomItem('bone', '8x #forge:meat', 'kubejs:acid', 0.1)//use kjs acid
