@@ -22,6 +22,16 @@ function addToTag(tag, ids) {
 		return event.add(tag, ids)
 	})
 }
+function addFluidToTag(tag, ids) {
+	if (tag.includes('/')) {
+		//should also add parent tag
+		addFluidToTag(tag.split('/')[0], ids)
+	}
+	const t = tag.includes('#') ? tag.replace('#', '') : tag
+	ServerEvents.tags("fluid", event => {
+		event.add(tag, ids)
+	})
+}
 
 function removeFromTag(tag, ids) {
 	ServerEvents.tags('item', event => {
