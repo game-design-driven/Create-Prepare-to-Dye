@@ -5,7 +5,7 @@
       {
         "name": "createdieselgenerators:diesel_engine_sound",
         "type": "file",
-        "attenuation_distance": 2,
+        "attenuation_distance": 1,
         "weight": 10000
       }
     ]
