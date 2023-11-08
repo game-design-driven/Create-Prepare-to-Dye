@@ -12,6 +12,13 @@ if(feature('Remove all uneeded things from ae2')){
         'ae2:toggle_bus',
         'ae2:inverted_toggle_bus',
         'ae2:storage_monitor',
+        'ae2:chipped_budding_quartz',
+        'ae2:damaged_budding_quartz',
+        'ae2:flawed_budding_quartz',
+        'ae2:small_quartz_bud',
+        'ae2:medium_quartz_bud',
+        'ae2:large_quartz_bud',
+        'ae2:quartz_crystal',
     ];
 
     Ingredient.of('@ae2').itemIds.forEach(item => {
@@ -19,6 +26,15 @@ if(feature('Remove all uneeded things from ae2')){
             removeItem(item)
         }
     })
+}
+
+if (feature('Quartz recipes')) {
+    addItemInsidePlace('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    addItemInsidePlace('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    addItemInsidePlace('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addFilling('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addFilling('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addFilling('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
 }
 
 if (feature('ae2 recipes')) {
