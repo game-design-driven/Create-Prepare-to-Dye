@@ -32,7 +32,6 @@ if (feature('Improve milling recipes')) {
     removeRecipe({ id: 'create:milling/wheat' })
     addMilling('2x create:flour', '#forge:crops/wheat')
 
-    addMilling('quartz %10', 'sand')
 }
 if (feature('Improve crushing recipes')) {
     addCrushing(['orange_dye %50', 'red_dye %20', 'yellow_dye %20' ], '#forge:crops/carrot')
