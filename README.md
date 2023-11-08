@@ -3,6 +3,7 @@
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/releases)
 [![GitHub issues](https://img.shields.io/github/issues/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Yarden-zamir/create-prepare-to-dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
 [![GitHub commits this week](https://img.shields.io/github/commit-activity/w/yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
 [![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
