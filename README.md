@@ -13,9 +13,9 @@
 ⚙️ Create : Prepare to Dye is an opinionated, minimalistic modpack centered around complex and interesting automation.
 
 ## Intro
-As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called *Chroma Prime*.
+As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
-*Chroma Prime* is mostly depleted in resources. You must take the planet, and *sell as much as possible* back to the hungry society of the "United SPACE consumer union plus plus" in order to *reestablish your company* as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to *build factories* and *trade routes* create lasting *relationships*, compete with rivals and back-stab your way to the top.
+**Chroma Prime** is mostly depleted in resources. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way to the top.
 ## About the project
 
 ### Concept
