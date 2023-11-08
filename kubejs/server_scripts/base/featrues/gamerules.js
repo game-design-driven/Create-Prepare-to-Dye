@@ -8,4 +8,5 @@ ServerEvents.loaded(e => {
     e.server.gameRules.set("disableRaids", true)
     e.server.gameRules.set("doInsomnia", false)
     e.server.gameRules.set("reducedDebugInfo", false)
+    e.server.gameRules.set("keepInventory", true)
 })
