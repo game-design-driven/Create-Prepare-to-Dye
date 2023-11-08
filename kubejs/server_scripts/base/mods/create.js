@@ -164,3 +164,23 @@ if (feature('Better cookie recipe')) {
     removeRecipe({output: 'minecraft:cookie'})
     addFilling('8x minecraft:cookie', 'create:dough','100x create:chocolate')
 }
+
+if (feature('Hopper without wood')) {
+    addShaped('hopper', ['i i','iai',' i '],{
+        i: '#forge:ingots/iron',
+        a: 'create:andesite_casing'
+    })
+}
+
+if (feature('Hopper without wood')) {
+    addShaped('2x hopper', ['i i','iai',' i '],{
+        i: '#forge:ingots/gold',
+        a: 'create:andesite_casing'
+    })
+}
+
+if (feature('Shaft without andesite')) {
+    addShaped('create:shaft', ['i','i','i'],{
+        i: '#forge:ingots/iron'
+    })
+}
