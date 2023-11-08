@@ -50,6 +50,8 @@ if (feature('Ethanol')) {
   addFermenting(['200mb kubejs:fermented_goop', '4x minecraft:white_dye'], ['500mb milk'])
 
   addMixing('kubejs:fermented_blob %10', '100mb kubejs:fermented_goop')
+  addMixing('slime_ball', ['kubejs:fermented_blob', '#forge:dyes/lime'])
+  addMixing('slime_ball %80', ['500mb kubejs:fermented_goop', '4x #forge:dyes/lime'])
   addDistillation(['10mb createdieselgenerators:ethanol', '10mb water'], ['20mb kubejs:fermented_goop'], 40,  temperature.heated)
 
 }
