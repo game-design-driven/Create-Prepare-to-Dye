@@ -5,3 +5,7 @@ StartupEvents.registry('fluid', event => {
             .bucketColor(0xE0C3BC)
             .noBlock()
 })
+
+StartupEvents.registry('item', event => {
+    event.create('fermented_blob').displayName('Fermented Blob')
+})
