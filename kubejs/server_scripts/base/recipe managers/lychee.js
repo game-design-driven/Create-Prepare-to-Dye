@@ -3,9 +3,21 @@
 function addItemInside(post, input, block_in) {
     let result = {
         type: 'lychee:item_inside',
-        item_in: solveLimitedIngredient(input),
+        item_in: solveLimitedIngredients(input),
         block_in: block_in,
         post: post,
+    }
+    modpackRecipes.push(result)
+}
+function addItemInsidePlace(block_out, input, block_in) {
+    let result = {
+        type: 'lychee:item_inside',
+        item_in: solveLimitedIngredients(input),
+        block_in: block_in,
+        post: {
+            type: 'place',
+            block: block_out
+        },
     }
     modpackRecipes.push(result)
 }
