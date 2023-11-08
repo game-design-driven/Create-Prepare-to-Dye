@@ -117,14 +117,14 @@ See all features [here](kubejs/server_scripts/base/featrues)
 [Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
 
 # Roadmap
-| Goal                                 | Estimated Progress                 | Priority | Description          | Alpha Ready |
-|--------------------------------------|:-----------------------------------:|---------:|----------------------|-------------|
-| Core Mod List                        | ![](https://progress-bar.dev/95)   | Critical | The mods that help construct the core gameplay loop| ✔           |
-| Core Gameplay loop                   | ![](https://progress-bar.dev/85)   | Critical | The basic elements that repeats and evolve as the game loops| ✔      |
-| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/35)   | High     | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop|          |
-| Documentation                        | ![](https://progress-bar.dev/30)   | High     | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value |          |
-| Script base                          | ![](https://progress-bar.dev/100)  | Critical | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| ✔      |
-| Modularity                           | ![](https://progress-bar.dev/90)   | Standard | All core aspects of the pack are configurable|          |
-| Performance                          | ![](https://progress-bar.dev/90)   | Low      | The pack starts up fast and can run on low end pcs well even through the end game| ✔      |
-| Trading System                       | ![](https://progress-bar.dev/25)   | Critical | The system responsible for making intergalactic trades|          |
-| Community                            | ![](https://progress-bar.dev/2)    | Low      | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| ✔    |
+| Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
+|--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
+| Core Mod List                        | ![](https://progress-bar.dev/95)   | The mods that help construct the core gameplay loop| Critical | ✔           |
+| Core Gameplay loop                   | ![](https://progress-bar.dev/85)   | The basic elements that repeats and evolve as the game loops| Critical | ✔      |
+| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/35)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
+| Documentation                        | ![](https://progress-bar.dev/30)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
+| Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
+| Modularity                           | ![](https://progress-bar.dev/90)   | All core aspects of the pack are configurable| Standard |          |
+| Performance                          | ![](https://progress-bar.dev/90)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
+| Trading System                       | ![](https://progress-bar.dev/25)   | The system responsible for making intergalactic trades| Critical |          |
+| Community                            | ![](https://progress-bar.dev/2)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
