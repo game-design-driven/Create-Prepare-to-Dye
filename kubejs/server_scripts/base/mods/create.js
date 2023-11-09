@@ -184,3 +184,12 @@ if (feature('Shaft without andesite')) {
         i: '#forge:ingots/iron'
     })
 }
+
+if (feature('Crushing wheel in regular crafting')) {
+    removeRecipe({id: 'create:mechanical_crafting/crushing_wheel'})
+    addShaped('create:crushing_wheel', ['ipi','prp','ipi'],{
+        i: '#forge:ingots/andesite_alloy',
+        p: '#minecraft:planks',
+        r: 'create:shaft'
+    })
+}
