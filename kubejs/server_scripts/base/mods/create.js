@@ -73,7 +73,8 @@ if (feature('Cogs')) {
     removeRecipe({id:'create:crafting/kinetics/cogwheel'})
     removeRecipe({id:'create:crafting/kinetics/large_cogwheel_from_little'})
     replaceInputForRecipes('create:cogwheel', '#forge:cogs', { type:'minecraft:crafting_shaped' })   
-    replaceInputForRecipes('create:cogwheel', '#forge:cogs', { type:'minecraft:crafting_shapeless' })   
+    replaceInputForRecipes('create:cogwheel', '#forge:cogs', { type:'minecraft:crafting_shapeless' }) 
+    addShapeless('create:large_cogwheel', 'create:cogwheel')  
 }
 
 if (feature('Application recipes')) {
