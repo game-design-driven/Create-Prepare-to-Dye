@@ -17,7 +17,6 @@ JEIEvents.hideItems((event) => {
     event.hide(`quark:${color}_shingles`)
     event.hide(`minecraft:${color}_candle`)
     event.hide(`minecraft:${color}_shulker_box`)
-    event.hide(`minecraft:${color}_terracotta`)
     event.hide(`minecraft:${color}_glazed_terracotta`)
     event.hide(`supplementaries:candle_holder_${color}`)
     event.hide(`minecraft:${color}_stained_glass`)
