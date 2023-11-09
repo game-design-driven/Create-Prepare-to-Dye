@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     modpackRecipes.forEach(recipe => {
         removeAirFromRecipe(recipe)
         if (hasRemovedItems(recipe)==true) {
-            console.log("didn't add recipe " + recipe.output);
+            console.log("didn't add recipe " + recipe.output + " because it has removed items");
         } else {
             let r = event.custom(recipe)
             r.id = getUniqueRecipeName(r)
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     });
 })
 
-console.info("All the removed and hidden items: "+global.itemsToHide)
+console.info("All the removed and hidden items: "+JSON.stringify(global.itemsToHide))
 
 // onEvent('server.datapack.low_priority', (event) => {
 //     event.addJson('botania:orechid_ore_weights/orechid.json', {
