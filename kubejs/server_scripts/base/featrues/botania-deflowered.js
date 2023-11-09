@@ -172,7 +172,7 @@ if (feature('Remove manaweavmanae cloth')) {
 if (feature('Replace mana powder with lapis')){
     // removeAndReplace('botania:mana_powder', 'mrinecraft:lapis_lazuli')
     removeRecipe({ id: 'botania:mana_infusion/mana_powder_dust' })
-    addAlchemyRecipe('minecraft:lapis_lazuli', '#forge:dusts', 500)
+    addInfusion('minecraft:lapis_lazuli', '#forge:dusts', 10)
     replaceInputForRecipes('botania:mana_powder', 'minecraft:lapis_lazuli')
     addToTag('botania:mana_dusts', 'minecraft:lapis_lazuli')
     removeFromTag('botania:mana_dusts', 'botania:mana_powder')
