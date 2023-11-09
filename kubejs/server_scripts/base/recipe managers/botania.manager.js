@@ -70,6 +70,7 @@ function addAltar(output, inputs, mana) {
  * @param {number} time amount of time in ticks default(150)
  */
 function addPurify(output, input, time) {
+    time = time || 30
     modpackRecipes.push({
         type: 'botania:pure_daisy',
         input: solveStateIngredient(input),
