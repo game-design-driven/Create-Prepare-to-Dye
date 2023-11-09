@@ -59,3 +59,8 @@ if (feature('Remove and replace red string')) {
 if (feature('livingwood makes more charcoal')) {
     addSmelting('3x charcoal', 'botania:livingwood', 0.1, 800)
 }
+
+if (feature('Livingrock from terracotta')) {
+    addPurify('botania:livingrock', 'minecraft:white_terracotta')
+}
+}
