@@ -63,4 +63,11 @@ if (feature('livingwood makes more charcoal')) {
 if (feature('Livingrock from terracotta')) {
     addPurify('botania:livingrock', 'minecraft:white_terracotta')
 }
+
+if (feature('Livingwood twig out of dead bush and mana')) {
+    addItemApplication('botania:livingwood_twig', 'dead_bush', '#botania:mana_dusts')
+}
+
+if (feature('Livingwood from twigs')) {
+    addShaped('botania:livingwood_log', ['tt', 'tt'], { t: 'botania:livingwood_twig' })
 }
