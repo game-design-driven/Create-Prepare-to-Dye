@@ -22,9 +22,9 @@ const inconsistentNamesMap = {
   naturaPylon: "aIntro",
   alfheimPortal: "aIntro",
   lightRelay: "luminizerTransport",
-  detectlorLightRelay: "luminizerTransport",
+  detectorLightRelay: "luminizerTransport",
   forkLightRelay: "luminizerTransport",
-  toogleLightRelay: "luminizerTransport",
+  toggleLightRelay: "luminizerTransport",
   lightLauncher: "luminizerTransport",
   manaSpreader: "spreader",
   manaPool: "pool",
@@ -37,9 +37,13 @@ const inconsistentNamesMap = {
   twigWand: "wand",
   pump: "poolCart",
   craftyCrate: "craftCrate",
+  apothecary_: "apothecary",
 };
 function replaceInconsistentNames(str) {
   Object.entries(inconsistentNamesMap).forEach(([key, value]) => {
+    if (key.endsWith('_') && str.includes(key.replace('_', ''))) {
+      str = value
+    }
     str = str.replace(key, value);
   });
   return str;
