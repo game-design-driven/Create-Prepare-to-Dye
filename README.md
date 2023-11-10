@@ -66,7 +66,7 @@ JEI is a core gameplay element. Imagine playing botania without needing to open 
 <details>
   <summary>A new take on progression</summary>
   
-Progression and "tiers" in this modpack is not done with more and more expansive machines and devices. You are not leveling up your machines, you are leveling up your production. Your early game white plate production will tie well into your late game, like most of the processes in this pack. As the game progresses the scale and the complexity of your lines will grow. You upgrade processes, not machines.
+Progression and "tiers" in this modpack are not done with more and more expansive machines and devices. You are not leveling up your machines, you are leveling up your production. Your early game white plate production will tie well into your late game, like most of the processes in this pack. As the game progresses the scale and the complexity of your lines will grow. You upgrade processes, not machines.
 </details>
 
 <details>
