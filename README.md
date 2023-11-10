@@ -10,18 +10,18 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 
-⚙️ Create : Prepare to Dye is an opinionated, minimalistic modpack centered around complex and interesting automation.
+⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation.
 
 ## Intro
 As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
-**Chroma Prime** is mostly depleted in resources. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way to the top.
+**Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 ## About the project
 
 ### Concept
+- Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
 - You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
 - This planet is depleted, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
-- Your goal is to be the highest rated producer in the system.
 ### Gameplay loop
 - You accept trade deals with various companies
 - You produce the resources needed to fulfill the trade deals
@@ -31,35 +31,27 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
 <details>
   <summary>Complex and unique automation</summary>
   
-Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options.
-* Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation*1
-* Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack 
+Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options, the emphasis here is on options, as opposed to tiers, more on that later.
+* Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation. The philosophy of the mod alignes almost perfectly with ours, and when it doesn't it is altered.
+* Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack. It has undergone many modifications to fit it into this world.
 * Quark + oddities
 ---
-On top of those we add many processing lines (over 1200 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate.
+On top of those we add many processing lines (over 1200 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
 </details>
 <details>
   <summary>Radical simplification</summary>
 
-No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanialla minecraft. Did anyone say nether? Never heard of it.
 </details>
 <details>
   <summary>Remove tiers</summary>
 
-* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of th game. For example the grindstones from create are not a flat upgrade over the millstone, the millstone produces of a single product, while the grindstones produce multiple products, but at a lower rate. Every recipe will have advantages and disadvantages, and depending on your exsisting processing lines it might make sense to use different ones.
-* With the exception of stone. Tools and armor have been rebalanced to have a place at any point in the game.
-  * wood tools do not exist
-  * iron tools have the most durability
-    * botania's manasteel has less durability but can be replenished with mana
-  * diamond tools have the high speed
-  * gold tools have the most enchantability and are the fastest, but have the least durability (but more than in vanilla)
-  * netherite tools are the most well rounded. But are slower than diamond, have less enchantability than gold and have less durability than iron
+* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of th game. For example the grindstones from create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
 </details>
 <details>
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
   
-* Effortless building - with the configs that allow you to build and destroy huge things right out of the gate.
-* Refined Storage - without any automation parts, it is just a fancy way to access your storage to make your life easier without taking away any of the cool automation
+We do everything within our power to prevent the possibility of optimizing the fun out of this game. Specifically with regard to our core gameplay loop. If you are not automating, making and building cool stuff, we assume we have done something wrong, and we sprint to fix it.
 </details>
 <details>
   <summary>Lightweight</summary>
@@ -69,12 +61,12 @@ The pack has around 60 mods, takes less than a minute to boot!
 <details>
   <summary>Heavily Documented, in game</summary>
   
-JEI is a core gameplay element. Imagine playing botania without needing to open a book or a wiki
+JEI is a core gameplay element. Imagine playing botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
   
-Consistency and fun, sense based processes over realistic ones
+Consistency and fun, sense based processes over realistic ones. This is minecraft logic, but logic it still is. We use colors instead of metals yes, but consistently. Your spaceship is powered by milk, yes, and so do many other things, consistently.
 </details>
 
 <details>
@@ -122,8 +114,8 @@ See all features [here](kubejs/server_scripts/base/featrues)
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
 | Core Mod List                        | ![](https://progress-bar.dev/95)   | The mods that help construct the core gameplay loop| Critical | ✔           |
 | Core Gameplay loop                   | ![](https://progress-bar.dev/85)   | The basic elements that repeats and evolve as the game loops| Critical | ✔      |
-| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/35)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
-| Documentation                        | ![](https://progress-bar.dev/30)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
+| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/34)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
+| Documentation                        | ![](https://progress-bar.dev/42)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
 | Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
 | Modularity                           | ![](https://progress-bar.dev/90)   | All core aspects of the pack are configurable| Standard |          |
 | Performance                          | ![](https://progress-bar.dev/90)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
