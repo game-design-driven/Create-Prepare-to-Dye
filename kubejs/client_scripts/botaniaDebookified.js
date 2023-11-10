@@ -38,6 +38,8 @@ const inconsistentNamesMap = {
   pump: "poolCart",
   craftyCrate: "craftCrate",
   apothecary_: "apothecary",
+  gaiaPylon: "gaiaRitual",
+  dreamwoodWand: 'elfResources'
 };
 function replaceInconsistentNames(str) {
   Object.entries(inconsistentNamesMap).forEach(([key, value]) => {
