@@ -62,9 +62,9 @@ Ingredient.of("@botania").stacks.forEach((item) => {
   let floatingVersion = Item.of(item.id.split(":")[0] + ":floating_" + item.id.split(":")[1]);
   let chibiVersion = Item.of(item.id + "_chibi");
   let floatingChibiVersion = Item.of(floatingVersion.id + "_chibi");
-  if (floatingVersion !== "minecraft:air")addTooltip(floatingVersion, description);
-  if (chibiVersion !== "minecraft:air") addTooltip(chibiVersion, description);
-  if (floatingChibiVersion !== "minecraft:air") addTooltip(floatingChibiVersion, description);
+  addTooltip(floatingVersion, description);
+  addTooltip(chibiVersion, description);
+  addTooltip(floatingChibiVersion, description);
   
   addTooltip(item, description);
 });
