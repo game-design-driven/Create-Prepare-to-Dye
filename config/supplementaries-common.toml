@@ -96,7 +96,7 @@
 		#Allows the player to directly drink from jar items
 		drink_from_jar_item = false
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = false
+		jar_auto_detect = true
 		#Allow Jars to capture small mobs
 		jar_capture = true
 		#Allow Jars to hold cookies
@@ -111,9 +111,9 @@
 		#Allows all baby mobs to be captured by cages
 		cage_allow_all_babies = true
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
-		persistent_mobs = false
+		persistent_mobs = true
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
 		#Range: 1 ~ 100
 		health_threshold = 100
