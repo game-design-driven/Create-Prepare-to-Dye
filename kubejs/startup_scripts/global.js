@@ -2,3 +2,4 @@ global.colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', '
 global.itemsToHide = []
 global.categoriesToHide = []
 global.itemsToRemove = []
+global.itemTooltips = []
