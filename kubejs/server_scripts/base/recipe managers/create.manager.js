@@ -134,6 +134,13 @@ function addMixing(output, input, heatRequirement, processingTime, fluidOutput, 
     let outputArr = solveResults(output).concat(solveFluids(fluidOutput))
     return addProcessingRecipe('create:mixing', outputArr, inputArr, processingTime, heatRequirement)
 }
+/**
+ * Adds a mechanical crafting recipe to the modpackRecipes array.
+ * @param {string} output - The output of the recipe.
+ * @param {string[]} pattern - The crafting pattern for the recipe.
+ * @param {object} key - A map of characters to items.
+ * @returns {object} The recipe object that was added to the modpackRecipes array.
+ */
 function addMechanicalCrafting(output, pattern, key) {
     let recipe = {
         type: "create:mechanical_crafting",
