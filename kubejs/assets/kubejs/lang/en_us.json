@@ -1,0 +1,17 @@
+{
+    "block.minecraft.stone.tooltip": "STONE",
+    "block.minecraft.stone.tooltip.summary": "Generates when Flowing Lava touches a Source of Water.",
+    "item.minecraft.diamond.tooltip.summary": "pop",
+    "block.minecraft.gold_ingot.tooltip.summary": "gold?",
+    "block.minecraft.rail.tooltip.summary": "much rail wow nice yes",
+    "item.botania.twig_wand{color1:0,color2:0}.tooltip.summary": "Used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.",
+    "item.botania.twig_wand.tooltip": "Used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.",
+    "item.minecraft.stick.tooltip": "A pice of wood from wood",
+    "item.minecraft.stick.tooltip.summary": "Polaroid Camera",
+    "item.botania.incense_plate.tooltip": "Once an Incense Stick is placed onto it, right-clicking with a Flint and Steel will ignite the stick. This can also be done with a Mana burst with the Kindle Lens. Also accept items from a Hopper or any other inputting mechanism. It will also emit Comparator signals, where 1 signals there is a stick present, and 2 signals the stick is currently burning.",
+    "generator.minecraft.normal": "Chroma Prime",
+    "generator.minecraft.normal.info": "A small, dead, irradiated planet called Chroma Prime. It's all I have, lets make the most of it."
+}
+
+
+
