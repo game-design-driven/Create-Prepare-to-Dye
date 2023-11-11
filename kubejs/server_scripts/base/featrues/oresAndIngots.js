@@ -14,7 +14,6 @@ if (feature('Ores from dyes')) {
         'deepslate_gold_ore': 'yellow_dye',
     }
     let nether_ores = {
-        'nether_quartz_ore': 'white_dye',
         'nether_gold_ore': 'yellow_dye'
     }
     Object.entries(basicOres).forEach(entry => {
