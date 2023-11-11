@@ -1,6 +1,6 @@
 
 addGrow('minecraft:dead_bush', 'minecraft:red_sand', 'bone_meal')
-addCrushing(['sand %75','red_dye %5', 'dead_bush %4', 'bone %4'], 'red_sand')
+addCrushing(['red_dye %5', 'dead_bush %4', 'bone %4'], 'red_sand')
 addMilling([ 'dead_bush %10','bone %5'], 'red_sand')
 addCompacting('dirt',['2x stick','#forge:sand','clay_ball'])
 addCompacting('dirt %75',['4x stick','clay'])
