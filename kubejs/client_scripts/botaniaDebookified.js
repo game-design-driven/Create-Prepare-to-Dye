@@ -50,7 +50,7 @@ function replaceInconsistentNames(str) {
   });
   return str;
 }
-Ingredient.of("@botania").stacks.forEach((item) => {
+Ingredient.of(/^botania:/).stacks.forEach((item) => {
   let cameCaseName = snakeToCamel(item.id.split(":")[1] + "");
   cameCaseName = replaceInconsistentNames(cameCaseName);
   let key = `botania.tagline.${cameCaseName}`;
