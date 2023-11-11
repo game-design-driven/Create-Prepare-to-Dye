@@ -81,3 +81,11 @@ if (feature('ae2 recipes')) {
 if (feature('Energy cell recycling')) {
     addCrushing(['9x quartz %75', '4x redstone %50', 'sand %40'], 'ae2:energy_cell')
 }
+
+if (feature('Me toggle bus recipe')) {
+    addShaped('ae2:toggle_bus', [' r ','clc', ' r '], {
+        r: '#forge:dusts/redstone',
+        c: 'ae2:fluix_smart_cable',
+        l: 'minecraft:lever'
+    })
+}
