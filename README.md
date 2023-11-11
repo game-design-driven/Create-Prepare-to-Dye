@@ -10,7 +10,7 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 
-⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation.
+⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
 ## Intro
 As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
