@@ -1,13 +1,13 @@
 name = "Wares"
-filename = "wares-1.19.2-1.2.1.jar"
+filename = "wares-1.19.2-1.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Jz71ddli/versions/oBn7FxLM/wares-1.19.2-1.2.1.jar"
+url = "https://cdn.modrinth.com/data/Jz71ddli/versions/6EL6ZtL4/wares-1.19.2-1.2.2.jar"
 hash-format = "sha1"
-hash = "3cc2d7c853346cc691fdb8d3ae58c3eaf055e7e5"
+hash = "abcf7c84a5012b9d916e9191d9a8b6330ac4a19f"
 
 [update]
 [update.modrinth]
 mod-id = "Jz71ddli"
-version = "oBn7FxLM"
+version = "6EL6ZtL4"

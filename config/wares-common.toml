@@ -1,5 +1,8 @@
 #Wandering Trader will sell Sealed Delivery Agreements.
 WanderingTraderSellsAgreements = true
+#Item nbt-tags will be transferred to the newly created Delivery Agreement item when Sealed Delivery Agreement is opened. 
+#Useful when you want to keep custom item name, etc.
+KeepNBTWhenOpeningAgreement = true
 
 [Delivery]
 	#Time in ticks that deliveries take. Agreement can override this value. Default: 200 ticks (10 seconds)
