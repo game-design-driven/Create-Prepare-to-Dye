@@ -51,14 +51,14 @@ if (feature('Red from meat')) {
 if (feature('Red from cinder flour')) {
     removeRecipe({ id: 'create:crushing/netherrack' })
     addMilling('red_dye %80', 'create:cinder_flour')
-    addCrushing(['red_dye %50', 'redstone %15', 'quartz %15'], 'create:cinder_flour')
+    addCrushing(['red_dye %50', 'redstone %15', 'quartz %1'], 'create:cinder_flour')
 }
 
 if (feature('Red from crops')) {
-    addCrushing(['red_dye %60', 'redstone %50', 'quartz %5'], '#forge:crops/nether_wart')
+    addCrushing(['red_dye %60', 'redstone %50'], '#forge:crops/nether_wart')
     addMilling('red_dye', '#minecraft:wart_blocks')
     addMilling('red_dye', 'minecraft:red_mushroom')
-    addCrushing(['red_dye %50', 'redstone %15', 'quartz %15'], 'minecraft:red_mushroom')
+    addCrushing(['red_dye %50', 'redstone %15'], 'minecraft:red_mushroom')
 }
 
 if (feature('Gray from ash')) {
