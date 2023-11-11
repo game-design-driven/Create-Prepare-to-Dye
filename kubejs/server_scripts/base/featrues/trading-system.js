@@ -1,120 +1,111 @@
+// Black Hole Bagels LLC
+// 64x fermented blob -> Gourmaryllis 16x sugar canes, water bucket, 4x hoppers
+const starterDeals = [
+  getAgreement(
+    ["32x andesite", "8x create:belt_connector", "8x create:cogwheel"],
+    ["64x create:iron_sheet"],
+    "We want plates",
+    2,
+    "Bobs Construction Fleet",
+    "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too"
+  ),
+  getAgreement(
+    ['botania:manasteel_shovel', "2x botania:rannuncarpus", "2x botania:hopperhock", "2x botania:mana_pool", "botania:mana_spreader"],
+    ["64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand"],
+    "Your Sand – Our Beaches?",
+    2,
+    "Magical Landscaping co",
+    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal thatl put your sands on the lunar map. Whaddya say?"
+  ),
+  getAgreement(
+    ["botania:gourmaryllis", 'water_bucket', "4x hopper", "16x sugar_cane"],
+    ["32x kubejs:fermented_blob"],
+    "Need some ingredients for our new recipe",
+    2,
+    "Black Hole Bagels LLC",
+    "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that"
+  ),
+]
+PlayerEvents.loggedIn((event) => {
+  if (!event.player.data.hasGottenStarterDeals) {
+    event.player.data.add("hasGottenStarterDeals", "true");
+    starterDeals.forEach((deal) => event.player.give(deal));
+  }
+});
 
-// addMixing(['paper %50', 'stone %50'],['5x cobblestone'])
+// PlayerEvents.chat((event) => {
+//   starterDeals.forEach((deal) => event.player.give(deal));
+// });
 
-// function createTradeAgreement(payment, requested, ordered, expiresInSeconds, title){
-//     let item = Item.of('wares:sealed_delivery_agreement', `{ordered:${ordered},payment:[${payment}],requested:[${requested}],title:${title}, expiresInSeconds: ${expiresInSeconds}}`)
-//     return item
-// }
-// function solveWaresResults(results_string) {}
-// function createAgreement(payment, requested, title, orderedAmount) {
+// let payment = Item.of("4x create:belt_connector");
+// let payment1 = Item.of("4x create:cogwheel");
+// let payment2 = Item.of("4x create:andesite_casing");
+// let requested = Item.of("64x create:iron_sheet");
+// let title = "We want plates";
+// let company_name = "Bobs Construction Fleet";
+// let orderedAmount = 2;
+// let dynamicItem = Item.of(
+//   "wares:delivery_agreement",
+//   `{\
+//         display:{Name:'{\"text\":\"${company_name}\",\"italic\":\"false\"}'},\
+//         ordered:${orderedAmount},\
+//         paymentItems:[${payment.toNBT()},${payment1.toNBT()},${payment2.toNBT()}],\
+//         requestedItems:[${requested.toNBT()},${requested.toNBT()}],\
+//         title:\'{"text":"${title}"}\'\
+//     }`
+// );
+// ///give @s wares:delivery_agreement{title:'{"text":"A Great Deal"}',requestedItems:[{id:"minecraft:stick",Count:2}],paymentItems:[{id:"minecraft:emerald",Count:1}],ordered:10,buyerName:"red inc", buyerAddress:"red planet"}
+// let dynamicCompletedItem = Item.of(
+//   "wares:completed_delivery_agreement",
+//   '{delivered:2,display:{Name:\'{"text":"Bobs Construction Fleet","italic":"false"}\'},isCompleted:1b,ordered:2,paymentItems:[{Count:4,id:"create:belt_connector"},{Count:4,id:"create:cogwheel"},{Count:4,id:"create:andesite_casing"}],requestedItems:[{Count:64,id:"create:iron_sheet"},{Count:64,id:"create:iron_sheet"}],title:\'{"text":"We want plates"}\'}'
+// );
+// let pig = Item.of(
+//   "supplementaries:cage",
+//   '{BlockEntityTag:{ForgeCaps:{},MobHolder:{EntityData:{AbsorptionAmount:0.0f,Age:-23553,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.25d,Name:"minecraft:generic.movement_speed"},{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForcedAge:0,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:10.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],Saddle:0b,id:"minecraft:pig"},Name:"Pig",Scale:0.6944445f,UUID:[I;57360641,-1411430334,-1245227404,2119155284]}}}'
+// );
+// let identicalButFromFunction = getAgreement(
+//   [payment, payment1, payment2, pig, "5x iron_ingot", "create:andesite_alloy"],
+//   [requested, requested],
+//   title,
+//   orderedAmount,
+//   company_name,
+//   "hello m8"
+// );
+// function getAgreement(
+//   paymentItems,
+//   requestedItems,
+//   title,
+//   orderedAmount,
+//   company,
+//   message
+// ) {
 //   if (!orderedAmount) orderedAmount = parseInt(1);
 //   if (!title) title = "stuffs";
 //   return Item.of(
-//     "wares:sealed_delivery_agreement",
-//     `{ordered:${orderedAmount},payment:${payment},requested:${requested},title:${title}`
+//     "wares:delivery_agreement",
+//     `{\
+//       display:{Name:'{\"text\":\"${
+//         company + " - " + title
+//       }\",\"italic\":\"false\"}'},\
+//       ordered:${orderedAmount},\
+//       message:'{"text":"${message}"}',\
+//       buyerName:'{"color":"#409D9B","text":"${company}"}',\
+//       paymentItems:${simple(paymentItems)},\
+//       requestedItems:${simple(requestedItems)},\
+//       title:\'{"text":"${title}"}\'\
+//     }`
 //   );
 // }
-// Item.of('wares:sealed_delivery_agreement', '{ordered:10,payment:[{Count:1,id:"minecraft:emerald"}],requested:[{Count:{max:16,min:4,step:4},id:"minecraft:stick"}],title:\'{"text":"A Great Deal"}\'}')
-// Item.of('wares:sealed_delivery_agreement', '{ordered:10,payment:[{Count:1.0d,id:"minecraft:emerald"}],requested:[{Count:{max:16,min:4,step:4},id:"minecraft:stick"}],title:\'{"text":"A Great Deal"}\'}')
-// Item.of('wares:sealed_delivery_agreement', "{ordered:10,payment:['{\"Count\":1.0,\"id\":\"minecraft:emerald\"}'],requested:[{Count:{max:16,min:4,step:4},id:\"minecraft:stick\"}],title:'{\"text\":\"A Great Deal\"}'}")
-let payment = Item.of("4x create:belt_connector");
-let payment1 = Item.of("4x create:cogwheel");
-let payment2 = Item.of("4x create:andesite_casing");
-let requested = Item.of("64x create:iron_sheet");
-let title = "We want plates";
-let company_name = "Bobs Construction Fleet";
-let orderedAmount = 2;
-let dynamicItem = Item.of(
-  "wares:delivery_agreement",
-  `{\
-        display:{Name:'{\"text\":\"${company_name}\",\"italic\":\"false\"}'},\
-        ordered:${orderedAmount},\
-        paymentItems:[${payment.toNBT()},${payment1.toNBT()},${payment2.toNBT()}],\
-        requestedItems:[${requested.toNBT()},${requested.toNBT()}],\
-        title:\'{"text":"${title}"}\'\
-    }`
-);
-let dynamicCompletedItem = Item.of('wares:completed_delivery_agreement', "{delivered:2,display:{Name:'{\"text\":\"Bobs Construction Fleet\",\"italic\":\"false\"}'},isCompleted:1b,ordered:2,paymentItems:[{Count:4,id:\"create:belt_connector\"},{Count:4,id:\"create:cogwheel\"},{Count:4,id:\"create:andesite_casing\"}],requestedItems:[{Count:64,id:\"create:iron_sheet\"},{Count:64,id:\"create:iron_sheet\"}],title:'{\"text\":\"We want plates\"}'}");
 
-addMixing(
-  dynamicItem,
-  ["9x #forge:dyes/yellow", "minecraft:paper"],
-  temperature.none,
-  450
-);
-addShapeless(dynamicItem, dynamicCompletedItem.weakNBT());
+// addMixing(
+//   dynamicItem,
+//   ["9x #forge:dyes/yellow", "minecraft:paper"],
+//   temperature.none,
+//   450
+// );
+// addShapeless(dynamicItem, dynamicCompletedItem.weakNBT());
 
 // PlayerEvents.chat((event) => {
-//   // event.player.give('minecraft:stick')
-//   // spawner{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond"}],id:"minecraft:shulker_box"}}
-//   // Item.of('minecraft:spawner', '{BlockEntityTag:{SpawnData:{entity:{id:"zombie"}}}}')
-//   // Item.of('minecraft:spawner', '{BlockEntityTag:{SpawnData:{entity:{id:"zombie"}}},RepairCost:0,display:{Name:\'{"text":"Zombie Spawner"}\'}}')
-//   // Item.of('minecraft:shulker_box', 'minecraft:shulker_box{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond"}],id:"minecraft:shulker_box"}}')
-//   // let paymentObject = {Count: 100, id: "minecraft:spawner"};
-//   // let requestedObject = {id:"minecraft:emerald", Count: 4, display:{Name:'{"translate":"item.minecraft.diamond"}'}}
-//   // Item.of('wares:completed_delivery_agreement', "{RepairCost:0,delivered:1,deliveryTime:-1,display:{Name:'{\"text\":\"IGT - Paper contract\"}'},isCompleted:1b,ordered:1,paymentItems:[{Count:4,id:\"minecraft:emerald\"}],requestedItems:[{id:\"minecraft:shulker_box\",tag:{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:\"minecraft:diamond\"}],id:\"minecraft:shulker_box\"}}}]}")
-//   let title = "We want plates";
-//   let company_name = "Bobs Construction Fleet";
-//   let orderedAmount = 2;
-//   let item = Item.of(
-//     "wares:sealed_delivery_agreement",
-//     `{\
-//             display:{Name:'{\"text\":\"IGT - Paper contract\",\"italic\":\"false\"}'},\
-//             ordered:1,\
-//             storyId:0,\
-//             payment:[{id:"minecraft:emerald", Count: 4}],\
-//             requested:[{Count: 1, id:"minecraft:shulker_box", tag:{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond"}],id:"minecraft:shulker_box"}}}],\
-//             title:\'{"text":"${title}"}\'\
-//         }`
-//   );
-
-  // let dynamicItem = Item.of( //this works
-  //     'wares:sealed_delivery_agreement',
-  //     `{\
-  //         display:{Name:'{\"text\":\"IGT - Paper contract\",\"italic\":\"false\"}'},\
-  //         ordered:1,\
-  //         storyId:0,\
-  //         payment:[${payment.toNBT()}],\
-  //         requested:[{Count: 1, id:"minecraft:shulker_box", tag:{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond"}],id:"minecraft:shulker_box"}}}],\
-  //         title:\'{"text":"${title}"}\'\
-  //     }`
-  // )
-  // let item2 = Item.of(
-  //     'wares:sealed_delivery_agreement',
-  //     `{
-  //         "id": "example_agreement",
-  //         "title": '{color: "#922706", text: "Example Agreement"}',
-  //         "message":'{text: "too much text here so shortening cupidatat\\nnontext minim\\nveniam, text culpa"}',
-  //         "buyerName":'{color : "#333333" , text: "Greg the Blacksmith"}',
-  //         "buyerAddress": '{obfuscated: true, text: "12 Side Road, Vibrant Plains Village"}',
-  //         "requestedItems": [{id: "minecraft:baked_potato", Count: 4}, {id: "minecraft:pumpkin_pie", Count: 2}],
-  //         "paymentItems": [{id: "minecraft:emerald", Count: 2}],
-  //         "expireTimestamp": 240436,
-  //         "experience": 12,
-  //         "ordered": 5
-  //     }`
-  // )
-//   event.player.give(item);
 //   event.player.give(dynamicItem);
-//   // event.player.give(item2)
-//   // event.server.runCommand(`/give @s wares:sealed_delivery_agreement{title:'{"text":"A Great Deal"}',requested:[{id:"minecraft:stick",Count:{min:4,max:16,step:4}}],payment:[{id:"minecraft:emerald",Count:1}],ordered:10}`)
+//   event.player.give(identicalButFromFunction);
 // });
-
-// let orderedAmount = 10;
-// let paymentObject = {Count: 1, id: "minecraft:emerald"};
-// let requestedObjects = [{Count: {max: 16, min: 4, step: 4}, id: "minecraft:stick"}];
-// let titleObject = {"text": "A Great Deal"};
-
-// // Convert objects to strings using JSON.stringify
-// let paymentString = JSON.stringify([paymentObject]);
-// let requestedString = JSON.stringify(requestedObjects);
-// let titleString = JSON.stringify(titleObject);
-
-// // Use the variables to construct the final string
-// let itemDataString = `wares:sealed_delivery_agreement{ordered:${orderedAmount},payment:${paymentString},requested:${requestedString},title:${titleString}}`;
-// Item.of('wares:completed_delivery_agreement', '{storyId:0,delivered:1,deliveryTime:-1,isCompleted:1b,ordered:1,paymentItems:[{Count:4,id:"minecraft:emerald"}],requestedItems:[{id:"minecraft:shulker_box",tag:{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond"}],id:"minecraft:shulker_box"}}}]}')
-// // // Use the final string to create the item
-// // let item = Item.of(itemDataString);
-// // event.player.give(item);
-
-// ItemEvents.rightClicked(ItemEvents.rightClicked(Item.of('minecraft:paper', '{lvl:"potato"}'), e => e.player.tell('potato')))
