@@ -497,7 +497,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -566,7 +566,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:water",
+                              "Name": "minecraft:lava",
                               "Properties": {
                                 "level": "0"
                               }
@@ -618,7 +618,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:water",
+                              "Name": "minecraft:lava",
                               "Properties": {
                                 "level": "0"
                               }
@@ -740,7 +740,7 @@
                         {
                           "type": "minecraft:condition",
                           "if_true": {
-                            "type": "minecraft:water",
+                            "type": "minecraft:lava",
                             "add_stone_depth": false,
                             "offset": -1,
                             "surface_depth_multiplier": 0
@@ -791,7 +791,7 @@
                         {
                           "type": "minecraft:condition",
                           "if_true": {
-                            "type": "minecraft:water",
+                            "type": "minecraft:lava",
                             "add_stone_depth": true,
                             "offset": -6,
                             "surface_depth_multiplier": -1
@@ -895,7 +895,7 @@
                     "then_run": {
                       "type": "minecraft:condition",
                       "if_true": {
-                        "type": "minecraft:water",
+                        "type": "minecraft:lava",
                         "add_stone_depth": true,
                         "offset": -6,
                         "surface_depth_multiplier": -1
@@ -923,7 +923,7 @@
               "then_run": {
                 "type": "minecraft:condition",
                 "if_true": {
-                  "type": "minecraft:water",
+                  "type": "minecraft:lava",
                   "add_stone_depth": false,
                   "offset": -1,
                   "surface_depth_multiplier": 0
@@ -951,7 +951,7 @@
                             {
                               "type": "minecraft:condition",
                               "if_true": {
-                                "type": "minecraft:water",
+                                "type": "minecraft:lava",
                                 "add_stone_depth": false,
                                 "offset": 0,
                                 "surface_depth_multiplier": 0
@@ -978,7 +978,7 @@
                             {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "minecraft:water",
+                                "Name": "minecraft:lava",
                                 "Properties": {
                                   "level": "0"
                                 }
@@ -1047,7 +1047,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1096,7 +1096,7 @@
                                 "then_run": {
                                   "type": "minecraft:condition",
                                   "if_true": {
-                                    "type": "minecraft:water",
+                                    "type": "minecraft:lava",
                                     "add_stone_depth": false,
                                     "offset": 0,
                                     "surface_depth_multiplier": 0
@@ -1112,7 +1112,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1153,7 +1153,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1190,7 +1190,7 @@
                                 "then_run": {
                                   "type": "minecraft:condition",
                                   "if_true": {
-                                    "type": "minecraft:water",
+                                    "type": "minecraft:lava",
                                     "add_stone_depth": false,
                                     "offset": 0,
                                     "surface_depth_multiplier": 0
@@ -1206,7 +1206,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1550,7 +1550,7 @@
                                     {
                                       "type": "minecraft:condition",
                                       "if_true": {
-                                        "type": "minecraft:water",
+                                        "type": "minecraft:lava",
                                         "add_stone_depth": false,
                                         "offset": 0,
                                         "surface_depth_multiplier": 0
@@ -1663,7 +1663,7 @@
                           "then_run": {
                             "type": "minecraft:condition",
                             "if_true": {
-                              "type": "minecraft:water",
+                              "type": "minecraft:lava",
                               "add_stone_depth": false,
                               "offset": 0,
                               "surface_depth_multiplier": 0
@@ -1715,7 +1715,7 @@
                             {
                               "type": "minecraft:condition",
                               "if_true": {
-                                "type": "minecraft:water",
+                                "type": "minecraft:lava",
                                 "add_stone_depth": false,
                                 "offset": 0,
                                 "surface_depth_multiplier": 0
@@ -1747,7 +1747,7 @@
             {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:water",
+                "type": "minecraft:lava",
                 "add_stone_depth": true,
                 "offset": -6,
                 "surface_depth_multiplier": -1
@@ -1781,7 +1781,7 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:water",
+                            "Name": "minecraft:lava",
                             "Properties": {
                               "level": "0"
                             }
@@ -1858,7 +1858,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1907,7 +1907,7 @@
                                 "then_run": {
                                   "type": "minecraft:condition",
                                   "if_true": {
-                                    "type": "minecraft:water",
+                                    "type": "minecraft:lava",
                                     "add_stone_depth": false,
                                     "offset": 0,
                                     "surface_depth_multiplier": 0
@@ -1923,7 +1923,7 @@
                               {
                                 "type": "minecraft:condition",
                                 "if_true": {
-                                  "type": "minecraft:water",
+                                  "type": "minecraft:lava",
                                   "add_stone_depth": false,
                                   "offset": 0,
                                   "surface_depth_multiplier": 0
@@ -1975,7 +1975,7 @@
                                 "then_run": {
                                   "type": "minecraft:condition",
                                   "if_true": {
-                                    "type": "minecraft:water",
+                                    "type": "minecraft:lava",
                                     "add_stone_depth": false,
                                     "offset": 0,
                                     "surface_depth_multiplier": 0
