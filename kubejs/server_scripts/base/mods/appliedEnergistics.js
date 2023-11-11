@@ -19,6 +19,7 @@ if(feature('Remove all uneeded things from ae2')){
         'ae2:medium_quartz_bud',
         'ae2:large_quartz_bud',
         'ae2:quartz_crystal',
+        'ae2:quartz_cluster',
     ];
 
     Ingredient.of('@ae2').itemIds.forEach(item => {
@@ -29,6 +30,9 @@ if(feature('Remove all uneeded things from ae2')){
 }
 
 if (feature('Quartz recipes')) {
+    removeRecipe({ id: 'create:splashing/soul_sand' })
+    addSplashing(['4x ae2:large_quartz_bud %10', 'gold_nugget %2'], 'soul_sand')
+    removeRecipe({ id: 'create:crushing' })
     addItemInsidePlace('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
     addItemInsidePlace('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
     addItemInsidePlace('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
