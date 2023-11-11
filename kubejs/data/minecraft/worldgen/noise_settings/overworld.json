@@ -1,7 +1,7 @@
 {
   "aquifers_enabled": true,
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "minecraft:terracotta"
   },
   "default_fluid": {
     "Name": "minecraft:lava",
@@ -818,7 +818,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "minecraft:terracotta"
                                 }
                               }
                             },
@@ -1081,7 +1081,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -1146,7 +1146,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -1253,7 +1253,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "minecraft:terracotta"
                                     }
                                   }
                                 ]
@@ -1293,7 +1293,7 @@
                                           "then_run": {
                                             "type": "minecraft:block",
                                             "result_state": {
-                                              "Name": "minecraft:stone"
+                                              "Name": "minecraft:terracotta"
                                             }
                                           }
                                         },
@@ -1309,7 +1309,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "minecraft:terracotta"
                                     }
                                   }
                                 ]
@@ -1334,7 +1334,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               }
@@ -1424,7 +1424,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "minecraft:terracotta"
                                 }
                               }
                             }
@@ -1452,7 +1452,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -1508,7 +1508,7 @@
                                       "then_run": {
                                         "type": "minecraft:block",
                                         "result_state": {
-                                          "Name": "minecraft:stone"
+                                          "Name": "minecraft:terracotta"
                                         }
                                       }
                                     },
@@ -1532,7 +1532,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -1589,7 +1589,7 @@
                                     "then_run": {
                                       "type": "minecraft:block",
                                       "result_state": {
-                                        "Name": "minecraft:stone"
+                                        "Name": "minecraft:terracotta"
                                       }
                                     }
                                   },
@@ -1892,7 +1892,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -1949,7 +1949,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:stone"
+                              "Name": "minecraft:terracotta"
                             }
                           }
                         },
@@ -2029,7 +2029,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "minecraft:terracotta"
                                     }
                                   }
                                 ]
@@ -2069,7 +2069,7 @@
                                           "then_run": {
                                             "type": "minecraft:block",
                                             "result_state": {
-                                              "Name": "minecraft:stone"
+                                              "Name": "minecraft:terracotta"
                                             }
                                           }
                                         },
@@ -2085,7 +2085,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "minecraft:terracotta"
                                     }
                                   }
                                 ]
@@ -2110,7 +2110,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               }
@@ -2200,7 +2200,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "minecraft:terracotta"
                                 }
                               }
                             }
@@ -2225,7 +2225,7 @@
                             "then_run": {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "minecraft:stone"
+                                "Name": "minecraft:terracotta"
                               }
                             }
                           }
@@ -2264,7 +2264,7 @@
                                       "then_run": {
                                         "type": "minecraft:block",
                                         "result_state": {
-                                          "Name": "minecraft:stone"
+                                          "Name": "minecraft:terracotta"
                                         }
                                       }
                                     },
@@ -2288,7 +2288,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "minecraft:terracotta"
                                   }
                                 }
                               },
@@ -2322,7 +2322,7 @@
                                     "then_run": {
                                       "type": "minecraft:block",
                                       "result_state": {
-                                        "Name": "minecraft:stone"
+                                        "Name": "minecraft:terracotta"
                                       }
                                     }
                                   },
@@ -2440,7 +2440,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:stone"
+                        "Name": "minecraft:terracotta"
                       }
                     }
                   },
@@ -2497,7 +2497,7 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:terracotta"
                           }
                         }
                       },
