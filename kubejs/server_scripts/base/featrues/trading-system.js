@@ -27,8 +27,8 @@ const starterDeals = [
   ),
 ]
 PlayerEvents.loggedIn((event) => {
-  if (!event.player.data.hasGottenStarterDeals) {
-    event.player.data.add("hasGottenStarterDeals", "true");
+  if (! event.server.data.has(`${event.player.name}_hasGottenStarterDeals`)) {
+    event.server.data.add(`${event.player.name}_hasGottenStarterDeals`, "true")
     starterDeals.forEach((deal) => event.player.give(deal));
   }
 });
