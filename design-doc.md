@@ -35,5 +35,8 @@ Products are gonna be the main thing sold and traded. Those can and should be co
 - decoration 
 ### Devices
 Things like functional flowers, create devicds, etc. Those should be cheap, but with limited usefulness 
-
+### Product ingredients
+Those can have the widest array of complexity and can sometimes be the same ones in device ingredients 
+### Device ingredients 
+Because devices are cheap. Those should either be cheap, or completely removed when possible to make possible the ideal 
 
