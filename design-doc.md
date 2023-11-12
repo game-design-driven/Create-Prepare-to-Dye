@@ -32,3 +32,8 @@ Products are gonna be the main thing sold and traded. Those can and should be co
 - tools
 - armor
 - books
+- decoration 
+### Devices
+Things like functional flowers, create devicds, etc. Those should be cheap, but with limited usefulness 
+
+
