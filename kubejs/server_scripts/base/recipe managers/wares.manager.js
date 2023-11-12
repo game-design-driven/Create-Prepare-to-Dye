@@ -1,4 +1,4 @@
-// Priority: 10
+// priority: 100
 function getAgreement(
   paymentItems,
   requestedItems,
