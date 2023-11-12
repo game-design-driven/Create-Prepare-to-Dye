@@ -37,7 +37,7 @@ const bhbCheese = getAgreement(
 //   ['']
 const starterDeals = [bcfPlates, mlcSand, bhbCheese]
 PlayerEvents.loggedIn((event) => {
-  if (! event.server.data.has(`${event.player.name}_hasGottenStarterDeals`)) {
+  if (! event.server.data.get(`${event.player.name}_hasGottenStarterDeals`)) {
     event.server.data.add(`${event.player.name}_hasGottenStarterDeals`, "true")
     starterDeals.forEach((deal) => event.player.give(deal.item));
   }
