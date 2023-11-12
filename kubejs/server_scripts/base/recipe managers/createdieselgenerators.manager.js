@@ -1,3 +1,5 @@
+// priority: 100
+
 function addFermenting(results, ingredients, processingTime) {
     processingTime = processingTime || 400;
     let recipe = {
