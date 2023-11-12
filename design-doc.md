@@ -26,3 +26,9 @@ lets take a tree farm with botania for example.
 - The buildables are the tree farm itself, the mana generation, the mana storage, the mana distribution.
 - The craftables here are an issue, becuase to make the tree farm, you'll need some mana generating flowers, some functional flowers etc. Each costing runes and such, which are hard to get, let alone automate. All of that is fine, again, but not a part of the game play loop we are trying to go for so, if we go in with a first principles aproach, that means that flowers, of any kind, should not cost runes. I know, this is blasphamy, but this is what we have to do if we want to focus on the buildables. 
 ## Craftables
+### Products 
+Products are gonna be the main thing sold and traded. Those can and should be complex. Those are the goals, the advanced things you automate in most of the gameplay loop of the game. 
+- food
+- tools
+- armor
+- books
