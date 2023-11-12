@@ -1,42 +1,55 @@
 // Black Hole Bagels LLC
 // 64x fermented blob -> Gourmaryllis 16x sugar canes, water bucket, 4x hoppers
-const starterDeals = [
-  getAgreement(
-    ["32x andesite", "8x create:belt_connector", "8x create:cogwheel"],
-    ["64x create:iron_sheet"],
-    "We want plates",
-    2,
-    "Bobs Construction Fleet",
-    "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too"
-  ),
-  getAgreement(
-    ['botania:manasteel_shovel', "2x botania:rannuncarpus", "2x botania:hopperhock", "2x botania:mana_pool", "botania:mana_spreader"],
-    ["64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand"],
-    "Your Sand – Our Beaches?",
-    2,
-    "Magical Landscaping co",
-    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal thatl put your sands on the lunar map. Whaddya say?"
-  ),
-  getAgreement(
-    ["botania:gourmaryllis", 'water_bucket', "4x hopper", "16x sugar_cane"],
-    ["32x kubejs:fermented_blob"],
-    "Need some ingredients for our new recipe",
-    2,
-    "Black Hole Bagels LLC",
-    "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that"
-  ),
-]
+const bcfPlates = getAgreement(
+  ["32x andesite", "8x create:belt_connector", "8x create:cogwheel"],
+  ["64x create:iron_sheet"],
+  "We want plates",
+  2,
+  "Bobs Construction Fleet",
+  "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too"
+)
+const bcfPlates2 = getAgreement(
+  ["32x andesite", "8x create:andesite_casing", "8x create:brass_casing", "8x create:copper_casing", "4x ae2:chipped_budding_quartz"],
+  ["64x create:iron_sheet","64x create:iron_sheet","64x create:iron_sheet"],
+  "We want plates",
+  2,
+  "Bobs Construction Fleet",
+  "Hello, you did well on you last contract, good job. We require more plates, this time our volume is bigger, and so is the payment"
+)
+// const bcfPlates3 = getAgreement(
+const mlcSand = getAgreement(
+  ['botania:manasteel_shovel', "2x botania:rannuncarpus", "2x botania:hopperhock", "2x botania:mana_pool", "botania:mana_spreader"],
+  ["64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand", "64x minecraft:sand"],
+  "Your Sand – Our Beaches?",
+  2,
+  "Magical Landscaping co",
+  "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal thatl put your sands on the lunar map. Whaddya say?"
+)
+const bhbCheese = getAgreement(
+  ["botania:gourmaryllis", 'water_bucket', "4x hopper", "16x sugar_cane"],
+  ["32x kubejs:fermented_blob"],
+  "Need some ingredients for our new recipe",
+  2,
+  "Black Hole Bagels LLC",
+  "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that"
+)
+// const igtPaper = getAgreement(
+//   ['']
+const starterDeals = [bcfPlates, mlcSand, bhbCheese]
 PlayerEvents.loggedIn((event) => {
   if (! event.server.data.has(`${event.player.name}_hasGottenStarterDeals`)) {
     event.server.data.add(`${event.player.name}_hasGottenStarterDeals`, "true")
-    starterDeals.forEach((deal) => event.player.give(deal));
+    starterDeals.forEach((deal) => event.player.give(deal.item));
   }
 });
 
 // PlayerEvents.chat((event) => {
-//   starterDeals.forEach((deal) => event.player.give(deal));
+//   starterDeals.forEach((deal) => event.player.give(deal.item));
+//   starterDeals.forEach((deal) => event.player.give(deal.completedItem));
 // });
 
+addShapeless('stick', starterDeals[2].completedItem.strongNBT())
+addMixing('stick', starterDeals[2].completedItem.strongNBT())
 // let payment = Item.of("4x create:belt_connector");
 // let payment1 = Item.of("4x create:cogwheel");
 // let payment2 = Item.of("4x create:andesite_casing");
