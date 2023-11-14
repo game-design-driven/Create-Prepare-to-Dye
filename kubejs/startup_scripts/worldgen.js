@@ -19,6 +19,12 @@ WorldgenEvents.remove(event => {
     'minecraft:spring_water',
     'quark:deferred_feature_fluid_springs'
   ])
+  event.removeFeatureById('underground_ores',[
+    'minecraft:ore_dirt',
+    'ore_gravel',
+    'minecraft:disc_gravel',
+    'create:striated_ores_overworld',
+  ])
   event.removeOres(props => {
     props.blocks = ['minecraft:nether_quartz_ore','minecraft:diamond_ore','minecraft:redstone_ore','minecraft:iron_ore','minecraft:gold_ore', 'minecraft:copper_ore', 'minecraft:lapis_ore', 'minecraft:emerald_ore']
   })  
