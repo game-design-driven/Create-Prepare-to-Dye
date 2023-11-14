@@ -18365,7 +18365,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "c28b9c6a8dc28ece359475ea4be6ad4fe9a4ba9271a1945b7f4ca582cfaa591b"
+hash = "a70312f0489f68cd87b03bd6dfc0e6cad1b33b57c49a6e1040506e7317f954c9"
 metafile = true
 
 [[files]]
@@ -18375,7 +18375,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "edffefb05c7ba4fffc9e41b45481fd2e18237a2c8e3bc2fed1b7fc1af18e0372"
+hash = "2b85aa20585ab9904e0cb2861fdb71b17b6869f9e2bafeb609d13612a289a224"
 metafile = true
 
 [[files]]
@@ -18459,7 +18459,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-additions.pw.toml"
-hash = "be16d06baea46c665c8601adc67f343b5eb21a2576b497a8b101bde9ecfa5901"
+hash = "cfcd80d3ec2467e34458414174b2836f588e837d902818a5adb3d9335cfa6ffe"
 metafile = true
 
 [[files]]
