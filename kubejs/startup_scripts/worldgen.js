@@ -15,6 +15,10 @@ WorldgenEvents.remove(event => {
     'botania:mystical_flowers',
     'botania:mystical_mushrooms'
   ])
+  event.removeFeatureById('fluid_springs',[
+    'minecraft:spring_water',
+    'quark:deferred_feature_fluid_springs'
+  ])
   event.removeOres(props => {
     props.blocks = ['minecraft:nether_quartz_ore','minecraft:diamond_ore','minecraft:redstone_ore','minecraft:iron_ore','minecraft:gold_ore', 'minecraft:copper_ore', 'minecraft:lapis_ore', 'minecraft:emerald_ore']
   })  
