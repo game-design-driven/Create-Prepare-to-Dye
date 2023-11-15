@@ -50,6 +50,8 @@ if (feature('Red from meat')) {
 
 if (feature('Red from cinder flour')) {
     removeRecipe({ id: 'create:crushing/netherrack' })
+    addMilling('create:cinder_flour %25', 'netherrack')
+    addCrushing(['create:cinder_flour %15', 'soul_sand %10', 'cobblestone %10'], 'netherrack')
     addMilling('red_dye %80', 'create:cinder_flour')
     addCrushing(['red_dye %50', 'redstone %15', 'quartz %1'], 'create:cinder_flour')
 }
