@@ -38,6 +38,7 @@ if (feature("Mechanical belt recipes")) {
 
 if (feature("Simpler encased fan")) {
   removeItem("create:propeller");
+  if (!feature("Remove crafting table recipes for devices"))
   addShaped("create:encased_fan", [" s ", "pcp", "pap"], {
     s: "create:shaft",
     p: "create:iron_sheet",
@@ -48,6 +49,7 @@ if (feature("Simpler encased fan")) {
 
 if (feature("Simpler mixer")) {
   removeItem("create:whisk");
+  if (!feature("Remove crafting table recipes for devices"))
   addShaped("create:mechanical_mixer", ["aca", "pCp", "ppp"], {
     a: "create:andesite_alloy",
     c: "#forge:cogs",
@@ -58,6 +60,7 @@ if (feature("Simpler mixer")) {
 
 if (feature("Simpler deployer")) {
   removeItem("create:brass_hand");
+  if (!feature("Remove crafting table recipes for devices"))
   addShaped("create:deployer", [" e ", "bcb", "bab"], {
     a: "create:andesite_alloy",
     c: "create:andesite_casing",
@@ -81,14 +84,19 @@ if (feature("Cogs")) {
     type: "minecraft:crafting_shapeless",
   });
   addShapeless("create:large_cogwheel", "create:cogwheel");
+  addStonecutting("create:cogwheel", "create:large_cogwheel");
+  addStonecutting("create:large_cogwheel", "create:cogwheel");
+  addItemApplication("create:large_cogwheel", "create:cogwheel", '#forge:tools/axes');
+  addItemApplication("create:cogwheel", "create:large_cogwheel", '#forge:tools/axes');
 }
 
 if (feature("Application recipes")) {
-  addItemApplication(
-    "create:adjustable_chain_gearshift",
-    "create:encased_chain_drive",
-    "create:polished_rose_quartz"
-  );
+  if (!feature("Remove crafting table recipes for devices"))
+    addItemApplication(
+      "create:adjustable_chain_gearshift",
+      "create:encased_chain_drive",
+      "create:polished_rose_quartz"
+    );
 }
 
 if (feature("Replace golden sheet with brass one")) {
