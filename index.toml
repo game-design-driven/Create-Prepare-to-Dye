@@ -18553,6 +18553,11 @@ hash = "1ca8c31f0fd037e251fbb14bb7fa050e4babf1cbac55234674e81e3e19b4a4ff"
 metafile = true
 
 [[files]]
+file = "mods/structure-expansion.pw.toml"
+hash = "e49dd090d2f806ff08e549d3f26f4f3e44bccaed879000e6667263cd1a24014c"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "cf51a271c627d3181edf7e1457cab2e938f8721fd2ed6425aab8f7259b63ee59"
 metafile = true
