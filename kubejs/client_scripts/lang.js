@@ -22,17 +22,18 @@ const $TooltipModifier = Java.loadClass('com.simibubi.create.foundation.item.Too
 const $Palette = Java.loadClass('com.simibubi.create.foundation.item.TooltipHelper$Palette');
 ClientEvents.lang('en_us',event => {
     global.itemTooltips.forEach(tooltipObject => {
-        let [stack, tooltip] = tooltipObject
-        console.info(`adding ${tooltip} to ${stack}`)
-        event.add(`${stack.item.getDescriptionId()}.tooltip.summary`, tooltip)
+        let [id, tooltip] = tooltipObject
+        let item = Item.of(id)
+        console.info(`adding ${tooltip} to ${item}`)
+        event.add(`${item.getDescriptionId()}.tooltip.summary`, tooltip)
         global.itemTooltips = global.itemTooltips.filter(item => item !== tooltipObject)
     });
-    Ingredient.all.stacks.forEach(stack => {
-        $TooltipModifier.REGISTRY.register(
-            stack.item.id, new $ItemDescription(
-                stack.item,
-                $Palette.STANDARD_CREATE
-            )
+    Ingredient.all.itemIds.forEach(id => {
+        $TooltipModifier.REGISTRY.registerDeferred(
+          id, (item) => new $ItemDescription(
+              item,
+              $Palette.STANDARD_CREATE
+          )
         )
     });
 });
