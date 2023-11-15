@@ -16,6 +16,9 @@
 As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
+## Important note
+Please read our roadmap before playing, there's some important info about the playability of the pack there, for example our trading system is not yet integrated into the game.
+
 ## About the project
 
 ### Concept
@@ -113,7 +116,7 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
 | Core Mod List                        | ![](https://progress-bar.dev/95)   | The mods that help construct the core gameplay loop| Critical | ✔           |
-| Core Gameplay loop                   | ![](https://progress-bar.dev/85)   | The basic elements that repeats and evolve as the game loops| Critical | ✔      |
+| Core Gameplay loop                   | ![](https://progress-bar.dev/80)   | The basic elements that repeats and evolve as the game loops| Critical | ✔      |
 | Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/34)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
 | Documentation                        | ![](https://progress-bar.dev/42)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
 | Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
