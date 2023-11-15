@@ -15,6 +15,11 @@ function removeItem(item) {
     //remove tags from item
     removeAllTagsFrom(item)
 }
+
+function removeAllRecipesForItem(item) {
+    removeRecipe({ output: item })
+    global.itemsToRemove.push(item)
+}
 function removeAndReplace(item, withItem, alsoTags) {
     //replace in recipes
     replaceInputForRecipes(item, withItem)
