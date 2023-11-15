@@ -34,7 +34,7 @@ function getAgreement(
           }\",\"italic\":\"false\"}'},\
           isCompleted:1b,\
           message:'{\"text\":\"${message}\"}',\
-          ordered:2,\
+          ordered:${orderedAmount},\
           paymentItems:${simple(paymentItems)},\
           requestedItems:${simple(requestedItems)},\
           title:'{\"text\":\"${title}\"}'}`
@@ -47,7 +47,10 @@ function simple(items) {
   return `[${items
     .map((item) => {
       if (typeof item === "string") item = Item.of(item);
-      return item.toNBT();
+      let nbt = item.toNBT();
+      nbt.Count = item.count;
+      console.log('!!!'+nbt);
+      return nbt
     })
     .join(", ")}]`;
 }
