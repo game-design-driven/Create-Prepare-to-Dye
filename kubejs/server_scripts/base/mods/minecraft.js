@@ -6,12 +6,13 @@ if (feature('Chest recipes')) {
     addShaped('4x chest', ['###', '# #', '###'], { '#': '#logs' })
 }
 if (feature('Convenience recipes')) {
-    addShaped('2x piston', ['www', 'cmc', 'crc'], { w: '#planks', c: '#forge:cobblestone', m: '#forge:ingots/brass', r: 'redstone' })
-    addShaped('dispenser', ['###', '#p#', '#r#'], { '#': '#forge:cobblestone', p: 'piston', r: 'redstone' })
-    addShaped('2x hopper', ['# #', '#c#', ' # '], { '#': '#forge:ingots/brass', c: '#forge:chests' })
+    if (!feature('Remove crafting table recipes for devices')) {
+        addShaped('2x piston', ['www', 'cmc', 'crc'], { w: '#planks', c: '#forge:cobblestone', m: '#forge:ingots/brass', r: 'redstone' })
+        addShaped('dispenser', ['###', '#p#', '#r#'], { '#': '#forge:cobblestone', p: 'piston', r: 'redstone' })
+    }
     replaceShaped('beacon', ['ggg', 'gng', 'ooo'], { g: '#forge:glass', n: 'nether_star', o: 'obsidian' })
 }
-if (feature('Make dispenser use tags')) {
+if (feature('Make dispenser use tags') && !feature('Remove crafting table recipes for devices')) {
     removeRecipe({ id: 'minecraft:dispenser' })
     addShaped('dispenser', ['###', '#p#', '#r#'], { '#': '#forge:cobblestone', p: 'bow', r: 'redstone' })
 }
@@ -160,3 +161,20 @@ if (feature('Remove and replace shulker shell with purple dye')) {
 if (feature('kelp to sugar_cane')) {
     addInfusion('sugar_cane', 'kelp')
 }
+
+if (feature("Hopper without wood")) {
+    if (!feature("Remove crafting table recipes for devices")) {
+      addShaped("hopper", ["i i", "iai", " i "], {
+        i: "#forge:ingots/iron",
+        a: "create:andesite_casing",
+      });
+      addShaped("2x hopper", ["i i", "iai", " i "], {
+        i: "#forge:ingots/gold",
+        a: "create:andesite_casing",
+      });
+      addShaped("2x hopper", ["# #", "#c#", " # "], {
+        "#": "#forge:ingots/brass",
+        "c": "#forge:chests",
+      });
+    }
+  }

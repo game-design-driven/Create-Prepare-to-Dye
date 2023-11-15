@@ -32,27 +32,44 @@ if (feature("Remove createdieselgenerators things we dont need")) {
   ]);
 }
 
-if (feature('add recipes for createdieselgenerators')) {
-  addShaped('createdieselgenerators:diesel_engine', [' b ','sfs',' c '],{
-    b: 'create:brass_casing',
-    c: 'create:copper_casing',
-    s: 'create:shaft',
-    f: 'minecraft:furnace',
-  })
-}
+if (!feature("Remove crafting table recipes for devices"))
+  if (feature("add recipes for createdieselgenerators")) {
+    addShaped("createdieselgenerators:diesel_engine", [" b ", "sfs", " c "], {
+      b: "create:brass_casing",
+      c: "create:copper_casing",
+      s: "create:shaft",
+      f: "minecraft:furnace",
+    });
+  }
 
-if (feature('Ethanol')) {
-  removeRecipe({id: 'createdieselgenerators:basin_fermenting/fermentable'})
+if (feature("Ethanol")) {
+  removeRecipe({ id: "createdieselgenerators:basin_fermenting/fermentable" });
   //createdieselgenerators:ethanol
-  addFermenting(['100mb kubejs:fermented_goop'], ['minecraft:bone_meal', '#forge:fermentable'])
+  addFermenting(
+    ["100mb kubejs:fermented_goop"],
+    ["minecraft:bone_meal", "#forge:fermentable"]
+  );
 
-  addFermenting(['400mb kubejs:fermented_goop', '8x minecraft:white_dye'], ['4x minecraft:bone_meal', '500mb milk'], 200)
-  addFermenting(['200mb kubejs:fermented_goop', '4x minecraft:white_dye'], ['500mb milk'])
+  addFermenting(
+    ["400mb kubejs:fermented_goop", "8x minecraft:white_dye"],
+    ["4x minecraft:bone_meal", "500mb milk"],
+    200
+  );
+  addFermenting(
+    ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
+    ["500mb milk"]
+  );
 
-  addMixing('kubejs:fermented_blob %10', '100mb kubejs:fermented_goop')
-  addMixing('slime_ball', ['kubejs:fermented_blob', '#forge:dyes/lime'])
-  addMixing('slime_ball %80', ['500mb kubejs:fermented_goop', '4x #forge:dyes/lime'])
-  addDistillation(['10mb createdieselgenerators:ethanol', '10mb water'], ['20mb kubejs:fermented_goop'], 40,  temperature.heated)
-
+  addMixing("kubejs:fermented_blob %10", "100mb kubejs:fermented_goop");
+  addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
+  addMixing("slime_ball %80", [
+    "500mb kubejs:fermented_goop",
+    "4x #forge:dyes/lime",
+  ]);
+  addDistillation(
+    ["10mb createdieselgenerators:ethanol", "10mb water"],
+    ["20mb kubejs:fermented_goop"],
+    40,
+    temperature.heated
+  );
 }
-
