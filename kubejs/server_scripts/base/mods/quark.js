@@ -100,6 +100,6 @@ if (feature('Remove forgotten hat')) {
 
 if (feature('bag from silicon')) {
     addShaped('quark:backpack',['sis','scs','sis'],{
-        s:'#forge:silicon', i:'#forge:ingot', c:'#forge:chests'
+        s:'#forge:silicon', i:'#forge:ingots', c:'#forge:chests'
     })
 }
