@@ -5,7 +5,7 @@ const bcfPlates = getAgreement(
   ["64x create:iron_sheet"], // This is the cost of the trade
   "We want plates", // This is the title of the trade
   2, // This is how many times the trade is done, until the deal is considered complete
-  "Bobs Construction Fleet", // This is the name of the company
+  "bobs_construction_fleet", // This is the name of the company
   "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too" // This is the description of the trade
 );
 const bcfPlates2 = getAgreement(
@@ -19,14 +19,15 @@ const bcfPlates2 = getAgreement(
   ["64x create:iron_sheet", "64x create:iron_sheet", "64x create:iron_sheet"],
   "We want more plates",
   2,
-  "Bobs Construction Fleet",
+  "bobs_construction_fleet",
   "Hello, you did well on you last contract, good job. We require more plates, this time our volume is bigger, and so is the payment"
 );
 const bfcPlatesPermanent = getAgreement(
   ["64x andesite", "32x andesite"],
   ["64x create:iron_sheet", "64x create:iron_sheet"],
+  "Plates, fixed rates",
   0,
-  "Bobs Construction Fleet",
+  "bobs_construction_fleet",
   "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it."
 );
 
@@ -47,7 +48,7 @@ const mlcSand = getAgreement(
   ],
   "Your Sand – Our Beaches?",
   2,
-  "Magical Landscaping co",
+  "magical_landscaping_co",
   "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal thatl put your sands on the lunar map. Whaddya say?"
 );
 const bhbCheese = getAgreement(
@@ -55,7 +56,7 @@ const bhbCheese = getAgreement(
   ["32x kubejs:fermented_blob"],
   "Ingredients needed",
   2,
-  "Black Hole Bagels LLC",
+  "black_hole_bagels_llc",
   "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that"
 );
 // const igtPaper = getAgreement(
@@ -84,4 +85,13 @@ PlayerEvents.loggedIn((event) => {
   //   event.player.give(tempWreckedSpaceship);
   //   event.player.give(tempWreckedSpaceship2);
   // }
+});
+
+ServerEvents.commandRegistry((event) => {
+  event.register(
+      Commands.literal("starterDeals").executes((context) => {
+        starterDeals.forEach((deal) => context.getSource().getPlayer().give(deal.item));
+        return 0;
+      })
+  )
 });
