@@ -18,8 +18,8 @@ if (feature('Dye crafting')) {
 
 if(feature('Dye from seeds')){
     addMilling(['green_dye %5', 'brown_dye %5'], '#forge:seeds')
-    addMixing('green_dye', ['4x #forge:seeds'], temperature.none, undefined, undefined, 'water')
-    addMixing('brown_dye', ['4x #forge:seeds'], temperature.heated, undefined, undefined, 'water')
+    addMixing('green_dye', ['4x #forge:seeds', '1000mb water'])
+    addMixing('brown_dye', ['4x #forge:seeds', '1000mb water'], temperature.heated)
 }
 
 if (feature('white dye is more expensive')) {
