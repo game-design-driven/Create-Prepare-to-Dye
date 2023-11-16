@@ -13,4 +13,5 @@ ServerEvents.loaded(e => {
 	e.server.gameRules.set("commandBlockOutput", false)
 	e.server.gameRules.set("doTraderSpawning", false)
 	e.server.gameRules.set("waterSourceConversion", false)
+	e.server.gameRules.set("spawnRadius", 1)
 })
