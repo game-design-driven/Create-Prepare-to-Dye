@@ -18498,6 +18498,11 @@ hash = "9cba22bdbc8c89d44438b1e22ae677f7d6bf1c7f1adecfff2760427f2d974dee"
 metafile = true
 
 [[files]]
+file = "mods/movement_plus.pw.toml"
+hash = "5ccff9e6844a278f35d3583f1f45156d22c7724fe7b36a9056b6af67070afe4a"
+metafile = true
+
+[[files]]
 file = "mods/nomoreportals.pw.toml"
 hash = "6baeea1637f766f94645de4754303acd30f8772ae6b80132315b83d473af4b51"
 metafile = true

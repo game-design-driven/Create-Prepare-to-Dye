@@ -1,0 +1,13 @@
+name = "Movement Plus"
+filename = "MovementPlus-1.19.2-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zg4Gfb1a/versions/A8xmAj4V/MovementPlus-1.19.2-1.1.1.jar"
+hash-format = "sha1"
+hash = "24d7cbdf8ecdd9c69fa987d24a5132ba02ea88b3"
+
+[update]
+[update.modrinth]
+mod-id = "Zg4Gfb1a"
+version = "A8xmAj4V"
