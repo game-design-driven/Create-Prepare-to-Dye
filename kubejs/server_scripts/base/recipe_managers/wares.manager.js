@@ -2,7 +2,8 @@
 const sealsThatHaveTextures = [ // add entries to this list when you add textures for the companies
   'magical_landscaping_co',
   'black_hole_bagels_llc',
-  // 'bobs_construction_fleet'
+  'boards_and_wires',
+  'bobs_construction_fleet'
 ]
 
 function getAgreement(
