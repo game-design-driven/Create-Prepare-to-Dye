@@ -85,6 +85,7 @@ PlayerEvents.loggedIn((event) => {
 });
 
 ServerEvents.commandRegistry((event) => {
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
   event.register(
     Commands.literal("starterDeals").executes((context) => {
       starterDeals.forEach((deal) =>
