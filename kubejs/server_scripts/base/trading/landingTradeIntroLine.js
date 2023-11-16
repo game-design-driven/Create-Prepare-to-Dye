@@ -70,10 +70,7 @@ const tempWreckedSpaceship2 = Item.of(
   "supplementaries:sack",
   '{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"botania:floating_pure_daisy"},{Count:1b,Slot:1b,id:"minecraft:lava_bucket"},{Count:1b,Slot:2b,id:"minecraft:lava_bucket"},{Count:1b,Slot:3b,id:"createdieselgenerators:basin_lid"},{Count:1b,Slot:6b,id:"create:basin"}]},display:{Name:\'{"text":"Wrecked Spaceship","italic":"false"}\'}}'
 );
-tradeBranch(
-  [bcfPlates2], 
-  [bcfPlates]
-);
+tradeBranch([bcfPlates2], [bcfPlates]);
 tradeBranch(
   [bfcPlatesPermanent], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
@@ -89,9 +86,19 @@ PlayerEvents.loggedIn((event) => {
 
 ServerEvents.commandRegistry((event) => {
   event.register(
-      Commands.literal("starterDeals").executes((context) => {
-        starterDeals.forEach((deal) => context.getSource().getPlayer().give(deal.item));
-        return 0;
-      })
-  )
+    Commands.literal("starterDeals").executes((context) => {
+      starterDeals.forEach((deal) =>
+        context.getSource().getPlayer().give(deal.item)
+      );
+      return 0;
+    })
+  );
+  event.register(
+    Commands.literal("starterDealCompleted").executes((context) => {
+      starterDeals.forEach((deal) =>
+        context.getSource().getPlayer().give(deal.completedItem)
+      );
+      return 0;
+    })
+  );
 });
