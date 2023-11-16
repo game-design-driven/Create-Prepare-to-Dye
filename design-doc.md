@@ -3,7 +3,7 @@
 In minecraft, to achieve a goal, there are a few elements you can produce.
 - Craftables
     - Ingredients
-    - Devices (tile entities)
+    - Devices
     - Products
         - Tools
         - Food
