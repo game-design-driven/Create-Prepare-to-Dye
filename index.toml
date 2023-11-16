@@ -18413,6 +18413,11 @@ hash = "c982023c72ae4d703e72faef301b2d2b6f234de4f53255aae1f0f2bb7ece72fc"
 metafile = true
 
 [[files]]
+file = "mods/experimental-settings-disabler.pw.toml"
+hash = "4fc94597a555a37a6f5ee1fb0b40f747b885ade696710cca55c9bf17353b5b93"
+metafile = true
+
+[[files]]
 file = "mods/fabrication.pw.toml"
 hash = "72c452a9de9683037b26c8c5c694f6e6320b5150fd333a9f52d98790a8ec9f8c"
 metafile = true
@@ -18519,7 +18524,7 @@ metafile = true
 
 [[files]]
 file = "mods/ping-wheel.pw.toml"
-hash = "6a21038e6dc7fac6eb72ac3e9be413a32ff20512b6e303a9cd1d26c16f44d1f7"
+hash = "9b7a92ae6984cc297130296952c8489d14b7f29d79f53cc540bf5694abfd4599"
 metafile = true
 
 [[files]]
@@ -18565,6 +18570,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "cf51a271c627d3181edf7e1457cab2e938f8721fd2ed6425aab8f7259b63ee59"
+metafile = true
+
+[[files]]
+file = "mods/tool-kit.pw.toml"
+hash = "842dc289c96ee6cf40407410030d73f369b53db5129770c8b9bc909238a79742"
 metafile = true
 
 [[files]]
