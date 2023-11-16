@@ -54,3 +54,10 @@ function simple(items) {
     })
     .join(", ")}]`;
 }
+
+function tradeBranch(outputTrades, inputTrades) {
+  addMixing(
+    outputTrades.map((trade) => trade.item),
+    inputTrades.map((trade) => trade.completedItem.weakNBT())
+  );
+}
