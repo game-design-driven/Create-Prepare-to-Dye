@@ -1,0 +1,3 @@
+#Suppresses the pop up message that prompts users on creating or logging into an experimental (modded) world.
+Experimental_futures_disabler = true
+
