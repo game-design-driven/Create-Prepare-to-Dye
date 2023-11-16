@@ -784,7 +784,7 @@
 
 [world]
 	"Spiral Spires" = false
-	Permafrost = true
+	Permafrost = false
 	"No More Lava Pockets" = false
 	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
