@@ -1,4 +1,9 @@
 // priority: 100
+const sealsThatHaveTextures = [ // add entries to this list when you add textures for the companies
+  'magical_landscaping_co',
+  'black_hole_bagels_llc'
+]
+
 function getAgreement(
   paymentItems,
   requestedItems,
@@ -9,16 +14,19 @@ function getAgreement(
 ) {
   if (!orderedAmount) orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
+  let seal = sealsThatHaveTextures.includes(company) ? company : 'default'
+  let companyTitle = Utils.snakeCaseToTitleCase(company)
   return {
     item : Item.of(
       "wares:delivery_agreement",
       `{\
           display:{Name:'{\"text\":\"${
-            company + " - " + title
+            companyTitle + " - " + title
           }\",\"italic\":\"false\"}'},\
           ordered:${orderedAmount},\
           message:'{"text":"${message}"}',\
-          buyerName:'{"color":"#409D9B","text":"${company}"}',\
+          seal:'${seal}',\
+          buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
           paymentItems:${simple(paymentItems)},\
           requestedItems:${simple(requestedItems)},\
           title:\'{"text":"${title}"}\'\
@@ -27,17 +35,19 @@ function getAgreement(
     completedItem : Item.of(
       'wares:completed_delivery_agreement',
       `{\
-          buyerName:'{\"color\":\"#409D9B\",\"text\":\"${company}\"}',\
+          buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
           delivered:${orderedAmount},\
           display:{Name:'{\"text\":\"${
-            company + " - " + title
+            companyTitle + " - " + title
           }\",\"italic\":\"false\"}'},\
           isCompleted:1b,\
-          message:'{\"text\":\"${message}\"}',\
+          message:'{"text":"${message}"}',\
+          seal:'${seal}',\
           ordered:${orderedAmount},\
           paymentItems:${simple(paymentItems)},\
           requestedItems:${simple(requestedItems)},\
-          title:'{\"text\":\"${title}\"}'}`
+          title:\'{"text":"${title}"}\'\
+      }`
     )
   }
   return 
@@ -49,7 +59,6 @@ function simple(items) {
       if (typeof item === "string") item = Item.of(item);
       let nbt = item.toNBT();
       nbt.Count = item.count;
-      console.log('!!!'+nbt);
       return nbt
     })
     .join(", ")}]`;
