@@ -78,10 +78,10 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 PlayerEvents.loggedIn((event) => {
-  if (!event.hasGameStage("starter_deals")) {
-    event.addGameStage("starter_deals");
-    starterDeals.forEach((deal) => event.player.give(deal.item));
-    event.player.give(tempWreckedSpaceship);
-    event.player.give(tempWreckedSpaceship2);
-  }
+  // if (!event.hasGameStage("starter_deals")) {
+  //   event.addGameStage("starter_deals");
+  //   starterDeals.forEach((deal) => event.player.give(deal.item));
+  //   event.player.give(tempWreckedSpaceship);
+  //   event.player.give(tempWreckedSpaceship2);
+  // }
 });
