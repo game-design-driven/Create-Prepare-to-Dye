@@ -67,6 +67,11 @@ function simple(items) {
 }
 
 function tradeBranch(outputTrades, inputTrades) {
+  if (!Array.isArray(outputTrades)) outputTrades = [outputTrades];
+  if (!Array.isArray(inputTrades)) inputTrades = [inputTrades];
+  if (inputTrades.length == 1){
+    inputTrades.push({completedItem:Item.of('stick')})
+  } 
   addMixing(
     outputTrades.map((trade) => trade.item),
     inputTrades.map((trade) => trade.completedItem.weakNBT())
