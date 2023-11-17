@@ -1,4 +1,5 @@
 // priority: 100
+global.allAgreements = [];
 const sealsThatHaveTextures = [
   // add entries to this list when you add textures for the companies
   "magical_landscaping_co",
@@ -57,11 +58,6 @@ function getAgreement(
   global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.item.nbt).concat([agreementObj.item])
   global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.completedItem.nbt).concat([agreementObj.completedItem])
   console.info('All agreements so far '+global.allAgreements)
-  // addWorldInteraction(
-  //   agreementObj.completedItem,
-  //   agreementObj.item,
-  //   "wares:delivery_table"
-  // );
   return agreementObj;
 }
 function simple(items) {
@@ -87,3 +83,18 @@ function tradeBranch(outputTrades, inputTrades) {
     inputTrades.map((trade) => trade.completedItem.weakNBT())
   );
 }
+
+console.info("Loading wares manager");
+ServerEvents.lowPriorityData(event => {
+  let obj = {
+    added: [],
+  };
+  console.info('all agreements  '+global.allAgreements)
+  global.allAgreements.forEach((item) => {
+    obj.added.push({
+      stack: `item:${item.id}${item.nbt}`,
+    });
+  });
+  
+  JsonIO.write("kubejs/assets/emi/index/stacks/added_agreements.json", obj);
+})
