@@ -1,11 +1,13 @@
 // priority: 100
-const sealsThatHaveTextures = [ // add entries to this list when you add textures for the companies
-  'magical_landscaping_co',
-  'black_hole_bagels_llc',
-  'boards_and_wires',
-  'bobs_construction_fleet'
-]
+const sealsThatHaveTextures = [
+  // add entries to this list when you add textures for the companies
+  "magical_landscaping_co",
+  "black_hole_bagels_llc",
+  "boards_and_wires",
+  "bobs_construction_fleet",
+];
 
+// let allAgreements = [];
 function getAgreement(
   paymentItems,
   requestedItems,
@@ -16,10 +18,10 @@ function getAgreement(
 ) {
   if (!orderedAmount) orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
-  let seal = sealsThatHaveTextures.includes(company) ? company : 'default'
-  let companyTitle = Utils.snakeCaseToTitleCase(company)
-  return {
-    item : Item.of(
+  let seal = sealsThatHaveTextures.includes(company) ? company : "default";
+  let companyTitle = Utils.snakeCaseToTitleCase(company);
+  let agreementObj = {
+    item: Item.of(
       "wares:delivery_agreement",
       `{\
           display:{Name:'{\"text\":\"${
@@ -34,8 +36,8 @@ function getAgreement(
           title:\'{"text":"${title}"}\'\
       }`
     ),
-    completedItem : Item.of(
-      'wares:completed_delivery_agreement',
+    completedItem: Item.of(
+      "wares:completed_delivery_agreement",
       `{\
           buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
           delivered:${orderedAmount},\
@@ -50,9 +52,17 @@ function getAgreement(
           requestedItems:${simple(requestedItems)},\
           title:\'{"text":"${title}"}\'\
       }`
-    )
-  }
-  return 
+    ),
+  };
+  global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.item.nbt).concat([agreementObj.item])
+  global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.completedItem.nbt).concat([agreementObj.completedItem])
+  console.info('All agreements so far '+global.allAgreements)
+  // addWorldInteraction(
+  //   agreementObj.completedItem,
+  //   agreementObj.item,
+  //   "wares:delivery_table"
+  // );
+  return agreementObj;
 }
 function simple(items) {
   if (!Array.isArray(items)) items = [items];
@@ -61,7 +71,7 @@ function simple(items) {
       if (typeof item === "string") item = Item.of(item);
       let nbt = item.toNBT();
       nbt.Count = item.count;
-      return nbt
+      return nbt;
     })
     .join(", ")}]`;
 }
@@ -69,9 +79,9 @@ function simple(items) {
 function tradeBranch(outputTrades, inputTrades) {
   if (!Array.isArray(outputTrades)) outputTrades = [outputTrades];
   if (!Array.isArray(inputTrades)) inputTrades = [inputTrades];
-  if (inputTrades.length == 1){
-    inputTrades.push({completedItem:Item.of('stick')})
-  } 
+  if (inputTrades.length == 1) {
+    inputTrades.push({ completedItem: Item.of("stick") });
+  }
   addMixing(
     outputTrades.map((trade) => trade.item),
     inputTrades.map((trade) => trade.completedItem.weakNBT())

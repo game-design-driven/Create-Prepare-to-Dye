@@ -3,3 +3,4 @@ global.itemsToHide = []
 global.categoriesToHide = []
 global.itemsToRemove = []
 global.itemTooltips = []
+global.allAgreements = [];
