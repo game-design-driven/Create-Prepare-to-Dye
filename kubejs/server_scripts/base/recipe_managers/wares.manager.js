@@ -6,6 +6,9 @@ const sealsThatHaveTextures = [
   "black_hole_bagels_llc",
   "boards_and_wires",
   "bobs_construction_fleet",
+  "interstellar_livestock_logistics",
+  "qube",
+  "stellar_sigil_syndicate"
 ];
 
 function getAgreement(
