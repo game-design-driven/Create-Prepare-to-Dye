@@ -98,7 +98,7 @@ const bnwRedstone = getAgreement({
   paymentItems: [
     Item.of(
       "ae2:energy_cell",
-      4,
+      2,
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
     "8x ae2:fluix_smart_cable",
