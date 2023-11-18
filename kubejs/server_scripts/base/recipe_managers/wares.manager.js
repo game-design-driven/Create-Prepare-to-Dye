@@ -8,7 +8,6 @@ const sealsThatHaveTextures = [
   "bobs_construction_fleet",
 ];
 
-// let allAgreements = [];
 function getAgreement(
   paymentItems,
   requestedItems,
