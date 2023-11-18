@@ -82,10 +82,9 @@ const mlcSand = getAgreement({
 });
 const bhbCheese = getAgreement({
   paymentItems: [
-    "botania:gourmaryllis",
-    "water_bucket",
-    "4x hopper",
-    "16x sugar_cane",
+    "1x botania:gourmaryllis",
+    "1x minecraft:water_bucket",
+    "16x minecraft:sugar_cane",
   ],
   requestedItems: ["32x kubejs:fermented_blob"],
   title: "Ingredients needed",
@@ -94,7 +93,7 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
-const bnbWheat = getAgreement({
+const bhbWheat = getAgreement({
   paymentItems: ["8x botania:livingwood_log", "water_bucket"],
   requestedItems: ["64x wheat"],
   title: "Clean wheat needed",
@@ -103,8 +102,12 @@ const bnbWheat = getAgreement({
   message:
     "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
 });
-const bnbFurnaces = getAgreement({
-  paymentItems: ["8x clay", "8x copper_ingot", "8x botania:manasteel_ingot"],
+const bhbFurnaces = getAgreement({
+  paymentItems: [
+    "8x minecraft:clay",
+    "8x copper_ingot",
+    "8x botania:manasteel_ingot",
+  ],
   requestedItems: ["64x minecraft:furnace"],
   title: "Expanding our presence on Zora",
   orderedAmount: 2,
@@ -112,7 +115,7 @@ const bnbFurnaces = getAgreement({
   message:
     "We are expanding our presence on Zora, we need some furnaces, you have proven yourself so far, lets see if we can work some fixed rates for your wheat after this",
 });
-const bnbWheatFixedRates = getAgreement({
+const bhbWheatFixedRates = getAgreement({
   paymentItems: ["32x clay"],
   requestedItems: ["64x wheat", "64x wheat"],
   title: "Clean wheat fixed rates",
@@ -186,7 +189,7 @@ const bnwCogs = getAgreement({
 });
 const bnwPolishedRoseQuartz = getAgreement({
   paymentItems: [
-    '4x create:mechanical_arm',
+    "4x create:mechanical_arm",
     "4x ae2:storage_bus",
     "8x ae2:fluix_smart_cable",
   ],
@@ -199,7 +202,7 @@ const bnwPolishedRoseQuartz = getAgreement({
 });
 const qubeAngry = getAgreement({
   paymentItems: ["minecraft:air"],
-  requestedItems: [bnbWheatFixedRates.item],
+  requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
   orderedAmount: 1,
   company: "qube",
@@ -227,25 +230,31 @@ const gbdSticks = getAgreement({
 });
 const gdbLead = getAgreement({
   paymentItems: [
-    Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!",\"italic\":\"false\"}\'}}')
+    Item.of(
+      "supplementaries:cage",
+      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
+    ),
   ],
   requestedItems: ["32x minecraft:lead"],
   title: "Leftovers from nether exhibition",
   orderedAmount: 2,
   company: "galactic_beast_deliveries",
   message:
-  "HELLO, we are excited to offer you an incredible opportunity! We have a few leftover beasts from our nether exhibition, the highest quality stock around! We need a few leads for our future endeavors, lets strike a deal!",
+    "HELLO, we are excited to offer you an incredible opportunity! We have a few leftover beasts from our nether exhibition, the highest quality stock around! We need a few leads for our future endeavors, lets strike a deal!",
 });
 const gdbLeadFriend = getAgreement({
   paymentItems: [
-    Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!",\"italic\":\"false\"}\'}}')
+    Item.of(
+      "supplementaries:cage",
+      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
+    ),
   ],
   requestedItems: ["32x minecraft:lead"],
   title: "EXCLUSIVE Leftovers from nether exhibition",
   orderedAmount: 4,
   company: "galactic_beast_deliveries",
   message:
-  "As our most VALUABLE customer, we are excited to offer you a once in a lifetime opportunity! We have a few leftover beasts from our nether exhibition, and we are willing to part with them for a small fee. What do you say?",
+    "As our most VALUABLE customer, we are excited to offer you a once in a lifetime opportunity! We have a few leftover beasts from our nether exhibition, and we are willing to part with them for a small fee. What do you say?",
 });
 const starterDeals = [bcfPlates, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
@@ -257,12 +266,11 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
-tradeBranch(bnbWheat, bhbCheese);
-tradeBranch(bnbFurnaces, bnbWheat);
-tradeBranch([bnbWheatFixedRates, qubeAngry, gbdSticks], bnbFurnaces);
-tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks])
-tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs])
-
+tradeBranch(bhbWheat, bhbCheese);
+tradeBranch(bhbFurnaces, bhbWheat);
+tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
+tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
+tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
 ServerEvents.commandRegistry((event) => {
   const {
     commands: Commands,
