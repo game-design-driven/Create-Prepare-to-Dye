@@ -9,6 +9,8 @@ const sealsThatHaveTextures = [
   "interstellar_livestock_logistics",
   "qube",
   "stellar_sigil_syndicate",
+  "cosmic_cuisine_collective",
+  "galactic_beast_deliveries"
 ];
 
 function getAgreement({
