@@ -84,6 +84,7 @@ if (feature("Cogs")) {
     type: "minecraft:crafting_shapeless",
   });
   addShapeless("create:large_cogwheel", "create:cogwheel");
+  addShapeless("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:large_cogwheel", "create:cogwheel");
   addItemApplication(
