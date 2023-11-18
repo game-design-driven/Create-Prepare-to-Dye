@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Do not perform LF normalization - modrinth doesn't.
+# This way the modrinth profile can be used as the git repo as well
+* text eol=lf
