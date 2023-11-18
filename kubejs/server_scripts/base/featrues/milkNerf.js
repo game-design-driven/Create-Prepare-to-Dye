@@ -8,7 +8,7 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
       console.info(
         `current time: ${currentTime}, last milked: ${lastMilked}, time since last milked: ${timeSinceLastMilked}`
       );
-      if (timeSinceLastMilked < 300) {
+      if (timeSinceLastMilked < 600) {
         console.log("cow milked too recently");
         event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
         event.cancel();
