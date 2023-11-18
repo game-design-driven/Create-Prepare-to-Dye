@@ -1,0 +1,17 @@
+{
+    "block.supplementaries.candelabra": "Yellow Candelabra",
+    "block.supplementaries.copper_lantern": "Orange Lantern",
+    "block.supplementaries.gold_door": "Yellow Door",
+    "block.supplementaries.gold_trapdoor": "Yellow Trapdoor",
+    "block.supplementaries.netherite_door": "Black Door",
+    "block.supplementaries.netherite_trapdoor": "Black Trapdoor",
+    "advancements.story.unenchanter.description": "Grind an Enchanted Yellow Apple",
+    "block.supplementaries.iron_gate": "White Gate",
+    "block.supplementaries.gold_gate": "Yellow Gate",
+    "block.supplementaries.gold_lantern": "Yellow Lantern",
+    "block.supplementaries.lapis_bricks": "Blue Bricks",
+    "block.supplementaries.lapis_bricks_wall": "Blue Brick Wall",
+    "block.supplementaries.lapis_bricks_stairs": "Blue Brick Stairs",
+    "block.supplementaries.lapis_bricks_slab": "Blue Brick Slab",
+    "block.supplementaries.lapis_bricks_vertical_slab": "Blue Brick Vertical Slab"
+}
