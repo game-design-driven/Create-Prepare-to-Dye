@@ -8,19 +8,20 @@ const sealsThatHaveTextures = [
   "bobs_construction_fleet",
   "interstellar_livestock_logistics",
   "qube",
-  "stellar_sigil_syndicate"
+  "stellar_sigil_syndicate",
 ];
 
-function getAgreement(
+function getAgreement({
   paymentItems,
   requestedItems,
   title,
   orderedAmount,
   company,
-  message
-) {
+  message,
+}) {
   if (!orderedAmount) orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
+  message = message.replace("'","") // remove single quotes from messages
   let seal = sealsThatHaveTextures.includes(company) ? company : "default";
   let companyTitle = Utils.snakeCaseToTitleCase(company);
   let agreementObj = {
@@ -57,9 +58,13 @@ function getAgreement(
       }`
     ),
   };
-  global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.item.nbt).concat([agreementObj.item])
-  global.allAgreements=global.allAgreements.filter(f => f.nbt !== agreementObj.completedItem.nbt).concat([agreementObj.completedItem])
-  console.info('All agreements so far '+global.allAgreements)
+  global.allAgreements = global.allAgreements
+    .filter((f) => f.nbt !== agreementObj.item.nbt)
+    .concat([agreementObj.item]);
+  global.allAgreements = global.allAgreements
+    .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
+    .concat([agreementObj.completedItem]);
+  console.info("All agreements so far " + global.allAgreements);
   return agreementObj;
 }
 function simple(items) {
@@ -87,16 +92,16 @@ function tradeBranch(outputTrades, inputTrades) {
 }
 
 console.info("Loading wares manager");
-ServerEvents.lowPriorityData(event => {
+ServerEvents.lowPriorityData((event) => {
   let obj = {
     added: [],
   };
-  console.info('all agreements  '+global.allAgreements)
+  console.info("all agreements  " + global.allAgreements);
   global.allAgreements.forEach((item) => {
     obj.added.push({
       stack: `item:${item.id}${item.nbt}`,
     });
   });
-  
+
   JsonIO.write("kubejs/assets/emi/index/stacks/added_agreements.json", obj);
-})
+});
