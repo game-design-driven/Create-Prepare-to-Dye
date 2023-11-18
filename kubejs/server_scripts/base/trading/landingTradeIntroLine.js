@@ -42,7 +42,7 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ['32x create:track'],
+  paymentItems: ["32x create:track"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 0,
@@ -51,7 +51,7 @@ const bfcPickaxes = getAgreement({
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement({
-  paymentItems: ['4x create:railway_casing'],
+  paymentItems: ["4x create:railway_casing"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 0,
@@ -94,6 +94,33 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
+const bnbWheat = getAgreement({
+  paymentItems: ["8x botania:livingwood_log", "water_bucket"],
+  requestedItems: ["64x wheat"],
+  title: "Clean wheat needed",
+  orderedAmount: 2,
+  company: "black_hole_bagels_llc",
+  message:
+    "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
+});
+const bnbFurnaces = getAgreement({
+  paymentItems: ["8x clay", "8x copper_ingot", "8x botania:manasteel_ingot"],
+  requestedItems: ["64x minecraft:furnace"],
+  title: "Expanding our presence on Zora",
+  orderedAmount: 2,
+  company: "black_hole_bagels_llc",
+  message:
+    "We are expanding our presence on Zora, we need some furnaces, you have proven yourself so far, lets see if we can work some fixed rates for your wheat after this",
+});
+const bnbWheatFixedRates = getAgreement({
+  paymentItems: ["32x clay"],
+  requestedItems: ["64x wheat", "64x wheat"],
+  title: "Clean wheat fixed rates",
+  orderedAmount: 2,
+  company: "black_hole_bagels_llc",
+  message:
+    "Alright, you are our new main source now, dont fail us, and dont worry about Qube, we wont tell them",
+});
 const bnwRedstone = getAgreement({
   paymentItems: [
     Item.of(
@@ -109,6 +136,15 @@ const bnwRedstone = getAgreement({
   company: "boards_and_wires",
   message:
     "Causing quite the stir there arnt you? Your horrific red planet was empty for eons, hope you know what you are doing landing there so spectacularly. Anyways we heard your planet is red because it's made of redstone, so we want to buy some",
+});
+const bnwRedstoneFixedRates = getAgreement({
+  paymentItems: ["4x ae2:fluix_smart_cable"],
+  requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
+  title: "Fixed rates redstone > cables",
+  orderedAmount: 0,
+  company: "boards_and_wires",
+  message:
+    "Alright, you seem to be reliable, I believe it is time we made it official, lets start a fixed rates agreement. Your redstone is high quality, we make great cables, simple as that",
 });
 const bnwManasteel = getAgreement({
   paymentItems: [
@@ -158,6 +194,11 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
+tradeBranch(bnbWheat, bhbCheese);
+tradeBranch(bnbFurnaces, bnbWheat);
+tradeBranch([bnbWheatFixedRates, qubeAngry, gbdSticks], bnbFurnaces);
+tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks])
+tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs])
 
 ServerEvents.commandRegistry((event) => {
   const {
