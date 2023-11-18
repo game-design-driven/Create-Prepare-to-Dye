@@ -21,9 +21,10 @@ function getAgreement({
 }) {
   if (!orderedAmount) orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
-  message = message.replace("'","") // remove single quotes from messages
+  message = message.replace("'", ""); // remove single quotes from messages
   let seal = sealsThatHaveTextures.includes(company) ? company : "default";
   let companyTitle = Utils.snakeCaseToTitleCase(company);
+
   let agreementObj = {
     item: Item.of(
       "wares:delivery_agreement",
@@ -70,10 +71,18 @@ function getAgreement({
 function simple(items) {
   if (!Array.isArray(items)) items = [items];
   return `[${items
-    .map((item) => {
-      if (typeof item === "string") item = Item.of(item);
+    .map((item_obj) => {
+      let item = item_obj
+      if (typeof item_obj === "string") {
+        item = Item.of(item);
+      }
       let nbt = item.toNBT();
       nbt.Count = item.count;
+      if (typeof item_obj === "string" && item_obj.includes("#")){ //supprt for tags
+        if (item_obj.includes("x ")) item_obj = item_obj.split('x ')[1]
+        let tag = (Ingredient.of(item_obj).values[0].serialize().get("tag")+'').replaceAll('"','')
+        nbt.id = `#${tag}`
+      }
       return nbt;
     })
     .join(", ")}]`;
