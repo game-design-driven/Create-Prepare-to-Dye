@@ -2,7 +2,7 @@
 // 64x fermented blob -> Gourmaryllis 16x sugar canes, water bucket, 4x hoppers
 const bcfPlates = getAgreement({
   paymentItems: [
-    "32x andesite",
+    "32x minecraft:andesite",
     "8x create:belt_connector",
     "8x create:cogwheel",
   ], // This is the result of the trade
@@ -15,7 +15,7 @@ const bcfPlates = getAgreement({
 });
 const bcfPlates2 = getAgreement({
   paymentItems: [
-    "32x andesite",
+    "32x minecraft:andesite",
     "4x create:andesite_casing",
     "4x create:brass_casing",
     "8x create:copper_casing",
@@ -33,9 +33,18 @@ const bcfPlates2 = getAgreement({
     "Hello, you did well on you last contract, good job. We require more plates, this time our volume is bigger, and so is the payment",
 });
 const bfcPlatesPermanent = getAgreement({
-  paymentItems: ["64x andesite", "32x andesite"],
+  paymentItems: ["64x andesite", "32x minecraft:andesite"],
   requestedItems: ["64x create:iron_sheet", "64x create:iron_sheet"],
   title: "Plates, fixed rates",
+  orderedAmount: 0,
+  company: "bobs_construction_fleet",
+  message:
+    "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
+});
+const bfcPickaxes = getAgreement({
+  paymentItems: ["64x andesite", "32x minecraft:andesite"],
+  requestedItems: ["16x #forge:tools/pickaxes"],
+  title: "Tools needed",
   orderedAmount: 0,
   company: "bobs_construction_fleet",
   message:
@@ -80,9 +89,10 @@ const bhbCheese = getAgreement({
 const starterDeals = [bcfPlates, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2], [bcfPlates]);
 tradeBranch(
-  [bfcPlatesPermanent], //The next trades in line
+  [bfcPlatesPermanent, bfcPickaxes], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
+tradeBranch(bfcPickaxes, bcfPlates2);
 
 ServerEvents.commandRegistry((event) => {
   const {
@@ -102,6 +112,31 @@ ServerEvents.commandRegistry((event) => {
     Commands.literal("starterDealCompleted").executes((context) => {
       starterDeals.forEach((deal) =>
         context.getSource().getPlayer().give(deal.completedItem)
+      );
+      return 0;
+    })
+  );
+  event.register(
+    Commands.literal("allAgreements").executes((context) => {
+      global.allAgreements.forEach((deal) =>
+        context.getSource().getPlayer().give(deal)
+      );
+      return 0;
+    })
+  );
+  event.register(
+    Commands.literal("speedBoots").executes((context) => {
+      global.allAgreements.forEach((deal) =>
+        context
+          .getSource()
+          .getPlayer()
+          .give(
+            Item.of(
+              "iron_boots",
+              1,
+              '{[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:10,Operation:1,UUIDMost:81967,UUIDLeast:113041}]}'
+            )
+          )
       );
       return 0;
     })
