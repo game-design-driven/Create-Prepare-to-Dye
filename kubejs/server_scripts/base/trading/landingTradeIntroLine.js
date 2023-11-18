@@ -86,8 +86,65 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
+const bnwRedstone = getAgreement({
+  paymentItems: [
+    Item.of(
+      "ae2:energy_cell",
+      4,
+      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
+    ),
+    "8x ae2:fluix_smart_cable",
+  ],
+  requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
+  title: "Redstone from the red planet",
+  orderedAmount: 2,
+  company: "boards_and_wires",
+  message:
+    "Causing quite the stir there arnt you? Your horrific red planet was empty for eons, hope you know what you are doing landing there so spectacularly. Anyways we heard your planet is red because it's made of redstone, so we want to buy some",
+});
+const bnwManasteel = getAgreement({
+  paymentItems: [
+    "4x ae2:storage_monitor",
+    "32x minecraft:lever",
+    "8x minecraft:gold_ingot",
+  ],
+  requestedItems: [
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+  ],
+  title: "New material",
+  orderedAmount: 1,
+  company: "boards_and_wires",
+  message:
+    "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
+});
+const bnwQuartz = getAgreement({
+  paymentItems: ["4x create:brass_casing", "8x minecraft:gold_ingot"],
+  requestedItems: ["64x minecraft:quartz"],
+  title: "Need raw materials for silicon",
+  orderedAmount: 2,
+  company: "boards_and_wires",
+  message:
+    "We are great partners, you and me, its great to have a reliable source for once. Anyways, we are working on a new batch of silicon, we need some raw material, counting on you. Sidenote, ive talked about you to a few friends of mine, lets just say they are keeping an eye on you, the good kind of eye, dont worry",
+});
+const bnwCogs = getAgreement({
+  paymentItems: [
+    "4x create:brass_casing",
+    "4x ae2:storage_bus",
+    "8x ae2:fluix_smart_cable",
+  ],
+  requestedItems: ["64x create:cogwheel"],
+  title: "Assembly expansion",
+  orderedAmount: 2,
+  company: "boards_and_wires",
+  message:
+    "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
+});
 const starterDeals = [bcfPlates, mlcSand, bhbCheese];
-tradeBranch([bcfPlates2], [bcfPlates]);
+tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
+tradeBranch(bnwManasteel, bnwRedstone);
+tradeBranch(bnwQuartz, bnwManasteel);
+tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
   [bfcPlatesPermanent, bfcPickaxes], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
