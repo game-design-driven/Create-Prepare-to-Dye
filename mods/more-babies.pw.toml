@@ -1,0 +1,13 @@
+name = "More Babies"
+filename = "More+Babies-forge-1.19.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZK4bBM3B/versions/ANUZkBSD/More%2BBabies-forge-1.19.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "f7df08a87723e2946a3f7f10c327379ff70d5674"
+
+[update]
+[update.modrinth]
+mod-id = "ZK4bBM3B"
+version = "ANUZkBSD"

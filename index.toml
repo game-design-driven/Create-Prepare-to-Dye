@@ -18573,6 +18573,11 @@ hash = "a9bac232dd82ebf6741c23c52bf73eba7396e9c014d47174af3e07379417d7f1"
 metafile = true
 
 [[files]]
+file = "mods/more-babies.pw.toml"
+hash = "2156107a9a64fa380e27b04fac3011fd9a09f33cb364426b6faadd09a3f0efe7"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "9cba22bdbc8c89d44438b1e22ae677f7d6bf1c7f1adecfff2760427f2d974dee"
 metafile = true
