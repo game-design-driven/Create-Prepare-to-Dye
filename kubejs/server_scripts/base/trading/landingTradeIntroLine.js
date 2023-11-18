@@ -42,15 +42,23 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ["64x andesite", "32x minecraft:andesite"],
+  paymentItems: ['32x create:track'],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 0,
   company: "bobs_construction_fleet",
   message:
-    "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
+    "Planing to do some work for some computer company on Zora, we need some tools",
 });
-
+const bfcHelmets = getAgreement({
+  paymentItems: ['4x create:railway_casing'],
+  requestedItems: ["16x minecraft:iron_helmet"],
+  title: "Hardhats",
+  orderedAmount: 0,
+  company: "bobs_construction_fleet",
+  message:
+    "We also need some hardhats for our upcoming contract, less urgent though so take your time",
+});
 // const bcfPlates3 = getAgreement(
 const mlcSand = getAgreement({
   paymentItems: [
