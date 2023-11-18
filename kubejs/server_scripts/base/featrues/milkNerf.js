@@ -10,7 +10,7 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
       );
       if (timeSinceLastMilked < 200) {
         console.log("cow milked too recently");
-        event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.5 0.3 1 4");
+        event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
         event.cancel();
       }else{
         event.getTarget().persistentData.put("lastMilked", currentTime);
