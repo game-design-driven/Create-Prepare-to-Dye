@@ -19,6 +19,7 @@ function parseBotaniaPageSyntax(str) {
 
 const inconsistentNamesMap = {
   manaPylon: "pylon",
+  rosaArcana: "arcanerose",
   naturaPylon: "aIntro",
   alfheimPortal: "aIntro",
   lightRelay: "luminizerTransport",
