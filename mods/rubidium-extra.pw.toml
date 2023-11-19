@@ -1,0 +1,13 @@
+name = "Rubidium Extra"
+filename = "rubidium-extra-0.4.19+mc1.19.2-build.105.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/oY2B1pjg/versions/MCSKG4Ve/rubidium-extra-0.4.19%2Bmc1.19.2-build.105.jar"
+hash-format = "sha1"
+hash = "0091245a2a422b0eb05d281b93b39010cce1086c"
+
+[update]
+[update.modrinth]
+mod-id = "oY2B1pjg"
+version = "MCSKG4Ve"
