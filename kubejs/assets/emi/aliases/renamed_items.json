@@ -1,0 +1,1084 @@
+{
+    "aliases": [
+        {
+            "stacks": "item:minecraft:gold_ore",
+            "text": "alias.emi.gold_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_gold_ore",
+            "text": "alias.emi.deepslate_gold_ore"
+        },
+        {
+            "stacks": "item:minecraft:nether_gold_ore",
+            "text": "alias.emi.nether_gold_ore"
+        },
+        {
+            "stacks": "item:minecraft:iron_ore",
+            "text": "alias.emi.iron_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_iron_ore",
+            "text": "alias.emi.deepslate_iron_ore"
+        },
+        {
+            "stacks": "item:minecraft:coal_ore",
+            "text": "alias.emi.coal_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_coal_ore",
+            "text": "alias.emi.deepslate_coal_ore"
+        },
+        {
+            "stacks": "item:minecraft:gold_block",
+            "text": "alias.emi.block_of_gold"
+        },
+        {
+            "stacks": "item:minecraft:iron_block",
+            "text": "alias.emi.block_of_iron"
+        },
+        {
+            "stacks": "item:minecraft:diamond_ore",
+            "text": "alias.emi.diamond_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_diamond_ore",
+            "text": "alias.emi.deepslate_diamond_ore"
+        },
+        {
+            "stacks": "item:minecraft:coal_block",
+            "text": "alias.emi.block_of_coal"
+        },
+        {
+            "stacks": "item:minecraft:diamond_block",
+            "text": "alias.emi.block_of_diamond"
+        },
+        {
+            "stacks": "item:minecraft:iron_door",
+            "text": "alias.emi.iron_door"
+        },
+        {
+            "stacks": "item:minecraft:lapis_ore",
+            "text": "alias.emi.lapis_lazuli_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_lapis_ore",
+            "text": "alias.emi.deepslate_lapis_lazuli_ore"
+        },
+        {
+            "stacks": "item:minecraft:lapis_block",
+            "text": "alias.emi.block_of_lapis_lazuli"
+        },
+        {
+            "stacks": "item:minecraft:iron_trapdoor",
+            "text": "alias.emi.iron_trapdoor"
+        },
+        {
+            "stacks": "item:minecraft:iron_bars",
+            "text": "alias.emi.iron_bars"
+        },
+        {
+            "stacks": "item:minecraft:emerald_ore",
+            "text": "alias.emi.emerald_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_emerald_ore",
+            "text": "alias.emi.deepslate_emerald_ore"
+        },
+        {
+            "stacks": "item:minecraft:emerald_block",
+            "text": "alias.emi.block_of_emerald"
+        },
+        {
+            "stacks": "item:minecraft:netherite_block",
+            "text": "alias.emi.block_of_netherite"
+        },
+        {
+            "stacks": "item:minecraft:copper_ore",
+            "text": "alias.emi.copper_ore"
+        },
+        {
+            "stacks": "item:minecraft:deepslate_copper_ore",
+            "text": "alias.emi.deepslate_copper_ore"
+        },
+        {
+            "stacks": "item:minecraft:copper_block",
+            "text": "alias.emi.block_of_copper"
+        },
+        {
+            "stacks": "item:minecraft:exposed_copper",
+            "text": "alias.emi.exposed_copper"
+        },
+        {
+            "stacks": "item:minecraft:weathered_copper",
+            "text": "alias.emi.weathered_copper"
+        },
+        {
+            "stacks": "item:minecraft:oxidized_copper",
+            "text": "alias.emi.oxidized_copper"
+        },
+        {
+            "stacks": "item:minecraft:cut_copper",
+            "text": "alias.emi.cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:exposed_cut_copper",
+            "text": "alias.emi.exposed_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:weathered_cut_copper",
+            "text": "alias.emi.weathered_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:oxidized_cut_copper",
+            "text": "alias.emi.oxidized_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:cut_copper_stairs",
+            "text": "alias.emi.cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:exposed_cut_copper_stairs",
+            "text": "alias.emi.exposed_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:weathered_cut_copper_stairs",
+            "text": "alias.emi.weathered_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:oxidized_cut_copper_stairs",
+            "text": "alias.emi.oxidized_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:cut_copper_slab",
+            "text": "alias.emi.cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:exposed_cut_copper_slab",
+            "text": "alias.emi.exposed_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:weathered_cut_copper_slab",
+            "text": "alias.emi.weathered_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:oxidized_cut_copper_slab",
+            "text": "alias.emi.oxidized_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:waxed_copper_block",
+            "text": "alias.emi.waxed_block_of_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_exposed_copper",
+            "text": "alias.emi.waxed_exposed_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_weathered_copper",
+            "text": "alias.emi.waxed_weathered_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_oxidized_copper",
+            "text": "alias.emi.waxed_oxidized_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_cut_copper",
+            "text": "alias.emi.waxed_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_exposed_cut_copper",
+            "text": "alias.emi.waxed_exposed_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_weathered_cut_copper",
+            "text": "alias.emi.waxed_weathered_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_oxidized_cut_copper",
+            "text": "alias.emi.waxed_oxidized_cut_copper"
+        },
+        {
+            "stacks": "item:minecraft:waxed_cut_copper_stairs",
+            "text": "alias.emi.waxed_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:waxed_exposed_cut_copper_stairs",
+            "text": "alias.emi.waxed_exposed_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:waxed_weathered_cut_copper_stairs",
+            "text": "alias.emi.waxed_weathered_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:waxed_oxidized_cut_copper_stairs",
+            "text": "alias.emi.waxed_oxidized_cut_copper_stairs"
+        },
+        {
+            "stacks": "item:minecraft:waxed_cut_copper_slab",
+            "text": "alias.emi.waxed_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:waxed_exposed_cut_copper_slab",
+            "text": "alias.emi.waxed_exposed_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:waxed_weathered_cut_copper_slab",
+            "text": "alias.emi.waxed_weathered_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:waxed_oxidized_cut_copper_slab",
+            "text": "alias.emi.waxed_oxidized_cut_copper_slab"
+        },
+        {
+            "stacks": "item:minecraft:raw_iron_block",
+            "text": "alias.emi.block_of_raw_iron"
+        },
+        {
+            "stacks": "item:minecraft:raw_copper_block",
+            "text": "alias.emi.block_of_raw_copper"
+        },
+        {
+            "stacks": "item:minecraft:raw_gold_block",
+            "text": "alias.emi.block_of_raw_gold"
+        },
+        {
+            "stacks": "item:minecraft:iron_shovel",
+            "text": "alias.emi.iron_shovel"
+        },
+        {
+            "stacks": "item:minecraft:iron_pickaxe",
+            "text": "alias.emi.iron_pickaxe"
+        },
+        {
+            "stacks": "item:minecraft:iron_axe",
+            "text": "alias.emi.iron_axe"
+        },
+        {
+            "stacks": "item:minecraft:flint_and_steel",
+            "text": "alias.emi.flint_and_steel"
+        },
+        {
+            "stacks": "item:minecraft:coal",
+            "text": "alias.emi.coal"
+        },
+        {
+            "stacks": "item:minecraft:charcoal",
+            "text": "alias.emi.charcoal"
+        },
+        {
+            "stacks": "item:minecraft:raw_copper",
+            "text": "alias.emi.raw_copper"
+        },
+        {
+            "stacks": "item:minecraft:raw_iron",
+            "text": "alias.emi.raw_iron"
+        },
+        {
+            "stacks": "item:minecraft:raw_gold",
+            "text": "alias.emi.raw_gold"
+        },
+        {
+            "stacks": "item:minecraft:diamond",
+            "text": "alias.emi.diamond"
+        },
+        {
+            "stacks": "item:minecraft:emerald",
+            "text": "alias.emi.emerald"
+        },
+        {
+            "stacks": "item:minecraft:iron_ingot",
+            "text": "alias.emi.iron_ingot"
+        },
+        {
+            "stacks": "item:minecraft:copper_ingot",
+            "text": "alias.emi.copper_ingot"
+        },
+        {
+            "stacks": "item:minecraft:gold_ingot",
+            "text": "alias.emi.gold_ingot"
+        },
+        {
+            "stacks": "item:minecraft:iron_sword",
+            "text": "alias.emi.iron_sword"
+        },
+        {
+            "stacks": "item:minecraft:diamond_sword",
+            "text": "alias.emi.diamond_sword"
+        },
+        {
+            "stacks": "item:minecraft:diamond_shovel",
+            "text": "alias.emi.diamond_shovel"
+        },
+        {
+            "stacks": "item:minecraft:diamond_pickaxe",
+            "text": "alias.emi.diamond_pickaxe"
+        },
+        {
+            "stacks": "item:minecraft:diamond_axe",
+            "text": "alias.emi.diamond_axe"
+        },
+        {
+            "stacks": "item:minecraft:golden_sword",
+            "text": "alias.emi.golden_sword"
+        },
+        {
+            "stacks": "item:minecraft:golden_shovel",
+            "text": "alias.emi.golden_shovel"
+        },
+        {
+            "stacks": "item:minecraft:golden_pickaxe",
+            "text": "alias.emi.golden_pickaxe"
+        },
+        {
+            "stacks": "item:minecraft:golden_axe",
+            "text": "alias.emi.golden_axe"
+        },
+        {
+            "stacks": "item:minecraft:iron_hoe",
+            "text": "alias.emi.iron_hoe"
+        },
+        {
+            "stacks": "item:minecraft:diamond_hoe",
+            "text": "alias.emi.diamond_hoe"
+        },
+        {
+            "stacks": "item:minecraft:golden_hoe",
+            "text": "alias.emi.golden_hoe"
+        },
+        {
+            "stacks": "item:minecraft:iron_helmet",
+            "text": "alias.emi.iron_helmet"
+        },
+        {
+            "stacks": "item:minecraft:iron_chestplate",
+            "text": "alias.emi.iron_chestplate"
+        },
+        {
+            "stacks": "item:minecraft:iron_leggings",
+            "text": "alias.emi.iron_leggings"
+        },
+        {
+            "stacks": "item:minecraft:iron_boots",
+            "text": "alias.emi.iron_boots"
+        },
+        {
+            "stacks": "item:minecraft:diamond_helmet",
+            "text": "alias.emi.diamond_helmet"
+        },
+        {
+            "stacks": "item:minecraft:diamond_chestplate",
+            "text": "alias.emi.diamond_chestplate"
+        },
+        {
+            "stacks": "item:minecraft:diamond_leggings",
+            "text": "alias.emi.diamond_leggings"
+        },
+        {
+            "stacks": "item:minecraft:diamond_boots",
+            "text": "alias.emi.diamond_boots"
+        },
+        {
+            "stacks": "item:minecraft:golden_helmet",
+            "text": "alias.emi.golden_helmet"
+        },
+        {
+            "stacks": "item:minecraft:golden_chestplate",
+            "text": "alias.emi.golden_chestplate"
+        },
+        {
+            "stacks": "item:minecraft:golden_leggings",
+            "text": "alias.emi.golden_leggings"
+        },
+        {
+            "stacks": "item:minecraft:golden_boots",
+            "text": "alias.emi.golden_boots"
+        },
+        {
+            "stacks": "item:minecraft:golden_apple",
+            "text": "alias.emi.golden_apple"
+        },
+        {
+            "stacks": "item:minecraft:enchanted_golden_apple",
+            "text": "alias.emi.enchanted_golden_apple"
+        },
+        {
+            "stacks": "item:minecraft:lapis_lazuli",
+            "text": "alias.emi.lapis_lazuli"
+        },
+        {
+            "stacks": "item:minecraft:gold_nugget",
+            "text": "alias.emi.gold_nugget"
+        },
+        {
+            "stacks": "item:minecraft:golden_carrot",
+            "text": "alias.emi.golden_carrot"
+        },
+        {
+            "stacks": "item:minecraft:iron_horse_armor",
+            "text": "alias.emi.iron_horse_armor"
+        },
+        {
+            "stacks": "item:minecraft:golden_horse_armor",
+            "text": "alias.emi.golden_horse_armor"
+        },
+        {
+            "stacks": "item:minecraft:diamond_horse_armor",
+            "text": "alias.emi.diamond_horse_armor"
+        },
+        {
+            "stacks": "item:minecraft:iron_nugget",
+            "text": "alias.emi.iron_nugget"
+        },
+        {
+            "stacks": "item:minecraft:netherite_scrap",
+            "text": "alias.emi.netherite_scrap"
+        },
+        {
+            "stacks": "item:minecraft:netherite_ingot",
+            "text": "alias.emi.netherite_ingot"
+        },
+        {
+            "stacks": "item:minecraft:netherite_helmet",
+            "text": "alias.emi.netherite_helmet"
+        },
+        {
+            "stacks": "item:minecraft:netherite_chestplate",
+            "text": "alias.emi.netherite_chestplate"
+        },
+        {
+            "stacks": "item:minecraft:netherite_leggings",
+            "text": "alias.emi.netherite_leggings"
+        },
+        {
+            "stacks": "item:minecraft:netherite_boots",
+            "text": "alias.emi.netherite_boots"
+        },
+        {
+            "stacks": "item:minecraft:netherite_axe",
+            "text": "alias.emi.netherite_axe"
+        },
+        {
+            "stacks": "item:minecraft:netherite_pickaxe",
+            "text": "alias.emi.netherite_pickaxe"
+        },
+        {
+            "stacks": "item:minecraft:netherite_hoe",
+            "text": "alias.emi.netherite_hoe"
+        },
+        {
+            "stacks": "item:minecraft:netherite_shovel",
+            "text": "alias.emi.netherite_shovel"
+        },
+        {
+            "stacks": "item:minecraft:netherite_sword",
+            "text": "alias.emi.netherite_sword"
+        },
+        {
+            "stacks": "item:quark:charcoal_block",
+            "text": "alias.emi.charcoal_block"
+        },
+        {
+            "stacks": "item:quark:iron_rod",
+            "text": "alias.emi.iron_rod"
+        },
+        {
+            "stacks": "item:quark:iron_ladder",
+            "text": "alias.emi.iron_ladder"
+        },
+        {
+            "stacks": "item:quark:golden_apple_crate",
+            "text": "alias.emi.golden_apple_crate"
+        },
+        {
+            "stacks": "item:quark:grate",
+            "text": "alias.emi.iron_grate"
+        },
+        {
+            "stacks": "item:quark:iron_button",
+            "text": "alias.emi.iron_button"
+        },
+        {
+            "stacks": "item:quark:gold_button",
+            "text": "alias.emi.gold_button"
+        },
+        {
+            "stacks": "item:quark:iron_chain",
+            "text": "alias.emi.iron_chain"
+        },
+        {
+            "stacks": "item:quark:iron_plate",
+            "text": "alias.emi.iron_plate"
+        },
+        {
+            "stacks": "item:quark:rusty_iron_plate",
+            "text": "alias.emi.rusty_iron_plate"
+        },
+        {
+            "stacks": "item:quark:iron_plate_stairs",
+            "text": "alias.emi.iron_plate_stairs"
+        },
+        {
+            "stacks": "item:quark:rusty_iron_plate_stairs",
+            "text": "alias.emi.rusty_iron_plate_stairs"
+        },
+        {
+            "stacks": "item:quark:iron_plate_slab",
+            "text": "alias.emi.iron_plate_slab"
+        },
+        {
+            "stacks": "item:quark:rusty_iron_plate_slab",
+            "text": "alias.emi.rusty_iron_plate_slab"
+        },
+        {
+            "stacks": "item:quark:iron_plate_vertical_slab",
+            "text": "alias.emi.iron_plate_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:rusty_iron_plate_vertical_slab",
+            "text": "alias.emi.rusty_iron_plate_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:pipe",
+            "text": "alias.emi.copper_pipe"
+        },
+        {
+            "stacks": "item:quark:encased_pipe",
+            "text": "alias.emi.encased_copper_pipe"
+        },
+        {
+            "stacks": "item:quark:gold_bars",
+            "text": "alias.emi.gold_bars"
+        },
+        {
+            "stacks": "item:quark:waxed_cut_copper_vertical_slab",
+            "text": "alias.emi.waxed_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:waxed_exposed_cut_copper_vertical_slab",
+            "text": "alias.emi.waxed_exposed_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:waxed_weathered_cut_copper_vertical_slab",
+            "text": "alias.emi.waxed_weathered_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:waxed_oxidized_cut_copper_vertical_slab",
+            "text": "alias.emi.waxed_oxidized_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:cut_copper_vertical_slab",
+            "text": "alias.emi.cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:exposed_cut_copper_vertical_slab",
+            "text": "alias.emi.exposed_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:weathered_cut_copper_vertical_slab",
+            "text": "alias.emi.weathered_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:oxidized_cut_copper_vertical_slab",
+            "text": "alias.emi.oxidized_cut_copper_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:iron_pillar",
+            "text": "alias.emi.iron_pillar"
+        },
+        {
+            "stacks": "item:quark:raw_iron_bricks",
+            "text": "alias.emi.raw_iron_bricks"
+        },
+        {
+            "stacks": "item:quark:raw_gold_bricks",
+            "text": "alias.emi.raw_gold_bricks"
+        },
+        {
+            "stacks": "item:quark:raw_copper_bricks",
+            "text": "alias.emi.raw_copper_bricks"
+        },
+        {
+            "stacks": "item:quark:raw_iron_bricks_stairs",
+            "text": "alias.emi.raw_iron_brick_stairs"
+        },
+        {
+            "stacks": "item:quark:raw_gold_bricks_stairs",
+            "text": "alias.emi.raw_gold_brick_stairs"
+        },
+        {
+            "stacks": "item:quark:raw_copper_bricks_stairs",
+            "text": "alias.emi.raw_copper_brick_stairs"
+        },
+        {
+            "stacks": "item:quark:raw_iron_bricks_slab",
+            "text": "alias.emi.raw_iron_brick_slab"
+        },
+        {
+            "stacks": "item:quark:raw_gold_bricks_slab",
+            "text": "alias.emi.raw_gold_brick_slab"
+        },
+        {
+            "stacks": "item:quark:raw_copper_bricks_slab",
+            "text": "alias.emi.raw_copper_brick_slab"
+        },
+        {
+            "stacks": "item:quark:raw_iron_bricks_vertical_slab",
+            "text": "alias.emi.raw_iron_brick_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:raw_gold_bricks_vertical_slab",
+            "text": "alias.emi.raw_gold_brick_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:raw_copper_bricks_vertical_slab",
+            "text": "alias.emi.raw_copper_brick_vertical_slab"
+        },
+        {
+            "stacks": "item:quark:golden_carrot_crate",
+            "text": "alias.emi.golden_carrot_crate"
+        },
+        {
+            "stacks": "item:supplementaries:candelabra",
+            "text": "alias.emi.gold_candelabra"
+        },
+        {
+            "stacks": "item:supplementaries:copper_lantern",
+            "text": "alias.emi.copper_lantern"
+        },
+        {
+            "stacks": "item:supplementaries:gold_door",
+            "text": "alias.emi.gold_door"
+        },
+        {
+            "stacks": "item:supplementaries:gold_trapdoor",
+            "text": "alias.emi.gold_trapdoor"
+        },
+        {
+            "stacks": "item:supplementaries:netherite_door",
+            "text": "alias.emi.netherite_door"
+        },
+        {
+            "stacks": "item:supplementaries:netherite_trapdoor",
+            "text": "alias.emi.netherite_trapdoor"
+        },
+        {
+            "stacks": "item:supplementaries:iron_gate",
+            "text": "alias.emi.iron_gate"
+        },
+        {
+            "stacks": "item:supplementaries:gold_gate",
+            "text": "alias.emi.gold_gate"
+        },
+        {
+            "stacks": "item:supplementaries:gold_lantern",
+            "text": "alias.emi.gold_lantern"
+        },
+        {
+            "stacks": "item:supplementaries:lapis_bricks",
+            "text": "alias.emi.lapis_bricks"
+        },
+        {
+            "stacks": "item:supplementaries:lapis_bricks_wall",
+            "text": "alias.emi.lapis_brick_wall"
+        },
+        {
+            "stacks": "item:supplementaries:lapis_bricks_stairs",
+            "text": "alias.emi.lapis_brick_stairs"
+        },
+        {
+            "stacks": "item:supplementaries:lapis_bricks_slab",
+            "text": "alias.emi.lapis_brick_slab"
+        },
+        {
+            "stacks": "item:supplementaries:lapis_bricks_vertical_slab",
+            "text": "alias.emi.lapis_brick_vertical_slab"
+        },
+        {
+            "stacks": "item:easy_villagers:iron_farm",
+            "text": "alias.emi.iron_farm"
+        },
+        {
+            "stacks": "item:create:copper_backtank",
+            "text": "alias.emi.copper_backtank"
+        },
+        {
+            "stacks": "item:create:copper_bars",
+            "text": "alias.emi.copper_bars"
+        },
+        {
+            "stacks": "item:create:copper_casing",
+            "text": "alias.emi.copper_casing"
+        },
+        {
+            "stacks": "item:create:copper_door",
+            "text": "alias.emi.copper_door"
+        },
+        {
+            "stacks": "item:create:copper_ladder",
+            "text": "alias.emi.copper_ladder"
+        },
+        {
+            "stacks": "item:create:copper_scaffolding",
+            "text": "alias.emi.copper_scaffolding"
+        },
+        {
+            "stacks": "item:create:copper_shingle_slab",
+            "text": "alias.emi.copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:copper_shingle_stairs",
+            "text": "alias.emi.copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:copper_shingles",
+            "text": "alias.emi.copper_shingles"
+        },
+        {
+            "stacks": "item:create:copper_tile_slab",
+            "text": "alias.emi.copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:copper_tile_stairs",
+            "text": "alias.emi.copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:copper_tiles",
+            "text": "alias.emi.copper_tiles"
+        },
+        {
+            "stacks": "item:create:copper_valve_handle",
+            "text": "alias.emi.copper_valve_handle"
+        },
+        {
+            "stacks": "item:create:orange_valve_handle",
+            "text": "alias.emi.orange_valve_handle"
+        },
+        {
+            "stacks": "item:create:exposed_copper_shingle_slab",
+            "text": "alias.emi.exposed_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:exposed_copper_shingle_stairs",
+            "text": "alias.emi.exposed_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:exposed_copper_shingles",
+            "text": "alias.emi.exposed_copper_shingles"
+        },
+        {
+            "stacks": "item:create:exposed_copper_tile_slab",
+            "text": "alias.emi.exposed_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:exposed_copper_tile_stairs",
+            "text": "alias.emi.exposed_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:exposed_copper_tiles",
+            "text": "alias.emi.exposed_copper_tiles"
+        },
+        {
+            "stacks": "item:create:industrial_iron_block",
+            "text": "alias.emi.block_of_industrial_iron"
+        },
+        {
+            "stacks": "item:create:netherite_backtank",
+            "text": "alias.emi.netherite_backtank"
+        },
+        {
+            "stacks": "item:create:ornate_iron_window",
+            "text": "alias.emi.ornate_iron_window"
+        },
+        {
+            "stacks": "item:create:ornate_iron_window_pane",
+            "text": "alias.emi.ornate_iron_window_pane"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_shingle_slab",
+            "text": "alias.emi.oxidized_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_shingle_stairs",
+            "text": "alias.emi.oxidized_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_shingles",
+            "text": "alias.emi.oxidized_copper_shingles"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_tile_slab",
+            "text": "alias.emi.oxidized_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_tile_stairs",
+            "text": "alias.emi.oxidized_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:oxidized_copper_tiles",
+            "text": "alias.emi.oxidized_copper_tiles"
+        },
+        {
+            "stacks": "item:create:waxed_copper_shingle_slab",
+            "text": "alias.emi.waxed_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:waxed_copper_shingle_stairs",
+            "text": "alias.emi.waxed_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_copper_shingles",
+            "text": "alias.emi.waxed_copper_shingles"
+        },
+        {
+            "stacks": "item:create:waxed_copper_tile_slab",
+            "text": "alias.emi.waxed_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:waxed_copper_tile_stairs",
+            "text": "alias.emi.waxed_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_copper_tiles",
+            "text": "alias.emi.waxed_copper_tiles"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_shingle_slab",
+            "text": "alias.emi.waxed_exposed_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_shingle_stairs",
+            "text": "alias.emi.waxed_exposed_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_shingles",
+            "text": "alias.emi.waxed_exposed_copper_shingles"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_tile_slab",
+            "text": "alias.emi.waxed_exposed_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_tile_stairs",
+            "text": "alias.emi.waxed_exposed_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_exposed_copper_tiles",
+            "text": "alias.emi.waxed_exposed_copper_tiles"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_shingle_slab",
+            "text": "alias.emi.waxed_oxidized_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_shingle_stairs",
+            "text": "alias.emi.waxed_oxidized_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_shingles",
+            "text": "alias.emi.waxed_oxidized_copper_shingles"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_tile_slab",
+            "text": "alias.emi.waxed_oxidized_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_tile_stairs",
+            "text": "alias.emi.waxed_oxidized_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_oxidized_copper_tiles",
+            "text": "alias.emi.waxed_oxidized_copper_tiles"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_shingle_slab",
+            "text": "alias.emi.waxed_weathered_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_shingle_stairs",
+            "text": "alias.emi.waxed_weathered_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_shingles",
+            "text": "alias.emi.waxed_weathered_copper_shingles"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_tile_slab",
+            "text": "alias.emi.waxed_weathered_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_tile_stairs",
+            "text": "alias.emi.waxed_weathered_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:waxed_weathered_copper_tiles",
+            "text": "alias.emi.waxed_weathered_copper_tiles"
+        },
+        {
+            "stacks": "item:create:weathered_copper_shingle_slab",
+            "text": "alias.emi.weathered_copper_shingle_slab"
+        },
+        {
+            "stacks": "item:create:weathered_copper_shingle_stairs",
+            "text": "alias.emi.weathered_copper_shingle_stairs"
+        },
+        {
+            "stacks": "item:create:weathered_copper_shingles",
+            "text": "alias.emi.weathered_copper_shingles"
+        },
+        {
+            "stacks": "item:create:weathered_copper_tile_slab",
+            "text": "alias.emi.weathered_copper_tile_slab"
+        },
+        {
+            "stacks": "item:create:weathered_copper_tile_stairs",
+            "text": "alias.emi.weathered_copper_tile_stairs"
+        },
+        {
+            "stacks": "item:create:weathered_copper_tiles",
+            "text": "alias.emi.weathered_copper_tiles"
+        },
+        {
+            "stacks": "item:create:copper_backtank",
+            "text": "alias.emi.copper_backtank"
+        },
+        {
+            "stacks": "item:create:copper_backtank_placeable",
+            "text": "alias.emi.copper_backtank_placeable"
+        },
+        {
+            "stacks": "item:create:copper_diving_boots",
+            "text": "alias.emi.copper_diving_boots"
+        },
+        {
+            "stacks": "item:create:copper_diving_helmet",
+            "text": "alias.emi.copper_diving_helmet"
+        },
+        {
+            "stacks": "item:create:copper_nugget",
+            "text": "alias.emi.copper_nugget"
+        },
+        {
+            "stacks": "item:create:copper_sheet",
+            "text": "alias.emi.copper_sheet"
+        },
+        {
+            "stacks": "item:create:crushed_raw_copper",
+            "text": "alias.emi.crushed_raw_copper"
+        },
+        {
+            "stacks": "item:create:crushed_raw_gold",
+            "text": "alias.emi.crushed_raw_gold"
+        },
+        {
+            "stacks": "item:create:crushed_raw_iron",
+            "text": "alias.emi.crushed_raw_iron"
+        },
+        {
+            "stacks": "item:create:golden_sheet",
+            "text": "alias.emi.golden_sheet"
+        },
+        {
+            "stacks": "item:create:iron_sheet",
+            "text": "alias.emi.iron_sheet"
+        },
+        {
+            "stacks": "item:create:netherite_backtank",
+            "text": "alias.emi.netherite_backtank"
+        },
+        {
+            "stacks": "item:create:netherite_backtank_placeable",
+            "text": "alias.emi.netherite_backtank_placeable"
+        },
+        {
+            "stacks": "item:create:netherite_diving_boots",
+            "text": "alias.emi.netherite_diving_boots"
+        },
+        {
+            "stacks": "item:create:netherite_diving_helmet",
+            "text": "alias.emi.netherite_diving_helmet"
+        },
+        {
+            "stacks": "item:create:netherite_diving_helmet:tooltip:summary",
+            "text": "alias.emi.together_with_a__netherite_backtank_,_this_can_protect_you_from__extreme_heat_._to_be_effective,__legs_and_feet__have_to_be_covered_in__netherite_,_too."
+        },
+        {
+            "stacks": "item:botania:manasteel_block",
+            "text": "alias.emi.block_of_manasteel"
+        },
+        {
+            "stacks": "item:botania:terrasteel_block",
+            "text": "alias.emi.block_of_terrasteel"
+        },
+        {
+            "stacks": "item:botania:manasteel_ingot",
+            "text": "alias.emi.manasteel_ingot"
+        },
+        {
+            "stacks": "item:botania:manasteel_helmet",
+            "text": "alias.emi.manasteel_helmet"
+        },
+        {
+            "stacks": "item:botania:manasteel_chestplate",
+            "text": "alias.emi.manasteel_chestplate"
+        },
+        {
+            "stacks": "item:botania:manasteel_leggings",
+            "text": "alias.emi.manasteel_leggings"
+        },
+        {
+            "stacks": "item:botania:manasteel_boots",
+            "text": "alias.emi.manasteel_boots"
+        },
+        {
+            "stacks": "item:botania:manasteel_pick",
+            "text": "alias.emi.manasteel_pickaxe"
+        },
+        {
+            "stacks": "item:botania:manasteel_shovel",
+            "text": "alias.emi.manasteel_shovel"
+        },
+        {
+            "stacks": "item:botania:manasteel_axe",
+            "text": "alias.emi.manasteel_axe"
+        },
+        {
+            "stacks": "item:botania:manasteel_hoe",
+            "text": "alias.emi.manasteel_hoe"
+        },
+        {
+            "stacks": "item:botania:manasteel_sword",
+            "text": "alias.emi.manasteel_sword"
+        },
+        {
+            "stacks": "item:botania:manasteel_shears",
+            "text": "alias.emi.manasteel_shears"
+        },
+        {
+            "stacks": "item:botania:terrasteel_ingot",
+            "text": "alias.emi.terrasteel_ingot"
+        },
+        {
+            "stacks": "item:botania:terrasteel_helmet",
+            "text": "alias.emi.terrasteel_helmet"
+        },
+        {
+            "stacks": "item:botania:terrasteel_chestplate",
+            "text": "alias.emi.terrasteel_chestplate"
+        },
+        {
+            "stacks": "item:botania:terrasteel_leggings",
+            "text": "alias.emi.terrasteel_leggings"
+        },
+        {
+            "stacks": "item:botania:terrasteel_boots",
+            "text": "alias.emi.terrasteel_boots"
+        },
+        {
+            "stacks": "item:botania:manasteel_nugget",
+            "text": "alias.emi.manasteel_nugget"
+        },
+        {
+            "stacks": "item:botania:terrasteel_nugget",
+            "text": "alias.emi.terrasteel_nugget"
+        }
+    ]
+}
