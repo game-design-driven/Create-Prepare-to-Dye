@@ -4,7 +4,7 @@ function snakeToCamel(str) {
 }
 
 function grabPage(camelCasedName, num, maxDepth) {
-  maxDepth = maxDepth || 3;
+  maxDepth = maxDepth || 2;
   if (num > maxDepth) return "...";
   let key = `botania.page.${camelCasedName}${num}`;
   let translated = Text.translate(key);
