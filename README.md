@@ -18,8 +18,6 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
 Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed and you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
-## Important note
-Please read our roadmap before playing, there's some important info about the playability of the pack there, for example our trading system is not yet integrated into the game.
 
 ## About the project
 
@@ -123,7 +121,7 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Documentation                        | ![](https://progress-bar.dev/50)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
 | Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
 | Modularity                           | ![](https://progress-bar.dev/90)   | All core aspects of the pack are configurable| Standard |          |
-| Performance                          | ![](https://progress-bar.dev/80)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
-| Trading System                       | ![](https://progress-bar.dev/55)   | The system responsible for making intergalactic trades| Critical |          |
-| Trading Implementation               | ![](https://progress-bar.dev/35)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
-| Community                            | ![](https://progress-bar.dev/9)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+| Performance                          | ![](https://progress-bar.dev/70)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
+| Trading System                       | ![](https://progress-bar.dev/75)   | The system responsible for making intergalactic trades| Critical |          |
+| Trading Implementation               | ![](https://progress-bar.dev/45)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
+| Community                            | ![](https://progress-bar.dev/10)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
