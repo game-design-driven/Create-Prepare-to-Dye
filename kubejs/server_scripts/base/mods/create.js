@@ -39,34 +39,34 @@ if (feature("Mechanical belt recipes")) {
 if (feature("Simpler encased fan")) {
   removeItem("create:propeller");
   if (!feature("Remove crafting table recipes for devices"))
-  addShaped("create:encased_fan", [" s ", "pcp", "pap"], {
-    s: "create:shaft",
-    p: "create:iron_sheet",
-    c: "create:andesite_casing",
-    a: "create:andesite_alloy",
-  });
+    addShaped("create:encased_fan", [" s ", "pcp", "pap"], {
+      s: "create:shaft",
+      p: "create:iron_sheet",
+      c: "create:andesite_casing",
+      a: "create:andesite_alloy",
+    });
 }
 
 if (feature("Simpler mixer")) {
   removeItem("create:whisk");
   if (!feature("Remove crafting table recipes for devices"))
-  addShaped("create:mechanical_mixer", ["aca", "pCp", "ppp"], {
-    a: "create:andesite_alloy",
-    c: "#forge:cogs",
-    C: "create:andesite_casing",
-    p: "create:iron_sheet",
-  });
+    addShaped("create:mechanical_mixer", ["aca", "pCp", "ppp"], {
+      a: "create:andesite_alloy",
+      c: "#forge:cogs",
+      C: "create:andesite_casing",
+      p: "create:iron_sheet",
+    });
 }
 
 if (feature("Simpler deployer")) {
   removeItem("create:brass_hand");
   if (!feature("Remove crafting table recipes for devices"))
-  addShaped("create:deployer", [" e ", "bcb", "bab"], {
-    a: "create:andesite_alloy",
-    c: "create:andesite_casing",
-    e: "#forge:cogs",
-    b: "create:iron_sheet",
-  });
+    addShaped("create:deployer", [" e ", "bcb", "bab"], {
+      a: "create:andesite_alloy",
+      c: "create:andesite_casing",
+      e: "#forge:cogs",
+      b: "create:iron_sheet",
+    });
 }
 
 if (feature("Cogs")) {
@@ -84,10 +84,19 @@ if (feature("Cogs")) {
     type: "minecraft:crafting_shapeless",
   });
   addShapeless("create:large_cogwheel", "create:cogwheel");
+  addShapeless("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:large_cogwheel", "create:cogwheel");
-  addItemApplication("create:large_cogwheel", "create:cogwheel", '#forge:tools/axes');
-  addItemApplication("create:cogwheel", "create:large_cogwheel", '#forge:tools/axes');
+  addItemApplication(
+    "create:large_cogwheel",
+    "create:cogwheel",
+    "#forge:tools/axes"
+  );
+  addItemApplication(
+    "create:cogwheel",
+    "create:large_cogwheel",
+    "#forge:tools/axes"
+  );
 }
 
 if (feature("Application recipes")) {
@@ -201,43 +210,45 @@ if (feature("better tracks")) {
 }
 
 if (feature("Funnels and tunnels with silicon and leather")) {
-  addShaped("2x create:andesite_funnel", ["a", "l"], {
-    a: "create:andesite_alloy",
-    l: "leather",
-  });
-  addShaped("2x create:andesite_funnel", ["a", "l"], {
-    a: "create:andesite_alloy",
-    l: "#forge:silicon",
-  });
-  addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
-    a: "create:andesite_alloy",
-    l: "leather",
-  });
-  addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
-    a: "create:andesite_alloy",
-    l: "#forge:silicon",
-  });
+  if (!feature("Remove crafting table recipes for devices")) {
+    addShaped("2x create:andesite_funnel", ["a", "l"], {
+      a: "create:andesite_alloy",
+      l: "leather",
+    });
+    addShaped("2x create:andesite_funnel", ["a", "l"], {
+      a: "create:andesite_alloy",
+      l: "#forge:silicon",
+    });
+    addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
+      a: "create:andesite_alloy",
+      l: "leather",
+    });
+    addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
+      a: "create:andesite_alloy",
+      l: "#forge:silicon",
+    });
 
-  addShaped("2x create:brass_funnel", ["e", "a", "l"], {
-    e: "create:polished_rose_quartz",
-    a: "#forge:ingots/brass",
-    l: "#forge:silicon",
-  });
-  addShaped("2x create:brass_funnel", ["e", "a", "l"], {
-    e: "create:polished_rose_quartz",
-    a: "#forge:ingots/brass",
-    l: "leather",
-  });
-  addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
-    e: "create:polished_rose_quartz",
-    a: "#forge:ingots/brass",
-    l: "leather",
-  });
-  addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
-    e: "create:polished_rose_quartz",
-    a: "#forge:ingots/brass",
-    l: "#forge:silicon",
-  });
+    addShaped("2x create:brass_funnel", ["e", "a", "l"], {
+      e: "create:polished_rose_quartz",
+      a: "#forge:ingots/brass",
+      l: "#forge:silicon",
+    });
+    addShaped("2x create:brass_funnel", ["e", "a", "l"], {
+      e: "create:polished_rose_quartz",
+      a: "#forge:ingots/brass",
+      l: "leather",
+    });
+    addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
+      e: "create:polished_rose_quartz",
+      a: "#forge:ingots/brass",
+      l: "leather",
+    });
+    addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
+      e: "create:polished_rose_quartz",
+      a: "#forge:ingots/brass",
+      l: "#forge:silicon",
+    });
+  }
 }
 
 if (feature("Replace electron tube with polished quartz")) {

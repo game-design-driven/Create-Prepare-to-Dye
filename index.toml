@@ -18513,11 +18513,6 @@ hash = "69829a1d0efe96bc1d3463aef9d1f821b64ae1f038e26d00ba0f8a5da170385c"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "3fd84629dfb4a639c07c49ac3f41d3dfe66bc763f056c8b2d275d0d2742c1115"
-metafile = true
-
-[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "c11011cc9fb5bd521e5805e732dd131357ae8fb21f682a7ab2db4aa8ad9a0e41"
 metafile = true
@@ -18573,6 +18568,11 @@ hash = "a9bac232dd82ebf6741c23c52bf73eba7396e9c014d47174af3e07379417d7f1"
 metafile = true
 
 [[files]]
+file = "mods/more-babies.pw.toml"
+hash = "2156107a9a64fa380e27b04fac3011fd9a09f33cb364426b6faadd09a3f0efe7"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "9cba22bdbc8c89d44438b1e22ae677f7d6bf1c7f1adecfff2760427f2d974dee"
 metafile = true
@@ -18609,7 +18609,7 @@ metafile = true
 
 [[files]]
 file = "mods/probe-js.pw.toml"
-hash = "311c4bcc8ba1cb3f2a643c6ac2da5127629bac6d58eb6da829b0af9f30ce89ad"
+hash = "ad45afb1602ab206ec58746dec6bdf7a408211910f6d914904c9f6ad68b8776c"
 metafile = true
 
 [[files]]

@@ -99,8 +99,9 @@ if (feature("Remove crafting table recipes for devices")) {
   ];
   addToTag("forge:device/andesite", "create:andesite_casing");
   addToTag("forge:device/andesite", andesiteBasedDevices);
-
+  
   addShapeless('create:andesite_casing', '#forge:device/andesite')
+  addShapeless('minecraft:stonecutter', "create:andesite_casing")
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/andesite");
@@ -143,6 +144,8 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     "create:content_observer",
     "create:stockpile_switch",
     "create:display_link",
+    "create:brass_tunnel",
+    "create:brass_funnel",
     "createdieselgenerators:diesel_engine",
   ];
   addToTag("forge:device/brass", "create:brass_casing");

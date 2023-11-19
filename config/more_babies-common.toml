@@ -1,0 +1,250 @@
+
+[babies]
+
+	[babies.bat]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.blaze]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+		#If spawners in structures should be replaced with baby spawners based on the defined spawn weight
+		replaceSpawners = true
+
+	[babies.cave_spider]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+		#If spawners in structures should be replaced with baby spawners based on the defined spawn weight
+		replaceSpawners = true
+
+	[babies.creeper]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+		#Explosion radius (reference values: creeper = 3, TNT = 4)
+		#Range: 0 ~ 100
+		explosionRadius = 2
+
+	[babies.dolphin]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.elder_guardian]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.enderman]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.evoker]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.ghast]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.giant]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.glow_squid]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.guardian]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.illusioner]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.iron_golem]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.parrot]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.piglin_brute]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.pillager]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.ravager]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.salmon]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.shulker]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.skeleton]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.snow_golem]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.spider]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.squid]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.stray]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.vindicator]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.wandering_trader]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.witch]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.wither]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
+	[babies.wither_skeleton]
+		#Percentage of mobs that will be replaced with babies
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.05
+		#Speed of baby compared to normal mob (is only set on initial spawn)
+		#Range: 0.0 ~ 2.0
+		speedModifier = 1.5
+
