@@ -18,8 +18,6 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
 Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed and you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
-## Important note
-Please read our roadmap before playing, there's some important info about the playability of the pack there, for example our trading system is not yet integrated into the game.
 
 ## About the project
 
