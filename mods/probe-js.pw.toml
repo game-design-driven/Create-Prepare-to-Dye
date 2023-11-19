@@ -1,5 +1,5 @@
 name = "probe-js"
-filename = "probejs-5.3.0-forge.jar"
+filename = "probejs-5.3.2-forge.jar"
 
 [download]
 url = "https://github.com/Prunoideae/ProbeJS/releases/download/v5.3.2/probejs-5.3.2-forge.jar"
