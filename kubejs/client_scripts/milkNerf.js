@@ -1,3 +1,4 @@
+
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
   if (event.getTarget().getType() == "minecraft:cow") {
   let currentTime = event.getTarget().level.getTime();
