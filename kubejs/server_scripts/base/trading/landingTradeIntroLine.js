@@ -119,7 +119,7 @@ const bhbWheatFixedRates = getAgreement({
   paymentItems: ["32x clay"],
   requestedItems: ["64x wheat", "64x wheat"],
   title: "Clean wheat fixed rates",
-  orderedAmount: 2,
+  orderedAmount: 0,
   company: "black_hole_bagels_llc",
   message:
     "Alright, you are our new main source now, dont fail us, and dont worry about Qube, we wont tell them",
