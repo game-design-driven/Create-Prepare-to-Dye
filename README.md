@@ -44,7 +44,7 @@ On top of those we add many processing lines (over 1200 recipe changes and addit
 <details>
   <summary>Radical simplification</summary>
 
-No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanialla minecraft. Did anyone say nether? Never heard of it.
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla minecraft. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
 </details>
 <details>
   <summary>Remove tiers</summary>
