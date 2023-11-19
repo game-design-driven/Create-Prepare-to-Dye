@@ -1,3 +1,4 @@
+// priority: 100
 global.features = new Map();
 global.functions = {}
 global.feature = (name) => {
