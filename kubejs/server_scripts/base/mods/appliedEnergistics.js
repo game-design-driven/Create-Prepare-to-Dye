@@ -1,6 +1,12 @@
 // Ingredient.of('@refinedstorage').stacks.forEach(item => {
     
 // });
+if (feature('Remove ae2 recipe types')) {
+    removeRecipe({ type: "ae2:inscriber"})
+    removeRecipe({ type: "ae2:entropy"})
+    removeRecipe({ type: "ae2:condenser"})
+    removeRecipe({ type: "ae2:matter_cannon"})
+}
 if(feature('Remove all uneeded things from ae2')){
     let keep = [
         'ae2:silicon',
