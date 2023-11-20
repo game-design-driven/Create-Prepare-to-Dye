@@ -178,3 +178,7 @@ if (feature("Hopper without wood")) {
       });
     }
   }
+
+if (feature('Remove vanilla andesite recipe')) {
+    removeRecipe({id: 'minecraft:andesite'})
+}
