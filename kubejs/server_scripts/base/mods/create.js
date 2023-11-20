@@ -19,16 +19,21 @@ if (feature("Remove vanilla honey bottle recipe")) {
 }
 
 if (feature("Mechanical belt recipes")) {
+  //kelp
+  removeRecipe({ id: "create:crafting/kinetics/belt_connector" });
+  addShaped("2x create:belt_connector", ["lll", "lll"], {
+    l: 'minecraft:dried_kelp',
+  });
   //leather
-  addShaped("3x create:belt_connector", ["lll", "lll"], {
+  addShaped("2x create:belt_connector", ["lll", "lll"], {
     l: "#forge:leather",
   });
   //silicon
-  addShaped("3x create:belt_connector", ["sss", "sss"], {
+  addShaped("2x create:belt_connector", ["sss", "sss"], {
     s: "#forge:silicon",
   });
   //combined
-  addShaped("6x create:belt_connector", ["lll", "sss", "kkk"], {
+  addShaped("4x create:belt_connector", ["lll", "sss", "kkk"], {
     l: "#forge:leather",
     s: "#forge:silicon",
     k: "minecraft:dried_kelp",
