@@ -16,10 +16,6 @@ function removeItem(item) {
     hideItem(item)
 }
 
-function hideItem(item) {
-    addToTag("c:hidden_from_recipe_viewers", item)
-}
-
 function removeAllRecipesForItem(item) {
     removeRecipe({ output: item })
     global.itemsToRemove.push(item)
