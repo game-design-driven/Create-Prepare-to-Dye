@@ -102,7 +102,7 @@ if (feature('Gold')) {
     addMilling('gold_nugget %5', 'egg')
     addItemApplication('minecraft:raw_gold_block', ['minecraft:honeycomb_block', '#forge:ingots/terrasteel'])
     removeRecipe({ id: 'create:splashing/red_sand' })
-    addSplashing(['dead_bush %5','3x red_dye %12'], 'red_sand')
+    addSplashing(['dead_bush %5','red_dye %15'], 'red_sand')
 }
 if (feature('Remove diamond ore')) {
     removeItem('diamond_ore')
