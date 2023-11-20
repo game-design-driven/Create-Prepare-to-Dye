@@ -1,3 +1,6 @@
+if (feature('Remove crafting table')) {
+  removeItem('minecraft:crafting_table')
+}
 if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/copper_casing_from_wood" });
   removeRecipe({ id: "create:item_application/copper_casing_from_log" });
