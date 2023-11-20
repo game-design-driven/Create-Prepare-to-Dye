@@ -5,15 +5,17 @@
  * @param {*} item 
  */
 function removeItem(item) {
-    global.itemsToRemove.push(item) //why was that commented out?
+    global.itemsToRemove.push(item)
     // //add tooltip
     // //remove recipes
     removeRecipe({ output: item })
     removeRecipe({ input: item })
     //remove tags from item
-    removeAllTagsFrom(item)
     //hide
-    hideItem(item)
+    ServerEvents.tags('item', event => {
+        event.removeAllTagsFrom(item)
+        event.add('c:hidden_from_recipe_viewers', item)
+	})
 }
 
 function removeAllRecipesForItem(item) {
