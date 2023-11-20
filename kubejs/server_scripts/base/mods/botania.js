@@ -1,6 +1,6 @@
 
 if (feature('overgrowth_seed recipes')) {
-    addFilling('botania:overgrowth_seed', 'minecraft:bone_meal', '750x milk')
+    addFilling('botania:overgrowth_seed', 'minecraft:bone_meal', 'kubejs:fermented_goop')
     // addItemExplode('botania:overgrowth_seed', ['4x #forge:seeds', Item.of('minecraft:potion', '{Potion:"minecraft:strength"}')])
 }
 
