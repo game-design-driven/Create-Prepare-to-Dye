@@ -45,7 +45,7 @@ const bfcPickaxes = getAgreement({
   paymentItems: ["32x create:track"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
-  orderedAmount: 0,
+  orderedAmount: 2,
   company: "bobs_construction_fleet",
   message:
     "Planing to do some work for some computer company on Zora, we need some tools",
@@ -54,7 +54,7 @@ const bfcHelmets = getAgreement({
   paymentItems: ["4x create:railway_casing"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
-  orderedAmount: 0,
+  orderedAmount: 2,
   company: "bobs_construction_fleet",
   message:
     "We also need some hardhats for our upcoming contract, less urgent though so take your time",
@@ -287,7 +287,7 @@ tradeBranch(
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch(bhbWheat, bhbCheese);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
-tradeBranch([sssHelmetsFixedRates,], sssHelmets);
+tradeBranch([sssHelmetsFixedRates], sssHelmets);
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
