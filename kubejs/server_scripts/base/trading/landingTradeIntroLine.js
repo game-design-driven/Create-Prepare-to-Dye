@@ -222,7 +222,7 @@ const gbdSticks = getAgreement({
     ),
   ],
   requestedItems: ["64x minecraft:stick", "64x minecraft:stick"],
-  title: "Are you interested in exotic creatures?",
+  title: "Interested in exotic creatures?",
   orderedAmount: 1,
   company: "galactic_beast_deliveries",
   message:
@@ -259,7 +259,7 @@ const gdbLeadFriend = getAgreement({
 
 const sssHelmets = getAgreement({
   paymentItems: ['minecraft:air'],
-  requestedItems: ["32x botania:manasteel_helmet"],
+  requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
   company: "stellar_sigil_syndicate",
@@ -287,7 +287,7 @@ tradeBranch(
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch(bhbWheat, bhbCheese);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
-tradeBranch([sssHelmetsFixedRates], sssHelmets);
+tradeBranch(sssHelmetsFixedRates, sssHelmets);
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
