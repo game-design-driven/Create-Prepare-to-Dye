@@ -60,7 +60,7 @@ if (feature("Ethanol")) {
     ["500mb milk"]
   );
 
-  addMixing("kubejs:fermented_blob %10", "100mb kubejs:fermented_goop");
+  addMixing("kubejs:fermented_blob %10", "50mb kubejs:fermented_goop");
   addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
   addMixing("slime_ball %80", [
     "500mb kubejs:fermented_goop",
