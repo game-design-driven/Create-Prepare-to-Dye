@@ -10,3 +10,6 @@ addPurify('red_sand', 'lava', 10)
 addShaped('stick', ['a', 'a'], { a: 'cactus' })
 addMilling(['stick','stick %75'], 'dead_bush')
 addFilling('sand', 'red_sand', '100x milk')
+
+addAltar('2x bone_meal', ['bone_meal', '2x kubejs:fermented_blob'], 1000)
+addAltar('create:tree_fertilizer', ['2x bone_meal','#forge:coral', '4x kubejs:fermented_blob'], 7000)
