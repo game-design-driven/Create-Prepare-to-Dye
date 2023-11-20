@@ -44,9 +44,3 @@ function removeAllFromTag(tag) {
 		return event.removeAll(tag)
 	})
 }
-
-function removeAllTagsFrom(ids) {
-	ServerEvents.tags('item', event => {
-		return event.removeAllTagsFrom(ids)
-	})
-}
