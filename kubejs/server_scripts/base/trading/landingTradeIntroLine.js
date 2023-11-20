@@ -78,7 +78,7 @@ const mlcSand = getAgreement({
   orderedAmount: 2,
   company: "magical_landscaping_co",
   message:
-    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal thatl put your sands on the lunar map. Whaddya say?",
+    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
 });
 const bhbCheese = getAgreement({
   paymentItems: [
