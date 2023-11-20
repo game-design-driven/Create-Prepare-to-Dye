@@ -56,14 +56,30 @@ if (feature('Ore processing')) {
 
     addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
-    let crush_to_ingot_table = {
-        'create:crushed_raw_iron': 'minecraft:iron_ingot',
-        'create:crushed_raw_copper': 'minecraft:copper_ingot',
-        'create:crushed_raw_gold': 'minecraft:gold_ingot'
-    }
-    Object.entries(crush_to_ingot_table).forEach(entry => {
-        const [crushed, ingot] = entry;
-        addAltar('12x '+ ingot, ['#botania:runes', '8x '+crushed])
+    let crush_to_ingot = [
+        {
+            raw: 'minecraft:raw_iron',
+            crushed: 'create:crushed_raw_iron',
+            ingot: 'minecraft:iron_ingot',
+            waste: 'minecraft:milk'
+        },
+        {
+            raw: 'minecraft:raw_copper',
+            crushed: 'create:crushed_raw_copper',
+            ingot: 'minecraft:copper_ingot',
+            waste: 'create:chocolate'
+        },
+        {
+            raw: 'minecraft:raw_gold',
+            crushed: 'create:crushed_raw_gold',
+            ingot: 'minecraft:gold_ingot',
+            waste: 'create:honey'
+        }
+    ]
+    crush_to_ingot.forEach(entry => {
+        addAltar('12x '+ entry.ingot, ['#botania:runes', '8x '+entry.crushed])
+        addMixing(['10x '+entry.crushed, '10mb '+entry.waste], ['8x '+entry.raw, '4x create:limestone', '100mb water'])
+        addMixing(['8x '+entry.crushed, '50mb '+entry.waste], ['10x '+entry.raw, '4x create:scorchia', '250mb water'])
     })
 
 }
