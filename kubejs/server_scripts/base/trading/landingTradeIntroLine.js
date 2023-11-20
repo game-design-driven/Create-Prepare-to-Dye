@@ -256,6 +256,25 @@ const gdbLeadFriend = getAgreement({
   message:
     "As our most VALUABLE customer, we are excited to offer you a once in a lifetime opportunity! We have a few leftover beasts from our nether exhibition, and we are willing to part with them for a small fee. What do you say?",
 });
+
+const sssHelmets = getAgreement({
+  paymentItems: ['minecraft:air'],
+  requestedItems: ["32x botania:manasteel_helmet"],
+  title: "The syndicate needs YOU!",
+  orderedAmount: 2,
+  company: "stellar_sigil_syndicate",
+  message:
+    "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
+});
+const sssHelmetsFixedRates = getAgreement({
+  paymentItems: ['minecraft:air'],
+  requestedItems: ["32x botania:manasteel_helmet"],
+  title: "Making the world a better place!",
+  orderedAmount: 0,
+  company: "stellar_sigil_syndicate",
+  message:
+    "Amazing! It's so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
+});
 const starterDeals = [bcfPlates, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch(bnwManasteel, bnwRedstone);
@@ -267,10 +286,12 @@ tradeBranch(
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch(bhbWheat, bhbCheese);
-tradeBranch(bhbFurnaces, bhbWheat);
+tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
+tradeBranch([sssHelmetsFixedRates,], sssHelmets);
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
+
 ServerEvents.commandRegistry((event) => {
   const {
     commands: Commands,
