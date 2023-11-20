@@ -5,8 +5,6 @@
  * @param {*} item 
  */
 function removeItem(item) {
-    //hide
-    global.itemsToHide.push(item)
     global.itemsToRemove.push(item) //why was that commented out?
     // //add tooltip
     // //remove recipes
@@ -14,6 +12,12 @@ function removeItem(item) {
     removeRecipe({ input: item })
     //remove tags from item
     removeAllTagsFrom(item)
+    //hide
+    hideItem(item)
+}
+
+function hideItem(item) {
+    addToTag("c:hidden_from_recipe_viewers", item)
 }
 
 function removeAllRecipesForItem(item) {
