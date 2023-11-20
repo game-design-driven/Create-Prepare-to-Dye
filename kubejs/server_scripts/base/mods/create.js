@@ -283,3 +283,9 @@ if (feature("Crushing wheel in regular crafting")) {
     });
   }
 }
+
+if (feature('nerf bonemeal from calcite')){
+  removeRecipe({id:'create:milling/calcite'})
+  addMilling(['bone_meal 40%'], 'create:calcite')
+  addCrushing(['bone_meal 20%', 'cobblestone 20%', 'nether_quartz %5'], 'create:calcite')
+}
