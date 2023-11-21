@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "hotfixesFormat": null,
+    "versions": [
+        {
+            "id": "1.79.0",
+            "releasedAt": 209384093820,
+            "promotions": {
+                "downloads": {
+                    "modrinth": "https://modrinth.com/modpack/create-prepare-to-dye",
+                    "generic": "https://github.com/Yarden-zamir/Create-Prepare-to-Dye"
+                }
+            }
+        }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 4,
+  "currentVersion": "1.79.0",
+  "modpackName": "Create: Prepare to Dye",
+  "modpackAuthor": "Create: Prepare to Dye team",
+  "githubRepo": "https://raw.githubusercontent.com/yarden-zamir/create-prepare-to-dye/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "showAllChangelogsIfUpToDate": false
+  }
+}
