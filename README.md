@@ -1,5 +1,5 @@
 # ⚙️ Create : Prepare to Dye         
-[![Discord](https://img.shields.io/discord/890222432605057044)](https://discord.gg/v8cZ83kTPY)
+[![Discord](https://img.shields.io/discord/890222432605057044?label=Chat+on+Discord)](https://discord.gg/v8cZ83kTPY)
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/releases)
 [![GitHub issues](https://img.shields.io/github/issues/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
@@ -9,6 +9,8 @@
 [![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
+[![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
+
 
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
@@ -107,11 +109,8 @@ See all features [here](kubejs/server_scripts/base/featrues)
 
 
 
-
-
-[Modrinth page](https://modrinth.com/modpack/create-prepare-to-dye)
-[Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
-
+[Join us on Discord](https://discord.gg/v8cZ83kTPY)   
+[Play now on modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
@@ -125,3 +124,4 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical |          |
 | Trading Implementation               | ![](https://progress-bar.dev/55)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
 | Community                            | ![](https://progress-bar.dev/15)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+[![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
