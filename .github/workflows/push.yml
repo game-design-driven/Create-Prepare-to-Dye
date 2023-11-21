@@ -103,7 +103,7 @@ jobs:
         if: matrix.platform == 'modrinth'
         run: |
           cd modpack-update-checker
-          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json > meta.json
+          echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
       - name: Commit & Push changes
         if: matrix.platform == 'modrinth'
         uses: actions-js/push@master

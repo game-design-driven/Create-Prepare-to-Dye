@@ -1,10 +1,8 @@
 {
-    "schemaVersion": 1,
-    "hotfixesFormat": null,
-    "versions": [
-        {
-            "id": "1.79.0",
-            "releasedAt": 1680109306000
-        }
-    ]
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    { "id": "1.79.0", "releasedAt": 1680109306000 },
+    { "id": 1, "releasedAt": 1 }
+  ]
 }
