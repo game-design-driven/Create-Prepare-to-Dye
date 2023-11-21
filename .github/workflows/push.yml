@@ -99,7 +99,7 @@ jobs:
         run: |
           cd modpack-update-checker
           export time=$(date +"%s")
-          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":$time}' meta.json
+          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ env.time }}}' meta.json
       # - name: Publish to CurseForge
       #   if: matrix.platform == 'curseforge'
       #   uses: Kir-Antipov/mc-publish@v3.2
