@@ -143,5 +143,12 @@
     "advancements.story.obtain_armor.description": "Protect yourself with a piece of white armor",
     "advancements.story.shiny_gear.title": "Cover Me with Light Blue",
     "advancements.story.shiny_gear.description": "Light Blue armor saves lives",
-    "advancements.story.smelt_iron.description": "Smelt a white ingot"
+    "advancements.story.smelt_iron.description": "Smelt a white ingot",
+    "gameMode.survival": "Crash Landing Mode",
+    "selectWorld.gameMode.survival": "Crash Landing",
+    "selectWorld.gameMode.survival.line1": "Build factories, automate, trade,",
+    "selectWorld.gameMode.survival.line2": "milk and, of course, dye",
+    "selectWorld.create": "Safely land on Chroma Prime",
+    "selectWorld.newWorld": "New Landing",
+    "selectWorld.enterName": "Capitalistic Company Name"
 }
