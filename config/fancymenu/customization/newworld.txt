@@ -1,0 +1,107 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=3451511%
+  orientation = mid-centered
+  x = 11
+  action = movebutton
+  y = 220
+}
+
+customization {
+  identifier = %id=3451511%
+  width = 16
+  action = resizebutton
+  height = 13
+}
+
+customization {
+  identifier = %id=3451511%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505120%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=5051001%
+  orientation = mid-centered
+  x = 32
+  action = movebutton
+  y = 222
+}
+
+customization {
+  identifier = %id=5051001%
+  width = 11
+  action = resizebutton
+  height = 11
+}
+
+customization {
+  identifier = %id=5051001%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=50510011%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=50510011%
+  orientation = top-centered
+  x = -47
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = top-centered
+  x = -156
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=3451851%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 100
+}
+
