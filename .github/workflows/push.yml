@@ -94,6 +94,14 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
+      - name: Get unix time
+        id: get_time
+        run: echo "time=$(date +%s%N | cut -b1-13)" > $GITHUB_OUTPUT
+      - name: Update changelog files
+        if: matrix.platform == 'modrinth'
+        run: 
+          cd modpack-update-checker
+          jq -r '.versions[.versions| length] |= . + {"id":${{ needs.tag_and_release.outputs.new_tag }},"releasedAt":${{steps.get_time.time}}}'
       # - name: Publish to CurseForge
       #   if: matrix.platform == 'curseforge'
       #   uses: Kir-Antipov/mc-publish@v3.2
