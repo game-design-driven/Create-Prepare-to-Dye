@@ -4,3 +4,5 @@ addTooltip('water_bucket','Water is the essence of most organic life, useful for
 addTooltip('red_sand', 'Found abundantly on the planets surface, also seems that the _lava_ here, flowing or source, can be purified with _pure daisy_ to make _red sand_')
 addTooltip('create:scoria', 'Can be made by searing flowing _chocolate_ with _lava_')
 addTooltip('create:limestone', 'Can be made by searing flowing _honey_ with _lava_')
+addTooltip('milk_bucket', 'Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too!')
+addTooltip("createdieselgenerators:diesel_engine", "The _Engine_, a modern invention, can run on various fuels, from _milk_, a widely used fuel for space travel, to _bio-diesel_, known for its greater efficiency.")
