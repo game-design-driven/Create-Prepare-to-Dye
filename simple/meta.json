@@ -4,11 +4,11 @@
     "versions": [
         {
             "id": "1.79.0",
-            "releasedAt": 209384093820
+            "releasedAt": 1680109306000
         },
         {
             "id": "1.80.0",
-            "releasedAt": 209384093821
+            "releasedAt": 1684360925000
         }
     ]
   }
