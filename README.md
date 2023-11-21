@@ -10,6 +10,8 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 
+
+
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
 ## Intro
@@ -122,3 +124,5 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Trading System                       | ![](https://progress-bar.dev/75)   | The system responsible for making intergalactic trades| Critical |          |
 | Trading Implementation               | ![](https://progress-bar.dev/45)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
 | Community                            | ![](https://progress-bar.dev/10)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+
+![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)
