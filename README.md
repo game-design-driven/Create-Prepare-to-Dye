@@ -125,4 +125,4 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Trading Implementation               | ![](https://progress-bar.dev/45)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
 | Community                            | ![](https://progress-bar.dev/10)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
 
-![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)
+[![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
