@@ -1,5 +1,5 @@
 {
-  "itemGroup.cdg_creative_tab": "Create: Diesel Generators",
+  "itemGroup.cdg_creative_tab": "Create: Engines",
   "block.createdieselgenerators.diesel_engine": "Engine",
   "block.createdieselgenerators.basin_lid": "Basin Lid",
   "block.createdieselgenerators.large_diesel_engine": "Modular Engine",
@@ -11,7 +11,7 @@
 
   "createdieselgenerators.goggle.problem_encountered": "Problem Encountered!",
 
-  "createdieselgenerators.tooltip.holdForFuelStats": "Hold [%1$s] for Generator Fuel Stats",
+  "createdieselgenerators.tooltip.holdForFuelStats": "Hold [%1$s] for Engine Fuel Stats",
   "createdieselgenerators.tooltip.keyAlt": "Alt",
 
   "createdieselgenerators.tooltip.fuelSpeed": "Speed: %1$s rpm",
@@ -32,14 +32,14 @@
   "createdieselgenerators.ponder.pumpjack.text_5": "When assembled, it will start producing Oil.",
   "createdieselgenerators.ponder.pumpjack.text_6": "Pumpjack Cranks can be large, or small.",
   "createdieselgenerators.ponder.diesel_engine.header": "Setting up a Engine",
-  "createdieselgenerators.ponder.diesel_engine.text_1": "Generators are a compact way of generating kinetic energy.",
-  "createdieselgenerators.ponder.diesel_engine.text_2": "Give it some fuel and it will produce kinetic energy.",
+  "createdieselgenerators.ponder.diesel_engine.text_1": "Engines are a compact way of generating kinetic energy.",
+  "createdieselgenerators.ponder.diesel_engine.text_2": "Give it some milk (or other forms of fuel) and it will produce kinetic energy.",
   "createdieselgenerators.ponder.basin_fermenting_station.header": "Setting up a Basin Fermenting Station",
   "createdieselgenerators.ponder.basin_fermenting_station.text_1": "Basin Lids allow you to create Ethanol.",
   "createdieselgenerators.ponder.basin_fermenting_station.text_2": "Give them some Sugar and Bone Meals...",
   "createdieselgenerators.ponder.basin_fermenting_station.text_3": "... Ethanol will be created.",
   "createdieselgenerators.ponder.large_diesel_engine.header": "Setting up a Modular Engine",
-  "createdieselgenerators.ponder.large_diesel_engine.text_1": "Modular Diesel Generators function like normal Diesel generators.",
+  "createdieselgenerators.ponder.large_diesel_engine.text_1": "Modular Diesel Engines function like normal Diesel engines.",
   "createdieselgenerators.ponder.large_diesel_engine.text_2": "Once you give them some fuel, they will produce Kinetic Energy ...",
   "createdieselgenerators.ponder.large_diesel_engine.text_3": "... They can be stacked.",
   "createdieselgenerators.ponder.large_diesel_engine.text_4": "They will generate stress proportionally to how much engines you stack.",
