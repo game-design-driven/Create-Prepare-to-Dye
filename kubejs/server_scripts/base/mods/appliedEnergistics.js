@@ -11,7 +11,6 @@ if(feature('Remove all uneeded things from ae2')){
     let keep = [
         'ae2:silicon',
         'ae2:terminal',
-        'ae2:crafting_terminal',
         'ae2:fluix_smart_cable',
         'ae2:storage_bus',
         'ae2:energy_cell',
