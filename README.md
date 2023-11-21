@@ -107,9 +107,8 @@ See all features [here](kubejs/server_scripts/base/featrues)
 
 
 
-
-
-[Modrinth page](https://modrinth.com/modpack/create-prepare-to-dye)
+[Join us on Discord](https://discord.gg/v8cZ83kTPY) 
+[Play now on modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
 [Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
 
 # Roadmap
