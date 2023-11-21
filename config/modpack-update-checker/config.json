@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "currentVersion": "v1.79.0",
+  "currentVersion": "v.79.0",
   "modpackName": "Create Prepare to Dye",
-  "modpackAuthor": "Yarden",
+  "modpackAuthor": "Create Prepare to Dye team",
   "githubRepo": "https://raw.githubusercontent.com/Yarden-zamir/Create-Prepare-to-Dye/main/modpack-update-checker/",
   "advanced": {
     "bccEnabled": false,
