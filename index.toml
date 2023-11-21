@@ -266,7 +266,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "57d3a194b8776901f110e15f254b4b0702fb04b901c59a92cf73968a383e0a10"
+hash = "64ac2686aad56e4ca201f26bbd99307cf4bea72b1ddd452bdf42bd204482e509"
 
 [[files]]
 file = "config/more_babies-common.toml"
