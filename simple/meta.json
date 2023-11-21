@@ -4,13 +4,11 @@
     "versions": [
         {
             "id": "1.79.0",
-            "releasedAt": 209384093820,
-            "promotions": {
-                "downloads": {
-                    "modrinth": "https://modrinth.com/modpack/create-prepare-to-dye",
-                    "generic": "https://github.com/Yarden-zamir/Create-Prepare-to-Dye"
-                }
-            }
+            "releasedAt": 209384093820
+        },
+        {
+            "id": "1.80.0",
+            "releasedAt": 209384093821
         }
     ]
   }
