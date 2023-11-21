@@ -1498,7 +1498,7 @@ hash = "74627072184b9e983a8e818359168e55037e0861471d27ce1f17748210666b57"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "dfab12e1c9c4be713856ab9200dee4b54a985d537ed8c471d5dbaa85877046b9"
+hash = "0ab5ebb1a8c755f9707e8ea43c8e4c10c56a9792ccff26804f42520d01e2cabb"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.0/changelog.txt"
