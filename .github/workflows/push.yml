@@ -104,7 +104,6 @@ jobs:
         run: |
           cd modpack-update-checker
           jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json
-          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json > meta.json
           cat meta.json
           cat meta.json
       # - name: Commit & Push changes
