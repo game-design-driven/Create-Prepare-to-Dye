@@ -105,7 +105,7 @@ jobs:
           cd modpack-update-checker
           echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
 
-          echo ${{ needs.tag_and_release.outputs.changelog }} > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
+          echo '${{ needs.tag_and_release.outputs.changelog }}' > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
       - name: Commit & Push changes
         if: matrix.platform == 'modrinth'
         uses: actions-js/push@master
