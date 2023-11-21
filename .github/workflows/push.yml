@@ -101,7 +101,7 @@ jobs:
         if: matrix.platform == 'modrinth'
         run: |
           cd modpack-update-checker
-          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{steps.get_time.time}}}'
+          jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{steps.get_time.time}}}' meta.json
       # - name: Publish to CurseForge
       #   if: matrix.platform == 'curseforge'
       #   uses: Kir-Antipov/mc-publish@v3.2
