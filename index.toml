@@ -1318,7 +1318,7 @@ hash = "482a3f410eddaa17b25b0a535873ec84e21b015a64370b6e1a7ab19518e2dca5"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/startingItems.js"
-hash = "5ea342baea37e23e05dfc9916f5fa5e6877dc8078215a4d828ac0c287af552d7"
+hash = "8d74a34560c09e12d7f48877e640cb01473ed1cb564b0e4baf247a02d0be09c4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/tools.js"
@@ -1502,7 +1502,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cd67b03e40ad7bf8208831139ca53b6a2504dfeaea43eb970cd0236f4dfc11a4"
+hash = "47761734dbe0a22e264de5308e11adfadfd5f3d66f524433417dc1386bff59a1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.26/changelog.txt"
@@ -1515,6 +1515,10 @@ hash = "3556c9533d782f5703b614186bd3414f16ad15dfa782fabea3ea0b32874bb766"
 [[files]]
 file = "modpack-update-checker/versions/1.79.30/changelog.txt"
 hash = "face7f37143370d1eedbe54efb4871f58a8af83408e9112d756cadee34ca062a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.31/changelog.txt"
+hash = "8fc2607e123f66d7e5202989e1ce4e655b6e498075aa960f9dfe4e8c22617b80"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.0/changelog.txt"
