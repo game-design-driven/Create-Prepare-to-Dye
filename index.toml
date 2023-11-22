@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f285a49e29148b2d5f3261db3529588b2865042fc51bffaf96a5ae5f201244c2"
+hash = "386e90a111bf1f62ef47f466d56001210ddcd62346a8d4bcc2fa6967c9751b71"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1494,11 +1494,19 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0abfed314acc5030aa786b4549bcbb0ece2e0c9d525a6d6f6e48f34774e9897b"
+hash = "f898beeb8922ceefcbc6c2f039bb2c39663d0ee734d948d2a15f4d688a605cbe"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "88b208d9f3603b75115554c511e11576379a41c4e65394a53224513f06772de8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.34/changelog.txt"
+hash = "06dfd775d67af1538217f45f7468723f441f25cca9e3fd43534ebd4b41f5c958"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.35/changelog.txt"
+hash = "a2f8a6350f269b8265bc9649ef5e9e7a99d258c484ae748a78097d567441aaed"
 
 [[files]]
 file = "mods/ae2.pw.toml"
