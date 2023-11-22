@@ -6,4 +6,4 @@ addTooltip('create:scoria', 'Can be made by searing flowing _chocolate_ with _la
 addTooltip('create:limestone', 'Can be made by searing flowing _honey_ with _lava_')
 addTooltip('milk_bucket', 'Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too!')
 addTooltip("createdieselgenerators:diesel_engine", "The _Engine_, a modern invention, can run on various fuels, from _milk_, a widely used fuel for space travel, to _bio-diesel_, known for its greater efficiency.")
-addTooltip('cauldron', "Can be filled with _water_ or _lava_ by hand or using a spout, used in the process of making salt among other things")
+addTooltip('cauldron', "Can be filled with _water_ or _lava_ by hand or using a _spout_, used in the process of making _salt_ among other things")
