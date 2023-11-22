@@ -266,7 +266,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "64ac2686aad56e4ca201f26bbd99307cf4bea72b1ddd452bdf42bd204482e509"
+hash = "3c4eb599f830f5f3b4eff79896e9e05be6f385f35d354b574edd9ba6f5876c2c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1498,7 +1498,11 @@ hash = "74627072184b9e983a8e818359168e55037e0861471d27ce1f17748210666b57"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "198cdc6b550975ec8f3f5b431d7cc6fad951d631c54e63d80f91613f85db99c8"
+hash = "b25fef9883fdb6d80e9ed7cb714a6f603bb063b0c6a9e10faf231bdb99e3123d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.26/changelog.txt"
+hash = "e89662cf48840754a4febe301a0a7e7e4645a32122c0768c51e90cc10f945ea9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.0/changelog.txt"
