@@ -1709,6 +1709,11 @@ hash = "d6b707c0673cde38765d81a99deb45f213e0f8ea1842784310bb5ab311fefe5e"
 metafile = true
 
 [[files]]
+file = "mods/modpack-update-checker.pw.toml"
+hash = "21840fcc6e30fbd4fd5370f7da87526d7a8b2a115835f2bd19aefdca31edc367"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "a9bac232dd82ebf6741c23c52bf73eba7396e9c014d47174af3e07379417d7f1"
 metafile = true
