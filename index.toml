@@ -118,11 +118,11 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "bf0609654a0922154586dce8cca3ee97b68602e712fbcab583b11c6472a3c66f"
+hash = "ef33842c2c5ca55f20d4721a249d0411c0477dff73bccc3d95ce85c52d493854"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
-hash = "1a233ac199b90cddce1faa13a24ed05a1c408973b4a3ff395ecba44c62009238"
+hash = "024190bbe570f72efc0a76c5538555acd055402ae2b051653494c2776dd169c3"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -135,6 +135,10 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
 hash = "0c3f997d69d8edd666112be75160c34527979885949b238223ea9f0551a69027"
+
+[[files]]
+file = "config/fancymenu/customization/updates.txt"
+hash = "9a3ecaa897008b57421915c653dfa45f17dc3bf8e325991d33c3deb14bee70a0"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -266,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3c4eb599f830f5f3b4eff79896e9e05be6f385f35d354b574edd9ba6f5876c2c"
+hash = "f285a49e29148b2d5f3261db3529588b2865042fc51bffaf96a5ae5f201244c2"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1485,44 +1489,16 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
-file = "logo.png"
-hash = "62edd88fbc4a58be6b4fad851d12fa27acd920eccb6bd92ad32f46f55a77d195"
-
-[[files]]
-file = "logo2.png"
-hash = "fd39982bb7ab4d7b6e4c155d3614a059a37377da6d0f12668fc015201bf08427"
-
-[[files]]
-file = "logo3.png"
-hash = "74627072184b9e983a8e818359168e55037e0861471d27ce1f17748210666b57"
-
-[[files]]
 file = "modpack-update-checker/config.json"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "47761734dbe0a22e264de5308e11adfadfd5f3d66f524433417dc1386bff59a1"
+hash = "0abfed314acc5030aa786b4549bcbb0ece2e0c9d525a6d6f6e48f34774e9897b"
 
 [[files]]
-file = "modpack-update-checker/versions/1.79.26/changelog.txt"
-hash = "e89662cf48840754a4febe301a0a7e7e4645a32122c0768c51e90cc10f945ea9"
-
-[[files]]
-file = "modpack-update-checker/versions/1.79.28/changelog.txt"
-hash = "3556c9533d782f5703b614186bd3414f16ad15dfa782fabea3ea0b32874bb766"
-
-[[files]]
-file = "modpack-update-checker/versions/1.79.30/changelog.txt"
-hash = "face7f37143370d1eedbe54efb4871f58a8af83408e9112d756cadee34ca062a"
-
-[[files]]
-file = "modpack-update-checker/versions/1.79.31/changelog.txt"
-hash = "8fc2607e123f66d7e5202989e1ce4e655b6e498075aa960f9dfe4e8c22617b80"
-
-[[files]]
-file = "modpack-update-checker/versions/1.80.0/changelog.txt"
-hash = "26c9fe0e480acc5cc4251e78a16bcda88593c31aa71bdf46ff52c9a05e6e1110"
+file = "modpack-update-checker/versions/1.79.33/changelog.txt"
+hash = "88b208d9f3603b75115554c511e11576379a41c4e65394a53224513f06772de8"
 
 [[files]]
 file = "mods/ae2.pw.toml"
