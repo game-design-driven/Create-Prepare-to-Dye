@@ -21,3 +21,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
+}
+

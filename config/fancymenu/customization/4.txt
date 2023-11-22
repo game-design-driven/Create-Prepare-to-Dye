@@ -135,6 +135,27 @@ customization {
 }
 
 customization {
+  identifier = %id=376298%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=376298%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376298%
+  action = setbuttonlabel
+  value = Updates
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 106
