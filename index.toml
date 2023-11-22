@@ -122,7 +122,7 @@ hash = "ef33842c2c5ca55f20d4721a249d0411c0477dff73bccc3d95ce85c52d493854"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
-hash = "024190bbe570f72efc0a76c5538555acd055402ae2b051653494c2776dd169c3"
+hash = "776498a61b384f342b16aec8312158a840dc7bb7b7c2a8f3db2269a9ef37d272"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "45b6d98cf1b57d8892bdbae474c034757eabe58467f26fc6cf0aad28f0f97e74"
+hash = "af0a2d55249af7ddd614d28a4c9c5503e6d0384bbde932487ac37574aaa02e96"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1494,7 +1494,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ee1f8226a726dfbc467fe8711ebc6a52d7a97cb4552bf2da3fbceb295a059a3f"
+hash = "f3777780ae5851b78bf729ad0fc43f127f78bc4d5901826494d630ad99bd619e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1511,6 +1511,10 @@ hash = "a2f8a6350f269b8265bc9649ef5e9e7a99d258c484ae748a78097d567441aaed"
 [[files]]
 file = "modpack-update-checker/versions/1.79.36/changelog.txt"
 hash = "603cae38e1b6cf4ed4dcbf1dfa93f2f3cd81cc3dfeb9087499369d3ea48747b5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.37/changelog.txt"
+hash = "e349dfaef0200e1206c9957e42fab2b575c89e00a446230e1de91390f065814c"
 
 [[files]]
 file = "mods/ae2.pw.toml"
