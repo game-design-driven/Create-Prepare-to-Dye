@@ -1,1 +1,7 @@
-{ "schemaVersion": 1, "hotfixesFormat": null, "versions": [ { "id": "1.79.0", "releasedAt": 1700610655 }, { "id": "1.79.23", "releasedAt": 1700610656 }, { "id": "1.79.26", "releasedAt": 1700611201 }, { "id": "1.79.28", "releasedAt": 1700611608 }, { "id": "1.79.30", "releasedAt": 1700611888 }, { "id": "1.79.31", "releasedAt": 1700612017 }, { "id": "1.79.33", "releasedAt": 1700612169 } ] }
+{
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    { "id": "1.79.33", "releasedAt": 1700612169 }
+  ]
+}
