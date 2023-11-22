@@ -1,0 +1,13 @@
+name = "Modpack Update Checker"
+filename = "modpack-update-checker-1.19.2-forge-0.10.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rR4tY6Cw/versions/7B2P2Yxk/modpack-update-checker-1.19.2-forge-0.10.1.jar"
+hash-format = "sha1"
+hash = "8fee2e20ee0b3f62dbd91fe3110b0dbe1c8d9c3b"
+
+[update]
+[update.modrinth]
+mod-id = "rR4tY6Cw"
+version = "7B2P2Yxk"
