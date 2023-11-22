@@ -182,7 +182,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "c2c778d64fc7bd4dbfab26504a3c6926717f127fc295d461b0ae58e53846517f"
+hash = "306d5d15c06b03a1ff6a97e8118fc641288c6f8aa18cead087b8aa3904a9020d"
 
 [[files]]
 file = "config/forgery/fscript.ini"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "af0a2d55249af7ddd614d28a4c9c5503e6d0384bbde932487ac37574aaa02e96"
+hash = "1f1d91fabee3a5b674f7b828a460ddc938af3f74550894e1335497c6773e0189"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -331,6 +331,14 @@ hash = "66bbef3dd895941e28db52d85ef5e8a1ecda6dc26377a47ff6dc623ece2f73fa"
 [[files]]
 file = "config/rubidium-options.json"
 hash = "083d7be81f1036b7aa6fdd44cdede091f004736363b7c3c74d7db0a928191000"
+
+[[files]]
+file = "config/salt-client.toml"
+hash = "1145d0f25b32242936ca72e9b5182973559cd3987fc644e9e59edf9803254c60"
+
+[[files]]
+file = "config/salt-common.toml"
+hash = "7582c9578b953a241a151e3ae30f07a714d8649c4ff8208d65c17d799ec4f42f"
 
 [[files]]
 file = "config/sdrp-common.json"
@@ -1086,7 +1094,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "1a619dca9c38c2fde8fb288cef1974ec167e0f316bb13bbad6330b0291ab1d53"
+hash = "73b4289b62e93d28fd906761fed88364c2abf43256df6dc23e55a8d017b8fa90"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1257,6 +1265,10 @@ file = "kubejs/data/minecraft/worldgen/template_pool/spaceship_wreck_main.json"
 hash = "3f1199896eb16802a6f7a9751816f7a5b7eea0a16aa31e843699bce8f5f39612"
 
 [[files]]
+file = "kubejs/data/salt/worldgen/biome_modifier/add_rock_salt_deposit.json"
+hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
+
+[[files]]
 file = "kubejs/jsconfig.json"
 hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
@@ -1350,7 +1362,7 @@ hash = "c28fa1c57fe8e159f370bb192cc6f2e026cdce0ed5424b3c06b6c9d4c0926110"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "4d7e5dd30252de1d3bd9987d31d45e62348df2aea37336d710d796007438e408"
+hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -1481,6 +1493,10 @@ file = "kubejs/startup_scripts/global.js"
 hash = "c80291b3faeca54cdef465ac263ba0351a49d9ea2feffc1a8c1abf44c29d1170"
 
 [[files]]
+file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
+hash = "e1832c62d7cae587b9cf0f50a015c552465e9a5f9a3c38901c922f727500b849"
+
+[[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
 hash = "287c5a077a526fa4bb4527e976ed824eb99da6c89b069817b3ed97c05150ba27"
 
@@ -1494,7 +1510,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f3777780ae5851b78bf729ad0fc43f127f78bc4d5901826494d630ad99bd619e"
+hash = "fad1f009def4eff21b2072357466e6233a60c9a572b7c1a3482d4e06739b4882"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1515,6 +1531,10 @@ hash = "603cae38e1b6cf4ed4dcbf1dfa93f2f3cd81cc3dfeb9087499369d3ea48747b5"
 [[files]]
 file = "modpack-update-checker/versions/1.79.37/changelog.txt"
 hash = "e349dfaef0200e1206c9957e42fab2b575c89e00a446230e1de91390f065814c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.0/changelog.txt"
+hash = "2f11a68be3b84b30e1e4283d44d18e09530ce6cff14e5db827cf6c7bb2dd0c8e"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -1672,7 +1692,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "90c05e7485d608b15c8fa0bb4023a99d3745b094e092e4d3418847f7142bf1c3"
+hash = "a613075913b8af718eeac3eff90ad9fa5fed9d91558043ecfa2bf201bfe175d1"
 metafile = true
 
 [[files]]
@@ -1807,7 +1827,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "cf51a271c627d3181edf7e1457cab2e938f8721fd2ed6425aab8f7259b63ee59"
+hash = "fc6466884b93ae74c3588c4043a1b31c8faea2a113c9e7510713c446e5e19d50"
 metafile = true
 
 [[files]]
