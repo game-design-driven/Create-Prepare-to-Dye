@@ -1502,7 +1502,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e0d9b390c576a02be5e7826939c3fa31d55fecd884386889ede8116aec98884e"
+hash = "cd67b03e40ad7bf8208831139ca53b6a2504dfeaea43eb970cd0236f4dfc11a4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.26/changelog.txt"
@@ -1511,6 +1511,10 @@ hash = "e89662cf48840754a4febe301a0a7e7e4645a32122c0768c51e90cc10f945ea9"
 [[files]]
 file = "modpack-update-checker/versions/1.79.28/changelog.txt"
 hash = "3556c9533d782f5703b614186bd3414f16ad15dfa782fabea3ea0b32874bb766"
+
+[[files]]
+file = "modpack-update-checker/versions/1.79.30/changelog.txt"
+hash = "face7f37143370d1eedbe54efb4871f58a8af83408e9112d756cadee34ca062a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.0/changelog.txt"
