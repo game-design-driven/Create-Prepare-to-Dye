@@ -65,6 +65,21 @@ jobs:
       # - name: Detect curseforge jars
       #   if: matrix.platform == 'curseforge'
       #   run: packwiz curseforge detect
+      - name: Get unix time
+        id: get_time
+        run: echo "time=$(date +'%s')" >> $GITHUB_OUTPUT
+      - name: Update changelog files
+        if: matrix.platform == 'modrinth'
+        run: |
+          cd modpack-update-checker
+          echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
+
+          
+          mkdir versions/${{ needs.tag_and_release.outputs.new_tag }}
+          echo '${{ needs.tag_and_release.outputs.changelog }}' > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
+          
+          cd ../config
+          echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
@@ -96,21 +111,6 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
-      - name: Get unix time
-        id: get_time
-        run: echo "time=$(date +'%s')" >> $GITHUB_OUTPUT
-      - name: Update changelog files
-        if: matrix.platform == 'modrinth'
-        run: |
-          cd modpack-update-checker
-          echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
-
-          
-          mkdir versions/${{ needs.tag_and_release.outputs.new_tag }}
-          echo '${{ needs.tag_and_release.outputs.changelog }}' > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
-          
-          cd ../config
-          echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
       - name: Commit & Push changes
         if: matrix.platform == 'modrinth'
         uses: actions-js/push@master
