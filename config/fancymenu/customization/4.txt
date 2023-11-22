@@ -137,9 +137,9 @@ customization {
 customization {
   identifier = %id=376298%
   orientation = bottom-left
-  x = 0
+  x = 5
   action = movebutton
-  y = -20
+  y = -26
 }
 
 customization {
