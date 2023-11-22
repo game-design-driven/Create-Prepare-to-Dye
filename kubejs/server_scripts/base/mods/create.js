@@ -294,3 +294,7 @@ if (feature('nerf bonemeal from calcite')){
   addMilling(['bone_meal 40%'], 'minecraft:calcite')
   addCrushing(['bone_meal 20%', 'cobblestone 20%', 'nether_quartz %5'], 'minecraft:calcite')
 }
+
+if (feature('Recycle wrench')) {
+  addCrushing('create:cogwheel %75', 'create:wrench')
+}
