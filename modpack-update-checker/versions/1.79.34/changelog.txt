@@ -1,0 +1,26 @@
+### [1.79.34](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.79.33...1.79.34) (2023-11-22)
+
+
+### Developer experance improvments and changes
+
+* remove unused icons ([9e92d01](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9e92d0102d1ba45e46f038f09d67cafeeccf3625))
+* update index ([ab38668](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ab38668b0d1ee98d173a4ef6980db7c2f6fb85bf))
+
+
+### Minor tweaks
+
+* customize update button and screen ([d40d08e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d40d08e5937b56949fbc7ebadfcf656581db9eee))
+* format meta json ([5e3d41e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5e3d41e0018660c56cd6fdc3ad8ef954a7cd5f14))
+* make update button an actual button ([fb6211e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fb6211e96579f39f55d6dce4bd46b169022c404d))
+
+
+### Modlist related changes
+
+* add modpack update checker ([2c3a504](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2c3a5047e1032db6bf76036420b0090b31d026b3))
+
+
+### Continuous Integration
+
+* remove experiment leftovers ([6c8b122](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6c8b1228028fa385a2cfdd4060d7cd160d249cb6))
+
+
