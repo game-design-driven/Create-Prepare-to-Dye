@@ -1781,6 +1781,11 @@ hash = "5cd0ed2f4f1e5fc7c9ae3026cb994f8712872a61827f0ca0a3db0f3953c3d288"
 metafile = true
 
 [[files]]
+file = "mods/salt.pw.toml"
+hash = "65e657a133db8fdaf03099efae5f3e2fe006762aa50c64def42abc9ee97a3c14"
+metafile = true
+
+[[files]]
 file = "mods/saturn.pw.toml"
 hash = "609e1ff1ef8b8468201eb0f016e02ce9976eb3ca21451a31bc65d1b2e018f197"
 metafile = true
