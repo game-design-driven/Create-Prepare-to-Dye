@@ -150,5 +150,7 @@
     "selectWorld.gameMode.survival.line2": "milk and, of course, dye",
     "selectWorld.create": "Safely land on Chroma Prime",
     "selectWorld.newWorld": "New Landing",
-    "selectWorld.enterName": "Landing site name"
+    "selectWorld.enterName": "Landing site name",
+    "createWorld.preparing": "Preparing for landing sequence...",
+
 }
