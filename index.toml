@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "4fbb0baae4251a289fa25586a18b9d2f7b53c93b79d6241570772bf8852716fd"
+hash = "d2fa148a34da01af258862952ab4ded4da428e9e7bc4f3a54ba3b012424356ea"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7c5fa8395ebc0a40f99a88e13a8ef74bb6512672b8a7d3e96570e77fcc57713f"
+hash = "f0eb133adcdd02b7b304d03d3b6ce423a2b96dbec29fc33db3846a6cf5f624c7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1514,7 +1514,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "df23866a7fbe3ac4cb9edc0533f0056cb5193a091d4e800d0e5775e6737389d7"
+hash = "27cd1b16c2252980c21bc0ce033208ffde3a360fa709601ca10c582898e2aeda"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1543,6 +1543,10 @@ hash = "2f11a68be3b84b30e1e4283d44d18e09530ce6cff14e5db827cf6c7bb2dd0c8e"
 [[files]]
 file = "modpack-update-checker/versions/1.80.1/changelog.txt"
 hash = "a4e97a4d699d363068d73f96c7012d6c7e5d475949f0f8c79222ed1dd13bd482"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.10/changelog.txt"
+hash = "8fcf62856eb493f5b987ace1d85d1b1448af1a63718b7660391b8bc9f871f12b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.3/changelog.txt"
