@@ -134,7 +134,7 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "0c3f997d69d8edd666112be75160c34527979885949b238223ea9f0551a69027"
+hash = "cdbfc93ca0107574df90c813c184f9981c149b8f9a4b542537572bbc767b2c9f"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e5cb1bfb37c4325e2a439aa8684e9001ec6a5e99d42013690812a10599785a1a"
+hash = "db5341fe068c7a178efd3e1f7562206c7d90a95f9edb12962864a5507cb2bfe4"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -431,6 +431,14 @@ hash = "c29d386c709b1c5c242c8109b088d1f3e809333636dc274de156d80c99472a8a"
 [[files]]
 file = "discord banner.png"
 hash = "473ce608b5ed98a6eac429e6df30fcb803f8f23d8dd66034f1dd52c697425aa2"
+
+[[files]]
+file = "discord-mark-blue.png"
+hash = "b2939df5a48f422fc9d62f270c182f07b5fd5a7a334478ea73af4fdb5eb12d3b"
+
+[[files]]
+file = "discord-mark-white.png"
+hash = "3e862997885fc898199365b6907ddd71b9297e2a56b845fa9bfbbd3663600a36"
 
 [[files]]
 file = "fancymenu_data/background.png"
@@ -918,7 +926,7 @@ hash = "a117e2043c34e5e06828715cd96306e884c78bb31f4475a264e684a8e5a6d49b"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/icons.png"
-hash = "10f1ed1d1f29ea51ed22e24a97c7bccf11d03fbcd2c6f814605a07433c6934bf"
+hash = "46569b72278e5972feb9a5b8573a59626b8610027868bd1e51e5934e2718fa08"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/options_background.png"
@@ -1341,6 +1349,10 @@ file = "kubejs/server_scripts/base/featrues/startingItems.js"
 hash = "8d74a34560c09e12d7f48877e640cb01473ed1cb564b0e4baf247a02d0be09c4"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/statusEffects.js"
+hash = "a517cd058aa271271c7e5d52be0f8e23a9cd5b4e469f43cdb11f17eb31ee7551"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/tools.js"
 hash = "1ee58ce4b9f19ac309f545f1cf426372cf9fc494468c52788614c5d7d32e6d39"
 
@@ -1514,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "72c45d4cb1801bdf9459b1da99c8aa109a32958de639d466dbe26a76c826716b"
+hash = "996f00c1804bafe1128c0500cab6b7dd32c48a4885bf64c24aa6e834a15c89e2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1567,6 +1579,10 @@ hash = "b50f1acab1885c9ccf4371bfa3db855ded5f84ec61798cb8973a0f35a767d1c7"
 [[files]]
 file = "modpack-update-checker/versions/1.80.9/changelog.txt"
 hash = "be7c0fefb8f64c0302262c862ec1390d0dd3af30f38c6f281fce919d0741dc68"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.0/changelog.txt"
+hash = "e046ef590914d1e9f6ed3830ef09dabc815915cd493af1089d0ae3ac95e52e98"
 
 [[files]]
 file = "modrinth banner white.png"
