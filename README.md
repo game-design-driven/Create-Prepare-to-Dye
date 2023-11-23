@@ -9,6 +9,7 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 [![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
+[![Changelog](https://img.shields.io/badge/Change-logs-white)](https://modrinth.com/modpack/create-prepare-to-dye/changelog)
 
 <p float="left">
   <a href="https://discord.gg/v8cZ83kTPY">
