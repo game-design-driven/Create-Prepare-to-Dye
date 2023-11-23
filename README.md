@@ -6,7 +6,6 @@
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/Yarden-zamir/create-prepare-to-dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
 [![GitHub commits this week](https://img.shields.io/github/commit-activity/w/yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
-[![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 [![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
