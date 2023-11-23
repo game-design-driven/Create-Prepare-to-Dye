@@ -19,14 +19,14 @@ As the head of a crumbling, inherented, capitalistic space company, you are forc
 
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
-Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed and you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
+Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed as you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
 
 ## About the project
 
 ### Concept
 - Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
 - You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
-- This planet is depleted, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
+- This planet is depleted, you will need to figure out how to produce the resources you'll need on your own, mining need not apply.
 ### Gameplay loop
 - You accept trade deals with various companies
 - You produce the resources needed to fulfill the trade deals
