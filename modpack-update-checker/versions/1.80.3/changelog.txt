@@ -1,0 +1,8 @@
+### [1.80.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.2...1.80.3) (2023-11-23)
+
+
+### Documentation and Localization
+
+* add discord banner to readme ([22f7c1b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/22f7c1b4f2c87bfc5d84b4b0ce3c32a52e45725e))
+
+
