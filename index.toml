@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "bbb2d00290f769a6fbad1de790b441e4593b3e8d6d808824a07e02a7d8e70833"
+hash = "f6b441c7d7472f66b11826c843cefcbde5f6dd2b23f118de8c1674611f154560"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -430,7 +430,7 @@ hash = "c29d386c709b1c5c242c8109b088d1f3e809333636dc274de156d80c99472a8a"
 
 [[files]]
 file = "discord banner.png"
-hash = "020fa9e307b4b531594c317749df1fbbcd82b65a614f5042eda11a058f1636fe"
+hash = "473ce608b5ed98a6eac429e6df30fcb803f8f23d8dd66034f1dd52c697425aa2"
 
 [[files]]
 file = "fancymenu_data/background.png"
@@ -1514,7 +1514,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "677a838a932bbd0525cfdb068d3af2c30bad084398775008623eb745780dc100"
+hash = "edaa1e9efad3656f283c456a9d724289d6d1d574d2220751d07326f42cc0cede"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1547,6 +1547,10 @@ hash = "a4e97a4d699d363068d73f96c7012d6c7e5d475949f0f8c79222ed1dd13bd482"
 [[files]]
 file = "modpack-update-checker/versions/1.80.3/changelog.txt"
 hash = "e10da9ff81ca865f1385e44ab2ab329b920c3a445f8bfa8aac10dbdacfe4a830"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.6/changelog.txt"
+hash = "b50f1acab1885c9ccf4371bfa3db855ded5f84ec61798cb8973a0f35a767d1c7"
 
 [[files]]
 file = "mods/ae2.pw.toml"
