@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "db5341fe068c7a178efd3e1f7562206c7d90a95f9edb12962864a5507cb2bfe4"
+hash = "212cbef8d730a1379d58b50f72a657f7836548507df13c0d0d20ca1d7ae7110c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -542,7 +542,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "c9715621c8588d4648ba8473d1da04cf5eaaaa686523ae5f12476374df05ef01"
+hash = "53ec0ba5d422158fd9c8a0f168db3e277fee037184bf2745cc3585cb7a4b9bee"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "996f00c1804bafe1128c0500cab6b7dd32c48a4885bf64c24aa6e834a15c89e2"
+hash = "ccaa9b29372b9bcceb139b9ddd8e4d881d0d155418d1bc331841e32641c68ed3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1583,6 +1583,10 @@ hash = "be7c0fefb8f64c0302262c862ec1390d0dd3af30f38c6f281fce919d0741dc68"
 [[files]]
 file = "modpack-update-checker/versions/1.81.0/changelog.txt"
 hash = "e046ef590914d1e9f6ed3830ef09dabc815915cd493af1089d0ae3ac95e52e98"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.1/changelog.txt"
+hash = "bb21123a6f1dbdab08ef815e27020aacc0266ba3c148061503b00b171ab1ed43"
 
 [[files]]
 file = "modrinth banner white.png"
