@@ -112,6 +112,7 @@ jobs:
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
       - name: Pull
+        if: matrix.platform == 'modrinth'
         run: git pull
       - name: Commit & Push changes
         if: matrix.platform == 'modrinth'
