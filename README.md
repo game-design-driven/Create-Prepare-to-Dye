@@ -11,7 +11,14 @@
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 [![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
 
-[![discord_banner](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/discord%20banner.png?raw=true)](https://discord.com/invite/5bMXvw4tPx)
+<p float="left">
+  <a href="https://discord.gg/v8cZ83kTPY">
+    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/discord%20banner.png?raw=true" width="49%" />
+  </a>
+  <a href="https://modrinth.com/modpack/create-prepare-to-dye">
+    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/modrinth%20banner%20white.png?raw=true" width="49%" />
+  </a>
+</p>
 
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
