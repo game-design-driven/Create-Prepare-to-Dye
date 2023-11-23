@@ -80,6 +80,11 @@ jobs:
           
           cd ../config
           echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
+      - name: Update discord presense text
+        run: |
+          cd ../kubejs/assets/sdrp/lang
+          json $(jq '."sdrp.logo" = "Hanging out with Betsy on ${{ needs.tag_and_release.outputs.new_tag }}"' en_us.json) 
+          echo $json > en_us.json
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
