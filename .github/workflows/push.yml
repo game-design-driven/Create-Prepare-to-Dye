@@ -83,7 +83,7 @@ jobs:
       - name: Update discord presense text
         if: matrix.platform == 'modrinth'
         run: |
-          cd ../kubejs/assets/sdrp/lang
+          cd kubejs/assets/sdrp/lang
           json $(jq '."sdrp.logo" = "Hanging out with Betsy on ${{ needs.tag_and_release.outputs.new_tag }}"' en_us.json) 
           echo $json > en_us.json
       - name: Build Modpack
