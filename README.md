@@ -11,6 +11,7 @@
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
 [![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
 
+[![discord_banner](/discord%20banner.png)](https://discord.com/invite/5bMXvw4tPx)
 
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
