@@ -14,16 +14,48 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-centered
+  x = 82
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -8
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
   action = movebutton
   y = -56
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
 }
 
 customization {
@@ -47,22 +79,6 @@ customization {
 }
 
 customization {
-  identifier = %id=374306%
-  orientation = mid-centered
-  x = 82
-  action = movebutton
-  y = -32
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -32
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
   orientation = mid-centered
   x = -102
@@ -74,14 +90,6 @@ customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
   action = setbuttonlabel
   value = Options
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = 40
 }
 
 customization {
@@ -115,10 +123,18 @@ customization {
 }
 
 customization {
-  identifier = %id=504330%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -8
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
+  backgroundhovered = discord-mark-white.png
+  label = 
+  loopbackgroundanimations = true
+  x = 6
+  width = 18
+  action = addbutton
+  actionid = 67b0ed23-f42e-4d5c-872a-daf21bfe0efb1700741001775
+  y = -18
+  backgroundnormal = discord-mark-blue.png
+  height = 12
 }
 
