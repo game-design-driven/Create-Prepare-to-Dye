@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "cf4e87bdf7c38c8b315ee404e0574c46cc0ffb311ac7b3bdd67dcbbaebc49e12"
+hash = "eee1d6644979361ae056abda8bd6d7abfebd80d6754801eb62f983c3101bd6ac"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "98d0f4f22f4da9e24ee08e39105d9071c5b92f9340d53cf0dedf98985124161a"
+hash = "bbb2d00290f769a6fbad1de790b441e4593b3e8d6d808824a07e02a7d8e70833"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -427,6 +427,10 @@ hash = "c827305f49fd8c5341e11ec87b1e7c1c858e1cd7a00873f366de35de2adb6fc7"
 [[files]]
 file = "design-doc.md"
 hash = "c29d386c709b1c5c242c8109b088d1f3e809333636dc274de156d80c99472a8a"
+
+[[files]]
+file = "discord banner.png"
+hash = "020fa9e307b4b531594c317749df1fbbcd82b65a614f5042eda11a058f1636fe"
 
 [[files]]
 file = "fancymenu_data/background.png"
@@ -1510,7 +1514,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "8d7d54990777b5b982786fa0218628a8b781f4c8fc7b23426642af0f9a48a7d5"
+hash = "677a838a932bbd0525cfdb068d3af2c30bad084398775008623eb745780dc100"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1539,6 +1543,10 @@ hash = "2f11a68be3b84b30e1e4283d44d18e09530ce6cff14e5db827cf6c7bb2dd0c8e"
 [[files]]
 file = "modpack-update-checker/versions/1.80.1/changelog.txt"
 hash = "a4e97a4d699d363068d73f96c7012d6c7e5d475949f0f8c79222ed1dd13bd482"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.3/changelog.txt"
+hash = "e10da9ff81ca865f1385e44ab2ab329b920c3a445f8bfa8aac10dbdacfe4a830"
 
 [[files]]
 file = "mods/ae2.pw.toml"
