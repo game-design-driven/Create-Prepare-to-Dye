@@ -125,4 +125,5 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical |          |
 | Trading Implementation               | ![](https://progress-bar.dev/55)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
 | Community                            | ![](https://progress-bar.dev/15)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
