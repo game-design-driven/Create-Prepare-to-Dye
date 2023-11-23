@@ -1,0 +1,8 @@
+### [1.81.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.6...1.81.7) (2023-11-23)
+
+
+### Documentation and Localization
+
+* some more flavor language file changes ([8b79f81](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8b79f816045d08fecc38b2d3a5acfeeb91928fda))
+
+
