@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "1f1d91fabee3a5b674f7b828a460ddc938af3f74550894e1335497c6773e0189"
+hash = "98d0f4f22f4da9e24ee08e39105d9071c5b92f9340d53cf0dedf98985124161a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1094,7 +1094,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "73b4289b62e93d28fd906761fed88364c2abf43256df6dc23e55a8d017b8fa90"
+hash = "146697957f9b2a5c2ad92ea42147edca8aef260e18651e61a92f2996afff9a21"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1510,7 +1510,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "fad1f009def4eff21b2072357466e6233a60c9a572b7c1a3482d4e06739b4882"
+hash = "8d7d54990777b5b982786fa0218628a8b781f4c8fc7b23426642af0f9a48a7d5"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1535,6 +1535,10 @@ hash = "e349dfaef0200e1206c9957e42fab2b575c89e00a446230e1de91390f065814c"
 [[files]]
 file = "modpack-update-checker/versions/1.80.0/changelog.txt"
 hash = "2f11a68be3b84b30e1e4283d44d18e09530ce6cff14e5db827cf6c7bb2dd0c8e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.1/changelog.txt"
+hash = "a4e97a4d699d363068d73f96c7012d6c7e5d475949f0f8c79222ed1dd13bd482"
 
 [[files]]
 file = "mods/ae2.pw.toml"
