@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b4ad639c09d047ab04b5b82c5d44a5fdf500db4b2b4204e591db8895f0ff8ee4"
+hash = "e5cb1bfb37c4325e2a439aa8684e9001ec6a5e99d42013690812a10599785a1a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1514,7 +1514,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "69e47856e1c7aee259fd31847e5958875251acd7a7735ccf3fb9ef6cae54eb1a"
+hash = "72c45d4cb1801bdf9459b1da99c8aa109a32958de639d466dbe26a76c826716b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1551,6 +1551,10 @@ hash = "8fcf62856eb493f5b987ace1d85d1b1448af1a63718b7660391b8bc9f871f12b"
 [[files]]
 file = "modpack-update-checker/versions/1.80.11/changelog.txt"
 hash = "3e71db472c3d0a19894d36c1f2faaa9139a350cac95dedb9efa4496c74dcf77a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.80.12/changelog.txt"
+hash = "19d7dafe6730ca269b9787e6dd2869dda4bd33f477283f6e80af957859749bd3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.80.3/changelog.txt"
