@@ -67,7 +67,7 @@ jobs:
       #   run: packwiz curseforge detect
       - name: Get unix time
         id: get_time
-        run: echo "time=$(date +'%s')" >> $GITHUB_OUTPUT
+        run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
       - name: Update changelog files
         if: matrix.platform == 'modrinth'
         run: |
