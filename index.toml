@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c56f26de7ccf7e237ab61cb981484c0969a7b7c7ee7830e8d7c65ff97dd0b551"
+hash = "718ed022f6c66fbf56e1f42a5bc46be24ab259f551d37bfafbf90a762897ad5a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "97880aa497975e7b17e84933d0bdbc46e7b2a0d433b9b9a9e58d70eed1c3dde8"
+hash = "05bf441f500c252121989506dc55ad523bffa0e1f168388281914e41e16bb7ca"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "53610d35422862d9e1db9ff150c3c5aa051ec1e2af51ac1e13efcfcfa511fb64"
+hash = "30874ba72f94d11c04427aaffc71b6f5ac1bfd4629bc4efc5ee3a0a34efe41f3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1599,6 +1599,10 @@ hash = "8339175ff62feb93a2e53e2c02989fce66c08214516aa1950ae6f34944955438"
 [[files]]
 file = "modpack-update-checker/versions/1.81.7/changelog.txt"
 hash = "eeb05500d019e2934a33dc4421c83f3e1ab9735dbf46ea43a5e5575ea5520867"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.8/changelog.txt"
+hash = "f0ccb360c60d88204a36a110cf237fd713834fdfe77f47637ecad4ddb9851334"
 
 [[files]]
 file = "modrinth banner white.png"
