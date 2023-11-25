@@ -2,7 +2,7 @@
 [general]
 	#The base amount of midair jumps every player has. This is summed with the amount of multi-jumps provided by equipment.
 	#Range: 0 ~ 1024
-	multiJumps = 1
+	multiJumps = 2
 	#The base coyote time every player has in ticks.  This is summed with the duration of coyote time provided by equipment.
 	#Range: 0 ~ 65536
 	coyoteTime = 3
