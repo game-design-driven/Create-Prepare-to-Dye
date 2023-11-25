@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "383f4d638fb372d11ad9fb530d8c344630162177a648ebfcdfe5642e12892a69"
+hash = "29ad94eed365d9634fb99eb8d1e1e444a3eeb25cdc34f8a47e15c1961ff139a7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4b481ef970b5af854f6d4f9c99eb4eae6bef35dc54811d394298ff4b7f853df2"
+hash = "b1235a7385d970a199042024a003ac346e4462da845e155a643c8ae295a90b63"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1306,7 +1306,7 @@ hash = "dfd373d8effa70d5a75c27dcf6311e2c290b77eea273327d48160d1a2bc51c74"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "0a407930f5eefebc7bfea22df0a6998ca2634aa4ce4cb24785a961b8e51be1ae"
+hash = "4154c5e07382b3ba5d2001c893c5e451ef450e403b1c9f9213c681201e19f8d7"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -1402,7 +1402,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "f3b3e4fe1eb6c9c290b98cb74da816959e412956db78fa0f61915ecb8c734f39"
+hash = "7a0801ac2a67e2f99449ab5d212d8bbfc3df6eaa3008332801bb5d2cc01f31f6"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1486,7 +1486,7 @@ hash = "f0f8eca53b65ab2d4f9d99b202faff27ddf2c4ca00140848e848d88cb897b04b"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "00179387f9193dcecd083a4d8a268c93021a23b3ff61b76c8b086050419daf1a"
+hash = "c22e2d52588edbc9d781b6c81869489d91cdaaa2fb4badf75ea25ca257cf9f87"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -1530,7 +1530,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c23e51a4270e8ea687eef94aa8844b50bc4e8695332b506a2a00dd00af25c175"
+hash = "74ab3a63d87f7c89645ddef487a36657235f5ffafdd404b923e98742790f194d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1667,6 +1667,10 @@ hash = "26b96c1c6d969e79f3dba0ba07e6fd837044fb0700aa9dcb57b2bae141e0e2d1"
 [[files]]
 file = "modpack-update-checker/versions/1.82.8/changelog.txt"
 hash = "f52b78859870269a90db18d60f839ee353af1e6a463637a1a2b0bc76760394ac"
+
+[[files]]
+file = "modpack-update-checker/versions/1.83.0/changelog.txt"
+hash = "2d2b141c9674db75e7e270d7a0ff01249a793c55a32e5461edac5a148ac38b4d"
 
 [[files]]
 file = "modrinth banner white.png"
