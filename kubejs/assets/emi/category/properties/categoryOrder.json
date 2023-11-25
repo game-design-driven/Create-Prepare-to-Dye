@@ -1,0 +1,8 @@
+{
+  "create:item_application": {
+    "order": -100
+  },
+  "minecraft:smelting": {
+    "order": 100
+  }
+}
