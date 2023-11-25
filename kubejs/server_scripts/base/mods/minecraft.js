@@ -182,3 +182,7 @@ if (feature("Hopper without wood")) {
 if (feature('Remove vanilla andesite recipe')) {
     removeRecipe({id: 'minecraft:andesite'})
 }
+
+if (feature('Remove enchanting table')) {
+    removeItems(['minecraft:enchanting_table'])
+}

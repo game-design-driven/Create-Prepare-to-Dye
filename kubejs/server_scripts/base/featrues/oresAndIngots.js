@@ -30,7 +30,6 @@ if (feature('Ores from dyes')) {
         addBlockInteract(ore, 'minecraft:netherrack', dye)
     })
     
-    addItemApplication('raw_iron', 'cobblestone', 'white_dye')
     addItemApplication('raw_copper', 'cobblestone', 'orange_dye')
     addItemApplication('raw_iron', 'red_sand', 'white_dye')
     addItemApplication('raw_copper', 'red_sand', 'orange_dye')

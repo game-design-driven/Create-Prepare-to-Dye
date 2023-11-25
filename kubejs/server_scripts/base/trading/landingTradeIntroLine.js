@@ -8,7 +8,7 @@ const bcfPlates = getAgreement({
   ], // This is the result of the trade
   requestedItems: ["64x create:iron_sheet"], // This is the cost of the trade
   title: "We want plates", // This is the title of the trade
-  orderedAmount: 2, // This is how many times the trade is done, until the deal is considered complete
+  orderedAmount: 3, // This is how many times the trade is done, until the deal is considered complete
   company: "bobs_construction_fleet", // This is the name of the company
   message:
     "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too", // This is the description of the trade
@@ -201,7 +201,7 @@ const bnwPolishedRoseQuartz = getAgreement({
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
 const qubeAngry = getAgreement({
-  paymentItems: ["minecraft:air"],
+  paymentItems: ["black_dye"],
   requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
   orderedAmount: 1,
@@ -258,7 +258,7 @@ const gdbLeadFriend = getAgreement({
 });
 
 const sssHelmets = getAgreement({
-  paymentItems: ['minecraft:air'],
+  paymentItems: ['black_dye'],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
@@ -267,7 +267,7 @@ const sssHelmets = getAgreement({
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
 const sssHelmetsFixedRates = getAgreement({
-  paymentItems: ['minecraft:air'],
+  paymentItems: ['black_dye'],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
   orderedAmount: 0,
