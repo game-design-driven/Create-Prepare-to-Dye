@@ -14,48 +14,16 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=374306%
-  orientation = mid-centered
-  x = 82
-  action = movebutton
-  y = -32
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -32
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -8
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
   action = movebutton
   y = -56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
 }
 
 customization {
@@ -79,6 +47,22 @@ customization {
 }
 
 customization {
+  identifier = %id=374306%
+  orientation = mid-centered
+  x = 82
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -32
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
   orientation = mid-centered
   x = -102
@@ -90,6 +74,14 @@ customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
   action = setbuttonlabel
   value = Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 40
 }
 
 customization {
@@ -136,5 +128,32 @@ customization {
   y = -18
   backgroundnormal = discord-mark-blue.png
   height = 12
+}
+
+customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -8
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
+  x = 292
+  width = 99
+  action = addbutton
+  actionid = 33dff97d-4978-43e8-b132-b76e5bc4eb371700901270948
+  y = 154
+  label = Discord
+  height = 20
 }
 
