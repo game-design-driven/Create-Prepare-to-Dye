@@ -10,3 +10,4 @@ addTooltip("createdieselgenerators:diesel_engine", "The _Engine_, a modern inven
 addTooltip('cauldron', "Can be filled with _water_ or _lava_ by hand or using a _spout_, used in the process of making _salt_ among other things")
 addTooltip('wares:delivery_agreement', "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed to acquire more contracts")
 addTooltip('wares:completed_delivery_agreement', "A completed intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed to acquire more contracts. Or hanged on the wall, pretty piece of paper")
+addTooltip('storagedrawers:oak_full_drawers_1','a drawer, type of drawer can be cycled through using the variant button (default R)')
