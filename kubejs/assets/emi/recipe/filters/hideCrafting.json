@@ -1,7 +1,11 @@
 {
     "filters": [
-      {
-        "category": "minecraft:crafting"
-      }
+      {"category": "minecraft:crafting"},
+      {"category": "easy_villagers:incubating"},
+      {"category": "easy_villagers:converting"},
+      {"category": "easy_villagers:breeding"},
+      {"category": "ae2:attunement"},
+      {"category": "ae2:certus_growth"},
+      {"category": "ae2:condenser"}
     ]
 }
