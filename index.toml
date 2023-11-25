@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3e9fe154a761983ae9b61c53db5d3aa35d37ad4565f6e90590b069e261edf60b"
+hash = "0fdbefab07db86c4fdc7e91674e8baf79a7d87840f474d281dda3f9ee9128989"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "f50777457bb3fd069512cc2447567d3075b5189fb39f34a9451ad5fef3e47ef1"
+hash = "591ec8a09ae05315a56ac347afeeb8968dbb4e76c475b58b667f7181212d9204"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1330,7 +1330,7 @@ hash = "3f3c6657b1568ca5c4e0eecc507c8fed9984ae1fcd146d75e7bf0cb634f9b87a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "56fe6b9d0a50014f51a53229e0e7d51f58bda4538c1442dd2f4a7ddfe20cf9f2"
+hash = "906654b78d43e0c43c0c010b05a9f44f987db6b3007a256b16bfbd0cbe3e1a3a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "02d9babfc887db6959abd5c7f655769b67a6bbc14568bf3c390150d5e496db89"
+hash = "e11e507ae777905da4f4fb1d74e595cbe60368478e6b0e15593869d722e306a5"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1607,6 +1607,10 @@ hash = "3cdc2b125118fef4e8845d9a5403c1d473b545da6378b770d02d99eabed15868"
 [[files]]
 file = "modpack-update-checker/versions/1.81.15/changelog.txt"
 hash = "6adecce3aa9b198655b369109cea6841daefd3609a40b8837d0156ae7ddcd08d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.16/changelog.txt"
+hash = "f0862bdfe95dc54e2392ed270ef0d0737e4ffd8c7dd3ed8e9012e66719b20c5a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.81.5/changelog.txt"
