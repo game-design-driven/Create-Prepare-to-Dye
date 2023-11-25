@@ -5,7 +5,7 @@ addTooltip('red_sand', 'Found abundantly on the planets surface, also seems that
 addTooltip('lava_bucket', 'Found abundantly on the planets surface and underground, can be purified into _red sand_')
 addTooltip('create:scoria', 'Can be made by searing flowing _chocolate_ with _lava_')
 addTooltip('create:limestone', 'Can be made by searing flowing _honey_ with _lava_')
-addTooltip('milk_bucket', 'Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too!')
+addTooltip('milk_bucket', 'Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a deployer')
 addTooltip("createdieselgenerators:diesel_engine", "The _Engine_, a modern invention, can run on various fuels, from _milk_, a widely used fuel for space travel, to _bio-diesel_, known for its greater efficiency. To interface with the _engine_ you will need pump the fluid into it, no manual insertion is possible. The _engine_ will output power to the _shaft_ it is connected to.")
 addTooltip('cauldron', "Can be filled with _water_ or _lava_ by hand or using a _spout_, used in the process of making _salt_ among other things")
 addTooltip('wares:delivery_agreement', "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed to acquire more contracts")
