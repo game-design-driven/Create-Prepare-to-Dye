@@ -129,8 +129,8 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
 | Modularity                           | ![](https://progress-bar.dev/90)   | All core aspects of the pack are configurable| Standard |          |
 | Performance                          | ![](https://progress-bar.dev/95)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
-| Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical |          |
+| Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical | ✔        |
 | Trading Implementation               | ![](https://progress-bar.dev/55)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
-| Community                            | ![](https://progress-bar.dev/15)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+| Community                            | ![](https://progress-bar.dev/17)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
 
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
