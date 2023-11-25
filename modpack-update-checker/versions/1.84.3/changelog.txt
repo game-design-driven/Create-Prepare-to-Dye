@@ -1,0 +1,8 @@
+### [1.84.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.2...1.84.3) (2023-11-25)
+
+
+### Documentation and Localization
+
+* expand engine tooltip ([b4f5bed](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b4f5bedcd33a758b610402a749249cad34029d6b))
+
+
