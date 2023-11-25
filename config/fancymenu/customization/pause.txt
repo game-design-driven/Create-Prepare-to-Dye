@@ -149,7 +149,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
   x = 4
-  width = 99
+  width = 98
   action = addbutton
   actionid = 33dff97d-4978-43e8-b132-b76e5bc4eb371700901270948
   y = -8
