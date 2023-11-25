@@ -230,7 +230,7 @@ hash = "d77468dc6303da0fe23876b7d1104ba402868a0e7e5cbb095e616dd03bb97524"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "ab0ed687b339284a9a0377581e7d8ff4e7262918ce1f59b7ddd9f89136e1fd3f"
+hash = "473e85c6ce1716bf52252e09b7836e577b682c04fe85c40204d2e0bf7456e255"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f3c8d353bc63d14f071b323a093c8d6eb6af8f3d3d0ded0f21a13bced92a9899"
+hash = "cb0299a07b363c4b0179e8800dd78a7c1009318b050b32612acbcd36a914d364"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -370,7 +370,7 @@ hash = "408d6e9ab08e514d6d1e72aaf818afe26a62cf379057c203db0176c96af4d9ad"
 
 [[files]]
 file = "config/storagedrawers-common.toml"
-hash = "966847952a917a286dc1d0130813b5b0a0583e26a36d6609f267750b0b89543c"
+hash = "6098d7c1b413a5f1622721498048a2f4ca65dd6d279a97d45da59a5d9f237db7"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "edb2aa89091f3500860ee4e6df15ca1548e56acfa9320efaa9dc86baf926ba4f"
+hash = "dafcea39181514e561fbfc01510e8fa4160427f336ff7bd2846bb79a6a4891e0"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1090,7 +1090,7 @@ hash = "7c6710c4fbfefc3734266fac8fd1707205765b1852e49ff5e613645b129042ea"
 
 [[files]]
 file = "kubejs/client_scripts/lang.helpers.js"
-hash = "10bd95ee1d2c2475acf05336fca172dd50371e11bd91efa010be1f81ebf0a34a"
+hash = "80fc3f9e14889a77b4e753f4d998068af113f1a6044b10c76d4d5b2230124547"
 
 [[files]]
 file = "kubejs/client_scripts/lang.js"
@@ -1110,7 +1110,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "b29f58ab698124ad88ac67901afe92ecb9fb4666a9018c0cd739d5be7840e57a"
+hash = "1d9fbfc3d47ccbe5e3c1a2622cc3ca45ffbc7ef9e6aae5b0247f72e486ad9941"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1530,7 +1530,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3a9dc9115396353d0120a9fea21e7ca88c8d8873cc5c862e442d2658ed13ff63"
+hash = "71a5f536f32d8fd808502b59db3d9a6d854e0db7a90ff6c7a37de0d3fbb3ef6e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1679,6 +1679,10 @@ hash = "7e8170ebfa363ff44c366ef794d1d870a07ab87f6a2587ae66558af6c1c3b762"
 [[files]]
 file = "modpack-update-checker/versions/1.84.0/changelog.txt"
 hash = "c9dabaee312360fed36a4729b725e77c9d1b458bf31340db1572b363829ec7ad"
+
+[[files]]
+file = "modpack-update-checker/versions/1.84.1/changelog.txt"
+hash = "7946b78aa7659e3f83150d58690d40a9e45cd880db8da231fd9ea5918e10d934"
 
 [[files]]
 file = "modrinth banner white.png"
