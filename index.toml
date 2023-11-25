@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "718ed022f6c66fbf56e1f42a5bc46be24ab259f551d37bfafbf90a762897ad5a"
+hash = "c2d4faeda51b98f89f399b62f55e83678a6c1f49a71a3def897b72c91120d834"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "05bf441f500c252121989506dc55ad523bffa0e1f168388281914e41e16bb7ca"
+hash = "3813a3ed884359e0cd42d62324819916f0e7f12d10a799f21ee0e51213b8cdef"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1094,7 +1094,7 @@ hash = "c47b38a4c0e5442c0caa1ee77f3d35fd291aaa4140da83be985e99fa250809ea"
 
 [[files]]
 file = "kubejs/client_scripts/milkNerf.js"
-hash = "3584a342e1231c05f4c6ca77be8a27437be5bf15fd0b83190387dd1d5cbd906d"
+hash = "cbe067d61c9545e1fd6335cfc349417d147db892017675d36fce90a78515351c"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
@@ -1318,7 +1318,7 @@ hash = "df747b6db48bc778a51e341cb6342b95f5ebd11b8fa007bcdb33519e06936e0c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/milkNerf.js"
-hash = "af9c8832b9462896b949eeae6d09636747801c0df55f6b239eb02567c3e1d781"
+hash = "f41a7c6423f18d191f041e94c145e523c7bfb6b11b8e39b4e624e0e12c479f17"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/mill_crush.js"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "30874ba72f94d11c04427aaffc71b6f5ac1bfd4629bc4efc5ee3a0a34efe41f3"
+hash = "7ee5feb6f5e14e0ce82904caf65ed67067d242be8a8f12b714349258319f6857"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1603,6 +1603,10 @@ hash = "eeb05500d019e2934a33dc4421c83f3e1ab9735dbf46ea43a5e5575ea5520867"
 [[files]]
 file = "modpack-update-checker/versions/1.81.8/changelog.txt"
 hash = "f0ccb360c60d88204a36a110cf237fd713834fdfe77f47637ecad4ddb9851334"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.9/changelog.txt"
+hash = "41d9ce14e5c3df69e1650c19ac5e1b457205044ac0d9029d66bb33c9df939a84"
 
 [[files]]
 file = "modrinth banner white.png"
