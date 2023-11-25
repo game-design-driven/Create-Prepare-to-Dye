@@ -134,7 +134,7 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "5ac1eb8ef04893874381fbcd410abffb82b0301520f17b1e301be2074f4b7956"
+hash = "532a2ca69af88e55776b4c4a064edd48e2ffb28c9d6b32bfc65e16bff8ff4479"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "0776e5ef4f46d9675a2b88e95c85d9c57a61b78a679a5dee0ae3f11dd6dfc77b"
+hash = "af63e44620f3ad956b36f113cac33139ed3c62f436904250c9da4218ae23c3d5"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -542,7 +542,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "71db020043499db51ae4563365f2a02c082e5a483cfa20eeb7b0aae61b5ffe3c"
+hash = "b25d136a7aff70854ffba41c4fe9e28ee64b41096c6d83b72a64cb104f1cee11"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "570a083662ebb49be3d1c225ddce0088adc61207c51b10060aa03bbc1b22626a"
+hash = "2c05832095a74d8fdac3d7113fe2737eeed8b4acc6e10e0f28e1d78d96c397eb"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1106,7 +1106,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "146697957f9b2a5c2ad92ea42147edca8aef260e18651e61a92f2996afff9a21"
+hash = "734becce3b9b35524190822dbbb7a2a22265e64ac6cb1a904b8f86b0bd89a251"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0f652cbcc09725b487ee5cb3ef2e45896faafbde6ed4c9424a767cd511677b45"
+hash = "02571b08dfa2b9b43e7985797b269e2ab2e838a0c6a72c53d67f5d308f93a395"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1595,6 +1595,10 @@ hash = "258181c094a6c494678a480f1cf5e7dee15161a89736955509d26bdb6c31d3f1"
 [[files]]
 file = "modpack-update-checker/versions/1.81.11/changelog.txt"
 hash = "f25380c2cc00343a738b8d8a8e7c9b484ff5cf4036ce7ef71e78229bfbb97cc8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.13/changelog.txt"
+hash = "9d8a8bc5d63bc75130f6060b422f3df1447415a9dd32c6b0229271ea6fa84b59"
 
 [[files]]
 file = "modpack-update-checker/versions/1.81.5/changelog.txt"
