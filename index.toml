@@ -134,7 +134,7 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "a981e0ac333c0351592dd147d39b352f05d05aaf8ee21ba92fcecce4b63518dd"
+hash = "5ac1eb8ef04893874381fbcd410abffb82b0301520f17b1e301be2074f4b7956"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f1c82c23d08af4d3569816d8b2bf950efd626c8df9b56632018b85214339d3f9"
+hash = "0776e5ef4f46d9675a2b88e95c85d9c57a61b78a679a5dee0ae3f11dd6dfc77b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1723c4d9d992c89a57d27de14e314653fa947c958927422b448ecf6547fb1c55"
+hash = "570a083662ebb49be3d1c225ddce0088adc61207c51b10060aa03bbc1b22626a"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "9965158a2dadfae99faab6996952470fac55032c51d445d1e81d51edfb2207af"
+hash = "0f652cbcc09725b487ee5cb3ef2e45896faafbde6ed4c9424a767cd511677b45"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1591,6 +1591,10 @@ hash = "bb21123a6f1dbdab08ef815e27020aacc0266ba3c148061503b00b171ab1ed43"
 [[files]]
 file = "modpack-update-checker/versions/1.81.10/changelog.txt"
 hash = "258181c094a6c494678a480f1cf5e7dee15161a89736955509d26bdb6c31d3f1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.81.11/changelog.txt"
+hash = "f25380c2cc00343a738b8d8a8e7c9b484ff5cf4036ce7ef71e78229bfbb97cc8"
 
 [[files]]
 file = "modpack-update-checker/versions/1.81.5/changelog.txt"
