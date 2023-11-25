@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "0fdbefab07db86c4fdc7e91674e8baf79a7d87840f474d281dda3f9ee9128989"
+hash = "3cb2be649612c17dd76e62a0893d34ad41549b7428d509863fdc779008e4a990"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -926,7 +926,7 @@ hash = "a117e2043c34e5e06828715cd96306e884c78bb31f4475a264e684a8e5a6d49b"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/icons.png"
-hash = "46569b72278e5972feb9a5b8573a59626b8610027868bd1e51e5934e2718fa08"
+hash = "bfc4ef5611be9e40ed2fa6a9997971179a00cb3497a667d663f8391e54e138e5"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/options_background.png"
@@ -1026,7 +1026,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "591ec8a09ae05315a56ac347afeeb8968dbb4e76c475b58b667f7181212d9204"
+hash = "b6918487cdfa4fac4257cc25477c63913ee05ee3726bf168aebed2bfb152ae74"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1526,7 +1526,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e11e507ae777905da4f4fb1d74e595cbe60368478e6b0e15593869d722e306a5"
+hash = "88822348d6ba5ace6c66cbb641725e546fef1f4845051762f65fa38f9b2ff2d0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1631,6 +1631,10 @@ hash = "f0ccb360c60d88204a36a110cf237fd713834fdfe77f47637ecad4ddb9851334"
 [[files]]
 file = "modpack-update-checker/versions/1.81.9/changelog.txt"
 hash = "41d9ce14e5c3df69e1650c19ac5e1b457205044ac0d9029d66bb33c9df939a84"
+
+[[files]]
+file = "modpack-update-checker/versions/1.82.0/changelog.txt"
+hash = "6fa17b37b74f74b7330f311f8dd56e7371bf802e4f2eef41fa06a4e42c4682c1"
 
 [[files]]
 file = "modrinth banner white.png"

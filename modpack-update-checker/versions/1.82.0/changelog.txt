@@ -1,0 +1,8 @@
+## [1.82.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.16...1.82.0) (2023-11-25)
+
+
+### Features
+
+* remove xp bar. Not relevent to anything ([ca449ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ca449eeed70b637cbbdfee158daced63a2842aeb))
+
+
