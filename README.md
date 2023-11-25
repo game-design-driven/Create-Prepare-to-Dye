@@ -23,7 +23,7 @@
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
 ## Intro
-As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
+As the head of a crumbling, inherited, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
@@ -44,7 +44,7 @@ Things did start off on the wrong hoof though, as you crash land on the barren p
 <details>
   <summary>Complex and unique automation</summary>
   
-Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options, the emphasis here is on options, as opposed to tiers, more on that later.
+Using Create and Botania's natural automation focus as a loose base, we are constructing processing lines with depth and options, the emphasis here is on options, as opposed to tiers, more on that later.
 * Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation. The philosophy of the mod alignes almost perfectly with ours, and when it doesn't it is altered.
 * Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack. It has undergone many modifications to fit it into this world.
 * Quark + oddities
@@ -54,12 +54,12 @@ On top of those we add many processing lines (over 1200 recipe changes and addit
 <details>
   <summary>Radical simplification</summary>
 
-No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla minecraft. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla Minecraft. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
 </details>
 <details>
   <summary>Remove tiers</summary>
 
-* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of th game. For example the grindstones from create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
+* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of the game. For example the grindstones from Create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
 </details>
 <details>
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
@@ -74,7 +74,7 @@ The pack has around 60 mods, takes less than a minute to boot!
 <details>
   <summary>Heavily Documented, in game</summary>
   
-JEI is a core gameplay element. Imagine playing botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/botaniaDebookified.js) for technical details.
+JEI is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
@@ -85,8 +85,8 @@ Progression and "tiers" in this modpack are not done with more and more expansiv
 <details>
   <summary>Customization and Modularity</summary>
   
-we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
-Out script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers. Examples:
+We have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
+Our script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers. Examples:
 ```javascript
 if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
     forEachRecipe([{ type: 'minecraft:crafting_shapeless' }], recipe => {
@@ -118,7 +118,7 @@ See all features [here](kubejs/server_scripts/base/featrues)
 
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
-[Play now on modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
@@ -131,6 +131,6 @@ See all features [here](kubejs/server_scripts/base/featrues)
 | Performance                          | ![](https://progress-bar.dev/95)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
 | Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical | ✔        |
 | Trading Implementation               | ![](https://progress-bar.dev/55)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
-| Community                            | ![](https://progress-bar.dev/17)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+| Community                            | ![](https://progress-bar.dev/17)    | The pack has a community, ie Discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
 
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)

@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "11cc88cc84daef3524e1068dd698b053543d4ee461927d1db8b40a46ce2c8aae"
+hash = "bee3f14ee859097921b0b44d6904dd47be5574b22730e771fcb997717fc112c0"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "29ad94eed365d9634fb99eb8d1e1e444a3eeb25cdc34f8a47e15c1961ff139a7"
+hash = "445bc4e34ec68046309441318d475029613f758f85107abdd6cd738183e95d34"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b1235a7385d970a199042024a003ac346e4462da845e155a643c8ae295a90b63"
+hash = "4a6b4f31555d77a23b2950874592e41c8ca75a9de9e0f34b6569a624d768aa13"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1530,7 +1530,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "74ab3a63d87f7c89645ddef487a36657235f5ffafdd404b923e98742790f194d"
+hash = "15339676e9c140e554c3e532a703834d407c1920df0ba374f071301f9a3b544d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1671,6 +1671,10 @@ hash = "f52b78859870269a90db18d60f839ee353af1e6a463637a1a2b0bc76760394ac"
 [[files]]
 file = "modpack-update-checker/versions/1.83.0/changelog.txt"
 hash = "2d2b141c9674db75e7e270d7a0ff01249a793c55a32e5461edac5a148ac38b4d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.83.1/changelog.txt"
+hash = "7e8170ebfa363ff44c366ef794d1d870a07ab87f6a2587ae66558af6c1c3b762"
 
 [[files]]
 file = "modrinth banner white.png"
