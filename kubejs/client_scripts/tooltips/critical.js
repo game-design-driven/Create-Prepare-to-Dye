@@ -2,6 +2,7 @@
 
 addTooltip('water_bucket','Water is the essence of most organic life, useful for many things, and is not infinite')
 addTooltip('red_sand', 'Found abundantly on the planets surface, also seems that the _lava_ here, flowing or source, can be purified with _pure daisy_ to make _red sand_')
+addTooltip('lava_bucket', 'Found abundantly on the planets surface and underground, can be purified into _red sand_')
 addTooltip('create:scoria', 'Can be made by searing flowing _chocolate_ with _lava_')
 addTooltip('create:limestone', 'Can be made by searing flowing _honey_ with _lava_')
 addTooltip('milk_bucket', 'Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too!')
