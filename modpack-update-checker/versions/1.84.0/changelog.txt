@@ -1,0 +1,19 @@
+## [1.84.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.83.1...1.84.0) (2023-11-25)
+
+
+### Features
+
+* add another jump ([44d0972](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/44d09721f97eb89fa0de5f0a7f94ca72a43a2d2c))
+
+
+### Minor tweaks
+
+* speed up night a bit more ([0e31e1e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0e31e1e0e5ca92439cf96c6ab5ca4eb50479aa4a))
+
+
+### Documentation and Localization
+
+* add tooltips to agreements ([6516be0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6516be0cc8b8de95109fa7cf1c8b14d4d8a5be03))
+* update roadmap ([9c2ad4c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9c2ad4c881ac0fd75cfb06e8eab62084dfa4fb96))
+
+
