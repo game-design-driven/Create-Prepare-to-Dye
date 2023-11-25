@@ -100,6 +100,19 @@ customization {
 }
 
 customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -8
+}
+
+customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
@@ -131,28 +144,15 @@ customization {
 }
 
 customization {
-  identifier = %id=504330%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=504330%
   orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -8
-}
-
-customization {
-  orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
-  x = 292
+  x = 4
   width = 99
   action = addbutton
   actionid = 33dff97d-4978-43e8-b132-b76e5bc4eb371700901270948
-  y = 154
+  y = -8
   label = Discord
   height = 20
 }
