@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "9c306a293ec2be307b8ddabc2f42dafbec8aabafbb68f31b5e3f7e8a1e986c21"
+hash = "b8178b1cf7b5d3ef109fa46e9156e32cc21e97cfb8857422216317edbf01d62a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -406,7 +406,7 @@ hash = "998c2c0f377c0e0833bbac0e52aec75fe9cc96eee4c4683fc930a15ea421fc62"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "e47f1196ab189a982b6e22de1810ea19f2a98fbdd17aacc8d5593f8a414ba432"
+hash = "db8c548363761d1adf5f054feccd7e12888d1727a2b995f2359a094316241720"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "43d93955bc065511d922975971a4bb8400bc6ba72913aa672009b245dae08fb7"
+hash = "d0720eb9f8c11f1bdd185392f4abb557f448e06d76281ca3517af2c5de42ca5c"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1530,7 +1530,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "03abe1906bed8d7762c05e8acabf57d28421e35a51dd5d7cd8c313624c0b2ce6"
+hash = "ba6414581b0cb946cbdb35ba422cd09297c74e901389140751a71e20dfa9d5ff"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1659,6 +1659,10 @@ hash = "5d07cff4ae604d55358303580b5b3bf003c1b95fb3652e8fbc5aa856a3efab35"
 [[files]]
 file = "modpack-update-checker/versions/1.82.6/changelog.txt"
 hash = "89d1c33378e9a79f642e4daf79da483bca5eb239513fe113ac25b082fbd01fc9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.82.7/changelog.txt"
+hash = "26b96c1c6d969e79f3dba0ba07e6fd837044fb0700aa9dcb57b2bae141e0e2d1"
 
 [[files]]
 file = "modrinth banner white.png"
