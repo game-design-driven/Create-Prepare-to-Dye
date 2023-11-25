@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "cb0299a07b363c4b0179e8800dd78a7c1009318b050b32612acbcd36a914d364"
+hash = "610744a2537225f54c70685936b643afba0cb3cc381f4be761e68b8f61cbb109"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "dafcea39181514e561fbfc01510e8fa4160427f336ff7bd2846bb79a6a4891e0"
+hash = "14bb8ea5de6f72c3806bf5691ef19bd8a00aed910e7c43c906944308e5e67cb8"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1458,7 +1458,7 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "e37ceeebe941ee79c499f6a9a3ac791669778e092aee732c6783de6a77553b90"
+hash = "1e1f3ef145d008c69a872176e12e8d9595ec909a880d16f786afaaa35f9e98e3"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1530,7 +1530,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "71a5f536f32d8fd808502b59db3d9a6d854e0db7a90ff6c7a37de0d3fbb3ef6e"
+hash = "a53d52011f1ab1394ed9e921c9037048fa2556e4885162c31dbb8e4a23f1e09b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1683,6 +1683,10 @@ hash = "c9dabaee312360fed36a4729b725e77c9d1b458bf31340db1572b363829ec7ad"
 [[files]]
 file = "modpack-update-checker/versions/1.84.1/changelog.txt"
 hash = "7946b78aa7659e3f83150d58690d40a9e45cd880db8da231fd9ea5918e10d934"
+
+[[files]]
+file = "modpack-update-checker/versions/1.84.2/changelog.txt"
+hash = "1a7b18fc10c42f74ed435e08c4520a5fce0692f7dfb5b2a70d9763e4c8c269f7"
 
 [[files]]
 file = "modrinth banner white.png"

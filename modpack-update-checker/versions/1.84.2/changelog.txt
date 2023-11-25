@@ -1,0 +1,8 @@
+### [1.84.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.1...1.84.2) (2023-11-25)
+
+
+### Fixes
+
+* add backwards compatibility for old bfc plates trade deal progression ([ee4e966](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ee4e966e8a333b572adc2f960d8ed4bf2c9a9519))
+
+
