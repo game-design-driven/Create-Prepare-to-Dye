@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "8b9868dfcff6c2a4a060b750128e10788836d06fff96a7770d01a41680281ed0"
+hash = "57fa01add27b15e2c199cb26a0b76bd09be31f0254a0290aa57e9c5536192459"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -506,7 +506,7 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "517308b3ed2dd096b7e5d6de2e1c6496f76e62c27878cafc2ee01bb8aeeabd51"
+hash = "b12162d7610b0fc70360a6bd19d1800dcbb673363b2a49de2594bb6e722d09cc"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "f3507f34eadabd56b836c05faf3685e1cf9762b411b9e46306a5a1723f4f807f"
+hash = "3b2fe575c554ca4b996b68954eaf3b4b330a9113c1a6f16b9c08a3e6004bae8b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1434,11 +1434,11 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "94c47e0c362b1316f3c17c1701788209348797df57a5dfef77623f43ef4da65a"
+hash = "c8c0b8aead1fa8e919e9216996a7a745d6300839944d721e59e651ffd26a58f2"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "ba9a591a893286fa0182764609c4e5e6e097592a33d0020837c719770fcc8973"
+hash = "2e86b9ecb51c17a3d7dc32e2a7eb25a5a20740c5ccb101c023c0274802ab063d"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -1578,7 +1578,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5346c12fe87127350b38de1d6cd1dbe56ad8d027eae3bc0ed6735641b9482052"
+hash = "9a449255c2dbb48db13f4042ecc2d98d2da59c788db564b2e4110cf6748660c6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1803,6 +1803,10 @@ hash = "d43cfffef282d8c446d72a2c7e1bfb18982bfc49b4b8252087412faf5a7cecec"
 [[files]]
 file = "modpack-update-checker/versions/1.88.8/changelog.txt"
 hash = "aa6279513a0173599dec80760d6d3d2a82c66da9de4486cb1965438f10feab67"
+
+[[files]]
+file = "modpack-update-checker/versions/1.88.9/changelog.txt"
+hash = "cf8b87dd7b2262bbc9de9aee86e3ff47ba957ca44c0902e771bcce127f60788e"
 
 [[files]]
 file = "modrinth banner white.png"
