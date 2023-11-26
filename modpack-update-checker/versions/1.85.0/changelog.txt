@@ -1,0 +1,8 @@
+## [1.85.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.5...1.85.0) (2023-11-26)
+
+
+### Features
+
+* added early blue ingot > energy cell fixed rates deal ([b611026](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b611026610f5d8b9b9321e013c994b808b3ab32c))
+
+
