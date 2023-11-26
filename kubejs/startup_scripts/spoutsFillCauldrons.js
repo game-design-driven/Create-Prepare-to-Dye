@@ -25,22 +25,4 @@ CreateEvents.spoutHandler((event) => {
       return 0;
     }
   );
-//   event.add(
-//     "fill_cauldron_process",
-//     "minecraft:water_cauldron",
-//     (block, fluid, simulate) => {
-//     const { level } = block.properties
-//       if (fluid.id == "minecraft:water" && level != `3` && fluid.amount >= 333) {
-//         if (!simulate) {
-//           if (level == '1') {
-//             block.set("minecraft:water_cauldron", { level: `2` });
-//           } else if (level == 2) {
-//             block.set("minecraft:water_cauldron", { level: `3` });
-//           }
-//         }
-//         return 100;
-//       }
-//       return 0;
-//     }
-//   );
 });
