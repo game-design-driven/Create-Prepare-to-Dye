@@ -12,9 +12,6 @@ net.minecraft.client.gui.screens.LevelLoadingScreen {
 net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
-net.minecraft.client.gui.screens.PauseScreen {
-}
-
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
@@ -22,5 +19,8 @@ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
 com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
 }
 

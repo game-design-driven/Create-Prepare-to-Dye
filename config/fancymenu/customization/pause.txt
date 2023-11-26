@@ -81,7 +81,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 40
+  y = 42
 }
 
 customization {
@@ -97,19 +97,6 @@ customization {
   width = 74
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=504330%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=504330%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -8
 }
 
 customization {
@@ -144,16 +131,10 @@ customization {
 }
 
 customization {
+  identifier = %id=504330%
   orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
   x = 4
-  width = 98
-  action = addbutton
-  actionid = 33dff97d-4978-43e8-b132-b76e5bc4eb371700901270948
+  action = movebutton
   y = -8
-  label = Discord
-  height = 20
 }
 
