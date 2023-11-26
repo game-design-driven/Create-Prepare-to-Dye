@@ -22,6 +22,21 @@ function addItemInsidePlace(block_out, input, block_in) {
     modpackRecipes.push(result)
 }
 
+function addDripping(block_out, target_block, source_block) {
+    if (!source_block) source_block = 'water'
+    let result = {
+        type: "lychee:dripstone_dripping",
+        source_block: source_block,
+        target_block: target_block,
+        post: [
+            {
+                type: "place",
+                block: block_out
+            }
+        ]
+    }
+    modpackRecipes.push(result)
+}
 function addBlockInteract(block_out, block_in, item_in) {
     let post = {
         type: 'place',
