@@ -73,5 +73,5 @@ if (feature('Livingwood from twigs')) {
 }
 
 if (feature('Netherwood from choros fruit alchemy')) {
-    addAlchemyRecipe('minecraft:crimson_stem', 'quark:chorus_fruit_block')
+    addInfusion('minecraft:crimson_stem', 'quark:chorus_fruit_block')
 }
