@@ -162,7 +162,7 @@ const bnwRedstoneFixedRates = getAgreement({
   message:
     "Alright, you seem to be reliable, I believe it is time we made it official, lets start a fixed rates agreement. Your redstone is high quality, we make great cables, simple as that",
 });
-const bnwManasteel = getAgreement({
+const bnwManasteelOld = getAgreement({
   paymentItems: [
     "4x ae2:storage_monitor",
     "32x minecraft:lever",
@@ -176,7 +176,46 @@ const bnwManasteel = getAgreement({
   orderedAmount: 1,
   company: "boards_and_wires",
   message:
-    "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
+  "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
+});
+const bnwManasteel = getAgreement({
+  paymentItems: [
+    "4x ae2:storage_monitor",
+    Item.of(
+      "ae2:energy_cell",
+      4,
+      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
+    ),
+    "32x minecraft:lever",
+    "8x minecraft:gold_ingot",
+  ],
+  requestedItems: [
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+  ],
+  title: "New material",
+  orderedAmount: 1,
+  company: "boards_and_wires",
+  message:
+    "Hello again, we are experimenting with new types of processors based on a more conductive material, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
+});
+const bnwManasteelFixedRates = getAgreement({
+  paymentItems: [
+    Item.of(
+      "ae2:energy_cell",
+      8,
+      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
+    ),
+  ],
+  requestedItems: [
+    "64x botania:manasteel_ingot",
+    "32x botania:manasteel_ingot",
+  ],
+  title: "Fixed rates blue > cells",
+  orderedAmount: 0,
+  company: "boards_and_wires",
+  message:
+    "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
 });
 const bnwQuartz = getAgreement({
   paymentItems: ["4x create:brass_casing", "8x minecraft:gold_ingot"],
@@ -271,7 +310,7 @@ const gdbLeadFriend = getAgreement({
 });
 
 const sssHelmets = getAgreement({
-  paymentItems: ['black_dye'],
+  paymentItems: ["black_dye"],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
@@ -280,7 +319,7 @@ const sssHelmets = getAgreement({
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
 const sssHelmetsFixedRates = getAgreement({
-  paymentItems: ['black_dye'],
+  paymentItems: ["black_dye"],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
   orderedAmount: 0,
@@ -292,7 +331,8 @@ const starterDeals = [bcfPlates, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlatesOld]);
 tradeBranch(bnwManasteel, bnwRedstone);
-tradeBranch(bnwQuartz, bnwManasteel);
+tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
+tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteelOld);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
   [bfcPlatesPermanent, bfcPickaxes], //The next trades in line
