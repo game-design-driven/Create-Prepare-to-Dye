@@ -1,0 +1,20 @@
+## [1.86.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.85.1...1.86.0) (2023-11-26)
+
+
+### Features
+
+* add dripping to accelerate quartz bud growth ([442d937](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/442d9375e158000ade28556a36763236a8ea64b6))
+* replace energy cell with milk cells, which can be filled with milk using a spout ([f2bebdf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f2bebdf8a02e56c7b79638fbe83792d5c796662b))
+
+
+### Documentation and Localization
+
+* add tooltip for cobblegen ([24632ed](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/24632edbe415cf884da8b21876073ff8345e3274))
+
+
+### Fixes
+
+* menu positioning ([bd08d19](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bd08d19c980902605f7695f4b164fff9cab00db5))
+* tooltips to reflect energy cell to milk cell change ([82e17a7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/82e17a7e2e0977f93d1c7c00b60125e71864ce93))
+
+

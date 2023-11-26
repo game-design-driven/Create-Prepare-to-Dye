@@ -118,7 +118,7 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "ef33842c2c5ca55f20d4721a249d0411c0477dff73bccc3d95ce85c52d493854"
+hash = "cc11da45861f0bb6103aaa8140178848ddb34f74ac85ba9e0e563c2092b7f320"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
@@ -134,7 +134,7 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "532a2ca69af88e55776b4c4a064edd48e2ffb28c9d6b32bfc65e16bff8ff4479"
+hash = "2a2b62277ef3be061b19f83c17005f96bd5b18ebb650b5a44edc4118c5e2d78a"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e2dd45eb7b8b7707fd2b36da291830aad123685cba97f767e24097504ed2f5ad"
+hash = "ee48b7f7156778a91ca1b40546558bfc831787aad4c93a4f8f726cfb9d359162"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -457,6 +457,34 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/ae2/lang/en_us.json"
+hash = "8124566c745b491da7199950f6687b5374fbdd39ce9fdbfe540ad8aeec22315f"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell.png"
+hash = "bff59cdc1f53ba2c7415cdbbabb676a8dc6db19cef87af45a35a0a9356428123"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell_0.png"
+hash = "cb1184acd81838cdabb656418755d480513514fb1700bc85d624db78d1d29146"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell_1.png"
+hash = "ab4cf29c1f677d0b8da45fac62f068f48008ef9f0d943a195a3cd273cdd1b802"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell_2.png"
+hash = "a6aa721d612c95efc813b0a09450ccea828d9c06a84f2fd4a4e0d522602525fe"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell_3.png"
+hash = "4531f58859b00adacdf19d6789606c2b412242e0493c9569c0662b02ac19277c"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/block/energy_cell_4.png"
+hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
+
+[[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
 hash = "51eaa752094ed38f3e9291f39a98bc99fedbd515f6f09d5fa76f74bb9753a653"
 
@@ -478,7 +506,7 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "6a17d8203b602a0e81815c4e7b78eb219da20a8a4f7469ebe88812aff2a18fd5"
+hash = "44b00202585c1d5a738e2ec118c2040299c2b427744c79193a7df52a19909339"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
@@ -1030,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4f61904ca2a2d0868dd206d410f393dbb62c2755675a7e9ce3e0320612371148"
+hash = "4b1b41339c00bed865f46500f104e998d823dfb7ce854f18d7ec9be5d05857d5"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1102,7 +1130,7 @@ hash = "cbe067d61c9545e1fd6335cfc349417d147db892017675d36fce90a78515351c"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
-hash = "e37c2a296cca1ff67589819f5399f685bb0048ef70f1588aee4009a267e0e463"
+hash = "7f9eda3b285e1dd0bea712e5bcbdc2a42e829efdde23d28d4ea9ff537006b25a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
@@ -1110,7 +1138,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "5eeb6eeb80f2d73e0c1941901659a2711241105519a3d56181f92959ce232113"
+hash = "e3a05a2eacbaac469a42a0b702a79dcc64b548750bb7d830379188b35d4eb21d"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
@@ -1341,6 +1369,10 @@ file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
 hash = "906654b78d43e0c43c0c010b05a9f44f987db6b3007a256b16bfbd0cbe3e1a3a"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/quartzAutomation.js"
+hash = "a6866fd3e5f0172435a3bc1c848d31fa3f481c01046b7f33977ed04ef7f54925"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
 hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
@@ -1438,7 +1470,7 @@ hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "1c053026369422c11a9df9a6dc4fd32c2262c1e925398c608f99546693f605ea"
+hash = "d2fcb716402be7701afe772035c45ca3435158a03fe5cb54ba4e1441e3b5115e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -1518,7 +1550,11 @@ hash = "c80291b3faeca54cdef465ac263ba0351a49d9ea2feffc1a8c1abf44c29d1170"
 
 [[files]]
 file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
-hash = "e1832c62d7cae587b9cf0f50a015c552465e9a5f9a3c38901c922f727500b849"
+hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
+
+[[files]]
+file = "kubejs/startup_scripts/spoutsFillEnergyCells.js"
+hash = "ecf7ec0ecbc8c799015f98a1189f37ef663312885a57712d314d8e8295834935"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
@@ -1534,7 +1570,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "55a73a6d32e3a92357840ab60adcd6980801086cba0ed7bc7b0ccbeec42a3feb"
+hash = "62197b6107acb3dea4a09eda4ebabf0d2bc8f28ecd5c0d1c180f3a096541dee4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1711,6 +1747,10 @@ hash = "4639775cee2fbeebce4f4a07f20e1b0a74bdfd502192c9dc0ee8f2d62eaa3584"
 [[files]]
 file = "modpack-update-checker/versions/1.85.1/changelog.txt"
 hash = "0efec8d7cef73276e7277adc20690058ddc98a0e278784b336fdb8a67d7fdad9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.86.0/changelog.txt"
+hash = "7a62b3a2e07bc024ce990d3e70f4e23f2e4971d737d1233dbb6e4e73f404c595"
 
 [[files]]
 file = "modrinth banner white.png"
