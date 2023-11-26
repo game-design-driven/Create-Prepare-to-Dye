@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4168e5ff4471227a610c3b3fe71e0d285a6e76429736a4d11920774d264e1921"
+hash = "718d29b5b646d140c079adfbde916b60102a1c0ab67ca2d3c1f375cad0803455"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -478,7 +478,7 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "2ee258d4264e69c6b69f28a94d676ce309c26fa213656701aa081fcf885115fc"
+hash = "6a17d8203b602a0e81815c4e7b78eb219da20a8a4f7469ebe88812aff2a18fd5"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
@@ -514,7 +514,7 @@ hash = "c34fdb7a536cc1e19bfa5a02dc5917394a1028e18abe8e071451b54b2bfc2d40"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "eafdf54638ace10c0b2e7ee0805237182afb35756270b49955ccf612017c5b6a"
+hash = "5abab0429fc80d9fa7ca62864ecaf1ef00f176ac73f496f5efd4307b910bfd7b"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -1030,7 +1030,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2d220e13d8303a7c8ecd5bcbfee736a8bfe9da38cc694d1c5434f961dfed7087"
+hash = "77a97596d411a85e0f52d4c820437d2e9ee54e18e7164a192783bd2c164467a0"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1102,7 +1102,7 @@ hash = "cbe067d61c9545e1fd6335cfc349417d147db892017675d36fce90a78515351c"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
-hash = "fc0b9a313dd200db031d7e4cf45eb4c2c4ab9db0f0f629a1a1d73712b8320816"
+hash = "e37c2a296cca1ff67589819f5399f685bb0048ef70f1588aee4009a267e0e463"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
@@ -1110,7 +1110,11 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "7372d97ab96620c711b03f1e6640c03847276ffafac3d2e66ec8b2c8f05d65ae"
+hash = "5eeb6eeb80f2d73e0c1941901659a2711241105519a3d56181f92959ce232113"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips/dyeing.js"
+hash = "01ec08068d75083ddc05da99c80cc338b955aa67f28c43fe7c20a0e3224d2efb"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1386,7 +1390,7 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "8b32c7697a0413a2de6f3c8c261067f9ad41c40e7b7a294d4799a53428fe4eae"
+hash = "443f2224f175e3279b4e4f11051af8ee5f89ae693f45931e1540401705057a23"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -1530,7 +1534,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cfbba09055c681a0ad5ad6d5d7933dff40b2b7f0b1f66e85864e22e2edf3c9d9"
+hash = "37109dc5e79a98369a9f7bdbe925bcd44d42b5852c5a9c6462f6ecce92513919"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1695,6 +1699,10 @@ hash = "9242f9e9e20b2359aa649df1db73c3b8014ab4bfbf8a02fcecbc4652459bc35e"
 [[files]]
 file = "modpack-update-checker/versions/1.84.4/changelog.txt"
 hash = "89a9e31533cefcd237a2eaced249921a20dcd5cca1bca5239d72951f35aff666"
+
+[[files]]
+file = "modpack-update-checker/versions/1.84.5/changelog.txt"
+hash = "9a00c1f8fc3a148798990e6f4c7393a765d2e984e2b4a25cf4c8c1438e6797af"
 
 [[files]]
 file = "modrinth banner white.png"

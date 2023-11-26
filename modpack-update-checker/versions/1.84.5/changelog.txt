@@ -1,0 +1,20 @@
+### [1.84.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.4...1.84.5) (2023-11-26)
+
+
+### Developer experance improvments and changes
+
+* update botania tooltips ([cc37711](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cc37711b92bece5b7e71f2a0d3a4bc88449b7efe))
+
+
+### Minor tweaks
+
+* reduce rose quartz price of energy cell ([bd00bdf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bd00bdf17a137da9185bc0e88a3581952b6764a6))
+
+
+### Documentation and Localization
+
+* add tooltip for redstone acquisition ([efbb628](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/efbb628065a6c5df5d80134de8cb6b8657c1d9ea))
+* expand ae2 info for cells being single use ([fa81c31](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa81c31940dc61ea4b9bb0afb8317f11a9553823))
+* fix dyslectic writing in engine tooltip ([83a4dfd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/83a4dfd8fc579f71f51855b9129277a05b3185fa))
+
+
