@@ -82,9 +82,5 @@ if (feature('Energy cell recycling')) {
 }
 
 if (feature('Me toggle bus recipe')) {
-    addShaped('ae2:toggle_bus', [' r ','clc', ' r '], {
-        r: '#forge:dusts/redstone',
-        c: 'ae2:fluix_smart_cable',
-        l: 'minecraft:lever'
-    })
+    addShapeless('ae2:toggle_bus', ['ae2:fluix_smart_cable','minecraft:lever'])
 }
