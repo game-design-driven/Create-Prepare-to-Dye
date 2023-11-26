@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6b0ede1468261a052ab0f52a3282b478bf5ac0c371a2876246cafee20d93d1fb"
+hash = "a789a4581a233f517419fb844332f4dc5043e1bb8cdcf9ff7f2ef1dfe4cbc43e"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -542,7 +542,7 @@ hash = "c34fdb7a536cc1e19bfa5a02dc5917394a1028e18abe8e071451b54b2bfc2d40"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "3ed6980b4cb432fefabd58d3914536726a3d28b0a746991511228ec67d0b8957"
+hash = "fa6c003bff1e2227fbd9ebaa5d8b2b396c1528f3b36b1e1610c4f7713eff2a25"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -574,7 +574,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "b25d136a7aff70854ffba41c4fe9e28ee64b41096c6d83b72a64cb104f1cee11"
+hash = "5df218a137568bf5db24afdba44f581803ac76b0505ad84b02dd8bb93272bccc"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "78d0022966521a868336cdb660a1d1065932a9db6324b748f87fec8be8387e78"
+hash = "e3e4d9bff3bae58be631b8990fe16e7f56e6c0c85700f3c22bf0abbeb73e8d4d"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1350,7 +1350,7 @@ hash = "f7edeffe102f712457e89c672733d2f7beae75704a0501863f53006a9e1bfafc"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/manapool.js"
-hash = "df747b6db48bc778a51e341cb6342b95f5ebd11b8fa007bcdb33519e06936e0c"
+hash = "3928bcf3d138e1ac98eea9ef4b2d3acddcb5ab59d554db1540716a2c2f64a32d"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/milkNerf.js"
@@ -1426,7 +1426,7 @@ hash = "94c47e0c362b1316f3c17c1701788209348797df57a5dfef77623f43ef4da65a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "e0d6f9cd39d44d24b8b76982d8684fdb5796812e65b3ea5ca860a7c545f9e53a"
+hash = "ba9a591a893286fa0182764609c4e5e6e097592a33d0020837c719770fcc8973"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -1438,7 +1438,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "7a0801ac2a67e2f99449ab5d212d8bbfc3df6eaa3008332801bb5d2cc01f31f6"
+hash = "52ee97b68d197c2575bbb4ce70ad57a22ef850f9fee77ad9980940f61c1aef92"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1474,7 +1474,7 @@ hash = "d2fcb716402be7701afe772035c45ca3435158a03fe5cb54ba4e1441e3b5115e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
-hash = "568f919797e639707f6d801cd2bccda6fb9b6fe8026e82584cb19836d3aa4a0d"
+hash = "b08cad190944586cd55c7e93a6f2a691a80e533828cfa72f5b91cc393b0bd479"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
@@ -1494,7 +1494,7 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "a4653991c76b2e3fa941028af69e11ad9f372033a459ae94df6ef2a1b54ca58b"
+hash = "52670269074d4bea2474598aaf5d2fb3986052505982708b88b61c77c6b202bb"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1570,7 +1570,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5ea9bc1c09a342908c558ef970b30fbc556474b451f25a49c79b28af4ca5eb2c"
+hash = "f6341942648ba4734f29d198ff2156e4da268b92b83efa4ec94d1ae8ce086ffb"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1755,6 +1755,10 @@ hash = "7a62b3a2e07bc024ce990d3e70f4e23f2e4971d737d1233dbb6e4e73f404c595"
 [[files]]
 file = "modpack-update-checker/versions/1.86.1/changelog.txt"
 hash = "865b566c7c012394a48411bf9bf398721f5ab550a4ae633a39a44f54d96a04b9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.87.2/changelog.txt"
+hash = "e5f0bb39ce8f3257249ecf3beaf5bc10dbbc0411d2b010d59a6a761da73bf3a9"
 
 [[files]]
 file = "modrinth banner white.png"
