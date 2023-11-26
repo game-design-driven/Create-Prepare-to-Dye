@@ -1,0 +1,8 @@
+### [1.86.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.86.0...1.86.1) (2023-11-26)
+
+
+### Minor tweaks
+
+* remove energy cell and smart cable recipes ([5827eea](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5827eea2d758f7170aa8b666ed7c432896d25762))
+
+
