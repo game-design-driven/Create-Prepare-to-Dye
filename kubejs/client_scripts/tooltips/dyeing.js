@@ -1,0 +1,1 @@
+addTooltip(['redstone','redstone_ore'], "Can be made by dyeing stone with _red dye_")
