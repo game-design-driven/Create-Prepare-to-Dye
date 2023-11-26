@@ -44,7 +44,7 @@ jobs:
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
   release:
-    needs: tag_and_release
+    needs: [tag_and_release, tests]
     strategy:
       matrix:
         include:
