@@ -73,6 +73,15 @@ const bfcHelmets = getAgreement({
     "We also need some hardhats for our upcoming contract, less urgent though so take your time",
 });
 // const bcfPlates3 = getAgreement(
+const mlcEndstoneFixed = getAgreement({
+  paymentItems: ['16x quark:chorus_fruit_block'],
+  requestedItems: ["32x minecraft:end_stone"],
+  title: "Building a moon, materials needed",
+  orderedAmount: 0,
+  company: "magical_landscaping_co",
+  message:
+    "We have a long term project going, building a moon for a rich client of ours, we need a lot of moonstone, we can supply you with some chorus fruit in return",
+});
 const mlcSand = getAgreement({
   paymentItems: [
     "botania:manasteel_shovel",
@@ -335,7 +344,7 @@ tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteelOld);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes], //The next trades in line
+  [bfcPlatesPermanent, bfcPickaxes, mlcEndstoneFixed], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
