@@ -71,3 +71,7 @@ if (feature('Livingwood twig out of dead bush and mana')) {
 if (feature('Livingwood from twigs')) {
     addShaped('botania:livingwood_log', ['tt', 'tt'], { t: 'botania:livingwood_twig' })
 }
+
+if (feature('Netherwood from choros fruit alchemy')) {
+    addAlchemyRecipe('minecraft:crimson_stem', 'quark:chorus_fruit_block')
+}
