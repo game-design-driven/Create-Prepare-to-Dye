@@ -118,11 +118,11 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "cc11da45861f0bb6103aaa8140178848ddb34f74ac85ba9e0e563c2092b7f320"
+hash = "897e5e9ec70a077e4d80a8059deffa3644a2a25176fd6cc8733100886650022b"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
-hash = "776498a61b384f342b16aec8312158a840dc7bb7b7c2a8f3db2269a9ef37d272"
+hash = "0e6cd9f81a5bbe3dbec4058938d28684ca725be6aef5f572ff4a4ef2c1cb7ee9"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "a789a4581a233f517419fb844332f4dc5043e1bb8cdcf9ff7f2ef1dfe4cbc43e"
+hash = "0a44215f32c12b9b0314a8abda3cc73512ec0277264ada4a58bdae012d9272dd"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e3e4d9bff3bae58be631b8990fe16e7f56e6c0c85700f3c22bf0abbeb73e8d4d"
+hash = "7c59f6b94dcaf070107827fab4278439171158bfe859dfa1360a63d5d652e47c"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1570,7 +1570,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f6341942648ba4734f29d198ff2156e4da268b92b83efa4ec94d1ae8ce086ffb"
+hash = "ee1afc2bb258ea6e5ab8c70eac51566e661c7765d4b196269ae72ba2088ee714"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1758,7 +1758,11 @@ hash = "865b566c7c012394a48411bf9bf398721f5ab550a4ae633a39a44f54d96a04b9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.87.2/changelog.txt"
-hash = "e5f0bb39ce8f3257249ecf3beaf5bc10dbbc0411d2b010d59a6a761da73bf3a9"
+hash = "c9eb49659fa6273c056be2fb039e4a590ed56a6cfff7422d7071898cade23970"
+
+[[files]]
+file = "modpack-update-checker/versions/1.87.3/changelog.txt"
+hash = "c5b1612b968cd6707118b1db0f2b0706ca4450bb08010febe18bbb3bcb64f6ac"
 
 [[files]]
 file = "modrinth banner white.png"
