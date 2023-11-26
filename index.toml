@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "0a44215f32c12b9b0314a8abda3cc73512ec0277264ada4a58bdae012d9272dd"
+hash = "b9b16607464733aab7da6fe42302f50a054a920c5e2b336e7818dca998a1bae1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "7c59f6b94dcaf070107827fab4278439171158bfe859dfa1360a63d5d652e47c"
+hash = "f348b43bd5e52f81e170e83b91d19bddf5ef85ac88f5b468c72f511d65f37541"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1113,6 +1113,10 @@ file = "kubejs/client_scripts/example.js"
 hash = "2fcab4d130077b073f20d59db438be312b49eb3ac758c8c1ab5904940455b93a"
 
 [[files]]
+file = "kubejs/client_scripts/handInteractions.js"
+hash = "a976c686f7861dbe621ebb88e95bcc8a4810dbd82222d42c43d63f97c6d6257b"
+
+[[files]]
 file = "kubejs/client_scripts/jei.js"
 hash = "7c6710c4fbfefc3734266fac8fd1707205765b1852e49ff5e613645b129042ea"
 
@@ -1138,7 +1142,7 @@ hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "e3a05a2eacbaac469a42a0b702a79dcc64b548750bb7d830379188b35d4eb21d"
+hash = "f161e50a0ae18331f9b021097546971afa24130f3e18328eda54635d511ffc8a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
@@ -1347,6 +1351,10 @@ hash = "1a9fae27e3687229186cab0a777e937109b0d3a3eaed6af648c2a03e3c497f2c"
 [[files]]
 file = "kubejs/server_scripts/base/featrues/gamerules.js"
 hash = "f7edeffe102f712457e89c672733d2f7beae75704a0501863f53006a9e1bfafc"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/handInteractions.js"
+hash = "a976c686f7861dbe621ebb88e95bcc8a4810dbd82222d42c43d63f97c6d6257b"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/manapool.js"
@@ -1570,7 +1578,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ee1afc2bb258ea6e5ab8c70eac51566e661c7765d4b196269ae72ba2088ee714"
+hash = "0341ff9138121287cba8af5e8936aae66229f3c7b6645d7b8100882f702361fd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1763,6 +1771,10 @@ hash = "c9eb49659fa6273c056be2fb039e4a590ed56a6cfff7422d7071898cade23970"
 [[files]]
 file = "modpack-update-checker/versions/1.87.3/changelog.txt"
 hash = "c5b1612b968cd6707118b1db0f2b0706ca4450bb08010febe18bbb3bcb64f6ac"
+
+[[files]]
+file = "modpack-update-checker/versions/1.88.0/changelog.txt"
+hash = "0a43175843162ef16ed461e1a851e8cf3c59a683280b7dd3ddc6910de4b34899"
 
 [[files]]
 file = "modrinth banner white.png"
