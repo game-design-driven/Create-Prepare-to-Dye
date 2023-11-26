@@ -1,0 +1,9 @@
+### [1.88.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.3...1.88.4) (2023-11-26)
+
+
+### Continuous Integration
+
+* make releasing on platforms dependent on tests ([1f62b46](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1f62b46465ac3f135e6ffd3f0bc0b6463a1dccee))
+* remove empty json file ([08d0ff3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/08d0ff382a78ccffe33564bac39d99c8ab42e291))
+
+
