@@ -1,0 +1,8 @@
+### [1.88.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.2...1.88.3) (2023-11-26)
+
+
+### Continuous Integration
+
+* add json and yaml validation to ci ([c58f7f2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c58f7f2e7c3b1685b624ceb4131b6822e5812ee0))
+
+
