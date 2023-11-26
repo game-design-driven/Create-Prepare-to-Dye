@@ -1,7 +1,13 @@
 function fillBattery(block, amount) {
   amount = amount || 2500;
   let currentEnergy = block.entityData.internalCurrentPower;
-  block.set("minecraft:air");
+  // block.mergeEntityData({
+  //   internalCurrentPower: currentEnergy + amount,
+  // });
+  // block.set("minecraft:air");
+  block.level.runCommandSilent(
+    `/setblock ${block.x} ${block.y} ${block.z} minecraft:air`
+  );
   //200000.0
   block.level.runCommandSilent(
     `/setblock ${block.x} ${block.y} ${
