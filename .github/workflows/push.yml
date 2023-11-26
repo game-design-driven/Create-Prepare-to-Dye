@@ -15,6 +15,12 @@ env:
   mc_version: '1.19.2'
 
 jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name:  validate JSON and YAML files
+        uses: GrantBirki/json-yaml-validate@v2.4.0
   tag_and_release:
     runs-on: ubuntu-latest
     outputs:
