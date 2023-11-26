@@ -1,0 +1,9 @@
+### [1.88.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.6...1.88.7) (2023-11-26)
+
+
+### Documentation and Localization
+
+* rename nether quartz to quartz ([55ac09b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/55ac09b7409f28fcc2635646b4c07aca86008cc2))
+* rename oak full drawers 1x1 to drawers ([6a98970](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a989706c18ca7df788f3093b01021bbc612fd8d))
+
+

@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "8329e0c1fb1b6e58beb7777841f17e2a372ede1a8cac0b588053d39639d73db4"
+hash = "070f29fb9cc0e345e84d7fcaf42d4f7f4a3a6dfa5c584f5f41cace45a553aca3"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -574,7 +574,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "2a790da61738ebe2bf02c16635e58f9cfb009ed99d3ddef1a1abbd037a3d6158"
+hash = "9bd5c7df6438bda19e68e0d2f9e4306a11acd44ea004082ff786033b567d2df4"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -1058,7 +1058,11 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "12826d7cd2e2d4f2db5a0d6feef36c0696a1be91beb908d1eefdc87d25d03971"
+hash = "9eced50d12b7312a0f2a04ab4d32114814f1f4525aafdf1773ac1ae29d64c3a6"
+
+[[files]]
+file = "kubejs/assets/storagedrawers/lang/en_us.json"
+hash = "546b6843d64ce4b81fc4b2e06be4f0a4475af3943a307d529dffe8b2e681d21f"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1574,7 +1578,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "8cdea3e5521f10b7993ef605bdd95f676d6ff2d16da50fef622a46cb0de7c917"
+hash = "940c9bb4f6c7a86902403e99bc8b6e2801917d0b9eb5ea5ba6d80e6f8843bac2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1791,6 +1795,10 @@ hash = "38de9defa6927773b24c4b030942d35cb2a41e41087cef674f0421c1246e4261"
 [[files]]
 file = "modpack-update-checker/versions/1.88.6/changelog.txt"
 hash = "67e5969c6d1ff6d35b44cf7b8488c7cb22903df06e9a7f2e354e0f7ad2d7effa"
+
+[[files]]
+file = "modpack-update-checker/versions/1.88.7/changelog.txt"
+hash = "d43cfffef282d8c446d72a2c7e1bfb18982bfc49b4b8252087412faf5a7cecec"
 
 [[files]]
 file = "modrinth banner white.png"
