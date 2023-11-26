@@ -186,3 +186,7 @@ if (feature('Remove vanilla andesite recipe')) {
 if (feature('Remove enchanting table')) {
     removeItems(['minecraft:enchanting_table'])
 }
+
+if (feature('Remove end portal')) {
+    removeItem('minecraft:end_portal_frame')
+}
