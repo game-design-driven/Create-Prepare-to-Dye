@@ -102,7 +102,7 @@ hash = "1d2f724d7226b52a4026480144f21216b48e04b36c989faf78e905ea3c2309bc"
 
 [[files]]
 file = "config/emi.css"
-hash = "055084d29b40c2607583d43223c534e18598d11255e4e647ae62a243c2f4b6aa"
+hash = "a325595f74b83713e5d4cfcca7a03a24611523f7d61872c5583fb7ac0db4cdb0"
 
 [[files]]
 file = "config/entityculling.json"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "a19ad30a0bc397405ca69c78961515511f53a7e621d89b4036a21c41babfdce0"
+hash = "6b0eee3a6c50c7ffd392098a7ed301926a7ca6b0c75d5a0071ea40c4ec18d7b9"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a1e5fa0082289173285e3ca01ae177b9ca6ac8c2e38737892960bb1e1f0b4dab"
+hash = "be4d35b97296226ba6410ac3edce9b7d891e52ff993d47f2ea4ab73bcf68e491"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -1138,7 +1138,7 @@ hash = "7f9eda3b285e1dd0bea712e5bcbdc2a42e829efdde23d28d4ea9ff537006b25a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
-hash = "9ad048c559c42e3306c71b5ca3d772eafe75ef4f9ecab2e4aa77a33326563732"
+hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
@@ -1578,7 +1578,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5ae8ad5b7b6d389258477b30a9f5c22fce6c304a21bf38989fbbe64b7e624cb1"
+hash = "263428a5c3250a83cccdb48d2df78e2b7c187e33ad731accb324867633d68cdf"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1779,6 +1779,10 @@ hash = "0a43175843162ef16ed461e1a851e8cf3c59a683280b7dd3ddc6910de4b34899"
 [[files]]
 file = "modpack-update-checker/versions/1.88.1/changelog.txt"
 hash = "5d50fb89c8f882f522e07ca7744e217a12dfa22391e57b2d2b505cabf5fe83d9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.88.2/changelog.txt"
+hash = "db9ac4e8df6c8555c475d841e3d5a7e3212bd5d1383de958d9a8761f36ebc549"
 
 [[files]]
 file = "modrinth banner white.png"

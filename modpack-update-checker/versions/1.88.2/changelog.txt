@@ -1,0 +1,13 @@
+### [1.88.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.1...1.88.2) (2023-11-26)
+
+
+### Documentation and Localization
+
+* fix missing botania generated tooltips for flowers shulkMeNot, bellethorn, dreadthorn ([c6bb210](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c6bb21016545454beb589528d61e21e8cd244033))
+
+
+### Minor tweaks
+
+* increase right sidebar default size by a bit ([08b89dc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/08b89dc9a44a089dd980a717b88bb5af0cac51c8))
+
+
