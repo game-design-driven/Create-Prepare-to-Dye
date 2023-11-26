@@ -1,0 +1,8 @@
+### [1.88.11](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.10...1.88.11) (2023-11-26)
+
+
+### Minor tweaks
+
+* compensate toastonrye for lost cell ([495a190](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/495a190ed38db095608aea8c1e2e140bcfaaaf19))
+
+
