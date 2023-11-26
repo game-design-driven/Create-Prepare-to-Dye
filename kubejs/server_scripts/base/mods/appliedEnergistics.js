@@ -54,7 +54,7 @@ if (feature('Quartz recipes')) {
 }
 
 if (feature('ae2 recipes')) {
-    addShapeless(Item.of('ae2:energy_cell', '{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}'), ['9x create:polished_rose_quartz'])
+    addShapeless(Item.of('ae2:energy_cell', '{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}'), ['4x create:polished_rose_quartz'])
     addShaped('4x ae2:fluix_smart_cable', [
         'PPP',
         'RRR',
