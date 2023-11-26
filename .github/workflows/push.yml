@@ -76,7 +76,7 @@ jobs:
 
           
           mkdir versions/${{ needs.tag_and_release.outputs.new_tag }}
-          echo ${{ needs.tag_and_release.outputs.changelog }} > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
+          echo "${{ needs.tag_and_release.outputs.changelog }}" > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
           
           cd ../config
           echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
