@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2a9dce62cef67b4329377e808710982e15c9d2bee28d9c8ea0b29071635693a9"
+hash = "f81fefa42a6a9d8db2c1e4cbf7526143abba01da45694903a6042085ae5559a4"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "213b9703deba24d66cdb41188ecbd52430da47bbee2191e75dc76e76bceccdd0"
+hash = "cae66441b97c23798f1c6c136035d908c5f16a7f6de3954cea5b34f99410da2a"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1546,7 +1546,7 @@ hash = "561a42ce72cf0011daefe42da66cbe4667665e2de9f9b1a8d8176ba3cf813d47"
 
 [[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
-hash = "63615a3fb9bd386697ee8aeb9d9f76d36fd78774a7da9fdf9933a76baed98518"
+hash = "016e59b92fdba4ca483fa1491b4356382d6042226a4a75aec9da384dd5594f74"
 
 [[files]]
 file = "kubejs/startup_scripts/features.js"
@@ -1578,7 +1578,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cf545524e64e34ca515cf8e1fa8b83a54d449f29ed903a60cccc88e3519544a7"
+hash = "98a8dd56ba271f6e6f24dc27900aebabc862ef455b25d1c6ccff756a064a363d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1815,6 +1815,10 @@ hash = "aa6279513a0173599dec80760d6d3d2a82c66da9de4486cb1965438f10feab67"
 [[files]]
 file = "modpack-update-checker/versions/1.88.9/changelog.txt"
 hash = "cf8b87dd7b2262bbc9de9aee86e3ff47ba957ca44c0902e771bcce127f60788e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.89.0/changelog.txt"
+hash = "ecf1a0c73d38e3c043922c764e92a99ebf7eba9416e984c43373cc956ea079b8"
 
 [[files]]
 file = "modrinth banner white.png"
