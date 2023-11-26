@@ -190,3 +190,7 @@ if (feature('Remove enchanting table')) {
 if (feature('Remove end portal')) {
     removeItem('minecraft:end_portal_frame')
 }
+
+if (feature('Endstone from cheese')) {
+    addCompacting('end_stone', '9x kubejs:fermented_blob', temperature.heated)
+}
