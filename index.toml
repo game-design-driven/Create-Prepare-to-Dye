@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4848ef2c59311075acee7a6f41536a443f0c6324c6f3e23b3189a5e280e6dc8b"
+hash = "1125b29d0987bd13b3d63b61f6333257345bd520384ec610c6354380647c5c1b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -330,7 +330,7 @@ hash = "66bbef3dd895941e28db52d85ef5e8a1ecda6dc26377a47ff6dc623ece2f73fa"
 
 [[files]]
 file = "config/rubidium-options.json"
-hash = "083d7be81f1036b7aa6fdd44cdede091f004736363b7c3c74d7db0a928191000"
+hash = "1b3c4659f2f879945a8fe66cbcca081cc2fee98f40840ca8a81417f9449ff0ad"
 
 [[files]]
 file = "config/salt-client.toml"
@@ -1049,6 +1049,30 @@ file = "kubejs/assets/ponder/terra.nbt"
 hash = "1aa2f733711cd09d655026a238ebd359e7694091bedd0c2a2c47ce395b99d7e4"
 
 [[files]]
+file = "kubejs/assets/ptdye/models/block/upside_down_fire.json"
+hash = "a46781db961500e985af8d24b57a3c4bd6c0a160e56fb57b79337058fa93327d"
+
+[[files]]
+file = "kubejs/assets/ptdye/sounds.json"
+hash = "93bbaf8c1e145867809e246f4d9c48ba7097842315c2ced46dce39f38be589d3"
+
+[[files]]
+file = "kubejs/assets/ptdye/sounds/trading_platform_request.ogg"
+hash = "40ad902d06b1befdc4deafbce02a1f23d4a9daecdc61a47481248f253196929f"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/upside_down_fire.png"
+hash = "78591773fa5442587e5f0ccf2ba237b4e3597348b4fa1d0a8dd075e877aaade1"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/upside_down_fire.png.mcmeta"
+hash = "3aa19621a27576418f766365fc8c57d6c35a65cf1a6d16668db6fc1648a0496b"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/item/trading_transceiver.png"
+hash = "1f44307af908cd4a8f1cf725a78024578b91a53699f61d1019723a2bfaec93a6"
+
+[[files]]
 file = "kubejs/assets/quark/lang/en_us.json"
 hash = "fe6d8d83b46d310b5be6253fad1cc7489707e7e7278e6329d732c1b1480287e0"
 
@@ -1062,7 +1086,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "22102b0d30d2ecd01667ab736f277ccc431e403bc908a8cb4d237c3766fddb84"
+hash = "7fdf5c36831cfebdd46f6a9997db6b93e8695f5337a7ce00b12ad7bc22bb7e7e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1163,6 +1187,10 @@ hash = "f161e50a0ae18331f9b021097546971afa24130f3e18328eda54635d511ffc8a"
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
 hash = "fcef5d3318d7e2119f624e9de2a6533bb51ea108c13e5474a8a91ebde5333cec"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips/ptdye.js"
+hash = "bfb75999914294ac3b9ef93d4b2465a7aed474a10ecebc4c9497c2129227a19a"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1530,7 +1558,19 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "870b50874b6888b06b28b1a4d3aadd7ea2317af80ef244eace7ec87ea4a089ed"
+hash = "d25af5f900e4c59a3f494a4d001f1e23024863871c70b1c7ddabd7734c727f81"
+
+[[files]]
+file = "kubejs/server_scripts/base/trading/platform/animate.js"
+hash = "05ab16e7873d80cb2a2d419df37a307dee467658165003ab46d68f4289deb417"
+
+[[files]]
+file = "kubejs/server_scripts/base/trading/platform/pilot_names.js"
+hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
+
+[[files]]
+file = "kubejs/server_scripts/base/trading/platform/spawn.js"
+hash = "2bde0cb90f43b6c617c455aba6401a32ce53c066c4be967ed9bfdb0e98cf1ae6"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1597,12 +1637,16 @@ file = "kubejs/startup_scripts/stacksizes.js"
 hash = "287c5a077a526fa4bb4527e976ed824eb99da6c89b069817b3ed97c05150ba27"
 
 [[files]]
+file = "kubejs/startup_scripts/trading.js"
+hash = "7b5d8bd0fca084e4efd335d3959ed75108ae32e26e8c39cf81d1bf734a010e3e"
+
+[[files]]
 file = "kubejs/startup_scripts/worldgen.js"
 hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "16190b50fb0096a46c12d76b457a0e7e445c620a181455a902dacf0e0251d4ae"
+hash = "b3e6efec0bc0a33f2938236f81cc98f69ea8fb0c1cf9f60d888bb255a4a48d17"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1875,6 +1919,10 @@ hash = "ba640f3643b4f8828f3550781be4930a9870a86001812971b6e181a97700848c"
 [[files]]
 file = "modpack-update-checker/versions/1.92.0/changelog.txt"
 hash = "bf76cdeb359076c8c8d55b4018fb86b95930b632b552a306148e2e2112ff1090"
+
+[[files]]
+file = "modpack-update-checker/versions/1.92.1/changelog.txt"
+hash = "27225ebed9826e4108b4debd7f48ec5e9dbcdef4a1e1a3280054ffc6b9522243"
 
 [[files]]
 file = "modrinth banner white.png"
