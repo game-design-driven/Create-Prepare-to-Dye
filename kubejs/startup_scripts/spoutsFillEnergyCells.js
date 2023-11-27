@@ -1,15 +1,10 @@
 function fillBattery(block, amount) {
   amount = amount || 2500;
   let currentEnergy = block.entityData.internalCurrentPower;
-  // block.mergeEntityData({
-  //   internalCurrentPower: currentEnergy + amount,
-  // });
-  // block.set("minecraft:air");
-  block.level.runCommandSilent(
+  Utils.server.runCommandSilent(
     `/setblock ${block.x} ${block.y} ${block.z} minecraft:air`
   );
-  //200000.0
-  block.level.runCommandSilent(
+  Utils.server.runCommandSilent(
     `/setblock ${block.x} ${block.y} ${
       block.z
     } ae2:energy_cell[fullness=4]{ForgeCaps:{},internalCurrentPower:${
