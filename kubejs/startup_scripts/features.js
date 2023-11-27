@@ -1,15 +1,10 @@
-// priority: 100
-global.features = new Map();
-global.functions = {}
-global.feature = (name) => {
-    if (global.features.has(name)) {
-        return global.features.get(name);
-    }
-    return true //all features enabled by default
+//priority:100
+function feature(name) {
+    return global.feature(name)
 }
-global.disableFeature = (name) => {
-    global.features.set(name, false)
+function disableFeature(name) {
+    global.disableFeature(name)
 }
-global.enableFeature = (name) => { //don't see why you do this as they are all enabled by default
-    global.features.set(name, true)
+function enableFeature(name) { //don't see why you do this as they are all enabled by default
+    global.enableFeature(name, true)
 }
