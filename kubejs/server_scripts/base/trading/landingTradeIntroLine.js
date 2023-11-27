@@ -345,7 +345,7 @@ const sssHelmetsFixedRates = getAgreement({
   message:
     "Amazing! It's so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
-global.starterDeals = [bcfPlates, mlcSand, bhbCheese];
+const starterDeals = [bcfPlates, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlatesOld]);
 tradeBranch(bnwManasteel, bnwRedstone);
@@ -373,7 +373,7 @@ ServerEvents.commandRegistry((event) => {
   } = event;
   event.register(
     Commands.literal("starterDeals").executes((context) => {
-      global.starterDeals.forEach((deal) =>
+      starterDeals.forEach((deal) =>
         context.getSource().getPlayer().give(deal.item)
       );
       return 0;
@@ -381,7 +381,7 @@ ServerEvents.commandRegistry((event) => {
   );
   event.register(
     Commands.literal("starterDealCompleted").executes((context) => {
-      global.starterDeals.forEach((deal) =>
+      starterDeals.forEach((deal) =>
         context.getSource().getPlayer().give(deal.completedItem)
       );
       return 0;

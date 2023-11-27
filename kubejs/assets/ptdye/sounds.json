@@ -1,9 +1,0 @@
-{
-    "trading_platform.transceiver.use": {
-      "sounds": [
-        "ptdye:trading_platform_request"
-      ],
-      "subtitle": "Transceiver sending message"
-    }
-  }
-  
