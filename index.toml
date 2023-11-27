@@ -1862,6 +1862,11 @@ hash = "aff5d172f2ef0d9f9a8e2ce00d5fcc864cafb15dc929d9e95e5d08e295fe7258"
 metafile = true
 
 [[files]]
+file = "mods/building-wands.pw.toml"
+hash = "fbac1901d0c87f39d45b8fa511b95c02ced83365e508f09db8aab150e9310b25"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "51adcde508750e16669128678ff4b731d71ac07dd87705b00278ef9df13cc52c"
 metafile = true
