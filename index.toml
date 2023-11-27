@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "dd2c68f770f6f376ecb79b54467b85daceb1252d62d6e0de5e1a9e7c556788d3"
+hash = "fbc92dda12d680df4cb964114b1e1069b5133114ee95d7607a58e67bf6dcdcb7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1086,7 +1086,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "6a4d66627181685b86ace241830ec1d84b9a4b06e9f7850a23672e95e49dd84e"
+hash = "e651381d7a40bdca976af2ebc643bd93a0b3d9ff0221ec430282f140a4cab6a6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1190,7 +1190,7 @@ hash = "fcef5d3318d7e2119f624e9de2a6533bb51ea108c13e5474a8a91ebde5333cec"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
-hash = "c05e54ad8dd463e92af7d1ea5d0a48aaa658787e22b4b553efa351ec628d5c40"
+hash = "0536b3950f24479f3e3dc11588448f05d0cdc523c962cc01b2101b450d317624"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1310,7 +1310,7 @@ hash = "cccef32bc8a5bad284752caeb33bb613d9d0f834d19d6a64b2814b23187879b8"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_betsy_wreck.nbt"
-hash = "d71da9d82b176ecabbc07487717e2faa4826e429829f119210aec75e82efa80e"
+hash = "cfc2245620504e43679f216bba4cb3d0e8edeefc8ea3f9eda1938a270b27fffc"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_pure_daisy_wreck.nbt"
@@ -1318,7 +1318,7 @@ hash = "15ddd76f770f804d39edae58a2dc06e719d52de6339497f0f30363c8656aad03"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_resources_wreck.nbt"
-hash = "83e4d9aacea88fd059c24b2bb2f315289c93d6f1a335958e16237c0e13cf02b8"
+hash = "1c4663cfcf6ba46b537e4e9a9d8827d71604db0be1525297230ea86555f0d52f"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_wreck_main.nbt"
@@ -1646,7 +1646,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "962c1f4b8f4fc2e95446c095b50d1469d12496510f89b3c6e07d492365ce1a3f"
+hash = "ad1dbcca7a0827c4c00ae3b0b96c075191d3e8ca57e014d05d4f96fc77eb4518"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1931,6 +1931,10 @@ hash = "d80acbcc48dc67f5008fadf4dc020a47301ddffd224a4b6706d2b712e4fbe29c"
 [[files]]
 file = "modpack-update-checker/versions/1.92.3/changelog.txt"
 hash = "488fbb609f34e96658700cfe4723d24841d5c122ac046a230026e7bfc1cc65c1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.92.4/changelog.txt"
+hash = "88e3b5cd12adfa5233222cc2ba1d2c1919945c2d38d763659dc13be3f07bc56f"
 
 [[files]]
 file = "modrinth banner white.png"
