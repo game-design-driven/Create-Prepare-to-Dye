@@ -18,6 +18,20 @@ let wrenchables = [
     'minecraft:shulker_box',
     'minecraft:barrel',
     'minecraft:loom',
+    'minecraft:cartography_table',
+    'minecraft:smithing_table',
+    'minecraft:grindstone',
+    'minecraft:lectern',
+    'minecraft:stonecutter',
+    'minecraft:campfire',
+    'minecraft:blast_furnace',
+    'minecraft:smoker',
+    'minecraft:brewing_stand',
+    'minecraft:beacon',
+    'minecraft:anvil',
+    'minecraft:chipped_anvil',
+    'minecraft:damaged_anvil',
+    'minecraft:bell',
 ]
 ServerEvents.tags('block', event => {
     wrenchables.forEach(block => {
