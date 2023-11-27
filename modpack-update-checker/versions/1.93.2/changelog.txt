@@ -1,0 +1,8 @@
+### [1.93.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.93.1...1.93.2) (2023-11-27)
+
+
+### Minor tweaks
+
+* add even more devices to wrench list! ([7636f87](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7636f871115456e2f662072fa8c6dc88d8c97c17))
+
+

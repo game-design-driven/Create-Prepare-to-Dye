@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4fe7641a0ab4332eb0c4f692403f0ad38c3aa00317f08f114c13f2ade03f0fe5"
+hash = "127d39009ea38658bbe79afb81f386e98e2df7e22a8fc9c05f8639800ad7dbc6"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1077,6 +1077,14 @@ file = "kubejs/assets/quark/lang/en_us.json"
 hash = "fe6d8d83b46d310b5be6253fad1cc7489707e7e7278e6329d732c1b1480287e0"
 
 [[files]]
+file = "kubejs/assets/quark/textures/block/crate.png"
+hash = "15bb5103fecfee05e1d2acee45d44f6532d7fdbdc6884b727db7bc99885f08bf"
+
+[[files]]
+file = "kubejs/assets/quark/textures/block/crate_open.png"
+hash = "605beac9ef890afb85395af06cead814babfd9436342cadefa7a6bcd63cc51d3"
+
+[[files]]
 file = "kubejs/assets/quark/textures/block/raw_iron_bricks.png"
 hash = "2e2976fbd321fe9f6bcdf36b344975c6955b62ec28e3a3784620dd14c58a92dd"
 
@@ -1086,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "bbac2275ed8debabd98fadf1dcf2b8084669b98ff5827914500cb4b86b95b166"
+hash = "beeff05f967ed39761bd36645bd1417847a1be055610bea131b243b5137ba802"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1182,7 +1190,7 @@ hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "f161e50a0ae18331f9b021097546971afa24130f3e18328eda54635d511ffc8a"
+hash = "013277038fd066b0b67e5242c52407a9dc2b73c7535456945799be4cbbe7119a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
@@ -1414,7 +1422,7 @@ hash = "f41a7c6423f18d191f041e94c145e523c7bfb6b11b8e39b4e624e0e12c479f17"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/mill_crush.js"
-hash = "8f8afe07d3a1409eb513498a6fd95cc5ec228843dca609e49be9e2135d74c632"
+hash = "75ba7431a904d842b9baa8e661827f0741ed6a989d2e7b355cb9b7e87d8a2a32"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/monsterFertilizer.js"
@@ -1429,12 +1437,16 @@ file = "kubejs/server_scripts/base/featrues/quartzAutomation.js"
 hash = "a6866fd3e5f0172435a3bc1c848d31fa3f481c01046b7f33977ed04ef7f54925"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/recycling.js"
+hash = "429cb6ca0da565444528b478593549b4a5425530eb8ae9e72c99bc6266ec2011"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
 hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "da2a2dab1ce4713b21685aefba220b4ea774220430f2b798cee915cbd7b1e485"
+hash = "596cb1b6feede96ebeaa24fc2f9e1c330360655c9c3b24d1510561028ee5e155"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1469,6 +1481,14 @@ file = "kubejs/server_scripts/base/featrues/villagers.js"
 hash = "4eb33c95d78bb0062cee70079f526a1bc74a16f34c1e65b604be3b24569ee02e"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/wood.js"
+hash = "775f5e2bfb4cdc6fb344d6b20ee1d77062493ce45fd6a69eb3b3c64ea198449f"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/wrenchDoesMore.js"
+hash = "c11062dc7eada300bfbc846b3502dd2f31876f0369bcb4278b5f754863a1d139"
+
+[[files]]
 file = "kubejs/server_scripts/base/features.js"
 hash = "a2d4aa8d0c16d316e937fd74ba18d28b3ad566e56c52f94920a91097f638c39e"
 
@@ -1490,7 +1510,7 @@ hash = "2e86b9ecb51c17a3d7dc32e2a7eb25a5a20740c5ccb101c023c0274802ab063d"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "73789ecb5d9539f2f584bdf0c98bf9ec0ff6039e861f07492beaf8c791634e09"
+hash = "748c889315e4e7be294bcf99a0c7041f8c0fff6d7e0993b7d646fe70124379d7"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -1502,7 +1522,7 @@ hash = "a402c09ae374868d61ef8a25148fd68ee500a4c5f42031041b079feffba83ec8"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
-hash = "b8bb6a9c85c34101e5041810f83fc3a805132bf4bd9d4c0f5122d8c30eb22afe"
+hash = "27dbb0c101e3f8580368be325061392a534f5f800a9c05ad3de6b59f920132bd"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/storageDrawers.js"
@@ -1597,6 +1617,10 @@ file = "kubejs/startup_scripts/agreementsDontDie.js"
 hash = "f0f8eca53b65ab2d4f9d99b202faff27ddf2c4ca00140848e848d88cb897b04b"
 
 [[files]]
+file = "kubejs/startup_scripts/blockCustomizations.js"
+hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
+
+[[files]]
 file = "kubejs/startup_scripts/blocks.js"
 hash = "c22e2d52588edbc9d781b6c81869489d91cdaaa2fb4badf75ea25ca257cf9f87"
 
@@ -1610,7 +1634,7 @@ hash = "561a42ce72cf0011daefe42da66cbe4667665e2de9f9b1a8d8176ba3cf813d47"
 
 [[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
-hash = "016e59b92fdba4ca483fa1491b4356382d6042226a4a75aec9da384dd5594f74"
+hash = "1a92bdd817429a3aabf49046b2a095be840090247638ac8c6e7503bd87360f38"
 
 [[files]]
 file = "kubejs/startup_scripts/features.js"
@@ -1646,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "94859be5ca387898e6e6e13c56d0100292ef01d0ffa7a93a9266199ad50c4bef"
+hash = "f28ab196e10b4ebaca51c033a0a211a5a66e9c91a745a1194f05bd221a5b71fa"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1943,6 +1967,10 @@ hash = "46ec2ab96eff5b9e72e0d847e4eaaf4850f9f9df73d6ad96a8da2b019fc6a7ac"
 [[files]]
 file = "modpack-update-checker/versions/1.92.6/changelog.txt"
 hash = "f5080e8ee23c49cfcc7f243bab0f5be6be1bbe229204d4dfaff8eba86b8a8861"
+
+[[files]]
+file = "modpack-update-checker/versions/1.93.2/changelog.txt"
+hash = "07eafd181cdd701fd098326a6dbb383304c09a26662de7a87cad7781647c5d97"
 
 [[files]]
 file = "modrinth banner white.png"
