@@ -3,3 +3,4 @@
 * text eol=lf
 *.png binary
 *.ogg binary
+*.nbt binary

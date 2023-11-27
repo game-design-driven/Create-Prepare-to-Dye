@@ -1,0 +1,8 @@
+### [1.92.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.92.2...1.92.3) (2023-11-27)
+
+
+### Minor tweaks
+
+* Improve trading platform transceiver tooltip ([0ef0274](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0ef027436cc3811499e53bb8b9facd026fd87a82))
+
+
