@@ -23,6 +23,8 @@ if (feature("Trading platforms")) {
 
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z}`);
 
+        event.cancel();
+
     })
 }
 
