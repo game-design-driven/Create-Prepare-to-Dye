@@ -3,8 +3,10 @@ const PLATFORM_SPAWN_RADIUS = 10;
 
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
+
+        event.cancel();
         
-        // event.item.count --;
+        event.item.count --;
         event.player.swing();
 
         let trade_items = global.starterDeals.map(deal => {
@@ -77,7 +79,6 @@ function spawnBaseContraption(event, spawn_coordinates, main_entity, items) {
 
 function generate_base_contraption_nbt(items) {
     let nbts = items.map((item, index)=> {
-        Utils.server.runCommand("say " + index);
         return getItemNBTWithSlot(item, index + 2);
     });
     let joined_nbts = nbts.join(",");
