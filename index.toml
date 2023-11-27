@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b801b95a9b45239d28f79eff15e3fbeacacd9d5cefb2aa1e4a1f08988b8bedf5"
+hash = "4fe7641a0ab4332eb0c4f692403f0ad38c3aa00317f08f114c13f2ade03f0fe5"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1086,7 +1086,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "edc8705bc147ff278d9cfd868a4319abf8b0d05d0c985e37bae5ff1211bc4bf8"
+hash = "bbac2275ed8debabd98fadf1dcf2b8084669b98ff5827914500cb4b86b95b166"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1318,7 +1318,7 @@ hash = "15ddd76f770f804d39edae58a2dc06e719d52de6339497f0f30363c8656aad03"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_resources_wreck.nbt"
-hash = "a06d074328455e183b8209368bbf0691fc3ad5e0d2af95d31861e05ca10d5306"
+hash = "ecf5bd2f61765bd251c4aae9c9c01fc2c495af8a290ed5b944d0abaaf001b80d"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_wreck_main.nbt"
@@ -1646,7 +1646,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d72691acffb4b39100602c7bfa78e10cbb91f53bc8889631f5bba1c6aa57108d"
+hash = "94859be5ca387898e6e6e13c56d0100292ef01d0ffa7a93a9266199ad50c4bef"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1939,6 +1939,10 @@ hash = "88e3b5cd12adfa5233222cc2ba1d2c1919945c2d38d763659dc13be3f07bc56f"
 [[files]]
 file = "modpack-update-checker/versions/1.92.5/changelog.txt"
 hash = "46ec2ab96eff5b9e72e0d847e4eaaf4850f9f9df73d6ad96a8da2b019fc6a7ac"
+
+[[files]]
+file = "modpack-update-checker/versions/1.92.6/changelog.txt"
+hash = "f5080e8ee23c49cfcc7f243bab0f5be6be1bbe229204d4dfaff8eba86b8a8861"
 
 [[files]]
 file = "modrinth banner white.png"
