@@ -299,3 +299,9 @@ if (feature('Recycle wrench')) {
   addCrushing('create:cogwheel %75', 'create:wrench')
 }
 
+if (feature('piston pole recipe')) {
+  addShaped('4x create:piston_extension_pole', ['i', 's', 'i'], {
+    s: 'stick',
+    i: '#forge:nuggets/iron'
+  })
+}
