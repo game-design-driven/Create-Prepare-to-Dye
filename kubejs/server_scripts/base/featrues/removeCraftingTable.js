@@ -102,9 +102,18 @@ if (feature("Remove crafting table recipes for devices")) {
   ];
   addToTag("forge:device/andesite", "create:andesite_casing");
   addToTag("forge:device/andesite", andesiteBasedDevices);
+
+  removeFromTag("forge:device/andesite", "create:vertical_gearbox")
+  removeFromTag("forge:device/andesite", "create:gearbox")
   
-  addShapeless('create:andesite_casing', '#forge:device/andesite')
   addShapeless('minecraft:stonecutter', "create:andesite_casing")
+  addShaped('create:gearbox',['a'], {
+    a:"create:vertical_gearbox"
+  })
+  addShaped('create:vertical_gearbox', ['a'], {
+    a:"create:gearbox"
+  })
+  
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/andesite");
