@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d25d1dc79bb62042cab29c44fc5c6e9568d356432efe436817b89160e56f89c8"
+hash = "3d0bb4c54d787144a80c8ce4b12401b325e6be67d6eb41fbae6baa4aa630197b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1058,7 +1058,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a9eb16e6f79a3726ffe114a0016f28f9aefef9076489b70af9489d9c241b4c04"
+hash = "fdd5f454556a13a541cfc6ac3d9217d2aad999ae8f81548d6b599ceb5228f7ea"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1570,7 +1570,7 @@ hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
 
 [[files]]
 file = "kubejs/startup_scripts/spoutsFillEnergyCells.js"
-hash = "d18dff4dfc52946ab321af427cc23455d2c812b519b45bd6cac0297fa9c5864a"
+hash = "5ee2912e642ed4c5bcfb06959cb999effadd234ec69383ed02eb685ea277edd2"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
@@ -1582,7 +1582,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "4e55ac880fb63b8f725fe30377e9ef48c52339a35680da42cbb9b4abc374a52d"
+hash = "45a874fcb81799977ecdf33cf99557316e8b9aa6de1244504321bc5108c9f59f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1827,6 +1827,10 @@ hash = "ecf1a0c73d38e3c043922c764e92a99ebf7eba9416e984c43373cc956ea079b8"
 [[files]]
 file = "modpack-update-checker/versions/1.90.0/changelog.txt"
 hash = "108edc28ea457d5a3d314dcf9382cc32ff7efa6ae66a9e40e06af97811177533"
+
+[[files]]
+file = "modpack-update-checker/versions/1.90.1/changelog.txt"
+hash = "16e963aceca2c25eb364d7434109f63e417ba55297e91852f7ed312a13849bf9"
 
 [[files]]
 file = "modrinth banner white.png"
