@@ -105,7 +105,7 @@ if (feature("Remove crafting table recipes for devices")) {
 
   removeFromTag("forge:device/andesite", "create:vertical_gearbox")
   removeFromTag("forge:device/andesite", "create:gearbox")
-  
+
   addShapeless('minecraft:stonecutter', "create:andesite_casing")
   addShaped('create:gearbox',['a'], {
     a:"create:vertical_gearbox"
@@ -158,6 +158,7 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     "create:display_link",
     "create:brass_tunnel",
     "create:brass_funnel",
+    'supplementaries:brass_lantern',
     "createdieselgenerators:diesel_engine",
   ];
   addToTag("forge:device/brass", "create:brass_casing");
