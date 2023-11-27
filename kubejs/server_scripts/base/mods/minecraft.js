@@ -87,10 +87,7 @@ if (feature('Bone recipes')) {
 if (feature('Bamboo recipes')) {
     addAlchemyRecipe('bamboo', 'sugar_cane')
 }
-if (feature('Rail recipes')) {
-    replaceShaped('8x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/iron', s: 'stick' })
-    addShaped('16x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/andesite_alloy', s: 'stick' })
-}
+
 if (feature('Crying obsidian recipes')) {
     // addBlockAnvil('crying_obsidian', 'obsidian')
 }

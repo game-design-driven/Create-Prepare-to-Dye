@@ -298,3 +298,4 @@ if (feature('nerf bonemeal from calcite')){
 if (feature('Recycle wrench')) {
   addCrushing('create:cogwheel %75', 'create:wrench')
 }
+
