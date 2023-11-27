@@ -1,0 +1,13 @@
+### [1.90.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.90.1...1.90.2) (2023-11-27)
+
+
+### Modlist related changes
+
+* add builders wands, formally MLC Land Sculptor 2k ([b034f18](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b034f18310bb2f8aadfc2a0cffdf0a9cec205794))
+
+
+### Fixes
+
+* typo in comment ([e10022d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e10022d35b47cbef0791f078cfab9f771320a9dd))
+
+
