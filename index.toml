@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e87ca06847549c8cbf0a046b11f38a4ef4dfd65d6da492305aa026e13aa654c6"
+hash = "dd2c68f770f6f376ecb79b54467b85daceb1252d62d6e0de5e1a9e7c556788d3"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1086,7 +1086,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b1998f82c0bf029236322363d2d3c2bc84794d4ca0ef6c7a9c8c28380e4e1062"
+hash = "6a4d66627181685b86ace241830ec1d84b9a4b06e9f7850a23672e95e49dd84e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1190,7 +1190,7 @@ hash = "fcef5d3318d7e2119f624e9de2a6533bb51ea108c13e5474a8a91ebde5333cec"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
-hash = "bfb75999914294ac3b9ef93d4b2465a7aed474a10ecebc4c9497c2129227a19a"
+hash = "c05e54ad8dd463e92af7d1ea5d0a48aaa658787e22b4b553efa351ec628d5c40"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1646,7 +1646,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d8b7a6a836281302debe5bea05799d839b5a1fcbe951a0a298cf65c0dbd77d4c"
+hash = "962c1f4b8f4fc2e95446c095b50d1469d12496510f89b3c6e07d492365ce1a3f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1927,6 +1927,10 @@ hash = "27225ebed9826e4108b4debd7f48ec5e9dbcdef4a1e1a3280054ffc6b9522243"
 [[files]]
 file = "modpack-update-checker/versions/1.92.2/changelog.txt"
 hash = "d80acbcc48dc67f5008fadf4dc020a47301ddffd224a4b6706d2b712e4fbe29c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.92.3/changelog.txt"
+hash = "488fbb609f34e96658700cfe4723d24841d5c122ac046a230026e7bfc1cc65c1"
 
 [[files]]
 file = "modrinth banner white.png"
