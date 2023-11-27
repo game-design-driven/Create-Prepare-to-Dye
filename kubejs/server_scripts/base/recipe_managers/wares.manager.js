@@ -82,7 +82,7 @@ function simple(items) {
       let nbt = item.toNBT();
       nbt.Count = item.count;
       if (typeof item_obj === "string" && item_obj.includes("#")) {
-        //supprt for tags
+        //support for tags
         if (item_obj.includes("x ")) item_obj = item_obj.split("x ")[1];
         let tag = (
           Ingredient.of(item_obj).values[0].serialize().get("tag") + ""
