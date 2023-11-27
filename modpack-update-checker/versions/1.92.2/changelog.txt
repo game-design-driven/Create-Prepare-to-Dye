@@ -1,0 +1,8 @@
+### [1.92.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.92.1...1.92.2) (2023-11-27)
+
+
+### Fixes
+
+* Small issues with requesting the trading platforms ([2809756](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2809756966a495bb26b59bd56a1df3ccf05a1018))
+
+
