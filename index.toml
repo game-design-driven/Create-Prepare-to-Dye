@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7b4fd89958c1d3b6a46a794e53f52a59efb37dce37ccbe033e25557eff7d550d"
+hash = "52b92e4289015df189e07e19910c9d388df70b35f283a16b09958b1594fa4be9"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "244a646d6c48d3f417732de12d7f31beadd4632bb6c9bfd7f7e349a4ecef1bb7"
+hash = "e21e40eb6a5b6db9899720ca0b38660ed3732eaba5e6a9daf1a55e1c700cac63"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1518,7 +1518,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "a402c09ae374868d61ef8a25148fd68ee500a4c5f42031041b079feffba83ec8"
+hash = "60d4b8ed3993bfe53a49a8ba85f56638856a82a4ed2005e18d9161e2e1552d21"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e76ee642ef177a4c128c4ec3a0de6de52b71ef4ac0faad5a6d63ca97399fd7e1"
+hash = "97b684d64335a58fa1602c3a346d9c9cad26a1136422858b671d7ce73dadefaf"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -2003,6 +2003,10 @@ hash = "2286850b8ad98efba6c5372df0340380514954d9f1a456c3b6a4fc7d6b6fd0ca"
 [[files]]
 file = "modpack-update-checker/versions/1.96.1/changelog.txt"
 hash = "678283885ca5d4228396ea351ffc05127912615b54e2c6a222b5707e32e7b5b5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.96.2/changelog.txt"
+hash = "ba8f9c7c11ef95b39dc2eaa4414650fe9263b6d979bd602e8c202c55e70e90f3"
 
 [[files]]
 file = "modrinth banner white.png"
