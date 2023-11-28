@@ -101,5 +101,9 @@
     "botania.subtitle.equipManasteel": "Blue armor clanks",
     "botania.subtitle.equipTerrasteel": "Green armor clangs",
     "botania.subtitle.terraBlade": "Green Sword activates",
-    "botania.subtitle.terrasteelCraft": "Green shines"
+    "botania.subtitle.terrasteelCraft": "Green shines",
+    "botania.entry.overgrowthSeed": "Overgrowth Seed",
+    "botania.tagline.overgrowthSeed": "Turns grass into enchanted soil",
+    "botania.page.overgrowthSeed0": "An $(item)Overgrowth Seed$(0) is an item that, when planted on $(item)Grass$(0), spells it into $(item)Enchanted Soil$(0). Flowers that are planted on this $(item)Enchanted Soil$(0) will function at twice their normal speed.",
+    "botania.page.overgrowthSeed1": ""  
 }
