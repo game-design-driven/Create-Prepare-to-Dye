@@ -114,6 +114,7 @@ if (feature("Remove crafting table recipes for devices")) {
     a:"create:gearbox"
   })
   
+  addShapeless('create:andesite_casing', '#forge:device/andesite')
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/andesite");
