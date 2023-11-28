@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "52b92e4289015df189e07e19910c9d388df70b35f283a16b09958b1594fa4be9"
+hash = "e60cd4c74c273e3613866d1746d8db9b39ae87791340a0e5515d51c3e8a8c8f4"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e21e40eb6a5b6db9899720ca0b38660ed3732eaba5e6a9daf1a55e1c700cac63"
+hash = "d2d7579f6618dc0a7f3548115b2111b5b7f192d5f7bac0ed6c6a7a2a575287bc"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1190,7 +1190,7 @@ hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "013277038fd066b0b67e5242c52407a9dc2b73c7535456945799be4cbbe7119a"
+hash = "7ebad74777687548d43341cf367f1e93639e32497442149e5653a4459fa2f0de"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
@@ -1446,7 +1446,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "c8e7017dc79a2d7e3a7bdc082ec58005edbdbadc05e5f16507b960df161db505"
+hash = "0126595761aadc072145b7154afddf7ac5cca59df244427580392b5d2786ad58"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1458,7 +1458,7 @@ hash = "718974627aa6290017541eb13834ac33456d85720b1af24d92916904ac2ab0b3"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/statusEffects.js"
-hash = "a517cd058aa271271c7e5d52be0f8e23a9cd5b4e469f43cdb11f17eb31ee7551"
+hash = "0bdedb1463325337883560f8a69a6ab3b7e253a55cacdaf152cb9d5553c04897"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/tools.js"
@@ -1502,7 +1502,7 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "c8c0b8aead1fa8e919e9216996a7a745d6300839944d721e59e651ffd26a58f2"
+hash = "e682748448f979344699d901574d2673644a4dc4b0d8fc140022a7952bd66513"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "97b684d64335a58fa1602c3a346d9c9cad26a1136422858b671d7ce73dadefaf"
+hash = "4a43de38d9618d8f2af167175b8a004c49b91aa4b3579f1cd39dd3783bd942d9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -2007,6 +2007,10 @@ hash = "678283885ca5d4228396ea351ffc05127912615b54e2c6a222b5707e32e7b5b5"
 [[files]]
 file = "modpack-update-checker/versions/1.96.2/changelog.txt"
 hash = "ba8f9c7c11ef95b39dc2eaa4414650fe9263b6d979bd602e8c202c55e70e90f3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.97.0/changelog.txt"
+hash = "bf93a42acc79e4bd43ed0fea14a5e49eb52a94cce9c83d0cef7abe59888d1030"
 
 [[files]]
 file = "modrinth banner white.png"
