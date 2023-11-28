@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4dd7b57e2ee60f4811db51bfa50cc789800f3278a290056db2efd373317a8e43"
+hash = "bda770de9282e85f099530a49b7fba4cdd1c8aed06d5483f4c9ea7715205663a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -546,7 +546,7 @@ hash = "c34fdb7a536cc1e19bfa5a02dc5917394a1028e18abe8e071451b54b2bfc2d40"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "fa6c003bff1e2227fbd9ebaa5d8b2b396c1528f3b36b1e1610c4f7713eff2a25"
+hash = "97df12ec7dde44e6e8bbc93f94463f6a7e4dd84699cd3f953454556bcd13fa8a"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5aae17a7af0259fd8a523d97098af3852637c7f86e7df5279eda6cdfec038541"
+hash = "92273b740c9ae775e946e49e14dcb90a48b677a9771fca08c86def23ff312b93"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1562,7 +1562,7 @@ hash = "b08cad190944586cd55c7e93a6f2a691a80e533828cfa72f5b91cc393b0bd479"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "df6fc88a43901ce1ed78c0796da669503bfcc41e6ca700c4cb9f270f8c05baac"
+hash = "4f9a667346fc293d6164d601ddfdd0f82dc07661b51063ca06fd3c08d8803310"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -1578,7 +1578,7 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "d25af5f900e4c59a3f494a4d001f1e23024863871c70b1c7ddabd7734c727f81"
+hash = "b83988dff169aec5e85bd43adfa41fb15d706738d431a8550d3dc21880664cea"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c49e2e5bd038940e4669bdada8163764c9cd82d8b53f4224d9d35a109f7248ba"
+hash = "6a098946972c9c15576829ea68f2ba6289c34836241bed42c91c0a862b9007c6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1979,6 +1979,10 @@ hash = "ec112a56fba38bb18e38713ca54d8f4d461178ddd62029231a9134d93f9e48c8"
 [[files]]
 file = "modpack-update-checker/versions/1.93.4/changelog.txt"
 hash = "32b36ab604b9c9bd1db19b59f7ce6f1085ad3ecb25c2a80561704210d3f592b5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.94.0/changelog.txt"
+hash = "936546a3e97b0a827780c09db7b67c4824a1c2ce7256e77f1fef8420e01f7933"
 
 [[files]]
 file = "modrinth banner white.png"
