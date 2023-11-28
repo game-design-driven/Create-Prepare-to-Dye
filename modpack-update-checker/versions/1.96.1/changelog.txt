@@ -1,0 +1,8 @@
+### [1.96.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.96.0...1.96.1) (2023-11-28)
+
+
+### Documentation and Localization
+
+* change clipboard pure daisy hint to be more direct ([d9ed6f9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d9ed6f9a96242b1088cbb2c9b730e5f421c54740))
+
+
