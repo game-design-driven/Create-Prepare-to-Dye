@@ -385,7 +385,9 @@ tradeBranch(
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch(bhbWheat, bhbCheese);
-tradeBranch([bhbWheat, wscBread], bhbCheese);
+tradeBranch([bhbWheat, wscAxes], bhbCheese);
+tradeBranch([wscBread], wscAxes);
+tradeBranch([wscBreadAndAxesFixed], wscBread);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheatOld);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
 tradeBranch(sssHelmetsFixedRates, sssHelmets);
