@@ -129,11 +129,6 @@ if (feature('Redstone from quartz')) {
     addMilling(['redstone %70', 'white_dye %5'], 'quartz')
 }
 
-if (feature('Sand recipes')) {
-    addItemApplication('sand', 'gravel', 'quark:hammer')
-    
-}
-
 if (feature('Dirt to sand')) {
     addMilling('sand %20', 'dirt')
     addCrushing(['sand %10', 'clay %10'], 'dirt')
