@@ -25,6 +25,7 @@ if(feature('Remove all uneeded things from ae2')){
         'ae2:large_quartz_bud',
         'ae2:quartz_crystal',
         'ae2:quartz_cluster',
+        'ae2:quartz_fiber',
     ];
 
     Ingredient.of('@ae2').itemIds.forEach(item => {
@@ -54,6 +55,15 @@ if (feature('Quartz recipes')) {
 }
 
 if (feature('ae2 recipes')) {
+    removeRecipe({ id: 'ae2:network/parts/quartz_fiber_part' })
+    addShaped('ae2:quartz_fiber', [
+        'qqq',
+    ], { q: 'minecraft:quartz' })
+    addShaped('ae2:quartz_fiber', [
+        'q',
+        'q',
+        'q'
+    ], { q: 'minecraft:quartz' })
     addShaped('ae2:storage_bus', ['cps'],{
         c: 'ae2:fluix_smart_cable',
         p: 'minecraft:piston',
