@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f338246b048c902f0636b449c09dd8131f8ba283f15be97e81014a6fd5191059"
+hash = "ef10bf0c72552137790f53834c8f4980464a039ecf7c9c0e536ed47235490d6d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -490,7 +490,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "51eaa752094ed38f3e9291f39a98bc99fedbd515f6f09d5fa76f74bb9753a653"
+hash = "1670e48fbe8ea03fb572d0cdff3c1fbbb3d8e4124918ed2c388e302a17ccc556"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "91bbfc33c04861c7ea62411fea976599622443fe2ad96d5e6a691db42f5b9ddf"
+hash = "e54f8fc408dcbd650c7e7f1951e1380d415e2f8724351bdd6e446f188966d794"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1506,7 +1506,7 @@ hash = "c8c0b8aead1fa8e919e9216996a7a745d6300839944d721e59e651ffd26a58f2"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "2e86b9ecb51c17a3d7dc32e2a7eb25a5a20740c5ccb101c023c0274802ab063d"
+hash = "6a8bc3af9987f1d6330445c49cfd42e22d36561811510cea663917eb8c1f9bbe"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b092068f85bcec721997cec8da4dec75d580d3c9d1e779c8f46ff82876dedb11"
+hash = "d5b7dea1473f3f728d9c1667e9fc2814b146bf3eea4ba624dd121c1dcde5a664"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1987,6 +1987,10 @@ hash = "936546a3e97b0a827780c09db7b67c4824a1c2ce7256e77f1fef8420e01f7933"
 [[files]]
 file = "modpack-update-checker/versions/1.95.0/changelog.txt"
 hash = "266f480712ca0e244c0828cb5986a0c8913bcaa7880306089ed89a0a07369003"
+
+[[files]]
+file = "modpack-update-checker/versions/1.95.1/changelog.txt"
+hash = "498eb44d8edde5381b4f7e2cf13d7b88820d59d90bdf7fd87b011ffed3e6de22"
 
 [[files]]
 file = "modrinth banner white.png"
