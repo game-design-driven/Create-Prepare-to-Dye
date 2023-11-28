@@ -20,7 +20,7 @@ if (feature("Trading platforms")) {
             spawnTradingPlatform(event.player, generatePilotName());
         }
         
-        Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z}`);
+        Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
         
         event.cancel();
 
