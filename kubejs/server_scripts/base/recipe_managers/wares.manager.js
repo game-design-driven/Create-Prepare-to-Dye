@@ -24,7 +24,7 @@ function getAgreement({
   if (orderedAmount === null || orderedAmount === undefined)
     orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
-  message = message.replace("'", ""); // remove single quotes from messages
+  message = message.replaceAll("'", ""); // remove single quotes from messages
   let seal = sealsThatHaveTextures.includes(company) ? company : "default";
   let companyTitle = Utils.snakeCaseToTitleCase(company);
 
