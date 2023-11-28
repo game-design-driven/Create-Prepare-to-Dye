@@ -182,7 +182,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "306d5d15c06b03a1ff6a97e8118fc641288c6f8aa18cead087b8aa3904a9020d"
+hash = "4b8f09de113115bed6a97255e98006968211aa1ddf9f3dab1ecff9db0d664c97"
 
 [[files]]
 file = "config/forgery/fscript.ini"
@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "141eb857232e1082994b9e3eeff6084b551e7a9ea8152548250c9b6fb709e2e6"
+hash = "1e9e533685670209038eabc4aff9cd90ad493e0e17b0e61774523a35e3e70448"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -378,7 +378,7 @@ hash = "80005a1cf2031905a812464edf119c4757b132ff127e4552968f1bd2c7d5381e"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "85819e47281470db1c6692ea43320458903b0fe47340e91c82cdd7c5a9ce0488"
+hash = "3252a8889a0db4b840d072034a98e38442b5116eb453c6a692a4ac76e997e7cc"
 
 [[files]]
 file = "config/toolkit-common.toml"
@@ -526,7 +526,7 @@ hash = "47460a2565ed4a3efe9faab2534b926ec79726a1005416e722a079093af0717b"
 
 [[files]]
 file = "kubejs/assets/createdieselgenerators/lang/en_us.json"
-hash = "dab842ff3b18ad95ef0e700df149f62c6a9e89950e5c9249b6aef38b885b60d9"
+hash = "4120646ff98fa9624154982e3ca530c3e5109e3b97762564ca315a80217f432c"
 
 [[files]]
 file = "kubejs/assets/createdieselgenerators/sounds.json"
@@ -542,7 +542,7 @@ hash = "1de35cc517326b82b578e2af6ee55f870d395041115626355917f7427b7c706a"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
-hash = "c34fdb7a536cc1e19bfa5a02dc5917394a1028e18abe8e071451b54b2bfc2d40"
+hash = "ce6c2b1a99787ac0df4bdf717144f67af2dc3ed8356bbf8115f8328be5c4c261"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d614f42d8e5f6c0dc6e9cc83b9fd2d2369b137f91d9601fbde742d6884679963"
+hash = "a540a2d6fc50dbabb03a275b71546ae919168df8d7bcf49d10c1cee90e65707d"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "8bc4c1d488a4c0f548e85b1cde5ed78cc89d252371d22ebe2008f731a812ec3c"
+hash = "7cb2fc5f3c5c67c612ef615767293935a8e56903d63a848caf36aefd642ed175"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1995,6 +1995,10 @@ hash = "498eb44d8edde5381b4f7e2cf13d7b88820d59d90bdf7fd87b011ffed3e6de22"
 [[files]]
 file = "modpack-update-checker/versions/1.95.2/changelog.txt"
 hash = "450a16e10a1f45429fbec3435f16edaeeaff34975425334613b8e6611a9a71ae"
+
+[[files]]
+file = "modpack-update-checker/versions/1.96.0/changelog.txt"
+hash = "2286850b8ad98efba6c5372df0340380514954d9f1a456c3b6a4fc7d6b6fd0ca"
 
 [[files]]
 file = "modrinth banner white.png"
