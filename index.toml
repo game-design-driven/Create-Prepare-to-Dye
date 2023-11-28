@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "bda770de9282e85f099530a49b7fba4cdd1c8aed06d5483f4c9ea7715205663a"
+hash = "f338246b048c902f0636b449c09dd8131f8ba283f15be97e81014a6fd5191059"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -462,7 +462,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
-hash = "8124566c745b491da7199950f6687b5374fbdd39ce9fdbfe540ad8aeec22315f"
+hash = "7f83e8a14b7a03e06c2bd44989ee8c5008378cb9365af889012dd90a21e26d10"
 
 [[files]]
 file = "kubejs/assets/ae2/textures/block/energy_cell.png"
@@ -1094,7 +1094,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "92273b740c9ae775e946e49e14dcb90a48b677a9771fca08c86def23ff312b93"
+hash = "91bbfc33c04861c7ea62411fea976599622443fe2ad96d5e6a691db42f5b9ddf"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1294,7 +1294,7 @@ hash = "b7f3bc75a21b573b794a4c9f747ba0de8d099c1f35e26e9d5a2f3900425bfe84"
 
 [[files]]
 file = "kubejs/data/ae2/loot_tables/blocks/quartz_block.json"
-hash = "f96e9c7f3abc52efd0e1f93a2a1d7e5beceb685a8600a59ffc7b1ba3ba0d1bd7"
+hash = "4daf955c5936a7236bdd33aff90aa9526e783f8c8d72b731d543b30a125a0a6e"
 
 [[files]]
 file = "kubejs/data/ae2/loot_tables/blocks/quartz_cluster.json"
@@ -1578,7 +1578,7 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "b83988dff169aec5e85bd43adfa41fb15d706738d431a8550d3dc21880664cea"
+hash = "8b12f30d25c050d6d37111252744207a37e11a5893bafcc333d7487ddefa24f0"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -1670,7 +1670,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "6a098946972c9c15576829ea68f2ba6289c34836241bed42c91c0a862b9007c6"
+hash = "b092068f85bcec721997cec8da4dec75d580d3c9d1e779c8f46ff82876dedb11"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -1983,6 +1983,10 @@ hash = "32b36ab604b9c9bd1db19b59f7ce6f1085ad3ecb25c2a80561704210d3f592b5"
 [[files]]
 file = "modpack-update-checker/versions/1.94.0/changelog.txt"
 hash = "936546a3e97b0a827780c09db7b67c4824a1c2ce7256e77f1fef8420e01f7933"
+
+[[files]]
+file = "modpack-update-checker/versions/1.95.0/changelog.txt"
+hash = "266f480712ca0e244c0828cb5986a0c8913bcaa7880306089ed89a0a07369003"
 
 [[files]]
 file = "modrinth banner white.png"
