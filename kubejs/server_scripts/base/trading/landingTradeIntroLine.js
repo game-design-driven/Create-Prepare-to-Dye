@@ -133,6 +133,33 @@ const bhbWheat = getAgreement({
   message:
     "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
 });
+const wscAxes = getAgreement({
+  paymentItems: ["16x minecraft:oak_log", "minecraft:chest", "4x storagedrawers:oak_full_drawers_1"],
+  requestedItems: ["16x #forge:tools/axes"],
+  title: "A new season is upon us, Tools needed",
+  orderedAmount: 1,
+  company: "wood_strike_and_co",
+  message:
+    "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top-notch, but we're short a few axes. Need more to chop-chop as fast as a moose on a ski slope. Can you help us out?"
+});
+const wscBread = getAgreement({
+  paymentItems: ["8x minecraft:birch_log", "minecraft:chest", "4x storagedrawers:oak_full_drawers_1"],
+  requestedItems: ["64x minecraft:bread"],
+  title: "Food needed for the workers",
+  orderedAmount: 2,
+  company: "wood_strike_and_co",
+  message:
+    "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well"
+});
+const wscBreadAndAxesFixed = getAgreement({
+  paymentItems: ["8x minecraft:birch_log"],
+  requestedItems: ["64x minecraft:bread", "16x #forge:tools/axes"],
+  title: "Food and tools, fixed rates",
+  orderedAmount: 0,
+  company: "wood_strike_and_co",
+  message:
+    "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well-fed. We're thinking long-term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration"
+});
 const bhbFurnaces = getAgreement({
   paymentItems: [
     "8x minecraft:clay",
@@ -358,6 +385,7 @@ tradeBranch(
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch(bhbWheat, bhbCheese);
+tradeBranch([bhbWheat, wscBread], bhbCheese);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheatOld);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
 tradeBranch(sssHelmetsFixedRates, sssHelmets);
