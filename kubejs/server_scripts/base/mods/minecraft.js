@@ -186,3 +186,8 @@ if (feature('Remove end portal')) {
 if (feature('Endstone from cheese')) {
     addCompacting('end_stone', '9x kubejs:fermented_blob', temperature.heated)
 }
+
+if (feature('Item frame recipes')) {
+    addShaped('item_frame', ['###', '#s#', '###'], { '#': '#stick', s: '#forge:silicon' })
+    addShaped('item_frame', ['###', '#s#', '###'], { '#': '#stick', s: 'minecraft:dried_kelp' })
+}
