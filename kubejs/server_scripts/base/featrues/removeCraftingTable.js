@@ -145,10 +145,9 @@ if (feature("Remove crafting table recipes for devices")) {
     "supplementaries:spring_launcher",
   ];
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
-  addToTag("forge:device/cobbestone", cobblestoneBasedDevices);
+  addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addShapeless('minecraft:stonecutter', "create:cobblestone_casing")
-
+  addShapeless('minecraft:stonecutter', "ptdye:cobblestone_casing")
   addShapeless('ptdye:cobblestone_casing', '#forge:device/cobblestone')
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
