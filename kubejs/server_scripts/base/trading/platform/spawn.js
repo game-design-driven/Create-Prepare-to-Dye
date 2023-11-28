@@ -4,15 +4,14 @@ const PLATFORM_SPAWN_RADIUS = 10;
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
-        event.cancel();
         
         event.item.count --;
         event.player.swing();
-
+        
         let trade_items = global.starterDeals.map(deal => {
             return deal.item;
         });
-
+        
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
             Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
             spawnTradingPlatform(event.player, "Oculus the Wise", trade_items);
@@ -20,8 +19,10 @@ if (feature("Trading platforms")) {
         else {
             spawnTradingPlatform(event.player, generatePilotName());
         }
-
+        
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z}`);
+        
+        event.cancel();
 
     })
 }
