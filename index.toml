@@ -2252,6 +2252,11 @@ hash = "c90d1f76411f74e449eb7a170406303b8106b743e45d1dbb6641fd4e6f2702cd"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+hash = "51edae73d022e37e5cc3b535a1712648ff5c0d1c3afe8464b498e71908100623"
+metafile = true
+
+[[files]]
 file = "mods/probe-js.pw.toml"
 hash = "ad45afb1602ab206ec58746dec6bdf7a408211910f6d914904c9f6ad68b8776c"
 metafile = true
