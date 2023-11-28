@@ -1,4 +1,5 @@
 name: Release Pipeline
+concurrency: release-pipeline
 # credit to mc-modpack-kit for the template
 on:
   push:
@@ -36,6 +37,7 @@ jobs:
           tag_prefix: ''
           custom_release_rules: "dev:patch:Developer experance improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
           github_token: ${{ secrets.GH_TOKEN }}
+
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:

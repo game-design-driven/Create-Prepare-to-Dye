@@ -1,0 +1,8 @@
+## [1.98.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.97.1...1.98.0) (2023-11-28)
+
+
+### Features
+
+* add item frame recipes ([da7cd4d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/da7cd4de58f3b9012b876ab4b20331bec0433a6c)), closes [#328](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/328)
+
+

@@ -1,0 +1,24 @@
+## [1.96.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.95.2...1.96.0) (2023-11-28)
+
+
+### Features
+
+* disable chain exploding creepers. Was cool but doesn't add much ([7bf3541](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7bf35411c0b7417e580d2cee7a47d90ee9ebc4b3))
+
+
+### Documentation and Localization
+
+* change jei categories to be in order of relevence to early game ([aec1bbc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aec1bbc6f9b8e1815de6dbf7ad8f78cf652e4571))
+* rename basic lid to Fermentation basin lid ([86ad2a5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86ad2a5a7c2efc43b6c2e1c2243eeb843421500a))
+
+
+### Minor tweaks
+
+* disable way sign from supplementaries ([919bb35](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/919bb3520c5b9a00795b02dca0840b8b683c5e87))
+
+
+### Continuous Integration
+
+* releases can only go one at a time ([21dc157](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/21dc1573d1027c03fa94fd244df2cea75a949ba8))
+
+

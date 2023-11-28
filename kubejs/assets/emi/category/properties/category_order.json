@@ -2,6 +2,18 @@
   "create:item_application": {
     "order": -100
   },
+  "createdieselgenerators:basin_fermenting": {
+    "order": -90
+  },
+  "botania:pure_daisy": {
+    "order": -80
+  },
+  "create:spout_filling": {
+    "order": -70
+  },
+  "create:mixing": {
+    "order": -60
+  },
   "minecraft:smelting": {
     "order": 100
   }

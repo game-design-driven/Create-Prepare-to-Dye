@@ -372,8 +372,37 @@ const sssHelmetsFixedRates = getAgreement({
   message:
     "Amazing! It's so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
-global.starterDeals = [bcfPlates, mlcSand, bhbCheese];
+const cccRawWhite = getAgreement({
+  paymentItems: ['16x minecraft:leather','8x supplementaries:copper_lantern','4x create:basin','2x createdieselgenerators:basin_lid'],
+  requestedItems: ["64x minecraft:raw_iron", "64x minecraft:raw_iron"],
+  title: "Supplements required",
+  orderedAmount: 2,
+  company: "cosmic_cuisine_collective",
+  message:
+    "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
+});
+const cccIronBars = getAgreement({
+  paymentItems: ['16x minecraft:leather',Item.of('botania:mana_tablet', '{mana:10000}')],
+  requestedItems: ['64x minecraft:iron_bars','64x minecraft:iron_bars'],
+  title: "Building cells, supplies needed URGENTLY",
+  orderedAmount: 4,
+  company: "cosmic_cuisine_collective",
+  message:
+    "We are currently dealing with multiple class action lawsuits about poisonings. We have apprehended a few of those scoundrels and are currently in need of new holding cells, fast",
+});
+// const miPlus = getAgreement({
+//   paymentItems: ['white_dye'],
+//   requestedItems: [Item.of('create:minecart_contraption', 16, '{Contraption:{Actors:[],Anchor:{X:5,Y:87,Z:51},Blocks:{BlockList:[{Pos:0L,State:0},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:3L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:-274877906942L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:2L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:1L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:274877906946L,State:1}],Palette:[{Name:"create:minecart_anchor",Properties:{axis:"x"}},{Name:"create:linear_chassis",Properties:{axis:"z",sticky_bottom:"false",sticky_top:"false"}}]},BottomlessSupply:0b,BoundsFront:[-2.0f,0.0f,-2.0f,3.0f,4.0f,3.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"WEST",Interactors:[],Passengers:[],RotationMode:"ROTATE",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[],Type:"mounted"},display:{}}')],
+//   title: "We want to commission pluses",
+//   orderedAmount: 2,
+//   company: "math_inc",
+//   message:
+//     "We are trying to solve very advanced equations which could lead to great discoveries when proven true. We need the highest quality pluses, none of our current suppliers met our new standards. We are counting on you! and on the other 37 companies we sent this commission to",
+// });
+// global.starterDeals = [bcfPlates, mlcSand, bhbCheese];
+global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
+tradeBranch([cccIronBars, bcfPlates], [cccRawWhite]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlatesOld]);
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);

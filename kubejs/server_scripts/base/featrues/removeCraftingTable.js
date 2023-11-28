@@ -107,7 +107,8 @@ if (feature("Remove crafting table recipes for devices")) {
 
   removeFromTag("forge:device/andesite", "create:vertical_gearbox")
   removeFromTag("forge:device/andesite", "create:gearbox")
-
+  addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox")
+  addToTag("forge:device/andesite/gearbox", "create:gearbox")
   addShaped('create:gearbox',['a'], {
     a:"create:vertical_gearbox"
   })
@@ -118,7 +119,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addShapeless('create:andesite_casing', '#forge:device/andesite')
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/andesite");
+    addStonecutting(device, Ingredient.of("#forge:device/andesite").or('#forge:device/andesite/gearbox'));
   });
 
   let cobblestoneBasedDevices = [
