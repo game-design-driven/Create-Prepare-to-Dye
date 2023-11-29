@@ -136,6 +136,7 @@ if (feature('Dirt to sand')) {
 }
 
 if (feature('Enchanting table from amathist')) {
+if (feature('Enchanting table from amethyst')) {
     // addShaped('enchanting_table',[' a ','cdc','ddd'], {b:'book',c:'',d:'obsidian'})
     
 }
