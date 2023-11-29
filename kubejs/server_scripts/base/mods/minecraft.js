@@ -108,7 +108,7 @@ if (feature('slime from honey and terrasteel')) {
     addCompacting('slime_block', '12x botania:terrasteel_nugget', temperature.none, undefined, undefined, '750x create:honey')
 }
 
-if (feature('Seperate magma cream')) {
+if (feature('Separate magma cream')) {
     addAssembly(['slime_ball %90', 'red_dye %1', 'orange_dye %1', 'yellow_dye %1', 'blaze_powder %7'], 'magma_cream', [
         addCutting('slime_ball', 'magma_cream'),
     ], 2)
