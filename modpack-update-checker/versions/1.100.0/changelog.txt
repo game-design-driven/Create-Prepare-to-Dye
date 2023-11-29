@@ -1,0 +1,13 @@
+## [1.100.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.99.0...1.100.0) (2023-11-29)
+
+
+### Features
+
+* Add cobblestone and redstone casing blocks ([70ca7e7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/70ca7e760ea7f40d8b79c168aa7608f86e162eb0))
+
+
+### Fixes
+
+* Broken crafting recipes of cobblestone devices ([1116364](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1116364ba29af0b2441df94c1dc552634c643b03))
+
+
