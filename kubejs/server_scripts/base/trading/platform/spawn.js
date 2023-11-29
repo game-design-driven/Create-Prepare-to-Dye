@@ -36,7 +36,7 @@ function spawnTradingPlatform(player, pilot_name, items) {
     let roof_contraption = spawnRoofContraption(player.level, spawn_coordinates, main_entity);
     let pilot = spawnPilot(player.level, spawn_coordinates, main_entity, pilot_name);
 
-    active_landings.push({
+    global.active_landings.push({
         main_entity: main_entity,
         base_contraption: base_contraption,
         roof_contraption: roof_contraption,
