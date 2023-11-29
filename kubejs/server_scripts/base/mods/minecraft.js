@@ -193,7 +193,7 @@ if (feature('Item frame recipes')) {
 }
 
 if (feature('Sugar recipe tweaks')) {
-    removeRecipe({id: 'minecraft:sugar_from_sugar_cans'})
+    removeRecipe({id: 'minecraft:sugar_from_sugar_cane'})
     removeRecipe({id: 'create:milling/sugar_cane'})
     addMilling('sugar %25', 'sugar_cane')
     addCrushing(['sugar %10', 'lime_dye %1'], 'sugar_cane')
