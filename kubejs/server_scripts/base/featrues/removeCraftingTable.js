@@ -50,11 +50,11 @@ if (feature("Harder casing recipes")) {
   casings.forEach((casing) => {
     addAssembly(
       Item.of(casing.item).withCount(casing.amount),
-      casing.base,
+      "create:cogwheel",
       [
-        casing.material? addDeploying(casing.item, casing.base, casing.material) : null,
-        addDeploying(casing.item, casing.base, "create:cogwheel"),
-        addDeploying(casing.item, casing.base, casing.sheet),
+        casing.material? addDeploying(casing.item, "create:cogwheel", casing.material) : null,
+        addDeploying(casing.item, "create:cogwheel", casing.base),
+        addDeploying(casing.item, "create:cogwheel", casing.sheet),
       ].filter(item => {
         return item;
       })
