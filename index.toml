@@ -141,6 +141,14 @@ file = "config/fancymenu/customization/updates.txt"
 hash = "9a3ecaa897008b57421915c653dfa45f17dc3bf8e325991d33c3deb14bee70a0"
 
 [[files]]
+file = "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+hash = "a5f347c8982aefe87a82045adfb760ea990d76143e5f40b46c1fc101d7b07ca2"
+
+[[files]]
+file = "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+hash = "b0a8838143c6860fe57d244bd977d264e9238dcc6352bcc3ac2aee3b23f20ae6"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "f19906e5d155709cd2cbb4ebbc2edf72536ef946f550f9cbeac321bcb772d189"
 
@@ -270,7 +278,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "62f91b40457a3decc688f3862613871566874050f3d32ed258cd595f11e74992"
+hash = "8a24bfc885ab41585e97ff093ec85709dc125e2a0a1bea7777f3f9a05968f269"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1126,7 +1134,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "f95f96541075b69139b5a8e1e9ff0f12cb7f2c3fd069697387120fed095b1a86"
+hash = "21b44871fc3ecaee562ef00acdba521407f087c53ef4513c4a082e674823b5a1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1702,7 +1710,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b89defef080990346262313183c73b799e82f7c50bf8c02e67de6fafa9e9fde3"
+hash = "5bc3dcb3d14f108f00601e594fa85895d6ef04e41c86fe62f54af1e4f6e92358"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1743,6 +1751,10 @@ hash = "1d8bcd8aa6919de8c4c8ae403a084ae431e9819806ebbd343a76677b660adaf9"
 [[files]]
 file = "modpack-update-checker/versions/1.103.3/changelog.txt"
 hash = "a48f431057a5474f4276aa33c85a7e20fd6a9ca3e637789e88108ef4014f77f4"
+
+[[files]]
+file = "modpack-update-checker/versions/1.104.0/changelog.txt"
+hash = "6bd8a68f0da9ac172866e821ea0cd205f46261b6c8dd6d71ad541fc36fee8754"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
