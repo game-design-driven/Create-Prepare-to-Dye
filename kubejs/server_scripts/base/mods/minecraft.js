@@ -204,4 +204,11 @@ if (feature('Magma block to lava')) {
     addBlockInteract('lava','magma_block', 'create:blaze_cake')
 }
 
+if (feature('Magma block more expensive')) {
+    removeRecipe({id: 'minecraft:magma_block'})
+    addShaped('magma_block', ['###', '###', '###'], { '#': 'magma_cream' })
+}
+
+if (feature('Slime from magmablock')) {
+    addItemApplication('slime_block', 'magma_block', 'lime_dye')
 }
