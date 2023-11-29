@@ -190,4 +190,11 @@ if (feature('Endstone from cheese')) {
 if (feature('Item frame recipes')) {
     addShaped('item_frame', ['###', '#s#', '###'], { '#': '#stick', s: '#forge:silicon' })
     addShaped('item_frame', ['###', '#s#', '###'], { '#': '#stick', s: 'minecraft:dried_kelp' })
+if (feature('Sugar recipe tweaks')) {
+    removeRecipe({id: 'minecraft:sugar_from_sugar_canes'})
+    removeRecipe({id: 'create:milling/sugar_cane'})
+    addMilling('sugar %25', 'sugar_cane')
+    addCrushing(['sugar %10', 'lime_dye %1'], 'sugar_cane')
+
+}
 }
