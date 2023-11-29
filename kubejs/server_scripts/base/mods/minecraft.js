@@ -112,6 +112,7 @@ if (feature('Separate magma cream')) {
     addAssembly(['slime_ball %90', 'red_dye %1', 'orange_dye %1', 'yellow_dye %1', 'blaze_powder %7'], 'magma_cream', [
         addCutting('slime_ball', 'magma_cream'),
     ], 2)
+    addSandpaperPolishing('slime_ball %95', 'magma_cream')
     addCrushing(['slime_ball %50', 'blaze_powder %25', 'red_dye %4'], 'magma_cream')
 }
 
