@@ -94,3 +94,10 @@ if (feature('Energy cell recycling')) {
 if (feature('Me toggle bus recipe')) {
     addShapeless('ae2:toggle_bus', ['ae2:fluix_smart_cable','minecraft:lever'])
 }
+
+if (feature('Slime from silicon')) {
+    addFilling('minecraft:slime_ball', ['ae2:silicon'], "1x create_enchantment_industry:experience")
+    addInfusion('minecraft:slime_ball', 'ae2:silicon', 5000)
+    addMixing('2x minecraft:slime_ball', ['ae2:silicon', 'lime_dye'])
+    addAlchemyRecipe('ae2:silicon', 'minecraft:slime_ball', 5000)
+}
