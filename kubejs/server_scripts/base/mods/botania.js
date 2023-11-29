@@ -1,6 +1,6 @@
 
 if (feature('overgrowth_seed recipes')) {
-    addFilling('botania:overgrowth_seed', 'minecraft:bone_meal', '750x milk')
+    addFilling('botania:overgrowth_seed', '#forge:coral', 'kubejs:fermented_goop')
     // addItemExplode('botania:overgrowth_seed', ['4x #forge:seeds', Item.of('minecraft:potion', '{Potion:"minecraft:strength"}')])
 }
 
@@ -70,4 +70,8 @@ if (feature('Livingwood twig out of dead bush and mana')) {
 
 if (feature('Livingwood from twigs')) {
     addShaped('botania:livingwood_log', ['tt', 'tt'], { t: 'botania:livingwood_twig' })
+}
+
+if (feature('Netherwood from choros fruit alchemy')) {
+    addInfusion('minecraft:crimson_stem', 'quark:chorus_fruit_block')
 }

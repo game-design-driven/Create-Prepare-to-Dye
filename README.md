@@ -1,30 +1,40 @@
 # ⚙️ Create : Prepare to Dye         
-[![Discord](https://img.shields.io/discord/890222432605057044)](https://discord.gg/v8cZ83kTPY)
+[![Discord](https://img.shields.io/discord/890222432605057044?label=Chat+on+Discord)](https://discord.gg/v8cZ83kTPY)
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/releases)
 [![GitHub issues](https://img.shields.io/github/issues/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/Yarden-zamir/create-prepare-to-dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
 [![GitHub commits this week](https://img.shields.io/github/commit-activity/w/yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
-[![CurseForge page](http://cf.way2muchnoise.eu/518606.svg)](https://minecraft.curseforge.com/projects/518606)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
 [![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
+[![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
+[![Changelog](https://img.shields.io/badge/Change-logs-white)](https://modrinth.com/modpack/create-prepare-to-dye/changelog)
+
+<p float="left">
+  <a href="https://discord.gg/v8cZ83kTPY">
+    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/discord%20banner.png?raw=true" width="49%" />
+  </a>
+  <a href="https://modrinth.com/modpack/create-prepare-to-dye">
+    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/modrinth%20banner%20white.png?raw=true" width="49%" />
+  </a>
+</p>
 
 ⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
 
 ## Intro
-As the head of a crumbling, inherented, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
+As the head of a crumbling, inherited, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
 **Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
-Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed and you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
+Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed as you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
 
 ## About the project
 
 ### Concept
 - Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
 - You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
-- This planet is depleted, you will need to figure out how to produces the resources you'll need on your own, mining need not apply.
+- This planet is depleted, you will need to figure out how to produce the resources you'll need on your own, mining need not apply.
 ### Gameplay loop
 - You accept trade deals with various companies
 - You produce the resources needed to fulfill the trade deals
@@ -34,7 +44,7 @@ Things did start off on the wrong hoof though, as you crash land on the barren p
 <details>
   <summary>Complex and unique automation</summary>
   
-Using Create and Botanias natural automation focus as a loose base, we are constructing processing lines with depth and options, the emphasis here is on options, as opposed to tiers, more on that later.
+Using Create and Botania's natural automation focus as a loose base, we are constructing processing lines with depth and options, the emphasis here is on options, as opposed to tiers, more on that later.
 * Create - A core part of the pack, the unique logistics and processes of the mod allow us to explore new territory in problem solving and creative automation. The philosophy of the mod alignes almost perfectly with ours, and when it doesn't it is altered.
 * Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack. It has undergone many modifications to fit it into this world.
 * Quark + oddities
@@ -44,12 +54,12 @@ On top of those we add many processing lines (over 1200 recipe changes and addit
 <details>
   <summary>Radical simplification</summary>
 
-No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla minecraft. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla Minecraft. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
 </details>
 <details>
   <summary>Remove tiers</summary>
 
-* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of th game. For example the grindstones from create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
+* With the exception of regular crafting table recipes. Most if not all other recipes have a place in any stage of the game. For example the grindstones from Create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
 </details>
 <details>
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
@@ -64,7 +74,7 @@ The pack has around 60 mods, takes less than a minute to boot!
 <details>
   <summary>Heavily Documented, in game</summary>
   
-JEI is a core gameplay element. Imagine playing botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/botaniaDebookified.js) for technical details.
+JEI is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
@@ -75,8 +85,8 @@ Progression and "tiers" in this modpack are not done with more and more expansiv
 <details>
   <summary>Customization and Modularity</summary>
   
-we have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
-Out script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers. Examples:
+We have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
+Our script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers. Examples:
 ```javascript
 if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
     forEachRecipe([{ type: 'minecraft:crafting_shapeless' }], recipe => {
@@ -107,21 +117,20 @@ See all features [here](kubejs/server_scripts/base/featrues)
 
 
 
-
-
-[Modrinth page](https://modrinth.com/modpack/create-prepare-to-dye)
-[Course forge page](https://www.curseforge.com/minecraft/modpacks/create-run)
-
+[Join us on Discord](https://discord.gg/v8cZ83kTPY)   
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
-| Core Mod List                        | ![](https://progress-bar.dev/95)   | The mods that help construct the core gameplay loop| Critical | ✔           |
+| Core Mod List                        | ![](https://progress-bar.dev/96)   | The mods that help construct the core gameplay loop| Critical | ✔           |
 | Core Gameplay loop                   | ![](https://progress-bar.dev/80)   | The basic elements that repeats and evolve as the game loops| Critical | ✔      |
-| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/40)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
-| Documentation                        | ![](https://progress-bar.dev/50)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
+| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/55)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |          |
+| Documentation                        | ![](https://progress-bar.dev/55)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |          |
 | Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | ✔      |
 | Modularity                           | ![](https://progress-bar.dev/90)   | All core aspects of the pack are configurable| Standard |          |
-| Performance                          | ![](https://progress-bar.dev/70)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
-| Trading System                       | ![](https://progress-bar.dev/75)   | The system responsible for making intergalactic trades| Critical |          |
-| Trading Implementation               | ![](https://progress-bar.dev/45)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
-| Community                            | ![](https://progress-bar.dev/10)    | The pack has a community, ie discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+| Performance                          | ![](https://progress-bar.dev/95)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
+| Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical | ✔        |
+| Trading Implementation               | ![](https://progress-bar.dev/55)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
+| Community                            | ![](https://progress-bar.dev/17)    | The pack has a community, ie Discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+
+[![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)

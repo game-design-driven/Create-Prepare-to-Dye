@@ -1,0 +1,8 @@
+### [1.80.11](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.10...1.80.11) (2023-11-23)
+
+
+### Documentation and Localization
+
+* add link to changelogs ([133fb49](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/133fb49d4f8ef6785aa9eaeb2f6e30a5589cb6b9))
+
+

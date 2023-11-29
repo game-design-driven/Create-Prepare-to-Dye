@@ -1,0 +1,27 @@
+### [1.87.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.87.1...1.87.2) (2023-11-26)
+  
+
+### Features
+
+* moonstone to choros fruit fixed rates with mlc ([d0d8ee2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d0d8ee28409efa62168a1cf711b8e1c11dd1dba1))
+* Netherwood from choros fruit alchemy. This is big because it's a renewable way for the player to get wood without tree farm ([e04fe00](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e04fe00efee33c6a7377d6d599ce3cba6908fa8e))
+
+
+### Fixes
+
+* internally added recipes with one ingredient not generating crafting table infusion recipe ([6358df6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6358df68356ad61d656cee4cda1f4d4e506d6f3b))
+
+
+### Minor tweaks
+
+* moonstone from cheese ([32a4fdb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/32a4fdb7a24c70d5927b3ac421f21b8dffe780b5))
+* Remove end portal ([e4096b3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e4096b30b1d41ebe8ba9b8d6f5b6331b7d5640f3))
+* rename endstone to moonstone ([16d8892](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/16d889250d2bf89d98b43539b1b92d1d74a79e9e))
+
+
+### Developer experance improvments and changes
+
+* add choros to dict ([4751792](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/47517921e16937de0bbabdbda96819e5c1c75827))
+* add endstone to dict ([da28204](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/da28204db55e039efacd37a8b45d358789b6c4e8))
+  
+

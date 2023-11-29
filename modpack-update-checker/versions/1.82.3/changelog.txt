@@ -1,0 +1,8 @@
+### [1.82.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.2...1.82.3) (2023-11-25)
+
+
+### Fixes
+
+* case of category order ([939e415](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/939e415511de8bac37a06b13f3691c4dc6c84c21))
+
+

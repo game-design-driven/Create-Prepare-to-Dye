@@ -1,0 +1,8 @@
+### [1.85.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.85.0...1.85.1) (2023-11-26)
+
+
+### Documentation and Localization
+
+* add tooltips for dying stone and red sand ([0af8545](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0af8545180adf97829b6282c4d2b563b17cf2dec))
+
+

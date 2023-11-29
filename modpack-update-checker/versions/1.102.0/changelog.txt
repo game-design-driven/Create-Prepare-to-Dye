@@ -1,0 +1,23 @@
+## [1.102.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.101.2...1.102.0) (2023-11-29)
+
+
+### Features
+
+* add slime from magma cream ([6b6d88d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6b6d88d3d8b7eff493e2d08df882d7759c888a0a))
+* add Slime from silicon ([10fcfc7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10fcfc7497aacec849f5eb7061b85569e2e1d404))
+* magma block to lava ([9de1d3e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9de1d3ede1e25d63b71fa85fc9178cef195ac35f))
+* magma block to slime ([eae380b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eae380b31781c4376a71a2f2ce0c815985c1b4b9))
+* nerf sugar form sugar cane ([803816e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/803816e81ed1ed115052a4b59b4c834cbeb526f5))
+
+
+### Fixes
+
+* item frame borken recipes ([a3c9dd2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a3c9dd29e393716cd6ff8534a9af3c6f88fc8537))
+
+
+### Developer experance improvments and changes
+
+* fix typo ([2308f49](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2308f49835f2e0f899db33ac201692e678aa7e00))
+* fix typo ([a3bdc9c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a3bdc9cd805d727d6e0f1e3651fd630f32fb40e3))
+
+

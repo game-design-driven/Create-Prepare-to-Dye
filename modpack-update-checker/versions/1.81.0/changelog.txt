@@ -1,0 +1,13 @@
+## [1.81.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.12...1.81.0) (2023-11-23)
+
+
+### Features
+
+* remove health ([371adc0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/371adc06630a1b9411b6cd081ec3e6a419ed004f))
+
+
+### Documentation and Localization
+
+* add discord button to pause menu ([d502e0b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d502e0b6601c169c6e5182beac2e4ffdd1b260d3))
+
+

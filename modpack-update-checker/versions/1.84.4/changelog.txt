@@ -1,0 +1,8 @@
+### [1.84.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.3...1.84.4) (2023-11-25)
+
+
+### Documentation and Localization
+
+* expand tooltip for milk ([91ee00f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/91ee00f6fc7802e2d938f888fd1920aba4a6e57f))
+
+

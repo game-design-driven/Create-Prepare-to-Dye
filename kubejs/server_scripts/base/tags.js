@@ -60,3 +60,10 @@ addToTag('forge:rods', [
     'create:shaft',
     'bone'
 ])
+
+addToTag('forge:coral', [
+    'minecraft:brain_coral',
+    'minecraft:bubble_coral',
+    'minecraft:fire_coral',
+    'minecraft:horn_coral',
+])

@@ -1,34 +1,38 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_certus_quartz_crystal": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "ae2:decorative/quartz_block"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:uniform_bonus_count",
+              "function": "minecraft:apply_bonus",
+              "parameters": {
+                "bonusMultiplier": 2
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "minecraft:quartz"
+        }
+      ],
+      "rolls": 1.0
     }
-  },
-  "requirements": [
-    [
-      "has_certus_quartz_crystal",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "ae2:decorative/quartz_block"
-    ]
-  }
+  ]
 }

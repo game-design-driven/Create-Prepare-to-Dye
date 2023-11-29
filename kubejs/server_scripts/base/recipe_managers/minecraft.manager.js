@@ -36,6 +36,9 @@ function addShaped(output, pattern, key) {
  * @param {ingredient[]} input ['glass','stick'] 
  */
 function addShapeless(output, input) {
+    if (input.length == 1)
+        addInfusion(output, input[0], 250, 'minecraft:crafting_table');
+
     let recipe = {
         type: "minecraft:crafting_shapeless",
         result: solveResult(output),

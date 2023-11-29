@@ -1,0 +1,14 @@
+## [1.83.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.8...1.83.0) (2023-11-25)
+
+
+### Features
+
+* add milk>water distilation process ([b2f0109](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b2f0109c7fa157cc08fbb5fbd7a6754d0fe1a117))
+* remove vanialla enchanting ([f4e9478](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f4e94788ba147a651f3c12fae12748048d5bf3d7))
+
+
+### Minor tweaks
+
+* make cheese edible ([6d85ad3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6d85ad38ae1d31865b8855bcb5364243fef6440f)), closes [#293](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/293)
+
+

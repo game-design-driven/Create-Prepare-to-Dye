@@ -30,7 +30,6 @@ if (feature('Ores from dyes')) {
         addBlockInteract(ore, 'minecraft:netherrack', dye)
     })
     
-    addItemApplication('raw_iron', 'cobblestone', 'white_dye')
     addItemApplication('raw_copper', 'cobblestone', 'orange_dye')
     addItemApplication('raw_iron', 'red_sand', 'white_dye')
     addItemApplication('raw_copper', 'red_sand', 'orange_dye')
@@ -56,14 +55,30 @@ if (feature('Ore processing')) {
 
     addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
-    let crush_to_ingot_table = {
-        'create:crushed_raw_iron': 'minecraft:iron_ingot',
-        'create:crushed_raw_copper': 'minecraft:copper_ingot',
-        'create:crushed_raw_gold': 'minecraft:gold_ingot'
-    }
-    Object.entries(crush_to_ingot_table).forEach(entry => {
-        const [crushed, ingot] = entry;
-        addAltar('12x '+ ingot, ['#botania:runes', '8x '+crushed])
+    let crush_to_ingot = [
+        {
+            raw: 'minecraft:raw_iron',
+            crushed: 'create:crushed_raw_iron',
+            ingot: 'minecraft:iron_ingot',
+            waste: 'minecraft:milk'
+        },
+        {
+            raw: 'minecraft:raw_copper',
+            crushed: 'create:crushed_raw_copper',
+            ingot: 'minecraft:copper_ingot',
+            waste: 'create:chocolate'
+        },
+        {
+            raw: 'minecraft:raw_gold',
+            crushed: 'create:crushed_raw_gold',
+            ingot: 'minecraft:gold_ingot',
+            waste: 'create:honey'
+        }
+    ]
+    crush_to_ingot.forEach(entry => {
+        addAltar('12x '+ entry.ingot, ['#botania:runes', '8x '+entry.crushed])
+        addMixing(['10x '+entry.crushed, '10mb '+entry.waste], ['8x '+entry.raw, '4x create:limestone', '100mb water'])
+        addMixing(['8x '+entry.crushed, '50mb '+entry.waste], ['10x '+entry.raw, '4x create:scorchia', '250mb water'])
     })
 
 }
@@ -86,7 +101,7 @@ if (feature('Gold')) {
     addMilling('gold_nugget %5', 'egg')
     addItemApplication('minecraft:raw_gold_block', ['minecraft:honeycomb_block', '#forge:ingots/terrasteel'])
     removeRecipe({ id: 'create:splashing/red_sand' })
-    addSplashing(['dead_bush %5','3x red_dye %12'], 'red_sand')
+    addSplashing(['dead_bush %5','red_dye %15'], 'red_sand')
 }
 if (feature('Remove diamond ore')) {
     removeItem('diamond_ore')

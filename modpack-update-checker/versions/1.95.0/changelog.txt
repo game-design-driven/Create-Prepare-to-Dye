@@ -1,0 +1,18 @@
+## [1.95.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.94.0...1.95.0) (2023-11-28)
+
+
+### Features
+
+* decayed budding quartz (formally certus quartz block) will now drop 2 quartz or 4 with fortune ([0c8ecc1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0c8ecc192f04a6508ad924bb16871c2ed869c692))
+
+
+### Documentation and Localization
+
+* rename all certus quartz related stuff to just quartz ([5271aa9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5271aa9ae2220455ffc8cc322698e36d1809b38f))
+
+
+### Minor tweaks
+
+* tweak progression for wood_strike_and_co line ([a22d72b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a22d72b69b61b9e4ba5a619f0b9c6dc219bb84bf))
+
+

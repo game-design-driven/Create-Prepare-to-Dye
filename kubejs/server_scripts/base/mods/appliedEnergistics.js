@@ -1,11 +1,16 @@
 // Ingredient.of('@refinedstorage').stacks.forEach(item => {
     
 // });
+if (feature('Remove ae2 recipe types')) {
+    removeRecipe({ type: "ae2:inscriber"})
+    removeRecipe({ type: "ae2:entropy"})
+    removeRecipe({ type: "ae2:condenser"})
+    removeRecipe({ type: "ae2:matter_cannon"})
+}
 if(feature('Remove all uneeded things from ae2')){
     let keep = [
         'ae2:silicon',
         'ae2:terminal',
-        'ae2:crafting_terminal',
         'ae2:fluix_smart_cable',
         'ae2:storage_bus',
         'ae2:energy_cell',
@@ -20,6 +25,7 @@ if(feature('Remove all uneeded things from ae2')){
         'ae2:large_quartz_bud',
         'ae2:quartz_crystal',
         'ae2:quartz_cluster',
+        'ae2:quartz_fiber',
     ];
 
     Ingredient.of('@ae2').itemIds.forEach(item => {
@@ -49,23 +55,15 @@ if (feature('Quartz recipes')) {
 }
 
 if (feature('ae2 recipes')) {
-    addShapeless(Item.of('ae2:energy_cell', '{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}'), ['9x create:polished_rose_quartz'])
-    addShaped('4x ae2:fluix_smart_cable', [
-        'PPP',
-        'RRR',
-        'PPP'
-    ], {P: '#forge:silicon',R: 'create:polished_rose_quartz'})
-    addShaped('2x ae2:fluix_smart_cable', [
-        'PPP',
-        'RDR',
-        'PPP'
-    ], {P: '#forge:glass',R: 'create:polished_rose_quartz',D: 'diamond'})
-    addAssembly(['4x ae2:fluix_smart_cable %8', '2x ae2:silicon %1','create:polished_rose_quartz %1'], 'create:polished_rose_quartz',[
-        addDeploying('ae2:fluix_smart_cable', 'create:polished_rose_quartz', 'ae2:silicon'),
-        addPressing('ae2:fluix_smart_cable', 'create:polished_rose_quartz'),
-        addCutting('ae2:fluix_smart_cable', 'create:polished_rose_quartz')
-    ], 3)
-
+    removeRecipe({ id: 'ae2:network/parts/quartz_fiber_part' })
+    addShaped('ae2:quartz_fiber', [
+        'qqq',
+    ], { q: 'minecraft:quartz' })
+    addShaped('ae2:quartz_fiber', [
+        'q',
+        'q',
+        'q'
+    ], { q: 'minecraft:quartz' })
     addShaped('ae2:storage_bus', ['cps'],{
         c: 'ae2:fluix_smart_cable',
         p: 'minecraft:piston',
@@ -94,9 +92,16 @@ if (feature('Energy cell recycling')) {
 }
 
 if (feature('Me toggle bus recipe')) {
-    addShaped('ae2:toggle_bus', [' r ','clc', ' r '], {
-        r: '#forge:dusts/redstone',
-        c: 'ae2:fluix_smart_cable',
-        l: 'minecraft:lever'
-    })
+    addShapeless('ae2:toggle_bus', ['ae2:fluix_smart_cable','minecraft:lever'])
+}
+
+if (feature('Slime from silicon')) {
+    addFilling('minecraft:slime_ball', ['ae2:silicon'], "1x create_enchantment_industry:experience")
+    addInfusion('minecraft:slime_ball', 'ae2:silicon', 5000)
+    addMixing('2x minecraft:slime_ball', ['ae2:silicon', 'lime_dye'])
+}
+
+if (feature('Silicon from slime')) {
+    addAlchemyRecipe('ae2:silicon', 'minecraft:slime_ball', 5000)
+    addFilling('2x ae2:silicon', 'minecraft:slime_ball','250x create_enchantment_industry:ink')
 }

@@ -135,6 +135,27 @@ customization {
 }
 
 customization {
+  identifier = %id=376298%
+  orientation = mid-centered
+  x = 45
+  action = movebutton
+  y = 4
+}
+
+customization {
+  identifier = %id=376298%
+  width = 68
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376298%
+  action = setbuttonlabel
+  value = Updates
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 106
@@ -229,16 +250,18 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
+  orientation = bottom-left
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/5bMXvw4tPx%btnaction_splitter_fm%
-  x = 45
-  width = 68
+  backgroundhovered = discord-mark-white.png
+  label = 
+  loopbackgroundanimations = true
+  x = 10
+  width = 26
   action = addbutton
   actionid = 40fffb96-fa86-4711-b60d-6cf6de40263f1699023086227
-  y = 4
-  label = Discord
-  height = 20
+  y = -29
+  backgroundnormal = discord-mark-blue.png
+  height = 18
 }
 

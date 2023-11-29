@@ -60,7 +60,7 @@ if (feature("Ethanol")) {
     ["500mb milk"]
   );
 
-  addMixing("kubejs:fermented_blob %10", "100mb kubejs:fermented_goop");
+  addMixing("kubejs:fermented_blob %10", "50mb kubejs:fermented_goop");
   addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
   addMixing("slime_ball %80", [
     "500mb kubejs:fermented_goop",
@@ -69,6 +69,12 @@ if (feature("Ethanol")) {
   addDistillation(
     ["10mb createdieselgenerators:ethanol", "10mb water"],
     ["20mb kubejs:fermented_goop"],
+    40,
+    temperature.heated
+  );
+  addDistillation(
+    ["10mb water"],
+    ["15mb milk"],
     40,
     temperature.heated
   );

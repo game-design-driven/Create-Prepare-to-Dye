@@ -87,10 +87,7 @@ if (feature('Bone recipes')) {
 if (feature('Bamboo recipes')) {
     addAlchemyRecipe('bamboo', 'sugar_cane')
 }
-if (feature('Rail recipes')) {
-    replaceShaped('8x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/iron', s: 'stick' })
-    addShaped('16x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/andesite_alloy', s: 'stick' })
-}
+
 if (feature('Crying obsidian recipes')) {
     // addBlockAnvil('crying_obsidian', 'obsidian')
 }
@@ -111,10 +108,11 @@ if (feature('slime from honey and terrasteel')) {
     addCompacting('slime_block', '12x botania:terrasteel_nugget', temperature.none, undefined, undefined, '750x create:honey')
 }
 
-if (feature('Seperate magma cream')) {
+if (feature('Separate magma cream')) {
     addAssembly(['slime_ball %90', 'red_dye %1', 'orange_dye %1', 'yellow_dye %1', 'blaze_powder %7'], 'magma_cream', [
         addCutting('slime_ball', 'magma_cream'),
     ], 2)
+    addSandpaperPolishing('slime_ball %95', 'magma_cream')
     addCrushing(['slime_ball %50', 'blaze_powder %25', 'red_dye %4'], 'magma_cream')
 }
 
@@ -132,19 +130,13 @@ if (feature('Redstone from quartz')) {
     addMilling(['redstone %70', 'white_dye %5'], 'quartz')
 }
 
-if (feature('Sand recipes')) {
-    addItemApplication('sand', 'gravel', 'quark:hammer')
-    
-}
-
 if (feature('Dirt to sand')) {
     addMilling('sand %20', 'dirt')
     addCrushing(['sand %10', 'clay %10'], 'dirt')
 }
 
-if (feature('Enchanting table from amathist')) {
+if (feature('Enchanting table from amethyst')) {
     // addShaped('enchanting_table',[' a ','cdc','ddd'], {b:'book',c:'',d:'obsidian'})
-    
 }
 if (feature('Calcite from quartz')) {
     addInfusion('calcite', 'quartz_block', 500, 'obsidian')
@@ -178,3 +170,45 @@ if (feature("Hopper without wood")) {
       });
     }
   }
+
+if (feature('Remove vanilla andesite recipe')) {
+    removeRecipe({id: 'minecraft:andesite'})
+}
+
+if (feature('Remove enchanting table')) {
+    removeItems(['minecraft:enchanting_table'])
+}
+
+if (feature('Remove end portal')) {
+    removeItem('minecraft:end_portal_frame')
+}
+
+if (feature('Endstone from cheese')) {
+    addCompacting('end_stone', '9x kubejs:fermented_blob', temperature.heated)
+}
+
+if (feature('Item frame recipes')) {
+    addShaped('item_frame', ['###', '#s#', '###'], { '#': 'stick', s: '#forge:silicon' })
+    addShaped('item_frame', ['###', '#s#', '###'], { '#': 'stick', s: 'minecraft:dried_kelp' })
+}
+
+if (feature('Sugar recipe tweaks')) {
+    removeRecipe({id: 'minecraft:sugar_from_sugar_canes'})
+    removeRecipe({id: 'create:milling/sugar_cane'})
+    addMilling('sugar %25', 'sugar_cane')
+    addCrushing(['sugar %10', 'lime_dye %1'], 'sugar_cane')
+
+}
+
+if (feature('Magma block to lava')) {
+    addBlockInteract('lava','magma_block', 'create:blaze_cake')
+}
+
+if (feature('Magma block more expensive')) {
+    removeRecipe({id: 'minecraft:magma_block'})
+    addShaped('magma_block', ['###', '###', '###'], { '#': 'magma_cream' })
+}
+
+if (feature('Slime from magmablock')) {
+    addItemApplication('slime_block', 'magma_block', 'lime_dye')
+}

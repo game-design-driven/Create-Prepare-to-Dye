@@ -1,0 +1,13 @@
+### [1.81.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.8...1.81.9) (2023-11-25)
+
+
+### Minor tweaks
+
+* reduce milk cooldown from 600 to 500 ([b693f7b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b693f7b87665bfdf9283f8372d57f37e59b79194))
+
+
+### Fixes
+
+* retroactively make dates for old releases to millisecons instead of seconds ([2ff291d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2ff291de81302ac29cd4fd737e6eecdc2a70a9cc))
+
+

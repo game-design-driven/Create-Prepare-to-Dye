@@ -30,7 +30,8 @@ if (feature('Improve milling recipes')) {
     addMilling('white_dye', 'bone_meal')
     addMilling(['3x bone_meal', '2x bone_meal %25'], 'bone')
     removeRecipe({ id: 'create:milling/wheat' })
-    addMilling('2x create:flour', '#forge:crops/wheat')
+    addMilling('2x create:wheat_flour', '#forge:crops/wheat')
+    addCrushing(['create:wheat_flour', 'wheat_seeds %25'], '#forge:crops/wheat')
 
 }
 if (feature('Improve crushing recipes')) {

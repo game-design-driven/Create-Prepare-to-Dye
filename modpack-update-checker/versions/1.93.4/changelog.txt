@@ -1,0 +1,8 @@
+### [1.93.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.93.3...1.93.4) (2023-11-28)
+
+
+### Minor tweaks
+
+* reduce volume of tranciever ([913ce43](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/913ce43c6cb2448edd6e93008fe2b39c9c3e8742))
+
+

@@ -1,0 +1,8 @@
+### [1.81.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.0...1.81.1) (2023-11-23)
+
+
+### Documentation and Localization
+
+* rename crash landing mode to automation mode ([7c3b6e3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7c3b6e38d63a2192dd2c67f0e9f8a7022aebb825))
+
+

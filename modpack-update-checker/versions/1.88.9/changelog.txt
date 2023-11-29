@@ -1,0 +1,18 @@
+### [1.88.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.8...1.88.9) (2023-11-26)
+
+
+### Documentation and Localization
+
+* improve botania tooltips ([6f9461c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6f9461cee71433bc0c9f3bdb2406913db66e1ef3))
+
+
+### Fixes
+
+* recipe for toggle bus ([e35f45f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e35f45fc17371bae40920d6c5e05882bcda3dbe1))
+
+
+### Minor tweaks
+
+* wood from chorus is slightly easier ([5aba7df](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5aba7df008ab81b6b82340e586bc316947d76399))
+
+

@@ -1,0 +1,8 @@
+### [1.92.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.92.5...1.92.6) (2023-11-27)
+
+
+### Fixes
+
+* Corrupted nbt file for a spaceship wreck structure ([b291184](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b291184501880bb8a95a02f43980007bd193b2bb))
+
+

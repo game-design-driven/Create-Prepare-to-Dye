@@ -306,7 +306,7 @@
 
 		[building.sign_post.way_sign]
 			#Entirely disables them from spawning
-			enabled = true
+			enabled = false
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 

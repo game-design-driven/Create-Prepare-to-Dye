@@ -1,0 +1,8 @@
+### [1.88.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.7...1.88.8) (2023-11-26)
+
+
+### Fixes
+
+* milk cell being deleted instead of filled ([50e6d9b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50e6d9b8e7e0f75ad090a1b0e5917d9fcfe1ce67))
+
+

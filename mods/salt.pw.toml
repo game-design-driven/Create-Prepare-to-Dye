@@ -1,0 +1,13 @@
+name = "Salt"
+filename = "salt-1.19.2-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CrDd9QcD/versions/weA3nPyx/salt-1.19.2-1.2.1.jar"
+hash-format = "sha1"
+hash = "414b84cd5626ac8cbcde960d17530c8adcb3fd10"
+
+[update]
+[update.modrinth]
+mod-id = "CrDd9QcD"
+version = "weA3nPyx"

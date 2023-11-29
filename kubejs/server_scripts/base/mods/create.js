@@ -11,24 +11,29 @@ if (feature("Fix create copper scaffolding recipe")) {
 //     addMixing('create:chromatic_compound', ['3x obsidian', '3x glowstone_dust', 'create:polished_rose_quartz'], temperature.superHeated)
 //     addAltar('create:chromatic_compound', ['2x create:polished_rose_quartz', 'obsidian'], 7500)
 // }
-if (feature("Remove tree fertilizer")) {
-  removeItem("create:tree_fertilizer");
-}
+// if (feature("Remove tree fertilizer")) {
+//   removeItem("create:tree_fertilizer");
+// }
 if (feature("Remove vanilla honey bottle recipe")) {
   removeRecipe({ id: "minecraft:honey_bottle" });
 }
 
 if (feature("Mechanical belt recipes")) {
+  //kelp
+  removeRecipe({ id: "create:crafting/kinetics/belt_connector" });
+  addShaped("2x create:belt_connector", ["lll", "lll"], {
+    l: 'minecraft:dried_kelp',
+  });
   //leather
-  addShaped("3x create:belt_connector", ["lll", "lll"], {
+  addShaped("2x create:belt_connector", ["lll", "lll"], {
     l: "#forge:leather",
   });
   //silicon
-  addShaped("3x create:belt_connector", ["sss", "sss"], {
+  addShaped("2x create:belt_connector", ["sss", "sss"], {
     s: "#forge:silicon",
   });
   //combined
-  addShaped("6x create:belt_connector", ["lll", "sss", "kkk"], {
+  addShaped("4x create:belt_connector", ["lll", "sss", "kkk"], {
     l: "#forge:leather",
     s: "#forge:silicon",
     k: "minecraft:dried_kelp",
@@ -282,4 +287,21 @@ if (feature("Crushing wheel in regular crafting")) {
       r: "create:shaft",
     });
   }
+}
+
+if (feature('nerf bonemeal from calcite')){
+  removeRecipe({id:'create:milling/calcite'})
+  addMilling(['bone_meal 40%'], 'minecraft:calcite')
+  addCrushing(['bone_meal 20%', 'cobblestone 20%', 'nether_quartz %5'], 'minecraft:calcite')
+}
+
+if (feature('Recycle wrench')) {
+  addCrushing('create:cogwheel %75', 'create:wrench')
+}
+
+if (feature('piston pole recipe')) {
+  addShaped('4x create:piston_extension_pole', ['i', 's', 'i'], {
+    s: 'stick',
+    i: '#forge:nuggets/iron'
+  })
 }

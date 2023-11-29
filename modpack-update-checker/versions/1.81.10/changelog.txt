@@ -1,0 +1,8 @@
+### [1.81.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.9...1.81.10) (2023-11-25)
+
+
+### Minor tweaks
+
+* shove a discord button in more places ([8008399](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8008399d2ed1be94956d294b23bef38308cc38d6))
+
+

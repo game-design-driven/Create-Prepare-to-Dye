@@ -1,9 +1,12 @@
 name: Release Pipeline
+concurrency: release-pipeline
 # credit to mc-modpack-kit for the template
 on:
   push:
     branches:
       - main
+    paths-ignore: 
+      - modpack-update-checker/**
 env:
   pack-file: "pack.toml"
   name: 'Create: Prepare to Dye'
@@ -13,6 +16,12 @@ env:
   mc_version: '1.19.2'
 
 jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name:  validate JSON and YAML files
+        uses: GrantBirki/json-yaml-validate@v2.4.0
   tag_and_release:
     runs-on: ubuntu-latest
     outputs:
@@ -28,6 +37,7 @@ jobs:
           tag_prefix: ''
           custom_release_rules: "dev:patch:Developer experance improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
           github_token: ${{ secrets.GH_TOKEN }}
+
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
@@ -36,7 +46,7 @@ jobs:
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
   release:
-    needs: tag_and_release
+    needs: [tag_and_release, tests]
     strategy:
       matrix:
         include:
@@ -63,6 +73,27 @@ jobs:
       # - name: Detect curseforge jars
       #   if: matrix.platform == 'curseforge'
       #   run: packwiz curseforge detect
+      - name: Get unix time
+        id: get_time
+        run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
+      - name: Update changelog files
+        if: matrix.platform == 'modrinth'
+        run: |
+          cd modpack-update-checker
+          echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
+
+          
+          mkdir versions/${{ needs.tag_and_release.outputs.new_tag }}
+          echo "${{ needs.tag_and_release.outputs.changelog }}" > versions/${{ needs.tag_and_release.outputs.new_tag }}/changelog.txt
+          
+          cd ../config
+          echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
+      - name: Update discord presense text
+        if: matrix.platform == 'modrinth'
+        run: |
+          cd kubejs/assets/sdrp/lang
+          json=$(jq '."sdrp.logo"="Hanging out with Betsy on version ${{ needs.tag_and_release.outputs.new_tag }}"' en_us.json) 
+          echo $json > en_us.json
       - name: Build Modpack
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
 
@@ -94,6 +125,14 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$(cat README.md | jq -R -s '{body: .}')" \
             https://api.modrinth.com/v2/project/${{ vars.MODRINTH_ID }}
+      - name: Pull
+        if: matrix.platform == 'modrinth'
+        run: git pull
+      - name: Commit & Push changes
+        if: matrix.platform == 'modrinth'
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
       # - name: Publish to CurseForge
       #   if: matrix.platform == 'curseforge'
       #   uses: Kir-Antipov/mc-publish@v3.2

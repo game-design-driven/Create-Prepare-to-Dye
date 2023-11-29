@@ -34,6 +34,7 @@ function addAssembly(output, input, steps, loops, transitionalItem) {
     }
     // console.log("adding recipe !!! " + JSON.stringify(recipe));
     modpackRecipes.push(recipe)
+    return recipe
 }
 /**
  * @param {result[]} output

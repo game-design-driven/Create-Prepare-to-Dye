@@ -1,0 +1,8 @@
+### [1.81.16](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.15...1.81.16) (2023-11-25)
+
+
+### Minor tweaks
+
+* remove raw iron from cobblestone reicpe. I want to incurage the use of the pure daisy red sand route instead ([10a46e4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10a46e4fed0ed8bb9cafe908e95345450f2ff9c3))
+
+

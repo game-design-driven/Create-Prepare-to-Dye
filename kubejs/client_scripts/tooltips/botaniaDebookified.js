@@ -4,7 +4,7 @@ function snakeToCamel(str) {
 }
 
 function grabPage(camelCasedName, num, maxDepth) {
-  maxDepth = maxDepth || 3;
+  maxDepth = maxDepth || 2;
   if (num > maxDepth) return "...";
   let key = `botania.page.${camelCasedName}${num}`;
   let translated = Text.translate(key);
@@ -40,7 +40,10 @@ const inconsistentNamesMap = {
   craftyCrate: "craftCrate",
   apothecary_: "apothecary",
   gaiaPylon: "gaiaRitual",
-  dreamwoodWand: 'elfResources'
+  dreamwoodWand: 'elfResources',
+  shulkMeNot: 'shulk_me_not',
+  bellethorn: 'bellethorne',
+  dreadthorn: 'dreadthorne',
 };
 function replaceInconsistentNames(str) {
   Object.entries(inconsistentNamesMap).forEach(([key, value]) => {

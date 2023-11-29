@@ -10,7 +10,7 @@ const sealsThatHaveTextures = [
   "qube",
   "stellar_sigil_syndicate",
   "cosmic_cuisine_collective",
-  "galactic_beast_deliveries"
+  "galactic_beast_deliveries",
 ];
 
 function getAgreement({
@@ -21,9 +21,10 @@ function getAgreement({
   company,
   message,
 }) {
-  if (!orderedAmount) orderedAmount = parseInt(1);
+  if (orderedAmount === null || orderedAmount === undefined)
+    orderedAmount = parseInt(1);
   if (!title) title = "stuffs";
-  message = message.replace("'", ""); // remove single quotes from messages
+  message = message.replaceAll("'", ""); // remove single quotes from messages
   let seal = sealsThatHaveTextures.includes(company) ? company : "default";
   let companyTitle = Utils.snakeCaseToTitleCase(company);
 
@@ -64,26 +65,29 @@ function getAgreement({
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
-  global.allAgreements = global.allAgreements
-    .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
-    .concat([agreementObj.completedItem]);
-  console.info("All agreements so far " + global.allAgreements);
+  if (orderedAmount != 0)
+    global.allAgreements = global.allAgreements
+      .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
+      .concat([agreementObj.completedItem]);
   return agreementObj;
 }
 function simple(items) {
   if (!Array.isArray(items)) items = [items];
   return `[${items
     .map((item_obj) => {
-      let item = item_obj
+      let item = item_obj;
       if (typeof item_obj === "string") {
         item = Item.of(item);
       }
       let nbt = item.toNBT();
       nbt.Count = item.count;
-      if (typeof item_obj === "string" && item_obj.includes("#")){ //supprt for tags
-        if (item_obj.includes("x ")) item_obj = item_obj.split('x ')[1]
-        let tag = (Ingredient.of(item_obj).values[0].serialize().get("tag")+'').replaceAll('"','')
-        nbt.id = `#${tag}`
+      if (typeof item_obj === "string" && item_obj.includes("#")) {
+        //support for tags
+        if (item_obj.includes("x ")) item_obj = item_obj.split("x ")[1];
+        let tag = (
+          Ingredient.of(item_obj).values[0].serialize().get("tag") + ""
+        ).replaceAll('"', "");
+        nbt.id = `#${tag}`;
       }
       return nbt;
     })

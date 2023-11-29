@@ -1,0 +1,18 @@
+## [1.94.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.93.4...1.94.0) (2023-11-28)
+
+
+### Features
+
+* added some agreemens with wood_strike_and_co to get wood ([b8be3c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b8be3c86de4103ddf491a5fe598b3babff6dfe93))
+
+
+### Minor tweaks
+
+* add trades to index ([0bfa1f6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0bfa1f6d410091b282f1ab0814789354adc19b78))
+
+
+### Fixes
+
+* trade string cleaning not cleaning all qutes ([01131a9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/01131a9af0524266ccdd904f0d4f80a689956a3f))
+
+

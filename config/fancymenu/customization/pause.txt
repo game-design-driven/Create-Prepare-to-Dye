@@ -81,7 +81,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 40
+  y = 42
 }
 
 customization {
@@ -112,6 +112,22 @@ customization {
   description = Create: Prepare to Dye issue tracker
   label = Feedback
   height = 20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/v8cZ83kTPY%btnaction_splitter_fm%
+  backgroundhovered = discord-mark-white.png
+  label = 
+  loopbackgroundanimations = true
+  x = 6
+  width = 18
+  action = addbutton
+  actionid = 67b0ed23-f42e-4d5c-872a-daf21bfe0efb1700741001775
+  y = -18
+  backgroundnormal = discord-mark-blue.png
+  height = 12
 }
 
 customization {

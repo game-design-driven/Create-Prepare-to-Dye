@@ -1,0 +1,9 @@
+### [1.87.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.87.2...1.87.3) (2023-11-26)
+
+
+### Documentation and Localization
+
+* add missing changelog ([e5c83e1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e5c83e1ff3536dab2edc97905e962adcfb480db7))
+* change discord button location in main menu to be more out of the way ([934a2eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/934a2eb66c381786bb6d218b871019662a6e374e))
+
+

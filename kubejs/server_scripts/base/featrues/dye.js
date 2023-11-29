@@ -64,7 +64,6 @@ if (feature('Red from crops')) {
 }
 
 if (feature('Gray from ash')) {
-    addShaped('supplementaries:ash', ['aa', 'aa'], { a: '#forge:dusts/ash' })
     addCrushing(['gray_dye %50', 'white_dye %20', 'light_gray_dye %10'], 'supplementaries:ash')
     addMilling('gray_dye', 'supplementaries:ash')
 }

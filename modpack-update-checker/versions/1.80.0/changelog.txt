@@ -1,0 +1,27 @@
+## [1.80.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.79.37...1.80.0) (2023-11-22)
+
+
+### Features
+
+* added a mechanic for spouts to fill cauldrons ([fbd6290](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fbd6290926484abacb2c4764328c68b2e874bbf3))
+* disable natural salt generation ([f14a6b3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f14a6b33a4132495db891007704403f03b004e81))
+* remove apples drop from tree, apples will have to be farmed deliberately instead ([2a2aa46](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2a2aa46e623b16a1d9dfd0d02f259e9de9a481a7))
+
+
+### Minor tweaks
+
+* remove unused flag about cauldrons in the nether from forgery ([1397d20](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1397d2061671eb696a5dab250d5adc79384ef8c9))
+
+
+### Documentation and Localization
+
+* add tooltip about cauldrons and salt ([bd7717f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bd7717fa170ab9e8e6be6deb4c0c1d5b316de595))
+
+
+### Modlist related changes
+
+* add salt mod ([4e74e92](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4e74e929741771d0df9380a11a5e78187f2d8c75))
+* update kubejs ([d4e62af](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d4e62afe4d1372fa0ad939e39f5031bc64ff8a77))
+* update supplementies ([858618b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/858618bf8d82b9c6543792f716d283e4501ece8b))
+
+

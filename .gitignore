@@ -63,3 +63,4 @@ config/jade/sort-order.json
 .vscode/probe.code-snippets
 /unzipped_mods/
 /screenshots/
+lightspeed-cache/*
