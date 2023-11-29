@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "410cba1ad13c6d017e0361364091fad53bfdf45e03982d6825bc61c7334cf26a"
+hash = "01a10d6dc69f0d1928f1e87b069506d62fc4a887892b6a7eaea7b446976f7f93"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "83d094ea76fb38a5b67bfa7876fd85e9ccba75c8e23ffbbf38db5574f3396a23"
+hash = "0ca72574fe4f707754786d10c69e0be771d8ca44ccd338a7c378f8feb1be2ae6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1434,7 +1434,7 @@ hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-deflowered.js"
-hash = "ebfb8ac38c4358f1253e1814518e814ffc94d5cb6ae066d959a7b8646637e188"
+hash = "3e16c935c0ced2f3b0ea576f1ecfd07bd02a04c0a8dc58ded0efa37972312c4a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
@@ -1558,7 +1558,7 @@ hash = "1a188b052287fd2d9b85e5c9a878bde0112611f91a1ae3588d31530f83084c15"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "6a8bc3af9987f1d6330445c49cfd42e22d36561811510cea663917eb8c1f9bbe"
+hash = "4bd057af949c23bed1b3b3e8a552ac8529889cff2298f341056313f35015ae8b"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -1570,7 +1570,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "4e1807c8aa4a14aecfcd054640fdb1686126af0e15fdd7a2490324e7d58b1975"
+hash = "3241add1f837f406d8656f3b38f153ba92ec6112a2184b4fff35a9cce52dd476"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3278854bc8fada084985e5da0c749a3a48a2cd5747370822f3b14713c5acf021"
+hash = "9f0b5efd1eb0de59dae64a96dfe4549624c5ee766ba0efd635822e0aba95bd2f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1787,6 +1787,10 @@ hash = "6103f258c801ddbe6af52b3c013b91d7d25a80e8b5448b29ce6f8574aa04f685"
 [[files]]
 file = "modpack-update-checker/versions/1.104.6/changelog.txt"
 hash = "822357d5787a3eabb991a1cdcb030a6f55a2c149b3c82038872b0669146fe31a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.104.7/changelog.txt"
+hash = "bcbaabd31066ff537621b013cb913d66db958fa9e5e6b994829bb8f8ed8fd8b2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
