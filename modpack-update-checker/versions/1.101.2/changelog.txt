@@ -1,0 +1,13 @@
+### [1.101.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.101.1...1.101.2) (2023-11-29)
+
+
+### Fixes
+
+* change assembly recipe order to always start with cog to fix issue with barrier transition item ([143de4d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/143de4d805144218f384982864d16afe2a661f77))
+
+
+### Developer experance improvments and changes
+
+* return assembly recipe after assembly recipe function ([d9ab801](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d9ab801e7e447373ad6b7689109f4eae3de9bcda))
+
+

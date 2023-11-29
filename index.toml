@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6536c33da6081672b13abdc6eeb2c874673ad0b7d0f6f0b108a082ba170575e7"
+hash = "27f58381df650b14d61021a460b22ec4da64db27af53df7a1c896e4795614c5d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1122,7 +1122,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "94daa3f032c2e866713e83b8bb887e644210ef762b41fce2e275383510fc341d"
+hash = "6bd26b53025d0d75578088af51d090c29a705fa508aa91975c964ac440c816d8"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1474,7 +1474,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "9bb55f388370bbe13223f07ad79dd27d1cb0165923b168ea28ef7e14f8b0a132"
+hash = "92a66fa95a20bd798577f2fb13c42ccebff21a65dde3655067ea821ac9cf55dc"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1574,7 +1574,7 @@ hash = "6a961634c441142913881b07d07047f542a258538a4945fb8c39735c0901ba39"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/create.manager.js"
-hash = "7348eaeef47ab3bfeda24a7a33ef454ab07086f022cf8c077508c577c12bd46c"
+hash = "031aff042f4012d9c1af1d42613267968a2d41208137aea9c8e17ccd7f7b6f90"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/createdieselgenerators.manager.js"
@@ -1698,7 +1698,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d1cdca21bd50c0a56e3335d3ca99c953adf8df7bdc2c221abac2e337ee372e8b"
+hash = "c93d1c79a588eb8fafde74b13cdb99a8c0d99851bac0f0587c19243ccee746f2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1715,6 +1715,10 @@ hash = "679cc4f8463e3b4f224b5db8eb5572673810223d8e61c0b87855619392a1bd2e"
 [[files]]
 file = "modpack-update-checker/versions/1.101.1/changelog.txt"
 hash = "71dd5058b178a233f5377f65167bacc1fca27d3d492e9bd1d887a1074bfd3a08"
+
+[[files]]
+file = "modpack-update-checker/versions/1.101.2/changelog.txt"
+hash = "743b3ceef9653823785ba27fd4457706bdf19f8edb335e9ec6bfa749dda2fe0a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
