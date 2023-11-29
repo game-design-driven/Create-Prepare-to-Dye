@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "fec747892c136c9f1814ef43413cad69b8ead60637fec9ad0f48eac36c998abf"
+hash = "75a3db38be9af4e573f09168e3f3a0c5f5b64a97a10d8e5d881e739501bffae3"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1122,7 +1122,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2a3f141d295b01292a0b0a644dbd2f80160921c4b9521f224220dc3b8a7a4c86"
+hash = "2c9fad455cbddf7ce810056f35ed9d04adedf62d70df16ae4b22d4a36a93c9b1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1202,7 +1202,7 @@ hash = "80fc3f9e14889a77b4e753f4d998068af113f1a6044b10c76d4d5b2230124547"
 
 [[files]]
 file = "kubejs/client_scripts/lang.js"
-hash = "c47b38a4c0e5442c0caa1ee77f3d35fd291aaa4140da83be985e99fa250809ea"
+hash = "724d0e5b4a2afd9777cbd5bd1603eb17c923761bc8c5f3a673d59ee17cf08c6b"
 
 [[files]]
 file = "kubejs/client_scripts/milkNerf.js"
@@ -1698,11 +1698,15 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "706c8af7d93fe20624d705ab8ace18b8e0f835795f479074a1d7159a343f8615"
+hash = "7317becf6fb0e45e41653ecf8b9c74a758f4b7beeadbb46a328e72d0899573b9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
 hash = "01e5f14ccedce686f0adbd958000b97c2c05b5d639c1ec7cd8668b3adeda7b51"
+
+[[files]]
+file = "modpack-update-checker/versions/1.100.1/changelog.txt"
+hash = "c9d7cb1b77b0777c191ce04c82a6cda6427b227c413c90ce86abcc1b2e2fa085"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
