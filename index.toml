@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "19d4833ffaa6b5c23371284ec404a8d204965f003d03ce2b1c56f2e0e9a9d8c6"
+hash = "8afaecaa21dfc13507b54c9a1801a077918f2bfd6896bdbfcc8ec3b5402510c5"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1122,7 +1122,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "fec7f67aae2c45eb457fa9337d84bf2dc61849bfff67ecc3231a2acb0198ebe1"
+hash = "be800590b87e5d65c797efa723a690bd0a398641ad75deed34de68b7bc05e2b5"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1530,7 +1530,7 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "9003cf38279bd3e1c2b6cc188521ebaaac1a2a2244d5fdf405a8630d0dffb01f"
+hash = "dba39ef3d910274878ccec216386a74c788b3398a47db44b88ea03a7315781b9"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -1698,7 +1698,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "df62919e1a9957f6dbd21c424a3d3f4483b636007a51a1b74659befb1021e25b"
+hash = "9a0e2a1b47772db3a32dba469e98777f1a9e344d03b44e2cf1c0834e61d4bf2c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1727,6 +1727,10 @@ hash = "7695d9791dd77a2508f6eb8f516d0295adcb591b796e01fb01cfdd367dd7ddb7"
 [[files]]
 file = "modpack-update-checker/versions/1.103.0/changelog.txt"
 hash = "06ddbfa8f1221ba8c3b09c440865983206834f9a5aa47a0efaaa2b7c5b6f7774"
+
+[[files]]
+file = "modpack-update-checker/versions/1.103.1/changelog.txt"
+hash = "3a2ac49741ea716fee3cf4f4aa16b8f0be9588faa07604e11f3410964caf6e33"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
