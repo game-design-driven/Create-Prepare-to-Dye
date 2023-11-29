@@ -135,7 +135,6 @@ if (feature('Dirt to sand')) {
     addCrushing(['sand %10', 'clay %10'], 'dirt')
 }
 
-if (feature('Enchanting table from amathist')) {
 if (feature('Enchanting table from amethyst')) {
     // addShaped('enchanting_table',[' a ','cdc','ddd'], {b:'book',c:'',d:'obsidian'})
     
