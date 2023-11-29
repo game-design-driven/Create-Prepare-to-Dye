@@ -270,7 +270,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "75a3db38be9af4e573f09168e3f3a0c5f5b64a97a10d8e5d881e739501bffae3"
+hash = "3a1730cec5c9c3bc5cfbe36168ad25cb278b581e1b812b342d790af4176a4ee7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1122,7 +1122,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2c9fad455cbddf7ce810056f35ed9d04adedf62d70df16ae4b22d4a36a93c9b1"
+hash = "3df7f7dc4b617e8698f653b9b00a0d27acac2c843a76e7f63fae172fcc801da0"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1514,7 +1514,7 @@ hash = "775f5e2bfb4cdc6fb344d6b20ee1d77062493ce45fd6a69eb3b3c64ea198449f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/wrenchDoesMore.js"
-hash = "c11062dc7eada300bfbc846b3502dd2f31876f0369bcb4278b5f754863a1d139"
+hash = "dcd0ed023b5dc38720532d0df1e19a08c1d1bc19632ecbb20fd096442908687b"
 
 [[files]]
 file = "kubejs/server_scripts/base/features.js"
@@ -1698,7 +1698,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "7317becf6fb0e45e41653ecf8b9c74a758f4b7beeadbb46a328e72d0899573b9"
+hash = "5718dbfc6dafd7d5eecefc16069a5fbcd6d47b7803b5b1ecf32d8ab6de98b6ad"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1707,6 +1707,10 @@ hash = "01e5f14ccedce686f0adbd958000b97c2c05b5d639c1ec7cd8668b3adeda7b51"
 [[files]]
 file = "modpack-update-checker/versions/1.100.1/changelog.txt"
 hash = "c9d7cb1b77b0777c191ce04c82a6cda6427b227c413c90ce86abcc1b2e2fa085"
+
+[[files]]
+file = "modpack-update-checker/versions/1.101.0/changelog.txt"
+hash = "679cc4f8463e3b4f224b5db8eb5572673810223d8e61c0b87855619392a1bd2e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
