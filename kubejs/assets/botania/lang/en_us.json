@@ -1,4 +1,5 @@
 {
+    "block.botania.apothecary_default": "Apothecary",
     "botania.entry.pureDaisy": "Pure Daisy",
     "botania.tagline.pureDaisy": "Purifies blocks into their living counterparts, turns water into snow, and lava into red sand",
     "botania.page.pureDaisy0": "The $(item)Pure Daisy$(0) is the most important flower a botanist can have.$(p)This flower will purify any adjacent lava (flowing or not) into red sand, along with $(item)Wood$(0) and $(item)Stone$(0) blocks (as seen on the next page) into their purified counterparts, $(item)Livingwood$(0) and $(item)Livingrock$(0). These resources are important crafting materials throughout a botanist's career.",
