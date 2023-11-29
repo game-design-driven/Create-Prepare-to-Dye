@@ -21,8 +21,8 @@ CreateEvents.spoutHandler((event) => {
       block.entityData.internalCurrentPower < 200000.0 - amount
     ) {
       if (!simulate) {
-        console.log("filling battery");
-        console.log(block.entityData);
+        
+        
         fillBattery(block, amount);
       }
       return 1000;
