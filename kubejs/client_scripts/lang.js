@@ -1,21 +1,3 @@
-
-// ClientEvents.lang('en_us',event => { //attempt to support nbt, I think the create api just doesn't, sadge
-//     // let stack = Item.of('botania:twig_wand', '{color1:0,color2:0}')
-//     let stack = Item.of('minecraft:diamond')
-//     let key = 'item.' + stack.id.replace(':', '.')
-//     if (stack.nbt) {
-    //         key = key + stack.getNbt().toString()   .replaceAll('"', "'")
-    //     }
-    //     key = key + '.tooltip.summary'
-    //     console.log('Translation key of '+stack.item+'  with nbt is '+key)
-    //     console.log('Translation of '+stack.item+'  with nbt is '+Text.translate(key).getString())
-//     $TooltipModifier.REGISTRY.register(
-    //         stack.item, new $ItemDescription(
-        //             stack.item,
-        //             $Palette.STANDARD_CREATE
-        //         )
-        //     )
-        // });
 global.itemTooltips = []
 const $ItemDescription = Java.loadClass('com.simibubi.create.foundation.item.ItemDescription$Modifier');
 const $TooltipModifier = Java.loadClass('com.simibubi.create.foundation.item.TooltipModifier');
