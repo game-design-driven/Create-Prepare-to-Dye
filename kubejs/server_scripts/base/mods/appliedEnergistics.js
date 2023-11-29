@@ -99,5 +99,9 @@ if (feature('Slime from silicon')) {
     addFilling('minecraft:slime_ball', ['ae2:silicon'], "1x create_enchantment_industry:experience")
     addInfusion('minecraft:slime_ball', 'ae2:silicon', 5000)
     addMixing('2x minecraft:slime_ball', ['ae2:silicon', 'lime_dye'])
+}
+
+if (feature('Silicon from slime')) {
     addAlchemyRecipe('ae2:silicon', 'minecraft:slime_ball', 5000)
+    addFilling('2x ae2:silicon', ['minecraft:slime_ball','250mb create_enchantment_industry:ink'])
 }
