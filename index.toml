@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b5a91e79ba7e3359dd3f068708a2e4cd571494723bc5a59496299b6c0391d7e0"
+hash = "1b557383fcf5d29a6f7342f190b86a2b634304f03e0b3d21eb4c89f23ef1e816"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -506,7 +506,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "1670e48fbe8ea03fb572d0cdff3c1fbbb3d8e4124918ed2c388e302a17ccc556"
+hash = "fdb0f6126974b20b83d75e79408d50f0239fe10fbe3ecc320fe58c36c3f8f44b"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "58e8df13e76322fb8a70991ea1c8bca4c23ffa2d1e28ff3600187a0d929c3519"
+hash = "0ded639c60e7e08d28661b62709729573dd971026afa370acb6341ddc2aea3b6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b8899b76c961cae416c4532530058dca2a9969d8ffa9fd030a4705dac3d56909"
+hash = "852bfcc2a23d945a7b326df1e94d5e6275485a66c873663723c532dae21f2522"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1775,6 +1775,10 @@ hash = "1a2718e46538e371fe692eee07cafa9717a257cb56c09d30356c1bfaed872407"
 [[files]]
 file = "modpack-update-checker/versions/1.104.2/changelog.txt"
 hash = "1a8e30fbc4e5dc6f57ddf4864be7adef5cc16e39d0f70f154459cec6f73a16ca"
+
+[[files]]
+file = "modpack-update-checker/versions/1.104.3/changelog.txt"
+hash = "97ad94e03712aa2faeaa02a605841c60c5a604b7244a893ab47a5daa262b26e4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
