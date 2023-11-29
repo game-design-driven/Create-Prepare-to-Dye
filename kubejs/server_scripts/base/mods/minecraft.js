@@ -197,4 +197,9 @@ if (feature('Sugar recipe tweaks')) {
     addCrushing(['sugar %10', 'lime_dye %1'], 'sugar_cane')
 
 }
+
+if (feature('Magma block to lava')) {
+    addBlockInteract('lava','magma_block', 'create:blaze_cake')
+}
+
 }
