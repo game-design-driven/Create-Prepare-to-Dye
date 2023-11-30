@@ -1,11 +1,9 @@
-name: Pre-release Pipeline
-concurrency: pre-release-pipeline
+name: Nightly Release Pipeline
+concurrency: nightly-release-pipeline
 on:
-  push:
-    branches:
-      - main
-    paths-ignore: 
-      - modpack-update-checker/**
+  workflow_dispatch: 
+  schedule: #run once a day
+    - cron: '0 0 * * *'
 env:
   pack-file: "pack.toml"
   name: 'Create: Prepare to Dye'
@@ -44,7 +42,6 @@ jobs:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
           token: ${{ secrets.GH_TOKEN }}
-          prerelease: true
   release:
     needs: [tag_and_release, tests]
     strategy:
@@ -115,7 +112,7 @@ jobs:
           changelog: ${{ needs.tag_and_release.outputs.changelog }}
           files: "*.mrpack"
           version: ${{ needs.tag_and_release.outputs.new_tag }}
-          version-type: beta
+          version-type: release
           name: ${{ steps.build_args.outputs.name }}
       - name: Update modrinth description to match reademe
         if: matrix.platform == 'modrinth'

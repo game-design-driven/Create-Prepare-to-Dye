@@ -81,7 +81,6 @@ if (feature("Replace mystical flowers and petals with dyes")) {
   for (let i = 0; i < 16; i++) {
     removeRecipe({ id: "botania:mushroom_" + i });
   }
-  //TODO rename petal apothecary to just apothecary
   //remove flower that makes mystical flowers
   removeItem("botania:jaded_amaranthus");
   removeItem("botania:floating_jaded_amaranthus");
@@ -156,7 +155,6 @@ if (
       ingredient,
     ]);
   });
-  // todo: fix this
 }
 
 if (feature('Replace_mana_string')) {
