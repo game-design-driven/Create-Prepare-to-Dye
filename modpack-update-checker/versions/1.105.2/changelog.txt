@@ -1,0 +1,8 @@
+### [1.105.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.105.1...1.105.2) (2023-11-30)
+
+
+### Reverted Changes
+
+* Revert feat: Add music for the trading platform ([066196c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/066196c7e4999360a468780724ccac38d8ae814a))
+
+
