@@ -1,0 +1,8 @@
+### [1.105.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.105.3...1.105.4) (2023-11-30)
+
+
+### Modlist related changes
+
+* add plasmo voice chat ([1e9b708](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1e9b708c6160dfd5b7251582fc41c92f4ba98672))
+
+
