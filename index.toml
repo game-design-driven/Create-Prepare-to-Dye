@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "8d5f32430bd12269ad5ac5de40b465059caa54ec9a1377cc80f1e3210bebb2bc"
+hash = "f60ae48089a5039cefd6ae43677cd6341b2f19659e1d22152cc4c8d385dd126d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -478,7 +478,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
-hash = "7f83e8a14b7a03e06c2bd44989ee8c5008378cb9365af889012dd90a21e26d10"
+hash = "bab45e1e53be764c4af37426580793612442beb15831b48cc0572e5072be1c76"
 
 [[files]]
 file = "kubejs/assets/ae2/textures/block/energy_cell.png"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4cec7897dfe2b6b8290f43f79bf349f5bffa67454408e57f8dc9154e0286187f"
+hash = "cf61e483af5e503e01eba1722376569f94d33eca33dfe90c940212a334a103c7"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "fd905c08a9a428df9d79bb2e5e45bc30e6064ef6de2b2162b9a73ab6a613b167"
+hash = "aa21964ef4b501f76db35f97cac7f1fe552ea9590dfdb59e6ce7a5b168ab355b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1819,6 +1819,10 @@ hash = "12e1b0f9b4605ddcde6c64cb0ee21ed84bcba8e68862df7ab7735b0953e23101"
 [[files]]
 file = "modpack-update-checker/versions/1.105.2/changelog.txt"
 hash = "ad0f3755e81bcad1a12824e0bb2f12c29439810576ce84b5b6814db0b95535d3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.105.3/changelog.txt"
+hash = "1656bc29c66a6088a6d941e586b04749cd055bc030db21bd30b08434f5e4f38a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
