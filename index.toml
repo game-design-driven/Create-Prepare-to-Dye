@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c8ede486e7fc4fcbff8d4bdd9ca51388a7643522236893deabe310c25bfc7207"
+hash = "3080a5d036300912eeb053a959ca3dd7b6a4c9ca061f4dca63f1ce655d75ce8e"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "0a315340440908649facfba022bd7447be52c6f7fdb7d80c75222c30efebfcdc"
+hash = "1bac9a2bdc933e0658e4c7b1e9edc9fea99b591b6679800e02ed8508f2f9d9cf"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1630,7 +1630,7 @@ hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "efa478954181084168c4ad00993ae30d4b0a1f4482cbe9f031dcb39e243648d7"
+hash = "0dccaf3a0050987badd7d861972e8d63e606b677f9874378290989f99332aa5b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1927e0abff3e29de8fdba23bfac82833d96263d6ee15bf589eef1b27150d5a57"
+hash = "317807109dff30925a88a222ae7246ac753abb24d5d01c6eef2437709e5aab43"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1831,6 +1831,10 @@ hash = "fc21e5e138a5774dc3510132e72065cc1f4badf0743955bd6b77ec306f93a0b2"
 [[files]]
 file = "modpack-update-checker/versions/1.106.0/changelog.txt"
 hash = "6a20730e09fa1adb6ef376c2470f68fe1784a6b63541061b3e367d5cf66ef004"
+
+[[files]]
+file = "modpack-update-checker/versions/1.106.1/changelog.txt"
+hash = "f4915b84cc1c6213ad50d1a9dca16642243d4d12dd8498dd4e964364dab41688"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
