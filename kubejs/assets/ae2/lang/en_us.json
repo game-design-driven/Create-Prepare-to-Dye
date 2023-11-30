@@ -4,5 +4,11 @@
     "block.ae2.flawed_budding_quartz": "Flawed Budding Quartz",
     "block.ae2.budding_quartz": "Budding Quartz",
     "block.ae2.chipped_budding_quartz": "Chipped Budding Quartz",
-    "block.ae2.damaged_budding_quartz": "Damaged Budding Quartz"
+    "block.ae2.damaged_budding_quartz": "Damaged Budding Quartz",
+    "item.ae2.fluix_smart_cable": "Smart Cable",
+    "item.ae2.toggle_bus": "Toggle Bus",
+    "item.ae2.inverted_toggle_bus": "Inverted Toggle Bus",
+    "item.ae2.storage_bus": "Storage Bus",
+    "item.ae2.storage_monitor": "Storage Monitor",
+    "item.ae2.terminal": "Storage Terminal"
 }
