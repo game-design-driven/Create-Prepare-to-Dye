@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "0d22aeae64888e5c68eb8d8b9ad2172f824c197e3eb0b2f132eb8e2c094611f7"
+hash = "c8ede486e7fc4fcbff8d4bdd9ca51388a7643522236893deabe310c25bfc7207"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -478,7 +478,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
-hash = "bab45e1e53be764c4af37426580793612442beb15831b48cc0572e5072be1c76"
+hash = "2bbe6ad2f1577900ee2a32fee6814deb526761476ae089f7d540fe3a5f12d4cb"
 
 [[files]]
 file = "kubejs/assets/ae2/textures/block/energy_cell.png"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "ab79315520de0dde00eae00b2b890f180cbdce03b14071bb71388d5e6f8cd296"
+hash = "0a315340440908649facfba022bd7447be52c6f7fdb7d80c75222c30efebfcdc"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1486,7 +1486,7 @@ hash = "906654b78d43e0c43c0c010b05a9f44f987db6b3007a256b16bfbd0cbe3e1a3a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/quartzAutomation.js"
-hash = "a6866fd3e5f0172435a3bc1c848d31fa3f481c01046b7f33977ed04ef7f54925"
+hash = "38f14c3df6b0fe0bbffe89da5a9dba3506f3a869731e14c1699cc78b982c19b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/recycling.js"
@@ -1554,7 +1554,7 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "1a188b052287fd2d9b85e5c9a878bde0112611f91a1ae3588d31530f83084c15"
+hash = "13797852bdd68c6ce2f9de72d0da8b62976cbc231a49b7ecce4bd903647d2ca9"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c75106513adc2a63d0e2b818886ee48ac4ec24a8bedb28b55793af7224f3f6f7"
+hash = "1927e0abff3e29de8fdba23bfac82833d96263d6ee15bf589eef1b27150d5a57"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1827,6 +1827,10 @@ hash = "1656bc29c66a6088a6d941e586b04749cd055bc030db21bd30b08434f5e4f38a"
 [[files]]
 file = "modpack-update-checker/versions/1.105.4/changelog.txt"
 hash = "fc21e5e138a5774dc3510132e72065cc1f4badf0743955bd6b77ec306f93a0b2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.106.0/changelog.txt"
+hash = "6a20730e09fa1adb6ef376c2470f68fe1784a6b63541061b3e367d5cf66ef004"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
