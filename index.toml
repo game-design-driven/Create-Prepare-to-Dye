@@ -2214,7 +2214,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "a70312f0489f68cd87b03bd6dfc0e6cad1b33b57c49a6e1040506e7317f954c9"
+hash = "edde596d1a457688a41f5cc7816e20e62fee544382ac8ea623cd3b424fc2d4a9"
 metafile = true
 
 [[files]]
@@ -2224,7 +2224,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "2b85aa20585ab9904e0cb2861fdb71b17b6869f9e2bafeb609d13612a289a224"
+hash = "c49a39a9289cd66aed3ab8b7c161524ac35791bc075d9644300602d7923d0bd3"
 metafile = true
 
 [[files]]
@@ -2248,7 +2248,7 @@ hash = "862f1d9e29041ebc982a48297e0a28d82ff1511d3aa8c5e588202aa4d52ed37f"
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "a89d8b3b63fa4eaff3f93cb2a08a6c78dcc10182ab1229819508c68fbb70f73f"
+hash = "944c4d65c5d2c2daa7b28d707b150f8e955340fe99a5b377499ee830523a5fb6"
 metafile = true
 
 [[files]]
@@ -2268,7 +2268,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "b37412171124265e13066099e57c9442bd61f471e594c6878a2d788df6a8927c"
+hash = "3286e3fd475b8e0802fbee95f8a849345ab55057fba08121c969df14b51f1e41"
 metafile = true
 
 [[files]]
@@ -2313,7 +2313,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "cca4b243ff01543c5e7f2b943bc69e969ca804d1212c53d29974c2a2abd70eed"
+hash = "77197d1980dbae42a4bd5dce2cc5c162c9487e46178e3a528bb82fb136c18243"
 metafile = true
 
 [[files]]
@@ -2478,7 +2478,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "fc6466884b93ae74c3588c4043a1b31c8faea2a113c9e7510713c446e5e19d50"
+hash = "1dba3a9b3bc1eb322b8c8c90706fa5cd8952047146644c6982364da378abe846"
 metafile = true
 
 [[files]]
