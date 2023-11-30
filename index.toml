@@ -2412,6 +2412,11 @@ hash = "9b7a92ae6984cc297130296952c8489d14b7f29d79f53cc540bf5694abfd4599"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "8208659afb89a51f7f676f8d3656113a5357f0220bdefbfaa1ebf27b3606092e"
+metafile = true
+
+[[files]]
 file = "mods/pluto.pw.toml"
 hash = "c90d1f76411f74e449eb7a170406303b8106b743e45d1dbb6641fd4e6f2702cd"
 metafile = true
