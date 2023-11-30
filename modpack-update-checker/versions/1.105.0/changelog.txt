@@ -1,0 +1,8 @@
+## [1.105.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.11...1.105.0) (2023-11-30)
+
+
+### Features
+
+* Add music for the trading platform ([584eb67](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/584eb67e9e3b2cfcded59520417e9b26ed8bba4b))
+
+
