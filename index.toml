@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3080a5d036300912eeb053a959ca3dd7b6a4c9ca061f4dca63f1ce655d75ce8e"
+hash = "545e6cda5a638860cd42d6f66699d674fea30a43a595145632a3c37be2de0175"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1bac9a2bdc933e0658e4c7b1e9edc9fea99b591b6679800e02ed8508f2f9d9cf"
+hash = "c3b4eccc3601a344adafb9c1316dcc12f38ecd6b7742b7a4dd81a852654ad8c9"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "317807109dff30925a88a222ae7246ac753abb24d5d01c6eef2437709e5aab43"
+hash = "a437009ceba718f814ac8639df523e18a073f0621784daf05c35fea92dcc1d6d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1835,6 +1835,10 @@ hash = "6a20730e09fa1adb6ef376c2470f68fe1784a6b63541061b3e367d5cf66ef004"
 [[files]]
 file = "modpack-update-checker/versions/1.106.1/changelog.txt"
 hash = "f4915b84cc1c6213ad50d1a9dca16642243d4d12dd8498dd4e964364dab41688"
+
+[[files]]
+file = "modpack-update-checker/versions/1.106.2/changelog.txt"
+hash = "1666816351f84a20955263ee2964406657676f64d0452d450af2413134566e7e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -2240,7 +2244,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "c49a39a9289cd66aed3ab8b7c161524ac35791bc075d9644300602d7923d0bd3"
+hash = "2b85aa20585ab9904e0cb2861fdb71b17b6869f9e2bafeb609d13612a289a224"
 metafile = true
 
 [[files]]
