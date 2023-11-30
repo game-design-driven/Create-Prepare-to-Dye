@@ -74,7 +74,7 @@ const bfcHelmets = getAgreement({
 });
 // const bcfPlates3 = getAgreement(
 const mlcEndstoneFixed = getAgreement({
-  paymentItems: ['16x quark:chorus_fruit_block'],
+  paymentItems: ["16x quark:chorus_fruit_block"],
   requestedItems: ["32x minecraft:end_stone"],
   title: "Building a moon, materials needed",
   orderedAmount: 0,
@@ -134,22 +134,30 @@ const bhbWheat = getAgreement({
     "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
 });
 const wscAxes = getAgreement({
-  paymentItems: ["16x minecraft:oak_log", "minecraft:chest", "4x storagedrawers:oak_full_drawers_1"],
+  paymentItems: [
+    "16x minecraft:oak_log",
+    "minecraft:chest",
+    "4x storagedrawers:oak_full_drawers_1",
+  ],
   requestedItems: ["16x #forge:tools/axes"],
   title: "A new season is upon us, Tools needed",
   orderedAmount: 1,
   company: "wood_strike_and_co",
   message:
-    "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top-notch, but we're short a few axes. Need more to chop-chop as fast as a moose on a ski slope. Can you help us out?"
+    "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top-notch, but we're short a few axes. Need more to chop-chop as fast as a moose on a ski slope. Can you help us out?",
 });
 const wscBread = getAgreement({
-  paymentItems: ["8x minecraft:birch_log", "minecraft:chest", "4x storagedrawers:oak_full_drawers_1"],
+  paymentItems: [
+    "8x minecraft:birch_log",
+    "minecraft:chest",
+    "4x storagedrawers:oak_full_drawers_1",
+  ],
   requestedItems: ["64x minecraft:bread"],
   title: "Food needed for the workers",
   orderedAmount: 2,
   company: "wood_strike_and_co",
   message:
-    "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well"
+    "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well",
 });
 const wscBreadAndAxesFixed = getAgreement({
   paymentItems: ["8x minecraft:birch_log"],
@@ -158,7 +166,7 @@ const wscBreadAndAxesFixed = getAgreement({
   orderedAmount: 0,
   company: "wood_strike_and_co",
   message:
-    "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well-fed. We're thinking long-term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration"
+    "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well-fed. We're thinking long-term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration",
 });
 const bhbFurnaces = getAgreement({
   paymentItems: [
@@ -221,7 +229,7 @@ const bnwManasteelOld = getAgreement({
   orderedAmount: 1,
   company: "boards_and_wires",
   message:
-  "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
+    "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
 });
 const bnwManasteel = getAgreement({
   paymentItems: [
@@ -373,7 +381,12 @@ const sssHelmetsFixedRates = getAgreement({
     "Amazing! It's so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
 const cccRawWhite = getAgreement({
-  paymentItems: ['16x minecraft:leather','8x supplementaries:copper_lantern','4x create:basin','2x createdieselgenerators:basin_lid'],
+  paymentItems: [
+    "16x minecraft:leather",
+    // "8x supplementaries:copper_lantern",
+    // "2x createdieselgenerators:basin_lid",
+    "10x create:andesite_casing", //temp fix
+  ],
   requestedItems: ["64x minecraft:raw_iron", "64x minecraft:raw_iron"],
   title: "Supplements required",
   orderedAmount: 2,
@@ -381,9 +394,13 @@ const cccRawWhite = getAgreement({
   message:
     "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
 });
+// Utils.server.tell(cccRawWhite.item.nbt)
 const cccIronBars = getAgreement({
-  paymentItems: ['16x minecraft:leather',Item.of('botania:mana_tablet', '{mana:10000}')],
-  requestedItems: ['64x minecraft:iron_bars','64x minecraft:iron_bars'],
+  paymentItems: [
+    "16x minecraft:leather",
+    Item.of("botania:mana_tablet", "{mana:10000}"),
+  ],
+  requestedItems: ["64x minecraft:iron_bars", "64x minecraft:iron_bars"],
   title: "Building cells, supplies needed URGENTLY",
   orderedAmount: 4,
   company: "cosmic_cuisine_collective",
