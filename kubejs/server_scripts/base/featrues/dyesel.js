@@ -73,9 +73,8 @@ if (feature("Ethanol")) {
     temperature.heated
   );
   addDistillation(
-    ["10mb water"],
+    ["15mb water"],
     ["15mb milk"],
     40,
-    temperature.heated
   );
 }
