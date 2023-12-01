@@ -64,3 +64,7 @@ config/jade/sort-order.json
 /unzipped_mods/
 /screenshots/
 lightspeed-cache/*
+/config/plasmovoice/server/languages/
+/config/plasmovoice/.crowdin
+config/plasmovoice/server/uStats.toml
+config/plasmovoice/server/voice_mutes.json
