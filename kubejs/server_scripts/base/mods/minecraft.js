@@ -211,3 +211,30 @@ if (feature('Magma block more expensive')) {
 if (feature('Slime from magmablock')) {
     addItemApplication('slime_block', 'magma_block', 'lime_dye')
 }
+
+if (feature('Fertilizer into water')) {
+    addToTag('forge:squeezables/1',[
+        'minecraft:wheat_seeds',
+        'minecraft:melon_seeds',
+        'minecraft:pumpkin_seeds',
+        'minecraft:beetroot_seeds',
+        'minecraft:cactus',
+    ])
+    addToTag('forge:squeezables/2',[
+        'minecraft:apple',
+        'minecraft:beetroot',
+        'minecraft:carrot',
+        'minecraft:potato',
+        'minecraft:poisonous_potato',
+        'minecraft:chorus_fruit',
+        'minecraft:sweet_berries',
+        'minecraft:bamboo',
+    ])
+    addToTag('forge:squeezables/3',[
+        'minecraft:melon_slice',
+        'minecraft:pumpkin',
+    ])
+    addCompacting('10mb water', '#forge:squeezables/1')
+    addCompacting('50mb water', '#forge:squeezables/2')
+    addCompacting('100mb water', '#forge:squeezables/3')
+}
