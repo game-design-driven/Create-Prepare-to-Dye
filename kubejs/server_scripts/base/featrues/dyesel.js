@@ -51,16 +51,15 @@ if (feature("Ethanol")) {
   );
 
   addFermenting(
-    ["400mb kubejs:fermented_goop", "8x minecraft:white_dye"],
-    ["4x minecraft:bone_meal", "500mb milk"],
-    200
+    ["500mb kubejs:fermented_goop", "8x minecraft:white_dye"],
+    ["4x minecraft:bone_meal", "500mb milk"]
   );
   addFermenting(
     ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
     ["500mb milk"]
   );
 
-  addMixing("kubejs:fermented_blob %5", "10mb kubejs:fermented_goop");
+  addMixing("kubejs:fermented_blob %5", "15mb kubejs:fermented_goop");
   addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
   addMixing("slime_ball %80", [
     "500mb kubejs:fermented_goop",
