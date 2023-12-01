@@ -286,7 +286,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "07638c13dc186bced7312606686f4d30ec9d6d09cf19e1fa39631be6c08d3ca0"
+hash = "716a5f64b58ae1527d424e6af628737cc4cc8b4bf396d4130a92d2686a554334"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1154,7 +1154,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "77325d31a07425d0086a35e1ae0299f545e80b83d16c62eb20eb58a1f8312ec3"
+hash = "032e0ea2a829df6e561991693a1cc8581c55dd61acceabee0a415aa4e44e91f7"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1242,7 +1242,7 @@ hash = "24678369356b7b4bc3e5b2d25315645d458d093d1875186c56107553f2a224e0"
 
 [[files]]
 file = "kubejs/client_scripts/noWaterCheat.js"
-hash = "236d04f27be4e9a76bb9f18eeea2bb33007da2a88ce402e543221c3b74b721c0"
+hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introponder.js"
@@ -1498,7 +1498,7 @@ hash = "3f3c6657b1568ca5c4e0eecc507c8fed9984ae1fcd146d75e7bf0cb634f9b87a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/noWaterCheat.js"
-hash = "236d04f27be4e9a76bb9f18eeea2bb33007da2a88ce402e543221c3b74b721c0"
+hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
@@ -1742,7 +1742,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "83720f80f58f7c8122cfa726cdea9a9bb37601c19065f579d1ebf49c2473f458"
+hash = "9bb80dd15a7da2c0d2310533aef8816a3ebf5568f5312a58d305adf04716fc1d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1875,6 +1875,10 @@ hash = "4ac7eb9074c99b400c29954b81ac0be74351883427b5e648b212d3bf6fefe3c6"
 [[files]]
 file = "modpack-update-checker/versions/1.109.0/changelog.txt"
 hash = "f64f43b507f910bec1155e44c76b36c0a29dccb0cba26488cf03eb9d657ddbaf"
+
+[[files]]
+file = "modpack-update-checker/versions/1.109.1/changelog.txt"
+hash = "a386ea028a8ebdb3da177e2654464b03bd1ab3d5fed643f7ff8d6b7e93a24fbc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
