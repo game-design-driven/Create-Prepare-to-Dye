@@ -305,3 +305,6 @@ if (feature('piston pole recipe')) {
     i: '#forge:nuggets/iron'
   })
 }
+if (feature('Remove old cogwheel recipe')) {
+  removeRecipe({id: 'create:deploying/large_cogwheel'})
+}
