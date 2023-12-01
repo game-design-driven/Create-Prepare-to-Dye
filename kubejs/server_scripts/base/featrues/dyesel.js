@@ -2,7 +2,7 @@ if (feature("diesel generators are not dyesel generators")) {
   // createdieselgenerators:diesel_engine_fuel_[slow/fast]_[strong/weak]_[slow/fast]_burn
   ServerEvents.tags("fluid", (event) => {
     event.add(
-      "createdieselgenerators:diesel_engine_fuel_slow_weak_fast_burn",
+      "createdieselgenerators:diesel_engine_fuel_fast_strong_fast_burn",
       "milk"
     );
   });
