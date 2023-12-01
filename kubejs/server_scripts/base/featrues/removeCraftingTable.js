@@ -147,8 +147,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addShapeless('minecraft:stonecutter', "ptdye:cobblestone_casing")
   addShapeless('ptdye:cobblestone_casing', '#forge:device/cobblestone')
+  addShapeless('minecraft:stonecutter', "ptdye:cobblestone_casing")
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/cobblestone");
@@ -198,6 +198,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_pump",
     "create:fluid_pipe",
     "supplementaries:copper_lantern",
+    'createdieselgenerators:distillation_controller'
   ];
   addToTag("forge:device/copper", "create:copper_casing");
   addToTag("forge:device/copper", copperBasedDevices);
