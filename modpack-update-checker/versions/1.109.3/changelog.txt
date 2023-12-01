@@ -1,0 +1,8 @@
+### [1.109.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.109.2...1.109.3) (2023-12-01)
+
+
+### Minor tweaks
+
+* buffed fermented blob recipe ([94c405e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/94c405e788e26210a861877461a37c2b0542d626))
+
+
