@@ -194,7 +194,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "4b8f09de113115bed6a97255e98006968211aa1ddf9f3dab1ecff9db0d664c97"
+hash = "1a379ab69b291487cbe20f874b48b0387d98d501dc8caf09e00efb4396bb508b"
 
 [[files]]
 file = "config/forgery/fscript.ini"
@@ -282,7 +282,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "91067a65d1e16ea09cd17eb15010a8460fd30f0968bcbd717bba9459b12ac15c"
+hash = "2200a39b192c67e6189af3a127c750c9d113533a429c77f12fa06cd5cd5447cb"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1142,7 +1142,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9037b2b9e77a1f0cc056c6d6f8b722331350d52c786bf6aba867846fe4667eff"
+hash = "707685a1747fd41b07d0c652e0c71fe3fe838ec6fe79b104513f40230a7fcd05"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1450,7 +1450,7 @@ hash = "dfd373d8effa70d5a75c27dcf6311e2c290b77eea273327d48160d1a2bc51c74"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "4154c5e07382b3ba5d2001c893c5e451ef450e403b1c9f9213c681201e19f8d7"
+hash = "50ac820a182202c494a3b65b3993d4f018fd1c14424895710ed9ad49bdfd8939"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -1562,7 +1562,7 @@ hash = "4bd057af949c23bed1b3b3e8a552ac8529889cff2298f341056313f35015ae8b"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "748c889315e4e7be294bcf99a0c7041f8c0fff6d7e0993b7d646fe70124379d7"
+hash = "68054039e5bfe61fd96c6f88602db1a178222bec389fc9d0eb75138fec8b03b5"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -1722,7 +1722,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "41f8f8171dea3f8ad2ce329c1c2ce1c9c4aeaed14e2ad82a1515d5473498d5ea"
+hash = "2872ee90abfc1751338435ab9fcd688e4be9ec5e5a7c8309540a53d1d48d669c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1843,6 +1843,10 @@ hash = "1666816351f84a20955263ee2964406657676f64d0452d450af2413134566e7e"
 [[files]]
 file = "modpack-update-checker/versions/1.106.3/changelog.txt"
 hash = "83f0a292701f9ed9802bd168027fba2c44d2d6cf9f55ce017820bd78d849775c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.107.0/changelog.txt"
+hash = "172294a7c46ed9c91b23bc8ea3af30a15a5786d272f1a7417b2e0ce2541c8cf0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
