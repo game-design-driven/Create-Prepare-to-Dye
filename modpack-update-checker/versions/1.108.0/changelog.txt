@@ -1,0 +1,19 @@
+## [1.108.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.107.0...1.108.0) (2023-12-01)
+
+
+### Features
+
+* disable filling water bottles with water source ([368f850](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/368f8509ebce51d96aea428991506b26424a3f4f))
+
+
+### Developer experance improvments and changes
+
+* update gitignore ([c813760](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c81376009758bd6f13e7d20303710e70d44ea7a4))
+* update plasmvoice configs ([79c9852](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/79c98526478af7a21662f0254f878947d0db2958))
+
+
+### Fixes
+
+* stonecutter softlock ([51cf9a7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/51cf9a7fe4c64cf8eb746535b65f4ddb49a766e9))
+
+

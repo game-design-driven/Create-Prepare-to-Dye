@@ -25,6 +25,10 @@ file = "config/ae2/common.json"
 hash = "3f1c112b2e3ae3d702098cfec89b5c3f639d1ff7ef48d9ffaaac75768017cbc2"
 
 [[files]]
+file = "config/appleskin-client.toml"
+hash = "28c6ad7570268b02ec6f73fb7c39c49ecf90f0697d0db9447899e8aa96285200"
+
+[[files]]
 file = "config/blockrunner-client.toml"
 hash = "86720511ae85c12cec63f802f8a7f71e3827a4e56e3a7021c62c67ec4110e5e6"
 
@@ -282,7 +286,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2200a39b192c67e6189af3a127c750c9d113533a429c77f12fa06cd5cd5447cb"
+hash = "170706f842f1695cc2d9dceedb5e3bc671167b9cd04f204d925a1915a4a5420f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -303,6 +307,14 @@ hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
 [[files]]
 file = "config/ping-wheel.json"
 hash = "945d22a6c0bc847105e0bdb55a33556a4355fbf7219689b1564ed47e689a9080"
+
+[[files]]
+file = "config/plasmovoice/client.toml"
+hash = "e67e1362e3693eca3e18e2be9cc421e0eeed1f07666f5f67ad661effc3adee7e"
+
+[[files]]
+file = "config/plasmovoice/server/config.toml"
+hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -390,7 +402,7 @@ hash = "80005a1cf2031905a812464edf119c4757b132ff127e4552968f1bd2c7d5381e"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "3252a8889a0db4b840d072034a98e38442b5116eb453c6a692a4ac76e997e7cc"
+hash = "39c898f0f5aef83cd6fe38519b663411f7db3f91b0d78c743d602ad14a0279d8"
 
 [[files]]
 file = "config/toolkit-common.toml"
@@ -1142,7 +1154,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "707685a1747fd41b07d0c652e0c71fe3fe838ec6fe79b104513f40230a7fcd05"
+hash = "60db9700de137ee785bec5e117938587a7f825aa61f7d4bb3f382ef28a719932"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1227,6 +1239,10 @@ hash = "724d0e5b4a2afd9777cbd5bd1603eb17c923761bc8c5f3a673d59ee17cf08c6b"
 [[files]]
 file = "kubejs/client_scripts/milkNerf.js"
 hash = "24678369356b7b4bc3e5b2d25315645d458d093d1875186c56107553f2a224e0"
+
+[[files]]
+file = "kubejs/client_scripts/noWaterCheat.js"
+hash = "236d04f27be4e9a76bb9f18eeea2bb33007da2a88ce402e543221c3b74b721c0"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introponder.js"
@@ -1481,6 +1497,10 @@ file = "kubejs/server_scripts/base/featrues/monsterFertilizer.js"
 hash = "3f3c6657b1568ca5c4e0eecc507c8fed9984ae1fcd146d75e7bf0cb634f9b87a"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/noWaterCheat.js"
+hash = "236d04f27be4e9a76bb9f18eeea2bb33007da2a88ce402e543221c3b74b721c0"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
 hash = "906654b78d43e0c43c0c010b05a9f44f987db6b3007a256b16bfbd0cbe3e1a3a"
 
@@ -1498,7 +1518,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "92a66fa95a20bd798577f2fb13c42ccebff21a65dde3655067ea821ac9cf55dc"
+hash = "3460de5f09982428c3a47a9a2f35432a6b415c2f05d1e9624b64aa65cd73e173"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1722,7 +1742,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2872ee90abfc1751338435ab9fcd688e4be9ec5e5a7c8309540a53d1d48d669c"
+hash = "0b1a08067ae07c426adda3958989921864c93eca5b813af94b57e310837d01e6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1847,6 +1867,10 @@ hash = "83f0a292701f9ed9802bd168027fba2c44d2d6cf9f55ce017820bd78d849775c"
 [[files]]
 file = "modpack-update-checker/versions/1.107.0/changelog.txt"
 hash = "172294a7c46ed9c91b23bc8ea3af30a15a5786d272f1a7417b2e0ce2541c8cf0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.108.0/changelog.txt"
+hash = "4ac7eb9074c99b400c29954b81ac0be74351883427b5e648b212d3bf6fefe3c6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
