@@ -1,5 +1,5 @@
-if (feature('Remove crafting table')) {
-  removeItem('minecraft:crafting_table')
+if (feature("Remove crafting table")) {
+  removeItem("minecraft:crafting_table");
 }
 if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/copper_casing_from_wood" });
@@ -45,17 +45,19 @@ if (feature("Harder casing recipes")) {
       sheet: "create:copper_sheet",
       material: "minecraft:redstone",
       amount: 8,
-    }
+    },
   ];
   casings.forEach((casing) => {
     addAssembly(
       Item.of(casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
-        casing.material? addDeploying(casing.item, "create:cogwheel", casing.material) : null,
+        casing.material
+          ? addDeploying(casing.item, "create:cogwheel", casing.material)
+          : null,
         addDeploying(casing.item, "create:cogwheel", casing.base),
         addDeploying(casing.item, "create:cogwheel", casing.sheet),
-      ].filter(item => {
+      ].filter((item) => {
         return item;
       })
     );
@@ -104,21 +106,26 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/andesite", "create:andesite_casing");
   addToTag("forge:device/andesite", andesiteBasedDevices);
 
-  removeFromTag("forge:device/andesite", "create:vertical_gearbox")
-  removeFromTag("forge:device/andesite", "create:gearbox")
-  addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox")
-  addToTag("forge:device/andesite/gearbox", "create:gearbox")
-  addShaped('create:gearbox',['a'], {
-    a:"create:vertical_gearbox"
-  })
-  addShaped('create:vertical_gearbox', ['a'], {
-    a:"create:gearbox"
-  })
-  
-  addShapeless('create:andesite_casing', '#forge:device/andesite')
+  removeFromTag("forge:device/andesite", "create:vertical_gearbox");
+  removeFromTag("forge:device/andesite", "create:gearbox");
+  addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox");
+  addToTag("forge:device/andesite/gearbox", "create:gearbox");
+  addShaped("create:gearbox", ["a"], {
+    a: "create:vertical_gearbox",
+  });
+  addShaped("create:vertical_gearbox", ["a"], {
+    a: "create:gearbox",
+  });
+
+  addShapeless("create:andesite_casing", "#forge:device/andesite");
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, Ingredient.of("#forge:device/andesite").or('#forge:device/andesite/gearbox'));
+    addStonecutting(
+      device,
+      Ingredient.of("#forge:device/andesite").or(
+        "#forge:device/andesite/gearbox"
+      )
+    );
   });
 
   let cobblestoneBasedDevices = [
@@ -142,6 +149,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:crushing_wheel",
     "supplementaries:turn_table",
     "supplementaries:spring_launcher",
+    'botania:apothecary_default'
   ];
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
