@@ -1,0 +1,14 @@
+## [1.110.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.109.5...1.110.0) (2023-12-02)
+
+
+### Features
+
+* add infusion recipe for dripstone ([1de1dd7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1de1dd7821ef7c87d254af70cb043d03a20a3019))
+* streamline budding quartz automation line ([2b7b6ec](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2b7b6ecb690b62ccb447e434270a0834d6461905))
+
+
+### Fixes
+
+* toggle bus recipes. they will now be a cable in a stonecutter ([ded19a1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ded19a149155eceda524202c1c5842a423434b87))
+
+
