@@ -265,9 +265,10 @@ const bnwCogs = getAgreement({
 });
 const bnwPolishedRoseQuartz = getAgreement({
   paymentItems: [
+    "8x ae2:fluix_smart_cable",
     "4x create:mechanical_arm",
     "4x ae2:storage_bus",
-    "8x ae2:fluix_smart_cable",
+    "4x ptdye:redstone_casing"
   ],
   requestedItems: ["64x create:polished_rose_quartz"],
   title: "Assembly expansion",
