@@ -339,7 +339,7 @@ const gdbLeadFriend = getAgreement({
 });
 
 const sssHelmets = getAgreement({
-  paymentItems: ["black_dye"],
+  paymentItems: ["air"],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
