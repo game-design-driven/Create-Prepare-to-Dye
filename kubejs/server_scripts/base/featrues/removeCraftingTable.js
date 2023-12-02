@@ -259,4 +259,16 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     addStonecutting(device, "#forge:device/train");
   });
 
+  let tracks = [
+    "minecraft:activator_rail",
+    "minecraft:powered_rail",
+    "minecraft:detector_rail",
+  ];
+  addToTag("forge:device/special_rail", "create:controller_rail")
+  addToTag("forge:device/special_rail", tracks)
+  addShapeless("create:controller_rail", "#forge:device/special_rail");
+  tracks.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/special_rail");
+  });
 }
