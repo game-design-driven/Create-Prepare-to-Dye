@@ -213,7 +213,7 @@ const bnwManasteel = getAgreement({
       1,
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
-    "32x minecraft:lever",
+    "8x minecraft:lever",
     "8x minecraft:gold_ingot",
   ],
   requestedItems: [
