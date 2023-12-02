@@ -286,7 +286,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "54dc3280bc528e41cf46f778f72341c4372c791e446bae5c8fcc20b2081d0fc3"
+hash = "c4f46139ae58c2e28bbf700a6a323cb8405c5ef47eb7de849f954ea0c08611d2"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -318,7 +318,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "9e12edd80a9458ed8ce3571f48d32cb3f53468e4a36ef0c08f0aea9b2a04b8bd"
+hash = "524450aed1b5d28d3a226d590d341f8db0de6aba8c0c308e40a751c886d39416"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -434,7 +434,7 @@ hash = "b9ac1569794599fc328472b510c0d3814a1e496375c49003cea22a98c915180d"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "bf1c05a320480e91a095bcd1fab710480ccc8879d4823f96b9d2526e7bde3037"
+hash = "098352c2f3ecaef4985bfd9cb8b1604417b20b648250906322a1d28e2a69833c"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -542,7 +542,7 @@ hash = "a9863dfb7343fc1cbd928449d3c0e86c33bbed15c079d041ba251bc232e5084f"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "4dc217ef0c0fe0ecf041c78dfb2842c9221806c270bbc32c77307d883a58f1c9"
+hash = "72d0c50ed070459bc489b41b9a1b3ee408efc26bc15949b01ba962c21db0f17b"
 
 [[files]]
 file = "kubejs/assets/create/textures/item/crushed_raw_iron.png"
@@ -566,7 +566,7 @@ hash = "8cec7e90b6214cff620789bf0ac4e0a555fbb0174738795ed00cd836768dabb1"
 
 [[files]]
 file = "kubejs/assets/emi/aliases/renamed_items.json"
-hash = "1de35cc517326b82b578e2af6ee55f870d395041115626355917f7427b7c706a"
+hash = "5a6a21a4464137b8a29b3a4f7b595ba4581bdd462279729b434eeb1dca7eec71"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
@@ -578,7 +578,7 @@ hash = "da4aa197c8c9d204c818ea7dc6ff10c7663f1310bfecf4b30efc380b87ed87ce"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
-hash = "42d81f02dcc620f362f64d5c2afc79d2fd13bba8ed82dbd4379342e00f09d2c6"
+hash = "6946949d1eb8fb76994e81d81ae8e845b815736fefe70ffd06043a14836a15b1"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
@@ -1082,7 +1082,7 @@ hash = "1aa2f733711cd09d655026a238ebd359e7694091bedd0c2a2c47ce395b99d7e4"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+hash = "dbced1e5dad3ed671c7f485ad2e15aa681a28abf81d3956ea5262514329e9aa0"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/redstone_casing.json"
@@ -1154,7 +1154,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "42f56dbcaae8be01dcb3c2f4c77f67549da4b3b7df73ad7e892f93ab35348964"
+hash = "5953b65b4ed52d88ca23d0922762a7a33794901e1e7efe0d56a2cca8006b3cd8"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1258,7 +1258,7 @@ hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "7ebad74777687548d43341cf367f1e93639e32497442149e5653a4459fa2f0de"
+hash = "5122f25c9572c1106b462255020e221b3086fe68a6400dfca15a1cc76fb43d50"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
@@ -1502,7 +1502,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "906654b78d43e0c43c0c010b05a9f44f987db6b3007a256b16bfbd0cbe3e1a3a"
+hash = "ad573da23eecd3b5211a23eac362c85a9d690436137b6853823531575b065ca8"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/quartzAutomation.js"
@@ -1526,7 +1526,7 @@ hash = "482a3f410eddaa17b25b0a535873ec84e21b015a64370b6e1a7ab19518e2dca5"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/startingItems.js"
-hash = "d989f37f0e7711478c61a4f0764930697e994c8477f094dd96687b3246957e8c"
+hash = "e06e90da70a525071a64d2a1404ee6061106a1a481a2637914e76d3783bb91c0"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/statusEffects.js"
@@ -1746,7 +1746,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "6e2c8f9fa84f4f9aef6ed55f98f7003bff3e20eaaaa8a12ce1f499f33f4c2d21"
+hash = "1795a8d220b74e4a8809734f0153f7e01b6bcb74cb80ded5d596676e3c7a2087"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1911,6 +1911,10 @@ hash = "5f6290bfef223856e02c7387d66c250754671815ae8a6a0d4b4db39732d9fb4f"
 [[files]]
 file = "modpack-update-checker/versions/1.111.1/changelog.txt"
 hash = "5f38ebbad428ceb2ddac7166ec891739136ef19b4512c554c3e318068f5ac9a4"
+
+[[files]]
+file = "modpack-update-checker/versions/1.112.0/changelog.txt"
+hash = "ad23faf1ccf6a270223df63d485db315c8b7834f058efe31a7ded59eba0134f7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
