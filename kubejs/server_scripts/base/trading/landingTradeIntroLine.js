@@ -251,9 +251,10 @@ const bnwQuartz = getAgreement({
 });
 const bnwCogs = getAgreement({
   paymentItems: [
-    "4x create:brass_casing",
-    "4x ae2:storage_bus",
+    "8x create:brass_casing",
     "8x ae2:fluix_smart_cable",
+    "5x ae2:storage_bus",
+    '2x ae2:toggle_bus'
   ],
   requestedItems: ["64x create:cogwheel"],
   title: "Assembly expansion",
