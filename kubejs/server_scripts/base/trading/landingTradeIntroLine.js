@@ -348,7 +348,7 @@ const sssHelmets = getAgreement({
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
 const sssHelmetsFixedRates = getAgreement({
-  paymentItems: ["black_dye"],
+  paymentItems: ["air"],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
   orderedAmount: 0,
