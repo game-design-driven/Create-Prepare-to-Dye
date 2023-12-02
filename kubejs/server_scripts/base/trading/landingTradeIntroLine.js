@@ -332,7 +332,7 @@ const gdbLeadFriend = getAgreement({
   ],
   requestedItems: ["32x minecraft:lead"],
   title: "EXCLUSIVE Leftovers from nether exhibition",
-  orderedAmount: 4,
+  orderedAmount: 6,
   company: "galactic_beast_deliveries",
   message:
     "As our most VALUABLE customer, we are excited to offer you a once in a lifetime opportunity! We have a few leftover beasts from our nether exhibition, and we are willing to part with them for a small fee. What do you say?",
