@@ -13,11 +13,12 @@ const bcfPlates = getAgreement({
 });
 const bcfPlates2 = getAgreement({
   paymentItems: [
-    "32x minecraft:andesite",
+    "16x minecraft:andesite",
+    "8x create:copper_casing",
+    "5x ae2:flawed_budding_quartz",
     "4x create:andesite_casing",
     "4x create:brass_casing",
-    "8x create:copper_casing",
-    "4x ae2:chipped_budding_quartz",
+    'create:super_glue'
   ],
   requestedItems: [
     "64x create:iron_sheet",
