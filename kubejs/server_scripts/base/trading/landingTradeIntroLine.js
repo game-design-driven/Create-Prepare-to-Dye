@@ -278,7 +278,7 @@ const bnwPolishedRoseQuartz = getAgreement({
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
 const qubeAngry = getAgreement({
-  paymentItems: ["black_dye"],
+  paymentItems: ["minecraft:air"],
   requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
   orderedAmount: 1,
