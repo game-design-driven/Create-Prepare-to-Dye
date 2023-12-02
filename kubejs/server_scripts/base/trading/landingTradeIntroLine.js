@@ -354,14 +354,14 @@ const sssHelmetsFixedRates = getAgreement({
   orderedAmount: 0,
   company: "stellar_sigil_syndicate",
   message:
-    "Amazing! It's so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
+    "Amazing! Its so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
 const cccRawWhite = getAgreement({
   paymentItems: [
-    "16x minecraft:leather",
-    // "8x supplementaries:copper_lantern",
-    // "2x createdieselgenerators:basin_lid",
-    "10x create:andesite_casing", //temp fix
+    "8x minecraft:leather",
+    "8x supplementaries:copper_lantern",
+    "2x createdieselgenerators:basin_lid",
+    "2x create:weighted_ejector",
   ],
   requestedItems: ["64x minecraft:raw_iron", "64x minecraft:raw_iron"],
   title: "Supplements required",
