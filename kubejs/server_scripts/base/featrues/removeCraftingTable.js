@@ -154,8 +154,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addShapeless('ptdye:cobblestone_casing', '#forge:device/cobblestone')
-  addShapeless('minecraft:stonecutter', "ptdye:cobblestone_casing")
+  addShapeless("ptdye:cobblestone_casing", "#forge:device/cobblestone");
+  addShapeless("minecraft:stonecutter", "ptdye:cobblestone_casing");
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/cobblestone");
@@ -182,7 +182,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/redstone", "ptdye:redstone_casing");
   addToTag("forge:device/redstone", redstoneBasedDevices);
 
-  addShapeless('ptdye:redstone_casing', '#forge:device/redstone')
+  addShapeless("ptdye:redstone_casing", "#forge:device/redstone");
   redstoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/redstone");
@@ -205,11 +205,11 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_pump",
     "create:fluid_pipe",
     "supplementaries:copper_lantern",
-    'createdieselgenerators:distillation_controller'
+    "createdieselgenerators:distillation_controller",
   ];
   addToTag("forge:device/copper", "create:copper_casing");
   addToTag("forge:device/copper", copperBasedDevices);
-addShapeless('create:copper_casing', '#forge:device/copper')
+  addShapeless("create:copper_casing", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/copper");
@@ -229,12 +229,12 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     "create:display_link",
     "create:brass_tunnel",
     "create:brass_funnel",
-    'supplementaries:brass_lantern',
+    "supplementaries:brass_lantern",
     "createdieselgenerators:diesel_engine",
   ];
   addToTag("forge:device/brass", "create:brass_casing");
   addToTag("forge:device/brass", brassBasedDevices);
-  addShapeless('create:brass_casing', '#forge:device/brass')
+  addShapeless("create:brass_casing", "#forge:device/brass");
   brassBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/brass");
