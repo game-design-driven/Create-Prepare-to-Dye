@@ -97,7 +97,6 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:schematicannon",
     "create:large_water_wheel",
     "create:gantry_carriage",
-    "create:gantry_shaft",
     "create:mechanical_bearing",
     "create:rope_pulley",
     "create:cart_assembler",

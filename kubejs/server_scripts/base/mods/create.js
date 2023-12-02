@@ -299,12 +299,20 @@ if (feature('Recycle wrench')) {
   addCrushing('create:cogwheel %75', 'create:wrench')
 }
 
-if (feature('piston pole recipe')) {
-  addShaped('4x create:piston_extension_pole', ['i', 's', 'i'], {
+if (feature('piston pole and gantry shaft recipes')) {
+  addShaped('10x create:piston_extension_pole', ['i', 's', 'i'], {
     s: 'stick',
     i: '#forge:nuggets/iron'
+  })
+  replaceShaped('10x create:gantry_shaft', ['i', 's', 'i'], {
+    s: 'redstone',
+    i: '#forge:nuggets/andesite'
   })
 }
 if (feature('Remove old cogwheel recipe')) {
   removeRecipe({id: 'create:deploying/large_cogwheel'})
 }
+
+PlayerEvents.chat((event) => {
+    event.player.reachDistance = 20;
+});
