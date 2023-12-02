@@ -205,28 +205,12 @@ const bnwRedstoneFixedRates = getAgreement({
   message:
     "Alright, you seem to be reliable, I believe it is time we made it official, lets start a fixed rates agreement. Your redstone is high quality, we make great cables, simple as that",
 });
-const bnwManasteelOld = getAgreement({
-  paymentItems: [
-    "4x ae2:storage_monitor",
-    "32x minecraft:lever",
-    "8x minecraft:gold_ingot",
-  ],
-  requestedItems: [
-    "64x botania:manasteel_ingot",
-    "64x botania:manasteel_ingot",
-  ],
-  title: "New material",
-  orderedAmount: 1,
-  company: "boards_and_wires",
-  message:
-    "Hello again, we are experimenting with new types of processors based on a more conductive material called manasteel, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
-});
 const bnwManasteel = getAgreement({
   paymentItems: [
     "4x ae2:storage_monitor",
     Item.of(
       "ae2:energy_cell",
-      4,
+      1,
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
     "32x minecraft:lever",
