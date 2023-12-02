@@ -93,7 +93,9 @@ if (feature('Energy cell recycling')) {
 }
 
 if (feature('Me toggle bus recipe')) {
-    addShapeless('ae2:toggle_bus', ['ae2:fluix_smart_cable','minecraft:lever'])
+    addStonecutting('ae2:toggle_bus', 'ae2:fluix_smart_cable')
+    addStonecutting('ae2:inverted_toggle_bus', 'ae2:fluix_smart_cable')
+
 }
 
 if (feature('Slime from silicon')) {
