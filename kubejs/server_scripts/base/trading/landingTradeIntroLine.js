@@ -187,6 +187,7 @@ const bnwRedstone = getAgreement({
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
     "8x ae2:fluix_smart_cable",
+    "4x ptdye:redstone_casing"
   ],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Redstone from the red planet",
