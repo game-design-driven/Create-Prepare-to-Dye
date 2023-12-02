@@ -42,9 +42,11 @@ if (feature('Quartz recipes')) {
     removeRecipe({ id: 'create:splashing/soul_sand' })
     addSplashing(['4x ae2:large_quartz_bud %10', 'gold_nugget %2'], 'soul_sand')
     removeRecipe({ id: 'create:crushing' })
-    addItemInsidePlace('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
-    addItemInsidePlace('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
-    addItemInsidePlace('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addItemInsidePlace('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addItemInsidePlace('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
+    // addItemInsidePlace('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
+    addItemApplication('ae2:flawed_budding_quartz', 'ae2:chipped_budding_quartz', 'create:polished_rose_quartz')
+    addItemApplication('ae2:chipped_budding_quartz', 'ae2:quartz_block', 'create:polished_rose_quartz')
     
     let buds=  ['ae2:small_quartz_bud', 'ae2:medium_quartz_bud', 'ae2:large_quartz_bud']
     buds.forEach(bud => {
