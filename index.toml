@@ -2269,6 +2269,11 @@ file = "modrinth banner white.png"
 hash = "2ec29c0a1654d6768b6a7307f588ab0c9ab2fbfb87f437f0ae48adc02ac276b4"
 
 [[files]]
+file = "mods/accurate-block-placement.pw.toml"
+hash = "ac3e992d29839772275b9439f7e1bd674a46cdba51af0de2f88c630556e82ecc"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "4e39ccb7de4aff79642cd136f46377f41c9573c2848a9e39190d9a4b6266c65c"
 metafile = true
@@ -2355,11 +2360,6 @@ metafile = true
 [[files]]
 file = "mods/easy-villagers.pw.toml"
 hash = "4742e4313abdd338b30276e7f1fefe03c5e477343f15a33692097839e144a05e"
-metafile = true
-
-[[files]]
-file = "mods/effortless-building.pw.toml"
-hash = "45107c773255e700e172f51eabed39ce00a1953e8cc5f7e6340bc51100e876ba"
 metafile = true
 
 [[files]]
@@ -2480,6 +2480,11 @@ metafile = true
 [[files]]
 file = "mods/more-babies.pw.toml"
 hash = "2156107a9a64fa380e27b04fac3011fd9a09f33cb364426b6faadd09a3f0efe7"
+metafile = true
+
+[[files]]
+file = "mods/morecommands.pw.toml"
+hash = "43b12bc4ec25394f2a50add08f14a862b5baea9cd34420d8ab07784113a918ac"
 metafile = true
 
 [[files]]
