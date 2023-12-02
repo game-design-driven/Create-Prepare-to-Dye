@@ -173,6 +173,26 @@
             "text": "alias.emi.waxed_exposed_copper"
         },
         {
+            "stacks": "item:minecraft:end_stone",
+            "text": "alias.emi.end_stone"
+        },
+        {
+            "stacks": "item:minecraft:end_stone_bricks",
+            "text": "alias.emi.end_stone_bricks"
+        },
+        {
+            "stacks": "item:minecraft:end_stone_brick_wall",
+            "text": "alias.emi.end_stone_brick_wall"
+        },
+        {
+            "stacks": "item:minecraft:end_stone_brick_stairs",
+            "text": "alias.emi.end_stone_brick_stairs"
+        },
+        {
+            "stacks": "item:minecraft:end_stone_brick_slab",
+            "text": "alias.emi.end_stone_brick_slab"
+        },
+        {
             "stacks": "item:minecraft:waxed_weathered_copper",
             "text": "alias.emi.waxed_weathered_copper"
         },
@@ -459,6 +479,14 @@
         {
             "stacks": "item:minecraft:netherite_pickaxe",
             "text": "alias.emi.netherite_pickaxe"
+        },
+        {
+            "stacks": "item:minecraft:bone_meal",
+            "text": "alias.emi.bone_meal"
+        },
+        {
+            "stacks": "item:minecraft:quartz",
+            "text": "alias.emi.nether_quartz"
         },
         {
             "stacks": "item:minecraft:netherite_hoe",
@@ -997,8 +1025,68 @@
             "text": "alias.emi.netherite_diving_helmet"
         },
         {
-            "stacks": "item:create:netherite_diving_helmet:tooltip:summary",
-            "text": "alias.emi.together_with_a__netherite_backtank_,_this_can_protect_you_from__extreme_heat_._to_be_effective,__legs_and_feet__have_to_be_covered_in__netherite_,_too."
+            "stacks": "item:create:andesite_alloy_block",
+            "text": "alias.emi.block_of_andesite_alloy"
+        },
+        {
+            "stacks": "item:create:andesite_bars",
+            "text": "alias.emi.andesite_bars"
+        },
+        {
+            "stacks": "item:create:andesite_belt_funnel",
+            "text": "alias.emi.andesite_belt_funnel"
+        },
+        {
+            "stacks": "item:create:andesite_casing",
+            "text": "alias.emi.andesite_casing"
+        },
+        {
+            "stacks": "item:create:andesite_door",
+            "text": "alias.emi.andesite_door"
+        },
+        {
+            "stacks": "item:create:andesite_encased_cogwheel",
+            "text": "alias.emi.andesite_encased_cogwheel"
+        },
+        {
+            "stacks": "item:create:andesite_encased_large_cogwheel",
+            "text": "alias.emi.andesite_encased_large_cogwheel"
+        },
+        {
+            "stacks": "item:create:andesite_encased_shaft",
+            "text": "alias.emi.andesite_encased_shaft"
+        },
+        {
+            "stacks": "item:create:andesite_funnel",
+            "text": "alias.emi.andesite_funnel"
+        },
+        {
+            "stacks": "item:create:andesite_ladder",
+            "text": "alias.emi.andesite_ladder"
+        },
+        {
+            "stacks": "item:create:andesite_pillar",
+            "text": "alias.emi.andesite_pillar"
+        },
+        {
+            "stacks": "item:create:andesite_scaffolding",
+            "text": "alias.emi.andesite_scaffolding"
+        },
+        {
+            "stacks": "item:create:andesite_tunnel",
+            "text": "alias.emi.andesite_tunnel"
+        },
+        {
+            "stacks": "item:create:layered_andesite",
+            "text": "alias.emi.layered_andesite"
+        },
+        {
+            "stacks": "item:create:andesite_alloy",
+            "text": "alias.emi.andesite_alloy"
+        },
+        {
+            "stacks": "item:botania:apothecary_default",
+            "text": "alias.emi.petal_apothecary"
         },
         {
             "stacks": "item:botania:manasteel_block",
