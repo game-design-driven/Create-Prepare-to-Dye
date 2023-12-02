@@ -94,11 +94,12 @@ const bhbCheese = getAgreement({
   paymentItems: [
     "1x botania:gourmaryllis",
     "1x minecraft:water_bucket",
-    "16x minecraft:sugar_cane",
+    "1x minecraft:water_bucket",
+    "8x minecraft:sugar_cane",
   ],
   requestedItems: ["32x kubejs:fermented_blob"],
   title: "Ingredients needed",
-  orderedAmount: 2,
+  orderedAmount: 3,
   company: "black_hole_bagels_llc",
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
