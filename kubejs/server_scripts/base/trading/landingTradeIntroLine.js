@@ -228,11 +228,7 @@ const bnwManasteel = getAgreement({
 });
 const bnwManasteelFixedRates = getAgreement({
   paymentItems: [
-    Item.of(
-      "ae2:energy_cell",
-      8,
-      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
-    ),
+    "8x ptdye:redstone_casing",
   ],
   requestedItems: [
     "64x botania:manasteel_ingot",
