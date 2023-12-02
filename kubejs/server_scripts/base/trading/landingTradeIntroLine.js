@@ -1,23 +1,8 @@
-// Black Hole Bagels LLC
-// 64x fermented blob -> Gourmaryllis 16x sugar canes, water bucket, 4x hoppers
-const bcfPlatesOld = getAgreement({
-  paymentItems: [
-    "32x minecraft:andesite",
-    "8x create:belt_connector",
-    "8x create:cogwheel",
-  ], // This is the result of the trade
-  requestedItems: ["64x create:iron_sheet"], // This is the cost of the trade
-  title: "We want plates", // This is the title of the trade
-  orderedAmount: 2, // This is how many times the trade is done, until the deal is considered complete
-  company: "bobs_construction_fleet", // This is the name of the company
-  message:
-    "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too", // This is the description of the trade
-});
 const bcfPlates = getAgreement({
   paymentItems: [
     "32x minecraft:andesite",
+    "10x create:cogwheel",
     "8x create:belt_connector",
-    "8x create:cogwheel",
   ], // This is the result of the trade
   requestedItems: ["64x create:iron_sheet"], // This is the cost of the trade
   title: "We want plates", // This is the title of the trade
