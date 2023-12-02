@@ -2382,6 +2382,11 @@ hash = "ed6f0207affbcdbc338b0af19a596451230a25255f425b3b4670a0104368c95c"
 metafile = true
 
 [[files]]
+file = "mods/finitewater.pw.toml"
+hash = "cb6365b0ed3fdec74a3fafefce540c6ad7cf1c1b99cb64ac68e9276401b9e457"
+metafile = true
+
+[[files]]
 file = "mods/hourglass.pw.toml"
 hash = "69829a1d0efe96bc1d3463aef9d1f821b64ae1f038e26d00ba0f8a5da170385c"
 metafile = true
@@ -2489,11 +2494,6 @@ metafile = true
 [[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "9b7a92ae6984cc297130296952c8489d14b7f29d79f53cc540bf5694abfd4599"
-metafile = true
-
-[[files]]
-file = "mods/plasmo-voice.pw.toml"
-hash = "8208659afb89a51f7f676f8d3656113a5357f0220bdefbfaa1ebf27b3606092e"
 metafile = true
 
 [[files]]
