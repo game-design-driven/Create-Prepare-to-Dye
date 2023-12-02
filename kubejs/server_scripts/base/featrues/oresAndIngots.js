@@ -145,11 +145,12 @@ if (feature('Remove zinc')) {
 
 }
 if (feature('Andesite_alloy')) {
+    let dye = Ingredient.of('gray_dye').or(Item.of('light_gray_dye')).or(Item.of('black_dye'))
     removeRecipe({ output: 'create:andesite_alloy' })
-    addShaped('4x create:andesite_alloy', ['di', 'ia'], { d: '#forge:dyes', i: '#forge:ingots/iron', a: 'minecraft:andesite' })
-    addMixing('8x create:andesite_alloy', ['4x #forge:dyes', '#forge:ingots/iron', 'andesite'])
-    addMixing('8x create:andesite_alloy', ['#forge:ingots/manasteel', 'andesite', '#forge:dyes'])
-    addMixing('8x create:andesite_alloy', ['#forge:ingots/copper', '4x andesite'])
+    addShaped('4x create:andesite_alloy', ['di', 'ia'], { d: dye, i: '#forge:ingots/iron', a: 'minecraft:andesite' })
+    addMixing('8x create:andesite_alloy', [dye.withCount(4), '#forge:ingots/iron', 'andesite'])
+    addMixing('8x create:andesite_alloy', ['#forge:ingots/manasteel', 'andesite', dye])
+    addMixing('8x create:andesite_alloy', ['#forge:ingots/copper', '5x andesite'])
     addAssembly('create:andesite_alloy', 'minecraft:iron_nugget',[
         addDeploying('create:andesite_alloy', 'minecraft:iron_nugget','minecraft:andesite'),
         addPressing('create:andesite_alloy', 'minecraft:iron_nugget'),
