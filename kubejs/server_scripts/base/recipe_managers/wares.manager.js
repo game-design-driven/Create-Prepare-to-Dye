@@ -28,39 +28,45 @@ function getAgreement({
   let companyTitle = Utils.snakeCaseToTitleCase(company);
 
   let agreementObj = {
-    item: Item.of(
-      "wares:delivery_agreement",
-      `{\
-          display:{Name:'{\"text\":\"${
-            companyTitle + " - " + title
-          }\",\"italic\":\"false\"}'},\
-          ordered:${orderedAmount},\
-          message:'{"text":"${message}"}',\
-          seal:'${seal}',\
-          buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
-          paymentItems:${simple(paymentItems)},\
-          requestedItems:${simple(requestedItems)},\
-          title:\'{"text":"${title}"}\'\
-      }`
-    ),
-    completedItem: Item.of(
-      "wares:completed_delivery_agreement",
-      `{\
-          buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
-          delivered:${orderedAmount},\
-          display:{Name:'{\"text\":\"${
-            companyTitle + " - " + title
-          }\",\"italic\":\"false\"}'},\
-          isCompleted:1b,\
-          message:'{"text":"${message}"}',\
-          seal:'${seal}',\
-          ordered:${orderedAmount},\
-          paymentItems:${simple(paymentItems)},\
-          requestedItems:${simple(requestedItems)},\
-          title:\'{"text":"${title}"}\'\
-      }`
-    ),
+    item: Item.of("wares:delivery_agreement", {
+      ordered: orderedAmount,
+      message: NBT.stringTag(`{"text": "${message}" }`),
+      seal: seal,
+      buyerName: { color: "#409D9B", text: companyTitle },
+      paymentItems: simple(paymentItems),
+      requestedItems: simple(requestedItems),
+      title: NBT.stringTag(`{"text": "${title}" }`),
+    }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
+
+    completedItem: Item.of("wares:completed_delivery_agreement", {
+      ordered: NBT.intTag(orderedAmount),
+      buyerName: { color: "#409D9B", text: companyTitle },
+      delivered: NBT.intTag(orderedAmount),
+      isCompleted: NBT.b(1),
+      message: NBT.stringTag(`{"text": "${message}" }`),
+      seal: seal,
+      paymentItems: simple(paymentItems),
+      requestedItems: simple(requestedItems),
+      title: NBT.stringTag(`{"text": "${title}" }`),
+    }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
   };
+  console.info(
+    "THIS AGREEMENT " +
+      `{\
+    buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
+    delivered:${orderedAmount},\
+    display:{Name:'{\"text\":\"${
+      companyTitle + " - " + title
+    }\",\"italic\":\"false\"}'},\
+    isCompleted:1b,\
+    message:'{"text":"${message}"}',\
+    seal:'${seal}',\
+    ordered:${orderedAmount},\
+    paymentItems:${simple(paymentItems)},\
+    requestedItems:${simple(requestedItems)},\
+    title:\'{"text":"${title}"}\'\
+}`
+  );
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
@@ -72,25 +78,23 @@ function getAgreement({
 }
 function simple(items) {
   if (!Array.isArray(items)) items = [items];
-  return `[${items
-    .map((item_obj) => {
-      let item = item_obj;
-      if (typeof item_obj === "string") {
-        item = Item.of(item);
-      }
-      let nbt = item.toNBT();
-      nbt.Count = item.count;
-      if (typeof item_obj === "string" && item_obj.includes("#")) {
-        //support for tags
-        if (item_obj.includes("x ")) item_obj = item_obj.split("x ")[1];
-        let tag = (
-          Ingredient.of(item_obj).values[0].serialize().get("tag") + ""
-        ).replaceAll('"', "");
-        nbt.id = `#${tag}`;
-      }
-      return nbt;
-    })
-    .join(", ")}]`;
+  return items.map((item_obj) => {
+    let item = item_obj;
+    if (typeof item_obj === "string") {
+      item = Item.of(item);
+    }
+    let nbt = item.toNBT();
+    nbt.Count = item.count;
+    if (typeof item_obj === "string" && item_obj.includes("#")) {
+      //support for tags
+      if (item_obj.includes("x ")) item_obj = item_obj.split("x ")[1];
+      let tag = (
+        Ingredient.of(item_obj).values[0].serialize().get("tag") + ""
+      ).replaceAll('"', "");
+      nbt.id = `#${tag}`;
+    }
+    return nbt;
+  });
 }
 
 function tradeBranch(outputTrades, inputTrades) {
@@ -99,10 +103,16 @@ function tradeBranch(outputTrades, inputTrades) {
   if (inputTrades.length == 1) {
     inputTrades.push({ completedItem: Item.of("stick") });
   }
-  addMixing(
-    outputTrades.map((trade) => trade.item),
-    inputTrades.map((trade) => trade.completedItem.weakNBT())
-  );
+  // addMixing(
+  //   outputTrades.map((trade) => trade.item),
+  //   inputTrades.map((trade) => trade.completedItem.strongNBT())
+  // );
+  ServerEvents.recipes((e) => {
+    e.recipes.create.mixing(
+      outputTrades.map((trade) => trade.item),
+      inputTrades.map((trade) => trade.completedItem.strongNBT())
+    );
+  });
 }
 
 console.info("Loading wares manager");
