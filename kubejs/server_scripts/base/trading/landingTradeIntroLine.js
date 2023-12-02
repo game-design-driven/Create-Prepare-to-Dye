@@ -363,9 +363,9 @@ const cccRawWhite = getAgreement({
     "2x createdieselgenerators:basin_lid",
     "2x create:weighted_ejector",
   ],
-  requestedItems: ["64x minecraft:raw_iron", "64x minecraft:raw_iron"],
+  requestedItems: ["64x minecraft:raw_iron", "16x minecraft:raw_iron"],
   title: "Supplements required",
-  orderedAmount: 2,
+  orderedAmount: 3,
   company: "cosmic_cuisine_collective",
   message:
     "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
