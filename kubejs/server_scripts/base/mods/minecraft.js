@@ -238,3 +238,7 @@ if (feature('Fertilizer into water')) {
     addCompacting('50mb water', '#forge:squeezables/2')
     addCompacting('100mb water', '#forge:squeezables/3')
 }
+
+if (feature('get dripstone')) {
+    addInfusion('pointed_dripstone', 'granite')
+}
