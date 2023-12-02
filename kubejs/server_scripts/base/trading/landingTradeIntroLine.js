@@ -313,7 +313,7 @@ const gdbLead = getAgreement({
   paymentItems: [
     Item.of(
       "supplementaries:cage",
-      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
+      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}',
     ),
   ],
   requestedItems: ["32x minecraft:lead"],
@@ -370,7 +370,6 @@ const cccRawWhite = getAgreement({
   message:
     "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
 });
-// Utils.server.tell(cccRawWhite.item.nbt)
 const cccIronBars = getAgreement({
   paymentItems: [
     "16x minecraft:leather",
@@ -383,23 +382,11 @@ const cccIronBars = getAgreement({
   message:
     "We are currently dealing with multiple class action lawsuits about poisonings. We have apprehended a few of those scoundrels and are currently in need of new holding cells, fast",
 });
-// const miPlus = getAgreement({
-//   paymentItems: ['white_dye'],
-//   requestedItems: [Item.of('create:minecart_contraption', 16, '{Contraption:{Actors:[],Anchor:{X:5,Y:87,Z:51},Blocks:{BlockList:[{Pos:0L,State:0},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:3L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:-274877906942L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:2L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:1L,State:1},{Data:{ForgeCaps:{},ScrollValue:8,id:"create:chassis"},Pos:274877906946L,State:1}],Palette:[{Name:"create:minecart_anchor",Properties:{axis:"x"}},{Name:"create:linear_chassis",Properties:{axis:"z",sticky_bottom:"false",sticky_top:"false"}}]},BottomlessSupply:0b,BoundsFront:[-2.0f,0.0f,-2.0f,3.0f,4.0f,3.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"WEST",Interactors:[],Passengers:[],RotationMode:"ROTATE",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[],Type:"mounted"},display:{}}')],
-//   title: "We want to commission pluses",
-//   orderedAmount: 2,
-//   company: "math_inc",
-//   message:
-//     "We are trying to solve very advanced equations which could lead to great discoveries when proven true. We need the highest quality pluses, none of our current suppliers met our new standards. We are counting on you! and on the other 37 companies we sent this commission to",
-// });
-// global.starterDeals = [bcfPlates, mlcSand, bhbCheese];
 global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates], [cccRawWhite]);
-tradeBranch([bcfPlates2, bnwRedstone], [bcfPlatesOld]);
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
-tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteelOld);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
   [bfcPlatesPermanent, bfcPickaxes, mlcEndstoneFixed], //The next trades in line
