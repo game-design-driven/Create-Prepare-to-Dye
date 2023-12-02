@@ -70,10 +70,12 @@ const mlcEndstoneFixed = getAgreement({
 });
 const mlcSand = getAgreement({
   paymentItems: [
-    "botania:manasteel_shovel",
+    // "botania:manasteel_shovel",
+    Item.of('minecraft:golden_pickaxe', 2, '{Damage:0}'),
     "2x botania:rannuncarpus",
     "2x botania:hopperhock",
     "2x botania:mana_pool",
+    'dirt',
     "botania:mana_spreader",
   ],
   requestedItems: [
