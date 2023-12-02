@@ -2,6 +2,9 @@
 if (feature('starter items')) {
     PlayerEvents.loggedIn((event) => {
         event.player.setAttributeBaseValue('forge:swim_speed', 3)
+        event.player.setAttributeBaseValue('forge:reach_distance', 30)
+        event.player.setAttributeBaseValue('forge:attack_range', 30)
+        event.player.setAttributeBaseValue('minecraft:generic.attack_damage', 8)
 
 
         if (!event.player.getPersistentData().getBoolean('starter'))
