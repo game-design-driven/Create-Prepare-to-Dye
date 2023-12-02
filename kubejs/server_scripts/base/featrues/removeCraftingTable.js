@@ -239,4 +239,24 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/brass");
   });
+
+  let trainDevices = [
+    "railways:track_monorail",
+    "create:controls",
+    "create:track_observer",
+    "create:track_signal",
+    "create:track_station",
+    "railways:track_coupler",
+    "railways:track_switch_brass",
+    "railways:semaphore",
+    "railways:track_switch_andesite",
+  ];
+  addToTag("forge:device/train", "create:railway_casing")
+  addToTag("forge:device/train", trainDevices)
+  addShapeless("create:railway_casing", "#forge:device/train");
+  trainDevices.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/train");
+  });
+
 }
