@@ -241,7 +241,7 @@ const bnwManasteelFixedRates = getAgreement({
     "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
 });
 const bnwQuartz = getAgreement({
-  paymentItems: ["4x create:brass_casing", "8x minecraft:gold_ingot"],
+  paymentItems: ["8x create:brass_casing", "8x minecraft:gold_ingot", "2x ptdye:redstone_casing"],
   requestedItems: ["64x minecraft:quartz"],
   title: "Need raw materials for silicon",
   orderedAmount: 2,
