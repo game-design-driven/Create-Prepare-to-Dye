@@ -50,23 +50,6 @@ function getAgreement({
       title: NBT.stringTag(`{"text": "${title}" }`),
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
   };
-  console.info(
-    "THIS AGREEMENT " +
-      `{\
-    buyerName:'{"color":"#409D9B","text":"${companyTitle}"}',\
-    delivered:${orderedAmount},\
-    display:{Name:'{\"text\":\"${
-      companyTitle + " - " + title
-    }\",\"italic\":\"false\"}'},\
-    isCompleted:1b,\
-    message:'{"text":"${message}"}',\
-    seal:'${seal}',\
-    ordered:${orderedAmount},\
-    paymentItems:${simple(paymentItems)},\
-    requestedItems:${simple(requestedItems)},\
-    title:\'{"text":"${title}"}\'\
-}`
-  );
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
@@ -103,10 +86,6 @@ function tradeBranch(outputTrades, inputTrades) {
   if (inputTrades.length == 1) {
     inputTrades.push({ completedItem: Item.of("stick") });
   }
-  // addMixing(
-  //   outputTrades.map((trade) => trade.item),
-  //   inputTrades.map((trade) => trade.completedItem.strongNBT())
-  // );
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
