@@ -86,7 +86,7 @@ hash = "1ac04b541d19cc58791e5ceea4a46b7e1d75a2b4b2d5e359b9fcab606e5ef750"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
+hash = "fd893ef796d2930bd298466dfd6e3b2be963247954c25d4566626be43ad5f8a4"
 
 [[files]]
 file = "config/defaultoptions/extra/keybindings.txt"
@@ -94,7 +94,7 @@ hash = "ee068129aabe169c76213b67ddda12599a12fc738c7aed2b7614b304672b5a49"
 
 [[files]]
 file = "config/defaultoptions/extra/options.txt"
-hash = "17a397610f608154ca7ca85d99a1e8046d3fa4a04605377660349db653149ae8"
+hash = "c9f000873905a208b5f076a13df0f3bde21bca3b33b2636ceaca637da6b952af"
 
 [[files]]
 file = "config/easy_villagers-client.toml"
@@ -126,7 +126,7 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "897e5e9ec70a077e4d80a8059deffa3644a2a25176fd6cc8733100886650022b"
+hash = "9a554cd3ee5b950250a5a032bc832a99dbdf8ff5cfeb75699374ee27e21286c8"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
@@ -143,6 +143,14 @@ hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
 hash = "2a2b62277ef3be061b19f83c17005f96bd5b18ebb650b5a44edc4118c5e2d78a"
+
+[[files]]
+file = "config/fancymenu/customization/removecorios.txt"
+hash = "90a8c98a7a7415f5f367d0287c915ef13604835c328f7732463a8ea2075fcca8"
+
+[[files]]
+file = "config/fancymenu/customization/removecuriosui.txt"
+hash = "33fbe1476dfb34ab26e73bfda6b5475ef2550f67d3134809bb73f73181086a4b"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -246,7 +254,7 @@ hash = "d77468dc6303da0fe23876b7d1104ba402868a0e7e5cbb095e616dd03bb97524"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "473e85c6ce1716bf52252e09b7836e577b682c04fe85c40204d2e0bf7456e255"
+hash = "7262ffab7f30343b2c4dc1f5f5fac1c06cbf18c103998c671bf64239b9e00e06"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -286,7 +294,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "373ee99821b8771076b999af436b46f3711f0be63bc1dc91da30aa156f8db3ff"
+hash = "91bbf4b930228d4f44ce56c1f6c52ff02547a85c94f0f2a80fcf652544a1068d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -438,7 +446,7 @@ hash = "098352c2f3ecaef4985bfd9cb8b1604417b20b648250906322a1d28e2a69833c"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
-hash = "b55fc01ae7061a1894310ee56914e7c1ae84969a893ec31ef3e74c2c6fc1ada2"
+hash = "01241e10e1ea5517c7a8078b0928509e6b35ad290ecf490ba60f7081b310319e"
 
 [[files]]
 file = "defaultconfigs/easy_villagers-server.toml"
@@ -1154,7 +1162,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "43476f20049d90867e2b5cf530f656460c22820dfca87bf982915b410b29007f"
+hash = "0cb733e54e8f526a98058e63423785010ef70853382f781136fac937536553f1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1481,6 +1489,10 @@ file = "kubejs/server_scripts/base/featrues/handInteractions.js"
 hash = "3f08d8c10af58013d08ea41ab739bbeca640717de74435096631e45b728da2e9"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/indestructible.js"
+hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/manapool.js"
 hash = "3928bcf3d138e1ac98eea9ef4b2d3acddcb5ab59d554db1540716a2c2f64a32d"
 
@@ -1505,6 +1517,10 @@ file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
 hash = "ad573da23eecd3b5211a23eac362c85a9d690436137b6853823531575b065ca8"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/playerLogin.js"
+hash = "001c7f9c4b8e02d13c134e60c3b428e82f2a9090ea8a95b85d6f08b24317fb10"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/quartzAutomation.js"
 hash = "38f14c3df6b0fe0bbffe89da5a9dba3506f3a869731e14c1699cc78b982c19b2"
 
@@ -1518,15 +1534,11 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "aa93ed9d58f3510a4e8d539d1c9475f7cdc4c334e983348a835bad06bf199ec3"
+hash = "d79c2091125a172a84378899ee7d16b16ee1bda3d924402dce7a6b2ec4185829"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
 hash = "482a3f410eddaa17b25b0a535873ec84e21b015a64370b6e1a7ab19518e2dca5"
-
-[[files]]
-file = "kubejs/server_scripts/base/featrues/startingItems.js"
-hash = "a87afc88c814b862d8414fd666812e7fd450d7835420306164fde671d9c84163"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/statusEffects.js"
@@ -1689,10 +1701,6 @@ file = "kubejs/server_scripts/base/wrappers/tagEvent.js"
 hash = "1d3357b2f683654970d1e5eaae952c9f93802da6b6ab5bdcec857bc1d08f4986"
 
 [[files]]
-file = "kubejs/startup_scripts/agreementsDontDie.js"
-hash = "f0f8eca53b65ab2d4f9d99b202faff27ddf2c4ca00140848e848d88cb897b04b"
-
-[[files]]
 file = "kubejs/startup_scripts/blockCustomizations.js"
 hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
@@ -1725,6 +1733,10 @@ file = "kubejs/startup_scripts/global.js"
 hash = "c80291b3faeca54cdef465ac263ba0351a49d9ea2feffc1a8c1abf44c29d1170"
 
 [[files]]
+file = "kubejs/startup_scripts/indestructible.js"
+hash = "e221e5586e7962c4bc396e0b9af073c8295d37e89e55030da1c0d0b652d7c102"
+
+[[files]]
 file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
 hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
 
@@ -1746,7 +1758,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2072240b1997bc1bdbcbc5e03983be0bf45ed483fb8f505288476b152c2450d8"
+hash = "a3b563d7bd4ec9fef56b90013fc68303b6205e6a0760669dca369a280a4e5f26"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1927,6 +1939,10 @@ hash = "c4748f9628e0b7deef766d36e1d7ea972e1a38b930b8fb513f30c6126092e44b"
 [[files]]
 file = "modpack-update-checker/versions/1.114.1/changelog.txt"
 hash = "9296643b754556851603ae98fde2162e3b218658e099c16bcba77147c1a32fa0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.115.0/changelog.txt"
+hash = "c9496b0330c7ec080b5ea715f23b52488a5e807e6e5921cf80d6172cccc49171"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

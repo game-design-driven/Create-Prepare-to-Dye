@@ -1,0 +1,28 @@
+## [1.115.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.114.1...1.115.0) (2023-12-03)
+
+
+### Features
+
+* add build on stonecutter that can be opened with V ([cd24057](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cd2405768648be27459fb8623d65dfa9abf81633))
+* add extra items for new players on a server. After the first player that joins a world. Every new player will get some device casings ([102330c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/102330c32eeb65e0f9368183959790f7a9fffd4a))
+* make casings not de-spawn and not burn ([281cca0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/281cca09a4b2957b4718fce69fddc1d75a40d6e0))
+* remove curios tab, curios will be used to add automaton abilities behind the scenes, like goggles and universal stonecutter access ([ba1dcb5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ba1dcb50d8ea9bea5f1d292bf67dab827814c502))
+* replace jade googles addon with actual goggles integrated into the players automaton ([321e95d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/321e95dc0ca522d7b9f187730d7c9b89aa738c8f))
+
+
+### Modlist related changes
+
+* add crafting on a stick ([4489f4e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4489f4e77645c53bb6b90bc020128ed287927b2c))
+
+
+### Developer experance improvments and changes
+
+* update emi agreements ([8a2b07d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8a2b07d2dab40a73c7e78498754154bc47b5f1af))
+
+
+### Minor tweaks
+
+* change default difficulty to hard, should not matter to players much ([db8dade](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/db8dade43d880b6b5f5acb3b6fe669174acd72a2))
+* slight buff to big engine ([bfbb741](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bfbb7413e3751b02b885473529db71f7e26d47fb))
+
+
