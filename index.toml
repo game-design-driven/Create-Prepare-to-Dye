@@ -2336,6 +2336,11 @@ hash = "7342959eb86faf584e6d64417064dd793ae6b4667f51954f4169d11fe5f0d5da"
 metafile = true
 
 [[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "5a2bcd83627b0649a6f445e91575fa4f53fbe27c3cb46aa01359aa4089512b78"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "2b85aa20585ab9904e0cb2861fdb71b17b6869f9e2bafeb609d13612a289a224"
 metafile = true

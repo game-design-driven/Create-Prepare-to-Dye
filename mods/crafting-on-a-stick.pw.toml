@@ -1,0 +1,7 @@
+name = "crafting_on_a_stick"
+filename = "crafting-on-a-stick-1.19.2-1.0.5.jar"
+
+[download]
+url = "https://github.com/Yarden-zamir/crafting_on_a_stick/releases/download/1.0.5/crafting-on-a-stick-1.19.2-1.0.5.jar"
+hash-format = "sha256"
+hash = "49f74c0d9160732a3aae2bdb2b4859faf7bf5f0d59fa13f94112d14928c16ee0"
