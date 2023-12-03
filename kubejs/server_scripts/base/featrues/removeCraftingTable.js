@@ -271,4 +271,5 @@ if (feature("Remove crafting table recipes for devices")) {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/special_rail");
   });
+  addToTag('forge:indestructible', '#forge:device')
 }
