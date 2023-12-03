@@ -94,3 +94,6 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+key_supplementaries.keybind.quiver:key.keyboard.unknown
+key_key.wands.wand_mode:key.keyboard.unknown
+key_crafting_on_a_stick.key.open_curios:key.keyboard.v
