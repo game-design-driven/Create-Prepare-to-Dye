@@ -17,10 +17,11 @@ if (feature('starter items')) {
         Utils.server.runCommandSilent(`curios remove belt ${event.player.displayName.getString()}`)
         Utils.server.runCommandSilent(`curios remove body ${event.player.displayName.getString()}`)
         Utils.server.runCommandSilent(`curios remove charm ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove head ${event.player.displayName.getString()}`)
         Utils.server.runCommandSilent(`curios remove necklace ${event.player.displayName.getString()}`)
         Utils.server.runCommandSilent(`curios remove ring ${event.player.displayName.getString()}`)
-        Utils.server.runCommand(`curios replace crafting_on_a_stick 0 ${event.player.displayName.getString()} with crafting_on_a_stick:stonecutter`)
+        Utils.server.runCommandSilent(`curios remove ring ${event.player.displayName.getString()}`)
+        Utils.server.runCommandSilent(`curios replace crafting_on_a_stick 0 ${event.player.displayName.getString()} with crafting_on_a_stick:stonecutter`)
+        Utils.server.runCommandSilent(`curios replace head 0 ${event.player.displayName.getString()} with create:goggles`)
         
 
         if (!event.player.getPersistentData().getBoolean('starter'))
