@@ -294,7 +294,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "ce6e3352e5d4c07c98a122570765eb5d34897bcbb70883fe9aaec73a2eaeb311"
+hash = "720b9b0094963b641321ced5f52e65b03b7a6f13438bd99410d49cc9206b5dd7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1166,7 +1166,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9c846baf06ddbd1cd6867b8b155e8683a15d00915249b5687631b84f88a0789a"
+hash = "c4145dc1f4551128d8761adc1f64e86d76be1477c14212e156554e7b4ab37638"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1682,7 +1682,7 @@ hash = "f923f63b9ce29348feaf95b991c77933118113f1cb09744f7260f2fee66ae5e2"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/music.js"
-hash = "9dff4c0cfaf6a31d64de481e9105d5b9c8de85dda45bc11246ee4a7a87a42c2f"
+hash = "ed56d743d35bc128274a1763300f0b8c2e59d59ce974a7af2e063463c90d1d2e"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/pilot_names.js"
@@ -1770,7 +1770,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "348b8e08bbecb27443da27aca09f23f77901d5dc97bd5e9ecd02955a07e474db"
+hash = "d48f65d9a592be3aa7672b8083b5aeffcb0bc767e0c6a66c775e9a08e2278684"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -1971,6 +1971,10 @@ hash = "21f04e0af02b3925679c12ded90aedb973d9b7460e302153f0f8cad6e256fa39"
 [[files]]
 file = "modpack-update-checker/versions/1.116.3/changelog.txt"
 hash = "a7968e45d1f8882e21dd4ba25afbf30285cd7d856a8235779224c66f457e3aee"
+
+[[files]]
+file = "modpack-update-checker/versions/1.116.4/changelog.txt"
+hash = "39859b62216bb353c42ee029505add097f3d55978fc79478ac82f73bf23d3e19"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
