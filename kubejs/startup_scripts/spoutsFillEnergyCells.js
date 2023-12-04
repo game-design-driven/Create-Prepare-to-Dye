@@ -1,5 +1,4 @@
 function fillBattery(block, amount) {
-  amount = amount || 2500;
   let currentEnergy = block.entityData.internalCurrentPower;
   Utils.server.runCommandSilent(
     `/setblock ${block.x} ${block.y} ${block.z} minecraft:air`
@@ -13,16 +12,14 @@ function fillBattery(block, amount) {
   );
 }
 CreateEvents.spoutHandler((event) => {
-  let amount = 2500;
+  let amount = 10000;
   event.add("fill_battery", "ae2:energy_cell", (block, fluid, simulate) => {
     if (
       fluid.id == "minecraft:milk" &&
       fluid.amount >= 1000 &&
-      block.entityData.internalCurrentPower < 200000.0 - amount
+      block.entityData.internalCurrentPower < 200000.0 - amount - 1
     ) {
       if (!simulate) {
-        
-        
         fillBattery(block, amount);
       }
       return 1000;
