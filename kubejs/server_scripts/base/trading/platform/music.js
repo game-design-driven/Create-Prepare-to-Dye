@@ -17,7 +17,6 @@ function playMusicAccordingToHeight(landing) {
 }
 
 function playMusicForAllPlayers(landing) {
-    Utils.server.runCommand("say baz");
     Utils.server.players.forEach(player => {
         let data = CompoundTag();
         data.putUUID("pilot_entity_uuid", landing.pilot.uuid);
