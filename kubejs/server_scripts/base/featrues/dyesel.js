@@ -29,6 +29,7 @@ if (feature("Remove createdieselgenerators things we dont need")) {
     "createdieselgenerators:asphalt_stairs",
     "createdieselgenerators:kelp_handle",
     "createdieselgenerators:kelp_handle",
+    "createdieselgenerators:oil_barrel",
   ]);
 }
 
@@ -55,8 +56,16 @@ if (feature("Ethanol")) {
     ["4x minecraft:bone_meal", "500mb milk"]
   );
   addFermenting(
+    ["500mb kubejs:fermented_goop", "4x minecraft:green_dye"],
+    ["4x minecraft:bone_meal", "500mb kubejs:organic_mass"]
+  );
+  addFermenting(
     ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
     ["500mb milk"]
+  );  
+  addFermenting(
+    ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
+    ["500mb kubejs:organic_mass"]
   );
 
   addMixing("kubejs:fermented_blob %5", "15mb kubejs:fermented_goop");
@@ -76,4 +85,13 @@ if (feature("Ethanol")) {
     ["15mb milk"],
     40,
   );
+}
+
+
+if (feature('Replace oil with ink')) {
+  removeRecipe({id: 'createdieselgenerators:distillation/crude_oil'})
+  addDistillation([
+    '15mb create:honey',
+    '50mb createdieselgenerators:diesel',
+  ],'250mb create_enchantment_industry:ink')
 }

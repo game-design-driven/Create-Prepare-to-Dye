@@ -239,6 +239,9 @@ if (feature('Fertilizer into water')) {
     addCompacting('100mb kubejs:organic_mass', '#forge:squeezables/2')
     addCompacting('200mb kubejs:organic_mass', '#forge:squeezables/3')
     addDistillation(['8mb water', '2mb createdieselgenerators:plant_oil'], '10mb kubejs:organic_mass')
+
+    addMixing(['1mb create_enchantment_industry:experience', 'create:experience_nugget %10'], ['250mb kubejs:organic_mass', '250mb milk'], temperature.heated, 500)
+
 }
 
 if (feature('get dripstone')) {
