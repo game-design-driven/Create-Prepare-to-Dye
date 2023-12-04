@@ -1,7 +1,13 @@
-name = "crafting_on_a_stick"
-filename = "crafting-on-a-stick-1.19.2-1.0.5.jar"
+name = "Crafting on a Stick"
+filename = "crafting-on-a-stick-1.19.2-1.1.2.jar"
+side = "both"
 
 [download]
-url = "https://github.com/Yarden-zamir/crafting_on_a_stick/releases/download/1.0.5/crafting-on-a-stick-1.19.2-1.0.5.jar"
-hash-format = "sha256"
-hash = "49f74c0d9160732a3aae2bdb2b4859faf7bf5f0d59fa13f94112d14928c16ee0"
+url = "https://cdn.modrinth.com/data/Tg5fXO1x/versions/UBt6tlvM/crafting-on-a-stick-1.19.2-1.1.2.jar"
+hash-format = "sha1"
+hash = "05379809075a09e1018a1597103b1c2a3ce25741"
+
+[update]
+[update.modrinth]
+mod-id = "Tg5fXO1x"
+version = "UBt6tlvM"
