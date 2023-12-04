@@ -229,14 +229,16 @@ if (feature('Fertilizer into water')) {
         'minecraft:chorus_fruit',
         'minecraft:sweet_berries',
         'minecraft:bamboo',
+        'minecraft:melon_slice',
     ])
     addToTag('forge:squeezables/3',[
-        'minecraft:melon_slice',
         'minecraft:pumpkin',
     ])
-    addCompacting('10mb water', '#forge:squeezables/1')
-    addCompacting('50mb water', '#forge:squeezables/2')
-    addCompacting('100mb water', '#forge:squeezables/3')
+    removeRecipe({id: 'createdieselgenerators:compacting/plant_oil'})
+    addCompacting('25mb kubejs:organic_mass', '#forge:squeezables/1')
+    addCompacting('100mb kubejs:organic_mass', '#forge:squeezables/2')
+    addCompacting('200mb kubejs:organic_mass', '#forge:squeezables/3')
+    addDistillation(['8mb water', '2mb createdieselgenerators:plant_oil'], '10mb kubejs:organic_mass')
 }
 
 if (feature('get dripstone')) {
