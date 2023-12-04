@@ -18,6 +18,7 @@ if (feature("Trading platforms")) {
                 base_contraption: getEntityByUUID(event.server, event.entity.persistentData.getUUID("base_contraption")),
                 roof_contraption: getEntityByUUID(event.server, event.entity.persistentData.getUUID("roof_contraption")),
                 pilot: getEntityByUUID(event.server, event.entity.persistentData.getUUID("pilot")),
+                last_played_height: null,
             });
         }
         else {
@@ -47,6 +48,7 @@ if (feature("Trading platforms")) {
             else if (stage === global.landing_sequence.OPENING_STAGE) {
                 performOpeningStage(landing);
             }
+            playMusicAccordingToHeight(landing);
         })
         global.active_landings = global.active_landings.filter(landing => {
             return landing.main_entity.persistentData.getByte("stage") != global.landing_sequence.FINISHED_STAGE;
@@ -65,7 +67,7 @@ function getEntityByUUID(server, uuid) {
 
 function performLandingStage(landing, level) {
     landing.main_entity.setY(landing.main_entity.getY() - 0.1);
-    if (check_floor(landing.main_entity, level)) {
+    if (check_floor_for_entity(landing.main_entity, level)) {
         landing.main_entity.persistentData.putByte("stage", global.landing_sequence.WAITING_STAGE);
         landing.pilot.unRide();
         landing.base_contraption.unRide();
@@ -111,19 +113,8 @@ function removeFire(main_entity, level) {
     }
 }
 
-function check_floor(entity, level) {
+function check_floor_for_entity(entity, level) {
     let y_diff = -0.6;
-    for (let x_diff = -1; x_diff <= 1; x_diff++) {
-        for (let z_diff = -1; z_diff <= 1; z_diff++) {
-            let block = level.getBlock(
-                entity.blockX + x_diff,
-                Math.floor(entity.getY() + y_diff),
-                entity.blockZ + z_diff
-            );
-            if (!block.blockState.canBeReplaced("minecraft:water")) {
-                return true;
-            }
-        }
-    }
-    return false;
+    let checked_y_level = Math.floor(entity.getY() + y_diff)
+    return check_floor(level, entity.blockX, checked_y_level, entity.blockZ)
 }

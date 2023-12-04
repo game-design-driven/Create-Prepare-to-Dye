@@ -4,7 +4,6 @@ const PLATFORM_SPAWN_RADIUS = 10;
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
-        
         event.item.count --;
         event.player.swing();
         
@@ -41,6 +40,7 @@ function spawnTradingPlatform(player, pilot_name, items) {
         base_contraption: base_contraption,
         roof_contraption: roof_contraption,
         pilot: pilot,
+        last_played_height: null,
     });
 
     main_entity.persistentData.putUUID("base_contraption", base_contraption.uuid);
@@ -62,7 +62,32 @@ function spawnMainEntity(event, spawn_coordinates) {
     main_entity.persistentData.putString("landing_sequence_component", "main_entity");
     main_entity.persistentData.putByte("stage", global.landing_sequence.LANDING_STAGE);
     main_entity.persistentData.putByte("tick_counter", 0);
+    main_entity.persistentData.putShort("floor_level", get_floor_level(event.level, main_entity.blockX, main_entity.blockZ));
     return main_entity;
+}
+
+function get_floor_level(level, x, z) {
+    let y = PLATFORM_SPAWN_HEIGHT;
+    while (!check_floor(level, x, y, z)) {
+        y--;
+    }
+    return y
+}
+
+function check_floor(level, x, y, z) {
+    for (let x_diff = -1; x_diff <= 1; x_diff++) {
+        for (let z_diff = -1; z_diff <= 1; z_diff++) {
+            let block = level.getBlock(
+                x + x_diff,
+                y,
+                z + z_diff
+            );
+            if (!block.blockState.canBeReplaced("minecraft:water")) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 function spawnBaseContraption(event, spawn_coordinates, main_entity, items) {
