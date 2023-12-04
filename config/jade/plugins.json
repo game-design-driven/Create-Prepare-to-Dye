@@ -60,7 +60,7 @@
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
-    "mod_name": true
+    "mod_name": false
   },
   "create": {
     "filter": true,
