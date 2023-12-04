@@ -1,0 +1,26 @@
+
+[display]
+	#If set to TRUE, the labels on the compass will always be visible, if FALSE (default), only the closest to the center of the compass will show the name.
+	alwaysShowLabels = false
+	#If set to FALSE, the closest waypoint to the center of the compass will not show the label, and sneak will be required to display it.
+	alwaysShowFocusedLabel = true
+	#If set to FALSE, sneaking will only show the closest waypoint to the center of the compass.
+	showAllLabelsOnSneak = true
+	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
+	animateLabels = true
+	#Choose when the compass is visible.
+	# - NEVER: Don't display the compass (the mod remains active, just doesn't render).
+	# - HAS_COMPASS: Only display HUD if a compass is in the inventory.
+	# - HOLDING_COMPASS: Only display HUD if a compass is in the hand.
+	# - ALWAYS: Always display the compass (default).
+	#Allowed Values: NEVER, HOLDING_COMPASS, HAS_COMPASS, ALWAYS
+	displayWhen = "ALWAYS"
+	#If set to FALSE, Journeymap waypoints won't be displayed in the compass.
+	enableJourneymapIntegration = true
+	#Sets the distance at which waypoints start to fade. Meaningless if waypointViewDistance=0. If this value is >= waypointViewDistance, it will never fade.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	waypointFadeDistance = 195.0
+	#Sets the distance at which waypoints stop drawing. If set to 0, waypoints will never disappear.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	waypointViewDistance = 200.0
+

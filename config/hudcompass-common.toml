@@ -1,0 +1,15 @@
+
+[general]
+	#If set to FALSE, vanilla map waypoints won't be displayed in the compass.
+	enableVanillaMapIntegration = true
+	#If set to FALSE, the spawn point location will not be shown.
+	enableSpawnPointWaypoint = true
+	#If set to TRUE, the server will not advertise itself to the clients, making them work in client-only mode.
+	disableServerHello = false
+	#Choose how the compass shows other players.
+	# - NONE: Don't display other players, ever.
+	# - TEAM (default): Only display players that are in the same team.
+	# - ALL: Display all players.
+	#Allowed Values: NONE, TEAM, ALL
+	playerDisplay = "ALL"
+
