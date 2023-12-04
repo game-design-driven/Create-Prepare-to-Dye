@@ -20,20 +20,20 @@
   </a>
 </p>
 
-⚙️ Create : Prepare to Dye is an opinionated, high-effort modpack centered around complex and interesting automation. You will NOT find a boring way to automate. 
+⚙️ Create : Prepare to Dye is an opinionated new take on automation based gameplay
 
 ## Intro
 As the head of a crumbling, inherited, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
 
-**Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes** create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
+**Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes**, create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
 
-Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed as you and Betsy are left to pick up the scraps and build your empire from sand and sticks.
+Things did start off on the wrong hoof though, as you crash land on the barren planet, your milk powered spaceship is destroyed as you and Betsy are left to pick up the scraps and build your empire from sand and... milk?.
 
 ## About the project
 
 ### Concept
 - Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
-- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can break stone with your bare hands and you can do so fast.
+- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can build and break blocks with ease, even at a distance.
 - This planet is depleted, you will need to figure out how to produce the resources you'll need on your own, mining need not apply.
 ### Gameplay loop
 - You accept trade deals with various companies
@@ -49,7 +49,7 @@ Using Create and Botania's natural automation focus as a loose base, we are cons
 * Botania - Another core element of the experience, ties well into playing with dye and works hand in hand with create in this modpack. It has undergone many modifications to fit it into this world.
 * Quark + oddities
 ---
-On top of those we add many processing lines (over 1200 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
+we add/alter many processing lines (over 1200 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
 </details>
 <details>
   <summary>Radical simplification</summary>
