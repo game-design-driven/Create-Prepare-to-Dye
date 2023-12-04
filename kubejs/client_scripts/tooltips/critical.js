@@ -23,7 +23,7 @@ addTooltip(
 );
 addTooltip(
   "milk_bucket",
-  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a deployer"
+  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a _deployer_"
 );
 addTooltip(
   "cauldron",
