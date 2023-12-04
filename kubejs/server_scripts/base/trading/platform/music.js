@@ -1,8 +1,8 @@
 const CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
 
-const LANDING_MUSIC_LENGTH = 44;
-const BLOCKS_PER_MUSIC_CYCLE = LANDING_MUSIC_LENGTH * 2;
-const LANDING_MUSIC_OFFSET = -7 + BLOCKS_PER_MUSIC_CYCLE;
+const LANDING_MUSIC_LENGTH = 43;
+const BLOCKS_PER_MUSIC_CYCLE = LANDING_MUSIC_LENGTH * 4;
+const LANDING_MUSIC_OFFSET = -12 + BLOCKS_PER_MUSIC_CYCLE;
 
 function playMusicAccordingToHeight(landing) {
     if (landing.last_played_height != null && landing.last_played_height - landing.main_entity.y < 2) {

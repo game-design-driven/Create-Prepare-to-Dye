@@ -1,4 +1,4 @@
-const PLATFORM_SPAWN_HEIGHT = 330;
+const PLATFORM_SPAWN_HEIGHT = 350.15;
 const PLATFORM_SPAWN_RADIUS = 10;
 
 if (feature("Trading platforms")) {
