@@ -35,11 +35,11 @@ addTooltip(
 );
 addTooltip(
   "wares:delivery_agreement",
-  "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed to acquire more contracts"
+  "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts"
 );
 addTooltip(
   "wares:completed_delivery_agreement",
-  "A completed intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed to acquire more contracts. Or hanged on the wall, pretty piece of paper"
+  "A completed intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall, pretty piece of paper"
 );
 addTooltip(
   "storagedrawers:oak_full_drawers_1",
