@@ -104,15 +104,6 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
-const bhbWheatOld = getAgreement({
-  paymentItems: ["8x botania:livingwood_log", "water_bucket"],
-  requestedItems: ["64x wheat"],
-  title: "Clean wheat needed",
-  orderedAmount: 2,
-  company: "black_hole_bagels_llc",
-  message:
-    "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
-});
 const bhbWheat = getAgreement({
   paymentItems: ["32x botania:livingwood_log", "water_bucket"],
   requestedItems: ["64x wheat"],
@@ -397,7 +388,6 @@ tradeBranch(bhbWheat, bhbCheese);
 tradeBranch([bhbWheat, wscAxes], bhbCheese);
 tradeBranch([wscBread], wscAxes);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
-tradeBranch([bhbFurnaces, sssHelmets], bhbWheatOld);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
 tradeBranch(sssHelmetsFixedRates, sssHelmets);
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
@@ -430,23 +420,6 @@ ServerEvents.commandRegistry((event) => {
     Commands.literal("allAgreements").executes((context) => {
       global.allAgreements.forEach((deal) =>
         context.getSource().getPlayer().give(deal)
-      );
-      return 0;
-    })
-  );
-  event.register(
-    Commands.literal("speedBoots").executes((context) => {
-      global.allAgreements.forEach((deal) =>
-        context
-          .getSource()
-          .getPlayer()
-          .give(
-            Item.of(
-              "iron_boots",
-              1,
-              '{[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:10,Operation:1,UUIDMost:81967,UUIDLeast:113041}]}'
-            )
-          )
       );
       return 0;
     })

@@ -30,12 +30,12 @@ function getAgreement({
   let agreementObj = {
     item: Item.of("wares:delivery_agreement", {
       ordered: orderedAmount,
-      message: NBT.stringTag(`{"text": "${message}" }`),
+      message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
       buyerName: { color: "#409D9B", text: companyTitle },
       paymentItems: simple(paymentItems),
       requestedItems: simple(requestedItems),
-      title: NBT.stringTag(`{"text": "${title}" }`),
+      title: NBT.stringTag(`{"text":"${title}"}`),
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
 
     completedItem: Item.of("wares:completed_delivery_agreement", {
@@ -43,11 +43,11 @@ function getAgreement({
       buyerName: { color: "#409D9B", text: companyTitle },
       delivered: NBT.intTag(orderedAmount),
       isCompleted: NBT.b(1),
-      message: NBT.stringTag(`{"text": "${message}" }`),
+      message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
       paymentItems: simple(paymentItems),
       requestedItems: simple(requestedItems),
-      title: NBT.stringTag(`{"text": "${title}" }`),
+      title: NBT.stringTag(`{"text":"${title}"}`),
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
   };
   global.allAgreements = global.allAgreements
