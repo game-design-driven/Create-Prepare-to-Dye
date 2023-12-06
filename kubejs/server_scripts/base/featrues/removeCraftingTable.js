@@ -149,7 +149,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:crushing_wheel",
     "supplementaries:turn_table",
     "supplementaries:spring_launcher",
-    'botania:apothecary_default'
+    'botania:apothecary_default',
+    'quark:crate'
   ];
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
