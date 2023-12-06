@@ -63,7 +63,7 @@ No clutter. Every item and block has ~~a reason~~ at least a few reasons to be i
   <summary>Low amount of tasks that aren't "making cool stuff"</summary>
   
 **We do everything within our power to prevent the possibility of optimizing the fun out of this game.** Specifically with regard to our core gameplay loop. If you are not automating, making and building cool stuff, we assume we have done something wrong, and we sprint to fix it.
-
+</details>
 <details>
   <summary>Heavily Documented, in game</summary>
   
