@@ -68,6 +68,7 @@ function simple(items) {
     }
     let nbt = item.toNBT();
     nbt.Count = item.count;
+    delete nbt.tag;
     if (typeof item_obj === "string" && item_obj.includes("#")) {
       //support for tags
       if (item_obj.includes("x ")) item_obj = item_obj.split("x ")[1];
