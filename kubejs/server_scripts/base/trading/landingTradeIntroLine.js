@@ -384,7 +384,6 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
-tradeBranch(bhbWheat, bhbCheese);
 tradeBranch([bhbWheat, wscAxes], bhbCheese);
 tradeBranch([wscBread], wscAxes);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
