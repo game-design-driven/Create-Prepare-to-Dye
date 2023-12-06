@@ -94,7 +94,7 @@ hash = "ee068129aabe169c76213b67ddda12599a12fc738c7aed2b7614b304672b5a49"
 
 [[files]]
 file = "config/defaultoptions/extra/options.txt"
-hash = "c9f000873905a208b5f076a13df0f3bde21bca3b33b2636ceaca637da6b952af"
+hash = "48b56284909f9636c407ed36df297e89cebe82b52af55d7d9393771ba4ec6c94"
 
 [[files]]
 file = "config/easy_villagers-client.toml"
@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "5d158e0217a8c87fa1b715ae8fc00bba0cf764ef1f1e7cfb6122e93919461f09"
+hash = "95073c2ca30bf86cfc967307e726819701fc356f08aa6ec11850f5aab796210f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1178,7 +1178,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "c6ee11c05fabb544920d855289c5b4ef4e900fa17df1e3bda345998342334544"
+hash = "6bea4ad8194a56e001c28d0e98bc7830a01161919d170a8524ed9a15859b0e31"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1798,7 +1798,7 @@ hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1c099acf6070e88bc977c3a4ae1cfdb27b7f788862a62ff783eb270003baf3bf"
+hash = "28fe816226c0959e62de841e51fac66b0d932f1f9bf0210d0c71cb27860b7441"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2027,6 +2027,10 @@ hash = "dac28bb5f8e770217707a250132cc72af7a48354230972a385b6f79bf79a0b80"
 [[files]]
 file = "modpack-update-checker/versions/1.118.11/changelog.txt"
 hash = "b3cb11164175405cf63f94c3fe825e24400f51cb2cce65cdd0b10d1f830a8013"
+
+[[files]]
+file = "modpack-update-checker/versions/1.118.12/changelog.txt"
+hash = "20f0229ecf3282322cab07e90f24a736b38fb257b31d9a90a87135f13fd0bf59"
 
 [[files]]
 file = "modpack-update-checker/versions/1.118.2/changelog.txt"
