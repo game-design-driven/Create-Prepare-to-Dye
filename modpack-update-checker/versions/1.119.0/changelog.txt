@@ -1,0 +1,8 @@
+## [1.119.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.118.13...1.119.0) (2023-12-06)
+
+
+### Features
+
+* crate is now a cobblestone device ([511a021](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/511a021a849c106d14823056cc8615d07d17777f))
+
+
