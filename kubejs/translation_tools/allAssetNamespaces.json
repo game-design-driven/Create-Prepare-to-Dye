@@ -1,0 +1,23 @@
+{
+    "namespaces": [
+        "emi",
+        "supplementaries",
+        "storagedrawers",
+        "create_enchantment_industry",
+        "easy_villagers",
+        "wands",
+        "ae2",
+        "ponder",
+        "sdrp",
+        "kubejs",
+        "wares",
+        "quark",
+        "ponderjs_generated",
+        "createdieselgenerators",
+        "botania",
+        "botania_tooltips",
+        "ptdye",
+        "create",
+        "minecraft"
+    ]
+}
