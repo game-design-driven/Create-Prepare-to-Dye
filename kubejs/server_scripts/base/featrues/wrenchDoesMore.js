@@ -51,7 +51,7 @@ if (feature("Add wrenchable blocks")) {
 
 if (feature('Wrench picks up broken blocks')) {
   BlockEvents.broken((event) => {
-    if (event.player.getMainHandItem().id === 'create:wrench') {
+    if (event.player.getMainHandItem().id === 'create:wrench' && !event.player.creative) {
       event.block.getDrops(event.player, event.item).forEach((item) => {
         event.player.give(item);
       });
