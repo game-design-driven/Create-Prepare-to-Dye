@@ -68,3 +68,8 @@ lightspeed-cache/*
 /config/plasmovoice/.crowdin
 config/plasmovoice/server/uStats.toml
 config/plasmovoice/server/voice_mutes.json
+/curseforge/config
+/curseforge/defaultconfigs
+/curseforge/fancymenu_data
+/curseforge/kubejs
+/curseforge/modpack-update-checker
