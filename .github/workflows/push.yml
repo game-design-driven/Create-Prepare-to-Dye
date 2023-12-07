@@ -124,6 +124,7 @@ jobs:
         run: |
           cd curseforge
           packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
+          cp *.zip ../
       - name: Upload Modpack file to GitHub Releases
         run: |
           gh release upload ${{ needs.tag_and_release.outputs.new_tag }} *.${{ matrix.file_suffix }} \
