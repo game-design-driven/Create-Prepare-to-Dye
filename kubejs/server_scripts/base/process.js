@@ -7,6 +7,10 @@ ServerEvents.recipes(event => {
         } else {
             let r = event.custom(recipe)
             r.id = getUniqueRecipeName(r)
+            if (recipe.hidden==true) {
+                console.info("___hide" + r.id)
+                r.id = r.id+"/hidden"
+            }
         }
     });
     modpackRemovedRecipes.forEach(recipeFilter => {
