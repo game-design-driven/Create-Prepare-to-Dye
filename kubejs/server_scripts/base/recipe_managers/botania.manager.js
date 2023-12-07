@@ -32,9 +32,11 @@ function solveStateBlock(block, basic) {
  * @param {number} mana Amount of mana the recipe uses, defaults to 1000
  * @param {block} catalyst
  */
-function addInfusion(output, input, mana, catalyst) {
+function addInfusion(output, input, mana, catalyst, hidden) {
+    if (!hidden) hidden = false
     if (!mana) mana = 1000
     let result = {
+        hidden: hidden,
         type: 'botania:mana_infusion',
         input: solveLimitedIngredient(input),
         output: solveResult(output),
@@ -45,8 +47,14 @@ function addInfusion(output, input, mana, catalyst) {
 }
 
 function addAlchemyRecipe(output, input, mana) {
-    addInfusion(output, input, mana / 2, 'create:blaze_burner[blaze=fading]')
-    addInfusion(output, input, mana * 2, 'create:blaze_burner[blaze=kindled]')
+    let sides = ['north', 'east', 'west']
+    addInfusion(output, input, mana / 2, 'create:blaze_burner[blaze=fading,facing=south]')
+    addInfusion(output, input, mana * 2, 'create:blaze_burner[blaze=kindled,facing=south]')
+    for (let side of sides) {
+        addInfusion(output, input, mana / 2, `create:blaze_burner[blaze=fading,facing=${side}]`, true)
+        addInfusion(output, input, mana * 2, `create:blaze_burner[blaze=kindled,facing=${side}]`, true)
+    }
+
 }
 
 
