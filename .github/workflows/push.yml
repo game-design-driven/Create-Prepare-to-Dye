@@ -15,6 +15,23 @@ env:
   mc_version: '1.19.2'
 
 jobs:
+  check_rank:
+    needs: [tag_and_release]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          limit=100
+          offset=0
+          totalItems=1000
+          while [ $offset -lt $totalItems ]; do
+              curl --silent "https://api.modrinth.com/v2/search?limit=$limit&offset=$offset&facets=%5B%5B%22project_type%3Amodpack%22%5D%5D" | \
+              jq '.hits | to_entries[] | "\(.key + $offset): \(.value.title)"' --argjson offset $offset | grep "${{env.name}}" | sed 's/:.*//' | tr -d '"' >> rank
+              offset=$((offset + limit))
+          done
+
+          old_rank=$(cat README.md | grep -o 'Modrint%20Rank-[0-9]*' | sed 's/Modrint%20Rank-//')
+          new_rank=$(cat rank)
   tests:
     runs-on: ubuntu-latest
     steps:
@@ -94,9 +111,19 @@ jobs:
           cd kubejs/assets/sdrp/lang
           json=$(jq '."sdrp.logo"="Hanging out with Betsy on version ${{ needs.tag_and_release.outputs.new_tag }}"' en_us.json) 
           echo $json > en_us.json
-      - name: Build Modpack
+      - name: Move to curseforge folder and take some folders with me
+        if: matrix.platform == 'curseforge'
+        run: |
+          cd curseforge
+          cp ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker .
+      - name: Build Modpack modrinth
+        if : matrix.platform == 'modrinth'
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
-
+      - name: Build Modpack curseforge
+        if : matrix.platform == 'curseforge'
+        run: |
+          cd curseforge
+          packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
       - name: Upload Modpack file to GitHub Releases
         run: |
           gh release upload ${{ needs.tag_and_release.outputs.new_tag }} *.${{ matrix.file_suffix }} \
@@ -133,15 +160,15 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-      # - name: Publish to CurseForge
-      #   if: matrix.platform == 'curseforge'
-      #   uses: Kir-Antipov/mc-publish@v3.2
-      #   with:
-      #     curseforge-id: ${{ vars.CF_ID }}
-      #     curseforge-token: ${{ secrets.CF_API_TOKEN }}
-      #     loaders: forge
-      #     game-versions: 1.19.2
-      #     changelog: ${{ needs.tag_and_release.outputs.changelog }}
-      #     files: "*.zip"
-      #     version: ${{ needs.tag_and_release.outputs.new_tag }}
-      #     version-type: release
+      - name: Publish to CurseForge
+        if: matrix.platform == 'curseforge'
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          curseforge-id: ${{ vars.CF_ID }}
+          curseforge-token: ${{ secrets.CF_API_TOKEN }}
+          loaders: forge
+          game-versions: 1.19.2
+          changelog: ${{ needs.tag_and_release.outputs.changelog }}
+          files: "*.zip"
+          version: ${{ needs.tag_and_release.outputs.new_tag }}
+          version-type: release
