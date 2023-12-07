@@ -1,0 +1,13 @@
+name = "Experimental Settings Disabler"
+filename = "experimentalsettingsdisabler-1.19.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14addd9f63c9d619b7bb7af233f3f9dec068d569"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4810591
+project-id = 926083

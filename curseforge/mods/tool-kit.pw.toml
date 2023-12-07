@@ -1,0 +1,13 @@
+name = "Tool Kit"
+filename = "ToolKit-2.3.6-build.10+mc1.19.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "448eb22ef2de274c0eeb5b0576c50094dfb23c0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3909766
+project-id = 324888

@@ -1,0 +1,13 @@
+name = "Finite Water"
+filename = "finitewater-1.19.2-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ed85fdc122c08e0c992a2b466aa25f10be11844"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4413956
+project-id = 821384
