@@ -115,7 +115,7 @@ jobs:
         if: matrix.platform == 'curseforge'
         run: |
           cd curseforge
-          cp -R ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker .
+          cp -R ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
       - name: Build Modpack modrinth
         if : matrix.platform == 'modrinth'
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
