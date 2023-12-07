@@ -67,7 +67,7 @@ No clutter. Every item and block has ~~a reason~~ at least a few reasons to be i
 <details>
   <summary>Heavily Documented, in game</summary>
   
-JEI is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
+You item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
@@ -80,8 +80,6 @@ Progression and "tiers" in this modpack are not done with more and more expansiv
   
 We have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
 Our script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers.
-
-See all features [here](kubejs/server_scripts/base/featrues)
 </details>
 
 
