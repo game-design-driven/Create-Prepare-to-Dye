@@ -1,6 +1,9 @@
 {
-  "create:item_application": {
+  "lychee:block_interaction": {
     "order": -100
+  },
+  "create:item_application": {
+    "order": -95
   },
   "createdieselgenerators:basin_fermenting": {
     "order": -90
