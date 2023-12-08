@@ -30,9 +30,13 @@ if (feature('Ores from dyes')) {
         addBlockInteract(ore, 'minecraft:netherrack', dye)
     })
     
-    addItemApplication('raw_copper', 'cobblestone', 'orange_dye')
-    addItemApplication('raw_iron', 'red_sand', 'white_dye')
-    addItemApplication('raw_copper', 'red_sand', 'orange_dye')
+    // addItemApplication('raw_copper', 'cobblestone', 'orange_dye')
+    // addItemApplication('raw_iron', 'red_sand', 'white_dye')
+    addBlockInteractToItem('raw_iron', 'minecraft:white_concrete_powder', 'white_dye')
+    // addItemApplication('raw_copper', 'red_sand', 'orange_dye')
+    addBlockInteractToItem('raw_copper', 'minecraft:orange_concrete_powder', 'orange_dye')
+
+    addBlockInteractToItem('raw_gold', 'minecraft:yellow_concrete_powder', 'yellow_dye')
     // addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', '#forge:cobblestone'])
     // addShapeless('raw_copper',['orange_dye', 'orange_dye', '#forge:dyes', '#forge:cobblestone'])    
     // addShapeless('raw_iron',['white_dye', 'white_dye', '#forge:dyes', '#forge:sand'])
