@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "09c35b03dffb26daa4049dc9f6e03e6a0336406b600c95504ff20ace041f1e47"
+hash = "9aae6b93a835f39aeb8a194fcbca35259296759b77936aa955c8294488434cae"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1190,7 +1190,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9f89568d2c995050051ce0e9752016a0342f59e086d2990968dda3f4549f8a17"
+hash = "6d92629f1e81d1b9ce37a1d7008aca188ba76a6e1068a0600934ed355b169ceb"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1458,11 +1458,11 @@ hash = "b19225f002938df7a17b932ba205827f8598fe8d9d7f5b9dbcd53a5ebc45be78"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
-hash = "fdfea1036169b0bfee06ab006a0666cd3bd8e00e15fd56e6e17fd08853c39a62"
+hash = "e0e13dcc5e863a01a49b2bbc08f24fce9d11e582349b67c5ed8f8c129e11763d"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
-hash = "d2f1424acc2c61fac8521f5a2c4561590349f999be80acc836a9a36f083bf432"
+hash = "8794819eed0276aa9b861f6ec03ca6a0765838ab503ea388899b8dc20840e985"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
@@ -1495,6 +1495,78 @@ hash = "6a105924d08ddc1b40918b2ca7821fdcf5d7c13843d840a16891027b6c23e11b"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/spaceship_wreck_main.json"
 hash = "3f1199896eb16802a6f7a9751816f7a5b7eea0a16aa31e843699bce8f5f39612"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace1.json"
+hash = "0816a9d4f46501c4509b1b3aec0b1d5318e1becbfd02d5112b4401887e9d1a94"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace2.json"
+hash = "bdaf4ede3797729e77c2d81f2e32d40bd94b2ad67d7348cf2ceb93ec41b2c783"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace3.json"
+hash = "bf0d5bc38c4db44dd076fd2049293a6d346710d440ecf053e4bbf759f79593c2"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace4.json"
+hash = "968a4a5ca2dbec6119c2b04eda0f870ab46d8c2ca807e799f57d090d44837a80"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace5.json"
+hash = "881a61102be27220050893f03d221eb518eb5df199d5474215436dfa9432e719"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace6.json"
+hash = "c985c24e0c2208600b4bfd1c7fcf727b06c5f8bc511b7a3462f6da0d92e1b3fe"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace7.json"
+hash = "de4e0a5d6e46ef63957eb93af470fd9e6876540315500cddc1b5c78c8c5ec67a"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace8.json"
+hash = "29e393ab91307e465c941b87947417ead41cd4952884a57c850f5bc7bafff70e"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace9.json"
+hash = "f8d558868b6e6d8513f39bd77021572fde69f7c8dc039587684f980d5e110005"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace1.json"
+hash = "fdab922ab9b7c3ad766348250c1fdd9a9c81ce3ecbd5f8127be63ad64a4579b6"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace2.json"
+hash = "2f9fa4c45f93140afbdfe3acb1d8909d9427b8be20e20a1ceb98fddab69e1de4"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace3.json"
+hash = "7fd595313c586a23e31fcb5dbab9d142c9dd1c51cecd87c2652ef8ed5bd5f064"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace4.json"
+hash = "cebeea172e00963642cff25344b6b76a167015cc36eb6351dd6e2cdd8bfb3a71"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace5.json"
+hash = "303915a4f97de641adf3c4258a274d2a4a6a0dfe005524f14c62bad910a140c3"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace6.json"
+hash = "b6471e590c5c93ab7af6c2076a1b5fccc23ff4a991ad7cdd4255084871a1f4db"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace7.json"
+hash = "43bfe751590a2d6f356ea2719b7d593c5b997ca4edd6dd8cd763e8c4d23791bb"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace8.json"
+hash = "f03aeee8743b95ebc6692fbe4af39994aeb2e1bac2817e0b3a0884cbe6174c52"
+
+[[files]]
+file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace9.json"
+hash = "ce6d92118c1344fad4f2b6ba5e098d62191d70b6b51afab730b1431200246f01"
 
 [[files]]
 file = "kubejs/data/salt/worldgen/biome_modifier/add_rock_salt_deposit.json"
@@ -1718,7 +1790,7 @@ hash = "90b2ba845d400dfe858f4a392869add72cb40fcd0e29026dc416d53d2e1a8692"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
-hash = "14b6afdc5b27fa1069f51fd5b796f168a949d924a48976132392f6e2ccdd497e"
+hash = "071853a4ff82498329175418ba50ca88d41940eef07d00a7cc5eb0a73dae401b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/music.js"
@@ -1730,7 +1802,7 @@ hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/spawn.js"
-hash = "13436da9aa6e8b88e8684a55df2c006872e0227b1116e00dcf6d882d8a7a5d1e"
+hash = "d24b7656de07fd38ebd5151513c677f9ca5ad7dc31610c91080f8bbfd0d2f87f"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1826,7 +1898,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e41681e9ee83cafa6991710270dda87d4bfeffc929aaedfe8e820d991962fb43"
+hash = "b4ebd80f0c2c6465b6f7182077588071f3b72cee3be07efc9f1d99ad1bb1beb0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2127,6 +2199,10 @@ hash = "3484df21689ead93147d739b3de564f61f4bb23dcc6397b0b264fa883cf433b7"
 [[files]]
 file = "modpack-update-checker/versions/1.121.3/changelog.txt"
 hash = "d5763ea8bd16db03b70c87fde8f598bbc5773fa0be1494d8deb704f6fab2097a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.122.0/changelog.txt"
+hash = "3771eb5bb897a0bc7223f5e2f8ee073ae5903f08b3ce1836db1d09e97e5adbcd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
