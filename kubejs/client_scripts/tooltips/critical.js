@@ -10,7 +10,7 @@ addTooltip(
 );
 addTooltip(
   "lava_bucket",
-  "Found abundantly on the planets surface and underground, can be purified into _red sand_"
+  "Found abundantly underground, can be purified into _red sand_"
 );
 addTooltip(
   "create:scorchia",
