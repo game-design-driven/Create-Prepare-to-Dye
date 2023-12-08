@@ -66,6 +66,9 @@ if (feature('Livingrock from terracotta')) {
 if (feature('Livingrock from white concrete')) {
     addPurify('botania:livingrock', 'minecraft:white_concrete')
 }
+if (feature('Livingrock to stone')) {
+    addBlockExplode('stone', 'botania:livingrock')
+}
 if (feature('Livingwood twig out of dead bush and mana')) {
     addItemApplication('botania:livingwood_twig', 'dead_bush', '#botania:mana_dusts')
 }
