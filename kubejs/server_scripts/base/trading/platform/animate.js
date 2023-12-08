@@ -66,7 +66,7 @@ function getEntityByUUID(server, uuid) {
 }
 
 function performLandingStage(landing, level) {
-    // landing.main_entity.setY(landing.main_entity.getY() - 0.2);
+    landing.main_entity.setY(landing.main_entity.getY() - 0.2);
     if (check_floor_for_entity(landing.main_entity, level)) {
         landing.main_entity.persistentData.putByte("stage", global.landing_sequence.WAITING_STAGE);
         landing.pilot.unRide();
