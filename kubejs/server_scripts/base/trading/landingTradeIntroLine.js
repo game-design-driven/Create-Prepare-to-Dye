@@ -104,6 +104,17 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
+const bhbCheeseFixed = getAgreement({
+  paymentItems: [
+    '32x supplementaries:soap'
+  ],
+  requestedItems: ["64x kubejs:fermented_blob"],
+  title: "Lets make some bagels",
+  orderedAmount: 0,
+  company: "black_hole_bagels_llc",
+  message:
+    "Alright, yup, this works. I want more of that cheesy stuff, a lot more. Lets make this a regular thing",
+});
 const bhbWheat = getAgreement({
   paymentItems: ["32x botania:livingwood_log", "water_bucket"],
   requestedItems: ["64x wheat"],
@@ -113,6 +124,7 @@ const bhbWheat = getAgreement({
   message:
     "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
 });
+
 const wscAxes = getAgreement({
   paymentItems: [
     "16x minecraft:oak_log",
@@ -384,7 +396,7 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch(bfcPickaxes, bcfPlates2);
-tradeBranch([bhbWheat, wscAxes], bhbCheese);
+tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread], wscAxes);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
 tradeBranch([bhbFurnaces, sssHelmets], bhbWheat);
