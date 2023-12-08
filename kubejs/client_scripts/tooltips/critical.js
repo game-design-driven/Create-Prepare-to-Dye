@@ -5,8 +5,8 @@ addTooltip(
   "Water is the essence of most organic life, useful for many things, and is not infinite"
 );
 addTooltip(
-  "red_sand",
-  "Found abundantly on the planets surface, also seems that the _lava_ here, flowing or source, can be purified with _pure daisy_ to make _red sand_"
+  "white_concrete_powder",
+  "Found abundantly on the planets surface, also seems that the _milk_ here, flowing or source, can be purified with _pure daisy_ to make _white powder_"
 );
 addTooltip(
   "lava_bucket",
