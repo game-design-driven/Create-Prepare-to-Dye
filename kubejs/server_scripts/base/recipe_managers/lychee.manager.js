@@ -50,6 +50,18 @@ function addBlockInteract(block_out, block_in, item_in) {
     }
     modpackRecipes.push(recipe)
 }
+function addBlockExplode(block_out, block_in) {
+    let post = {
+        type: 'place',
+        block: block_out,
+    }
+    let recipe = {
+        type: 'lychee:block_exploding',
+        block_in: block_in,
+        post: post,
+    }
+    modpackRecipes.push(recipe)
+}
 function addGrow(block_out, block_in, item_in) {
     let post = [{
         type: 'place',
