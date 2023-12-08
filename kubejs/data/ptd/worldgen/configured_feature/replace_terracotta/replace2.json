@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:blue_terracotta"
+    },
+    "target": {
+      "Name": "minecraft:red_terracotta"
+    },
+    "radius": 12
+  }
+}

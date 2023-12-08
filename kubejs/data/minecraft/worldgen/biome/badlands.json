@@ -34,14 +34,23 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
-    [],
+    [
+      "ptd:replace_terracotta/replace1",
+      "ptd:replace_terracotta/replace2",
+      "ptd:replace_terracotta/replace3",
+      "ptd:replace_terracotta/replace4",
+      "ptd:replace_terracotta/replace5",
+      "ptd:replace_terracotta/replace6",
+      "ptd:replace_terracotta/replace7",
+      "ptd:replace_terracotta/replace8",
+      "ptd:replace_terracotta/replace9"
+    ],
     [
       "minecraft:underwater_magma"
     ],
     [],
     [
-      "minecraft:spring_lava"
+    "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
