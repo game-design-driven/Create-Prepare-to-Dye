@@ -6,7 +6,7 @@ StartupEvents.registry("fluid", (event) => {
     .bucketColor(0xe0c3bc)
     .noBlock();
   event
-    .create("organic_mass").dropOff(0)
+    .create("organic_mass")
     .displayName("Organic Mass")
     .thickTexture(0x2db83d)
     .bucketColor(0x2db83d)
