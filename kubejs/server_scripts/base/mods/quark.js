@@ -104,8 +104,8 @@ if (feature('bag from silicon')) {
     })
 }
 
-if (feature('Storage crate uses iron and plates')) {
-    replaceShaped('quark:crate',['ipi','p p','ipi'],{
-        i:Ingredient.of('#forge:ingots/iron').or('#forge:plates/iron'), p:'quark:iron_plate'
-    })
-}
+// if (feature('Storage crate uses iron and plates')) {
+//     replaceShaped('quark:crate',['ipi','p p','ipi'],{
+//         i:Ingredient.of('#forge:ingots/iron').or('#forge:plates/iron'), p:'quark:iron_plate'
+//     })
+// }

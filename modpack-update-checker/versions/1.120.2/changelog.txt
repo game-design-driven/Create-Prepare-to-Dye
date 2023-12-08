@@ -1,0 +1,8 @@
+### [1.120.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.120.1...1.120.2) (2023-12-07)
+
+
+### Fixes
+
+* built curseforge artifact placed in wrong folder ([b65aa36](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b65aa36478248f9e6b5b5e1ca0c0b0d40d202553))
+
+

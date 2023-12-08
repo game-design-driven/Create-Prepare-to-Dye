@@ -24,3 +24,9 @@ net.minecraft.client.gui.screens.PauseScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.StonecutterScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+

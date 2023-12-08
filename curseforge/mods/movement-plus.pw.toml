@@ -1,0 +1,13 @@
+name = "Movement Plus"
+filename = "MovementPlus-1.19.2-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24d7cbdf8ecdd9c69fa987d24a5132ba02ea88b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3989856
+project-id = 579424

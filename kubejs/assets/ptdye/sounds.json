@@ -4,6 +4,12 @@
         "ptdye:trading_platform_request"
       ],
       "subtitle": "Transceiver sending message"
+    },
+    "trading_platform.fanfare": {
+      "sounds": [
+        "ptdye:trading_platform_fanfare"
+      ],
+      "subtitle": "Trading Platform® fanfare"
     }
   }
   

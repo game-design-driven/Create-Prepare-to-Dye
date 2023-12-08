@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:white_concrete_powder"
+    },
+    "target": {
+      "Name": "minecraft:red_sandstone"
+    },
+    "radius": 12
+  }
+}

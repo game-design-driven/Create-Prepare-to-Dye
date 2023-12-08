@@ -60,13 +60,13 @@
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
-    "mod_name": true
+    "mod_name": false
   },
   "create": {
     "filter": true,
     "backtank_capacity": true,
     "goggles.requires_goggles": false,
-    "goggles": true,
+    "goggles": false,
     "blaze_burner": true,
     "exact_block": true,
     "crafting_blueprint": true,

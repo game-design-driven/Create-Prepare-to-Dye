@@ -2,7 +2,7 @@ if (feature("diesel generators are not dyesel generators")) {
   // createdieselgenerators:diesel_engine_fuel_[slow/fast]_[strong/weak]_[slow/fast]_burn
   ServerEvents.tags("fluid", (event) => {
     event.add(
-      "createdieselgenerators:diesel_engine_fuel_slow_weak_fast_burn",
+      "createdieselgenerators:diesel_engine_fuel_fast_strong_fast_burn",
       "milk"
     );
   });
@@ -29,6 +29,7 @@ if (feature("Remove createdieselgenerators things we dont need")) {
     "createdieselgenerators:asphalt_stairs",
     "createdieselgenerators:kelp_handle",
     "createdieselgenerators:kelp_handle",
+    "createdieselgenerators:oil_barrel",
   ]);
 }
 
@@ -51,16 +52,23 @@ if (feature("Ethanol")) {
   );
 
   addFermenting(
-    ["400mb kubejs:fermented_goop", "8x minecraft:white_dye"],
-    ["4x minecraft:bone_meal", "500mb milk"],
-    200
+    ["500mb kubejs:fermented_goop", "8x minecraft:white_dye"],
+    ["4x minecraft:bone_meal", "500mb milk"]
+  );
+  addFermenting(
+    ["500mb kubejs:fermented_goop", "4x minecraft:green_dye"],
+    ["4x minecraft:bone_meal", "500mb kubejs:organic_mass"]
   );
   addFermenting(
     ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
     ["500mb milk"]
+  );  
+  addFermenting(
+    ["200mb kubejs:fermented_goop", "4x minecraft:white_dye"],
+    ["500mb kubejs:organic_mass"]
   );
 
-  addMixing("kubejs:fermented_blob %10", "50mb kubejs:fermented_goop");
+  addMixing("kubejs:fermented_blob %5", "15mb kubejs:fermented_goop");
   addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
   addMixing("slime_ball %80", [
     "500mb kubejs:fermented_goop",
@@ -73,9 +81,17 @@ if (feature("Ethanol")) {
     temperature.heated
   );
   addDistillation(
-    ["10mb water"],
+    ["15mb water"],
     ["15mb milk"],
     40,
-    temperature.heated
   );
+}
+
+
+if (feature('Replace oil with ink')) {
+  removeRecipe({id: 'createdieselgenerators:distillation/crude_oil'})
+  addDistillation([
+    '15mb create:honey',
+    '50mb createdieselgenerators:diesel',
+  ],'250mb create_enchantment_industry:ink')
 }

@@ -3,10 +3,14 @@ ServerEvents.recipes(event => {
     modpackRecipes.forEach(recipe => {
         removeAirFromRecipe(recipe)
         if (hasRemovedItems(recipe)==true) {
-            console.log("didn't add recipe " + recipe.output + " because it has removed items");
+            
         } else {
             let r = event.custom(recipe)
             r.id = getUniqueRecipeName(r)
+            if (recipe.hidden==true) {
+                console.info("___hide" + r.id)
+                r.id = r.id+"/hidden"
+            }
         }
     });
     modpackRemovedRecipes.forEach(recipeFilter => {
@@ -28,14 +32,14 @@ function hasRemovedItems(recipe) {
         if (Array.isArray(recipe.ingredients)) {
             recipe.ingredients.forEach(ingredient => {
                 if ((ingredient + "").includes(item + "")) {
-                    console.log("This recipe should be removed! " + recipe.ingredients);
+                    
                     r = true
                 }
             });
         }
         if (recipe.output) {
             if ((recipe.output + "").includes(item+"")) {
-                console.log("This recipe should be removed! " + recipe.output);
+                
                 r = true
             }
         }

@@ -4,6 +4,11 @@ StartupEvents.registry('fluid', event => {
             .thickTexture(0xE0C3BC)
             .bucketColor(0xE0C3BC)
             .noBlock()
+    event.create('organic_mass')
+            .displayName('Organic Mass')
+            .thickTexture(0x2DB83D)
+            .bucketColor(0x2DB83D)
+            .noBlock()
 })
 
 StartupEvents.registry('item', event => {

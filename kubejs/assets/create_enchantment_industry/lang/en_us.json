@@ -1,0 +1,8 @@
+{
+  "block.create_enchantment_industry.ink": "Black Sludge",
+  "fluid.create_enchantment_industry.ink": "Black Sludge",
+  "item.create_enchantment_industry.ink_bucket": "Black Sludge Bucket",
+  "advancement.create_enchantment_industry.black_as_ink.desc": "Get a bucket of Black Sludge for your publishing business",
+  "create_enchantment_industry.ponder.copy.text_3": "Black Sludge is required to duplicate written books.",
+  "create_enchantment_industry.gui.goggles.ink_consumption": "Consumes Black Sludge: %s mB"
+}

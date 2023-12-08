@@ -1,0 +1,8 @@
+### [1.122.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.122.0...1.122.1) (2023-12-08)
+
+
+### Fixes
+
+* trading platform ([72855f4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/72855f42e97568365d85a956449c83c972653539))
+
+

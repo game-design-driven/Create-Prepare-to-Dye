@@ -75,3 +75,8 @@ if (feature('Livingwood from twigs')) {
 if (feature('Netherwood from choros fruit alchemy')) {
     addInfusion('minecraft:crimson_stem', 'quark:chorus_fruit_block')
 }
+
+if (feature('Remove mana fluxfield')) {
+    removeItem('botania:mana_fluxfield')
+    
+}

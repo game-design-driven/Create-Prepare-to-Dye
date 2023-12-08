@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:gray_concrete"
+    },
+    "target": {
+      "Name": "minecraft:brown_terracotta"
+    },
+    "radius": 12
+  }
+}

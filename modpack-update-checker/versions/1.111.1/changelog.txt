@@ -1,0 +1,13 @@
+### [1.111.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.111.0...1.111.1) (2023-12-02)
+
+
+### Minor tweaks
+
+* remove permenent dolphins grace ([54b76f3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/54b76f30d554bb917f8fb9e985696c8b15bca9a5))
+
+
+### Fixes
+
+* agreements in EMI ([4700f6c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4700f6c972f0ecabd50e4c6b35127a5eae5c708a))
+
+

@@ -1,0 +1,8 @@
+### [1.109.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.109.3...1.109.4) (2023-12-01)
+
+
+### Minor tweaks
+
+* buff fertelizer enhancement of fermented goop output ([665c9dc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/665c9dc288429b59ccce96fef970a3304200b09b))
+
+

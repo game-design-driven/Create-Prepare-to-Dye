@@ -18,7 +18,7 @@ function solveResult(item) {
     //is string, apply custom syntax
     if (item.includes("mb ")) {
       //fluid
-      console.log("fluid!"+item);
+      
       let amount = parseInt(item.split("mb ")[0]);
       return Fluid.of(item.split("mb ")[1]).withAmount(amount).toJson();
     }
@@ -96,7 +96,7 @@ function solveIngredient(ingredient) {
   if (typeof ingredient === "string") {
     if (ingredient.includes("mb ")) {
       //fluid
-      console.log("fluid!"+ingredient);
+      
       let amount = parseInt(ingredient.split("mb ")[0]);
       return Fluid.of(ingredient.split("mb ")[1]).withAmount(amount).toJson();
     }

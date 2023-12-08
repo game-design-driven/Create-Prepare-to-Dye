@@ -1,0 +1,13 @@
+name = "No More Portals"
+filename = "nomoreportals-forge-1.19.2-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b619f58b8b6241c3385706c059b0d48bcf5aa33b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4421507
+project-id = 825278

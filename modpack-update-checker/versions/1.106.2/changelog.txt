@@ -1,0 +1,8 @@
+### [1.106.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.106.1...1.106.2) (2023-11-30)
+
+
+### Reverted Changes
+
+* Revert mods: update create diesel generators ([d9d7537](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d9d75377d67f05294f1a09ccbb2d900628432d42))
+
+

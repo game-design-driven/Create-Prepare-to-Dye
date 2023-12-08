@@ -1,0 +1,8 @@
+### [1.105.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.105.0...1.105.1) (2023-11-30)
+
+
+### Documentation and Localization
+
+* Add attribution for the trading platform music ([228b081](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/228b0817fadd56e01d7fa8d60150b61790c462e5))
+
+

@@ -1,0 +1,7 @@
+name = "hudCompass"
+filename = "HudCompass-1.19.2-0.5.7.jar"
+
+[download]
+url = "https://github.com/Yarden-zamir/HudCompass/releases/download/0.5.5/HudCompass-1.19.2-0.5.7.jar"
+hash-format = "sha256"
+hash = "1e74dcd6ede8a72f28e07f73aab2a5d2cdd092e476b6eba8fd80b63b3c681c35"

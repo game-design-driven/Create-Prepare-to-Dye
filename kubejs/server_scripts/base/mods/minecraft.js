@@ -193,11 +193,10 @@ if (feature('Item frame recipes')) {
 }
 
 if (feature('Sugar recipe tweaks')) {
-    removeRecipe({id: 'minecraft:sugar_from_sugar_canes'})
+    removeRecipe({id: 'minecraft:sugar_from_sugar_cane'})
     removeRecipe({id: 'create:milling/sugar_cane'})
     addMilling('sugar %25', 'sugar_cane')
     addCrushing(['sugar %10', 'lime_dye %1'], 'sugar_cane')
-
 }
 
 if (feature('Magma block to lava')) {
@@ -211,4 +210,40 @@ if (feature('Magma block more expensive')) {
 
 if (feature('Slime from magmablock')) {
     addItemApplication('slime_block', 'magma_block', 'lime_dye')
+}
+
+if (feature('Fertilizer into water')) {
+    addToTag('forge:squeezables/1',[
+        'minecraft:wheat_seeds',
+        'minecraft:melon_seeds',
+        'minecraft:pumpkin_seeds',
+        'minecraft:beetroot_seeds',
+        'minecraft:cactus',
+    ])
+    addToTag('forge:squeezables/2',[
+        'minecraft:apple',
+        'minecraft:beetroot',
+        'minecraft:carrot',
+        'minecraft:potato',
+        'minecraft:poisonous_potato',
+        'minecraft:chorus_fruit',
+        'minecraft:sweet_berries',
+        'minecraft:bamboo',
+        'minecraft:melon_slice',
+    ])
+    addToTag('forge:squeezables/3',[
+        'minecraft:pumpkin',
+    ])
+    removeRecipe({id: 'createdieselgenerators:compacting/plant_oil'})
+    addCompacting('25mb kubejs:organic_mass', '#forge:squeezables/1')
+    addCompacting('100mb kubejs:organic_mass', '#forge:squeezables/2')
+    addCompacting('200mb kubejs:organic_mass', '#forge:squeezables/3')
+    addDistillation(['8mb water', '2mb createdieselgenerators:plant_oil'], '10mb kubejs:organic_mass')
+
+    addMixing(['1mb create_enchantment_industry:experience', 'create:experience_nugget %10'], ['250mb kubejs:organic_mass', '250mb milk'], temperature.heated, 500)
+
+}
+
+if (feature('get dripstone')) {
+    addInfusion('pointed_dripstone', 'granite')
 }

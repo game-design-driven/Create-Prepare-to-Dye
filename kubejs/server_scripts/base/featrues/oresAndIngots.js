@@ -145,15 +145,20 @@ if (feature('Remove zinc')) {
 
 }
 if (feature('Andesite_alloy')) {
+    let dye = Ingredient.of('gray_dye').or(Item.of('light_gray_dye')).or(Item.of('black_dye'))
     removeRecipe({ output: 'create:andesite_alloy' })
-    addShaped('4x create:andesite_alloy', ['di', 'ia'], { d: '#forge:dyes', i: '#forge:ingots/iron', a: 'minecraft:andesite' })
-    addMixing('8x create:andesite_alloy', ['4x #forge:dyes', '#forge:ingots/iron', 'andesite'])
-    addMixing('8x create:andesite_alloy', ['#forge:ingots/manasteel', 'andesite', '#forge:dyes'])
-    addMixing('8x create:andesite_alloy', ['#forge:ingots/copper', '4x andesite'])
+    addShaped('4x create:andesite_alloy', ['di', 'ia'], { d: dye, i: '#forge:ingots/iron', a: 'minecraft:andesite' })
+    addMixing('8x create:andesite_alloy', [dye,dye,dye,dye, '#forge:ingots/iron', 'andesite'])
+    addMixing('8x create:andesite_alloy', ['#forge:ingots/manasteel', 'andesite', dye])
+    addMixing('8x create:andesite_alloy', ['#forge:ingots/copper', '6x andesite'])
     addAssembly('create:andesite_alloy', 'minecraft:iron_nugget',[
         addDeploying('create:andesite_alloy', 'minecraft:iron_nugget','minecraft:andesite'),
         addPressing('create:andesite_alloy', 'minecraft:iron_nugget'),
         addFilling('create:andesite_alloy','minecraft:iron_nugget', '200x create_enchantment_industry:ink')
+    ])
+    addAssembly('2x create:andesite_alloy', '#forge:ingots',[
+        addFilling('create:andesite_alloy','#forge:ingots', '100x create_enchantment_industry:ink'),
+        addFilling('create:andesite_alloy','#forge:ingots', '100x minecraft:milk')
     ])
     addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x bread'])
 }
@@ -173,7 +178,7 @@ if (feature('Brass is gold')) {
 
 if (feature('Copper')) {
     addDeploying('create:copper_nugget', '#forge:nuggets/gold', 'red_dye')
-    addFilling('minecraft:copper_ingot', '#forge:ingots', '1000x create:chocolate')
+    addFilling('minecraft:copper_ingot', '#forge:ingots', '100x create:chocolate')
 }
 if (feature('Lapis')) {
     // Recipes.addFluidToItem([<item:minecraft: lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);

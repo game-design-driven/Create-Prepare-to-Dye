@@ -4,7 +4,7 @@ global.landing_sequence.WAITING_STAGE = 1;
 global.landing_sequence.OPENING_STAGE = 2;
 global.landing_sequence.FINISHED_STAGE = 3;
 
-let active_landings = [];
+global.active_landings = [];
 
 if (feature("Trading platforms")) {
     EntityEvents.spawned(event => {
@@ -13,16 +13,17 @@ if (feature("Trading platforms")) {
         }
         let component = event.entity.persistentData.getString("landing_sequence_component");
         if (component === "main_entity") {
-            active_landings.push({
+            global.active_landings.push({
                 main_entity: event.entity,
                 base_contraption: getEntityByUUID(event.server, event.entity.persistentData.getUUID("base_contraption")),
                 roof_contraption: getEntityByUUID(event.server, event.entity.persistentData.getUUID("roof_contraption")),
                 pilot: getEntityByUUID(event.server, event.entity.persistentData.getUUID("pilot")),
+                last_played_height: null,
             });
         }
         else {
             let main_entity_uuid = event.entity.persistentData.getUUID("main_entity");
-            active_landings.forEach(landing => {
+            global.active_landings.forEach(landing => {
                 if (landing.main_entity.uuid.compareTo(main_entity_uuid) === 0) {
                     landing[component] = event.entity;
                 }
@@ -36,7 +37,7 @@ if (feature("Trading platforms")) {
         if (event.server.playerCount === 0) {
             return;
         }
-        active_landings.forEach(landing => {
+        global.active_landings.forEach(landing => {
             let stage = landing.main_entity.persistentData.getByte("stage");
             if (stage === global.landing_sequence.LANDING_STAGE) {
                 performLandingStage(landing, event.server.getOverworld());
@@ -47,8 +48,9 @@ if (feature("Trading platforms")) {
             else if (stage === global.landing_sequence.OPENING_STAGE) {
                 performOpeningStage(landing);
             }
+            playMusicAccordingToHeight(landing);
         })
-        active_landings = active_landings.filter(landing => {
+        global.active_landings = global.active_landings.filter(landing => {
             return landing.main_entity.persistentData.getByte("stage") != global.landing_sequence.FINISHED_STAGE;
         })
     });
@@ -64,8 +66,8 @@ function getEntityByUUID(server, uuid) {
 }
 
 function performLandingStage(landing, level) {
-    landing.main_entity.setY(landing.main_entity.getY() - 0.1);
-    if (check_floor(landing.main_entity, level)) {
+    landing.main_entity.setY(landing.main_entity.getY() - 0.2);
+    if (check_floor_for_entity(landing.main_entity, level)) {
         landing.main_entity.persistentData.putByte("stage", global.landing_sequence.WAITING_STAGE);
         landing.pilot.unRide();
         landing.base_contraption.unRide();
@@ -111,19 +113,8 @@ function removeFire(main_entity, level) {
     }
 }
 
-function check_floor(entity, level) {
+function check_floor_for_entity(entity, level) {
     let y_diff = -0.6;
-    for (let x_diff = -1; x_diff <= 1; x_diff++) {
-        for (let z_diff = -1; z_diff <= 1; z_diff++) {
-            let block = level.getBlock(
-                entity.blockX + x_diff,
-                Math.floor(entity.getY() + y_diff),
-                entity.blockZ + z_diff
-            );
-            if (!block.blockState.canBeReplaced("minecraft:water")) {
-                return true;
-            }
-        }
-    }
-    return false;
+    let checked_y_level = Math.floor(entity.getY() + y_diff)
+    return check_floor(level, entity.blockX, checked_y_level, entity.blockZ)
 }

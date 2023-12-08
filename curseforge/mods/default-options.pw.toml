@@ -1,0 +1,13 @@
+name = "Default Options"
+filename = "defaultoptions-forge-1.19-15.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "69fedd91a933f44aba106a94a71023e6940f310e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4635884
+project-id = 232131

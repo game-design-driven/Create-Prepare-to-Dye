@@ -1,5 +1,5 @@
-if (feature('Remove crafting table')) {
-  removeItem('minecraft:crafting_table')
+if (feature("Remove crafting table")) {
+  removeItem("minecraft:crafting_table");
 }
 if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/copper_casing_from_wood" });
@@ -45,17 +45,19 @@ if (feature("Harder casing recipes")) {
       sheet: "create:copper_sheet",
       material: "minecraft:redstone",
       amount: 8,
-    }
+    },
   ];
   casings.forEach((casing) => {
     addAssembly(
       Item.of(casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
-        casing.material? addDeploying(casing.item, "create:cogwheel", casing.material) : null,
+        casing.material
+          ? addDeploying(casing.item, "create:cogwheel", casing.material)
+          : null,
         addDeploying(casing.item, "create:cogwheel", casing.base),
         addDeploying(casing.item, "create:cogwheel", casing.sheet),
-      ].filter(item => {
+      ].filter((item) => {
         return item;
       })
     );
@@ -97,7 +99,6 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:schematicannon",
     "create:large_water_wheel",
     "create:gantry_carriage",
-    "create:gantry_shaft",
     "create:mechanical_bearing",
     "create:rope_pulley",
     "create:cart_assembler",
@@ -105,21 +106,26 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/andesite", "create:andesite_casing");
   addToTag("forge:device/andesite", andesiteBasedDevices);
 
-  removeFromTag("forge:device/andesite", "create:vertical_gearbox")
-  removeFromTag("forge:device/andesite", "create:gearbox")
-  addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox")
-  addToTag("forge:device/andesite/gearbox", "create:gearbox")
-  addShaped('create:gearbox',['a'], {
-    a:"create:vertical_gearbox"
-  })
-  addShaped('create:vertical_gearbox', ['a'], {
-    a:"create:gearbox"
-  })
-  
-  addShapeless('create:andesite_casing', '#forge:device/andesite')
+  removeFromTag("forge:device/andesite", "create:vertical_gearbox");
+  removeFromTag("forge:device/andesite", "create:gearbox");
+  addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox");
+  addToTag("forge:device/andesite/gearbox", "create:gearbox");
+  addShaped("create:gearbox", ["a"], {
+    a: "create:vertical_gearbox",
+  });
+  addShaped("create:vertical_gearbox", ["a"], {
+    a: "create:gearbox",
+  });
+
+  addShapeless("create:andesite_casing", "#forge:device/andesite");
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, Ingredient.of("#forge:device/andesite").or('#forge:device/andesite/gearbox'));
+    addStonecutting(
+      device,
+      Ingredient.of("#forge:device/andesite").or(
+        "#forge:device/andesite/gearbox"
+      )
+    );
   });
 
   let cobblestoneBasedDevices = [
@@ -143,12 +149,14 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:crushing_wheel",
     "supplementaries:turn_table",
     "supplementaries:spring_launcher",
+    'botania:apothecary_default',
+    'quark:crate'
   ];
   addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addShapeless('minecraft:stonecutter', "ptdye:cobblestone_casing")
-  addShapeless('ptdye:cobblestone_casing', '#forge:device/cobblestone')
+  addShapeless("ptdye:cobblestone_casing", "#forge:device/cobblestone");
+  addShapeless("minecraft:stonecutter", "ptdye:cobblestone_casing");
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/cobblestone");
@@ -175,7 +183,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/redstone", "ptdye:redstone_casing");
   addToTag("forge:device/redstone", redstoneBasedDevices);
 
-  addShapeless('ptdye:redstone_casing', '#forge:device/redstone')
+  addShapeless("ptdye:redstone_casing", "#forge:device/redstone");
   redstoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/redstone");
@@ -198,10 +206,11 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_pump",
     "create:fluid_pipe",
     "supplementaries:copper_lantern",
+    "createdieselgenerators:distillation_controller",
   ];
   addToTag("forge:device/copper", "create:copper_casing");
   addToTag("forge:device/copper", copperBasedDevices);
-addShapeless('create:copper_casing', '#forge:device/copper')
+  addShapeless("create:copper_casing", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/copper");
@@ -221,14 +230,47 @@ addShapeless('create:copper_casing', '#forge:device/copper')
     "create:display_link",
     "create:brass_tunnel",
     "create:brass_funnel",
-    'supplementaries:brass_lantern',
+    "supplementaries:brass_lantern",
     "createdieselgenerators:diesel_engine",
   ];
   addToTag("forge:device/brass", "create:brass_casing");
   addToTag("forge:device/brass", brassBasedDevices);
-  addShapeless('create:brass_casing', '#forge:device/brass')
+  addShapeless("create:brass_casing", "#forge:device/brass");
   brassBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/brass");
   });
+
+  let trainDevices = [
+    "railways:track_monorail",
+    "create:controls",
+    "create:track_observer",
+    "create:track_signal",
+    "create:track_station",
+    "railways:track_coupler",
+    "railways:track_switch_brass",
+    "railways:semaphore",
+    "railways:track_switch_andesite",
+  ];
+  addToTag("forge:device/train", "create:railway_casing")
+  addToTag("forge:device/train", trainDevices)
+  addShapeless("create:railway_casing", "#forge:device/train");
+  trainDevices.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/train");
+  });
+
+  let tracks = [
+    "minecraft:activator_rail",
+    "minecraft:powered_rail",
+    "minecraft:detector_rail",
+  ];
+  addToTag("forge:device/special_rail", "create:controller_rail")
+  addToTag("forge:device/special_rail", tracks)
+  addShapeless("create:controller_rail", "#forge:device/special_rail");
+  tracks.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/special_rail");
+  });
+  addToTag('forge:indestructible', '#forge:device')
 }

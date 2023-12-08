@@ -1885,7 +1885,7 @@
 		"Use Pre End Recipe" = true
 
 	[oddities.crate]
-		"Max Items" = 640
+		"Max Items" = 1000
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them

@@ -16,15 +16,15 @@
     "hintOverlayToggle": true
   },
   "overlay": {
-    "overlayPosX": 0.5,
+    "overlayPosX": 0.51,
     "overlayPosY": 1.0,
-    "overlayScale": 0.85,
+    "overlayScale": 0.75,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.5,
-    "alpha": 0.7,
+    "alpha": 0.0,
     "themes": {
       "jade:waila": {
         "id": "jade:waila",
