@@ -67,7 +67,7 @@ function genMissingTranslationsIndex(lang) {
 JsonIO.read("kubejs/translation_tools/supported_langs.json").langs.forEach(
   (lang) => {
     console.log(`Subscribing lang ${lang} to missing translations index generation`);
-    ClientEvents.lang("he_il", (event) => genMissingTranslationsIndex(event.lang));
+    ClientEvents.lang(lang, (event) => genMissingTranslationsIndex(event.lang));
   }
 );
 
