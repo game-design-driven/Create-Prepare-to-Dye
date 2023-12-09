@@ -2885,6 +2885,11 @@ hash = "6baeea1637f766f94645de4754303acd30f8772ae6b80132315b83d473af4b51"
 metafile = true
 
 [[files]]
+file = "mods/nonconflictkeys.pw.toml"
+hash = "b139f9b4aaf37737e5204b48f9e041089bda8ed520a7e8126b13d0cad3d20275"
+metafile = true
+
+[[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "d15effac97a99ad09fb2ee01e113722327223e18a3f7a388c8bab0c46559a9ad"
 metafile = true
