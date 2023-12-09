@@ -1,5 +1,5 @@
 const PLATFORM_SPAWN_HEIGHT = 350.15;
-const PLATFORM_SPAWN_RADIUS = 10;
+const PLATFORM_SPAWN_RADIUS = 70;
 
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
