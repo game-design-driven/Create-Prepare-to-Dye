@@ -32,7 +32,7 @@ StartupEvents.registry("item", (event) => {
 StartupEvents.registry("block", (event) => {
   event
     .create("ptdye:cobblestone_casing")
-    .displayName("Cobblestone Casing")
+    .displayName("Sturdy Device")
     .material("stone")
     .soundType("stone")
     .hardness(2)

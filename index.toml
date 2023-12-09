@@ -258,7 +258,7 @@ hash = "82a022760c1ca91894bc3b1184664cf65e16ba39dc17a4aa2fc482c4fe4df581"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "b7be7927f5c076d18cf45890f0ba277facbe0fc2524b64586900ae93f17cc82b"
+hash = "5b9d1ce825ad58747f7e9bf256c0271c34daaf5fc1dcffd8e429856c8cc1ad14"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "1db2afc5ef0b0f79a7fb25d5c8fff09af960579b8a21c03eb055f1e9c4ad17de"
+hash = "af90c8674490cfca93dd454a40867970bf180a98c7ec709820e21a8a5d3e0c8b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -566,7 +566,7 @@ hash = "b21c3f25853b88e0717f0ca915ddb7f21cc010eb5efb9d0f53d50c6e30bfcb2b"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "72d0c50ed070459bc489b41b9a1b3ee408efc26bc15949b01ba962c21db0f17b"
+hash = "f2641de052e170386268ccc2553fe09f425380097a58df7f22762405bc0c7b1d"
 
 [[files]]
 file = "kubejs/assets/create/textures/item/crushed_raw_iron.png"
@@ -602,7 +602,7 @@ hash = "8e549686fec00e7d7107d427a46b1053fd47c03e4e78a8fc8f186eebea037117"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "5d1d63862c8e651c5210edc475e00a56485f58611c406aa1a2e5e38f52c00ba7"
+hash = "3a83f3e1fe26bb811dcf517854a605fb6de0ca7140c50ce4881ef13bcc121373"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -693,8 +693,12 @@ file = "kubejs/assets/minecraft/models/block/dropper_vertical.json"
 hash = "12e50246ff3b1260c2bb1f33497480a257861c580cc826d1e8944cedfec9f9d2"
 
 [[files]]
+file = "kubejs/assets/minecraft/models/block/hopper.json"
+hash = "61115654e239c7223174cf799ef948d7c67b3953ceded236b1405f6bf47257a8"
+
+[[files]]
 file = "kubejs/assets/minecraft/models/block/hopper_side.json"
-hash = "078470299c8ce97eb03dbdad67029df3a0f4c3efb4dffcdc3b7c2f38c6ac6661"
+hash = "fcf10d12ebf3f769e668f5dad23e25397e1366afbf69ac13b33c1e2a67ac5589"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/lava_cauldron.json"
@@ -1189,8 +1193,12 @@ file = "kubejs/assets/quark/textures/block/raw_iron_bricks.xcf"
 hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
+file = "kubejs/assets/railways/en_us.json"
+hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
+
+[[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "70e1917a6897a91dd45a3e625f416c087ee790089d9aadf9027bf123942a61de"
+hash = "a61b96a5c9909a7546a5a591fe7d66d374e500474d223d71e56d38f60e5befaa"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1198,7 +1206,7 @@ hash = "546b6843d64ce4b81fc4b2e06be4f0a4475af3943a307d529dffe8b2e681d21f"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
-hash = "7a1d06abe7ce8c8d83fc4ba4d0d50c47c0b9d23ccbad12bb484e5fb774c9317f"
+hash = "9dce246982dbb1f921570cee373c7d7e9b7df6f946e6bf02e2697c30afee6fd9"
 
 [[files]]
 file = "kubejs/assets/wands/lang/en_us.json"
@@ -1207,6 +1215,34 @@ hash = "557ca702fca51160b651c01b6e81276c923cbb57eca0a6dbe5893c93e5070c07"
 [[files]]
 file = "kubejs/assets/wands/textures/item/netherite_wand.png"
 hash = "c21780c0755184386c95ed4e9e82c3de6819fabb7886c118230d40dd99387b08"
+
+[[files]]
+file = "kubejs/assets/wares/models/block/delivery_table.json"
+hash = "76689e82d6d6477bfcf38d6d58a93f1d5ac47f2743cd36e0b437e89033267566"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_bottom.png"
+hash = "c391d5612fe7b912292f9367f143c769b68645eddea05372974e09f4a408f2de"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_extra.png"
+hash = "6cc68f9ac5eb3f1ddc9b2543244b1156985037ddb5f027e0d201b8058ce7b5ad"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_front.png"
+hash = "e786d6e1b5736bc05261d31b6ca8d8d12db43add992126170485c6477fae1617"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_side.png"
+hash = "5762083bcbf2f764a0879ba6748c2a97004969f1a42a944dddef94fb2e35dc39"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_top.png"
+hash = "c1a0bfb31bc318c8337acdd8b6cd9ee560c1f6d12b0f0887c2a64aa38d33476d"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_top.png.mcmeta"
+hash = "cd7020e670293e8dd41fe2c065d3c9f53be4a5db40c538cf933801cd1f2c9d37"
 
 [[files]]
 file = "kubejs/assets/wares/textures/gui/seal/black_hole_bagels_llc.png"
@@ -1790,7 +1826,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "f111233ad32d4b7b351a61bbd14f7fdce4848a0561cb2107e34cea2a811c6355"
+hash = "c5725f39b3d3195b76f8191e23d8bc56370c98096dfb8b34df325ac69f4284e9"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -1834,7 +1870,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "b452bdd130789811766842f978d5ebef5c7d9f894f59abe3cf2654bf0af12700"
+hash = "01077bd99807f696d5798780a991aec98ffab6cfbe5023f4200e1f2afe084afa"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -1902,7 +1938,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "07d2e46a2c617a3f505329548bdc5546d2a08104753fafbe4c6c1319dedf623a"
+hash = "3cfd0f30c75b160d131372d6a3a25984eb5790616ba03a6bce8236eccbdcb6af"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2231,6 +2267,22 @@ hash = "7ffa6137955a354169f79911a77fdeab33e2f805f4de2e0a926f8943b5f42da9"
 [[files]]
 file = "modpack-update-checker/versions/1.123.4/changelog.txt"
 hash = "6effb29621ccfe579ab519d9e556befd71d3602fe3ef39a4e2a101799df6256d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.124.0/changelog.txt"
+hash = "ad58f80f470da85ee3feb40fc20dbbdb9ce957faa78f2f5c46828c09cd976a9f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.125.0/changelog.txt"
+hash = "01ea788ba3b9909fffbd86196578f3def0312c5c8bf1d31bfa0cc501f1fb1f66"
+
+[[files]]
+file = "modpack-update-checker/versions/1.125.1/changelog.txt"
+hash = "8de38a61ead2dc5007be440aa34915173b93bf1fa6878abee6373ca4e3b49722"
+
+[[files]]
+file = "modpack-update-checker/versions/1.125.2/changelog.txt"
+hash = "ba5d2f6175f58e71e35631f4c7b86cda9d65b4564ff781f3168ce2fa4188c6ba"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

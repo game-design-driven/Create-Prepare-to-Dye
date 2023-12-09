@@ -128,8 +128,9 @@ const bhbWheat = getAgreement({
 const wscAxes = getAgreement({
   paymentItems: [
     "16x minecraft:oak_log",
+    "10x storagedrawers:oak_full_drawers_1",
     "2x minecraft:chest",
-    "8x storagedrawers:oak_full_drawers_1",
+    'ptdye:trading_transceiver'
   ],
   requestedItems: ["16x #forge:tools/axes"],
   title: "A new season is upon us, Tools needed",
@@ -218,6 +219,7 @@ const bnwManasteel = getAgreement({
     ),
     "8x minecraft:lever",
     "8x minecraft:gold_ingot",
+    'ptdye:trading_transceiver'
   ],
   requestedItems: [
     "64x botania:manasteel_ingot",
@@ -303,14 +305,15 @@ const gbdSticks = getAgreement({
     Item.of(
       "supplementaries:cage",
       '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
-    )
+    ),
+    'ptdye:trading_transceiver'
   ],
   requestedItems: ["64x minecraft:stick", "64x minecraft:stick", "64x minecraft:stick"],
   title: "Interested in exotic creatures?",
   orderedAmount: 1,
   company: "galactic_beast_deliveries",
   message:
-    "HELLO, fellow trade network body! We here at gbd supply THE BEST of BEASTS. We heard you are an amazing supplier and we currently need some incentive devices to help our employees work harder, nothing special mind you, and of course in return you will get to see some our most EXCLUSIVE AMAZING BEASTS! What do you say?",
+    "HELLO, fellow trade mesh body! We here at gbd supply THE BEST of BEASTS. We heard you are an amazing supplier and we currently need some incentive devices to help our employees work harder, nothing special mind you, and of course in return you will get to see some our most EXCLUSIVE AMAZING BEASTS! What do you say?",
 });
 const gdbLead = getAgreement({
   paymentItems: [
