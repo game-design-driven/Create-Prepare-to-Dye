@@ -15,7 +15,7 @@ const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
     "8x create:copper_casing",
-    "5x ae2:flawed_budding_quartz",
+    "8x ae2:flawed_budding_quartz",
     "4x create:andesite_casing",
     "4x create:brass_casing",
     'create:super_glue'
@@ -41,7 +41,7 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ["32x create:track"],
+  paymentItems: ["32x create:track","8x create:railway_casing"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 2,
@@ -50,7 +50,7 @@ const bfcPickaxes = getAgreement({
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement({
-  paymentItems: ["4x create:railway_casing"],
+  paymentItems: ["16x create:railway_casing", "16x create:track"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 2,
