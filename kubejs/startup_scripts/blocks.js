@@ -43,7 +43,7 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("block", (event) => {
   event
     .create("ptdye:redstone_casing")
-    .displayName("Redstone Casing")
+    .displayName("Redstone Device")
     .material("stone")
     .soundType("stone")
     .hardness(2)
