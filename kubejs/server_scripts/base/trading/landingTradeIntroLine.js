@@ -90,6 +90,43 @@ const mlcSand = getAgreement({
   message:
     "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
 });
+const mlcSand2 = getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 4, '{Damage:0}'),
+    '32x dirt',
+    '16x supplementaries:jar',
+    'ptdye:trading_transceiver',
+    'ptdye:trading_transceiver'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "More sand!",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Your sand is smooth like no other! We want to buy MORE of it, a bunch more, lets get this going shall we?",
+});
+const mlcSandFixed=getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 16, '{Damage:0}'),
+    '64x minecraft:cobblestone'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "Lets seal the deal on that beautiful sand",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
+});
 const bhbCheese = getAgreement({
   paymentItems: [
     "1x botania:gourmaryllis",
@@ -395,9 +432,10 @@ tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes, mlcEndstoneFixed], //The next trades in line
+  [bfcPlatesPermanent, bfcPickaxes, mlcSand2], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
+tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread], wscAxes);
