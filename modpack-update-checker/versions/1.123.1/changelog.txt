@@ -1,0 +1,8 @@
+### [1.123.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.123.0...1.123.1) (2023-12-08)
+
+
+### Fixes
+
+* drop off of organic mass ([28ee25a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/28ee25ac91d378c2953289a6a2d24a52db84b75d))
+
+
