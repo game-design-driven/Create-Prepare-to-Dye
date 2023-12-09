@@ -1,0 +1,14 @@
+### [1.125.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.1...1.125.2) (2023-12-09)
+
+
+### Minor tweaks
+
+* add trading_transceiver to a few more deals ([84c017d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/84c017dad0975abe9b5d24f87d82cdfe185574af))
+* add trading_transceiver to wscAxes deal reward ([5492ee9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5492ee9ce688a2232b66f39a4e100bf8ce2acf94))
+
+
+### Documentation and Localization
+
+* fix wording of galactic_beast_deliveries trade ([10c8066](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10c806682b1ae89d9755c12e85f31ded55e9f4be))
+
+
