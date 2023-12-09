@@ -1,0 +1,13 @@
+### [1.125.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.0...1.125.1) (2023-12-09)
+
+
+### Fixes
+
+* attempt to find a slightly better position to jade that might work better possibly ([00c3185](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/00c3185f6317a0adb5d382306c7219dfbbf8bcf6))
+
+
+### Documentation and Localization
+
+* rename consistency changes ([d7ae3a0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d7ae3a0713952d942560b7fe15f384afdd4e3792))
+
+
