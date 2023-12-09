@@ -35,16 +35,36 @@ customization {
 }
 
 customization {
+  identifier = %id=505185%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 151
+}
+
+customization {
   identifier = %id=505120%
   action = hidebutton
 }
 
 customization {
   identifier = %id=505100%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505100%
   orientation = top-centered
-  x = 5
+  x = 441
   action = movebutton
-  y = 100
+  y = 448
+}
+
+customization {
+  identifier = %id=505100%
+  width = 20
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -74,6 +94,14 @@ customization {
   identifier = %id=5051001%
   action = setbuttonlabel
   value = 
+}
+
+customization {
+  identifier = %id=505151%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 100
 }
 
 customization {

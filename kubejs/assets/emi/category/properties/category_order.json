@@ -1,5 +1,5 @@
 {
-  "lychee:block_interaction": {
+  "lychee:block_interacting/minecraft/default": {
     "order": -100
   },
   "create:item_application": {
