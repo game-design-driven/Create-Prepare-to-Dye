@@ -6,24 +6,25 @@ let extraPlayerItems = [
     Item.of('ptdye:cobblestone_casing', 8),
     Item.of('ptdye:redstone_casing', 8),
 ]
+function automatonAttributes(player){
+    player.setAttributeBaseValue('forge:swim_speed', 3)
+    player.setAttributeBaseValue('forge:reach_distance', 30)
+    player.setAttributeBaseValue('forge:attack_range', 30)
+    player.setAttributeBaseValue('minecraft:generic.attack_damage', 8)
+    Utils.server.runCommandSilent(`curios remove belt ${player.displayName.getString()}`)
+    Utils.server.runCommandSilent(`curios remove body ${player.displayName.getString()}`)
+Utils.server.runCommandSilent(`curios remove charm ${player.displayName.getString()}`)
+    Utils.server.runCommandSilent(`curios remove necklace ${player.displayName.getString()}`)
+    Utils.server.runCommandSilent(`curios remove ring ${player.displayName.getString()}`)
+    Utils.server.runCommandSilent(`curios remove ring ${player.displayName.getString()}`)
+    Utils.server.runCommandSilent(`curios replace crafting_on_a_stick 0 ${player.displayName.getString()} with crafting_on_a_stick:stonecutter`)
+    Utils.server.runCommandSilent(`curios replace head 0 ${player.displayName.getString()} with create:goggles`)
+    player.tell(Text.of('Use ').aqua().append(Text.of('V').red().append(Text.of(' to open your built-in device assembler').aqua())))
+}
 if (feature('starter items')) {
     PlayerEvents.loggedIn((event) => {
-        event.player.setAttributeBaseValue('forge:swim_speed', 3)
-        event.player.setAttributeBaseValue('forge:reach_distance', 30)
-        event.player.setAttributeBaseValue('forge:attack_range', 30)
-        event.player.setAttributeBaseValue('minecraft:generic.attack_damage', 8)
-
-        // /curios replace crafting_on_a_stick 0 YardenZmr with crafting_on_a_stick:anvil
-        Utils.server.runCommandSilent(`curios remove belt ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove body ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove charm ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove necklace ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove ring ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios remove ring ${event.player.displayName.getString()}`)
-        Utils.server.runCommandSilent(`curios replace crafting_on_a_stick 0 ${event.player.displayName.getString()} with crafting_on_a_stick:stonecutter`)
-        Utils.server.runCommandSilent(`curios replace head 0 ${event.player.displayName.getString()} with create:goggles`)
+        automatonAttributes(event.player)
         
-
         if (!event.player.getPersistentData().getBoolean('starter'))
         {
             event.player.give(Item.of('create:wrench', 1))

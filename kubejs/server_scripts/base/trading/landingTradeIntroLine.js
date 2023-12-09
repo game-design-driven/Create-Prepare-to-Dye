@@ -15,7 +15,7 @@ const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
     "8x create:copper_casing",
-    "5x ae2:flawed_budding_quartz",
+    "8x ae2:flawed_budding_quartz",
     "4x create:andesite_casing",
     "4x create:brass_casing",
     'create:super_glue'
@@ -41,7 +41,7 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ["32x create:track"],
+  paymentItems: ["32x create:track","8x create:railway_casing"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 2,
@@ -50,7 +50,7 @@ const bfcPickaxes = getAgreement({
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement({
-  paymentItems: ["4x create:railway_casing"],
+  paymentItems: ["16x create:railway_casing", "16x create:track"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 2,
@@ -89,6 +89,43 @@ const mlcSand = getAgreement({
   company: "magical_landscaping_co",
   message:
     "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
+});
+const mlcSand2 = getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 4, '{Damage:0}'),
+    '32x dirt',
+    '16x supplementaries:jar',
+    'ptdye:trading_transceiver',
+    'ptdye:trading_transceiver'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "More sand!",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Your sand is smooth like no other! We want to buy MORE of it, a bunch more, lets get this going shall we?",
+});
+const mlcSandFixed=getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 16, '{Damage:0}'),
+    '64x minecraft:cobblestone'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "Lets seal the deal on that beautiful sand",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
 });
 const bhbCheese = getAgreement({
   paymentItems: [
@@ -395,9 +432,10 @@ tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes, mlcEndstoneFixed], //The next trades in line
+  [bfcPlatesPermanent, bfcPickaxes, mlcSand2], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
+tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread], wscAxes);
