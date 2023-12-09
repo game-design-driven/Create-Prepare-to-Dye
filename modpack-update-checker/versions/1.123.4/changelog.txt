@@ -1,0 +1,8 @@
+### [1.123.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.123.3...1.123.4) (2023-12-09)
+
+
+### Modlist related changes
+
+* add better compatibility checker ([e7a7198](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e7a719846fd04df465576f8b6d1fc95f6103078c))
+
+
