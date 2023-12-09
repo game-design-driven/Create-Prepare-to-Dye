@@ -1,0 +1,8 @@
+### [1.123.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.123.1...1.123.2) (2023-12-09)
+
+
+### Fixes
+
+* recipe order in EMI ([124a9ce](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/124a9ce09f5229d590f48d6625c5e479cd65cc08))
+
+

@@ -138,7 +138,7 @@ hash = "011675e0e038d84b7d089061d798444a3c203dfa3f9e939d4d9ff26cf9f4cd36"
 
 [[files]]
 file = "config/fancymenu/customization/newworld.txt"
-hash = "c3f186756cf2d07424ccc06ed0c5baf23a56cf6038d0eff5bdf316020587d219"
+hash = "66bca164d20bff90ac6f40c419a1658d0004ebcc0d87e4d39a371bb094a6b69d"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "61cb521e33e1bb69a1ba154a36e7ab51d042512f3d163cafaabc421c251a2796"
+hash = "dc7534551fe6ad59f47601bb7089dbc5204998c2f39b583a8a60790610cafbc2"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -598,7 +598,7 @@ hash = "5a6a21a4464137b8a29b3a4f7b595ba4581bdd462279729b434eeb1dca7eec71"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
-hash = "81e187657d561b9ba615833a728a2804cc9c8febed53b83f84e0e10e16c957ac"
+hash = "8e549686fec00e7d7107d427a46b1053fd47c03e4e78a8fc8f186eebea037117"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
@@ -610,7 +610,7 @@ hash = "6946949d1eb8fb76994e81d81ae8e845b815736fefe70ffd06043a14836a15b1"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
-hash = "15d576e1992369841b6a418af08c5b9ea04acdc9a30253f2fe487dada14a58cc"
+hash = "ab4aa2d986317ad66ff377713546a11bd09ac57a48c51202688d1dd23b4f9d5a"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
@@ -1190,7 +1190,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "8a9d37fa2459871168b1cd658029c04dad569b3f02c149bbb59c4bf758c043bf"
+hash = "5c91a56aef86d79647db178316161659f60e699c8ecdb6ead58c20ecc6ac28f4"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1902,7 +1902,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ab8e434ed2c151a8641c3c8df5c52e7fe03ab07b46e2f9ad33e1607a7cedc1b0"
+hash = "5e8c5f973abc20e85884a102b7618bf0edf81bdbb4acd8fb83d68331acaf6372"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2219,6 +2219,10 @@ hash = "6ba16100713b17983fab36a6e05e674c887fda987cbdef7a7de1445f06e8c1cf"
 [[files]]
 file = "modpack-update-checker/versions/1.123.1/changelog.txt"
 hash = "2621cae4a286ced46f4a1cd3a00693a1ab5c34506e374a5a68dd5c3cf40f6d37"
+
+[[files]]
+file = "modpack-update-checker/versions/1.123.2/changelog.txt"
+hash = "64adbffd0ae4dd7685cd9689b66eee8a21eb6a0e9dca376f05ec9dac1f99e7da"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
