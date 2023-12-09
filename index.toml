@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "063e55f2af571ef6fcbad6a80b4d58097fdf250929b7f432a7b8d06df98766b8"
+hash = "4935479276fcb0c4f1da0d07672cda37d495fa082e045d545a9e1d9130428b46"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -671,10 +671,6 @@ hash = "8327b007bc129b4e1bff9659cc095cd44139ba4304d388f2d51d3705f9305ab7"
 [[files]]
 file = "kubejs/assets/minecraft/models/block/beehive_filled_4.json"
 hash = "f24ecf536668d4df67c0cbc2ec1728037ed9b71cbc63c84cef2145fad02cfb03"
-
-[[files]]
-file = "kubejs/assets/minecraft/models/block/cauldron.json"
-hash = "67a7b860bb29be03c6d7d39f6f1d2d6b338c4c017553fea6ba5158cd7a4f5ffc"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/dispenser.json"
@@ -1198,7 +1194,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b7584743f22d5d757747048ee730bfc618bd84b582e49e996df369775385d5a8"
+hash = "d3146d77597cbd6e5589e74937be5ce0779cb2c89f5bb0a4448490b005c13194"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1938,7 +1934,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "157b3de1fca6592d8fcc09898baeb85ac639b871ff92e105eefdaed92b760606"
+hash = "9e330c5d4417f3ea325fc73167e46c24b9af706bbfaff3b962824d29a982092c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2287,6 +2283,10 @@ hash = "ba5d2f6175f58e71e35631f4c7b86cda9d65b4564ff781f3168ce2fa4188c6ba"
 [[files]]
 file = "modpack-update-checker/versions/1.125.3/changelog.txt"
 hash = "46c2084e0bd8650af7f0c03147d28f5366e35ef2ba01bb3c07f4b50dc4a15fe3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.125.4/changelog.txt"
+hash = "83a1f3e1ab143dfc1507ab404e95191c49c67baaa8d02ea014410b1a1a3703f1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

@@ -1,0 +1,8 @@
+### [1.125.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.3...1.125.4) (2023-12-09)
+
+
+### Minor tweaks
+
+* remove alternate cauldron model with window ([9cd6525](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9cd6525544b0048c0aa0c391394b80952bb8334d))
+
+
