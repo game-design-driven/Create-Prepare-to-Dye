@@ -218,6 +218,7 @@ const bnwManasteel = getAgreement({
     ),
     "8x minecraft:lever",
     "8x minecraft:gold_ingot",
+    'ptdye:trading_transceiver'
   ],
   requestedItems: [
     "64x botania:manasteel_ingot",
