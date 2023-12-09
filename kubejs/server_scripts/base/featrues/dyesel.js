@@ -20,6 +20,7 @@ if (feature("Remove createdieselgenerators things we dont need")) {
     "createdieselgenerators:lighter",
     "createdieselgenerators:oil_scanner",
     "createdieselgenerators:large_diesel_engine",
+    "createdieselgenerators:huge_diesel_engine",
     "createdieselgenerators:pumpjack_bearing",
     "createdieselgenerators:pumpjack_head",
     "createdieselgenerators:pumpjack_crank",
