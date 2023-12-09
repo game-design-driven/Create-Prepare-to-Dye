@@ -2,49 +2,47 @@ if (feature("Remove crafting table")) {
   removeItem("minecraft:crafting_table");
 }
 if (feature("Harder casing recipes")) {
-  removeRecipe({ id: "create:item_application/copper_casing_from_wood" });
-  removeRecipe({ id: "create:item_application/copper_casing_from_log" });
-
-  removeRecipe({ id: "create:item_application/andesite_casing_from_wood" });
-  removeRecipe({ id: "create:item_application/andesite_casing_from_log" });
-
-  removeRecipe({ id: "create:item_application/brass_casing_from_wood" });
-  removeRecipe({ id: "create:item_application/brass_casing_from_log" });
-
   let casings = [
     {
-      item: "create:copper_casing",
+      item: "ptdye:sealed_device",
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
       material: "#forge:silicon",
       amount: 2,
     },
     {
-      item: "create:andesite_casing",
+      item: "ptdye:mechanical_device",
       base: "#forge:stripped_logs",
       sheet: "create:iron_sheet",
       material: "create:andesite_alloy",
       amount: 2,
     },
     {
-      item: "create:brass_casing",
+      item: "ptdye:smart_device",
       base: "#forge:stripped_logs",
       sheet: "create:brass_sheet",
       material: "create:polished_rose_quartz",
       amount: 4,
     },
     {
-      item: "ptdye:cobblestone_casing",
+      item: "ptdye:sturdy_device",
       base: "minecraft:cobblestone",
       sheet: "create:iron_sheet",
       amount: 4,
     },
     {
-      item: "ptdye:redstone_casing",
+      item: "ptdye:logic_device",
       base: "minecraft:smooth_stone",
       sheet: "create:copper_sheet",
       material: "minecraft:redstone",
       amount: 8,
+    },
+    {
+      item: "ptdye:locomotive_device",
+      base: "create:brass_sheet",
+      sheet: "create:sturdy_sheet",
+      material: "create:sturdy_sheet",
+      amount: 2,
     },
   ];
   casings.forEach((casing) => {
@@ -103,7 +101,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:rope_pulley",
     "create:cart_assembler",
   ];
-  addToTag("forge:device/andesite", "create:andesite_casing");
+  addToTag("forge:device/andesite", "ptdye:mechanical_device");
   addToTag("forge:device/andesite", andesiteBasedDevices);
 
   removeFromTag("forge:device/andesite", "create:vertical_gearbox");
@@ -117,7 +115,7 @@ if (feature("Remove crafting table recipes for devices")) {
     a: "create:gearbox",
   });
 
-  addShapeless("create:andesite_casing", "#forge:device/andesite");
+  addShapeless("ptdye:mechanical_device", "#forge:device/andesite");
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(
@@ -152,11 +150,10 @@ if (feature("Remove crafting table recipes for devices")) {
     'botania:apothecary_default',
     'quark:crate'
   ];
-  addToTag("forge:device/cobblestone", "ptdye:cobblestone_casing");
+  addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addShapeless("ptdye:cobblestone_casing", "#forge:device/cobblestone");
-  addShapeless("minecraft:stonecutter", "ptdye:cobblestone_casing");
+  addShapeless("ptdye:sturdy_device", "#forge:device/cobblestone");
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/cobblestone");
@@ -180,10 +177,10 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:pulse_extender",
     "create:powered_latch",
   ];
-  addToTag("forge:device/redstone", "ptdye:redstone_casing");
+  addToTag("forge:device/redstone", "ptdye:logic_device");
   addToTag("forge:device/redstone", redstoneBasedDevices);
 
-  addShapeless("ptdye:redstone_casing", "#forge:device/redstone");
+  addShapeless("ptdye:logic_device", "#forge:device/redstone");
   redstoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/redstone");
@@ -208,16 +205,15 @@ if (feature("Remove crafting table recipes for devices")) {
     "supplementaries:copper_lantern",
     "createdieselgenerators:distillation_controller",
   ];
-  addToTag("forge:device/copper", "create:copper_casing");
+  addToTag("forge:device/copper", "ptdye:sealed_device");
   addToTag("forge:device/copper", copperBasedDevices);
-  addShapeless("create:copper_casing", "#forge:device/copper");
+  addShapeless("ptdye:sealed_device", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/copper");
   });
 
   let brassBasedDevices = [
-    "createdieselgenerators:huge_diesel_engine",
     "create:smart_chute",
     "create:elevator_pulley",
     "create:clockwork_bearing",
@@ -233,9 +229,9 @@ if (feature("Remove crafting table recipes for devices")) {
     "supplementaries:brass_lantern",
     "createdieselgenerators:diesel_engine",
   ];
-  addToTag("forge:device/brass", "create:brass_casing");
+  addToTag("forge:device/brass", "ptdye:smart_device");
   addToTag("forge:device/brass", brassBasedDevices);
-  addShapeless("create:brass_casing", "#forge:device/brass");
+  addShapeless("ptdye:smart_device", "#forge:device/brass");
   brassBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/brass");
@@ -252,9 +248,9 @@ if (feature("Remove crafting table recipes for devices")) {
     "railways:semaphore",
     "railways:track_switch_andesite",
   ];
-  addToTag("forge:device/train", "create:railway_casing")
+  addToTag("forge:device/train", "ptdye:locomotive_device")
   addToTag("forge:device/train", trainDevices)
-  addShapeless("create:railway_casing", "#forge:device/train");
+  addShapeless("ptdye:locomotive_device", "#forge:device/train");
   trainDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/train");

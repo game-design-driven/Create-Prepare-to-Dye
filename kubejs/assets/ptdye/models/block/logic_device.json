@@ -1,9 +1,10 @@
 {
-    "parent": "minecraft:block/block",
+    "ambientocclusion": false,
+	"parent": "minecraft:block/block",
     "textures": {
-        "particle": "ptdye:block/redstone_casing",
+        "particle": "ptdye:block/logic_device",
         "slab": "minecraft:block/smooth_stone",
-        "top": "ptdye:block/redstone_casing"
+        "top": "ptdye:block/logic_device"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
