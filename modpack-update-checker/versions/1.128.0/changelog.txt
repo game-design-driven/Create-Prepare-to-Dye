@@ -1,0 +1,13 @@
+## [1.128.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.127.0...1.128.0) (2023-12-09)
+
+
+### Features
+
+* Add base device blocks ([24a652a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/24a652a789b110ee677fe2cb113e2b930b496f43))
+
+
+### Minor tweaks
+
+* Improve the trading platform design ([8409767](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/84097678e445affaf01e05bf34edc31a8887935c))
+
+

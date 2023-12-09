@@ -306,7 +306,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "eb5408c6d2658a6affecc5fc90e29caf768893611348a7b958af5e550d467ac2"
+hash = "17b5388601f389d524e3db484b9866a14c6a4de9b8c63becf7202b9838145043"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1129,16 +1129,28 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
-file = "kubejs/assets/ptdye/models/block/redstone_casing.json"
-hash = "48686a7dafda06a2114fd4936ddbc0500281f1c4139fa1d7436ac540a69f1af8"
+file = "kubejs/assets/ptdye/models/block/logic_device.json"
+hash = "5bd8f1fc869c3527a1e4430f31f978337f33350864a9a4fb15c48f8dc3f137be"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/mechanical_device.json"
+hash = "e4aa5d83ec26a22ff3546de11a3abeddd961fcbd08b0eb0df79bdda566c5ef19"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/sealed_device.json"
+hash = "25db6bf984248b659d07f3a42d8216c85c170bfd519c6f679f032476428a9dff"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/smart_device.json"
+hash = "5bf59203b34aa51ef1f17a20d765e3649528a6a0e03ba95d0450466f927e8c65"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/sturdy_device.json"
+hash = "5a5764c0dda9490481a79c61d910aee42f5531cecfb3e07918c9c2bb805b698e"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/upside_down_fire.json"
 hash = "a46781db961500e985af8d24b57a3c4bd6c0a160e56fb57b79337058fa93327d"
-
-[[files]]
-file = "kubejs/assets/ptdye/models/item/redstone_casing.json"
-hash = "6a33c62148e5e140dd1e85b01d9297de912fc806a4b934c821bc383a45d1a57c"
 
 [[files]]
 file = "kubejs/assets/ptdye/sounds.json"
@@ -1161,7 +1173,7 @@ file = "kubejs/assets/ptdye/textures/block/cobblestone_casing.xcf"
 hash = "121e876747d9ddfeb2cfcef84667f781438a22a653eb1c0aacf8400622791570"
 
 [[files]]
-file = "kubejs/assets/ptdye/textures/block/redstone_casing.png"
+file = "kubejs/assets/ptdye/textures/block/logic_device.png"
 hash = "f1d0ebc18daf3303c60a48e67fbb3a4992de7fa43419eee0e9916eeec2972a61"
 
 [[files]]
@@ -1206,7 +1218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a54d2763cc532ae5c36239bff33bbad9e9574ee3175ae8b84a159a5d191cd09f"
+hash = "d8c0a060de538b09bec36b6751948da0e571b8e9d7d8bf4c00eb389b0eec4fa6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1702,7 +1714,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "05643d3195249203f5e824dd7cf5984863217706349df05196a102911349a8c1"
+hash = "a94ed3810d23dd552bcd0514b0010415a71a0e08f2ec246d0bbe795ec2ab3d31"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1850,7 +1862,7 @@ hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/spawn.js"
-hash = "13436da9aa6e8b88e8684a55df2c006872e0227b1116e00dcf6d882d8a7a5d1e"
+hash = "6993daacc079b31136875b249d27cd8aa217982f96110b688c47caf8a59873b3"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1878,7 +1890,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "63676b5dcd6e1e435d2196bc17230260af3f6c719b9721706a93d456c6e8d219"
+hash = "5551dfe203f0bc83e4dd1b2aad9861faa9bae6ab887912862ce88a668f64cfac"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -1946,7 +1958,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "395fa92b8e118a5b21b677f3aeb41beb0d0f278a3acba42aef11fa98bd4edcfd"
+hash = "5929af887f685c2de65e605b22f6c46ff7da1b5ffffa9672d58bdc4f1f59c20f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2315,6 +2327,10 @@ hash = "f2e820a2fa609f1bd7b9feebb4d1791a5af4e394bb35b3998ad1c2b49f179677"
 [[files]]
 file = "modpack-update-checker/versions/1.127.0/changelog.txt"
 hash = "39e52ac0da8dfd2a25f037b3a1754f9fada4f06a2bcc8ec9afbe3a7bd208e176"
+
+[[files]]
+file = "modpack-update-checker/versions/1.128.0/changelog.txt"
+hash = "da9df615e27962d04896682e08b065693b75f7407b048506ad120bfb315a72b2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
