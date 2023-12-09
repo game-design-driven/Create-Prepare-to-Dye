@@ -128,8 +128,9 @@ const bhbWheat = getAgreement({
 const wscAxes = getAgreement({
   paymentItems: [
     "16x minecraft:oak_log",
+    "10x storagedrawers:oak_full_drawers_1",
     "2x minecraft:chest",
-    "8x storagedrawers:oak_full_drawers_1",
+    'ptdye:trading_transceiver'
   ],
   requestedItems: ["16x #forge:tools/axes"],
   title: "A new season is upon us, Tools needed",
