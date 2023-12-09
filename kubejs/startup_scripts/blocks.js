@@ -31,19 +31,20 @@ StartupEvents.registry("item", (event) => {
 
 StartupEvents.registry("block", (event) => {
   event
-    .create("ptdye:cobblestone_casing")
-    .displayName("Sturdy Device")
+    .create("ptdye:sturdy_device")
     .material("stone")
     .soundType("stone")
     .hardness(2)
     .resistance(6)
-    .tagBlock("create:wrench_pickup");
-});
+    .tagBlock("create:wrench_pickup")
+    .notSolid()
+    .redstoneConductor(false)
+    .fullBlock(false)
+    .noValidSpawns(true)
+    .suffocating(false);
 
-StartupEvents.registry("block", (event) => {
   event
-    .create("ptdye:redstone_casing")
-    .displayName("Redstone Device")
+    .create("ptdye:logic_device")
     .material("stone")
     .soundType("stone")
     .hardness(2)
@@ -58,4 +59,61 @@ StartupEvents.registry("block", (event) => {
     .viewBlocking(false)
     .transparent(true)
     .box(0, 0, 0, 16, 4, 16);
+
+  event
+    .create("ptdye:sealed_device")
+    .material("metal")
+    .soundType("copper")
+    .hardness(2)
+    .resistance(6)
+    .tagBlock("create:wrench_pickup")
+    .opaque(false)
+    .notSolid()
+    .redstoneConductor(false)
+    .fullBlock(false)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .viewBlocking(false)
+    .transparent(true);
+
+  event
+    .create("ptdye:smart_device")
+    .material("metal")
+    .soundType("metal")
+    .hardness(2)
+    .resistance(6)
+    .tagBlock("create:wrench_pickup")
+    .opaque(false)
+    .notSolid()
+    .redstoneConductor(false)
+    .fullBlock(false)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .viewBlocking(false)
+    .transparent(true);
+
+  event
+    .create("ptdye:mechanical_device")
+    .material("metal")
+    .soundType("wood")
+    .hardness(2)
+    .resistance(6)
+    .tagBlock("create:wrench_pickup")
+    .opaque(false)
+    .notSolid()
+    .redstoneConductor(false)
+    .fullBlock(false)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .viewBlocking(false)
+    .transparent(true);
+
+  event
+    .create("ptdye:locomotive_device")
+    .textureAll("create:block/railway_casing")
+    .material("metal")
+    .soundType("metal")
+    .hardness(2)
+    .resistance(6)
+    .tagBlock("create:wrench_pickup");
 });
