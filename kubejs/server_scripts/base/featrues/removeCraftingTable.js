@@ -105,6 +105,7 @@ if (feature("Remove crafting table recipes for devices")) {
   ];
   addToTag("forge:device/andesite", "create:andesite_casing");
   addToTag("forge:device/andesite", andesiteBasedDevices);
+  addCrushing(['create:cogwheel %25', 'create:iron_sheet %25'], "#forge:device/andesite");
 
   removeFromTag("forge:device/andesite", "create:vertical_gearbox");
   removeFromTag("forge:device/andesite", "create:gearbox");
