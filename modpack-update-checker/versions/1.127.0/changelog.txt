@@ -1,0 +1,8 @@
+## [1.127.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.126.2...1.127.0) (2023-12-09)
+
+
+### Features
+
+* expand mlc trade line ([25e52ec](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/25e52ec28ec3008068f319e15fdc1c6952df0f2a))
+
+
