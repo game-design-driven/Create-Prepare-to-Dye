@@ -2606,6 +2606,11 @@ hash = "117028aee504fb12600efb5bff26e8a3ee13d472ebe7e209ee122112b98fdb8e"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "f68c15d62d8e0625d1de6ef8a5917a786cd5c7a17aa833bfa37057dee309f030"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "aff5d172f2ef0d9f9a8e2ce00d5fcc864cafb15dc929d9e95e5d08e295fe7258"
 metafile = true
