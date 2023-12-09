@@ -1,0 +1,13 @@
+## [1.130.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.129.1...1.130.0) (2023-12-09)
+
+
+### Features
+
+* compensate existing players with devices ([df137b3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/df137b32d22b85dbee7cb85f3e78515f4a6fe0f1))
+
+
+### Fixes
+
+* trades giving casings instead of devices ([9116c82](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9116c82d98a6cc9057f05f0f8c00254b871db90d))
+
+

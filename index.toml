@@ -306,7 +306,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c33ec5d45c1ec0ecfcebdb3e9310a757d025f82ad0fd24d8ceb04131b50fae4e"
+hash = "6e0e7141f6eda08192d9f44b65566e8d7767fd0ca08c35bf70f75eb9c65631af"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -610,7 +610,7 @@ hash = "8e549686fec00e7d7107d427a46b1053fd47c03e4e78a8fc8f186eebea037117"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "29eea893cc755dc74a798e86fa807112c28b08baace20fe3cb6c0029103d4db5"
+hash = "c3013b2bed0471c03140535b932e2a879e8db52af5168c35a9579a13ee5330c0"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -1218,7 +1218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "87dd576974f471772c455cbef40a007327919b78b1ecb2c0953f248d9c71509a"
+hash = "ca376c545cff9be13193530d1d4a539e0bb61c1d187d4e1abbc486ea1e9345dc"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1694,7 +1694,7 @@ hash = "e7ca3407c104dc41a51631589f73b42de15a840082199e24fb7586818ab288b4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
-hash = "7959c9eb8a97ef724fb0e4a337f29e590a02a04e0164809c9ddf1d8ba0f34c1f"
+hash = "9c6620f762d0c11e3e9cdd355db800d34d09d4ed67c3b44acaa14dada07bd124"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
@@ -1846,7 +1846,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "a1591544e8a50efa0185cfe60efee49c7722107657f745698fa98fb7bf026c20"
+hash = "a4d241adcda23476f8ca6f1903c974582aad33ee2e002a1db17b03fbb155b9d1"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -1950,7 +1950,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/he_il.missing.json"
-hash = "8aca99a563e9e7969f126f8669b61b050875b34beeef497f6da22fbc3eea28b4"
+hash = "7ce81b515503c2b77a10a6e8b69e497a5a26b3e7ae90445d0a7a2586911906fd"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -1958,7 +1958,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "7778577516d54eba00f78cdccfe3d52a20fb347f6a7ee47df460b37e39115e13"
+hash = "f7c7c534ca60819a67c606b3e74b35b0dc4d2f5d72e8c24aad440a0537fee730"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2339,6 +2339,10 @@ hash = "8efe189152623ac6e82b21e0d6acec3af251754677a2b356711f9b0321959626"
 [[files]]
 file = "modpack-update-checker/versions/1.129.1/changelog.txt"
 hash = "c98364e04bb9ded8bd4e220d261a352b306f8bf4d3d11534a6b663ca425de6ba"
+
+[[files]]
+file = "modpack-update-checker/versions/1.130.0/changelog.txt"
+hash = "cf561ea2510e5dc53adf804dcaac9985ecb0cffd48465c0a1cecda69ae6bd625"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
