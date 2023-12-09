@@ -310,7 +310,7 @@ const gbdSticks = getAgreement({
   orderedAmount: 1,
   company: "galactic_beast_deliveries",
   message:
-    "HELLO, fellow trade network body! We here at gbd supply THE BEST of BEASTS. We heard you are an amazing supplier and we currently need some incentive devices to help our employees work harder, nothing special mind you, and of course in return you will get to see some our most EXCLUSIVE AMAZING BEASTS! What do you say?",
+    "HELLO, fellow trade mesh body! We here at gbd supply THE BEST of BEASTS. We heard you are an amazing supplier and we currently need some incentive devices to help our employees work harder, nothing special mind you, and of course in return you will get to see some our most EXCLUSIVE AMAZING BEASTS! What do you say?",
 });
 const gdbLead = getAgreement({
   paymentItems: [
