@@ -1,0 +1,18 @@
+## [1.125.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.124.0...1.125.0) (2023-12-09)
+
+
+### Features
+
+* hopper model goes past it's block to connect to none-full blocks like chests and delivery tables ([5a1db90](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5a1db908a65449989d1db5bf64e84345fe707770))
+
+
+### Documentation and Localization
+
+* rename casings to devices ([9b64363](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9b643636e136d3797253dfd412b7a470f56527df))
+
+
+### Developer experance improvments and changes
+
+* add livingrock to dict ([2a33edd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2a33edd578c9a783104be47f8cd742f9734a1388))
+
+

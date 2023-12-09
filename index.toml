@@ -302,7 +302,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d1a06bef1f28691f2363d4410ba4ae1fcc4ad6a9b1d77c6da21d8111ef31dad8"
+hash = "c7979e6654d08e008f05b7b83a0d5507a384a5a18f684551be41cb67182f2636"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -566,7 +566,7 @@ hash = "b21c3f25853b88e0717f0ca915ddb7f21cc010eb5efb9d0f53d50c6e30bfcb2b"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "72d0c50ed070459bc489b41b9a1b3ee408efc26bc15949b01ba962c21db0f17b"
+hash = "67b9936333f77006e87693c725e0016f55a43cde5a83de435c747c34a2314ead"
 
 [[files]]
 file = "kubejs/assets/create/textures/item/crushed_raw_iron.png"
@@ -693,8 +693,12 @@ file = "kubejs/assets/minecraft/models/block/dropper_vertical.json"
 hash = "12e50246ff3b1260c2bb1f33497480a257861c580cc826d1e8944cedfec9f9d2"
 
 [[files]]
+file = "kubejs/assets/minecraft/models/block/hopper.json"
+hash = "61115654e239c7223174cf799ef948d7c67b3953ceded236b1405f6bf47257a8"
+
+[[files]]
 file = "kubejs/assets/minecraft/models/block/hopper_side.json"
-hash = "078470299c8ce97eb03dbdad67029df3a0f4c3efb4dffcdc3b7c2f38c6ac6661"
+hash = "fcf10d12ebf3f769e668f5dad23e25397e1366afbf69ac13b33c1e2a67ac5589"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/lava_cauldron.json"
@@ -1190,7 +1194,7 @@ hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e03e429f6bf6c33f275d97c548522920699f7a4f1e6284e869aeacca51bacb08"
+hash = "f9a70f7d5a03f339ce78a578e95158a9cdc4088e5d0472eff866224eb2c8a808"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1862,7 +1866,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "b452bdd130789811766842f978d5ebef5c7d9f894f59abe3cf2654bf0af12700"
+hash = "01077bd99807f696d5798780a991aec98ffab6cfbe5023f4200e1f2afe084afa"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -1930,7 +1934,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "048f89289e32bec9dd43fc5b168df896ed08e11034739525fbbbd501cf37ff31"
+hash = "a0c42c8ce49358b7fd0664b1d5cb6957f3dff77367fac39f2ab2b0c64b78df00"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2263,6 +2267,10 @@ hash = "6effb29621ccfe579ab519d9e556befd71d3602fe3ef39a4e2a101799df6256d"
 [[files]]
 file = "modpack-update-checker/versions/1.124.0/changelog.txt"
 hash = "ad58f80f470da85ee3feb40fc20dbbdb9ce957faa78f2f5c46828c09cd976a9f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.125.0/changelog.txt"
+hash = "01ea788ba3b9909fffbd86196578f3def0312c5c8bf1d31bfa0cc501f1fb1f66"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
