@@ -126,7 +126,7 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9a554cd3ee5b950250a5a032bc832a99dbdf8ff5cfeb75699374ee27e21286c8"
+hash = "1fb2c5cd26ab080b0a93009eaf9ee9f2d82bc709b6091b771cb4224250316308"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
@@ -143,6 +143,10 @@ hash = "66bca164d20bff90ac6f40c419a1658d0004ebcc0d87e4d39a371bb094a6b69d"
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
 hash = "2a2b62277ef3be061b19f83c17005f96bd5b18ebb650b5a44edc4118c5e2d78a"
+
+[[files]]
+file = "config/fancymenu/customization/q.txt"
+hash = "9712adc6019825268091aba1740cb390c89a86d2ee5bb2f702e5890840881bff"
 
 [[files]]
 file = "config/fancymenu/customization/removecorios.txt"
@@ -302,7 +306,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e890a129be11dc7743b068b9ff0413212c5cb19e2d10cbcca2f0397bb2c595c8"
+hash = "524c340638388d3f88b82eb70f9710c6330c6585fda8625305b6f6b9666a293b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -491,6 +495,10 @@ hash = "fd6e3a011492b262710ff526e0cde49bb90d27e558eff284f38342e2e8994391"
 [[files]]
 file = "fancymenu_data/pipes.png"
 hash = "b17cc0db99a87fd66bba591358d88d5ad46b1f1b3c832091657ff56a7c287106"
+
+[[files]]
+file = "fancymenu_data/player.png"
+hash = "3231d2258ac45342fd69bc3ab4e12108952a1642ba95ce358fa79178b6fcdcb6"
 
 [[files]]
 file = "icon.png"
@@ -1029,6 +1037,10 @@ file = "kubejs/assets/minecraft/textures/gui/options_background.png"
 hash = "fd6e3a011492b262710ff526e0cde49bb90d27e558eff284f38342e2e8994391"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/gui/stonecutter.png"
+hash = "540c2cec4bd431ad7f2547dfdc289db276081a91b67f248489d8f3a7359ee069"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/item/clay_ball.png"
 hash = "a00780d4cb8a65b959a6bfcb88be919ea40dd836f1c77f73b49511623eca08e9"
 
@@ -1194,7 +1206,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "429117828acf1923a3f72746274d7e1bd16ad7be2da9a1a728a4b8368619aae4"
+hash = "9e0b2ace99d8b11a11a001ff0057c478ae4fc343bccfb62179a94526bbd5b0e9"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1934,7 +1946,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "fd74f6e280238d2d0f171ef46d81702c13422745ea31b0318cbf9ce4e03470cc"
+hash = "a5f1d9cd064a2773811b9d091f3847c9e34f2ba7058218b6852c16dae7e707fc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2291,6 +2303,10 @@ hash = "83a1f3e1ab143dfc1507ab404e95191c49c67baaa8d02ea014410b1a1a3703f1"
 [[files]]
 file = "modpack-update-checker/versions/1.125.5/changelog.txt"
 hash = "ee2bc81dc88e7d979885c8f5f8b7acc04e8721124ba5eb4f6da65849c5c458c0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.126.0/changelog.txt"
+hash = "326688e6d5a870d4f2de7602738cc925a9402d4f0314dfe7420b8a465ff2c351"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
