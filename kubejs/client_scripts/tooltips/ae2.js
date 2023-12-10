@@ -14,7 +14,7 @@ addTooltip(
   ["ae2:fluix_smart_cable"],
   "A Network _requires power_, provided by _milk cells_. The maximum amount of devices in one network is _8_. A cable will show the amount of _channels_ used on connected devices"
 );
-addTooltip("ae2:energy_cell", "A _milk cell_, which can be filled with _milk_ using a _spout_, is the only way to supply a _network_ with _power_.");
+addTooltip("ae2:energy_cell", "A _milk cell_, which can be filled with _milk_ using a _spout_ when placed in the world, is the only way to supply a _network_ with _power_.");
 addTooltip(
   [
     "ae2:flawed_budding_quartz",
