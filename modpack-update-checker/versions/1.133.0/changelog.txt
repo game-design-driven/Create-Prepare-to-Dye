@@ -1,0 +1,13 @@
+## [1.133.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.132.3...1.133.0) (2023-12-10)
+
+
+### Features
+
+* White ingot from raw white in a press ([15b86e3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/15b86e3858c7f9d244f2b271fa10dae11dc4a315))
+
+
+### Fixes
+
+* furnace not being craftable from sturdy device ([cbd67a9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cbd67a909353967480d57d02f332b0f27fbb0f52))
+
+
