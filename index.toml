@@ -310,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3a29cf12ee7266789d304c5f368e55410c8dd07059f38866a0eb5250aa64cda7"
+hash = "37d54bd2e67ffdfd1a199a723e360f862f8f4841ab6b1794641b60a432350036"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1246,7 +1246,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "376eb07b17d27e48f0f3fe2f28d938f3f1408caab5938c67d79050599eb02dcb"
+hash = "3a73f2feb1ea21607de671eae623777e2d9df59f8dbf488fe233d0b839b8872c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1374,7 +1374,7 @@ hash = "b74f5c870688b5def9d25ad2f3f31d2bc6359cfc75c83d12f092898d62a75585"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
-hash = "5d07a530630c2250bbfa2bc94ae584042407814706b2c8e6acf2b251a43c7b9b"
+hash = "df99ae396e8e7f7f9070f1d6575de42b5df7b36c0595b1e7594d80db4991b856"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
@@ -1994,7 +1994,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3927084f48b56da8a845d16c287a3acb8eaf0b92c570525b07eeaf0e09952db9"
+hash = "02ff7f8b20c08c8bbe17e8b02d13ca8547b02e8f229bc8ca2479109a3b7dfcd7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2463,6 +2463,10 @@ hash = "67e96cd570efcefcfb44913b0662bdbf1ca8cf39e24c749399ca362a84e356e0"
 [[files]]
 file = "modpack-update-checker/versions/1.134.6/changelog.txt"
 hash = "11e45b07086e84010e4e55ad68909c6603e1b7a8af36a6374046f2eb4c5d356c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.134.7/changelog.txt"
+hash = "a60546bc611868b0f203840359275fc200556222afac8e0b37f86a7a5f6a2eac"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
