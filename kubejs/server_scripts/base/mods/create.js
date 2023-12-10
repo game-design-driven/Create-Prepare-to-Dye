@@ -316,3 +316,9 @@ if (feature('Remove old cogwheel recipe')) {
 PlayerEvents.chat((event) => {
     event.player.reachDistance = 20;
 });
+
+if (feature('White ingot from raw white ')) {
+  addPressing('iron_ingot', ['raw_iron'])
+  addPressing('gold_ingot', ['raw_gold'])
+  addPressing('copper_ingot', ['raw_copper'])
+}
