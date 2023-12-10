@@ -75,7 +75,8 @@ StartupEvents.registry("block", (event) => {
     .noValidSpawns(true)
     .suffocating(false)
     .viewBlocking(false)
-    .transparent(true);
+    .transparent(true)
+    .box(0, 0, 0, 16, 15, 16);
 
   event
     .create("ptdye:smart_device")
