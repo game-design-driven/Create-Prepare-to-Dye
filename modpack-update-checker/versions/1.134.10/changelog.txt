@@ -1,0 +1,15 @@
+### [1.134.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.9...1.134.10) (2023-12-10)
+
+
+### Fixes
+
+* Remove multiple trading platform spawn attempts - they are not needed since the location is deterministic ([6b33c8b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6b33c8b43c86c25edcc97c02be995532b7a378c4))
+
+
+### Minor tweaks
+
+* Make ordered platforms spawn in a deterministic location, but only far away from other platforms ([0a3a592](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0a3a5922364f16a2909126d16f10142baefdb7f9))
+* Make the first trading platform spawn on it's own ([bbf3643](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bbf3643878069be6abaf54ca2e950adadfe07293))
+* Make trading platforms spawn at least a minimum height above the ground ([e39fd9f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e39fd9fdb6a56e674cdaef0a3f639bffb3c58f63))
+
+
