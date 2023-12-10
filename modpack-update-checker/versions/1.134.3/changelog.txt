@@ -1,0 +1,8 @@
+### [1.134.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.2...1.134.3) (2023-12-10)
+
+
+### Fixes
+
+* agreement nbt data registration ([434d670](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/434d6705abd69b52b2cba38bc1bcfc38d3bf365e))
+
+
