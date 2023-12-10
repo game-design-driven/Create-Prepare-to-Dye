@@ -5,7 +5,7 @@
 		"alias.emi.nether_gold_ore": "Nether Gold Ore",
 		"alias.emi.iron_ore": "Iron Ore",
 		"alias.emi.deepslate_iron_ore": "Deepslate Iron Ore",
-		"emi.category.minecraft.stonecutting": "Device Assembler [V]",
+		"emi.category.minecraft.stonecutting": "Device Assembler [V] to open",
 		"alias.emi.coal_ore": "Coal Ore",
 		"alias.emi.deepslate_coal_ore": "Deepslate Coal Ore",
 		"alias.emi.block_of_gold": "Block of Gold",
@@ -342,7 +342,7 @@
 	},
 	"ponder": null,
 	"sdrp": {
-		"sdrp.logo": "Hanging out with Betsy on version 1.130.0",
+		"sdrp.logo": "Hanging out with Betsy on version 1.131.5",
 		"sdrp.mainmenu": "Main Menu",
 		"sdrp.overworld.in": "On Chroma Prime",
 		"sdrp.overworld": "Chroma Prime"
@@ -467,7 +467,7 @@
 	"botania": {
 		"block.botania.apothecary_default": "Apothecary",
 		"botania.entry.pureDaisy": "Pure Daisy",
-		"botania.tagline.pureDaisy": "Purifies blocks into their living counterparts, turns water into snow, and lava into red sand",
+		"botania.tagline.pureDaisy": "Purifies blocks into their living counterparts, turns water into snow, and milk into white powder",
 		"botania.page.pureDaisy0": "The $(item)Pure Daisy$(0) is the most important flower a botanist can have.$(p)This flower will purify any adjacent lava (flowing or not) into red sand, along with $(item)Wood$(0) and $(item)Stone$(0) blocks (as seen on the next page) into their purified counterparts, $(item)Livingwood$(0) and $(item)Livingrock$(0). These resources are important crafting materials throughout a botanist's career.",
 		"botania.page.pureDaisy1": "$(item)Livingwood$(0) can be turned into twigs",
 		"botania.page.pureDaisy2": "A few other blocks or fluids can also be purified by placing them around the flower. While not as unique and essential as the living blocks or the red sand, these recipes still can come in handy.$(p)$(item)Netherrack$(0) purifies into $(item)Cobblestone$(0), $(item)Soul Sand$(0) into $(item)Sand$(0), $(l:misc/blaze_block)Blaze Mesh$(/l) into $(item)Obsidian$(0), $(item)Water$(0) into $(item)Snow$(0), $(item)Ice$(0) into $(item)Packed Ice$(0), $(item)Packed Ice$(0) into $(item)Blue Ice$(0), and $(item)End Stone$(0) into $(item)Cobbled Deepslate$(0).",
