@@ -35,7 +35,7 @@ addTooltip(
 );
 addTooltip(
   "wares:delivery_agreement",
-  "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts"
+  "An intergalactic agreement, bound by the United SPACE consumer union plus plus treaty. When completed can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Note: some trades can be repeated multiple times before the contract is completed!"
 );
 addTooltip(
   "wares:completed_delivery_agreement",
