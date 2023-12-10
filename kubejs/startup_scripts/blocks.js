@@ -37,6 +37,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(2)
     .resistance(6)
     .tagBlock("create:wrench_pickup")
+    .opaque(false)
     .notSolid()
     .redstoneConductor(false)
     .fullBlock(false)
@@ -74,7 +75,8 @@ StartupEvents.registry("block", (event) => {
     .noValidSpawns(true)
     .suffocating(false)
     .viewBlocking(false)
-    .transparent(true);
+    .transparent(true)
+    .box(0, 0, 0, 16, 15, 16);
 
   event
     .create("ptdye:smart_device")
