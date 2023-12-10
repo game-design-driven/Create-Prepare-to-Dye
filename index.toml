@@ -5,6 +5,10 @@ file = ".deepsource.toml"
 hash = "93f48d4a64e2c78f3f421118723c497abf90339fc248efd0aebc37cffd45918f"
 
 [[files]]
+file = "CNAME"
+hash = "9b2e3c19579d190c5d65b69155451b6b009b2afb242288df9ff48361e16f1fa9"
+
+[[files]]
 file = "LICENSE"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
@@ -306,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "51f2cd2c3525e35985dcd6cc0abdb3495bd997658ede5212052892f783ed83d8"
+hash = "21800eeb280f0b8c235673d5b0b63263a796cb106501b20112a116dff4dc603d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1218,7 +1222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d0d3829933f90fcee07de6a0b1d5daada89b6a98eb11f16a8b615993da0bb5f9"
+hash = "9473a9594d2af2deceb3a066fbf23c08ba726a8987c9576df4837eb9391e64d1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1958,7 +1962,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "14c967000ff7ecaf4cf995f827f952ba068c8ce68ab21f87daa069a3c747717c"
+hash = "ce63e6c4cea6a57c64060e6cfe18d5efb51141cb48fa9802bf759cfc0d459c41"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2391,6 +2395,10 @@ hash = "69d5446360e8ebfd39809b88fc6e9512c8e5e0bcd1894ac88ec3e1625773db18"
 [[files]]
 file = "modpack-update-checker/versions/1.133.0/changelog.txt"
 hash = "68abb3053c071c77dda4edd6a7cb88b66f58ac6ee9d04b53050ec8871840cf95"
+
+[[files]]
+file = "modpack-update-checker/versions/1.133.1/changelog.txt"
+hash = "bcde980179fb7004452018acc33f4c29d0bf1e28883c76c0de33c76bcc62fc81"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
