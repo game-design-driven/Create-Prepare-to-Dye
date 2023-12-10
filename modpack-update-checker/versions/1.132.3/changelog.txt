@@ -1,0 +1,8 @@
+### [1.132.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.132.2...1.132.3) (2023-12-10)
+
+
+### Fixes
+
+* missing clipboard text ([066237e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/066237efb8e55e62c7b0993d7399ea49b0bb4128))
+
+
