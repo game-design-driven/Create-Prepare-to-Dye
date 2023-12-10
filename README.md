@@ -33,8 +33,8 @@ Things did start off on the wrong hoof though, as you **crash land on the barren
 
 ### Concept
 - Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
-- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can build and break blocks with ease, even at a distance.
 - This planet is depleted, you will need to figure out how to produce the resources you'll need on your own, mining need not apply.
+- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can build and break blocks with ease, even at a distance.
 ### Gameplay loop
 - You accept trade deals with various companies
 - You produce the resources needed to fulfill the trade deals
@@ -86,7 +86,8 @@ Our script base uses a feature based aproach, where you can enable and disable f
 
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
-[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
+[Prism Launcher self-updating modpack](https://prepare-to-dye.yarden-zamir.com/Create-Prepare-to-Dye.zip)
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|

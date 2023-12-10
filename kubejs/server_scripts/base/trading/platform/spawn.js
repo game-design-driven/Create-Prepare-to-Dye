@@ -1,22 +1,33 @@
+const Integer = Java.loadClass('java.lang.Integer');
 const PLATFORM_SPAWN_HEIGHT = 350.15;
-const PLATFORM_SPAWN_RADIUS = 10;
+const REGULAR_PLATFORM_SPAWN_RADIUS = 70;
+const FIRST_PLATFORM_SPAWN_RADIUS = 7;
+const MIN_PLATFORM_DISTANCE = 40;
+const MAX_COORDINATE_GENERATION_ATTEMPTS = 10;
 
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
-        event.item.count --;
         event.player.swing();
         
-        let trade_items = global.starterDeals.map(deal => {
-            return deal.item;
-        });
-        
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
+            let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS);
             Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
-            spawnTradingPlatform(event.player, "Oculus the Wise", trade_items);
+            let trade_items = global.starterDeals.map(deal => {
+                return deal.item;
+            });
+            spawnTradingPlatform(event.player, "Oculus the Wise", spawn_coordinates, trade_items);
+            event.item.count --;
         }
         else {
-            spawnTradingPlatform(event.player, generatePilotName());
+            let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS);
+            if (spawn_coordinates === null) {
+                event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
+                event.cancel();
+                return;
+            }
+            spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
+            event.item.count --;
         }
         
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
@@ -26,9 +37,8 @@ if (feature("Trading platforms")) {
     })
 }
 
-function spawnTradingPlatform(player, pilot_name, items) {
+function spawnTradingPlatform(player, pilot_name, spawn_coordinates, items) {
     items = items || [];
-    let spawn_coordinates = generate_spawn_coordinates(player);
 
     let main_entity = spawnMainEntity(player.level, spawn_coordinates);
     let base_contraption = spawnBaseContraption(player.level, spawn_coordinates, main_entity, items);
@@ -92,7 +102,6 @@ function check_floor(level, x, y, z) {
 
 function spawnBaseContraption(event, spawn_coordinates, main_entity, items) {
     let base_contraption = event.level.createEntity("create:contraption");
-    // base_contraption.nbt = `{Contraption:{Actors:[{Data:{},FirstMovement:0b,Motion:[0.0d,0.0d,0.0d],Pos:{X:-1,Y:0,Z:0},RelativeMotion:[0.0d,0.0d,0.0d],Stall:0b}],Anchor:{X:-281,Y:-55,Z:50},Blocks:{BlockList:[{Pos:274877902848L,State:0},{Data:{Disabled:0b,Filter:{Count:0b,id:"minecraft:air"},FilterAmount:64,ForgeCaps:{},Powered:0b,UpTo:1b,id:"create:contraption_controls"},Pos:-274877906944L,State:1},{Pos:274877911042L,State:2},{Pos:-274877902848L,State:3},{Pos:0L,State:4},{Pos:4096L,State:5},{Pos:274877906944L,State:2},{Pos:549755809794L,State:2},{Pos:-4096L,State:3},{Pos:274877902850L,State:2},{Pos:274877911040L,State:2},{Pos:-4094L,State:2},{Data:{DeliveringManually:0b,ForgeCaps:{},Inventory:{Items:[],Size:14},Progress:0,id:"wares:delivery_table"},Pos:3L,State:6},{Pos:274877911039L,State:7},{Pos:-274877906943L,State:8},{Pos:4095L,State:9},{Pos:549755813887L,State:10},{Pos:1L,State:11},{Pos:-274877902847L,State:12},{Pos:274877906943L,State:13},{Pos:-274877902849L,State:14},{Pos:4097L,State:5},{Pos:274877906945L,State:2},{Pos:549755809793L,State:2},{Pos:-1L,State:15},{Pos:274877902849L,State:0},{Pos:274877911041L,State:2},{Pos:-274877898753L,State:16},{Pos:-4095L,State:17},{Pos:8191L,State:18},{Pos:274877915135L,State:19},{Pos:-274877906942L,State:2},{Pos:4094L,State:20},{Pos:2L,State:2},{Pos:-274877902846L,State:2},{Pos:4098L,State:2},{Pos:274877906946L,State:2},{Pos:549755809792L,State:2}],Palette:[{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"create:contraption_controls",Properties:{facing:"east",open:"false",virtual:"false",waterlogged:"false"}},{Name:"quark:iron_plate"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"false"}},{Name:"create:white_seat"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"wares:delivery_table",Properties:{agreement:"none",facing:"west"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"straight",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"false",north:"true",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_pillar",Properties:{axis:"y"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"minecraft:air"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"true",south:"false",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"south",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"north",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"ptdye:upside_down_fire"}]},BottomlessSupply:0b,BoundsFront:[-3.0f,-2.0f,-3.0f,4.0f,4.0f,4.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"NORTH",Interactors:[{Pos:{X:-1,Y:0,Z:0}}],Passengers:[],RotationMode:"ROTATION_LOCKED",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[{From:[-1.0d,-2.0d,-1.0d],To:[2.0d,4.0d,2.0d]}],Type:"mounted"},display:{}}`;
     base_contraption.nbt = generate_base_contraption_nbt(items);
     base_contraption.setPos(spawn_coordinates.x, spawn_coordinates.y, spawn_coordinates.z);
     base_contraption.spawn();
@@ -108,22 +117,11 @@ function generate_base_contraption_nbt(items) {
         return getItemNBTWithSlot(item, index + 2);
     });
     let joined_nbts = nbts.join(",");
-    return `{
-        Contraption: {
-            Actors:[],
-            Blocks:{
-                BlockList:[
-                    {Pos:274877902848L,State:0},
-                    {Data:{Disabled:0b,Filter:{Count:0b,id:"minecraft:air"},FilterAmount:64,ForgeCaps:{},Powered:0b,UpTo:1b,id:"create:contraption_controls"},Pos:-274877906944L,State:1},
-                    {Pos:274877911042L,State:2},{Pos:-274877902848L,State:3},{Pos:0L,State:4},{Pos:4096L,State:5},
-                    {Pos:274877906944L,State:2},{Pos:549755809794L,State:2},{Pos:-4096L,State:3},{Pos:274877902850L,State:2},
-                    {Pos:274877911040L,State:2},{Pos:-4094L,State:2},
-                    {Data:{DeliveringManually:0b,ForgeCaps:{},Inventory:{Items:[${joined_nbts}],Size:14},Progress:0,id:"wares:delivery_table"},Pos:3L,State:6},
-                    {Pos:274877911039L,State:7},{Pos:-274877906943L,State:8},{Pos:4095L,State:9},{Pos:549755813887L,State:10},
-                    {Pos:1L,State:11},{Pos:-274877902847L,State:12},{Pos:274877906943L,State:13},{Pos:-274877902849L,State:14},
-                    {Pos:4097L,State:5},{Pos:274877906945L,State:2},{Pos:549755809793L,State:2},{Pos:-1L,State:15},
-                    {Pos:274877902849L,State:0},{Pos:274877911041L,State:2},{Pos:-274877898753L,State:16},{Pos:-4095L,State:17},{Pos:8191L,State:18},{Pos:274877915135L,State:19},{Pos:-274877906942L,State:2},{Pos:4094L,State:20},{Pos:2L,State:2},{Pos:-274877902846L,State:2},{Pos:4098L,State:2},{Pos:274877906946L,State:2},{Pos:549755809792L,State:2}],Palette:[{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"create:contraption_controls",Properties:{facing:"east",open:"false",virtual:"false",waterlogged:"false"}},{Name:"quark:iron_plate"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"false"}},{Name:"create:white_seat"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"wares:delivery_table",Properties:{agreement:"none",facing:"west"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"straight",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"false",north:"true",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_pillar",Properties:{axis:"y"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"minecraft:air"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"true",south:"false",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"south",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"north",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"ptdye:upside_down_fire"}]},BottomlessSupply:0b,BoundsFront:[-3.0f,-2.0f,-3.0f,4.0f,4.0f,4.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"NORTH",Interactors:[{Pos:{X:-1,Y:0,Z:0}}],Passengers:[],RotationMode:"ROTATION_LOCKED",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[{From:[-1.0d,-2.0d,-1.0d],To:[2.0d,4.0d,2.0d]}],Type:"mounted"},display:{}
-    }`;
+    return `
+    {Contraption:{Actors:[],Blocks:{BlockList:[{Pos:274877902848L,State:0},{Data:{Disabled:0b,Filter:{Count:1b,id:"minecraft:air"},FilterAmount:64,ForgeCaps:{},Powered:0b,UpTo:1b,id:"create:contraption_controls"},Pos:-274877906944L,State:1},{Pos:274877911042L,State:2},{Pos:-274877902848L,State:3},{Pos:0L,State:4},{Pos:4096L,State:5},{Pos:274877906944L,State:2},{Pos:549755809794L,State:2},{Pos:-4096L,State:3},{Pos:274877902850L,State:6},{Pos:274877911040L,State:2},{Pos:-4094L,State:2},
+    {Data:{DeliveringManually:0b,ForgeCaps:{},Inventory:{Items:[${joined_nbts}],Size:14},Progress:0,id:"wares:delivery_table"},Pos:3L,State:7},
+    {Pos:274877911039L,State:8},{Pos:-274877906943L,State:9},{Pos:4095L,State:10},{Pos:549755813887L,State:11},{Pos:1L,State:12},{Pos:-274877902847L,State:13},{Pos:274877906943L,State:14},{Pos:-274877902849L,State:15},{Pos:4097L,State:16},{Pos:274877906945L,State:2},{Pos:549755809793L,State:2},{Pos:-1L,State:17},{Pos:274877902849L,State:16},{Pos:274877911041L,State:2},{Pos:-274877898753L,State:18},{Pos:-4095L,State:19},{Pos:8191L,State:20},{Pos:274877915135L,State:21},{Pos:-274877906942L,State:22},{Pos:4094L,State:23},{Pos:2L,State:24},{Pos:-274877902846L,State:2},{Pos:4098L,State:25},{Pos:274877906946L,State:26},{Pos:549755809792L,State:2}],Palette:[{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"create:contraption_controls",Properties:{facing:"east",open:"false",virtual:"false",waterlogged:"false"}},{Name:"quark:iron_plate"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"false"}},{Name:"create:white_seat"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"north",half:"bottom",shape:"straight",waterlogged:"false"}},{Name:"wares:delivery_table",Properties:{agreement:"none",facing:"west"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"straight",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"false",north:"true",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_pillar",Properties:{axis:"y"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"minecraft:air"},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"true",south:"false",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"south",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"straight",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"false",waterlogged:"false",west:"true"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"top",shape:"outer_left",waterlogged:"false"}},{Name:"botania:mana_glass_pane",Properties:{east:"true",north:"false",south:"true",waterlogged:"false",west:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"north",half:"top",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"top",shape:"outer_right",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"west",half:"bottom",shape:"straight",waterlogged:"false"}},{Name:"ptdye:upside_down_fire"},{Name:"minecraft:bedrock"},{Name:"quark:iron_plate_stairs",Properties:{facing:"south",half:"bottom",shape:"straight",waterlogged:"false"}},{Name:"quark:iron_plate_stairs",Properties:{facing:"east",half:"bottom",shape:"straight",waterlogged:"false"}}]},BottomlessSupply:0b,BoundsFront:[-3.0f,-2.0f,-3.0f,4.0f,4.0f,4.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"EAST",Interactors:[{Pos:{X:-1,Y:0,Z:0}}],Passengers:[],RotationMode:"ROTATION_LOCKED",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[],Type:"mounted"},display:{}}
+    `
 }
 
 function getItemNBTWithSlot(item, slot) {
@@ -134,7 +132,7 @@ function getItemNBTWithSlot(item, slot) {
 
 function spawnRoofContraption(event, spawn_coordinates, main_entity) {
     let roof_contraption = event.level.createEntity("create:contraption");
-    roof_contraption.nbt = `{id:"create:contraption",Contraption:{Actors:[],Anchor:{X:-195,Y:-58,Z:112},Blocks:{BlockList:[{Pos:274877911042L,State:0},{Pos:549755809793L,State:0},{Pos:-274877902848L,State:0},{Pos:0L,State:1},{Pos:549755809794L,State:0},{Pos:274877911041L,State:0},{Pos:-4096L,State:0},{Pos:549755809795L,State:2},{Pos:-4095L,State:0},{Pos:274877911040L,State:0},{Pos:274877902851L,State:2},{Pos:-4094L,State:0},{Pos:-4093L,State:2},{Pos:-274877906941L,State:2},{Pos:3L,State:3},{Pos:-274877902845L,State:2},{Pos:2L,State:3},{Pos:4099L,State:2},{Pos:274877906947L,State:2},{Pos:-274877902846L,State:0},{Pos:1L,State:3},{Pos:274877911043L,State:2},{Pos:-274877902847L,State:0},{Pos:549755809792L,State:0}],Palette:[{Name:"create:metal_girder",Properties:{axis:"y",bottom:"true",top:"true",waterlogged:"false",x:"false",z:"false"}},{Name:"minecraft:air"},{Name:"quark:iron_plate_slab",Properties:{type:"bottom",waterlogged:"false"}},{Name:"minecraft:air"}]},BottomlessSupply:0b,BoundsFront:[-3.0f,0.0f,-3.0f,4.0f,4.0f,4.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"WEST",Interactors:[],Passengers:[],RotationMode:"ROTATION_LOCKED",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[{From:[-1.0d,0.0d,-1.0d],To:[2.0d,4.0d,2.0d]}],Type:"mounted"},display:{}}`;
+    roof_contraption.nbt = `{id:"create:contraption",Contraption:{Actors:[],Blocks:{BlockList:[{Pos:274877911042L,State:0},{Pos:549755809793L,State:0},{Pos:-274877902848L,State:0},{Pos:0L,State:1},{Pos:549755809794L,State:0},{Pos:274877911041L,State:0},{Pos:-4096L,State:0},{Pos:549755809795L,State:2},{Pos:-4095L,State:0},{Pos:274877911040L,State:0},{Pos:274877902851L,State:2},{Pos:-4094L,State:0},{Pos:-4093L,State:2},{Pos:-274877906941L,State:2},{Pos:3L,State:3},{Pos:-274877902845L,State:2},{Pos:2L,State:3},{Pos:4099L,State:2},{Pos:274877906947L,State:2},{Pos:-274877902846L,State:0},{Pos:1L,State:3},{Pos:274877911043L,State:2},{Pos:-274877902847L,State:0},{Pos:549755809792L,State:0}],Palette:[{Name:"create:metal_girder",Properties:{axis:"y",bottom:"true",top:"true",waterlogged:"false",x:"false",z:"false"}},{Name:"minecraft:air"},{Name:"quark:iron_plate_slab",Properties:{type:"bottom",waterlogged:"false"}},{Name:"minecraft:air"}]},BottomlessSupply:0b,BoundsFront:[-3.0f,0.0f,-3.0f,4.0f,4.0f,4.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:"WEST",Interactors:[],Passengers:[],RotationMode:"ROTATION_LOCKED",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[],Type:"mounted"},display:{}}`;
     roof_contraption.setPos(spawn_coordinates.x, spawn_coordinates.y, spawn_coordinates.z);
     roof_contraption.spawn();
     roof_contraption.startRiding(main_entity, true);
@@ -156,12 +154,40 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
     return pilot;
 }
 
-function generate_spawn_coordinates(player) {
-    return {
-        x: player.blockX + 0.5 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
-        z: player.blockZ + 0.6 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
-        y: PLATFORM_SPAWN_HEIGHT
-    };
+function generate_spawn_coordinates(player, radius) {
+    for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
+        let coords = {
+            x: player.blockX + 0.5 + randInt(-radius, radius + 1),
+            z: player.blockZ + 0.6 + randInt(-radius, radius + 1),
+            y: PLATFORM_SPAWN_HEIGHT
+        };
+        if (!is_near_existing_platform(coords)) {
+            let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
+            existing_platforms_x.push(Integer.parseInt(Math.trunc(coords.x).toString()));
+            Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
+            let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
+            existing_platforms_z.push(Integer.parseInt(Math.trunc(coords.z).toString()));
+            Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
+            Utils.server.persistentData.put
+            return coords;
+        }
+    }
+    return null;
+}
+
+function is_near_existing_platform(coords) {
+    let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x");
+    let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z");
+    for (let i = 0; i < existing_platforms_x.length; i++) {
+        if (distance(Math.trunc(coords.x), Math.trunc(coords.z), existing_platforms_x[i], existing_platforms_z[i]) < MIN_PLATFORM_DISTANCE) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function distance(x1, z1, x2, z2) {
+    return Math.max(Math.abs(x1 - x2), Math.abs(z1 - z2));
 }
 
 function randInt(min, max) {

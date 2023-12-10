@@ -1,0 +1,8 @@
+### [1.131.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.131.5...1.131.6) (2023-12-10)
+
+
+### Documentation and Localization
+
+* added 'to open' after the V tooltip for device assembler ([04cfc2e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/04cfc2e413a9d294a0e0ba13e7ec30479f1b193a))
+
+

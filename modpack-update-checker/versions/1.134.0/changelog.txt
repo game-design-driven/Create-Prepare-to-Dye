@@ -1,0 +1,8 @@
+## [1.134.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.133.3...1.134.0) (2023-12-10)
+
+
+### Features
+
+* packwiz installer pack to modpack repo ([#379](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/379)) ([5ab33ba](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5ab33ba3382c1b0451506eaf86ad1193afde4654))
+
+

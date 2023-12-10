@@ -20,6 +20,9 @@
   "create:sequenced_assembly": {
     "order": -50
   },
+  "create:pressing": {
+    "order": -40
+  },
   "minecraft:smelting": {
     "order": 100
   }

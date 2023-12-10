@@ -63,10 +63,14 @@ function addBlockExplode(block_out, block_in) {
     modpackRecipes.push(recipe)
 }
 function addBlockInteractToItem(item_out, block_in, item_in) {
-    let post = {
+    let post = [{
         type: 'drop_item',
         item: item_out,
-    }
+    },
+    {
+        type: "place",
+        block: 'air'
+    },]
     let recipe = {
         type: 'lychee:block_interacting',
         item_in: solveLimitedIngredient(item_in),

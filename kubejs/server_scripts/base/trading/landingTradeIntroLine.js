@@ -14,10 +14,10 @@ const bcfPlates = getAgreement({
 const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
-    "8x create:copper_casing",
-    "5x ae2:flawed_budding_quartz",
-    "4x create:andesite_casing",
-    "4x create:brass_casing",
+    "8x ptdye:sealed_device",
+    "8x ae2:flawed_budding_quartz",
+    "4x ptdye:mechanical_device",
+    "4x ptdye:smart_device",
     'create:super_glue'
   ],
   requestedItems: [
@@ -41,7 +41,7 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ["32x create:track"],
+  paymentItems: ["32x create:track","8x ptdye:locomotive_device"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 2,
@@ -50,7 +50,7 @@ const bfcPickaxes = getAgreement({
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement({
-  paymentItems: ["4x create:railway_casing"],
+  paymentItems: ["16x ptdye:locomotive_device", "16x create:track"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 2,
@@ -79,16 +79,53 @@ const mlcSand = getAgreement({
     "botania:mana_spreader",
   ],
   requestedItems: [
-    "64x minecraft:sand",
-    "64x minecraft:sand",
-    "64x minecraft:sand",
-    "64x minecraft:sand",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
   ],
   title: "Your Sand – Our Beaches?",
   orderedAmount: 2,
   company: "magical_landscaping_co",
   message:
-    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
+    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, white, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
+});
+const mlcSand2 = getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 4, '{Damage:0}'),
+    '32x dirt',
+    '16x supplementaries:jar',
+    'ptdye:trading_transceiver',
+    'ptdye:trading_transceiver'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "More sand!",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
+});
+const mlcSandFixed=getAgreement({
+  paymentItems: [
+    Item.of('minecraft:golden_pickaxe', 16, '{Damage:0}'),
+    '64x minecraft:cobblestone'
+  ],
+  requestedItems: [
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+    "64x minecraft:sand",
+  ],
+  title: "Lets seal the deal on that beautiful sand",
+  orderedAmount: 5,
+  company: "magical_landscaping_co",
+  message:
+    "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
 });
 const bhbCheese = getAgreement({
   paymentItems: [
@@ -191,7 +228,7 @@ const bnwRedstone = getAgreement({
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
     "8x ae2:fluix_smart_cable",
-    "4x ptdye:redstone_casing"
+    "4x ptdye:logic_device"
   ],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Redstone from the red planet",
@@ -233,7 +270,7 @@ const bnwManasteel = getAgreement({
 });
 const bnwManasteelFixedRates = getAgreement({
   paymentItems: [
-    "8x ptdye:redstone_casing",
+    "8x ptdye:logic_device",
   ],
   requestedItems: [
     "64x botania:manasteel_ingot",
@@ -246,7 +283,7 @@ const bnwManasteelFixedRates = getAgreement({
     "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
 });
 const bnwQuartz = getAgreement({
-  paymentItems: ["8x create:brass_casing", "8x minecraft:gold_ingot", "2x ptdye:redstone_casing"],
+  paymentItems: ["8x ptdye:smart_device", "8x minecraft:gold_ingot", "2x ptdye:logic_device"],
   requestedItems: ["64x minecraft:quartz"],
   title: "Need raw materials for silicon",
   orderedAmount: 2,
@@ -256,7 +293,7 @@ const bnwQuartz = getAgreement({
 });
 const bnwCogs = getAgreement({
   paymentItems: [
-    "8x create:brass_casing",
+    "8x ptdye:smart_device",
     "8x ae2:fluix_smart_cable",
     "5x ae2:storage_bus",
     '2x ae2:toggle_bus'
@@ -273,7 +310,7 @@ const bnwPolishedRoseQuartz = getAgreement({
     "8x ae2:fluix_smart_cable",
     "4x create:mechanical_arm",
     "4x ae2:storage_bus",
-    "4x ptdye:redstone_casing"
+    "4x ptdye:logic_device"
   ],
   requestedItems: ["64x create:polished_rose_quartz"],
   title: "Assembly expansion",
@@ -395,9 +432,10 @@ tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes, mlcEndstoneFixed], //The next trades in line
+  [bfcPlatesPermanent, bfcPickaxes, mlcSand2], //The next trades in line
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
+tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
 tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread], wscAxes);

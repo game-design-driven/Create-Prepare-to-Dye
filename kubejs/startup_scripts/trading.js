@@ -21,11 +21,10 @@ if (feature("Trading platforms")) {
         .group("tools");
     });
 
-    // Will be enabled in mvp release - to give players time to move exising tables
-    // BlockEvents.modification(event => {
-    //     event.modify("wares:delivery_table", block => {
-    //         block.destroySpeed = -1;
-    //         block.explosionResistance = 3600000;
-    //     })
-    // });
+    BlockEvents.modification(event => {
+        event.modify("wares:delivery_table", block => {
+            block.destroySpeed = -1;
+            block.explosionResistance = 3600000;
+        })
+    });
 }

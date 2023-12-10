@@ -1,0 +1,9 @@
+### [1.133.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.133.2...1.133.3) (2023-12-10)
+
+
+### Documentation and Localization
+
+* fix tooltips for raw white and white ingot ([29802f9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/29802f94456df272025d69379888c5a0e9236003))
+* reorder pressing recipies in EMI ([bd42a7d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bd42a7ddc81b77cb663ee06f03fe133427d0a823))
+
+

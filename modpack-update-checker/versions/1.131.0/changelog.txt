@@ -1,0 +1,10 @@
+## [1.131.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.130.0...1.131.0) (2023-12-09)
+
+
+### Features
+
+* Increase trading platform spawn radius ([eac87ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eac87ee60480dec47c98db28152840e7884e6234))
+* Make trading tables immovable ([528e286](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/528e286cf5c98622fefec4131a74b943fb0d3b21))
+* Prevent trading platform from spawning close to each other ([6359097](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6359097737fd051d754f6dc8e0abcd1d8946f208))
+
+
