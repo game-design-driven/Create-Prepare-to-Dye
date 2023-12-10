@@ -306,7 +306,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "77842e2f1a1c82c8d3cdd971d06a146792805e6c4a9b0df45c80838fefc8b050"
+hash = "a892c5c3334123e7c4bc61a66cd25f5c08df1ac9c099492b03bc20dd4dde693e"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -614,7 +614,7 @@ hash = "c3013b2bed0471c03140535b932e2a879e8db52af5168c35a9579a13ee5330c0"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
-hash = "56858a0d0f67775f5e6f74287af29108e1b7e7d2fcc59ed42fb45442f2442c09"
+hash = "1a9dc99dee3df5d2a10069d9bc7d989a1f03c13efaaf72dd240c9d350b77588e"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
@@ -1218,7 +1218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "80a6a682fb2f223889cbf85ee372a36c6d8ff052586a642eb7c2e87762e99127"
+hash = "449f96c4503884146b5e1731f4e61e977c76557c7deedb513d7f3f52bf2b255b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1958,7 +1958,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ec1388b4e44445028e41d446e44437bfdedf5dd9ac72c7f6845fa5322c4a388b"
+hash = "f5881b1baa66e344100166f7616f8250d9cf4196a30ef1985213cd7d0d4bb1ff"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2367,6 +2367,10 @@ hash = "2fc346dc7fcdda12b22c50d288414fc06e4bd55defaa95a2f332f297191b159b"
 [[files]]
 file = "modpack-update-checker/versions/1.131.5/changelog.txt"
 hash = "23b2e31ceef3a8b470b54430e397967078294fc2c125b06f57f4349cf16f1a4a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.131.6/changelog.txt"
+hash = "26931792ee0254a9b360445f21589125c315c1e4392b79425bdf72ab45b92eab"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
