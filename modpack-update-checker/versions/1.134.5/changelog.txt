@@ -1,0 +1,8 @@
+### [1.134.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.4...1.134.5) (2023-12-10)
+
+
+### Fixes
+
+* Add missing info about immovable trading platforms to the tooltip ([2ad9113](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2ad911310ad320797c145e4dd927900972478465))
+
+

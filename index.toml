@@ -310,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e966faed6960817d964ed046c2c946958644eed9a27bcefd31c5b02404b2597d"
+hash = "92bee4383eecd7389bcfcc99f0679d02e43b640651e7ee47ab8a05dccd9b93a6"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1246,7 +1246,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "f484c02347aab285f6b8a1ecd4f19d38d5b5fbcf261f74a02712bba5c733062b"
+hash = "99e2e28be49fa89217d7b85fd25bbc53b7f14732a754e415db44583621bfa864"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1386,7 +1386,7 @@ hash = "16347a3fe11968cb41dabac92620007f4424c55090721cca2c2545dc8fe3c74b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
-hash = "0536b3950f24479f3e3dc11588448f05d0cdc523c962cc01b2101b450d317624"
+hash = "4aefcdbfda7e12860799e433ebb5eab89ee733325369e4bed4c4299e5e2de068"
 
 [[files]]
 file = "kubejs/client_scripts/tradeShow.js"
@@ -1986,7 +1986,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d689f52ff79fc15d2b2f4e6235d53295639ddc1f8058f4731d90b52d04b65372"
+hash = "67c0a9f52c7785b1779d56e40eb832c0275ffd7bebf44732fdc14a8a299ec27f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2447,6 +2447,10 @@ hash = "1aea31d0c488ca04719fa8b3afd92e48ec03fc5c7b151bce48ee3af8a428b6fe"
 [[files]]
 file = "modpack-update-checker/versions/1.134.4/changelog.txt"
 hash = "508dc4c032cb07df9c3fe54336573dfcb949ea01f659b6b2345fde82d6cb3413"
+
+[[files]]
+file = "modpack-update-checker/versions/1.134.5/changelog.txt"
+hash = "67e96cd570efcefcfb44913b0662bdbf1ca8cf39e24c749399ca362a84e356e0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
