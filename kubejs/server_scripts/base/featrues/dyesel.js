@@ -76,7 +76,7 @@ if (feature("Ethanol")) {
     "4x #forge:dyes/lime",
   ]);
   addDistillation(
-    ["10mb createdieselgenerators:ethanol", "10mb water"],
+    ["40mb createdieselgenerators:ethanol", "10mb water"],
     ["20mb kubejs:fermented_goop"],
     40,
     temperature.heated
