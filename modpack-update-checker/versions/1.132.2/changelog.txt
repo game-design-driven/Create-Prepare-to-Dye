@@ -1,0 +1,8 @@
+### [1.132.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.132.1...1.132.2) (2023-12-10)
+
+
+### Documentation and Localization
+
+* improve description of second sand deal ([24a9408](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/24a9408f69443ad551a15e59c19111b57d617351))
+
+
