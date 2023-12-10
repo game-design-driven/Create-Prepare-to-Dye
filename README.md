@@ -86,7 +86,8 @@ Our script base uses a feature based aproach, where you can enable and disable f
 
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
-[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
+[Prism Launcher self-updating modpack](https://prepare-to-dye.yarden-zamir.com/Create-Prepare-to-Dye.zip)
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
