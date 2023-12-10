@@ -1,0 +1,8 @@
+### [1.134.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.3...1.134.4) (2023-12-10)
+
+
+### Fixes
+
+* mild improvement to sealed device ([#382](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/382)) ([6e3198e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6e3198ea2eb08d54edf4b137e8a849359918ce5c))
+
+

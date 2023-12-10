@@ -310,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "099f3a51e524f8f5bffe4eef2caab1c767916f404c8f12101a0aab19cdc9766f"
+hash = "e966faed6960817d964ed046c2c946958644eed9a27bcefd31c5b02404b2597d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1150,7 +1150,7 @@ hash = "5bf59203b34aa51ef1f17a20d765e3649528a6a0e03ba95d0450466f927e8c65"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/sturdy_device.json"
-hash = "5a5764c0dda9490481a79c61d910aee42f5531cecfb3e07918c9c2bb805b698e"
+hash = "fdf875f2788f1e46dc3480192c47870781f346ec23c2960618ee05a97fd3b45c"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/upside_down_fire.json"
@@ -1177,12 +1177,36 @@ file = "kubejs/assets/ptdye/textures/block/cobblestone_casing.xcf"
 hash = "121e876747d9ddfeb2cfcef84667f781438a22a653eb1c0aacf8400622791570"
 
 [[files]]
+file = "kubejs/assets/ptdye/textures/block/hosecorner.png"
+hash = "41b9bbf2d18aa85d82199c2edcb374aa957cc18d5caf386352580cc209f5df9a"
+
+[[files]]
 file = "kubejs/assets/ptdye/textures/block/logic_device.png"
 hash = "f1d0ebc18daf3303c60a48e67fbb3a4992de7fa43419eee0e9916eeec2972a61"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/redstone_casing.xcf"
 hash = "3a157db337cce4cbfd07f3e25dd52be14660f66ad416b1d5c1d4b570b6bea5bf"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/smallchute.png"
+hash = "18c92bc2024a33e2a1bed5d3c8e7e794eadbcdb467d364de76480bb6c0231948"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/smallcrate.png"
+hash = "8d8ec0177143d2f91e508efb881cdfc4324b15caa8fffc166a03fb6d0a6d275c"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/smallhopper.png"
+hash = "efd74be71e471af0bdd1dac4303fedc8e8075d65931b0df190a955296cc85b38"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/smallpiston.png"
+hash = "ad74366d2d5b65d7431cb69a7870e62344c06d6c8351c2d9a803e53ad40ec807"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/sturdyframe.png"
+hash = "696026fda8fc93bdbce0f583ada2ab36fe628416f7447dea85cfc9cfc1f74f66"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/upside_down_fire.png"
@@ -1222,7 +1246,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2cc7831ccc26fd572c7a98bacc3ca00f894bbe577b279bdec441b5e4b45204d1"
+hash = "f484c02347aab285f6b8a1ecd4f19d38d5b5fbcf261f74a02712bba5c733062b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1894,7 +1918,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "5551dfe203f0bc83e4dd1b2aad9861faa9bae6ab887912862ce88a668f64cfac"
+hash = "bf8ea2a86110a19c1844ff27e31a66e64394976006c6e6ded440367544ee68b5"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -1962,7 +1986,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f832ceb59ee9195266e74e13532d5002aeb36916f4c647ff5165d89b676bf28e"
+hash = "d689f52ff79fc15d2b2f4e6235d53295639ddc1f8058f4731d90b52d04b65372"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2419,6 +2443,10 @@ hash = "aac4c9753c9a83e169bb1243763edd8fce61a40b5f18f1b5a409949b62777de4"
 [[files]]
 file = "modpack-update-checker/versions/1.134.3/changelog.txt"
 hash = "1aea31d0c488ca04719fa8b3afd92e48ec03fc5c7b151bce48ee3af8a428b6fe"
+
+[[files]]
+file = "modpack-update-checker/versions/1.134.4/changelog.txt"
+hash = "508dc4c032cb07df9c3fe54336573dfcb949ea01f659b6b2345fde82d6cb3413"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
