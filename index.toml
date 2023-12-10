@@ -310,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "21800eeb280f0b8c235673d5b0b63263a796cb106501b20112a116dff4dc603d"
+hash = "01b23b6598eb7874dddb852d6f6e385a8bcbab8559ebf561eb7f74e3e019a5cf"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -610,7 +610,7 @@ hash = "5a6a21a4464137b8a29b3a4f7b595ba4581bdd462279729b434eeb1dca7eec71"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
-hash = "8e549686fec00e7d7107d427a46b1053fd47c03e4e78a8fc8f186eebea037117"
+hash = "763d1b435835433e43633d529ea864c5edc495423dfaefeb55f87346a8fd12e2"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
@@ -1222,7 +1222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9473a9594d2af2deceb3a066fbf23c08ba726a8987c9576df4837eb9391e64d1"
+hash = "8a6bd268d1b60490d700c71507d44d59b83fd5b2d6be62a0307c0fa29f108550"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1358,7 +1358,7 @@ hash = "5885d73a7efa2a565a1c1de1a6b02397ac58f1be2e4d6b91c2cdac20a40cd61e"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
-hash = "fcef5d3318d7e2119f624e9de2a6533bb51ea108c13e5474a8a91ebde5333cec"
+hash = "16347a3fe11968cb41dabac92620007f4424c55090721cca2c2545dc8fe3c74b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
@@ -1866,7 +1866,7 @@ hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/spawn.js"
-hash = "580cb9189d24b3eda4915af818d5544f514cba28b03e52f3d077fdf49c6f7d34"
+hash = "5e8efc31eb1af0a4fdff430d500b5cab4d21cf148ca8c82e27c87e559137e47f"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -1962,7 +1962,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ce63e6c4cea6a57c64060e6cfe18d5efb51141cb48fa9802bf759cfc0d459c41"
+hash = "09097c02f523942fbb404d5dbc1e7ea98c0d964f16b5ffc7e762ac17d76cfd9f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2399,6 +2399,10 @@ hash = "68abb3053c071c77dda4edd6a7cb88b66f58ac6ee9d04b53050ec8871840cf95"
 [[files]]
 file = "modpack-update-checker/versions/1.133.1/changelog.txt"
 hash = "bcde980179fb7004452018acc33f4c29d0bf1e28883c76c0de33c76bcc62fc81"
+
+[[files]]
+file = "modpack-update-checker/versions/1.133.3/changelog.txt"
+hash = "af37dab39fea590066205a236fd5f93c1b341b7432fd87c2aef5a0f4c1dd5f13"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
