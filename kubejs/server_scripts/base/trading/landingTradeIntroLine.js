@@ -108,7 +108,7 @@ const mlcSand2 = getAgreement({
   orderedAmount: 5,
   company: "magical_landscaping_co",
   message:
-    "Your sand is smooth like no other! We want to buy MORE of it, a bunch more, lets get this going shall we?",
+    "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
 });
 const mlcSandFixed=getAgreement({
   paymentItems: [
