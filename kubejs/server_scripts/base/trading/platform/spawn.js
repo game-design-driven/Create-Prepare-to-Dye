@@ -1,22 +1,32 @@
+const Integer = Java.loadClass('java.lang.Integer');
 const PLATFORM_SPAWN_HEIGHT = 350.15;
-const PLATFORM_SPAWN_RADIUS = 10;
+const PLATFORM_SPAWN_RADIUS = 70;
+const MIN_PLATFORM_DISTANCE = 40;
+const MAX_COORDINATE_GENERATION_ATTEMPTS = 10;
 
 if (feature("Trading platforms")) {
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
-        event.item.count --;
         event.player.swing();
         
-        let trade_items = global.starterDeals.map(deal => {
-            return deal.item;
-        });
+        let spawn_coordinates = generate_spawn_coordinates(event.player);
+        if (spawn_coordinates === null) {
+            event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
+            event.cancel();
+            return;
+        }
+
+        event.item.count --;
         
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
             Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
-            spawnTradingPlatform(event.player, "Oculus the Wise", trade_items);
+            let trade_items = global.starterDeals.map(deal => {
+                return deal.item;
+            });
+            spawnTradingPlatform(event.player, "Oculus the Wise", spawn_coordinates, trade_items);
         }
         else {
-            spawnTradingPlatform(event.player, generatePilotName());
+            spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
         }
         
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
@@ -26,9 +36,8 @@ if (feature("Trading platforms")) {
     })
 }
 
-function spawnTradingPlatform(player, pilot_name, items) {
+function spawnTradingPlatform(player, pilot_name, spawn_coordinates, items) {
     items = items || [];
-    let spawn_coordinates = generate_spawn_coordinates(player);
 
     let main_entity = spawnMainEntity(player.level, spawn_coordinates);
     let base_contraption = spawnBaseContraption(player.level, spawn_coordinates, main_entity, items);
@@ -145,11 +154,39 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
 }
 
 function generate_spawn_coordinates(player) {
-    return {
-        x: player.blockX + 0.5 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
-        z: player.blockZ + 0.6 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
-        y: PLATFORM_SPAWN_HEIGHT
-    };
+    for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
+        let coords = {
+            x: player.blockX + 0.5 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
+            z: player.blockZ + 0.6 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
+            y: PLATFORM_SPAWN_HEIGHT
+        };
+        if (!is_near_existing_platform(coords)) {
+            let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
+            existing_platforms_x.push(Integer.parseInt(Math.trunc(coords.x).toString()));
+            Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
+            let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
+            existing_platforms_z.push(Integer.parseInt(Math.trunc(coords.z).toString()));
+            Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
+            Utils.server.persistentData.put
+            return coords;
+        }
+    }
+    return null;
+}
+
+function is_near_existing_platform(coords) {
+    let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x");
+    let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z");
+    for (let i = 0; i < existing_platforms_x.length; i++) {
+        if (distance(Math.trunc(coords.x), Math.trunc(coords.z), existing_platforms_x[i], existing_platforms_z[i]) < MIN_PLATFORM_DISTANCE) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function distance(x1, z1, x2, z2) {
+    return Math.max(Math.abs(x1 - x2), Math.abs(z1 - z2));
 }
 
 function randInt(min, max) {
