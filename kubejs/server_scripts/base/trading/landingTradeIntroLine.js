@@ -79,16 +79,16 @@ const mlcSand = getAgreement({
     "botania:mana_spreader",
   ],
   requestedItems: [
-    "64x minecraft:sand",
-    "64x minecraft:sand",
-    "64x minecraft:sand",
-    "64x minecraft:sand",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
   ],
   title: "Your Sand – Our Beaches?",
   orderedAmount: 2,
   company: "magical_landscaping_co",
   message:
-    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
+    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, white, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
 });
 const mlcSand2 = getAgreement({
   paymentItems: [
