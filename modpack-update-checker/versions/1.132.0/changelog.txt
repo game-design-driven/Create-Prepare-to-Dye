@@ -1,0 +1,8 @@
+## [1.132.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.131.7...1.132.0) (2023-12-10)
+
+
+### Features
+
+* reduce difficulty of first mlc trade ([4feb846](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4feb846a0c9438f2124e032c74d9e9a308ca299a))
+
+
