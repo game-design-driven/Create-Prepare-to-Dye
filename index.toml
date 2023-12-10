@@ -310,7 +310,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "5041ff2935aaa645e20da5de2300aeb1b57039317b5300a18f5fa15ca8cf74a4"
+hash = "6a7b939c4197ac9c64a4fb1c4cbf2fa9e66e473af761fd9a5e4b94decbf9f94c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1222,7 +1222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2d2f8c5aff4369c0015e254c8c5b545573c2b4b20c5bfedffe81693cbeb97284"
+hash = "eb90a662fe5603de82b433fbf0455d61ad99febd6b12096993b57ad81ec1f775"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1698,7 +1698,7 @@ hash = "e7ca3407c104dc41a51631589f73b42de15a840082199e24fb7586818ab288b4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
-hash = "4c620fd7da54c2b04a6839026e038bb5f88c1bb4708c2bbb75e5888803991b87"
+hash = "912ac0ada52691d903318cef03b5d4810773e0e3c20cd8ba5317305737d75631"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
@@ -1962,7 +1962,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0f164859eb03190950d6fc85657a30c830aa8ca948fd685c78219df92446eb95"
+hash = "99cd1553e008a136cfff540b45bc4009381bf1b7163f74970de8f9829a811ead"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2407,6 +2407,10 @@ hash = "af37dab39fea590066205a236fd5f93c1b341b7432fd87c2aef5a0f4c1dd5f13"
 [[files]]
 file = "modpack-update-checker/versions/1.134.0/changelog.txt"
 hash = "3bd0bf626877c7386fa215466506a64e8f438523b755f0775a17582a6c9e1448"
+
+[[files]]
+file = "modpack-update-checker/versions/1.134.1/changelog.txt"
+hash = "0b16f5361a2d728941ad83b947c02d7ceef9ba2122b177a311727d4b60097701"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

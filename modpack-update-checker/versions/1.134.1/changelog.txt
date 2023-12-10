@@ -1,0 +1,8 @@
+### [1.134.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.0...1.134.1) (2023-12-10)
+
+
+### Minor tweaks
+
+* compensate players with transievers because trading platforms landed far away before ([60b8f34](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/60b8f3469a37dc153f80d0649aaab88c5e7f10bb))
+
+
