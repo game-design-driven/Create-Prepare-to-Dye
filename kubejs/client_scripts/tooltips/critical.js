@@ -50,3 +50,5 @@ addTooltip(
   "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find a _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_"
 );
 addTooltip("supplementaries:ash", "Ash is created when things burn down");
+
+addTooltip('crafting_on_a_stick:stonecutter', "A _Personal Assembler_ is a powerful device that can convert devices between to other devices of the same type. This specific one is also built into your Automaton model so you can press _V_ to open it, and throw this item away!")
