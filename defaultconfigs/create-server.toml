@@ -298,7 +298,7 @@
 				hand_crank = 64.0
 				steam_engine = 1024.0
 				creative_motor = 16384.0
-				large_water_wheel = 32.0
+				large_water_wheel = 64.0
 				water_wheel = 16.0
 				windmill_bearing = 512.0
 

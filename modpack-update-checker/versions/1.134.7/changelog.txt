@@ -1,0 +1,8 @@
+### [1.134.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.6...1.134.7) (2023-12-10)
+
+
+### Documentation and Localization
+
+* improve milk cell tooltip ([5513d5a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5513d5a39935c29db7f99fab517b7721e2d20dba))
+
+
