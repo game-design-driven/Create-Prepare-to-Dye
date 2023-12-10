@@ -37,6 +37,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(2)
     .resistance(6)
     .tagBlock("create:wrench_pickup")
+    .opaque(false)
     .notSolid()
     .redstoneConductor(false)
     .fullBlock(false)
