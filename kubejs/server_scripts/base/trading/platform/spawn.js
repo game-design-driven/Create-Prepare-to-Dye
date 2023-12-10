@@ -7,30 +7,31 @@ const MIN_PLATFORM_DISTANCE = 70;
 const MAX_COORDINATE_GENERATION_ATTEMPTS = 10;
 
 if (feature("Trading platforms")) {
-    ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
-        event.player.swing();
-        
+    PlayerEvents.loggedIn(event => {
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
             let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS);
-            Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
             let trade_items = global.starterDeals.map(deal => {
                 return deal.item;
             });
             spawnTradingPlatform(event.player, "Oculus the Wise", spawn_coordinates, trade_items);
-            event.item.count --;
+            Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
         }
-        else {
-            let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS);
-            if (spawn_coordinates === null) {
-                event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
-                event.cancel();
-                return;
-            }
-            spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
-            event.item.count --;
-        }
+    })
+
+    ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
+
+        event.player.swing();
         
+        let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS);
+        if (spawn_coordinates === null) {
+            event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
+            event.cancel();
+            return;
+        }
+
+        spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
+        event.item.count --;
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
         
         event.cancel();
