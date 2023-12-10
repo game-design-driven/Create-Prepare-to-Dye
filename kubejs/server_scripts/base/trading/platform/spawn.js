@@ -1,6 +1,7 @@
 const Integer = Java.loadClass('java.lang.Integer');
 const PLATFORM_SPAWN_HEIGHT = 350.15;
-const PLATFORM_SPAWN_RADIUS = 70;
+const REGULAR_PLATFORM_SPAWN_RADIUS = 70;
+const FIRST_PLATFORM_SPAWN_RADIUS = 7;
 const MIN_PLATFORM_DISTANCE = 40;
 const MAX_COORDINATE_GENERATION_ATTEMPTS = 10;
 
@@ -9,24 +10,24 @@ if (feature("Trading platforms")) {
 
         event.player.swing();
         
-        let spawn_coordinates = generate_spawn_coordinates(event.player);
-        if (spawn_coordinates === null) {
-            event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
-            event.cancel();
-            return;
-        }
-
-        event.item.count --;
-        
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
+            let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS);
             Utils.server.persistentData.putBoolean("spawned_first_trading_platform", true);
             let trade_items = global.starterDeals.map(deal => {
                 return deal.item;
             });
             spawnTradingPlatform(event.player, "Oculus the Wise", spawn_coordinates, trade_items);
+            event.item.count --;
         }
         else {
+            let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS);
+            if (spawn_coordinates === null) {
+                event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
+                event.cancel();
+                return;
+            }
             spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
+            event.item.count --;
         }
         
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
@@ -153,11 +154,11 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
     return pilot;
 }
 
-function generate_spawn_coordinates(player) {
+function generate_spawn_coordinates(player, radius) {
     for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
         let coords = {
-            x: player.blockX + 0.5 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
-            z: player.blockZ + 0.6 + randInt(-PLATFORM_SPAWN_RADIUS, PLATFORM_SPAWN_RADIUS + 1),
+            x: player.blockX + 0.5 + randInt(-radius, radius + 1),
+            z: player.blockZ + 0.6 + randInt(-radius, radius + 1),
             y: PLATFORM_SPAWN_HEIGHT
         };
         if (!is_near_existing_platform(coords)) {
