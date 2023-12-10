@@ -1,9 +1,9 @@
 const Integer = Java.loadClass('java.lang.Integer');
 const MIN_PLATFORM_SPAWN_HEIGHT = 350.15;
 const MIN_LANDING_HEIGHT_DIFF = 240.15;
-const REGULAR_PLATFORM_SPAWN_RADIUS = 70;
+const REGULAR_PLATFORM_SPAWN_RADIUS = 1;
 const FIRST_PLATFORM_SPAWN_RADIUS = 7;
-const MIN_PLATFORM_DISTANCE = 40;
+const MIN_PLATFORM_DISTANCE = 70;
 const MAX_COORDINATE_GENERATION_ATTEMPTS = 10;
 
 if (feature("Trading platforms")) {
