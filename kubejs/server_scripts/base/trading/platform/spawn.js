@@ -1,5 +1,6 @@
 const Integer = Java.loadClass('java.lang.Integer');
-const PLATFORM_SPAWN_HEIGHT = 350.15;
+const MIN_PLATFORM_SPAWN_HEIGHT = 350.15;
+const MIN_LANDING_HEIGHT_DIFF = 240.15;
 const REGULAR_PLATFORM_SPAWN_RADIUS = 70;
 const FIRST_PLATFORM_SPAWN_RADIUS = 7;
 const MIN_PLATFORM_DISTANCE = 40;
@@ -72,32 +73,8 @@ function spawnMainEntity(event, spawn_coordinates) {
     main_entity.persistentData.putString("landing_sequence_component", "main_entity");
     main_entity.persistentData.putByte("stage", global.landing_sequence.LANDING_STAGE);
     main_entity.persistentData.putByte("tick_counter", 0);
-    main_entity.persistentData.putShort("floor_level", get_floor_level(event.level, main_entity.blockX, main_entity.blockZ));
+    main_entity.persistentData.putShort("floor_level", spawn_coordinates.floor_level);
     return main_entity;
-}
-
-function get_floor_level(level, x, z) {
-    let y = PLATFORM_SPAWN_HEIGHT;
-    while (!check_floor(level, x, y, z)) {
-        y--;
-    }
-    return y
-}
-
-function check_floor(level, x, y, z) {
-    for (let x_diff = -1; x_diff <= 1; x_diff++) {
-        for (let z_diff = -1; z_diff <= 1; z_diff++) {
-            let block = level.getBlock(
-                x + x_diff,
-                y,
-                z + z_diff
-            );
-            if (!block.blockState.canBeReplaced("minecraft:water")) {
-                return true;
-            }
-        }
-    }
-    return false;
 }
 
 function spawnBaseContraption(event, spawn_coordinates, main_entity, items) {
@@ -156,24 +133,54 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
 
 function generate_spawn_coordinates(player, radius) {
     for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
+        let x = player.blockX + 0.5 + randInt(-radius, radius + 1);
+        let z = player.blockZ + 0.6 + randInt(-radius, radius + 1);
+        let floor_level = get_floor_level(player.level, x, z);
+        let y = Math.max(MIN_PLATFORM_SPAWN_HEIGHT, floor_level + MIN_LANDING_HEIGHT_DIFF);
         let coords = {
-            x: player.blockX + 0.5 + randInt(-radius, radius + 1),
-            z: player.blockZ + 0.6 + randInt(-radius, radius + 1),
-            y: PLATFORM_SPAWN_HEIGHT
+            x: x,
+            z: z,
+            y: y,
+            floor_level: floor_level,
         };
+
         if (!is_near_existing_platform(coords)) {
             let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
-            existing_platforms_x.push(Integer.parseInt(Math.trunc(coords.x).toString()));
+            existing_platforms_x.push(Integer.parseInt(Math.trunc(x).toString()));
             Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
             let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
-            existing_platforms_z.push(Integer.parseInt(Math.trunc(coords.z).toString()));
+            existing_platforms_z.push(Integer.parseInt(Math.trunc(z).toString()));
             Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
-            Utils.server.persistentData.put
             return coords;
         }
     }
     return null;
 }
+
+function get_floor_level(level, x, z) {
+    let y = MIN_PLATFORM_SPAWN_HEIGHT;
+    while (!check_floor(level, x, y, z)) {
+        y--;
+    }
+    return y
+}
+
+function check_floor(level, x, y, z) {
+    for (let x_diff = -1; x_diff <= 1; x_diff++) {
+        for (let z_diff = -1; z_diff <= 1; z_diff++) {
+            let block = level.getBlock(
+                x + x_diff,
+                y,
+                z + z_diff
+            );
+            if (!block.blockState.canBeReplaced("minecraft:water")) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 
 function is_near_existing_platform(coords) {
     let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x");
