@@ -108,5 +108,8 @@ if (feature('Slime from silicon')) {
 
 if (feature('Silicon from slime')) {
     addAlchemyRecipe('ae2:silicon', 'minecraft:slime_ball', 5000)
-    addFilling('2x ae2:silicon', 'minecraft:slime_ball','250x create_enchantment_industry:ink')
+    addAssembly('3x ae2:silicon', 'minecraft:slime_ball', [
+        addPressing('ae2:silicon', 'slime_ball'),
+        addFilling('ae2:silicon', 'minecraft:slime_ball','250x create_enchantment_industry:ink')
+    ])
 }
