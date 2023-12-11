@@ -1,0 +1,8 @@
+### [1.139.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.4...1.139.5) (2023-12-11)
+
+
+### Minor tweaks
+
+* disable fast flight in creative ([cffdd92](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cffdd9219e83a21c0cc0dbb352fc40302a99a195))
+
+
