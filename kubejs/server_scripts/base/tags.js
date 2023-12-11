@@ -67,3 +67,9 @@ addToTag('forge:coral', [
     'minecraft:fire_coral',
     'minecraft:horn_coral',
 ])
+
+addToTag('forge:canvasables', [
+    'minecraft:leather',
+    'ae2:silicon',
+    'dried_kelp'
+])
