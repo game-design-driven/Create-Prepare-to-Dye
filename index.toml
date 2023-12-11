@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c82f27501b6a255f992ccad7f22b7e6d189b85723a27f7a237dea27158ca4579"
+hash = "48e4a7f24b167f988d86e357c47f8f5e35cacd4ea88b5ceaec1e520c3d437503"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -598,7 +598,7 @@ hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "85290d3ccccdf8b82e75f0946154296bdbef421422a83391bb464f90d0d6c6cf"
+hash = "1530b9c982426d77a22a6a35bb42ee3c8ac091f4f7c4879e1a61cbe5eda6d882"
 
 [[files]]
 file = "kubejs/assets/create/textures/item/crushed_raw_iron.png"
@@ -1274,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1e1708695ea3bc3a496f0eb12c896f2a6c54c1360aa555e25a36187f27b67918"
+hash = "66e992a8b374bf54f4cbf79126d84822accc891d7bd3e57624dec560dec663dc"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2110,7 +2110,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "40f72b9b0c8f304d21db668a289e8b1d990b9c4e4d09bd617474459ce127523e"
+hash = "98ec15a0c7b4232a45aaa6ffcbb956ba48b845cea0fe5aa9f624a7e28953f6f6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2695,6 +2695,10 @@ hash = "4e9d982131a91288c2bf04a0b468e31bbab5444c3cb547639b62f2d047df00ec"
 [[files]]
 file = "modpack-update-checker/versions/1.142.1/changelog.txt"
 hash = "717be39d79c11e80de16ef3ab2df99a88aed20d8ae9a7f7515ed646b78b33c31"
+
+[[files]]
+file = "modpack-update-checker/versions/1.142.2/changelog.txt"
+hash = "537694725bbfc2de87bb44c9791c97b1574657c32a91ebb0c4217b1a94e073f6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
