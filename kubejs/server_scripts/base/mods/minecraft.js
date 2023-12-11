@@ -244,3 +244,11 @@ if (feature('Fertilizer into water')) {
 if (feature('get dripstone')) {
     addInfusion('pointed_dripstone', 'granite')
 }
+
+if (feature('Stone tools from livingrock')) {
+    addShaped('stone_pickaxe',['lll',' s ',' s '], {l:'botania:livingrock', s:'stick'})
+    addShaped('stone_axe',['ll ','ls ',' s '], {l:'botania:livingrock', s:'stick'})
+    addShaped('stone_shovel',[' l ',' s ',' s '], {l:'botania:livingrock', s:'stick'})
+    addShaped('stone_sword',[' l ',' l ',' s '], {l:'botania:livingrock', s:'stick'})
+    addShaped('stone_hoe',['ll ',' s ',' s '], {l:'botania:livingrock', s:'stick'})
+}
