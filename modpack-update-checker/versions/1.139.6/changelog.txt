@@ -1,0 +1,8 @@
+### [1.139.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.5...1.139.6) (2023-12-11)
+
+
+### Documentation and Localization
+
+* document server files ([003c0ea](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/003c0ea0bd1be15adbfeec11814d522d6308992b))
+
+

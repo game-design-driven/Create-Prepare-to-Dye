@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b81da329bda3a11597bcd27a8b3d83660646c296f140ab207e1a1d3092fb9ac7"
+hash = "76eb5c479e1c759289c73dfc6e6b7e9a6133b2f8b4b1527f217373f94a598715"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1153,6 +1153,10 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
+file = "kubejs/assets/ptdye/models/block/locomotive_device.json"
+hash = "60ce1c7a05daf2e9142221b39deebfb5c2e0691e7f0bd4fbfd1e750829213e1a"
+
+[[files]]
 file = "kubejs/assets/ptdye/models/block/logic_device.json"
 hash = "5bd8f1fc869c3527a1e4430f31f978337f33350864a9a4fb15c48f8dc3f137be"
 
@@ -1201,6 +1205,10 @@ file = "kubejs/assets/ptdye/textures/block/hosecorner.png"
 hash = "41b9bbf2d18aa85d82199c2edcb374aa957cc18d5caf386352580cc209f5df9a"
 
 [[files]]
+file = "kubejs/assets/ptdye/textures/block/locomotive_device.png"
+hash = "16b2dcf1b233dc25ee2894b2ddee845fdf561b0459b1429c4c1f62385ff9742b"
+
+[[files]]
 file = "kubejs/assets/ptdye/textures/block/logic_device.png"
 hash = "f1d0ebc18daf3303c60a48e67fbb3a4992de7fa43419eee0e9916eeec2972a61"
 
@@ -1238,7 +1246,7 @@ hash = "3aa19621a27576418f766365fc8c57d6c35a65cf1a6d16668db6fc1648a0496b"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/item/trading_transceiver.png"
-hash = "1f44307af908cd4a8f1cf725a78024578b91a53699f61d1019723a2bfaec93a6"
+hash = "fde11a2056c949893ad17e0a162c99ac925dbeba6264c7259f8bcb85da28b852"
 
 [[files]]
 file = "kubejs/assets/quark/lang/en_us.json"
@@ -1266,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b19d0becb31f20ff8575185dcb270f033fd3274cb99bf3f0f449e14c5b645eba"
+hash = "4cb33fff29e11ad32468c4e12b44969e5502f51b21e610bf5e613a615b8d34f3"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1290,7 +1298,39 @@ hash = "31d909aee01e7169420bae66ea1043aaff20165c16cbc029b7d733e60b8700ec"
 
 [[files]]
 file = "kubejs/assets/wares/models/block/delivery_table.json"
-hash = "32ffa4a679808a3e6121d3e4a642d18d83f26bb5ceab7590b30da9c0a74a1d9e"
+hash = "799ea0c163cf2fc0ed1d43f66db3c5d094edace87651a78ef6d76858ce51bd2e"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_completed.aseprite"
+hash = "04b391ca78969ef1f7d897dde2f28f89d421573f5d809b8a4c2d88a82513f9f8"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_completed.png"
+hash = "d97a01220994fa2604eef8f07da4f79e111fcb1b99c7286d03092bc15183a109"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_completed.png.mcmeta"
+hash = "dc71b531cb203ae475ec384a7dee4d91f4456eeb0ead77c143bc5c8759f84119"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_expired.aseprite"
+hash = "01b3cb922ffaac9a4b1397f2623e6305305dbcc74e554db6b209f1160f20b81a"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_expired.png"
+hash = "990fd7995a76239d4880fce246669dd34aad5b780e4b1c4af828f79f6359dee5"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_regular.aseprite"
+hash = "c422f2198796cafd66f62e64cae78559233f2c7f470b8dc6a310fc8d9884270d"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_regular.png"
+hash = "ac01149696e365293cde7ef8dd13a30644cffa86d219a633f389600b8148bd08"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/agreement_regular.png.mcmeta"
+hash = "98b0e6299461fb24e6f1369cb20f1ffb6c79f872f0092438595e1c346257f4cb"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_bottom.png"
@@ -1298,7 +1338,7 @@ hash = "c391d5612fe7b912292f9367f143c769b68645eddea05372974e09f4a408f2de"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_extra.png"
-hash = "6cc68f9ac5eb3f1ddc9b2543244b1156985037ddb5f027e0d201b8058ce7b5ad"
+hash = "fce3f7a09a5e28bed05d4343057ac1d9120580640bc632c565c6c7087900ea60"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_front.png"
@@ -1306,19 +1346,31 @@ hash = "e786d6e1b5736bc05261d31b6ca8d8d12db43add992126170485c6477fae1617"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_side.png"
-hash = "5762083bcbf2f764a0879ba6748c2a97004969f1a42a944dddef94fb2e35dc39"
+hash = "70312e02ba5fe5d98840faa6a69b5d21380e6aa3fa87e75b6dc53f412f0a64e2"
+
+[[files]]
+file = "kubejs/assets/wares/textures/block/delivery_table_top.aseprite"
+hash = "f12643c22ca94c9a431b600440c4a22fdfcada28417f8a74796e62da516faae5"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_top.png"
-hash = "c1a0bfb31bc318c8337acdd8b6cd9ee560c1f6d12b0f0887c2a64aa38d33476d"
+hash = "dde55197cadce541677faf70cd06dc8ee5ff99259142b10111930c945b8808e4"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/delivery_table_top.png.mcmeta"
 hash = "cd7020e670293e8dd41fe2c065d3c9f53be4a5db40c538cf933801cd1f2c9d37"
 
 [[files]]
+file = "kubejs/assets/wares/textures/block/empty.png"
+hash = "38be5a9fb712cb81d81245d38f669df298b6e8490018f0617986489249ce0494"
+
+[[files]]
+file = "kubejs/assets/wares/textures/gui/agreement.png"
+hash = "9acd3c9a2b620f6cf9175879e42e5e09232fa17613979b0e72cfaf2db2288c1a"
+
+[[files]]
 file = "kubejs/assets/wares/textures/gui/seal/black_hole_bagels_llc.png"
-hash = "e2499100243e1a27b946832be7aac8ce79cecec620e808007248ece4440b97cf"
+hash = "f04ceb1a41ecad461229a88e8a38b0e52dcc337c8857016b4fc24f0977c862c5"
 
 [[files]]
 file = "kubejs/assets/wares/textures/gui/seal/boards_and_wires.png"
@@ -1355,6 +1407,18 @@ hash = "6b397580c0a2fe31cb7f3f88e33b1471d1ad1491a2001906a6b9c1fa97ffc964"
 [[files]]
 file = "kubejs/assets/wares/textures/gui/seal/stellar_sigil_syndicate.png"
 hash = "68f13b444b71da72e2e3ea509eb81b1f1cb0556d379263a45030ec4a41188589"
+
+[[files]]
+file = "kubejs/assets/wares/textures/item/completed_delivery_agreement.png"
+hash = "608ba84e14ca9d7f6a9f0fbf19ac9ac693119ba00e2c261bd7941a8143f2ceb4"
+
+[[files]]
+file = "kubejs/assets/wares/textures/item/delivery_agreement.png"
+hash = "1da5fbe2cf05a9cb816bbc747e1c9a762eb7f93db992c110f8c7308e47814f42"
+
+[[files]]
+file = "kubejs/assets/wares/textures/item/expired_delivery_agreement.png"
+hash = "eecd83b1f60b3c5d89ed4212618c3a29a62ccb81823f0e86a06b691b3694e1f7"
 
 [[files]]
 file = "kubejs/client_scripts/documentation.js.d"
@@ -2014,7 +2078,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/he_il.missing.json"
-hash = "ad895cfc49eb0e5b6954c6bffe16751841dc3c0b13badf9f534d6703a2206ed2"
+hash = "17881cdc0abc61bd3cd2e7fba6ea229c387dfaf3fe1217be97045486ce337d0e"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -2022,7 +2086,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2ab64a95cc89e21caf0b31c3f33c882a204109563920e9a8b485685e0ed9d990"
+hash = "19e47b7c45b6d7e432273639fa84affeafff1231e23540c01055b02fefa46cb7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2587,6 +2651,14 @@ hash = "6ffd6ab2839ea871ec5f1761d077285b419c838f42e41476de97645937c0be06"
 [[files]]
 file = "modpack-update-checker/versions/1.139.5/changelog.txt"
 hash = "10929eb2c90ed3a6398abf7fe5838bb9a56e7398a4c2aeea8608a5c3d9c27259"
+
+[[files]]
+file = "modpack-update-checker/versions/1.139.6/changelog.txt"
+hash = "4b94502e90a2b31e9ed905c3c95487e38f3f975a83e957287464a6f863abffe2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.140.0/changelog.txt"
+hash = "2a7dff6712efff5c3a8fe8eaa4f7c891b5247a63931eca7f815d9b2668399e54"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -3297,6 +3369,10 @@ metafile = true
 [[files]]
 file = "server/default.server.properties"
 hash = "fa6e77fcd1ed1bfc65f359c7450db5ebb453f67b542225b69192d0512ceed576"
+
+[[files]]
+file = "server/readme.md"
+hash = "deebffbf4df58a62b95192a4ae2f2b82a7ede6432d881d8f00d9c78713574aba"
 
 [[files]]
 file = "server/server-icon.png"

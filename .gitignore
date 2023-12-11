@@ -72,3 +72,7 @@ config/plasmovoice/server/voice_mutes.json
 /curseforge/fancymenu_data
 /curseforge/kubejs
 /curseforge/modpack-update-checker
+/figura/
+kubejs/server_scripts/base/featrues/removeCraftingTable.js
+config/bcc-common.toml
+mods/.index/figura.pw.toml
