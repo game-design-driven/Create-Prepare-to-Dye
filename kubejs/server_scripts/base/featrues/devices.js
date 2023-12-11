@@ -282,7 +282,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:brass_funnel",
     "supplementaries:brass_lantern",
     "createdieselgenerators:diesel_engine",
-    'storagedrawers:drawer_key'
+    'storagedrawers:drawer_key',
+    'storagedrawers:controller'
   ];
   addToTag("forge:device/brass", "ptdye:smart_device");
   addToTag("forge:device/brass", brassBasedDevices);
