@@ -205,6 +205,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/redstone", redstoneBasedDevices);
 
   addShapeless("ptdye:logic_device", "#forge:device/redstone");
+  addCrushing("ptdye:logic_device", "#forge:device/redstone");
+
   redstoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/redstone");
@@ -259,6 +261,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "createdieselgenerators:distillation_controller",
   ]);
   addShapeless("ptdye:sealed_device", "#forge:device/copper");
+  addCrushing("ptdye:sealed_device", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/copper");
@@ -284,7 +287,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/brass", "ptdye:smart_device");
   addToTag("forge:device/brass", brassBasedDevices);
   addShapeless("ptdye:smart_device", "#forge:device/brass");
-
+  addCrushing("ptdye:smart_device", "#forge:device/brass")
   addStonecutting("ptdye:smart_device", "#forge:device/brass");
 
   removeRecipe({ id: "create:brass_casing" });
@@ -315,6 +318,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/train", "ptdye:locomotive_device");
   addToTag("forge:device/train", trainDevices);
   addShapeless("ptdye:locomotive_device", "#forge:device/train");
+  addCrushing("ptdye:locomotive_device", "#forge:device/train");
   trainDevices.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/train");
@@ -328,6 +332,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/special_rail", "create:controller_rail");
   addToTag("forge:device/special_rail", tracks);
   addShapeless("create:controller_rail", "#forge:device/special_rail");
+  addCrushing("create:controller_rail", "#forge:device/special_rail");
   tracks.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/special_rail");
