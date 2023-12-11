@@ -125,6 +125,10 @@ if (feature("Remove crafting table recipes for devices")) {
   
   removeRecipe({ id: "create:andesite_casing" });
   addStonecutting("4x create:andesite_casing", "#forge:device/andesite");
+
+  addStonecutting("ptdye:mechanical_device", "#forge:device/andesite");
+  addStonecutting("ptdye:mechanical_device", "#forge:device/andesite/gearbox");
+
   addShapeless("ptdye:mechanical_device", [
     "create:andesite_casing",
     "create:andesite_casing",
@@ -170,6 +174,8 @@ if (feature("Remove crafting table recipes for devices")) {
   ];
   addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
+
+  addStonecutting('ptdye:sturdy_device', '#forge:device/cobblestone')
 
   addShapeless("ptdye:sturdy_device", "#forge:device/cobblestone");
   cobblestoneBasedDevices.forEach((device) => {
@@ -224,6 +230,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/copper", "ptdye:sealed_device");
   addToTag("forge:device/copper", copperBasedDevices);
 
+  addStonecutting("ptdye:sealed_device", "#forge:device/copper");
+
   removeRecipe({ id: "create:andesite_casing" });
   addStonecutting("4x create:copper_casing", "#forge:device/copper");
   addShapeless("ptdye:sealed_device", [
@@ -277,6 +285,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/brass", brassBasedDevices);
   addShapeless("ptdye:smart_device", "#forge:device/brass");
 
+  addStonecutting("ptdye:smart_device", "#forge:device/brass");
+
   removeRecipe({ id: "create:brass_casing" });
   addStonecutting("4x create:brass_casing", "#forge:device/brass");
   addShapeless("ptdye:smart_device", [
@@ -323,6 +333,8 @@ if (feature("Remove crafting table recipes for devices")) {
     addStonecutting(device, "#forge:device/special_rail");
   });
   addToTag("forge:indestructible", "#forge:device");
+
+  addStonecutting("ptdye:locomotive_device", "#forge:device/train");
 
   removeRecipe({ id: "create:railway_casing" });
   addStonecutting("4x create:railway_casing", "#forge:device/train");
