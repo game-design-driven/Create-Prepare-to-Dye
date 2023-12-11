@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3ca991677b9c6e5d17049549376cb98f02fcffda138d07322727e8a7c36dda33"
+hash = "f65de36b8f095f9c2ccffde2b9ae7ef2e830f330c2aa917f6df9b3d50e67be06"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1266,7 +1266,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "56f1c12b0e9059a68c4165165d918fc08af29346c37eceff0c6bbd268ebc4892"
+hash = "3026a239135062e2a046865ba79fd6dac5ab785d0ee5089770e547e367b37e6c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2022,7 +2022,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d524477e7b962291f22c0169726debbe692da45392664cfa390ee4130e221e5e"
+hash = "0b514c85c2050b7b44b3d62aafe77a6a79c484188338c139575bc700660e0439"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2567,6 +2567,10 @@ hash = "21b5ed20afb21c53aa79aabfacb05b43883a401d9a98dab8fcd69c8ebf796126"
 [[files]]
 file = "modpack-update-checker/versions/1.138.4/changelog.txt"
 hash = "fb328b4457cc5f43aa697f04389b2e02ebff334332a17a9985f92dd68f18574a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.139.1/changelog.txt"
+hash = "a578ed0ac9ce4ad49d63a25fbe6e2ae81500a0154ff2ce43cb0433f83e23f5f3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -3275,8 +3279,20 @@ hash = "0431e39d7e61bcc7d7e7c9090713eb958946c73f7278dd511ff578a8ab4fa6dd"
 metafile = true
 
 [[files]]
+file = "server/default.server.properties"
+hash = "fa6e77fcd1ed1bfc65f359c7450db5ebb453f67b542225b69192d0512ceed576"
+
+[[files]]
+file = "server/server-icon.png"
+hash = "d32e621f556d21159d404c2294aab664b8c6af38b094bd1d871d721eb1be46c9"
+
+[[files]]
+file = "server/server.properties"
+hash = "312c5cf24a0588cca50a2ce87c27f645ba152c5eb34554d4111671bb8d8c34d1"
+
+[[files]]
 file = "server/start-or-generate-server.sh"
-hash = "06d4f123c05b5a19bfd69391c5e8c969750524e88fa24331653a194c14df53c5"
+hash = "6163249488d801dc9248b64b2068509094571471a04dcabb2542ee411dd4f753"
 
 [[files]]
 file = "tools/create_original_name_aliases.py"
