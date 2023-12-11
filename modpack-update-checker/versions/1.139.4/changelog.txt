@@ -1,0 +1,8 @@
+### [1.139.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.3...1.139.4) (2023-12-11)
+
+
+### Fixes
+
+* Remove quotes in server setup batch script ([62df346](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/62df3462c6c124f4f42c1b781207670f56e796aa))
+
+
