@@ -248,6 +248,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "createdieselgenerators:distillation_controller",
     "createdieselgenerators:distillation_controller",
     "createdieselgenerators:distillation_controller",
+    "createdieselgenerators:distillation_controller",
   ]);
   addShapeless("ptdye:sealed_device", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
