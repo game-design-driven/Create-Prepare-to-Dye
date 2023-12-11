@@ -8,7 +8,7 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
       console.info(
         `current time: ${currentTime}, last milked: ${lastMilked}, time since last milked: ${timeSinceLastMilked}`
       );
-      if (timeSinceLastMilked < 500) {
+      if (timeSinceLastMilked < 440) {
         
         event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
         event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
