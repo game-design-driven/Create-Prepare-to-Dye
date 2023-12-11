@@ -19,7 +19,7 @@ Utils.server.runCommandSilent(`curios remove charm ${player.displayName.getStrin
     Utils.server.runCommandSilent(`curios remove ring ${player.displayName.getString()}`)
     Utils.server.runCommandSilent(`curios replace crafting_on_a_stick 0 ${player.displayName.getString()} with crafting_on_a_stick:stonecutter`)
     Utils.server.runCommandSilent(`curios replace head 0 ${player.displayName.getString()} with create:goggles`)
-    player.tell(Text.of('Use ').aqua().append(Text.of('V').red().append(Text.of(' to open your built-in device assembler').aqua())))
+    player.tell(Text.of('Use ').aqua().append(Text.of('V').red().append(Text.of(' to open your built-in Personal Assembler').aqua())))
 }
 if (feature('starter items')) {
     PlayerEvents.loggedIn((event) => {

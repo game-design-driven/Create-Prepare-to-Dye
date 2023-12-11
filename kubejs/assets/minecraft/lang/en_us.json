@@ -1,8 +1,8 @@
 {
-    "subtitles.ui.stonecutter.take_result": "Device Assembler used",
-    "block.minecraft.stonecutter": "Device Assembler",
-    "container.stonecutter": "Device Assembler",
-    "stat.minecraft.interact_with_stonecutter": "Interactions with Device Assembler",
+    "subtitles.ui.stonecutter.take_result": "Personal Assembler used",
+    "block.minecraft.stonecutter": "Personal Assembler",
+    "container.stonecutter": "Personal Assembler",
+    "stat.minecraft.interact_with_stonecutter": "Interactions with Personal Assembler",
     "block.minecraft.white_concrete_powder": "White Powder",
     "block.minecraft.red_concrete_powder": "Red Powder",
     "block.minecraft.orange_concrete_powder": "Orange Powder",

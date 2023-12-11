@@ -5,7 +5,7 @@
 		"alias.emi.nether_gold_ore": "Nether Gold Ore",
 		"alias.emi.iron_ore": "Iron Ore",
 		"alias.emi.deepslate_iron_ore": "Deepslate Iron Ore",
-		"emi.category.minecraft.stonecutting": "Device Assembler [V] to open",
+		"emi.category.minecraft.stonecutting": "Personal Assembler [V] to open",
 		"alias.emi.coal_ore": "Coal Ore",
 		"alias.emi.deepslate_coal_ore": "Deepslate Coal Ore",
 		"alias.emi.block_of_gold": "Block of Gold",
@@ -946,10 +946,10 @@
 		"item.create.andesite_alloy": "Gray Alloy"
 	},
 	"minecraft": {
-		"subtitles.ui.stonecutter.take_result": "Device Assembler used",
-		"block.minecraft.stonecutter": "Device Assembler",
-		"container.stonecutter": "Device Assembler",
-		"stat.minecraft.interact_with_stonecutter": "Interactions with Device Assembler",
+		"subtitles.ui.stonecutter.take_result": "Personal Assembler used",
+		"block.minecraft.stonecutter": "Personal Assembler",
+		"container.stonecutter": "Personal Assembler",
+		"stat.minecraft.interact_with_stonecutter": "Interactions with Personal Assembler",
 		"block.minecraft.white_concrete_powder": "White Powder",
 		"block.minecraft.red_concrete_powder": "Red Powder",
 		"block.minecraft.orange_concrete_powder": "Orange Powder",
