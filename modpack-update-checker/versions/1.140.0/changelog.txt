@@ -1,0 +1,8 @@
+## [1.140.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.6...1.140.0) (2023-12-11)
+
+
+### Features
+
+* wares mostly full mod retexture + locomotive device models and textures ([#392](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/392)) ([72836ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/72836ee2ef7b5deec3a452d4671fac587b41cf8f))
+
+
