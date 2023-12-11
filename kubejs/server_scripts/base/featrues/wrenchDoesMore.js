@@ -56,9 +56,6 @@ if (feature('Wrench picks up broken blocks')) {
         event.player.give(item);
       });
       event.block.set('minecraft:air')
-      // let randomPitch = Math.random() * (2 - 1) + 1;
-      // Utils.server.runCommandSilent(`playsound create:controller_take block @p ${event.player.x} ${event.player.y} ${event.player.z} 0.1 ${randomPitch}`);
-      console.log(randomPitch);
       event.cancel();
     }
   });
