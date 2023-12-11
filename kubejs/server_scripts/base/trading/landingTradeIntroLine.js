@@ -399,10 +399,25 @@ const sssHelmetsFixedRates = getAgreement({
   message:
     "Amazing! Its so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
+const cccRawWhiteOld = getAgreement({
+  paymentItems: [
+    "8x minecraft:leather",
+    "8x supplementaries:copper_lantern",
+    "2x createdieselgenerators:basin_lid",
+    "2x create:weighted_ejector",
+  ],
+  requestedItems: ["64x minecraft:raw_iron", "16x minecraft:raw_iron"],
+  title: "Supplements required",
+  orderedAmount: 3,
+  company: "cosmic_cuisine_collective",
+  message:
+    "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
+});
 const cccRawWhite = getAgreement({
   paymentItems: [
     "8x minecraft:leather",
     "8x supplementaries:copper_lantern",
+    "8x slime_ball",
     "2x createdieselgenerators:basin_lid",
     "2x create:weighted_ejector",
   ],
@@ -428,6 +443,7 @@ const cccIronBars = getAgreement({
 global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates], [cccRawWhite]);
+tradeBranch([cccIronBars, bcfPlates], [cccRawWhiteOld]);
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
@@ -436,7 +452,6 @@ tradeBranch(
   [bcfPlates2, mlcSand] //The trades that need to be completed and process for that
 );
 tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
-tradeBranch(bfcPickaxes, bcfPlates2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread], wscAxes);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
