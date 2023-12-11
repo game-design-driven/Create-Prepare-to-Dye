@@ -1,0 +1,13 @@
+### [1.137.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.137.1...1.137.2) (2023-12-11)
+
+
+### Documentation and Localization
+
+* improve pure daisy tooltip and lexica botania page ([d885fcc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d885fcc8d72b546cd23a54057883e44bdf60ff83))
+
+
+### Fixes
+
+* remove trading mesh terminal recipe ([24c013e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/24c013e697cac21bac7838741d0353bbe1680018))
+
+
