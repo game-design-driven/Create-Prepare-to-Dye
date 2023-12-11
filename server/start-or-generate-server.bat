@@ -1,13 +1,13 @@
 @echo off
-set FORGE_VERSION="43.3.5"
-set MC_VERSION="1.19.2"
-set PACK_NAME="Create: Prepare to Dye"
-set MTD_SUFFIX=" - Server"
+set FORGE_VERSION=43.3.5
+set MC_VERSION=1.19.2
+set PACK_NAME=Create: Prepare to Dye
+set MTD_SUFFIX= - Server
 :: Credit to @jeremiahwinsley for template
 set MIRROR=https://maven.allthehosting.com/releases/
 set MIRROR=https://maven.minecraftforge.net/
-set INSTALLER="forge-%MC_VERSION%-%FORGE_VERSION%-installer.jar"
-set FORGE_URL="%MIRROR%net/minecraftforge/forge/%MC_VERSION%-%FORGE_VERSION%/forge-%MC_VERSION%-%FORGE_VERSION%-installer.jar"
+set INSTALLER=forge-%MC_VERSION%-%FORGE_VERSION%-installer.jar
+set FORGE_URL=%MIRROR%net/minecraftforge/forge/%MC_VERSION%-%FORGE_VERSION%/forge-%MC_VERSION%-%FORGE_VERSION%-installer.jar
 
 :JAVA
 if not defined JAVA_PATH (
