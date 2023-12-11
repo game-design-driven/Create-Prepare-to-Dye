@@ -85,3 +85,6 @@ if (feature('Remove mana fluxfield')) {
     removeItem('botania:mana_fluxfield')
     
 }
+if (feature('Remove mushroom stew recipe from botania')) {
+    removeRecipe({ id: 'botania:mushroom_stew' })
+}

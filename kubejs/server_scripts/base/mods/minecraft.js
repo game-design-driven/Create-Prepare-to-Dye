@@ -91,9 +91,6 @@ if (feature('Bamboo recipes')) {
 if (feature('Crying obsidian recipes')) {
     // addBlockAnvil('crying_obsidian', 'obsidian')
 }
-if (feature('Shapeless lever')) {
-    replaceShapeless('lever',['#forge:cobblestone','#forge:rods'])
-}
 if (feature('Sponge recipes')) {
     addMixing('sponge',['#minecraft:leaves', '9x #forge:plastic'],temperature.heated,2000)
 }
@@ -188,8 +185,8 @@ if (feature('Endstone from cheese')) {
 }
 
 if (feature('Item frame recipes')) {
-    addShaped('item_frame', ['###', '#s#', '###'], { '#': 'stick', s: '#forge:silicon' })
-    addShaped('item_frame', ['###', '#s#', '###'], { '#': 'stick', s: 'minecraft:dried_kelp' })
+    removeRecipe({id: 'minecraft:item_frame'})
+    addShapeless('item_frame', ['stick', 'stick', 'stick', '#forge:canvasables'])
 }
 
 if (feature('Sugar recipe tweaks')) {

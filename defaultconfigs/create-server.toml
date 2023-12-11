@@ -298,7 +298,7 @@
 				hand_crank = 64.0
 				steam_engine = 1024.0
 				creative_motor = 16384.0
-				large_water_wheel = 32.0
+				large_water_wheel = 64.0
 				water_wheel = 16.0
 				windmill_bearing = 512.0
 
@@ -435,7 +435,7 @@
 	#.
 	#The Maximum Distance at which a Toolbox can interact with Players' Inventories.
 	#Range: > 1
-	toolboxRange = 10
+	toolboxRange = 100
 	#.
 	#The Maximum volume of Air that can be stored in a backtank = Seconds of underwater breathing
 	#Range: > 1
