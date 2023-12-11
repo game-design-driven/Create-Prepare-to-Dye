@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "02c941d7f50ef7a793fc25c20c711f81fa488a1d9e0801c221199179cad0c6af"
+hash = "165a1fc617dea4585731593709ef8bf677bb8a6a416b238296a174e8a83d18b0"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1254,7 +1254,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5157c46af36f710b340c560ae1d0909e0e4aadb64728ffdf7777745f42c21863"
+hash = "87b56334e2c005fe931a7004fc8a030995577d9ac6bcf9b16b1772005ae211e6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1758,7 +1758,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "927c3c0fe6bf792b1e057fa313b779f9fe8758f3b8182b197dc6bd09230294b2"
+hash = "0e8b1bab7138807fe2342ee3c676dac1ff467df884a78f482cba55d9ac1c8ff5"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -2002,7 +2002,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1e213244ca44b0b0f7b4ad6d24864bef7aba260dad148e3e49a314ef25214fef"
+hash = "427a06075df2856ad36de3a0968674a4cb31cbf26a9eb5ad336220b252531eba"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2511,6 +2511,10 @@ hash = "fb56806d149854e6233b8d9ca9f57c800676898e3e0a4c1fb81d29bfdeeba5da"
 [[files]]
 file = "modpack-update-checker/versions/1.136.0/changelog.txt"
 hash = "178c24b9208e02f7c38ea4cec445b2f02858da7bfb2598d14e70996423952721"
+
+[[files]]
+file = "modpack-update-checker/versions/1.137.0/changelog.txt"
+hash = "c8ffc89b2c0b4904c265400bd9b62f9dd7b26b526f0e072db4282c83770f671f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
