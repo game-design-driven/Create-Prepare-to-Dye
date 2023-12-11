@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e80744b83f213d2a0e7d15b43b767721a15994a21d6ba9ac356e1e70fbb39f96"
+hash = "630c73299ad9fc508eec6b9ac1eb68cda5aec27bb23a2bc822a110390627b974"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -526,7 +526,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/allEnglishTranslationKeys.json"
-hash = "3476b7e33f8052f62cf3a6898c28fab9768341adc4c4ac9b50da8ea2de0c9ad0"
+hash = "906f2d957d471d3298f607a9404f92fb3d792ce0badce5e26628cec28f46f856"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -582,7 +582,7 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "8e49c4e5775502d0a34316372040fd22bf2584b597d54862b45eacbb1eec5caf"
+hash = "063704346851100dc5a7c97baef83bcadb9722df1317a87a5c38cbf76980b46f"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -634,7 +634,7 @@ hash = "763d1b435835433e43633d529ea864c5edc495423dfaefeb55f87346a8fd12e2"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "db3a387baa94cd1ae8ead00b24117ae4ab83490f28012bec373bbcc55fb22cdb"
+hash = "234e790baf1320011992be147c2b82a485de30f58dd95366c8a694dcab673a5f"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -1274,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e393ea07841aafe4f65968fc2ea282ad98fb314908caf146372132cb3e52a66e"
+hash = "f039489634b961bb14c54ecbf4c88995d8311db389e1c143e694059bb9f45d8a"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1930,7 +1930,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "fc4a3f6d8ea9cfd573af2359840080fe33b7121afd4ce3833790a62e87776237"
+hash = "3c45e8d8b088cd36e95fcac9c6a6e125bbe6c39e08da5fa648dd1f2da4948a59"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1950,7 +1950,7 @@ hash = "6377dc4293b704d4fc85488482522ff5880cdda0f14861c3bef8c0d130cf3299"
 
 [[files]]
 file = "kubejs/server_scripts/base/process.js"
-hash = "58448688e114034a0445318dde1841d7cdbf177ccac320ec8521c7d0860d5bcc"
+hash = "7cc04ecc2bad3b32bd8d41074a21375b95a79d00e1c269f3de65b89563bc0203"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/appliedEnergistics.manager.js"
@@ -1978,7 +1978,7 @@ hash = "b08cad190944586cd55c7e93a6f2a691a80e533828cfa72f5b91cc393b0bd479"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "8ce55cf36f4f5b65420b00f2cb0c99a76cb5817ea2898465eda46d11ea236d18"
+hash = "7a7068f180fa6e7767a821f3fa93a797b1d8ad0418fefd06799d2d6524a1db44"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -1998,7 +1998,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "ef6a5b5de1c7481dd7183009b6c14a16a5a4e8abd6c0cd143f1ed10ac8b3d96e"
+hash = "c357ad176bd9dfc257b427c522a8ca9affa44b7e1aa87a9abc33edfb2ca44e32"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -2110,7 +2110,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "88a3a6f48d7d5008c23025cf2a51daf81720ba6440f8d25464ff4b3e8fc701bf"
+hash = "2021f1899f39ea4e520792d8ce40455d034c8973aa5497d16164599ef44115a1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2687,6 +2687,10 @@ hash = "2a7dff6712efff5c3a8fe8eaa4f7c891b5247a63931eca7f815d9b2668399e54"
 [[files]]
 file = "modpack-update-checker/versions/1.141.0/changelog.txt"
 hash = "90cffab5ad4a8adc6f67fc718f2d5f4bb3333412ceba8ba51994bfa089fe7966"
+
+[[files]]
+file = "modpack-update-checker/versions/1.142.0/changelog.txt"
+hash = "4e9d982131a91288c2bf04a0b468e31bbab5444c3cb547639b62f2d047df00ec"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
