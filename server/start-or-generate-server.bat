@@ -27,7 +27,14 @@ if not exist "libraries" (
     echo Forge not installed, installing now.
     if not exist %INSTALLER% (
         echo No Forge installer found, downloading from %FORGE_URL%
-        bitsadmin.exe /rawreturn /nowrap /transfer forgeinstaller /download /priority FOREGROUND %FORGE_URL% %INSTALLER%
+        @REM bitsadmin.exe /rawreturn /nowrap /transfer forgeinstaller /download /priority FOREGROUND %FORGE_URL% %INSTALLER%
+        where curl > null 2>&1
+        if %errorlevel% equ 0 (
+            curl -o %INSTALLER% -L %FORGE_URL%
+        ) else (
+            echo curl not found. Crying instead.
+            pause
+        )
     )
     
     echo Running Forge installer.
