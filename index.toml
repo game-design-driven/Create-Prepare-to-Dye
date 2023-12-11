@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "006d566f9e18ab0fc84289fc27b3a2cb0280d8c810dba6468026151fea2d6edf"
+hash = "12881e45271ad91b8f1006124a6ef0ff0ccc7c3b605a6dee5967eca98aa2d1b5"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -526,7 +526,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/allEnglishTranslationKeys.json"
-hash = "f18420586f307410b5ea2bed7039ac555154c86e1a4413bc56e6a149dbba7c67"
+hash = "3476b7e33f8052f62cf3a6898c28fab9768341adc4c4ac9b50da8ea2de0c9ad0"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -562,7 +562,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "773481c84ed948ad905762a3293934b6f46b648d76f553e2068b63571c5a328a"
+hash = "6624455533e6f69b7ae0ead5d24d108c5d0ae839f2b9f13299f1ece9414ce73b"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -582,7 +582,7 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "b21c3f25853b88e0717f0ca915ddb7f21cc010eb5efb9d0f53d50c6e30bfcb2b"
+hash = "8e49c4e5775502d0a34316372040fd22bf2584b597d54862b45eacbb1eec5caf"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -1266,7 +1266,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "34adae529667d173e164d74c4bc96d0ee3c58980ea7c9c0ede10b8e58eb1d6e8"
+hash = "40ab627a628392d8ff5bb1eca494a05e977c9444b07a37867db0e6039a828dff"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2010,7 +2010,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/he_il.missing.json"
-hash = "bc74739dd6b4ca9f1fcbd4acef1fa6844428c5a4f0bf2d9b1beeaaf6c013005b"
+hash = "2dd02b9a234bd87fa789c9b0cf1ceb02d6eebc05a6b4766ed53212f46b98b9ab"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -2018,7 +2018,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "9c1e752a7d7f7884e3bd4962f4e158e42cd64ead55f0a72b126cbf3e58b9476d"
+hash = "3ee48bd408d08353778796f69ffb1e28ecab6002bb960bcb19bc48c499631f5f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2535,6 +2535,10 @@ hash = "c8ffc89b2c0b4904c265400bd9b62f9dd7b26b526f0e072db4282c83770f671f"
 [[files]]
 file = "modpack-update-checker/versions/1.137.1/changelog.txt"
 hash = "1958becdd0719202c7b1a7fff02f1693c2dcdcb93646c451995703145925a99c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.137.2/changelog.txt"
+hash = "b9cae405d00635518bdc3e34bd1c4d737055fb265cc06e96b52a7e8921857dc4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
