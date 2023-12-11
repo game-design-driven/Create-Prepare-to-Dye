@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b85f0a1872d8b2d77c427ab0bf9b39c60aae476a97aa9505adfeb2daed2e4d7a"
+hash = "02c941d7f50ef7a793fc25c20c711f81fa488a1d9e0801c221199179cad0c6af"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1254,7 +1254,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "efd8de791a5e74993ee01240ee14416577e83dd8ad8bbe5c931c49677b7a1196"
+hash = "5157c46af36f710b340c560ae1d0909e0e4aadb64728ffdf7777745f42c21863"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1694,7 +1694,7 @@ hash = "dfd373d8effa70d5a75c27dcf6311e2c290b77eea273327d48160d1a2bc51c74"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "376cd05637f21afe714bfa380b837093308ba4c3a040b3602eed9e354ac3569e"
+hash = "f5d9ca2cd12db6ac1b094fe378bd947c368e9fe33d7f2a8084c2abad5872d0d9"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -1758,7 +1758,7 @@ hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "82a45d8674fd3ac9c1d5cae51acd10c5930edc78d904b023fb5a2406de2f2eb9"
+hash = "927c3c0fe6bf792b1e057fa313b779f9fe8758f3b8182b197dc6bd09230294b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1826,7 +1826,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "7ca7dc3772f0b5153add66db4d2bf591e85e159ad3789b8e18b6a844f22b1bc4"
+hash = "fc4a3f6d8ea9cfd573af2359840080fe33b7121afd4ce3833790a62e87776237"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -1882,7 +1882,7 @@ hash = "3f35179eba63c61f74d0767fb6d073821955b466f7277213478d4310b56e521c"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags.js"
-hash = "6f8283c94ae113688cecf3036279623664ebdc9a008ac2f689010ae47ebc6688"
+hash = "bdc14197f984d10126308f671ed2a9d03100975aa7f94b2fa1998c010b5f9ce0"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/backwardsCompatEngine.js"
@@ -2002,7 +2002,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cc6837efd5b0d9f107efd469a68146ee69e9082e71cb14d8905f6e537308f3d3"
+hash = "1e213244ca44b0b0f7b4ad6d24864bef7aba260dad148e3e49a314ef25214fef"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2507,6 +2507,10 @@ hash = "ade6e019ef8bb5745656236a1734fc2a3cda954fac6a7f7dd1e4389aec0319d8"
 [[files]]
 file = "modpack-update-checker/versions/1.135.1/changelog.txt"
 hash = "fb56806d149854e6233b8d9ca9f57c800676898e3e0a4c1fb81d29bfdeeba5da"
+
+[[files]]
+file = "modpack-update-checker/versions/1.136.0/changelog.txt"
+hash = "178c24b9208e02f7c38ea4cec445b2f02858da7bfb2598d14e70996423952721"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
