@@ -114,5 +114,6 @@
   "create.ponder.andesite_tunnel.text_2": "Whenever an Tunnel has connections to the sides...",
   "create.ponder.belt_casing.text_1": "Brass or Gray Casing can be used to decorate Mechanical Belts",
   "create.ponder.brass_funnel.text_1": "Funnels can only ever extract single items.",
-  "item.create.andesite_alloy": "Gray Alloy"
+  "item.create.andesite_alloy": "Gray Alloy",
+  "item.create.wrench": "Magnetic Wrench"
 }
