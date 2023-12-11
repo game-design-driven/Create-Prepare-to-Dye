@@ -105,7 +105,7 @@ const mlcSand2 = getAgreement({
     Item.of("minecraft:golden_pickaxe", 4, "{Damage:0}"),
     "32x dirt",
     "16x supplementaries:jar",
-    "ptdye:trading_transceiver",
+    "8x ptdye:smart_device",
     "ptdye:trading_transceiver",
   ],
   requestedItems: [
@@ -115,7 +115,7 @@ const mlcSand2 = getAgreement({
     "64x minecraft:sand",
   ],
   title: "More sand!",
-  orderedAmount: 5,
+  orderedAmount: 4,
   company: "magical_landscaping_co",
   message:
     "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
