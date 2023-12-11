@@ -1,0 +1,19 @@
+## [1.135.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.13...1.135.0) (2023-12-11)
+
+
+### Features
+
+* casings are made from devices ([659160d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/659160db36870bb88512ff767b6c0f899825b961))
+* drawer key is smart device ([95c4157](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95c4157663aa7ac5697c1f13259e1c680937bf47))
+
+
+### Minor tweaks
+
+* buff mana unpacking by making the mana price 1 instead of 250 ([f36337c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f36337c4891c12899f950e11a9495ba89831b581))
+
+
+### Fixes
+
+* mana crafting unpacking using crafting table which doesn't actually exsist ([86051c1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86051c1cd1c4c0c927ca2d4a2b90fb4fa11cd049))
+
+
