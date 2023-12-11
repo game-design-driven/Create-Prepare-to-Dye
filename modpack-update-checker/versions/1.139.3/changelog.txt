@@ -1,0 +1,8 @@
+### [1.139.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.2...1.139.3) (2023-12-11)
+
+
+### Fixes
+
+* use curl for server script ([b2112af](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b2112afc67775dfc7f74d175af14d498bda167f1))
+
+
