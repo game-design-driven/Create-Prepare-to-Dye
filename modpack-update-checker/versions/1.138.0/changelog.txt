@@ -1,0 +1,14 @@
+## [1.138.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.137.3...1.138.0) (2023-12-11)
+
+
+### Features
+
+* add slimeballs to the first ccc deal so players can craft glue earlier if they want ([30115da](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/30115da0012ba85f84ea34685b05b05bde67bde1))
+* drawer controller is now a smart device ([b457c0d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b457c0da946f3277ebe7732880721d08657b626a))
+
+
+### Developer experance improvments and changes
+
+* make creative flight faster because it's fun ([b51a16e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b51a16e2414b023d049dac28972ab3af88fd682f))
+
+

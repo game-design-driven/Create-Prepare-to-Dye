@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c31995f86c65ecf9b727baf5b76de7bb91699ec8e5dc1983f0079b8799573382"
+hash = "a2ab9e2a993f682f3cd22a22eb0742ba9a733031f5ac696168348b8a6790d8bb"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -634,7 +634,7 @@ hash = "763d1b435835433e43633d529ea864c5edc495423dfaefeb55f87346a8fd12e2"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "8cce70bb3d54c1e14c4ea65c95f8df137e80cf9026111c9369a2c80cbc2b4cd3"
+hash = "db3a387baa94cd1ae8ead00b24117ae4ab83490f28012bec373bbcc55fb22cdb"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -1266,7 +1266,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "dcc30a0117b597aa0d3bfac4183f0e5b93285e5688cf33de273ac4bb5c445a32"
+hash = "4510e25567238b44606b049b0bd0511967072d5de7e3831c66eed84e19db6818"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1697,8 +1697,16 @@ file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
 hash = "3542491be239252458bfa0edcbf1e59555fc4be484e5415268686faa46a32286"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/creativeUtils.js"
+hash = "16319d7de29577ac5848b22f8afabd67d2b8eaf3c49f602f27279ad1ed43bfec"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/deadPlanet.js"
 hash = "575e760eba70ef1136d39451278e4eb0bea96fd148704c0fe25e8da8cb905d1e"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/devices.js"
+hash = "bc0838333158136f6c16147671f053732a76a0c4bbae212a872f31f67be7bf22"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
@@ -1767,10 +1775,6 @@ hash = "429cb6ca0da565444528b478593549b4a5425530eb8ae9e72c99bc6266ec2011"
 [[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
 hash = "8b2c788e2f9506208b8c43a66cdb1fc74b48fa8fe0b09601d9c3dce678289400"
-
-[[files]]
-file = "kubejs/server_scripts/base/featrues/removeCraftingTable.js"
-hash = "0e8b1bab7138807fe2342ee3c676dac1ff467df884a78f482cba55d9ac1c8ff5"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/spaceship.js"
@@ -1906,7 +1910,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "f7232c74e228ef2700543450f8bca8ef56bef4a5f62e0deb45481a4ea4259d03"
+hash = "ef6a5b5de1c7481dd7183009b6c14a16a5a4e8abd6c0cd143f1ed10ac8b3d96e"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -2018,7 +2022,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "a591ddb2161a6a28d11f3e91242f0c04751547bb30f48dc9772f57f3d65bf07a"
+hash = "d55a2aeb58b899958dc3f7b77b1f9e9afbad3d500ec143f27b4d6053b8b633b4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2543,6 +2547,10 @@ hash = "b9cae405d00635518bdc3e34bd1c4d737055fb265cc06e96b52a7e8921857dc4"
 [[files]]
 file = "modpack-update-checker/versions/1.137.3/changelog.txt"
 hash = "ae51f89aef6e2d564137f43f3de8862bcd56e5ec391d28573794c42cc3ebd58c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.138.0/changelog.txt"
+hash = "2a7ce1397db2e168159d0678b39ce2f8f363550637cdfb31f8a16bf6ab38f567"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
