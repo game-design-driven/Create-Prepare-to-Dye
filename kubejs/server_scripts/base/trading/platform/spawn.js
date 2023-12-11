@@ -3,6 +3,7 @@ const MIN_PLATFORM_SPAWN_HEIGHT = 350.15;
 const MIN_LANDING_HEIGHT_DIFF = 240.15;
 const REGULAR_PLATFORM_SPAWN_RADIUS = 1;
 const FIRST_PLATFORM_SPAWN_RADIUS = 7;
+const FIRST_PLATFORM_MIN_LANDING_HEIGHT_DIFF = 500.15;
 const MIN_PLATFORM_DISTANCE = 70;
 const MAX_COORDINATE_GENERATION_ATTEMPTS = 1;
 
@@ -10,7 +11,7 @@ if (feature("Trading platforms")) {
 
     PlayerEvents.loggedIn(event => {
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
-            let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS);
+            let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS, FIRST_PLATFORM_MIN_LANDING_HEIGHT_DIFF);
             let trade_items = global.starterDeals.map(deal => {
                 return deal.item;
             });
@@ -23,7 +24,7 @@ if (feature("Trading platforms")) {
 
         event.player.swing();
         
-        let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS);
+        let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS, MIN_LANDING_HEIGHT_DIFF);
         if (spawn_coordinates === null) {
             event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
             event.cancel();
@@ -132,12 +133,12 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
     return pilot;
 }
 
-function generate_spawn_coordinates(player, radius) {
+function generate_spawn_coordinates(player, radius, min_height_diff) {
     for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
         let x = player.blockX + 0.5 + randInt(-radius, radius + 1);
         let z = player.blockZ + 0.6 + randInt(-radius, radius + 1);
         let floor_level = get_floor_level(player.level, x, z);
-        let y = Math.max(MIN_PLATFORM_SPAWN_HEIGHT, floor_level + MIN_LANDING_HEIGHT_DIFF);
+        let y = Math.max(MIN_PLATFORM_SPAWN_HEIGHT, floor_level + min_height_diff);
         let coords = {
             x: x,
             z: z,
