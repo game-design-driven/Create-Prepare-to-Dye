@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "165a1fc617dea4585731593709ef8bf677bb8a6a416b238296a174e8a83d18b0"
+hash = "006d566f9e18ab0fc84289fc27b3a2cb0280d8c810dba6468026151fea2d6edf"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -583,6 +583,18 @@ hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
 hash = "b21c3f25853b88e0717f0ca915ddb7f21cc010eb5efb9d0f53d50c6e30bfcb2b"
+
+[[files]]
+file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
+hash = "4f02537bd94c54329cc5ec41b8e4a151d33f62691f342eacd418eaf421b0f287"
+
+[[files]]
+file = "kubejs/assets/crafting_on_a_stick/models/item/stonecutter.json"
+hash = "e4db1b6a30b979a226861fddc8c407b18afb4b788d7a530de4caf2ee538ec69a"
+
+[[files]]
+file = "kubejs/assets/crafting_on_a_stick/textures/item/stonecutter.png"
+hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
@@ -1254,7 +1266,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "87b56334e2c005fe931a7004fc8a030995577d9ac6bcf9b16b1772005ae211e6"
+hash = "34adae529667d173e164d74c4bc96d0ee3c58980ea7c9c0ede10b8e58eb1d6e8"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1390,7 +1402,7 @@ hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "5b04a258f69e5f2518d30d602d48c182c1c88f63cfeb2299dae86b373d5f08e6"
+hash = "8d1984d810c512cd0050773e3a28b71ab380a3ab00eef75007ecc608321f6cc5"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
@@ -1738,7 +1750,7 @@ hash = "e7ca3407c104dc41a51631589f73b42de15a840082199e24fb7586818ab288b4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
-hash = "912ac0ada52691d903318cef03b5d4810773e0e3c20cd8ba5317305737d75631"
+hash = "808d13a5e3810e10f32a725df2c3bef4bee992ca4449d92448f2b6343945de09"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
@@ -1839,6 +1851,10 @@ hash = "8e95eb4674e0a59d2b5201c9de9009ded76320b94424d8f1503fff22e016eec8"
 [[files]]
 file = "kubejs/server_scripts/base/mods/wands.js"
 hash = "1063f61d55746a6c55f7cabe56772df4e93da48db7e4023759a74565b9fd372c"
+
+[[files]]
+file = "kubejs/server_scripts/base/mods/wares.js"
+hash = "6377dc4293b704d4fc85488482522ff5880cdda0f14861c3bef8c0d130cf3299"
 
 [[files]]
 file = "kubejs/server_scripts/base/process.js"
@@ -2002,7 +2018,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "427a06075df2856ad36de3a0968674a4cb31cbf26a9eb5ad336220b252531eba"
+hash = "9c1e752a7d7f7884e3bd4962f4e158e42cd64ead55f0a72b126cbf3e58b9476d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2515,6 +2531,10 @@ hash = "178c24b9208e02f7c38ea4cec445b2f02858da7bfb2598d14e70996423952721"
 [[files]]
 file = "modpack-update-checker/versions/1.137.0/changelog.txt"
 hash = "c8ffc89b2c0b4904c265400bd9b62f9dd7b26b526f0e072db4282c83770f671f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.137.1/changelog.txt"
+hash = "1958becdd0719202c7b1a7fff02f1693c2dcdcb93646c451995703145925a99c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
