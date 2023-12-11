@@ -96,7 +96,7 @@ if not %jver% geq 17  (
 ) 
 
 :START
-"%JAVA_PATH%" @user_jvm_args.txt @libraries/net/minecraftforge/forge/%MC_VERSION%-%FORGE_VERSION%/win_args.txt nogui
+"%JAVA_PATH%" @libraries/net/minecraftforge/forge/%MC_VERSION%-%FORGE_VERSION%/win_args.txt nogui
 
 if "%RESTART%" == "false" ( 
     goto:EOF 
