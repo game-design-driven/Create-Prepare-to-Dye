@@ -40,6 +40,7 @@ if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
         // console.info('recipe: ' + resultId + ' ' + ingredientId + ' ' + recipe.getId()+ 'removed: ' + recipe.removed)
         if (recipe.removed) return;
         addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 250, 'minecraft:crafting_table');
+        addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 1, 'ptdye:mechanical_device');
         // console.info('Adding infusion for "' + resultId + '" and "' + ingredientId+'"');
     });
 }
