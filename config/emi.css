@@ -9,12 +9,17 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: false;
+	cheat-mode: true;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
 	help-level: none;
+
+	/**
+	 * Where EMI should pull stacks from to populate the index.
+	 */
+	index-source: creative;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
