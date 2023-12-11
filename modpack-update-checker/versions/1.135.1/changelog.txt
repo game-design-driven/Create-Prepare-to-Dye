@@ -1,0 +1,13 @@
+### [1.135.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.135.0...1.135.1) (2023-12-11)
+
+
+### Fixes
+
+* stew recipe made with dye instead of mushrooms ([0d30519](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0d30519bd8b7ca84643f8c9e312580f808e584ef))
+
+
+### Minor tweaks
+
+* buff reach of toolbox. Need to delete serverconfig in your world to apply ([244c501](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/244c50119c97be005755bedfd520af5181849736))
+
+
