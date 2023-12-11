@@ -5,9 +5,6 @@ MC_VERSION="1.19.2"
 PACK_NAME="Create: Prepare to Dye"
 MTD_SUFFIX=" - Server"
 # Credit to @jeremiahwinsley for template https://github.com/AllTheMods/atm6-packaging/blob/main/templates/startserver-template-18.sh
-# To use a specific Java runtime, set an environment variable named ATM7_JAVA to the full path of java.exe.
-# To disable automatic restarts, set an environment variable named ATM7_RESTART to false.
-# To install the pack without starting the server, set an environment variable named ATM7_INSTALL_ONLY to true.
 MIRROR="https://maven.allthehosting.com/releases/" # atm mirror
 MIRROR="https://maven.minecraftforge.net/" # forge mirror
 INSTALLER="forge-${MC_VERSION}-${FORGE_VERSION}-installer.jar"
@@ -19,7 +16,7 @@ pause() {
 }
 
 if ! command -v "${JAVA_PATH:-java}" >/dev/null 2>&1; then
-    echo "Minecraft 1.19 requires Java 17 - Java not found. Either update java, or pass the path to the java.exe with the environment variable JAVA_PATH"
+    echo "Minecraft ${MC_VERSION} requires Java 17 - Java not found. Either update java, or pass the path to the java.exe with the environment variable JAVA_PATH"
     pause
     exit 1
 fi

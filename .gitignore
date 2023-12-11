@@ -21,7 +21,6 @@ hs_err_pid*
 
 ### Modpack ###
 *.bak
-*.bat
 *.mrpack
 *.zip
 
