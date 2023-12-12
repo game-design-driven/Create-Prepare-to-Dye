@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "30759372d5273c824ed207d8c7d5a1275092f8b9eba0618e9b51b718d6f4b910"
+hash = "8c77c44078cc09dfbee7353fd4e2b816b9b9860c4c82bbdf88d64f482087a97f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1274,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "17a0d341c6defc5780aea05361e59638e81f527ea901488079773a695bee1fe4"
+hash = "fb56caa91b11d05f202e896a46abdf031299a5bd527d0606e4f5f108ccd67dc1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1978,7 +1978,7 @@ hash = "b08cad190944586cd55c7e93a6f2a691a80e533828cfa72f5b91cc393b0bd479"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "7a7068f180fa6e7767a821f3fa93a797b1d8ad0418fefd06799d2d6524a1db44"
+hash = "43aec8fbed4280d62e7e15b48da78d62858197ebba860ab0e555d2d5d4190a2c"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -2110,7 +2110,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "27ebcbca7e2683bab144fbc3880eb95d0d328f485a3e5e117ad8294618ea5a42"
+hash = "47092f21eba4ff932fc3957ea25f64bed1bd557bac384cd80e6885ca20e336fc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2731,6 +2731,10 @@ hash = "982211d73da4efc0211ca209284471c42795dcff577ed1787f8e39490cff9cb8"
 [[files]]
 file = "modpack-update-checker/versions/1.143.4/changelog.txt"
 hash = "a70d971ec84cfeb119f5fa5cdcb28c5c5092c1e2eed18c205f5c8509ff0e2a4c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.143.5/changelog.txt"
+hash = "6f18f805d4ba9ad3f77823c1cd75d78b9694b43e2bfc91ffa34e4e9918eea81d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
