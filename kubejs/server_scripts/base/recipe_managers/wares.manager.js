@@ -96,7 +96,8 @@ function tradeBranch(outputTrades, inputTrades) {
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
     );
-    hiddenUniversalRecipe.id = hiddenUniversalRecipe.id + "/hidden";
+    let random_string_id_10_chars= Math.random().toString(36).substring(7);
+    hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
   });
 }
 
