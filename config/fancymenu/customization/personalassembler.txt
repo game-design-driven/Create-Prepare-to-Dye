@@ -40,7 +40,7 @@ customization {
   enable_scrolling = true
   shadow = false
   scale = 1.0
-  source = Welcome to your very%n%own Intergalactic Mesh%n%Trading Terminal! Here%n%You can trade with %n%other awesome%n%capitalistic companies%n%like YOU! Completed%n%trades are mixed in %n%the mixer to get new %n%trades. No safty %n%checks are made on %n%any goods bought or%n%sold
+  source = Welcome to your very%n%own Intergalactic Mesh%n%Trading Terminal! Here%n%You can trade with %n%other awesome%n%capitalistic companies%n%like YOU! Completed%n%trades are mixed in %n%the mixer to get new %n%trades.%n%(No safety checks are%n%made on any goods%n%bought or sold.)
   text_border = 0
   case_mode = normal
   source_mode = direct

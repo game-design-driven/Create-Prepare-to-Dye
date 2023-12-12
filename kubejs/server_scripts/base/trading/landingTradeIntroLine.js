@@ -1,3 +1,13 @@
+// function getTradeNbtNameFilter(item) {
+//   console.log(`getting trade nbt name filter for ${item.getNbt()}`)
+//   return Item.of(item.id).withName(item.nbt.get("display").get("Name")).weakNBT();
+// }
+// addMixing(
+//   "stick",
+//   getTradeNbtNameFilter(
+//     Item.of("minecraft:stick", 2, "{Damage:0}").withName("Trading Transceiver")
+//   )
+// );
 const bcfPlates = getAgreement({
   paymentItems: [
     "32x minecraft:andesite",
@@ -14,11 +24,11 @@ const bcfPlates = getAgreement({
 const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
-    "8x ptdye:sealed_device",
-    "8x ae2:flawed_budding_quartz",
-    "4x ptdye:mechanical_device",
-    "4x ptdye:smart_device",
-    'create:super_glue'
+    "10x ptdye:sealed_device",
+    "10x ae2:flawed_budding_quartz",
+    "10x ptdye:mechanical_device",
+    "10x ptdye:smart_device",
+    "create:super_glue",
   ],
   requestedItems: [
     "64x create:iron_sheet",
@@ -41,7 +51,7 @@ const bfcPlatesPermanent = getAgreement({
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
 const bfcPickaxes = getAgreement({
-  paymentItems: ["32x create:track","8x ptdye:locomotive_device"],
+  paymentItems: ["32x create:track", "8x ptdye:locomotive_device"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
   orderedAmount: 2,
@@ -71,11 +81,11 @@ const mlcEndstoneFixed = getAgreement({
 const mlcSand = getAgreement({
   paymentItems: [
     // "botania:manasteel_shovel",
-    Item.of('minecraft:golden_pickaxe', 2, '{Damage:0}'),
+    Item.of("minecraft:golden_pickaxe", 2, "{Damage:0}"),
     "2x botania:rannuncarpus",
     "2x botania:hopperhock",
     "2x botania:mana_pool",
-    'dirt',
+    "dirt",
     "botania:mana_spreader",
   ],
   requestedItems: [
@@ -92,11 +102,11 @@ const mlcSand = getAgreement({
 });
 const mlcSand2 = getAgreement({
   paymentItems: [
-    Item.of('minecraft:golden_pickaxe', 4, '{Damage:0}'),
-    '32x dirt',
-    '16x supplementaries:jar',
-    'ptdye:trading_transceiver',
-    'ptdye:trading_transceiver'
+    Item.of("minecraft:golden_pickaxe", 4, "{Damage:0}"),
+    "32x dirt",
+    "16x supplementaries:jar",
+    "8x ptdye:smart_device",
+    "ptdye:trading_transceiver",
   ],
   requestedItems: [
     "64x minecraft:sand",
@@ -105,15 +115,15 @@ const mlcSand2 = getAgreement({
     "64x minecraft:sand",
   ],
   title: "More sand!",
-  orderedAmount: 5,
+  orderedAmount: 4,
   company: "magical_landscaping_co",
   message:
     "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
 });
-const mlcSandFixed=getAgreement({
+const mlcSandFixed = getAgreement({
   paymentItems: [
-    Item.of('minecraft:golden_pickaxe', 16, '{Damage:0}'),
-    '64x minecraft:cobblestone'
+    Item.of("minecraft:golden_pickaxe", 16, "{Damage:0}"),
+    "64x minecraft:cobblestone",
   ],
   requestedItems: [
     "64x minecraft:sand",
@@ -142,9 +152,7 @@ const bhbCheese = getAgreement({
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
 const bhbCheeseFixed = getAgreement({
-  paymentItems: [
-    '32x supplementaries:soap'
-  ],
+  paymentItems: ["32x supplementaries:soap"],
   requestedItems: ["64x kubejs:fermented_blob"],
   title: "Lets make some bagels",
   orderedAmount: 0,
@@ -167,7 +175,7 @@ const wscAxes = getAgreement({
     "16x minecraft:oak_log",
     "10x storagedrawers:oak_full_drawers_1",
     "2x minecraft:chest",
-    'ptdye:trading_transceiver'
+    "ptdye:trading_transceiver",
   ],
   requestedItems: ["16x #forge:tools/axes"],
   title: "A new season is upon us, Tools needed",
@@ -228,7 +236,7 @@ const bnwRedstone = getAgreement({
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
     "8x ae2:fluix_smart_cable",
-    "4x ptdye:logic_device"
+    "4x ptdye:logic_device",
   ],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Redstone from the red planet",
@@ -256,7 +264,7 @@ const bnwManasteel = getAgreement({
     ),
     "8x minecraft:lever",
     "8x minecraft:gold_ingot",
-    'ptdye:trading_transceiver'
+    "ptdye:trading_transceiver",
   ],
   requestedItems: [
     "64x botania:manasteel_ingot",
@@ -269,9 +277,7 @@ const bnwManasteel = getAgreement({
     "Hello again, we are experimenting with new types of processors based on a more conductive material, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
 });
 const bnwManasteelFixedRates = getAgreement({
-  paymentItems: [
-    "8x ptdye:logic_device",
-  ],
+  paymentItems: ["8x ptdye:logic_device"],
   requestedItems: [
     "64x botania:manasteel_ingot",
     "32x botania:manasteel_ingot",
@@ -283,7 +289,11 @@ const bnwManasteelFixedRates = getAgreement({
     "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
 });
 const bnwQuartz = getAgreement({
-  paymentItems: ["8x ptdye:smart_device", "8x minecraft:gold_ingot", "2x ptdye:logic_device"],
+  paymentItems: [
+    "8x ptdye:smart_device",
+    "8x minecraft:gold_ingot",
+    "2x ptdye:logic_device",
+  ],
   requestedItems: ["64x minecraft:quartz"],
   title: "Need raw materials for silicon",
   orderedAmount: 2,
@@ -296,7 +306,7 @@ const bnwCogs = getAgreement({
     "8x ptdye:smart_device",
     "8x ae2:fluix_smart_cable",
     "5x ae2:storage_bus",
-    '2x ae2:toggle_bus'
+    "2x ae2:toggle_bus",
   ],
   requestedItems: ["64x create:cogwheel"],
   title: "Assembly expansion",
@@ -310,7 +320,7 @@ const bnwPolishedRoseQuartz = getAgreement({
     "8x ae2:fluix_smart_cable",
     "4x create:mechanical_arm",
     "4x ae2:storage_bus",
-    "4x ptdye:logic_device"
+    "4x ptdye:logic_device",
   ],
   requestedItems: ["64x create:polished_rose_quartz"],
   title: "Assembly expansion",
@@ -343,9 +353,13 @@ const gbdSticks = getAgreement({
       "supplementaries:cage",
       '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
     ),
-    'ptdye:trading_transceiver'
+    "ptdye:trading_transceiver",
   ],
-  requestedItems: ["64x minecraft:stick", "64x minecraft:stick", "64x minecraft:stick"],
+  requestedItems: [
+    "64x minecraft:stick",
+    "64x minecraft:stick",
+    "64x minecraft:stick",
+  ],
   title: "Interested in exotic creatures?",
   orderedAmount: 1,
   company: "galactic_beast_deliveries",
@@ -356,7 +370,7 @@ const gdbLead = getAgreement({
   paymentItems: [
     Item.of(
       "supplementaries:cage",
-      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}',
+      '{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.34500000000000003d,Name:"minecraft:generic.movement_speed"},{Base:0.0d,Name:"forge:step_height_addition"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:0s,ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[0.5d,0.0626d,0.5d],Rotation:[0.0f,0.0f],id:"more_babies:blaze"},Name:"Blaze",Scale:0.4320988f,UUID:[I;321571076,-271104547,-1140807037,761034053]}},RepairCost:0,display:{Name:\'{"text":"Blazing MONSTROSITY of nether planet!","italic":"false"}\'}}'
     ),
   ],
   requestedItems: ["32x minecraft:lead"],
@@ -418,6 +432,7 @@ const cccRawWhite = getAgreement({
     "8x minecraft:leather",
     "8x supplementaries:copper_lantern",
     "8x slime_ball",
+    "8x create:cogwheel",
     "2x createdieselgenerators:basin_lid",
     "2x create:weighted_ejector",
   ],

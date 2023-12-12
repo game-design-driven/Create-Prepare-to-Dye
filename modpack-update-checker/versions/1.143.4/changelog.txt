@@ -1,0 +1,8 @@
+### [1.143.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.143.3...1.143.4) (2023-12-12)
+
+
+### Fixes
+
+* no public instance field or method named reachDistance ([bbdbcc2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bbdbcc2500cb2755a0b58002b1a16bd3b3a330fe))
+
+

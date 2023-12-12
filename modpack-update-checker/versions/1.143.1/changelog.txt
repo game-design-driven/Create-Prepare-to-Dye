@@ -1,0 +1,11 @@
+### [1.143.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.143.0...1.143.1) (2023-12-12)
+
+
+### Reverted Changes
+
+* Revert mods: update easy villigars ([07d60ff](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/07d60ff7ebb49ab4554b8013272f9ecc12c4ba67))
+* Revert mods: update embedium ([77e962c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/77e962c68a8771550468e4defe2f877033e05f62))
+* Revert mods: update saturn ([7908068](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7908068009cbe2102c8dc0cc683606362caccd00))
+* Revert mods: update lychee ([a012dfc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a012dfcb05f9ef15e7a0a6462d31cf7b984737cc))
+
+

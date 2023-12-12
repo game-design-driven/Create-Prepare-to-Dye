@@ -1,0 +1,8 @@
+### [1.142.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.142.0...1.142.1) (2023-12-11)
+
+
+### Minor tweaks
+
+* nerf sand trade a little ([d63287c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d63287ced5f3ef53724f7a1de68194e4e4e78792))
+
+

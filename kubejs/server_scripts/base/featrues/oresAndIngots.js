@@ -87,9 +87,7 @@ if (feature('Ore processing')) {
 
 }
 if (feature('Dye into ore')) {
-    addAssembly('minecraft:coal_ore', 'minecraft:stone',[
-        addFilling('minecraft:coal_ore', 'minecraft:stone', 'create_enchantment_industry:ink')
-    ],4)
+    addFilling('minecraft:coal_ore', 'minecraft:stone', 'create_enchantment_industry:ink')
 }
 if (feature('Gold')) {
     removeItem('gold_ore')

@@ -90,11 +90,22 @@ function tradeBranch(outputTrades, inputTrades) {
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => trade.completedItem.strongNBT())
+      inputTrades.map((trade) => trade.completedItem.weakNBT())
     );
+    let hiddenUniversalRecipe = e.recipes.create.mixing(
+      outputTrades.map((trade) => trade.item),
+      inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
+    );
+    let random_string_id_10_chars= Math.random().toString(36).substring(7);
+    hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
   });
 }
 
+function getTradeNbtNameFilter(item) {
+  console.log(`getting trade nbt name filter for ${item.getNbt()}`)
+  if (!item.getNbt()) return item.weakNBT();
+  return Item.of(item.id).withName(item.nbt.get("display").get("Name")).weakNBT();
+}
 console.info("Loading wares manager");
 ServerEvents.lowPriorityData((event) => {
   let obj = {
