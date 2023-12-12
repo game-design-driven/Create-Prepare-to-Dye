@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2e66586aa5c5e8a756ef08be60f0ff8e6a47d1c7f08d88a340dbf81e5bacf2c1"
+hash = "1eda0023e3fd9ccd812a787f1cd2d34f9b9704e29ebacf563ebb8f675101d49d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1045,12 +1045,20 @@ file = "kubejs/assets/minecraft/textures/entity/iron_golem/iron_golem_crackiness
 hash = "8aee112e34c13a4cc003d14f5be1cbdde79de9960bb77ad55b46a14df1df9b36"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/environment/clouds.png"
+hash = "ff0692e8fe1650719a1b1cd53e6a5e9fd8e4106fe1c5ac9b9670e5f28b0526bd"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/environment/rain.png"
 hash = "972fe3fe3e96137db29017f0529eef4b071768d6237c8d99480ff33b9cd8ff68"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/environment/snow.png"
 hash = "a117e2043c34e5e06828715cd96306e884c78bb31f4475a264e684a8e5a6d49b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/sun.png"
+hash = "3229ab5a0fbe7e6ae22c5d3f69794f2c68fa7090c0db549f2114deda0fcb5423"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/icons.png"
@@ -1274,7 +1282,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4728d1fa5328ed11e4a9108c32f98a698ba56c3499551a633b6eccac17b8b887"
+hash = "125da9b5f8a33105006c16c2edf954b699e4d9459bc9a4a370feff62ceb33853"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2110,7 +2118,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "6213ddbc7f2785265d8a8c019ee5c1bd68b9905ba20f2fa97829a92e08bb7dcd"
+hash = "907a5e4b8582ab3553e1a928fb5f806ced83615964a3e472da02f325fd248aa9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2739,6 +2747,10 @@ hash = "6f18f805d4ba9ad3f77823c1cd75d78b9694b43e2bfc91ffa34e4e9918eea81d"
 [[files]]
 file = "modpack-update-checker/versions/1.143.6/changelog.txt"
 hash = "6bf2b34c565d3490beb509dd574c759c48568a8b98967d09b1f0ec2aff46c352"
+
+[[files]]
+file = "modpack-update-checker/versions/1.144.0/changelog.txt"
+hash = "4265f7047a3d5d8afc3f55c52042a90625b5900ed575bf8a4d432810fd4cb3cd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
