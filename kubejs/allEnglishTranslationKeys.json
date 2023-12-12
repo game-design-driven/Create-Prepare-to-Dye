@@ -93,6 +93,10 @@
 			"key": "block.ae2.medium_quartz_bud.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_sealed_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.ptdye.trading_transceiver.tooltip.summary"
 		},
@@ -117,6 +121,10 @@
 			"key": "item.minecraft.copper_ingot.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_mechanical_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.redstone_ore.tooltip.summary"
 		},
@@ -133,6 +141,10 @@
 			"key": "block.create.blaze_burner.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_locomotive_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.ae2.energy_cell.tooltip.summary"
 		},
@@ -147,6 +159,10 @@
 		{
 			"namespace": "kubejs",
 			"key": "block.kubejs.organic_mass"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_logic_device"
 		},
 		{
 			"namespace": "minecraft",
@@ -177,6 +193,10 @@
 			"key": "block.ptdye.upside_down_fire"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_smart_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.ae2.terminal.tooltip.summary"
 		},
@@ -187,6 +207,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.white_concrete_powder.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_sturdy_device"
 		},
 		{
 			"namespace": "minecraft",
