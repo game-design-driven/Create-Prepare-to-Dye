@@ -1,0 +1,8 @@
+### [1.143.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.143.1...1.143.2) (2023-12-12)
+
+
+### Fixes
+
+* spelling and tweaked the format for personalassembler.txt ([#395](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/395)) ([45e79ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/45e79ee314fcc62e17f80012d3299b1a4bae942b))
+
+
