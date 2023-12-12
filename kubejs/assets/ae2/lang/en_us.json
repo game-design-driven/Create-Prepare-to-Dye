@@ -10,5 +10,8 @@
     "item.ae2.inverted_toggle_bus": "Inverted Toggle Bus",
     "item.ae2.storage_bus": "Storage Bus",
     "item.ae2.storage_monitor": "Storage Monitor",
-    "item.ae2.terminal": "Storage Terminal"
+    "item.ae2.terminal": "Storage Terminal",
+    "gui.ae2.units.appliedenergistics": "MILK",
+    "gui.ae2.SearchSettingsUseInternalSearch": "Use MILK",
+    "gui.ae2.units.rf": "MILK!"
 }
