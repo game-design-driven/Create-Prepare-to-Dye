@@ -1,0 +1,8 @@
+## [1.146.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.145.0...1.146.0) (2023-12-12)
+
+
+### Features
+
+* mesh terminal will now output from the sides TableOutputsFromSides ([cedea92](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cedea9273be238de77b69af6fe9e88ae3af07fc1))
+
+
