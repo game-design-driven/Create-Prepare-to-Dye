@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f48a739715d7ef0b3f8d71b381cbecb4c967071658e78a38bb73d74633b7fe13"
+hash = "62c178c0789b7761d7d47ef7e8fbb0283beb7ae033a0c917972b743057a0a601"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1342,7 +1342,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "18fe570d9e928814876dc8c9d8dea34e793b93b0728fee7636e27da7e455fe99"
+hash = "0dd25cd1dcd9b364d32461c9ecb5f2dd7ed249a91eba8d9eee4b5ecb126c0b2f"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1511,6 +1511,10 @@ hash = "35cffbbcf38b7b09a94ff4371ff503caa47eb99b55c7510391e98444933b5e3d"
 [[files]]
 file = "kubejs/assets/wares/textures/item/expired_delivery_agreement.png"
 hash = "446c32fbed7ea6d810c8bfa4d53aaac035c110feba784442292d9dfe385698c1"
+
+[[files]]
+file = "kubejs/client_scripts/customPonderIndexButton.js"
+hash = "399fb8c375bf97feed672c191713572511824fe0ba9a4cbadbedd7cab2dfcdda"
 
 [[files]]
 file = "kubejs/client_scripts/documentation.js.d"
@@ -2017,6 +2021,10 @@ file = "kubejs/server_scripts/base/mods/wares.js"
 hash = "6377dc4293b704d4fc85488482522ff5880cdda0f14861c3bef8c0d130cf3299"
 
 [[files]]
+file = "kubejs/server_scripts/base/ponderIndex.js"
+hash = "04e61c9aba39781aac713d7f102234049b3e5660fd16b5e0ba97981a95931d0c"
+
+[[files]]
 file = "kubejs/server_scripts/base/process.js"
 hash = "7cc04ecc2bad3b32bd8d41074a21375b95a79d00e1c269f3de65b89563bc0203"
 
@@ -2178,7 +2186,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b8a1b2287cbd799dfd9dd28628e666ea996f950c6f70f35a16a0c33458e76281"
+hash = "aa73e249d3013e2e4379c3cda3bc6b3fbea44131babbb914f77e48365ec9385c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2819,6 +2827,10 @@ hash = "8131f2a68ce5e455b41859ee6907fb8a7b00e29e6dceeb25c3e960551110a7ae"
 [[files]]
 file = "modpack-update-checker/versions/1.146.0/changelog.txt"
 hash = "9c557400540c1a9e030aee2ccd72e372e5ef7e8d2e0aeeace030bd0e8f96b358"
+
+[[files]]
+file = "modpack-update-checker/versions/1.147.0/changelog.txt"
+hash = "f291966635b073ba01839d7289305e577f07ead1420ecd369607a8c59db03a45"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
