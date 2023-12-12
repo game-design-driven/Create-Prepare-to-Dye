@@ -95,8 +95,16 @@ if (feature('Energy cell recycling')) {
 }
 
 if (feature('Me toggle bus recipe')) {
-    addStonecutting('ae2:toggle_bus', 'ae2:fluix_smart_cable')
-    addStonecutting('ae2:inverted_toggle_bus', 'ae2:fluix_smart_cable')
+    addToTag('forge:network_devices',[
+        'ae2:toggle_bus',
+        'ae2:inverted_toggle_bus',
+        'ae2:fluix_smart_cable',
+        'ae2:level_emitter',
+    ])
+    Item.of('#forge:network_devices').stacks.forEach(item => {
+        addStonecutting(item.id, '#forge:network_devices')
+    })
+
 
 }
 
