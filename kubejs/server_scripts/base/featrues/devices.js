@@ -8,41 +8,41 @@ if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/brass_casing" });
   let casings = [
     {
-      item: "ptdye:sealed_device",
+      item: "sealed_device",
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
       material: "#forge:silicon",
       amount: 2,
     },
     {
-      item: "ptdye:mechanical_device",
+      item: "mechanical_device",
       base: "#forge:stripped_logs",
       sheet: "create:iron_sheet",
       material: "create:andesite_alloy",
       amount: 2,
     },
     {
-      item: "ptdye:smart_device",
+      item: "smart_device",
       base: "#forge:stripped_logs",
       sheet: "create:brass_sheet",
       material: "create:polished_rose_quartz",
       amount: 4,
     },
     {
-      item: "ptdye:sturdy_device",
+      item: "sturdy_device",
       base: "minecraft:cobblestone",
       sheet: "create:iron_sheet",
       amount: 4,
     },
     {
-      item: "ptdye:logic_device",
+      item: "logic_device",
       base: "minecraft:smooth_stone",
       sheet: "create:copper_sheet",
       material: "minecraft:redstone",
       amount: 8,
     },
     {
-      item: "ptdye:locomotive_device",
+      item: "locomotive_device",
       base: "create:brass_sheet",
       sheet: "create:sturdy_sheet",
       material: "create:sturdy_sheet",
@@ -50,18 +50,21 @@ if (feature("Harder casing recipes")) {
     },
   ];
   casings.forEach((casing) => {
+    let transitionItem = Item.of("ptdye:incomplete_"+casing.item,{process:1})
     addAssembly(
-      Item.of(casing.item).withCount(casing.amount),
+      Item.of("ptdye:"+casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
         casing.material
-          ? addDeploying(casing.item, "create:cogwheel", casing.material)
+          ? addDeploying(casing.item, transitionItem, casing.material)
           : null,
-        addDeploying(casing.item, "create:cogwheel", casing.base),
-        addDeploying(casing.item, "create:cogwheel", casing.sheet),
+        addDeploying(casing.item, transitionItem, casing.base),
+        addDeploying(casing.item, transitionItem, casing.sheet),
       ].filter((item) => {
         return item;
-      })
+      }),
+      1,
+      "ptdye:incomplete_"+casing.item
     );
   });
 }
