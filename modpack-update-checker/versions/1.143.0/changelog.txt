@@ -1,0 +1,21 @@
+## [1.143.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.142.5...1.143.0) (2023-12-12)
+
+
+### Features
+
+* add level emmiter crafting from other network devices ([5d6b313](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5d6b313ae20a2f26ea7ddfd5fd14240532c1f9dc))
+
+
+### Modlist related changes
+
+* update easy villigars ([2835097](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2835097c1313903eee91351418bc8b00f99d274d))
+* update embedium ([7cf0dba](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7cf0dba0354a62283c8bbe291e4afbbc05faeacf))
+* update lychee ([a504b69](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a504b6987c575025909ad1c71fd3d82632172c01))
+* update saturn ([df7f74c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/df7f74c0144558114e2e0539fb681c4d524504d7))
+
+
+### Fixes
+
+* add delivery table and belt_connector to magnet blacklist ([8328e89](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8328e89bf616b977e7d8eccff4708e154f991ff6))
+
+

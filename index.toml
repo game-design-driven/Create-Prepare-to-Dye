@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7415026e945c8ce0b542577cc3ae730c81914a87e7c818ba27fee098a885adc5"
+hash = "b1280a8cdc2a4dd2dbc3258624e5edd32d89d7aef69a73ab151bff919664994f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -346,7 +346,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "524450aed1b5d28d3a226d590d341f8db0de6aba8c0c308e40a751c886d39416"
+hash = "fe4ef57255be900083645d79d6f4a0c0767cea87417fd5addfc333165c9d2af0"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1274,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "f9fce9222c1545ad92d850656693cbfbd624ce7641b2441c34e97f74f22f69c2"
+hash = "73034e810ad909af146cfaf89f9902975e5119455c96cc0ed1ea1b027b162504"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1914,7 +1914,7 @@ hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "d730f420960cbe8f6cd9a288b0faebbb9388722cbbdd24d40a5c9fc6bd7e5c7e"
+hash = "737dbd1cbc152473f76f3cf10f80b46b086c25154800f10dd79b787d86e10072"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -2110,7 +2110,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "043f25f4c1c645cb5424dff3097c3ed33e1e7c7ac76b5b21aed22aa6cbef3d7b"
+hash = "5b7c34e3967714f45b3307ec0624d036ae4b8e50a5e7dff3521229546680b968"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2713,6 +2713,10 @@ file = "modpack-update-checker/versions/1.142.5/changelog.txt"
 hash = "3de034582216ba5063467c0700772310afad1d2bb717b2db08846bd539545c43"
 
 [[files]]
+file = "modpack-update-checker/versions/1.143.0/changelog.txt"
+hash = "4c8f649ded82dd81ca90ed7428eb9a7638aa0f9d445dec6cdae4cf01f55ec9be"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "88b208d9f3603b75115554c511e11576379a41c4e65394a53224513f06772de8"
 
@@ -3165,12 +3169,12 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "c9cdf65ed744eabb3eaac6393db6e214d329417ee70a507027fe26dd304e8707"
+hash = "d4014fd3266c3e3ccce6f6f98101d304bfb299fa861bdf1b91a3559d092f83ec"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "3286e3fd475b8e0802fbee95f8a849345ab55057fba08121c969df14b51f1e41"
+hash = "93cc869ef2da6ebf50667f967181bb88a78a4dedcb977c936854a4d88ce57cf2"
 metafile = true
 
 [[files]]
@@ -3270,7 +3274,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "3f267ba046584a2a3201f7f2c912a7d2bceedbbd431ceaba6b620aa3c207ebe0"
+hash = "d30af3ba05b3b17fa98e9d1cc902a736470e4353e75531b52c8593a5d8e8e6a8"
 metafile = true
 
 [[files]]
@@ -3375,7 +3379,7 @@ metafile = true
 
 [[files]]
 file = "mods/saturn.pw.toml"
-hash = "609e1ff1ef8b8468201eb0f016e02ce9976eb3ca21451a31bc65d1b2e018f197"
+hash = "355fd7be858748ad6da4ecabd54d899ed93ec4a35d8067d694e26539b9ced012"
 metafile = true
 
 [[files]]
