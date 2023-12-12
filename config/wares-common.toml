@@ -11,6 +11,12 @@ KeepNBTWhenOpeningAgreement = true
 	#Each delivery requires (and consumes) a packaging. ('wares:delivery_boxes' tag)
 	#A slot for boxes will be added to delivery table. Default: true
 	DeliveriesRequireBoxes = false
+	#Delivery outputs can be taken by consumers from the side of the delivery table, in addition to the bottom.
+	#Default: false
+	TableOutputsFromSides = false
+	#Completed Delivery Agreement will be moved to the output slots when they have space.
+	#Default: true
+	MoveCompletedAgreementToOutput = false
 
 	[Delivery.Packager]
 		#Packager worker is required for Delivery Table to work.
