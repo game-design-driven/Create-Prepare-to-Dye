@@ -1,0 +1,8 @@
+### [1.142.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.142.4...1.142.5) (2023-12-12)
+
+
+### Modlist related changes
+
+* update wares ([a71aa20](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a71aa204de5d2136b43270e23dd913e5086b07a9))
+
+
