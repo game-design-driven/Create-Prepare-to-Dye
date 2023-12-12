@@ -1881,7 +1881,7 @@
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
-		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
+		"Magnetic Blacklist" = ["minecraft:tripwire_hook", "create:belt_connector", "wares:delivery_table"]
 		"Use Pre End Recipe" = true
 
 	[oddities.crate]
