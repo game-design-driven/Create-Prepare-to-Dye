@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b1280a8cdc2a4dd2dbc3258624e5edd32d89d7aef69a73ab151bff919664994f"
+hash = "cd7cbc8a0e959de7dac42307760fb1a2aceceafa36f47ae8fdac19f4ee3bd934"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1274,7 +1274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "73034e810ad909af146cfaf89f9902975e5119455c96cc0ed1ea1b027b162504"
+hash = "762291b533ca094882c4fc859334c7dbf70aa87247ba1578fa6944d6fbb64600"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2110,7 +2110,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5b7c34e3967714f45b3307ec0624d036ae4b8e50a5e7dff3521229546680b968"
+hash = "9b350ddac142ea761078563999f56b659c63d7272d8dc77df3b200bb99449d84"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2717,6 +2717,10 @@ file = "modpack-update-checker/versions/1.143.0/changelog.txt"
 hash = "4c8f649ded82dd81ca90ed7428eb9a7638aa0f9d445dec6cdae4cf01f55ec9be"
 
 [[files]]
+file = "modpack-update-checker/versions/1.143.1/changelog.txt"
+hash = "cb381b82cb9df1320e2326caddb6794c2532ab31c13d409469afc2830126b8e8"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "88b208d9f3603b75115554c511e11576379a41c4e65394a53224513f06772de8"
 
@@ -3169,12 +3173,12 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "d4014fd3266c3e3ccce6f6f98101d304bfb299fa861bdf1b91a3559d092f83ec"
+hash = "c9cdf65ed744eabb3eaac6393db6e214d329417ee70a507027fe26dd304e8707"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "93cc869ef2da6ebf50667f967181bb88a78a4dedcb977c936854a4d88ce57cf2"
+hash = "3286e3fd475b8e0802fbee95f8a849345ab55057fba08121c969df14b51f1e41"
 metafile = true
 
 [[files]]
@@ -3274,7 +3278,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "d30af3ba05b3b17fa98e9d1cc902a736470e4353e75531b52c8593a5d8e8e6a8"
+hash = "3f267ba046584a2a3201f7f2c912a7d2bceedbbd431ceaba6b620aa3c207ebe0"
 metafile = true
 
 [[files]]
@@ -3379,7 +3383,7 @@ metafile = true
 
 [[files]]
 file = "mods/saturn.pw.toml"
-hash = "355fd7be858748ad6da4ecabd54d899ed93ec4a35d8067d694e26539b9ced012"
+hash = "609e1ff1ef8b8468201eb0f016e02ce9976eb3ca21451a31bc65d1b2e018f197"
 metafile = true
 
 [[files]]
