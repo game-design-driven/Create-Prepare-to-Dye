@@ -52,3 +52,5 @@ addTooltip(
 addTooltip("supplementaries:ash", "Ash is created when things burn down");
 
 addTooltip('crafting_on_a_stick:stonecutter', "A _Personal Assembler_ is a powerful device that can convert devices between to other devices of the same type. This specific one is also built into your Automaton model so you can press _V_ to open it, and throw this item away!")
+
+addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it was the only resource this planet was good for, because of all the _bones_ found on this while soil, _White Powder_ rather.')

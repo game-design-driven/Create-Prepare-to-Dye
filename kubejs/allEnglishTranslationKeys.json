@@ -41,12 +41,12 @@
 			"key": "item.minecraft.iron_ingot.tooltip.summary"
 		},
 		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.trading_transceiver"
-		},
-		{
 			"namespace": "kubejs",
 			"key": "fluid.kubejs.organic_mass"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.trading_transceiver"
 		},
 		{
 			"namespace": "kubejs",
@@ -99,6 +99,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.ptdye.trading_transceiver.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.bone_meal.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
