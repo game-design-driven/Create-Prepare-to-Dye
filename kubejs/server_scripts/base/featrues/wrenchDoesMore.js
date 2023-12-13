@@ -63,7 +63,7 @@ if (feature('Wrench picks up broken blocks')) {
 
 if (feature('Wrench unencase pipes')) {
   BlockEvents.rightClicked('quark:encased_pipe', event => {
-    if (event.player.getMainHandItem().id === 'create:wrench' && !event.player.creative) {
+    if (event.player.getMainHandItem().id === 'create:wrench') {
       let block = event.block;
       // let prop = block.getProperties();
       // //check if only one of east west south north up down is true, and if so, make the opposite also true
@@ -77,7 +77,9 @@ if (feature('Wrench unencase pipes')) {
       //     prop.set(Utils.directions.getOpposite(dir), true);
       //   }
       // });
-      event.player.give('glass');
+      if (!event.player.creative){
+        event.player.give('glass');
+      }
       block.set('quark:pipe', block.getProperties());
       event.cancel();
     }
