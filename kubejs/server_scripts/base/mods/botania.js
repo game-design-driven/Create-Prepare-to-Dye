@@ -91,6 +91,6 @@ if (feature('Remove mushroom stew recipe from botania')) {
 
 if (feature('Lexica botania from book')) {
     // addApothecary('botania:lexicon', ['minecraft:book', 'botania:livingwood_twig'])
-    addShapeless('botania:lexicon', ['minecraft:book', 'botania:livingwood_twig'])
+    addShapeless('botania:lexicon', ['minecraft:book', 'dead_bush'])
 }
 }
