@@ -73,3 +73,9 @@ addToTag('forge:canvasables', [
     'ae2:silicon',
     'dried_kelp'
 ])
+
+addFluidToTag(`create:bottomless/allow`, [
+    'minecraft:milk',
+    'create:chocolate',
+    'create:honey'
+])
