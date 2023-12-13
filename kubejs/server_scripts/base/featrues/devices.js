@@ -393,11 +393,11 @@ if (feature("Remove crafting table recipes for devices")) {
         addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
         addPressing("create:track", "#create:sleepers"),
       ],
-      2,
+      undefined,
       "create:incomplete_track"
     );
     addAssembly(
-      ["32x create:track %90", "raw_iron %4", "iron_nugget %3", "stone %3"],
+      ["32x create:track"],
       "#create:sleepers",
       [
         addDeploying("create:track", "#create:sleepers", "#minecraft:logs"),
