@@ -94,8 +94,8 @@ if (feature('Lexica botania from book')) {
     addShapeless('botania:lexicon', ['dead_bush', 'minecraft:book'])
 }
 
-if (feature('Flower placement')) {
-    BlockEvents.placed('botania:pure_daisy', (event) => {
-        event.cancel()
-    })
-}
+// if (feature('Flower placement')) {
+//     BlockEvents.placed('botania:pure_daisy', (event) => {
+//         event.cancel()
+//     })
+// }
