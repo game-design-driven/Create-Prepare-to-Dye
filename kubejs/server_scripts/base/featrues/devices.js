@@ -377,7 +377,7 @@ if (feature("Remove crafting table recipes for devices")) {
     ]);
     removeRecipe({ id: "create:sequenced_assembly/track" });
     addAssembly(
-      ["16x create:track"],
+      ["32x create:track"],
       "#create:sleepers",
       [
         addDeploying(
