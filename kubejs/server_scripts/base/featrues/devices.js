@@ -309,7 +309,6 @@ if (feature("Remove crafting table recipes for devices")) {
   });
 
   let trainDevices = [
-    "railways:track_monorail",
     "create:controls",
     "create:track_observer",
     "create:track_signal",

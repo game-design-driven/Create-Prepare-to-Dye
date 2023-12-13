@@ -179,9 +179,18 @@ if (feature("Alternate precision mechanism")) {
 }
 
 if (feature("better tracks")) {
+  removeAllFromTag("create:sleepers");
+  addToTag("create:sleepers", [
+    'stone',
+    'botania:livingrock',
+    'gray_concrete',
+    'light_gray_concrete',
+    'black_concrete',
+    'smooth_stone'
+  ]);
   removeRecipe({ id: "create:sequenced_assembly/track" });
   addAssembly(
-    ["create:track"],
+    ["16x create:track"],
     "#create:sleepers",
     [
       addDeploying(
@@ -194,22 +203,32 @@ if (feature("better tracks")) {
         "#create:sleepers",
         "botania:livingwood_planks"
       ),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
+      addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
       addPressing("create:track", "#create:sleepers"),
     ],
     2,
     "create:incomplete_track"
   );
   addAssembly(
-    ["create:track %90", "raw_iron %4", "iron_nugget %3", "stone %3"],
+    ["32x create:track %90", "raw_iron %4", "iron_nugget %3", "stone %3"],
     "#create:sleepers",
     [
       addDeploying("create:track", "#create:sleepers", "#minecraft:logs"),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
+      addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
+      addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
       addPressing("create:track", "#create:sleepers"),
     ],
     undefined,
+    "create:incomplete_track"
+  );
+
+  addAssembly(
+    ["32x railways:track_monorail"],
+    "create:metal_girder",
+    [
+      addDeploying("create:metal_girder", "create:metal_girder", "create:metal_girder"),
+    ],
+    16,
     "create:incomplete_track"
   );
 }
