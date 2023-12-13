@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7100bb5607bf2d012fc46e8ae2768383d147b27dd937a5d0cb09b2455a60e4e7"
+hash = "a5780d9fc1e807d87b8165feef985aae1017b3b8996c94c49eb02fdeb7b69c70"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1342,7 +1342,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "03f456daa4481340c5bb31d011cfd5e1b9be3513bb1300ef4b9af9ec4e27361a"
+hash = "0389c43bdb0f3783c9ac15c1b4f5525c74a7e2efe6ca602fdeb98d8dc2bdabd1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1990,7 +1990,7 @@ hash = "1c69badaac21b6ee3b52559bffa2663925b7c88eb1763938c7efbdedd7b8bbf1"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "fa1d548107f7a477049bb9222a088f23fe7a994f7d7e19b7b9536f48d7f47bd2"
+hash = "4e2fbf23f2fac30db24b37707bc0c8c2fecb6943e914761e06b20285019dac61"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -2186,7 +2186,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "22b4bf4d59dfe07f3255ea29fceeb6338d38367b933706c4871807ba1d690276"
+hash = "a4145848c53c7054a2580f95357dc0cd89070bf31af0016c251d3ebed3d960e9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2851,6 +2851,10 @@ hash = "e500000d645e4b757048fc5e0fe13f24c965d84db8d99ac9b53b88e51c57a51c"
 [[files]]
 file = "modpack-update-checker/versions/1.150.0/changelog.txt"
 hash = "7cfd7d3dd3617a7e1946c4311bc592b9dc2cef2693958d9f4f408c932ea9359a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.150.1/changelog.txt"
+hash = "0d1cc96e9bb3a182aac56bd577fd435a9f85450ce01795800289c62af2345d84"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
