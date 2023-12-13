@@ -88,3 +88,9 @@ if (feature('Remove mana fluxfield')) {
 if (feature('Remove mushroom stew recipe from botania')) {
     removeRecipe({ id: 'botania:mushroom_stew' })
 }
+
+if (feature('Lexica botania from book')) {
+    // addApothecary('botania:lexicon', ['minecraft:book', 'botania:livingwood_twig'])
+    addShapeless('botania:lexicon', ['minecraft:book', 'botania:livingwood_twig'])
+}
+}
