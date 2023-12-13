@@ -25,5 +25,7 @@
   },
   "minecraft:smelting": {
     "order": 100
+  "create:crushing": {
+    "order": -30
   }
 }
