@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "8ff7cd126823191708f2357bee5e77a0fc974371ed24fa9ddd46baabc395a183"
+hash = "80a3c03352a378923d4b26312bf4a0652aa074518acbbf173073cb30e1c79640"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -579,6 +579,10 @@ hash = "4a29580bd8c18567ab3609a217afe57bfb47ae19b996d29c8f0785fa139fd962"
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia_chibi.xcf"
 hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
+
+[[files]]
+file = "kubejs/assets/botania/textures/item/terrasteel_ingot.png"
+hash = "a2695ae006a52b141cc809cb3e5b7aaa7fc45407def746afa6eea10cd904ada1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
@@ -1009,6 +1013,10 @@ file = "kubejs/assets/minecraft/textures/block/powder_snow_cauldron_side_level_3
 hash = "97e57d316bdf87016cd475453dca36a8d3091619d3d4e31eda394e3bf12617d9"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/block/raw_copper_block.png"
+hash = "866aa480f46bc6480a1962a320ca72e538169a9efdca172e983520b23fdc3a45"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/block/raw_iron_block.png"
 hash = "4536a636fbc887f5060b7c92a9298276cfe5f0248ad47a957b2792945312ac5f"
 
@@ -1119,6 +1127,10 @@ hash = "e7bf14eb134fe198f2f524f3a26a2cfc35eab6b96d22a2e2fb706cd50e043bcd"
 [[files]]
 file = "kubejs/assets/minecraft/textures/item/purple_dye.png"
 hash = "f5832c6a644a31efe72955f5c4be3d34a2acd400f9a662bde9b3cb1309f6b905"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/raw_copper.png"
+hash = "3fc2aa746bfccc118217f591429239fda1e37340cb9e9c36c7594e66dbf0beb9"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/item/raw_iron.png"
@@ -1329,6 +1341,10 @@ file = "kubejs/assets/quark/textures/block/crate_open.png"
 hash = "605beac9ef890afb85395af06cead814babfd9436342cadefa7a6bcd63cc51d3"
 
 [[files]]
+file = "kubejs/assets/quark/textures/block/raw_copper_bricks.png"
+hash = "f8a54adc9f38dd4f1d8f971d2f4e265838a25888f3b099ffd1c9f32312627aff"
+
+[[files]]
 file = "kubejs/assets/quark/textures/block/raw_iron_bricks.png"
 hash = "2e2976fbd321fe9f6bcdf36b344975c6955b62ec28e3a3784620dd14c58a92dd"
 
@@ -1342,7 +1358,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9f86750025b0690bc48c4144e6003bffa401630ae5a55b0865795043f2754b9c"
+hash = "dd67d673d766f771d6d68c666893c4abc8fdf0877cb6a0864b380faf92b57eff"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1866,7 +1882,7 @@ hash = "9c7a554d63703b406c572a86c4ef2a35f1b09afe6247932586492becdbf5b777"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "2955339cd82a9a051fe95d182ee15602ea88ad07d3059113c0da758cb4d8655a"
+hash = "bffb8af5865c25856daf95a122162cd62801c4dc598544dc0f228c099249e24c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
@@ -1994,7 +2010,7 @@ hash = "f6168bd821c76cdbc5604bad46dda550f1f72d17daef4b6dd9c34356e0ce0a5e"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "819853f62e9565e72cb519075f87fb20e3e40ef0c28193248cd878bc74e9d64b"
+hash = "d7bde9b9cb249b2e11e4a93298aad04dae1c5462d56861a1b23b42378977d45b"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -2002,7 +2018,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "3c45e8d8b088cd36e95fcac9c6a6e125bbe6c39e08da5fa648dd1f2da4948a59"
+hash = "063d39494d1c77a5a6d3212006f55f2c3ce75ef6a73bcf9d86607320b9e1738f"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -2190,7 +2206,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ed3180792f791f4d117ea9f714f5587f2a30abf09f5d8086e59c4c573960ac96"
+hash = "fc3be50a8365cc408667d759d4b7bc77f06fb8baa862a3eef33829713c01fcd6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2863,6 +2879,10 @@ hash = "0d1cc96e9bb3a182aac56bd577fd435a9f85450ce01795800289c62af2345d84"
 [[files]]
 file = "modpack-update-checker/versions/1.151.0/changelog.txt"
 hash = "6f1ca90cfe63f7d652139406d6800d7f589550e805fdac0efb9e0a7ac8c16642"
+
+[[files]]
+file = "modpack-update-checker/versions/1.152.0/changelog.txt"
+hash = "71e882da02e8c50c84670875879610092c308e201223c1adfdb112ec093497ba"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
