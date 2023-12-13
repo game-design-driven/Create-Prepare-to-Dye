@@ -8,41 +8,41 @@ if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/brass_casing" });
   let casings = [
     {
-      item: "ptdye:sealed_device",
+      item: "sealed_device",
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
       material: "#forge:silicon",
       amount: 2,
     },
     {
-      item: "ptdye:mechanical_device",
+      item: "mechanical_device",
       base: "#forge:stripped_logs",
       sheet: "create:iron_sheet",
       material: "create:andesite_alloy",
       amount: 2,
     },
     {
-      item: "ptdye:smart_device",
+      item: "smart_device",
       base: "#forge:stripped_logs",
       sheet: "create:brass_sheet",
       material: "create:polished_rose_quartz",
       amount: 4,
     },
     {
-      item: "ptdye:sturdy_device",
+      item: "sturdy_device",
       base: "minecraft:cobblestone",
       sheet: "create:iron_sheet",
       amount: 4,
     },
     {
-      item: "ptdye:logic_device",
+      item: "logic_device",
       base: "minecraft:smooth_stone",
       sheet: "create:copper_sheet",
       material: "minecraft:redstone",
       amount: 8,
     },
     {
-      item: "ptdye:locomotive_device",
+      item: "locomotive_device",
       base: "create:brass_sheet",
       sheet: "create:sturdy_sheet",
       material: "create:sturdy_sheet",
@@ -50,18 +50,23 @@ if (feature("Harder casing recipes")) {
     },
   ];
   casings.forEach((casing) => {
+    let transitionItem = Item.of("ptdye:incomplete_" + casing.item, {
+      process: 1,
+    });
     addAssembly(
-      Item.of(casing.item).withCount(casing.amount),
+      Item.of("ptdye:" + casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
         casing.material
-          ? addDeploying(casing.item, "create:cogwheel", casing.material)
+          ? addDeploying(casing.item, transitionItem, casing.material)
           : null,
-        addDeploying(casing.item, "create:cogwheel", casing.base),
-        addDeploying(casing.item, "create:cogwheel", casing.sheet),
+        addDeploying(casing.item, transitionItem, casing.base),
+        addDeploying(casing.item, transitionItem, casing.sheet),
       ].filter((item) => {
         return item;
-      })
+      }),
+      1,
+      "ptdye:incomplete_" + casing.item
     );
   });
 }
@@ -111,7 +116,7 @@ if (feature("Remove crafting table recipes for devices")) {
     ["create:cogwheel %25", "create:iron_sheet %25"],
     "#forge:device/andesite"
   );
-  
+
   removeFromTag("forge:device/andesite", "create:vertical_gearbox");
   removeFromTag("forge:device/andesite", "create:gearbox");
   addToTag("forge:device/andesite/gearbox", "create:vertical_gearbox");
@@ -122,7 +127,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addShaped("create:vertical_gearbox", ["a"], {
     a: "create:gearbox",
   });
-  
+
   removeRecipe({ id: "create:andesite_casing" });
   addStonecutting("4x create:andesite_casing", "#forge:device/andesite");
 
@@ -175,7 +180,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
-  addStonecutting('ptdye:sturdy_device', '#forge:device/cobblestone')
+  addStonecutting("ptdye:sturdy_device", "#forge:device/cobblestone");
 
   addShapeless("ptdye:sturdy_device", "#forge:device/cobblestone");
   cobblestoneBasedDevices.forEach((device) => {
@@ -282,13 +287,13 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:brass_funnel",
     "supplementaries:brass_lantern",
     "createdieselgenerators:diesel_engine",
-    'storagedrawers:drawer_key',
-    'storagedrawers:controller'
+    "storagedrawers:drawer_key",
+    "storagedrawers:controller",
   ];
   addToTag("forge:device/brass", "ptdye:smart_device");
   addToTag("forge:device/brass", brassBasedDevices);
   addShapeless("ptdye:smart_device", "#forge:device/brass");
-  addCrushing("ptdye:smart_device", "#forge:device/brass")
+  addCrushing("ptdye:smart_device", "#forge:device/brass");
   addStonecutting("ptdye:smart_device", "#forge:device/brass");
 
   removeRecipe({ id: "create:brass_casing" });
@@ -306,7 +311,6 @@ if (feature("Remove crafting table recipes for devices")) {
   });
 
   let trainDevices = [
-    "railways:track_monorail",
     "create:controls",
     "create:track_observer",
     "create:track_signal",
@@ -351,4 +355,72 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:railway_casing",
   ]);
 
+  let createTracks = [
+    "railways:track_create_andesite_wide",
+    "railways:track_create_andesite_narrow",
+    "create:track",
+  ];
+  addToTag("forge:device/big_tracks", createTracks);
+  createTracks.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/big_tracks");
+  });
+  if (feature("better tracks")) {
+    removeAllFromTag("create:sleepers");
+    addToTag("create:sleepers", [
+      "stone",
+      "botania:livingrock",
+      "gray_concrete",
+      "light_gray_concrete",
+      "black_concrete",
+      "smooth_stone",
+    ]);
+    removeRecipe({ id: "create:sequenced_assembly/track" });
+    addAssembly(
+      ["32x create:track"],
+      "#create:sleepers",
+      [
+        addDeploying(
+          "create:track",
+          "#create:sleepers",
+          "botania:livingwood_planks"
+        ),
+        addDeploying(
+          "create:track",
+          "#create:sleepers",
+          "botania:livingwood_planks"
+        ),
+        addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
+        addPressing("create:track", "#create:sleepers"),
+      ],
+      undefined,
+      "create:incomplete_track"
+    );
+    addAssembly(
+      ["32x create:track"],
+      "#create:sleepers",
+      [
+        addDeploying("create:track", "#create:sleepers", "#minecraft:logs"),
+        addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
+        addDeploying("create:track", "#create:sleepers", "#forge:nuggets"),
+        addPressing("create:track", "#create:sleepers"),
+      ],
+      undefined,
+      "create:incomplete_track"
+    );
+
+    addAssembly(
+      ["32x railways:track_monorail"],
+      "create:metal_girder",
+      [
+        addDeploying(
+          "create:metal_girder",
+          "create:metal_girder",
+          "create:metal_girder"
+        ),
+      ],
+      16,
+      "create:incomplete_track"
+    );
+  }
 }

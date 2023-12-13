@@ -1,6 +1,66 @@
 {
     "aliases": [
         {
+            "stacks": "item:minecraft:stonecutter",
+            "text": "alias.emi.stonecutter"
+        },
+        {
+            "stacks": "item:minecraft:white_concrete_powder",
+            "text": "alias.emi.white_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:red_concrete_powder",
+            "text": "alias.emi.red_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:orange_concrete_powder",
+            "text": "alias.emi.orange_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:pink_concrete_powder",
+            "text": "alias.emi.pink_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:yellow_concrete_powder",
+            "text": "alias.emi.yellow_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:lime_concrete_powder",
+            "text": "alias.emi.lime_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:green_concrete_powder",
+            "text": "alias.emi.green_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:cyan_concrete_powder",
+            "text": "alias.emi.cyan_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:magenta_concrete_powder",
+            "text": "alias.emi.magenta_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:purple_concrete_powder",
+            "text": "alias.emi.purple_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:brown_concrete_powder",
+            "text": "alias.emi.brown_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:gray_concrete_powder",
+            "text": "alias.emi.gray_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:light_gray_concrete_powder",
+            "text": "alias.emi.light_gray_concrete_powder"
+        },
+        {
+            "stacks": "item:minecraft:black_concrete_powder",
+            "text": "alias.emi.black_concrete_powder"
+        },
+        {
             "stacks": "item:minecraft:gold_ore",
             "text": "alias.emi.gold_ore"
         },
@@ -701,6 +761,10 @@
             "text": "alias.emi.gold_lantern"
         },
         {
+            "stacks": "item:supplementaries:brass_lantern",
+            "text": "alias.emi.brass_lantern"
+        },
+        {
             "stacks": "item:supplementaries:lapis_bricks",
             "text": "alias.emi.lapis_bricks"
         },
@@ -733,8 +797,40 @@
             "text": "alias.emi.copper_bars"
         },
         {
+            "stacks": "item:create:brass_casing",
+            "text": "alias.emi.brass_casing"
+        },
+        {
+            "stacks": "item:create:brass_funnel",
+            "text": "alias.emi.brass_funnel"
+        },
+        {
+            "stacks": "item:create:brass_ladder",
+            "text": "alias.emi.brass_ladder"
+        },
+        {
+            "stacks": "item:create:brass_bars",
+            "text": "alias.emi.brass_bars"
+        },
+        {
+            "stacks": "item:create:brass_tunnel",
+            "text": "alias.emi.brass_tunnel"
+        },
+        {
+            "stacks": "item:create:brass_scaffolding",
+            "text": "alias.emi.brass_scaffolding"
+        },
+        {
+            "stacks": "item:create:brass_door",
+            "text": "alias.emi.brass_door"
+        },
+        {
             "stacks": "item:create:copper_casing",
             "text": "alias.emi.copper_casing"
+        },
+        {
+            "stacks": "item:create:railway_casing",
+            "text": "alias.emi.train_casing"
         },
         {
             "stacks": "item:create:copper_door",
@@ -1083,6 +1179,10 @@
         {
             "stacks": "item:create:andesite_alloy",
             "text": "alias.emi.andesite_alloy"
+        },
+        {
+            "stacks": "item:create:wrench",
+            "text": "alias.emi.wrench"
         },
         {
             "stacks": "item:botania:apothecary_default",

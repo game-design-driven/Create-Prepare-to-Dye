@@ -178,42 +178,6 @@ if (feature("Alternate precision mechanism")) {
   );
 }
 
-if (feature("better tracks")) {
-  removeRecipe({ id: "create:sequenced_assembly/track" });
-  addAssembly(
-    ["create:track"],
-    "#create:sleepers",
-    [
-      addDeploying(
-        "create:track",
-        "#create:sleepers",
-        "botania:livingwood_planks"
-      ),
-      addDeploying(
-        "create:track",
-        "#create:sleepers",
-        "botania:livingwood_planks"
-      ),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
-      addPressing("create:track", "#create:sleepers"),
-    ],
-    2,
-    "create:incomplete_track"
-  );
-  addAssembly(
-    ["create:track %90", "raw_iron %4", "iron_nugget %3", "stone %3"],
-    "#create:sleepers",
-    [
-      addDeploying("create:track", "#create:sleepers", "#minecraft:logs"),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
-      addDeploying("create:track", "#create:sleepers", "minecraft:iron_nugget"),
-      addPressing("create:track", "#create:sleepers"),
-    ],
-    undefined,
-    "create:incomplete_track"
-  );
-}
-
 if (feature("Funnels and tunnels with silicon and leather")) {
   if (!feature("Remove crafting table recipes for devices")) {
     addShaped("2x create:andesite_funnel", ["a", "l"], {
@@ -292,7 +256,7 @@ if (feature("Crushing wheel in regular crafting")) {
 if (feature('nerf bonemeal from calcite')){
   removeRecipe({id:'create:milling/calcite'})
   addMilling(['bone_meal 40%'], 'minecraft:calcite')
-  addCrushing(['bone_meal 20%', 'cobblestone 20%', 'nether_quartz %5'], 'minecraft:calcite')
+  addCrushing(['bone_meal 20%', 'cobblestone 20%', 'quartz %5'], 'minecraft:calcite')
 }
 
 if (feature('Recycle wrench')) {
