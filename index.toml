@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6e60ab403c1f49d02df191174deabf879f2a77332eba21cea69e2f7d32e2075b"
+hash = "6c60e70f07e30ba93283bd95da93ffb4b4f32fe5638916773a409ac5be39263c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1362,7 +1362,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "ae24e84f75e2e4a5fff651359aa9c2ad36d965e61bb0b5b06af4102aef1087b2"
+hash = "b586137246f99e0dc7fd2070cdb0540a78eb4a9a306bbc3d5005eaea5509edf2"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2022,7 +2022,7 @@ hash = "fbf78181ead8fe447a2165879f09b99ead4810753a6da8a7f1e29ec2bd78d31a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "d7bde9b9cb249b2e11e4a93298aad04dae1c5462d56861a1b23b42378977d45b"
+hash = "fc591fe3bf3857a2c2d615ae354a26b4216f56967262e7b7a6144227374e10a2"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -2218,7 +2218,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "180706704ea131b9b9bfd736c89447321a0d283391a1735accaef953d011fc46"
+hash = "d15dadb20b8fb5db32c128efb984b86d4c9bad39104244343b426e41897aa6cf"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2911,6 +2911,10 @@ hash = "ab9676218e55daf1c9572f64c3aa9e4c7863e9cdbf04167d3c9c46ef854c56ae"
 [[files]]
 file = "modpack-update-checker/versions/1.153.5/changelog.txt"
 hash = "fe6316a9498fd45979fa3219e47de3e88ad84a2bcdc775e5c2cec2a0e96c98c2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.153.6/changelog.txt"
+hash = "99279b625dbbad9c21d1314b79ccaf39978d32e58b7baaa90cd6fbe9794f09dd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
