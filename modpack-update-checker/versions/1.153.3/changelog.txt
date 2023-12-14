@@ -1,0 +1,8 @@
+### [1.153.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.2...1.153.3) (2023-12-14)
+
+
+### Features
+
+* removed deepslate ([#406](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/406)) ([7dc1f57](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7dc1f5719bb33f13ff68663b404f0afc08325727))
+
+
