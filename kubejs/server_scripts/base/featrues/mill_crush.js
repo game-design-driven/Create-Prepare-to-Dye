@@ -50,7 +50,7 @@ if (feature('Improve crushing recipes')) {
 
     addCrushing(['magenta_dye %80', 'purple_dye %40'], 'lilac')
 
-    addCrushing(['brown_dye %30', 'sand %25', 'ae2:large_quartz_bud %20'], 'soul_sand')
+    addCrushing(['brown_dye %30', 'sand %25', 'ae2:large_quartz_bud %10'], 'soul_sand')
 
     addCrushing(['white_dye %25', 'light_gray_dye %10', 'gray_dye %10'], 'bone_meal')
     addCrushing(['2x bone_meal', 'white_dye %25', 'pink_dye %25'], 'bone')
