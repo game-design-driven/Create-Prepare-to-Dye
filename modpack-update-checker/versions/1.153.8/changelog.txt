@@ -1,0 +1,8 @@
+### [1.153.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.7...1.153.8) (2023-12-14)
+
+
+### Fixes
+
+* datapack validation error ([834c845](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/834c845d6bf33131dad4d7f4a5c08d1726fd0a73))
+
+
