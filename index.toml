@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "79bce9e84bc0f8efcd7639b7649286bf53957426b0b86189261c95b888ca771f"
+hash = "4826c77faed7c2471d1ea8bef2b5a551a41906647a129c6861b602bc9c7a5e57"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -562,7 +562,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "6624455533e6f69b7ae0ead5d24d108c5d0ae839f2b9f13299f1ece9414ce73b"
+hash = "d614b13e1b99e7279c97e2797809794cb45966af597f62cbd486dfa99074cc50"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -586,7 +586,7 @@ hash = "a2695ae006a52b141cc809cb3e5b7aaa7fc45407def746afa6eea10cd904ada1"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "201bb6cbe889cd8ec0c45d173a8f1c1cd3a90cd4f3de625363c6599baf5d3cfd"
+hash = "cd7b77938cf76da712f3efc46afa717f4bac5f7e4268e386de15aab0d8cdf6da"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -646,7 +646,7 @@ hash = "acd9d7c5a447982ece4b4f12174887fcd1e9e6c16bc888933cadd6dbc95aaea6"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "8e239a20dbe347483ee7663de0d9aebc9b3cb5f70e97157660e460cd35c202f4"
+hash = "0881e25a9ee2a43395a9e2e6d6c16c36655d2e4f434e10c4483670d1a321a46b"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -682,7 +682,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "ef428813cf19d4b565d9c6d213fc8285aa8bbcca18d5c9ed649ca79faee09cb7"
+hash = "3989c64200f211bce784a49c4f7b669f3bde759112b36fc404a77ce4c477f7d0"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -1358,7 +1358,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "08289cc2ad9fcfafd686d56b202946b4d71ea1a8781f49ef150e7a0815cacc5e"
+hash = "d3bb639f6f42a54f7f7bfa51e651745013b99dfa5c3339288a2b0bb1400e2b49"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1578,7 +1578,7 @@ hash = "17a031cb5f9a8f02bcc96404459743d2fcb34172902f70e31160f26b5b5f0e86"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "bed69f4e84936b2508ae10acb38f59bdf9685d20bc1e0d7285bddca22129a177"
+hash = "6e7ac1693c1e8dad9102ec1b44c951e9405df73f9b1e8f7f1c089935c61cfc6d"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
@@ -1918,7 +1918,7 @@ hash = "130c2a2550b9acf4c490d4472697c6ab5d7651b64153a27f7abc5aa153f90776"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/mill_crush.js"
-hash = "75ba7431a904d842b9baa8e661827f0741ed6a989d2e7b355cb9b7e87d8a2a32"
+hash = "a372ef63b20900ae2fac88c3d5ab2a11cabe91b2737de7756c4c6af451644049"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/monsterFertilizer.js"
@@ -2006,7 +2006,7 @@ hash = "1c69badaac21b6ee3b52559bffa2663925b7c88eb1763938c7efbdedd7b8bbf1"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "f6168bd821c76cdbc5604bad46dda550f1f72d17daef4b6dd9c34356e0ce0a5e"
+hash = "fbf78181ead8fe447a2165879f09b99ead4810753a6da8a7f1e29ec2bd78d31a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -2018,7 +2018,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "063d39494d1c77a5a6d3212006f55f2c3ce75ef6a73bcf9d86607320b9e1738f"
+hash = "b882caca932761e5c6a84d5ea3421da70525e8c04b8e5769c364ef57205446ac"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -2094,7 +2094,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "d38cc0dc758a611406c4b0550eb01723297c26df3f9c8ded85a782c103d7e7f4"
+hash = "d0bb31547c14002f7fc288e638d4c5fa3065644eae0c8835a48f9e65ac611d3d"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -2206,7 +2206,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "30d2673ff9e81a90b8c4070dc39fafcee271223c9d577df092c796b884032bd8"
+hash = "f9183ae93d62ab4357ac537689af73601ebbdf2d96b75a21fd3b9d18fd565fd2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2887,6 +2887,10 @@ hash = "71e882da02e8c50c84670875879610092c308e201223c1adfdb112ec093497ba"
 [[files]]
 file = "modpack-update-checker/versions/1.152.1/changelog.txt"
 hash = "0948c9e570ae8529d635b195dd694c7730ec2df927b5db3814ed43c0a7958b73"
+
+[[files]]
+file = "modpack-update-checker/versions/1.153.2/changelog.txt"
+hash = "29e1ac1a98b3389a8fb75c40c8a2264b5287be3c55a955f1e5c003289c03af91"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
