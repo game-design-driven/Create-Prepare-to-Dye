@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4826c77faed7c2471d1ea8bef2b5a551a41906647a129c6861b602bc9c7a5e57"
+hash = "8f6f875a556e5ec96a9352375dadfbe72a694b118f8f3993335d29f848c1f992"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1358,7 +1358,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d3bb639f6f42a54f7f7bfa51e651745013b99dfa5c3339288a2b0bb1400e2b49"
+hash = "b508813f656477eadb7f3544b833b01aa13bbdd9ff27a0658c9d3823e9bdfa16"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1754,7 +1754,7 @@ hash = "c1f5061718681b4551e5e4794731679a3a1bb98f28efaebdbc3dfaaf51dad527"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
-hash = "c8527eee55f28bb61813c524099ff6b200a95a7064aba2915036c9acee60a002"
+hash = "844d7406abcd60b0759f2cef24ebb35fea049a281e530f96c8c9372ff0b078e5"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure/mineshaft_mesa.json"
@@ -2206,7 +2206,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f9183ae93d62ab4357ac537689af73601ebbdf2d96b75a21fd3b9d18fd565fd2"
+hash = "38814e31820b3a27916db52f2c5a6dff87294baddd9a0e7a974456b3d7f97c8f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2891,6 +2891,10 @@ hash = "0948c9e570ae8529d635b195dd694c7730ec2df927b5db3814ed43c0a7958b73"
 [[files]]
 file = "modpack-update-checker/versions/1.153.2/changelog.txt"
 hash = "29e1ac1a98b3389a8fb75c40c8a2264b5287be3c55a955f1e5c003289c03af91"
+
+[[files]]
+file = "modpack-update-checker/versions/1.153.3/changelog.txt"
+hash = "ab9676218e55daf1c9572f64c3aa9e4c7863e9cdbf04167d3c9c46ef854c56ae"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
