@@ -257,3 +257,6 @@ if (feature('Metal Trap door Recipe bigger')) {
     removeRecipe({id: 'minecraft:iron_trapdoor'})
     addShaped('2x iron_trapdoor', ['###', '###'], { '#': '#forge:ingots/iron' })
 }
+if (feature('Soulsand from sand and brown')) {
+    addBlockInteract('minecraft:soul_sand', '#forge:sand', 'brown_dye')
+}
