@@ -56,3 +56,5 @@ addTooltip('crafting_on_a_stick:stonecutter', "A _Personal Assembler_ is a power
 addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it was the only resource this planet was good for, because of all the _bones_ found on this while soil, _White Powder_ rather.')
 
 addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Controller_ allows you to assemble a _Distillery_. Right click on the _tank structure_ you want to transform into a distillery, a controller will be used for each tank attached. Note that you need _one tank per output in addition to the one on the bottom_ that takes the input')
+
+addTooltip('create:mechanical_harvester', 'A device which _harvests crops_ when going over them, be carful though! _It will harvest them regardless of their growth stage_')
