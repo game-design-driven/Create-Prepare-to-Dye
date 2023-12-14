@@ -113,9 +113,10 @@ const mlcSand2 = getAgreement({
     "64x minecraft:sand",
     "64x minecraft:sand",
     "64x minecraft:sand",
+    "64x minecraft:sand",
   ],
   title: "More sand!",
-  orderedAmount: 4,
+  orderedAmount: 3,
   company: "magical_landscaping_co",
   message:
     "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
