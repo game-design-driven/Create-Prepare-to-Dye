@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "145a64c5dd9801de3a861a66bf0cb0dc29f6b9f3c1fe535c827293d189def0ad"
+hash = "4c9459562f90f418d7072f890b2053134ede7962cb67f60c81eb1f1a6098621d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1358,7 +1358,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "0c53dc3b50deadf813b1f8442567665ad53c76123dbf16798ebef39d6ef51e78"
+hash = "b1d60ee23790f0856d11db4fa3b6c8b8c3c6f4bdc7976f6425da9cce5de23b9a"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1746,11 +1746,11 @@ hash = "b19225f002938df7a17b932ba205827f8598fe8d9d7f5b9dbcd53a5ebc45be78"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
-hash = "8dbd3d8d156dfdf1da6e718ebe7bbf7a0edee473f11e922a467369faa488c49a"
+hash = "11cede0dcf26286e1da263f86aebba399780122068e60caf929356b801cb896f"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
-hash = "c1f5061718681b4551e5e4794731679a3a1bb98f28efaebdbc3dfaaf51dad527"
+hash = "81335a2fe5ae7e3ae45c22c4215cbeac433ef327eb63418587f4e38f98643004"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
@@ -2010,7 +2010,7 @@ hash = "fbf78181ead8fe447a2165879f09b99ead4810753a6da8a7f1e29ec2bd78d31a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "fc591fe3bf3857a2c2d615ae354a26b4216f56967262e7b7a6144227374e10a2"
+hash = "215a7c4eee479692334472945bc4cdb557f298260300f718e82eaf283f086ed4"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -2206,7 +2206,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "fe465faece577d58bc19b04eff9a5ece28590faa14132ca1fcbcf543942d62b4"
+hash = "12c22f56d28ccf61e59bca2a94d857ef0671e35515d28f9d6d5a33d6d268814a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2907,6 +2907,10 @@ hash = "99279b625dbbad9c21d1314b79ccaf39978d32e58b7baaa90cd6fbe9794f09dd"
 [[files]]
 file = "modpack-update-checker/versions/1.153.8/changelog.txt"
 hash = "b1bae3c214a9466a7f1244ddda9a663eb85380042c23ff6532988868c8db8b92"
+
+[[files]]
+file = "modpack-update-checker/versions/1.153.9/changelog.txt"
+hash = "b9449321fbbacbf9dbe87e25ddb19922285cbba2ba5c0a163803a0a53924d6c5"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
