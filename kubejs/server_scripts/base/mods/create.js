@@ -270,7 +270,7 @@ if (feature('piston pole and gantry shaft recipes')) {
   })
   replaceShaped('10x create:gantry_shaft', ['i', 's', 'i'], {
     s: 'redstone',
-    i: '#forge:nuggets/iron'
+    i: '#forge:ingots/iron'
   })
 }
 if (feature('Remove old cogwheel recipe')) {
