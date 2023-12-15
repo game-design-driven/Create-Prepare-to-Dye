@@ -1,0 +1,17 @@
+## [1.155.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.154.0...1.155.0) (2023-12-15)
+
+
+### Features
+
+* (3x combo) deliv. colors, proper seq. assembly items, better logic device ([42d40b1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/42d40b1772f5326472dfb0523dafa3c8ce0e6bdb))
+* disable moving completed agreement to output ([07cbd26](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/07cbd26e9b46e22526aa3ac2b59e4530067828ce))
+* red stringed device, culling bug, ingot obliteration sprites([#413](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/413)) ([66c691e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/66c691e4119477b8c735fdfaeb403b7332c3eebc))
+* resprite of most wares assets! ([262b106](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/262b1060d8f6f4f37dc96124cf8278fa602f39bd))
+* sturdy device model, touch up copper device ([4562746](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4562746187bdef7735622ccfa9e4309c298d98ce))
+
+
+### Fixes
+
+* improper cull-face on logic device ([f3fa603](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f3fa603a85cd9b5c5b24806245798ee83091869f))
+
+
