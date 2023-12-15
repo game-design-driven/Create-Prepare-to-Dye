@@ -109,6 +109,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_bearing",
     "create:rope_pulley",
     "create:cart_assembler",
+    "quark:pipe",
   ];
   addToTag("forge:device/andesite", "ptdye:mechanical_device");
   addToTag("forge:device/andesite", andesiteBasedDevices);
@@ -218,7 +219,6 @@ if (feature("Remove crafting table recipes for devices")) {
   });
 
   let copperBasedDevices = [
-    "quark:pipe",
     "create_enchantment_industry:printer",
     "create_enchantment_industry:disenchanter",
     "create:portable_fluid_interface",
@@ -242,28 +242,19 @@ if (feature("Remove crafting table recipes for devices")) {
   removeRecipe({ id: "create:andesite_casing" });
   addStonecutting("4x create:copper_casing", "#forge:device/copper");
   addShapeless("ptdye:sealed_device", [
-    "create:copper_casing",
-    "create:copper_casing",
-    "create:copper_casing",
-    "create:copper_casing",
+    "4x create:copper_casing",
   ]);
 
   addStonecutting("4x create:fluid_pipe", "#forge:device/copper");
   addShapeless("ptdye:sealed_device", [
-    "create:fluid_pipe",
-    "create:fluid_pipe",
-    "create:fluid_pipe",
-    "create:fluid_pipe",
+    "4x create:fluid_pipe",
   ]);
   addStonecutting(
     "4x createdieselgenerators:distillation_controller",
     "#forge:device/copper"
   );
   addShapeless("ptdye:sealed_device", [
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
+    "4x createdieselgenerators:distillation_controller",
   ]);
   addShapeless("ptdye:sealed_device", "#forge:device/copper");
   addCrushing("ptdye:sealed_device", "#forge:device/copper");
