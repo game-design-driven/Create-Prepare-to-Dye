@@ -74,3 +74,5 @@ addToTag('forge:canvasables', [
     'ae2:silicon',
     'dried_kelp'
 ])
+
+removeFromTag('logs_that_burn','botania:livingwood')
