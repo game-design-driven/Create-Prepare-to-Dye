@@ -33,8 +33,7 @@ function addShaped(output, pattern, key) {
  */
 function addShapeless(output, input) {
     if (input.length == 1){
-        addInfusion(output, input[0], 250, 'minecraft:crafting_table');
-        console.info('Added recipe for '+output+' and it will go in manapool')
+        addInfusion(output, input[0], 1, 'ptdye:mechanical_device');
     }
 
     let recipe = {
