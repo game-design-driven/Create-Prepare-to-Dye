@@ -275,5 +275,5 @@ if (feature('Gold is 4 nuggets')) {
     addShapeless('4x minecraft:gold_nugget', 'gold_ingot')
     
     removeRecipe({id: "create:crushing/nether_gold_ore"})
-    addCrushing(['8x gold_nugget', 'create:experience_nugget %75', 'netherrack %10'])
+    addCrushing(['8x gold_nugget', 'create:experience_nugget %75', 'netherrack %10'], 'nether_gold_ore')
 } 
