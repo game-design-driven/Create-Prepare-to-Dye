@@ -34,6 +34,7 @@ StartupEvents.registry("item", (event) => {
     event.create("ptdye:incomplete_smart_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_locomotive_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_logic_device", 'create:sequenced_assembly');
+    event.create("ptdye:incomplete_red_stringed_device", 'create:sequenced_assembly');
 });
 
 StartupEvents.registry("block", (event) => {
@@ -81,4 +82,9 @@ StartupEvents.registry("block", (event) => {
     .soundType("metal")
     .box(3, 0, 0, 13, 9, 16)
     .box(4, 9, 4, 12, 12, 16);
+    
+  device("ptdye:red_stringed_device")
+    .material("stone")
+    .soundType("stone")
+    .box(2, 0, 1, 14, 14, 15);
 });
