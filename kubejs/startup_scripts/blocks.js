@@ -82,6 +82,7 @@ StartupEvents.registry("block", (event) => {
     .soundType("metal")
     .box(3, 0, 0, 13, 9, 16)
     .box(4, 9, 4, 12, 12, 16);
+    
   device("ptdye:red_stringed_device")
     .material("stone")
     .soundType("stone")

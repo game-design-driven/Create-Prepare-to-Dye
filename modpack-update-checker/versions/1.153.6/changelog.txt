@@ -1,0 +1,8 @@
+### [1.153.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.5...1.153.6) (2023-12-14)
+
+
+### Fixes
+
+* gantry shaft recipe ([62b8a5c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/62b8a5ce5252963e7f780e35a2debf7a6bae22dc))
+
+

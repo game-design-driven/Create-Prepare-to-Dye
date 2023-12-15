@@ -23,7 +23,7 @@
   "create:pressing": {
     "order": -40
   },
-  "minecraft:smelting": {
-    "order": 100
+  "create:crushing": {
+    "order": -30
   }
 }

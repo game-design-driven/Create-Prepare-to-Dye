@@ -106,5 +106,10 @@
     "botania.entry.overgrowthSeed": "Overgrowth Seed",
     "botania.tagline.overgrowthSeed": "Turns grass into enchanted soil",
     "botania.page.overgrowthSeed0": "An $(item)Overgrowth Seed$(0) is an item that, when planted on $(item)Grass$(0), spells it into $(item)Enchanted Soil$(0). Flowers that are planted on this $(item)Enchanted Soil$(0) will function at twice their normal speed.",
-    "botania.page.overgrowthSeed1": ""  
+    "botania.page.overgrowthSeed1": "",
+    "botania.entry.gourmaryllis": "Gourmaryllis",
+    "botania.tagline.gourmaryllis": "Mana from food",
+    "botania.page.gourmaryllis0": "Mana from food. The $(item)Gourmaryllis$(0) will eat any food items it finds in a small area, outputting $(thing)Mana$(0) once it's done. However, it can only digest a single food item at a time. While it will devour any other foods while digesting, it will yield no returns for those.",
+    "botania.page.gourmaryllis1": "The amount of time it takes to digest a delicacy is proportional to the number of food points it restores. Thus, a $(item)Steak$(0) will take four seconds to digest, an $(item)Apple$(0) will take two, and so on. The rate of $(thing)Mana$(0) production will also vary with nutrition: it prefers bigger foods. A $(item)Steak$(0) will produce more $(thing)Mana$(0) than two $(item)Apples$(0) per-second.",
+    "botania.page.gourmaryllis2": "Like any proper gourmand, it loves variety in its diet: feeding it many different foods can be rewarding, while giving it the same food repeatedly might not go so well. An experienced botanist can infer its mood from the sounds it makes..."
 }

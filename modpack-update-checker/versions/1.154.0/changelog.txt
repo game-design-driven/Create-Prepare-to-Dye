@@ -1,0 +1,8 @@
+## [1.154.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.12...1.154.0) (2023-12-15)
+
+
+### Features
+
+* alchemy recipe to get chorus fruit ([e2d8e8e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e2d8e8e81342f817b304ce19e7f0dbd1f4a6c3df))
+
+

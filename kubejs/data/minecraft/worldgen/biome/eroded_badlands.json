@@ -24,10 +24,8 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
     ],
     [],
     [
@@ -51,14 +49,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dead_bush_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_decorated"
     ],
     [
       "minecraft:freeze_top_layer"

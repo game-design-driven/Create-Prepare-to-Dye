@@ -178,5 +178,6 @@
     "selectWorld.create": "Safely land on Chroma Prime",
     "selectWorld.newWorld": "New Landing",
     "selectWorld.enterName": "Landing site name",
-    "createWorld.preparing": "Preparing for landing sequence..."
+    "createWorld.preparing": "Preparing for landing sequence...",
+    "block.minecraft.grass": "Bush"
 }

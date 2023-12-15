@@ -60,6 +60,31 @@ if (feature('Wrench picks up broken blocks')) {
     }
   });
 }
+
+if (feature('Wrench unencase pipes')) {
+  BlockEvents.rightClicked('quark:encased_pipe', event => {
+    if (event.player.getMainHandItem().id === 'create:wrench') {
+      let block = event.block;
+      // let prop = block.getProperties();
+      // //check if only one of east west south north up down is true, and if so, make the opposite also true
+
+      // let directions_map ={
+      //    east : 'west',
+      //    west : 'east',
+      // }
+      // [].forEach((dir) => {
+      //   if (prop.get(dir) && !prop.get(Utils.getOpposite(dir))) {
+      //     prop.set(Utils.directions.getOpposite(dir), true);
+      //   }
+      // });
+      if (!event.player.creative){
+        event.player.give('glass');
+      }
+      block.set('quark:pipe', block.getProperties());
+      event.cancel();
+    }
+  })
+}
 // if (feature("Fix applied energistics machines not properly wrenchable")) {
 //   ServerEvents.tags("item", (event) => {
 //     // event.remove("forge:tools/wrench", "create:wrench");

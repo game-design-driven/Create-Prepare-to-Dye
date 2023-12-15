@@ -1,0 +1,20 @@
+### [1.153.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.1...1.153.2) (2023-12-14)
+
+
+### Developer experance improvments and changes
+
+* probejs ([f7f1c3f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f7f1c3f430d992e365709f051bade12969f8bd44))
+
+
+### Fixes
+
+* botania lang files invalid json ([d08a6f5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d08a6f5a89ce3f1234e7d17e421d3b249b1ff980))
+* trapdoor recipe conflict ([9a795be](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9a795be63cb8e839a1e69ac968bcd7068f288925))
+
+
+### Documentation and Localization
+
+* add tooltip to harvester ([b4f1bbc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b4f1bbc39e0fb60cd831f4866795bb5dfef7b80d))
+* rename grass to bush ([d661f7e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d661f7ee06a1e3cd1e36d3f7345dfd889723011d))
+
+

@@ -1,16 +1,16 @@
 ItemEvents.modification((event) => {
   const tools = [
-    /minecraft:.*_sword/,
-    /minecraft:.*_shovel/,
-    /minecraft:.*_pickaxe/,
-    /minecraft:.*_axe/,
-    /minecraft:.*_hoe/,
+    /.*_sword$/,
+    /.*_shovel$/,
+    /.*_pickaxe$/,
+    /.*_axe$/,
+    /.*_hoe$/,
   ];
   const armor =[
-    /minecraft:.*_helmet/,
-    /minecraft:.*_chestplate/,
-    /minecraft:.*_leggings/,
-    /minecraft:.*_boots/,
+    /.*_helmet$/,
+    /.*_chestplate$/,
+    /.*_leggings$/,
+    /.*_boots$/,
   ]
 
   tools.forEach((tool) => {

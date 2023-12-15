@@ -1,0 +1,8 @@
+### [1.153.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.4...1.153.5) (2023-12-14)
+
+
+### Reverted Changes
+
+* Revert Revert Feat: removed deepslate (#406) ([901b2b1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/901b2b1f32d7c555b835db903e9ba05395c4692a)), closes [#406](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/406)
+
+

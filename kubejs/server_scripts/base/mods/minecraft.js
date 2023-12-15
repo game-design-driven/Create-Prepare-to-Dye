@@ -252,3 +252,16 @@ if (feature('Stone tools from livingrock')) {
     addShaped('stone_sword',[' l ',' l ',' s '], {l:'botania:livingrock', s:'stick'})
     addShaped('stone_hoe',['ll ',' s ',' s '], {l:'botania:livingrock', s:'stick'})
 }
+
+if (feature('Metal Trap door Recipe bigger')) {
+    removeRecipe({id: 'minecraft:iron_trapdoor'})
+    addShaped('2x iron_trapdoor', ['###', '###'], { '#': '#forge:plates/iron' })
+}
+if (feature('Soulsand from sand and brown')) {
+    addBlockInteract('minecraft:soul_sand', '#forge:sand', 'brown_dye')
+}
+
+if (feature('Choros fruit from bamboo')) {
+    addAlchemyRecipe('chorus_fruit', 'bamboo')
+    
+}

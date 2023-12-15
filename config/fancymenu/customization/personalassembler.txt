@@ -3,7 +3,7 @@ type = menu
 customization-meta {
   identifier = io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen
   randomgroup = 1
-  renderorder = foreground
+  renderorder = background
   randommode = false
   randomonlyfirsttime = false
 }

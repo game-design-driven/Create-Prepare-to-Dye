@@ -88,3 +88,19 @@ if (feature('Remove mana fluxfield')) {
 if (feature('Remove mushroom stew recipe from botania')) {
     removeRecipe({ id: 'botania:mushroom_stew' })
 }
+
+if (feature('Lexica botania from book')) {
+    // addApothecary('botania:lexicon', ['minecraft:book', 'botania:livingwood_twig'])
+    addShapeless('botania:lexicon', ['dead_bush', 'minecraft:book'])
+}
+
+// if (feature('Flower placement')) {
+//     BlockEvents.placed('botania:pure_daisy', (event) => {
+//         event.cancel()
+//     })
+// }
+
+if (feature('Wand easy recipe')) {
+    removeAllRecipesForItem('botania:twig_wand')
+    addShapeless('botania:twig_wand',['botania:livingwood_twig', '#forge:dyes'])
+}
