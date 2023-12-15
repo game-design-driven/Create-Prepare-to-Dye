@@ -278,6 +278,7 @@ if (feature('Gold is 4 nuggets')) {
     addCrushing(['8x gold_nugget', 'create:experience_nugget %75', 'netherrack %10'], 'nether_gold_ore')
 } 
 
-if (feature('Remove furnace')) {
+if (feature('Remove furnaces')) {
     removeItem('furnace')
+    removeItem('blast_furnace')
 }
