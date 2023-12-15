@@ -176,7 +176,6 @@ if (feature("Remove crafting table recipes for devices")) {
     "supplementaries:spring_launcher",
     "botania:apothecary_default",
     "quark:crate",
-    "minecraft:furnace",
   ];
   addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);

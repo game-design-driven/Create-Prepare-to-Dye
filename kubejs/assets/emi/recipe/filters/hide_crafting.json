@@ -1,6 +1,7 @@
 {
     "filters": [
       {"category": "minecraft:crafting"},
+      {"category": "minecraft:smelting"},
       {"category": "easy_villagers:incubating"},
       {"category": "easy_villagers:converting"},
       {"category": "easy_villagers:breeding"},
