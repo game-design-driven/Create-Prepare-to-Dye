@@ -47,7 +47,7 @@ addTooltip(
 );
 addTooltip(
   "create:blaze_burner",
-  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find a _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_"
+  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find an adult _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_"
 );
 addTooltip("supplementaries:ash", "Ash is created when things burn down");
 
@@ -58,3 +58,4 @@ addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it
 addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Controller_ allows you to assemble a _Distillery_. Right click on the _tank structure_ you want to transform into a distillery, a controller will be used for each tank attached. Note that you need _one tank per output in addition to the one on the bottom_ that takes the input')
 
 addTooltip('create:mechanical_harvester', 'A device which _harvests crops_ when going over them, be carful though! _It will harvest them regardless of their growth stage_')
+addTooltip('create:deployer', "")
