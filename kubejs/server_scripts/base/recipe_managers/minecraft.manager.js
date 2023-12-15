@@ -36,13 +36,15 @@ function addShaped(output, pattern, key) {
  * @param {ingredient[]} input ['glass','stick'] 
  */
 function addShapeless(output, input) {
-    if (input.length == 1)
+    if (input.length == 1){
         addInfusion(output, input[0], 250, 'minecraft:crafting_table');
+        console.info('Added recipe for '+output+' and it will go in manapool')
+    }
 
     let recipe = {
         type: "minecraft:crafting_shapeless",
         result: solveResult(output),
-        ingredients: solveIngredients(input)
+        ingredients: solveLimitedIngredients(input)
     };
     modpackRecipes.push(recipe)
     return recipe;
