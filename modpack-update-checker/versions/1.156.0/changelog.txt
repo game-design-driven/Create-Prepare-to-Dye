@@ -1,0 +1,32 @@
+## [1.156.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.155.0...1.156.0) (2023-12-15)
+
+
+### Features
+
+* add 0.1 chance of sticks for concrete powder crushing to lead player in right direction ([078df09](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/078df09dea165c271dd3c5eecdfd94159dd51462))
+* anvil_no_level_limit. Anvil might be removed soon but until then there should not be a limit ([af18bd3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/af18bd31e31d16074723b00b79b22be476ccfe80))
+* Gold is 4 nuggets ([b821b77](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b821b7760ec4a8f86335f0d3fd754659f5ea7a50))
+* pip is now mechanical device ([c6368dd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c6368dd6463e52359a5c0ffa0e28b07726c5ee03))
+* player stays an automaton after death, useful in creative when you use the kill command to go back to spawn ([a56f80d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a56f80da3e1fe4ad8221ca81f2456ae27f0ea432))
+* remove blast furnace ([6a73e93](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a73e9390d4d721fc0d6ac5612b5291d59b593e0))
+* remove furnace! It's not needed and less interesting than other options. A bit misleading too as it leads players to more difficult solutions ([f696b4e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f696b4ea89f07f1f57a339d5e0ea7a6c21c74dc1))
+
+
+### Fixes
+
+* shapeless to infusion runtime conversion ([f4a7a00](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f4a7a0063dd4515cf275979d3400bc68a13d243e))
+
+
+### Developer experance improvments and changes
+
+* add support for limited ingredients for shapless crafting so we can use 4x something instead of writing it four times ([fc5827f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fc5827ff6758a995c32fbb7aaf50d03747d08b31))
+* remove default removal of none shapless recipes when doing replace shapless ([3c7c89d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3c7c89d806deb73cbb583c02b30c77107488c23b))
+* removing redundent prints ([29a2b49](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/29a2b498c3405e544f038e5a6f259dbda821b0b4))
+
+
+### Minor tweaks
+
+* buff mining speed by a little bit more ([be28607](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/be28607b0431c8584e8aa8a96e0c8caf07f5f708))
+* run manapool script after other scripts to catch removed recipes ([f807296](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f80729693c2dfd75b98105329d3f8107618f2d4b))
+
+
