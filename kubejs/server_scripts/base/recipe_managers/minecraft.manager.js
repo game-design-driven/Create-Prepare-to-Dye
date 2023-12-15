@@ -7,12 +7,8 @@ function replaceShaped(output, pattern, key, onlyShaped) {
     }
     return addShaped(output, pattern, key)
 }
-function replaceShapeless(output, input, onlyShapeless) {
-    if (onlyShapeless) {
-        removeRecipe({ type: 'minecraft:crafting_shapeless', output: output })
-    } else {
-        removeRecipe({ output: output })
-    }
+function replaceShapeless(output, input) {
+    removeRecipe({ type: 'minecraft:crafting_shapeless', output: output })
     return addShapeless(output, input)
 }
 /**
