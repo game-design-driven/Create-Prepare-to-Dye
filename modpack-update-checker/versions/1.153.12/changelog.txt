@@ -1,0 +1,8 @@
+### [1.153.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.11...1.153.12) (2023-12-15)
+
+
+### Documentation and Localization
+
+* add a note about adult blaze to blaze burner tooltip ([b0990fc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b0990fc7615df8e059d25e75a33c3a4bfc7b1bb5))
+
+
