@@ -106,6 +106,10 @@
 		},
 		{
 			"namespace": "ptdye",
+			"key": "block.ptdye.red_stringed_device"
+		},
+		{
+			"namespace": "ptdye",
 			"key": "block.ptdye.sealed_device"
 		},
 		{
@@ -137,6 +141,10 @@
 			"key": "block.ae2.chipped_budding_quartz.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_red_stringed_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.ae2.fluix_smart_cable.tooltip.summary"
 		},
@@ -159,6 +167,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.ptdye.sealed_device.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_logic_device"
 		},
 		{
 			"namespace": "kubejs",

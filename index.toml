@@ -314,7 +314,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "9e120ea4330fdd779587795116ea0e9d59c43c80fd1da81a69921309e3b13e0f"
+hash = "750ab782847f326f42c144b00fc2b241f1ac97e9fb799d913702b406b8ae29e8"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -526,7 +526,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/allEnglishTranslationKeys.json"
-hash = "d67c741451a96b78a12bce252c04b5e7180f19ce5978e5bb759961fc593a959a"
+hash = "7bbe554ee8fa86ff649cc6c076e826c03c0cf19598022f2bc58461dd41f47cd4"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -581,6 +581,14 @@ file = "kubejs/assets/botania/textures/block/clayconia_chibi.xcf"
 hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
+file = "kubejs/assets/botania/textures/item/manasteel_plate.png"
+hash = "ce38e820aff1672f09283fad77f0caac7cf45338145d81cf346678efd19470c1"
+
+[[files]]
+file = "kubejs/assets/botania/textures/item/raw_manasteel.png"
+hash = "71ba7a17b5a146779a44c7caa91c64c690575391cbec11b2eb6060e9be282fa0"
+
+[[files]]
 file = "kubejs/assets/botania/textures/item/terrasteel_ingot.png"
 hash = "a2695ae006a52b141cc809cb3e5b7aaa7fc45407def746afa6eea10cd904ada1"
 
@@ -611,6 +619,18 @@ hash = "b732c600d2e6d7cee07013ab19cc4cccb7a04eaeae5c9e874f9c935e8c989748"
 [[files]]
 file = "kubejs/assets/create/textures/block/nixie_tube.png"
 hash = "cce044cba290992d08eb6536451c5b1a1a432159f3072d637c038268c3672e04"
+
+[[files]]
+file = "kubejs/assets/create/textures/item/brass_ingot.png"
+hash = "bb68079ecf30b3f441fe5fb93767a73fb4cd92d27551b91157b7000377a9e8c8"
+
+[[files]]
+file = "kubejs/assets/create/textures/item/brass_sheet.png"
+hash = "667de4ef640f0ce436c71d3efa6a23d1685293a8ef3d06ba2e6f18cb46cc8c19"
+
+[[files]]
+file = "kubejs/assets/create/textures/item/crushed_raw_gold.png"
+hash = "9b5ccc1cf0bb98801c7b58ad0079135afcf848be4c99ff29ce08103f6aa67c2b"
 
 [[files]]
 file = "kubejs/assets/create/textures/item/crushed_raw_iron.png"
@@ -661,8 +681,24 @@ file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
 hash = "170cd45bcf687efc201a00c1cc7dd4f2c01fa6894785f09133180b181b4e7aa4"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/orange_pipe_block_side.png"
+hash = "48cab3a5296aa3b77ff58e001961b4794a3ce2eb330490f2ec0cdd938689fb8c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/orange_pipe_block_top.png"
+hash = "7df4cfcece13a92b14a48b45318732b44d4349bde4a84bd6220e44ba7aae44fc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/inventory_mockup.png"
+hash = "827a04c7f81141dfe945b3828cc0846de1f9719ea877b4730822087ba09b3ae8"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/fermented_blob.png"
 hash = "df1d5a31f96708930d8c25a90e671bbf2c451d9bec09a093128b3e8a86f57a90"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/orange_tubes.png"
+hash = "32bb0e8d3ddd9a4bb9a774e11e4f8ba3f69ea2c4e1953b1d9a573ef314bc4ec8"
 
 [[files]]
 file = "kubejs/assets/minecraft/blockstates/bee_nest.json"
@@ -1109,6 +1145,14 @@ file = "kubejs/assets/minecraft/textures/item/experience_bottle.png"
 hash = "76dea2f5144eb6a995e62adb8c2ad11f533827f653234a7fb77d4bedd9586429"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/item/gold_ingot.png"
+hash = "ffee8bae599b16f4da28f36cf3f929e6e91bf0156589302e8e06c174e4462313"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/gold_nugget.png"
+hash = "bef515c74633a5dd6e00e0b9942169f0531ea1d9afc7b3453de6c7a6e6ea3e2b"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/item/gray_dye.png"
 hash = "34110d5d6e35c783d10f088dffe4a05dceafc29acd70206ff71f74f2527cb27f"
 
@@ -1131,6 +1175,10 @@ hash = "f5832c6a644a31efe72955f5c4be3d34a2acd400f9a662bde9b3cb1309f6b905"
 [[files]]
 file = "kubejs/assets/minecraft/textures/item/raw_copper.png"
 hash = "3fc2aa746bfccc118217f591429239fda1e37340cb9e9c36c7594e66dbf0beb9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/raw_gold.png"
+hash = "ad63311ebc77fa19660602c9a2756e9c4d869ecdf1659218d8ceaecc1e7503c4"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/item/raw_iron.png"
@@ -1194,11 +1242,15 @@ hash = "60ce1c7a05daf2e9142221b39deebfb5c2e0691e7f0bd4fbfd1e750829213e1a"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/logic_device.json"
-hash = "5f6c219756f00dfb068b1ecc4c913a3d71e34b42d36964547df32d1e2124a51a"
+hash = "c057c8cb2dda39bfbffb39c178b7aabbc0f68fce89b4f3976a3beb2db085d6ed"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/mechanical_device.json"
 hash = "e4aa5d83ec26a22ff3546de11a3abeddd961fcbd08b0eb0df79bdda566c5ef19"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/red_stringed_device.json"
+hash = "2c744464c37a5a344b70e32979e3da850b00991ddb7f5e74570dac35140e9c5e"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/sealed_device.json"
@@ -1227,6 +1279,10 @@ hash = "9f0e66c8f13b4b3294f2eec5549fcc2f6697a303f03fa44bcf334b73a8273a90"
 [[files]]
 file = "kubejs/assets/ptdye/models/item/incomplete_mechanical_device.json"
 hash = "6df571651eaa71799679af27e621ffc9a499553de19df307d79a58d756e561e1"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/item/incomplete_red_stringed_device.json"
+hash = "94f4a8a868f79a2f196ce71c4f2dc3ea90d96ba6bf6dd1d6859bc090773bf3eb"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/item/incomplete_sealed_device.json"
@@ -1275,6 +1331,22 @@ hash = "2f12297b9e35554d936445a3d988f3d8dfe3bc45a4380880c6617affd45a9d81"
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/logic_device_empty.png"
 hash = "11e84d87b5d8fa4c9d87e241049b6ad4bbde48f858de31de7a9ac79589e6819e"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/red_string.png"
+hash = "76804b3a96ee52a1c988ae4b27f0e383bf6a05796b71b32571dbd8b55abf4cd9"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/red_stringed_device_inner.png"
+hash = "ba00c00c04c7666ac7badd42c347216c09ca621baa63ad0295ec82408a5ab384"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/red_stringed_device_side.png"
+hash = "e946bfdc7f38a3f877b5afc2994402e4c9757d192fed01bd04e46e1aaef9448b"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/red_stringed_device_split_side.png"
+hash = "e43220d7f388c0d2af1a49eabf91b9f16fb0d24d0652130ecc48e44ca6b8ec00"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/redstone_casing.xcf"
@@ -1358,7 +1430,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d364e998fbc318db1005d691cf8de6bb4d963717da5711364de268687698c038"
+hash = "d9219f4be5cff3aba924966a9cf6b3ce22b69241726f9ca4f3b7e571483af9b3"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2138,7 +2210,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "2893677c1a62497c42b398f417310637332bc5030f7d2dff791affb3bffc5b26"
+hash = "e29c98054f264eb6f8776ce46275e8fab2be9e6f4a0e36c0325d934267480728"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -2206,7 +2278,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "87deb531f5f14d1812735a15740fb971ae9035c075b8bb508a5d2b050eff1035"
+hash = "7c419ac3541ae96bdd98f98894751c9d5bec99d0239833483d48e46c482484ff"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -2923,6 +2995,10 @@ hash = "b9449321fbbacbf9dbe87e25ddb19922285cbba2ba5c0a163803a0a53924d6c5"
 [[files]]
 file = "modpack-update-checker/versions/1.154.0/changelog.txt"
 hash = "9c7c3935ec80f920c0646bcf3df929293a19c2135c5c4b95d777ad84a1a9e07b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.155.0/changelog.txt"
+hash = "e16887aff88832e7f9c160f75632cd60ed694d6a8a0ca0d797a9780da15df339"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
