@@ -260,3 +260,8 @@ if (feature('Metal Trap door Recipe bigger')) {
 if (feature('Soulsand from sand and brown')) {
     addBlockInteract('minecraft:soul_sand', '#forge:sand', 'brown_dye')
 }
+
+if (feature('Choros fruit from bamboo')) {
+    addAlchemyRecipe('chorus_fruit', 'bamboo')
+    
+}
