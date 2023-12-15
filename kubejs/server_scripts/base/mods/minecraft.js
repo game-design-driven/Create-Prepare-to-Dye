@@ -263,5 +263,17 @@ if (feature('Soulsand from sand and brown')) {
 
 if (feature('Choros fruit from bamboo')) {
     addAlchemyRecipe('chorus_fruit', 'bamboo')
-    
 }
+if (feature('Gold is 4 nuggets')) {
+    removeRecipe({id:"create:splashing/crushed_raw_gold"})
+    addSplashing(['4x gold_nugget', 'ae2:large_quartz_bud %5'], 'create:crushed_raw_gold')
+
+    removeRecipe({id: "minecraft:gold_ingot_from_nuggets"})
+    replaceShapeless('gold_ingot', ['4x minecraft:gold_nugget'])
+    
+    removeRecipe({id: "minecraft:gold_nugget"})
+    addShapeless('4x minecraft:gold_nugget', 'gold_ingot')
+    
+    removeRecipe({id: "create:crushing/nether_gold_ore"})
+    addCrushing(['8x gold_nugget', 'create:experience_nugget %75', 'netherrack %10'])
+} 
