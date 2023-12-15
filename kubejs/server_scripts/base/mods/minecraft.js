@@ -216,16 +216,15 @@ if (feature('Fertilizer into water')) {
         'minecraft:pumpkin_seeds',
         'minecraft:beetroot_seeds',
         'minecraft:cactus',
+        'minecraft:bamboo',
     ])
     addToTag('forge:squeezables/2',[
         'minecraft:apple',
         'minecraft:beetroot',
         'minecraft:carrot',
         'minecraft:potato',
-        'minecraft:poisonous_potato',
         'minecraft:chorus_fruit',
         'minecraft:sweet_berries',
-        'minecraft:bamboo',
         'minecraft:melon_slice',
     ])
     addToTag('forge:squeezables/3',[
@@ -234,6 +233,7 @@ if (feature('Fertilizer into water')) {
     removeRecipe({id: 'createdieselgenerators:compacting/plant_oil'})
     addCompacting('25mb kubejs:organic_mass', '#forge:squeezables/1')
     addCompacting('100mb kubejs:organic_mass', '#forge:squeezables/2')
+    addCompacting('125mb kubejs:organic_mass', 'minecraft:poisonous_potato')
     addCompacting('200mb kubejs:organic_mass', '#forge:squeezables/3')
     addDistillation(['8mb water', '2mb createdieselgenerators:plant_oil'], '10mb kubejs:organic_mass')
 
@@ -285,4 +285,8 @@ if (feature('Remove furnaces')) {
 
 if (feature('Choros flower from choros batch')) {
     addBlockInteractToItem('chorus_flower', 'quark:chorus_fruit_block', 'bone_meal')
+}
+
+if (feature('Replace sticks with forge:rods')) {
+    replaceInputForRecipes('stick', "#forge:rods")
 }

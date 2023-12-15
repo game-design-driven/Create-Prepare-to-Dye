@@ -58,7 +58,8 @@ addToTag('minecraft:stairs',[
 
 addToTag('forge:rods', [
     'create:shaft',
-    'bone'
+    'bone',
+    'bamboo'
 ])
 
 addToTag('forge:coral', [
