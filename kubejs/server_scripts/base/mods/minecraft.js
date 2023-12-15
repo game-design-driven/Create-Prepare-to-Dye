@@ -282,3 +282,7 @@ if (feature('Remove furnaces')) {
     removeItem('furnace')
     removeItem('blast_furnace')
 }
+
+if (feature('Choros flower from choros batch')) {
+    addBlockInteractToItem('chorus_flower', 'quark:chorus_fruit_block', 'bone_meal')
+}
