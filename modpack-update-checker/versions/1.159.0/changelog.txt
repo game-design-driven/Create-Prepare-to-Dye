@@ -1,0 +1,8 @@
+## [1.159.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.158.1...1.159.0) (2023-12-16)
+
+
+### Features
+
+* red string devices ([7ad32ae](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7ad32ae5c974878502d500120457690c5678cd25))
+
+
