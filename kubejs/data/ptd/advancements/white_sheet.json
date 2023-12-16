@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:white_ingot",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": [ "create:iron_sheet" ]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "create:iron_sheet"
+      },
+      "title": { "translate": "advancement.ptdye.white_sheet", "color": "aqua" },
+      "description": { "translate": "advancement.ptdye.white_sheet.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}
