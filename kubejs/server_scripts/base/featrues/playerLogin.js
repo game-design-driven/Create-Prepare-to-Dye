@@ -7,7 +7,7 @@ let extraPlayerItems = [
   Item.of("ptdye:redstone_casing", 8),
 ];
 function automatonAttributes(player) {
-  player.setAttributeBaseValue("forge:swim_speed", 3);
+  player.setAttributeBaseValue("forge:swim_speed", 2.25);
   player.setAttributeBaseValue("forge:reach_distance", 30);
   player.setAttributeBaseValue("forge:attack_range", 30);
   player.setAttributeBaseValue("minecraft:generic.attack_damage", 8);
