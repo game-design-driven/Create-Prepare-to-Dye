@@ -318,7 +318,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2fac8f0c3886920e805a8621c297706bc398598e3c6dac23c1587f0782a69a22"
+hash = "e61a1fc57a8bbeebeb581036028e47f59d7c69ab10651e97afa3b7f7bec5e564"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1241,6 +1241,10 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
+file = "kubejs/assets/ptdye/lang/en_us.json"
+hash = "bbf4a4b4f964a995c51a1bff6017e43c7090832b408a491fae17ee51d932fdd7"
+
+[[files]]
 file = "kubejs/assets/ptdye/models/block/locomotive_device.json"
 hash = "60ce1c7a05daf2e9142221b39deebfb5c2e0691e7f0bd4fbfd1e750829213e1a"
 
@@ -1442,7 +1446,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "18969f0f4067b94447761f45d88f51b3fbdf51fc1a52d6696eb327ba1637b695"
+hash = "a9326f91f16283407e6eda881aab5b06a5fe51db914ce813faafdada515766d6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1869,6 +1873,38 @@ file = "kubejs/data/minecraft/worldgen/template_pool/spaceship_wreck_main.json"
 hash = "3f1199896eb16802a6f7a9751816f7a5b7eea0a16aa31e843699bce8f5f39612"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/daisy.json"
+hash = "32b1fe069f8b463dc2a1439a52f7b694b26a1bec5692743546e653d7da2417c1"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/raw_white.json"
+hash = "299bf241d534d65be45abb578e51156aea34d32c8e209558b153e272e5fe37d8"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/root.json"
+hash = "f5f441006c99992895867ace8961ff06c10ec56091b2988f0537af100950f5cb"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/sturdy_device.json"
+hash = "464c151b14c726a69cf02ea702a7f02dc401e364f487598fb06e2c409c249b71"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/toolbox.json"
+hash = "840422ee9dfe665b64c4beeb49890292e5e896147bf787a296f224c04c9cfebf"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/white_ingot.json"
+hash = "e58752a46ca16af708ad31025ffb4188bffe5b27d29dca39049d2cda7ca9e566"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/white_powder.json"
+hash = "a96aadf22dd4fabba58f5c58de5b84074f8f12270bcf4960779d42fd80fb6ad0"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/white_sheet.json"
+hash = "ade73d4fab3bf27112ce413f875716668521114223080a1932cc9fedc1e853a8"
+
+[[files]]
 file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace1.json"
 hash = "0816a9d4f46501c4509b1b3aec0b1d5318e1becbfd02d5112b4401887e9d1a94"
 
@@ -2014,7 +2050,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "d30c2499ab8afde427b3842d4d80ab6f5a29accbacd63b7e366b115741e2f8ba"
+hash = "aedb818ab1f1109574a8718a9ceb85e553d3de686bae6b7f4d8e5920916d8b38"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
@@ -2150,7 +2186,7 @@ hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "307578b0ada0e350c9db8e9436bf85f2193ad9dea15c5374f003480919af1bca"
+hash = "151c6b4243b3fdc5183bee37a51a6d62021312ffd997b53670a080040275e2ad"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -2290,7 +2326,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5657dbe7a4c7c3b9610da40f605c7e7688b1b595628d8c956fc94237eafd29ea"
+hash = "1566ecbd16b58b064b6a5e1cbbcd4a5bf191bba3e20ff019fd41306dce3855c7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3051,6 +3087,10 @@ hash = "e830d87f6794c57ad8252084eba11276758c3d330ccaee6225528dbc2c23a81d"
 [[files]]
 file = "modpack-update-checker/versions/1.161.0/changelog.txt"
 hash = "4b453efd8f37a66dc85d9e0871c8efe6772f77fe47a7b0d7cf64272c815c7e0e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.161.1/changelog.txt"
+hash = "3a5d605bc786898c98efbd751cce3d652dc508e2bf80d65450826ab6ecec05ea"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
