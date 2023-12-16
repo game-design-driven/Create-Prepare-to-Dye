@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:daisy",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": [ "minecraft:white_concrete_powder" ]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "minecraft:white_concrete_powder"
+      },
+      "title": { "translate": "advancement.ptdye.white_powder", "color": "aqua" },
+      "description": { "translate": "advancement.ptdye.white_powder.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

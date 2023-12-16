@@ -1,0 +1,27 @@
+{
+    "parent": "ptd:root",
+    "criteria": {
+          "0": {
+              "trigger": "minecraft:inventory_changed",
+              "conditions": {
+                  "items": [ {
+                      "items": [ "botania:floating_pure_daisy" ]
+                  } ]
+              }
+          }
+    },
+    "display": {
+        "icon": {
+            "item": "botania:floating_pure_daisy"
+        },
+        "title": { "translate": "advancement.ptdye.pure_daisy", "color": "aqua" },
+        "description": { "translate": "advancement.ptdye.pure_daisy.desc", "color": "grey" },
+        "frame": "task",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "requirements": [ [ 
+        "0"
+    ] ]
+}
