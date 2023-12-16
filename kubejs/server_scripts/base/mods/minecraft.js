@@ -293,3 +293,13 @@ if (feature('Replace sticks with forge:rods')) {
 if (feature('Cactus from Choros fruite alchemy')) {
     addAlchemyRecipe('cactus', 'quark:chorus_fruit_block')
 }
+if (feature('Nether brick from chocolate and black')) {
+    addAssembly('2x nether_brick', '#forge:ingots',[
+        addPressing('stick', 'stick'),
+        addFilling('stick', 'stick', '50x create:chocolate'),
+        addFilling('stick', 'stick', '50x create_enchantment_industry:ink')
+    ])
+}
+
+// if (feature('Grass from grass block with shears accessibility recipe')) {
+// }
