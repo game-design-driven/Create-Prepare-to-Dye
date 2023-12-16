@@ -46,6 +46,11 @@ hash = "d08052537a462b55988c05615626eb7ad3b59262a7f62fd4e08e774b8d45ebe7"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "fccc6b3c690cda345c9b396b54993fc9f36b25cfe99f2219e96b6f77c7bc0e0c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "2c3ddac643593c3dec5bdad4a4ee6d10b62430409ee1c558ce3c5cbed9f40700"
 metafile = true
