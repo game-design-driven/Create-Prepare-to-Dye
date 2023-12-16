@@ -108,4 +108,10 @@ if (feature('bag from silicon')) {
 //     replaceShaped('quark:crate',['ipi','p p','ipi'],{
 //         i:Ingredient.of('#forge:ingots/iron').or('#forge:plates/iron'), p:'quark:iron_plate'
 //     })
-// }
+
+if (feature('Stick Stack')) {
+    removeRecipe({id:"quark:building/crafting/compressed/stick_block"})
+    addShapeless('quark:stick_block','9x stick')
+}
+if (feature('Nerf bambo to planks recipe')) {
+    removeRecipe({id:"quark:building/crafting/woodsets/bamboo/planks"})
