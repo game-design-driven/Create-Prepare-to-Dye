@@ -246,6 +246,11 @@ hash = "73ee72f79f1a08282a46b90023cdb973b6940222339e22222cc5c207880adb5c"
 metafile = true
 
 [[files]]
+file = "mods/nonetherportal.pw.toml"
+hash = "c2ab300752642817c97c98926dd2927822783f94d5fceea8d3e4e0301dadc45a"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "ccb76162943ee60c92d3f3ce6bea9f0046d0e255065ac387ed6f26ec01197663"
 metafile = true
