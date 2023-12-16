@@ -295,13 +295,13 @@ if (feature('Cactus from Choros fruite alchemy')) {
     addAlchemyRecipe('cactus', 'quark:chorus_fruit_block')
 }
 
-if (feature('Nether brick from chocolate and black')) {
-    addAssembly('2x nether_brick', '#forge:ingots',[
-        addDeploying('stick','stick','#forge:nuggets'),
-        addFilling('stick', 'stick', '50x create:chocolate'),
-        addFilling('stick', 'stick', '50x create_enchantment_industry:ink')
-    ])
-}
+// if (feature('Nether brick from chocolate and black')) {
+//     addAssembly('2x nether_brick', '#forge:ingots',[
+//         addDeploying('stick','stick','#forge:nuggets'),
+//         addFilling('stick', 'stick', '50x create:chocolate'),
+//         addFilling('stick', 'stick', '50x create_enchantment_industry:ink')
+//     ])
+// }
 
 // if (feature('Grass from grass block with shears accessibility recipe')) {
 // }
