@@ -290,3 +290,6 @@ if (feature('Choros flower from choros batch')) {
 if (feature('Replace sticks with forge:rods')) {
     replaceInputForRecipes('stick', "#forge:rods")
 }
+if (feature('Cactus from Choros fruite alchemy')) {
+    addAlchemyRecipe('cactus', 'quark:chorus_fruit_block')
+}
