@@ -237,7 +237,7 @@ if (feature("Better cookie recipe")) {
 }
 
 if (feature("Shaft without andesite")) {
-  addShaped("create:shaft", ["i", "i", "i"], {
+  addShaped("10x create:shaft", ["i", "i", "i"], {
     i: "#forge:ingots/iron",
   });
 }
@@ -264,11 +264,11 @@ if (feature('Recycle wrench')) {
 }
 
 if (feature('piston pole and gantry shaft recipes')) {
-  addShaped('10x create:piston_extension_pole', ['i', 's', 'i'], {
+  addShaped('8x create:piston_extension_pole', ['i', 's', 'i'], {
     s: 'stick',
     i: '#forge:nuggets/iron'
   })
-  replaceShaped('10x create:gantry_shaft', ['i', 's', 'i'], {
+  replaceShaped('8x create:gantry_shaft', ['i', 's', 'i'], {
     s: 'redstone',
     i: '#forge:ingots/iron'
   })
@@ -282,3 +282,7 @@ if (feature('White ingot from raw white ')) {
   addPressing('gold_ingot', ['raw_gold'])
   addPressing('copper_ingot', ['raw_copper'])
 }
+
+// if (feature('Fix water dupe with spout')) {
+//     BlockEvents.rightClicked('cauldron')
+// }
