@@ -8,6 +8,13 @@ if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/brass_casing" });
   let casings = [
     {
+      item: "red_stringed_device",
+      base: "botania:livingrock",
+      sheet: "minecraft:string",
+      material: "minecraft:red_dye",
+      amount: 2
+    },
+    {
       item: "sealed_device",
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
@@ -50,18 +57,15 @@ if (feature("Harder casing recipes")) {
     },
   ];
   casings.forEach((casing) => {
-    let transitionItem = Item.of("ptdye:incomplete_" + casing.item, {
-      process: 1,
-    });
     addAssembly(
       Item.of("ptdye:" + casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
         casing.material
-          ? addDeploying(casing.item, transitionItem, casing.material)
+          ? addDeploying('stick', 'stick', casing.material)
           : null,
-        addDeploying(casing.item, transitionItem, casing.base),
-        addDeploying(casing.item, transitionItem, casing.sheet),
+        addDeploying('stick', 'stick', casing.base),
+        addDeploying('stick', 'stick', casing.sheet),
       ].filter((item) => {
         return item;
       }),
@@ -413,4 +417,14 @@ if (feature("Remove crafting table recipes for devices")) {
       "create:incomplete_track"
     );
   }
+
+  let redStringedDevices = ['botania:red_string_container', 'botania:red_string_dispenser', 'botania:red_string_fertilizer', 'botania:red_string_comparator', 'botania:red_string_relay', 'botania:red_string_interceptor']
+  addToTag("forge:device/red_string", "ptdye:red_stringed_device");
+  addToTag("forge:device/red_string", redStringedDevices);
+  addShapeless("ptdye:red_stringed_device", "#forge:device/red_string");
+  addCrushing("ptdye:red_stringed_device", "#forge:device/red_string");
+  redStringedDevices.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/red_string");
+  });
 }
