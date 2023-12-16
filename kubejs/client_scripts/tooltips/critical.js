@@ -59,3 +59,11 @@ addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Co
 
 addTooltip('create:mechanical_harvester', 'A device which _harvests crops_ when going over them, be carful though! _It will harvest them regardless of their growth stage_')
 // addTooltip('create:deployer', "")
+
+addTooltip([
+  'golden_pickaxe',
+  'golden_shovel',
+  'golden_axe',
+  'golden_sword',
+  'golden_hoe'
+], 'Yellow tools are always outfitted with _Fortune_, widely used in production lines and slave mines')
