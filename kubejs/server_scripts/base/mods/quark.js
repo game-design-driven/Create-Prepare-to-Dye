@@ -91,7 +91,7 @@ if (feature('Break down gold bars')) {
 
 if (feature('Iron plate block from black')) {
     removeRecipe({id: 'quark:building/crafting/iron_plate'})
-    addShapeless('16x quark:iron_plate',['3x #forge:plates/iron','#forge:dyes/black'])
+    addShapeless('64x quark:iron_plate',['3x #forge:plates/iron',Ingredient.of('#forge:dyes/black').or('#forge:dyes/gray')])
 }
 
 if (feature('Remove forgotten hat')) {
