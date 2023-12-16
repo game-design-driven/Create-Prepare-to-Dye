@@ -9,6 +9,10 @@
 			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
 		},
 		{
+			"namespace": "minecraft",
+			"key": "block.create.mechanical_harvester.tooltip.summary"
+		},
+		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.sturdy_device"
 		},
@@ -41,12 +45,12 @@
 			"key": "item.minecraft.iron_ingot.tooltip.summary"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "fluid.kubejs.organic_mass"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.trading_transceiver"
+		},
+		{
+			"namespace": "kubejs",
+			"key": "fluid.kubejs.organic_mass"
 		},
 		{
 			"namespace": "kubejs",
@@ -55,6 +59,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.lava_bucket.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.createdieselgenerators.distillation_controller.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -101,12 +109,12 @@
 			"key": "item.ptdye.trading_transceiver.tooltip.summary"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "item.minecraft.bone_meal.tooltip.summary"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.red_stringed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.bone_meal.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
@@ -175,10 +183,6 @@
 		{
 			"namespace": "kubejs",
 			"key": "block.kubejs.organic_mass"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_logic_device"
 		},
 		{
 			"namespace": "minecraft",

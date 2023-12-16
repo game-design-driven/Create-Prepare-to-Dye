@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "13c696bbe6ffca8e0825b036e449390cc432cedbd1cb94a5055fb4e006a85d04"
+hash = "c60e2359c4ab22ad0c4e343fdf002f97fff346f15481b4d2a921b376bbfa782b"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "a247fe6559a085bcddf6bd927d407cc29fbe59f606bb2a46f24b3a47dd92fcdc"
+hash = "d3b35a5202c07b1567254629b60a2f90433f660111eed88082264e204e738b0f"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "83d38acab9e9426f013149ea1835a4509b5ac4bbcb4a62386aa051652de54263"
+hash = "faf8c58cbea97a721422a369178a3605bda7fa97617ade8bd277e1c66a1fb165"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "03f6e8646f1ff40f013a312c14bda1a9dbc22811ec1f2329c52284ffad70322c"
+hash = "28a3d11f305e1ff760a4dbcc190d5ca5413cff381aa3ae5b0ca190ecb8c2815d"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "9100e4c9f04bb056f936f4b3261b3829da11cdba41679e26f29f9daf7650c61f"
+hash = "cf39a1c4cfcd97ea2bee052a94452cae77e2f6ce985b5ece82dee225978832b7"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "c3dcc27103f65bf73dee2898706f1c3a13983cbeb63d14f7caed26630d72bbde"
+hash = "aec4286f0e205df1d35997fe6f73e8daf5130768e1cbe39c1c73a2339f020b39"
 metafile = true
 
 [[files]]
