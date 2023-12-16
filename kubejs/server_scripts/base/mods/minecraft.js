@@ -119,7 +119,7 @@ if (feature('Netherrack from nether_wart_block')) {
 }
 
 if (feature('Netherwart to redstone')) {
-    addSmelting('redstone', '#forge:crops/nether_wart')
+    addSmelting('redstone %10', '#forge:crops/nether_wart')
 }
 
 if (feature('Redstone from quartz')) {
