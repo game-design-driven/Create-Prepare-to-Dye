@@ -69,7 +69,7 @@ if (feature("Ethanol")) {
     ["500mb kubejs:organic_mass"]
   );
 
-  addMixing("kubejs:fermented_blob %5", "15mb kubejs:fermented_goop");
+  addMixing("kubejs:fermented_blob %4", "10mb kubejs:fermented_goop");
   addMixing("slime_ball", ["kubejs:fermented_blob", "#forge:dyes/lime"]);
   addMixing("slime_ball %80", [
     "500mb kubejs:fermented_goop",
