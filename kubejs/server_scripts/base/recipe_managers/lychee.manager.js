@@ -76,7 +76,7 @@ function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
         post[2] = {
             type: 'execute',
             hide: true,
-            command: 'advancement grant @a[dx='+advancementRadius+',dy='+advancementRadius+',dz='+advancementRadius+'] until ' + advancement
+            command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`
         }
     }
     let recipe = {
