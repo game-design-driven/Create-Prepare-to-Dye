@@ -62,7 +62,8 @@ function addBlockExplode(block_out, block_in) {
     }
     modpackRecipes.push(recipe)
 }
-function addBlockInteractToItem(item_out, block_in, item_in) {
+const advancementRadius = 50
+function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
     let post = [{
         type: 'drop_item',
         item: item_out,
@@ -71,6 +72,13 @@ function addBlockInteractToItem(item_out, block_in, item_in) {
         type: "place",
         block: 'air'
     },]
+    if (advancement != null) {
+        post[2] = {
+            type: 'execute',
+            hide: true,
+            command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`
+        }
+    }
     let recipe = {
         type: 'lychee:block_interacting',
         item_in: solveLimitedIngredient(item_in),
