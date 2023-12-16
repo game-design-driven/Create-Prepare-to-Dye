@@ -1,0 +1,30 @@
+## [1.160.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.159.2...1.160.0) (2023-12-16)
+
+
+### Features
+
+* add cary on so you can carry Betsy! ([b2df3ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b2df3eec6c49fdbd6994b44152437b03597d4ff4))
+* Cactus from Choros fruite alchemy recipe ([cfdcd5a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cfdcd5aea903b3a8cccc4ff8f0a373b9bd0a4e2d))
+
+
+### Fixes
+
+* remove empty tooltip for deployer ([b7fc421](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b7fc421400a0eba5f917ecba24be7d4e3045999c))
+
+
+### Modlist related changes
+
+* replace nomoportals with no nether portal which cancels the event which seems to work in more cases ([c9bba54](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c9bba54f7826a1104653e7ee9d78dbecd25ee441))
+* update collective ([fdf8ece](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fdf8ece8a3be5fe04659da11cedf4bc595096a52))
+* update easy villagers ([028d233](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/028d233b539ec2b2b2938e5d72e77fb4cb2f8f4a))
+* update emi ([201187b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/201187b11c5dbfd481e12c06bae98084a021e7e4))
+* update kjs and rhino ([b040767](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b040767e6a3cd8fd9ace297f7d75e796c9da7766))
+* update modpack update checker ([2c99cff](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2c99cff0fe43f86a521401b5bace8c9b5ca42132))
+
+
+### Minor tweaks
+
+* max distance for carryon increased to 6 ([121bed7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/121bed77d8966383cd92445e7d30f6c5a5fad68a))
+* reduce player damage bonus ([322c4ca](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/322c4caa26e3c44cd282998665cfcc8c95fb3a26))
+
+
