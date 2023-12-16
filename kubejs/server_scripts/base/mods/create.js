@@ -286,3 +286,10 @@ if (feature('White ingot from raw white ')) {
 // if (feature('Fix water dupe with spout')) {
 //     BlockEvents.rightClicked('cauldron')
 // }
+
+if (feature('Metal gridder no gray ingot')) {
+  replaceShaped('32x create:metal_girder', ['ppp','pdp'],{
+    p: "#forge:plates/iron",
+    d: "#forge:dyes/black"
+  })
+}
