@@ -40,6 +40,8 @@ let wrenchables = [
   "ae2:storage_bus",
   "ae2:storage_monitor",
   "ae2:quartz_fiber",
+  "supplementaries:turn_table",
+  "botania:default_apothecary"
 ];
 if (feature("Add wrenchable blocks")) {
   ServerEvents.tags("block", (event) => {
