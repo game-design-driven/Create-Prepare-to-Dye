@@ -297,7 +297,7 @@ if (feature('Cactus from Choros fruite alchemy')) {
 
 if (feature('Nether brick from chocolate and black')) {
     addAssembly('2x nether_brick', '#forge:ingots',[
-        addPressing('stick', 'stick'),
+        addDeploying('stick','stick','#forge:nuggets'),
         addFilling('stick', 'stick', '50x create:chocolate'),
         addFilling('stick', 'stick', '50x create_enchantment_industry:ink')
     ])
