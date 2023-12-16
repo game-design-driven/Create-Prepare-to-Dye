@@ -318,7 +318,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "87b4202eddb3e89270ec35668cecdcba9481e1f0dd5f3a48b1e9eaaeb8ed0190"
+hash = "2fac8f0c3886920e805a8621c297706bc398598e3c6dac23c1587f0782a69a22"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1442,7 +1442,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a416ee95957009da31d7896aa06a85c59b9c70ea7f38cd9a6fd1b945ffdead89"
+hash = "18969f0f4067b94447761f45d88f51b3fbdf51fc1a52d6696eb327ba1637b695"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2094,7 +2094,7 @@ hash = "c94844b377b697880ab2d118700a3f262b91782bc5353d9f80ba3ffa7dc22e97"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "78945d327bbd7c1df06842b8960474cf2aa9d4f3e79383f92e8ea16ee2d8ff3b"
+hash = "6f8beaf179da91ed19879f0b2d41c82466b50051b8573b4963bdaa3656097963"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -2102,7 +2102,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "292d3e1ab8f2e01e851b804ea29f0befde712482d5053a3ecd032c19db3d4dc7"
+hash = "712ad475edf6c29fb949232a1fce60268f958283193a08ba5d59e0e586cada83"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -2290,7 +2290,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b4a008ce6529ad20ea570287333ef038af6604d9566b1a9e281a3944c81fdf92"
+hash = "5657dbe7a4c7c3b9610da40f605c7e7688b1b595628d8c956fc94237eafd29ea"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3047,6 +3047,10 @@ hash = "e20d51323c8ae54724759a492ccbbf3da2f0d39b0c184f0cb2644ee16fb91302"
 [[files]]
 file = "modpack-update-checker/versions/1.160.1/changelog.txt"
 hash = "e830d87f6794c57ad8252084eba11276758c3d330ccaee6225528dbc2c23a81d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.161.0/changelog.txt"
+hash = "4b453efd8f37a66dc85d9e0871c8efe6772f77fe47a7b0d7cf64272c815c7e0e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
