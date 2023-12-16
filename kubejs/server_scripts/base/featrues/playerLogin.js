@@ -45,7 +45,10 @@ function automatonAttributes(player) {
       )
   );
 }
-
+function noRain(){
+  Utils.server.runCommandSilent('weather clear')
+  Utils.server.runCommandSilent('/gamerule doWeatherCycle false')
+}
 if (feature('automaton upgrades')){
     PlayerEvents.loggedIn((event) => {
         automatonAttributes(event.player);
@@ -56,7 +59,7 @@ if (feature('automaton upgrades')){
 }
 if (feature("starter items")) {
   PlayerEvents.loggedIn((event) => {
-
+    noRain()
     if (!event.player.getPersistentData().getBoolean("starter")) {
       event.player.give(Item.of("create:wrench", 1));
       event.player.give(Item.of("crafting_on_a_stick:stonecutter", 1));
