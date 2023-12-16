@@ -1,0 +1,13 @@
+### [1.162.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.162.1...1.162.2) (2023-12-16)
+
+
+### Fixes
+
+* broken recipe for iron plates ([cea0e4a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cea0e4a4d468515502ede682d0645160aff2bbc7))
+
+
+### Minor tweaks
+
+* move some things in player login script to features so they can be turned on and off ([b33a7ce](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b33a7ce465600385612cc31f5c78cb66394fadfb))
+
+
