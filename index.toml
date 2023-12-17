@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f31b0ab736bdb3a183a74a12439f8f7865ee0f76554d95acbc297d621d188982"
+hash = "b6691fc4cee8559b1edb583085412169bc812052a2bbd11a8f67c1d14ac06d8e"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1450,7 +1450,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "30afbcf4327896360ccc96ff7b06ee36562866d136da8aa56a7d1f6b396bb5fb"
+hash = "4b07ff72662c474824ba241fc4e0404ef38cab830f29fb16a89621be9c0cb884"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2106,7 +2106,7 @@ hash = "38f14c3df6b0fe0bbffe89da5a9dba3506f3a869731e14c1699cc78b982c19b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/recycling.js"
-hash = "429cb6ca0da565444528b478593549b4a5425530eb8ae9e72c99bc6266ec2011"
+hash = "e81826b92e226c00f07ee4e23050e6c6868017634fdc11e518f9bf9e018e887e"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
@@ -2366,7 +2366,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "958f15f7176638ac723c445c1fd1e269ddb25eb46289aa8ede02ad2defd76600"
+hash = "3743b75b1f286a9dd554cff88bd6ef1516f5c824890b225ff9d7eaf7a01cdc12"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3175,6 +3175,10 @@ hash = "cea0b129539264aa175bab1089e3c2b39ec8439124e2c45e96a346b724971043"
 [[files]]
 file = "modpack-update-checker/versions/1.164.0/changelog.txt"
 hash = "4487cb2fc6ac3d0fca850b317a2e250229d5f97449f8fe92e9453da317dbfbc0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.164.1/changelog.txt"
+hash = "95de204dc378d13d6410983735b08e8336bfe824452cd0c6da26810f2a6dcc10"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
