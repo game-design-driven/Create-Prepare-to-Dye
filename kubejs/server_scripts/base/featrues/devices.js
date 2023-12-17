@@ -19,14 +19,14 @@ if (feature("Harder casing recipes")) {
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
       material: "#forge:silicon",
-      amount: 2,
+      amount: 4,
     },
     {
       item: "mechanical_device",
       base: "#forge:stripped_logs",
       sheet: "create:iron_sheet",
       material: "create:andesite_alloy",
-      amount: 2,
+      amount: 4,
     },
     {
       item: "smart_device",
@@ -53,7 +53,7 @@ if (feature("Harder casing recipes")) {
       base: "create:brass_sheet",
       sheet: "create:sturdy_sheet",
       material: "create:sturdy_sheet",
-      amount: 2,
+      amount: 4,
     },
   ];
   casings.forEach((casing) => {
