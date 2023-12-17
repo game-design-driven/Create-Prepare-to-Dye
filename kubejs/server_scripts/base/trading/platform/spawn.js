@@ -160,7 +160,7 @@ function generate_spawn_coordinates(player, radius, min_height_diff) {
 }
 
 function get_floor_level(level, x, z) {
-    let y = MIN_PLATFORM_SPAWN_HEIGHT;
+    let y = BUILD_HEIGHT - 8;
     while (!check_floor(level, x, y, z)) {
         y--;
     }
