@@ -1,0 +1,1 @@
+addDeploying('minecraft:name_tag', 'minecraft:light_weighted_pressure_plate', 'minecraft:chain')
