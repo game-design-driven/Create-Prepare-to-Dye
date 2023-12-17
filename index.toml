@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f2fd34f80c64120c0422e7757bee6bcedcc3ec547412cb9155a7fb3745f664bc"
+hash = "a2be7d94e272a794153a6222ca63dae9c681edad2a179505c5030b1db0edbc13"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1450,7 +1450,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b3c46539378533740147b1331c72ec9a82dcd5d9bcf41753c8a8301be00e15b7"
+hash = "bf45cb8ae61438699d7d48ee719063004b2efbb6307ee7e11c2c12f4078ef0f9"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2033,6 +2033,10 @@ file = "kubejs/server_scripts/base/featrues/indestructible.js"
 hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/items.js"
+hash = "ede2c336711b9a680adc83c0a141067b35ebed95bc09e705f7a1857e916afcb0"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/manapool.js"
 hash = "8db35c499034bf04f146ce6edcdb57b7a883b15d4648ca76b2fd5b461087d6e5"
 
@@ -2330,7 +2334,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "127fca1a73c38cfe017a29f4474a0046fc5e79716982aa1c07ab3b421ebab3b5"
+hash = "d1d9ea88f1207aed4c7f62220bf50d51085edf4195b1b574c4ea0abbf430015a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3115,6 +3119,10 @@ hash = "a8043c89dfb37f7a282282dd859273fa60e9dbf69b58304f3a4cdebc9f680cd4"
 [[files]]
 file = "modpack-update-checker/versions/1.162.4/changelog.txt"
 hash = "6c01cf0f9fa1aca03c1f8067b669c6e1db741e6c626a64b475ece4f50eb04c8d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.162.5/changelog.txt"
+hash = "58701706e5f598139f21da31807320b8ec9ef7d4fa4b9f0d56dcdf15bbdf7151"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
