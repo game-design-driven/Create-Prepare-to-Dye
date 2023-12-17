@@ -24,10 +24,10 @@ const bcfPlates = getAgreement({
 const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
-    "10x ptdye:sealed_device",
+    "16x ptdye:sealed_device",
     "10x ae2:flawed_budding_quartz",
-    "10x ptdye:mechanical_device",
-    "10x ptdye:smart_device",
+    "16x ptdye:mechanical_device",
+    "16x ptdye:smart_device",
     "create:super_glue",
   ],
   requestedItems: [
