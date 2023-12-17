@@ -16,6 +16,14 @@ if (feature('Dye crafting')) {
     addMilling('red_dye', 'apple')
 }
 
+if(feature('Dye Storage Blocks')){
+  global.colors.forEach(color=>{
+    addShapeless(`9x minecraft:${color}_dye`,`ptdye:${color}_dye_block`);
+    let d = `minecraft:${color}_dye`
+    addShapeless(`ptdye:${color}_dye_block`, [d,d,d,d,d,d,d,d,d]);
+  })
+}
+
 if(feature('Dye from seeds')){
     addMilling(['green_dye %5', 'brown_dye %5'], '#forge:seeds')
     addMixing('green_dye', ['4x #forge:seeds', '1000mb water'])
@@ -32,8 +40,6 @@ if (feature('white dye is more expensive')) {
     addMilling('3x white_dye', 'lily_of_the_valley')
 
     addMixing('2x white_dye',['#forge:flour/wheat', '250mb milk'], temperature.none, 1)
-
-
 }
 
 if (feature('black dye is more expensive')) {
