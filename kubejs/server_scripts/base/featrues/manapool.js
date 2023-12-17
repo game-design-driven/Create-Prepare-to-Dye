@@ -1,4 +1,4 @@
-// priority: 1
+// priority: -1
 if (feature('Remove conjuration catalyst stuff')) {
     removeRecipe({ id: '/^.*dupe.*$/' })
     removeRecipe({ id: 'botania:mana_infusion/grass' })

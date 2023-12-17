@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "ptdye:locomotive_device",
+            "nbt": "{Enchantments:[{lvl:1s, id:\"minecraft:mending\"}]}"
+        },
+        "title": { "translate": "advancement.ptdye.root", "color": "aqua", "bold": true },
+        "description": { "translate": "advancement.ptdye.root.desc", "color": "grey" },
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true,
+        "background": "minecraft:textures/block/barrel_side.png"
+    },
+    "requirements": [ [ 
+        "0"
+    ] ]
+}

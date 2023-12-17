@@ -102,7 +102,6 @@ function tradeBranch(outputTrades, inputTrades) {
 }
 
 function getTradeNbtNameFilter(item) {
-  console.log(`getting trade nbt name filter for ${item.getNbt()}`)
   if (!item.getNbt()) return item.weakNBT();
   return Item.of(item.id).withName(item.nbt.get("display").get("Name")).weakNBT();
 }
@@ -111,7 +110,6 @@ ServerEvents.lowPriorityData((event) => {
   let obj = {
     added: [],
   };
-  console.info("all agreements  " + global.allAgreements);
   global.allAgreements.forEach((item) => {
     obj.added.push({
       stack: `item:${item.id}${item.nbt}`,

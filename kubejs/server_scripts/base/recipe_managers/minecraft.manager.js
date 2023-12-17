@@ -7,12 +7,8 @@ function replaceShaped(output, pattern, key, onlyShaped) {
     }
     return addShaped(output, pattern, key)
 }
-function replaceShapeless(output, input, onlyShapeless) {
-    if (onlyShapeless) {
-        removeRecipe({ type: 'minecraft:crafting_shapeless', output: output })
-    } else {
-        removeRecipe({ output: output })
-    }
+function replaceShapeless(output, input) {
+    removeRecipe({ type: 'minecraft:crafting_shapeless', output: output })
     return addShapeless(output, input)
 }
 /**
@@ -36,13 +32,14 @@ function addShaped(output, pattern, key) {
  * @param {ingredient[]} input ['glass','stick'] 
  */
 function addShapeless(output, input) {
-    if (input.length == 1)
-        addInfusion(output, input[0], 250, 'minecraft:crafting_table');
+    if (input.length == 1){
+        addInfusion(output, input[0], 1, 'ptdye:mechanical_device');
+    }
 
     let recipe = {
         type: "minecraft:crafting_shapeless",
         result: solveResult(output),
-        ingredients: solveIngredients(input)
+        ingredients: solveLimitedIngredients(input)
     };
     modpackRecipes.push(recipe)
     return recipe;

@@ -91,7 +91,7 @@ if (feature('Break down gold bars')) {
 
 if (feature('Iron plate block from black')) {
     removeRecipe({id: 'quark:building/crafting/iron_plate'})
-    addShapeless('16x quark:iron_plate',['3x #forge:plates/iron','#forge:dyes/black'])
+    addShapeless('64x quark:iron_plate',['3x #forge:plates/iron',Ingredient.of('#forge:dyes/black').or('#forge:dyes/gray')])
 }
 
 if (feature('Remove forgotten hat')) {
@@ -109,3 +109,13 @@ if (feature('bag from silicon')) {
 //         i:Ingredient.of('#forge:ingots/iron').or('#forge:plates/iron'), p:'quark:iron_plate'
 //     })
 // }
+
+if (feature('Stick Stack')) {
+    removeRecipe({id:"quark:building/crafting/compressed/stick_block"})
+    addShapeless('quark:stick_block','9x stick')
+}
+if (feature('Nerf bambo to planks recipe')) {
+    removeRecipe({id:"quark:building/crafting/woodsets/bamboo/planks"})
+    addShapeless('quark:bamboo_planks', 'quark:bamboo_block')
+    addCutting('quark:bamboo_planks', 'quark:bamboo_block')
+}

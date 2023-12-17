@@ -9,6 +9,10 @@
 			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
 		},
 		{
+			"namespace": "minecraft",
+			"key": "block.create.mechanical_harvester.tooltip.summary"
+		},
+		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.sturdy_device"
 		},
@@ -29,6 +33,14 @@
 			"key": "block.ptdye.smart_device"
 		},
 		{
+			"namespace": "kubejs",
+			"key": "sound_event.kubejs.music_disc.fanfare"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.music_disc_landing_fanfare"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.ae2.storage_bus.tooltip.summary"
 		},
@@ -41,12 +53,12 @@
 			"key": "item.minecraft.iron_ingot.tooltip.summary"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "fluid.kubejs.organic_mass"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.trading_transceiver"
+		},
+		{
+			"namespace": "kubejs",
+			"key": "fluid.kubejs.organic_mass"
 		},
 		{
 			"namespace": "kubejs",
@@ -55,6 +67,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.lava_bucket.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.createdieselgenerators.distillation_controller.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -101,12 +117,12 @@
 			"key": "item.ptdye.trading_transceiver.tooltip.summary"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "item.minecraft.bone_meal.tooltip.summary"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.red_stringed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.bone_meal.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
@@ -126,6 +142,10 @@
 		},
 		{
 			"namespace": "minecraft",
+			"key": "item.minecraft.golden_sword.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
 			"key": "item.minecraft.copper_ingot.tooltip.summary"
 		},
 		{
@@ -141,8 +161,16 @@
 			"key": "block.ae2.chipped_budding_quartz.tooltip.summary"
 		},
 		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_axe.tooltip.summary"
+		},
+		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.incomplete_red_stringed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_pickaxe.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -175,10 +203,6 @@
 		{
 			"namespace": "kubejs",
 			"key": "block.kubejs.organic_mass"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_logic_device"
 		},
 		{
 			"namespace": "minecraft",
@@ -241,6 +265,10 @@
 			"key": "itemGroup.kubejs.kubejs"
 		},
 		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_hoe.tooltip.summary"
+		},
+		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.locomotive_device"
 		},
@@ -259,6 +287,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.raw_iron.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_shovel.tooltip.summary"
 		},
 		{
 			"namespace": "kubejs",

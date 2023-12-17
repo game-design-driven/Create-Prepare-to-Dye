@@ -87,7 +87,7 @@ Our script base uses a feature based aproach, where you can enable and disable f
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
 [Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
-[Prism Launcher self-updating modpack](https://github.com/yarden-zamir/Create-Prepare-to-Dye/raw/main/Create-Prepare-to-Dye.zip)
+~~[Prism Launcher self-updating modpack](https://github.com/yarden-zamir/Create-Prepare-to-Dye/raw/main/Create-Prepare-to-Dye.zip)~~
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority | Alpha Ready |
 |--------------------------------------|:-----------------------------------|----------------------|---------:|-------------|
@@ -100,6 +100,6 @@ Our script base uses a feature based aproach, where you can enable and disable f
 | Performance                          | ![](https://progress-bar.dev/90)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | ✔      |
 | Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical | ✔        |
 | Trading Implementation               | ![](https://progress-bar.dev/59)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |          |
-| Community                            | ![](https://progress-bar.dev/21)    | The pack has a community, ie Discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
+| Community                            | ![](https://progress-bar.dev/80)    | The pack has a community, ie Discord server or something similar that can help each other and give feedback / contribute| Low      | ✔    |
 
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)

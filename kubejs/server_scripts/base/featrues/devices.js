@@ -8,18 +8,25 @@ if (feature("Harder casing recipes")) {
   removeRecipe({ id: "create:item_application/brass_casing" });
   let casings = [
     {
+      item: "red_stringed_device",
+      base: "botania:livingrock",
+      sheet: "minecraft:string",
+      material: "minecraft:red_dye",
+      amount: 2
+    },
+    {
       item: "sealed_device",
       base: "#forge:stripped_logs",
       sheet: "create:copper_sheet",
       material: "#forge:silicon",
-      amount: 2,
+      amount: 4,
     },
     {
       item: "mechanical_device",
       base: "#forge:stripped_logs",
       sheet: "create:iron_sheet",
       material: "create:andesite_alloy",
-      amount: 2,
+      amount: 4,
     },
     {
       item: "smart_device",
@@ -46,22 +53,19 @@ if (feature("Harder casing recipes")) {
       base: "create:brass_sheet",
       sheet: "create:sturdy_sheet",
       material: "create:sturdy_sheet",
-      amount: 2,
+      amount: 4,
     },
   ];
   casings.forEach((casing) => {
-    let transitionItem = Item.of("ptdye:incomplete_" + casing.item, {
-      process: 1,
-    });
     addAssembly(
       Item.of("ptdye:" + casing.item).withCount(casing.amount),
       "create:cogwheel",
       [
         casing.material
-          ? addDeploying(casing.item, transitionItem, casing.material)
+          ? addDeploying('stick', 'stick', casing.material)
           : null,
-        addDeploying(casing.item, transitionItem, casing.base),
-        addDeploying(casing.item, transitionItem, casing.sheet),
+        addDeploying('stick', 'stick', casing.base),
+        addDeploying('stick', 'stick', casing.sheet),
       ].filter((item) => {
         return item;
       }),
@@ -109,6 +113,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_bearing",
     "create:rope_pulley",
     "create:cart_assembler",
+    "quark:pipe",
   ];
   addToTag("forge:device/andesite", "ptdye:mechanical_device");
   addToTag("forge:device/andesite", andesiteBasedDevices);
@@ -175,7 +180,6 @@ if (feature("Remove crafting table recipes for devices")) {
     "supplementaries:spring_launcher",
     "botania:apothecary_default",
     "quark:crate",
-    "minecraft:furnace",
   ];
   addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
@@ -218,7 +222,6 @@ if (feature("Remove crafting table recipes for devices")) {
   });
 
   let copperBasedDevices = [
-    "quark:pipe",
     "create_enchantment_industry:printer",
     "create_enchantment_industry:disenchanter",
     "create:portable_fluid_interface",
@@ -242,28 +245,19 @@ if (feature("Remove crafting table recipes for devices")) {
   removeRecipe({ id: "create:andesite_casing" });
   addStonecutting("4x create:copper_casing", "#forge:device/copper");
   addShapeless("ptdye:sealed_device", [
-    "create:copper_casing",
-    "create:copper_casing",
-    "create:copper_casing",
-    "create:copper_casing",
+    "4x create:copper_casing",
   ]);
 
   addStonecutting("4x create:fluid_pipe", "#forge:device/copper");
   addShapeless("ptdye:sealed_device", [
-    "create:fluid_pipe",
-    "create:fluid_pipe",
-    "create:fluid_pipe",
-    "create:fluid_pipe",
+    "4x create:fluid_pipe",
   ]);
   addStonecutting(
     "4x createdieselgenerators:distillation_controller",
     "#forge:device/copper"
   );
   addShapeless("ptdye:sealed_device", [
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
-    "createdieselgenerators:distillation_controller",
+    "4x createdieselgenerators:distillation_controller",
   ]);
   addShapeless("ptdye:sealed_device", "#forge:device/copper");
   addCrushing("ptdye:sealed_device", "#forge:device/copper");
@@ -423,4 +417,14 @@ if (feature("Remove crafting table recipes for devices")) {
       "create:incomplete_track"
     );
   }
+
+  let redStringedDevices = ['botania:red_string_container', 'botania:red_string_dispenser', 'botania:red_string_fertilizer', 'botania:red_string_comparator', 'botania:red_string_relay', 'botania:red_string_interceptor']
+  addToTag("forge:device/red_string", "ptdye:red_stringed_device");
+  addToTag("forge:device/red_string", redStringedDevices);
+  addShapeless("ptdye:red_stringed_device", "#forge:device/red_string");
+  addCrushing("ptdye:red_stringed_device", "#forge:device/red_string");
+  redStringedDevices.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device, "#forge:device/red_string");
+  });
 }

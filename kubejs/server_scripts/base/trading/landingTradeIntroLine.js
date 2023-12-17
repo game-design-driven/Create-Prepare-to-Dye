@@ -24,10 +24,10 @@ const bcfPlates = getAgreement({
 const bcfPlates2 = getAgreement({
   paymentItems: [
     "16x minecraft:andesite",
-    "10x ptdye:sealed_device",
+    "16x ptdye:sealed_device",
     "10x ae2:flawed_budding_quartz",
-    "10x ptdye:mechanical_device",
-    "10x ptdye:smart_device",
+    "16x ptdye:mechanical_device",
+    "16x ptdye:smart_device",
     "create:super_glue",
   ],
   requestedItems: [
@@ -82,7 +82,6 @@ const mlcSand = getAgreement({
   paymentItems: [
     // "botania:manasteel_shovel",
     Item.of("minecraft:golden_pickaxe", 2, "{Damage:0}"),
-    "2x botania:rannuncarpus",
     "2x botania:hopperhock",
     "2x botania:mana_pool",
     "dirt",
@@ -93,12 +92,13 @@ const mlcSand = getAgreement({
     "64x minecraft:white_concrete_powder",
     "64x minecraft:white_concrete_powder",
     "64x minecraft:white_concrete_powder",
+    "64x minecraft:white_concrete_powder",
   ],
   title: "Your Sand – Our Beaches?",
   orderedAmount: 2,
   company: "magical_landscaping_co",
   message:
-    "Hey there, new kid. Heard youre the fresh grain on the block. We at Magical Landscaping Co. are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, white, untouched, like your rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
+    "Hey there, new kid. Heard youre the fresh grain on the block. We are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, white, untouched, like your manufacturing rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
 });
 const mlcSand2 = getAgreement({
   paymentItems: [

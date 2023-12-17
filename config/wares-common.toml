@@ -17,6 +17,7 @@ KeepNBTWhenOpeningAgreement = true
 	#Completed Delivery Agreement will be moved to the output slots when they have space.
 	#Default: true
 	MoveCompletedAgreementToOutput = false
+
 	[Delivery.Packager]
 		#Packager worker is required for Delivery Table to work.
 		#For a Packager to be considered a 'worker' he should have current table as a 'job_site' and have 'last_worked_at_poi' less than 40 seconds ago.

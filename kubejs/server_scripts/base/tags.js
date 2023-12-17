@@ -58,7 +58,8 @@ addToTag('minecraft:stairs',[
 
 addToTag('forge:rods', [
     'create:shaft',
-    'bone'
+    'bone',
+    'bamboo'
 ])
 
 addToTag('forge:coral', [
@@ -73,3 +74,5 @@ addToTag('forge:canvasables', [
     'ae2:silicon',
     'dried_kelp'
 ])
+
+removeFromTag('logs_that_burn','botania:livingwood')

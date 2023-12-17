@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:white_sheet",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": [ "ptdye:sturdy_device" ]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "ptdye:sturdy_device"
+      },
+      "title": { "translate": "advancement.ptdye.sturdy_device", "color": "aqua" },
+      "description": { "translate": "advancement.ptdye.sturdy_device.desc", "color": "grey" },
+      "frame": "goal",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

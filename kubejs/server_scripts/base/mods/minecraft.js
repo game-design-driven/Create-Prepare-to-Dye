@@ -119,7 +119,7 @@ if (feature('Netherrack from nether_wart_block')) {
 }
 
 if (feature('Netherwart to redstone')) {
-    addSmelting('redstone', '#forge:crops/nether_wart')
+    addSmelting('redstone %10', '#forge:crops/nether_wart')
 }
 
 if (feature('Redstone from quartz')) {
@@ -216,16 +216,15 @@ if (feature('Fertilizer into water')) {
         'minecraft:pumpkin_seeds',
         'minecraft:beetroot_seeds',
         'minecraft:cactus',
+        'minecraft:bamboo',
     ])
     addToTag('forge:squeezables/2',[
         'minecraft:apple',
         'minecraft:beetroot',
         'minecraft:carrot',
         'minecraft:potato',
-        'minecraft:poisonous_potato',
         'minecraft:chorus_fruit',
         'minecraft:sweet_berries',
-        'minecraft:bamboo',
         'minecraft:melon_slice',
     ])
     addToTag('forge:squeezables/3',[
@@ -234,6 +233,7 @@ if (feature('Fertilizer into water')) {
     removeRecipe({id: 'createdieselgenerators:compacting/plant_oil'})
     addCompacting('25mb kubejs:organic_mass', '#forge:squeezables/1')
     addCompacting('100mb kubejs:organic_mass', '#forge:squeezables/2')
+    addCompacting('125mb kubejs:organic_mass', 'minecraft:poisonous_potato')
     addCompacting('200mb kubejs:organic_mass', '#forge:squeezables/3')
     addDistillation(['8mb water', '2mb createdieselgenerators:plant_oil'], '10mb kubejs:organic_mass')
 
@@ -263,5 +263,45 @@ if (feature('Soulsand from sand and brown')) {
 
 if (feature('Choros fruit from bamboo')) {
     addAlchemyRecipe('chorus_fruit', 'bamboo')
-    
 }
+if (feature('Gold is 4 nuggets')) {
+    removeRecipe({id:"create:splashing/crushed_raw_gold"})
+    addSplashing(['4x gold_nugget', 'ae2:large_quartz_bud %5'], 'create:crushed_raw_gold')
+
+    removeRecipe({id: "minecraft:gold_ingot_from_nuggets"})
+    replaceShapeless('gold_ingot', ['4x minecraft:gold_nugget'])
+    
+    removeRecipe({id: "minecraft:gold_nugget"})
+    addShapeless('4x minecraft:gold_nugget', 'gold_ingot')
+    
+    removeRecipe({id: "create:crushing/nether_gold_ore"})
+    addCrushing(['8x gold_nugget', 'create:experience_nugget %75', 'netherrack %10'], 'nether_gold_ore')
+} 
+
+if (feature('Remove furnaces')) {
+    removeItem('furnace')
+    removeItem('blast_furnace')
+}
+
+if (feature('Choros flower from choros batch')) {
+    addBlockInteractToItem('chorus_flower', 'quark:chorus_fruit_block', 'bone_meal')
+}
+
+if (feature('Replace sticks with forge:rods')) {
+    replaceInputForRecipes('stick', "#forge:rods")
+}
+
+if (feature('Cactus from Choros fruite alchemy')) {
+    addAlchemyRecipe('cactus', 'quark:chorus_fruit_block')
+}
+
+// if (feature('Nether brick from chocolate and black')) {
+//     addAssembly('2x nether_brick', '#forge:ingots',[
+//         addDeploying('stick','stick','#forge:nuggets'),
+//         addFilling('stick', 'stick', '50x create:chocolate'),
+//         addFilling('stick', 'stick', '50x create_enchantment_industry:ink')
+//     ])
+// }
+
+// if (feature('Grass from grass block with shears accessibility recipe')) {
+// }

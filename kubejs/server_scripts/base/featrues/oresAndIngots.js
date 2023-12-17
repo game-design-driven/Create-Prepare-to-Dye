@@ -32,7 +32,7 @@ if (feature('Ores from dyes')) {
     
     // addItemApplication('raw_copper', 'cobblestone', 'orange_dye')
     // addItemApplication('raw_iron', 'red_sand', 'white_dye')
-    addBlockInteractToItem('raw_iron', 'minecraft:white_concrete_powder', 'white_dye')
+    addBlockInteractToItem('raw_iron', 'minecraft:white_concrete_powder', 'white_dye', 'ptd:raw_white')
     // addItemApplication('raw_copper', 'red_sand', 'orange_dye')
     addBlockInteractToItem('raw_copper', 'minecraft:orange_concrete_powder', 'orange_dye')
 

@@ -1,0 +1,18 @@
+### [1.159.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.159.0...1.159.1) (2023-12-16)
+
+
+### Minor tweaks
+
+* nerf plank output from bamboo and added a cutting recipe for it ([f6cdb26](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f6cdb2684b6879f5dcff5bd1a8014a831d342be5))
+
+
+### Fixes
+
+* stick stack recipe conflict ([e631b69](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e631b69885669ea47a1e243d7f6e7662e13a8d35))
+
+
+### Documentation and Localization
+
+* mention you can't use a drill in quartz tooltip ([8982517](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/89825174862edada4b02d3035999ac961e5a2f1a))
+
+
