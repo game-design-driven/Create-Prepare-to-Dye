@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6617b8570bd872c7fbd2d205f7eb459d84bc750944f903156c7978f26f105f4c"
+hash = "f31b0ab736bdb3a183a74a12439f8f7865ee0f76554d95acbc297d621d188982"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1450,7 +1450,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e9bfeaa000f77e2d38e3c2062a4d944e22cc7c4c84ff8cf4c4afe2628c2e0927"
+hash = "30afbcf4327896360ccc96ff7b06ee36562866d136da8aa56a7d1f6b396bb5fb"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1821,6 +1821,26 @@ file = "kubejs/data/minecraft/dimension/overworld.json"
 hash = "cccef32bc8a5bad284752caeb33bb613d9d0f834d19d6a64b2814b23187879b8"
 
 [[files]]
+file = "kubejs/data/minecraft/structures/bigbonedfish.nbt"
+hash = "53ee2d857dbc0f6d801924836c955b7d5058390d879f916deee60d0bfd2e444b"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/skull1.nbt"
+hash = "9c7753fc8edb112a98741c7a7a9279b243758bf47b57ea5a25d188328a28ad06"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/skull2.nbt"
+hash = "593577db1210f606fee267770cd2a7ed94f8896026e4cc890a82d61fd7b5214c"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/skull3.nbt"
+hash = "6facd06f562242f1246d50c07dc2f2be8f25c22f409132809eef6e082a05f29b"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/skull4.nbt"
+hash = "12def739855a93531521354f4cc2efec1ef5cfb14488082f643df119823bf599"
+
+[[files]]
 file = "kubejs/data/minecraft/structures/spaceship_betsy_wreck.nbt"
 hash = "de46eaaa14d3c7a7cc8489b375b9edd88f50e8ce4b8c70594fbc5d492619f24e"
 
@@ -1849,6 +1869,10 @@ file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
 hash = "844d7406abcd60b0759f2cef24ebb35fea049a281e530f96c8c9372ff0b078e5"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure/large_fossil.json"
+hash = "f86331fbb133fa39208f20b3e642abf732ad0ad5c06091c372fc5c2b60aa9ea5"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure/mineshaft_mesa.json"
 hash = "e0d80199005b8da054f831a66ba5c8956a8ebdb28b52b6dc3c9a67439e8644a5"
 
@@ -1869,8 +1893,16 @@ file = "kubejs/data/minecraft/worldgen/structure/spaceship_wreck_main.json"
 hash = "7afa1b28a7357ca8ee028441c48c81585404bebbe948595c68258cfe37d17404"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/large_fossils.json"
+hash = "2db018968f46ffee1b1459a52d6d70b648179a2461aab8ed1f5a5a681d24050e"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/nether_fossils.json"
 hash = "6a105924d08ddc1b40918b2ca7821fdcf5d7c13843d840a16891027b6c23e11b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/large_fossil.json"
+hash = "5d679a41ee667b7c99106a000a0cc10180355d23e82b83d9cec53b6fc05b707b"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/spaceship_wreck_main.json"
@@ -2334,7 +2366,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "43a6f62fc5f0d81b127bac2071c6fba2d1d672fad692d3ec2635f39df71563dd"
+hash = "958f15f7176638ac723c445c1fd1e269ddb25eb46289aa8ede02ad2defd76600"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3139,6 +3171,10 @@ hash = "148e36a2ddaa396dd53405b07584a57ba7d06570d64665d17c6f2c0e94ec9f5c"
 [[files]]
 file = "modpack-update-checker/versions/1.163.0/changelog.txt"
 hash = "cea0b129539264aa175bab1089e3c2b39ec8439124e2c45e96a346b724971043"
+
+[[files]]
+file = "modpack-update-checker/versions/1.164.0/changelog.txt"
+hash = "4487cb2fc6ac3d0fca850b317a2e250229d5f97449f8fe92e9453da317dbfbc0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
