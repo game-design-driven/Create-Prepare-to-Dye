@@ -109,6 +109,10 @@ file = "config/defaultoptions/extra/options.txt"
 hash = "48b56284909f9636c407ed36df297e89cebe82b52af55d7d9393771ba4ec6c94"
 
 [[files]]
+file = "config/do_a_barrel_roll-client.toml"
+hash = "02a7495de11232f2c12c8f9ab69ee9139c3af040a41638d490b2714e2deb0470"
+
+[[files]]
 file = "config/easy_villagers-client.toml"
 hash = "ad9dd91707cff2cace17bc6cdde229e8cc98488016d18078d95bc33f01610568"
 
@@ -162,7 +166,7 @@ hash = "4df018c996388353351ef0becf5b26c1866f13ba66504855ca45634c5a57dea0"
 
 [[files]]
 file = "config/fancymenu/customization/q.txt"
-hash = "e5c3bd1188f1f59d53b2b7c1873de6a24919ff860b66de9744db3e50aa63c79b"
+hash = "c83f22a6195073cdf5f1a8d7108ad4afa8dc6f2ae99939ceaa5dcad5c70bb565"
 
 [[files]]
 file = "config/fancymenu/customization/removecorios.txt"
@@ -322,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "a362aa9bb2b70b94629637a8bd6d665b813360166eb19ad8530de355eb76687f"
+hash = "d817b1b82e530405008c7f68e0a2932360f9bee2234c7ab7b09f1da6fc493b6a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1562,7 +1566,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2a21d18f9a14477d5afa412de49f6e57fb077e91d667150a118dc65e15ee0d99"
+hash = "ede00dde73cd217d9a562175df5626bec6b639ba7b2429327cbe2d987f6645b4"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1774,7 +1778,7 @@ hash = "2fcab4d130077b073f20d59db438be312b49eb3ac758c8c1ab5904940455b93a"
 
 [[files]]
 file = "kubejs/client_scripts/handInteractions.js"
-hash = "5fe168333e89824dccfa089bcf8b56aa4c578f1af039a01afd666cfddd581312"
+hash = "fbc4b14b0a5d8a902f50b7769392ba242a12e189ced14085ccd931616fec05ff"
 
 [[files]]
 file = "kubejs/client_scripts/jei.js"
@@ -2082,7 +2086,7 @@ hash = "ade73d4fab3bf27112ce413f875716668521114223080a1932cc9fedc1e853a8"
 
 [[files]]
 file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace1.json"
-hash = "0816a9d4f46501c4509b1b3aec0b1d5318e1becbfd02d5112b4401887e9d1a94"
+hash = "417d755f0e88a6f3a15e64b3c47dc2ec379a99a6416a468e8e3d5fbe295472f8"
 
 [[files]]
 file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace2.json"
@@ -2114,7 +2118,7 @@ hash = "29e393ab91307e465c941b87947417ead41cd4952884a57c850f5bc7bafff70e"
 
 [[files]]
 file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace9.json"
-hash = "f8d558868b6e6d8513f39bd77021572fde69f7c8dc039587684f980d5e110005"
+hash = "c5f33f3a7989662e9808982c63268b109c0be02cac3a552fdaabcad2e2a5be2d"
 
 [[files]]
 file = "kubejs/data/ptd/worldgen/placed_feature/replace_terracotta/replace1.json"
@@ -2182,7 +2186,7 @@ hash = "2c2f5dd512180b183cbb1d0bbf34e3c41d7f1af7dd45ba088f3117fe8e0be94c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
-hash = "bb06aa5244f34329a525994e6193804ea3c465795216392a757176f98b4bacfc"
+hash = "987f06b233d8d53a42514efa083f89cd5584060809bef77e6a6ec79690dfd04f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
@@ -2198,7 +2202,7 @@ hash = "f7edeffe102f712457e89c672733d2f7beae75704a0501863f53006a9e1bfafc"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/handInteractions.js"
-hash = "5fe168333e89824dccfa089bcf8b56aa4c578f1af039a01afd666cfddd581312"
+hash = "2e449f6d03a219764de988c02ecbeb7c24e6e9317439646a4d2a1eab55f490e5"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/indestructible.js"
@@ -2322,7 +2326,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "f3cc1284c196eb32be5daebd5153f1e28a778ef2f23bdd4fc439d9f9c52fa258"
+hash = "26dce7c697f7d9e9a08b0c1590a5d5eb261a82cd7e40ddb93ea79a52277399c1"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -2454,7 +2458,7 @@ hash = "561a42ce72cf0011daefe42da66cbe4667665e2de9f9b1a8d8176ba3cf813d47"
 
 [[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
-hash = "cf271b1244f63c826ed75f83e91e4f96b7fa930dfa5f9f99b393863f16fc5df3"
+hash = "560821791baecc3f25802afb80befc97943a76f73165645b5709f9da210eed89"
 
 [[files]]
 file = "kubejs/startup_scripts/features.js"
@@ -2510,7 +2514,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "45bc8766b97e73f89a07318e3a6354b57a95f52420636196cc2c5a6b1a3a203f"
+hash = "2de9800185d2d337338389b260b909a52ef097c474cc33fc2ec5872729a914db"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3363,6 +3367,10 @@ hash = "c9d58c9c90143e07332954f4c75930bd8aff6267330ab4d9f4f0b45bf6ddb506"
 [[files]]
 file = "modpack-update-checker/versions/1.168.0/changelog.txt"
 hash = "538191228a49d03ef2b30564e17e131f7360e37bf9e39d281acb31d38c9f3760"
+
+[[files]]
+file = "modpack-update-checker/versions/1.169.0/changelog.txt"
+hash = "8194e5f09081068e052225c039f742b14df70fd04757906517793cea8d85955d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
