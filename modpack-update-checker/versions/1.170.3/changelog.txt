@@ -1,0 +1,8 @@
+### [1.170.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.170.2...1.170.3) (2023-12-18)
+
+
+### Fixes
+
+* armor not stacking ([ff8f1b0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ff8f1b0fdb603fd792d367a5aae9daf09ecb2df9))
+
+
