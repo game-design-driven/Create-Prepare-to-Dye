@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f104f4c338e6ff3fc1bbb4db5a38a43229222c4da1be4599867bb28062f2a98f"
+hash = "087403c1ed88b3995d8e913711e6ae1ead047c6d36497f7583ee6262ba63592c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1278,7 +1278,7 @@ hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "bbf4a4b4f964a995c51a1bff6017e43c7090832b408a491fae17ee51d932fdd7"
+hash = "38187efa1ff5cc48665b1b29944ec0fb9acac8915ed0107354bda52e672c2c23"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/locomotive_device.json"
@@ -1313,6 +1313,10 @@ file = "kubejs/assets/ptdye/models/block/upside_down_fire.json"
 hash = "a46781db961500e985af8d24b57a3c4bd6c0a160e56fb57b79337058fa93327d"
 
 [[files]]
+file = "kubejs/assets/ptdye/models/item/hammer.json"
+hash = "c9129d4d2af175cae69069e2b11c3003d2010c7672f0d2483927c351dc8ed9ca"
+
+[[files]]
 file = "kubejs/assets/ptdye/models/item/incomplete_locomotive_device.json"
 hash = "a1530423b8fff24554f50314ca3234e6c34a3850515dfe19ccd31c68cebf5703"
 
@@ -1342,7 +1346,19 @@ hash = "20466f4c84efda4be23324abb091bbfefa95281624184e4ced21b0858c7125ef"
 
 [[files]]
 file = "kubejs/assets/ptdye/sounds.json"
-hash = "52f26141637ee72cb9cdf8b66216ec803bba12d3e93ada3703ee5ecafbf43b84"
+hash = "b78153912375a1f99c11625e098863d768c103632021759010f6453dcc9a2c74"
+
+[[files]]
+file = "kubejs/assets/ptdye/sounds/hammer_01.ogg"
+hash = "024c4f6a93bc056f277861a658862e9a3d69b876e6b2b0456a87d6f777596089"
+
+[[files]]
+file = "kubejs/assets/ptdye/sounds/hammer_02.ogg"
+hash = "df061ca96ba717c3f2d458c04e551af61cc87ce1e6818372f3cb5471b9ba7587"
+
+[[files]]
+file = "kubejs/assets/ptdye/sounds/hammer_03.ogg"
+hash = "a88359456d786147f78254eac42e754702074858b37fc46748f54b4874a8d795"
 
 [[files]]
 file = "kubejs/assets/ptdye/sounds/trading_platform_fanfare.ogg"
@@ -1517,6 +1533,14 @@ file = "kubejs/assets/ptdye/textures/block/upside_down_fire.png.mcmeta"
 hash = "3aa19621a27576418f766365fc8c57d6c35a65cf1a6d16668db6fc1648a0496b"
 
 [[files]]
+file = "kubejs/assets/ptdye/textures/item/hammer.png"
+hash = "820a0a03baee0dedf6dfc58babda3a1942798c560055afaa8347fea13de34c19"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/item/hammer.png.mcmeta"
+hash = "28a2f201a424596855732247c4b918a77070a6bc30902798b435786cc8bfd436"
+
+[[files]]
 file = "kubejs/assets/ptdye/textures/item/incomplete_sealed_device.png"
 hash = "8cd96fbe8d94d9dc5027d82d739fddc6bce8593e3dc2c8d829e271c7d92ff103"
 
@@ -1566,7 +1590,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b073843ff4e8291f751fe98fc94b9f6a2cae54a4d93b66d61c4d3600af808155"
+hash = "3ff90c0de534b1700465c29c22fc9acc982a92eab8251316be3548f4930466a3"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2201,6 +2225,10 @@ file = "kubejs/server_scripts/base/featrues/gamerules.js"
 hash = "f7edeffe102f712457e89c672733d2f7beae75704a0501863f53006a9e1bfafc"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/hammer.js"
+hash = "af935227b711d8a343c470ec9c07940fb8513e76676be7f540b32a70e4764b85"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/handInteractions.js"
 hash = "2e449f6d03a219764de988c02ecbeb7c24e6e9317439646a4d2a1eab55f490e5"
 
@@ -2326,7 +2354,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "26dce7c697f7d9e9a08b0c1590a5d5eb261a82cd7e40ddb93ea79a52277399c1"
+hash = "edf88f36c4304f17b564bfd1dc6843f582d4be40b4bbeac586caef81e09629cd"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -2374,7 +2402,7 @@ hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "151c6b4243b3fdc5183bee37a51a6d62021312ffd997b53670a080040275e2ad"
+hash = "5ae00b292f2ba53ea668432f775b9c8dd88009cb2ec54c312220f5b802ecdb33"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -2438,7 +2466,7 @@ hash = "cbfc5aad7e40f139b0e29460d3ab5c2b6592577891320cd3e14f4d65025f8a8d"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/tagEvent.js"
-hash = "1d3357b2f683654970d1e5eaae952c9f93802da6b6ab5bdcec857bc1d08f4986"
+hash = "5d4686dcee3bc517e4f76db673a4566b90276e5615b6c68458ef5dece5c860d0"
 
 [[files]]
 file = "kubejs/startup_scripts/blockCustomizations.js"
@@ -2471,6 +2499,10 @@ hash = "df392500b2048a85d30444cd61f528d1611eb88fe1be6a46e8494a6bc982f3c0"
 [[files]]
 file = "kubejs/startup_scripts/global.js"
 hash = "73af275e903b95e1825a5b0b5768ac4933734c5dcad8c2da51848d7626798a5a"
+
+[[files]]
+file = "kubejs/startup_scripts/hammer.js"
+hash = "f2973037509e10f7e9c9443956060ee01f7374a706e37f186c8808570d98821e"
 
 [[files]]
 file = "kubejs/startup_scripts/indestructible.js"
@@ -2514,7 +2546,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d2d1b1ac0eb5be6e82f511b5fc757b38ff8f857dda2bd435ca45bd86ea9d3d20"
+hash = "b5dbad6a4b38cd97dae9aeec2accab98e3a289239329adff1ca1fc72efafcf3e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3375,6 +3407,14 @@ hash = "8194e5f09081068e052225c039f742b14df70fd04757906517793cea8d85955d"
 [[files]]
 file = "modpack-update-checker/versions/1.169.1/changelog.txt"
 hash = "41f2497b3f4792978e6ace063fc9d0cadb213035a1b086bc41bc0c2f94b094b6"
+
+[[files]]
+file = "modpack-update-checker/versions/1.170.0/changelog.txt"
+hash = "e4b81b81e2109fcdeb874bca4cdf3c828470e22dd96b3b1a3c2a4352ff6de261"
+
+[[files]]
+file = "modpack-update-checker/versions/1.170.1/changelog.txt"
+hash = "df90f1bc8e0c937132de2e18355b72beabc3d632ba0ba99d552a975acef745ab"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
