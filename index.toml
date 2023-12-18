@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "61d6353cb2705182cd7d2beff92ad0603affba14b604119417247c45d20602ee"
+hash = "a362aa9bb2b70b94629637a8bd6d665b813360166eb19ad8530de355eb76687f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1562,7 +1562,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "6d7219ec4efd9cb566e1a2a64af97d8feb9507b94de411b30dbc413cf067179e"
+hash = "2a21d18f9a14477d5afa412de49f6e57fb077e91d667150a118dc65e15ee0d99"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1942,15 +1942,15 @@ hash = "ca2d5d08632e85b6cab5279889d30969aa1979e6c8e19f7917770b4131988425"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/ethanol.json"
-hash = "0b5a9b7bf95fcd801e1b51a91d38a57a98badac6c761e6295b489932c650bf62"
+hash = "6329f59aaa4803a77f631f7503ce95fa9f7a5b20e53824e97a454ec005d39ac7"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/fermented_goop.json"
-hash = "828389e68b169991359ddc22d1d0d45ff217823086b919b8eac32897d85ede19"
+hash = "03c46c3a0559f9a53ea3f0705950e445d329437e7c0664ccedb89f9ca0be9586"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/milk.json"
-hash = "2569b905076c720b391b7682ea4ffbbe4b03d2c28ddc17b5bd12739253c738b4"
+hash = "849d3ee175dc1ae4961c5b3fed36e611de83511f7c87202c97eddc7bb9c860ec"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/plantoil.json"
@@ -2510,7 +2510,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d1b15afe7938e1cde52980c94dc0b932f2a600a0c338031d61c3c155d206e837"
+hash = "45bc8766b97e73f89a07318e3a6354b57a95f52420636196cc2c5a6b1a3a203f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3357,6 +3357,14 @@ file = "modpack-update-checker/versions/1.167.0/changelog.txt"
 hash = "c854a7c53a5806d6d735f7172395e224f6b1d6669694ee1ab722a985041463c0"
 
 [[files]]
+file = "modpack-update-checker/versions/1.167.1/changelog.txt"
+hash = "c9d58c9c90143e07332954f4c75930bd8aff6267330ab4d9f4f0b45bf6ddb506"
+
+[[files]]
+file = "modpack-update-checker/versions/1.168.0/changelog.txt"
+hash = "538191228a49d03ef2b30564e17e131f7360e37bf9e39d281acb31d38c9f3760"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "88b208d9f3603b75115554c511e11576379a41c4e65394a53224513f06772de8"
 
@@ -3950,6 +3958,11 @@ metafile = true
 [[files]]
 file = "mods/movement_plus.pw.toml"
 hash = "5ccff9e6844a278f35d3583f1f45156d22c7724fe7b36a9056b6af67070afe4a"
+metafile = true
+
+[[files]]
+file = "mods/no-nether-portal.pw.toml"
+hash = "7d555830f383c298fe4a4734f41e08ada60aaca31b61d28ab2cacb93bf1e545b"
 metafile = true
 
 [[files]]
