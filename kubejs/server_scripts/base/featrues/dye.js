@@ -19,7 +19,7 @@ if (feature('Dye crafting')) {
 if(feature('Dye Storage Blocks')){
   global.colors.forEach(color=>{
     addShapeless(`9x minecraft:${color}_dye`,`ptdye:${color}_dye_block`);
-    let dye = `minecraft:${color}_dye`;
+    const dye = `minecraft:${color}_dye`;
     addShapeless(`ptdye:${color}_dye_block`, [dye,dye,dye,dye,dye,dye,dye,dye,dye]);
   })
 }
