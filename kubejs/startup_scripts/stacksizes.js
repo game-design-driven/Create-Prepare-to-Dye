@@ -6,16 +6,17 @@ ItemEvents.modification((event) => {
     /.*_axe$/,
     /.*_hoe$/,
   ];
-  const armor =[
-    /.*_helmet$/,
-    /.*_chestplate$/,
-    /.*_leggings$/,
-    /.*_boots$/,
-  ]
+  const armor = [/.*_helmet$/, /.*_chestplate$/, /.*_leggings$/, /.*_boots$/];
 
   tools.forEach((tool) => {
     event.modify(tool, (item) => {
-        item.setMaxStackSize(16)
+      item.setMaxStackSize(16);
+    });
+  });
+
+  armor.forEach((armor) => {
+    event.modify(armor, (item) => {
+      item.setMaxStackSize(16);
     });
   });
 });
