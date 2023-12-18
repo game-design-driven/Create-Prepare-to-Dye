@@ -87,7 +87,8 @@ function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
     }
     modpackRecipes.push(recipe)
 }
-function addGrow(block_out, block_in, item_in) {
+function addGrow(block_out, block_in, item_in, ghost) {
+    ghost = ghost || false
     let post = [{
         type: 'place',
         block: block_out,
@@ -108,6 +109,7 @@ function addGrow(block_out, block_in, item_in) {
         item_in: solveLimitedIngredient(item_in),
         block_in: block_in,
         post: post,
+        ghost: ghost,
     }
     modpackRecipes.push(recipe)
 }
