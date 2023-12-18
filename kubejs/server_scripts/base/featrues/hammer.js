@@ -9,9 +9,9 @@ const hammer_deviceMap = new Map([
 ]);
 
 function hammer_breakBlock(block, item, player){
-  let drops = block.getDrops()
+  const drops = block.getDrops()
   if (drops.size() > 1) {
-    drops.removeIf(drop => drop != block.id)
+    drops.removeIf(drop => drop.is(block.id))
     for(const drop of drops) {
       player.give(drop)
     }
@@ -21,11 +21,11 @@ function hammer_breakBlock(block, item, player){
 }
 
 ItemEvents.rightClicked((event) => {
-  if ((event.item.id != "kubejs:hammer" && event.item.id != "ptdye:hammer") ||
-      ! event.player.getOffHandItem().is("minecraft:air"))
+  if (event.item.id != "ptdye:hammer" || event.player.getOffHandItem() != "minecraft:air")
     return
-  // Animation
+  
   event.player.swing()
+
   const block = event.target.block
   if (block) {
     for(const [tag, item] of hammer_deviceMap.entries()) {
@@ -39,7 +39,6 @@ ItemEvents.rightClicked((event) => {
         break
       }
     }
-    //console.log(block.getTags().join(", "))
   }
 })
 
