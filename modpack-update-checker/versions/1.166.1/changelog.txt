@@ -1,0 +1,8 @@
+### [1.166.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.166.0...1.166.1) (2023-12-18)
+
+
+### Fixes
+
+* bring back furnace recipe temporarily ([c2874ea](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c2874eadafe21c9216b3faad70a9fd466d383db5))
+
+
