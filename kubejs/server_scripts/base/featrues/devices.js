@@ -17,21 +17,21 @@ if (feature("Harder casing recipes")) {
     {
       item: "sealed_device",
       base: "#forge:stripped_logs",
-      sheet: "create:copper_sheet",
+      sheet: "#forge:plates/copper",
       material: "#forge:silicon",
       amount: 4,
     },
     {
       item: "mechanical_device",
       base: "#forge:stripped_logs",
-      sheet: "create:iron_sheet",
+      sheet: "#forge:plates/iron",
       material: "create:andesite_alloy",
       amount: 4,
     },
     {
       item: "smart_device",
       base: "#forge:stripped_logs",
-      sheet: "create:brass_sheet",
+      sheet: "#forge:plates/brass",
       material: "create:polished_rose_quartz",
       amount: 4,
     },
@@ -44,7 +44,7 @@ if (feature("Harder casing recipes")) {
     {
       item: "logic_device",
       base: "minecraft:smooth_stone",
-      sheet: "create:copper_sheet",
+      sheet: "#forge:plates/copper",
       material: "minecraft:redstone",
       amount: 8,
     },

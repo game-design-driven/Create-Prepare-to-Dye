@@ -33,14 +33,6 @@
 			"key": "block.ptdye.smart_device"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "sound_event.kubejs.music_disc.fanfare"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.music_disc_landing_fanfare"
-		},
-		{
 			"namespace": "minecraft",
 			"key": "item.ae2.storage_bus.tooltip.summary"
 		},
@@ -61,6 +53,10 @@
 			"key": "fluid.kubejs.organic_mass"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.red_dye_block"
+		},
+		{
 			"namespace": "kubejs",
 			"key": "fluid.kubejs.flowing_fermented_goop"
 		},
@@ -77,8 +73,20 @@
 			"key": "item.minecraft.milk_bucket"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.cyan_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.ptdye.mechanical_device.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.orange_tubes"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.green_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -87,6 +95,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.iron_ore.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.lime_dye_block"
 		},
 		{
 			"namespace": "kubejs",
@@ -103,6 +115,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.ptdye.smart_device.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -157,6 +173,18 @@
 			"key": "block.minecraft.redstone_ore.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_tube_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.white_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.pink_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.ae2.chipped_budding_quartz.tooltip.summary"
 		},
@@ -167,6 +195,10 @@
 		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.incomplete_red_stringed_device"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.blue_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -217,6 +249,22 @@
 			"key": "block.create.limestone.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_blue_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.magenta_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_gray_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.brown_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.crafting_on_a_stick.stonecutter.tooltip.summary"
 		},
@@ -227,6 +275,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.milk"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.yellow_dye_block"
 		},
 		{
 			"namespace": "ptdye",
@@ -243,6 +295,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.storagedrawers.oak_full_drawers_1.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.gray_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -267,6 +323,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.golden_hoe.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.purple_dye_block"
 		},
 		{
 			"namespace": "ptdye",
@@ -303,6 +363,10 @@
 		{
 			"namespace": "kubejs",
 			"key": "fluid.kubejs.fermented_goop"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.black_dye_block"
 		},
 		{
 			"namespace": "minecraft",
