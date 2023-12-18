@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "71d32307940dde388faa140ef0892742ba40c72394830007dd3175527fca13a3"
+hash = "96f3f56d746d593f07af64899f85041bfa385edb56d0f90fe08598dcdf4a6918"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1590,7 +1590,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "65bfe980b0e28d79705d550450639a2d87235bd0f065bef0960a62a9c73fb4fd"
+hash = "562cebc2328b385adaf313a0892f02679c0f8eebe3de7f3af150e016f0fe9e14"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2230,7 +2230,7 @@ hash = "af935227b711d8a343c470ec9c07940fb8513e76676be7f540b32a70e4764b85"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/handInteractions.js"
-hash = "2e449f6d03a219764de988c02ecbeb7c24e6e9317439646a4d2a1eab55f490e5"
+hash = "149ad132939ca7a28a45a11b900f88956b116a7a236825c4d3f067cd793f105f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/indestructible.js"
@@ -2546,7 +2546,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b0a13651a08aef630b7c94c976d2d59692314fc1baf4a8be1a911f6cb89beb73"
+hash = "dd28357701c3a68558da561a73a89c6e1dd083b28bbd14caa00cf958577d914b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3423,6 +3423,10 @@ hash = "746ab554a129e46ecab066fa67658814bea00395197f945527d5267f013bc4d3"
 [[files]]
 file = "modpack-update-checker/versions/1.170.3/changelog.txt"
 hash = "ac72cc2542025df742a0869dcff9ae73c4431eccd4e20fc5060bf348ead12abd"
+
+[[files]]
+file = "modpack-update-checker/versions/1.170.4/changelog.txt"
+hash = "3b80024ed16788c4232261ddb8941feb2993d404aa88ce54ada25103259ce3d1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
