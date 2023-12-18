@@ -9,19 +9,20 @@ const hammer_deviceMap = new Map([
 ]);
 
 function hammer_breakBlock(block, item, player){
-  player.give(item)
-  if (block.id == "create:cart_assembler") {
-    let drops = block.getDrops()
-    drops.removeIf(item => item == "1 cart_assembler")
-    for(const drop of drops){
+  let drops = block.getDrops()
+  if (drops.size() > 1) {
+    drops.removeIf(drop => drop != block.id)
+    for(const drop of drops) {
       player.give(drop)
     }
   }
+  player.give(item)
   block.set("air")
 }
 
 ItemEvents.rightClicked((event) => {
-  if (event.item.id != "kubejs:hammer" && event.item.id != "ptdye:hammer")
+  if ((event.item.id != "kubejs:hammer" && event.item.id != "ptdye:hammer") ||
+      ! event.player.getOffHandItem().is("minecraft:air"))
     return
   // Animation
   event.player.swing()
@@ -30,9 +31,9 @@ ItemEvents.rightClicked((event) => {
     for(const [tag, item] of hammer_deviceMap.entries()) {
       if (block.hasTag(tag)) {
         // Sound + Particles
-        let {x, y, z} = block.getPos()
+        const {x, y, z} = block.getPos()
         event.level.runCommandSilent(`/playsound ptdye:hammer player @a[dx=1,dy=1,dz=1] ${x} ${y} ${z} 1 1 .3`)
-        event.level.runCommandSilent(`/particle minecraft:wax_off ${x} ${y + .5} ${z} .25 .25 .25 .15 25`)
+        event.level.runCommandSilent(`/particle minecraft:wax_off ${x} ${y + 0.5} ${z} .25 .25 .25 .15 25`)
         // Breaking Block
         hammer_breakBlock(block, item, event.player)
         break
