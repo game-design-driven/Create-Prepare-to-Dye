@@ -3951,6 +3951,11 @@ hash = "d15effac97a99ad09fb2ee01e113722327223e18a3f7a388c8bab0c46559a9ad"
 metafile = true
 
 [[files]]
+file = "mods/notes.pw.toml"
+hash = "717b40c2ff2c96848d48842038dfcba3336bdb1efd35de67b08edf59f47fe503"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "8895f6fc1d8d8280539f3e381f3b0316d912600d7a8dda216ce83466abaa5aee"
 metafile = true
