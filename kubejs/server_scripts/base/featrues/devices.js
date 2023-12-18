@@ -115,7 +115,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:cart_assembler",
     "quark:pipe",
   ];
-  addToTag("forge:device/andesite", "ptdye:mechanical_device");
+  // addToTag("forge:device/andesite", "ptdye:mechanical_device");
+  addStonecutting("ptdye:mechanical_device","forge:device/andesite")
   addToTag("forge:device/andesite", andesiteBasedDevices);
   addCrushing(
     ["create:cogwheel %25", "create:iron_sheet %25"],
@@ -134,7 +135,7 @@ if (feature("Remove crafting table recipes for devices")) {
   });
 
   removeRecipe({ id: "create:andesite_casing" });
-  addStonecutting("4x create:andesite_casing", "#forge:device/andesite");
+  addStonecutting("4x create:andesite_casing", "ptdye:mechanical_device");
 
   addStonecutting("ptdye:mechanical_device", "#forge:device/andesite");
   addStonecutting("ptdye:mechanical_device", "#forge:device/andesite/gearbox");
@@ -149,11 +150,12 @@ if (feature("Remove crafting table recipes for devices")) {
   addShapeless("ptdye:mechanical_device", "#forge:device/andesite");
   andesiteBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
+    addStonecutting(device, "ptdye:mechanical_device")
     addStonecutting(
       device,
       Ingredient.of("#forge:device/andesite").or(
         "#forge:device/andesite/gearbox"
-      )
+      ), true
     );
   });
 
@@ -181,7 +183,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "botania:apothecary_default",
     "quark:crate",
   ];
-  addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
+  // addToTag("forge:device/cobblestone", "ptdye:sturdy_device");
+  addStonecutting("ptdye:sturdy_device","forge:device/cobblestone")
   addToTag("forge:device/cobblestone", cobblestoneBasedDevices);
 
   addStonecutting("ptdye:sturdy_device", "#forge:device/cobblestone");
@@ -189,7 +192,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addShapeless("ptdye:sturdy_device", "#forge:device/cobblestone");
   cobblestoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/cobblestone");
+    addStonecutting(device, "ptdye:sturdy_device");
+    addStonecutting(device, "#forge:device/cobblestone", true);
   });
 
   let redstoneBasedDevices = [
@@ -210,7 +214,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:pulse_extender",
     "create:powered_latch",
   ];
-  addToTag("forge:device/redstone", "ptdye:logic_device");
+  // addToTag("forge:device/redstone", "ptdye:logic_device");
+  addStonecutting("ptdye:logic_device","forge:device/redstone")
   addToTag("forge:device/redstone", redstoneBasedDevices);
 
   addShapeless("ptdye:logic_device", "#forge:device/redstone");
@@ -218,7 +223,8 @@ if (feature("Remove crafting table recipes for devices")) {
 
   redstoneBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/redstone");
+    addStonecutting(device, "ptdye:logic_device");
+    addStonecutting(device, "#forge:device/redstone", true);
   });
 
   let copperBasedDevices = [
@@ -237,7 +243,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_pump",
     "supplementaries:copper_lantern",
   ];
-  addToTag("forge:device/copper", "ptdye:sealed_device");
+  // addToTag("forge:device/copper", "ptdye:sealed_device");
+  addStonecutting("ptdye:sealed_device","forge:device/copper")
   addToTag("forge:device/copper", copperBasedDevices);
 
   addStonecutting("ptdye:sealed_device", "#forge:device/copper");
@@ -263,7 +270,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addCrushing("ptdye:sealed_device", "#forge:device/copper");
   copperBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/copper");
+    addStonecutting(device, "ptdye:sealed_device");
+    addStonecutting(device, "#forge:device/copper", true);
   });
 
   let brassBasedDevices = [
@@ -284,7 +292,8 @@ if (feature("Remove crafting table recipes for devices")) {
     "storagedrawers:drawer_key",
     "storagedrawers:controller",
   ];
-  addToTag("forge:device/brass", "ptdye:smart_device");
+  // addToTag("forge:device/brass", "ptdye:smart_device");
+  addStonecutting( "ptdye:smart_device","forge:device/brass")
   addToTag("forge:device/brass", brassBasedDevices);
   addShapeless("ptdye:smart_device", "#forge:device/brass");
   addCrushing("ptdye:smart_device", "#forge:device/brass");
@@ -301,7 +310,8 @@ if (feature("Remove crafting table recipes for devices")) {
 
   brassBasedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/brass");
+    addStonecutting(device, "ptdye:smart_device");
+    addStonecutting(device, "#forge:device/brass", true);
   });
 
   let trainDevices = [
@@ -314,13 +324,15 @@ if (feature("Remove crafting table recipes for devices")) {
     "railways:semaphore",
     "railways:track_switch_andesite",
   ];
-  addToTag("forge:device/train", "ptdye:locomotive_device");
+  // addToTag("forge:device/train", "ptdye:locomotive_device");
+  addStonecutting("ptdye:locomotive_device","forge:device/train")
   addToTag("forge:device/train", trainDevices);
   addShapeless("ptdye:locomotive_device", "#forge:device/train");
   addCrushing("ptdye:locomotive_device", "#forge:device/train");
   trainDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/train");
+    addStonecutting(device, "ptdye:locomotive_device");
+    addStonecutting(device, "#forge:device/train", true);
   });
 
   let tracks = [
@@ -328,13 +340,15 @@ if (feature("Remove crafting table recipes for devices")) {
     "minecraft:powered_rail",
     "minecraft:detector_rail",
   ];
-  addToTag("forge:device/special_rail", "create:controller_rail");
+  // addToTag("forge:device/special_rail", "create:controller_rail");
+  addStonecutting("create:controller_rail","forge:device/special_rail")
   addToTag("forge:device/special_rail", tracks);
   addShapeless("create:controller_rail", "#forge:device/special_rail");
   addCrushing("create:controller_rail", "#forge:device/special_rail");
   tracks.forEach((device) => {
     removeAllRecipesForItem(device);
     addStonecutting(device, "#forge:device/special_rail");
+    addStonecutting(device, "create:controller_rail", true);
   });
   addToTag("forge:indestructible", "#forge:device");
 
@@ -357,7 +371,8 @@ if (feature("Remove crafting table recipes for devices")) {
   addToTag("forge:device/big_tracks", createTracks);
   createTracks.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/big_tracks");
+    addStonecutting(device, "ptdye:locomotive_device");
+    addStonecutting(device, "#forge:device/big_tracks",true);
   });
   if (feature("better tracks")) {
     removeAllFromTag("create:sleepers");
@@ -425,6 +440,7 @@ if (feature("Remove crafting table recipes for devices")) {
   addCrushing("ptdye:red_stringed_device", "#forge:device/red_string");
   redStringedDevices.forEach((device) => {
     removeAllRecipesForItem(device);
-    addStonecutting(device, "#forge:device/red_string");
+    addStonecutting(device,"ptdye:red_stringed_device");
+    addStonecutting(device, "#forge:device/red_string", true);
   });
 }

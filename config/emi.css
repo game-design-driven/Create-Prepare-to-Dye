@@ -93,7 +93,7 @@
 	/**
 	 * The amount of vertical margin to give in the recipe screen.
 	 */
-	vertical-margin: 20;
+	vertical-margin: 14;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
@@ -141,7 +141,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: none;
+	left-sidebar-pages: craftables;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -151,12 +151,12 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 8, 7;
+	left-sidebar-size: 11, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 2, 2, 2, 2;
+	left-sidebar-margins: 0, 0, 0, 0;
 
 	/**
 	 * Where to position the left sidebar
@@ -181,7 +181,7 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: favorites 2;
+	right-sidebar-subpanels: lookup-history 2;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
@@ -246,7 +246,7 @@
 	/**
 	 * The pages in the bottom sidebar
 	 */
-	bottom-sidebar-pages: lookup-history;
+	bottom-sidebar-pages: favorites;
 
 	/**
 	 * The subpanels in the bottom sidebar
@@ -256,28 +256,28 @@
 	/**
 	 * How many columns and rows of ingredients to limit the bottom sidebar to
 	 */
-	bottom-sidebar-size: 9, 4;
+	bottom-sidebar-size: 9, 1;
 
 	/**
 	 * How much space to maintain between the bottom sidebar and obstructions, in
 	 * pixels
 	 */
-	bottom-sidebar-margins: 2, 2, 2, 2;
+	bottom-sidebar-margins: 0, 0, 0, 0;
 
 	/**
 	 * Where to position the bottom sidebar
 	 */
-	bottom-sidebar-align: center, center;
+	bottom-sidebar-align: center, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the bottom sidebar
 	 */
-	bottom-sidebar-header: invisible;
+	bottom-sidebar-header: visible;
 
 	/**
 	 * Which theme to use for the bottom sidebar
 	 */
-	bottom-sidebar-theme: transparent;
+	bottom-sidebar-theme: vanilla;
 }
 
 #binds {
@@ -344,32 +344,32 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result.
 	 */
-	craft-one: "key.mouse.left";
+	craft-one: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for as many results as possible.
 	 */
-	craft-all: "shift key.mouse.left";
+	craft-all: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in inventory if possible.
 	 */
-	craft-one-to-inventory: "key.keyboard.unknown";
+	craft-one-to-inventory: "key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for as many results as possible and put in inventory if
 	 * possible.
 	 */
-	craft-all-to-inventory: "key.keyboard.unknown";
+	craft-all-to-inventory: "shift key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in cursor if possible.
 	 */
-	craft-one-to-cursor: "ctrl key.mouse.left";
+	craft-one-to-cursor: "key.keyboard.unknown";
 
 	/**
 	 * Display the recipe that will be used to craft on a stack with no recipe context.
@@ -400,6 +400,11 @@
 	 * Delete the stack in the cursor when hovering the index
 	 */
 	delete-cursor-stack: "key.mouse.left";
+
+	/**
+	 * Copies the hovered recipe's ID to the clipboard
+	 */
+	copy-recipe-id: "key.keyboard.unknown";
 
 	/**
 	 * In edit mode, hide the hovered stack

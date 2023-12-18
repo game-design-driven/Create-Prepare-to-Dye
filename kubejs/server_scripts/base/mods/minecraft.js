@@ -279,7 +279,7 @@ if (feature('Gold is 4 nuggets')) {
 } 
 
 if (feature('Remove furnaces')) {
-    removeItem('furnace')
+    //removeItem('furnace')
     removeItem('blast_furnace')
 }
 

@@ -294,6 +294,8 @@
     "alias.emi.layered_andesite": "Layered Andesite",
     "alias.emi.andesite_alloy": "Andesite Alloy",
     "alias.emi.wrench": "Wrench",
+    "emi.sidebar.type.craftables": "Assembly",
+    "emi.sidebar.type.favorites": "Favorites [A] to add",
     "alias.emi.petal_apothecary": "Petal Apothecary",
     "alias.emi.block_of_manasteel": "Block of Manasteel",
     "alias.emi.block_of_terrasteel": "Block of Terrasteel",
