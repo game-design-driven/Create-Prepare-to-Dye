@@ -1,0 +1,13 @@
+## [1.167.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.166.4...1.167.0) (2023-12-18)
+
+
+### Features
+
+* increase priority of generic to device recipes and make device to generic recipes only show up in uses ([2d59823](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2d598235eaef0be7bbc7e8d6930d98e8533e9176))
+
+
+### Modlist related changes
+
+* add notes mod ([3b33c87](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3b33c8756f4f80536bfbbb9c3829375822fb7ee2))
+
+
