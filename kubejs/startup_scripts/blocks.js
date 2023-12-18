@@ -28,6 +28,8 @@ StartupEvents.registry("item", (event) => {
         .meat(); //Dogs are willing to eat it
     });
 
+    event.create("ptdye:orange_tubes");
+
     event.create("ptdye:incomplete_sturdy_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_mechanical_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_sealed_device", 'create:sequenced_assembly');
@@ -38,6 +40,21 @@ StartupEvents.registry("item", (event) => {
 });
 
 StartupEvents.registry("block", (event) => {
+
+  event.create("ptdye:orange_tube_block")
+  .textureAll("ptdye:block/orange_tube_block_side")
+  .textureSide(Direction.UP,"ptdye:block/orange_tube_block_top")
+  .textureSide(Direction.DOWN,"ptdye:block/orange_tube_block_top");
+
+  global.colors.forEach(color=>{
+    event.create(`ptdye:${color}_dye_block`)
+    .hardness(1)
+    .resistance(4)
+    .material("clay")
+    .soundType("slime_block")
+    .textureAll(`ptdye:block/dye_blocks/${color}_dye_block`);
+  })
+
   const device = name => {
     return event
       .create(name,"cardinal")
