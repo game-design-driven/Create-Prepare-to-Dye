@@ -45,8 +45,8 @@ BlockEvents.rightClicked("create:spout", (event) => {
   ) {
     let amount = 1000;
     let fluid = event.player.handSlots[0].id.replace("_bucket", "")
-    Utils.server.runCommand(`setblock ${event.block.x} ${event.block.y} ${event.block.z} air`);
-    Utils.server.runCommand(`setblock ${event.block.x} ${event.block.y} ${event.block.z} create:spout{Tanks:[{TankContent:{Amount:${amount},FluidName:"${fluid}"}}]}`);
+    Utils.server.runCommandSilent(`setblock ${event.block.x} ${event.block.y} ${event.block.z} air`);
+    Utils.server.runCommandSilent(`setblock ${event.block.x} ${event.block.y} ${event.block.z} create:spout{Tanks:[{TankContent:{Amount:${amount},FluidName:"${fluid}"}}]}`);
     if (!event.player.isCreative()) {
       event.player.setMainHandItem("minecraft:bucket");
     }
