@@ -1,0 +1,8 @@
+### [1.170.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.170.0...1.170.1) (2023-12-18)
+
+
+### Features
+
+* Hammer ([#425](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/425)) ([d98d678](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d98d67821f2d31d6e02fa1333e8b5efff92b6b76))
+
+
