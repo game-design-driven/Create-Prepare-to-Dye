@@ -122,7 +122,7 @@ hash = "1d2f724d7226b52a4026480144f21216b48e04b36c989faf78e905ea3c2309bc"
 
 [[files]]
 file = "config/emi.css"
-hash = "a325595f74b83713e5d4cfcca7a03a24611523f7d61872c5583fb7ac0db4cdb0"
+hash = "aabfa256507f089989f11eeec42ecc6553cb4b50b58b75f7ed8e05591297249b"
 
 [[files]]
 file = "config/entityculling.json"
@@ -162,7 +162,7 @@ hash = "4df018c996388353351ef0becf5b26c1866f13ba66504855ca45634c5a57dea0"
 
 [[files]]
 file = "config/fancymenu/customization/q.txt"
-hash = "6d68cbb10bcfd4ba60a62226447475e92c5f0591d52ad121b0de27e764e72b93"
+hash = "e5c3bd1188f1f59d53b2b7c1873de6a24919ff860b66de9744db3e50aa63c79b"
 
 [[files]]
 file = "config/fancymenu/customization/removecorios.txt"
@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6c8a11c5e6e06446acd0d58f0e9ab53b3aaf3399c1fd68577e70507ea92de9b1"
+hash = "6be91b6f18767a5a296fe12574949e16a9f3f2400e5d4e9aa68bc23aaa2f94ae"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -698,7 +698,7 @@ hash = "221999f69e0b725a057c318d8e577081051d2c551ab8ca7ff0dfbda35bc73c5e"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
-hash = "7531609385856a5e3c744435460ce65976cd9214c0a41cfa6318d61f2170a10e"
+hash = "eb1e2c1296602718766e8b1ad2288448166882a462f09381a71af14899a10f7a"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
@@ -1558,7 +1558,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "294210d6f9866f5fd95acd54003acf49270f287b72ef673d9ae72ed6b6247e23"
+hash = "3e04c06c3d5e47c5a6114055f08361b85be7f69c34c12e4b793b0035a30f73cb"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2174,7 +2174,7 @@ hash = "9fade3508ddbcb604c1ad328f67ce0bab4452ba0b686627d601e98fc17b04874"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "145c84472f7ea30b459543f959ad3a8e6dda54f4925fdfa664b6d1e5916d3b12"
+hash = "410a53dbc70b0f77a68c10842e4d11a7130d5cfa75081980788fdc9ae001b397"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
@@ -2506,7 +2506,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "bf2d2ba694671c77083ee16d92b2d37165d38596395be769fdfca62ee2961c17"
+hash = "81a91fbbe4d24e0cba5014710c3138d5516ba22f21209e11089a070bfa7f695f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3327,6 +3327,10 @@ hash = "b8da85feaf60ea90400e6d655f24ec4b509d24ede4b53ab8717e76d0b171592e"
 [[files]]
 file = "modpack-update-checker/versions/1.165.0/changelog.txt"
 hash = "d6c98f3131a521667abe614c91cc876c621c97d551823da3919ce5c96936bf3c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.166.0/changelog.txt"
+hash = "63ccb693b1abf5c1d575bcafe87822c0e587eef6f83da63388db60afc2d03733"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

@@ -1,0 +1,19 @@
+## [1.166.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.165.0...1.166.0) (2023-12-18)
+
+
+### Features
+
+* add default craftables panel for quick device crafting! ([b8d300a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b8d300afecd01c8367398fbd1d1a5a950f7b4804))
+* seperate device recipes from generics recipes to enable craftables panel to work as expected ([869be4c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/869be4ca8a45cafef88b06334a77d1be62c6836f))
+
+
+### Documentation and Localization
+
+* rename craftables to assembly and add favories explenation to EMI ([a2a1310](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a2a1310e985c0c0452c7e445fec960819499a876))
+
+
+### Minor tweaks
+
+* move player model in personal assembler to the side ([03710b2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/03710b20f4ce1c534a75dc0db717b6a5d47a4752))
+
+
