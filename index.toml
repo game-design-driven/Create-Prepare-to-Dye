@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7df17ce35d2fbdcd6e284986bfff33db0d46a5a17940a342d64714fe1d44b2b9"
+hash = "f89af77b4db8632740caf86342323d63419a1ceb6acefb6c72172fafdc7ef67b"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1558,7 +1558,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4397a529251ed354cb28c08fd8e008abb1e4b3b2dc34c01fe608ba3945da4bc3"
+hash = "c07ae8317dd148841765954a59d2537ba3f6af8437d3d9e8c1d9ead20f1decfa"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2202,7 +2202,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "1d120e035d83c6c19fc196b3344cdba8aae8a28749dc81eee3754c77e1aee60f"
+hash = "b64e0ceb4f53d8a7e1b9daa5ce4f241fbd9fb06ee6d4800c6c365396d8f59f5a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -2506,7 +2506,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2445c3d24dbff62577081264c4a6810444ff6157c7c5fb06be812f58360ea6c0"
+hash = "ad1bb2ff467fd23be99af12a23a542a7af58c0f71fc907f1ac482a0d378d1932"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3339,6 +3339,10 @@ hash = "aac60e695f0180817476d7fc187170b09edcf0fe61ccd52c07044c9e83d07bd7"
 [[files]]
 file = "modpack-update-checker/versions/1.166.2/changelog.txt"
 hash = "319edff8f2a4959bc7269269e078220a20965b6ff6c361504e7ce927a764d420"
+
+[[files]]
+file = "modpack-update-checker/versions/1.166.3/changelog.txt"
+hash = "2fcb77b7375d0c2d3097d9f43320739300f6355af05f4394d566bd02a0c4a837"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
