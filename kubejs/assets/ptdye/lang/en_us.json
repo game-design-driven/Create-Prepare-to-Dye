@@ -17,8 +17,8 @@
     "advancement.ptdye.white_sheet.desc": "Press a White Ingot into a White Sheet",
 
     "item.ptdye.hammer": "Hammer",
-    "item.ptdye.hammer.desc": "Turns blocks back into device parts quickly!",
- 
-  
+    "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
+
+
     "ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
 }
