@@ -21,6 +21,9 @@ function addToTag(tag, ids) {
 	ServerEvents.tags('item', event => {
 		return event.add(tag, ids)
 	})
+    ServerEvents.tags('block', event => {
+		return event.add(tag, ids)
+	})
 }
 function addFluidToTag(tag, ids) {
 	if (tag.includes('/')) {
