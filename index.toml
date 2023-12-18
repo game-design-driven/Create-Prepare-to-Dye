@@ -322,7 +322,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f89af77b4db8632740caf86342323d63419a1ceb6acefb6c72172fafdc7ef67b"
+hash = "46cd4ac2cd6cc629c0c33ae81c4d5bbcdec1cbfc4f260f68ab749ec331f12ccc"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1558,7 +1558,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "c07ae8317dd148841765954a59d2537ba3f6af8437d3d9e8c1d9ead20f1decfa"
+hash = "d9c23ee0c2e2e11df1b10d2d033f78f974321cffe7afa87adde4db45641c6675"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2174,7 +2174,7 @@ hash = "9fade3508ddbcb604c1ad328f67ce0bab4452ba0b686627d601e98fc17b04874"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "410a53dbc70b0f77a68c10842e4d11a7130d5cfa75081980788fdc9ae001b397"
+hash = "c51a21718855c1c5035603cfa0ad30e11a23ba5ef0eab2f73f344d59f84a0d21"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
@@ -2506,7 +2506,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ad1bb2ff467fd23be99af12a23a542a7af58c0f71fc907f1ac482a0d378d1932"
+hash = "4deb2c4607f6ce59be4f6c5bb5df69b9ec9bc63ac6994c8ecd979e47a9812579"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3343,6 +3343,10 @@ hash = "319edff8f2a4959bc7269269e078220a20965b6ff6c361504e7ce927a764d420"
 [[files]]
 file = "modpack-update-checker/versions/1.166.3/changelog.txt"
 hash = "2fcb77b7375d0c2d3097d9f43320739300f6355af05f4394d566bd02a0c4a837"
+
+[[files]]
+file = "modpack-update-checker/versions/1.166.4/changelog.txt"
+hash = "80a1c6d9fb46915414ae97fa2eb7e2d0ad54869fecab35df4c47427f45538ff1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
