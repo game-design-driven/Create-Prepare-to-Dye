@@ -14,7 +14,7 @@
       "icon": {
           "item": "ptdye:sturdy_device"
       },
-      "title": { "translate": "advancement.ptdye.sturdy_device", "color": "aqua" },
+      "title": { "translate": "advancement.ptdye.sturdy_device", "color": "white" },
       "description": { "translate": "advancement.ptdye.sturdy_device.desc", "color": "grey" },
       "frame": "goal",
       "hidden": false,

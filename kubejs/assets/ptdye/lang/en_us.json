@@ -1,24 +1,33 @@
 {
     "advancement.ptdye.root": "Prepare To Dye!",
-    "advancement.ptdye.root.desc": "Crash land on Chroma Prime.",
-    "advancement.ptdye.toolbox": "Found The Emergency Toolbox!",
-    "advancement.ptdye.toolbox.desc": "Do you hear an alarm? Find the purple toolbox in the wreckage.",
-    "advancement.ptdye.pure_daisy": "Found the pure daisy",
-    "advancement.ptdye.pure_daisy.desc": "Have you looked around?",
-    "advancement.ptdye.white_powder": "Purify White Powder",
-    "advancement.ptdye.white_powder.desc": "Now to automate the process!",
-    "advancement.ptdye.raw_iron": "Use Dye On Powder",
-    "advancement.ptdye.raw_iron.desc": "I hope you've automated by now.",
+    "advancement.ptdye.root.desc": "Crash land on Chroma Prime",
+    "advancement.ptdye.toolbox": "In case of Crash Landing",
+    "advancement.ptdye.toolbox.desc": "Do you hear an alarm? Find the Purple Toolbox in the wreckage",
+    "advancement.ptdye.daisy": "Critical Purification",
+    "advancement.ptdye.daisy.desc": "Did the Pure Daisy survive the crash?!",
+    "advancement.ptdye.white_powder": "Pure Milk",
+    "advancement.ptdye.white_powder.desc": "Purify Milk into Powder",
+    "advancement.ptdye.raw_white": "Extracting Color",
+    "advancement.ptdye.raw_white.desc": "Make Raw White",
     "advancement.ptdye.white_ingot": "Pressed into a White Ingot!",
     "advancement.ptdye.white_ingot.desc": "Press Raw White into a White Ingot",
     "advancement.ptdye.sturdy_device": "Automate Sturdy Devices",
     "advancement.ptdye.sturdy_device.desc": "Automate creating Sturdy Devices",
     "advancement.ptdye.white_sheet": "Pressed into a White Sheet!",
     "advancement.ptdye.white_sheet.desc": "Press a White Ingot into a White Sheet",
-
-    "item.ptdye.hammer": "Hammer",
-    "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
-
-
+    "advancement.ptdye.blob": "Aren't Some Moons Made of This?",
+    "advancement.ptdye.blob.desc": "Make Fermented Blobs",
+    "advancement.ptdye.soap": "You Make Some, You Buy Some",
+    "advancement.ptdye.soap.desc": "Get Soap",
+    "advancement.ptdye.logs": "Wood Doesn't Grow on Trees?",
+    "advancement.ptdye.logs.desc": "Get Logs of Any Kind",
+    "advancement.ptdye.cogs": "The Base of Technology",
+    "advancement.ptdye.cogs.desc": "Make Cogs",
+    "advancement.ptdye.grass_block": "Healthy Soil",
+    "advancement.ptdye.grass_block.desc": "Get a Grass Block",
+    "advancement.ptdye.bread": "Calories, Such a Dumb Dependency",
+    "advancement.ptdye.bread.desc": "Make Bread",
+ 
+  
     "ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
 }
