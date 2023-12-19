@@ -33,7 +33,7 @@ function addShaped(output, pattern, key) {
  */
 function addShapeless(output, input) {
     if (!Array.isArray(input)) input = [input]
-    if (input.length == 1 && Item.of(input[0]).count > 1){
+    if (input.length == 1 && Item.of(input[0]).count == 1){
         addInfusion(output, input[0], 1, 'ptdye:mechanical_device');
     }
 
