@@ -28,5 +28,6 @@ Forwarding
 - Copy URL under Forwarding (i.e `0.tcp.XXX.ngrok.io:XXXXX`)
 
 To stop forwarding, simply close the command prompt or press `CTRL + C`
+
 To start forwarding, skip the Setup section
 
