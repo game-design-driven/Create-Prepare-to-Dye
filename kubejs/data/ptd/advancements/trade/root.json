@@ -14,7 +14,7 @@
       "icon": {
           "item": "wares:delivery_agreement"
       },
-      "title": { "translate": "advancement.ptdye.trade", "color": "aqua" },
+      "title": { "translate": "advancement.ptdye.trade", "color": "white" },
       "description": { "translate": "advancement.ptdye.trade.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
