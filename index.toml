@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e58e36ccc19944d8539c6647ac6770a457fc984acc375f8625c41c726477b8b1"
+hash = "b42e20f725d7b22fa101884ce5604cd823a541755c00af0cd7d548712d7ed513"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1590,7 +1590,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "094a2cc5acc5924241b6b7dd69bda8102590b34e091a768c10b3fb4c201bdca6"
+hash = "4d67d0f86adf44e97b2b089b82879e2cb26faba771c614c460061c2ec2236b4f"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2214,7 +2214,7 @@ hash = "987f06b233d8d53a42514efa083f89cd5584060809bef77e6a6ec79690dfd04f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "a36089c16e30f2e7d341f198860855bd1c884b7fe06a4ae1ca536d2c08cf60df"
+hash = "568ebea8c280d6f6ecd4942d7579f32697d3be058cc61b255f40cb6185e01648"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -2546,7 +2546,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f3bbe6153310a611d70d41d9b48c3b56ad9bef7f0c67e284be24baad10a8c972"
+hash = "33edae1efc5bc43cba994449e6a1f27c3769e55fbb28e54ba8ddc5e2aeafa679"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3447,6 +3447,10 @@ hash = "ab869753eb25692f592aa45667ab7826616ef0d211f2348840d7ade5c3d9f8b5"
 [[files]]
 file = "modpack-update-checker/versions/1.172.1/changelog.txt"
 hash = "37072ff73e12c7fb1434a0dc26aa0c7f4e931a0e0449df19d00102bc66b24c42"
+
+[[files]]
+file = "modpack-update-checker/versions/1.172.2/changelog.txt"
+hash = "0d95611c12a524db84f42c40d003bb835dc84990f0f37e2e9021c4557a620511"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
