@@ -12,7 +12,7 @@
 - delete the `mods, config, kubejs, defaultconfigs` folders and repeat the steps of starting the server for the first time
 
 ## Port-forwarding the server
-### Refer to router manual for port-forwarding
+### Refer to router manual or websearch for port-forwarding
 ### Alternatives
 
 **ngrok**
