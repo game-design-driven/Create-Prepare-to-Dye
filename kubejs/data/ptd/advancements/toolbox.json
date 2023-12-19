@@ -14,7 +14,7 @@
         "icon": {
             "item": "create:purple_toolbox"
         },
-        "title": { "translate": "advancement.ptdye.toolbox", "color": "aqua" },
+        "title": { "translate": "advancement.ptdye.toolbox", "color": "white" },
         "description": { "translate": "advancement.ptdye.toolbox.desc", "color": "grey" },
         "frame": "task",
         "hidden": false,
