@@ -3,17 +3,17 @@
   "sound_speed": 8,
   "normal": {
     "speed": 4.0,
-    "strength": 4096,
+    "strength": 1024,
     "burn_rate": 1
   },
   "modular": {
     "speed": 4.0,
-    "strength": 4096,
+    "strength": 1024,
     "burn_rate": 1
   },
   "huge": {
     "speed": 2.0,
-    "strength": 8192.0,
+    "strength": 1024.0,
     "burn_rate": 1
   }
 }

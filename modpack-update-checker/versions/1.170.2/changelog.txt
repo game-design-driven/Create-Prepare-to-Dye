@@ -1,0 +1,8 @@
+### [1.170.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.170.1...1.170.2) (2023-12-18)
+
+
+### Minor tweaks
+
+* buff base white dye output ([f49d386](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f49d3860ea536ad86fae8a29eb47e8d9ca849e84))
+
+

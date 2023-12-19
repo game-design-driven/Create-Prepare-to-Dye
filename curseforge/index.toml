@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "cf39a1c4cfcd97ea2bee052a94452cae77e2f6ce985b5ece82dee225978832b7"
+hash = "9dada84c55042c3b32e6541eb8d0cd4e85d36c8c9fd9696276ce7ea4aa3d320c"
 metafile = true
 
 [[files]]
@@ -253,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "ccb76162943ee60c92d3f3ce6bea9f0046d0e255065ac387ed6f26ec01197663"
+metafile = true
+
+[[files]]
+file = "mods/notes.pw.toml"
+hash = "7796665749113b8bb0c99046817b785fd555d8d777a4b9014032398e0e30a9c2"
 metafile = true
 
 [[files]]

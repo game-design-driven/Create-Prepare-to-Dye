@@ -1,3 +1,5 @@
+const BUILD_HEIGHT = 319
+
 global.landing_sequence = {};
 global.landing_sequence.LANDING_STAGE = 0;
 global.landing_sequence.WAITING_STAGE = 1;
@@ -67,6 +69,9 @@ function getEntityByUUID(server, uuid) {
 
 function performLandingStage(landing, level) {
     landing.main_entity.setY(landing.main_entity.getY() - 0.2);
+    if (landing.main_entity.getY() >= BUILD_HEIGHT - 6) {
+        clear_path_for_landing(landing.main_entity, level);
+    }
     if (check_floor_for_entity(landing.main_entity, level)) {
         landing.main_entity.persistentData.putByte("stage", global.landing_sequence.WAITING_STAGE);
         landing.pilot.unRide();
@@ -117,4 +122,21 @@ function check_floor_for_entity(entity, level) {
     let y_diff = -0.6;
     let checked_y_level = Math.floor(entity.getY() + y_diff)
     return check_floor(level, entity.blockX, checked_y_level, entity.blockZ)
+}
+
+function clear_path_for_landing(entity, level) {
+    // Utils.server.getOverworld().getBlock(1,1,1).getMaterial().getMinecraftMaterial().
+    for (let x_diff = -1; x_diff <= 1; x_diff++) {
+        for (let z_diff = -1; z_diff <= 1; z_diff++) {
+            let block = level.getBlock(
+                entity.blockX + x_diff,
+                entity.blockY - 1,
+                entity.blockZ + z_diff
+            );
+            block.getDrops().forEach(drop => {
+                block.popItem(drop);
+            });
+            block.set("minecraft:air");
+        }
+    }
 }

@@ -32,7 +32,8 @@ function addShaped(output, pattern, key) {
  * @param {ingredient[]} input ['glass','stick'] 
  */
 function addShapeless(output, input) {
-    if (input.length == 1){
+    if (!Array.isArray(input)) input = [input]
+    if (input.length == 1 && Item.of(input[0]).count > 1){
         addInfusion(output, input[0], 1, 'ptdye:mechanical_device');
     }
 
