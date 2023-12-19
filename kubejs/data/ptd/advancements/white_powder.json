@@ -14,7 +14,7 @@
       "icon": {
           "item": "minecraft:white_concrete_powder"
       },
-      "title": { "translate": "advancement.ptdye.white_powder", "color": "white" },
+      "title": { "translate": "advancement.ptdye.white_powder", "color": "aqua" },
       "description": { "translate": "advancement.ptdye.white_powder.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
