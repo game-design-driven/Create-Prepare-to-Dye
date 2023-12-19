@@ -29,5 +29,5 @@ Forwarding
 
 To stop forwarding, simply close the command prompt or press `CTRL + C`
 
-To start forwarding, skip the Setup section
+To start forwarding, repeat Forwarding section
 
