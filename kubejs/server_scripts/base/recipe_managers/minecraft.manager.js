@@ -49,13 +49,15 @@ function addShapeless(output, input) {
  * @param {result} output '4x stick'
  * @param {ingredient} input 'glass' 
  */
-function addStonecutting(output, input) {
+function addStonecutting(output, input, hidden) {
+    hidden = hidden || false
     if (Item.of(output).id=='minecraft:air') return;
     if (Item.of(input).id=='minecraft:air') return;
     let recipe = {
         type: "minecraft:stonecutting",
         result: solveResult(output),
         ingredient: solveLimitedIngredient(input),
+        hidden: hidden
     };
     modpackRecipes.push(recipe)
     return recipe;
