@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "9f725e3c595d20562ebb360ac4c3f3b03732e68382d9c3e57f747b26eba93909"
+hash = "328b012d64fc7744a52603f26c45d01ad446c58b1d729c06c4ea7d3d4e9019ab"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1590,7 +1590,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "711e3df883d02f9c7c698a087a9e4db8320a91cfcb3c7bbc1e1acfd96c08f8c7"
+hash = "1e35df8f3bcea71fd51af4f58772b2c4ab7dd0216f7b94d1b5bf6a3e0a1c43b0"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -2406,7 +2406,7 @@ hash = "5ae00b292f2ba53ea668432f775b9c8dd88009cb2ec54c312220f5b802ecdb33"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
-hash = "f8cc474f78df9ed7eef6232dbd2377371b16c88ad92ebecca23cb9b83ffde572"
+hash = "125ec472db5652f5389e5aeaf4eedffc0841f3910bb275c622456eec8422eeed"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
@@ -2546,7 +2546,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e7688a7475bf97ee65b3d280a95a09d25b9dfb9c1a54aeeb38a3b8241dc2c7cb"
+hash = "706564e4dbece8a1662998f5366c2b5535fdf55520ae24f36d0ca93ee4e74570"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3435,6 +3435,10 @@ hash = "39d305d0975bf93188f257894877ee413f9dd64a876a7527b20dc5f7f5224123"
 [[files]]
 file = "modpack-update-checker/versions/1.171.0/changelog.txt"
 hash = "acd524c6b2cc6ab4a803f85e3afd2b33042bcb6f765bdebe28f8c8ffb187f5bb"
+
+[[files]]
+file = "modpack-update-checker/versions/1.171.1/changelog.txt"
+hash = "a7d09d7c1b13979526de41bab3a1e6c6045e7d39481b472a042a638dac9a05bd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
