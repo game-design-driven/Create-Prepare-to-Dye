@@ -4021,7 +4021,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "b898c338b8b2ee09ef9991a54506b10ec611c548ba8405f9c6908fd27833efcf"
+hash = "089b6121bb4f077a9e30f5a2c11092c66d667bc6e11e8ce7dce9a1232a5019f5"
 metafile = true
 
 [[files]]
