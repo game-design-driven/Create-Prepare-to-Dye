@@ -2,20 +2,17 @@
   "parent": "ptd:white_powder",
   "criteria": {
         "0": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ {
-                    "items": [ "minecraft:raw_iron"]
-                } ]
-            }
+            "trigger": "minecraft:impossible",
+            "__comment": "triggered by lychee executing command",
+            "conditions": { }
         }
   },
   "display": {
       "icon": {
           "item": "minecraft:raw_iron"
       },
-      "title": { "translate": "advancement.ptdye.raw_white", "color": "white" },
-      "description": { "translate": "advancement.ptdye.raw_white.desc", "color": "grey" },
+      "title": { "translate": "advancement.ptdye.raw_iron", "color": "aqua" },
+      "description": { "translate": "advancement.ptdye.raw_iron.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
       "show_toast": true,

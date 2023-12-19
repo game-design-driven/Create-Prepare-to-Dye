@@ -14,7 +14,7 @@
       "icon": {
           "item": "create:iron_sheet"
       },
-      "title": { "translate": "advancement.ptdye.white_sheet", "color": "white" },
+      "title": { "translate": "advancement.ptdye.white_sheet", "color": "aqua" },
       "description": { "translate": "advancement.ptdye.white_sheet.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,

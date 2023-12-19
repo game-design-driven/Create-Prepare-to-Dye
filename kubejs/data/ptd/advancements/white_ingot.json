@@ -14,7 +14,7 @@
       "icon": {
           "item": "minecraft:iron_ingot"
       },
-      "title": { "translate": "advancement.ptdye.white_ingot", "color": "white" },
+      "title": { "translate": "advancement.ptdye.white_ingot", "color": "aqua" },
       "description": { "translate": "advancement.ptdye.white_ingot.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
