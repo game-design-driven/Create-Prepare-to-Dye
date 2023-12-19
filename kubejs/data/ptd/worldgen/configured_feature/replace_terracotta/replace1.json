@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "state": {
-      "Name": "minecraft:white_concrete_powder"
+      "Name": "minecraft:white_concrete"
     },
     "target": {
       "Name": "minecraft:red_sand"

@@ -1,0 +1,13 @@
+### [1.172.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.172.1...1.172.2) (2023-12-19)
+
+
+### Modlist related changes
+
+* update modpack update checker. This fixes the changelog list showing butom first ([f1160a4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f1160a4551c01ae96b655f6975f99d7d7109e1b1))
+
+
+### Minor tweaks
+
+* buff fermented goop unfertilized output. Now it will make slighly more sense to use even when not using the fertilized recipe ([e75b7b7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e75b7b75b91ca3af4e7e1e0bae44e55322d62b11))
+
+

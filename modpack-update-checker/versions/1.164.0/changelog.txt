@@ -1,0 +1,8 @@
+## [1.164.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.163.0...1.164.0) (2023-12-17)
+
+
+### Features
+
+* Add more fossils ([ad55370](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ad553708eb44f3451276772f4cd73c1be54eedd3))
+
+

@@ -4,7 +4,7 @@ if (feature('Dye crafting')) {
     removeRecipe({ id: 'charm:extra_recipes/cyan_dye' })
     addInfusion('cyan_dye', 'warped_roots')
     
-    addShapeless('gray_dye', 'gunpowder', 'white_dye')
+    addShapeless('gray_dye', ['gunpowder', 'white_dye'])
     addInfusion('gray_dye', 'gunpowder')
 
     addElvenTrade('4x yellow_dye', ['glowstone_dust', 'bread'])
@@ -14,6 +14,14 @@ if (feature('Dye crafting')) {
     addShapeless('yellow_dye', 'sunflower')
 
     addMilling('red_dye', 'apple')
+}
+
+if(feature('Dye Storage Blocks')){
+  global.colors.forEach(color=>{
+    addShapeless(`9x minecraft:${color}_dye`,`ptdye:${color}_dye_block`);
+    const dye = `minecraft:${color}_dye`;
+    addShapeless(`ptdye:${color}_dye_block`, [dye,dye,dye,dye,dye,dye,dye,dye,dye]);
+  })
 }
 
 if(feature('Dye from seeds')){
@@ -32,8 +40,6 @@ if (feature('white dye is more expensive')) {
     addMilling('3x white_dye', 'lily_of_the_valley')
 
     addMixing('2x white_dye',['#forge:flour/wheat', '250mb milk'], temperature.none, 1)
-
-
 }
 
 if (feature('black dye is more expensive')) {

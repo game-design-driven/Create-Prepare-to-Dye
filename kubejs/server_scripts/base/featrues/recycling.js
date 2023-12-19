@@ -12,7 +12,7 @@ if (feature('Recycle copper')) {
 }
 
 if (feature('Recycle iron')) {
-    addCrushing(['gray_dye %25'], 'quark:iron_plate')
+    addCrushing(['gray_dye %8'], 'quark:iron_plate')
     addCrushing(['white_dye %90'], 'minecraft:iron_block')
     addCrushing(['white_dye %5'], 'minecraft:iron_bars')
 }

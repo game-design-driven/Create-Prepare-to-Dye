@@ -1,0 +1,8 @@
+## [1.165.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.164.2...1.165.0) (2023-12-18)
+
+
+### Features
+
+* packed dye blocks, yellow nugget ratio change ([#424](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/424)) ([b890d65](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b890d65afe180dc8b2a3d887e405b1826427d60d))
+
+

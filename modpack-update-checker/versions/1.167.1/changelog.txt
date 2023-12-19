@@ -1,0 +1,8 @@
+### [1.167.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.167.0...1.167.1) (2023-12-18)
+
+
+### Modlist related changes
+
+* fix missing no more portals mod ([3fa3ebf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3fa3ebf11147eca2775aeb5f835a8c4c0f1c53cd))
+
+
