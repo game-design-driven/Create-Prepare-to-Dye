@@ -1,21 +1,21 @@
 {
-  "parent": "ptd:white_ingot",
+  "parent": "ptd:root",
   "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
-                    "items": [ "create:iron_sheet" ]
+                    "items": ["kubejs:fermented_blob"]
                 } ]
             }
         }
   },
   "display": {
       "icon": {
-          "item": "create:iron_sheet"
+          "item": "kubejs:fermented_blob"
       },
-      "title": { "translate": "advancement.ptdye.white_sheet", "color": "white" },
-      "description": { "translate": "advancement.ptdye.white_sheet.desc", "color": "grey" },
+      "title": { "translate": "advancement.ptdye.blob", "color": "white" },
+      "description": { "translate": "advancement.ptdye.blob.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
       "show_toast": true,
