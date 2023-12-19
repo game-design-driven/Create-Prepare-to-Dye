@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - main
-    paths-ignore: 
+    paths-ignore:
       - modpack-update-checker/**
+      - java/**
 env:
   pack-file: "pack.toml"
   name: 'Create: Prepare to Dye'
