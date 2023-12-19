@@ -259,9 +259,6 @@ if (feature('nerf bonemeal from calcite')){
   addCrushing(['bone_meal 20%', 'cobblestone 20%', 'quartz %5'], 'minecraft:calcite')
 }
 
-if (feature('Recycle wrench')) {
-  addCrushing('create:cogwheel %75', 'create:wrench')
-}
 
 if (feature('piston pole and gantry shaft recipes')) {
   addShaped('8x create:piston_extension_pole', ['i', 's', 'i'], {
