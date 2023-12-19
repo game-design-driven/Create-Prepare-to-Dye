@@ -556,7 +556,7 @@
 	"Lock Rotation" = true
 	"Horses Swim" = true
 	"Hoe Harvesting" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Gold Tools Have Fortune" = true
 	"Glass Shard" = false
 	"Enhanced Ladders" = true
