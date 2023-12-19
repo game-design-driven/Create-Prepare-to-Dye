@@ -13,7 +13,42 @@ const sealsThatHaveTextures = [
   "galactic_beast_deliveries",
 ];
 
-function getAgreement({
+const wares_advancementTemplate = {
+  parent: "ptd:trade/root",
+  criteria: {
+    a: {
+      trigger: "minecraft:inventory_changed",
+      conditions: {
+        items: [ {
+          items: ["wares:completed_delivery_agreement"],
+          nbt: ""
+        } ]
+      }
+    },
+    b: {
+      trigger: "wares:agreement_completed",
+      conditions: { 
+          agreementNbt: ""
+        }
+    }
+  },
+  requirements: [ [ "a", "b" ] ] // a or b
+}
+
+function getAgreementAdvancement(agreementID) {
+  if (agreementID == "root")
+    console.error("Cannot have a trade agreement with the id of 'root'");
+
+  // Create advancement
+  var advancement = Object.assign({ }, wares_advancementTemplate)
+  advancement.criteria["a"].conditions.items[0].nbt = `{id:"${agreementID}", isCompleted:1b}`
+  advancement.criteria["b"].conditions.agreementNbt = `{id:"${agreementID}"}`
+
+  // Write advancement
+  JsonIO.write(`kubejs/data/ptd/advancements/trade/generated/${agreementID.toLowerCase()}.json`, advancement);
+}
+
+function getAgreement(agreementID, {
   paymentItems,
   requestedItems,
   title,
@@ -29,6 +64,7 @@ function getAgreement({
 
   let agreementObj = {
     item: Item.of("wares:delivery_agreement", {
+      id: agreementID,
       ordered: orderedAmount,
       message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
@@ -39,6 +75,7 @@ function getAgreement({
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
 
     completedItem: Item.of("wares:completed_delivery_agreement", {
+      id: agreementID,
       ordered: NBT.intTag(orderedAmount),
       buyerName: { color: "#409D9B", text: companyTitle },
       delivered: NBT.intTag(orderedAmount),
@@ -57,6 +94,9 @@ function getAgreement({
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
       .concat([agreementObj.completedItem]);
+
+  getAgreementAdvancement(agreementID)
+
   return agreementObj;
 }
 function simple(items) {

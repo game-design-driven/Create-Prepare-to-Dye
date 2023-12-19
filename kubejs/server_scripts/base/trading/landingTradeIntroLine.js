@@ -8,7 +8,7 @@
 //     Item.of("minecraft:stick", 2, "{Damage:0}").withName("Trading Transceiver")
 //   )
 // );
-const bcfPlates = getAgreement({
+const bcfPlates = getAgreement("bcfPlates", {
   paymentItems: [
     "32x minecraft:andesite",
     "10x create:cogwheel",
@@ -21,7 +21,7 @@ const bcfPlates = getAgreement({
   message:
     "Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too", // This is the description of the trade
 });
-const bcfPlates2 = getAgreement({
+const bcfPlates2 = getAgreement("bcfPlates2", {
   paymentItems: [
     "16x minecraft:andesite",
     "16x ptdye:sealed_device",
@@ -41,7 +41,7 @@ const bcfPlates2 = getAgreement({
   message:
     "Hello, you did well on you last contract, good job. We require more plates, this time our volume is bigger, and so is the payment",
 });
-const bfcPlatesPermanent = getAgreement({
+const bfcPlatesPermanent = getAgreement("bfcPlatesPermanent", {
   paymentItems: ["64x andesite", "32x minecraft:andesite"],
   requestedItems: ["64x create:iron_sheet", "64x create:iron_sheet"],
   title: "Plates, fixed rates",
@@ -50,7 +50,7 @@ const bfcPlatesPermanent = getAgreement({
   message:
     "You have done well, I forsee a long and profitable relationship between us. Now that we have setup a new factory on Zora with the help of mlc, we want fixed rates with you, if you are up for it.",
 });
-const bfcPickaxes = getAgreement({
+const bfcPickaxes = getAgreement("bfcPickaxes", {
   paymentItems: ["32x create:track", "8x ptdye:locomotive_device"],
   requestedItems: ["16x #forge:tools/pickaxes"],
   title: "Tools needed",
@@ -59,7 +59,7 @@ const bfcPickaxes = getAgreement({
   message:
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
-const bfcHelmets = getAgreement({
+const bfcHelmets = getAgreement("bfcHelmets", {
   paymentItems: ["16x ptdye:locomotive_device", "16x create:track"],
   requestedItems: ["16x minecraft:iron_helmet"],
   title: "Hardhats",
@@ -69,7 +69,7 @@ const bfcHelmets = getAgreement({
     "We also need some hardhats for our upcoming contract, less urgent though so take your time",
 });
 // const bcfPlates3 = getAgreement(
-const mlcEndstoneFixed = getAgreement({
+const mlcEndstoneFixed = getAgreement("mlcEndstoneFixed", {
   paymentItems: ["16x quark:chorus_fruit_block"],
   requestedItems: ["32x minecraft:end_stone"],
   title: "Building a moon, materials needed",
@@ -78,7 +78,7 @@ const mlcEndstoneFixed = getAgreement({
   message:
     "We have a long term project going, building a moon for a rich client of ours, we need a lot of moonstone, we can supply you with some chorus fruit in return",
 });
-const mlcSand = getAgreement({
+const mlcSand = getAgreement("mlcSand", {
   paymentItems: [
     // "botania:manasteel_shovel",
     Item.of("minecraft:golden_pickaxe", 2, "{Damage:0}"),
@@ -100,7 +100,7 @@ const mlcSand = getAgreement({
   message:
     "Hey there, new kid. Heard youre the fresh grain on the block. We are in the biz of building billionaire beachfronts. So, heres the scoop: we need sand. Lots of it. Pristine, white, untouched, like your manufacturing rep. Lets make a deal that will put your sands on the lunar map. Whaddya say?",
 });
-const mlcSand2 = getAgreement({
+const mlcSand2 = getAgreement("mlcSand2", {
   paymentItems: [
     Item.of("minecraft:golden_pickaxe", 4, "{Damage:0}"),
     "32x dirt",
@@ -121,7 +121,7 @@ const mlcSand2 = getAgreement({
   message:
     "Your sand is smooth like no other! We want to buy MORE of it, not white this time, regular clean sand, and a bunch more, lets get this going shall we?",
 });
-const mlcSandFixed = getAgreement({
+const mlcSandFixed = getAgreement("mlcSandFixed", {
   paymentItems: [
     Item.of("minecraft:golden_pickaxe", 16, "{Damage:0}"),
     "64x minecraft:cobblestone",
@@ -138,7 +138,7 @@ const mlcSandFixed = getAgreement({
   message:
     "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
 });
-const bhbCheese = getAgreement({
+const bhbCheese = getAgreement("bhbCheese", {
   paymentItems: [
     "1x botania:gourmaryllis",
     "1x minecraft:water_bucket",
@@ -152,7 +152,7 @@ const bhbCheese = getAgreement({
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
-const bhbCheeseFixed = getAgreement({
+const bhbCheeseFixed = getAgreement("bhbCheeseFixed", {
   paymentItems: ["32x supplementaries:soap"],
   requestedItems: ["64x kubejs:fermented_blob"],
   title: "Lets make some bagels",
@@ -161,7 +161,7 @@ const bhbCheeseFixed = getAgreement({
   message:
     "Alright, yup, this works. I want more of that cheesy stuff, a lot more. Lets make this a regular thing",
 });
-const bhbWheat = getAgreement({
+const bhbWheat = getAgreement("bhbWheat", {
   paymentItems: ["32x botania:livingwood_log", "water_bucket"],
   requestedItems: ["64x wheat"],
   title: "Clean wheat needed",
@@ -171,7 +171,7 @@ const bhbWheat = getAgreement({
     "Currently we are getting our wheat from Qube, we are not 100% where they are getting it but it always comes stained with blood, we have a line dedicated to cleaning just because of that. If you can supply clean wheat, I think we can be great friends",
 });
 
-const wscAxes = getAgreement({
+const wscAxes = getAgreement("wscAxes", {
   paymentItems: [
     "16x minecraft:oak_log",
     "10x storagedrawers:oak_full_drawers_1",
@@ -185,7 +185,7 @@ const wscAxes = getAgreement({
   message:
     "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top-notch, but we're short a few axes. Need more to chop-chop as fast as a moose on a ski slope. Can you help us out?",
 });
-const wscBread = getAgreement({
+const wscBread = getAgreement("wscBread", {
   paymentItems: [
     "8x minecraft:birch_log",
     "minecraft:chest",
@@ -198,7 +198,7 @@ const wscBread = getAgreement({
   message:
     "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well",
 });
-const wscBreadAndAxesFixed = getAgreement({
+const wscBreadAndAxesFixed = getAgreement("wscBreadAndAxesFixed", {
   paymentItems: ["8x minecraft:birch_log"],
   requestedItems: ["64x minecraft:bread", "16x #forge:tools/axes"],
   title: "Food and tools, fixed rates",
@@ -207,7 +207,7 @@ const wscBreadAndAxesFixed = getAgreement({
   message:
     "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well-fed. We're thinking long-term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration",
 });
-const bhbFurnaces = getAgreement({
+const bhbFurnaces = getAgreement("bhbFurnaces", {
   paymentItems: [
     "8x minecraft:clay",
     "8x copper_ingot",
@@ -220,7 +220,7 @@ const bhbFurnaces = getAgreement({
   message:
     "We are expanding our presence on Zora, we need some furnaces, you have proven yourself so far, lets see if we can work some fixed rates for your wheat after this",
 });
-const bhbWheatFixedRates = getAgreement({
+const bhbWheatFixedRates = getAgreement("bhbWheatFixedRates", {
   paymentItems: ["32x clay"],
   requestedItems: ["64x wheat", "64x wheat"],
   title: "Clean wheat fixed rates",
@@ -229,7 +229,7 @@ const bhbWheatFixedRates = getAgreement({
   message:
     "Alright, you are our new main source now, dont fail us, and dont worry about Qube, we wont tell them",
 });
-const bnwRedstone = getAgreement({
+const bnwRedstone = getAgreement("bnwRedstone", {
   paymentItems: [
     Item.of(
       "ae2:energy_cell",
@@ -246,7 +246,7 @@ const bnwRedstone = getAgreement({
   message:
     "Causing quite the stir there arnt you? Your horrific red planet was empty for eons, hope you know what you are doing landing there so spectacularly. Anyways we heard your planet is red because it's made of redstone, so we want to buy some",
 });
-const bnwRedstoneFixedRates = getAgreement({
+const bnwRedstoneFixedRates = getAgreement("bnwRedstoneFixedRates", {
   paymentItems: ["4x ae2:fluix_smart_cable"],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Fixed rates redstone > cables",
@@ -255,7 +255,7 @@ const bnwRedstoneFixedRates = getAgreement({
   message:
     "Alright, you seem to be reliable, I believe it is time we made it official, lets start a fixed rates agreement. Your redstone is high quality, we make great cables, simple as that",
 });
-const bnwManasteel = getAgreement({
+const bnwManasteel = getAgreement("bnwManasteel", {
   paymentItems: [
     "4x ae2:storage_monitor",
     Item.of(
@@ -277,7 +277,7 @@ const bnwManasteel = getAgreement({
   message:
     "Hello again, we are experimenting with new types of processors based on a more conductive material, if you can get us some we can continue this research, we can't pay a lot now, but if this works out we will require much more and our budget will be higher too if you catch my drift",
 });
-const bnwManasteelFixedRates = getAgreement({
+const bnwManasteelFixedRates = getAgreement("bnwManasteelFixedRates", {
   paymentItems: ["8x ptdye:logic_device"],
   requestedItems: [
     "64x botania:manasteel_ingot",
@@ -289,7 +289,7 @@ const bnwManasteelFixedRates = getAgreement({
   message:
     "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
 });
-const bnwQuartz = getAgreement({
+const bnwQuartz = getAgreement("bnwQuartz", {
   paymentItems: [
     "8x ptdye:smart_device",
     "8x minecraft:gold_ingot",
@@ -302,7 +302,7 @@ const bnwQuartz = getAgreement({
   message:
     "We are great partners, you and me, its great to have a reliable source for once. Anyways, we are working on a new batch of silicon, we need some raw material, counting on you. Sidenote, ive talked about you to a few friends of mine, lets just say they are keeping an eye on you, the good kind of eye, dont worry",
 });
-const bnwCogs = getAgreement({
+const bnwCogs = getAgreement("bnwCogs", {
   paymentItems: [
     "8x ptdye:smart_device",
     "8x ae2:fluix_smart_cable",
@@ -316,7 +316,7 @@ const bnwCogs = getAgreement({
   message:
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
-const bnwPolishedRoseQuartz = getAgreement({
+const bnwPolishedRoseQuartz = getAgreement("bnwPolishedRoseQuartz", {
   paymentItems: [
     "8x ae2:fluix_smart_cable",
     "4x create:mechanical_arm",
@@ -330,7 +330,7 @@ const bnwPolishedRoseQuartz = getAgreement({
   message:
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
-const qubeAngry = getAgreement({
+const qubeAngry = getAgreement("qubeAngry", {
   paymentItems: ["minecraft:air"],
   requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
@@ -340,7 +340,7 @@ const qubeAngry = getAgreement({
     "You sun of a squid, thought we woudnt find out? Who do you think you are? Waltzing over to our system and changing things around, this is unacceptable. Know this, if you want ANY trade from REAL companies around here give up this contract NOW and you will be forgiven, we may talk then",
 });
 
-const gbdSticks = getAgreement({
+const gbdSticks = getAgreement("gbdSticks", {
   paymentItems: [
     Item.of(
       "supplementaries:cage",
@@ -367,7 +367,7 @@ const gbdSticks = getAgreement({
   message:
     "HELLO, fellow trade mesh body! We here at gbd supply THE BEST of BEASTS. We heard you are an amazing supplier and we currently need some incentive devices to help our employees work harder, nothing special mind you, and of course in return you will get to see some our most EXCLUSIVE AMAZING BEASTS! What do you say?",
 });
-const gdbLead = getAgreement({
+const gdbLead = getAgreement("gdbLead", {
   paymentItems: [
     Item.of(
       "supplementaries:cage",
@@ -381,7 +381,7 @@ const gdbLead = getAgreement({
   message:
     "HELLO, we are excited to offer you an incredible opportunity! We have a few leftover beasts from our nether exhibition, the highest quality stock around! We need a few leads for our future endeavors, lets strike a deal!",
 });
-const gdbLeadFriend = getAgreement({
+const gdbLeadFriend = getAgreement("gdbLeadFriend", {
   paymentItems: [
     Item.of(
       "supplementaries:cage",
@@ -396,7 +396,7 @@ const gdbLeadFriend = getAgreement({
     "As our most VALUABLE customer, we are excited to offer you a once in a lifetime opportunity! We have a few leftover beasts from our nether exhibition, and we are willing to part with them for a small fee. What do you say?",
 });
 
-const sssHelmets = getAgreement({
+const sssHelmets = getAgreement("sssHelmets", {
   paymentItems: ["air"],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
@@ -405,7 +405,7 @@ const sssHelmets = getAgreement({
   message:
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
-const sssHelmetsFixedRates = getAgreement({
+const sssHelmetsFixedRates = getAgreement("sssHelmetsFixedRates", {
   paymentItems: ["air"],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
@@ -414,7 +414,7 @@ const sssHelmetsFixedRates = getAgreement({
   message:
     "Amazing! Its so great to have you with us brother, or sister, or whatever you are. We always require more recruits, and so we always require more helmets!",
 });
-const cccRawWhiteOld = getAgreement({
+const cccRawWhiteOld = getAgreement("cccRawWhiteOld", {
   paymentItems: [
     "8x minecraft:leather",
     "8x supplementaries:copper_lantern",
@@ -428,7 +428,7 @@ const cccRawWhiteOld = getAgreement({
   message:
     "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
 });
-const cccRawWhite = getAgreement({
+const cccRawWhite = getAgreement("cccRawWhite", {
   paymentItems: [
     "8x minecraft:leather",
     "8x supplementaries:copper_lantern",
@@ -444,7 +444,7 @@ const cccRawWhite = getAgreement({
   message:
     "We have been receiving complaints from customers which we have not managed to deal with violently yet. Looking into a different approach. People are experiencing extreme deficiency in white minerals on our CCC Diet Plus program. We want to acquire some additives that can solve this.",
 });
-const cccIronBars = getAgreement({
+const cccIronBars = getAgreement("cccIronBars", {
   paymentItems: [
     "16x minecraft:leather",
     Item.of("botania:mana_tablet", "{mana:10000}"),
