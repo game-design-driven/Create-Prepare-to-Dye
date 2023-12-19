@@ -22,7 +22,7 @@ Setup
 - Run this command in command prompt `winget install Chocolatey.Chocolatey`
 - Run this command in command prompt `choco install ngrok` (note: if asked to run script, answer `A`)
 - Sign up at https://ngrok.com/
-- Find this command `ngrok config add-authtoken <bunch of random letters and numbers you shouldn't share with anyone>` or something similar in the dashboard that appears aftewr signing up/logging in
+- Find this command `ngrok config add-authtoken <bunch of random letters and numbers you shouldn't share with anyone>` or something similar in the dashboard that appears after signing up/logging in
 - Run said command in command prompt
 
 Forwarding 
