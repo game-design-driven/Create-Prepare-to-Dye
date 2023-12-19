@@ -1,21 +1,21 @@
 {
-  "parent": "ptd:white_ingot",
+  "parent": "ptd:blob",
   "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
-                    "items": [ "create:iron_sheet" ]
+                    "items": ["#minecraft:logs"]
                 } ]
             }
         }
   },
   "display": {
       "icon": {
-          "item": "create:iron_sheet"
+          "item": "minecraft:oak_log"
       },
-      "title": { "translate": "advancement.ptdye.white_sheet", "color": "white" },
-      "description": { "translate": "advancement.ptdye.white_sheet.desc", "color": "grey" },
+      "title": { "translate": "advancement.ptdye.logs", "color": "white" },
+      "description": { "translate": "advancement.ptdye.logs.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
       "show_toast": true,
