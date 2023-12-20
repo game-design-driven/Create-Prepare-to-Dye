@@ -1,0 +1,22 @@
+{
+  "parent": "more_babies:more_babies/cursed_clock",
+  "criteria": {
+    "cursed_clock_on_a_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "more_babies:cursed_clock_on_a_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cursed_clock_on_a_stick"
+    ]
+  ]
+}

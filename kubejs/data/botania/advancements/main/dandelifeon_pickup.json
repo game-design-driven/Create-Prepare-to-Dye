@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/gaia_guardian_kill",
+  "criteria": {
+    "dandelifeon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:dandelifeon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "dandelifeon"
+    ]
+  ]
+}

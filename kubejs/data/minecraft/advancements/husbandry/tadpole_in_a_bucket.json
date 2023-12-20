@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "tadpole_bucket": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tadpole_bucket"
+          ]
+        }
+      },
+      "trigger": "minecraft:filled_bucket"
+    }
+  },
+  "requirements": [
+    [
+      "tadpole_bucket"
+    ]
+  ]
+}

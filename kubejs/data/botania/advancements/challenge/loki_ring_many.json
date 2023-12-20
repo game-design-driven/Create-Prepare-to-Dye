@@ -1,0 +1,18 @@
+{
+  "parent": "botania:challenge/loki_ring",
+  "criteria": {
+    "place_blocks": {
+      "conditions": {
+        "blocks_placed": {
+          "min": 255
+        }
+      },
+      "trigger": "botania:loki_placed_blocks"
+    }
+  },
+  "requirements": [
+    [
+      "place_blocks"
+    ]
+  ]
+}

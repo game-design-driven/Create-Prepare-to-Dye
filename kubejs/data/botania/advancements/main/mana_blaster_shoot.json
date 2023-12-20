@@ -1,0 +1,14 @@
+{
+  "parent": "botania:main/rune_pickup",
+  "criteria": {
+    "shoot": {
+      "conditions": {},
+      "trigger": "botania:fire_mana_blaster"
+    }
+  },
+  "requirements": [
+    [
+      "shoot"
+    ]
+  ]
+}

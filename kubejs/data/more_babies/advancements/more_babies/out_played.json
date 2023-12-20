@@ -1,0 +1,18 @@
+{
+  "parent": "more_babies:more_babies/root",
+  "criteria": {
+    "entity_killed_player": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "#more_babies:babies"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entity_killed_player"
+    ]
+  ]
+}

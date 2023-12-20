@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/elf_portal_open",
+  "criteria": {
+    "bubbell": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:bubbell"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "bubbell"
+    ]
+  ]
+}

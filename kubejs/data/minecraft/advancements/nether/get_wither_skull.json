@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:nether/find_fortress",
+  "criteria": {
+    "wither_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wither_skull"
+    ]
+  ]
+}

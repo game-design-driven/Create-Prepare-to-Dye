@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:nether/create_beacon",
+  "criteria": {
+    "beacon": {
+      "conditions": {
+        "level": 4
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ]
+}

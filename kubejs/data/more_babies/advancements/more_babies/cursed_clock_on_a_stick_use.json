@@ -1,0 +1,30 @@
+{
+  "parent": "more_babies:more_babies/cursed_clock_on_a_stick",
+  "criteria": {
+    "player_interacted_with_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "more_babies:cursed_clock_on_a_stick"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "player_interacted_with_entity"
+    ]
+  ]
+}
