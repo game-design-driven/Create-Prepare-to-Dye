@@ -45,7 +45,7 @@ function getAgreementAdvancement(agreementID) {
   advancement.criteria["b"].conditions.agreementNbt = `{id:"${agreementID}"}`
 
   // Write advancement
-  JsonIO.write(`kubejs/data/ptd/advancements/trade/generated/${agreementID.toLowerCase()}.json`, advancement);
+  JsonIO.write(`kubejs/data/ptd/advancements/trade/${agreementID.toLowerCase()}.json`, advancement);
 }
 
 function getAgreement(agreementID, {
