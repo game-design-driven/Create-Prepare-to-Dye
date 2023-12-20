@@ -1,0 +1,22 @@
+{
+  "parent": "more_babies:more_babies/root",
+  "criteria": {
+    "cursed_clock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "more_babies:cursed_clock"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cursed_clock"
+    ]
+  ]
+}

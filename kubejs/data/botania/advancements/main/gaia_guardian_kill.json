@@ -1,0 +1,24 @@
+{
+  "parent": "botania:main/elf_portal_open",
+  "criteria": {
+    "guardian": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "botania:doppleganger"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "guardian"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/root",
+  "criteria": {
+    "cacophonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:cacophonium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "cacophonium"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "get_stone": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:stone_tool_materials"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "get_stone"
+    ]
+  ]
+}

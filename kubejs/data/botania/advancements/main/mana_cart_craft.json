@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/mana_pool_pickup",
+  "criteria": {
+    "poolcart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:pool_minecart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "poolcart"
+    ]
+  ]
+}

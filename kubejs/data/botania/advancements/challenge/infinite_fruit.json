@@ -1,0 +1,20 @@
+{
+  "parent": "botania:challenge/gaia_guardian_hardmode",
+  "criteria": {
+    "fruit": {
+      "conditions": {
+        "relic": {
+          "items": [
+            "botania:infinite_fruit"
+          ]
+        }
+      },
+      "trigger": "botania:relic_bind"
+    }
+  },
+  "requirements": [
+    [
+      "fruit"
+    ]
+  ]
+}

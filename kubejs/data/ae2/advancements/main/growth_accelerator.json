@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/fluix",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:quartz_growth_accelerator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ]
+}

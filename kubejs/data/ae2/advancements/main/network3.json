@@ -1,0 +1,13 @@
+{
+  "parent": "ae2:main/network2",
+  "criteria": {
+    "cable": {
+      "trigger": "ae2:network_admin"
+    }
+  },
+  "requirements": [
+    [
+      "cable"
+    ]
+  ]
+}

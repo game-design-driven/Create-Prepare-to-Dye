@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/gaia_guardian_kill",
+  "criteria": {
+    "bomb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:mana_bomb"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "bomb"
+    ]
+  ]
+}

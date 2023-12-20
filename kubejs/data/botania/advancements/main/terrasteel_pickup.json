@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/rune_pickup",
+  "criteria": {
+    "terrasteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:terrasteel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "terrasteel"
+    ]
+  ]
+}

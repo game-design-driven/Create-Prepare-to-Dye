@@ -1,0 +1,16 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "use_gun": {
+      "conditions": {
+        "desu": true
+      },
+      "trigger": "botania:fire_mana_blaster"
+    }
+  },
+  "requirements": [
+    [
+      "use_gun"
+    ]
+  ]
+}

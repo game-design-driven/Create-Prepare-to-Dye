@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/rune_pickup",
+  "criteria": {
+    "dirtrod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:dirt_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "dirtrod"
+    ]
+  ]
+}

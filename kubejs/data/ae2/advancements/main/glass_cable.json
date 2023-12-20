@@ -1,0 +1,20 @@
+{
+  "parent": "ae2:main/fluix",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "ae2:glass_cable"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ]
+}

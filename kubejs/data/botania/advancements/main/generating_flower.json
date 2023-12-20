@@ -1,0 +1,20 @@
+{
+  "parent": "botania:main/flower_pickup",
+  "criteria": {
+    "flower": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "botania:generating_special_flowers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "flower"
+    ]
+  ]
+}

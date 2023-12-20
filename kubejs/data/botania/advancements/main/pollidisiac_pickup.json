@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/rune_pickup",
+  "criteria": {
+    "pollidisiac": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:pollidisiac"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pollidisiac"
+    ]
+  ]
+}

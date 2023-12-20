@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/mana_pool_pickup",
+  "criteria": {
+    "pool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:crafting_halo"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pool"
+    ]
+  ]
+}

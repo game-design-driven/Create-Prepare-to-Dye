@@ -1,0 +1,18 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "big_request": {
+      "conditions": {
+        "extracted": {
+          "min": 65536
+        }
+      },
+      "trigger": "botania:corporea_index_request"
+    }
+  },
+  "requirements": [
+    [
+      "big_request"
+    ]
+  ]
+}

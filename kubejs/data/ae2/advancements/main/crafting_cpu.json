@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/pattern_encoding_terminal",
+  "criteria": {
+    "cu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:crafting_unit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "cu"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "ae2:main/glass_cable",
+  "criteria": {
+    "cable": {
+      "trigger": "ae2:network_apprentice"
+    }
+  },
+  "requirements": [
+    [
+      "cable"
+    ]
+  ]
+}

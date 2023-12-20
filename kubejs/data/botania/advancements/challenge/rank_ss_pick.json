@@ -1,0 +1,13 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "code_triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "code_triggered"
+    ]
+  ]
+}

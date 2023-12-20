@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/controller",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:crafting_terminal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "ae2:main/storage_bus",
+  "criteria": {
+    "recursive": {
+      "trigger": "ae2:recursive_networking"
+    }
+  },
+  "requirements": [
+    [
+      "recursive"
+    ]
+  ]
+}

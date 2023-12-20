@@ -1,0 +1,23 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "use_l20_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:laputa_shard"
+            ],
+            "nbt": "{level:19}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "use_l20_shard"
+    ]
+  ]
+}
