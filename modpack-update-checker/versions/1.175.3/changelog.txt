@@ -1,0 +1,8 @@
+### [1.175.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.2...1.175.3) (2023-12-20)
+
+
+### Fixes
+
+* Adds secondary_linear_chassis to mechanical devices ([#441](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/441)) ([47af757](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/47af7578c51ea7e4343ec4fb885967b7c90ae7f1))
+
+
