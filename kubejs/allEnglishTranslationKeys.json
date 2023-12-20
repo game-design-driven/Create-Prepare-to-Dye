@@ -5,24 +5,16 @@
 			"key": "fluid.kubejs.flowing_organic_mass"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.create.mechanical_harvester.tooltip.summary"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.sturdy_device"
 		},
 		{
-			"namespace": "ptdye",
-			"key": "block.ptdye.logic_device"
+			"namespace": "minecraft",
+			"key": "block.minecraft.jungle_log.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
-			"key": "fluid.minecraft.milk"
+			"key": "block.minecraft.stripped_spruce_wood.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -33,28 +25,8 @@
 			"key": "block.ptdye.smart_device"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "sound_event.kubejs.music_disc.fanfare"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.music_disc_landing_fanfare"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "item.ae2.storage_bus.tooltip.summary"
-		},
-		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.redstone.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "item.minecraft.iron_ingot.tooltip.summary"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.trading_transceiver"
 		},
 		{
 			"namespace": "kubejs",
@@ -73,24 +45,16 @@
 			"key": "item.createdieselgenerators.distillation_controller.tooltip.summary"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "item.minecraft.milk_bucket"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.ptdye.mechanical_device.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.minecraft.cauldron.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.minecraft.iron_ore.tooltip.summary"
+			"namespace": "ptdye",
+			"key": "block.ptdye.cyan_dye_block"
 		},
 		{
 			"namespace": "kubejs",
 			"key": "item.kubejs.organic_mass_bucket"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.spruce_wood.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -109,24 +73,8 @@
 			"key": "block.ae2.medium_quartz_bud.tooltip.summary"
 		},
 		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_sealed_device"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "item.ptdye.trading_transceiver.tooltip.summary"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "block.ptdye.red_stringed_device"
-		},
-		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.bone_meal.tooltip.summary"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "block.ptdye.sealed_device"
 		},
 		{
 			"namespace": "minecraft",
@@ -142,10 +90,6 @@
 		},
 		{
 			"namespace": "minecraft",
-			"key": "item.minecraft.golden_sword.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
 			"key": "item.minecraft.copper_ingot.tooltip.summary"
 		},
 		{
@@ -154,15 +98,27 @@
 		},
 		{
 			"namespace": "minecraft",
+			"key": "block.minecraft.birch_log.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
 			"key": "block.minecraft.redstone_ore.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_tube_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.pink_dye_block"
 		},
 		{
 			"namespace": "minecraft",
 			"key": "block.ae2.chipped_budding_quartz.tooltip.summary"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "item.minecraft.golden_axe.tooltip.summary"
+			"namespace": "ptdye",
+			"key": "block.ptdye.blue_dye_block"
 		},
 		{
 			"namespace": "ptdye",
@@ -170,15 +126,15 @@
 		},
 		{
 			"namespace": "minecraft",
+			"key": "block.minecraft.oak_log.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.spruce_log.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
 			"key": "item.minecraft.golden_pickaxe.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "item.ae2.fluix_smart_cable.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.create.blaze_burner.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
@@ -206,7 +162,7 @@
 		},
 		{
 			"namespace": "minecraft",
-			"key": "item.wares.completed_delivery_agreement.tooltip.summary"
+			"key": "block.minecraft.stripped_dark_oak_wood.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
@@ -215,6 +171,222 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.create.limestone.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_blue_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.magenta_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_gray_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.brown_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.upside_down_fire"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.yellow_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_warped_hyphae.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_smart_device"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.gray_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_acacia_wood.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.water_bucket.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.purple_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.supplementaries.ash.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_shovel.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_crimson_hyphae.tooltip.summary"
+		},
+		{
+			"namespace": "kubejs",
+			"key": "item.kubejs.fermented_blob"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_jungle_wood.tooltip.summary"
+		},
+		{
+			"namespace": "kubejs",
+			"key": "fluid.kubejs.fermented_goop"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.warped_hyphae.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.copper_ore.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.create.mechanical_harvester.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.logic_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "fluid.minecraft.milk"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.dark_oak_wood.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.ae2.storage_bus.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.iron_ingot.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.red_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.trading_transceiver"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.hammer"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.milk_bucket"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.crimson_stem.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.ptdye.mechanical_device.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.orange_tubes"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.green_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.cauldron.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.iron_ore.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.acacia_log.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.lime_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.birch_wood.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_sealed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.ptdye.trading_transceiver.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.red_stringed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_birch_wood.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.sealed_device"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_sword.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.white_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.minecraft.golden_axe.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.dark_oak_log.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.jungle_wood.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.ae2.fluix_smart_cable.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.create.blaze_burner.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "item.wares.completed_delivery_agreement.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -229,12 +401,8 @@
 			"key": "block.minecraft.milk"
 		},
 		{
-			"namespace": "ptdye",
-			"key": "block.ptdye.upside_down_fire"
-		},
-		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_smart_device"
+			"namespace": "minecraft",
+			"key": "block.minecraft.acacia_wood.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -258,7 +426,11 @@
 		},
 		{
 			"namespace": "minecraft",
-			"key": "item.minecraft.water_bucket.tooltip.summary"
+			"key": "block.minecraft.crimson_hyphae.tooltip.summary"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.stripped_oak_wood.tooltip.summary"
 		},
 		{
 			"namespace": "kubejs",
@@ -282,27 +454,23 @@
 		},
 		{
 			"namespace": "minecraft",
-			"key": "block.supplementaries.ash.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
 			"key": "item.minecraft.raw_iron.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
-			"key": "item.minecraft.golden_shovel.tooltip.summary"
-		},
-		{
-			"namespace": "kubejs",
-			"key": "item.kubejs.fermented_blob"
+			"key": "block.minecraft.oak_wood.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
 			"key": "block.ptdye.sturdy_device.tooltip.summary"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "fluid.kubejs.fermented_goop"
+			"namespace": "ptdye",
+			"key": "block.ptdye.black_dye_block"
+		},
+		{
+			"namespace": "minecraft",
+			"key": "block.minecraft.warped_stem.tooltip.summary"
 		},
 		{
 			"namespace": "minecraft",
@@ -315,10 +483,6 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.ae2.inverted_toggle_bus.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.minecraft.copper_ore.tooltip.summary"
 		}
 	]
 }
