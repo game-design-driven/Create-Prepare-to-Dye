@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "71fd5db4fc858bc0ff6b8ebea271b07a543b8e5208e1902334315177fcd7bacd"
+hash = "19890119156a4520410b18095759a26d3bcd97d48170d3d6746442cd2ba52c68"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1602,7 +1602,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e5b15b7efdfb6aa442808135483b531bbe4dbb197af32808c50012e2256f0d99"
+hash = "95d10056c9115d92d86040a526617bba24a03cc474c7e5671414ab1130b4a172"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1889,6 +1889,110 @@ file = "kubejs/config/probejs.json"
 hash = "487128db93fe40f02ce10e18600fed05b353b3544fdfa223f80d21e81545477f"
 
 [[files]]
+file = "kubejs/data/ae2/advancements/main/charged_quartz.json"
+hash = "39a319cbd5a8e63502d86528f9d8e9adbdee209a8237aeb754b114f19d8756ac"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/charger.json"
+hash = "b5c230253f7918e44c7eeb718791131b1e7af81cc2822750f596e2fdab790155"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/compass.json"
+hash = "f834b09f963cb53a2d038cb7154577007752f66b5878d3b496f26e69625183d8"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/controller.json"
+hash = "dc81f785dbbb751c55603956d8c8e68d7d45c7589e8cd1532223001d1c7ceee5"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/crafting_cpu.json"
+hash = "f919c55ed122e58819f0b8f92e0632f0d2217b8823de0b3a259b972e04ccbc23"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/crafting_terminal.json"
+hash = "ba6fffd4a79bf0fe242b181bf8b688133b1a4cfb5f2f77d5930359fb656d1106"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/facade.json"
+hash = "82019e535c6c018cf4cc8de611a61eb1db296b8fd9ca0be2c925a3d9efb58c6b"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/fluix.json"
+hash = "4956b7c0b253d9e77dee342c4eb5dc17f86481c855c60f62b4f4a37c88356130"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/glass_cable.json"
+hash = "6b9645e29446ed9a9a66186f1e5048dc0dd9cfe6dcd28b69d7ac8dc912c99eb6"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/growth_accelerator.json"
+hash = "181f59647c003ec44bd4d9e7d0dec71405c58ac9adf780f91e22da1b885e457c"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/ioport.json"
+hash = "315b53fcf0aa8e69d9db1277457f5d1842abcf6b3d0d96135ed7a46ae84826a0"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/network1.json"
+hash = "fc77d35573b29c0513ee16e3080d9c66e50822ab437f56ff6d3c6af2a45392d9"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/network2.json"
+hash = "d6b437ca485d145b549121662be3f5b37925348513d81e1b40b1689bc99d6cf3"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/network3.json"
+hash = "88b224431a864ce2b0923c2f18b3c0fa443a6102ed1cd80d268c1dd2f4bb92fc"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/network_tool.json"
+hash = "b173c2b41e096a93a34573ac1c67eb76383a61a9ccc8555ab3fa09c0f01f17a8"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/p2p.json"
+hash = "1510f9b3b85286a997e697a2cef69d4b4f5f13e6606ed1058757d36c39322acc"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/pattern_encoding_terminal.json"
+hash = "94db2821ffe2396a1733e35ada7386b88173c291d0ba00acf2e3c7d4c924fdce"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/portable_cell.json"
+hash = "c83d389563312f6ef7131561cbc35c74b2cae361bfdbca018395420191cbdc10"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/presses.json"
+hash = "1342f4c2cb4e999bc757bce8ed2bad7ac5aa2d5630d2f60bc724f12e1df7863a"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/qnb.json"
+hash = "30a24670f9b62a226fb380f7018982712f563f961c4988fd8ea0c456b74003ce"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/recursive.json"
+hash = "e933a70c7523061fc300e9808d92b89a1cb8f5af515470ee77e838d58a70339c"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/root.json"
+hash = "f3d82e00c4fbfd508ad6c6491e167eb7095c12e710b4e968fa18155d84fa6908"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/spatial_explorer.json"
+hash = "18c49f148471c2f8373b12f9692b9bb133dd626143fbb0fe7fab0c36333ea3ce"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/spatial_ioport.json"
+hash = "97e61dc2233c8201fa5f6b24b7b6b42464e10968b78c3434a3074772b44451e3"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/storage_bus.json"
+hash = "cab48ba4e7f756d78487d2ab390ca9cac7b000292c6eae2aaa1b66b653b9a0bd"
+
+[[files]]
+file = "kubejs/data/ae2/advancements/main/storage_cell.json"
+hash = "f78d9949a1deb3dc00ade342a7ac2fc3441faa055f717e50fa428adec8419652"
+
+[[files]]
 file = "kubejs/data/ae2/loot_tables/blocks/calculation_processor_print.json"
 hash = "31aa64c4a56c76fee7c6f7f9a11b83fcb53c9f4ae3b2a7fabb8d5c65fdabeb99"
 
@@ -1973,6 +2077,214 @@ file = "kubejs/data/ae2/loot_tables/blocks/small_quartz_bud.json"
 hash = "641de12f2b3107605604afe90a08cb9c60a05a14b802980fde3ad6cd1e6e67c8"
 
 [[files]]
+file = "kubejs/data/botania/advancements/challenge/alf_portal_bread.json"
+hash = "1abfe5c4d1cad1785e02d339ce58e6ab89949977d975f27c5e08396daccab26d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/desu_gun.json"
+hash = "43cc16f7b8f69b01a35fa28be8bc56ffe566adbc022a3b9ecb7442499980ba93"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/flugel_eye.json"
+hash = "bd59bb8abbf4ec967d6ce5675fb99a148459dd5e9a397f97b67354b2a4b3cdfd"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/gaia_guardian_hardmode.json"
+hash = "2724ec1f1e7256d4d4b4c565e7964a79baeaf87c43738a701bf480d20465370a"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/gaia_guardian_no_armor.json"
+hash = "0556c31f1756479e7a4da588154f672210767246ccc64f3f32440c415cebd96e"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/infinite_fruit.json"
+hash = "42a07aea0e0751486fe4ff383fa4f5a1c4a2bc36b5d7e9e03b44d5e32426b4fd"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/king_key.json"
+hash = "ce8b672eccadff1653ce19e4a00aef1367ae16bfa10236b9ba13e4ab9da38300"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/l20_shard_use.json"
+hash = "bda904a2579a657b37f2b0212284c1195fce1011e8a9361a578db7099d7f317b"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/loki_ring.json"
+hash = "89ec116ef87984ba8d1ae826c51db0d85470a92f9f7ba0f4aac17903e09cdf23"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/loki_ring_many.json"
+hash = "6efb0dca2962dd1ed3f592c907c360266b51067d0c736554279330f9cc8a1e97"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/odin_ring.json"
+hash = "caa48531ad28bc1f127132bc627b6c6ac38ce062fe7b1bb0aba05c69e41260f0"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/old_flower_pickup.json"
+hash = "99d81e453fb1e12550f49970f595b563a658a72febe3f171dc2e320f6125145c"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/pinkinator.json"
+hash = "9b02d57803f5441e6a7bdc91d3a7ad3e6090592273a679be5c542f29fe244ada"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/rank_ss_pick.json"
+hash = "2bd97a44c7877ed11275cfe73e50220573304fccbdeb27a42d59d4a56204872d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/root.json"
+hash = "f33402dedde1de93fef95659ad3e3d374ff4064152a548bc4954f7a39731daf2"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/super_corporea_request.json"
+hash = "b40788c6376b15ac4b21080c9142710675a2fd1af546d0202427add656b2a129"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/thor_ring.json"
+hash = "c2453cd765d68c7c7310393a7994ef446409746dce5f783d64edca018196c9cd"
+
+[[files]]
+file = "kubejs/data/botania/advancements/challenge/tiny_potato_birthday.json"
+hash = "2bd97a44c7877ed11275cfe73e50220573304fccbdeb27a42d59d4a56204872d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/bauble_wear.json"
+hash = "f973935ca73df92ed6bada5548e4eaff59c57ba8149f31ca2b6a78b36cdcbc55"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/brew_pickup.json"
+hash = "7ab5d215d35f9fc89d0ed6055561a2871ed9bccdf5ddd524100c392379f83e8c"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/bubbell_pickup.json"
+hash = "79b51043673530a4f1ffce541e66b18a15e708b80b2e42dd674e6b18343991a3"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/cacophonium_craft.json"
+hash = "4fb79a4a01c0b256f5a028ac8248f9b18981e472c6e619e6bab9fccd03d3d6e3"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/corporea_craft.json"
+hash = "d9c5f50c89b8794573ec3ad836cd315fe2b0b5878d38e483b224b3a60ef7c84a"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/crafting_halo_craft.json"
+hash = "48e9ec62c417c76a1718167110ee1942d79bc1f38178e52e155f97462a99a268"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/dandelifeon_pickup.json"
+hash = "b48e376998e01c925aa708a66803e29fc4c728bb092b28b05f3fada7a5543a6d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/dirt_rod_craft.json"
+hash = "2cd391e8a130963437a6e53f9326a1db7d6976fda764f6c2699381372086b790"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/elf_portal_open.json"
+hash = "6b3a51f31b01731f7e73ad3a3d07b370e8876d6b56ddaefcc37caa81ba013c30"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/enchanter_make.json"
+hash = "f973935ca73df92ed6bada5548e4eaff59c57ba8149f31ca2b6a78b36cdcbc55"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/ender_air_make.json"
+hash = "a859ef51aa44ffb9ab883311d77762a7a2cb556e4572b9083ceb7b785f6ccc63"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/flower_pickup.json"
+hash = "815865a70aaa98c460fd81c62da5678dc10cf5b111d94229a0ac9e0521d4291d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/functional_flower.json"
+hash = "89102ce52fc807fd76dd80a8d0123a4104f25d73cdc09852d91e9587a296d293"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/gaia_guardian_kill.json"
+hash = "b2a25aa730043f4735937077ded26efb053e9f6e0ca3f9a9155e7d40a2c845d9"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/generating_flower.json"
+hash = "dfd010f2539b9f1a30ecabdc64eb737cc591c17713db1d45e44e568f68c3c093"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/heisei_dream_pickup.json"
+hash = "2098aad7e9d8055781e8ad16b194181c2522fa771918c4f7564551bfcddebcfc"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/kekimurus_pickup.json"
+hash = "85911a5a8b19ab0db67d60c8677b7ce2087b127aa092a014f3e947d85c1280e7"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/lexicon_use.json"
+hash = "d3f33e125639a8cfe16861971bd92d7425c8589ca469524a3a379c9a0aac99a4"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/luminizer_ride.json"
+hash = "9d90fe9e88a6086f239d3286fed1c70f44addf75ffd32408c8f673f94b99d19d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/mana_blaster_shoot.json"
+hash = "b4640fca379fcd5320bb65cb96d54f3bd02246a3a3043b332361deb7c89d4061"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/mana_bomb_ignite.json"
+hash = "f51ca1a18162082b4ed00b167aa3a27e63fa61f184019329c66b81b96fddf2b3"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/mana_cart_craft.json"
+hash = "7446b168b939f1a80a85e77fe1e5ba0f697df11b67fff22d3d480d23121855f0"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/mana_cookie_eat.json"
+hash = "0d0811620c9399a84e3906232243ecc76f81c32e7d67ce148d5f497db94928f0"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/mana_pool_pickup.json"
+hash = "3c5c9171e351bd3ceef0fff1d7df5fa4035cb7dd6fb13e87ef436209222e2911"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/manaweave_armor_craft.json"
+hash = "cbc7a06d4ac69276f51407498462ab489be41b6694cfc43536b0a9aa515097c7"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/pollidisiac_pickup.json"
+hash = "be9e4ef67dcb37799aed70fe8002f1f00f0c70d511a51312f7184f24ac17ddfa"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/root.json"
+hash = "f33402dedde1de93fef95659ad3e3d374ff4064152a548bc4954f7a39731daf2"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/rune_pickup.json"
+hash = "08ac7be84dd49fe88403de14b8f8899f20c2678afc46b9e9d643d8406c001647"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/spark_craft.json"
+hash = "2b96f5c6b1c12b785d5db94ab7dab0d1484ad2a3345c3f70b7a145a5c26c7f32"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/spawner_mover_use.json"
+hash = "5bd8b509a16150fb2bec50ce480c431623aefd4a17dd7e411325e672e689ba3e"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/terrasteel_pickup.json"
+hash = "c69deb859234424d497c0c671e0212225fed5dee185fdbd71c40295f9833de2d"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/terrasteel_weapon_craft.json"
+hash = "1d47a4147cf04f7ee2db1944f023f2b148b4ecd5020b964f7b6e19f26746b621"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/tiara_wings.json"
+hash = "ade66d7b81379bc9f5c62a270ee55450f9729aa408d939887a931f824086d5b0"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/tiny_potato_pet.json"
+hash = "f973935ca73df92ed6bada5548e4eaff59c57ba8149f31ca2b6a78b36cdcbc55"
+
+[[files]]
 file = "kubejs/data/botania/orechid_ore_weights/orechid.json"
 hash = "e27765753567bf29eacb96d1339b0ee9db7ff12ed58d1a9a094d4ed9e901ec50"
 
@@ -1995,6 +2307,414 @@ hash = "849d3ee175dc1ae4961c5b3fed36e611de83511f7c87202c97eddc7bb9c860ec"
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/plantoil.json"
 hash = "b07666e6f9b8b3fe09d97c6b90ad4daf292387ae186a260d8a9c5388b9bdf241"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/adventuring_time.json"
+hash = "2beb0da6bfbbafc075262351f53e160454d0564f7afc0c8e19efd57aa0e218bb"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/arbalistic.json"
+hash = "62ed2c0fa03eba179a6f8e4fee052069fd3cca6a69434c8d36b658d1a2f8ca26"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/avoid_vibration.json"
+hash = "05cce081e1ce34be94e1e83172988e91cd10c5e025b50a2c5087704dd60dc39f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/bullseye.json"
+hash = "209332d83a789f81e0ceadc5ef6b489de886d13a51e49fc8695c998b197d790f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/fall_from_world_height.json"
+hash = "d22d154273140be3ba3e2d0e67b8265c19a202000accce49cf8624ded6ba83b3"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/hero_of_the_village.json"
+hash = "aacfdaac2d1ef1074fea05ecac051f0175eb5b990b409777e6558807c0f41c03"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/honey_block_slide.json"
+hash = "3fe313cf88346e9c2e04c1ebeff7ed319f8beb3c30b4ea8997b2658f671083a6"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/kill_a_mob.json"
+hash = "b3abb99746a9b9b1ae51bbbeb285eaa3d6047fa62e208ae0fad5ce33afbedda1"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/kill_all_mobs.json"
+hash = "7a4c6aa1e290e9b461a4bc0073f05087100d435afd96eea9e70c5bf215229d17"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/kill_mob_near_sculk_catalyst.json"
+hash = "68b9770de4127176097debf3b81a8b293c24f7e7ce92befc18bf44698bddb1d0"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/lightning_rod_with_villager_no_fire.json"
+hash = "f9faa1f7f8b2d656923cea7b749d19b4976e7903273f4c8e4bfc722e869aec87"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/ol_betsy.json"
+hash = "838ff11a2704ebe06a41bb5d5c889019a48071c17a3f03270afe5e11261a6754"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/play_jukebox_in_meadows.json"
+hash = "d0fd3c26126aec3507087f09e6cf6119c5f82e1d286dd6784460152bfb2d23c8"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/root.json"
+hash = "77975cb3823e7df34ed8e62e8b0ae9d5f1970326d6d2d45ae46cbe96e8cc3fa5"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/shoot_arrow.json"
+hash = "554d8980b2a50ca26f758165f0b3715432ab502b9550524b6de5bb065b115070"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/sleep_in_bed.json"
+hash = "f2d77af01b81f9120a8de1222f484feb313738735792e9d57967ed0974bcee13"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/sniper_duel.json"
+hash = "0e6bf8bf1faa03f2a46d386bbe3ae6dbe32a94e95187b2b3af59291833732de3"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/spyglass_at_dragon.json"
+hash = "1d1097d674439a836661ba0de8cef44f4dad5f472fd990de2f884fb71fc64039"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/spyglass_at_ghast.json"
+hash = "4646f77a68453e2c110dc2cbeb36548b542163d5dc9a592ae762d10bf97343db"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/spyglass_at_parrot.json"
+hash = "30726b6ac420734282fb9aba5057a671882142de9677aaab314a582097cca385"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/summon_iron_golem.json"
+hash = "689f9466678d7223787dd45fbc8df0aca70a4968a591ed0a86d0dfe39aea7ef8"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/throw_trident.json"
+hash = "afa6865d6dba4fb4ba998d36f0e5d246b2d57b59aba62ddd11d6e06c00769a5c"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/totem_of_undying.json"
+hash = "2daa63a4e50aecf7d3a0cafe2cae342a445af50fe834ceb000ac4a29bee93e53"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/trade.json"
+hash = "31e1e81c48ca3acd7976b8fe16c7720a8799fe7b3f2c3640af3a54375f18cc83"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/trade_at_world_height.json"
+hash = "8200a71fe23cebd7e95665e5468e56d1c26d1d9f51077902ac7b6d08d1568e0e"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/two_birds_one_arrow.json"
+hash = "8e60853fdf02159a6310d730e5fa5015d257f2284e74ee3467b62f9d4b7bfc21"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/very_very_frightening.json"
+hash = "b1f827ed049be56ff749f0d6c5a8eb8b8040f93707de13f3d3a53ea60b869ba7"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/voluntary_exile.json"
+hash = "bdea7c8e8733ad281aaa4dd310b0ae6ccf6142473ac9d5a9e52db067cee6adc2"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/walk_on_powder_snow_with_leather_boots.json"
+hash = "61020cbd2a3c67d2f6b2672ac17b71d1e4c504eaf130c92e1f154b50a6fec9ce"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/adventure/whos_the_pillager_now.json"
+hash = "58651ba628f90d505a01bb8ef7d7a7d92ad513c1136b3df8ed2233627f45b3a4"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/dragon_breath.json"
+hash = "46f4fabbbc3f85524a70703665e2817e9215cbe51af8c780da597ed3f24f1e02"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/dragon_egg.json"
+hash = "bbf8c5de8c0dea64e0da2db8943a4fc4defd393b61787346083226bdb4d7ef0b"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/elytra.json"
+hash = "de8980f47fe808834c998a69de37fc20d4933e1e2a3a30f0801252e06186deec"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/enter_end_gateway.json"
+hash = "fe7ba0ed96c0bcd8ca1ee6b88c7c877ffe1703874a019c9cb425f2f351a936a1"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/find_end_city.json"
+hash = "12483c3f060c98cb2ceb913aa454dd21f98da8c4d76e8b5123a8cf0f6e490a9a"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/kill_dragon.json"
+hash = "70bf6b3655469c5bd36892371372fd2f60b64698be93b4ac290016b97fe58444"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/levitate.json"
+hash = "46e6ed572c311303eef9355d000e8a6afd7b3a671319fe739f85f344c545395b"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/respawn_dragon.json"
+hash = "8072cbec338aef30b1caeb297a65ac7169c332354da6b44b29bad0806bace62d"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/end/root.json"
+hash = "a3d08c288e009a1c5c16c0acd14558cc0fc0da684c9220228a05275b50c67e9b"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/allay_deliver_cake_to_note_block.json"
+hash = "ce7e1d1d625507f315f4f2c0c1ac03fd22daca7d4cef57cae04987237369dccb"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/allay_deliver_item_to_player.json"
+hash = "ef625e927cd80f02a688be798fd6817b8ed03bdbfcc01376f51ce735d860ffb6"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/axolotl_in_a_bucket.json"
+hash = "d6e193e3b8470e3f43fac4e18fcf59ce293a8bb7ab04475ecd21b813dd468e41"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/balanced_diet.json"
+hash = "5d9226a18073999fbfba5d2ec0da407ee4bd0f01ceacf53b8c13c6834cbf750f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/bred_all_animals.json"
+hash = "acd92be73d8fb133917bbf4429a5319de193d410943c293a22360800a478f3ae"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/breed_an_animal.json"
+hash = "c171a074dc1473578500b14ce4727cc9d4acf4c8378a430317eb3aea05edb8ed"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/complete_catalogue.json"
+hash = "394a8ee0330cdd94a59dfb706268b7ad9b77a2dd9c439223d9004ded51fb82e7"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/fishy_business.json"
+hash = "60c307c52efde932d0126fa25462f5a3f64f93e639ff5d28def348d04bbbefda"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/froglights.json"
+hash = "baf2b7db476cbf217e9da382576c5764247f91faf7b49eb12effe538704ca2fe"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/kill_axolotl_target.json"
+hash = "716f554d9039d63c22e1155b5536935787fc3c7c0b166ea49fd9d8ae6b4d3899"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/leash_all_frog_variants.json"
+hash = "e1ec41424db7b65c8b510e52ba1edebbe21511ec1d52874ebc03d08cdb4c90cd"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/make_a_sign_glow.json"
+hash = "966650fbd9bb3543fe18d5d5014ee74f31aa4a7872f958662f0eea98ef1f7f6f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/obtain_netherite_hoe.json"
+hash = "f3e2b26ae170ed479104656befc9ea65a6ed88c4552e6234f88d5ed8723d2da0"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/plant_seed.json"
+hash = "43b0ab99194ada3ea358753fc6526f6688681a8335c001d226bce81bfd8a6d77"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/ride_a_boat_with_a_goat.json"
+hash = "c150c69b23c565e952c25d34223940de8c3ce34cbf6782fa003aba504ff397f0"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/root.json"
+hash = "e38042a723a747175c9611f3456bd539c5c53fb01966984fda049bffb10ecc3a"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/safely_harvest_honey.json"
+hash = "31abc9613b73bdd9b02231dc3148e0053df8f5a8e0d62e98cf92dc60fddf0f74"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/silk_touch_nest.json"
+hash = "69eef2d7b8cdb30383dbf25c1e8a329d6519ccb24250210e3a78961c73e62efc"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/tactical_fishing.json"
+hash = "d77e6af13758bcf5a16fc083a24006e28962e5390464ad66525d6f23f2d4e4bd"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/tadpole_in_a_bucket.json"
+hash = "60294d4ddf4b9673a798fb1da3afefc82bb55f82bb0de9fcce9a148aaf27a869"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/tame_an_animal.json"
+hash = "3f21e1c9a0f2593456a30aeb9d55a9be96320bbb1dd3438dcd79aa836a00a504"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/wax_off.json"
+hash = "5fbfdd4fa1cce33779c52967f84bcfbd6a461f28f6085e04ab8b44b39cff0380"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/wax_on.json"
+hash = "0d7f74d5f76869227aadcbbab15e5679bef2bad630fd2afa0491589441a37f1c"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/all_effects.json"
+hash = "bfd67bcf60d033a9f53792bdcf750a18df146213abf9fcb1a6b853f05fc68d5f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/all_potions.json"
+hash = "20a6f15e72b9c109017b7d30f181a1bab18468d074bd0830f8f4d46b80da50f5"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/brew_potion.json"
+hash = "ccf6b0c1be981ce4b7a68876a1ad381899c05f989b385e25844b9c9ff44cbeee"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/charge_respawn_anchor.json"
+hash = "446abb5b197d4d60f86723324cddd20e114f3598964ede02af33c725ce8a3f94"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/create_beacon.json"
+hash = "b057c1c17eca911043f62bcee248fe2337b50478bcf3d266c694c727f27b0d48"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/create_full_beacon.json"
+hash = "fa9d6bad6385fb40ea07ed4679e48ec25596af5d306197b248c7c519532a74be"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/distract_piglin.json"
+hash = "ac97b406e3653f306d9e7e9b51a4116b477b33da3ccac75a42daba4720fc0d99"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/explore_nether.json"
+hash = "5a13d5fa22f1b664f92d58e7d54465c37e26a8982a11308fc926ade31306af03"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/fast_travel.json"
+hash = "e125a9347d2b23c0f9cf68ee3995cf7e0e83ba8b38d3e225fdf0376be58cca39"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/find_bastion.json"
+hash = "c6f47f5f006707975cdd95bea7d60ab7dec6a110c6774c09546b78f622f10b3f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/find_fortress.json"
+hash = "ab7fed7b9d54c416c2a74aef5c74f4d4c352f7fae809b4907bc2d4744867b1e4"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/get_wither_skull.json"
+hash = "df6a82ac15530594e726b7794c1c63e97600c36aac479772f7df9874d4fad19c"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/loot_bastion.json"
+hash = "90c1e97a3b46549d6e111fea571136341cc195312fdd90775307cc40259457f5"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/netherite_armor.json"
+hash = "cf2720d26d77473a6fb317fa81899b8b7671079d54316f606e8477e7aedfbc8f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/obtain_ancient_debris.json"
+hash = "53c108a79f098ea290ca70111e81514296b6f843632d4455aef35c3325d55604"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/obtain_blaze_rod.json"
+hash = "89596e47546d36192621332de0171383aa9bb663028793c7feeb11246dd775bc"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/obtain_crying_obsidian.json"
+hash = "1752e2484657b3585056289cf2b17bbf2dbb7a534e456ec5b6af3d9f70d2c3a7"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/return_to_sender.json"
+hash = "b03e6315b6cd6ef00c64f1237c464f7ff8201a84b6969298b26641fc8d77b089"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/ride_strider.json"
+hash = "083ddf64705dd0374b4c7380ce5551bf361e1aa05682db39f595bcad67c790f7"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/ride_strider_in_overworld_lava.json"
+hash = "bc1c4d2dc2f4833fb982f47c16d48a1ba651017ae7d5ad669ea6dda731deb41f"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/root.json"
+hash = "056e132d9f2f9eca5d96656d2c8826bc23cab590dec79e014040c711a7117424"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/summon_wither.json"
+hash = "d2a1ff379085ff85d105f87023a35a57829318b49747ea65129fa5f3d910d234"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/uneasy_alliance.json"
+hash = "4397479d54a9cb2b823bda3f01b7c329ae1cdea24ee28a7d16ceeae8c788e36e"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/use_lodestone.json"
+hash = "22bb033fa907c75fe0fd21edb53fa767f0075c205696b4e18528c65864c47771"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/cure_zombie_villager.json"
+hash = "7a71ffa0bd6a4ac2fd6ae4f60648c783ff4961b3fd08b546a78b0b55f9d223d5"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/deflect_arrow.json"
+hash = "fa4b7ae70eaad45071ff8336ffdb78785ee38658eed61f32ec487433f70ee6da"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/enchant_item.json"
+hash = "9a8d57149ecc41aed01f483ec416197c9b6e43c104fb269281d4b7907e51e46e"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/enter_the_end.json"
+hash = "9e21ecd9a2d201c164132295261439d2c301075d6a821d3fa559da8d270cf950"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/enter_the_nether.json"
+hash = "3bc48eab7f650050312896e0c99d40d9fb15b4ef0ee206c7548df9be1a0b840c"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/follow_ender_eye.json"
+hash = "e5ca2a75c12859f8c2e98b2a93542de3b503f81adfd896db60e4b7e4f751a59e"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/form_obsidian.json"
+hash = "13581979bd039e5a88d78321243bf50a27366eb706ab150b0da55d87e328061e"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/iron_tools.json"
+hash = "cdd52ecddae18912517a81ef0c10bd64143276b20ffd05d4f01f70ecd0abe85c"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/lava_bucket.json"
+hash = "974ce6f4ee831fb0705188c4e06b757d148b60e4c6fa8040da8bfd2aa474ace8"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/mine_diamond.json"
+hash = "3ba833b89bba55f6c85e01307edee2e2af080d660740c81c770dbaf3aeb6fa17"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/mine_stone.json"
+hash = "bf84fa2f08f2e866e413e15d3e5f68d19b58049cbdc2af72a20b9d5e897deb68"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/obtain_armor.json"
+hash = "cd06ca604e8ea416097b6d23fe1b2a0ecad006a1209000be502a63d1cca3caa4"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/root.json"
+hash = "60ecce2cde83201df7c7a3a65e8b927aa66a92fb580ca8b846598e20fdef189d"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/shiny_gear.json"
+hash = "9720ecc250724548dd651a5bc2ab80954c55b973e272b9f8e355dfdc53bb18ea"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/smelt_iron.json"
+hash = "259aff4265595052ebbd41ac3e5734d876055cbffe786a9a5cde646701c1a1e4"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/upgrade_tools.json"
+hash = "1331a6da14c9283ef684ba8e538fbf12b2d6e9e905dcb7a192cd09e2e52e6fbd"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
@@ -2087,6 +2807,26 @@ hash = "5d679a41ee667b7c99106a000a0cc10180355d23e82b83d9cec53b6fc05b707b"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/spaceship_wreck_main.json"
 hash = "3f1199896eb16802a6f7a9751816f7a5b7eea0a16aa31e843699bce8f5f39612"
+
+[[files]]
+file = "kubejs/data/more_babies/advancements/more_babies/cursed_clock.json"
+hash = "b1fa72b9a0e545d5b5362db1832d1d87a537b0e15c43df595860f74a41c9d9b0"
+
+[[files]]
+file = "kubejs/data/more_babies/advancements/more_babies/cursed_clock_on_a_stick.json"
+hash = "fa083ebc972955afdd9bbcde990ba5e9949b9678e72acdcf6c1b447408321d96"
+
+[[files]]
+file = "kubejs/data/more_babies/advancements/more_babies/cursed_clock_on_a_stick_use.json"
+hash = "b585a0ba92f7326e9aa0a1e165f5c3ff96dbdeb00e2c98c4f410d18635d79ca0"
+
+[[files]]
+file = "kubejs/data/more_babies/advancements/more_babies/out_played.json"
+hash = "4b4952ca6a63765785fae843cf49aa7f0c9c30085a5ddb00abd42f04acd83d71"
+
+[[files]]
+file = "kubejs/data/more_babies/advancements/more_babies/root.json"
+hash = "29170f636decef1a097a0163669a18a7a9971246217eee9df102a11d66b56d6f"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/blob.json"
@@ -2586,7 +3326,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "dc01118bd56dbcbac24c352d9b6dd7d271a595a48995ad0a58284ecd04747e64"
+hash = "9bd9d2fc920c650d69ab7f5a25f9cf7e1fcb4fb1f800cfea65924e91118318a0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3535,6 +4275,10 @@ hash = "8728e7454432872184475505d144acda8d5e5c289b9a0ee2d7572d86e9788d8d"
 [[files]]
 file = "modpack-update-checker/versions/1.175.8/changelog.txt"
 hash = "a0ed5d73c6080b951968ef5e6034a525107c21140b695164227aa1a51cfa3615"
+
+[[files]]
+file = "modpack-update-checker/versions/1.175.9/changelog.txt"
+hash = "96da0da37473c60e097bba1ed9e2fdacd39a36b1af7df4b482f4ac04b839a434"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

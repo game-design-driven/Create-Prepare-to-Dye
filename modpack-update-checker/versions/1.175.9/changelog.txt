@@ -1,0 +1,8 @@
+### [1.175.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.8...1.175.9) (2023-12-20)
+
+
+### Features
+
+* Removed advancements ([#444](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/444)) ([200709d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/200709d6c16bcd9839112f214e4e3106df8597c9))
+
+
