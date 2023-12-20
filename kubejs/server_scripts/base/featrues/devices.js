@@ -86,7 +86,6 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:mechanical_harvester",
     "create:radial_chassis",
     "create:linear_chassis",
-    "create:secondary_linear_chassis",
     "create:mechanical_piston",
     "create:sticky_mechanical_piston",
     "create:weighted_ejector",
