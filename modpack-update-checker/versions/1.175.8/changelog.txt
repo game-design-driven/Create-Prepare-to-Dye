@@ -1,0 +1,9 @@
+### [1.175.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.7...1.175.8) (2023-12-20)
+
+
+### Features
+
+* Switch advancement icon to smart device ([fa9d0cc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa9d0cca86a0461c5b54983cff88d673aa11b53e))
+* Switch advancement icon to smart device ([#443](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/443)) ([4c87759](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4c87759d9479e76b4932c38159a76f2f5171d121))
+
+
