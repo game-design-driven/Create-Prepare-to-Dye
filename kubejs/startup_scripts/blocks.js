@@ -46,6 +46,22 @@ StartupEvents.registry("block", (event) => {
   .textureSide(Direction.UP,"ptdye:block/orange_tube_block_top")
   .textureSide(Direction.DOWN,"ptdye:block/orange_tube_block_top");
 
+  event.create("ptdye:frail_bone_block")
+  .material("stone")
+  .soundType("bone_block")
+  .hardness(0)
+  .resistance(0)
+  .opaque(false)
+  .notSolid()
+  .redstoneConductor(false)
+  .fullBlock(true)
+  .noValidSpawns(true)
+  .textureAll("ptdye:block/frail_bone_block_side")
+  .textureSide(Direction.UP,"ptdye:block/frail_bone_block_top")
+  .textureSide(Direction.DOWN,"ptdye:block/frail_bone_block_top")
+  .noDrops();
+
+
   global.colors.forEach(color=>{
     event.create(`ptdye:${color}_dye_block`)
     .hardness(1)
