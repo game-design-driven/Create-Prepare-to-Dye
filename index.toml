@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c5cc2a9fe29abd704565c6c6091223b317d026e2e806dc141f87ccb69907ee97"
+hash = "7ef2939e48b590cba6310f053451575f89a0bc0fbdf535d793bfae52a635588d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1281,6 +1281,10 @@ file = "kubejs/assets/ptdye/lang/en_us.json"
 hash = "e02d35f2285a2fa64ffd42d6144ad70b00cf0752c58af200e61f2bb24fbb9811"
 
 [[files]]
+file = "kubejs/assets/ptdye/models/block/frail_bone_block.json"
+hash = "2f5aa5f2e3503ab9c920997acef2543deb4fc407f43bb085fe436cfdf6ae6303"
+
+[[files]]
 file = "kubejs/assets/ptdye/models/block/locomotive_device.json"
 hash = "60ce1c7a05daf2e9142221b39deebfb5c2e0691e7f0bd4fbfd1e750829213e1a"
 
@@ -1441,6 +1445,14 @@ file = "kubejs/assets/ptdye/textures/block/dye_blocks/yellow_dye_block.png"
 hash = "ef6c0c5077c1ad16e8bcee6e8c645c42fa9f61acbea3e662765a3ababb737e66"
 
 [[files]]
+file = "kubejs/assets/ptdye/textures/block/frail_bone_block_side.png"
+hash = "9371e9f9d4c3ec5a156c004240ec547873d10e9da02138a047cabb1fc7ccadb4"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/frail_bone_block_top.png"
+hash = "8eaffc5682b9d7303d56d71abd2320641678c0634e08ca095a07b055eb371d1a"
+
+[[files]]
 file = "kubejs/assets/ptdye/textures/block/hosecorner.png"
 hash = "41b9bbf2d18aa85d82199c2edcb374aa957cc18d5caf386352580cc209f5df9a"
 
@@ -1590,7 +1602,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d201f009ad3f6a52b2950dc8f41c3954ee45ef8d1e34a7b9c10af9f033b31d01"
+hash = "271ad15139af7a55e5c8c2927ff113234a626a777baa415f637148f89caa14bc"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1990,23 +2002,23 @@ hash = "cccef32bc8a5bad284752caeb33bb613d9d0f834d19d6a64b2814b23187879b8"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/bigbonedfish.nbt"
-hash = "53ee2d857dbc0f6d801924836c955b7d5058390d879f916deee60d0bfd2e444b"
+hash = "94ed5681b5c04cb55ce8082ddf7c2bf910ec1b7149b9d2446c146d896defc382"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/skull1.nbt"
-hash = "9c7753fc8edb112a98741c7a7a9279b243758bf47b57ea5a25d188328a28ad06"
+hash = "87529780ba64cd013bab83857235cebab1d90385be7d6588e6c9c632e499b93e"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/skull2.nbt"
-hash = "593577db1210f606fee267770cd2a7ed94f8896026e4cc890a82d61fd7b5214c"
+hash = "6b1fc780105253b64283442cc930ec45e83c91c9e80b9fc4d195aba70877ac24"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/skull3.nbt"
-hash = "6facd06f562242f1246d50c07dc2f2be8f25c22f409132809eef6e082a05f29b"
+hash = "688402788c8285131e10904a1710fbf3de275789802888d5444c80ffb30e86d2"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/skull4.nbt"
-hash = "12def739855a93531521354f4cc2efec1ef5cfb14488082f643df119823bf599"
+hash = "e2e66b242917a7bc78ae72b75203eb209f2f537f4f0bb85de1462d828998fa20"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/spaceship_betsy_wreck.nbt"
@@ -2062,7 +2074,7 @@ hash = "7afa1b28a7357ca8ee028441c48c81585404bebbe948595c68258cfe37d17404"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/large_fossils.json"
-hash = "2db018968f46ffee1b1459a52d6d70b648179a2461aab8ed1f5a5a681d24050e"
+hash = "7647b5d1cb81642693e8404eac021dfe2267857152c25dbb3550aea9ddbdfb72"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/nether_fossils.json"
@@ -2230,7 +2242,7 @@ hash = "9fade3508ddbcb604c1ad328f67ce0bab4452ba0b686627d601e98fc17b04874"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "2c2f5dd512180b183cbb1d0bbf34e3c41d7f1af7dd45ba088f3117fe8e0be94c"
+hash = "635bd12ebae3174acca529b450055d98d598093a52ae4d35f4516830d55d975b"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
@@ -2498,7 +2510,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "d362ba84566aadef4447fe92232f31ed48d8f6bb7d7e5dd7ad98e1c04a7114e7"
+hash = "e1c09024726e54aa49b16864cfb1b8ae25a56a59b9bb6f13e84f7af8a149e672"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -2570,7 +2582,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2f7cafadab2cc56bb882eba9b324f9680474c5b49d5671969aee8af88d88c151"
+hash = "3999e252d220ff1fa5839d9d091ce887bf9439a10091770f14b1dd59633b5003"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -3491,6 +3503,18 @@ hash = "984b267ff37b35d2789771ea892b821a42304283d5fadc4d453f3df0a2e84535"
 [[files]]
 file = "modpack-update-checker/versions/1.175.0/changelog.txt"
 hash = "24331a8dff38725828a63e4c9cf52c702e136e32545f3583aefa9f6ceb8170c2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.175.1/changelog.txt"
+hash = "f0d2e213388abb7a1f13f86adf0b887e0803d040b9f0153753939d4776a91540"
+
+[[files]]
+file = "modpack-update-checker/versions/1.175.2/changelog.txt"
+hash = "f6dd510102e950f81c5baf8427677637e069b5f01394b1f30ca27ac545730977"
+
+[[files]]
+file = "modpack-update-checker/versions/1.175.3/changelog.txt"
+hash = "8d9e50dae0734a55f75a8e78e67401db68f4df89d814d49a5ebd6a8c4d0fafba"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
