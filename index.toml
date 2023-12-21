@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "301063174e890678f19fc229e0c051ce8399e7eecd5479d02a7234a2747a19f3"
+hash = "00daea2d58ef7f07a54f08c56cef44f7703206e154e5aba13553510b0c1c9d1f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1610,7 +1610,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "873ac6f0e46fad20de57fd84c9925d392265870d68f6d5b94b02752154bc2d03"
+hash = "e3d184d1f99706849f4dcb939b3a033726577408afdd17ab9f9f159eefe2eb1c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3198,7 +3198,7 @@ hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "5ae00b292f2ba53ea668432f775b9c8dd88009cb2ec54c312220f5b802ecdb33"
+hash = "97a32fa019b4674d35ec832eb8f94d0d3cc2d8ccf3443c5f0ae2af8f3c4e54c5"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -3342,7 +3342,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "9a1ebdc63261ba32bfec4c99608e58b07f603c54c5d7bc000ccaf3614a5412a8"
+hash = "b2519db5029f702bad1ee09019886bc4b68bda028ab3200dda1a04433acfad14"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4327,6 +4327,10 @@ hash = "1ba90a1f652757760605491c3d118b9e007b1c3af3173f07056f639243672c0b"
 [[files]]
 file = "modpack-update-checker/versions/1.176.4/changelog.txt"
 hash = "f92f7655bf7901af9d13e3292c8293be520542acb9867f1eee0ce0761e58afd0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.176.5/changelog.txt"
+hash = "381064add66a651bedac4d154caf54fcd778d71acd222327693e24775519dcf1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
