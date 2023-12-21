@@ -15,6 +15,13 @@ if (feature("Harder casing recipes")) {
       amount: 2
     },
     {
+      item: "furnished_device",
+      base: "#minecraft:wool_carpets",
+      sheet: "#forge:nuggets",
+      material: "#minecraft:planks",
+      amount: 4
+    },
+    {
       item: "sealed_device",
       base: "#forge:stripped_logs",
       sheet: "#forge:plates/copper",
@@ -171,6 +178,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "minecraft:dropper",
     "minecraft:dispenser",
     "minecraft:observer",
+    'supplementaries:relayer',
     "create:basin",
     "createdieselgenerators:basin_lid",
     "create:chute",
@@ -213,6 +221,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "botania:animated_torch",
     "create:pulse_extender",
     "create:powered_latch",
+    'supplementaries:crystal_display'
   ];
   // addToTag("forge:device/redstone", "ptdye:logic_device");
   addStonecutting("ptdye:logic_device","forge:device/redstone")
@@ -443,4 +452,19 @@ if (feature("Remove crafting table recipes for devices")) {
     addStonecutting(device,"ptdye:red_stringed_device");
     addStonecutting(device, "#forge:device/red_string", true);
   });
+
+  let furnishedDevices = ['create:cuckoo_clock', 'minecraft:bookshelf', 'minecraft:note_block', 'minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:oak_button', 'minecraft:composter', 'supplementaries:hanging_sign_oak', 'supplementaries:pulley_block', 'minecraft:barrel', 'minecraft:oak_pressure_plate', 'create:wooden_bracket', 'supplementaries:speaker_block', 'minecraft:painting', 'supplementaries:notice_board', 'supplementaries:bellows', 'minecraft:light_blue_bed', 'minecraft:chest', 'supplementaries:sign_post_oak', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_1', 'minecraft:jukebox', 'create:white_seat', 'minecraft:campfire', 'minecraft:lectern']
+  addToTag("forge:device/furniture", "ptdye:furnished_device");
+  addToTag("forge:device/furniture", furnishedDevices);
+  addShapeless("ptdye:furnished_device", "#forge:device/furniture");
+  addCrushing("ptdye:furnished_device", "#forge:device/furniture");
+  furnishedDevices.forEach((device) => {
+    removeAllRecipesForItem(device);
+    addStonecutting(device,"ptdye:furnished_device");
+    addStonecutting(device, "#forge:device/furniture", true);
+  });
+
+  ServerEvents.blockLootTables(event=>{
+    event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
+  })
 }

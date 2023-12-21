@@ -6,10 +6,10 @@ if (feature('overgrowth_seed recipes')) {
 
 if (feature('Remove elementium')) {
     removeRecipe({ id: 'botania:elven_trade/elementium' })
-    addToTag('botania:elementium_ingots', 'botania:terrasteel_ingot')
-    removeAndReplace('botania:elementium_ingot', 'botania:terrasteel_ingot')
+    addToTag('botania:elementium_ingots', '#botania:terrasteel_ingots')
+    removeAndReplace('botania:elementium_ingot', '#botania:terrasteel_ingots')
     removeRecipe({ output: 'botania:elementium_ingot' })
-    addElvenTrade('botania:terrasteel_ingot', ['2x botania:manasteel_ingot', 'bread'])
+    addElvenTrade('#botania:terrasteel_ingots', ['2x botania:manasteel_ingot', 'bread'])
     removeRecipe({ id: 'botania:elven_trade/elementium_block' })
     removeItem('botania:elementium_block')
     removeItem('botania:elementium_nugget')
@@ -29,7 +29,7 @@ if (feature('Remove elementium')) {
     addItemApplication('botania:gaia_pylon', 'botania:mana_pylon', 'botania:pixie_dust')
     //adding here temp
     removeRecipe({ id: 'botania:natura_pylon' })
-    addItemApplication('botania:natura_pylon', 'botania:mana_pylon', 'botania:terrasteel_ingot')
+    addItemApplication('botania:natura_pylon', 'botania:mana_pylon', '#botania:terrasteel_ingots')
     removeRecipe({ id: 'botania:conversions/elementium_from_nuggets' })
     removeRecipe({ id: 'botania:conversions/elementium_block_deconstruct' })
 }

@@ -30,7 +30,17 @@ StartupEvents.registry("item", (event) => {
 
     event.create("ptdye:orange_tubes");
 
+    event.create("minecraft:iron_disk").tag("ptdye:disks/iron").displayName("White Disk");
+
+    ["manasteel","terrasteel"].forEach(material=>{
+      event.create(`botania:${material}_sheet`).tag(`forge:plates/${material}`);
+      event.create(`botania:raw_${material}`).tag(`forge:raw_materials/${material}`)
+      event.create(`botania:${material}_disk`).tag(`ptdye:disks/${material}`)
+      event.create(`botania:${material}_powder`).tag(`forge:dusts/${material}`)
+    })
+
     event.create("ptdye:incomplete_sturdy_device", 'create:sequenced_assembly');
+    event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_mechanical_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_sealed_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_smart_device", 'create:sequenced_assembly');
@@ -106,10 +116,14 @@ StartupEvents.registry("block", (event) => {
     .material("metal")
     .soundType("metal");
     
-
   device("ptdye:mechanical_device")
     .material("metal")
     .soundType("wood");
+
+  device("ptdye:furnished_device")
+    .material("wood")
+    .soundType("wood")
+    .box(0, 0, 0, 16, 12, 16);
 
   device("ptdye:locomotive_device")
     .material("metal")

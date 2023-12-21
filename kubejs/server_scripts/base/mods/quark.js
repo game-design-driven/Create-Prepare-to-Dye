@@ -119,3 +119,12 @@ if (feature('Nerf bambo to planks recipe')) {
     addShapeless('quark:bamboo_planks', 'quark:bamboo_block')
     addCutting('quark:bamboo_planks', 'quark:bamboo_block')
 }
+
+if (feature('Simplify Crystal Lamps')) {
+  let lamps = [ 'quark:red_crystal_lamp', 'quark:orange_crystal_lamp', 'quark:yellow_crystal_lamp', 'quark:green_crystal_lamp', 'quark:blue_crystal_lamp', 'quark:indigo_crystal_lamp', 'quark:violet_crystal_lamp', 'quark:white_crystal_lamp', 'quark:black_crystal_lamp']
+  let dyes = [ 'minecraft:red_dye', 'minecraft:orange_dye', 'minecraft:yellow_dye', 'minecraft:lime_dye', 'minecraft:light_blue_dye', 'minecraft:blue_dye', 'minecraft:pink_dye', 'minecraft:white_dye', 'minecraft:black_dye']
+  for(let l = 0; l < lamps.length; l++){
+    removeAllRecipesForItem(lamps)
+    addShapeless(lamps[l],[dyes[l],'#forge:glass/colorless','#forge:dusts/redstone'])
+  }
+}

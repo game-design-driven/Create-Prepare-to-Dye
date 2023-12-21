@@ -101,7 +101,7 @@ if (feature('Sticky pistons using bottle of honey')) {
 }
 
 if (feature('slime from honey and terrasteel')) {
-    addItemApplication('slime_block', 'honey_block', 'botania:terrasteel_ingot')
+    addItemApplication('slime_block', 'honey_block', '#botania:terrasteel_ingots')
     addCompacting('slime_block', '12x botania:terrasteel_nugget', temperature.none, undefined, undefined, '750x create:honey')
 }
 
