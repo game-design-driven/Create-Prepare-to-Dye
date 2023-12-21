@@ -1,8 +1,8 @@
 {
-    "advancement.ptdye.root": "Prepare To Dye!",
+    "advancement.ptdye.root": "Prepare to Dye",
     "advancement.ptdye.root.desc": "Crash land on Chroma Prime",
     "advancement.ptdye.toolbox": "In case of Crash Landing",
-    "advancement.ptdye.toolbox.desc": "Do you hear an alarm? Find the Purple Toolbox in the wreckage",
+    "advancement.ptdye.toolbox.desc": "Is that an alarm?",
     "advancement.ptdye.daisy": "Critical Purification",
     "advancement.ptdye.daisy.desc": "Did the Pure Daisy survive the crash?!",
     "advancement.ptdye.white_powder": "Pure Milk",
@@ -27,8 +27,10 @@
     "advancement.ptdye.grass_block.desc": "Get a Grass Block",
     "advancement.ptdye.bread": "Calories, Such a Dumb Dependency",
     "advancement.ptdye.bread.desc": "Make Bread",
-    "advancement.ptdye.trade": "Time To Trade",
-    "advancement.ptdye.trade.desc": "Who needs quest books when you can trade!",
+    "advancement.ptdye.trade": "Into the Mesh",
+    "advancement.ptdye.trade.desc": "Receive an intergalactic trade offer through the Mesh",
+    "advancement.ptdye.milk": "Automatic Milk",
+    "advancement.ptdye.milk.desc": "Setup automated milk production",
 
     "item.ptdye.hammer": "Hammer",
     "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
