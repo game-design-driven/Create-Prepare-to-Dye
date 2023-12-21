@@ -153,12 +153,12 @@
 			"key": "block.ptdye.sealed_device.tooltip.summary"
 		},
 		{
-			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_logic_device"
-		},
-		{
 			"namespace": "kubejs",
 			"key": "block.kubejs.organic_mass"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_logic_device"
 		},
 		{
 			"namespace": "minecraft",
@@ -239,6 +239,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.stripped_jungle_wood.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.frail_bone_block"
 		},
 		{
 			"namespace": "kubejs",

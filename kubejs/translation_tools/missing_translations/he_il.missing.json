@@ -371,7 +371,7 @@
 	},
 	"ponder": null,
 	"sdrp": {
-		"sdrp.logo": "Hanging out with Betsy on version 1.175.3",
+		"sdrp.logo": "Hanging out with Betsy on version 1.175.11",
 		"sdrp.mainmenu": "Main Menu",
 		"sdrp.overworld.in": "On Chroma Prime",
 		"sdrp.overworld": "Chroma Prime"
@@ -873,10 +873,10 @@
 		"advancement.ptdye.raw_white.desc": "Make Raw White",
 		"advancement.ptdye.white_ingot": "Pressed into a White Ingot!",
 		"advancement.ptdye.white_ingot.desc": "Press Raw White into a White Ingot",
-		"advancement.ptdye.sturdy_device": "Automate Sturdy Devices",
-		"advancement.ptdye.sturdy_device.desc": "Automate creating Sturdy Devices",
 		"advancement.ptdye.white_sheet": "Pressed into a White Sheet!",
 		"advancement.ptdye.white_sheet.desc": "Press a White Ingot into a White Sheet",
+		"advancement.ptdye.sturdy_device": "Automate Sturdy Devices",
+		"advancement.ptdye.sturdy_device.desc": "Automate creating Sturdy Devices",
 		"advancement.ptdye.blob": "Aren't Some Moons Made of This?",
 		"advancement.ptdye.blob.desc": "Make Fermented Blobs",
 		"advancement.ptdye.soap": "You Make Some, You Buy Some",
@@ -889,6 +889,8 @@
 		"advancement.ptdye.grass_block.desc": "Get a Grass Block",
 		"advancement.ptdye.bread": "Calories, Such a Dumb Dependency",
 		"advancement.ptdye.bread.desc": "Make Bread",
+		"advancement.ptdye.trade": "Time To Trade",
+		"advancement.ptdye.trade.desc": "Who needs quest books when you can trade!",
 		"item.ptdye.hammer": "Hammer",
 		"item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
 		"ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"

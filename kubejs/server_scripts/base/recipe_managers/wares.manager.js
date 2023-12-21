@@ -132,12 +132,21 @@ function tradeBranch(outputTrades, inputTrades) {
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => trade.completedItem.weakNBT())
     );
+    let noIdHiddenRecipe = e.recipes.create.mixing(
+      outputTrades.map((trade) => trade.item),
+      inputTrades.map((trade) => {
+        let item = Item.of(trade.completedItem).copy();
+        if (item.nbt) item.nbt.remove("id")
+        return item.weakNBT();
+      })
+    );
     let hiddenUniversalRecipe = e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
     );
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
+    // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
   });
 }
 
