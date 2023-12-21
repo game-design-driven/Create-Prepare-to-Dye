@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:blob",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["minecraft:oak_log"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "minecraft:oak_log"
+      },
+      "title": { "translate": "advancement.ptdye.logs", "color": "white" },
+      "description": { "translate": "advancement.ptdye.logs.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

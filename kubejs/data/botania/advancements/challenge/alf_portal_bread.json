@@ -1,0 +1,14 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "bread": {
+      "conditions": {},
+      "trigger": "botania:alf_portal_bread"
+    }
+  },
+  "requirements": [
+    [
+      "bread"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "guardian": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "botania:doppleganger",
+              "nbt": "{hardMode:1b}"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "guardian"
+    ]
+  ]
+}

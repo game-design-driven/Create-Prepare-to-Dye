@@ -1,0 +1,14 @@
+{
+  "parent": "botania:main/terrasteel_pickup",
+  "criteria": {
+    "portal": {
+      "conditions": {},
+      "trigger": "botania:open_elf_portal"
+    }
+  },
+  "requirements": [
+    [
+      "portal"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "traded": {
+      "conditions": {},
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ]
+}

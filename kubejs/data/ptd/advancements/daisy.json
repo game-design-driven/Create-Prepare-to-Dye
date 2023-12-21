@@ -1,5 +1,5 @@
 {
-    "parent": "ptd:root",
+    "parent": "ptd:milk",
     "criteria": {
           "0": {
               "trigger": "minecraft:inventory_changed",
@@ -14,8 +14,8 @@
         "icon": {
             "item": "botania:floating_pure_daisy"
         },
-        "title": { "translate": "advancement.ptdye.pure_daisy", "color": "aqua" },
-        "description": { "translate": "advancement.ptdye.pure_daisy.desc", "color": "grey" },
+        "title": { "translate": "advancement.ptdye.daisy", "color": "white" },
+        "description": { "translate": "advancement.ptdye.daisy.desc", "color": "grey" },
         "frame": "task",
         "hidden": false,
         "show_toast": true,

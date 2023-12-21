@@ -22,7 +22,7 @@ if (feature("Mechanical belt recipes")) {
   //kelp
   removeRecipe({ id: "create:crafting/kinetics/belt_connector" });
   addShaped("2x create:belt_connector", ["lll", "lll"], {
-    l: 'minecraft:dried_kelp',
+    l: "minecraft:dried_kelp",
   });
   //leather
   addShaped("2x create:belt_connector", ["lll", "lll"], {
@@ -92,16 +92,6 @@ if (feature("Cogs")) {
   addShapeless("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:large_cogwheel", "create:cogwheel");
-  addItemApplication(
-    "create:large_cogwheel",
-    "create:cogwheel",
-    "#forge:tools/axes"
-  );
-  addItemApplication(
-    "create:cogwheel",
-    "create:large_cogwheel",
-    "#forge:tools/axes"
-  );
 }
 
 if (feature("Application recipes")) {
@@ -253,14 +243,28 @@ if (feature("Crushing wheel in regular crafting")) {
   }
 }
 
-if (feature('nerf bonemeal from calcite')){
-  removeRecipe({id:'create:milling/calcite'})
-  addMilling(['bone_meal 40%'], 'minecraft:calcite')
-  addCrushing(['bone_meal 20%', 'cobblestone 20%', 'quartz %5'], 'minecraft:calcite')
+if (feature("nerf bonemeal from calcite")) {
+  removeRecipe({ id: "create:milling/calcite" });
+  addMilling(["bone_meal 40%"], "minecraft:calcite");
+  addCrushing(
+    ["bone_meal 20%", "cobblestone 20%", "quartz %5"],
+    "minecraft:calcite"
+  );
 }
 
-if (feature('Recycle wrench')) {
-  addCrushing('create:cogwheel %75', 'create:wrench')
+
+if (feature("piston pole and gantry shaft recipes")) {
+  addShaped("8x create:piston_extension_pole", ["i", "s", "i"], {
+    s: "stick",
+    i: "#forge:nuggets/iron",
+  });
+  replaceShaped("8x create:gantry_shaft", ["i", "s", "i"], {
+    s: "redstone",
+    i: "#forge:ingots/iron",
+  });
+}
+if (feature("Remove old cogwheel recipe")) {
+  removeRecipe({ id: "create:deploying/large_cogwheel" });
 }
 
 if (feature('piston pole and gantry shaft recipes')) {
@@ -277,7 +281,7 @@ if (feature('Remove old cogwheel recipe')) {
   removeRecipe({id: 'create:deploying/large_cogwheel'})
 }
 
-if(feature('White ingot from raw white ') && !feature('No More Ingots') ){
+if(feature('White ingot from raw white') && !feature('No More Ingots') ){
   addPressing('iron_ingot', ['raw_iron'])
   addPressing('gold_ingot', ['raw_gold'])
   addPressing('copper_ingot', ['raw_copper'])
@@ -287,9 +291,15 @@ if(feature('White ingot from raw white ') && !feature('No More Ingots') ){
 //     BlockEvents.rightClicked('cauldron')
 // }
 
-if (feature('Metal gridder no gray ingot')) {
-  replaceShaped('32x create:metal_girder', ['ppp','pdp'],{
+if (feature("Metal gridder no gray ingot")) {
+  replaceShaped("32x create:metal_girder", ["ppp", "pdp"], {
     p: "#forge:plates/iron",
-    d: "#forge:dyes/black"
-  })
+    d: "#forge:dyes/black",
+  });
+}
+
+if (feature("Blaze is capturable")) {
+  ServerEvents.tags("entity_type", (event) => {
+    event.add("create:blaze_burner_capturable", ["more_babies:blaze"]);
+  });
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/shoot_arrow",
+  "criteria": {
+    "killed_skeleton": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton",
+              "distance": {
+                "horizontal": {
+                  "min": 50.0
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "is_projectile": true
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_skeleton"
+    ]
+  ]
+}

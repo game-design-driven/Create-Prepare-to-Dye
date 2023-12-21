@@ -1,0 +1,20 @@
+{
+  "parent": "botania:challenge/gaia_guardian_hardmode",
+  "criteria": {
+    "eye": {
+      "conditions": {
+        "relic": {
+          "items": [
+            "botania:flugel_eye"
+          ]
+        }
+      },
+      "trigger": "botania:relic_bind"
+    }
+  },
+  "requirements": [
+    [
+      "eye"
+    ]
+  ]
+}

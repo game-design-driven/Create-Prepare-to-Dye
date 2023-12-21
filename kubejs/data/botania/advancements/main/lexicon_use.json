@@ -1,0 +1,20 @@
+{
+  "parent": "botania:main/root",
+  "criteria": {
+    "use_lexicon": {
+      "conditions": {
+        "item": {
+          "items": [
+            "botania:lexicon"
+          ]
+        }
+      },
+      "trigger": "botania:use_item_success"
+    }
+  },
+  "requirements": [
+    [
+      "use_lexicon"
+    ]
+  ]
+}

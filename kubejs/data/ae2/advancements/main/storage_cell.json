@@ -1,0 +1,74 @@
+{
+  "parent": "ae2:main/controller",
+  "criteria": {
+    "c16k": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:item_storage_cell_16k"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "c1k": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:item_storage_cell_1k"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "c256k": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:item_storage_cell_256k"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "c4k": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:item_storage_cell_4k"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "c64k": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:item_storage_cell_64k"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "c1k",
+      "c4k",
+      "c16k",
+      "c64k",
+      "c256k"
+    ]
+  ]
+}

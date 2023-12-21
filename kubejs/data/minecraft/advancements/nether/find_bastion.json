@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "bastion": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:bastion_remnant"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "bastion"
+    ]
+  ]
+}

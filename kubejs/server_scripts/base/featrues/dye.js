@@ -4,7 +4,7 @@ if (feature('Dye crafting')) {
     removeRecipe({ id: 'charm:extra_recipes/cyan_dye' })
     addInfusion('cyan_dye', 'warped_roots')
     
-    addShapeless('gray_dye', 'gunpowder', 'white_dye')
+    addShapeless('gray_dye', ['gunpowder', 'white_dye'])
     addInfusion('gray_dye', 'gunpowder')
 
     addElvenTrade('4x yellow_dye', ['glowstone_dust', 'bread'])

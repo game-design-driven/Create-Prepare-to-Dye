@@ -1,0 +1,13 @@
+### [1.169.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.169.0...1.169.1) (2023-12-18)
+
+
+### Fixes
+
+* infusion recipe input check ([9fefccf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9fefccfd05469fb5f8b29918443cc76dbeb2b7be))
+
+
+### Minor tweaks
+
+* buff white ladder recipe ([c991e05](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c991e05efa69fd4f29622a970d42ada1908a0c52))
+
+

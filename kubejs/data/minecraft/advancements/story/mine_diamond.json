@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "diamond"
+    ]
+  ]
+}

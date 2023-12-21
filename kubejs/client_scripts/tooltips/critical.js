@@ -67,3 +67,30 @@ addTooltip([
   'golden_sword',
   'golden_hoe'
 ], 'Yellow tools are always outfitted with _Fortune_, widely used in production lines and slave mines')
+
+addTooltip([
+  'oak_wood',
+  'spruce_wood',
+  'birch_wood',
+  'jungle_wood',
+  'acacia_wood',
+  'dark_oak_wood',
+  'crimson_hyphae',
+  'warped_hyphae',
+  'stripped_oak_wood',
+  'stripped_spruce_wood',
+  'stripped_birch_wood',
+  'stripped_jungle_wood',
+  'stripped_acacia_wood',
+  'stripped_dark_oak_wood',
+  'stripped_crimson_hyphae',
+  'stripped_warped_hyphae',
+  'oak_log',
+  'spruce_log',
+  'birch_log',
+  'jungle_log',
+  'acacia_log',
+  'dark_oak_log',
+  'crimson_stem',
+  'warped_stem',
+], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees. _Expect to pay highly to get yours_, that, or... Maybe there is another way too?')

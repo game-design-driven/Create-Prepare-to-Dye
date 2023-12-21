@@ -1,0 +1,8 @@
+## [1.176.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.13...1.176.0) (2023-12-21)
+
+
+### Features
+
+* disable saplings. They were not gettable anyway, but were confusing players and causing them to think for a second this is minecraft ([44ca492](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/44ca492e60b6e53acd2a764219f7d35e80d0ec05))
+
+

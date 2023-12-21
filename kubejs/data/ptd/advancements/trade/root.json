@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:root",
+   "criteria": {
+      "0": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [ {
+                  "items": [ "wares:delivery_agreement" ]
+              } ]
+          }
+     }
+  },
+  "display": {
+      "icon": {
+          "item": "wares:delivery_agreement"
+      },
+      "title": { "translate": "advancement.ptdye.trade", "color": "white" },
+      "description": { "translate": "advancement.ptdye.trade.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [
+      "0"
+  ] ]
+}
