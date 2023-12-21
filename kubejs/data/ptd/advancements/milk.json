@@ -9,7 +9,7 @@
   },
   "display": {
       "icon": {
-          "item": "minecraft:milk_bucket"
+          "item": "create:deployer"
       },
       "title": { "translate": "advancement.ptdye.milk", "color": "white" },
       "description": { "translate": "advancement.ptdye.milk.desc", "color": "grey" },
