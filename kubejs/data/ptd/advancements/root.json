@@ -9,13 +9,13 @@
         "icon": {
             "item": "ptdye:smart_device"
         },
-        "title": { "translate": "advancement.ptdye.root", "color": "aqua", "bold": true },
+        "title": { "translate": "advancement.ptdye.root"},
         "description": { "translate": "advancement.ptdye.root.desc", "color": "grey" },
         "frame": "challenge",
         "hidden": false,
         "show_toast": true,
         "announce_to_chat": true,
-        "background": "minecraft:textures/block/barrel_side.png"
+        "background": "minecraft:textures/block/light_gray_concrete_powder.png"
     },
     "requirements": [ [ 
         "0"
