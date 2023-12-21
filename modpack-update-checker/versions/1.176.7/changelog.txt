@@ -1,0 +1,8 @@
+### [1.176.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.6...1.176.7) (2023-12-21)
+
+
+### Fixes
+
+* reload was mad slowed down. it's good now ([#447](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/447)) ([d70aae6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d70aae60989112d1bcffb9e08dad8244c0e134f6))
+
+
