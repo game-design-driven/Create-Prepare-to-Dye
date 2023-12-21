@@ -2,12 +2,10 @@
 ServerEvents.recipes(event => {
   modpackRecipes.forEach(recipe => {
     removeAirFromRecipe(recipe)
-    if (hasRemovedItems(recipe)==true) {
-          
-    } else {
+    if (!hasRemovedItems(recipe)) {
         let r = event.custom(recipe)
         r.id = getUniqueRecipeName(r)
-        if (recipe.hidden==true) {
+        if (recipe.hidden) {
             r.id = r.id+"/hidden"
         }
     }
@@ -38,8 +36,6 @@ return map
 
 function hasRemovedItems(recipe) {
   if(!lazy_removedRecipesMap) lazy_removedRecipesMap = createRemovedRecipeMap(global.itemsToRemove);
-
-  let r = false;
   if (Array.isArray(recipe.ingredients)) {
       for(let ingredient of recipe.ingredients) {
           if (lazy_removedRecipesMap[ingredient]) {
@@ -53,5 +49,5 @@ function hasRemovedItems(recipe) {
           return true
       }
   }
-  return r
+  return false
 }
