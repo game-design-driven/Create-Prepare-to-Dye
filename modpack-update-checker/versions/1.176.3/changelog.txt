@@ -1,0 +1,9 @@
+### [1.176.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.2...1.176.3) (2023-12-21)
+
+
+### Documentation and Localization
+
+* do not announce_to_chat when crash landing on chroma prime ([761573a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/761573a41de80970ce27b0e2aaa1a37ec31b60ec))
+* rename initial advancment from prepare to dye to welcome to chroma prime ([c7160da](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c7160da5f69e082db8290d768830f50ca0470954))
+
+
