@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b8be6d53eb84d243ce215220425c5d47e4159d694fc3ab96e92c5079dedb007a"
+hash = "301063174e890678f19fc229e0c051ce8399e7eecd5479d02a7234a2747a19f3"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -698,7 +698,7 @@ hash = "d7ca2e67e9917f761aa7181123ea58065832b262b692499ddd2ae51483d31211"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
-hash = "acd9d7c5a447982ece4b4f12174887fcd1e9e6c16bc888933cadd6dbc95aaea6"
+hash = "721e5d5d3b553c05312776fb710cd4e43acd3562e6696388c47fcca2b4bfd450"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
@@ -1286,7 +1286,7 @@ hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "846c4fbb5948489097c4a4f821948625310b308006b34b05ab9cf6a4c8bab69d"
+hash = "92dca309d53e3beeb46e5e7aff718c0e53ca1eb12a622f9843ec50ebaef09dbd"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/frail_bone_block.json"
@@ -1610,7 +1610,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "bac96fdd3179f14362ed5dc1aa520b9830503b770b9b0fc996e94f2da8e38e93"
+hash = "873ac6f0e46fad20de57fd84c9925d392265870d68f6d5b94b02752154bc2d03"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3142,7 +3142,7 @@ hash = "c94844b377b697880ab2d118700a3f262b91782bc5353d9f80ba3ffa7dc22e97"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "683e62019c3603b244a7a07974590a8ef81047811ecb932ef3a2e923002c404e"
+hash = "4a93d9b4c1d42f04cfa8e0cc484cb4129f9f2969782243a912c76e3abd3ba022"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -3342,7 +3342,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2db739a0d478f9429f00fd4035a2314c3395da29be071c5727697fa31fbf9319"
+hash = "9a1ebdc63261ba32bfec4c99608e58b07f603c54c5d7bc000ccaf3614a5412a8"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4323,6 +4323,10 @@ hash = "8578f4c7fb3aa4b928e44488e633140e49897b1d3f33ddbd25c195236d4cc82a"
 [[files]]
 file = "modpack-update-checker/versions/1.176.3/changelog.txt"
 hash = "1ba90a1f652757760605491c3d118b9e007b1c3af3173f07056f639243672c0b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.176.4/changelog.txt"
+hash = "f92f7655bf7901af9d13e3292c8293be520542acb9867f1eee0ce0761e58afd0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

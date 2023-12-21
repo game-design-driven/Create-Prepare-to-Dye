@@ -1,0 +1,13 @@
+### [1.176.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.3...1.176.4) (2023-12-21)
+
+
+### Documentation and Localization
+
+* Fix bread advancement title cutting off ([79e4322](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/79e43225f3e17ba346b3131200754f57b9bba1e7))
+
+
+### Minor tweaks
+
+* change recipe order of deployer recipes so that they appear before other less critical recipe categories. ([c11ef1e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c11ef1e0bc4dca786d20a1349a504437d8add439))
+
+
