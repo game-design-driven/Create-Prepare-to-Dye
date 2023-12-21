@@ -97,8 +97,20 @@
 			"key": "item.ptdye.incomplete_mechanical_device"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.cyan_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.birch_log.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.orange_tubes"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.green_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -139,6 +151,10 @@
 		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.incomplete_locomotive_device"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -253,6 +269,18 @@
 			"key": "block.minecraft.warped_hyphae.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.orange_tube_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.white_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.pink_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.copper_ore.tooltip.summary"
 		},
@@ -267,6 +295,10 @@
 		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.logic_device"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.blue_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -345,6 +377,22 @@
 			"key": "item.ptdye.incomplete_sealed_device"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_blue_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.magenta_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.light_gray_dye_block"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.brown_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.ptdye.trading_transceiver.tooltip.summary"
 		},
@@ -417,6 +465,10 @@
 			"key": "block.storagedrawers.oak_full_drawers_1.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.gray_dye_block"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.white_concrete_powder.tooltip.summary"
 		},
@@ -443,6 +495,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.golden_hoe.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.purple_dye_block"
 		},
 		{
 			"namespace": "ptdye",
@@ -475,6 +531,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.minecraft.warped_stem.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.black_dye_block"
 		},
 		{
 			"namespace": "minecraft",
