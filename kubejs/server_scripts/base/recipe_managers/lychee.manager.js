@@ -64,14 +64,17 @@ function addBlockExplode(block_out, block_in) {
 }
 const advancementRadius = 50
 function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
-    let post = [{
+    let post = [
+        {
+            type: "place",
+            block: 'air'
+        },
+        {
         type: 'drop_item',
         item: item_out,
     },
-    {
-        type: "place",
-        block: 'air'
-    },]
+
+]
     if (advancement != null) {
         post[2] = {
             type: 'execute',
