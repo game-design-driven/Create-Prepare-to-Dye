@@ -1,0 +1,8 @@
+### [1.176.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.4...1.176.5) (2023-12-21)
+
+
+### Minor tweaks
+
+* reorder action order for block interaction recipes like dyeing powder. This should make them more consistant to farm. Still, don't use chutes, they are not full blocks. Use hoppers instead ([4c8c1f2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4c8c1f2081bb2a7de194acadd7ab029495be432c))
+
+
