@@ -20,11 +20,13 @@ if (feature('Gold is 4 nuggets')) {
 if(feature('No More Ingots')){
 
   //this went over relatively smoothly
-  removeAndReplace("minecraft:iron_ingot","create:iron_sheet");
-  removeAndReplace("#forge:ingots/iron","create:iron_sheet");
+  replaceInputForRecipes("minecraft:iron_ingot","create:iron_sheet");
+  replaceInputForRecipes("#forge:ingots/iron","create:iron_sheet");
 
   removeRecipe({id: "create:pressing/iron_ingot"})
   addPressing("create:iron_sheet","minecraft:raw_iron");
+  addPressing("create:iron_sheet","minecraft:iron_ingot");
+  
   addShapeless("create:iron_sheet",["9x #forge:nuggets/iron"])
   
   //addToTag("forge:ingots/copper","ptdye:orange_tubes");
