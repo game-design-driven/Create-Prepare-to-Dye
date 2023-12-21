@@ -1,0 +1,23 @@
+{
+  "parent": "botania:main/terrasteel_pickup",
+  "criteria": {
+    "terrablade": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:terra_sword",
+              "botania:thorn_chakram"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "terrablade"
+    ]
+  ]
+}

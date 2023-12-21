@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "struck_villager": {
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager"
+              }
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:channeled_lightning"
+    }
+  },
+  "requirements": [
+    [
+      "struck_villager"
+    ]
+  ]
+}

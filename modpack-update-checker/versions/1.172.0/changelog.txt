@@ -1,0 +1,8 @@
+## [1.172.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.171.1...1.172.0) (2023-12-19)
+
+
+### Features
+
+* Expand server readme with portforwarding and alternatives([#427](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/427)) ([573e2ff](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/573e2ffceaad7f0eb69af227161dd0fec816fea4))
+
+

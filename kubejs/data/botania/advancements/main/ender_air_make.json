@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/elf_portal_open",
+  "criteria": {
+    "air": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:ender_air_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "air"
+    ]
+  ]
+}

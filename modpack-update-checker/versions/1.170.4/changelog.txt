@@ -1,0 +1,8 @@
+### [1.170.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.170.3...1.170.4) (2023-12-18)
+
+
+### Fixes
+
+* spout filling logs ([c82dbe0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c82dbe016b858da8d7ec53ccb0e4c8bbc217094d))
+
+

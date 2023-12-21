@@ -1,0 +1,8 @@
+### [1.175.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.6...1.175.7) (2023-12-20)
+
+
+### Fixes
+
+* advancments errors ([#442](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/442)) ([3f35a3d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3f35a3d718965a0703fc45c08becc9b24f70f848))
+
+

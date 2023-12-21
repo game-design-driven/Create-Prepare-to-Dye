@@ -1,0 +1,121 @@
+{
+  "parent": "botania:main/gaia_guardian_kill",
+  "criteria": {
+    "tiara_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:1}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:2}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:3}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:4}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:5}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:6}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:7}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tiara_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:flight_tiara"
+            ],
+            "nbt": "{variant:8}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "tiara_1",
+      "tiara_2",
+      "tiara_3",
+      "tiara_4",
+      "tiara_5",
+      "tiara_6",
+      "tiara_7",
+      "tiara_8"
+    ]
+  ]
+}

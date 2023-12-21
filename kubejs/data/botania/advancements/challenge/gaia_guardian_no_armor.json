@@ -1,0 +1,14 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "no_armor": {
+      "conditions": {},
+      "trigger": "botania:gaia_guardian_no_armor"
+    }
+  },
+  "requirements": [
+    [
+      "no_armor"
+    ]
+  ]
+}

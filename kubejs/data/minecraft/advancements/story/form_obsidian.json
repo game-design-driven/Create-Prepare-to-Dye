@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/lava_bucket",
+  "criteria": {
+    "obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "obsidian"
+    ]
+  ]
+}

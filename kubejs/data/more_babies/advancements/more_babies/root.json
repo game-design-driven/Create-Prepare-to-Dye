@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "player_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#more_babies:babies"
+        }
+      }
+    },
+    "player_killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#more_babies:babies"
+        }
+      }
+    },
+    "player_interacted_with_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "#more_babies:babies"
+        }
+      }
+    },
+    "entity_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#more_babies:babies"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "player_hurt_entity",
+      "player_killed_entity",
+      "player_interacted_with_entity",
+      "entity_hurt_player"
+    ]
+  ]
+}

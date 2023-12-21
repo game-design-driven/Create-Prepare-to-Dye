@@ -18,4 +18,16 @@ if (feature("Remove all uneeded things from storage drawers")) {
       removeItem(item);
     }
   });
+
+}
+
+if (feature('Drawer from any wood')) {
+  removeRecipe({id: 'storagedrawers:oak_full_drawers_1'})
+  addShaped('2x storagedrawers:oak_full_drawers_1', [
+    'AC',
+    'CA',
+  ], {
+    A: '#minecraft:planks',
+    C: 'minecraft:chest'
+  })
 }

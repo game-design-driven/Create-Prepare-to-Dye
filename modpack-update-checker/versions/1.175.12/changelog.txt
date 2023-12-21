@@ -1,0 +1,8 @@
+### [1.175.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.11...1.175.12) (2023-12-21)
+
+
+### Fixes
+
+* agreements not showing in EMI index ([457df7f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/457df7f52a45f61e1c96b8e529ad823421e101d5))
+
+

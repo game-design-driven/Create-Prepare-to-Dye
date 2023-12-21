@@ -1,0 +1,13 @@
+### [1.176.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.5...1.176.6) (2023-12-21)
+
+
+### Minor tweaks
+
+* remove fading for waypoint view distance ([32e6398](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/32e6398d62d83effa3c82e46ec331faa9bc51614))
+
+
+### Developer experance improvments and changes
+
+* add compiled trade advancements ([669c3a5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/669c3a50ffdeb717c3123c75e8bd967afeec33ae))
+
+

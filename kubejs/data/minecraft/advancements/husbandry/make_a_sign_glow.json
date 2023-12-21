@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "make_a_sign_glow": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_ink_sac"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:signs"
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "requirements": [
+    [
+      "make_a_sign_glow"
+    ]
+  ]
+}

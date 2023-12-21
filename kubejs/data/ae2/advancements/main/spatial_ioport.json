@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/ioport",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:spatial_io_port"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ]
+}

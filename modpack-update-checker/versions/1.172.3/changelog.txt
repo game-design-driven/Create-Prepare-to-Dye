@@ -1,0 +1,18 @@
+### [1.172.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.172.2...1.172.3) (2023-12-19)
+
+
+### Minor tweaks
+
+* remove chicken grabbing with quark ([3d95329](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3d95329a7a3974fdb015bc078598ac1f88026a24))
+
+
+### Developer experance improvments and changes
+
+* add hidden stonecuttong support for future ux additions ([dad1d36](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dad1d36813fb828f7a2139cc7aaeb3e65cbfce08))
+
+
+### Fixes
+
+* shapless to manapool recipe generation ([b082ef4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b082ef455034e1a429888fdcf9ba55db0dbd43e5))
+
+

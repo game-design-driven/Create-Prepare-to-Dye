@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/elf_portal_open",
+  "criteria": {
+    "kekimurus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:kekimurus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kekimurus"
+    ]
+  ]
+}

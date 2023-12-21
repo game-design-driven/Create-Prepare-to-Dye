@@ -1,0 +1,8 @@
+### [1.175.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.9...1.175.10) (2023-12-20)
+
+
+### Minor tweaks
+
+* harvestPartiallyGrown = false for create harvesters ([272dbba](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/272dbba0037ee048f0c481c1201c23f5f1439784))
+
+

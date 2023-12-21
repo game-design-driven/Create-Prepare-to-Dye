@@ -1,0 +1,26 @@
+{
+  "parent": "botania:main/ender_air_make",
+  "criteria": {
+    "pickup": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:corporea_crystal_cube",
+              "botania:corporea_funnel",
+              "botania:corporea_index",
+              "botania:corporea_interceptor",
+              "botania:corporea_retainer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

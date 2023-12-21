@@ -1,0 +1,8 @@
+### [1.176.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.1...1.176.2) (2023-12-21)
+
+
+### Documentation and Localization
+
+* replace icon for automatic milk with deployer for more hinting ([ee103c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ee103c8be619c0175b2235b6c0cf20d9005c6088))
+
+

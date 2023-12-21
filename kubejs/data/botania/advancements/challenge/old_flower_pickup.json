@@ -1,0 +1,23 @@
+{
+  "parent": "botania:challenge/root",
+  "criteria": {
+    "flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:daybloom_motif",
+              "botania:nightshade_motif"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "flower"
+    ]
+  ]
+}

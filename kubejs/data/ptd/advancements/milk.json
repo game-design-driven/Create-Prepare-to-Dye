@@ -1,0 +1,24 @@
+{
+  "parent": "ptd:root",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:impossible",
+            "__comment": "triggered by kjs script executing command",
+            "conditions": { }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "create:deployer"
+      },
+      "title": { "translate": "advancement.ptdye.milk", "color": "white" },
+      "description": { "translate": "advancement.ptdye.milk.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

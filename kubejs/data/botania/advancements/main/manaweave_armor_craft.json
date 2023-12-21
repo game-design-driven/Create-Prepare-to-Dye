@@ -1,0 +1,25 @@
+{
+  "parent": "botania:main/mana_pool_pickup",
+  "criteria": {
+    "head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:manaweave_helmet",
+              "botania:manaweave_chestplate",
+              "botania:manaweave_leggings",
+              "botania:manaweave_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "head"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:blob",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["supplementaries:soap"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "supplementaries:soap"
+      },
+      "title": { "translate": "advancement.ptdye.soap", "color": "white" },
+      "description": { "translate": "advancement.ptdye.soap.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

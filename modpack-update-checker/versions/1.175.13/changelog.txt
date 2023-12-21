@@ -1,0 +1,8 @@
+### [1.175.13](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.12...1.175.13) (2023-12-21)
+
+
+### Fixes
+
+* recipes added before ID addition update not showing in EMI but still working ([9cef425](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9cef425271fa7aad49f80e2674be3d9a8b105e80))
+
+

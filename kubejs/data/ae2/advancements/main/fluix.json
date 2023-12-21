@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/charged_quartz",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:fluix_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ]
+}

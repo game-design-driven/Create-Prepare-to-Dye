@@ -32,7 +32,8 @@ function addShaped(output, pattern, key) {
  * @param {ingredient[]} input ['glass','stick'] 
  */
 function addShapeless(output, input) {
-    if (input.length == 1){
+    if (!Array.isArray(input)) input = [input]
+    if (input.length == 1 && Item.of(input[0]).count == 1){
         addInfusion(output, input[0], 1, 'ptdye:mechanical_device');
     }
 
@@ -48,13 +49,15 @@ function addShapeless(output, input) {
  * @param {result} output '4x stick'
  * @param {ingredient} input 'glass' 
  */
-function addStonecutting(output, input) {
+function addStonecutting(output, input, hidden) {
+    hidden = hidden || false
     if (Item.of(output).id=='minecraft:air') return;
     if (Item.of(input).id=='minecraft:air') return;
     let recipe = {
         type: "minecraft:stonecutting",
         result: solveResult(output),
         ingredient: solveLimitedIngredient(input),
+        hidden: hidden
     };
     modpackRecipes.push(recipe)
     return recipe;

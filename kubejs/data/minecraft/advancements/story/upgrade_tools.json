@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "stone_pickaxe"
+    ]
+  ]
+}

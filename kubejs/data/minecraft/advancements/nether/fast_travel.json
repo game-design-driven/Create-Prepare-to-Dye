@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "travelled": {
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000.0
+          }
+        }
+      },
+      "trigger": "minecraft:nether_travel"
+    }
+  },
+  "requirements": [
+    [
+      "travelled"
+    ]
+  ]
+}

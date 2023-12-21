@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "elytra": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "elytra"
+    ]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "iron_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "iron_helmet",
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots"
+    ]
+  ]
+}
