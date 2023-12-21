@@ -25,5 +25,8 @@
   },
   "create:crushing": {
     "order": -30
+  },
+  "create:deploying": {
+    "order": -20
   }
 }

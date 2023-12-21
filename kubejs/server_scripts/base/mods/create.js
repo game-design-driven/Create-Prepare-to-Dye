@@ -92,16 +92,6 @@ if (feature("Cogs")) {
   addShapeless("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:cogwheel", "create:large_cogwheel");
   addStonecutting("create:large_cogwheel", "create:cogwheel");
-  addItemApplication(
-    "create:large_cogwheel",
-    "create:cogwheel",
-    "#forge:tools/axes"
-  );
-  addItemApplication(
-    "create:cogwheel",
-    "create:large_cogwheel",
-    "#forge:tools/axes"
-  );
 }
 
 if (feature("Application recipes")) {
