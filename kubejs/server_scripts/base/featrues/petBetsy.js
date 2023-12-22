@@ -36,11 +36,13 @@ if (feature("Command to teleport to Betsy")) {
         let betsyLastLocation_z = player.persistentData.get(
           "betsy_last_location_z"
         );
-        console.info(`/tp ${player.displayName.getString()} ${parseInt(betsyLastLocation_x.toString())} 300 ${parseInt(betsyLastLocation_z.toString())}`);
+        // console.info(`/tp ${player.displayName.getString()} ${betsyLastLocation_x} 300 ${parseInt(betsyLastLocation_z.toString())}`);
         if (betsyLastLocation_x && betsyLastLocation_z) {
           Utils.server.runCommandSilent(
             `/tp ${player.displayName.getString()} ${parseInt(betsyLastLocation_x)} 322 ${parseInt(betsyLastLocation_z)}`
           )
+        }else{
+          Utils.server.runCommandSilent(`/title ${player.displayName.getString()} actionbar "Need to pet Betsy first!"`);
         }
         return 0;
       })
