@@ -219,5 +219,6 @@
 	"Cut any plank to 2 sticks": true,
 	"Monorail track alternate recipe": true,
 	"silicon slow smelting from quartz": true,
-	"You can pet betsy": true
+	"You can pet betsy": true,
+	"Command to teleport to Betsy": true
 }
