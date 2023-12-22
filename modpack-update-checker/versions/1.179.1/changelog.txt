@@ -1,0 +1,17 @@
+### [1.179.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.0...1.179.1) (2023-12-22)
+
+
+### Developer experance improvments and changes
+
+* add command to teloprt to betsy feature ([5c782d6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5c782d61d9dfb36080c848313b1abbbf854426e5))
+* add comment in important place ([941c6dc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/941c6dc5662df909fba9bc2c30a91d43a441ebda))
+* commit lang stuff ([cbde25c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cbde25c0b26bc1810e9944f33f44ae552f3d3697))
+
+
+### Minor tweaks
+
+* A brand new Back to Betsy button that takes you to the last place you petted betsy at, probably slightly higher than that actually. ([d76d4a4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d76d4a402c78bdc51a0ffe531c9eec4b88eca3a1))
+* change betsy button location to be less intrusive ([e3a40ff](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e3a40ff0b3669944158e3e45b31422dc7f2c091d))
+* elytra recipe now works with silicon ([80a1d0f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/80a1d0fa8e7db61c7422e617a9159d4df2469b44))
+
+
