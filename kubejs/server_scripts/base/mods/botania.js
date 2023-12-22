@@ -37,10 +37,9 @@ if (feature('Remove livingwood bow')) {
     //it's just a more powerful bow, doesn't bring much else to the table
     removeItem('botania:livingwood_bow')
 }
-if (feature('Remove assembly halo and change manufactory halo recipe')) {
+if (feature('Remove assembly halo and manufactory halo')) {
     removeItem('botania:crafting_halo')
-    addShaped('botania:auto_crafting_halo', ['pcp', 'mtm', ' m '],
-        { p: 'botania:mana_pearl', c: 'create:cogwheel', t: 'crafting_table', m: 'botania:manasteel_ingot' })
+    removeItem('botania:auto_crafting_halo')
 }
 if (feature('Rebalance regular infusion recipes')) {
     removeRecipe({ id: "botania:mana_infusion/mana_powder_dye" })
