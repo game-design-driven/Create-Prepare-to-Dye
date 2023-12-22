@@ -2,4 +2,4 @@
 var modpackRecipes = []
 var manapool_single_crafting_blacklist = []
 var modpackRemovedRecipes = []
-var botaniaOrechidList = []
+var itemsToRemove = {}

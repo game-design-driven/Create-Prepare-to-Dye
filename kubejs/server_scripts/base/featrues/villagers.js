@@ -1,9 +1,6 @@
 
-hideRecipeType('easy_villagers:breeding')
 removeItem('easy_villagers:breeder')
-hideRecipeType('easy_villagers:converting')
 removeItem('easy_villagers:converter')
-hideRecipeType('easy_villagers:incubating')
 removeItem('easy_villagers:incubator')
 removeItem('easy_villagers:trader')
 removeItem('easy_villagers:farmer')

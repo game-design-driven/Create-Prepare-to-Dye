@@ -1,13 +1,4 @@
 // priority: 0
-// JEIEvents.hideCustom((event) => {
-//   console.info(event.get("ae2:condenser"));
-// });
-JEIEvents.removeCategories((event) => {
-  global.categoriesToHide.forEach((category) => {
-    event.remove(category);
-  });
-  event.remove("minecraft:crafting");
-});
 JEIEvents.hideItems((event) => {
   //hide colored stuff
   global.colors.forEach((color) => {
