@@ -27,9 +27,6 @@ function automatonAttributes(player) {
     `curios remove ring ${player.displayName.getString()}`
   );
   Utils.server.runCommandSilent(
-    `curios remove ring ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
     `curios replace crafting_on_a_stick 0 ${player.displayName.getString()} with crafting_on_a_stick:stonecutter`
   );
   Utils.server.runCommandSilent(
