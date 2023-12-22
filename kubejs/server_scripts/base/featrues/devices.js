@@ -322,9 +322,7 @@ if (
 
       let tagSuffix = item.count > 1 ? "/" + item.count : "";
       if (item.count > 1) {
-        console.log(`Map at this time is ${addedTagRecipes}`);
         if (!addedTagRecipes[device.tag + tagSuffix]) {
-          console.log("eeeee " + item);
           addShapeless(
             device.generic,
             item.count + "x " + device.tag + tagSuffix

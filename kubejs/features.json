@@ -218,5 +218,6 @@
 	"No More Ingots": false,
 	"Cut any plank to 2 sticks": true,
 	"Monorail track alternate recipe": true,
-	"silicon slow smelting from quartz": true
+	"silicon slow smelting from quartz": true,
+	"You can pet betsy": true
 }
