@@ -92,6 +92,7 @@ if (
       amount_crafted: 4,
       post_logic: () => {
         ServerEvents.blockLootTables(event=>{
+          event.addSimpleBlock("minecraft:bookshelf","minecraft:bookshelf")
           event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
           event.addSimpleBlock("minecraft:soul_campfire","minecraft:campfire")
         });
