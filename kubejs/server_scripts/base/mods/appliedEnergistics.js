@@ -58,57 +58,14 @@ if (feature('Quartz recipes')) {
     // addFilling('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
 }
 
-if (feature('ae2 recipes')) {
-    removeRecipe({ id: 'ae2:network/parts/quartz_fiber_part' })
-    addShaped('ae2:quartz_fiber', [
-        'qqq',
-    ], { q: 'minecraft:quartz' })
-    addShaped('ae2:quartz_fiber', [
-        'q',
-        'q',
-        'q'
-    ], { q: 'minecraft:quartz' })
-    addShaped('ae2:storage_bus', ['cps'],{
-        c: 'ae2:fluix_smart_cable',
-        p: 'minecraft:piston',
-        s: 'minecraft:sticky_piston'
-    })
-    addShaped('ae2:terminal', [
-        'AAG',
-        'CDG',
-        'AAG'
-    ], { A: 'create:andesite_casing', C: '#forge:ingots/copper', D: '#forge:dusts/mana', G: '#forge:glass' })
-    addShaped('ae2:storage_monitor', [
-        'AAG',
-        'CD#',
-        'AAG'
-    ], { A: 'create:andesite_casing', C: '#forge:ingots/copper', D: '#forge:dusts/mana', G: '#forge:glass', '#': 'minecraft:comparator' })
-    removeRecipe({id: 'ae2:network/parts/storage_bus'})
+if (feature('silicon slow smelting from quartz')) {
     removeRecipe({id: 'ae2:smelting/silicon_from_certus_quartz_dust'})
     removeRecipe({id: 'ae2:blasting/silicon_from_certus_quartz_dust'})
-
     addSmelting('ae2:silicon', 'quartz', 0.1, 3600)
 }
 
 if (feature('Energy cell recycling')) {
     addCrushing(['9x quartz %75', '4x redstone %50', 'sand %40'], 'ae2:energy_cell')
-}
-
-if (feature('Me toggle bus recipe')) {
-    let networkDevices = 
-        [
-            'ae2:toggle_bus',
-            'ae2:inverted_toggle_bus',
-            'ae2:fluix_smart_cable',
-            'ae2:level_emitter',
-        ]
-    addToTag('forge:network_devices', networkDevices)
-
-    networkDevices.forEach(item => {
-        addStonecutting(item.id, '#forge:network_devices')
-    })
-
-
 }
 
 if (feature('Slime from silicon')) {
@@ -119,7 +76,7 @@ if (feature('Slime from silicon')) {
 
 if (feature('Silicon from slime')) {
     addAssembly('3x ae2:silicon', 'minecraft:slime_ball', [
-        addPressing('ae2:silicon', 'slime_ball'),
-        addFilling('ae2:silicon', 'minecraft:slime_ball','250x create_enchantment_industry:ink')
+        addFilling('ae2:silicon', 'minecraft:slime_ball','250x create_enchantment_industry:ink'),
+        addPressing('stick', 'stick')
     ])
 }
