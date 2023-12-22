@@ -22,8 +22,6 @@ ServerEvents.recipes((event) => {
 //     });
 // }) not sure why I added it here need to look into it
 
-//oh my god. how did no one do this sooner
-//what's wrong with you. you've wasted so much of people's limited time on earth.
 let lazy_removedRecipesMap = null;
 
 function createRemovedRecipeMap(itemsToRemove) {
@@ -42,11 +40,6 @@ function hasRemovedItems(recipe) {
       if (lazy_removedRecipesMap[ingredient]) {
         return true;
       }
-    }
-  }
-  if (recipe.output) {
-    if (lazy_removedRecipesMap[recipe.output]) {
-      return true;
     }
   }
   return false;
