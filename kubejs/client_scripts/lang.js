@@ -74,6 +74,8 @@ JsonIO.read("kubejs/translation_tools/supported_langs.json").langs.forEach(
 
 
 function sortObjectByKey(obj) {
+  if (!obj) return obj;
+  if (typeof obj !== "object") return obj;
   const sortedKeys = Object.keys(obj).sort();
   const sortedObj = {};
 
