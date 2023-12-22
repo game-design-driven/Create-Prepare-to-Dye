@@ -94,6 +94,15 @@ if (
       post_logic: () => {
         ServerEvents.blockLootTables(event=>{
           event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
+          event.addSimpleBlock("minecraft:soul_campfire","minecraft:campfire")
+        });
+        
+        removeRecipe({"output":"minecraft:soul_torch",not:{type:"create:haunting"}})
+        removeAllRecipesForItem("minecraft:soul_campfire");
+        ['#minecraft:piglin_repellents','#minecraft:soul_fire_base_blocks'].forEach(material=>{
+          ServerEvents.recipes(e=>{
+            e.recipes.create.item_application("minecraft:soul_campfire",["minecraft:campfire",material]).keepHeldItem()
+          })
         })
       },
     },
