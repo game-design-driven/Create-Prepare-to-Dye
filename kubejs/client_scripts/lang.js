@@ -57,11 +57,11 @@ function genMissingTranslationsIndex(lang) {
         delete engLangFile[key]; //remove all keys that are already translated
       });
     }
-    all[namespace] = engLangFile;
+    all[namespace] = sortObjectByKey(engLangFile);
   }
   JsonIO.write(
     `kubejs/translation_tools/missing_translations/${lang}.missing.json`,
-    all
+    sortObjectByKey(all)
   );
 }
 JsonIO.read("kubejs/translation_tools/supported_langs.json").langs.forEach(
@@ -71,3 +71,15 @@ JsonIO.read("kubejs/translation_tools/supported_langs.json").langs.forEach(
   }
 );
 
+
+
+function sortObjectByKey(obj) {
+  const sortedKeys = Object.keys(obj).sort();
+  const sortedObj = {};
+
+  sortedKeys.forEach(key => {
+      sortedObj[key] = obj[key];
+  });
+
+  return sortedObj;
+}
