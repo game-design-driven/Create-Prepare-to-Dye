@@ -1,0 +1,13 @@
+### [1.176.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.8...1.176.9) (2023-12-22)
+
+
+### Fixes
+
+* plank sawing only works for acacia. Now acacia gives more but all the others do work ([f137e88](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f137e8805eef014b3ecc02c9cd39653a5cc41de6))
+
+
+### Minor tweaks
+
+* add filters to device list ([ef6022b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ef6022b1bc133828651358b4766a6c7d339fbc75))
+
+
