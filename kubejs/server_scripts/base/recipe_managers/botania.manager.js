@@ -105,7 +105,10 @@ function addApothecary(output, inputs) {
     modpackRecipes.push({
         type: 'botania:petal_apothecary',
         output: solveResult(output),
-        ingredients: solveLimitedIngredients(inputs)
+        ingredients: solveLimitedIngredients(inputs),
+        reagent: {
+            "tag": "botania:seed_apothecary_reagent"
+        }
     })
 }
 /**
