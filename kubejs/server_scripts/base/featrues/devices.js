@@ -115,6 +115,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "create:rope_pulley",
     "create:cart_assembler",
     "quark:pipe",
+    "create:filter"
   ];
   // addToTag("forge:device/andesite", "ptdye:mechanical_device");
   addStonecutting("ptdye:mechanical_device","forge:device/andesite")
@@ -292,6 +293,7 @@ if (feature("Remove crafting table recipes for devices")) {
     "createdieselgenerators:diesel_engine",
     "storagedrawers:drawer_key",
     "storagedrawers:controller",
+    "create:attribute_filter"
   ];
   // addToTag("forge:device/brass", "ptdye:smart_device");
   addStonecutting( "ptdye:smart_device","forge:device/brass")
