@@ -1,0 +1,8 @@
+### [1.177.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.177.0...1.177.1) (2023-12-22)
+
+
+### Fixes
+
+* disable No More Ingots feature for now until it is fully tested, as it seems there are still a few issues ([44b0ccf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/44b0ccf8a84974936afc623acb16840c58782dc6))
+
+
