@@ -1,0 +1,9 @@
+### [1.179.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.1...1.179.2) (2023-12-22)
+
+
+### Developer experance improvments and changes
+
+* more proper sorting ([21e9e20](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/21e9e206559c652fb380c15c9870973673b509c1))
+* sort lang files by key, no more horrible diffs! ([05d24dd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/05d24dd1c923f1056136fba630631cb19666e4ba))
+
+
