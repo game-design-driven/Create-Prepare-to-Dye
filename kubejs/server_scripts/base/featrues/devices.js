@@ -73,6 +73,31 @@ if (
       },
     },
     {
+      tag: "forge:device/furniture",
+      generic: "ptdye:furnished_device",
+      base: "minecraft:stick",
+      incomplete: "ptdye:incomplete_furnished_device",
+      assembly: [
+        "#minecraft:wool_carpets",
+        "#forge:nuggets",
+        "#minecraft:planks",
+        "#minecraft:planks"
+      ],
+      included_devices: [
+        'create:cuckoo_clock', 'minecraft:bookshelf', 'minecraft:note_block', 'minecraft:oak_door', 'minecraft:oak_sign',
+        'minecraft:oak_button', 'minecraft:composter', 'supplementaries:hanging_sign_oak', 'supplementaries:pulley_block', 'minecraft:barrel',
+        'minecraft:oak_pressure_plate', 'create:wooden_bracket', 'supplementaries:speaker_block', 'minecraft:painting', 'supplementaries:notice_board',
+        'supplementaries:bellows', 'minecraft:light_blue_bed', 'minecraft:chest', 'supplementaries:sign_post_oak', 'minecraft:item_frame',
+        'storagedrawers:oak_full_drawers_1', 'minecraft:jukebox', 'create:white_seat', 'minecraft:campfire', 'minecraft:lectern'
+      ],
+      amount_crafted: 4,
+      post_logic: () => {
+        ServerEvents.blockLootTables(event=>{
+          event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
+        })
+      },
+    },
+    {
       tag: "forge:device/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
