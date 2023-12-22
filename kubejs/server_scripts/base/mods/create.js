@@ -284,8 +284,25 @@ if (feature("Metal gridder no gray ingot")) {
   });
 }
 
+if (feature('Monorail track alternate recipe')) {
+  removeRecipe({id: "railways:sequenced_assembly/track_monorail"})
+  addAssembly(
+    ["32x railways:track_monorail"],
+    "create:metal_girder",
+    [
+      addDeploying(
+        "create:metal_girder",
+        "create:metal_girder",
+        "create:metal_girder"
+      ),
+    ],
+    16,
+    "create:incomplete_track"
+  );
+}
 if (feature("Blaze is capturable")) {
   ServerEvents.tags("entity_type", (event) => {
     event.add("create:blaze_burner_capturable", ["more_babies:blaze"]);
   });
 }
+

@@ -22,19 +22,4 @@ if (feature('Rail recipes')) {
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:rods'),
     ],4)
-
-    // addAssembly('1x minecraft:powered_rail', '#forge:rods', [
-    //     addDeploying('minecraft:rail', '#forge:rods', 'minecraft:gold_ingot'),
-    //     addDeploying('minecraft:rail', '#forge:rods', 'minecraft:gold_ingot'),
-    //     addDeploying('minecraft:rail', '#forge:rods', 'minecraft:gold_ingot'),
-    //     addDeploying('minecraft:rail', '#forge:rods', 'minecraft:redstone'),
-    //     addDeploying('minecraft:rail', '#forge:rods', '#forge:rods'),
-    // ],2)
-
-    addAssembly('4x create:controller_rail', 'rail', [
-      addDeploying('create:controller_rail', 'rail', 'minecraft:gold_ingot'),
-      addDeploying('create:controller_rail', 'rail', 'rail'),
-      addDeploying('create:controller_rail', 'rail', 'create:polished_rose_quartz'),
-      addDeploying('create:controller_rail', 'rail', 'rail'),
-    ])
 }
