@@ -1,0 +1,9 @@
+### [1.179.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.4...1.179.5) (2023-12-22)
+
+
+### Minor tweaks
+
+* nerf milling for ferilizer recipe. It is still better than grinding in terms of raw fertilizer output but slightly lower than smelting as smelting is a little more interesting in this context ([5f60a8a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5f60a8a34847dc4121f0566329591fde16779cb7))
+* Remove vanilla bonemeal from bones recipe. The practical ones are milling, crushing and burning ([e59246a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e59246a4509068f263feccb31c0dd74973f1dc3f))
+
+
