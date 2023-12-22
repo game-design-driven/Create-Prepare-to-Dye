@@ -1,0 +1,8 @@
+### [1.178.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.178.0...1.178.1) (2023-12-22)
+
+
+### Fixes
+
+* mesh info overlapping with EMI. Now it will be on top always but toggleable ([c2605dd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c2605dd8bbec3a6cf0f667687f334ba9a13b2e92))
+
+
