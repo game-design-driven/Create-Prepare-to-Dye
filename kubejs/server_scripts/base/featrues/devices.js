@@ -6,6 +6,10 @@ if (
 ) {
   let deviceDefinitions = [
     {
+      tag: "forge:device/network",
+      generic: "ae2:fluix_smart_cable",
+    },
+    {
       tag: "forge:device/track",
       generic: "create:track",
       base: "#create:sleepers",
@@ -13,22 +17,22 @@ if (
       assembly_loops: 2,
       included_devices: [
         "railways:track_create_andesite_wide",
-        "railways:track_create_andesite_narrow"
+        "railways:track_create_andesite_narrow",
       ],
       assembly: [
         [
           "botania:livingwood_planks",
           "botania:livingwood_planks",
-          "#forge:nuggets"
+          "#forge:nuggets",
         ],
         [
           "#forge:nuggets",
           "#forge:nuggets",
           "#forge:nuggets",
-          "#minecraft:logs"
-        ]
+          "#minecraft:logs",
+        ],
       ],
-      post_logic: ()=>{
+      post_logic: () => {
         removeRecipe({ id: "create:sequenced_assembly/track" });
         removeAllFromTag("create:sleepers");
         addToTag("create:sleepers", [
@@ -39,7 +43,7 @@ if (
           "black_concrete",
           "smooth_stone",
         ]);
-      }
+      },
     },
     {
       tag: "forge:device/rail",
@@ -49,18 +53,14 @@ if (
       assembly: [
         "#forge:ingots/gold",
         "rail",
-        'create:polished_rose_quartz',
-        "rail"
+        "create:polished_rose_quartz",
+        "rail",
       ],
-      included_devices:[
-        'activator_rail',
-        'powered_rail',
-        'detector_rail'
-      ],
+      included_devices: ["activator_rail", "powered_rail", "detector_rail"],
       amount_crafted: 10,
-      post_logic: ()=>{
-        removeRecipe({id: "create:crafting/kinetics/controller_rail"})
-      }
+      post_logic: () => {
+        removeRecipe({ id: "create:crafting/kinetics/controller_rail" });
+      },
     },
     {
       tag: "forge:device/red_stringed",
@@ -110,11 +110,11 @@ if (
     {
       tag: "forge:device/logic",
       generic: "ptdye:logic_device",
-      amount_crafted:8,
+      amount_crafted: 8,
       assembly: [
         "minecraft:smooth_stone",
         "#forge:plates/copper",
-        "minecraft:redstone"
+        "minecraft:redstone",
       ],
       included_devices: [
         "create:powered_toggle_latch",
@@ -281,27 +281,28 @@ if (
       device.incomplete ||
       generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
     device.base = device.base || "create:cogwheel";
-    console.log(device.base)
+    console.log(device.base);
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
 
     //device recipe
-    if (!Array.isArray(device.assembly[0])){
-      device.assembly = [device.assembly]
+    if (device.assembly) {
+      if (!Array.isArray(device.assembly[0])) {
+        device.assembly = [device.assembly];
+      }
+      device.assembly.forEach((singleAssembly) => {
+        console.info("device.generic " + device.generic);
+        addAssembly(
+          Item.of(device.generic).withCount(device.amount_crafted),
+          device.base,
+          singleAssembly.map((ingredient) => {
+            return addDeploying("stick", "stick", ingredient);
+          }),
+          device.assembly_loops,
+          device.incomplete
+        );
+      });
     }
-    device.assembly.forEach(singleAssembly =>{
-      console.info("device.generic "+device.generic)
-      addAssembly(
-        Item.of(device.generic).withCount(device.amount_crafted),
-        device.base,
-        singleAssembly.map((ingredient) => {
-          return addDeploying("stick", "stick", ingredient);
-        }),
-        device.assembly_loops,
-        device.incomplete
-      );
-
-    })
     //device transmutation
     addStonecutting(device.generic, device.tag);
     device.included_devices.forEach((included_device) => {
@@ -311,14 +312,14 @@ if (
 
       let tagSuffix = item.count > 1 ? "/" + item.count : "";
       if (item.count > 1) {
-        console.log(`Map at this time is ${addedTagRecipes}`)
-        if (!( addedTagRecipes[device.tag + tagSuffix])) {
-          console.log('eeeee '+item)
+        console.log(`Map at this time is ${addedTagRecipes}`);
+        if (!addedTagRecipes[device.tag + tagSuffix]) {
+          console.log("eeeee " + item);
           addShapeless(
             device.generic,
             item.count + "x " + device.tag + tagSuffix
           );
-          addedTagRecipes[device.tag + tagSuffix]=true;
+          addedTagRecipes[device.tag + tagSuffix] = true;
         }
       } else {
         let allButCurrentDevice = device.included_devices.filter(
