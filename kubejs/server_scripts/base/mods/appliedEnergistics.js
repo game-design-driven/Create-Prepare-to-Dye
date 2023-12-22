@@ -77,7 +77,6 @@ if (feature('ae2 recipes')) {
         'CDG',
         'AAG'
     ], { A: 'create:andesite_casing', C: '#forge:ingots/copper', D: '#forge:dusts/mana', G: '#forge:glass' })
-    addShapeless('ae2:crafting_terminal', ['ae2:terminal', 'minecraft:crafting_table'])
     addShaped('ae2:storage_monitor', [
         'AAG',
         'CD#',
