@@ -1,0 +1,36 @@
+## [1.177.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.176.9...1.177.0) (2023-12-22)
+
+
+### Features
+
+* add features.json to let players disable features we added. No garentees for how the game will mesh after that thoguh ([b16e8eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b16e8ebc2b40e81e3b664db0277099c4b618f7db))
+* automaton has ring slot ([6c04ba1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6c04ba1a33b34d9ee0bc26dad7b4dfaadd3a7411))
+
+
+### Fixes
+
+* botania manager missing reagent propety. We didn't notice because we did not add apothecary recipes before I guess ([eb335b4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eb335b4767450e8259f03f90e5b9b6f8e0af55f9))
+* remove old silicon recipe ([f07d107](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f07d10796b2bf629ef8c521e79dd1858fed71f8a))
+
+
+### Minor tweaks
+
+* attempt to reduce category order of stonecutting. Doesn't seem to work, it seems that it will always be first. hm.. ([83e64d4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/83e64d45c81e4e5bac7c96bc3c3a9d03f2413aad))
+* milk advancement trigger ([c488509](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c488509c813baae8781284262bf70aff4dce3453))
+* readd level emitter ([77b4b40](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/77b4b401a8ef35980d5664ebad63d883cbc3f971))
+* remove assembly halo ([25845b7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/25845b7290848e923add1be01d314b5e7301fddd))
+* remove legacy recipe for crafting terminal ([a2ed815](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a2ed8153e83c1d6861a953f0258ef4d119b24b63))
+* remove rune from rannuncarpus recipe ([ab68996](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ab68996258e52e8ed2426df6d9de07e28e6ab8c7))
+
+
+### Developer experance improvments and changes
+
+* add debug tools script for devs ([0a375c5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0a375c50ba6acdf6a0dd8917563f8abf1f4bcdfc))
+* format process.js file ([052bb64](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/052bb6450ba84491e3606a325071edaaa6bedb35))
+* move code from startup global to server global ([0bacdfa](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0bacdfaee682f25075220b930fdfab407e186fce))
+* remove lazy map and make the list itself a map in the first place for item removal ([235c689](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/235c689610e26d08d965cb6bb393f53088490fd4))
+* removed insults from code ([4f181f6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4f181f6304aa0ae442f5fce7471fb7ba4d8b6e30))
+* update lang ([69f823b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/69f823b41e1d667cdf6912ae59f1eed859376ca9))
+* update langfiles ([fa2023c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa2023ccc25f0da9df121381833157fbfda76ab0))
+
+
