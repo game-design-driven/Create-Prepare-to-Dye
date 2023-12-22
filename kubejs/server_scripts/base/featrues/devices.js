@@ -257,7 +257,7 @@ if (
         "create:encased_chain_drive",
         "create:gearshift",
         "create:clutch",
-        "2x create:gearbox",
+        "create:gearbox",
         "create:mechanical_mixer",
         "create:mechanical_press",
         "create:deployer",
