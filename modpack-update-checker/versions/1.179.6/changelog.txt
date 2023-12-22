@@ -1,0 +1,13 @@
+### [1.179.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.5...1.179.6) (2023-12-22)
+
+
+### Documentation and Localization
+
+* rename cow stuff to Betsy ([6ce86d1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6ce86d1b85a87834fefdb095f8a350cf736fa3d5))
+
+
+### Minor tweaks
+
+* revert device ratio of 1 to 2 ([c70b87e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c70b87efb71d7d4a570e546f6ad221141d6850eb))
+
+
