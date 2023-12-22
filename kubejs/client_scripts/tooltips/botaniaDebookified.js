@@ -76,5 +76,5 @@ ClientEvents.highPriorityAssets((event) => {
         obj[`${floatingChibiVersion.getDescriptionId()}.tooltip.summary`]= description;
       });
       if (Object.keys(obj).length > 0)
-        JsonIO.write("kubejs/assets/botania_tooltips/lang/en_us.json", obj);
+        JsonIO.write("kubejs/assets/botania_tooltips/lang/en_us.json", sortObjectByKey(obj));
 });

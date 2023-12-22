@@ -126,8 +126,8 @@ if (
       tag: "forge:device/smart",
       generic: "ptdye:smart_device",
       assembly: [
-        "#forge:stripped_logs",
         "#forge:plates/brass",
+        "#forge:stripped_logs",
         "create:polished_rose_quartz",
       ],
       amount_crafted: 4,
@@ -185,9 +185,9 @@ if (
       tag: "forge:device/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
+        "#forge:plates/obsidian",
+        "#forge:plates/obsidian",
         "#forge:plates/brass",
-        "#forge:plates/obsidian",
-        "#forge:plates/obsidian",
       ],
       amount_crafted: 4,
       included_devices: [
@@ -206,8 +206,8 @@ if (
       tag: "forge:device/sealed",
       generic: "ptdye:sealed_device",
       assembly: [
-        "#forge:stripped_logs",
         "#forge:plates/copper",
+        "#forge:stripped_logs",
         "#forge:silicon",
       ],
       amount_crafted: 4,
@@ -265,8 +265,8 @@ if (
       tag: "forge:device/mechanical",
       generic: "ptdye:mechanical_device",
       assembly: [
-        "#forge:stripped_logs",
         "create:iron_sheet",
+        "#forge:stripped_logs",
         "create:andesite_alloy",
       ],
       amount_crafted: 4,
@@ -293,7 +293,7 @@ if (
         "create:encased_chain_drive",
         "create:gearshift",
         "create:clutch",
-        "2x create:gearbox",
+        "create:gearbox",
         "create:mechanical_mixer",
         "create:mechanical_press",
         "create:deployer",
@@ -358,9 +358,7 @@ if (
 
       let tagSuffix = item.count > 1 ? "/" + item.count : "";
       if (item.count > 1) {
-        console.log(`Map at this time is ${addedTagRecipes}`);
         if (!addedTagRecipes[device.tag + tagSuffix]) {
-          console.log("eeeee " + item);
           addShapeless(
             device.generic,
             item.count + "x " + device.tag + tagSuffix

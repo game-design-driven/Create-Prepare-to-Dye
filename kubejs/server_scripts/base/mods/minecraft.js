@@ -400,13 +400,17 @@ if (feature("Cactus from Choros fruite alchemy")) {
 
 if (feature("Elytra recipe")) {
   addShaped("elytra", ["lpl", "l l", "g g"], {
-    l: Ingredient.of("leather").or("silicon").or("dried_kelp"),
+    l: Ingredient.of("leather").or("ae2:silicon").or("dried_kelp"),
     p: "purple_dye",
     g: "gray_dye",
   });
 }
 if (feature('Bush from grassblock and bonemeal')) {
   addGrow('minecraft:grass', 'minecraft:grass_block', 'bone_meal', true)
+}
+
+if (feature('Remove vanilla bonemeal from bones recipe')) {
+  removeRecipe({ id: 'minecraft:bone_meal' })
 }
 // if (feature('Nether brick from chocolate and black')) {
 //     addAssembly('2x nether_brick', '#forge:ingots',[

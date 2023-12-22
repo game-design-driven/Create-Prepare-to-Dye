@@ -1,0 +1,8 @@
+### [1.179.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.6...1.179.7) (2023-12-22)
+
+
+### Fixes
+
+* locomotive device conflicting with smart device, woops ([fd9a84c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fd9a84cd459398aa3bdf84044f9e8a44e62e8257))
+
+

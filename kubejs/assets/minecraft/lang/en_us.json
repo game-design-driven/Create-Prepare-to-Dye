@@ -179,5 +179,11 @@
     "selectWorld.newWorld": "New Landing",
     "selectWorld.enterName": "Landing site name",
     "createWorld.preparing": "Preparing for landing sequence...",
-    "block.minecraft.grass": "Bush"
+    "block.minecraft.grass": "Bush",
+    "item.minecraft.cow_spawn_egg": "Betsy Spawn Egg",
+    "entity.minecraft.cow": "Betsy",
+    "subtitles.entity.cow.ambient": "Betsy moos",
+    "subtitles.entity.cow.death": "Betsy dies. WTF!? Rude!",
+    "subtitles.entity.cow.hurt": "Betsy hurts",
+    "subtitles.entity.cow.milk": "Betsy gets milked"
 }

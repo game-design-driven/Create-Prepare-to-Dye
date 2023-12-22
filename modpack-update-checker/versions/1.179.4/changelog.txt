@@ -1,0 +1,13 @@
+### [1.179.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.3...1.179.4) (2023-12-22)
+
+
+### Fixes
+
+* reorder device assembly sequence to prevent conflicts ([16681c2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/16681c2becd86512a5a16f329684c034e8bb6987))
+
+
+### Minor tweaks
+
+* notify players if they try to teleport to Betsy before petting her ([81f19e0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/81f19e018c3506331eb2c231b9f00def907855ce))
+
+
