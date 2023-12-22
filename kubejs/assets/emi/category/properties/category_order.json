@@ -28,5 +28,8 @@
   },
   "create:deploying": {
     "order": -20
+  },
+  "minecraft:stonecutting": {
+    "order": -10
   }
 }
