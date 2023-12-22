@@ -13,11 +13,11 @@ function getTag(id) {
 }
 
 function addToTag(tag, ids) {
+	tag = tag.includes('#') ? tag.replace('#', '') : tag
 	if (tag.includes('/')) {
 		//should also add parent tag
 		addToTag(tag.split('/')[0], ids)
 	}
-	const t = tag.includes('#') ? tag.replace('#', '') : tag
 	ServerEvents.tags('item', event => {
 		return event.add(tag, ids)
 	})
