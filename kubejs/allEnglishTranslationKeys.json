@@ -57,6 +57,10 @@
 			"key": "block.minecraft.spruce_wood.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_furnished_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.raw_copper.tooltip.summary"
 		},
@@ -153,12 +157,12 @@
 			"key": "block.ptdye.sealed_device.tooltip.summary"
 		},
 		{
-			"namespace": "kubejs",
-			"key": "block.kubejs.organic_mass"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "item.ptdye.incomplete_logic_device"
+		},
+		{
+			"namespace": "kubejs",
+			"key": "block.kubejs.organic_mass"
 		},
 		{
 			"namespace": "minecraft",
@@ -190,11 +194,11 @@
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.upside_down_fire"
+			"key": "block.ptdye.yellow_dye_block"
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.yellow_dye_block"
+			"key": "block.ptdye.upside_down_fire"
 		},
 		{
 			"namespace": "minecraft",
@@ -363,6 +367,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.golden_sword.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.furnished_device"
 		},
 		{
 			"namespace": "ptdye",
