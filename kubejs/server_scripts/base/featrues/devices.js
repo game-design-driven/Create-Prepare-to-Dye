@@ -90,8 +90,8 @@ if (
       tag: "forge:device/smart",
       generic: "ptdye:smart_device",
       assembly: [
-        "#forge:stripped_logs",
         "#forge:plates/brass",
+        "#forge:stripped_logs",
         "create:polished_rose_quartz",
       ],
       amount_crafted: 4,
@@ -170,8 +170,8 @@ if (
       tag: "forge:device/sealed",
       generic: "ptdye:sealed_device",
       assembly: [
-        "#forge:stripped_logs",
         "#forge:plates/copper",
+        "#forge:stripped_logs",
         "#forge:silicon",
       ],
       amount_crafted: 4,
@@ -229,8 +229,8 @@ if (
       tag: "forge:device/mechanical",
       generic: "ptdye:mechanical_device",
       assembly: [
-        "#forge:stripped_logs",
         "create:iron_sheet",
+        "#forge:stripped_logs",
         "create:andesite_alloy",
       ],
       amount_crafted: 4,
