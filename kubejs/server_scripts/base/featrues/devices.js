@@ -149,9 +149,9 @@ if (
       tag: "forge:device/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
+        "#forge:plates/obsidian",
+        "#forge:plates/obsidian",
         "#forge:plates/brass",
-        "#forge:plates/obsidian",
-        "#forge:plates/obsidian",
       ],
       amount_crafted: 4,
       included_devices: [
