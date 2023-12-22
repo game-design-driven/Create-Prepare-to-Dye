@@ -408,6 +408,10 @@ if (feature("Elytra recipe")) {
 if (feature('Bush from grassblock and bonemeal')) {
   addGrow('minecraft:grass', 'minecraft:grass_block', 'bone_meal', true)
 }
+
+if (feature('Remove vanilla bonemeal from bones recipe')) {
+  removeRecipe({ id: 'minecraft:bone_meal' })
+}
 // if (feature('Nether brick from chocolate and black')) {
 //     addAssembly('2x nether_brick', '#forge:ingots',[
 //         addDeploying('stick','stick','#forge:nuggets'),
