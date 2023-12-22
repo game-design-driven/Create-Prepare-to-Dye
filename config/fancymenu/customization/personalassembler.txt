@@ -3,7 +3,7 @@ type = menu
 customization-meta {
   identifier = io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen
   randomgroup = 1
-  renderorder = background
+  renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
 }
@@ -16,23 +16,12 @@ customization {
 customization {
   path = fancymenu_data/text.png
   orientation = mid-centered
-  x = -162
-  width = 74
-  action = addtexture
-  actionid = a3786c04-2b89-40a9-a10a-25d7004c82481702229376167
-  y = -87
-  height = 100
-}
-
-customization {
-  path = fancymenu_data/text.png
-  orientation = mid-centered
-  x = -211
-  width = 123
+  x = -215
+  width = 128
   action = addtexture
   actionid = 6295b340-3767-4a70-9716-ed4143ed02bc1702229954929
   y = -87
-  height = 141
+  height = 171
 }
 
 customization {
@@ -45,11 +34,11 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -208
+  x = -212
   width = 118
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c93483c5-ed51-4781-aadd-2ae1b36d2d121702229487878
-  y = -83
+  y = -82
   alignment = left
   base_color = #000000
   height = 134
