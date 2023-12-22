@@ -30,6 +30,15 @@ if (
       ],
       post_logic: ()=>{
         removeRecipe({ id: "create:sequenced_assembly/track" });
+        removeAllFromTag("create:sleepers");
+        addToTag("create:sleepers", [
+          "stone",
+          "botania:livingrock",
+          "gray_concrete",
+          "light_gray_concrete",
+          "black_concrete",
+          "smooth_stone",
+        ]);
       }
     },
     {

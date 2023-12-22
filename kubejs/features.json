@@ -216,5 +216,6 @@
 	"Remove quark saplings": true,
 	"Remove assembly halo and manufactory halo": true,
 	"No More Ingots": false,
-	"Cut any plank to 2 sticks": true
+	"Cut any plank to 2 sticks": true,
+	"Monorail track alternate recipe": true
 }
