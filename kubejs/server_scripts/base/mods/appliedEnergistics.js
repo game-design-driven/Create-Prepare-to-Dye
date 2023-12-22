@@ -26,7 +26,8 @@ if(feature('Remove all uneeded things from ae2')){
         'ae2:quartz_crystal',
         'ae2:quartz_cluster',
         'ae2:quartz_fiber',
-        'ae2:quartz_block'
+        'ae2:quartz_block',
+        'ae2:level_emitter',
     ];
 
     Ingredient.of('@ae2').itemIds.forEach(item => {
