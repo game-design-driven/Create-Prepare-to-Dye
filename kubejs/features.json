@@ -215,6 +215,6 @@
 	"Remove nether tree fungi": true,
 	"Remove quark saplings": true,
 	"Remove assembly halo and manufactory halo": true,
-	"No More Ingots": true,
+	"No More Ingots": false,
 	"Cut any plank to 2 sticks": true
 }
