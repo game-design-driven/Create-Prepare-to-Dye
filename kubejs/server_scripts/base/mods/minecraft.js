@@ -68,10 +68,12 @@ if (feature("Bee duping flowers and saplings")) {
     flower = flower.id;
     addInfusion("2x " + flower, flower, manaCost, "bee_nest[honey_level=5]");
   });
-  Ingredient.of("#minecraft:saplings").stacks.forEach((sapling) => {
-    sapling = sapling.id;
-    addInfusion("2x " + sapling, sapling, manaCost, "bee_nest[honey_level=5]");
-  });
+  if (!feature('Remove saplings')) {
+    Ingredient.of("#minecraft:saplings").stacks.forEach((sapling) => {
+      sapling = sapling.id;
+      addInfusion("2x " + sapling, sapling, manaCost, "bee_nest[honey_level=5]");
+    });
+  }
 }
 if (feature("prismarine_crystals removed from mobdrop")) {
   // <entitytype:minecraft:guardian>.addLootModifier("remove_prismarine_crystals_g", CommonLootModifiers.remove(<item:minecraft:prismarine_crystals>));
@@ -415,4 +417,23 @@ if (feature('Bush from grassblock and bonemeal')) {
 // }
 
 // if (feature('Grass from grass block with shears accessibility recipe')) {
+// }
+// if (feature('Replace slab with full')) {
+//     forEachRecipe({ type: 'minecraft:crafting' }, recipe => {
+//         let json = recipe.json;"
+//         ""minecraft:any_of""
+//         if (json.get('catalyst') === '{"type":"block","block":"botania:alchemy_catalyst"}') {
+            
+//             let ingredients = recipe.getOriginalRecipeIngredients();
+//             if (ingredients.length != 1) return;
+    
+//             let resultId = recipe.getOriginalRecipeResult().getId();
+//             let ingredientId = ingredients[0].getItemIds()[0];
+            
+//             if (global.itemsToRemove.includes(resultId) || global.itemsToRemove.includes(ingredientId)) return;
+
+//             addAlchemyRecipe(recipe.getOriginalRecipeResult(), ingredients[0], parseInt(json.get('mana')))
+//             recipe.remove()
+//         }
+//     })
 // }
