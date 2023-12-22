@@ -371,7 +371,7 @@
 	},
 	"ponder": null,
 	"sdrp": {
-		"sdrp.logo": "Hanging out with Betsy on version 1.175.11",
+		"sdrp.logo": "Hanging out with Betsy on version 1.176.6",
 		"sdrp.mainmenu": "Main Menu",
 		"sdrp.overworld.in": "On Chroma Prime",
 		"sdrp.overworld": "Chroma Prime"
@@ -861,10 +861,10 @@
 		"item.botania.obedience_stick.tooltip.summary": "_Binding flowers to a location en masse._ For some inexplicable reason, a _Blue Ingot_ attached to some _Livingwood Twigs_ is a thing flowers _pay attention to_. When used on a __Mana Spreader__ or __Mana Pool__, this tool (dubbed the _Floral Obedience Stick_) binds all nearby _Generating_ or _Functional_ flowers, respectively, to that block. A _Dispenser_ can also use a _Floral Obedience Stick_. Generate, or else!"
 	},
 	"ptdye": {
-		"advancement.ptdye.root": "Prepare To Dye!",
+		"advancement.ptdye.root": "Welcome to Chroma Prime",
 		"advancement.ptdye.root.desc": "Crash land on Chroma Prime",
 		"advancement.ptdye.toolbox": "In case of Crash Landing",
-		"advancement.ptdye.toolbox.desc": "Do you hear an alarm? Find the Purple Toolbox in the wreckage",
+		"advancement.ptdye.toolbox.desc": "Is that an alarm?",
 		"advancement.ptdye.daisy": "Critical Purification",
 		"advancement.ptdye.daisy.desc": "Did the Pure Daisy survive the crash?!",
 		"advancement.ptdye.white_powder": "Pure Milk",
@@ -887,10 +887,12 @@
 		"advancement.ptdye.cogs.desc": "Make Cogs",
 		"advancement.ptdye.grass_block": "Healthy Soil",
 		"advancement.ptdye.grass_block.desc": "Get a Grass Block",
-		"advancement.ptdye.bread": "Calories, Such a Dumb Dependency",
-		"advancement.ptdye.bread.desc": "Make Bread",
-		"advancement.ptdye.trade": "Time To Trade",
-		"advancement.ptdye.trade.desc": "Who needs quest books when you can trade!",
+		"advancement.ptdye.bread": "Make Bread",
+		"advancement.ptdye.bread.desc": "Calories, Such a Dumb Dependency",
+		"advancement.ptdye.trade": "Into the Mesh",
+		"advancement.ptdye.trade.desc": "Receive an intergalactic trade offer through the Mesh",
+		"advancement.ptdye.milk": "Automatic Milk",
+		"advancement.ptdye.milk.desc": "Setup automated milk production",
 		"item.ptdye.hammer": "Hammer",
 		"item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
 		"ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
