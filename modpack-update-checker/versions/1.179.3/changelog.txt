@@ -1,0 +1,13 @@
+### [1.179.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.2...1.179.3) (2023-12-22)
+
+
+### Documentation and Localization
+
+* remove old harvester tooltip ([d75344d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d75344d535c9f56ecbdc1b7a3a32475ce43ff201))
+
+
+### Developer experance improvments and changes
+
+* auto sort botania generated lang keys ([e95ef75](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e95ef752f598e3eec2b646f6aafd28710b357821))
+
+
