@@ -76,7 +76,6 @@ if (
       tag: "forge:device/furniture",
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
-      incomplete: "ptdye:incomplete_furnished_device",
       assembly: [
         "#minecraft:wool_carpets",
         "#forge:nuggets",
@@ -97,8 +96,10 @@ if (
           event.addSimpleBlock("minecraft:soul_campfire","minecraft:campfire")
         });
         
-        removeRecipe({"output":"minecraft:soul_torch",not:{type:"create:haunting"}})
-        removeAllRecipesForItem("minecraft:soul_campfire");
+        removeRecipe({id:"create:haunting/soul_campfire"});
+        removeRecipe({id:"minecraft:soul_campfire"});
+        removeRecipe({id:"minecraft:soul_torch"});
+        
         ['#minecraft:piglin_repellents','#minecraft:soul_fire_base_blocks'].forEach(material=>{
           ServerEvents.recipes(e=>{
             e.recipes.create.item_application("minecraft:soul_campfire",["minecraft:campfire",material]).keepHeldItem()
