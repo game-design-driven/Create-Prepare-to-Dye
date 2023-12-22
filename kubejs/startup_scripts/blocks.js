@@ -41,10 +41,27 @@ StartupEvents.registry("item", (event) => {
 
 StartupEvents.registry("block", (event) => {
 
-  event.create("ptdye:orange_tube_block")
-  .textureAll("ptdye:block/orange_tube_block_side")
-  .textureSide(Direction.UP,"ptdye:block/orange_tube_block_top")
-  .textureSide(Direction.DOWN,"ptdye:block/orange_tube_block_top");
+  event.create('ptdye:orange_tube_block')
+  .material("metal")
+  .soundType("copper")
+  .property(BlockProperties.AXIS)
+  .placementState(event => event['set(net.minecraft.world.level.block.state.properties.EnumProperty,java.lang.Enum)'](BlockProperties.AXIS, event.clickedFace.axis))
+  .blockstateJson = {
+    "variants": {
+      "axis=x": {
+        "model": "ptdye:block/orange_tube_block",
+        "x": 90,
+        "y": 90
+      },
+      "axis=y": {
+        "model": "ptdye:block/orange_tube_block"
+      },
+      "axis=z": {
+        "model": "ptdye:block/orange_tube_block",
+        "x": 90
+      }
+    }
+  }
 
   event.create("ptdye:frail_bone_block")
   .material("stone")

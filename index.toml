@@ -326,7 +326,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "61c0f177603eb24ae45eb9c21e8f616d5f6133a5debcebcefad79aa96fcb7e01"
+hash = "1f5c8206134058addbd86bcaa0b24edd81217d8336ee70d88d1f273a196f0e18"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -542,7 +542,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/allEnglishTranslationKeys.json"
-hash = "d1117381dcd45f836ae90995801a73fb02d6e31a178d178e76259c37c15118c7"
+hash = "ddd884213ab801ab0e0c726b8389a8f036f1b14903ec586a65031c905e932ed6"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -1305,6 +1305,10 @@ file = "kubejs/assets/ptdye/models/block/mechanical_device.json"
 hash = "e4aa5d83ec26a22ff3546de11a3abeddd961fcbd08b0eb0df79bdda566c5ef19"
 
 [[files]]
+file = "kubejs/assets/ptdye/models/block/orange_tube_block.json"
+hash = "8613842a72984a0b2e0a5d5e482cf20a7813b46cdb6c328cd76433716fc7705e"
+
+[[files]]
 file = "kubejs/assets/ptdye/models/block/red_stringed_device.json"
 hash = "2c744464c37a5a344b70e32979e3da850b00991ddb7f5e74570dac35140e9c5e"
 
@@ -1610,7 +1614,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2b32d4c557d68e82262d96c4497c602cbbfc2b14324fe3377c7fbe51ecba30d8"
+hash = "10ce0c67c965e74c4d787c48d9e0b5a910a89f4e2825e6376ce7e1d718cbbe98"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3130,7 +3134,7 @@ hash = "9fade3508ddbcb604c1ad328f67ce0bab4452ba0b686627d601e98fc17b04874"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "635bd12ebae3174acca529b450055d98d598093a52ae4d35f4516830d55d975b"
+hash = "81f6a958c24ea16f6f6edb4dbf1cff1914cf78f8c4aaa3226a6be9ca9522e6de"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/disable_saplings.js"
@@ -3166,7 +3170,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "b64e0ceb4f53d8a7e1b9daa5ce4f241fbd9fb06ee6d4800c6c365396d8f59f5a"
+hash = "a05552f62b7c929ceb5785fc603fe0cdc82f3fec3ce4519352bc91c816a7df92"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -3310,7 +3314,7 @@ hash = "04e61c9aba39781aac713d7f102234049b3e5660fd16b5e0ba97981a95931d0c"
 
 [[files]]
 file = "kubejs/server_scripts/base/process.js"
-hash = "7cc04ecc2bad3b32bd8d41074a21375b95a79d00e1c269f3de65b89563bc0203"
+hash = "caca16d19c232a827c824ea249533628de8866b4d5a87a04fdfc051ca6d51dfb"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/appliedEnergistics.manager.js"
@@ -3402,7 +3406,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "e1c09024726e54aa49b16864cfb1b8ae25a56a59b9bb6f13e84f7af8a149e672"
+hash = "a3fbcc6cd0e271e26078b1f63bf4fa5db1e286a6789f7e8156cf96dbb51cad55"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -3474,7 +3478,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d6746a418e42e10cc7724dbebc6dc9f3e73d836a9e8c0d135d3403c3de30cec9"
+hash = "02bb179cc6ff1a5f5b7db79c5e847fbe656010881784e0989be2bf591d101ae8"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4467,6 +4471,14 @@ hash = "381064add66a651bedac4d154caf54fcd778d71acd222327693e24775519dcf1"
 [[files]]
 file = "modpack-update-checker/versions/1.176.6/changelog.txt"
 hash = "84222320bb17bac0bc57db2f8caed2d5d44825c829f50f3145568b15eb053fe4"
+
+[[files]]
+file = "modpack-update-checker/versions/1.176.7/changelog.txt"
+hash = "b424b37f1e596c7a52fe4867bfd901fa3e7ee3dcd94e59129f47fcb1f90f8f9f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.176.8/changelog.txt"
+hash = "5f8ceaea76b721816773f255c48e2ce2309489f8a9ef0e50d9c915efeb569396"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
