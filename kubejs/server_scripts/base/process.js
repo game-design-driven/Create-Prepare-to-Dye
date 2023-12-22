@@ -16,31 +16,9 @@ ServerEvents.recipes((event) => {
   });
 });
 
-// onEvent('server.datapack.low_priority', (event) => {
-//     event.addJson('botania:orechid_ore_weights/orechid.json', {
-//         values: botaniaOrechidList
-//     });
-// }) not sure why I added it here need to look into it
-
-let lazy_removedRecipesMap = null;
-
-function createRemovedRecipeMap(itemsToRemove) {
-  let map = {};
-  for (let item of itemsToRemove) {
-    map[item] = true;
-  }
-  return map;
-}
-
 function hasRemovedItems(recipe) {
-  if (!lazy_removedRecipesMap)
-    lazy_removedRecipesMap = createRemovedRecipeMap(global.itemsToRemove);
-  if (Array.isArray(recipe.ingredients)) {
-    for (let ingredient of recipe.ingredients) {
-      if (lazy_removedRecipesMap[ingredient]) {
-        return true;
-      }
-    }
-  }
-  return false;
+  if (!Array.isArray(recipe.ingredients)) return false;
+  recipe.ingredients.forEach((ingredient) => {
+    if (itemsToRemove[ingredient]) return true;
+  });
 }
