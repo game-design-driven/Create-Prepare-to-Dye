@@ -1,0 +1,29 @@
+## [1.178.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.177.1...1.178.0) (2023-12-22)
+
+
+### Features
+
+* add network devices that are based on smart cable ([c833645](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c8336457e5e20bf254f9658efc255b02fb4626ca))
+* full device backend rework. Device crafting is now 731% more consistant and cool. Personal assembler crafting with EMI panel on the left should be much nicer to use. And the most important part, the code looks nice now ([41ed18a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/41ed18a90e695b7928210e875e67c30a84063de0))
+
+
+### Fixes
+
+* remove sapling duplication with bees as no saplins are avilable in this pack anyways. Those recipes will be reenabled if Remove saplings feature is turned off ([929c9c9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/929c9c96f7329e797fa34d47be3e097288810c43))
+* syntax utils limited ingredient amounts ([a37aee9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a37aee92424dc565ac4902beef9fd4f9aad86353))
+
+
+### Minor tweaks
+
+* add pressing to silicon from slime recipe ([390db1e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/390db1e3a710d4b5f4d555595e8b1b874dee764c))
+* alter create sleepers tag so that tracks can be made from more things ([34438d9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/34438d9c0da4b551d0ff0f344380c6d6750e4a50))
+
+
+### Developer experance improvments and changes
+
+* add craftable to dict ([3d07b7c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3d07b7c26d00ddfd2f07beddeb151a32fbe9b5b3))
+* add support for devices with no recipes for use in network devices ([aa03428](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aa03428ac570efcb286fcb01ec105b5411a5dacc))
+* format lychee ([c19f848](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c19f8483473e79b999098f072f9d49d3152f9be4))
+* tag automatically handles # if present ([471980e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/471980e9d6b17373f464dc4be8a334e80dd72302))
+
+
