@@ -217,5 +217,6 @@
 	"Remove assembly halo and manufactory halo": true,
 	"No More Ingots": false,
 	"Cut any plank to 2 sticks": true,
-	"Monorail track alternate recipe": true
+	"Monorail track alternate recipe": true,
+	"silicon slow smelting from quartz": true
 }

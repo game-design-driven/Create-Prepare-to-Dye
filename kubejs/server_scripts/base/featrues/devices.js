@@ -8,6 +8,16 @@ if (
     {
       tag: "forge:device/network",
       generic: "ae2:fluix_smart_cable",
+      included_devices: [
+        'ae2:toggle_bus',
+        'ae2:inverted_toggle_bus',
+        'ae2:fluix_smart_cable',
+        'ae2:level_emitter',
+        'ae2:storage_bus',
+        'ae2:storage_monitor',
+        'ae2:terminal',
+        "ae2:quartz_fiber"
+      ]
     },
     {
       tag: "forge:device/track",
