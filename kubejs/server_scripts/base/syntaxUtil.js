@@ -54,7 +54,7 @@ function solveLimitedIngredients(limitedIngredients) {
         let times = parseInt(limitedIngredient.split("x ")[0]);
         for (let i = 1; i < times; i++) {
           // starts from one because we'll push the default one later anyways
-          outArr.push(solveLimitedIngredient(limitedIngredient));
+          outArr.push(solveLimitedIngredient(limitedIngredient.split("x ")[1]));
         }
       }
       outArr.push(solveLimitedIngredient(limitedIngredient));
