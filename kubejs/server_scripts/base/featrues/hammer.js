@@ -1,11 +1,12 @@
 const hammer_deviceMap = new Map([
-  ["forge:device/andesite", "ptdye:mechanical_device"],
-  ["forge:device/cobblestone", "ptdye:sturdy_device"],
-  ["forge:device/redstone", "ptdye:logic_device"],
-  ["forge:device/copper", "ptdye:sealed_device"],
-  ["forge:device/brass", "ptdye:smart_device"],
-  ["forge:device/train", "ptdye:locomotive_device"],
-  ["forge:device/red_string", "ptdye:red_stringed_device"],
+  ["forge:device/mechanical", "ptdye:mechanical_device"],
+  ["forge:device/sturdy", "ptdye:sturdy_device"],
+  ["forge:device/logic", "ptdye:logic_device"],
+  ["forge:device/sealed", "ptdye:sealed_device"],
+  ["forge:device/smart", "ptdye:smart_device"],
+  ["forge:device/locomotive", "ptdye:locomotive_device"],
+  ["forge:device/red_stringed", "ptdye:red_stringed_device"],
+  ["forge:device/furniture", "ptdye:furnished_device"],
 ]);
 
 function hammer_breakBlock(block, item, player){
