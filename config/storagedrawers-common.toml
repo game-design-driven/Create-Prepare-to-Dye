@@ -8,7 +8,7 @@
 	#on X, Y, or Z planes.  The default value of 50 gives the controller a very
 	#large range, but not beyond the chunk load distance.
 	#Range: 1 ~ 75
-	controllerRange = 10
+	controllerRange = 5
 	enableUI = false
 	enableSidedInput = true
 	enableSidedOutput = true
