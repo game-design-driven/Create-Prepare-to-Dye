@@ -1,0 +1,15 @@
+## [1.180.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.10...1.180.0) (2023-12-23)
+
+
+### Features
+
+* Furnished device ([#448](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/448)) ([2c25d96](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2c25d964cc06bc2fd59c18282b6c873ac6acfafa))
+* furnished device added! ([0d9c0af](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0d9c0af860c0b29bf2473afc097a034f789437fc))
+
+
+### Fixes
+
+* hammer was using outdated tags! ([819d36f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/819d36f1800b14968b595616d9d8ebc12e8ac99b))
+* make bookshelves drop themselves ([76053c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/76053c8f3aaf2d6ee603317f7d6da4eeb144ee95))
+
+
