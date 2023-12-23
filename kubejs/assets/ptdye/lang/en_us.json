@@ -35,6 +35,9 @@
     "item.ptdye.hammer": "Hammer",
     "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
 
+    "status.ptdye.trading_platform.blocked": "Cannot land in the selected spot - The way is blocked",
+    "status.ptdye.trading_platform.platform_nearby": "USCUPP® terms and services do not allow trading platforms this close to each other",
+    "status.ptdye.trading_platform.landing_spot_ok": "",
 
     "ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
 }

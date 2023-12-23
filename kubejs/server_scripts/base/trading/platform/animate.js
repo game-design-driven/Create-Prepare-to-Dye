@@ -125,7 +125,6 @@ function check_floor_for_entity(entity, level) {
 }
 
 function clear_path_for_landing(entity, level) {
-    // Utils.server.getOverworld().getBlock(1,1,1).getMaterial().getMinecraftMaterial().
     for (let x_diff = -1; x_diff <= 1; x_diff++) {
         for (let z_diff = -1; z_diff <= 1; z_diff++) {
             let block = level.getBlock(

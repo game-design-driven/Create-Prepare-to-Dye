@@ -1,4 +1,6 @@
 const Integer = Java.loadClass('java.lang.Integer');
+const $Heightmap = Java.loadClass("net.minecraft.world.level.levelgen.Heightmap");
+
 const MIN_PLATFORM_SPAWN_HEIGHT = 350.15;
 const MIN_LANDING_HEIGHT_DIFF = 240.15;
 const REGULAR_PLATFORM_SPAWN_RADIUS = 1;
@@ -11,7 +13,9 @@ if (feature("Trading platforms")) {
 
     PlayerEvents.loggedIn(event => {
         if (!Utils.server.persistentData.getBoolean("spawned_first_trading_platform")) {
-            let spawn_coordinates = generate_spawn_coordinates(event.player, FIRST_PLATFORM_SPAWN_RADIUS, FIRST_PLATFORM_MIN_LANDING_HEIGHT_DIFF);
+            let [x, z] = generate_horizontal_coords_around_player(event.player, FIRST_PLATFORM_SPAWN_RADIUS);
+            add_new_platform_coords(x, z);
+            let spawn_coordinates = get_all_coords(x, z, FIRST_PLATFORM_MIN_LANDING_HEIGHT_DIFF);
             let trade_items = global.starterDeals.map(deal => {
                 return deal.item;
             });
@@ -20,24 +24,72 @@ if (feature("Trading platforms")) {
         }
     })
 
+    PlayerEvents.tick(event => {
+        if (event.player.mainHandItem.id == "ptdye:trading_transceiver" || event.player.offhandItem.id == "ptdye:trading_transceiver") {
+            let pointed_block = event.player.rayTrace(30, false).block;
+            if (pointed_block == null) {
+                update_preview_display_state(event.player, "ok");
+                return;
+            }
+            if (!is_landing_spot_valid(pointed_block.pos.above())) {
+                update_preview_display_state(event.player, "blocked");
+                return;
+            }
+            let [x, z] = get_horizontal_coords_from_pointed_block(pointed_block);
+            if (is_near_existing_platform(x, z)) {
+                update_preview_display_state(event.player, "platform_nearby");
+                return;
+            }
+            update_preview_display_state(event.player, "ok");
+        }
+    })
+
     ItemEvents.rightClicked("ptdye:trading_transceiver", event => {
 
         event.player.swing();
-        
-        let spawn_coordinates = generate_spawn_coordinates(event.player, REGULAR_PLATFORM_SPAWN_RADIUS, MIN_LANDING_HEIGHT_DIFF);
-        if (spawn_coordinates === null) {
-            event.player.setStatusMessage("Too many trading platforms nearby - cannot guarantee a safe landing");
+
+        let pointed_block = event.player.rayTrace(30, false).block;
+        if (pointed_block == null) {
             event.cancel();
             return;
         }
+        if (!is_landing_spot_valid(pointed_block.pos.above())) {
+            event.cancel();
+            return;
+        }
+        let [x, z] = get_horizontal_coords_from_pointed_block(pointed_block);
+        
+        if (is_near_existing_platform(x, z)) {
+            event.cancel();
+            return;
+        }
+        add_new_platform_coords(x, z);
+        let spawn_coordinates = get_all_coords(x, z, MIN_LANDING_HEIGHT_DIFF);
 
         spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
         event.item.count --;
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
         
         event.cancel();
-
     })
+}
+
+function update_preview_display_state(player, state) {
+    let data = CompoundTag();
+    data.putString("state", state);
+    player.sendData("landing_spot_preview_stage_change", data);
+}
+
+function is_landing_spot_valid(pos) {
+    for (let x_diff = -1; x_diff <= 1; x_diff++) {
+        for (let z_diff = -1; z_diff <= 1; z_diff++) {
+            let height = Utils.server.getOverworld().getHeight($Heightmap.Types.OCEAN_FLOOR, pos.x + x_diff, pos.z + z_diff);
+            if (height > pos.y) {
+                return false
+            }
+        }
+    }
+    return true;
 }
 
 function spawnTradingPlatform(player, pilot_name, spawn_coordinates, items) {
@@ -133,30 +185,34 @@ function spawnPilot(event, spawn_coordinates, main_entity, name) {
     return pilot;
 }
 
-function generate_spawn_coordinates(player, radius, min_height_diff) {
-    for (let i = 0; i < MAX_COORDINATE_GENERATION_ATTEMPTS; i++) {
-        let x = player.blockX + 0.5 + randInt(-radius, radius + 1);
-        let z = player.blockZ + 0.6 + randInt(-radius, radius + 1);
-        let floor_level = get_floor_level(player.level, x, z);
-        let y = Math.max(MIN_PLATFORM_SPAWN_HEIGHT, floor_level + min_height_diff);
-        let coords = {
-            x: x,
-            z: z,
-            y: y,
-            floor_level: floor_level,
-        };
+function get_horizontal_coords_from_pointed_block(pointed_block) {
+    return [pointed_block.x + 0.5, pointed_block.z + 0.6];
+}
 
-        if (!is_near_existing_platform(coords)) {
-            let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
-            existing_platforms_x.push(Integer.parseInt(Math.trunc(x).toString()));
-            Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
-            let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
-            existing_platforms_z.push(Integer.parseInt(Math.trunc(z).toString()));
-            Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
-            return coords;
-        }
-    }
-    return null;
+function generate_horizontal_coords_around_player(player, radius) {
+    let x = player.blockX + 0.5 + randInt(-radius, radius + 1);
+    let z = player.blockZ + 0.6 + randInt(-radius, radius + 1);
+    return [x, z];
+}
+
+function get_all_coords(x, z, min_height_diff) {
+    let floor_level = get_floor_level(Utils.server.overworld(), x, z);
+    let y = Math.max(MIN_PLATFORM_SPAWN_HEIGHT, floor_level + min_height_diff);
+    return {
+        x: x,
+        z: z,
+        y: y,
+        floor_level: floor_level,
+    };
+}
+
+function add_new_platform_coords(x, z) {
+    let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
+    existing_platforms_x.push(Integer.parseInt(Math.trunc(x).toString()));
+    Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
+    let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
+    existing_platforms_z.push(Integer.parseInt(Math.trunc(z).toString()));
+    Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
 }
 
 function get_floor_level(level, x, z) {
@@ -184,11 +240,11 @@ function check_floor(level, x, y, z) {
 }
 
 
-function is_near_existing_platform(coords) {
+function is_near_existing_platform(x, z) {
     let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x");
     let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z");
     for (let i = 0; i < existing_platforms_x.length; i++) {
-        if (distance(Math.trunc(coords.x), Math.trunc(coords.z), existing_platforms_x[i], existing_platforms_z[i]) < MIN_PLATFORM_DISTANCE) {
+        if (distance(Math.trunc(x), Math.trunc(z), existing_platforms_x[i], existing_platforms_z[i]) < MIN_PLATFORM_DISTANCE) {
             return true;
         }
     }
