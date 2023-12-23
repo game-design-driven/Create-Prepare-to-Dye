@@ -1,7 +1,7 @@
 
 addGrow('minecraft:dead_bush', 'minecraft:white_concrete_powder', 'bone_meal')
 addCrushing(['white_dye %5', 'dead_bush %5', 'bone %3', 'bone_meal %0.1', 'stick %0.1'], 'white_concrete_powder')
-addMilling(['dead_bush %10','bone %4'], 'white_concrete_powder')
+addMilling(['dead_bush %7','bone %4'], 'white_concrete_powder')
 addCompacting('dirt',['2x stick','#forge:sand','clay_ball'])
 addCompacting('dirt %75',['4x stick','clay'])
 addCompacting('dirt %75',['4x stick','2x #forge:sand'])
