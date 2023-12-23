@@ -1,0 +1,15 @@
+### [1.180.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.180.0...1.180.1) (2023-12-23)
+
+
+### Fixes
+
+* none 1 to 1 device ratios can not be made from ones that are ([eff9d66](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eff9d66eca29dc8a9ddebe92632e5dce99405621))
+
+
+### Minor tweaks
+
+* make hollow logs from wood blocks instead of log blocks ([6e06ec9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6e06ec9da13f892df40dff217a310eccc7a63744))
+* nerf range of storage controllers ([f419f3c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f419f3cf10f5946417829d533a328c80825990b5))
+* slight nerf to dead bush from white powder ([737fb12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/737fb12d16511f1e655f770d247a0836831e9301))
+
+
