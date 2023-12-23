@@ -57,6 +57,10 @@
 			"key": "block.minecraft.spruce_wood.tooltip.summary"
 		},
 		{
+			"namespace": "ptdye",
+			"key": "item.ptdye.incomplete_furnished_device"
+		},
+		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.raw_copper.tooltip.summary"
 		},
@@ -190,11 +194,11 @@
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.upside_down_fire"
+			"key": "block.ptdye.yellow_dye_block"
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.yellow_dye_block"
+			"key": "block.ptdye.upside_down_fire"
 		},
 		{
 			"namespace": "minecraft",
@@ -259,10 +263,6 @@
 		{
 			"namespace": "minecraft",
 			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
-		},
-		{
-			"namespace": "minecraft",
-			"key": "block.create.mechanical_harvester.tooltip.summary"
 		},
 		{
 			"namespace": "ptdye",
@@ -363,6 +363,10 @@
 		{
 			"namespace": "minecraft",
 			"key": "item.minecraft.golden_sword.tooltip.summary"
+		},
+		{
+			"namespace": "ptdye",
+			"key": "block.ptdye.furnished_device"
 		},
 		{
 			"namespace": "ptdye",

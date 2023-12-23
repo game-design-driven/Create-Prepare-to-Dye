@@ -73,6 +73,36 @@ if (
       },
     },
     {
+      tag: "forge:device/furniture",
+      generic: "ptdye:furnished_device",
+      base: "minecraft:stick",
+      assembly: [
+        "#minecraft:wool_carpets",
+        "#forge:nuggets",
+        "#minecraft:planks",
+        "#minecraft:planks"
+      ],
+      included_devices: ['minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
+      amount_crafted: 4,
+      post_logic: () => {
+        ServerEvents.blockLootTables(event=>{
+          event.addSimpleBlock("minecraft:bookshelf","minecraft:bookshelf")
+          event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
+          event.addSimpleBlock("minecraft:soul_campfire","minecraft:campfire")
+        });
+        
+        removeRecipe({id:"create:haunting/soul_campfire"});
+        removeRecipe({id:"minecraft:soul_campfire"});
+        removeRecipe({id:"minecraft:soul_torch"});
+        
+        ['#minecraft:piglin_repellents','#minecraft:soul_fire_base_blocks'].forEach(material=>{
+          ServerEvents.recipes(e=>{
+            e.recipes.create.item_application("minecraft:soul_campfire",["minecraft:campfire",material]).keepHeldItem()
+          })
+        })
+      },
+    },
+    {
       tag: "forge:device/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
