@@ -1,0 +1,8 @@
+### [1.180.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.180.1...1.180.2) (2023-12-23)
+
+
+### Minor tweaks
+
+* add built in monucle to automaton ([d5c0a19](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d5c0a19a9a394e6c454043da879b3521d42032f4))
+
+
