@@ -82,13 +82,7 @@ if (
         "#minecraft:planks",
         "#minecraft:planks"
       ],
-      included_devices: [
-        'create:cuckoo_clock', 'minecraft:bookshelf', 'minecraft:note_block', 'minecraft:oak_door', 'minecraft:oak_sign',
-        'minecraft:oak_button', 'minecraft:composter', 'supplementaries:hanging_sign_oak', 'supplementaries:pulley_block', 'minecraft:barrel',
-        'minecraft:oak_pressure_plate', 'create:wooden_bracket', 'supplementaries:speaker_block', 'minecraft:painting', 'supplementaries:notice_board',
-        'supplementaries:bellows', 'minecraft:light_blue_bed', 'minecraft:chest', 'supplementaries:sign_post_oak', 'minecraft:item_frame',
-        'storagedrawers:oak_full_drawers_1', 'minecraft:jukebox', 'create:white_seat', 'minecraft:campfire', 'minecraft:lectern'
-      ],
+      included_devices: ['minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
       amount_crafted: 4,
       post_logic: () => {
         ServerEvents.blockLootTables(event=>{
