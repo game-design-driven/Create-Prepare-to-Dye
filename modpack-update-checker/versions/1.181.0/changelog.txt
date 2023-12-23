@@ -1,0 +1,8 @@
+## [1.181.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.180.2...1.181.0) (2023-12-23)
+
+
+### Features
+
+* Add trading platform location previews ([e324d66](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e324d669a2446c90c7f49b3dcf8c0aa8d873eada))
+
+

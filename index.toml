@@ -334,7 +334,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4ce2110d09f631671059a08aacc2696673318154f7751ecaccd02830774e0178"
+hash = "1bfe63efc5c0f0e87914f0253eaee76c41613691ce7e5c85c397f8ff3e65ddb8"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -1294,7 +1294,7 @@ hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "92dca309d53e3beeb46e5e7aff718c0e53ca1eb12a622f9843ec50ebaef09dbd"
+hash = "8eb9348f43c9de347c116ab99d11f0376925d3e0f14c4ee3ebe9c929b31f5513"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/frail_bone_block.json"
@@ -1634,7 +1634,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "7b0bd4932f96f475b31b866ace1293c8c982d7ce98c22815f0789e71ee493d1d"
+hash = "fdffc73ee57e1af44aa0503cbcd696212b178fee4b64cdcac027be6f922b759b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1907,6 +1907,10 @@ hash = "92765097ee60822eb443c3581b71f773919d6ac10f930e42a068c8a6d2f2bdc7"
 [[files]]
 file = "kubejs/client_scripts/trading_platform_music.js"
 hash = "a4cc9ef30126a39f955768f60f4681d5231ef70b8400c0001a492e5b9df531c9"
+
+[[files]]
+file = "kubejs/client_scripts/trading_platform_preview.js"
+hash = "09fbe2256703af66dbab1a26106b302e38b365b8fd8885bc937e113362d165d9"
 
 [[files]]
 file = "kubejs/client_scripts/variants.js"
@@ -3414,7 +3418,7 @@ hash = "e050b8dff2bd0cc7e2a7f115997541cc5e65c6d28c375d5064d725a77f74f44f"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
-hash = "7fb83952f430cf0a607f060cf5eb6c9794319342f99d87f68df4b048e399afbd"
+hash = "f675cbc6c2b47059e022bf4c10542c96d4c8cec681b8c3e0f4f4bf304f9f6044"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/music.js"
@@ -3426,7 +3430,7 @@ hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/spawn.js"
-hash = "ead26431bf05a31558788c113bd3c4333b8e47b3da9f6cfa007c17f5ec144d89"
+hash = "a7ac0d60da08620492bd0956da2ebeeb7384ede8db14159a33f6154e31f5cf68"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -3522,7 +3526,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ede79ca90b92054b4d204adb301e92d16c21284fcb8773f18512d85e46a52186"
+hash = "ccd998e977b9dc84a495518e21b21a3784d17c2f295491fdd7ae7b745fba1f69"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4595,6 +4599,10 @@ hash = "bb5445b1b452655cf76c1ca56e7bba7caa3195d1fbdfaeb74df12c538f4e2a86"
 [[files]]
 file = "modpack-update-checker/versions/1.180.2/changelog.txt"
 hash = "ce5b091bf441be642124cf5ded5d6a699d2560e6ccb460cd0b7ac2075b722976"
+
+[[files]]
+file = "modpack-update-checker/versions/1.181.0/changelog.txt"
+hash = "ab1de38763133faa784798154356b49320a87fcdc977b7bf617c56a1028e5e2e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
