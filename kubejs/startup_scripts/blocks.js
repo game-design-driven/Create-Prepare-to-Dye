@@ -19,7 +19,7 @@ StartupEvents.registry("fluid", (event) => {
 StartupEvents.registry("item", (event) => {
   event
     .create("fermented_blob")
-    .displayName("Fermented Blob")
+    .displayName("Fermented Blob")  
     .food((food) => {
       food
         .hunger(3)
@@ -102,6 +102,7 @@ StartupEvents.registry("block", (event) => {
       .noValidSpawns(true)
       .suffocating(false)
       .viewBlocking(false)
+      .defaultCutout()
       .transparent(true);
   }
 

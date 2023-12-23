@@ -265,10 +265,6 @@
 			"key": "block.createdieselgenerators.diesel_engine.tooltip.summary"
 		},
 		{
-			"namespace": "minecraft",
-			"key": "block.create.mechanical_harvester.tooltip.summary"
-		},
-		{
 			"namespace": "ptdye",
 			"key": "block.ptdye.logic_device"
 		},
