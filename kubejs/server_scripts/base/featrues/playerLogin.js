@@ -12,22 +12,10 @@ function automatonAttributes(player) {
   player.setAttributeBaseValue("forge:attack_range", 30);
   player.setAttributeBaseValue("minecraft:generic.attack_damage", 3);
   Utils.server.runCommandSilent(
-    `curios remove belt ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
-    `curios remove body ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
-    `curios remove charm ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
-    `curios remove necklace ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
-    `curios remove ring ${player.displayName.getString()}`
-  );
-  Utils.server.runCommandSilent(
     `curios replace crafting_on_a_stick 0 ${player.displayName.getString()} with crafting_on_a_stick:stonecutter`
+  );
+  Utils.server.runCommandSilent(
+    `curios replace charm 0 ${player.displayName.getString()} with botania:monocle`
   );
   Utils.server.runCommandSilent(
     `curios replace head 0 ${player.displayName.getString()} with create:goggles`
