@@ -329,7 +329,7 @@ if (
           );
           addedTagRecipes[device.tag + tagSuffix] = true;
         }
-      } else {
+      } 
         let allButCurrentDevice = device.included_devices.filter(
           (element) => element !== item.id && Item.of(element).count == 1
         );
@@ -338,7 +338,7 @@ if (
           Ingredient.of(allButCurrentDevice),
           true
         ); //let players transmute any device but don't show in craftables panel
-      }
+      
       addToTag(device.tag + tagSuffix, item.id);
       addStonecutting(included_device, device.generic);
     });
