@@ -1,0 +1,8 @@
+### [1.179.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.179.9...1.179.10) (2023-12-23)
+
+
+### Fixes
+
+* plates and ingots mixup ([51fbf51](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/51fbf51a1af8c5f345bbf34b9f6f0ad7e78ae734))
+
+

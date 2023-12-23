@@ -275,7 +275,7 @@ if (
         "create:stressometer",
         "create:speedometer",
         "create:schematic_table",
-        "2x create:vertical_gearbox",
+        "create:vertical_gearbox",
         "create:andesite_tunnel",
         "create:andesite_funnel",
         "create:mechanical_plough",
