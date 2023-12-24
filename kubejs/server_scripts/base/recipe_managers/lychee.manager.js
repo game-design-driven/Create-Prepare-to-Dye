@@ -119,17 +119,17 @@ function addGrow(block_out, block_in, item_in, ghost) {
   };
   modpackRecipes.push(recipe);
 }
-addItemInside(
-  [
-    { type: "drop_item", item: "white_dye" },
-    {
-      type: "place",
-      block: { blocks: ["water_cauldron"], state: { level: 2 } },
-    },
-  ],
-  "#forge:dyes",
-  { blocks: ["water_cauldron"], level: 3, state: {} }
-);
+// addItemInside(
+//   [
+//     { type: "drop_item", item: "white_dye" },
+//     {
+//       type: "place",
+//       block: { blocks: ["water_cauldron"], state: { level: 2 } },
+//     },
+//   ],
+//   "#forge:dyes",
+//   { blocks: ["water_cauldron"], level: 3, state: {} }
+// );
 
 // addItemInside(
 //   [
