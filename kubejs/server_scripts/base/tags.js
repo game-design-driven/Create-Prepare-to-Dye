@@ -72,7 +72,8 @@ addToTag('forge:coral', [
 addToTag('forge:canvasables', [
     'minecraft:leather',
     'ae2:silicon',
-    'dried_kelp'
+    'dried_kelp',
+    'minecraft:phantom_membrane'
 ])
 
 removeFromTag('logs_that_burn','botania:livingwood')
