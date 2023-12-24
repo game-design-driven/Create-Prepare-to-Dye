@@ -387,7 +387,8 @@ if (feature("Elytra recipe")) {
   });
 }
 if (feature('Bush from grassblock and bonemeal')) {
-  addGrow('minecraft:grass', 'minecraft:grass_block', 'bone_meal', true)
+  addGrow(['minecraft:grass','minecraft:tall_grass'], 'minecraft:grass_block', 'bone_meal', true)
+  addGrow('minecraft:tall_grass', 'minecraft:grass', 'bone_meal', true)
 }
 
 if (feature('Remove vanilla bonemeal from bones recipe')) {
