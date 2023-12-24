@@ -66,6 +66,13 @@ addTooltip([
 ], 'Yellow tools are always outfitted with _Fortune_, widely used in production lines and slave mines')
 
 addTooltip([
+  'diamond_pickaxe',
+  'diamond_shovel',
+  'diamond_axe',
+  'diamond_hoe'
+], 'Light Blue tools are always outfitted with _Silk Touch_, used for collection of delicate minerals and in limb relocation surgeries')
+
+addTooltip([
   'oak_wood',
   'spruce_wood',
   'birch_wood',
