@@ -45,6 +45,11 @@ if (feature('Ores from dyes')) {
     // addCompacting('raw_iron', ['4x #forge:dyes', '750mb milk'])
 }
 
+if (feature('Milling recipes for raw white, orange and yellow')) {
+    addMilling(['create:crushed_raw_iron','create:crushed_raw_iron %5' ], 'raw_iron')
+    addMilling(['create:crushed_raw_copper','create:crushed_raw_copper %5' ], 'raw_copper')
+    addMilling(['create:crushed_raw_gold','create:crushed_raw_gold %5' ], 'raw_gold')
+}
 if (feature('Milling recipes for crushed white, orange and yellow')) {
     addMilling('8x iron_nugget', 'create:crushed_raw_iron')
     addMilling('8x copper_nugget', 'create:crushed_raw_copper')
