@@ -221,5 +221,10 @@
 	"silicon slow smelting from quartz": true,
 	"You can pet betsy": true,
 	"Command to teleport to Betsy": true,
-	"Remove vanilla bonemeal from bones recipe": true
+	"Remove vanilla bonemeal from bones recipe": true,
+	"Raw white, orange and yellow produce less xp in crushing wheels": true,
+	"Milling recipes for raw white, orange and yellow": true,
+	"Nerf nugget output of washing crushed stuff": true,
+	"Milling recipes for crushed white, orange and yellow": true,
+	"Diamond tools have silk touch": true
 }
