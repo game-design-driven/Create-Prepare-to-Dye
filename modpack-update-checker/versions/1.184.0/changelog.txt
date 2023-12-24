@@ -1,0 +1,17 @@
+## [1.184.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.183.1...1.184.0) (2023-12-24)
+
+
+### Features
+
+* Diamond tools have silk touch ([2fda5ad](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2fda5ad9ca2a5714ab68b7cc8d8ffd022b9fde26))
+* Milling recipes for crushed white, orange and yellow ([075e52f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/075e52f3ec97ba643ecd2bb8ccc2b8b958e7d796))
+* Milling recipes for raw white, orange and yellow ([d8c40bc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d8c40bca7105c01a8ff60e9e5d412aa1f9964781))
+* Nerf nugget output of washing crushed stuff ([317b7cc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/317b7cc2d02e7618bfcf07076ba6eb6b465da8a3))
+* Raw white, orange and yellow produce less xp in crushing wheels ([83b89d3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/83b89d3560274d2ce4f289842ee7c8546bf3b5f8))
+
+
+### Fixes
+
+* remove duplicate gold is 4 nuggets features ([8554c70](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8554c707a126b1012c579253981ab1ec9cf79ead))
+
+
