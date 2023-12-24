@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:quark:blossom_log"
+	],
+	"text": "block.quark.blossom_log.tooltip.summary"
+}

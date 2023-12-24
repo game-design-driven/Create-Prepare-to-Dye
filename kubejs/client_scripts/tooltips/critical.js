@@ -97,4 +97,16 @@ addTooltip([
   'dark_oak_log',
   'crimson_stem',
   'warped_stem',
-], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees, none can grow here. _Expect to pay highly to get yours_. It is also said that there are advanced methods that use chorus _chorus fruit_ or _livingwood sticks_ that can also result in useable logs')
+  'botania:livingwood_log',
+  'botania:livingwood',
+  'botania:dreamwood_log',
+  'botania:dreamwood',
+  'botania:glimmering_livingwood_log',
+  'botania:glimmering_livingwood',
+  'botania:glimmering_dreamwood_log',
+  'botania:glimmering_dreamwood',
+  'quark:blossom_log',
+  'quark:blossom_wood',
+  'quark:stripped_blossom_log',
+  'quark:stripped_blossom_wood',
+], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees, none can grow here. _Expect to pay highly to get yours_. It is also said that there are advanced methods that use _chorus fruit_ or _livingwood sticks_ that can also result in useable logs')

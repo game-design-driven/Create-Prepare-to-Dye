@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:livingwood_log"
+	],
+	"text": "block.botania.livingwood_log.tooltip.summary"
+}
