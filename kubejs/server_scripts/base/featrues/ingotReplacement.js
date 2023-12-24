@@ -3,7 +3,11 @@
 if (feature('Gold is 4 nuggets')) {
 
   removeRecipe({id:"create:splashing/crushed_raw_gold"})
-  addSplashing(['4x gold_nugget', 'ae2:large_quartz_bud %5'], 'create:crushed_raw_gold')
+  if (feature('Nerf nugget output of washing crushed stuff')) {
+    addSplashing(['3x gold_nugget', 'ae2:large_quartz_bud %7'], 'create:crushed_raw_gold')
+  }else{
+    addSplashing(['4x gold_nugget', 'ae2:large_quartz_bud %5'], 'create:crushed_raw_gold')
+  }
 
   removeRecipe({id: "minecraft:gold_ingot_from_nuggets"})
   replaceShapeless('gold_ingot', ['4x minecraft:gold_nugget'])

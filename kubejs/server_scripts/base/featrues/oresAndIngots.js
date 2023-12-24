@@ -45,6 +45,12 @@ if (feature('Ores from dyes')) {
     // addCompacting('raw_iron', ['4x #forge:dyes', '750mb milk'])
 }
 
+if (feature('Nerf nugget output of washing crushed stuff')) {
+    removeRecipe({ id: 'create:splashing/crushed_raw_iron' })
+    addSplashing(['7x iron_nugget', 'redstone %50'], 'create:crushed_raw_iron')
+    removeRecipe({ id: 'create:splashing/crushed_raw_copper' })
+    addSplashing(['7x copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
+}
 if (feature('Ore processing')) {
     removeRecipe({ id: 'create:crushing/coal_ore' })
     removeRecipe({ id: 'create:crushing/deepslate_coal_ore' })
