@@ -17,7 +17,7 @@ function addFakeTradeRecipe(output_item, input, block_in) {
     post: {
       type: "drop_item",
       item: output_item.id,
-      nbt: output_item.nbtString
+      nbt: output_item.nbtString,
     },
     ghost: true,
   };
@@ -28,12 +28,12 @@ function addTradeBlendingRecipe(output_item, input) {
   let result = {
     type: "lychee:item_inside",
     item_in: input,
-    block_in: 'minecraft:stone_slab',
+    block_in: "minecraft:stone_slab",
     post: output_item.map((item) => {
       return {
         type: "drop_item",
         item: item.id,
-        nbt: item.nbtString
+        nbt: item.nbtString,
       };
     }),
   };
@@ -93,41 +93,49 @@ function addBlockExplode(block_out, block_in) {
   modpackRecipes.push(recipe);
 }
 const advancementRadius = 50;
-function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
-  let post = [
-      {
-          type: "place",
-          block: 'air'
-      },
-      {
-      type: 'drop_item',
-      item: item_out,
-  },
-
-]
-  if (advancement != null) {
-      post[2] = {
-          type: 'execute',
-          hide: true,
-          command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`
-      }
-  }
-  let recipe = {
-      type: 'lychee:block_interacting',
-      item_in: solveLimitedIngredient(item_in),
-      block_in: block_in,
-      post: post,
-  }
-  modpackRecipes.push(recipe)
-}
-function addGrow(block_out, block_in, item_in, ghost) {
+function addBlockInteractToItem(
+  item_out,
+  block_in,
+  item_in,
+  advancement,
+  ghost
+) {
   ghost = ghost || false;
   let post = [
     {
       type: "place",
-      block: block_out,
-      offsetY: 1,
+      block: "air",
     },
+    {
+      type: "drop_item",
+      item: item_out,
+    },
+  ];
+  if (advancement != null) {
+    post[2] = {
+      type: "execute",
+      hide: true,
+      command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`,
+    };
+  }
+  let recipe = {
+    type: "lychee:block_interacting",
+    item_in: solveLimitedIngredient(item_in),
+    block_in: block_in,
+    post: post,
+    ghost: ghost,
+  };
+  modpackRecipes.push(recipe);
+}
+function addGrow(block_out, block_in, item_in, ghost) {
+  ghost = ghost || false;
+  block_out = Array.isArray(block_out) ? block_out : [block_out];
+  let post = [
+    // {
+    //   type: "place",
+    //   block: block_out,
+    //   offsetY: 1,
+    // },
     {
       type: "execute",
       command: "particle minecraft:happy_villager ~ ~1 ~ 1 1 1 0 5",
@@ -139,14 +147,42 @@ function addGrow(block_out, block_in, item_in, ghost) {
       hide: true,
     },
   ];
+  post.push(
+    block_out.map((block) => {
+      return {
+        type: "place",
+        block: block,
+        offsetY: 1,
+      };
+    })
+  );
   let recipe = {
     type: "lychee:block_interacting",
     item_in: solveLimitedIngredient(item_in),
     block_in: block_in,
     post: post,
     ghost: ghost,
+    hidden: true,
+  };
+  let fakePost = {
+    type: "random",
+    entries: block_out.map((block) => {
+      return {
+        type: "drop_item",
+        item: block,
+      };
+    }),
+  };
+
+  let fakeRecipe = {
+    type: "lychee:block_interacting",
+    item_in: solveLimitedIngredient(item_in),
+    block_in: block_in,
+    post: fakePost,
+    ghost: true,
   };
   modpackRecipes.push(recipe);
+  modpackRecipes.push(fakeRecipe);
 }
 // addItemInside(
 //   [
