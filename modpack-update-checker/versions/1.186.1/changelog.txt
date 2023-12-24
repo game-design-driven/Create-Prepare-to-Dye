@@ -1,0 +1,13 @@
+### [1.186.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.186.0...1.186.1) (2023-12-24)
+
+
+### Fixes
+
+* block interaction recipes not showing properly ([fd98c28](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fd98c28be18830649097e8d448d8cd037c3c2493))
+
+
+### Minor tweaks
+
+* remove dye washing recipe to that makes white dye, there are enough cool ways to make white dye ([05f849f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/05f849f179651c29fbaf8f8a00be6126773e8a80))
+
+
