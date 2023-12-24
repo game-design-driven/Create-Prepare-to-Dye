@@ -9,6 +9,36 @@ function addItemInside(post, input, block_in) {
   };
   modpackRecipes.push(result);
 }
+function addFakeTradeRecipe(output_item, input, block_in) {
+  let result = {
+    type: "lychee:item_inside",
+    item_in: input,
+    block_in: block_in,
+    post: {
+      type: "drop_item",
+      item: output_item.id,
+      nbt: output_item.nbtString
+    },
+    ghost: true,
+  };
+  modpackRecipes.push(result);
+}
+function addTradeBlendingRecipe(output_item, input) {
+  output_item = Array.isArray(output_item) ? output_item : [output_item];
+  let result = {
+    type: "lychee:item_inside",
+    item_in: input,
+    block_in: 'minecraft:stone_slab',
+    post: output_item.map((item) => {
+      return {
+        type: "drop_item",
+        item: item.id,
+        nbt: item.nbtString
+      };
+    }),
+  };
+  modpackRecipes.push(result);
+}
 function addItemInsidePlace(block_out, input, block_in) {
   let result = {
     type: "lychee:item_inside",
