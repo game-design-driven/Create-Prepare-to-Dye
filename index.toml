@@ -334,7 +334,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3e3792904402c4c14c774aeca722ab8923136af2fc41cccadf5558502354b059"
+hash = "70e6f7aa31a1c52ce3c823dd600e7bad16bc44a8b441e718760d31253074d4e9"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -2262,7 +2262,7 @@ hash = "df1d5a31f96708930d8c25a90e671bbf2c451d9bec09a093128b3e8a86f57a90"
 
 [[files]]
 file = "kubejs/assets/lychee/lang/en_us.json"
-hash = "50ce7f1270c7f29f30d4803dd4befebcae8a8ab052f7d514f2f8218f230ce2a0"
+hash = "66ac0ceb58437f2a90b3e289c9877d90adc7b4f822cf3019602a72022c420739"
 
 [[files]]
 file = "kubejs/assets/lychee/textures/gui/jei/widgets.png"
@@ -3162,7 +3162,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "372479df7d4838d55925e2ebcd85532be325ebd173c213fc3f09eeca64eea270"
+hash = "468c80643d48547151df025c5eddc06beab0a637f12ab1964288cc654dcce2a6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4922,7 +4922,7 @@ hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "4265e7f5815ad8f198551e23731759cd460b1181131b73f43a4c7d5a8ace1223"
+hash = "21211ccbb66a0ae1e4efdf588ae6b77f5f52ad16c55ca5dd445e3c73c8034590"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -4930,7 +4930,7 @@ hash = "b187a0e57008074c68f3d8f060dcee82a9db913a9f31e2c8fa95ad64bcb61e66"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "5a097cf0f97f347eb7c65a867d5da2cbe1d5d702fac4e4ab80c3c56984cd3f00"
+hash = "b46726d9dde75ae1119e7819f60d09892dd0331d61e2aa575c469ee710155907"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -5062,7 +5062,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5af294d1aa82cf10e1c6811ce284884f4e1396d536fda15f29ffae7b3a5d1314"
+hash = "cc999c1f2067fea4fec813b7bf49e33bbfe80a2911f81a8b62304dcce2561134"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6175,6 +6175,10 @@ hash = "6df04fd19beb1486eac47f1488d533080a7784ca068da7100bf189552b4f0473"
 [[files]]
 file = "modpack-update-checker/versions/1.186.2/changelog.txt"
 hash = "22fd95bd273baafd1548b464ce9957d4e43f1db04c00fa4db6d03843ba3b0147"
+
+[[files]]
+file = "modpack-update-checker/versions/1.187.0/changelog.txt"
+hash = "f22ea1573e7fffc5bec91fe0a0f1119b5e6985867876e9e82344c8051d6f4076"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
