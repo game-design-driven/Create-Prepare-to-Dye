@@ -131,58 +131,58 @@ addItemInside(
   { blocks: ["water_cauldron"], level: 3, state: {} }
 );
 
-addItemInside(
-  [
-    {
-      type: "drop_item",
-      item: "white_dye",
-    },
-    {
-      type: "place",
-      block: { blocks: ["water_cauldron"], state: { level: 1 } },
-    },
-  ],
-  "#forge:dyes",
-  {
-    blocks: ["water_cauldron"],
-    state: {
-      level: 2,
-    },
-  }
-);
+// addItemInside(
+//   [
+//     {
+//       type: "drop_item",
+//       item: "white_dye",
+//     },
+//     {
+//       type: "place",
+//       block: { blocks: ["water_cauldron"], state: { level: 1 } },
+//     },
+//   ],
+//   "#forge:dyes",
+//   {
+//     blocks: ["water_cauldron"],
+//     state: {
+//       level: 2,
+//     },
+//   }
+// );
 
-addItemInside(
-  [
-    {
-      type: "drop_item",
-      item: "white_dye",
-    },
-    {
-      type: "place",
-      block: "cauldron",
-    },
-  ],
-  "#forge:dyes",
-  {
-    blocks: ["water_cauldron"],
-    state: {
-      level: 1,
-    },
-  }
-);
+// addItemInside(
+//   [
+//     {
+//       type: "drop_item",
+//       item: "white_dye",
+//     },
+//     {
+//       type: "place",
+//       block: "cauldron",
+//     },
+//   ],
+//   "#forge:dyes",
+//   {
+//     blocks: ["water_cauldron"],
+//     state: {
+//       level: 1,
+//     },
+//   }
+// );
 
-addItemInside(
-  [
-    {
-      type: "drop_item",
-      item: "white_dye",
-    },
-  ],
-  "#forge:dyes",
-  {
-    blocks: ["water"],
-  }
-);
+// addItemInside(
+//   [
+//     {
+//       type: "drop_item",
+//       item: "white_dye",
+//     },
+//   ],
+//   "#forge:dyes",
+//   {
+//     blocks: ["water"],
+//   }
+// );
 
 // {
 //     "type": "lychee:item_inside",
