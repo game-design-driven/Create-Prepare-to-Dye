@@ -220,5 +220,6 @@
 	"Monorail track alternate recipe": true,
 	"silicon slow smelting from quartz": true,
 	"You can pet betsy": true,
-	"Command to teleport to Betsy": true
+	"Command to teleport to Betsy": true,
+	"Remove vanilla bonemeal from bones recipe": true
 }

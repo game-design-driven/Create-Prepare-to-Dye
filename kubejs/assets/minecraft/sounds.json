@@ -1,0 +1,47 @@
+{
+  "entity.chicken.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mob/chicken/say1",
+        "attenuation_distance": 2
+      },
+      {
+        "name": "mob/chicken/say2",
+        "attenuation_distance": 2
+      },
+      {
+        "name": "mob/chicken/say3",
+        "attenuation_distance": 2
+      }
+    ],
+    "subtitle": "subtitles.entity.chicken.ambient"
+  },
+  "entity.chicken.egg": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mob/chicken/plop",
+        "volume": 0.5,
+        "attenuation_distance": 2
+      }
+    ],
+    "subtitle": "subtitles.entity.chicken.egg"
+  },
+  "entity.chicken.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mob/chicken/step1",
+        "volume": 0.5,
+        "attenuation_distance": 2
+      },
+      {
+        "name": "mob/chicken/step2",
+        "volume": 0.5,
+        "attenuation_distance": 2
+      }
+    ],
+    "subtitle": "subtitles.entity.chicken.step"
+  }
+}
