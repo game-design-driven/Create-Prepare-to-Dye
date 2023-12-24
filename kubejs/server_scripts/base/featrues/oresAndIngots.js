@@ -45,6 +45,16 @@ if (feature('Ores from dyes')) {
     // addCompacting('raw_iron', ['4x #forge:dyes', '750mb milk'])
 }
 
+if (feature('Milling recipes for crushed white, orange and yellow')) {
+    addMilling('8x iron_nugget', 'create:crushed_raw_iron')
+    addMilling('8x copper_nugget', 'create:crushed_raw_copper')
+    if (feature('Gold is 4 nuggets')) {
+        addMilling(['3x gold_nugget', 'gold_nugget %50'], 'create:crushed_raw_gold')
+    }else{
+        addMilling('8x gold_nugget', 'create:crushed_raw_gold')
+    }
+}
+
 if (feature('Nerf nugget output of washing crushed stuff')) {
     removeRecipe({ id: 'create:splashing/crushed_raw_iron' })
     addSplashing(['7x iron_nugget', 'redstone %50'], 'create:crushed_raw_iron')
