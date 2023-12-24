@@ -334,7 +334,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f43530de78581a5228b4af0cecfb608f024585a0f8d3ab94199787e0903509ec"
+hash = "f2dee2e4bd5ff1d27ce2660d0193e1caa5cc59790044a6b55ffb7055bfb600a7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -715,6 +715,1482 @@ hash = "74abba64c2e26d9f87a878dcd0ea951a01019d36a4045e86aeab4fed298d5667"
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
 hash = "eb1e2c1296602718766e8b1ad2288448166882a462f09381a71af14899a10f7a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.chipped_budding_quartz.json"
+hash = "3b6ae09febc9c81d562d53047e61410eed228f02668a1f78f0d7f552a83c3042"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.damaged_budding_quartz.json"
+hash = "daef9043d756991e192853ccbe13a132aadd0a016ba9f8a42f584eabcd437096"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.energy_cell.json"
+hash = "eedd10cdafe9d75698699c019468cacb0bf1ea34cc138d0505a60c5619d91562"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.flawed_budding_quartz.json"
+hash = "d07fcdad94c367e438c5b01dd2abee7a2a375ed437e194e27ea0c783e045a320"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.fluix_smart_cable.json"
+hash = "3ab1eeab89607d25f3908c2c7a77306507131e047463350004cf1bdb9d268164"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.inverted_toggle_bus.json"
+hash = "21a3c95c1de0fa0e1467f1d5f7f6b2ab1274c9807402ba770419c005481c78a3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.large_quartz_bud.json"
+hash = "1ccb8c93a5426221441e4167ead0f2cc1e3bc24c3085dec0d1e79b3139ba1922"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.medium_quartz_bud.json"
+hash = "098f82669a9d107cb691fc104ecea208c8d46ee887513f2acf220a3f9649fea8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.small_quartz_bud.json"
+hash = "b8944088753daf5dbe4fa1bf80324a0c45f9afab31aaecab7ce2e1a5e29de228"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.storage_bus.json"
+hash = "cc857bd63864b978bf12313cadc64e8863ea1daf0c117a6d32fd979f5ece99de"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.terminal.json"
+hash = "c23ced670d79e2cacbebbe05f8ab9b9a08f2b6279be8772256f7026ec04b1117"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.toggle_bus.json"
+hash = "423f2a57108106408705a6aea85534a4463b4d2f62115ded4ad74ff9607a7243"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.agricarnation.json"
+hash = "66c5d782674b1656a00552ebe86ef58769b3f52593ba78bb191b9aa29cc8363b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.agricarnation_chibi.json"
+hash = "85ab61016947fd45f459344f8278a0a241a7e5cd4a308f5f67e4200f9a561a93"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.alfheim_portal.json"
+hash = "3d9e29bc5dc96c6874c8d192792552a3f30316d926c697cee3b5a82165eba525"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.animated_torch.json"
+hash = "d54eb2a28ca925c78fb1e9f041c3c38e667b5fc6401090e0d5824b8a73e93a63"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_deepslate.json"
+hash = "554a421456a7f89cb8d6b381aaf3575658034036fa3656a393f610fe049d7fea"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_default.json"
+hash = "c98f92a865a87bb5ed57ed49bcc0a9092a65c9d51953299de545290606c71b1f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_desert.json"
+hash = "5106a0d070e8581311f226bd7976aa833a36196a22aa013c25e8c4b0fe2541a1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_forest.json"
+hash = "35bbf71bed4fb3e310c3858b9faa60f91f902f2b3e13c3de3ac253c3a339ad6a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_fungal.json"
+hash = "888c2590ab35e4f8ec6dbce0c2d18caf892f7f1fed1cd3d85157f40e3e8c77ac"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_livingrock.json"
+hash = "3b2cfd10c0ef5960e3801a5d6373adbef8592eb0a9751c0f7fe242309956cca3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_mesa.json"
+hash = "366b8efc87a5aa5babc624183957e0e2cab80675583b95533478413b9061295a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_mossy.json"
+hash = "a1e81b50468ddc2bc571e3a95a526ef0795fddf49a159722eba4138dea8c4082"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_mountain.json"
+hash = "cd3acf1f3a42b77d837d8bc215898a8a4e7349ebebc18b23cca99e518ebafbd6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_plains.json"
+hash = "c83bc442127071a2ff0dcc4c7edbe7d5a5bc863a901c344fa288035e032bbcb9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_swamp.json"
+hash = "23bceb8d87ab5f84e4f6ecee5e526bd6fe5de709e08b917c603435bceea288b9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.apothecary_taiga.json"
+hash = "21d5379d603bfba8e6e491a1907f26fcd22fe7961344ebf3bc853342eab6139c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.astrolabe.json"
+hash = "c8c8b0967b59af61f0c4638e3637e45fb0829da5bb85c0e005e7962940960d26"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.aura_ring.json"
+hash = "f71a9704d93a7f335d2bacfc39a30b2b88aa721afa23243e425b2761a32b7604"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.avatar.json"
+hash = "5d1aa0cebb7c88e0d1c032bbe82e4a75d04b3868ec5cf20bcb43cbdb4e6dd84a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bauble_box.json"
+hash = "f4a95caa68ccfbea710c7ae5f6891372dc3ee8a902d8b92706198708ccec40bf"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bellethorn.json"
+hash = "2f994fdd862f14ca7e1d8bba7a9f08e701cb60f3008d0f7aedbe87051651f888"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bellethorn_chibi.json"
+hash = "7e5b3f586d5227fc5cc0cd8ae1fb39b743f949832b9f1e0297206a7927f0ee73"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bellows.json"
+hash = "784a2fe4079cbece3a5beb6b584e596481520f2dbe68935ebae33a29466ff4ab"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bergamute.json"
+hash = "ab22bfd0389aaef1a58fc7d66d3228a7cd850697a5a2f208d76779037943802d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.black_hole_talisman.json"
+hash = "a2df701c2f2dc81e14cb63850abcba5c87fef76d26e53292b6d91e85beb3711c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.black_lotus.json"
+hash = "029e05b24aedccafeb9225eb9454c70524b50c5dde983c5fc71f3c14ad4816c6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.blaze_block.json"
+hash = "e978d82018508da6489236e407c85df66f40aceeafcaaf8e05450302cfa781d4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.blood_pendant.json"
+hash = "097c95cef7fe3398160de7d4b4548da813d7b5fcf15ca86201b3c4a3f5128a5b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.brewery.json"
+hash = "9241cd5b443bb3be533e40980d91e608ddd8bc507cb0549339eca1790a01761c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bubbell.json"
+hash = "f11d0f83b2cc59bde76bdcba99be5d208b5b30ba4a317ad08cd5b19dc2f56b44"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.bubbell_chibi.json"
+hash = "b1b9fb89fe5e7f01c25915fed7cb8c3da6021313ddc4a7bfe032785a734a3cd3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.cacophonium.json"
+hash = "5cc07e05d3043145cfb6e04fe4cd8f1277d2fd9d186b942f4617ed923394790e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.clayconia.json"
+hash = "272f9090bab27dc96a7aeede7696f8e83c92d409080312e642ada1ea59075d94"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.clayconia_chibi.json"
+hash = "a45b81ac874301d4f18d3b3f792e75be3f75c4543d8ee4970c4a5b5d377b05d7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.clip.json"
+hash = "05c3546e373d7d11035baf7a0be6278fd7f01cdbddb58095df9d20f1a12c6af2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.cloud_pendant.json"
+hash = "3925f71a51bca1b389092cc06e6f1349ffc76a6d36c24905a86734cfc9d4594a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.cobble_rod.json"
+hash = "462097c062b4c59d677fc1e9ff4181dae440603e6f98caf3b0fa9e0e2dc83527"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.cocoon.json"
+hash = "8935284050625eb955c27346b3227a697057a4025a52c87e634c0d532cdc3088"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.corporea_crystal_cube.json"
+hash = "6a35b8d758fc0f6cc6523821cc303fc7e4e936eb7343e40479d5489ca6b81da6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.corporea_funnel.json"
+hash = "e95dcfdbbee075834e946e41fc1b240c63a56c96cd3719104b49c89b3ae91e98"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.corporea_index.json"
+hash = "2669aaad21a11a45a86d490fa0514bfa16f710ba760da32e11fd762106076064"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.corporea_interceptor.json"
+hash = "d2f19adda70c79c080fcebc4af389f3f6aa62b7815adb897ef7424d740b07e77"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.corporea_retainer.json"
+hash = "a2614379da29b71f213e818fbc77d5d7c008338b90eee062c7149bb00151591b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.crafting_halo.json"
+hash = "25d66856e69f74838b549e79dd878294413b2d4ab0a56590055a414ce4ecdd01"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.crafty_crate.json"
+hash = "25792539e45ef1d251c71aac5b82390de8fbac9722abf13738ffb8e50be160a9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.crystal_bow.json"
+hash = "e404efa9aa24db2a0eb749cc457cdb5cb8a774c4987ca2507893f5a35363f7e4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.daffomill.json"
+hash = "a4e56c6e65b8c7e1fd8a70206d72ae1e3b35f3a330b663476f9a8fe5e80a245f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.dandelifeon.json"
+hash = "355d7e5237a76bfb0437cfe1526209303e54b6274bf5546cac657ffb4fd8d4d2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.detector_light_relay.json"
+hash = "fa55605cd05badf62cca3034533fa9f3b770cf0c5f4aa9b672d58a1ec7455dbd"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.diluted_pool.json"
+hash = "922fd24ad171adc91c9dfdeadc12662a82d1b2dab6c3a3dfc6f0896a7b67581d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.dirt_rod.json"
+hash = "c48a5e13e370fb81a920e82cde52337bd802eb35b4509aa7c31fe3b400722353"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.diva_charm.json"
+hash = "043d721d639e66f75b393e95ef2408abd03cceee1b919159aa45ac149db67123"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.divining_rod.json"
+hash = "6b841914a175d348679d653af847033f46d06686dede7f505d6e905d958fa6d6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.dodge_ring.json"
+hash = "c2b980e600b9dcbfd3e41f2d4f261b3119acaa602e6de01a204e58a29239fa96"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.dreadthorn.json"
+hash = "7d851454159e8765f912c8185d6b61416072206200947daf618d0197192a221d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.dreamwood_wand.json"
+hash = "e6dfb43ddb179abfb304f878343af04d6c4d5fab5aedfb7456b935513d87e277"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.elven_spreader.json"
+hash = "9f16988e5f9b0c081944462a96b51a85151de1a80901a194e1ac604baba8958c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.enchanter.json"
+hash = "b76c2184fd11edb296439bf4bfc290092313fd184ddc82e79ce4fa3d5cd9f3f4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.ender_dagger.json"
+hash = "2113950c58c8fb173a4e6f64687948587e988f41cd32a9eaad5659b97c2252a2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.ender_eye_block.json"
+hash = "dcb44e6e58e0da34a20fe0d77dbc8a6128480351b0064af41e5288006942e39d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.ender_hand.json"
+hash = "7f90eba308dc379676aa2e2dbac02544d38c78013c1d5587536416fa9c651364"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.endoflame.json"
+hash = "f0139cae3de297d148d3a99946cabb8627b46d6b1c0eaaf18f35c5077f6715db"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.entropinnyum.json"
+hash = "ddd64ce901af8b134018eac81874c0733320991ba0c37f86102f9a88c5b33345"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.exchange_rod.json"
+hash = "6a33a0def30de0c912505d238fc8f836239535320a30e49625f61d95c4ee5b77"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.exoflame.json"
+hash = "2e37fb4c62ba2d500fb825e98e102997558d85e8c21e8aba7669059ab7378493"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.fabulous_pool.json"
+hash = "018b4ba82ab67c42ba16bdd6fa293141d99466d1a9716e6a334b2b76d34981f8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.fallen_kanade.json"
+hash = "131ea87a29cb2b2b9870ce5ca1d8c049a93a16ed50bd4e687a05e7bea5937be2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.fel_pumpkin.json"
+hash = "a5b5045ed1b43479d5332e15e98b6a70a97ba98a5b3ebaf4f0a89c67194ff61c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.fire_rod.json"
+hash = "892f6cf7a30bbb336ec7f0895befd447461901414da359ac3f8a98a5f9951506"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.flight_tiara.json"
+hash = "31279aee00694c19e112a67ca3eac2c9488d149b14c76fa19c5ce8485d64b94d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_agricarnation.json"
+hash = "3a0d4e09283ff9cd6a84a5f1129ec1ed02ef6ac7881ddf28debfd453fe42d59b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_agricarnation_chibi.json"
+hash = "6dc7320e04f7f4fccc1260cd684c33bac5467ac79cdd02d20c3a6744a7c03e33"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_bellethorn.json"
+hash = "467c40dc315be2bf0173b7cd7c98aaa3708f366c398c8cc32beebb177dce4507"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_bellethorn_chibi.json"
+hash = "d079af533adc11bfda97e1bc611fb51eb95cf63df23e97fc814ad8534648f777"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_bergamute.json"
+hash = "49eec3091536f87a0c03dd28f10db16e73cdc3d7b083a9ad99e4874d8f01c305"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_bubbell.json"
+hash = "244adef0f60a2da6b80e2e580d9ede861e9c391b994994602e664d47a3795d21"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_bubbell_chibi.json"
+hash = "9025016b6e6ab9f294ee3c21bd6914455d1daa50af5d03cbeaf72de71fa8ee9c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_clayconia.json"
+hash = "95353f68bb04632654e6c70507bcaca9cb756cf861ddf4877f28d0a55b6f3288"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_clayconia_chibi.json"
+hash = "31724c8a96ee4c72c9b02b81a310cf05002bb775da8c7af81b8cdbefb81046b2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_daffomill.json"
+hash = "95a3541f73e3042a14eb3897fd9fa2ba28ededbc271d25a319b2b7b8afacde0f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_dandelifeon.json"
+hash = "b720b5f323254ce7a5f3d5249657b5d246163a3aedb98f15789053b4dd295fe2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_dreadthorn.json"
+hash = "dcb9e044fac0f27b8eab238cd1ce051ea73d1b708d024d29050c4715d55266d0"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_endoflame.json"
+hash = "7844a900955378d1378c473ca89319772776c0e90c1a3c31e4ea122fd9a5e36e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_entropinnyum.json"
+hash = "1e204eb2150c5e950ee1b1c99fea135052ae52ed8d826fa34ea0f888cc29185f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_exoflame.json"
+hash = "b4a7eb1320ea23a740d84d6b33ca41f2bc46be791f1c2edcc73f7a8627f4aadc"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_fallen_kanade.json"
+hash = "745b59ddf86fac2646805cd5069ff5ce14dc3f55b506d535c4ff74613acd656f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_gourmaryllis.json"
+hash = "684eb160498315277717735a7183ea5dbb884067b3ecf16e25dad932721c2642"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_heisei_dream.json"
+hash = "9bff90a55a05b4d2e6b9c002d949339aa24fffc6e036f58d5d264f5af0d501e6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_hopperhock.json"
+hash = "6db4255432cae6fefd5224785279b225b61c669a9eea7aca84548010871d0655"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_hopperhock_chibi.json"
+hash = "fa02496c5478fcb822e2bfa7d89208da72fb5484451157ddedadf47c0b4eace1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_hyacidus.json"
+hash = "ec8ecd083c4a4f73d2915fc9a866f21e9b862d7265afc4e7287158eb8758ae5f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_hydroangeas.json"
+hash = "68daffd14e7f7a7b926819acd150887bd4e07b84462247407e69f40d73f8da70"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_jaded_amaranthus.json"
+hash = "8acf1dd20d65e1eabf602f855806ce147ef13749571ab1eaf803d66e62c9bcf1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_jiyuulia.json"
+hash = "66ef0f92611d22195d3328dbb68b7a23bf2ce2c2200a8e46da75e8c18d00d503"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_jiyuulia_chibi.json"
+hash = "fd4ceea39b79f9b11e1b632ff7c09920c819800567f064b86e4c75a46f59c6fe"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_kekimurus.json"
+hash = "d648376b83858186423a62cc10e759e6ca58559b01bccce8378a39b3d2a702d7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_labellia.json"
+hash = "79f0c98ce2d1d1cc16900bfbebb3710ee9437664544a933cf53182dfabaa6870"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_loonium.json"
+hash = "e40dec2e7b77478e02d885076576c29f44b2a027f79d540b0838901b2ba8f217"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_manastar.json"
+hash = "d925d6ff1e4152a35fde94321e3c8a1f78e35add435072ca373e04f9b2eaaf7b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_marimorphosis.json"
+hash = "0d8de1784f42bc393ca9df485f36149272977b7fe95f29051c7a80a54c8ffdbb"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_marimorphosis_chibi.json"
+hash = "c19bc810f85874ec8b647bb2f9d077bf60a18d38fc50de2d21184ed2261f8df1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_medumone.json"
+hash = "f0632ed2a02f803d2b1fd5a915208d8c3e6f3e75b70ab0cad1c11ab3ed60ce7e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_munchdew.json"
+hash = "42d3607413897523d2a416ec5b912b9a861a8a36a6b135dd36b98960caefd5a3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_narslimmus.json"
+hash = "bf7eb1e8fe989b0119d0b83b1007612fd6ab4d536d9f2955cd12e6599136248e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_orechid.json"
+hash = "b9ff20f48cdffb6f45f1717eaf5856ecb9bcc6416bae9876b2573fb25ef910ea"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_orechid_ignem.json"
+hash = "cb3b862909bea195b4ae31265a86374ac61ec36b645704e7b269062a2f3591b6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_pollidisiac.json"
+hash = "197516c90f4de9fffc4b699f0b6e16f1ea1046b49bd6c0fd3b2c7c7951be9fdd"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_pure_daisy.json"
+hash = "e88298608ec74727cd5001b418643894e20f53bd53338b6e6b99976c66f3e973"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_rafflowsia.json"
+hash = "55ffe0c8331f2993b6d2df1510c9602f0cb6c897213f3a84957416c434d38e9c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_rannuncarpus.json"
+hash = "4575766db43f7ae366f6b725f8d6c14e140c8a00e48fb4a6c03d4328d86e96a9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_rannuncarpus_chibi.json"
+hash = "747667b4ba83ce0175d32ede05d2e07c06f4333dadb3b3edd75d817a2e43056e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_rosa_arcana.json"
+hash = "5a9fba6119252c51fdb09313b7a193f54c8910b390ce2757cfed020614514758"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_shulk_me_not.json"
+hash = "9bc57f4457b45a84a288b569a543f2b972006dfda0558399b6c956d88c359014"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_solegnolia.json"
+hash = "c51134aa2a9602fd7242c283212685d798d2a226d517bb9bf6eaf92aa84e0e95"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_solegnolia_chibi.json"
+hash = "0e63482d85015c8cc8154f11c5f3a911029440f63f6e7c07ded8bfd7eb077999"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_spectranthemum.json"
+hash = "c2f50e5775442bf1d021ccde7355b5829a31e4e89b80060ecf71b7a5ca65cf34"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_spectrolus.json"
+hash = "2c13dd57447ca789da8a8c04810a1d190ce93752aa97e8a2beeef72cdc3c4092"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_tangleberrie.json"
+hash = "b76416bd5dd0783fd601744b2f593c8b8a55c1a2802c0e7af39f5c5147a0ff4a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_tangleberrie_chibi.json"
+hash = "15caf943566b94393bf42da8342d0808dba5f3cf3ed9bb83d00f9a1bd7afe13e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_thermalily.json"
+hash = "b8f1c450596a5b17b76bd6fdae231df24557a44eff0879d7cb90c2d478074576"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_tigerseye.json"
+hash = "5ab5cc0d36f3861aae748f8b35f49b2814b54428ae8530b8358492afd2ceecc8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.floating_vinculotus.json"
+hash = "772db15cc53f9a8babca1b98765760972aecaab36f80e71a04e3d3fc075acfa7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.flower_bag.json"
+hash = "f782e0f40fab5109527d151abba8b4807c06f9cb79b7d811f662fa13bb9e1d36"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.flugel_eye.json"
+hash = "c73272904e806a50a2fcddb6bfcd37b56bb62d616cd3a4947f5b15c7d24b675a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.forest_eye.json"
+hash = "9534cf635552b304a76ef46370f343550dc44f0401bcababc1ca0676560ab5e9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.fork_light_relay.json"
+hash = "c2935c606055d10ea6f04a4edd4e910fc08c847b60dbe8f0f6d04ae6fa5ce895"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.gaia_pylon.json"
+hash = "486e37d917915228248ccec3cc0535511de6915caa16988ea4496ac196888fa6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.ghost_rail.json"
+hash = "c44b30d8aa15507bf915c10fdad92063bb469ec37abec10c604ca1a8e991911f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.goddess_charm.json"
+hash = "e24b5f6d27b6954c52f31e7182b51d479f581b8530cf89114ce34bfcee199530"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.gourmaryllis.json"
+hash = "c1b918cb33585fa898ab0324e4c60719baa4c5e3756de9aa8c267b8278aa603c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.grass_seeds.json"
+hash = "6405f1bfdc6017d477f626fd37284c266769eaa2ca116682bef467d74e078575"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.gravity_rod.json"
+hash = "b3f59805d08db5bdaaae62a21d279eccb626a9eae61d1223b5ea0c91632dd104"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.heisei_dream.json"
+hash = "5475eb5744a0da9bde0f643a290ca5f1cae0113bf770bf295bd163708c65aa23"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.hopperhock.json"
+hash = "267b9c243674f99d871cd967e44b3d8a040774ba338c61ff06386d3e0951e8ba"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.hopperhock_chibi.json"
+hash = "5d6edebb37e01260f78aa6bdb1ecffb8d2074abbfbb648646373c19566e0a907"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.hourglass.json"
+hash = "f198e1e52bcf429d087bf403ce3eeb700594995095aea96c3336ee0098f8a10c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.hyacidus.json"
+hash = "7c9c15af59ce437c6f546324525acc83e91837428f646381450ca16512535492"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.hydroangeas.json"
+hash = "cf59ea1f87a43561750d8d504a2d5b7d243798f4c6088519114bf4862e790bff"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.ice_pendant.json"
+hash = "6471f90d5ab089de63ddd30b76cd1be0e5e0cc1def0a27ec481095db0c540922"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.infinite_fruit.json"
+hash = "69c0c006330d5b84f86f9b467ecce1b5dbe00f485f43536100f2c0bfac09fcf7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.invisibility_cloak.json"
+hash = "8693946e071b74f69d5a68e94f72b4f8a79fbe06593aef42a6a1da7cc640110e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.jaded_amaranthus.json"
+hash = "3beab68255baec85d08fd160cacbea0c61e288bb767a1259c2d2fd82143ca5df"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.jiyuulia.json"
+hash = "86653943470831ac5c3d0744345c62556b7a89c29060cfdcc97d610d6f4076e2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.jiyuulia_chibi.json"
+hash = "250928a537cf110a51c88b035d4a419a22a06fa4eeb7d3cdf3dfa953ae43c347"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.keep_ivy.json"
+hash = "c2f0be64d17b5691ba508627234c991e34b498caf113be3cc59f1aec35e597f3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.kekimurus.json"
+hash = "7d6865d707b9d8b4140e800e24f9b957b50a3e9a7482c41eff09789734884f6e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.king_key.json"
+hash = "4b877d5ee48113fc2e4bd6930dd7df6d714de39bf3515c78e544607979e89d35"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.knockback_belt.json"
+hash = "e6f982534deae494f6ee7d9be2fab0dffbf56fa7987edebe6223d463b9c1e7a9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.labellia.json"
+hash = "6f07b69a07749b113a7932333a1a9a68f4dfed6df5062f0093383ef9174e7a93"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.laputa_shard.json"
+hash = "5a09403f12bb478f5f2b8de14ca975bcd8dda06e9c6afccc845d15419486fa72"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.lava_pendant.json"
+hash = "f95e0c00d2a78fd9ff68e2577de4b47712d9ec08fa409c851b8d1822a27b66f2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.lexicon.json"
+hash = "508db1825f75f54c0bf1e917e7db9f738671cf511be14e0944e0de31c02883de"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.light_launcher.json"
+hash = "66ab386e61f8687db5172172a36776d055d294cd8af68920ab7a8ec1a1ada0d8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.light_relay.json"
+hash = "9534ee82f4b8b6b967f4c45c72bcd2d34de47c5a9eb201a9c7500e29a30d2116"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.livingwood_bow.json"
+hash = "5ff62b4a9cd613cd5bc37eece0d0df6b490b1ace11ddb9e84c1015d33295c0d2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.loki_ring.json"
+hash = "3a9d3b33845fc981e98e6e668d5aff3f7fb95918d8561677e566460362d14d80"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.loonium.json"
+hash = "9415e52b936684bf0b5080f0bc4b15d1a8b119622c5b303f728215d9d147ba9d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.magnet_ring.json"
+hash = "f5fff6d8a3374fff335053274251491d0046a6220409727768f758350e29eff9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_bomb.json"
+hash = "e52028b89e2985d2cdae92b1a578fd21a94f9b32c4fd00ae517af90a04fd8e5a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_detector.json"
+hash = "6d5784705b7571bf15386d59c93da3f22741cd63217d251d36fa2987417a5004"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_distributor.json"
+hash = "677416b8386749f2456d0dbde1a6a0fdbe06f7714b5f784ee430ceaf013fe8b5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_fluxfield.json"
+hash = "2849664fb979eef612819079e1d1d0954362f80d08f5acb2f88484d23a2550c4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_mirror.json"
+hash = "3cc5f700cca046ac7dc441dc11ed8f78b02ecf6560985e1991ef9bf09228224b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_pool.json"
+hash = "8097ebb98ad94f923a7c1ff886fa121018350c45a58b353f8b5817e63d57557b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_pylon.json"
+hash = "402c62a78fc8569634a5838d73b0256a89fdd6ee704d934f43307a3c8a7619e3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_ring.json"
+hash = "067b99fab03f5c26667a7624551a0102fe70a29bf17ebe700a40578397415650"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_spreader.json"
+hash = "cbc50f191193b5bcbce5a51e12fb036f679f3ac3fb6472b7c491d16060d84ae2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_tablet.json"
+hash = "d2a08a190b7608e15fdb42aafc3e2864a99f436ff1ee2c5a928fd333a9cb6519"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mana_void.json"
+hash = "5d580bf3f8f1b964a1b305712ae2d48fdf2218cd747bc7c12070e67fdf490d26"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.manastar.json"
+hash = "9f2f9aa4566c3459f43424df07f5cb614033cb101cfc71202327df946ec23cfb"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.marimorphosis.json"
+hash = "b427428746731eb27ca260176e287c77d3377ec9cb83c4f21144c3e9b12b9629"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.marimorphosis_chibi.json"
+hash = "cd67c71ddc079193d467a499f9425be23791e4dda5392499457374ad14130c3b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.medumone.json"
+hash = "28f2531ba008587d561f5c6f0f2aec536e07a15ec407d360f094428f973e84d0"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.mining_ring.json"
+hash = "bea597ff0b08c6ca056a24ce92a27ac32b0131f349e2ceedb13d3a4e6085fdb8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.missile_rod.json"
+hash = "729fc628be85de32e6cb4a23490d3a06ae282d80e0d081f6e21f3b8f1db07b04"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.monocle.json"
+hash = "768a8440b89fe72ada7b8f899121ab724b3bbb08e072e371005d88737596f8fe"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.munchdew.json"
+hash = "c6ad309d2d629078332f5e5cbad90c96a0a5e9d4686e31f125f76c1a860ce811"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.narslimmus.json"
+hash = "032270de9add3355bdf5dd8907caca842e082cd3bfceda32f052913686ae19d8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.natura_pylon.json"
+hash = "3ae7785be49e3ad1f83d6e2d6f7a1bdaae5c302fc5bf7f12a23eca21a32d429d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.obedience_stick.json"
+hash = "9099c25182bb46ade04546ddff27ed81e07f519aeb6d65673f52d21de337d903"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.odin_ring.json"
+hash = "74345088fb1a551e4fe7787ef53d6b06689039f32f045eee1d29ad5f8c433040"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.open_bucket.json"
+hash = "72453d81a166955132d550ebcc35bb417177e2e4eda7352729a2b0995803f4d4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.open_crate.json"
+hash = "fdedb293bf621c4fcaa1b941f4ab592e323a94f5d692b0d53a10b52ca5ac81b6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.orechid.json"
+hash = "bf48d573898582826ebbcccd5acc8b368b56ebabc65fcff0d0651d7f73f36520"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.orechid_ignem.json"
+hash = "645695acf4beb34286b29f5c7bf1a79614c945a796037527338735e449517b09"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.overgrowth_seed.json"
+hash = "c11060d0304e42ca844dd69d24aac9522dcd0dc0463493f61a7d6c81908fc0c0"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.phantom_ink.json"
+hash = "e14fcb545d4cce5295950a68839c6f1ca7d86f4ff6604a2f35de2714e9de8db7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.piston_relay.json"
+hash = "206f668a33b801e0eb7b2876ec5643b2a3682a3643d5d25be14fb24533c7a4b7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.pixie_ring.json"
+hash = "1b550a7d2b46cfe7faef2f450cbe4e57a0956f85f3e0224cdb157d23dde127de"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.pollidisiac.json"
+hash = "38be99752d648a86bcf3fb8f6845365e6d5ce13372b68f0f2c2180b557aa2a20"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.prism.json"
+hash = "c1fc1bd473f45ee0bf594d8cc03a8482448d8ac2ce68b7fb6ae637a939bc281c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.pump.json"
+hash = "96bc52d38785bb2e2d5e37ce0d8684576bc6764754d4a7357411817c35f8053f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.pure_daisy.json"
+hash = "f0a37bd00f745c91338df5c198783f4b36877303e31188d6e5b3fa20226e9f28"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.rafflowsia.json"
+hash = "7d4dcf6205dee2d442c2e6d07e2a4329f7f8066ca39430adea64254737713aaf"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.rainbow_rod.json"
+hash = "0a59c58f694108848c8e2a366538e6e72ece48b36b08e8ef1ac59b7e99b69229"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.rannuncarpus.json"
+hash = "fa7fbeb2e1c6c977597ce2608d1dda275c7e35d78b67bced77bbea868f242643"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.rannuncarpus_chibi.json"
+hash = "18716e82bf70e43bd4c18f82f33f5404c77b9e61631e6f648c282aa8360879c2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.reach_ring.json"
+hash = "5a0387344d15687e48d32031c02bb8b99d08fcc752142f7bb06bccea1e0bf24f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.red_string.json"
+hash = "0eac281908dced4fe2f3972b10f6b33b570a68a9e87beca3377fc9408edf36b9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.redstone_spreader.json"
+hash = "c75d152df524a7c86cc12c7c1dfbdea11a93ad4473832d2ed1f692f3fd160708"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.rosa_arcana.json"
+hash = "0d0f41c087fa84689e8f76544fe575270fd28d1f36408abd4bf89caf75b01ed1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.sextant.json"
+hash = "94fb10ffac859fc215b1e3a1190fead75c723d5071c042f6ef5897e3c7745f83"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.shulk_me_not.json"
+hash = "4ebeeeb90284ffb19f5f6cdf048acfafa224643e72c470036052da0988bac20d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.slime_bottle.json"
+hash = "01aec67f0da0770c92e83768d7b0bf0d01c63861825ccc3298ecef5a3ae494c6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.smelt_rod.json"
+hash = "0a9742f69bd64b9e76a22c2b23676ab5456bc6cf96d9d3cd498b66cbe5d8bc59"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.solegnolia.json"
+hash = "19c5e8738723891b3b4349c101dcf86b22b2fbeb8f2fe2c85ad18c217b9b4690"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.solegnolia_chibi.json"
+hash = "230c206d479c7b8a4a6f5a21b055a7aad591bf1a64e21c68f5c87b10f384b41d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spark_changer.json"
+hash = "139f79dfc1ab72070259b525edb7248a1b7f8429c93549d0dc60f8868859e979"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spawner_claw.json"
+hash = "ce0e8a7d3dbcc9418e770465d6b7dd6c6ad8a76e2f050308788800881fcb5915"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spawner_mover.json"
+hash = "e809ee3cc8e62f6e4753a96845641e0c58725626598f37075dd7095a1b5262e5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spectral_platform.json"
+hash = "0f8cdf02c944e8dfb3a4ffea4e222ae97e7583a90ec7e3d087efd3a1736f9103"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spectranthemum.json"
+hash = "b0e3b0e1c653928158257727b07c3fda86613c8a894a63bf7f072d1ac977982e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spectrolus.json"
+hash = "49ea7cb2746b10a624319869077af35e6d65ee73ad8921abd01023ecc070a63a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.speed_up_belt.json"
+hash = "e2e6077df7e63a1cab470a48a384afa27ca8848fad5198b7b0a8dedc897cebbd"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.spell_cloth.json"
+hash = "9f684064b4eab3a7480606ebb31abfcf3798efb8bfd0df72d41c111970761c1d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.star_sword.json"
+hash = "a07a4fb4efa2b2405101fa19effb0aaa4f57a906119da7df1a6db7f9a58fdc60"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.starfield.json"
+hash = "141c22aceb56f31192ee8f5dbe8500952f2f8e9b57cd0ac9bd17324e4f706698"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.super_cloud_pendant.json"
+hash = "f5b0bd1615f3eb34ed4bca89e13db08b269dcece2d488f54b53c27b2d26c5106"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.super_lava_pendant.json"
+hash = "b0dab511160eb15302fa48c6e115e5ab444dcf7b04ce08f8ffa622375b317b50"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.super_travel_belt.json"
+hash = "ecc82378d14a2bf6b766261d033c4bd958525953ae637eaedfdb62a1d5982ab7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.swap_ring.json"
+hash = "750bf50a11f89b9c944092d7482dcd89544ab8525df97ce62bfe6f2576a7ff96"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tangleberrie.json"
+hash = "e60d779f124f102490ebd2c1ac7f76e293f2448693d1234fe785d386969e6d9d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tangleberrie_chibi.json"
+hash = "12dc1181b8fb82b94b9cdd6002aaca7c7c2a34ef34294406192da4fbd0d8e3ca"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.temperance_stone.json"
+hash = "f516ea6f7d91c3bd421c66fc263bc3092ea55adc9b97aebbe92067338a9c4c39"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.terra_axe.json"
+hash = "7a609517b7b00e914c16463a775bb41709075769c592f5e7737b9f36c223f7b1"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.terra_pick.json"
+hash = "cd5e034c87a64e2977702e622a130990dc8619c99afa3397eca0ca0d8da24065"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.terra_sword.json"
+hash = "5b3d5b7f830c4069c1385fe5252fb3331d6721db2a0a4c40d0cabfb02887272d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.terraform_rod.json"
+hash = "233542b0c7dd20977f4704f10718e0aff8175f0058f423684ec50ba5e3e8ccfb"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.teru_teru_bozu.json"
+hash = "243a8b204d8fe5a1be3b386b31553ff7ad5ebada5682ae07a3461f634c80111d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.thermalily.json"
+hash = "11d5a30bb9a77764f7b1be07754e476abbc3fc9b747366156ac9c03421c92813"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.third_eye.json"
+hash = "305cf71326b8b94a22cf4fc5ec14f47290dcd1835067ffff5225ab54b309d6b4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.thor_ring.json"
+hash = "128439e1d8a9b6f93ab4a0b0ea07e03de219c17338f1d752fb6b50591d77a23a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.thorn_chakram.json"
+hash = "0b77d5f771a44209eaec04741bcdd8ffbc67cc963e568ee316d021b164ec6c1e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.thunder_sword.json"
+hash = "586493e8112842dcc967989a73fc4ef72e6efd15ca394e3cd843abee1a2f732a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tigerseye.json"
+hash = "45dbfd45454d16c74642372dfe3142d74b6e3a8f8323d79560b5fc815a52914c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tiny_planet.json"
+hash = "885401dc2de257a4c0f83d9185dbd22708d087736654fee7edb72750e57cd528"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tiny_potato.json"
+hash = "99bb2a526fbea16d9ecb971ac1ab97d4505834f0de387343b25ecf8610ce2907"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.toggle_light_relay.json"
+hash = "bf48876e811918e44e5161ff7555326bf724060645e7982bc6916f103b6a262f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.tornado_rod.json"
+hash = "0c269b50dc861dc0a0c4e744f64f95ebbc7ce1aea12db1bfbef3397364b220b7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.travel_belt.json"
+hash = "187b3b7aadb1ed51b63a6fd4aadbc6de4732ade875da1fbce62d273405e2069d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.turntable.json"
+hash = "90d8e4417323780d8b1a01cb364c5623dc29b80f2a02d71a0fc5c89d33e66f69"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.twig_wand.json"
+hash = "8cd02147560ecee5ca24626981f93d50f56402580cd9e89a42015f857c497bf6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.vinculotus.json"
+hash = "8aa9775267263e66cd9dd186fef1c66e8fd8e0e75051719ce0623fec643ea9ab"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.vine_ball.json"
+hash = "8664f202f4ab9051db6409f6e6660176f3ac8d8fb1af748ad08d19fed5bd16ad"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.water_ring.json"
+hash = "006679bd52cf2a568f51f90d8bdbbf8c3c2d1ef6f2350bd8335798fb48c65071"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.water_rod.json"
+hash = "346fd90066d0d78a8fa73838c528579032e16315bd66dd1966dc41d4b77a7682"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.botania.world_seed.json"
+hash = "f1b1c825e7950c16f0783d4601a1a1c7b5e2aed08857f057043b411857f6df4a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.crafting_on_a_stick.stonecutter.json"
+hash = "89d5d6ba2102484ce81273ce8d25e4a8852fc2a0ed95c025f94d06f088a1ff1b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.attribute_filter.json"
+hash = "9bef019796874dcbf15543f00299524b63cde23b169ea9d25473f81b45479899"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.blaze_burner.json"
+hash = "bef9cd2db0eecd08312e03ec4812c11fea7d306aa74486f9fd1f3e54a1ac9dc9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.blaze_cake.json"
+hash = "3125e767d6b4163f83aa7a0a480b469a5850954d580013f5c8cf6a3ed7e52aca"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.builders_tea.json"
+hash = "0679f14cbf61e962961f179bb9967657d1e0e06da2454b8734729ac33428a94e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.clipboard.json"
+hash = "a863b87c6de5215b56fe76223fd38ba4a5fb4d26b3d92cef795d18ba801b6165"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.controller_rail.json"
+hash = "cc89f3687d03a47bad63288466dda021ec5cfc02f8c8a2b7765a340461d00e95"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.copper_backtank.json"
+hash = "92a3c2d98685c14387f2ca4fc6ec5943b1eb70906df7487537d913781ace4442"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.copper_diving_boots.json"
+hash = "70bf0dc9a5195624709972c4c41465306dc02dcdf62b5e6f767f3a90820339b5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.copper_diving_helmet.json"
+hash = "16ccd8c305c095aa003962bf7bef61bcf0b5cba8664031decc4ab46251fa62cf"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.copycat_panel.json"
+hash = "39930551b2ef8993799add41d8d8b36f36879804643f770890500080bd910e0e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.copycat_step.json"
+hash = "c4c78b60291257f683eb2439b60b9c5df10341ffd46aa246aed2a65789df7868"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.crafting_blueprint.json"
+hash = "4480d52ea11586451665d4e597009da17c2c06d9d33916f5b49df57331d73191"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.creative_blaze_cake.json"
+hash = "455bf3ce464fe5867e4912a683fa712b949945f6519337baa93077c2fbd0f504"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.creative_crate.json"
+hash = "115d23dc5402c0ed4764b00b36fffe2e23947a83adf2e9572ad617cc26881589"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.cuckoo_clock.json"
+hash = "a3e9a35e8544bc630322ce6bd9c722748ef4f2fa9076d6f56a69bb7878ae5ed7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.empty_schematic.json"
+hash = "a5926c0bb37dd0228c9dd74434be77bb99bc0fce818c31cd0edf5e16f33ad358"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.experience_nugget.json"
+hash = "d95ed457785d4b567e11160a04a4cfb68df1a7dfe14eca439749f55457946435"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.extendo_grip.json"
+hash = "327601c2b04bb897b7588f8ffe7a8b6011c39b14bbce1e9ed7fc53f4a7e1b170"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.filter.json"
+hash = "825f2c1c36237613909f28d97adab6909084ec1dfc2ef8a85a71f36ac35213e5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.flywheel.json"
+hash = "f978e61b34a428e57918ec26b43bd5848961b4dcfe3fc25e6bc15e13fe88debf"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.goggles.json"
+hash = "4d96da7a4ab42585dfbf403ecdcc8f28ce72da51c80b91a5d8959c8ed6fec890"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.handheld_worldshaper.json"
+hash = "9dd7dac325990c3ede2f13849c2b9d5ba9fa1d6d90bae1d43b16c274df023c0d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.haunted_bell.json"
+hash = "f34edb6547e7175b4a1b2392a428798757738309ddf0c77b83d66a567bf1a71d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.limestone.json"
+hash = "28aba7fcd801a068b438f25d62ed07a3073d604bca211e231e6d01f3ee799c89"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.linked_controller.json"
+hash = "23e4a4b6389341709e8c7defd03d778703fc3ee5175917306dacc07b6faadf19"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.metal_bracket.json"
+hash = "45bad6388366e8fb862d166fa314b73f72b869544dcc04ac374ad0134d27f85b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.minecart_coupling.json"
+hash = "005d030fd777ff93d2accfb400b4569a54f2a5ea51b095d7195935407c2269eb"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.netherite_backtank.json"
+hash = "a6675dddb5b4ee795149e2d7970b120d501f6eb7ab03dfe35c7c04eb34cb106b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.netherite_diving_boots.json"
+hash = "f51a74c97960c4fc7881470252b512908387185ce5b7d92356279d167036f3d9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.netherite_diving_helmet.json"
+hash = "b8ecd2b80308a42051220b4dc04a3f546fb062a2bb6634b84b1292939cbf0ab2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.nozzle.json"
+hash = "a63dcca4c68b277516cd80b811f100f56a79dbdb44ee2e2f37861f3dccb2a509"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.peculiar_bell.json"
+hash = "adaa25de808d4343cb361cdad16dd8791a5133d4fcaffb9d02eae38c8a73d5aa"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.placard.json"
+hash = "af9b5070690b6f0367c3c14d370bb75a97f539ef9c7538f5cb9a4cb470cac61d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.potato_cannon.json"
+hash = "89d016c95b38a9626fc0ede6f0eee147e8fc35cbd2e8e304cbe3bdc2cf998f8c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.railway_casing.json"
+hash = "434ff99e606ba88dbeb3944d1b2ddd3a8026577dd721a691a33c24966bb71f62"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.sand_paper.json"
+hash = "668d1450f763e1e4eb586586c3de30d3c4b6608e36b8b23ed855b33499935e6b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.schematic.json"
+hash = "a74b408edd36ce7c5d9831e5ebe30cf62670fa85a54199b3fd557ca4d6fd90e7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.schematic_and_quill.json"
+hash = "091804f4aa92bd67c8a866aeb3a040ecc3bc68ffde842e31ed85cedd7d79eee9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.schematic_table.json"
+hash = "3bef777e8f8ae0b4e3cf214dfb1c0676bad016f80ed6f10bc1aaec1aa5d9e7b3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.schematicannon.json"
+hash = "0a2c6fe509015eab62abe6833dce1c16435f8e2f4cf82caa1db0ae45305ea157"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.scorchia.json"
+hash = "38d07e32dab59d634fc80c60863ef3b587324083d518157d028568264794e70a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.track_station.json"
+hash = "9fc10daa5a3c56973605d77bccf5725a1a6dedad58e63776c8939890c5a066d6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.tree_fertilizer.json"
+hash = "d25dc0b4315ee7884709c181bfade063fcd72188a1d6785dcdef9d004031769f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.turntable.json"
+hash = "dd5838879bd29a24d263afb468cd1287130f1b8eb85361f839a255829fc99aa3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.wand_of_symmetry.json"
+hash = "4bcf463059bfb0ad88ee6c64eac46bc5e6b49d2fb798ced3bb2454aec0587295"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.wooden_bracket.json"
+hash = "256ccdccd5a68b9b8c4f57ec7f5bac9e306a107514145074d5cb4712a2beb5ac"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.wrench.json"
+hash = "9017bf4eef80a2a6d82c6caef067bc42523e5f5eb05d035d66af6c3d16b18ecf"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create_enchantment_industry.experience_rotor.json"
+hash = "4b71b5f43433fc3765006392c30148f399779eb16de858c4d0347074f2980c3e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.createdieselgenerators.diesel_engine.json"
+hash = "756fec0523be6299384da96d2d3f9e48d247b1ef50fdb2d04d1af2f1edf98afc"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.createdieselgenerators.distillation_controller.json"
+hash = "60ee99089c7b686c2cce04d57914989ef4382cf3e5b1f728fd75726aa81dbd12"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.acacia_log.json"
+hash = "5de8f1962bd52382da90e31862f3a032ddd9c0e097e117be5c5d1a6b22f9a898"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.acacia_wood.json"
+hash = "85f8ef54ab7027cd219dde87a3350265d6770661a87930b42f85ffe29a698c54"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.birch_log.json"
+hash = "d0aa200f2f0d119f77ef36c999fdd0ad56c93357b947e0c3ff7c0ac51a380452"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.birch_wood.json"
+hash = "0d9ac29b352660478f53d4ff2c6daca759c99308f7111146c7c3d8d83ca07208"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.bone_meal.json"
+hash = "f20e5baacd99ee7a293fa90f1c5758015be736164075626499c37461f7572c3e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.cauldron.json"
+hash = "9739ef6b221da88391acc9f6d27d923ed9dcee12dd3c5d9bc6832953f7d1c55f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.cobblestone.json"
+hash = "492a5d13372f22eb529c7cb6798b6d676b800f31c6c274952ba5f63193a2e50f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.copper_ingot.json"
+hash = "17cf630942e21b94f291ec1a5fc76f0440aaa018585d6badf0eaea542a39408d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.copper_ore.json"
+hash = "d1969bd1ab950203cebc6bee157d0cb497be09b99ccb8b957dc4008576fd556b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.crimson_hyphae.json"
+hash = "49680f3ef1b5e2ab0ef4ee6fb2e461f6d818cf004544dee12f06fac6939550d6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.crimson_stem.json"
+hash = "9affa6314de6fb537b414cf4f74bed95290df85d040bad710866fb4afa7c7fbe"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.dark_oak_log.json"
+hash = "32ba862d86fa90956cb86cc60f3528788b3f2c8bd58e304e77845d990754b7d3"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.dark_oak_wood.json"
+hash = "01d6a042789dc878fc6be3bfe3d865ba9c6a78dc862f6d2229eb24cf7d42b7de"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_axe.json"
+hash = "23bd96ec1862abd20a10f1fb79637e6a8c22a2feb6d7dfe5c8cd80fa3b7ff9ca"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_hoe.json"
+hash = "d3c44b140474f0fd9607151ede745831cda8ac73723bf2ed702d3518cdfe00d2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_pickaxe.json"
+hash = "bc7a6cbb3c162cb615683560e1f1dbc5ad1b2368c7f8421bd553e93c803a28f5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_shovel.json"
+hash = "767870e42460c157039b54d484e9a9efedcfbd4870e6da61fba0d451baaf8a76"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_axe.json"
+hash = "c39e414656ea7b6c109c0ea5e5d437f4fae21a4f0a89c70e93072b64494e7a86"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_hoe.json"
+hash = "aae3cbb65c4060801ece0c77574d4797e79d2f08d69f4f594bf9e1d8aeb9764e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_pickaxe.json"
+hash = "35b65d2e4937040d8f73a72f3366ee012dffd1b16c87e3c5f47993510e7378f7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_shovel.json"
+hash = "053e431d1c519cb9defe5e67c92b80f6a49fc91c7ed9e1fdb80fbf5f7a908953"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_sword.json"
+hash = "5bd5b4565920d80bc1320ee7ed81fa3b3a6cf0720bdce6fe75ecd8607d3fa4e4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.iron_ingot.json"
+hash = "4c197efe95ea3f607cc2600c9b484fcd21f54a8efba961237d01c281294c495c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.iron_ore.json"
+hash = "98013a96de624033a61450a1140c5b19b41542fb63196bc78ee739da0514cafa"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.jungle_log.json"
+hash = "65a4458b0db70a99d8b94c1e8fd19c2a6ec1cb8c23cd8288a90a47bab0326f8f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.jungle_wood.json"
+hash = "bc2eef1a1cece25004d10fcb53af8f7450b0dea363653faa0d114249fc47e7d8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.lava_bucket.json"
+hash = "5c3377fb418bee59f26f8368ac87734d1f6b5516f2a7d24e3b79656672c0a296"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.milk_bucket.json"
+hash = "efd74dff8436576228c08bc3d7a6b98a4c03fad1c7e9526ddf0921149e1dd192"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.oak_log.json"
+hash = "7eea066cdd945489a0f8164ddc0ade2b891fafb719b7f733d0f08f88237612a4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.oak_wood.json"
+hash = "0edc4b8cf3bfbf8ce072ce15935d574acd0b293aa3b161f97167ad6009e7b2d6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.quartz.json"
+hash = "9e1cacadfa838c7ac58ebc0c7ca17addef13dbe1974af0fe86b4d80ae49a2b7e"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.raw_copper.json"
+hash = "9460be26d971a8d893d7b683cf608fe9b8da5fea69e75fcf34380653f9299be4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.raw_iron.json"
+hash = "fab1fc0a72390843f73d8e26fea176d8a167a17ca89ac17f87b0e02d1ce73e55"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.redstone.json"
+hash = "794d7f3c05bb77960122b44e90802bba9b14fc1d2bf2b47fd05cf66819f4b705"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.redstone_ore.json"
+hash = "2810380cb31729bcc34b92d45a9e339ddda1de84f4f3781c82cf946571f40f7a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.spruce_log.json"
+hash = "9a0bcca99ea500433c5fd4370a0c60f6ebdf1251d7e53bb54447d5aaecab8b6f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.spruce_wood.json"
+hash = "c840725c84ad324a9fccc654bf8967a1335ee5185eae29a1fe5c4a560b68f154"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_acacia_wood.json"
+hash = "a3f0ed837df743b64be6c83df7d92a367ad2892fb061eea90923fdc87854737b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_birch_wood.json"
+hash = "b45b63df01e2caa5813efc2bb75099f37a8b779d27f8e757183340892132e56d"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_crimson_hyphae.json"
+hash = "3349c9f2f478b1b41b1c2d6faba11b3901b0cb4cd0e3dc3472696f259664d9a9"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_dark_oak_wood.json"
+hash = "322dfdd9392dfc29bcd3a045885ca37e4ea8fd6266382c374466e598361cf050"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_jungle_wood.json"
+hash = "2fde5e63e723272ab812e5c13ef9e61feff973c9303e9bfd53ad05404965d192"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_oak_wood.json"
+hash = "9cde6200f30621037f0dcfdb55a2cf7e937663a47daa25daf23083c7e86e62d2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_spruce_wood.json"
+hash = "d2d5f3456ad6df6230f0c9285760d14649661db03c7ef644803273f0f63fe7ae"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.stripped_warped_hyphae.json"
+hash = "6282c13896fa37cb42c33db03cc782b0042f5f281d86f30673f89bf907c16cbd"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.warped_hyphae.json"
+hash = "02aebe80aa3eee3fa3d07563b98e5ea8254cb41042c691b408e5b4947413769c"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.warped_stem.json"
+hash = "cf65f0969275abb57133adb67de9f45d288861b440a7fef2f97759de361c4d99"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.water_bucket.json"
+hash = "b8b8d7eae6875590a255ca7050f01671fc5a929ed5eaed493035651996d20138"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.white_concrete_powder.json"
+hash = "a71af918d983de3d5516d415a3c87878ee90caa0cd38db0d76fe1d63a4754de0"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.hammer.json"
+hash = "530a925a65acdec50b34ad5763739dc2d2879e0d3f25c66bdcb5309feec68a0a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.mechanical_device.json"
+hash = "fe1607744f2acbd04c6a17f48b3002c6053602e7bb84fcb0fb23c37c2371b81a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.sealed_device.json"
+hash = "455ed439acabcdd060c0a906894d8a615072a600eed0f5c3175f5eedb4e1fc55"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.smart_device.json"
+hash = "608a725543bee4cad6fcee59fd26e61d9d92b6fe5987592763c8e289ca933369"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.sturdy_device.json"
+hash = "72540a6770a802a0c3dcb9732a07951f63f704558793207ad2758da83986da24"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.trading_transceiver.json"
+hash = "eb51c3e05ace4cd75d9b2702de6970e43787dc7bf3c2ddf33e3dfa5b623f66d7"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.storagedrawers.oak_full_drawers_1.json"
+hash = "0b95b04dc8d2bcd049ba922fa92087901ab93ed6428dde3308b2b7afe0905c61"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.supplementaries.ash.json"
+hash = "be3b7d8bc9a5670709c2931cd1e471f6ff4bdc6645617cba8ebefd15cedb9518"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.wares.completed_delivery_agreement.json"
+hash = "e588bff13375f74d6920b045f97fb7df6185875639fd00c0d9f072c875513b70"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.wares.delivery_agreement.json"
+hash = "42e08b47c2fbc9c2c3e7186f8875b53da5ec2b1b9a0bb9ce0fb1e86e3a5f8357"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
@@ -1638,7 +3114,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "d61514fe786836584168f7568dcec5515493c9fd70ce361c7545fe75344b5b27"
+hash = "c9334546d0a9f6eba33fe56a5c06a14dc5bd8d180ebbac62d77565dd99cde4a0"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -1866,7 +3342,7 @@ hash = "80fc3f9e14889a77b4e753f4d998068af113f1a6044b10c76d4d5b2230124547"
 
 [[files]]
 file = "kubejs/client_scripts/lang.js"
-hash = "5d0afeb7db5c6e2b17f762d0d0324b3d20cfeacd340bb151e00c8fc48694570f"
+hash = "d75bd26d81489521481abeec9d668f48ed0c2a35b10689a7f834e067b050b977"
 
 [[files]]
 file = "kubejs/client_scripts/milkNerf.js"
@@ -3538,7 +5014,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "7c578226c22e93f82366961a22817a1d38b0c7dc04b7d11ad4d67b6018e580e7"
+hash = "03dee048701e29931ee0a50e6ec23ff0ba9eb93af033f9fc9c8bc6a386fd9ce3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4639,6 +6115,10 @@ hash = "b30ac04f9b5474d2cdc6558541dd979e467f271c2329c072a51bc48fa4f5ed9a"
 [[files]]
 file = "modpack-update-checker/versions/1.185.0/changelog.txt"
 hash = "350669f1c968dab53369e2504689cc7aa35d8fd57beff52f1c947539b916276b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.186.0/changelog.txt"
+hash = "e130f103bc4948c402e6d122451d295b471f6fe75461bd9cb6a264f0d2a0ab0e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
