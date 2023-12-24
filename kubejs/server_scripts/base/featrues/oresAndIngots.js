@@ -45,6 +45,14 @@ if (feature('Ores from dyes')) {
     // addCompacting('raw_iron', ['4x #forge:dyes', '750mb milk'])
 }
 
+if (feature('Raw white, orange and yellow produce less xp in crushing wheels')) {
+    removeRecipe({ id: 'create:crushing/raw_iron' })
+    removeRecipe({ id: 'create:crushing/raw_copper' })
+    removeRecipe({ id: 'create:crushing/raw_gold' })
+    addCrushing(['create:crushed_raw_iron', 'create:experience_nugget %5'], 'raw_iron')
+    addCrushing(['create:crushed_raw_copper', 'create:experience_nugget %5'], 'raw_copper')
+    addCrushing(['create:crushed_raw_gold', '2x create:experience_nugget %5'], 'raw_gold')
+}
 if (feature('Milling recipes for raw white, orange and yellow')) {
     addMilling(['create:crushed_raw_iron','create:crushed_raw_iron %5' ], 'raw_iron')
     addMilling(['create:crushed_raw_copper','create:crushed_raw_copper %5' ], 'raw_copper')
