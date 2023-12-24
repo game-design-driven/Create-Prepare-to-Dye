@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:loonium"
+	],
+	"text": "block.botania.loonium.tooltip.summary"
+}

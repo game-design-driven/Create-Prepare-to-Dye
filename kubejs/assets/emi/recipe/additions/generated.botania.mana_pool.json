@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:mana_pool"
+	],
+	"text": "block.botania.mana_pool.tooltip.summary"
+}

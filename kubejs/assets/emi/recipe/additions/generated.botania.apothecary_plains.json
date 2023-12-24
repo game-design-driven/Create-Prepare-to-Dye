@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:apothecary_plains"
+	],
+	"text": "block.botania.apothecary_plains.tooltip.summary"
+}

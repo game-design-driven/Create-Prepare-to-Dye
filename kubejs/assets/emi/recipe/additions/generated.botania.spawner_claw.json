@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spawner_claw"
+	],
+	"text": "block.botania.spawner_claw.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:copycat_step"
+	],
+	"text": "block.create.copycat_step.tooltip.summary"
+}

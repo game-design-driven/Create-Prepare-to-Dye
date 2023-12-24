@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:milk_bucket"
+	],
+	"text": "item.minecraft.milk_bucket.tooltip.summary"
+}

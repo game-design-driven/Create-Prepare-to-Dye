@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:stripped_warped_hyphae"
+	],
+	"text": "block.minecraft.stripped_warped_hyphae.tooltip.summary"
+}

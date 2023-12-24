@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:extendo_grip"
+	],
+	"text": "item.create.extendo_grip.tooltip.summary"
+}

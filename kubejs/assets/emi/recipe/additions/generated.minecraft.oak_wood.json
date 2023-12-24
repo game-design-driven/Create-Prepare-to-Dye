@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:oak_wood"
+	],
+	"text": "block.minecraft.oak_wood.tooltip.summary"
+}

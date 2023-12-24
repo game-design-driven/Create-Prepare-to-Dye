@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:diluted_pool"
+	],
+	"text": "block.botania.diluted_pool.tooltip.summary"
+}

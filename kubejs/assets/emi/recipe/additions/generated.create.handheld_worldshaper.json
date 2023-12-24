@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:handheld_worldshaper"
+	],
+	"text": "item.create.handheld_worldshaper.tooltip.summary"
+}

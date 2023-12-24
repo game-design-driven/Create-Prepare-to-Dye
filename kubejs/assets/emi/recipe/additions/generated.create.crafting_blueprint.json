@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:crafting_blueprint"
+	],
+	"text": "item.create.crafting_blueprint.tooltip.summary"
+}

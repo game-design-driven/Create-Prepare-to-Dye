@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_hopperhock_chibi"
+	],
+	"text": "block.botania.floating_hopperhock_chibi.tooltip.summary"
+}

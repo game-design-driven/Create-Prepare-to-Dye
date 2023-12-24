@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:birch_log"
+	],
+	"text": "block.minecraft.birch_log.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:wrench"
+	],
+	"text": "item.create.wrench.tooltip.summary"
+}

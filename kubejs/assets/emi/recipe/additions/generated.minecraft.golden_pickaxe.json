@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:golden_pickaxe"
+	],
+	"text": "item.minecraft.golden_pickaxe.tooltip.summary"
+}

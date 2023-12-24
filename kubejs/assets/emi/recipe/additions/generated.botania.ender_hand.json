@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:ender_hand"
+	],
+	"text": "item.botania.ender_hand.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:pixie_ring"
+	],
+	"text": "item.botania.pixie_ring.tooltip.summary"
+}

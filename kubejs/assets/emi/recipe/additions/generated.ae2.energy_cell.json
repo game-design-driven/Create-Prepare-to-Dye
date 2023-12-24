@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ae2:energy_cell"
+	],
+	"text": "block.ae2.energy_cell.tooltip.summary"
+}

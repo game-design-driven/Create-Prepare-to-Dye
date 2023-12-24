@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spectral_platform"
+	],
+	"text": "block.botania.spectral_platform.tooltip.summary"
+}

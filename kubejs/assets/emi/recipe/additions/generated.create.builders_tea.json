@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:builders_tea"
+	],
+	"text": "item.create.builders_tea.tooltip.summary"
+}

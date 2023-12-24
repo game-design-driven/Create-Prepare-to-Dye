@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:copper_diving_helmet"
+	],
+	"text": "item.create.copper_diving_helmet.tooltip.summary"
+}

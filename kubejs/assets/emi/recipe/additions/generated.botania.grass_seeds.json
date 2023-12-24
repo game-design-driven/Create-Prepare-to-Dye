@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:grass_seeds"
+	],
+	"text": "item.botania.grass_seeds.tooltip.summary"
+}

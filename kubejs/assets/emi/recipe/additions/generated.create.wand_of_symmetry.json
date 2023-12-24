@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:wand_of_symmetry"
+	],
+	"text": "item.create.wand_of_symmetry.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:stripped_crimson_hyphae"
+	],
+	"text": "block.minecraft.stripped_crimson_hyphae.tooltip.summary"
+}

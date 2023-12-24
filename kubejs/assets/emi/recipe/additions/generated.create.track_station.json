@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:track_station"
+	],
+	"text": "block.create.track_station.tooltip.summary"
+}

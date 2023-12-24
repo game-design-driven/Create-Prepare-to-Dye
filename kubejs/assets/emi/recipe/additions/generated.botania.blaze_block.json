@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:blaze_block"
+	],
+	"text": "block.botania.blaze_block.tooltip.summary"
+}

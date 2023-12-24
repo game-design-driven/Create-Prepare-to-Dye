@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:water_rod"
+	],
+	"text": "item.botania.water_rod.tooltip.summary"
+}

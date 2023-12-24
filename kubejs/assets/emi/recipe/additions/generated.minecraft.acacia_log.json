@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:acacia_log"
+	],
+	"text": "block.minecraft.acacia_log.tooltip.summary"
+}

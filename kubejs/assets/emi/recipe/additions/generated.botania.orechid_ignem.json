@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:orechid_ignem"
+	],
+	"text": "block.botania.orechid_ignem.tooltip.summary"
+}

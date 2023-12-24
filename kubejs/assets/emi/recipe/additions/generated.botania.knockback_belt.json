@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:knockback_belt"
+	],
+	"text": "item.botania.knockback_belt.tooltip.summary"
+}

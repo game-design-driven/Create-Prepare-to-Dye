@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:metal_bracket"
+	],
+	"text": "block.create.metal_bracket.tooltip.summary"
+}

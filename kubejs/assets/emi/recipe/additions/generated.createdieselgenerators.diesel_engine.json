@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:createdieselgenerators:diesel_engine"
+	],
+	"text": "block.createdieselgenerators.diesel_engine.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:copper_ore"
+	],
+	"text": "block.minecraft.copper_ore.tooltip.summary"
+}

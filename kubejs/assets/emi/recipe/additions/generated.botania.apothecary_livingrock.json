@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:apothecary_livingrock"
+	],
+	"text": "block.botania.apothecary_livingrock.tooltip.summary"
+}

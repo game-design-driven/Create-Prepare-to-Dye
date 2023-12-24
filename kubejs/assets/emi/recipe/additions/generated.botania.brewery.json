@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:brewery"
+	],
+	"text": "block.botania.brewery.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:blood_pendant"
+	],
+	"text": "item.botania.blood_pendant.tooltip.summary"
+}

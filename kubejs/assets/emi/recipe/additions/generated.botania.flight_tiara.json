@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:flight_tiara"
+	],
+	"text": "item.botania.flight_tiara.tooltip.summary"
+}

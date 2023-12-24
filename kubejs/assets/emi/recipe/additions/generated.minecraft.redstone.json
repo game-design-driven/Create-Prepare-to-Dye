@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:redstone"
+	],
+	"text": "item.minecraft.redstone.tooltip.summary"
+}

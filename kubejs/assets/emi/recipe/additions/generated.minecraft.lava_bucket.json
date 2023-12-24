@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:lava_bucket"
+	],
+	"text": "item.minecraft.lava_bucket.tooltip.summary"
+}

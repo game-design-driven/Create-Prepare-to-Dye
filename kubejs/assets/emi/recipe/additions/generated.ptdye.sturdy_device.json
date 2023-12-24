@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ptdye:sturdy_device"
+	],
+	"text": "block.ptdye.sturdy_device.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:spruce_log"
+	],
+	"text": "block.minecraft.spruce_log.tooltip.summary"
+}

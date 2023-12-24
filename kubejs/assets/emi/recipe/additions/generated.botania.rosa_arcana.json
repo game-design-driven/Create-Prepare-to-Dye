@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:rosa_arcana"
+	],
+	"text": "block.botania.rosa_arcana.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:mana_fluxfield"
+	],
+	"text": "block.botania.mana_fluxfield.tooltip.summary"
+}

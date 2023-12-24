@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:solegnolia_chibi"
+	],
+	"text": "block.botania.solegnolia_chibi.tooltip.summary"
+}

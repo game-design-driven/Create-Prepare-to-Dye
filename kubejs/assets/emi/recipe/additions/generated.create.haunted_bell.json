@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:haunted_bell"
+	],
+	"text": "block.create.haunted_bell.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:diamond_axe"
+	],
+	"text": "item.minecraft.diamond_axe.tooltip.summary"
+}

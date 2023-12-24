@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:cocoon"
+	],
+	"text": "block.botania.cocoon.tooltip.summary"
+}

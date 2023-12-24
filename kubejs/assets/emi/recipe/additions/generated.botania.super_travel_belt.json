@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:super_travel_belt"
+	],
+	"text": "item.botania.super_travel_belt.tooltip.summary"
+}

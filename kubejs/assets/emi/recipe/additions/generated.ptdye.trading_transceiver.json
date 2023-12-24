@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ptdye:trading_transceiver"
+	],
+	"text": "item.ptdye.trading_transceiver.tooltip.summary"
+}

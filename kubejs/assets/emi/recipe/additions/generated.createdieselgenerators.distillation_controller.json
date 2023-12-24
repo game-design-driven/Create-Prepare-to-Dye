@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:createdieselgenerators:distillation_controller"
+	],
+	"text": "item.createdieselgenerators.distillation_controller.tooltip.summary"
+}

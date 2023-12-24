@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:tree_fertilizer"
+	],
+	"text": "item.create.tree_fertilizer.tooltip.summary"
+}

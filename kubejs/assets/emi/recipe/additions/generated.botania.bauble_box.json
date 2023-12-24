@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:bauble_box"
+	],
+	"text": "item.botania.bauble_box.tooltip.summary"
+}

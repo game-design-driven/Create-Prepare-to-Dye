@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:mana_mirror"
+	],
+	"text": "item.botania.mana_mirror.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:supplementaries:ash"
+	],
+	"text": "block.supplementaries.ash.tooltip.summary"
+}

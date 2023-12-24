@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:lexicon"
+	],
+	"text": "item.botania.lexicon.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:ender_dagger"
+	],
+	"text": "item.botania.ender_dagger.tooltip.summary"
+}

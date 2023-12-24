@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:fabulous_pool"
+	],
+	"text": "block.botania.fabulous_pool.tooltip.summary"
+}

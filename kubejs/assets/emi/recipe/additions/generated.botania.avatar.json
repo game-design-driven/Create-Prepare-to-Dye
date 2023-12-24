@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:avatar"
+	],
+	"text": "block.botania.avatar.tooltip.summary"
+}

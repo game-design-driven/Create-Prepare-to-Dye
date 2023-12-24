@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:temperance_stone"
+	],
+	"text": "item.botania.temperance_stone.tooltip.summary"
+}

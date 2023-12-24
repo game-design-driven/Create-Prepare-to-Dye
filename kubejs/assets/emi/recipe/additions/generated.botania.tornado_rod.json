@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:tornado_rod"
+	],
+	"text": "item.botania.tornado_rod.tooltip.summary"
+}

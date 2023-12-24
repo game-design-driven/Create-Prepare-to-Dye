@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:goggles"
+	],
+	"text": "item.create.goggles.tooltip.summary"
+}

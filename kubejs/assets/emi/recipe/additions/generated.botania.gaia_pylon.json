@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:gaia_pylon"
+	],
+	"text": "block.botania.gaia_pylon.tooltip.summary"
+}

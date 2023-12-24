@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:forest_eye"
+	],
+	"text": "block.botania.forest_eye.tooltip.summary"
+}
