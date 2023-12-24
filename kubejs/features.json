@@ -226,5 +226,6 @@
 	"Milling recipes for raw white, orange and yellow": true,
 	"Nerf nugget output of washing crushed stuff": true,
 	"Milling recipes for crushed white, orange and yellow": true,
-	"Diamond tools have silk touch": true
+	"Diamond tools have silk touch": true,
+	"Add stripping recipes to logs that dont have them": true
 }
