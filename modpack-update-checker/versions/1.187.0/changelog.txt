@@ -1,0 +1,18 @@
+## [1.187.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.186.2...1.187.0) (2023-12-24)
+
+
+### Features
+
+* add EMI panels for trade completions ([c7465fd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c7465fd67af555bb03a59cd4cc7de65f4f8159ee))
+
+
+### Documentation and Localization
+
+* rename trading mesh interactions ([781606e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/781606e423478e59180dd0b9ea7b3aa63acd994b))
+
+
+### Developer experance improvments and changes
+
+* add addFakeTradeRecipe and addTradeBlendingRecipe functions ([914fddd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/914fddd6e8c6374b17def9452d6ab81a59ef107c))
+
+
