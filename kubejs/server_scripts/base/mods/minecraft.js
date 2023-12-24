@@ -400,7 +400,7 @@ if (feature("Cactus from Choros fruite alchemy")) {
 
 if (feature("Elytra recipe")) {
   addShaped("elytra", ["lpl", "l l", "g g"], {
-    l: Ingredient.of("leather").or("ae2:silicon").or("dried_kelp"),
+    l: "#forge:canvasables",
     p: "purple_dye",
     g: "gray_dye",
   });

@@ -21,17 +21,11 @@ if (feature("Remove vanilla honey bottle recipe")) {
 if (feature("Mechanical belt recipes")) {
   //kelp
   removeRecipe({ id: "create:crafting/kinetics/belt_connector" });
-  addShaped("2x create:belt_connector", ["lll", "lll"], {
-    l: "minecraft:dried_kelp",
-  });
   //leather
   addShaped("2x create:belt_connector", ["lll", "lll"], {
-    l: "#forge:leather",
+    l: "#forge:canvasables",
   });
   //silicon
-  addShaped("2x create:belt_connector", ["sss", "sss"], {
-    s: "#forge:silicon",
-  });
   //combined
   addShaped("4x create:belt_connector", ["lll", "sss", "kkk"], {
     l: "#forge:leather",
@@ -172,40 +166,17 @@ if (feature("Funnels and tunnels with silicon and leather")) {
   if (!feature("Remove crafting table recipes for devices")) {
     addShaped("2x create:andesite_funnel", ["a", "l"], {
       a: "create:andesite_alloy",
-      l: "leather",
-    });
-    addShaped("2x create:andesite_funnel", ["a", "l"], {
-      a: "create:andesite_alloy",
-      l: "#forge:silicon",
+      l: "#forge:canvasables",
     });
     addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
       a: "create:andesite_alloy",
-      l: "leather",
-    });
-    addShaped("2x create:andesite_tunnel", ["aa", "ll"], {
-      a: "create:andesite_alloy",
-      l: "#forge:silicon",
+      l: "#forge:canvasables",
     });
 
     addShaped("2x create:brass_funnel", ["e", "a", "l"], {
       e: "create:polished_rose_quartz",
       a: "#forge:ingots/brass",
-      l: "#forge:silicon",
-    });
-    addShaped("2x create:brass_funnel", ["e", "a", "l"], {
-      e: "create:polished_rose_quartz",
-      a: "#forge:ingots/brass",
-      l: "leather",
-    });
-    addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
-      e: "create:polished_rose_quartz",
-      a: "#forge:ingots/brass",
-      l: "leather",
-    });
-    addShaped("2x create:brass_tunnel", ["e ", "aa", "ll"], {
-      e: "create:polished_rose_quartz",
-      a: "#forge:ingots/brass",
-      l: "#forge:silicon",
+      l: "#forge:canvasables",
     });
   }
 }
