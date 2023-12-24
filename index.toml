@@ -334,7 +334,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "ec3623bfac1ffcaeda7a8c18968c0bd816b046602e53b7ccfed7a72f2fb357a5"
+hash = "a00515f5fa855a4999bc051ea575815039bf2f2d26800aecc893bf7e52641ab8"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -638,7 +638,7 @@ hash = "f943f64f4aad03dd85a09056717471b38cfb335d7760786ada1c38f62531e2fa"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "2d0e37d50a4ac450eb9fb7a8ca517ceff762d7ee8675b9045d1bdefa57e3a0ba"
+hash = "5a8d4653a03eebad84007d80367c64f454759767bc3546cce69208cb5651aa5a"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -919,6 +919,10 @@ hash = "e298369467ba38158f631c563b808e8c40acf1f0867c27d65ec3e8e8df94d73d"
 [[files]]
 file = "kubejs/assets/minecraft/shaders/include/light.glsl"
 hash = "b8f8b395e1c93923857b98ddffa00a463d53c37f59016ac8ea6c75e84281aeeb"
+
+[[files]]
+file = "kubejs/assets/minecraft/sounds.json"
+hash = "a15b4f1fa370c25325dd1b06f341ac52614902621fb1527992f4c49fab2a0ff9"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds/ambient/weather/rain1.ogg"
@@ -1634,7 +1638,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "69ec539170d97d41321f5435c1a528b08d759d215ae5d4b72a0e09c266ff2c36"
+hash = "c0feee1f27de46c864d16a7f072a42ee35f49cd3577fd41f7bb5f81bfa79870d"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3142,7 +3146,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "67a2b0d5cf09823576ad3bc35aff1f7ca07a99bd634f1bfdbf1a314f23f23c9e"
+hash = "6a5cc258c11d1b4343b790f75f90b320519c9b98aff8856ad037853c3793cfd0"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -3318,7 +3322,7 @@ hash = "bff454ffab58339f56c376ee995c626927a010a480147e8586a84c5c5b3cab27"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "a552b11eab2e331fed1450eeada1c0903f29aca37cc85f63d8d458029d228095"
+hash = "8f941eb62bc4f4098b0081850cde2984f5243d8412f3fbc70ba8b22df5ad8007"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -3526,7 +3530,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cdab8d601f73a1dd83eabdbcd59dfeb4d6c05577f62979a6aa1b9cf681c32898"
+hash = "1a59fd3b8fa3c9f1b9f5cb244b4e36556be3f025360d017c6a796d7ca2c5b961"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -4607,6 +4611,14 @@ hash = "ab1de38763133faa784798154356b49320a87fcdc977b7bf617c56a1028e5e2e"
 [[files]]
 file = "modpack-update-checker/versions/1.181.1/changelog.txt"
 hash = "2432fb81122dbaa832d0b631abddcc38238df5f1108ab53fd16d4bfd4c02e33c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.182.0/changelog.txt"
+hash = "68598713a1610511c2a2407bf90bf091cc0881afeaee35f864b72270cd2972df"
+
+[[files]]
+file = "modpack-update-checker/versions/1.183.0/changelog.txt"
+hash = "7757bf534a2345fe79ea0b3d6fff79fbd344770b046afde5cda6f5f68167393c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
