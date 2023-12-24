@@ -1,0 +1,8 @@
+### [1.183.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.183.0...1.183.1) (2023-12-24)
+
+
+### Minor tweaks
+
+* use canvasables tag in more recipes ([48a0fd0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/48a0fd0251a84fd0c910a4e35ca4d8fee297848d))
+
+
