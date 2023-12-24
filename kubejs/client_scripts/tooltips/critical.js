@@ -97,4 +97,4 @@ addTooltip([
   'dark_oak_log',
   'crimson_stem',
   'warped_stem',
-], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees. _Expect to pay highly to get yours_, that, or... Maybe there is another way too?')
+], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees, none can grow here. _Expect to pay highly to get yours_. It is also said that there are advanced methods that use chorus _chorus fruit_ or _livingwood sticks_ that can also result in useable logs')
