@@ -65,31 +65,30 @@ function addBlockExplode(block_out, block_in) {
 const advancementRadius = 50;
 function addBlockInteractToItem(item_out, block_in, item_in, advancement) {
   let post = [
-    {
-      type: "place",
-      block: "air",
-    },
-    {
-      type: "execute",
-      command: `summon item ~ ~1 ~ {Item:{id:"${Item.of(item_out).id}",Count:${
-        Item.of(item_out).count
-      }}}`,
-    },
-  ];
+      {
+          type: "place",
+          block: 'air'
+      },
+      {
+      type: 'drop_item',
+      item: item_out,
+  },
+
+]
   if (advancement != null) {
-    post[2] = {
-      type: "execute",
-      hide: true,
-      command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`,
-    };
+      post[2] = {
+          type: 'execute',
+          hide: true,
+          command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`
+      }
   }
   let recipe = {
-    type: "lychee:block_interacting",
-    item_in: solveLimitedIngredient(item_in),
-    block_in: block_in,
-    post: post,
-  };
-  modpackRecipes.push(recipe);
+      type: 'lychee:block_interacting',
+      item_in: solveLimitedIngredient(item_in),
+      block_in: block_in,
+      post: post,
+  }
+  modpackRecipes.push(recipe)
 }
 function addGrow(block_out, block_in, item_in, ghost) {
   ghost = ghost || false;
