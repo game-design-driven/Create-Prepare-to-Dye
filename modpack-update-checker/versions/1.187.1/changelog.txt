@@ -1,0 +1,9 @@
+### [1.187.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.187.0...1.187.1) (2023-12-24)
+
+
+### Documentation and Localization
+
+* expand fake recipe array for making grass and add tall grass to recipe output ([37e50d5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/37e50d5e5c62c7cef9d463b8d554526091dfd72c))
+* improve block interaction recipes with place output using fake recipes that actually output items ([f7ef576](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f7ef57635bd7a4a68efd704dc9646efaa3457efe))
+
+
