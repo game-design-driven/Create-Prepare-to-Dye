@@ -1,0 +1,8 @@
+### [1.191.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.0...1.191.1) (2023-12-25)
+
+
+### Reverted Changes
+
+* Revert Revert: advancement removal change ([312ec58](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/312ec58aa26d22a38ef38740cd43d48066db0b82))
+
+
