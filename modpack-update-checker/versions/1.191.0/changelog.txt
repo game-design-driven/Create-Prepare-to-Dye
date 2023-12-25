@@ -1,0 +1,13 @@
+## [1.191.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.190.0...1.191.0) (2023-12-25)
+
+
+### Features
+
+* add more paper recipes ([fa7eebd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa7eebd67d12dcfac285a87c2f326f29605e3e92))
+
+
+### Fixes
+
+* item frame recipe addition when it's part of a furnished device ([6a80f26](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a80f265a962d834297064713edeb19327c69e31))
+
+

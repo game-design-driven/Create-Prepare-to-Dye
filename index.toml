@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f6bed5ef8cd06be68346a999c61bca2b13a1fee7cf016633c9d80944463779fe"
+hash = "5755a9e6075241b81ef8cbcbbb7426c3bac4ffd5b21e618ff21a462e2aa7169f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3218,7 +3218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "779040baafc6055995dd6aed87ebfa31fb15a111da0a74caf1692f67e8892bd4"
+hash = "380bb200c4b211124737e2d12d64c4afa68fd62946b09a410ed003bed41a551b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4930,7 +4930,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "27d9c88ba634729d86ab8e5ce4b591032bbfa533907384cccd1723739f8b1bd5"
+hash = "d8a114a4ff68d0f96b066ed6bbe7f643f9f6016a225f0ee5538dff75d4ad8829"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -5114,7 +5114,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "09e9f6fa86eb6e9e0c1f9cb628ab123e0fdb3de396cabb2b65ce8b4ef3ce0cfb"
+hash = "dca8f087357e0e4079c3ce8cfeb8e15567ae40e528e4c28e4c7ae8f5f88f70f4"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6247,6 +6247,10 @@ hash = "89bada963f6f9ce6e9b02025639d8f80cafe7f12e474ad9e9c6e43e2af5ae70e"
 [[files]]
 file = "modpack-update-checker/versions/1.190.0/changelog.txt"
 hash = "cee4686186e8db6668fb54936c2e81849fb52ab95c9ace27d4ea117ca6218022"
+
+[[files]]
+file = "modpack-update-checker/versions/1.191.0/changelog.txt"
+hash = "b5825e99687d425e61434720772a6147cc684707c0e197b7d21946b3e7edad53"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
