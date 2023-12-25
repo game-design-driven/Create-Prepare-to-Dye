@@ -254,10 +254,10 @@ if (feature("Endstone from cheese")) {
   addCompacting("end_stone", "9x kubejs:fermented_blob", temperature.heated);
 }
 
-if (feature("Item frame recipes")) {
-  removeRecipe({ id: "minecraft:item_frame" });
-  addShapeless("item_frame", ["stick", "stick", "stick", "#forge:canvasables"]);
-}
+// if (feature("Item frame recipes")) {
+//   removeRecipe({ id: "minecraft:item_frame" });
+//   addShapeless("item_frame", ["stick", "stick", "stick", "#forge:canvasables"]);
+// }
 
 if (feature("Sugar recipe tweaks")) {
   removeRecipe({ id: "minecraft:sugar_from_sugar_cane" });
