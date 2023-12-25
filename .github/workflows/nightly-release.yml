@@ -27,6 +27,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      # - name: Get last full release
+      #   id: get_last_release
+      #   run: gh release list --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} --limit 1 --json tag_name | jq -r '.[0].tag_name' >> $GITHUB_OUTPUT
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.1
