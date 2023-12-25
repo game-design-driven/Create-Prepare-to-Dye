@@ -6608,7 +6608,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "c49a39a9289cd66aed3ab8b7c161524ac35791bc075d9644300602d7923d0bd3"
+hash = "76a375061a2100f297991057c8b552c841a4f4d2c4433f8559edd0e76ede3f98"
 metafile = true
 
 [[files]]
@@ -6897,7 +6897,7 @@ metafile = true
 
 [[files]]
 file = "mods/wares.pw.toml"
-hash = "c2f8e9bfcf5c8e357072c98b7c4eb6b0a148a74fcce2cb953e502aa4d22b16e9"
+hash = "0f75bd257145b2841ed739f9456a148c5e70d35084f08e997443abf0f3f77e26"
 metafile = true
 
 [[files]]
