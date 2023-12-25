@@ -1,5 +1,16 @@
 if (feature("Paper recipes")) {
-  replaceShaped("paper", "###", { "#": "sugar_cane" }, true);
+  removeRecipe({ id: "minecraft:crafting_shaped/paper" })
+  addAssembly("2x paper", 'createdieselgenerators:wood_chip', [
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '25x milk'),
+  ])
+  addAssembly("3x paper", 'createdieselgenerators:wood_chip', [
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '25x water'),
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '75x water'),
+    addPressing('stick', 'stick'),
+  ])
 }
 if (feature("Chest recipes")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
