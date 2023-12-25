@@ -142,11 +142,11 @@
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.blue_dye_block"
+			"key": "item.ptdye.incomplete_red_stringed_device"
 		},
 		{
 			"namespace": "ptdye",
-			"key": "item.ptdye.incomplete_red_stringed_device"
+			"key": "block.ptdye.blue_dye_block"
 		},
 		{
 			"namespace": "minecraft",
@@ -330,11 +330,11 @@
 		},
 		{
 			"namespace": "ptdye",
-			"key": "block.ptdye.red_dye_block"
+			"key": "item.ptdye.trading_transceiver"
 		},
 		{
 			"namespace": "ptdye",
-			"key": "item.ptdye.trading_transceiver"
+			"key": "block.ptdye.red_dye_block"
 		},
 		{
 			"namespace": "ptdye",

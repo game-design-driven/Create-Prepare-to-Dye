@@ -27,9 +27,9 @@ net.minecraft.client.gui.screens.TitleScreen {
 top.theillusivec4.curios.client.gui.CuriosScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.StonecutterScreen {
+io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen {
 }
 
-io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen {
+net.minecraft.client.gui.screens.inventory.StonecutterScreen {
 }
 

@@ -1,0 +1,42 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.inventory.InventoryScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=516478%
+  action = hidebutton
+}
+
+customization {
+  path = fancymenu_data/tags-inventory-8.png
+  orientation = mid-centered
+  x = -88
+  width = 256
+  action = addtexture
+  actionid = aba7d8bf-0b3b-4326-a5f3-1313369dff4f1703459401762
+  y = -106
+  height = 30
+}
+
+customization {
+  path = fancymenu_data/smart_device.png
+  orientation = mid-centered
+  x = -12
+  width = 15
+  action = addtexture
+  actionid = 20b65583-7339-4824-ad96-84ef896833311703513317383
+  y = -101
+  height = 15
+}
+
