@@ -1,0 +1,240 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = mid-centered
+  x = 6
+  action = movebutton
+  y = -172
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -94
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -172
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -94
+}
+
+customization {
+  identifier = %id=505280%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=635154%
+  orientation = mid-centered
+  x = 136
+  action = movebutton
+  y = -172
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -118
+}
+
+customization {
+  identifier = %id=345256%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -70
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -118
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -70
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;kubejs/features.json%btnaction_splitter_fm%
+  x = -155
+  width = 150
+  action = addbutton
+  actionid = a78e1c00-0fcf-4ced-8e53-4171bdb92af21703254140846
+  customization {
+    identifier = %id=345154%
+    orientation = mid-centered
+    x = -155
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=505232%
+    orientation = mid-centered
+    x = 5
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=505280%
+    orientation = mid-centered
+    x = 5
+    action = movebutton
+    y = 25
+  }
+
+  customization {
+    identifier = %id=635154%
+    orientation = mid-centered
+    x = 136
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=345208%
+    orientation = mid-centered
+    x = -155
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=345256%
+    orientation = mid-centered
+    x = -155
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=505208%
+    orientation = mid-centered
+    x = 5
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    identifier = %id=505256%
+    orientation = mid-centered
+    x = 5
+    action = movebutton
+    y = 3
+  }
+
+  customization {
+    orientation = mid-centered
+    loopbackgroundanimations = true
+    restartbackgroundanimations = true
+    buttonaction = openfile;kubejs/features.json%btnaction_splitter_fm%
+    x = -155
+    width = 150
+    action = addbutton
+    actionid = a78e1c00-0fcf-4ced-8e53-4171bdb92af21703254140846
+    y = 3
+  }
+
+  customization {
+    label = Modpack Features
+    height = 20
+  }
+
+  customization {
+    orientation = mid-centered
+    loopbackgroundanimations = true
+    restartbackgroundanimations = true
+    buttonaction = sendmessage;/reload%btnaction_splitter_fm%
+    x = 5
+    width = 150
+    action = addbutton
+    actionid = c3339d5c-0cba-4053-be2e-ca9b34a491a61703255162333
+    y = 3
+    label = Apply Featues (reload)
+    height = 20
+  }
+
+  customization {
+    identifier = %id=400334%
+    orientation = mid-centered
+    x = -99
+    action = movebutton
+    y = 42
+  }
+  label = Modpack Features
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/reload%btnaction_splitter_fm%
+  x = 5
+  width = 150
+  action = addbutton
+  actionid = c3339d5c-0cba-4053-be2e-ca9b34a491a61703255162333
+  y = -22
+  label = Apply Featues (reload)
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 17
+}
+
