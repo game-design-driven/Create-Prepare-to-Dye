@@ -14,6 +14,11 @@ ServerEvents.recipes((event) => {
   modpackRemovedRecipes.forEach((recipeFilter) => {
     event.remove(recipeFilter);
   });
+
+  event.forEachRecipe([{ type: 'minecraft:stonecutting' }], recipe => {
+    allStonecuttingRecipes.push(recipe);
+  });
+
 });
 
 function hasRemovedItems(recipe) {
