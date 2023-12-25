@@ -402,24 +402,8 @@ if (feature('Remove vanilla bonemeal from bones recipe')) {
 //     ])
 // }
 
-// if (feature('Grass from grass block with shears accessibility recipe')) {
-// }
-// if (feature('Replace slab with full')) {
-//     forEachRecipe({ type: 'minecraft:crafting' }, recipe => {
-//         let json = recipe.json;"
-//         ""minecraft:any_of""
-//         if (json.get('catalyst') === '{"type":"block","block":"botania:alchemy_catalyst"}') {
-            
-//             let ingredients = recipe.getOriginalRecipeIngredients();
-//             if (ingredients.length != 1) return;
-    
-//             let resultId = recipe.getOriginalRecipeResult().getId();
-//             let ingredientId = ingredients[0].getItemIds()[0];
-            
-//             if (global.itemsToRemove.includes(resultId) || global.itemsToRemove.includes(ingredientId)) return;
-
-//             addAlchemyRecipe(recipe.getOriginalRecipeResult(), ingredients[0], parseInt(json.get('mana')))
-//             recipe.remove()
-//         }
-//     })
-// }
+if (feature('Rotten flesh purification')) {
+  addFilling('minecraft:leather', 'rotten_flesh', Fluid.of('create:potion',50, {
+    Potion: "minecraft:regeneration",
+  }))
+}
