@@ -60,6 +60,7 @@ function addStonecutting(output, input, hidden) {
         hidden: hidden
     };
     modpackRecipes.push(recipe)
+    allStonecuttingRecipes.push({json:recipe})
     return recipe;
 }
 /**
