@@ -6,7 +6,6 @@ BlockEvents.placed((event) => {
     let found = false;
     allStonecuttingRecipes.forEach((recipe) => {
       if (recipe.json["result"] == event.block.item.id && !found) {
-        JsonIO.write("kubejs/test.json", recipe.json);
         let ingredient = JSON.parse(recipe.json["ingredient"]);
         if (!Array.isArray(ingredient)) ingredient = [ingredient];
         ingredient.forEach((item) => {
@@ -25,7 +24,6 @@ BlockEvents.placed((event) => {
               );
             });
             found = true;
-            JsonIO.write("kubejs/test.json", recipe.json);
           }
         });
       }
