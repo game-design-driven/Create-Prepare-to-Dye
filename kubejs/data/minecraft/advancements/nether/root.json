@@ -1,15 +1,1 @@
-{
-  "criteria": {
-    "entered_nether": {
-      "conditions": {
-        "to": "minecraft:the_nether"
-      },
-      "trigger": "minecraft:changed_dimension"
-    }
-  },
-  "requirements": [
-    [
-      "entered_nether"
-    ]
-  ]
-}
+{}
