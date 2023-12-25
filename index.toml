@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "89c43787fc9c5ba67b33c1933dfcd5731d1a376e9f15f1a8beeb99d43440e4c3"
+hash = "aac30cc9f9cfbe1ebbd5b9d2cc2ee96ba67dbf97bb1f144cbfc130f96d47b86d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3218,7 +3218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "367bcdf750f59994ea296902bc40c00e683bef84994c04af208493c9b248732d"
+hash = "5f0c38c08bb2b3514dec63d2dbba3a2ab2a2d4bac083ab9bef69eea909a22ea7"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4721,16 +4721,12 @@ file = "kubejs/translation_tools/listAllNamespaces.py"
 hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
-file = "kubejs/translation_tools/missing_translations/he_il.missing.json"
-hash = "090635cdb38cb90ba1b2a7e8b624f6a220e4e0c0c1ee1bbd71b071677038f4d1"
-
-[[files]]
 file = "kubejs/translation_tools/supported_langs.json"
 hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0c6552b5c804cf2cd8f3af663e6f4c7f17d0f8a0d79af5cdfdeaac1bbc74430c"
+hash = "5fa6d8a3525f679fbfb79684c7cbad4c6b6428da4a770c2a87ecaf516c46a68a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5854,7 +5850,11 @@ hash = "6816f395a98365b23f43335fe1406477bd24ef16058a8eea0e9f9866540f93a3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.189.3/changelog.txt"
-hash = "00be9702c87731283bb2a66c3510bb02f154912a4a28f3a469a837dc69836811"
+hash = "8da80934f6148bbcd808f722e8d0120e7900b21b52d5d9462c1410fe29a071e2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.189.4/changelog.txt"
+hash = "89bada963f6f9ce6e9b02025639d8f80cafe7f12e474ad9e9c6e43e2af5ae70e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
