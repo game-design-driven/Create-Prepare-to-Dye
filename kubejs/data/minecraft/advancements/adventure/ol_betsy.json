@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "shot_crossbow": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      },
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "requirements": [
+    [
+      "shot_crossbow"
+    ]
+  ]
+}

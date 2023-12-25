@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:story/smelt_iron",
   "criteria": {
-    "crafting_table": {
+    "iron_pickaxe": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:iron_pickaxe"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "iron_pickaxe"
     ]
   ]
 }

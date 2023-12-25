@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:nether/root",
   "criteria": {
-    "crafting_table": {
+    "ancient_debris": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:ancient_debris"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "ancient_debris"
     ]
   ]
 }

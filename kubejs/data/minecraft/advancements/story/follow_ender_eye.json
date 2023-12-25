@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "in_stronghold": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:stronghold"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "in_stronghold"
+    ]
+  ]
+}

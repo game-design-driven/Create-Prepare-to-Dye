@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:story/form_obsidian",
   "criteria": {
     "entered_nether": {
       "conditions": {

@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:story/lava_bucket",
   "criteria": {
-    "crafting_table": {
+    "obsidian": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:obsidian"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "obsidian"
     ]
   ]
 }

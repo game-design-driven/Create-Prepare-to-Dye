@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:story/smelt_iron",
   "criteria": {
-    "crafting_table": {
+    "lava_bucket": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:lava_bucket"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "lava_bucket"
     ]
   ]
 }

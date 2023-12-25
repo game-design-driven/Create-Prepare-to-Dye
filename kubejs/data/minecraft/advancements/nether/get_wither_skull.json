@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:nether/find_fortress",
   "criteria": {
-    "crafting_table": {
+    "wither_skull": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:wither_skeleton_skull"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "wither_skull"
     ]
   ]
 }

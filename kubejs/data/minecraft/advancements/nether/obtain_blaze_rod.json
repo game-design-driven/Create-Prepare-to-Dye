@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:nether/find_fortress",
   "criteria": {
-    "crafting_table": {
+    "blaze_rod": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:blaze_rod"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "blaze_rod"
     ]
   ]
 }

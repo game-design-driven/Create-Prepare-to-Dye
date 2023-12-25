@@ -1,12 +1,11 @@
 {
+  "parent": "minecraft:story/root",
   "criteria": {
-    "crafting_table": {
+    "get_stone": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:crafting_table"
-            ]
+            "tag": "minecraft:stone_tool_materials"
           }
         ]
       },
@@ -15,7 +14,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "get_stone"
     ]
   ]
 }

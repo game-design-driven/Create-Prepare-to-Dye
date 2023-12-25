@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:husbandry/leash_all_frog_variants",
+  "criteria": {
+    "froglights": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ochre_froglight"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pearlescent_froglight"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:verdant_froglight"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "froglights"
+    ]
+  ]
+}

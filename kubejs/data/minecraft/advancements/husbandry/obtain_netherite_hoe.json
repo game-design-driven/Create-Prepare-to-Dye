@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:husbandry/plant_seed",
   "criteria": {
-    "crafting_table": {
+    "netherite_hoe": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:netherite_hoe"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "netherite_hoe"
     ]
   ]
 }

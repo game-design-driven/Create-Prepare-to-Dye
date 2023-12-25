@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "criteria": {
+    "kill_axolotl_target": {
+      "conditions": {
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kill_axolotl_target"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "enchanted_item": {
+      "conditions": {},
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_item"
+    ]
+  ]
+}

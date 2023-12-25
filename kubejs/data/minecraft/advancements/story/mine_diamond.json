@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:story/iron_tools",
   "criteria": {
-    "crafting_table": {
+    "diamond": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:diamond"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "diamond"
     ]
   ]
 }

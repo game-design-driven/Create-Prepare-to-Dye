@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:end/kill_dragon",
   "criteria": {
-    "crafting_table": {
+    "dragon_egg": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:dragon_egg"
             ]
           }
         ]
@@ -15,7 +16,7 @@
   },
   "requirements": [
     [
-      "crafting_table"
+      "dragon_egg"
     ]
   ]
 }

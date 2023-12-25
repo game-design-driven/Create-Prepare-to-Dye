@@ -1,15 +1,16 @@
 {
+  "parent": "minecraft:story/follow_ender_eye",
   "criteria": {
-    "entered_nether": {
+    "entered_end": {
       "conditions": {
-        "to": "minecraft:the_nether"
+        "to": "minecraft:the_end"
       },
       "trigger": "minecraft:changed_dimension"
     }
   },
   "requirements": [
     [
-      "entered_nether"
+      "entered_end"
     ]
   ]
 }
