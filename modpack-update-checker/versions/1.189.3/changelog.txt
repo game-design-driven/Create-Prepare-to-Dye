@@ -1,0 +1,8 @@
+### [1.189.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.189.2...1.189.3) (2023-12-25)
+
+
+### Fixes
+
+* advancement data incorect json format ([5d4c9c7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5d4c9c7b38b760d5f0f92b267a1cd1ae7cadd843))
+
+
