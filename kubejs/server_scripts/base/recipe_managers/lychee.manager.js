@@ -147,7 +147,7 @@ function addGrow(block_out, block_in, item_in, ghost) {
       hide: true,
     },
   ];
-  post.push(
+  post = post.concat(
     block_out.map((block) => {
       return {
         type: "place",
@@ -181,6 +181,7 @@ function addGrow(block_out, block_in, item_in, ghost) {
     post: fakePost,
     ghost: true,
   };
+  if (!ghost)
   modpackRecipes.push(recipe);
   modpackRecipes.push(fakeRecipe);
 }
