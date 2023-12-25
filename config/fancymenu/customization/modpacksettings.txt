@@ -1,102 +1,139 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
 customization {
-    identifier = %id=345154%
-    orientation = mid-centered
-    x = -155
-    action = movebutton
-    y = 3
-  }
+  keepaspectratio = false
+  action = backgroundoptions
+}
 
-  customization {
-    identifier = %id=505232%
-    orientation = mid-centered
-    x = 5
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=505154%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 92
+}
 
-  customization {
-    identifier = %id=505280%
-    orientation = mid-centered
-    x = 5
-    action = movebutton
-    y = 25
-  }
+customization {
+  identifier = %id=345232%
+  orientation = top-centered
+  x = -154
+  action = movebutton
+  y = 164
+}
 
-  customization {
-    identifier = %id=635154%
-    orientation = mid-centered
-    x = 136
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=345280%
+  orientation = top-centered
+  x = -154
+  action = movebutton
+  y = 212
+}
 
-  customization {
-    identifier = %id=345208%
-    orientation = mid-centered
-    x = -155
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=345154%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 92
+}
 
-  customization {
-    identifier = %id=345256%
-    orientation = mid-centered
-    x = -155
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=505232%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 164
+}
 
-  customization {
-    identifier = %id=505208%
-    orientation = mid-centered
-    x = 5
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=505280%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 212
+}
 
-  customization {
-    identifier = %id=505256%
-    orientation = mid-centered
-    x = 5
-    action = movebutton
-    y = 3
-  }
+customization {
+  identifier = %id=400334%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 278
+}
 
-  customization {
-    orientation = mid-centered
-    loopbackgroundanimations = true
-    restartbackgroundanimations = true
-    buttonaction = openfile;kubejs/features.json%btnaction_splitter_fm%
-    x = -155
-    width = 150
-    action = addbutton
-    actionid = a78e1c00-0fcf-4ced-8e53-4171bdb92af21703254140846
-    y = 3
-  }
+customization {
+  identifier = %id=635154%
+  orientation = top-centered
+  x = 135
+  action = movebutton
+  y = 92
+}
 
-  customization {
-    label = Modpack Features
-    height = 20
-  }
+customization {
+  identifier = %id=345208%
+  orientation = top-centered
+  x = -154
+  action = movebutton
+  y = 140
+}
 
-  customization {
-    orientation = mid-centered
-    loopbackgroundanimations = true
-    restartbackgroundanimations = true
-    buttonaction = sendmessage;/reload%btnaction_splitter_fm%
-    x = 5
-    width = 150
-    action = addbutton
-    actionid = c3339d5c-0cba-4053-be2e-ca9b34a491a61703255162333
-    y = 3
-    label = Apply Featues (reload)
-    height = 20
-  }
+customization {
+  identifier = %id=345256%
+  orientation = top-centered
+  x = -154
+  action = movebutton
+  y = 188
+}
 
-  customization {
-    identifier = %id=400334%
-    orientation = mid-centered
-    x = -99
-    action = movebutton
-    y = 42
-  }
+customization {
+  identifier = %id=505208%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 188
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;kubejs/features.json%btnaction_splitter_fm%
+  x = -154
+  width = 150
+  action = addbutton
+  actionid = a78e1c00-0fcf-4ced-8e53-4171bdb92af21703254140846
+  y = 236
+  label = Modpack Features
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/reload%btnaction_splitter_fm%
+  x = 5
+  width = 150
+  action = addbutton
+  actionid = c3339d5c-0cba-4053-be2e-ca9b34a491a61703255162333
+  y = 236
+  label = Apply Featues (reload)
+  height = 20
+}
+
