@@ -1,0 +1,8 @@
+### [1.191.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.5...1.191.6) (2023-12-26)
+
+
+### Developer experance improvments and changes
+
+* ignore the allEnglishTranslationKeys file ([36ea662](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/36ea66274ece579ae39900b3f4aaa0c954bc107f))
+
+
