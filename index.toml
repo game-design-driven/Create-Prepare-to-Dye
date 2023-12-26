@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "9cd813f2ee4673109c80089241f3f540a5955bbf9f19dcf9ec1ea4763f228105"
+hash = "46978932e49a7bf0b0b27fcc2338295d8778dab3a097c88901373bfc4cd74ece"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -602,7 +602,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
-hash = "4e43546e405f51a0bd12d3d77941d8f667884d642c7f93d4d7f14f57a87e1902"
+hash = "b3fe541b0611d9f05f37f8b2cfeb2e72531ccecf1cd413f9d0bb0ca870e7d513"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/he_il.json"
@@ -686,7 +686,7 @@ hash = "f943f64f4aad03dd85a09056717471b38cfb335d7760786ada1c38f62531e2fa"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "48f3111d8fcc417349b601afb1887cc52485b9b993ba0331a0f55f57b04afbc5"
+hash = "a3cc177babb5fb896d519f2acc78e120b844ec64325ffba56d2c813ad231953c"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -702,7 +702,7 @@ hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "8dceaeb286b49f892d8bd868e14c1991fc6cbddee0b56cce06491297e6a21bc4"
+hash = "7a75a0c1d63e3ae3c4e7dae107fef698f0b699ee78e7e62b14f4cc748d00f73d"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/brass_diode_base.png"
@@ -758,7 +758,7 @@ hash = "c64437ca80f57b1782eea5e8037d81e1148b8c14c6446be5dbea8fae6e6d96c7"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "74abba64c2e26d9f87a878dcd0ea951a01019d36a4045e86aeab4fed298d5667"
+hash = "eed1698bae89280e2daa2a2060f24961ef0b60f7752f08d02b76daa024658910"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -2290,7 +2290,7 @@ hash = "42e08b47c2fbc9c2c3e7186f8875b53da5ec2b1b9a0bb9ce0fb1e86e3a5f8357"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
-hash = "20ed4580927057d203c9560a7a81fcea5ae4ced9ca7c748a30a57fa4d63a0b43"
+hash = "d91d3a9f5ba3002642810ed7c6f57e1f687480ad4f78843fae21ec040e3e3fc4"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
@@ -3214,7 +3214,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "882c48dd82ecf6ac8882a4bb0308b29231f7fef4cbf2b995069503355888f099"
+hash = "2147d819bf86d01b028c40b26d9dfb06e675d5eff2d9d05d824a71f0090ddc68"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3462,7 +3462,7 @@ hash = "b74f5c870688b5def9d25ad2f3f31d2bc6359cfc75c83d12f092898d62a75585"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
-hash = "ef82b2d56d67726222ab12eeef8145a494fbcf99dfa2f673e2b66bf7f82f394b"
+hash = "44de23b62a71a385c1c83b065049c78d40250954a0fe5245c6251a27652a27d6"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
@@ -3611,90 +3611,6 @@ hash = "cab48ba4e7f756d78487d2ab390ca9cac7b000292c6eae2aaa1b66b653b9a0bd"
 [[files]]
 file = "kubejs/data/ae2/advancements/main/storage_cell.json"
 hash = "f78d9949a1deb3dc00ade342a7ac2fc3441faa055f717e50fa428adec8419652"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/calculation_processor_print.json"
-hash = "31aa64c4a56c76fee7c6f7f9a11b83fcb53c9f4ae3b2a7fabb8d5c65fdabeb99"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/certus_quartz_crystals-1.json"
-hash = "c891350edbce28b3bf06fdc8a9eb459a1c467b6dbe6aeb13cc1f745ca5131c07"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/certus_quartz_crystals.json"
-hash = "c891350edbce28b3bf06fdc8a9eb459a1c467b6dbe6aeb13cc1f745ca5131c07"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/certus_quartz_dust.json"
-hash = "57d7bfefb233c502ea07fc551a785afb12018d22e3bac9a2551b8925ad8f31c9"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/charged_certus_quartz_crystal.json"
-hash = "db76ad78051d91cc4db7e78e6a731d18e354632b1df858013735853bef3a4ea3"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/chipped_budding_quartz.json"
-hash = "b9ef57b46e7a1ec41df519dbe678174fd0d6920100ef84c1945f3895f8ac0c97"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/damaged_budding_quartz.json"
-hash = "f4c26a71dbc0d0efbeba75121cf56f8d851efece39fc33cc5f0eac830d45707f"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_certus_quartz_block.json"
-hash = "876dc942365101086e06d6ee4ff05810d28893ad0e3fe087f4f415b6a6e33741"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_certus_quartz_bricks.json"
-hash = "480a3394cd2a58dc626ca4564a6d2fb48b0b9f525d04e73601bbcea84f8f6e34"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_certus_quartz_pillar.json"
-hash = "1fbc7bc792f3d75d112cd82dd71d4250ca9519a58f3af1c2b07eb4249d9d0070"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_chiseled_certus_quartz.json"
-hash = "9e1914c2d0ce8aa2c3b05fedc7fad5b04c6cbb158bffb33460fb5ba45dd8f940"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_cut_certus_quartz_block.json"
-hash = "3a3319dd886d623b3c07bcad5f152d34889dfbf96ff78437012b862644ac1674"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/deconstruction_smooth_certus_quartz_block.json"
-hash = "d7a8427406552662480d6fed7876d3c6c07a20661609f1ed1aa5fac3046b4c9a"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/flawed_budding_quartz.json"
-hash = "9d9f99e7d05b3561275e9de7cecd0657695d948c763b26e3582162141d1d04ef"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/flawless_budding_quartz.json"
-hash = "e54eb61b97c882c4d018af76eb62cf3a99341d7ed067080c7cae52d94b948237"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/large_quartz_bud.json"
-hash = "95c04879e65d3ef7cb3456afb1a2c78c7bc6449814233f85517852688a2fe99c"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/medium_quartz_bud.json"
-hash = "a12d6f31caa33cabddf376bf8b2361edc43704d49e9bbfbe698a1e6f36c57ec5"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/quartz_block-1.json"
-hash = "b7f3bc75a21b573b794a4c9f747ba0de8d099c1f35e26e9d5a2f3900425bfe84"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/quartz_block.json"
-hash = "4daf955c5936a7236bdd33aff90aa9526e783f8c8d72b731d543b30a125a0a6e"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/quartz_cluster.json"
-hash = "99c550a0b8e175ab1e276a17dd53acfa07b71d43771a3c5798acaf1c454b94e3"
-
-[[files]]
-file = "kubejs/data/ae2/loot_tables/blocks/small_quartz_bud.json"
-hash = "641de12f2b3107605604afe90a08cb9c60a05a14b802980fde3ad6cd1e6e67c8"
 
 [[files]]
 file = "kubejs/data/botania/advancements/challenge/alf_portal_bread.json"
@@ -4334,7 +4250,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "a3d4bde64ccfdb5b60fc79cb540cfa2628dac4d1aae7a83410861c1b0f713599"
+hash = "d4781951cd038fb78921d9a9996082b6c08114efce70f9af0519f8b328240848"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4378,11 +4294,11 @@ hash = "aad43bd7e2b2889cc1944e08f6f4b96d6a93d6cdea0b8f5495bb41e8739c3b8c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
-hash = "987f06b233d8d53a42514efa083f89cd5584060809bef77e6a6ec79690dfd04f"
+hash = "7dd64789b0b6ddd3d1ec0e809ff946ff3250aa4cefe1d5dc08b4282b3dcb7a92"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "568ebea8c280d6f6ecd4942d7579f32697d3be058cc61b255f40cb6185e01648"
+hash = "50b7237ff81ee7fec8e7f98543f27c89632f3f0e9f8221ce78ce3ceb64c733ff"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -4406,7 +4322,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "5d576185c5ae0c7aeb0f3fdac0f8d6b21ef0520ec4ee2133913f6899448cf17b"
+hash = "995023d6137984a47a05042234f37f5c268420e50a7fb88d1528279f0ecfbb59"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -4426,7 +4342,7 @@ hash = "a8d2c5913adf69eea5730012fffc4a64f124ea75ca2560472b9159e8e568ebe8"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/mill_crush.js"
-hash = "2b87f3fc004e4e22b2fd7e57dbae0186680e5a2ec6b6645de86b318616aea15e"
+hash = "dbe9d1f5ba6af30fc4296205e650684d11ebf7ec70614a5add2c57f515fd6604"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/monsterFertilizer.js"
@@ -4438,7 +4354,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "a31af4c87d9286d9a44532fa92cf5782e585646025213170fcbae96011de95bf"
+hash = "3e14e9d436b0774d62d092c46e49f97be50c4f6ae8ecaef8058191cf5aaaffcb"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/petBetsy.js"
@@ -4518,19 +4434,19 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "8f941eb62bc4f4098b0081850cde2984f5243d8412f3fbc70ba8b22df5ad8007"
+hash = "ca1cf25e6eb37b2a6cb08b79d5e802cacc23771c23a2cd86990c6bee6e04a916"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "94b83cfe3ede747809760bb5b33350545c3cbb6a97777526170a33a36f6d4e34"
+hash = "512bdf124a8d6784e1edcfa6e1e76cd30bde625c97edd105bd2474b6796719b3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "f792cf2b4c78f7d58d286fae1e74becc0dec7da6a3d2b1af6e25806be01b7c02"
+hash = "8bd7d1ff5ff6388c1c7547a853834147a7f8eeddd9dd4e6c62addb723a635e46"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "3bb3e07f636ad3217081309f1bfa8f711262c75b681341b7576b92b8da86be66"
+hash = "c0b19ce6e250eaf5fbbb7de0c1931af8c11899b3c0c4e4b72cd182166b13c45c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -4538,7 +4454,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "d8a114a4ff68d0f96b066ed6bbe7f643f9f6016a225f0ee5538dff75d4ad8829"
+hash = "638cdbf2689db2004e8124d0ee9f2d5fa06f40d4f753653ea21e5509ab49a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -4590,7 +4506,7 @@ hash = "b0ee5c1681a45cf7afeec5f71f22f2bdfa20a5693133b9c143c3b212e4f3a7d1"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
-hash = "7476a70a43104a6481fea64ec3730cccfc373b6a0c5c3e3f0e9f6b77c11cde4f"
+hash = "bd8c106793b3830a25109f94dcc51b3fde55d39d57230c690e87b85357c9991b"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
@@ -4614,7 +4530,7 @@ hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "e050b8dff2bd0cc7e2a7f115997541cc5e65c6d28c375d5064d725a77f74f44f"
+hash = "10238305f7b90fe22b6f4e1e95819bffce934f343191f9d02a191240e5009348"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -4722,7 +4638,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "790169e6559ae02dd52575a70971c7217dd86eb9fe7a3ab5b0f58d705718db9a"
+hash = "1d92ff11174c9a14e13899c7b2ba008500dc948334161569c2e98cc46798e223"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5883,6 +5799,10 @@ hash = "f94e9462fdbdaf3629b011bdefdfd21685dc7f7eb5d5aa24c101a6fcfd981978"
 [[files]]
 file = "modpack-update-checker/versions/1.191.6/changelog.txt"
 hash = "837f47e4d1125fe9e7007aa55b7da04bd075701700e4e967acd640fed608c97d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.0/changelog.txt"
+hash = "0e38e99dd27196535dd2b516cc798f367cc8645a3cd899bc10d2011cdff57447"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
