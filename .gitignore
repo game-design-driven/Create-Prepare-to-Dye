@@ -77,3 +77,4 @@ kubejs/server_scripts/base/featrues/removeCraftingTable.js
 config/bcc-common.toml
 mods/.index/figura.pw.toml
 kubejs/translation_tools/missing_translations/*.missing.json
+kubejs/allEnglishTranslationKeys.json
