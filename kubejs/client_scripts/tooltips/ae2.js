@@ -25,5 +25,6 @@ addTooltip(
     "ae2:large_quartz_bud",
     "quartz",
   ],
-  "The primary way of obtaining _quartz_ is from breaking _quartz crystal clusters_ gently (not with a drill! They are fragile!). These grow on _budding quartz_ Which, after it decays can be recharged using _Polished Rose Quartz_ in a puddle of water. New _budding quartz_ can be created the same way by using a _Block of Quartz_."
+  "Quartz grows on _budding quartz_ naturally, when the budding quartz is depleted it can be recharged using _Polished Rose Quartz_. The quartz buds and clusters that grow on the budding quartz can be broken gently (not with a drill! They are fragile!) to obtain quartz"
 );
+
