@@ -247,7 +247,7 @@ const bnwRedstone = getAgreement("bnwRedstone", {
     "Causing quite the stir there arnt you? Your horrific red planet was empty for eons, hope you know what you are doing landing there so spectacularly. Anyways we heard your planet is red because it's made of redstone, so we want to buy some",
 });
 const bnwRedstoneFixedRates = getAgreement("bnwRedstoneFixedRates", {
-  paymentItems: ["4x ae2:fluix_smart_cable"],
+  paymentItems: ["8x ae2:fluix_smart_cable"],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Fixed rates redstone > cables",
   orderedAmount: 0,
