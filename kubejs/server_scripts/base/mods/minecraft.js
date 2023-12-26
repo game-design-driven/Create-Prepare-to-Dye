@@ -420,3 +420,7 @@ if (feature('Rotten flesh purification')) {
     Potion: "minecraft:regeneration",
   }))
 }
+
+if (feature('Gray dye into black dye')) {
+  addSmelting('3x black_dye', 'ptdye:gray_dye_block', 1, 400)
+}
