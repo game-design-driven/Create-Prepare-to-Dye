@@ -45,3 +45,12 @@ if (feature('Gold ore drops more gold')) {
         event.addBlockLootModifier("minecraft:deepslate_gold_ore").addLoot("minecraft:raw_gold");
     });
 }
+
+if (feature('Budding quartz drops themselves instead of degrading')) {
+    LootJS.modifiers((event) => {
+        event.addBlockLootModifier("ae2:flawed_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:flawed_budding_quartz");
+        event.addBlockLootModifier("ae2:chipped_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:chipped_budding_quartz");
+        event.addBlockLootModifier("ae2:damaged_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:damaged_budding_quartz");
+
+    })
+}
