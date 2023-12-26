@@ -96,3 +96,11 @@ if (feature('Replace oil with ink')) {
     '50mb createdieselgenerators:diesel',
   ],'250mb create_enchantment_industry:ink')
 }
+
+if (feature('Overhaul wooden chips recipes')) {
+  removeRecipe({id: 'createdieselgenerators:cutting/wood_chips'})
+  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_slabs'})
+  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_stairs'})
+  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_fences'})
+  addCutting('createdieselgenerators:wood_chip', 'minecraft:stick')
+}
