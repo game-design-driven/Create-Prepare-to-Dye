@@ -223,7 +223,6 @@ if (feature("nerf bonemeal from calcite")) {
   );
 }
 
-
 if (feature("piston pole and gantry shaft recipes")) {
   addShaped("8x create:piston_extension_pole", ["i", "s", "i"], {
     s: "stick",
@@ -239,7 +238,12 @@ if (feature("Remove old cogwheel recipe")) {
 }
 
 if (feature("White ingot from raw white ") /*&& !feature('No More Ingots')*/) {
-  addPressing("iron_ingot", ["raw_iron"]);
+  addPressing(
+    feature("Replace white ingot with white plate directly")
+      ? "create:iron_sheet"
+      : "minecraft:iron_ingot",
+    ["raw_iron"]
+  );
   addPressing("gold_ingot", ["raw_gold"]);
   addPressing("copper_ingot", ["raw_copper"]);
 }
@@ -255,8 +259,8 @@ if (feature("Metal gridder no gray ingot")) {
   });
 }
 
-if (feature('Monorail track alternate recipe')) {
-  removeRecipe({id: "railways:sequenced_assembly/track_monorail"})
+if (feature("Monorail track alternate recipe")) {
+  removeRecipe({ id: "railways:sequenced_assembly/track_monorail" });
   addAssembly(
     ["32x railways:track_monorail"],
     "create:metal_girder",
@@ -276,4 +280,3 @@ if (feature("Blaze is capturable")) {
     event.add("create:blaze_burner_capturable", ["more_babies:blaze"]);
   });
 }
-

@@ -228,5 +228,14 @@
 	"Milling recipes for crushed white, orange and yellow": true,
 	"Diamond tools have silk touch": true,
 	"Add stripping recipes to logs that dont have them": true,
-	"Rotten flesh purification": true
+	"Rotten flesh purification": true,
+	"remove wood chips from sticks recipe": true,
+	"Reduce mana price of manasteel": true,
+	"Glass goes back into blocks when broken": true,
+	"Gold ore drops more raw gold": true,
+	"Gray dye into black dye": true,
+	"Gold ore drops more gold": true,
+	"Replace white ingot with white plate directly": true,
+	"Budding quartz drops themselves instead of degrading": true,
+	"Overhaul wooden chips recipes": true
 }
