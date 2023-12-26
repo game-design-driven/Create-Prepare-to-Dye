@@ -39,7 +39,7 @@ if (feature('Manapool-crafting-table recipes for single ingredient crafting')) {
         if (manapool_single_crafting_blacklist.includes(recipe.getId())) return;
         // console.info('recipe: ' + resultId + ' ' + ingredientId + ' ' + recipe.getId()+ 'removed: ' + recipe.removed)
         if (recipe.removed) return;
-        addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 1, 'ptdye:mechanical_device');
+        addInfusion(recipe.getOriginalRecipeResult(), ingredients[0], 0, 'ptdye:mechanical_device');
         // console.info('Adding infusion for "' + resultId + '" and "' + ingredientId+'"');
     });
 }
