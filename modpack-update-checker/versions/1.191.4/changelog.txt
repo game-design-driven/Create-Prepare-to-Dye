@@ -1,0 +1,20 @@
+### [1.191.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.3...1.191.4) (2023-12-26)
+
+
+### Fixes
+
+* empty pages still cause the ... to be added at end of tooltip ([5702f7a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5702f7adfa027aacbb755d0f1015e7585df04fbb))
+* stacksize script repeating logic ([9d574e1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9d574e12d55385f37fc39fa774686c12027905db))
+
+
+### Documentation and Localization
+
+* improve pure daisy docs ([321457a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/321457ac7728637dcaf2b8c2ed18632ccd799b8b))
+
+
+### Minor tweaks
+
+* disable pathfinder map ([77f92ba](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/77f92ba9bcba90d0d48cb0c03e7c638ad7a0f8c9))
+* disable Pickarang ([93028ae](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/93028ae2c723f5274ecb0762c5af729f1ffc200c))
+
+

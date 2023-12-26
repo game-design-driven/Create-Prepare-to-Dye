@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3ac937e03e5f4d5aca5ccaac5bf9c8e7255346a68cb050329786e467b8dcdf15"
+hash = "1d02414e456a91c491e013db9619c62907336c4ab453e98edee6b3055a94701d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -390,7 +390,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "ad4e9240dbdc64b50116eefadfef2e8ab004f4f510cf204407e2e0c09a3f0f3a"
+hash = "fd03eacd7521895d19dc51ad6daa4c113897eaf44e5ed8fa5d45c9558471d1dc"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -638,7 +638,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "d614b13e1b99e7279c97e2797809794cb45966af597f62cbd486dfa99074cc50"
+hash = "80f9d3f9d94fd70589c71520feddc13c6512bf54e61869346abdefb9d505da52"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -690,7 +690,7 @@ hash = "f943f64f4aad03dd85a09056717471b38cfb335d7760786ada1c38f62531e2fa"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "045aaac01ee23c0a7d7eccb659b55ea37e1238a56bb97817e4a4c87a008f1f0d"
+hash = "48f3111d8fcc417349b601afb1887cc52485b9b993ba0331a0f55f57b04afbc5"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -3218,7 +3218,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a32491ceb27f4cc905129d67645968744450acfbbbaf57ddfdd036df186b650c"
+hash = "c5e2df44440c2e5d48862dfa5c6eace8bf0d1ede3387ca21bf66c893f60df340"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3470,7 +3470,7 @@ hash = "ef82b2d56d67726222ab12eeef8145a494fbcf99dfa2f673e2b66bf7f82f394b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
-hash = "2c03dcc415317497aaad5ad03768ad01688a675115607142d2fa7e633eb27910"
+hash = "809ece56a6c0254c28d30e83e35af612f4092f1711626f901d7d3e3d9a9a2cb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
@@ -4702,7 +4702,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "ddd4c6d701de1b00a411983f1ab6a65b66c0fd7647be35df06d2b4d65b8f67fe"
+hash = "619c9a40793a29cc1a18bd274194f4c02dd86b0e8d20f4795c8049217cec415b"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -4726,7 +4726,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1247ffa6b0d1f04e8bbad94c65b02adfcf8dd23d7a920e39d268d61ee84184d7"
+hash = "d1c92317712ad1ef28c3a7b945ec735c6b944e356a85a91d92e49b5c99fd5c81"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5875,6 +5875,10 @@ hash = "4a15f769be819bd8e64fd2b133e8f4b2581d9a48cada803c6957c2af74fc2d1f"
 [[files]]
 file = "modpack-update-checker/versions/1.191.3/changelog.txt"
 hash = "08194ffb5a0c476460743871c907c1eba0956778721f1296a528b4b79b7322d6"
+
+[[files]]
+file = "modpack-update-checker/versions/1.191.4/changelog.txt"
+hash = "85727c21e83f6ad8063567cffd545c9f4305c2de1487343f4ff3714200eecee1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
