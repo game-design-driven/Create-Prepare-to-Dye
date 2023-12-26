@@ -338,8 +338,8 @@
 	"Slime In A Bucket" = true
 	"Skull Pikes" = true
 	"Seed Pouch" = false
-	Pickarang = true
 	"Pathfinder Maps" = true
+	Pickarang = false
 	"Parrot Eggs" = false
 	"Endermosh Music Disc" = false
 	"Color Runes" = false
