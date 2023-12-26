@@ -26,7 +26,7 @@ const bcfPlates2 = getAgreement("bcfPlates2", {
     "16x minecraft:andesite",
     "16x ptdye:sealed_device",
     "10x ae2:flawed_budding_quartz",
-    "16x ptdye:mechanical_device",
+    "32x ptdye:mechanical_device",
     "16x ptdye:smart_device",
     "create:super_glue",
   ],
