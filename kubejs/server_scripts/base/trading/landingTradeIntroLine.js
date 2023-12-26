@@ -236,7 +236,7 @@ const bnwRedstone = getAgreement("bnwRedstone", {
       2,
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
-    "8x ae2:fluix_smart_cable",
+    "16x ae2:fluix_smart_cable",
     "4x ptdye:logic_device",
   ],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
