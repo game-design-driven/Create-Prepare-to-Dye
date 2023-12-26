@@ -1,0 +1,8 @@
+### [1.191.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.4...1.191.5) (2023-12-26)
+
+
+### Fixes
+
+* pure daisy docs using tooltip format instead of book format, causing them to not display things in the book the right way ([b663501](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b6635014203ae6e49252c078749983dd9c355580))
+
+
