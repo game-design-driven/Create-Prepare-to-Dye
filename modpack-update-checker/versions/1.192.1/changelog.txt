@@ -1,0 +1,8 @@
+### [1.192.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.0...1.192.1) (2023-12-26)
+
+
+### Fixes
+
+* fancymenu customization buttons showing when they should not ([4857326](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/48573266bc14b1deeb8a925742de7e1bc6ca711a))
+
+
