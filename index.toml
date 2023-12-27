@@ -157,8 +157,8 @@ file = "config/fancymenu/customization/auto-assembler-slider-base.txt"
 hash = "482bbedfc5361e80c5ccd7d1c9f90c663e22f278946e2d6fd2935c4651bc20a9"
 
 [[files]]
-file = "config/fancymenu/customization/betsybutton.txt"
-hash = "09c847138b12018845b3b63b6eabdacdf2bf7b7cc65eb5370af576bbf9be4368"
+file = "config/fancymenu/customization/betsy.txt"
+hash = "bb8773584fca6724e2d02b4940dc587f7f8de0377d32e6497be1e4c86937277b"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "8afd45bc5b6fc18a215370bc0011781e2de7ebd9ae7c189e99a8fb021d3dce26"
+hash = "d66567eca72d93fdc82beb3209a04c8258240d32c8ccc9156ef2d3b030b007a8"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3214,7 +3214,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5573142cf363fd3128365164e1dd6e63a4a9a720d81a423d3d140b2d0befc1a4"
+hash = "b012fe037d10edb1d17985a2d9a95f8a020be0eb9c4535649aa86dc4a8b6c932"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4638,7 +4638,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "b5054651cca20b2a3cd4cbcbd65431a93b6d998364374312eb8cdb14cb997707"
+hash = "41bfa5046ff5e851aba01a587b55cb4df46544fdf7591a2584429f2e955ff816"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5811,6 +5811,14 @@ hash = "1025aa9f4497b8a252332a3857e127588922f662841bf910e585e5319733325c"
 [[files]]
 file = "modpack-update-checker/versions/1.192.2/changelog.txt"
 hash = "616c299ad78017c71ae395d01db8b2d1fd0e7fc8baab30159aed73f942677ba9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.4/changelog.txt"
+hash = "d835fdd631c58f4f517e1a569f57faad7b9379b5131ccbdcf26a98c6661e63e1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.5/changelog.txt"
+hash = "ef7bbd6f98ffbaa7238481568e174e17c4075519c86d0ecf5312902a9a7365c2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
