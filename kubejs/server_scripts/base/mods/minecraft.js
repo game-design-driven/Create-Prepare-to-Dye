@@ -361,7 +361,7 @@ if (feature("Stone tools from livingrock")) {
 
 if (feature("Metal Trap door Recipe bigger")) {
   removeRecipe({ id: "minecraft:iron_trapdoor" });
-  addShaped("2x iron_trapdoor", ["###", "###"], { "#": "#forge:plates/iron" });
+  addStonecutting("3x iron_trapdoor", "iron_block");
 }
 if (feature("Soulsand from sand and brown")) {
   addBlockInteract("minecraft:soul_sand", "#forge:sand", "brown_dye");

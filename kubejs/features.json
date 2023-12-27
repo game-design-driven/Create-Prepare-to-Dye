@@ -237,5 +237,7 @@
 	"Gold ore drops more gold": true,
 	"Replace white ingot with white plate directly": true,
 	"Budding quartz drops themselves instead of degrading": true,
-	"Overhaul wooden chips recipes": true
+	"Overhaul wooden chips recipes": true,
+	"Replace trapdoor recipe with stonecutting recipe": true,
+	"Quartz buds drop quartz": true
 }

@@ -4250,7 +4250,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "d4781951cd038fb78921d9a9996082b6c08114efce70f9af0519f8b328240848"
+hash = "5f5da1f2188c46c638d498e286dea74c46e4576ce7dc7e9bea6211e896204467"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4434,11 +4434,11 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "ca1cf25e6eb37b2a6cb08b79d5e802cacc23771c23a2cd86990c6bee6e04a916"
+hash = "28f9569cdfc5f2d0166c22bc8163bd88abf4b5a4c124485e91206af84e1dc74a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "512bdf124a8d6784e1edcfa6e1e76cd30bde625c97edd105bd2474b6796719b3"
+hash = "3b63cbb442054ac268c9664811f5a8db6a1f37bca1eb80b93ad745bcf2897d9c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
@@ -4454,7 +4454,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "638cdbf2689db2004e8124d0ee9f2d5fa06f40d4f753653ea21e5509ab49a8c8"
+hash = "c18a3a26ccd502f1afe7577811f2aa2b65438b40f65404adec87b9dec4ab3182"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
