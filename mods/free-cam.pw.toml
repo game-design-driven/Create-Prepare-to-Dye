@@ -1,0 +1,7 @@
+name = "free-cam"
+filename = "freecam-forge-1.2.1+1.19.jar"
+
+[download]
+url = "https://github.com/hashalite/Freecam/releases/download/1.2.1-forge-mc1.19/freecam-forge-1.2.1+1.19.jar"
+hash-format = "sha256"
+hash = "d0277e6f7b9cb2965bf863fe92283f6271e3662c38c14065ce389013b0af16e0"
