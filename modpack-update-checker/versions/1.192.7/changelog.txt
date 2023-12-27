@@ -1,0 +1,8 @@
+### [1.192.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.6...1.192.7) (2023-12-27)
+
+
+### Reverted Changes
+
+* Revert mods: add freecam ([95554be](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95554be304d9d29af9d1b1ce9ebb23b450b8622e))
+
+
