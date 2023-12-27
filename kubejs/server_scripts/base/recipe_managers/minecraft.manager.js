@@ -16,13 +16,15 @@ function replaceShapeless(output, input) {
  * @param {string[]} pattern ['aaa','bbb','aaa']
  * @param {Map<any,string>} key { a: 'stick', b: 'gray_concrete' }
  */
-function addShaped(output, pattern, key) {
+function addShaped(output, pattern, key, hidden) {
+    hidden = hidden || false
     if (!Array.isArray(pattern)) pattern = [pattern]
     let recipe = {
         type: "minecraft:crafting_shaped",
         pattern: pattern,
         result: solveResult(output),
         key: key,
+        hidden: hidden
     };
     modpackRecipes.push(recipe)
     return recipe;
@@ -60,6 +62,7 @@ function addStonecutting(output, input, hidden) {
         hidden: hidden
     };
     modpackRecipes.push(recipe)
+    allStonecuttingRecipes.push({json:recipe})
     return recipe;
 }
 /**

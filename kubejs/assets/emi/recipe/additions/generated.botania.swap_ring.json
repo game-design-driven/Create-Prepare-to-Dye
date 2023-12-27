@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:swap_ring"
+	],
+	"text": "item.botania.swap_ring.tooltip.summary"
+}

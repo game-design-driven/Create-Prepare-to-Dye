@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:golden_shovel"
+	],
+	"text": "item.minecraft.golden_shovel.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:tiny_planet"
+	],
+	"text": "item.botania.tiny_planet.tooltip.summary"
+}

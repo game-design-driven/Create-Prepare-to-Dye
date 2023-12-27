@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:reach_ring"
+	],
+	"text": "item.botania.reach_ring.tooltip.summary"
+}

@@ -49,3 +49,11 @@ KeepNBTWhenOpeningAgreement = true
 	#Range: > 1
 	WarehouseWeight = 5
 
+[Misc]
+	#Owner of the table is set to the last player who interacted with it (instead of who placed it or first interacted)
+	#Can be useful for modpack developers. Not used by the mod itself.
+	#Default: false
+	ChangeOwnerToLastPlayer = false
+	#Delivery Table advancements would be triggered on the closest player if owner is offline or table doesn't have one.
+	TriggerTableAdvancementOnNearestPlayer = true
+

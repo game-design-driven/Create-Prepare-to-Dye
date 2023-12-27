@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:clip"
+	],
+	"text": "item.botania.clip.tooltip.summary"
+}

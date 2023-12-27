@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:piston_relay"
+	],
+	"text": "block.botania.piston_relay.tooltip.summary"
+}

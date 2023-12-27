@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spell_cloth"
+	],
+	"text": "item.botania.spell_cloth.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:slime_bottle"
+	],
+	"text": "item.botania.slime_bottle.tooltip.summary"
+}

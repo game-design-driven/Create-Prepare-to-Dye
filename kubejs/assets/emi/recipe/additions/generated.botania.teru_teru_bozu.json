@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:teru_teru_bozu"
+	],
+	"text": "block.botania.teru_teru_bozu.tooltip.summary"
+}

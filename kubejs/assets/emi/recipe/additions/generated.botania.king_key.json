@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:king_key"
+	],
+	"text": "item.botania.king_key.tooltip.summary"
+}

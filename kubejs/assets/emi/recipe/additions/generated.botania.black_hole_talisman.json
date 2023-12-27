@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:black_hole_talisman"
+	],
+	"text": "item.botania.black_hole_talisman.tooltip.summary"
+}

@@ -1,0 +1,21 @@
+### [1.189.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.189.2...1.189.3) (2023-12-25)
+
+### Features
+* add button to open modpack features.json
+* automatically add all stonecutter (assembler) recipes to variant system
+* quark variants are now assembler variants and can be crafter bi-directionally
+* add tag forge:devices/generics to devices for use in varient system
+* disable quark variant selector
+* automated assembly system with inventory toggles that lets you automatically assemble blocks from other blocks when running out
+* Diesel Engines emit sounds on trains
+* docs: AgreementScreenInfinitySymbol = true
+
+### mods
+* update create diesel generators. This fixes distilation with no heatsource!
+* update wares
+### Fixes
+
+* advancement data incorect json format ([5d4c9c7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5d4c9c7b38b760d5f0f92b267a1cd1ae7cadd843))
+* emi assembly panel alignment
+* Milk advancement not triggering if deployer petted betsy beforehand. Deployers are no longer allowed to pet Betsy
+* button orientation on settings menu

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:wares:completed_delivery_agreement"
+	],
+	"text": "item.wares.completed_delivery_agreement.tooltip.summary"
+}

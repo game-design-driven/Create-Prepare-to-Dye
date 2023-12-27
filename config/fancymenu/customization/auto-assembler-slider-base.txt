@@ -1,0 +1,80 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.inventory.StonecutterScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_data/auto-assembler-slider-base.png
+  orientation = mid-centered
+  x = 31
+  width = 100
+  action = addtexture
+  actionid = eeb9091b-c847-4e07-b057-1e6086ae94931703499486470
+  y = -105
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/AutoAssemble%btnaction_splitter_fm%enable_layout;0-auto-assemble%btnaction_splitter_fm%disable_layout;0-no-automatic-assembly%btnaction_splitter_fm%disable_layout;0-automatic-assembly-generics-only%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  description = Automatic Assembly
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 51
+  width = 15
+  action = addbutton
+  actionid = 0b510e3e-8ac7-4a87-81f3-8c26316ebcab1703500201606
+  y = -101
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/AutoAssembleNothing%btnaction_splitter_fm%disable_layout;0-auto-assemble%btnaction_splitter_fm%enable_layout;0-no-automatic-assembly%btnaction_splitter_fm%disable_layout;0-automatic-assembly-generics-only%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  description = No Automatic Assembly
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 36
+  width = 15
+  action = addbutton
+  actionid = 703f1c83-4757-412c-b3ef-cbdce17786281703501317919
+  y = -101
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/AutoAssembleGenericsOnly%btnaction_splitter_fm%disable_layout;0-auto-assemble%btnaction_splitter_fm%disable_layout;0-no-automatic-assembly%btnaction_splitter_fm%enable_layout;0-automatic-assembly-generics-only%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  description = Automatic Assembly From Generics Only
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 68
+  width = 15
+  action = addbutton
+  actionid = 07c0886b-2c99-4f3d-b03c-3988b2190aae1703501331553
+  y = -101
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 20
+}
+

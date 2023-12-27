@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:white_concrete_powder"
+	],
+	"text": "block.minecraft.white_concrete_powder.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:minecart_coupling"
+	],
+	"text": "item.create.minecart_coupling.tooltip.summary"
+}

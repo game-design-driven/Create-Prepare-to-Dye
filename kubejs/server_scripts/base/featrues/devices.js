@@ -315,6 +315,7 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
+    addToTag('forge:devices/generics', device.generic)
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
     device.incomplete =

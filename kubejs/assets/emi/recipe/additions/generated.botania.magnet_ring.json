@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:magnet_ring"
+	],
+	"text": "item.botania.magnet_ring.tooltip.summary"
+}

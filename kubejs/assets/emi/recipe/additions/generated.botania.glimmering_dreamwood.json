@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:glimmering_dreamwood"
+	],
+	"text": "block.botania.glimmering_dreamwood.tooltip.summary"
+}

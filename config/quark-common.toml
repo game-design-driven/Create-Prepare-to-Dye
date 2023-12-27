@@ -338,8 +338,8 @@
 	"Slime In A Bucket" = true
 	"Skull Pikes" = true
 	"Seed Pouch" = false
-	Pickarang = true
-	"Pathfinder Maps" = true
+	Pickarang = false
+	"Pathfinder Maps" = false
 	"Parrot Eggs" = false
 	"Endermosh Music Disc" = false
 	"Color Runes" = false
@@ -1652,7 +1652,7 @@
 	"Enchantment Predicates" = false
 	"Adjustable Chat" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
-	"Variant Selector" = true
+	"Variant Selector" = false
 	"Villager Rerolling Rework" = true
 	"Climate Control Remover" = false
 

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_bellethorn_chibi"
+	],
+	"text": "block.botania.floating_bellethorn_chibi.tooltip.summary"
+}

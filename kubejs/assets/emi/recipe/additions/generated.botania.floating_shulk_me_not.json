@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_shulk_me_not"
+	],
+	"text": "block.botania.floating_shulk_me_not.tooltip.summary"
+}

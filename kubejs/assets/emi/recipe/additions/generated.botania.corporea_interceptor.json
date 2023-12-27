@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:corporea_interceptor"
+	],
+	"text": "block.botania.corporea_interceptor.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:jiyuulia_chibi"
+	],
+	"text": "block.botania.jiyuulia_chibi.tooltip.summary"
+}

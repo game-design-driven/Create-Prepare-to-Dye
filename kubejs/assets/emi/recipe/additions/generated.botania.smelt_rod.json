@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:smelt_rod"
+	],
+	"text": "item.botania.smelt_rod.tooltip.summary"
+}

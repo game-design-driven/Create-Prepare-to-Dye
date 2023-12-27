@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:rannuncarpus_chibi"
+	],
+	"text": "block.botania.rannuncarpus_chibi.tooltip.summary"
+}

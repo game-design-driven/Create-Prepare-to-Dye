@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:endoflame"
+	],
+	"text": "block.botania.endoflame.tooltip.summary"
+}

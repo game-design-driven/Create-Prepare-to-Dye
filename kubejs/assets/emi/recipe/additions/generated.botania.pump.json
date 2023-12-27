@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:pump"
+	],
+	"text": "block.botania.pump.tooltip.summary"
+}

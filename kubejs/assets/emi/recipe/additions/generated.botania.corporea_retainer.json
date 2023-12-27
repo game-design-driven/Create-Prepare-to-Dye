@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:corporea_retainer"
+	],
+	"text": "block.botania.corporea_retainer.tooltip.summary"
+}

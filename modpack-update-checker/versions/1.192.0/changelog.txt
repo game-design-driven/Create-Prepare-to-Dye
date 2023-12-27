@@ -1,0 +1,36 @@
+## [1.192.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.6...1.192.0) (2023-12-26)
+
+
+### Features
+
+* Gray dye into black dye ([dd9fcf8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dd9fcf8205f386b9685083442831a4986ed088c4))
+* replace white ingot with white plate ([ea56e3f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ea56e3f700a4554a6317ec06f20dd89d24f6f362))
+
+
+### Developer experance improvments and changes
+
+* add support for hidden shaped recipes ([106e521](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/106e52104c816d6d54d95f7a436a2064eac5e58f))
+
+
+### Minor tweaks
+
+* buf fluix_smart_cable of bnwRedstone trade ([497313d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/497313d8642046113e269a662d07eefbc34de75f))
+* buff fluix_smart_cable output of bnwRedstoneFixedRates ([8dd21be](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8dd21bedcd08cee13147e2846d15a8c7ee2ce5b8))
+* buff mechanical device output of bcfPlates2 trade ([e872b0a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e872b0ac34356804de27bddebde97719c85e013f))
+* Gold ore drops more gold ([6bd7d63](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6bd7d63737f20b9f412bac45cc1b1113a8544448))
+* hide anvil repairing from EMI ([fb8d744](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fb8d7446950a77358b5a97b30ff45a7812b44b81))
+* increase dye output of carrots ([961fc55](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/961fc5526b89418871106031738286101c35afa5))
+* increase yellow dye output of elven trade from glowstone ([715a1c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/715a1c8743745fe3546c9898cb49737d6346bf1c))
+* Overhaul wooden chips recipes ([6cf3685](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6cf36853c88758adf07cbfda5aeb6e78b0d62350))
+* Reduce mana price of manasteel. to 1000 from 3000 ([02fc6b3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/02fc6b31d7dd9b19988b2ddf82a7d77b6d0281aa))
+* simplify quartz processing and production. Including an earlier entry point by dying quartz blocks. Also made budding quartz drop itself instead of degrading ([3dc3b58](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3dc3b587088ee2255b0bc66f9fd0ea13fe79d8f1))
+
+
+### Documentation and Localization
+
+* improve pure daisy docs ([82d1473](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/82d147393577050084ec20b76331601a75b82880))
+* improve quartz description ([03957a3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/03957a3491bd6994778297a3308c2c300c8db34c))
+* rename Depleted Budding Quartz to Light Blue Quartz ([fd0b35b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fd0b35be130ecde015491c301b22210991ac9786))
+* rename sheets to plates ([21ba3b6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/21ba3b607c12c1fb3c80ef56098291c60055aa95))
+
+

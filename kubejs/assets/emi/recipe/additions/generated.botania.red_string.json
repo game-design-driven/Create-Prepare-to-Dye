@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:red_string"
+	],
+	"text": "item.botania.red_string.tooltip.summary"
+}

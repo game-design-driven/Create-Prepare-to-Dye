@@ -1,0 +1,21 @@
+### [1.186.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.186.1...1.186.2) (2023-12-24)
+
+
+### Fixes
+
+* botania tooltips generated for none exsisting items and blocks ([0f167de](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0f167decf4eef9e8d7cc018dabbed6e362e9f1c2))
+
+
+### Documentation and Localization
+
+* add more logs to log tooltip list ([c93ff5b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c93ff5bb28cc8b35369e3d72bd834b38cabd66a8))
+* improve wood tooltip ([4fa98b0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4fa98b0d93340a39cd7fc29525e4f5f1b518633e))
+* simplify white powder tooltip ([2ec6efe](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2ec6efe21d61f817b063f26207f5b559fad233eb))
+
+
+### Minor tweaks
+
+* Add stripping recipes to logs that dont have them like livingwood log to make alternative wood aquisition methods more clear ([9069f91](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9069f9122f268ac711cc58be50f9fe1e01e53595))
+* left-sidebar-header: invisible to stop it from overlaping with mesh info panel ([657e500](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/657e500437b5cb68c27eda3ba8756aa244f40225))
+
+

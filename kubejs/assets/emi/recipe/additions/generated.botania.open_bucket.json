@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:open_bucket"
+	],
+	"text": "item.botania.open_bucket.tooltip.summary"
+}

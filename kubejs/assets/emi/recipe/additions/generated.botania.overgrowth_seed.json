@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:overgrowth_seed"
+	],
+	"text": "item.botania.overgrowth_seed.tooltip.summary"
+}

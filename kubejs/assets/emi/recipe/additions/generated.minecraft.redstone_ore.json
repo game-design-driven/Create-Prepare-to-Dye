@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:redstone_ore"
+	],
+	"text": "block.minecraft.redstone_ore.tooltip.summary"
+}

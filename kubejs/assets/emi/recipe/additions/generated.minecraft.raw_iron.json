@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:raw_iron"
+	],
+	"text": "item.minecraft.raw_iron.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:tigerseye"
+	],
+	"text": "block.botania.tigerseye.tooltip.summary"
+}

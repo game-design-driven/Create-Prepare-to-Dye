@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:diamond_pickaxe"
+	],
+	"text": "item.minecraft.diamond_pickaxe.tooltip.summary"
+}

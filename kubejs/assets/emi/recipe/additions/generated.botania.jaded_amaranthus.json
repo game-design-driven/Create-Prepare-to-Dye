@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:jaded_amaranthus"
+	],
+	"text": "block.botania.jaded_amaranthus.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:railway_casing"
+	],
+	"text": "block.create.railway_casing.tooltip.summary"
+}

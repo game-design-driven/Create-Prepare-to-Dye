@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:prism"
+	],
+	"text": "block.botania.prism.tooltip.summary"
+}

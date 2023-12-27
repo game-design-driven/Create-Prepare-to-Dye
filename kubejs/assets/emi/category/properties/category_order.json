@@ -31,5 +31,8 @@
   },
   "minecraft:stonecutting": {
     "order": -10
+  },
+  "create:automatic_shaped": {
+    "order": -9
   }
 }

@@ -1,0 +1,8 @@
+## [1.182.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.181.1...1.182.0) (2023-12-24)
+
+
+### Features
+
+* chicken sound distance is now 2 blocks ([2516cb0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2516cb0fb8de38a7117a46af962a9a9836ffddc2))
+
+

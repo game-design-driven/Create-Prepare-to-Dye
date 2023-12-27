@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:water_bucket"
+	],
+	"text": "item.minecraft.water_bucket.tooltip.summary"
+}

@@ -1,9 +1,9 @@
 {
     "block.botania.apothecary_default": "Apothecary",
     "botania.entry.pureDaisy": "Pure Daisy",
-    "botania.tagline.pureDaisy": "Purifies blocks into their living counterparts, turns water into snow, and milk into white powder",
-    "botania.page.pureDaisy0": "This flower will purify any adjacent milk (flowing or not) into _White Powder_, along with $(item)Wood$(0) and $(item)Stone$(0) blocks (as seen on the next page) into their purified counterparts, $(item)Livingwood$(0) and $(item)Livingrock$(0).",
-    "botania.page.pureDaisy1": "A few other blocks or fluids can also be purified by placing them around the flower",
+    "botania.tagline.pureDaisy": "Purifies blocks and fluids",
+    "botania.page.pureDaisy0": "This flower will purify any adjacent $(item)milk$(0) (flowing or not) into $(item)White Powder$(0), along with $(item)Wood$(0) and $(item)Stone$(0) blocks into their purified counterparts, $(item)Livingwood$(0) and $(item)Livingrock$(0).",
+    "botania.page.pureDaisy1": "",
     "botania.page.pureDaisy2": "",
     "botania.page.pureDaisy3": "",
     "botaniamisc.craftToAddWill": "Green Helmet Upgrade:",

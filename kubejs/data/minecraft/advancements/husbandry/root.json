@@ -1,13 +1,1 @@
-{
-  "criteria": {
-    "consumed_item": {
-      "conditions": {},
-      "trigger": "minecraft:consume_item"
-    }
-  },
-  "requirements": [
-    [
-      "consumed_item"
-    ]
-  ]
-}
+{}

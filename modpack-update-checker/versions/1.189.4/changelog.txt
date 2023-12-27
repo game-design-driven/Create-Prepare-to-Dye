@@ -1,0 +1,8 @@
+### [1.189.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.189.3...1.189.4) (2023-12-25)
+
+
+### Developer experance improvments and changes
+
+* ignore missing translations ([c8cb0cb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c8cb0cbe4869f86d1d51d5ebf89c08464fcb134f))
+
+

@@ -93,8 +93,9 @@ function getAgreement(agreementID, {
   if (orderedAmount != 0)
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
-      .concat([agreementObj.completedItem]);
+    .concat([agreementObj.completedItem]);
 
+  addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
@@ -144,6 +145,11 @@ function tradeBranch(outputTrades, inputTrades) {
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
     );
+    // addTradeBlendingRecipe(
+    //   outputTrades.map((trade) => trade.item),
+    //   inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
+    // );
+    // addFakeTradeRecipe(outputTrades[0].item,getTradeNbtNameFilter(inputTrades[0].completedItem))
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
     // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:blaze_cake"
+	],
+	"text": "item.create.blaze_cake.tooltip.summary"
+}

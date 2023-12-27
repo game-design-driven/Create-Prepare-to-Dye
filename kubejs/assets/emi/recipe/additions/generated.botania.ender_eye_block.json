@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:ender_eye_block"
+	],
+	"text": "block.botania.ender_eye_block.tooltip.summary"
+}

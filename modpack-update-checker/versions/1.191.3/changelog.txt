@@ -1,0 +1,14 @@
+### [1.191.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.191.2...1.191.3) (2023-12-26)
+
+
+### Minor tweaks
+
+* slight buff to xp from raw colors ([3b70342](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3b70342e954444e9b954e0a448323a9b57454df5))
+
+
+### Fixes
+
+* manapool crafting taking 1 mana instead of none ([eb67100](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eb671002c9989721d8657426d603f68d7bcf1429))
+* recipe order of shaped being after manapool causing people to think botania is the way to craft things with one input instead of an alternative way which is what it is ([6bb3d1d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6bb3d1da74ee6a68c54522bf57cabd534f57dd93))
+
+

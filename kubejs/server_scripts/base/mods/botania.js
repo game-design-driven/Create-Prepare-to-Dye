@@ -136,3 +136,10 @@ if (feature("Remove ruunes from flowers")) {
     "botania:livingwood_twig",
   ]);
 }
+
+if (feature('Reduce mana price of manasteel')) {
+  removeRecipe({ id: 'botania:mana_infusion/manasteel' })
+  removeRecipe({ id: 'botania:mana_infusion/manasteel_block' })
+  addInfusion('botania:manasteel_ingot', '#forge:ingots/iron', 1000)
+  addInfusion('botania:manasteel_block', '#forge:storage_blocks/iron', 9000)
+}

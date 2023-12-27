@@ -1,0 +1,23 @@
+## [1.190.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.189.4...1.190.0) (2023-12-25)
+
+
+### Features
+
+* add rotten flesh purification with potions ([e899f1b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e899f1b66aae8b296c6be52f4f1be19f5b8263bc))
+
+
+### Reverted Changes
+
+* advancement removal change ([37868e7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/37868e7c500b69ba545046a2c8077045f1f03b4e))
+
+
+### Minor tweaks
+
+* replace sugar from honey recipe with a heated mixing recipe ([ba630f6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ba630f6cff735378d00ed0f0eea97b17cd4bb3aa))
+
+
+### Fixes
+
+* dead bush recipe ([eb0ef18](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eb0ef181152f57b2ca9afb03d4a356acb20bab4b))
+
+

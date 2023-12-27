@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create_enchantment_industry:experience_rotor"
+	],
+	"text": "item.create_enchantment_industry.experience_rotor.tooltip.summary"
+}

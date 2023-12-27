@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ae2:terminal"
+	],
+	"text": "item.ae2.terminal.tooltip.summary"
+}

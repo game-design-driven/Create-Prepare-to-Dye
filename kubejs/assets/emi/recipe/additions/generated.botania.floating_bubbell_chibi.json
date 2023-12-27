@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_bubbell_chibi"
+	],
+	"text": "block.botania.floating_bubbell_chibi.tooltip.summary"
+}

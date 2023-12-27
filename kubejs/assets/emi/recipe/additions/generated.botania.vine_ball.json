@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:vine_ball"
+	],
+	"text": "item.botania.vine_ball.tooltip.summary"
+}

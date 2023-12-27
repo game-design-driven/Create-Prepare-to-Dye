@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_kekimurus"
+	],
+	"text": "block.botania.floating_kekimurus.tooltip.summary"
+}

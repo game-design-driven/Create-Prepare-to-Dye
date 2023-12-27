@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:scorchia"
+	],
+	"text": "block.create.scorchia.tooltip.summary"
+}

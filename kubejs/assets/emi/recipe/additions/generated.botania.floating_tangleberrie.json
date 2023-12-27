@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_tangleberrie"
+	],
+	"text": "block.botania.floating_tangleberrie.tooltip.summary"
+}

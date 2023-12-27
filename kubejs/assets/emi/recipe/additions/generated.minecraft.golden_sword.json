@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:golden_sword"
+	],
+	"text": "item.minecraft.golden_sword.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_fallen_kanade"
+	],
+	"text": "block.botania.floating_fallen_kanade.tooltip.summary"
+}

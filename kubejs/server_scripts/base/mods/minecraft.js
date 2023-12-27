@@ -1,5 +1,16 @@
 if (feature("Paper recipes")) {
-  replaceShaped("paper", "###", { "#": "sugar_cane" }, true);
+  removeRecipe({ id: "minecraft:crafting_shaped/paper" })
+  addAssembly("2x paper", 'createdieselgenerators:wood_chip', [
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '25x milk'),
+  ])
+  addAssembly("3x paper", 'createdieselgenerators:wood_chip', [
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '25x water'),
+    addPressing('stick', 'stick'),
+    addFilling('stick', 'stick', '75x water'),
+    addPressing('stick', 'stick'),
+  ])
 }
 if (feature("Chest recipes")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
@@ -254,16 +265,18 @@ if (feature("Endstone from cheese")) {
   addCompacting("end_stone", "9x kubejs:fermented_blob", temperature.heated);
 }
 
-if (feature("Item frame recipes")) {
-  removeRecipe({ id: "minecraft:item_frame" });
-  addShapeless("item_frame", ["stick", "stick", "stick", "#forge:canvasables"]);
-}
+// if (feature("Item frame recipes")) {
+//   removeRecipe({ id: "minecraft:item_frame" });
+//   addShapeless("item_frame", ["stick", "stick", "stick", "#forge:canvasables"]);
+// }
 
 if (feature("Sugar recipe tweaks")) {
   removeRecipe({ id: "minecraft:sugar_from_sugar_cane" });
+  removeRecipe({ id: "minecraft:sugar_from_honey_bottle" });
   removeRecipe({ id: "create:milling/sugar_cane" });
   addMilling("sugar %25", "sugar_cane");
   addCrushing(["sugar %10", "lime_dye %1"], "sugar_cane");
+  addMixing(['3x sugar', '3x sugar %50'], '250mb create:honey', temperature.heated)
 }
 
 if (feature("Magma block to lava")) {
@@ -348,7 +361,7 @@ if (feature("Stone tools from livingrock")) {
 
 if (feature("Metal Trap door Recipe bigger")) {
   removeRecipe({ id: "minecraft:iron_trapdoor" });
-  addShaped("2x iron_trapdoor", ["###", "###"], { "#": "#forge:plates/iron" });
+  addStonecutting("3x iron_trapdoor", "iron_block");
 }
 if (feature("Soulsand from sand and brown")) {
   addBlockInteract("minecraft:soul_sand", "#forge:sand", "brown_dye");
@@ -356,25 +369,6 @@ if (feature("Soulsand from sand and brown")) {
 
 if (feature("Choros fruit from bamboo")) {
   addAlchemyRecipe("chorus_fruit", "bamboo");
-}
-if (feature("Gold is 4 nuggets")) {
-  removeRecipe({ id: "create:splashing/crushed_raw_gold" });
-  addSplashing(
-    ["4x gold_nugget", "ae2:large_quartz_bud %5"],
-    "create:crushed_raw_gold"
-  );
-
-  removeRecipe({ id: "minecraft:gold_ingot_from_nuggets" });
-  replaceShapeless("gold_ingot", ["4x minecraft:gold_nugget"]);
-
-  removeRecipe({ id: "minecraft:gold_nugget" });
-  addShapeless("4x minecraft:gold_nugget", "gold_ingot");
-
-  removeRecipe({ id: "create:crushing/nether_gold_ore" });
-  addCrushing(
-    ["8x gold_nugget", "create:experience_nugget %75", "netherrack %10"],
-    "nether_gold_ore"
-  );
 }
 
 if (feature("Remove furnaces")) {
@@ -400,13 +394,14 @@ if (feature("Cactus from Choros fruite alchemy")) {
 
 if (feature("Elytra recipe")) {
   addShaped("elytra", ["lpl", "l l", "g g"], {
-    l: Ingredient.of("leather").or("ae2:silicon").or("dried_kelp"),
+    l: "#forge:canvasables",
     p: "purple_dye",
     g: "gray_dye",
   });
 }
 if (feature('Bush from grassblock and bonemeal')) {
-  addGrow('minecraft:grass', 'minecraft:grass_block', 'bone_meal', true)
+  addGrow(['minecraft:grass','minecraft:tall_grass'], 'minecraft:grass_block', 'bone_meal', true)
+  addGrow('minecraft:tall_grass', 'minecraft:grass', 'bone_meal', true)
 }
 
 if (feature('Remove vanilla bonemeal from bones recipe')) {
@@ -420,24 +415,12 @@ if (feature('Remove vanilla bonemeal from bones recipe')) {
 //     ])
 // }
 
-// if (feature('Grass from grass block with shears accessibility recipe')) {
-// }
-// if (feature('Replace slab with full')) {
-//     forEachRecipe({ type: 'minecraft:crafting' }, recipe => {
-//         let json = recipe.json;"
-//         ""minecraft:any_of""
-//         if (json.get('catalyst') === '{"type":"block","block":"botania:alchemy_catalyst"}') {
-            
-//             let ingredients = recipe.getOriginalRecipeIngredients();
-//             if (ingredients.length != 1) return;
-    
-//             let resultId = recipe.getOriginalRecipeResult().getId();
-//             let ingredientId = ingredients[0].getItemIds()[0];
-            
-//             if (global.itemsToRemove.includes(resultId) || global.itemsToRemove.includes(ingredientId)) return;
+if (feature('Rotten flesh purification')) {
+  addFilling('minecraft:leather', 'rotten_flesh', Fluid.of('create:potion',50, {
+    Potion: "minecraft:regeneration",
+  }))
+}
 
-//             addAlchemyRecipe(recipe.getOriginalRecipeResult(), ingredients[0], parseInt(json.get('mana')))
-//             recipe.remove()
-//         }
-//     })
-// }
+if (feature('Gray dye into black dye')) {
+  addSmelting('3x black_dye', 'ptdye:gray_dye_block', 1, 400)
+}

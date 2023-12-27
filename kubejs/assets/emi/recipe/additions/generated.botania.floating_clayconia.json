@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_clayconia"
+	],
+	"text": "block.botania.floating_clayconia.tooltip.summary"
+}

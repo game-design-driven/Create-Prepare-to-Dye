@@ -1,7 +1,8 @@
 if (feature("You can pet betsy")) {
   ItemEvents.entityInteracted("minecraft:air", (event) => {
     if (event.player.mainHandItem.empty) {
-      if (event.getTarget().getType() == "minecraft:cow") {
+      if (event.player.persistentData.isEmpty()) return;
+      else if (event.getTarget().getType() == "minecraft:cow") {
         event.player.swing();
         event.player.persistentData.put(
           "betsy_last_location_x",
@@ -39,10 +40,14 @@ if (feature("Command to teleport to Betsy")) {
         // console.info(`/tp ${player.displayName.getString()} ${betsyLastLocation_x} 300 ${parseInt(betsyLastLocation_z.toString())}`);
         if (betsyLastLocation_x && betsyLastLocation_z) {
           Utils.server.runCommandSilent(
-            `/tp ${player.displayName.getString()} ${parseInt(betsyLastLocation_x)} 322 ${parseInt(betsyLastLocation_z)}`
-          )
-        }else{
-          Utils.server.runCommandSilent(`/title ${player.displayName.getString()} actionbar "Need to pet Betsy first!"`);
+            `/tp ${player.displayName.getString()} ${parseInt(
+              betsyLastLocation_x
+            )} 322 ${parseInt(betsyLastLocation_z)}`
+          );
+        } else {
+          Utils.server.runCommandSilent(
+            `/title ${player.displayName.getString()} actionbar "Need to pet Betsy first!"`
+          );
         }
         return 0;
       })

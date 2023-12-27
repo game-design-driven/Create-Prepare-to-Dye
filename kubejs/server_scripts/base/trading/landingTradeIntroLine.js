@@ -26,7 +26,7 @@ const bcfPlates2 = getAgreement("bcfPlates2", {
     "16x minecraft:andesite",
     "16x ptdye:sealed_device",
     "10x ae2:flawed_budding_quartz",
-    "16x ptdye:mechanical_device",
+    "32x ptdye:mechanical_device",
     "16x ptdye:smart_device",
     "create:super_glue",
   ],
@@ -236,7 +236,7 @@ const bnwRedstone = getAgreement("bnwRedstone", {
       2,
       "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
     ),
-    "8x ae2:fluix_smart_cable",
+    "16x ae2:fluix_smart_cable",
     "4x ptdye:logic_device",
   ],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
@@ -247,7 +247,7 @@ const bnwRedstone = getAgreement("bnwRedstone", {
     "Causing quite the stir there arnt you? Your horrific red planet was empty for eons, hope you know what you are doing landing there so spectacularly. Anyways we heard your planet is red because it's made of redstone, so we want to buy some",
 });
 const bnwRedstoneFixedRates = getAgreement("bnwRedstoneFixedRates", {
-  paymentItems: ["4x ae2:fluix_smart_cable"],
+  paymentItems: ["8x ae2:fluix_smart_cable"],
   requestedItems: ["64x minecraft:redstone", "64x minecraft:redstone"],
   title: "Fixed rates redstone > cables",
   orderedAmount: 0,

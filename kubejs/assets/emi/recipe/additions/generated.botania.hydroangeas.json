@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:hydroangeas"
+	],
+	"text": "block.botania.hydroangeas.tooltip.summary"
+}

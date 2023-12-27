@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:netherite_backtank"
+	],
+	"text": "item.create.netherite_backtank.tooltip.summary"
+}

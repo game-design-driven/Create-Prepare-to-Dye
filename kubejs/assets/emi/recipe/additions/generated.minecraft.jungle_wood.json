@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:jungle_wood"
+	],
+	"text": "block.minecraft.jungle_wood.tooltip.summary"
+}

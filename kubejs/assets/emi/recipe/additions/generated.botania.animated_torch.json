@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:animated_torch"
+	],
+	"text": "block.botania.animated_torch.tooltip.summary"
+}

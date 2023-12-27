@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:crimson_stem"
+	],
+	"text": "block.minecraft.crimson_stem.tooltip.summary"
+}

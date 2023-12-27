@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:placard"
+	],
+	"text": "block.create.placard.tooltip.summary"
+}

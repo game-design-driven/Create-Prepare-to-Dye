@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:flugel_eye"
+	],
+	"text": "item.botania.flugel_eye.tooltip.summary"
+}

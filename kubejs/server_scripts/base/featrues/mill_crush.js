@@ -35,7 +35,7 @@ if (feature('Improve milling recipes')) {
 
 }
 if (feature('Improve crushing recipes')) {
-    addCrushing(['orange_dye %50', 'red_dye %20', 'yellow_dye %20' ], '#forge:crops/carrot')
+    addCrushing(['orange_dye %55', 'red_dye %25', 'yellow_dye %25' ], '#forge:crops/carrot')
 
     addCrushing(['brown_dye', 'quark:root_item %25'], 'cocoa_beans')
 

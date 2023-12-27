@@ -1,0 +1,9 @@
+## [1.183.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.182.0...1.183.0) (2023-12-24)
+
+
+### Features
+
+* make all glass types drop item ([8a72968](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8a72968d8615465c2cfce1e18189eba74e73b1a3))
+* make all glass types drop item ([#450](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/450)) ([c9a4b7d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c9a4b7d381fbb0e1b06887becc50861a2751735d))
+
+
