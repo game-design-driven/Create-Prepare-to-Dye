@@ -1,0 +1,19 @@
+### [1.192.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.5...1.192.6) (2023-12-27)
+
+
+### Modlist related changes
+
+* add freecam ([ae2692b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ae2692b73daebc84c1b2ccadafcedfa5ba9c5fa4))
+
+
+### Developer experance improvments and changes
+
+* move ptdye-plus to new repo ([8ec5879](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8ec5879f52cf6d69249be632e94339de23f9e2c4))
+* move ptdye-plus to new repo ([#452](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/452)) ([6d23c82](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6d23c8275d4e2fdc5e04a147a49e3ac4339a3820))
+
+
+### Fixes
+
+* refactor and version format change ([fca4deb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fca4deb1d58bf6824c3baf6f04c9e566d290394f))
+
+
