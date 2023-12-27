@@ -1,0 +1,8 @@
+### [1.192.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.3...1.192.4) (2023-12-27)
+
+
+### Fixes
+
+* quartz not dropping from quartz buds ([cb3f84a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cb3f84ac561f2d949e9a6df06bd43fbeb1b4e657))
+
+

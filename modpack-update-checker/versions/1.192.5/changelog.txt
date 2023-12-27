@@ -1,0 +1,9 @@
+### [1.192.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.4...1.192.5) (2023-12-27)
+
+
+### Minor tweaks
+
+* make betsy button a universal layout ([0efa35f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0efa35f830139d2ba764dbf58b698797b7aab8a4))
+* make betsy button a universal layout ([#453](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/453)) ([10f1ad0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10f1ad008b4a4fdb600843841160dd44488b09d6))
+
+
