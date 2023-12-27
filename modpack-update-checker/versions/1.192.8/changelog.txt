@@ -1,0 +1,8 @@
+### [1.192.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.7...1.192.8) (2023-12-27)
+
+
+### Minor tweaks
+
+* buff Fermented Blob hunger and saturation values to be slightly better than bread ([c044b9e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c044b9e5d06d833d153fb571930ced84ccac85ba))
+
+
