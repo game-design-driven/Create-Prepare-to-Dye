@@ -39,18 +39,50 @@ if (feature("Glass goes back into blocks when broken")) {
   });
 }
 
-if (feature('Gold ore drops more gold')) {
-    LootJS.modifiers((event) => {
-        event.addBlockLootModifier("minecraft:nether_gold_ore").addLoot("minecraft:gold_nugget").addLoot("minecraft:gold_nugget");
-        event.addBlockLootModifier("minecraft:deepslate_gold_ore").addLoot("minecraft:raw_gold");
-    });
+if (feature("Gold ore drops more gold")) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:nether_gold_ore")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget");
+    event
+      .addBlockLootModifier("minecraft:deepslate_gold_ore")
+      .addLoot("minecraft:raw_gold");
+  });
 }
 
-if (feature('Budding quartz drops themselves instead of degrading')) {
-    LootJS.modifiers((event) => {
-        event.addBlockLootModifier("ae2:flawed_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:flawed_budding_quartz");
-        event.addBlockLootModifier("ae2:chipped_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:chipped_budding_quartz");
-        event.addBlockLootModifier("ae2:damaged_budding_quartz").replaceLoot(ItemFilter.ALWAYS_TRUE,"ae2:damaged_budding_quartz");
+if (feature("Budding quartz drops themselves instead of degrading")) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("ae2:flawed_budding_quartz")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "ae2:flawed_budding_quartz");
+    event
+      .addBlockLootModifier("ae2:chipped_budding_quartz")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "ae2:chipped_budding_quartz");
+    event
+      .addBlockLootModifier("ae2:damaged_budding_quartz")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "ae2:damaged_budding_quartz");
+  });
+}
 
-    })
+if (feature("Quartz buds drop quartz")) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("ae2:small_quartz_bud")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "minecraft:quartz")
+      .applyOreBonus("minecraft:fortune")
+    event
+      .addBlockLootModifier("ae2:medium_quartz_bud")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "minecraft:quartz")
+      .applyOreBonus("minecraft:fortune")
+    event
+      .addBlockLootModifier("ae2:large_quartz_bud")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "2x minecraft:quartz")
+      .applyOreBonus("minecraft:fortune")
+    event
+      .addBlockLootModifier("ae2:quartz_cluster")
+      .replaceLoot(ItemFilter.ALWAYS_TRUE, "4x minecraft:quartz")
+      .applyOreBonus("minecraft:fortune")
+  });
+  //add more with fortune
 }
