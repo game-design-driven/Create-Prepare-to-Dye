@@ -1,0 +1,8 @@
+### [1.192.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.9...1.192.10) (2023-12-27)
+
+
+### Fixes
+
+* wrench turning into a device when wrenching a pipe out of window mode and having a sealed device in inventory ([9d4708f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9d4708fc4d2e1cb2a5c96f56164b1dae5cd83227))
+
+
