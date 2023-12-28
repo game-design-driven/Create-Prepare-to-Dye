@@ -142,7 +142,7 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "be6a67a23b13f32eff256df12053e2357d184ad3459713ea15eb68670413b537"
+hash = "f864634eaf0017ba715b3a75ded7bdac988f6af540e9e4f8382017d7f589824e"
 
 [[files]]
 file = "config/fancymenu/customization/.disabled/0-automatic-assembly-generics-only.txt"
@@ -162,7 +162,7 @@ hash = "0e6cd9f81a5bbe3dbec4058938d28684ca725be6aef5f572ff4a4ef2c1cb7ee9"
 
 [[files]]
 file = "config/fancymenu/customization/auto-assembler-slider-base.txt"
-hash = "482bbedfc5361e80c5ccd7d1c9f90c663e22f278946e2d6fd2935c4651bc20a9"
+hash = "0f7456ef58a5d37070de1cc852445077a4bf03ff38e6d54c7dac1ef76aa12ba0"
 
 [[files]]
 file = "config/fancymenu/customization/betsy.txt"
@@ -202,11 +202,11 @@ hash = "33fbe1476dfb34ab26e73bfda6b5475ef2550f67d3134809bb73f73181086a4b"
 
 [[files]]
 file = "config/fancymenu/customization/tabs-for-assembler.txt"
-hash = "1575d6bb9b5807d4859a44ae9f2a2a2d6b99d06dc2cd93fdf4a6a812debcc733"
+hash = "4bfb2c4e75b2cc2f97c218d080afb1be31fddf5511358205aeb7eb7ddc920709"
 
 [[files]]
 file = "config/fancymenu/customization/tabs.txt"
-hash = "739d4fb7176434d66cfaef411cc793d801b4d14b15fda5e7872496288ee080cb"
+hash = "d83211a0805808c69477b74bf141f95835a4a0cd92b825a735f64e58071ac434"
 
 [[files]]
 file = "config/fancymenu/customization/toggleinfo.txt"
@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f7cca01606c8d26dcd8ddfb29868321ffff3f61e31e20e3ca0398016186d89c0"
+hash = "17a3e84ce01f9d491443445d49de036f772b66a3f617bdcfd4cf063320db02ad"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3222,7 +3222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1be67d3bca518c0548307130eebc43b4b6b9e141a901f6e6f4a85cf3d2ccea70"
+hash = "2ca3e0e5b1fc159c0a6882c96ca86ef6d6845eef3df7c35934874ce7febae419"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3478,7 +3478,7 @@ hash = "809ece56a6c0254c28d30e83e35af612f4092f1711626f901d7d3e3d9a9a2cb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "e6afb51fb0251a5b28e4b2c592a770b9f77c0791cf7fafe0a10a3e01b1ca2934"
+hash = "1e56a7c3e007cdd8048b4cdb20e26a993cc9be629cd2f601e2eb5d099a459657"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
@@ -4258,7 +4258,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "d2f97c3c89ea9e2c5991408141315d417b9383c542ba59ae5923c32d0220c3e2"
+hash = "a318658c8bfc0dd623014c8a9b74dd3eb816e092180f05951ca6b4bc08def823"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4275,6 +4275,10 @@ hash = "3e16c935c0ced2f3b0ea576f1ecfd07bd02a04c0a8dc58ded0efa37972312c4a"
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
 hash = "3542491be239252458bfa0edcbf1e59555fc4be484e5415268686faa46a32286"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/chickenEggs.js"
+hash = "7701c8e9d4ad7a4dbae0a75a6afdb3e1a0e315c549747d426b376e40fa7534f6"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/creativeUtils.js"
@@ -4650,7 +4654,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f07366c3985e029d4158ae3dd7f8f923f71d36cb0d5d1ab7a2b80c91c5ece91f"
+hash = "7b5a3375e725e4d8244ff76ee21b2541ef45082b46e8d2994f6f99984320af04"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5887,6 +5891,14 @@ hash = "b3ae946f49e509752a018ef48a2c54d3b9f3f0e736bc4bc255c83f40ea2962be"
 [[files]]
 file = "modpack-update-checker/versions/1.192.9/changelog.txt"
 hash = "0084b709c58b86a426abd25a5c09a37a6322f6349c68c461ab3c592ed1594c19"
+
+[[files]]
+file = "modpack-update-checker/versions/1.193.0/changelog.txt"
+hash = "132b77d18ff126ef75537e4806814637b13bcfe1a67cc10fba19c4a9f4098ec8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.0/changelog.txt"
+hash = "60322421da8c92966bbf72377c1156558ea8627e2a82ff55a84d00c7ff69df54"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

@@ -57,6 +57,8 @@ addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it
 
 addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Controller_ allows you to assemble a _Distillery_. Right click on the _tank structure_ you want to transform into a distillery, a controller will be used for each tank attached. Note that you need _one tank per output in addition to the one on the bottom_ that takes the input')
 
+addTooltip('minecraft:egg', 'Feed a _seed_ to a _chicken_ to get an _egg_');
+
 addTooltip([
   'golden_pickaxe',
   'golden_shovel',

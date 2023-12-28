@@ -1,0 +1,8 @@
+## [1.193.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.20...1.193.0) (2023-12-28)
+
+
+### Features
+
+* add buttons in inventory to open personal assembler, ponder and advancements ([22b0490](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/22b049047d323c908e59564ba76422d7020ea97e))
+
+
