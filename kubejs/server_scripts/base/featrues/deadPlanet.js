@@ -22,3 +22,7 @@ addAltar('2x bone_meal', ['bone_meal', '2x kubejs:fermented_blob'], 1000)
 addAltar('create:tree_fertilizer', ['2x bone_meal','#forge:coral', '4x kubejs:fermented_blob'], 7000)
 
 addDripping('grass', 'dead_bush')
+
+removeRecipe({ id: 'supplementaries:soap' })
+addMixing('6x supplementaries:soap', ['4x #forge:dusts/ash', '#forge:meat/fat', '1000mb water'])
+addMixing('6x supplementaries:soap', ['8x #forge:dusts/ash', '250mb createdieselgenerators:plant_oil', '750mb water'])
