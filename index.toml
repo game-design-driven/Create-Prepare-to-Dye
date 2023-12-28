@@ -6510,6 +6510,11 @@ hash = "ad45afb1602ab206ec58746dec6bdf7a408211910f6d914904c9f6ad68b8776c"
 metafile = true
 
 [[files]]
+file = "mods/ptdye-plus.pw.toml"
+hash = "35baddabc92ef143e81bc63713e3f9be959e4dbe9aa1a931e8f39719ed49bae4"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "827b361fcddfa0bdb84bfa0ebf0e1a38b139804c92aaf9e39218d784e4111fb4"
 metafile = true
