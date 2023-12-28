@@ -30,6 +30,22 @@ customization {
 }
 
 customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/openStonecutter%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -63
+  width = 20
+  action = addbutton
+  actionid = e14a0e08-66be-474b-bc4e-9eb58703e0341703802580796
+  y = -104
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
   path = fancymenu_data/smart_device.png
   orientation = mid-centered
   x = -12
@@ -38,5 +54,37 @@ customization {
   actionid = 20b65583-7339-4824-ad96-84ef896833311703513317383
   y = -101
   height = 15
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/openPonderIndex%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -39
+  width = 20
+  action = addbutton
+  actionid = 272f388c-5bf5-4751-ae79-113c9f11a1291703803802554
+  y = -105
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.advancements.AdvancementsScreen%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -15
+  width = 20
+  action = addbutton
+  actionid = 58b067c8-230d-43d9-8d3a-720ebeabb39f1703803950710
+  y = -105
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
 }
 

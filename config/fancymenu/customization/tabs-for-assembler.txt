@@ -35,3 +35,51 @@ customization {
   height = 15
 }
 
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.inventory.InventoryScreen%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -87
+  width = 20
+  action = addbutton
+  actionid = 83404a90-3bab-473d-8747-0132a08f4e031703804221726
+  y = -104
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/openPonderIndex%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -39
+  width = 20
+  action = addbutton
+  actionid = c2a0f3ae-b9d8-4d5f-9ebe-9e485ae2d9f21703804359039
+  y = -105
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.advancements.AdvancementsScreen%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -15
+  width = 20
+  action = addbutton
+  actionid = 21884f12-7d90-4353-9786-3e6665c314691703804395402
+  y = -105
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+

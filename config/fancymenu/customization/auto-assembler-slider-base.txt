@@ -33,7 +33,7 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 51
+  x = 52
   width = 15
   action = addbutton
   actionid = 0b510e3e-8ac7-4a87-81f3-8c26316ebcab1703500201606
@@ -51,8 +51,8 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 36
-  width = 15
+  x = 33
+  width = 18
   action = addbutton
   actionid = 703f1c83-4757-412c-b3ef-cbdce17786281703501317919
   y = -101
@@ -69,8 +69,8 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 68
-  width = 15
+  x = 67
+  width = 18
   action = addbutton
   actionid = 07c0886b-2c99-4f3d-b03c-3988b2190aae1703501331553
   y = -101
