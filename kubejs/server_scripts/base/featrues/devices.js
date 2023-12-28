@@ -77,20 +77,28 @@ if (
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
       assembly: [
-        "#minecraft:wool_carpets",
-        "#forge:nuggets",
-        "#minecraft:planks",
-        "#minecraft:planks"
+        [
+          "#minecraft:wool_carpets",
+          "#forge:nuggets",
+          "#minecraft:planks",
+          "#minecraft:planks"
+        ],
+        [
+          "#forge:ingots",
+          "#minecraft:planks",
+          "#minecraft:logs"
+        ]
       ],
       included_devices: ['botania:crafty_crate','minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
       amount_crafted: 4,
       post_logic: () => {
 
+        //needs to be easy to access, so people who know what they're doing can benefit from the crafty crate before getting into botania.
         ServerEvents.recipes(e=>{
           e.recipes.create.deploying("botania:placeholder",["#forge:concrete",Ingredient.of(["botania:crafty_crate","create:mechanical_crafter"])]).keepHeldItem();
         });
 
-        
+        //patterns kinda make some things too easy, e.g. unpacking storage blocks. we decided that packing is fine though, although we could probably change our minds later.
         ['botania:pattern_1_1', 'botania:pattern_2_2', 'botania:pattern_1_2', 'botania:pattern_2_1', 'botania:pattern_1_3', 'botania:pattern_3_1', 'botania:pattern_2_3', 'botania:pattern_3_2', 'botania:pattern_donut']
         .forEach(item=>{
           removeItem(item)
