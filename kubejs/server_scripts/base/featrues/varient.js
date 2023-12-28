@@ -44,7 +44,7 @@ function inputPredicate(player, item, inventoryItem) {
 }
 function shouldAssemble(event) {
   return (
-    event.player.mainHandItem.id != "create:wrench" &&
+    event.player.mainHandItem.id == event.block.item.id &&
     event.player.mainHandItem.count == 1 &&
     !event.player.isCreative()
   );
