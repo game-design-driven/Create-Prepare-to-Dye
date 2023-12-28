@@ -158,7 +158,7 @@ hash = "482bbedfc5361e80c5ccd7d1c9f90c663e22f278946e2d6fd2935c4651bc20a9"
 
 [[files]]
 file = "config/fancymenu/customization/betsy.txt"
-hash = "bb8773584fca6724e2d02b4940dc587f7f8de0377d32e6497be1e4c86937277b"
+hash = "fff35635b53e1cd8ec3a05ab6004891f91622e9e14b01a3c8e560093a9ebe662"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -354,7 +354,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e821c734053f1c866a03edb23f8dfbe41e58f4be8b5bbc75e5061772620b10d5"
+hash = "070a303bb4a619c5558b019d53d8045abbd8594a5966cf92d593bc28e76d7370"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -2334,7 +2334,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "051982a5eb5dcd50f9cb549b119b027f4f0244627bfe79e45fec86be25e39bf9"
+hash = "b2a4a2f9f4792607f1a99875ba162b54422189abe636bf2698d8959aab8a6476"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -3214,7 +3214,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4a819800e72f5df8793a9528950ea8c0f69a9f484613038ecff20055c0d4c2fb"
+hash = "4bdaae79f6c7b98ef4829d78591111a09cb6fb8b680a7643d3e794863d25204c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4642,7 +4642,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "dd269d97a82b819e3bf6c76d0b9553d086e6984a118af0a7ee356cf813cb748d"
+hash = "9da7c940085366cd737f3df0ffaacdd1a561d3c9e212fa29bc6b8216d8d60c37"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5831,6 +5831,10 @@ hash = "727ee1ee3419378ad4701ef88370656d7c1e34b7c54171ca23705e81f8e605d0"
 [[files]]
 file = "modpack-update-checker/versions/1.192.14/changelog.txt"
 hash = "e32b7047cb946b7c1e3f3331a59e2c950cfadc9d93d002b17252c5d872e09a04"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.15/changelog.txt"
+hash = "87943e59732fcc461d9dab6d50428de099f8a51e67505baa8fa54933a742e353"
 
 [[files]]
 file = "modpack-update-checker/versions/1.192.2/changelog.txt"

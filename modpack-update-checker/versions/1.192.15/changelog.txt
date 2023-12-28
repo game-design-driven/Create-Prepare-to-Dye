@@ -1,0 +1,13 @@
+### [1.192.15](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.14...1.192.15) (2023-12-28)
+
+
+### Minor tweaks
+
+* reduce back to betsy button size a little ([2e9cc6a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2e9cc6acb18697797136a8d4183f33c69905450a))
+
+
+### Documentation and Localization
+
+* rename yellow ingot to yellow cube ([a7a4c3b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a7a4c3ba653612686587b5c1693d5fa5ec95a8b4))
+
+
