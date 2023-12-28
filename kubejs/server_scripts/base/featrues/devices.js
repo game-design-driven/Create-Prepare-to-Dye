@@ -73,6 +73,18 @@ if (
       },
     },
     {
+      tag: "forge:device/lamp",
+      generic: "minecraft:redstone_lamp",
+      base: '#forge:glass',
+      incomplete: "minecraft:glass",
+      included_devices: ['quark:red_crystal_lamp', 'quark:orange_crystal_lamp', 'quark:yellow_crystal_lamp', 'quark:green_crystal_lamp', 'quark:blue_crystal_lamp', 'quark:indigo_crystal_lamp', 'quark:violet_crystal_lamp', 'quark:white_crystal_lamp', 'quark:black_crystal_lamp', 'create:rose_quartz_lamp', 'supplementaries:redstone_illuminator'],
+      amount_crafted: 1,
+      post_logic: () => {
+        removeAllRecipesForItem("minecraft:redstone_lamp")
+        addItemApplication("minecraft:redstone_lamp","#forge:glass","#forge:glowy_items")
+      },
+    },
+    {
       tag: "forge:device/furniture",
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
