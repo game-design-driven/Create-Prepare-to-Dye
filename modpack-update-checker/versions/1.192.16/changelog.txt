@@ -1,0 +1,13 @@
+### [1.192.16](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.15...1.192.16) (2023-12-28)
+
+
+### Minor tweaks
+
+* add recipe for grayplate blocks from gray ingot ([95d8619](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95d8619c97584e27e7a1146827e06107586966ac))
+
+
+### Fixes
+
+* automatic assembly not working with regular stonecutter recipes ([10b09cb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10b09cb487b8f80ab74437b699c742a12aa91362))
+
+
