@@ -95,6 +95,7 @@ if (feature("Iron plate block from black")) {
     "3x #forge:plates/iron",
     Ingredient.of("#forge:dyes/black").or("#forge:dyes/gray"),
   ]);
+  addStonecutting("32x quark:iron_plate", "#forge:ingots/andesite_alloy");
 }
 
 if (feature("Remove forgotten hat")) {
