@@ -1,0 +1,9 @@
+### [1.192.14](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.13...1.192.14) (2023-12-28)
+
+
+### Minor tweaks
+
+* disable making mobs presistant on release from cage. Could fix the blaze growth issue ([0671772](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/06717724eb9a26c2a32d94d64ffdf314e22603c0))
+* remove flax and flax seeds using a modpack feature instead of supplementries configs. The configs method did not remove recipes and is not configurable by users so it's less preferable ([6aafab7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6aafab7dcae34d9dc029ec8c23efeab61b9dab9e))
+
+
