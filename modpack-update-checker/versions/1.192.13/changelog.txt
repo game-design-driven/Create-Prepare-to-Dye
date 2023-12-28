@@ -1,0 +1,8 @@
+### [1.192.13](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.12...1.192.13) (2023-12-28)
+
+
+### Minor tweaks
+
+* change up and expand soap recipes ([df5ad4c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/df5ad4cd8626eb2493ea4ef9765d402b925a0c32))
+
+

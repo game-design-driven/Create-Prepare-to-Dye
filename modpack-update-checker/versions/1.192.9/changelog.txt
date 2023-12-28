@@ -1,0 +1,9 @@
+### [1.192.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.8...1.192.9) (2023-12-27)
+
+
+### Minor tweaks
+
+* reduce schematicannonFuelUsage to 0.0 (server-config change, so you need to delete server-config folder in your world to get this update) ([2831980](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2831980a044534eab649894943e69a6fccd9c16b))
+* speed up delivery time of mesh trading ([6b0d512](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6b0d51267422d052199b2a2afb375c2314243746))
+
+

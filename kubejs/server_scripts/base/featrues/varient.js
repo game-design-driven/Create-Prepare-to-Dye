@@ -46,7 +46,7 @@ function inputPredicate(player, item, inventoryItem) {
   }
 }
 function shouldAssemble(event) {
-  return event.player.mainHandItem.count == 1 && !event.player.isCreative();
+  return event.player.mainHandItem.id != "create:wrench" && event.player.mainHandItem.count == 1 && !event.player.isCreative();
 }
 
 ServerEvents.commandRegistry((event) => {

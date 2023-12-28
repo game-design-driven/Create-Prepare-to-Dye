@@ -418,7 +418,7 @@
 		#.
 		#% of Schematicannon's Fuel used for each fired block.
 		#Range: 0.0 ~ 100.0
-		schematicannonFuelUsage = 0.05000000074505806
+		schematicannonFuelUsage = 0.0
 
 #.
 #Equipment and gadgets added by Create
