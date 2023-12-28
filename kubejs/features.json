@@ -240,5 +240,7 @@
 	"Overhaul wooden chips recipes": true,
 	"Replace trapdoor recipe with stonecutting recipe": true,
 	"Quartz buds drop quartz": true,
-	"Remove flax": true
+	"Remove flax": true,
+	"Block of brass is made with plates instead of ingots": true,
+	"Block of yellow to yellow": true
 }

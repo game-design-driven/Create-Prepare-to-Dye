@@ -280,3 +280,11 @@ if (feature("Blaze is capturable")) {
     event.add("create:blaze_burner_capturable", ["more_babies:blaze"]);
   });
 }
+
+if (feature('Block of brass is made with plates instead of ingots')) {
+  removeRecipe({id: 'create:crafting/materials/brass_block_from_compacting'})
+  addShaped('create:brass_block',['ppp','ppp','ppp'],{
+    p:'#forge:plates/brass'
+  })
+  addShapeless('9x create:brass_sheet','create:brass_block')
+}
