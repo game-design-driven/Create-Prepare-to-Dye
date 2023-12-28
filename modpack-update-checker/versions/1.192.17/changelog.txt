@@ -1,0 +1,18 @@
+### [1.192.17](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.16...1.192.17) (2023-12-28)
+
+
+### Modlist related changes
+
+* add Ptdye Plus ([c4f96be](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c4f96be8ea69d6394dfed0b25738a9ed67c14dd2))
+
+
+### Documentation and Localization
+
+* rename brass_block to Block of Plated Yellow ([c072a1b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c072a1b2ec12ee08ea7539f3ad5f2c108812bfca))
+
+
+### Fixes
+
+* block of yellow conflict with brass block ([3c41b33](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3c41b336b760d5229ab2d0a80189ba3d478af27d))
+
+
