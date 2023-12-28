@@ -242,5 +242,6 @@
 	"Quartz buds drop quartz": true,
 	"Remove flax": true,
 	"Block of brass is made with plates instead of ingots": true,
-	"Block of yellow to yellow": true
+	"Block of yellow to yellow": true,
+	"Change chicken egg laying from natural generation to being fed a seed": true
 }
