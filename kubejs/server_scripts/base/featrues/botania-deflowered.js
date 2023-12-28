@@ -177,3 +177,5 @@ if (feature('Replace mana powder with lapis')){
     removeFromTag('forge:dusts', 'botania:mana_powder')
     removeRecipe({ id: 'botania:mana_infusion/mana_powder_dust' })
 }
+
+
