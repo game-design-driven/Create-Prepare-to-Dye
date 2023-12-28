@@ -41,7 +41,7 @@ hs_err_pid*
 /temp/
 servers.dat_old
 config/jei/ingredient-list-mod-sort-order.ini
-*.disabled
+
 config/jei/recipe-category-sort-order.ini
 *.fmdata
 config/collective/checked.txt
