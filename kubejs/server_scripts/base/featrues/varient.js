@@ -16,6 +16,9 @@ BlockEvents.placed((event) => {
             x[0].count = x[0].count - 1;
             Utils.server.scheduleInTicks(1, () => {
               Utils.server.runCommandSilent(
+                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.4 1.3`
+              );
+              Utils.server.runCommandSilent(
                 `/item replace entity ${event.player.displayName.getString()} weapon.mainhand with ${
                   event.block.id
                 } ${result["count"]}`
