@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "60671cc8d2e5c98723b8060e74a5ee50880d15e12301f93aa7ba6b3bba33e7a3"
+hash = "17a3e84ce01f9d491443445d49de036f772b66a3f617bdcfd4cf063320db02ad"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3222,7 +3222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b78f942b1ebbf213b8813f3ba052633ad24b40615048e12a451478a55b1852d6"
+hash = "2ca3e0e5b1fc159c0a6882c96ca86ef6d6845eef3df7c35934874ce7febae419"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3478,7 +3478,7 @@ hash = "809ece56a6c0254c28d30e83e35af612f4092f1711626f901d7d3e3d9a9a2cb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "e6afb51fb0251a5b28e4b2c592a770b9f77c0791cf7fafe0a10a3e01b1ca2934"
+hash = "1e56a7c3e007cdd8048b4cdb20e26a993cc9be629cd2f601e2eb5d099a459657"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
@@ -4258,7 +4258,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "d2f97c3c89ea9e2c5991408141315d417b9383c542ba59ae5923c32d0220c3e2"
+hash = "a318658c8bfc0dd623014c8a9b74dd3eb816e092180f05951ca6b4bc08def823"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4275,6 +4275,10 @@ hash = "3e16c935c0ced2f3b0ea576f1ecfd07bd02a04c0a8dc58ded0efa37972312c4a"
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
 hash = "3542491be239252458bfa0edcbf1e59555fc4be484e5415268686faa46a32286"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/chickenEggs.js"
+hash = "7701c8e9d4ad7a4dbae0a75a6afdb3e1a0e315c549747d426b376e40fa7534f6"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/creativeUtils.js"
@@ -4650,7 +4654,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1ff329da65b025520232a4c4ac81aa6be62ba50d20f70f428a625e388927a3e6"
+hash = "7b5a3375e725e4d8244ff76ee21b2541ef45082b46e8d2994f6f99984320af04"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5891,6 +5895,10 @@ hash = "0084b709c58b86a426abd25a5c09a37a6322f6349c68c461ab3c592ed1594c19"
 [[files]]
 file = "modpack-update-checker/versions/1.193.0/changelog.txt"
 hash = "132b77d18ff126ef75537e4806814637b13bcfe1a67cc10fba19c4a9f4098ec8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.0/changelog.txt"
+hash = "60322421da8c92966bbf72377c1156558ea8627e2a82ff55a84d00c7ff69df54"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
