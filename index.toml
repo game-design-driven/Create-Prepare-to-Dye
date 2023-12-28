@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "17a3e84ce01f9d491443445d49de036f772b66a3f617bdcfd4cf063320db02ad"
+hash = "1e0b992eef8f3808f4861efa23b56246516db723688523b58b0e62d5afe47b71"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3222,7 +3222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2ca3e0e5b1fc159c0a6882c96ca86ef6d6845eef3df7c35934874ce7febae419"
+hash = "817e97b345c2729522b94549a7f6ae9983bc34449d75c693d16149c09930d280"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4270,11 +4270,11 @@ hash = "044ca38f4471085bc089b7f181b9ecbeecbc30143ea3999d8117b980f5c51bef"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-deflowered.js"
-hash = "3e16c935c0ced2f3b0ea576f1ecfd07bd02a04c0a8dc58ded0efa37972312c4a"
+hash = "a80f86b70a85418dee494d774028573a0465ad90d69171f81fb42a3b3f807c00"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
-hash = "3542491be239252458bfa0edcbf1e59555fc4be484e5415268686faa46a32286"
+hash = "93c6dbc1d292260a792d86fbd72804f31e7b12e5b6bc0dfb2d9cad3020d0d747"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/chickenEggs.js"
@@ -4654,7 +4654,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "7b5a3375e725e4d8244ff76ee21b2541ef45082b46e8d2994f6f99984320af04"
+hash = "0f640e88652e00dbd572f68dafc84f9833af46fd78db0528ac569a81c48202d6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5899,6 +5899,10 @@ hash = "132b77d18ff126ef75537e4806814637b13bcfe1a67cc10fba19c4a9f4098ec8"
 [[files]]
 file = "modpack-update-checker/versions/1.194.0/changelog.txt"
 hash = "60322421da8c92966bbf72377c1156558ea8627e2a82ff55a84d00c7ff69df54"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.1/changelog.txt"
+hash = "4d9f8f95dafbd9e1b74a582f4d9e965e0da15526d4f2732bf6dd30c453d2169b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
