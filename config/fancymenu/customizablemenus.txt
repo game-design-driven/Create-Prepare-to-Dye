@@ -36,3 +36,6 @@ net.minecraft.client.gui.screens.OptionsScreen {
 io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen {
 }
 
+dev.emi.emi.screen.RecipeScreen {
+}
+
