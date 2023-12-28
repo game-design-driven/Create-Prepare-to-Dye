@@ -1,0 +1,8 @@
+### [1.192.18](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.192.17...1.192.18) (2023-12-28)
+
+
+### Fixes
+
+* slider icons not showing in all cases ([6a327e3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a327e35e5a99f5a71799d081c1fc005f53c4fd2))
+
+
