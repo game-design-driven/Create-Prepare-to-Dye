@@ -48,7 +48,7 @@ StartupEvents.registry("block", (event) => {
   .soundType("copper")
   .property(BlockProperties.AXIS)
   .placementState(event => {
-    console.log(event.clickedFace.axis)
+    //console.log(event.clickedFace.axis)
     event['set(net.minecraft.world.level.block.state.properties.EnumProperty,java.lang.Enum)'](BlockProperties.AXIS, event.clickedFace.axis)
   })
   .blockstateJson = {
