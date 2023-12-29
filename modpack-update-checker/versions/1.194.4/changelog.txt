@@ -1,0 +1,8 @@
+### [1.194.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.194.3...1.194.4) (2023-12-29)
+
+
+### Fixes
+
+* remove server files from curseforge. Automatic scan rejected them ([226c9f1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/226c9f16666f6a3b75d5f9f7fc1bd189473d23c2))
+
+
