@@ -86,7 +86,7 @@ if (feature("XP from xp bottle in furnace")) {
 }
 
 if (feature("Break down gold bars")) {
-  addSmelting("2x gold_nugget", "quark:gold_bars");
+  addSmelting("1x gold_nugget", "quark:gold_bars");
 }
 
 if (feature("Iron plate block from black")) {
