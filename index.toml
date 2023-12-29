@@ -298,7 +298,7 @@ hash = "1d00dc6e695663622b7b669f5d86322d57f8e66b8821b47ecb0156c0118faab1"
 
 [[files]]
 file = "config/hudcompass-client.toml"
-hash = "e617f5b53ee03bd3198d4fc109a11fd88469ac0bf0464b16977348c8fc8aeb42"
+hash = "a2c8f5011eecd92f231686d70b2ea9a502433ce29bb58fe2663c4a5326ac0728"
 
 [[files]]
 file = "config/hudcompass-common.toml"
@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "16d15d2feec6d00e224a703b26ca3b4f291e9c7efb74612bebbd595836e11687"
+hash = "61e94dcd1eeff5dff353156d75f0c4264759bb8b726129913e84762e9e8a3b25"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3274,7 +3274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "27b54e17c8a4cf8d1bfaa2056517231fcd4a85591b8ff020aebc61814274f348"
+hash = "4440d43ed69992af2ec67436e2ba225d2441e853ae44564b3f94bf801c6b7edb"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4710,7 +4710,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "adafcadc9f6f1429bf1cfefc804eb6c7f548fb5dbc178fc626f86ef235c3f33d"
+hash = "541540cc21b238acecbbcbbc03300463f2b0404389b56333052be7a6a0330373"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5987,6 +5987,10 @@ hash = "c8df423bdeaeb3a44caa440ea6d9d56ee8d2ebf0069f770624e95bee9bef7bac"
 [[files]]
 file = "modpack-update-checker/versions/1.195.1/changelog.txt"
 hash = "e8aeea39592099e7a06c1ea462fae6b99ce2d6d1eee1a52b727644dc7a2ddc5a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.195.2/changelog.txt"
+hash = "42e32d21e7d5d3fe1e0cef9ea31ea05b1d878fa13604ed5bc6199f27aa07059f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

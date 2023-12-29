@@ -1,0 +1,8 @@
+### [1.195.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.195.1...1.195.2) (2023-12-29)
+
+
+### Fixes
+
+* waypoints not drawing on compass hud ([9dda119](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9dda1191a800c50043f92689e6bc4f260aeace89))
+
+
