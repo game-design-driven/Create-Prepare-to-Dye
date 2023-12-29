@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "991cd16288f232abae973ec1e854f09bb2b3ce6d952a527ed8671f6222fd4db1"
+hash = "b3d45d2d4211a9f84a2307db12866928c323c88de3021ccc03163d00b3e963dc"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3222,7 +3222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "38e8ecc4b920f9f32848d4ebcb3055e834ffc83de64f57d3ed746545cd8098d2"
+hash = "aa745056dcdd8054939743a5e32362e60b309f7867d63f8b00e3d50d6112a5ef"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4470,7 +4470,7 @@ hash = "a81543699a390c8a44514d9edc920e5d1a9232ca5b65802f5c59c43d7fc46bd1"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
-hash = "2b0d89a0d169ec78fa0daea003ffc18bb42e8ed700f1e8619d6a4ef866787d62"
+hash = "8343759e7773f31eccfe8656b1813306b15149cc38df2ee04811f9e0332aae67"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/railways.js"
@@ -4654,7 +4654,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "5cc0adc3d29d356a953a0327950d34f53dae543d94fc4edb737ce8b7fccee2b0"
+hash = "c5847bc4a90a817c94130ba94df85f72cef4315b154aeb1d2c6b521df0902438"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5919,6 +5919,10 @@ hash = "00188181a3c1f990816705eb1ee20b3ced99fcef30380972ef3a755d8f662741"
 [[files]]
 file = "modpack-update-checker/versions/1.194.5/changelog.txt"
 hash = "e8089c5faeb221ec196b6ae6006cd795dfe9259394573fd669cea662767c1488"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.6/changelog.txt"
+hash = "a834198dec7e3c1c757b692d95e63aaf81ec95826b77d65422a52d9d34a69f60"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
