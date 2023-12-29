@@ -1,0 +1,9 @@
+## [1.196.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.195.2...1.196.0) (2023-12-29)
+
+
+### Features
+
+* eviscerated nearly all utility items in botania ([63988b8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/63988b84031546ae0cab66f782ea6b757884c6ce))
+* remove nearly all utility items in botania ([#456](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/456)) ([9c85d84](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9c85d84b1e42eeda7e3a6950b5ca646085b545ce))
+
+
