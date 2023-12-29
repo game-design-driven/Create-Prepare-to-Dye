@@ -44,6 +44,7 @@ function inputPredicate(player, item, inventoryItem) {
       Ingredient.of("#" + item.tag).test(inventoryItem.id)
     );
   }
+
 }
 function shouldAssemble(event) {
   return (

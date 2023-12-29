@@ -193,7 +193,7 @@ if (feature('Andesite_alloy')) {
         addFilling('create:andesite_alloy','#forge:ingots', '100x create_enchantment_industry:ink'),
         addFilling('create:andesite_alloy','#forge:ingots', '100x minecraft:milk')
     ])
-    addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x bread'])
+    addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x #forge:meat'])
 }
 if (feature('Brass is gold')) {
     addMixing('2x gold_ingot', ['#forge:ingots/iron', '#forge:ingots/copper'], temperature.heated)
