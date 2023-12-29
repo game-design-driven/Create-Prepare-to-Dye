@@ -246,5 +246,12 @@
 	"Remove need for rune of spring": true,
 	"Change chicken egg laying from natural generation to being fed a seed": true,
 	"Cheap Covers & Placeholders": true,
-	"Remove Crafty Crate Patterns": true
+	"Remove Crafty Crate Patterns": true,
+	"Remove Cosmetic Botania Trinkets": true,
+	"Remove Botania Brews": true,
+	"Remove Botania Personal Improvement Trinkets": true,
+	"Remove Relics": true,
+	"Remove Non-Useful Rods": true,
+	"Disable Manual Rods": true,
+	"Remove Misc. Botania Tools": true
 }
