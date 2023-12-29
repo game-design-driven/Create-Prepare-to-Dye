@@ -1,0 +1,8 @@
+### [1.196.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.196.0...1.196.1) (2023-12-29)
+
+
+### Developer experance improvments and changes
+
+* add initial github to discord sync ([c20a49a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c20a49a647d040343a020197e0ab0aba8fe48851))
+
+
