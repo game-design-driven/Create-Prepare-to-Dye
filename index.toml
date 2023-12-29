@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b550e095c7a47685d80eb5e70dc13e6233843b3f841470380a7e0845de000dc0"
+hash = "991cd16288f232abae973ec1e854f09bb2b3ce6d952a527ed8671f6222fd4db1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3222,7 +3222,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "0c210269c7262c538383e6fb11309bf38e89c8796a8811ed7014234bb85d055e"
+hash = "38e8ecc4b920f9f32848d4ebcb3055e834ffc83de64f57d3ed746545cd8098d2"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4258,7 +4258,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "a318658c8bfc0dd623014c8a9b74dd3eb816e092180f05951ca6b4bc08def823"
+hash = "d43ada694a5047f2902af5ea21381c2dc2727d2cccb61686ca344bb52864705f"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4306,7 +4306,7 @@ hash = "aad43bd7e2b2889cc1944e08f6f4b96d6a93d6cdea0b8f5495bb41e8739c3b8c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
-hash = "7dd64789b0b6ddd3d1ec0e809ff946ff3250aa4cefe1d5dc08b4282b3dcb7a92"
+hash = "84eec8e1b9a20d7c132eeddff1e43086bd82752630a9f5f42292524db9ecc4fd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dyesel.js"
@@ -4366,7 +4366,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "3e14e9d436b0774d62d092c46e49f97be50c4f6ae8ecaef8058191cf5aaaffcb"
+hash = "c2d19c8f767eb182f35e288144578b187fc8a1c09eb9f074b9c80d392a7418de"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/petBetsy.js"
@@ -4418,7 +4418,7 @@ hash = "a6f29339097133658df0e93a17685a11fd9610cb19161589f5099da7c529d045"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/varient.js"
-hash = "469185141f8c6398af6543e200b82a01c59d9729db50723db3b18277fbadadcf"
+hash = "c180bc4163519943b5955e5f29a721aeafc0abe44549bac929ba64eef8572af8"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/villagers.js"
@@ -4454,7 +4454,7 @@ hash = "3b63cbb442054ac268c9664811f5a8db6a1f37bca1eb80b93ad745bcf2897d9c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "8bd7d1ff5ff6388c1c7547a853834147a7f8eeddd9dd4e6c62addb723a635e46"
+hash = "9427b6c1184f3632c66387e57d147791cd146e464df8d3ea7e52650ddbccb204"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
@@ -4654,7 +4654,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "829bb968f69857c93bcf24c934f864d9796dfd723dadd561d03cdfbde770287b"
+hash = "5cc0adc3d29d356a953a0327950d34f53dae543d94fc4edb737ce8b7fccee2b0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5915,6 +5915,10 @@ hash = "fd0d3e0da8003ee11ec4438dd22155fdc212d95d650eb77996790c37767cf6b8"
 [[files]]
 file = "modpack-update-checker/versions/1.194.4/changelog.txt"
 hash = "00188181a3c1f990816705eb1ee20b3ced99fcef30380972ef3a755d8f662741"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.5/changelog.txt"
+hash = "e8089c5faeb221ec196b6ae6006cd795dfe9259394573fd669cea662767c1488"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

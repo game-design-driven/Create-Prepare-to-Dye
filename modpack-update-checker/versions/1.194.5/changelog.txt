@@ -1,0 +1,8 @@
+### [1.194.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.194.4...1.194.5) (2023-12-29)
+
+
+### Minor tweaks
+
+* replace bread in portal recipes with meat. This is a very cool timing puzzle but the price of failure is high and anoyying. Plus it is not documented ([54d7e54](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/54d7e54ef7716d65a70bb86ece4be98fa52456fc))
+
+
