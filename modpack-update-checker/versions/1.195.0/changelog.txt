@@ -1,0 +1,10 @@
+## [1.195.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.194.6...1.195.0) (2023-12-29)
+
+
+### Features
+
+* add alternate furnished device recipe ([8d447ee](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8d447eeeaf26c7e402091f1af7b9fe8b05775800))
+* add the open and crafty crates to device lists ([b45c363](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b45c3631fbeb10f78894a2f19265134f68f26d27))
+* Crafty crate added to furnished devices and placeholder recipes ([7872cf4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7872cf49ad2eb9e481e1ea4c57164191ea175e0b))
+
+

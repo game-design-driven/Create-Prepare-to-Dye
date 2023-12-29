@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b3d45d2d4211a9f84a2307db12866928c323c88de3021ccc03163d00b3e963dc"
+hash = "8b357e532bc882eca3a1fa23c5845b836b1e11042ab016d144e4342f10abe514"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -645,6 +645,14 @@ file = "kubejs/assets/botania/lang/en_us.json"
 hash = "b89be71be80272aaa02dadfbe591f510084e6bd685da99a70ee68638a159d9ed"
 
 [[files]]
+file = "kubejs/assets/botania/models/block/crafty_crate.json"
+hash = "dde3403e76bc4a37524666a8fb654a43faf7d6538d4be613413b42b3c6099da2"
+
+[[files]]
+file = "kubejs/assets/botania/models/block/open_crate.json"
+hash = "da2b9bfa91a6c03bc20efb5c3f10ad510810d26b1cf331610dd25eb71c8730e2"
+
+[[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
 hash = "49db750de91386114f5d0a3db902cb756c5088e7c2cc225e57115b29784be935"
 
@@ -661,6 +669,30 @@ file = "kubejs/assets/botania/textures/block/clayconia_chibi.xcf"
 hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate.png"
+hash = "b12e016dad990336102ca96e98a084c12ef84a2a4ebfe2016e7d011fb648c9a7"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate_bottom.png"
+hash = "d09f31ac0eb5d88b67ca9b10f955c9b20799534a485aae54037c82960730d256"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate_top.png"
+hash = "c0b1bc2958dc6c664e62f675c46e27650a400347c8812793163ecd10cfbaa0d2"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate.png"
+hash = "ee75c4a5834922cc9fee649bb432efe89afb2e4badec2bea9606995829103fcb"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate_bottom.png"
+hash = "b3d43e0edd82d33c167f67744fb18ab7b80dc051f521ed855a0c75ac6e8acaf6"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate_top.png"
+hash = "70f8ff901b28a894ab3aa415bb01c25cdd0a3b3ad44abc6f9766937d9739b9e7"
+
+[[files]]
 file = "kubejs/assets/botania/textures/item/manasteel_disk.png"
 hash = "deff26969724251fe143ff01eee602514a8b96b062ab95749bf9563cd1d50e1e"
 
@@ -671,6 +703,10 @@ hash = "74e0e2896f14956524846be8fbb21bae8d82787a3be4b5ed664dcfeb80cdb12a"
 [[files]]
 file = "kubejs/assets/botania/textures/item/manasteel_plate.png"
 hash = "3bf4d2026fc1ca0f7f61fa34d336878657e5d976a1d3a4f26ebb14a91d4e4fa2"
+
+[[files]]
+file = "kubejs/assets/botania/textures/item/placeholder.png"
+hash = "ec960aa845e224c71e8ed13ee1727e5a89ad77c33c5fae06895c0a721b48d1ce"
 
 [[files]]
 file = "kubejs/assets/botania/textures/item/raw_manasteel.png"
@@ -2394,11 +2430,11 @@ hash = "12e50246ff3b1260c2bb1f33497480a257861c580cc826d1e8944cedfec9f9d2"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/hopper.json"
-hash = "61115654e239c7223174cf799ef948d7c67b3953ceded236b1405f6bf47257a8"
+hash = "25f2127880d2b71d2a64ce62bbd6b7090125c2375ac592b72560289e7452cc2b"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/hopper_side.json"
-hash = "fcf10d12ebf3f769e668f5dad23e25397e1366afbf69ac13b33c1e2a67ac5589"
+hash = "72a47d9e0f66b2ed624247c00ae80467182e73a2a3ae6382dd685460afc8e497"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/iron_block.json"
@@ -2641,12 +2677,28 @@ file = "kubejs/assets/minecraft/textures/block/dispenser_top.png"
 hash = "a43430ab074cefad407811d7b85c429f81a742081d1126346be4d129a492e9ef"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_down.png"
+hash = "d2f2c68f9c12f3bfef5dbad4a42843886d5906b46cc4493a151b96b3b580076e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_inside.png"
+hash = "9372e4de1648ed0ea4db99b217d4f21afd0865cb36f3b031aa62dbb064eeb4db"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/block/hopper_inside_arrow.png"
 hash = "7628a957fb7680e82b8ab74c72b3e7fb759d0e84fdcd5d2c4d3c7aa39f032bb7"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_outside.png"
+hash = "8a1aa54b14d84732698b7cbacf707b02416874fa047c360c9b23b8db9971f718"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/block/hopper_outside_arrow.png"
 hash = "8d7549c7ad544add640352f93ccc2ed8ba00d3bd273c64f45b285fed2c340c07"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_outside_downarrow.png"
+hash = "cfac1dfbe6b3cd39409be62e7cf422fa558969041afe247d411700ce174e575a"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/iron_block.png"
@@ -2906,7 +2958,7 @@ hash = "e4aa5d83ec26a22ff3546de11a3abeddd961fcbd08b0eb0df79bdda566c5ef19"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/orange_tube_block.json"
-hash = "8613842a72984a0b2e0a5d5e482cf20a7813b46cdb6c328cd76433716fc7705e"
+hash = "ef465e63aa793b12c56228434a64dd67e6f9f74403fd0d7510eab3cf89f55439"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/red_stringed_device.json"
@@ -3222,7 +3274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "aa745056dcdd8054939743a5e32362e60b309f7867d63f8b00e3d50d6112a5ef"
+hash = "00e314cea17f43898fc3456038535ab9877d16f2e0b8147a27c6a2bbfd5d4b6b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4258,7 +4310,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "d43ada694a5047f2902af5ea21381c2dc2727d2cccb61686ca344bb52864705f"
+hash = "0a8e16d45daec3e78f4fbef71b47361c978e75662613dc42895b18db0ec9f2c4"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4281,6 +4333,10 @@ file = "kubejs/server_scripts/base/featrues/chickenEggs.js"
 hash = "7701c8e9d4ad7a4dbae0a75a6afdb3e1a0e315c549747d426b376e40fa7534f6"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/crafty-crate-tweaks.js"
+hash = "6ff8d0db2b99aae393532180f595392322ea81c496e3b497bd98f76b89012dfe"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/creativeUtils.js"
 hash = "d57d4bfdbee3dac33ac14eeaf6512aec28c6b7ab45ea5ced71b17f93f57f59d4"
 
@@ -4294,7 +4350,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "924fe1e368115f01e1ef3a5a6cd1df5dc1819c0e21a6cd0fd8bc0fce39492794"
+hash = "d454eadb744767ffbf1559f1ce4717f443fcfdffe92614d5ad3563d5cff3cf4c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -4586,7 +4642,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "4b8fa650ab0ea8df2c05ebf3cd374d3ffd99a3813b96442f6598a3a8f82bf08d"
+hash = "2d0edb194ee9ca95e328d5557e00202b1d5877628f456d3c6c2dc143d13a0772"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -4654,7 +4710,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c5847bc4a90a817c94130ba94df85f72cef4315b154aeb1d2c6b521df0902438"
+hash = "b614c0e718da00bec4ade0ea8864a3c4351088f0415e6a65a1c4225dc4dbe949"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5923,6 +5979,10 @@ hash = "e8089c5faeb221ec196b6ae6006cd795dfe9259394573fd669cea662767c1488"
 [[files]]
 file = "modpack-update-checker/versions/1.194.6/changelog.txt"
 hash = "a834198dec7e3c1c757b692d95e63aaf81ec95826b77d65422a52d9d34a69f60"
+
+[[files]]
+file = "modpack-update-checker/versions/1.195.0/changelog.txt"
+hash = "c8df423bdeaeb3a44caa440ea6d9d56ee8d2ebf0069f770624e95bee9bef7bac"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
