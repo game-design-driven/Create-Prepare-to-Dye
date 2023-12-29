@@ -1,0 +1,8 @@
+### [1.194.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.194.2...1.194.3) (2023-12-29)
+
+
+### Continuous Integration
+
+* add server files to curseforge build ([ec567b7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ec567b7103f490b77ce5f04b366eddcd23375f04))
+
+

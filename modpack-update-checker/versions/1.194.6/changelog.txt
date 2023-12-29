@@ -1,0 +1,8 @@
+### [1.194.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.194.5...1.194.6) (2023-12-29)
+
+
+### Fixes
+
+* gold_bar dupe glitch ([34dc285](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/34dc285c643c40267b3a6d8998639f5456552ea1))
+
+

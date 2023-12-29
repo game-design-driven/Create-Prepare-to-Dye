@@ -14,7 +14,7 @@ if (feature("Remove elementium")) {
   removeRecipe({ output: "botania:elementium_ingot" });
   addElvenTrade("botania:terrasteel_ingot", [
     "2x botania:manasteel_ingot",
-    "bread",
+    '#forge:meat',
   ]);
   removeRecipe({ id: "botania:elven_trade/elementium_block" });
   removeItem("botania:elementium_block");
