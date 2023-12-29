@@ -94,11 +94,12 @@ if (feature("Remove Relics")) {
   ]);
 }
 
-let allowed_rods = [
-  "botania:dirt_rod",
-  "botania:tornado_rod",
-  "botania:rainbow_rod",
-];
+// unused, kept here just in case so you don't have to grab it out of from in-game later
+// let allowed_rods = [
+//   "botania:dirt_rod",
+//   "botania:tornado_rod",
+//   "botania:rainbow_rod",
+// ];
 
 if (feature("Remove Non-Useful Rods")) {
   removeItems([
