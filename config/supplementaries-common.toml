@@ -113,7 +113,7 @@
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
 		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
-		persistent_mobs = true
+		persistent_mobs = false
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
 		#Range: 1 ~ 100
 		health_threshold = 100
@@ -166,7 +166,7 @@
 		clean_blacklist = ["minecraft:glazed_terracotta"]
 
 	[functional.flax]
-		enabled = false
+		enabled = true
 
 		[functional.flax.wild_flax]
 			enabled = false

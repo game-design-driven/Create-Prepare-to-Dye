@@ -20,7 +20,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = closegui%btnaction_splitter_fm%sendmessage;/backToBetsy%btnaction_splitter_fm%
   x = 46
-  width = 100
+  width = 79
   action = addbutton
   actionid = a2e84bf7-70ac-49d0-9425-0910ee0de1e81703260368390
   y = -22

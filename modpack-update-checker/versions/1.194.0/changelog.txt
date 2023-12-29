@@ -1,0 +1,8 @@
+## [1.194.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.193.0...1.194.0) (2023-12-28)
+
+
+### Features
+
+* Change chicken egg generation ([#455](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/455)) ([95b5735](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95b573511ea1e7589fc836e4bda88c144ab8d1bd))
+
+

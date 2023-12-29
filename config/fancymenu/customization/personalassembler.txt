@@ -16,11 +16,11 @@ customization {
 customization {
   path = fancymenu_data/text.png
   orientation = mid-centered
-  x = -215
-  width = 128
+  x = -231
+  width = 144
   action = addtexture
   actionid = 6295b340-3767-4a70-9716-ed4143ed02bc1702229954929
-  y = -87
+  y = -58
   height = 171
 }
 
@@ -29,18 +29,18 @@ customization {
   enable_scrolling = true
   shadow = false
   scale = 1.0
-  source = Welcome to your very%n%own Intergalactic Mesh%n%Trading Terminal! Here%n%You can trade with %n%other awesome%n%capitalistic companies%n%like YOU! Completed%n%trades are mixed in %n%the mixer to get new %n%trades.%n%(No safety checks are%n%made on any goods%n%bought or sold.)
+  source = Welcome to your very own %n%Intergalactic Mesh %n%Trading Terminal! Here %n%You can trade with other %n%awesome capitalistic %n%companies like YOU! %n%%n%Completed trades are %n%mixed in the mixer to get%n%new trades. Press U or %n%check in your index To %n%find out how! %n%%n%(No safety checks are%n%made on any goods%n%bought or sold.)
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -212
-  width = 118
+  x = -227
+  width = 139
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c93483c5-ed51-4781-aadd-2ae1b36d2d121702229487878
-  y = -82
+  y = -51
   alignment = left
   base_color = #000000
-  height = 134
+  height = 163
 }
 

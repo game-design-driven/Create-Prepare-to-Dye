@@ -22,7 +22,7 @@ customization {
   width = 61
   action = addbutton
   actionid = 3126beab-d0ec-492c-975e-d9efe1cdde6d1703252308756
-  y = -106
+  y = 114
   label = Mesh Info
   height = 20
 }

@@ -120,5 +120,6 @@
   "item.create.chocolate_bucket": "Bucket Of Brown",
   "block.create.chocolate": "Brown",
   "fluid.create.chocolate": "Liquid Brown",
-  "item.create.chocolate_glazed_berries": "Glazed Berries"
+  "item.create.chocolate_glazed_berries": "Glazed Berries",
+  "block.create.brass_block": "Block of Plated Yellow"
 }

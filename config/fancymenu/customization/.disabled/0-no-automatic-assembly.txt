@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.inventory.StonecutterScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_data/auto-assembler-only-1.png
+  orientation = top-left
+  x = 447
+  width = 75
+  action = addtexture
+  actionid = 52f7889a-0ebf-4ad9-9949-35b7963ac23d1703500958313
+  y = -196
+  height = 32
+}
+
+customization {
+  path = fancymenu_data/auto-assembler-disabled-1.png
+  orientation = mid-centered
+  x = 36
+  width = 15
+  action = addtexture
+  actionid = 9402005b-8f79-437b-87a6-7de32e3b56bc1703501163761
+  y = -102
+  height = 20
+}
+

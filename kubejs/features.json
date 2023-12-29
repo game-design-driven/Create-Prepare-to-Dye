@@ -241,5 +241,9 @@
 	"Replace trapdoor recipe with stonecutting recipe": true,
 	"Quartz buds drop quartz": true,
 	"Cheap Covers & Placeholders": true,
-	"Remove Crafty Crate Patterns": true
+	"Remove Crafty Crate Patterns": true,
+	"Remove flax": true,
+	"Block of brass is made with plates instead of ingots": true,
+	"Block of yellow to yellow": true,
+	"Change chicken egg laying from natural generation to being fed a seed": true
 }
