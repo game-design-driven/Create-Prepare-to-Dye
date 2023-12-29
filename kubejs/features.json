@@ -240,11 +240,11 @@
 	"Overhaul wooden chips recipes": true,
 	"Replace trapdoor recipe with stonecutting recipe": true,
 	"Quartz buds drop quartz": true,
-	"Cheap Covers & Placeholders": true,
-	"Remove Crafty Crate Patterns": true,
 	"Remove flax": true,
 	"Block of brass is made with plates instead of ingots": true,
 	"Block of yellow to yellow": true,
+	"Remove need for rune of spring": true,
 	"Change chicken egg laying from natural generation to being fed a seed": true,
-	"Remove need for rune of spring": true
+	"Cheap Covers & Placeholders": true,
+	"Remove Crafty Crate Patterns": true
 }
