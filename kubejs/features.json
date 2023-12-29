@@ -239,5 +239,7 @@
 	"Budding quartz drops themselves instead of degrading": true,
 	"Overhaul wooden chips recipes": true,
 	"Replace trapdoor recipe with stonecutting recipe": true,
-	"Quartz buds drop quartz": true
+	"Quartz buds drop quartz": true,
+	"Cheap Covers & Placeholders": true,
+	"Remove Crafty Crate Patterns": true
 }

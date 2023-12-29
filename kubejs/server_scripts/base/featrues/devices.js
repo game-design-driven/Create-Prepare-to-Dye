@@ -93,16 +93,24 @@ if (
       amount_crafted: 4,
       post_logic: () => {
 
-        //needs to be easy to access, so people who know what they're doing can benefit from the crafty crate before getting into botania.
-        ServerEvents.recipes(e=>{
-          e.recipes.create.deploying("botania:placeholder",["#forge:concrete",Ingredient.of(["botania:crafty_crate","create:mechanical_crafter"])]).keepHeldItem();
-        });
+        
+        if(feature("Cheap Covers & Placeholders")){
+          //needs to be easy to access, so people who know what they're doing can benefit from the crafty crate before getting into botania for yellow.
+          //i guess you can do eggs but that requires / will require seeds. technically easy but it seems like most people aren't aiming for grass early on
+          ServerEvents.recipes(e=>{
+            //TODO: can't do keepHeldItem() without a recipe event, probably needs fixing in addDeploying() but i can't be bothered to work out how you do that via recipe json.
+            e.recipes.create.deploying("botania:placeholder",["#forge:concrete","botania:crafty_crate"]).keepHeldItem();
+            e.recipes.create.deploying("create:crafter_slot_cover",["#forge:concrete","create:mechanical_crafter"]).keepHeldItem();
+          });
+  
+          addStonecutting("botania:placeholder","create:crafter_slot_cover");
+          addStonecutting("create:crafter_slot_cover","botania:placeholder");
+        }
 
-        //patterns kinda make some things too easy, e.g. unpacking storage blocks. we decided that packing is fine though, although we could probably change our minds later.
-        ['botania:pattern_1_1', 'botania:pattern_2_2', 'botania:pattern_1_2', 'botania:pattern_2_1', 'botania:pattern_1_3', 'botania:pattern_3_1', 'botania:pattern_2_3', 'botania:pattern_3_2', 'botania:pattern_donut']
-        .forEach(item=>{
-          removeItem(item)
-        });
+        if(feature("Remove Crafty Crate Patterns")){
+          //patterns kinda make some things too easy, e.g. unpacking storage blocks. we decided that 3x3 packing is fine, although we could probably change our minds later.
+          removeItems(['botania:pattern_1_1', 'botania:pattern_2_2', 'botania:pattern_1_2', 'botania:pattern_2_1', 'botania:pattern_1_3', 'botania:pattern_3_1', 'botania:pattern_2_3', 'botania:pattern_3_2', 'botania:pattern_donut']);
+        }
 
         ServerEvents.blockLootTables(event=>{
           event.addSimpleBlock("minecraft:bookshelf","minecraft:bookshelf")

@@ -42,11 +42,15 @@ StartupEvents.registry("item", (event) => {
 
 StartupEvents.registry("block", (event) => {
 
+  //TODO: figure this out! while this isn't strictly neccesary, it'd make things like this and the fragile bone block look way better.
   event.create('ptdye:orange_tube_block')
   .material("metal")
   .soundType("copper")
   .property(BlockProperties.AXIS)
-  .placementState(event => event['set(net.minecraft.world.level.block.state.properties.EnumProperty,java.lang.Enum)'](BlockProperties.AXIS, event.clickedFace.axis))
+  .placementState(event => {
+    console.log(event.clickedFace.axis)
+    event['set(net.minecraft.world.level.block.state.properties.EnumProperty,java.lang.Enum)'](BlockProperties.AXIS, event.clickedFace.axis)
+  })
   .blockstateJson = {
     "variants": {
       "axis=x": {
