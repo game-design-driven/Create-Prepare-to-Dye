@@ -20,6 +20,11 @@ if (
       ]
     },
     {
+      tag: "forge:device/craftingplaceholder",
+      generic: "#forge:nuggets/brass",
+      included_devices: ['botania:placeholder', 'create:crafter_slot_cover']
+    },
+    {
       tag: "forge:device/track",
       generic: "create:track",
       base: "#create:sleepers",
@@ -77,14 +82,22 @@ if (
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
       assembly: [
-        "#minecraft:wool_carpets",
-        "#forge:nuggets",
-        "#minecraft:planks",
-        "#minecraft:planks"
+        [
+          "#minecraft:wool_carpets",
+          "#forge:nuggets",
+          "#minecraft:planks",
+          "#minecraft:planks"
+        ],
+        [
+          "#forge:ingots",
+          "#minecraft:planks",
+          "#minecraft:logs"
+        ]
       ],
-      included_devices: ['minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
+      included_devices: ['botania:crafty_crate','minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
       amount_crafted: 4,
       post_logic: () => {
+
         ServerEvents.blockLootTables(event=>{
           event.addSimpleBlock("minecraft:bookshelf","minecraft:bookshelf")
           event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
@@ -231,6 +244,7 @@ if (
       assembly: ["cobblestone", "#forge:plates/iron"],
       amount_crafted: 4,
       included_devices: [
+        "botania:open_crate",
         "create:redstone_contact",
         "minecraft:stonecutter",
         "minecraft:cauldron",
