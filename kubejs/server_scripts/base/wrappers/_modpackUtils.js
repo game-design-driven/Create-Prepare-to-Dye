@@ -11,6 +11,7 @@ function removeItem(item) {
     ServerEvents.tags('item', event => {
         event.removeAllTagsFrom(item)
         event.add('c:hidden_from_recipe_viewers', item)
+        event.add('c:removed', item)
 	})
 }
 
