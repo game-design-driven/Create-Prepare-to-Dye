@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6e3a32645b797588987a2dbf3618060fae524e8aee231f5d1fe7b71945681a17"
+hash = "9d9e7503d2f6b5525c467e4bc5d9d13f55d2cd9697c69a72d81ea76b321c10cf"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3274,7 +3274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a2b9f3bff73c210228d386847bee665952f1e97adc47ea525a67d7139d9958aa"
+hash = "998508459340049b05356b86e194b789c4d137c370f8e1f68643763d7bdf537e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3530,7 +3530,7 @@ hash = "809ece56a6c0254c28d30e83e35af612f4092f1711626f901d7d3e3d9a9a2cb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "1e56a7c3e007cdd8048b4cdb20e26a993cc9be629cd2f601e2eb5d099a459657"
+hash = "304553313ca1371f2a912c442845e7ba7f9911fa26f5c34891acd87afb6a2551"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
@@ -4310,7 +4310,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "ba3164d72f2c6a025dea504fa60dfd35dadb8ed5921483d87cb0f72931a836fe"
+hash = "212cce987f6dd6dfaa3f06fe921ef51dab119b8c496d18ea724a0d7a3e7e66dd"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4350,7 +4350,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "d454eadb744767ffbf1559f1ce4717f443fcfdffe92614d5ad3563d5cff3cf4c"
+hash = "61d43f77a5e5bd2f87a8c42fd9dcb0adf9335774fb07abfba817e9cbc6191788"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -4526,7 +4526,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "a81543699a390c8a44514d9edc920e5d1a9232ca5b65802f5c59c43d7fc46bd1"
+hash = "7448fdb094f585cee85cdd21e4776757bcd68f4ec4d1f8d5959447e9d1f5a728"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -4594,7 +4594,7 @@ hash = "0ce8d064d16f09baa65b7671f9e1986159b2fb9ead4a43d95aad67a931b2f4b7"
 
 [[files]]
 file = "kubejs/server_scripts/base/syntaxUtil.js"
-hash = "0b54cc75c564f4e12089c6cb7fd558dc9b74defbe7bf614b188eb03cbe57cd6f"
+hash = "d634aba7b2d643d1b005e58138ca325c49d0a882d4cfe940e443148f6ebddec0"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags.js"
@@ -4714,7 +4714,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3a435dec3698f356c60f3262ce1d00b7af79dd16d529775fc35589aad533013f"
+hash = "29859eeaddefffc52b65aa62c4e6c9f4d6de4524fb958c775ef1fee01149600a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6011,6 +6011,10 @@ hash = "d456ebd7848c7bf4175933b0a8f588b6b72a9dd3209028d87ce9c5bc62899918"
 [[files]]
 file = "modpack-update-checker/versions/1.196.3/changelog.txt"
 hash = "11335ed295a505fb2077ac0d1eb1ee9c44f8f758f79f4d29d5f9123a196ff45e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.0/changelog.txt"
+hash = "202eca60574b4e22d00541416cb4013e7b16814988cb39e197228d8a3cfdf0a2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
