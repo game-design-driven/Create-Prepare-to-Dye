@@ -253,5 +253,6 @@
 	"Remove Relics": true,
 	"Remove Non-Useful Rods": true,
 	"Disable Manual Rods": true,
-	"Remove Misc. Botania Tools": true
+	"Remove Misc. Botania Tools": true,
+	"Netherack with healing potion and cobblestone": true
 }
