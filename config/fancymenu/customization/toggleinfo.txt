@@ -18,12 +18,12 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = toggle_layout;personalassembler%btnaction_splitter_fm%
-  x = -151
-  width = 61
+  x = -9
+  width = 18
   action = addbutton
   actionid = 3126beab-d0ec-492c-975e-d9efe1cdde6d1703252308756
-  y = 114
-  label = Mesh Info
-  height = 20
+  y = -28
+  label = ?
+  height = 18
 }
 
