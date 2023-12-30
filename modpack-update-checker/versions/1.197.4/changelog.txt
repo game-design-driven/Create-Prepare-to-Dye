@@ -1,0 +1,8 @@
+### [1.197.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.197.3...1.197.4) (2023-12-30)
+
+
+### Fixes
+
+* crushing nether bricks outputs bricks instead of orange ingot ([48cf61c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/48cf61c1a89c8c44622beeff42867382df466bbc))
+
+
