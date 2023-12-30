@@ -1,0 +1,8 @@
+### [1.198.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.198.0...1.198.1) (2023-12-30)
+
+
+### Fixes
+
+* reduce handcrank su to 32 to prevent su duping ([9f51c91](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9f51c91298118dd67cff363fdec365b25b35a613))
+
+
