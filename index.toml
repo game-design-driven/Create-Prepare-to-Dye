@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "40d23822145c4fc6c6e8d87ce60b30dfd46d568f1ecda727946adf2447a92924"
+hash = "f455f6aaa1e72ed89d1153119ed3f22f6d56d08bae5f0545e8df4d244543c537"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -398,7 +398,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fd03eacd7521895d19dc51ad6daa4c113897eaf44e5ed8fa5d45c9558471d1dc"
+hash = "6d1dadc3247cc487d0281984847382df1661ea2d855b2aa00f121feb596030c0"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -802,7 +802,7 @@ hash = "c64437ca80f57b1782eea5e8037d81e1148b8c14c6446be5dbea8fae6e6d96c7"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "eed1698bae89280e2daa2a2060f24961ef0b60f7752f08d02b76daa024658910"
+hash = "1ad28049b156821ae638be7e3347170dc2250c2a1aa9caef84b6c69c09f08240"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -2149,6 +2149,10 @@ file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_shovel.js
 hash = "767870e42460c157039b54d484e9a9efedcfbd4870e6da61fba0d451baaf8a76"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.egg.json"
+hash = "293f7694c3c47bfc2e9d323f92aee2b908a8097772dd5fcf5c3cac691d0672c8"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_axe.json"
 hash = "c39e414656ea7b6c109c0ea5e5d437f4fae21a4f0a89c70e93072b64494e7a86"
 
@@ -3274,7 +3278,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9fb8bbddbdb085f2d7d0bbc0b045d627bb64c4e46a6a520cac537b9e27dd787d"
+hash = "49a6977a071d0b44d13d2e1a5054848f57c5025b2e033d2b3d8833bc10fc601b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3479,6 +3483,10 @@ hash = "399fb8c375bf97feed672c191713572511824fe0ba9a4cbadbedd7cab2dfcdda"
 [[files]]
 file = "kubejs/client_scripts/diamondToolsSilkTouch.js"
 hash = "9b8a55311660b15007b9c8802cf54ff3c3b5d9ac1b4684e7c79356a0ebea2f9e"
+
+[[files]]
+file = "kubejs/client_scripts/disabledItemsTooltips.js"
+hash = "09b31deca55c6226be7c689c24c2e628248ddad2ba9ee0bdf35e625725593570"
 
 [[files]]
 file = "kubejs/client_scripts/documentation.js.d"
@@ -4630,7 +4638,7 @@ hash = "cd064983ee49455c6b6a8ad70da284e0c0d8abc2b7f873e0812addb81c28df86"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/_modpackUtils.js"
-hash = "4769e2a9e63e72e704ccef5be798c5addc47f4431c3a55384219145220673899"
+hash = "5b43450c8842b9e1ec87d9ed2087e494ef0f63dd0f6f0fb76c80d747831d3787"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/recipeEvent.js"
@@ -4646,7 +4654,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "2d0edb194ee9ca95e328d5557e00202b1d5877628f456d3c6c2dc143d13a0772"
+hash = "68810c0056862c40b93eeb5fc218924dbb48073139bec3b9b9c6e887302bf19e"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -4714,7 +4722,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d460749bd4974dcae7d558314984c2b4e370d9b5c9284c25553c12bee616620e"
+hash = "56821e37937eccbb20e4673c1f5cba4ce88320bf705890d6d3eee50d170a78e6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6031,6 +6039,10 @@ hash = "b27529871ae73476530cf945363bd0faf840ff4f1cb607e5f031ed86ce8e11d1"
 [[files]]
 file = "modpack-update-checker/versions/1.197.4/changelog.txt"
 hash = "30b19519e33465714e69e65df231a3322f5e9c03299716b5d94fe78f11488458"
+
+[[files]]
+file = "modpack-update-checker/versions/1.198.0/changelog.txt"
+hash = "acdbe2e75a593ca75c8587c221d1cfc33e2f1b335497062c19cf12580734a3c1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

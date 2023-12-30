@@ -1,0 +1,23 @@
+## [1.198.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.197.4...1.198.0) (2023-12-30)
+
+
+### Features
+
+* add tooltip for items that are disabled so that if a player sees one he can report it easily ([e7f8ff6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e7f8ff6813ad35d8b537f7a476572dc010191868))
+
+
+### Minor tweaks
+
+* remove quarrk food tooltips ([fcaa212](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fcaa212a19ca7e2710e91176c7da1e189d9cca40))
+
+
+### Developer experance improvments and changes
+
+* add tag c:removed to removed items ([a341cda](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a341cda358b92d292dcbc5b332295718c789c4ac))
+
+
+### Fixes
+
+* fermented blob giving much more saturation than intended ([1c4395b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1c4395bcccd0e84a9dd1de7e384f9907fa148765))
+
+
