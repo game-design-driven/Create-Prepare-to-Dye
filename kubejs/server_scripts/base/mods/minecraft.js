@@ -428,3 +428,9 @@ if (feature('Gray dye into black dye')) {
 if (feature('Block of yellow to yellow')) {
   addShapeless('9x minecraft:gold_ingot','minecraft:gold_block')
 }
+
+if (feature('Netherack with healing potion and cobblestone')) {
+  addFilling('minecraft:netherrack', 'cobblestone', Fluid.of('create:potion',5, {
+    Potion: "minecraft:healing",
+  }))
+}
