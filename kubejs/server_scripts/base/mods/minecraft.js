@@ -374,6 +374,7 @@ if (feature("Choros fruit from bamboo")) {
 if (feature("Remove furnaces")) {
   //removeItem('furnace')
   removeItem("blast_furnace");
+  removeItem("smoker")
 }
 
 if (feature("Choros flower from choros batch")) {
