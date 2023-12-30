@@ -1,0 +1,13 @@
+### [1.199.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.199.0...1.199.1) (2023-12-30)
+
+
+### Documentation and Localization
+
+* improve terminal mesh info ([aaa9926](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aaa992679cf8601a685a2badc5cca1d7cd026196))
+
+
+### Fixes
+
+* remove smoking recipes from EMI ([734ed6d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/734ed6d14a8c60334705236cf09f4ff54007ea7f))
+
+

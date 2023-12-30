@@ -162,7 +162,7 @@ hash = "0e6cd9f81a5bbe3dbec4058938d28684ca725be6aef5f572ff4a4ef2c1cb7ee9"
 
 [[files]]
 file = "config/fancymenu/customization/auto-assembler-slider-base.txt"
-hash = "0f7456ef58a5d37070de1cc852445077a4bf03ff38e6d54c7dac1ef76aa12ba0"
+hash = "90b3af9644e903107578cf537357f3fa271b34abb496b152c707e3d31aa8bf8c"
 
 [[files]]
 file = "config/fancymenu/customization/betsy.txt"
@@ -186,7 +186,7 @@ hash = "2a2b62277ef3be061b19f83c17005f96bd5b18ebb650b5a44edc4118c5e2d78a"
 
 [[files]]
 file = "config/fancymenu/customization/personalassembler.txt"
-hash = "b02f1765834766cd41165fc2ee3863408cdd9c8947a08aa5f71c820c63d2024e"
+hash = "71a31f568835513f70bcfa62b60b13af60535cd3536df314eb5befec56423381"
 
 [[files]]
 file = "config/fancymenu/customization/q.txt"
@@ -210,7 +210,7 @@ hash = "d83211a0805808c69477b74bf141f95835a4a0cd92b825a735f64e58071ac434"
 
 [[files]]
 file = "config/fancymenu/customization/toggleinfo.txt"
-hash = "b81cc5a1d16cc5bf230cb4df841b7888264790264474675d069bea8e1da3bfb5"
+hash = "2bf625734b6bc6beb961cb5356b89eb6ae3d98c35e7a19fbd901cda35f03c98e"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "13e73cf10d8f662ed2e2f4367227812e60eeb4661a00540cea4f3564234a8ec1"
+hash = "71577dbf7deeb316a302c1c1a1e5b8ceed5c9a17885761ebc1062d47b08dba26"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -2338,7 +2338,7 @@ hash = "42e08b47c2fbc9c2c3e7186f8875b53da5ec2b1b9a0bb9ce0fb1e86e3a5f8357"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
-hash = "d91d3a9f5ba3002642810ed7c6f57e1f687480ad4f78843fae21ec040e3e3fc4"
+hash = "b4d92796a6590053514881e8c7d4b9e946724ce49ee0850ed5ca0d479274de1e"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
@@ -3278,7 +3278,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "43b578f747c5828e3fdb12c9c4b4462d0742dc4d3124daf5591370a11025dcbe"
+hash = "7355ce0728da41a6464dfd76b07200b1fcf440d153c7e9b0912ee82fdf37ce14"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4722,7 +4722,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "771061b0d14109ca9c5ddd60cb10e02f944c8cc393c92c48697df1b0f9bce314"
+hash = "05de83c2b1212dd64759331313b940196ff9a5fb6bc8d17232acf1c6d6807794"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6051,6 +6051,10 @@ hash = "c546aff9738a069e196e5330a6687b887029e3e8af7df45c3b6f323457105f20"
 [[files]]
 file = "modpack-update-checker/versions/1.199.0/changelog.txt"
 hash = "66cedccbda72f550ab3f777fbe04b8153fe07d6049c4570a0f11b95c611666bb"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.1/changelog.txt"
+hash = "d4e30563e594168c14c75835f073e777acbc62625d8ea10fbaf2cc2f337c3b61"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
