@@ -20,10 +20,11 @@ StartupEvents.registry("item", (event) => {
   event
     .create("fermented_blob")
     .displayName("Fermented Blob")  
+    .group("food")
     .food((food) => {
       food
         .hunger(5)
-        .saturation(7) 
+        .saturation(1.4) 
         .fastToEat() 
         .meat(); 
     });
