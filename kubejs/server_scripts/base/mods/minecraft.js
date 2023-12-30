@@ -121,7 +121,7 @@ if (feature("Ghast tear")) {
 }
 if (feature("Netherrack and nether_brick")) {
   addCrushing(
-    ["brick %50", "netherrack %25", "nether_wart %10"],
+    ["copper_ingot %40", "netherrack %25", "nether_wart %10"],
     "nether_brick"
   );
   // addBlockExplode('netherrack', 'red_nether_bricks')
