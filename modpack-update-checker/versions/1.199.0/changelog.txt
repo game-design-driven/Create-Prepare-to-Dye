@@ -1,0 +1,8 @@
+## [1.199.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.198.1...1.199.0) (2023-12-30)
+
+
+### Features
+
+* remove smoker ([360b520](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/360b520797e8c08228abd4886e09cc6c63436842))
+
+
