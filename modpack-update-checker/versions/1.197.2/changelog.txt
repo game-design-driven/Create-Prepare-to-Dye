@@ -1,0 +1,8 @@
+### [1.197.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.197.1...1.197.2) (2023-12-30)
+
+
+### Reverted Changes
+
+* Revert Revert dev: add initial github to discord sync ([6beee1c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6beee1c061dcfb6079d88ddf689183dc29a31076))
+
+
