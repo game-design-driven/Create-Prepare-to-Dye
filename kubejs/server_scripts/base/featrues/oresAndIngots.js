@@ -60,7 +60,7 @@ if (feature('Milling recipes for raw white, orange and yellow')) {
 }
 if (feature('Milling recipes for crushed white, orange and yellow')) {
     addMilling('5x iron_nugget', 'create:crushed_raw_iron')
-    addMilling('8x copper_nugget', 'create:crushed_raw_copper')
+    addMilling('8x create:copper_nugget', 'create:crushed_raw_copper')
     if (feature('Gold is 4 nuggets')) {
         addMilling(['3x gold_nugget', 'gold_nugget %50'], 'create:crushed_raw_gold')
     }else{
@@ -72,7 +72,7 @@ if (feature('Nerf nugget output of washing crushed stuff')) {
     removeRecipe({ id: 'create:splashing/crushed_raw_iron' })
     addSplashing(['5x iron_nugget', 'redstone %50'], 'create:crushed_raw_iron')
     removeRecipe({ id: 'create:splashing/crushed_raw_copper' })
-    addSplashing(['7x copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
+    addSplashing(['7x create:copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
 }
 if (feature('Ore processing')) {
     removeRecipe({ id: 'create:crushing/coal_ore' })
@@ -116,7 +116,7 @@ if (feature('Ore processing')) {
 
 }
 if (feature('Dye into ore')) {
-    addFilling('minecraft:coal_ore', 'minecraft:stone', 'create_enchantment_industry:ink')
+    addFilling('minecraft:coal_ore', 'minecraft:stone', '200x create_enchantment_industry:ink')
 }
 if (feature('Gold')) {
     removeItem('gold_ore')
