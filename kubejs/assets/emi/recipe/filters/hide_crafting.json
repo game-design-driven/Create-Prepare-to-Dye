@@ -2,6 +2,7 @@
     "filters": [
       {"category": "minecraft:crafting"},
       {"category": "minecraft:smelting"},
+      {"category": "minecraft:smoking"},
       {"category": "minecraft:blasting"},
       {"category": "easy_villagers:incubating"},
       {"category": "easy_villagers:converting"},
