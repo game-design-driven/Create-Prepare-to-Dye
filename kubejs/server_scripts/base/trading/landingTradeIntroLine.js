@@ -145,7 +145,7 @@ const bhbCheese = getAgreement("bhbCheese", {
     "1x minecraft:water_bucket",
     "8x minecraft:sugar_cane",
   ],
-  requestedItems: ["32x kubejs:fermented_blob"],
+  requestedItems: ["64x kubejs:fermented_blob"],
   title: "Ingredients needed",
   orderedAmount: 3,
   company: "black_hole_bagels_llc",
@@ -154,7 +154,7 @@ const bhbCheese = getAgreement("bhbCheese", {
 });
 const bhbCheeseFixed = getAgreement("bhbCheeseFixed", {
   paymentItems: ["32x supplementaries:soap"],
-  requestedItems: ["64x kubejs:fermented_blob"],
+  requestedItems: ["64x kubejs:fermented_blob", "32x kubejs:fermented_blob"],
   title: "Lets make some bagels",
   orderedAmount: 0,
   company: "black_hole_bagels_llc",

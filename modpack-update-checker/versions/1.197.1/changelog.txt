@@ -1,0 +1,8 @@
+### [1.197.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.197.0...1.197.1) (2023-12-30)
+
+
+### Minor tweaks
+
+* increase output of fermented blob from 4% to 10% and increase fermented blob price of recipes and trades. This will make it feel better but should not alter the actual ratios too much ([8ad604c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8ad604c1fc10a22f183e7c45ecd35c9d3d36be2b))
+
+

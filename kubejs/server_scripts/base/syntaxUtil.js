@@ -116,7 +116,7 @@ function solveFluids(fluids) {
 }
 function solveFluid(fluid) {
   if (!fluid) return;
-  let amount = parseInt(1000); //for some reason can't be 1000 //it turns 1000 into nothing because it thinks it's default
+  let amount = fluid.amount || parseInt(1000); //for some reason can't be 1000 //it turns 1000 into nothing because it thinks it's default
   if (typeof fluid === "string") {
     //is string, apply custom syntax
     if (fluid.includes("x ")) {

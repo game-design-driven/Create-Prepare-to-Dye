@@ -1,0 +1,23 @@
+## [1.197.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.196.3...1.197.0) (2023-12-30)
+
+
+### Features
+
+* Netherack from healing potion and cobblestone ([14f652b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/14f652b5f799a438f8736f8671e433fe949a8ae2))
+
+
+### Documentation and Localization
+
+* expand milk tooltip to include 22 second delay of milking betsy ([a815f0e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a815f0e8f35679e9933ecea6ecc489a742c6a51d))
+
+
+### Minor tweaks
+
+* alternate furnished device recipe with leather ([634f2f5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/634f2f5bf9ac45adea67f9975c8a0c302f3a62de))
+
+
+### Fixes
+
+* fluid solving not calculating amount correctly if the fluid is an object ([457144b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/457144b2805b26dbab9ae10b9c6a38c6c395114b))
+
+
