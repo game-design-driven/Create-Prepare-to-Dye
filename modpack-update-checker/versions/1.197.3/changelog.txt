@@ -1,0 +1,8 @@
+### [1.197.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.197.2...1.197.3) (2023-12-30)
+
+
+### Fixes
+
+* copper nugget output in recipes ([9554dd9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9554dd91117b6e62b95233cab3dbb82540ec7321))
+
+
