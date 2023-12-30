@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "a57a08aea849e04a04f265962673a210c720e876a1148a65c6e18500e4134a2a"
+hash = "bbff64aed607db091e0852d75fc7d90fbeed614f2c7ce88169403360485b274a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3274,7 +3274,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5bc2834761a82235009c04f29f71ebbde3ca837c2d5d45d5349fa90c2fe065dd"
+hash = "b129e75c3afbe304167a9c75ade127032fa7452f77d6b1f30d0f661e4a70ae92"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4422,7 +4422,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "c2d19c8f767eb182f35e288144578b187fc8a1c09eb9f074b9c80d392a7418de"
+hash = "421ae45dd82ae17da5b66e9f6f32a6d43ca799f4e9a773c09aefba9ecd209793"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/personal-equipment-reduction.js"
@@ -4714,7 +4714,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "16f9b1df3eba27dbfd05783f755e75f8afe6f993b903cf8e0322253e2fb49015"
+hash = "b3bb53de76dcccffa0ae66fe8e6a3a0f320512ad1593c168aa044dc6fd2169d7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6023,6 +6023,10 @@ hash = "aa0b5b3f271cf51b81a1a2f66408fbd1d7e2f86b6b4c54e075b91c356874bf51"
 [[files]]
 file = "modpack-update-checker/versions/1.197.2/changelog.txt"
 hash = "a6baffca5bedf1ddf868eb861d377bef412e29722ad321aba24c4a807bc9b127"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.3/changelog.txt"
+hash = "b27529871ae73476530cf945363bd0faf840ff4f1cb607e5f031ed86ce8e11d1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
