@@ -254,5 +254,6 @@
 	"Remove Non-Useful Rods": true,
 	"Disable Manual Rods": true,
 	"Remove Misc. Botania Tools": true,
-	"Netherack with healing potion and cobblestone": true
+	"Netherack with healing potion and cobblestone": true,
+	"Fertilizer into water and organic mass": true
 }
