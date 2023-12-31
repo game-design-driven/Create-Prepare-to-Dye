@@ -7,6 +7,7 @@ ItemEvents.tooltip((event) => {
     );
   });
   event.addAdvanced(Ingredient.of("%food"), (item, advanced, text) => {
+    if (!item.getFoodProperties(null)) return;
     let nutrition = item.getFoodProperties(null).getNutrition();
     let saturationModifier = item.getFoodProperties(
       Client.player
