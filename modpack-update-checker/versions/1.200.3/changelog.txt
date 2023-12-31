@@ -1,0 +1,8 @@
+### [1.200.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.2...1.200.3) (2023-12-31)
+
+
+### Fixes
+
+* white plate duplication ([ce3bec1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ce3bec1770f499ac5770119811f9c993b59e914f))
+
+
