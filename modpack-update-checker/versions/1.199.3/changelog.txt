@@ -1,0 +1,8 @@
+### [1.199.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.199.2...1.199.3) (2023-12-31)
+
+
+### Minor tweaks
+
+* toobox recipe requires #forge:canvasables instead of leather which means it can be crafted with silicon, kelp and membrane too ([0dee4e6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0dee4e6bb111473b4368f6593d3be46555c89744))
+
+
