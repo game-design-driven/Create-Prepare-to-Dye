@@ -39,3 +39,6 @@ io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen {
 dev.emi.emi.screen.RecipeScreen {
 }
 
+vazkii.quark.addons.oddities.client.screen.BackpackInventoryScreen {
+}
+
