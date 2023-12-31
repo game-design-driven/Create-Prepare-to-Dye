@@ -362,7 +362,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d454dba76961789db8ae9efcc42ebee165453aa41a593c9b27c6fea4cf898408"
+hash = "6e1a4fca23b2e53512c8d0aa4d7d325736a5c70866294cdc7070ebaa938eb589"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3278,7 +3278,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "10c15ca591d9b038cf8e04b07fa892840e54db9d9b723b930357346a29f2b366"
+hash = "303910eb6240294e190b7a2e43894a417e9ee6e61ae51cb88c7978b7088d3c81"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4318,7 +4318,7 @@ hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "212cce987f6dd6dfaa3f06fe921ef51dab119b8c496d18ea724a0d7a3e7e66dd"
+hash = "81326a7eec36b9e135335188a8c77ce51b2de034d06129022992e8860660b0c9"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4430,7 +4430,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "421ae45dd82ae17da5b66e9f6f32a6d43ca799f4e9a773c09aefba9ecd209793"
+hash = "26add1855cad7a7d365caded54852636573c18634321c7e51e87d08c992abcea"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/personal-equipment-reduction.js"
@@ -4534,7 +4534,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "9737b3d0e94634dd2eb79bba1b854c263aeb1679d684dc29e863fdbc9f31ea42"
+hash = "a2c9ac377d4c4a2be8f267b60146148e86a55a2aab3e5e690846834fbda3dbbb"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -4578,7 +4578,7 @@ hash = "5b31606659a2066a4abbaf50b1632754ae8e41a85029ad2dde21984cedc6ab14"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/create.manager.js"
-hash = "031aff042f4012d9c1af1d42613267968a2d41208137aea9c8e17ccd7f7b6f90"
+hash = "2aea335cbd56b2b29eef653bcff91ed170d15ad34f230ddcf64cc48d83549f1a"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/createdieselgenerators.manager.js"
@@ -4722,7 +4722,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ea4f27d2beccbf6d0d5666db0a269c251f0d8693f70b69131e3447b95a326db0"
+hash = "fcf73f5b08c6d3dcdfbb898e021da355a2e7d54bff044d256e6be0905f126efc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6063,6 +6063,10 @@ hash = "fc3368ea448adbbcc15660f99e0fcb4dde2f318fd19ed1da9a586395edf4af74"
 [[files]]
 file = "modpack-update-checker/versions/1.199.3/changelog.txt"
 hash = "e99ff3a0813552087d26c01860a2e0e91f61597438b4c11bbf034f77171579b3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.4/changelog.txt"
+hash = "7e19dd3476decb62364d2c648a5411342bb0469a0febabffe5b5f925ee4cfae3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
