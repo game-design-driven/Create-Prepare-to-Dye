@@ -1,0 +1,8 @@
+### [1.200.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.3...1.200.4) (2023-12-31)
+
+
+### Fixes
+
+* disabledItemsTooltips errors for food items that are not actually food like cakes. Need to figure out how to dispaly that sort of info ([7381ce7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7381ce7904c84b05a5ceaf9e37196c08cd94089b))
+
+
