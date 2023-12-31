@@ -1,0 +1,18 @@
+### [1.200.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.4...1.200.5) (2023-12-31)
+
+
+### Documentation and Localization
+
+* make goop from milk basic recipe first priority so people see it first ([271fcc1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/271fcc1175b99a0a0ed09753fd288d7406dc2f72))
+
+
+### Developer experance improvments and changes
+
+* add support for recipe priority ([41885d6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/41885d6399bb057db312da7d770c298b67bc6fcd))
+
+
+### Reverted Changes
+
+* variant system backpack support, some with the backpack item retaining data after taking items out of it, causing a possible dupe glitch ([dd8492a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dd8492ad778ec652ed409c086262f2fe26262e8c))
+
+
