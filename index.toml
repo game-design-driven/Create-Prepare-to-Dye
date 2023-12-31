@@ -142,7 +142,7 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "f864634eaf0017ba715b3a75ded7bdac988f6af540e9e4f8382017d7f589824e"
+hash = "7878a3cfc26064a21017963dee1e7195246b6dd25aa9470896ea3ccafc9d6ba5"
 
 [[files]]
 file = "config/fancymenu/customization/.disabled/0-automatic-assembly-generics-only.txt"
@@ -199,6 +199,10 @@ hash = "90a8c98a7a7415f5f367d0287c915ef13604835c328f7732463a8ea2075fcca8"
 [[files]]
 file = "config/fancymenu/customization/removecuriosui.txt"
 hash = "33fbe1476dfb34ab26e73bfda6b5475ef2550f67d3134809bb73f73181086a4b"
+
+[[files]]
+file = "config/fancymenu/customization/tabs-backpack.txt"
+hash = "7ea7f72a61467c96af13d0b0a2c83de832aadf07dc6d166f9dcc865faff7586d"
 
 [[files]]
 file = "config/fancymenu/customization/tabs-for-assembler.txt"
@@ -362,7 +366,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6e1a4fca23b2e53512c8d0aa4d7d325736a5c70866294cdc7070ebaa938eb589"
+hash = "fd401e061ce1c8600f80456612a750a4d2d861acb08a6231f77af3c6741775b4"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -398,7 +402,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "6d1dadc3247cc487d0281984847382df1661ea2d855b2aa00f121feb596030c0"
+hash = "e7798c892cb6253d9ba998b0739b78fbd9983adadae60c6ffc3e69f97a6a56a0"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -3273,12 +3277,16 @@ file = "kubejs/assets/quark/textures/block/raw_iron_bricks.xcf"
 hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
+file = "kubejs/assets/quark/textures/misc/backpack_gui.png"
+hash = "7ae10dc99122689baaa87a369e00540d434554c5a49441f3f0ab05f799a4d5f3"
+
+[[files]]
 file = "kubejs/assets/railways/en_us.json"
 hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "303910eb6240294e190b7a2e43894a417e9ee6e61ae51cb88c7978b7088d3c81"
+hash = "32c4c19c31abc77939b49e6c57e6dee30d128e949514e53e4c8bcaf1e123c04d"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4486,7 +4494,7 @@ hash = "a6f29339097133658df0e93a17685a11fd9610cb19161589f5099da7c529d045"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/varient.js"
-hash = "c180bc4163519943b5955e5f29a721aeafc0abe44549bac929ba64eef8572af8"
+hash = "8fa7a8c85a5d245e1a211f89e37cd15027f56e813cf88f337f614d7556fac1f2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/villagers.js"
@@ -4534,7 +4542,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "a2c9ac377d4c4a2be8f267b60146148e86a55a2aab3e5e690846834fbda3dbbb"
+hash = "6da7cef59fd19f3d2fe59886d63563660dfc05c70c6031669434d9f533b7f877"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -4722,7 +4730,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "fcf73f5b08c6d3dcdfbb898e021da355a2e7d54bff044d256e6be0905f126efc"
+hash = "bfd7ec1287784c03141b9127a5e3f0051df8b2267980b01ced2bded97c728f63"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6067,6 +6075,10 @@ hash = "e99ff3a0813552087d26c01860a2e0e91f61597438b4c11bbf034f77171579b3"
 [[files]]
 file = "modpack-update-checker/versions/1.199.4/changelog.txt"
 hash = "7e19dd3476decb62364d2c648a5411342bb0469a0febabffe5b5f925ee4cfae3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.0/changelog.txt"
+hash = "9bb5aa8c2c7df02c95f6b9af7272991cc98d59dfc2115237fd5d719dc2c5c23f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
