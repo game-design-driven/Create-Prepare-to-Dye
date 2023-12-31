@@ -42,10 +42,6 @@ addTooltip(
   "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall, pretty piece of paper"
 );
 addTooltip(
-  "storagedrawers:oak_full_drawers_1",
-  "a drawer, type of drawer can be cycled through using the variant button (default R)"
-);
-addTooltip(
   "create:blaze_burner",
   "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find an adult _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_"
 );
