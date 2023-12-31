@@ -1,3 +1,13 @@
+/**
+ *
+ * @param {Internal.Player} player
+ */
+function getAllItems(player) {
+  return player.chestArmorItem.nbt
+    .get("Inventory")
+    .concat(player.inventory.allItems.toArray());
+}
+
 BlockEvents.placed((event) => {
   if (shouldAssemble(event)) {
     let found = false;
@@ -7,13 +17,12 @@ BlockEvents.placed((event) => {
         let ingredient = JSON.parse(recipe["ingredient"]);
         if (!Array.isArray(ingredient)) ingredient = [ingredient];
         ingredient.forEach((item) => {
-          let x = event.player.inventory.allItems
-            .toArray()
-            .filter((inventoryItem) => {
-              return inputPredicate(event.player, item, inventoryItem);
-            });
+          let x = getAllItems(event.player).filter((inventoryItem) => {
+            return inputPredicate(event.player, item, inventoryItem);
+          });
           if (x.length > 0 && !found) {
-            x[0].count = x[0].count - 1;
+            if (x[0].Count) x[0].Count = x[0].Count - 1;
+            else x[0].count = x[0].count - 1;
             Utils.server.scheduleInTicks(1, () => {
               Utils.server.runCommandSilent(
                 `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.4 1.3`
@@ -44,7 +53,6 @@ function inputPredicate(player, item, inventoryItem) {
       Ingredient.of("#" + item.tag).test(inventoryItem.id)
     );
   }
-
 }
 function shouldAssemble(event) {
   return (

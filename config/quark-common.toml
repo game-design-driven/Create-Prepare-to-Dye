@@ -289,7 +289,7 @@
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -328,7 +328,7 @@
 		"Enable Enchant Matching" = true
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
-		"Unstackables Only" = false
+		"Unstackables Only" = true
 		#Any items you place in this list will be ignored by the restock feature
 		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
