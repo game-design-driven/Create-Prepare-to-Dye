@@ -68,10 +68,10 @@ function addMilling(output, input, processingTime) {
  * @param {fluid} fluidOutput
  * @param {fluid[]} fluidInput
  */
-function addCompacting(output, input, heatRequirement, processingTime, fluidOutput, fluidInput) {
+function addCompacting(output, input, heatRequirement, processingTime) {
     return addProcessingRecipe('create:compacting',
-        [solveResult(output)].concat(solveFluid(fluidOutput)),
-        solveLimitedIngredients(input).concat(solveFluids(fluidInput)),
+        solveResults(output),
+        solveLimitedIngredients(input),
         processingTime, heatRequirement)
 }
 /**
