@@ -328,10 +328,9 @@ if (feature("Fertilizer into water and organic mass")) {
 
   addMixing(
     [
-      "1mb create_enchantment_industry:experience",
-      "create:experience_nugget %10",
+      "10mb create_enchantment_industry:experience",
     ],
-    ["250mb kubejs:organic_mass", "250mb milk"],
+    ["200mb kubejs:organic_mass", "50mb milk"],
     temperature.heated,
     500
   );
