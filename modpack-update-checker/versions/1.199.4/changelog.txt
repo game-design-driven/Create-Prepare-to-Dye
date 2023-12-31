@@ -1,0 +1,14 @@
+### [1.199.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.199.3...1.199.4) (2023-12-31)
+
+
+### Minor tweaks
+
+* lapis from dust and water recipe requires less water ([0bc5a06](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0bc5a06e5e110bb8d3e5d3e2f8de5b8c734f65ae))
+* orangic mass generation overhaul + more plant oil from seeds. This fixes issues with compacint recipes conflicts too ([3a7da41](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3a7da417346a17aa2dc4aff959af6f66ebeb27be))
+
+
+### Fixes
+
+* compacting recipes always including another empty result ([1caa02a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1caa02a435a38f055358c51c1e0e49e3d0f6d814))
+
+
