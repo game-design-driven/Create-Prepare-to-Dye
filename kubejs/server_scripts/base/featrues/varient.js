@@ -3,11 +3,11 @@
  * @param {Internal.Player} player
  */
 function getAllItems(player) {
-  if (player.chestArmorItem.id == "quark:backpack"){
-    return player.chestArmorItem.nbt
-      .get("Inventory")
-      .concat(player.inventory.allItems.toArray());
-  }
+  // if (player.chestArmorItem.id == "quark:backpack"){
+  //   return player.chestArmorItem.nbt
+  //     .get("Inventory")
+  //     .concat(player.inventory.allItems.toArray());
+  // }
   return player.inventory.allItems.toArray();
 }
 
@@ -51,6 +51,16 @@ function inputPredicate(player, item, inventoryItem) {
     (player.persistentData.get("auto_assemble_generic_only") == true &&
       Item.of(item).hasTag("forge:devices/generics"))
   ) {
+    if (inventoryItem.id=="quark:backpack") return false;
+    if (item.id=="ptd")
+    // console.log(typeof inventoryItem)
+    // if (inventoryItem){
+    //   if (inventoryItem.nbt) {
+    //     console.log(inventoryItem.nbt);
+    //     return false
+    //   }
+    // }
+    // if (inventoryItem.nbt || Item.of(inventoryItem).nbt) return false
     return (
       Ingredient.of(item.item).test(inventoryItem.id) ||
       Ingredient.of("#" + item.tag).test(inventoryItem.id)
