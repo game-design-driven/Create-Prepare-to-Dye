@@ -3,9 +3,12 @@
  * @param {Internal.Player} player
  */
 function getAllItems(player) {
-  return player.chestArmorItem.nbt
-    .get("Inventory")
-    .concat(player.inventory.allItems.toArray());
+  if (player.chestArmorItem.id == "quark:backpack"){
+    return player.chestArmorItem.nbt
+      .get("Inventory")
+      .concat(player.inventory.allItems.toArray());
+  }
+  return player.inventory.allItems.toArray();
 }
 
 BlockEvents.placed((event) => {
