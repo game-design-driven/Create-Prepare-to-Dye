@@ -292,30 +292,35 @@ if (feature("Slime from magmablock")) {
   addItemApplication("slime_block", "magma_block", "lime_dye");
 }
 
-if (feature("Fertilizer into water")) {
-  addToTag("forge:squeezables/1", [
+if (feature("Fertilizer into water and organic mass")) {
+  addToTag("forge:squeezables/seeds", [
     "minecraft:wheat_seeds",
     "minecraft:melon_seeds",
     "minecraft:pumpkin_seeds",
     "minecraft:beetroot_seeds",
-    "minecraft:cactus",
-    "minecraft:bamboo",
+    // "minecraft:cactus",
+    // "minecraft:bamboo",
   ]);
-  addToTag("forge:squeezables/2", [
-    "minecraft:apple",
-    "minecraft:beetroot",
-    "minecraft:carrot",
-    "minecraft:potato",
-    "minecraft:chorus_fruit",
-    "minecraft:sweet_berries",
-    "minecraft:melon_slice",
+  addToTag("forge:squeezables/poor", [
+    "quark:sugar_cane_block",
+    "quark:bamboo_block",
+    "quark:cactus_block",
+  ])
+  addToTag("forge:squeezables/rich", [
+    "quark:apple_crate",
+    "quark:beetroot_crate",
+    "quark:carrot_crate",
+    "quark:potato_crate",
+    "quark:chorus_fruit_block",
+    "quark:berry_sack",
+    "minecraft:pumpkin"
   ]);
-  addToTag("forge:squeezables/3", ["minecraft:pumpkin"]);
   removeRecipe({ id: "createdieselgenerators:compacting/plant_oil" });
-  addCompacting("25mb kubejs:organic_mass", "#forge:squeezables/1");
-  addCompacting("100mb kubejs:organic_mass", "#forge:squeezables/2");
-  addCompacting("125mb kubejs:organic_mass", "minecraft:poisonous_potato");
-  addCompacting("200mb kubejs:organic_mass", "#forge:squeezables/3");
+  addCompacting(["50mb kubejs:organic_mass",'10mb createdieselgenerators:plant_oil'], "#forge:squeezables/seeds");
+  addCompacting('50mb createdieselgenerators:plant_oil', "#forge:squeezables/seeds", temperature.heated);
+  addCompacting("100mb kubejs:organic_mass", "minecraft:poisonous_potato");
+  addCompacting("250mb kubejs:organic_mass", "#forge:squeezables/poor");
+  addCompacting("500mb kubejs:organic_mass", "#forge:squeezables/rich");
   addDistillation(
     ["8mb water", "2mb createdieselgenerators:plant_oil"],
     "10mb kubejs:organic_mass"
