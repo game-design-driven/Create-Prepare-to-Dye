@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     removeAirFromRecipe(recipe);
     if (!hasRemovedItems(recipe)) {
       let r = event.custom(recipe);
-      r.id = getUniqueRecipeName(r);
+      r.id = getUniqueRecipeName(r, recipe.prefix);
       if (recipe.hidden) {
         r.id = r.id + "/hidden";
       }

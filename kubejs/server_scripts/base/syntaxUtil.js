@@ -18,7 +18,7 @@ function solveResult(item) {
     //is string, apply custom syntax
     if (item.includes("mb ")) {
       //fluid
-      
+
       let amount = parseInt(item.split("mb ")[0]);
       return Fluid.of(item.split("mb ")[1]).withAmount(amount).toJson();
     }
@@ -96,7 +96,7 @@ function solveIngredient(ingredient) {
   if (typeof ingredient === "string") {
     if (ingredient.includes("mb ")) {
       //fluid
-      
+
       let amount = parseInt(ingredient.split("mb ")[0]);
       return Fluid.of(ingredient.split("mb ")[1]).withAmount(amount).toJson();
     }
@@ -132,8 +132,8 @@ function solveFluid(fluid) {
   return Fluid.of(fluid).withAmount(amount).toJson();
 }
 
-let global_recipe_counter = 0
-function getUniqueRecipeName(recipe) {
+let global_recipe_counter = 0;
+function getUniqueRecipeName(recipe, prefix) {
   //doesn't
   let result = null;
   if (recipe.originalRecipe != null) {
@@ -141,7 +141,9 @@ function getUniqueRecipeName(recipe) {
   } else {
     result = "recipe";
   }
-  let name = recipe.getType() + "/" + result;
+  prefix = prefix? prefix + "/" : "";
+  // let name = recipe.getType() + "/" + prefix + result;
+  let name = "ptdye:modpack" + "/" + prefix + result;
   name = name.split("'")[0];
   name = name + "" + "/" + global_recipe_counter;
   global_recipe_counter++;
