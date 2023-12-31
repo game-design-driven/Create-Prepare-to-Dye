@@ -1,13 +1,3 @@
-if (feature("diesel generators are not dyesel generators")) {
-  // createdieselgenerators:diesel_engine_fuel_[slow/fast]_[strong/weak]_[slow/fast]_burn
-  ServerEvents.tags("fluid", (event) => {
-    event.add(
-      "createdieselgenerators:diesel_engine_fuel_fast_strong_fast_burn",
-      "milk"
-    );
-  });
-}
-
 if (feature("Remove createdieselgenerators things we dont need")) {
   removeItems([
     "createdieselgenerators:chemical_sprayer",
@@ -48,6 +38,10 @@ if (feature("Ethanol")) {
   removeRecipe({ id: "createdieselgenerators:basin_fermenting/fermentable" });
   //createdieselgenerators:ethanol
   addFermenting(
+    ["250mb kubejs:fermented_goop", "5x minecraft:white_dye"],
+    ["500mb milk"], undefined, 'z'
+  );
+  addFermenting(
     ["100mb kubejs:fermented_goop"],
     ["minecraft:bone_meal", "#forge:fermentable"]
   );
@@ -60,10 +54,6 @@ if (feature("Ethanol")) {
     ["500mb kubejs:fermented_goop", "5x minecraft:green_dye", "50mb water"],
     ["4x minecraft:bone_meal", "500mb kubejs:organic_mass"]
   );
-  addFermenting(
-    ["250mb kubejs:fermented_goop", "5x minecraft:white_dye"],
-    ["500mb milk"]
-  );  
   addFermenting(
     ["200mb kubejs:fermented_goop", "75mb water"],
     ["500mb kubejs:organic_mass"]
@@ -81,26 +71,21 @@ if (feature("Ethanol")) {
     40,
     temperature.heated
   );
+  addDistillation(["15mb water"], ["15mb milk"], 40);
+}
+
+if (feature("Replace oil with ink")) {
+  removeRecipe({ id: "createdieselgenerators:distillation/crude_oil" });
   addDistillation(
-    ["15mb water"],
-    ["15mb milk"],
-    40,
+    ["15mb create:honey", "50mb createdieselgenerators:diesel"],
+    "250mb create_enchantment_industry:ink"
   );
 }
 
-
-if (feature('Replace oil with ink')) {
-  removeRecipe({id: 'createdieselgenerators:distillation/crude_oil'})
-  addDistillation([
-    '15mb create:honey',
-    '50mb createdieselgenerators:diesel',
-  ],'250mb create_enchantment_industry:ink')
-}
-
-if (feature('Overhaul wooden chips recipes')) {
-  removeRecipe({id: 'createdieselgenerators:cutting/wood_chips'})
-  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_slabs'})
-  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_stairs'})
-  removeRecipe({id: 'createdieselgenerators:crushing/wood_chip_fences'})
-  addCutting('createdieselgenerators:wood_chip', 'minecraft:stick')
+if (feature("Overhaul wooden chips recipes")) {
+  removeRecipe({ id: "createdieselgenerators:cutting/wood_chips" });
+  removeRecipe({ id: "createdieselgenerators:crushing/wood_chip_slabs" });
+  removeRecipe({ id: "createdieselgenerators:crushing/wood_chip_stairs" });
+  removeRecipe({ id: "createdieselgenerators:crushing/wood_chip_fences" });
+  addCutting("createdieselgenerators:wood_chip", "minecraft:stick");
 }
