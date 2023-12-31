@@ -1,0 +1,19 @@
+### [1.200.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.0...1.200.1) (2023-12-31)
+
+
+### Minor tweaks
+
+* remove drawers from variant list as they are a device ([42eeb82](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/42eeb828eebb50a706c3909a0fe967f6cf50a941))
+
+
+### Documentation and Localization
+
+* remove old drawer tooltip about quark varient behavior ([9fbb509](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9fbb50941e80bbb0c21d3338cf1c5601e287ca4d))
+
+
+### Fixes
+
+* force device conversion to be empty nbt. Will prevent conversion of filled drawers to other devices. Note that this does not yet prevent conversion to generics ([8ebde03](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8ebde034786e3624b8a400a519ccb69da83f7fa2))
+* manual drawers recipe ([ba66e1f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ba66e1fda641cd897eb5520903060f33681f3995))
+
+
