@@ -49,6 +49,8 @@ if (feature("Replace white ingot with white plate directly")) {
 
   addCompacting("create:iron_sheet", "6x minecraft:iron_nugget");
   
+  removeRecipe({ id: "minecraft:iron_nugget" });
+  addShapeless("6x minecraft:iron_nugget", "minecraft:iron_ingot");
   ServerEvents.recipes((event) =>
     event
       .shapeless("create:iron_sheet", "minecraft:iron_ingot")
