@@ -103,7 +103,7 @@ if (feature("Replace golden sheet with brass one")) {
   addShaped("create:brown_toolbox", [" c ", "pCp", " l "], {
     c: "#forge:cogs",
     p: "#forge:plates",
-    l: "#forge:leather",
+    l: "#forge:canvasables",
     C: "#forge:chests",
   });
   removeItem("create:golden_sheet");
