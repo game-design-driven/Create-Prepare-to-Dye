@@ -366,7 +366,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e86e2f1cfec76f3fe8c67f2233400393a945cc0b40cbf1c92c0fbd6d2fadc0c7"
+hash = "b29ece58d69dae6d7ba7083fa40c7b9d73582cc01a51e5d9be3e55bcd31d84c2"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3286,7 +3286,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "0252b0f188397b4f32ebc0c87523f613c7a8c0c6339d641408cccdcbbe02848f"
+hash = "fe6a8237bb7bca8067b623d9b5be47e9703b71bdad8fde9bcd48c36792b4a5ff"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4494,7 +4494,7 @@ hash = "a6f29339097133658df0e93a17685a11fd9610cb19161589f5099da7c529d045"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/varient.js"
-hash = "8fa7a8c85a5d245e1a211f89e37cd15027f56e813cf88f337f614d7556fac1f2"
+hash = "e168a9b35216a6bdb443e4247256d8d23c621a8539d1a614baf232fb1ce2906c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/villagers.js"
@@ -4730,7 +4730,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "43562928ecc0e55d21748b0d19a3f516bddf92056da04e8424db4fe561504a89"
+hash = "5304f2be2ee31745872e6abaf05ee9415de8566756c14d5dccd5b456a3f988be"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6083,6 +6083,10 @@ hash = "9bb5aa8c2c7df02c95f6b9af7272991cc98d59dfc2115237fd5d719dc2c5c23f"
 [[files]]
 file = "modpack-update-checker/versions/1.200.1/changelog.txt"
 hash = "1d54ead7d37eb7686468e19d3c9a2ea19b91bcd495f89a2357d54ddd3d74f585"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.2/changelog.txt"
+hash = "c5517466e07cd6b2a1cfa2ff8dd36c87a23f65b895df4b4374a4fbdc339f2992"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

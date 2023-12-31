@@ -1,0 +1,8 @@
+### [1.200.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.1...1.200.2) (2023-12-31)
+
+
+### Fixes
+
+* possible issue with quark backpack compat for variant system ([68ca6d1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/68ca6d179f8d5367590a5dd7f9e9cdf24d85c38b))
+
+
