@@ -220,7 +220,7 @@ if (feature('Lapis')) {
     //     <item:minecraft:lapis_ore>.murdurFamily();
     //     Orechid.main.removeOreWeight(<blockstate:minecraft:lapis_ore>);
     removeItem('lapis_ore')
-    addCompacting('lapis_lazuli', '2x #forge:dusts', temperature.heated,undefined,undefined,'1000x water')
+    addCompacting('lapis_lazuli', ['2x #forge:dusts','500mb water'])
     //remove from orechid
     // addFluidTransomItem('2x lapis_lazuli', ['#forge:dyes', '#forge:lime'])
     // addFluidTransomItem('2x lapis_lazuli', '#forge:dusts/mana')
