@@ -383,7 +383,7 @@ if (
       } 
         let allButCurrentDevice = device.included_devices.filter(
           (element) => element !== item.id && Item.of(element).count == 1
-        );
+        ).map(element=>Item.of(element).strongNBT());
         addStonecutting(
           included_device,
           Ingredient.of(allButCurrentDevice),
