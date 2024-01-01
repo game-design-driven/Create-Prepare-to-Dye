@@ -1,0 +1,8 @@
+### [1.200.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.7...1.200.8) (2024-01-01)
+
+
+### Minor tweaks
+
+* reduce white dye output of fermenting milk recipe ([98fbfcb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/98fbfcb24135e8eed6895ac034b233ac6de7c918))
+
+
