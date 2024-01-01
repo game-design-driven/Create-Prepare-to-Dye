@@ -1,0 +1,13 @@
+### [1.200.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.9...1.200.10) (2024-01-01)
+
+
+### Minor tweaks
+
+* disable Feeding Trough ([50de16e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50de16ead588b7068e24f3e54f3f76867e9d855c))
+
+
+### Documentation and Localization
+
+* add more device advancements ([2e39753](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2e397536c9f4978c557dacd3c88765ac892c7651))
+
+
