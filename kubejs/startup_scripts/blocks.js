@@ -180,25 +180,23 @@ const $IProperties = Java.loadClass("net.minecraft.world.item.Item$Properties");
 // })
 let botanicDeviceBlock;
 
-StartupEvents.registry("block", (event) => {
-  // botanic device
-  botanicDeviceBlock = event
-    .createCustom(
-      "ptdye:botanic_device",
-      () =>
-        new $FlowerBlock(
-          $MobEffects.NIGHT_VISION,
-          5,
-          $Properties.copy($Blocks.DANDELION)
-        )
-    )
-  botanicDeviceBlock.getBlockBuilder()
-  .defaultCutout()
-});
+// StartupEvents.registry("block", (event) => {
+//   // botanic device
+//   botanicDeviceBlock = event
+//     .createCustom(
+//       "ptdye:botanic_device",
+//       () =>
+//         new $FlowerBlock(
+//           $MobEffects.NIGHT_VISION,
+//           5,
+//           $Properties.copy($Blocks.DANDELION)
+//         )
+//     )
+// });
 
-StartupEvents.registry("item", (event) => {
-  let e = event.createCustom(
-    "ptdye:botanic_device",
-    () => new $BlockItem(botanicDeviceBlock.get(), new $IProperties())
-  );
-});
+// StartupEvents.registry("item", (event) => {
+//   let e = event.createCustom(
+//     "ptdye:botanic_device",
+//     () => new $BlockItem(botanicDeviceBlock.get(), new $IProperties())
+//   );
+// });
