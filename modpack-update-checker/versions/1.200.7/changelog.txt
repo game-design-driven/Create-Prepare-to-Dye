@@ -1,0 +1,8 @@
+### [1.200.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.6...1.200.7) (2024-01-01)
+
+
+### Fixes
+
+* advancements about white ingot even though it was replaced with white plate ([8d78186](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8d78186ad077f69c8b60a5b44d0a69cd45f679b4))
+
+
