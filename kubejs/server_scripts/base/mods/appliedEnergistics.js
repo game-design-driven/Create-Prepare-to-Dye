@@ -11,7 +11,6 @@ if (feature("Remove all uneeded things from ae2")) {
   let keep = [
     "ae2:silicon",
     "ae2:terminal",
-    "ae2:fluix_smart_cable",
     "ae2:storage_bus",
     "ae2:energy_cell",
     "ae2:toggle_bus",
@@ -28,6 +27,27 @@ if (feature("Remove all uneeded things from ae2")) {
     "ae2:quartz_fiber",
     "ae2:quartz_block",
     "ae2:level_emitter",
+
+    "ae2:red_smart_cable",
+    "ae2:blue_smart_cable",
+    "ae2:green_smart_cable",
+    "ae2:purple_smart_cable",
+    "ae2:white_smart_cable",
+    "ae2:orange_smart_cable",
+    "ae2:yellow_smart_cable",
+    "ae2:lime_smart_cable",
+    "ae2:pink_smart_cable",
+    "ae2:gray_smart_cable",
+    "ae2:light_gray_smart_cable",
+    "ae2:cyan_smart_cable",
+    "ae2:light_blue_smart_cable",
+    "ae2:magenta_smart_cable",
+    "ae2:brown_smart_cable",
+    "ae2:green_smart_cable",
+    "ae2:red_smart_cable",
+    "ae2:black_smart_cable",
+    "ae2:fluix_smart_cable",
+    
   ];
 
   Ingredient.of("@ae2").itemIds.forEach((item) => {
