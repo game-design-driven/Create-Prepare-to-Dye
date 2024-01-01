@@ -1,0 +1,13 @@
+## [1.201.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.12...1.201.0) (2024-01-01)
+
+
+### Features
+
+* wax can now be synthisized with silicon ([fa224f9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa224f989ab9f39855aef0a8d80f05e5f630ba97))
+
+
+### Documentation and Localization
+
+* rename honeycomb to was ([18836f6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/18836f66985aef530f82b25979aeeac0bc5adf99))
+
+

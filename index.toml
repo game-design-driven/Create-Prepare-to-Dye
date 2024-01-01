@@ -366,7 +366,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "75ff3b64b9cf758fcfb99dc9c5ad0e99dd92b541b2e0cba15abff662fd847786"
+hash = "2e8876c8b80794d5f66a832170686b1485b0723d62355bf05c83575a640acab9"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -813,8 +813,24 @@ file = "kubejs/assets/emi/lang/en_us.json"
 hash = "eb1e2c1296602718766e8b1ad2288448166882a462f09381a71af14899a10f7a"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.black_smart_cable.json"
+hash = "6da3e05920b61e8d97e238c3e08312a045d93cc6e207a3bea6656e0f5e546643"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.blue_smart_cable.json"
+hash = "40fe7db7f9d52ca9ea3b118d7fd3d84a69054162da25d491f7d2d4c4103eef0f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.brown_smart_cable.json"
+hash = "4963dd8fd2f36c4e550ec2cf6053cce75bb3431b30f1c731b68bcac276fe82d5"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.chipped_budding_quartz.json"
 hash = "3b6ae09febc9c81d562d53047e61410eed228f02668a1f78f0d7f552a83c3042"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.cyan_smart_cable.json"
+hash = "07dd676aff4d088a5fd58bfa520a78e019b1bbc226d60dd75893ceb160d259a7"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.damaged_budding_quartz.json"
@@ -833,6 +849,14 @@ file = "kubejs/assets/emi/recipe/additions/generated.ae2.fluix_smart_cable.json"
 hash = "3ab1eeab89607d25f3908c2c7a77306507131e047463350004cf1bdb9d268164"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.gray_smart_cable.json"
+hash = "64324e681cf4a6157516eca2a52bc575653e88431d9ef7c8b870cb6bee878a8a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.green_smart_cable.json"
+hash = "535427ca57f3c796ffb076ef2981a60a99bc51c076ed2850de392e5b256bc038"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.inverted_toggle_bus.json"
 hash = "21a3c95c1de0fa0e1467f1d5f7f6b2ab1274c9807402ba770419c005481c78a3"
 
@@ -841,8 +865,40 @@ file = "kubejs/assets/emi/recipe/additions/generated.ae2.large_quartz_bud.json"
 hash = "1ccb8c93a5426221441e4167ead0f2cc1e3bc24c3085dec0d1e79b3139ba1922"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.light_blue_smart_cable.json"
+hash = "179f10515242ae235cc59797e6b084750622f8c36f1c43d35d7fe6faa349ff40"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.light_gray_smart_cable.json"
+hash = "93b23a5a21ff7a5db3a0b726bb5926fbc7bf53ed72a765710c5de6a15cff81d5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.lime_smart_cable.json"
+hash = "1ec87a613f8bf2f8c4e8fa2b633a7d352228b65d0b6a4930dbc10b6568a83752"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.magenta_smart_cable.json"
+hash = "7e7cec7346535a55ceb4c4341ec97a489d7897f8249417294509da71cb3e7171"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.medium_quartz_bud.json"
 hash = "098f82669a9d107cb691fc104ecea208c8d46ee887513f2acf220a3f9649fea8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.orange_smart_cable.json"
+hash = "24464cea23e5aca097034453a0fbeeda8308a11ac6c7315c9273789b4e68cd5b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.pink_smart_cable.json"
+hash = "598f8b1463616e033f38ed2b7360d0f29e8c53489949c51f43e2fdbc751c59f8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.purple_smart_cable.json"
+hash = "f9e5ed1abe51b8a8bed3bc1a66aca8e597a4e5386d08a1b7146744b8400542b4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.red_smart_cable.json"
+hash = "c5dc449fa19b900b55bcb2e354e5603e94bba17318951cc1c028d79e0b95d892"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.small_quartz_bud.json"
@@ -859,6 +915,14 @@ hash = "c23ced670d79e2cacbebbe05f8ab9b9a08f2b6279be8772256f7026ec04b1117"
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.toggle_bus.json"
 hash = "423f2a57108106408705a6aea85534a4463b4d2f62115ded4ad74ff9607a7243"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.white_smart_cable.json"
+hash = "1863adcc342b9deedae1442bd371299b62d90e1f755f66f4cdcfb1f1fff73ec2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.yellow_smart_cable.json"
+hash = "78e214d7d423d196565ba092d29043b8e955fcb1130b81cc1f7f73e4692ac218"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.botania.agricarnation.json"
@@ -2386,7 +2450,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "b2a4a2f9f4792607f1a99875ba162b54422189abe636bf2698d8959aab8a6476"
+hash = "a849063878bfcbc2a9118120f195be689db0288b490e277418e7b7fbc6cc343d"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -3290,7 +3354,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5161d774d30274c9de96e4f632b1930ab1b10e8678897ad2181d852bacae4aad"
+hash = "b269879c05b2c84499b6a9682bfbe0a8299479550482ab9bb6c4832d128dba0a"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4582,7 +4646,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "6da7cef59fd19f3d2fe59886d63563660dfc05c70c6031669434d9f533b7f877"
+hash = "f89e5851a40785a4a03ad506932da2fc56cbab42844c6d1c815f7fdec7885a91"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -4702,7 +4766,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "c6a11763949c16da90f69d671ce2f2b8dbf058a93a191755b6eb71971ad053f7"
+hash = "715f507fc523ba0b0389721c4957d899b8253d5e9e7bf8cb5ac4b8eed2fac4e0"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -4770,7 +4834,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cf33af965040426eaab22aba8afe2dde50876dea82dc7c508a9a3269f64b460b"
+hash = "883bb4f0fa0c8c9c7211e64c05ccac5dd59423c3a9491f537a6f9c76e0432eb9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6167,6 +6231,10 @@ hash = "4b3a2aa32522fc0ba882f789f40384700b301c1caed4a0e2011b85cbf4ba50c6"
 [[files]]
 file = "modpack-update-checker/versions/1.200.9/changelog.txt"
 hash = "9a854c446195fae419319a573323e28dc0097f7e0d3b4a31130a3b9b7343f9b1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.0/changelog.txt"
+hash = "0e0d69e732c6662e4661a6b02a04c4c6aeeb1c37b64ebec4fe28d4ad2929cf54"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
