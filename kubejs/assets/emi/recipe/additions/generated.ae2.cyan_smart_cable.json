@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ae2:cyan_smart_cable"
+	],
+	"text": "item.ae2.cyan_smart_cable.tooltip.summary"
+}
