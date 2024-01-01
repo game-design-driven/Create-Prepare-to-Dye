@@ -366,7 +366,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4d264aea8724ac4a1d0bab271113855e31e34c555944a908c0ef5d75c4a1ad66"
+hash = "8f183cc931aac0eb79caa0813573e2b7347cf7a0ceecea574e75e667b6858ced"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -2942,7 +2942,7 @@ hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "29224af62da35c9447377d52f198d71eac624cfd39e10251552b19335f87bbe1"
+hash = "800680c47bc024a1000ac380d05f0df2a82dfe695cf30d4301fa544454d54a92"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/frail_bone_block.json"
@@ -3286,7 +3286,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "3f5dfb1083f6e0daea51acf84e6148003f20d8a0678792150a963669daf8fab8"
+hash = "f7d174a4581c8367812045ca3fdab79a4b770b4b715f898fb0099a823a1add7b"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4053,6 +4053,10 @@ file = "kubejs/data/more_babies/advancements/more_babies/root.json"
 hash = "29170f636decef1a097a0163669a18a7a9971246217eee9df102a11d66b56d6f"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/_daisy.json"
+hash = "013cb80a1f9983e99a6f7a91cca333d0467eb7857058c8955a03af83486613ef"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/blob.json"
 hash = "b773b582ce52af428f0c8a2a0f925f2658ce97f1b345cddf95bca6d98ef0db75"
 
@@ -4065,8 +4069,8 @@ file = "kubejs/data/ptd/advancements/cogs.json"
 hash = "e04ec5411bd7345cb2ce8a81b310d29cce7f9ea2953ea14979baba7d110aea15"
 
 [[files]]
-file = "kubejs/data/ptd/advancements/daisy.json"
-hash = "013cb80a1f9983e99a6f7a91cca333d0467eb7857058c8955a03af83486613ef"
+file = "kubejs/data/ptd/advancements/goop.json"
+hash = "35fcea26c3f45a553d648473389face426149d1bbfd01b1a140a833972275e64"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/grass_block.json"
@@ -4238,7 +4242,7 @@ hash = "6c9dd01564795b8c2e2d6583755276f44058ecec8f4462f1222bbfbc87318873"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/white_powder.json"
-hash = "4bb409f878f80c07fcda555d4a22a0a673bbc05001e209bccffd9b162b021f05"
+hash = "c5d539a80e2b301e338faaee206f1b7c4e6420a85208a0ba15b412a5f08857f6"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/white_sheet.json"
@@ -4726,7 +4730,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "9fba4370657ca57f94b189dec531d436983f090cbcea2ab7e305937178ea2c40"
+hash = "7d3cc875c9c0a8755825c39192d5f660fe23ea01733bb17aff2ed48038bf7307"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6107,6 +6111,10 @@ hash = "2010fe320e0fa4ac84ed4a0776d4bca3caf0b33c95b4787ab50962c36af07d11"
 [[files]]
 file = "modpack-update-checker/versions/1.200.8/changelog.txt"
 hash = "4b3a2aa32522fc0ba882f789f40384700b301c1caed4a0e2011b85cbf4ba50c6"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.9/changelog.txt"
+hash = "9a854c446195fae419319a573323e28dc0097f7e0d3b4a31130a3b9b7343f9b1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

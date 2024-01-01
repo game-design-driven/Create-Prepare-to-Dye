@@ -1,0 +1,8 @@
+### [1.200.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.8...1.200.9) (2024-01-01)
+
+
+### Minor tweaks
+
+* add fermented goop advancement ([8af51eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8af51eb93e9a35275885d335c988713e2563a1b7))
+
+
