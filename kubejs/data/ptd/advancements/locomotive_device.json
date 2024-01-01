@@ -1,0 +1,24 @@
+{
+  "parent": "ptd:sturdy_device",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": [ "ptdye:locomotive_device" ]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "ptdye:locomotive_device"
+      },
+      "title": { "translate": "advancement.ptdye.locomotive_device", "color": "white" },
+      "description": { "translate": "advancement.ptdye.locomotive_device.desc", "color": "grey" },
+      "frame": "goal",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  }
+}
