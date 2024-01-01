@@ -1,0 +1,24 @@
+{
+  "parent": "ptd:cogs",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["create:andesite_alloy"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "create:andesite_alloy"
+      },
+      "title": { "translate": "advancement.ptdye.gray_alloy", "color": "white" },
+      "description": { "translate": "advancement.ptdye.gray_alloy.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  }
+}

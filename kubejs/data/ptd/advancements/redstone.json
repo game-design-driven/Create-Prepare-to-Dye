@@ -1,0 +1,24 @@
+{
+  "parent": "ptd:cogs",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["minecraft:redstone"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "minecraft:redstone"
+      },
+      "title": { "translate": "advancement.ptdye.redstone", "color": "white" },
+      "description": { "translate": "advancement.ptdye.redstone.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  }
+}

@@ -14,6 +14,9 @@
   "create:spout_filling": {
     "order": -70
   },
+  "create:fan_washing": {
+    "order": -70
+  },
   "create:mixing": {
     "order": -60
   },

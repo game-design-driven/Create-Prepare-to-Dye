@@ -59,7 +59,7 @@
 	"Pistons Move Tile Entities" = true
 	"Ender Watcher" = true
 	"Redstone Randomizer" = true
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 	"Metal Buttons" = true
 	"Iron Rod" = true
 	"Obsidian Plate" = true
