@@ -31,7 +31,8 @@
     "advancement.ptdye.trade.desc": "Receive an intergalactic trade offer through the Mesh",
     "advancement.ptdye.milk": "Automatic Milk",
     "advancement.ptdye.milk.desc": "Setup automated milk production",
-
+    "advancement.ptdye.goop": "Fermentation!",
+    "advancement.ptdye.goop.desc": "Setup automated goop production",
     "item.ptdye.hammer": "Hammer",
     "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
 
