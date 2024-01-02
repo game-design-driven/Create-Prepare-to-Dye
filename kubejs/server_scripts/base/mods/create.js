@@ -288,3 +288,7 @@ if (feature('Block of brass is made with plates instead of ingots')) {
   })
   addShapeless('9x create:brass_sheet', 'create:brass_block')
 }
+
+if (feature('Sugar to white dye')) {
+  addMixing('white_dye', ['4x sugar'], temperature.none)
+}
