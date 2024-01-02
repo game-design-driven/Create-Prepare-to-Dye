@@ -11,7 +11,6 @@
       {"category": "ae2:attunement"},
       {"category": "ae2:certus_growth"},
       {"category": "ae2:condenser"},
-      {"category": "emi:anvil_repairing"},
-      {"category": "emi:world_interaction"}
+      {"category": "emi:anvil_repairing"}
     ]
 }
