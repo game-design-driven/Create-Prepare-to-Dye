@@ -6978,7 +6978,7 @@ metafile = true
 
 [[files]]
 file = "mods/wares.pw.toml"
-hash = "0f75bd257145b2841ed739f9456a148c5e70d35084f08e997443abf0f3f77e26"
+hash = "405ac47aaf08f8f7610f70776fba185d350932b55355b994d550ba76b79595d8"
 metafile = true
 
 [[files]]
