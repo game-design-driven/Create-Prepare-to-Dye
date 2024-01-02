@@ -1,0 +1,14 @@
+### [1.201.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.201.2...1.201.3) (2024-01-02)
+
+
+### Developer experance improvments and changes
+
+* add resources for botanic device ([b7f6be2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b7f6be21a7b2a8683507028cc33dc459a9b7158d))
+
+
+### Documentation and Localization
+
+* enable food tooltips for all items because some items are not tagged as food and the overhead is minimal ([119480d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/119480d490a90b43f7e0fb261db994a8ab1592a6))
+* re-add in world interaction emi tab ([8e3b0f8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8e3b0f891a277a2869a31faf0260affd7d8751c6))
+
+
