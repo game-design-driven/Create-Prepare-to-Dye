@@ -684,6 +684,8 @@ global.variants = [
   ["quark:iron_plate_slab", "quark:iron_plate"],
   ["quark:iron_plate_stairs", "quark:iron_plate"],
   ["quark:iron_plate_vertical_slab", "quark:iron_plate"],
+  ["ptdye:gray_fence", "quark:iron_plate"],
+  ["ptdye:gray_fence_gate", "quark:iron_plate"],
   ["quark:jasper_bricks_slab", "quark:jasper_bricks"],
   ["quark:jasper_bricks_stairs", "quark:jasper_bricks"],
   ["quark:jasper_bricks_vertical_slab", "quark:jasper_bricks"],
