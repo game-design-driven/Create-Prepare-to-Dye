@@ -1,0 +1,9 @@
+### [1.201.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.201.4...1.201.5) (2024-01-02)
+
+
+### Minor tweaks
+
+* adds translation for emi tags ([b0738e6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b0738e688cdb14f42d43fa694bcaa23a8e150dc8))
+* adds translation for emi tags ([#461](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/461)) ([7cec8f3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7cec8f3a0ab0271a853e0d2a401814d4ddcdb95c))
+
+
