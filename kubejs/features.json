@@ -255,5 +255,8 @@
 	"Disable Manual Rods": true,
 	"Remove Misc. Botania Tools": true,
 	"Netherack with healing potion and cobblestone": true,
-	"Fertilizer into water and organic mass": true
+	"Fertilizer into water and organic mass": true,
+	"Immovable cages with carry on": true,
+	"Wax recipes": true,
+	"Remove sak from supplementaries": true
 }

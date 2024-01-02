@@ -236,11 +236,6 @@ hash = "c0a4f5a71be7eb463020c001d79328a1e5a5848d8404423420029ccd4dd9311e"
 metafile = true
 
 [[files]]
-file = "mods/no-more-portals.pw.toml"
-hash = "50762845bc667338a8d172b24bdb7d185b2cc2856aaed5d056b884f6f37bc56b"
-metafile = true
-
-[[files]]
 file = "mods/nonconflictkeys.pw.toml"
 hash = "73ee72f79f1a08282a46b90023cdb973b6940222339e22222cc5c207880adb5c"
 metafile = true
@@ -367,5 +362,5 @@ metafile = true
 
 [[files]]
 file = "mods/wares.pw.toml"
-hash = "c400ad5aa45cc5975a279dfec5b2559075ef723437ec9c047ce9641be73e3ee2"
+hash = "35da515d65b08f212f6ce97b7ca89d0a22c91c8281bfdd76f67d55a668d44954"
 metafile = true
