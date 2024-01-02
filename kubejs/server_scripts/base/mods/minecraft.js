@@ -1,16 +1,16 @@
 if (feature("Paper recipes")) {
-  removeRecipe({ id: "minecraft:crafting_shaped/paper" })
-  addAssembly("2x paper", 'createdieselgenerators:wood_chip', [
-    addPressing('stick', 'stick'),
-    addFilling('stick', 'stick', '25x milk'),
-  ])
-  addAssembly("3x paper", 'createdieselgenerators:wood_chip', [
-    addPressing('stick', 'stick'),
-    addFilling('stick', 'stick', '25x water'),
-    addPressing('stick', 'stick'),
-    addFilling('stick', 'stick', '75x water'),
-    addPressing('stick', 'stick'),
-  ])
+  removeRecipe({ id: "minecraft:crafting_shaped/paper" });
+  addAssembly("2x paper", "createdieselgenerators:wood_chip", [
+    addPressing("stick", "stick"),
+    addFilling("stick", "stick", "25x milk"),
+  ]);
+  addAssembly("3x paper", "createdieselgenerators:wood_chip", [
+    addPressing("stick", "stick"),
+    addFilling("stick", "stick", "25x water"),
+    addPressing("stick", "stick"),
+    addFilling("stick", "stick", "75x water"),
+    addPressing("stick", "stick"),
+  ]);
 }
 if (feature("Chest recipes")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
@@ -79,10 +79,15 @@ if (feature("Bee duping flowers and saplings")) {
     flower = flower.id;
     addInfusion("2x " + flower, flower, manaCost, "bee_nest[honey_level=5]");
   });
-  if (!feature('Remove saplings')) {
+  if (!feature("Remove saplings")) {
     Ingredient.of("#minecraft:saplings").stacks.forEach((sapling) => {
       sapling = sapling.id;
-      addInfusion("2x " + sapling, sapling, manaCost, "bee_nest[honey_level=5]");
+      addInfusion(
+        "2x " + sapling,
+        sapling,
+        manaCost,
+        "bee_nest[honey_level=5]"
+      );
     });
   }
 }
@@ -276,7 +281,11 @@ if (feature("Sugar recipe tweaks")) {
   removeRecipe({ id: "create:milling/sugar_cane" });
   addMilling("sugar %25", "sugar_cane");
   addCrushing(["sugar %10", "lime_dye %1"], "sugar_cane");
-  addMixing(['3x sugar', '3x sugar %50'], '250mb create:honey', temperature.heated)
+  addMixing(
+    ["3x sugar", "3x sugar %50"],
+    "250mb create:honey",
+    temperature.heated
+  );
 }
 
 if (feature("Magma block to lava")) {
@@ -305,7 +314,7 @@ if (feature("Fertilizer into water and organic mass")) {
     "quark:sugar_cane_block",
     "quark:bamboo_block",
     "quark:cactus_block",
-  ])
+  ]);
   addToTag("forge:squeezables/rich", [
     "quark:apple_crate",
     "quark:beetroot_crate",
@@ -313,11 +322,18 @@ if (feature("Fertilizer into water and organic mass")) {
     "quark:potato_crate",
     "quark:chorus_fruit_block",
     "quark:berry_sack",
-    "minecraft:pumpkin"
+    "minecraft:pumpkin",
   ]);
   removeRecipe({ id: "createdieselgenerators:compacting/plant_oil" });
-  addCompacting(["50mb kubejs:organic_mass",'10mb createdieselgenerators:plant_oil'], "#forge:squeezables/seeds");
-  addCompacting('50mb createdieselgenerators:plant_oil', "#forge:squeezables/seeds", temperature.heated);
+  addCompacting(
+    ["50mb kubejs:organic_mass", "10mb createdieselgenerators:plant_oil"],
+    "#forge:squeezables/seeds"
+  );
+  addCompacting(
+    "50mb createdieselgenerators:plant_oil",
+    "#forge:squeezables/seeds",
+    temperature.heated
+  );
   addCompacting("100mb kubejs:organic_mass", "minecraft:poisonous_potato");
   addCompacting("250mb kubejs:organic_mass", "#forge:squeezables/poor");
   addCompacting("500mb kubejs:organic_mass", "#forge:squeezables/rich");
@@ -327,9 +343,7 @@ if (feature("Fertilizer into water and organic mass")) {
   );
 
   addMixing(
-    [
-      "10mb create_enchantment_industry:experience",
-    ],
+    ["10mb create_enchantment_industry:experience"],
     ["200mb kubejs:organic_mass", "50mb milk"],
     temperature.heated,
     500
@@ -378,7 +392,7 @@ if (feature("Choros fruit from bamboo")) {
 if (feature("Remove furnaces")) {
   //removeItem('furnace')
   removeItem("blast_furnace");
-  removeItem("smoker")
+  removeItem("smoker");
 }
 
 if (feature("Choros flower from choros batch")) {
@@ -404,13 +418,18 @@ if (feature("Elytra recipe")) {
     g: "gray_dye",
   });
 }
-if (feature('Bush from grassblock and bonemeal')) {
-  addGrow(['minecraft:grass','minecraft:tall_grass'], 'minecraft:grass_block', 'bone_meal', true)
-  addGrow('minecraft:tall_grass', 'minecraft:grass', 'bone_meal', true)
+if (feature("Bush from grassblock and bonemeal")) {
+  addGrow(
+    ["minecraft:grass", "minecraft:tall_grass"],
+    "minecraft:grass_block",
+    "bone_meal",
+    true
+  );
+  addGrow("minecraft:tall_grass", "minecraft:grass", "bone_meal", true);
 }
 
-if (feature('Remove vanilla bonemeal from bones recipe')) {
-  removeRecipe({ id: 'minecraft:bone_meal' })
+if (feature("Remove vanilla bonemeal from bones recipe")) {
+  removeRecipe({ id: "minecraft:bone_meal" });
 }
 // if (feature('Nether brick from chocolate and black')) {
 //     addAssembly('2x nether_brick', '#forge:ingots',[
@@ -420,22 +439,40 @@ if (feature('Remove vanilla bonemeal from bones recipe')) {
 //     ])
 // }
 
-if (feature('Rotten flesh purification')) {
-  addFilling('minecraft:leather', 'rotten_flesh', Fluid.of('create:potion',50, {
-    Potion: "minecraft:regeneration",
-  }))
+if (feature("Rotten flesh purification")) {
+  addFilling(
+    "minecraft:leather",
+    "rotten_flesh",
+    Fluid.of("create:potion", 50, {
+      Potion: "minecraft:regeneration",
+    })
+  );
 }
 
-if (feature('Gray dye into black dye')) {
-  addSmelting('3x black_dye', 'ptdye:gray_dye_block', 1, 400)
+if (feature("Gray dye into black dye")) {
+  addSmelting("3x black_dye", "ptdye:gray_dye_block", 1, 400);
 }
 
-if (feature('Block of yellow to yellow')) {
-  addShapeless('9x minecraft:gold_ingot','minecraft:gold_block')
+if (feature("Block of yellow to yellow")) {
+  addShapeless("9x minecraft:gold_ingot", "minecraft:gold_block");
 }
 
-if (feature('Netherack with healing potion and cobblestone')) {
-  addFilling('minecraft:netherrack', 'cobblestone', Fluid.of('create:potion',5, {
-    Potion: "minecraft:healing",
-  }))
+if (feature("Netherack with healing potion and cobblestone")) {
+  addFilling(
+    "minecraft:netherrack",
+    "cobblestone",
+    Fluid.of("create:potion", 5, {
+      Potion: "minecraft:healing",
+    })
+  );
+}
+
+if (feature("Wax recipes")) {
+  addMixing("minecraft:honeycomb", ["9x ae2:silicon", "yellow_dye"]);
+  addMixing(
+    "minecraft:honeycomb",
+    ["3x ae2:silicon", "4x yellow_dye"],
+    temperature.heated
+  );
+  addFilling("minecraft:honeycomb", "ae2:silicon", "750x create:honey");
 }

@@ -1,0 +1,24 @@
+{
+  "parent": "ptd:sturdy_device",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": [ "ptdye:red_stringed_device" ]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "ptdye:red_stringed_device"
+      },
+      "title": { "translate": "advancement.ptdye.red_stringed_device", "color": "white" },
+      "description": { "translate": "advancement.ptdye.red_stringed_device.desc", "color": "grey" },
+      "frame": "goal",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  }
+}

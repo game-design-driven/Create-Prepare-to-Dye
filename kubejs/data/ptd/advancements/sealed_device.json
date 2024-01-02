@@ -1,0 +1,21 @@
+{
+  "parent": "ptd:sturdy_device",
+  "criteria": {
+    "0": {
+        "trigger": "minecraft:impossible",
+        "__comment": "triggered by kjs script executing command",
+        "conditions": { }
+    }
+  },
+  "display": {
+      "icon": {
+          "item": "ptdye:sealed_device"
+      },
+      "title": { "translate": "advancement.ptdye.sealed_device", "color": "white" },
+      "description": { "translate": "advancement.ptdye.sealed_device.desc", "color": "grey" },
+      "frame": "goal",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  }
+}

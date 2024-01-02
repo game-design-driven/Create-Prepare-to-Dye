@@ -1,0 +1,8 @@
+### [1.200.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.200.11...1.200.12) (2024-01-01)
+
+
+### Fixes
+
+* missing smart cable tooltips for colored cables ([d058d12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d058d12b7c10feb3889bf999fee7b4d842c7d963))
+
+
