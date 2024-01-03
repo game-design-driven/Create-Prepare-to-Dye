@@ -1,0 +1,13 @@
+### [1.202.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.3...1.202.4) (2024-01-03)
+
+
+### Fixes
+
+* infinite water recipe showing in emi ([4951891](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/49518919b5ee34fe9e4a944da8fc3a7440962895))
+
+
+### Minor tweaks
+
+* reaarange advancements ([3a0e048](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3a0e048c528b964de557dd913eacfd52eabe5d45))
+
+
