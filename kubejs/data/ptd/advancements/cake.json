@@ -1,21 +1,21 @@
 {
-  "parent": "ptd:daisy",
+  "parent": "ptd:bread",
   "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
-                    "items": [ "minecraft:white_concrete_powder" ]
+                    "items": ["minecraft:cake"]
                 } ]
             }
         }
   },
   "display": {
       "icon": {
-          "item": "minecraft:white_concrete_powder"
+          "item": "minecraft:cake"
       },
-      "title": { "translate": "advancement.ptdye.white_powder", "color": "white" },
-      "description": { "translate": "advancement.ptdye.white_powder.desc", "color": "grey" },
+      "title": { "translate": "advancement.ptdye.cake", "color": "white" },
+      "description": { "translate": "advancement.ptdye.cake.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
       "show_toast": true,
