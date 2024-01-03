@@ -1,0 +1,8 @@
+### [1.202.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.1...1.202.2) (2024-01-03)
+
+
+### Developer experance improvments and changes
+
+* Create SECURITY.md to appease github overlords ([4d45504](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4d45504b2ed8df77b58dfb2430ebe4cda289528d))
+
+
