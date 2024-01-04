@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "328419f8b6ae371b84096e3ce6c8fc2ba9b18c61e96bd46974032627ff357e0e"
+hash = "6c8572313397e8a5a5e5e10f226410faaebf71c58575dcac20c9c5b711f2b326"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3370,7 +3370,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4dc1f5b3398b98d8aeba608a0d156c93bd7f386fcd9f70a4065fbbb50b81178c"
+hash = "208a9b7411d3c3523b36b684e08e5cbaff44ece9d1cb77ca1d94a955bd51d0df"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3618,7 +3618,11 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introponder.js"
-hash = "b74f5c870688b5def9d25ad2f3f31d2bc6359cfc75c83d12f092898d62a75585"
+hash = "fb0014db63d8892d6b67ccf1a6711dba02c9e0a9585d1fafe36b27c527440adc"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/stonecobblegen.js"
+hash = "addaf51f7e6a1f87b4608d9790caada1f09c280ca30458ae0a3a902a97c80557"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
@@ -4866,7 +4870,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "01eb68d52407a6c0c8d566af48debba145eef0817f6ea6c0511c3ff79f809bee"
+hash = "925d2cd0a5c00dbfb6190be1fce18ec113003a083ff2bde37087ac7cfb8bb634"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6319,6 +6323,10 @@ hash = "a2ecf8344e0a0f9f968cd3393d6cb50c7f573c650266880fe687c62f41456dcd"
 [[files]]
 file = "modpack-update-checker/versions/1.202.5/changelog.txt"
 hash = "62578ce5fab51f63f2e8157919fea46c156534566c8c33b072fddee8d6c52ea5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.6/changelog.txt"
+hash = "3333c4dfbef68b29b0e4d230f580ba4c9aa72c9d24368d6a77083374c0d9ae39"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
