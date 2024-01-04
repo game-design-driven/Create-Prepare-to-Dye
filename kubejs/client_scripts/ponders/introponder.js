@@ -9,7 +9,8 @@
         // The new brass actuator legs will allow the automaton to jump mid air twice! 100% more than last years model!
 
 Ponder.registry((event) => {
-    event.create("minecraft:stone").scene("intro", "Welcome to ChromaPrime", (scene, util) => {
+    // I dont know where else to move the intro ponder to, need it moved for stone ponder
+    event.create("create:clipboard").scene("intro", "Welcome to ChromaPrime", (scene, util) => {
         scene.showStructure();
         scene.idle(10);
         const zombieLink = scene.world.createEntity("zombie", [2.5, 1, 2.5]);
@@ -20,7 +21,7 @@ Ponder.registry((event) => {
         scene.idle(60);
         scene.text(60, "The following are important features you should learn before embaking on your exciting new extra terastrial activity!", [2.5, 3, 2.5])
         scene.idle(70);
-         scene.text(60, "The automaton is indistructible!", [2.5, 3, 2.5])
+        scene.text(60, "The automaton is indistructible!", [2.5, 3, 2.5])
         scene.idle(20);
         scene.world.setBlock([2.5, 1, 2.5], "minecraft:fire", false);
         scene.idle(20);
