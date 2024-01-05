@@ -5,7 +5,7 @@ const parrotAnimation_cursorPose = parrotAnimation.FaceCursorPose
 
 const textSound = "block.enchantment_table.use"
 
-let lastScene_text, lastTicks, lastPosition
+let lastScene_text = null, lastTicks = null, lastPosition = null
 function factory_text(string, scene, ticks, position) {
   if (!scene) {
     scene = lastScene_text
@@ -30,7 +30,7 @@ function factory_text_idle(string, scene, ticks, position) {
   return text
 }
 
-let lastScene_parrotMove, lastParrot
+let lastScene_parrotMove = null, lastParrot =null
 function factory_parrotMove(deltaPos, ticks, idleTicks,  scene, parrot) {
   if (!scene) {
     scene = lastScene_parrotMove
@@ -178,7 +178,7 @@ Ponder.registry((event) => {
       
       let parrot2 = scene.special.createBirb([3.8, 1, 0.5], () => new parrotAnimation_poiPose())
       scene.idle(10)
-      factory_parrotMove([0, 0.4, 0], 2, 1, scene, parrot2) // @  2 ticks
+      factory_parrotMove([ 0, 0.40, 0], 2, 1, scene, parrot2) // @  2 ticks
       jumpCloud([3.8, 1, 0.5], scene) // sleeps 1
       factory_parrotMove([ 0, 0.30, 0], 2) // @ 4 ticks
       factory_parrotMove([ 0, 0.20, 0], 2) // @ 6 ticks
@@ -224,7 +224,7 @@ Ponder.registry((event) => {
       scene.showControls(40, [1.5, 2.5, 2.5], "down").withItem("crafting_on_a_stick:stonecutter")
       // TODO use ptdye global to get key binding
       scene.text(40, "Open by pressing the V key", [1.5, 2, 2.5]).attachKeyFrame().placeNearTarget().colored("medium")
-      scene.playSound(textSound, .02)
+      scene.playSound(textSound, 0.02)
       scene.idle(42)
       scene.addLazyKeyframe()
       scene.idle(5)
@@ -258,7 +258,7 @@ Ponder.registry((event) => {
           }
           scene.world.destroyBlock([3, y, z])
           scene.playSound("block.stone.break")
-          scene.world.createItemEntity([3, y, z], util.vector.of(0.02-(z%2+.5)/100, 0.4, (y%3+.3)/100), y == 1 ? "minecraft:obsidian" : "minecraft:light_blue_concrete")
+          scene.world.createItemEntity([3, y, z], util.vector.of(0.02-(z%2+0.5)/100, 0.4, (y%3+0.3)/100), y == 1 ? "minecraft:obsidian" : "minecraft:light_blue_concrete")
           scene.idle(2)
         }
       scene.idle(3)
