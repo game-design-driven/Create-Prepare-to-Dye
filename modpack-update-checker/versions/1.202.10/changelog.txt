@@ -1,0 +1,8 @@
+### [1.202.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.9...1.202.10) (2024-01-05)
+
+
+### Features
+
+* Automaton Introduction Ponder ([#472](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/472)) ([f0aed3c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f0aed3c0a1e6dfc7cff18a24cb8f3a4e7ae943a0))
+
+
