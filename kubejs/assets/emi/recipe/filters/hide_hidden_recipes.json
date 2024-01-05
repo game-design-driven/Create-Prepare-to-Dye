@@ -8,6 +8,9 @@
       },
       {
         "id": "/.*world/stripping.*/"
+      },
+      {
+        "id": "emi:/world/fluid_spring/minecraft/water"
       }
     ]
   }

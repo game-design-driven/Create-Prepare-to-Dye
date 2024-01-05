@@ -1,0 +1,8 @@
+### [1.202.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.0...1.202.1) (2024-01-03)
+
+
+### Fixes
+
+* redstone advancement not having text ([b8eb01e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b8eb01efb52aa7ebedbb8636b24effd538258aca)), closes [#464](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/464)
+
+

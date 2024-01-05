@@ -1,21 +1,21 @@
 {
-  "parent": "ptd:daisy",
+  "parent": "ptd:trade/root",
   "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
-                    "items": [ "minecraft:white_concrete_powder" ]
+                    "items": ["wares:completed_delivery_agreement"]
                 } ]
             }
         }
   },
   "display": {
       "icon": {
-          "item": "minecraft:white_concrete_powder"
+          "item": "wares:completed_delivery_agreement"
       },
-      "title": { "translate": "advancement.ptdye.white_powder", "color": "white" },
-      "description": { "translate": "advancement.ptdye.white_powder.desc", "color": "grey" },
+      "title": { "translate": "advancement.ptdye.trade_success", "color": "white" },
+      "description": { "translate": "advancement.ptdye.trade_success.desc", "color": "grey" },
       "frame": "task",
       "hidden": false,
       "show_toast": true,

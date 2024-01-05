@@ -282,9 +282,13 @@ if (feature("Blaze is capturable")) {
 }
 
 if (feature('Block of brass is made with plates instead of ingots')) {
-  removeRecipe({id: 'create:crafting/materials/brass_block_from_compacting'})
-  addShaped('create:brass_block',['ppp','ppp','ppp'],{
-    p:'#forge:plates/brass'
+  removeRecipe({ id: 'create:crafting/materials/brass_block_from_compacting' })
+  addShaped('create:brass_block', ['ppp', 'ppp', 'ppp'], {
+    p: '#forge:plates/brass'
   })
-  addShapeless('9x create:brass_sheet','create:brass_block')
+  addShapeless('9x create:brass_sheet', 'create:brass_block')
+}
+
+if (feature('Sugar to white dye')) {
+  addMixing('white_dye', ['4x sugar'], temperature.none)
 }

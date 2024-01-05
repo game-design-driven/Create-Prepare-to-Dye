@@ -1,0 +1,14 @@
+## [1.202.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.201.7...1.202.0) (2024-01-03)
+
+
+### Features
+
+* adds sugar to white dye recipe ([f33191b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f33191b649ff23866ad5f054d9ec47640550628a))
+* adds sugar to white dye recipe ([#463](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/463)) ([3de38fb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3de38fb0212b1944c6278de362cd8d53512b72b6))
+
+
+### Developer experance improvments and changes
+
+* format document ([6d5a3e4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6d5a3e4da5fb619c264a3e26e734eb77ffa728c7))
+
+

@@ -1,0 +1,8 @@
+### [1.202.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.5...1.202.6) (2024-01-04)
+
+
+### Documentation and Localization
+
+* stone and cobblestone generator ponders ([#468](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/468)) ([e8abcb8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e8abcb8656cd8ff5dadf14397425629edd54bc63))
+
+

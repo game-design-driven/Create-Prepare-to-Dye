@@ -1,5 +1,5 @@
 {
-    "parent": "ptd:milk",
+    "parent": "ptd:root",
     "criteria": {
           "0": {
               "trigger": "minecraft:inventory_changed",

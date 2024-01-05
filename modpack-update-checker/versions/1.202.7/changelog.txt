@@ -1,0 +1,8 @@
+### [1.202.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.6...1.202.7) (2024-01-04)
+
+
+### Fixes
+
+* remove old introponder ([d191a1c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d191a1cb728d494821707897e5cc980946359460))
+
+
