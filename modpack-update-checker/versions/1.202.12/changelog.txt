@@ -1,0 +1,8 @@
+### [1.202.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.11...1.202.12) (2024-01-05)
+
+
+### Fixes
+
+* variant system. Meaning automatic assembly and device conversion should work as expected now ([9ab710a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9ab710abf49557624083af7e09bce752f49751ee))
+
+
