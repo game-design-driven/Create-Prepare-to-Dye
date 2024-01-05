@@ -3,6 +3,8 @@ const parrotAnimation_stillPose = parrotAnimation.DancePose
 const parrotAnimation_poiPose = parrotAnimation.FacePointOfInterestPose
 const parrotAnimation_cursorPose = parrotAnimation.FaceCursorPose
 
+const textSound = "block.enchantment_table.use"
+
 var lastScene_text, lastTicks, lastPosition
 function factory_text(string, scene, ticks, position) {
   if (!scene) {
@@ -11,18 +13,21 @@ function factory_text(string, scene, ticks, position) {
     position = lastPosition
   }
 
-  scene.text(ticks, string, position)
+  let text = scene.text(ticks, string, position)
     .colored("white")
     .placeNearTarget()
+  scene.playSound(textSound, .2)
   scene.addLazyKeyframe()
 
   lastScene_text = scene
   lastTicks = ticks
   lastPosition = position
+  return text
 }
 function factory_text_idle(string, scene, ticks, position) {
-  factory_text(string, scene, ticks, position)
+  let text = factory_text(string, scene, ticks, position)
   lastScene_text.idle(lastTicks+5) // last is current due to above function running first
+  return text
 }
 
 var lastScene_parrotMove, lastParrot
@@ -43,7 +48,7 @@ function factory_parrotMove(deltaPos, ticks, idleTicks,  scene, parrot) {
 
 function jumpCloud(pos, scene){
   scene.particles.simple(3, "cloud", pos)
-  scene.playSound("entity.rabbit.jump")
+  scene.playSound("movement_plus:midair_jump", 2)
   scene.idle(1)
 }
 
@@ -53,6 +58,7 @@ function fadeInSection(scene, selection, movingOffset, direction, idleTicks, par
   if (particlePos) {
     scene.showControls(idleTicks-2, particlePos, "down")
     .withItem("minecraft:barrier")
+    scene.playSound(textSound, .1)
   }
   scene.idle(idleTicks)
   scene.world.hideIndependentSection(link, direction)
@@ -61,7 +67,7 @@ function fadeInSection(scene, selection, movingOffset, direction, idleTicks, par
 
 Ponder.registry((event) => {
   event
-    .create("minecraft:cobblestone")
+    .create("ptdye:ponder_automaton")
     .tag("ptdye:tutorial")
     .scene("introduction", "AUTOMATON CQ1503", (scene, _) => {
       scene.configureBasePlate(2,2,-1)
@@ -77,7 +83,53 @@ Ponder.registry((event) => {
       factory_text_idle("Thank you for purchasing the AUTOMATON CQ1503", scene, 60, textPos)
       factory_text_idle("We hope it brings you many years of good use!")
       factory_text_idle("Version CQ1503 brings all new features!")
-      factory_text_idle("No need for maintenance, fuel, or down time! Made with indestructible materials", scene, 80, textPos)
+      let arrowPos = textPos.slice()
+      arrowPos[0] -= 1
+      factory_text("No need for maintenance, fuel, or down time! Made with indestructible materials", scene, 90, arrowPos)
+      scene.idle(10)
+      scene.particles.simple(20, "flame", [.5,1,.5]).density(10).motion([0,.1,0]).area([2.5,1.2,2.5])
+      scene.playSound("block.fire.ambient", 10)
+      scene.idle(30)
+      scene.addKeyframe()
+      scene.world.setBlock([1,2,1], "stone_slab", false)
+      scene.world.modifyBlock([1,2,1], () => Block.id("minecraft:stone_slab").with("type", "top"), false)
+      let arrows = []
+      for (let x = .9; x < 2.1; x += .55) 
+        for (let z = .9; z < 2.1; z += .55) {
+          arrows.push(scene.world.createEntity("arrow", [x,6,z]))
+        }
+      scene.idle(12)
+      scene.playSound("entity.arrow.hit")
+      scene.idle(18)
+      for (let arrow of arrows) {
+        scene.world.removeEntity(arrow)
+      }
+      scene.world.setBlock([1,2,1], "air", false)
+      scene.world.setBlocks([0,1,0,2,1,2], "minecraft:lava")
+      scene.addLazyKeyframe()
+      scene.special.moveParrot(parrot, [0,10,0], 20)
+      scene.idle(20)
+      scene.special.moveParrot(parrot, [0,-2,0], 4)
+      scene.idle(3)
+      scene.special.moveParrot(parrot, [0,-3,0], 5)
+      scene.idle(6)
+      scene.special.moveParrot(parrot, [0,-5,0], 6)
+      scene.idle(3)
+      scene.playSound("entity.player.big_fall")
+      scene.idle(10)
+      scene.playSound("block.lava.ambient", 2)
+      scene.idle(10)
+      scene.addKeyframe()
+      scene.world.showSection([0,1,0,2,1,2], "up")
+      scene.special.moveParrot(parrot, [0,.5,0], 10)
+      scene.idle(5)
+      scene.playSound("block.lava.pop", 1)
+      scene.particles.simple(10, "lava", [0.5,1.8,1.2]).motion([-.3,1,-1])
+      scene.idle(4)
+      scene.particles.simple(10, "lava", [2.2,1.8,1.2]).motion([.6,1,-.4])
+      scene.idle(16)
+      scene.world.hideSection([0,1,0,2,1,2], "down")
+      scene.special.moveParrot(parrot, [0,-.5,0], 14)
     })
     .scene("jump", "Triple Jump", (scene, _) => {
       scene.configureBasePlate(0, 0, 5)
@@ -170,7 +222,9 @@ Ponder.registry((event) => {
       for (let z = 4; z > 1; z--)
         fadeInSection(scene, [2,1,z], [0,0,-z+2], Direction.SOUTH, 10, [2.5,2,2.5])
       scene.showControls(40, [1.5,2.5,2.5], "down").withItem("crafting_on_a_stick:stonecutter")
+      // TODO use ptdye global to get key binding
       scene.text(40, "Open by pressing the V key", [1.5, 2, 2.5]).attachKeyFrame().placeNearTarget().colored("medium")
+      scene.playSound(textSound, .2)
       scene.idle(42)
       scene.addLazyKeyframe()
       scene.idle(5)
