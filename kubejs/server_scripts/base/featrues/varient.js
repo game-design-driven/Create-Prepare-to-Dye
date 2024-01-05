@@ -52,7 +52,6 @@ function inputPredicate(player, item, inventoryItem) {
       Item.of(item).hasTag("forge:devices/generics"))
   ) {
     if (inventoryItem.id=="quark:backpack") return false;
-    if (item.id=="ptd")
     // console.log(typeof inventoryItem)
     // if (inventoryItem){
     //   if (inventoryItem.nbt) {
