@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "bb6b54bdd3390e0a6a85e8669614bec02f79264663974759e324972c54f9415a"
+hash = "e1b957310f80c37b69e91181ac6404f61dbe63c2aec366da2424757a71750c4c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3014,7 +3014,7 @@ hash = "7502b3535f8010c81781cbe80b92a6408598d83f88eb50089c68495a275a404b"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "5b0d6581d74969f3695544a1b1f832ffec1d70076b3af4dd18212e248e509de1"
+hash = "251a48dd105be2aeea6c4532568fc58bbf8adb6c98164e4164720fb3d5896b43"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/botanic_device.json"
@@ -3370,7 +3370,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b131e315c0dccbaa08484dd25ef90f5330c9076e6dad9eaff029aecfdcdec430"
+hash = "6e2ca8e98e6f72db43812850102174eef35d6485d6f08cd2c3593f5b1ff34cb0"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3615,6 +3615,14 @@ hash = "d215d4b6fac1a0272c3176aa4a4b8514b2029c779ed44e1b80066dcf3faf395d"
 [[files]]
 file = "kubejs/client_scripts/noWaterCheat.js"
 hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/introduction/automaton.js"
+hash = "53deb803fad8285a0a5dce8192207c357af28f60663054ce62cc7466c2e046ba"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/introduction/tag.js"
+hash = "cdc504dde2d0317f53dcb5e518dc9a6902b25808ea3ef064a87c74c9244e9fad"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introponder.js.old"
@@ -4837,6 +4845,10 @@ file = "kubejs/startup_scripts/indestructible.js"
 hash = "e221e5586e7962c4bc396e0b9af073c8295d37e89e55030da1c0d0b652d7c102"
 
 [[files]]
+file = "kubejs/startup_scripts/ponderDisplayItems.js"
+hash = "7ca2acb8a7432821271100fef46a858a828b4700f942d3fff2a3d844bc6dbbc7"
+
+[[files]]
 file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
 hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
 
@@ -4870,7 +4882,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "993a4f86a8532c349a046b8c13abfba8f34994d677cb4650e97ad1bcfd39555e"
+hash = "2cacd4abbb84fe326304e8c516cda3bb3ad5febcecc78fd203246ac774c552d6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6307,6 +6319,10 @@ hash = "5d5810e4e49e62367529b1f9cb794ddc2f7bb9d149f6bc52423d6c902c208c41"
 [[files]]
 file = "modpack-update-checker/versions/1.202.1/changelog.txt"
 hash = "77f43379ce8d2f491788fe61a1f19266b366206ff17ca94a618e1801431e3dbc"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.10/changelog.txt"
+hash = "610c70630f2a160624f5562184ee56bee76e470bfed44b0c95a38e0e1be05725"
 
 [[files]]
 file = "modpack-update-checker/versions/1.202.2/changelog.txt"
