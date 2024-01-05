@@ -1,0 +1,8 @@
+### [1.202.11](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.10...1.202.11) (2024-01-05)
+
+
+### Fixes
+
+* Changed metres to blocks ([#474](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/474)) ([8fda86d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8fda86df45d2a3f28a0b13f4112f2a6283f90522))
+
+
