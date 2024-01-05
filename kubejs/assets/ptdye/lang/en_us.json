@@ -56,6 +56,9 @@
     "advancement.ptdye.locomotive_device.desc": "Automate creating Locomotive Devices",
     "advancement.ptdye.furnished_device": "Automate Furnished Devices",
     "advancement.ptdye.furnished_device.desc": "Automate creating Furnished Devices",
+
+    "item.ptdye.ponder_automaton": "Automaton Tutorial",
+    "item.ptdye.ponder_automaton.tooltip.summary": "Ponder to learn about Automaton",
     "item.ptdye.hammer": "Hammer",
     "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
 
