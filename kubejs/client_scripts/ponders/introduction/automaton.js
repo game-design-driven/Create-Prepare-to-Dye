@@ -233,7 +233,7 @@ Ponder.registry((event) => {
         scene.idle(2)
         for (let z = 1; z < 4; z ++) {
           if (y == 2 && z == 1) {
-            factory_text("The automaton is able to break and place any block from up to 30 metres away!", scene, 65, [4, 1, 5])
+            factory_text("The automaton is able to break and place any block from up to 30 blocks away!", scene, 65, [4, 1, 5])
           }
           scene.special.movePointOfInterest([3, y, z])
           scene.idle(2)

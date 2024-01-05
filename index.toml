@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e1b957310f80c37b69e91181ac6404f61dbe63c2aec366da2424757a71750c4c"
+hash = "37a680d2b73d5a2b0d3522ca58d3d8a6652b540c8082922d2a244f0e8260a132"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3370,7 +3370,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "6e2ca8e98e6f72db43812850102174eef35d6485d6f08cd2c3593f5b1ff34cb0"
+hash = "0aa63b3f77a7ca42d8eb7808f1634903af0fe9409b190fca6c30d801044e3b69"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3618,7 +3618,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introduction/automaton.js"
-hash = "53deb803fad8285a0a5dce8192207c357af28f60663054ce62cc7466c2e046ba"
+hash = "1686d95214f70de0b004226dc40dc1feed352ec56354813c334ebc7ced7fdded"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/introduction/tag.js"
@@ -4882,7 +4882,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "2cacd4abbb84fe326304e8c516cda3bb3ad5febcecc78fd203246ac774c552d6"
+hash = "21db22c4b0304501ad4f2e4d6bd239fa0350153cd162be9349b513c0df3db5f5"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6323,6 +6323,10 @@ hash = "77f43379ce8d2f491788fe61a1f19266b366206ff17ca94a618e1801431e3dbc"
 [[files]]
 file = "modpack-update-checker/versions/1.202.10/changelog.txt"
 hash = "610c70630f2a160624f5562184ee56bee76e470bfed44b0c95a38e0e1be05725"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.11/changelog.txt"
+hash = "e4e1e3c431896bf7f45de2efee79b2c9a1f786485a6f54c10b5fae8e822c19cd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.202.2/changelog.txt"
