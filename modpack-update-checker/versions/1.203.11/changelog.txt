@@ -1,0 +1,8 @@
+### [1.203.11](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.10...1.203.11) (2024-01-06)
+
+
+### Fixes
+
+* move logs to log instead of chat ([86bd1b9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86bd1b9de1e1e09387d615f26bf840a03fec67fc))
+
+
