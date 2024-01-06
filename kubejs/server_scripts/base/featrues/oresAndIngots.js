@@ -260,4 +260,6 @@ if (feature('Ore crushing does not give cobblestone')) {
     ], 'copper_ore')
 }
 
+if (feature('Redstone ore outputs more direct redstone in mill')) {
+    addMilling('7x redstone', 'redstone_ore')
 }
