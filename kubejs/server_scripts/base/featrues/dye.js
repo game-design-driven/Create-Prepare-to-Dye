@@ -79,7 +79,7 @@ if (feature('slime dye')) {
     addFilling('4x white_dye', 'slime_ball', '200x minecraft:milk')
     addFilling('4x yellow_dye', 'slime_ball', '200x create:honey')
     addFilling('4x orange_dye', 'slime_ball', '200x lava')
-    addFilling('4x lime_dye', 'slime_ball', '12x create_enchantment_industry:experience')
+addFilling('4x lime_dye', 'slime_ball', '12x create_enchantment_industry:experience')
     addFilling('2x blue_dye', 'slime_ball', 'water')
     addFilling('4x black_dye', 'slime_ball', 'create_enchantment_industry:ink')
 }
@@ -88,17 +88,17 @@ if (feature('dye mixing')) {
     //red_dye + honey = orange dye
     addFilling('orange_dye', 'red_dye', '50x create:honey')
     //green + milk = lime
-    addFilling('lime_dye', 'green_dye', '50x minecraft:milk')
+    addFilling('lime_dye', 'green_dye', '10x minecraft:milk')
     //blue + milk = light blue
-    addFilling('light_blue_dye', 'blue_dye', '50x minecraft:milk')
+    addFilling('light_blue_dye', 'blue_dye', '10x minecraft:milk')
     //black + milk = gray
-    addFilling('gray_dye', 'black_dye', '50x minecraft:milk')
+    addFilling('gray_dye', 'black_dye', '10x minecraft:milk')
     //gray + milk = light gray
-    addFilling('light_gray_dye', 'gray_dye', '50x minecraft:milk')
+    addFilling('light_gray_dye', 'gray_dye', '10x minecraft:milk')
     //green + water = cyan
     addFilling('cyan_dye', '2x green_dye', 'water')
     //red + milk = pink
-    addFilling('pink_dye', 'red_dye', '50x minecraft:milk')
+    addFilling('pink_dye', 'red_dye', '10x minecraft:milk')
     //red + water = purple
     addFilling('purple_dye', '2x red_dye', 'water')
     //white + water = light blue
