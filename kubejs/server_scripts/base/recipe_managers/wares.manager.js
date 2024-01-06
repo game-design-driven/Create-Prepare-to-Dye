@@ -155,6 +155,7 @@ function tradeBranch(outputTrades, inputTrades) {
     // addFakeTradeRecipe(outputTrades[0].item,getTradeNbtNameFilter(inputTrades[0].completedItem))
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
+    noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
     // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
   });
 }
