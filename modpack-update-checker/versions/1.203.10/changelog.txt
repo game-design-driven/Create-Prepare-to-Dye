@@ -1,0 +1,9 @@
+### [1.203.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.9...1.203.10) (2024-01-06)
+
+
+### Fixes
+
+* emi entries entries not having correct data for trades ([c6365a6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c6365a601615a4c75ead71ca2daa611811d795a6))
+* workaround wares not carying over nbt matching rules ([c713c80](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c713c804d2e8018b6a61905c5a3ac2d0fe1cacbd))
+
+
