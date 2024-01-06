@@ -71,7 +71,7 @@ function getAgreement(agreementID, {
       seal: seal,
       buyerName: { color: "#409D9B", text: companyTitle },
       paymentItems: simple(paymentItems),
-      requestedItems: simple(requestedItems),
+      requestedItems: simple(requestedItems, true),
       title: NBT.stringTag(`{"text":"${title}"}`),
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
 
@@ -102,7 +102,8 @@ function getAgreement(agreementID, {
 
   return agreementObj;
 }
-function simple(items) {
+function simple(items, weaknbt) {
+  weaknbt = weaknbt || false;
   if (!Array.isArray(items)) items = [items];
   return items.map((item_obj) => {
     let item = item_obj;
@@ -120,7 +121,7 @@ function simple(items) {
       ).replaceAll('"', "");
       nbt.id = `#${tag}`;
     }
-    nbt.TagMatching="weak"
+    if (weaknbt) nbt.TagMatching = "weak";
     return nbt;
   });
 }
@@ -155,7 +156,6 @@ function tradeBranch(outputTrades, inputTrades) {
     // addFakeTradeRecipe(outputTrades[0].item,getTradeNbtNameFilter(inputTrades[0].completedItem))
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
-    noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
     // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
   });
 }
