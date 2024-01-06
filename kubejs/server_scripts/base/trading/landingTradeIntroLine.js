@@ -1449,6 +1449,32 @@ const jsfBoats = getAgreement("jsfBoats", {
     "We need some boats, high quality wood please, none of that rotting crap. And please, bundle them WITH the oars",
 });
 
+const jsfSquids = getAgreement("jsfSquids", {
+  paymentItems: [
+    Item.of(
+      "supplementaries:cage",
+      '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:squid"},Name:"Squid"}}}'
+    ),
+    Item.of(
+      "supplementaries:cage",
+      '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:squid"},Name:"Squid"}}}'
+    ),
+    Item.of(
+      "minecraft:barrel",
+      2,
+      '{BlockEntityTag:{LootTable:"ptd:jaspers_fishing"}}'
+    ),
+  ],
+  requestedItems: ["16x bucket", "16x bucket"],
+  title: "Buckets needed",
+  orderedAmount: 3,
+  company: "Jaspers Seafood Emporium",
+  message:
+    "We need some buckets, we are running low on them, we will pay you in some of our special squid, only our squids are this black, and plastic content is guaranteed to be lower than the average sampled squid from the market",
+});
+
+
+
 const jsfFishingFixed = getAgreement("jsfFishingFixed", {
   paymentItems: [
     Item.of(
@@ -1508,7 +1534,7 @@ const jsfSquidsFixed = getAgreement("jsfSquidsFixed", {
       '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:squid"},Name:"Squid"}}}'
     ),
   ],
-  requestedItems: ["16x minecraft:bucket"],
+  requestedItems: ["16x minecraft:bucket","16x minecraft:bucket","16x minecraft:bucket"],
   title: "Squids fixed rates",
   orderedAmount: 0,
   company: "Jaspers Seafood Emporium",
@@ -1815,7 +1841,7 @@ tradeBranch(
 tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread, jsfWelcome], wscAxes);
-tradeBranch(jsfBoats, jsfWelcome);
+tradeBranch([jsfBoats, jsfSquids], jsfWelcome);
 tradeBranch([jsfFishingRods, jsfEnchantedFishingRods], jsfBoats);
 tradeBranch([jsfFishingFixed], jsfFishingRods);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
