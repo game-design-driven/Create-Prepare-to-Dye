@@ -484,3 +484,7 @@ if (feature("Book back into paper")) {
 if (feature("Spider eye with manapool")) {
   addInfusion("spider_eye", "red_dye", 1250, "minecraft:grass_block");
 }
+
+if (feature("Blaze rod production")) {
+  addInfusion("blaze_rod", "stick", 20000, "minecraft:magma_block");
+}
