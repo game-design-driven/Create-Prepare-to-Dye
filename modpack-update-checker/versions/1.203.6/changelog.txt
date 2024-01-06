@@ -1,0 +1,8 @@
+### [1.203.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.5...1.203.6) (2024-01-06)
+
+
+### Documentation and Localization
+
+* convert infographic to png ([960a7ff](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/960a7ffe87d75e63947a456e672097dc4b2684c9))
+
+
