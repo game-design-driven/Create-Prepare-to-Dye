@@ -1,0 +1,8 @@
+### [1.203.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.1...1.203.2) (2024-01-06)
+
+
+### Continuous Integration
+
+* fix typo in generated changelogs ([0a1ac1f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0a1ac1ffdc855ac3196ea95ff2132411fb3b47b9))
+
+
