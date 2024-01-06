@@ -476,3 +476,7 @@ if (feature("Wax recipes")) {
   );
   addFilling("minecraft:honeycomb", "ae2:silicon", "750x create:honey");
 }
+
+if (feature("Book back into paper")) {
+  addCutting("3x paper", "book");
+}
