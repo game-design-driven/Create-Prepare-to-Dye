@@ -86,7 +86,7 @@ if (feature('Ore processing')) {
 
     addMilling(['2x create:crushed_raw_iron', 'create:crushed_raw_iron %75'], '#forge:ores/iron')
 
-    addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
+    addMilling('6x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
     let crush_to_ingot = [
         {
