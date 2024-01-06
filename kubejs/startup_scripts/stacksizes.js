@@ -11,4 +11,5 @@ ItemEvents.modification((event) => {
   tools
     .concat(armor)
     .forEach((i) => event.modify(i, (item) => item.setMaxStackSize(16)));
+  event.modify("minecraft:bow", (item) => item.setMaxStackSize(16));
 });
