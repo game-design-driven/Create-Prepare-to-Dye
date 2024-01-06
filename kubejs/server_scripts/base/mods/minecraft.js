@@ -480,3 +480,7 @@ if (feature("Wax recipes")) {
 if (feature("Book back into paper")) {
   addCutting("3x paper", "book");
 }
+
+if (feature("Spider eye with manapool")) {
+  addInfusion("spider_eye", "red_dye", 1250, "minecraft:grass_block");
+}
