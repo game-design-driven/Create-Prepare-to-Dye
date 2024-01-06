@@ -488,3 +488,24 @@ if (feature("Spider eye with manapool")) {
 if (feature("Blaze rod production")) {
   addInfusion("blaze_rod", "stick", 20000, "minecraft:magma_block");
 }
+
+if (feature("Remove none oak boats")) {
+  removeItems([
+    "minecraft:acacia_boat",
+    "minecraft:birch_boat",
+    "minecraft:dark_oak_boat",
+    "minecraft:jungle_boat",
+    "minecraft:spruce_boat",
+    "minecraft:acacia_chest_boat",
+    "minecraft:birch_chest_boat",
+    "minecraft:dark_oak_chest_boat",
+    "minecraft:jungle_chest_boat",
+    "minecraft:spruce_chest_boat",
+  ]);
+  removeRecipe({ id: "minecraft:oak_boat" });
+  removeRecipe({
+    id: "quark:tweaks/crafting/utility/chest_boat/direct_oak_chest_boat",
+  });
+  addShaped("oak_boat", ["# #", "###"], { "#": "#planks" });
+  addShaped("oak_chest_boat", ["#c#", "###"], { "#": "#logs", "c": "chest" });
+}
