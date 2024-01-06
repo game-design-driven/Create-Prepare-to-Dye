@@ -1847,6 +1847,7 @@ tradeBranch([jsfFishingFixed], jsfFishingRods);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
 tradeBranch([bhbFurnaces, sssHelmets, dddExploringAncientRuins], bhbWheat);
 tradeBranch([dddDungeon, dddNether], dddExploringAncientRuins);
+tradeBranch([dddNetherBlazeFixed], dddNether);
 tradeBranch([dddDungeon2, pAgainstAdventurers], dddDungeon);
 tradeBranch([pAdventurersFoundMe], pAgainstAdventurers);
 tradeBranch([pHoneyFixed], pAdventurersFoundMe);
