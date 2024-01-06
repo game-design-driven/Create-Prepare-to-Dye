@@ -1776,16 +1776,7 @@ const pHoneyFixed = getAgreement("pHoneyFixed", {
 });
 
 
-// const pAgainstAdvanturers2 = getAgreement("pAgainstAdvanturers2", {
-//   paymentItems: [
-//     "64x deepslate_gold_ore",
-//     "64x deepslate_diamond_ore",
-//     "64x red_dye",
-//     "32x bone",
-//     "32x torches",
-//   ],
-//   requestedItems: [
-//     ""
+
 
 global.starterDeals = [mlcSand];
 // global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
