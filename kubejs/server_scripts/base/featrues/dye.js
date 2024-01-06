@@ -105,6 +105,9 @@ if (feature('dye mixing')) {
     addFilling('light_blue_dye', '2x white_dye', 'water')
 }
 
+if (feature('Yellow mixing recipe')) {
+    addShapeless('yellow_dye', ['red_dye','green_dye'])
+}
 if (feature('Color combinations output nerf')) {
     removeRecipe({ id: 'minecraft:pink_dye_from_red_and_white' })
     addShapeless('pink_dye', ['red_dye','white_dye'])
