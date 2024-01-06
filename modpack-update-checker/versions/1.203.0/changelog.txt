@@ -1,0 +1,84 @@
+## [1.203.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.14...1.203.0) (2024-01-06)
+
+
+### Features
+
+* add a about 5 more trading lines and expand on others ([4774b7b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4774b7b83dc00a4bef2c83e3f9c1d1b895c0c142))
+* add a new trade for jasper and integrate fixed squid trade ([262861f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/262861f4cca49bcc9caedc47db816acd55268d6c))
+* add backwards compatibility engine ([834736a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/834736a93fbd1e065651aba6f7262d2876181d0e))
+* add burntime tooltips ([0f4d486](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0f4d4869f14bded09f9ad1918a8fd2a3177bc4e7))
+* add fishing loot tables for jaspers trades ([67b5f7b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/67b5f7b53d1313e6dd6ea9f7cc42e6b9adb1a76f))
+* add trade line with dungeon delving dave ([3845f8f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3845f8f7559a15c62a9b65cbabb56338d56f8134))
+* add trade line with jsf ([1742b55](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1742b55e412bcf50a56961b88afbdf77ebb773c4))
+* blaze rod production ([34844c3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/34844c32ec7891ecde3caa9bef92f4a106f1b8ad))
+* Book back into paper ([18e2a61](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/18e2a613d02c218f47d4d56253d4987f4e6232ca))
+* Crushing or milling enchanted book gives experience ([5ac36ef](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5ac36efb60457e964c4a45c58c931a57a21bdde7))
+* fix lychee interaction recipes throwing things all over the place ([ac6a198](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ac6a198e0c8154197341312561e901084ed58471))
+* HUGE trade update ([#476](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/476)) including backwards compatibility engine ([670e730](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/670e73078b290dcff8aee3a856a7307faaae7c5f))
+* modify diesel and biodisel energy outputs ([622242c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/622242ca766f97accfe551e767ec7a6882215c29))
+* move food tooltips into a feature and it's own fike ([babcce2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/babcce262e60f87c432502f5e5bf36c830732d6a))
+* redstone ore outputs more direct redstone in mill ([63a06c4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/63a06c43f3bedc50b574f699e1d2710b4df51ce1))
+* Remove none oak boats ([31f8fc2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/31f8fc250e9e1647be4c105917a8df6da747969f))
+* Remove sak from supplementaries ([2b73780](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2b73780184724bc36486891461b53bfe6636a1ec))
+* Spider eye with manapool ([4fc8d33](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4fc8d33dce37f38863595f6ebd2aadfaddff6ede))
+* Yellow mixing recipe ([ed0ba8e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ed0ba8e1b7969a6e4cfebb361a63c00b8be9d0eb))
+
+
+### Documentation and Localization
+
+* expand blaze burner tooltip to include explenation of fel blaze ([f6d8231](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f6d8231c6a9706c97d5f73f9f282fdd1e54c5d37))
+* fix yellow plate being named brass plate ([999b2a7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/999b2a753119d29ef12748b767d6def7584c7797))
+* remove grinding recipes from emi ([3d4122f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3d4122f44c07f59a0b8f2b23bcc624fb9aa6af95))
+* rename oak boat to just boat as it's the only one now ([735c856](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/735c856bf5066418a628fb3bcb837a88a4bcf6b1))
+
+
+### Developer experance improvments and changes
+
+* add features support to client scripts ([07ae85c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/07ae85ce141cb257b188f4f97c7bf51e7cfb115a))
+* add more generated advancements ([257edbc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/257edbc2f26f1a29bddb9aec7919eaafb8732907))
+* add support for weak matching by default for all trade inputs ([5b55bb7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5b55bb76b15215cff2948f96fef64a1f1b6ae443))
+* extract milk amounts to variable ([3bff861](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3bff86142cfc150f42c5c92e3ef44e7675afe0b8))
+* format file ([424aca9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/424aca92d8a50619d3283b452274afe6dc0a1b0d))
+* generate advancemenets for all the new trading stuff ([0b34816](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0b348168ef610458f27c889ea330849fa87e8add))
+* move extra tooltip logic out of disabled items tooltip script ([3771794](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3771794f1b08edd8e1d0957f67d1aadc1d6d9459))
+* move forgehooks reflection to a global file ([9dcb1f4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9dcb1f407b9758f47fb1f8920ea6e9475f543489))
+* remove old irrelevent code ([e54bd6e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e54bd6e1933f63a3e41e32dd96992f24b0d4a1f9))
+* rename dysel to createDieselGenerators file ([dfe8459](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dfe8459b3596a092803066b1b85517eb30943edc))
+* rename variables to fit the new server based backwards compat aproach ([c41cb1d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c41cb1ddb3707264c6ce9e71203bbd5a65f4fac3))
+* update emi added agreements ([91df2cf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/91df2cf0534f5096a8ff918ae11ba55948b04f1e))
+* use backticks instead of addition for constractiong message ([bfda762](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bfda762c7b11dd630838ae358a46dac2a39c6645))
+
+
+### Fixes
+
+* fake recipe for completing trades apearing on fixed trades ([28fb211](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/28fb211bbd5c90e61a651acfba3537d5475c75df))
+* issues with types of player presistant data ([ced73aa](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ced73aad481c196442a1b1f7250e99ce42cb688a))
+* new fixed rates blaze trade not being integrated ([5528791](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/55287913f072f4c215d517140a5a9c8c7067f964))
+* possible npe ([362814e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/362814eb7fdeb3a274104000ce7eb021898a71ef))
+* remove lexica botania from regular doungeon loot ([aa46ebd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aa46ebd0174d345f0b0f31a31a7c07cd196c26de))
+* remove old leftover advancements ([532af9d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/532af9deb8e5014fa4bb43ca66338b295f776518))
+* static analysis stuff ([b9de4ab](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b9de4ab0474bdf57b33a89d43a20fdf239952dd6))
+* tooltip for raw white and raw orange mentioning concreat powder instead of just powder ([4770224](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4770224124acd6058e4144a34aa9197b4456c444))
+
+
+### Minor tweaks
+
+* add revisions to trades to support the backwards compat engine ([20c282f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/20c282fd9506c3a3c57d01bb8160e15205f7e13d))
+* backwards compat is now server wide instead of player specific ([ab63329](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ab63329d66270a49e18c2ab7eca5128fcecebf34))
+* boat stacksize to 16 ([fa0bb80](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fa0bb806beeb2512cf58c9f6ff131d195941563a))
+* bow stacksize to 16 ([d1c1950](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d1c195027ca9273cc826120402d9f695196f33c1))
+* buff milling output of copper ore ([16a7906](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/16a79063358e58e91c4c6c7c922e1acdd2998543))
+* Cheaper blaze cake ([b99818e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b99818edd900faacc6a990da33536aee411b848c))
+* Color combinations output nerf ([012a8e5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/012a8e591e67b491bd72cf37c62fb1e12199c41f))
+* enchanted book stacksize to 16 ([cdbc381](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cdbc381d60c312dcac6b1974ef3c1241d0aeda04))
+* hide backwards compat soft recipes ([d06eded](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d06eded32ab9ff6ab7ce6905a7091a1b406b3561))
+* Ore crushing does not give cobblestone ([c6c6b1a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c6c6b1afe7c0fdad66725d422857e687339a6f7c))
+* potion stacksize to 16 ([3b35fdb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3b35fdb464b4919714b2ee2037106f616dd6a8eb))
+* reduce milk usage when making dyes ([42ec96b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/42ec96b3a2662e798047c9cc0d4a29eaaf56ccd6))
+* reduce stress amounts of most create devices, you can treat this as a buff to all stress making contraptions ([c1042a5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c1042a5397f15c459d8ec670bf2561dd4cd2230b))
+* remove blossom boat and mangrove boat ([7bb32df](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7bb32df4570debe03217fcb65d93e3f9504f4807))
+* Remove flax seed from all loottables ([80e0128](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/80e0128929cc88476264e4d3cb45ddec8a7c6ca5))
+* replace stick with iron plate for making trades ([8507e7c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8507e7c78a0be35855639b37b45c67e57e888b0c))
+* tag tropical fish and pufferfish as meat types too ([53951d3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/53951d350c6476324cfc711983d0e0978a20f7ac))
+
+
