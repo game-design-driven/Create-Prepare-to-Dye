@@ -127,7 +127,7 @@ function tradeBranch(outputTrades, inputTrades) {
   if (!Array.isArray(outputTrades)) outputTrades = [outputTrades];
   if (!Array.isArray(inputTrades)) inputTrades = [inputTrades];
   if (inputTrades.length == 1) {
-    inputTrades.push({ completedItem: Item.of("stick") });
+    inputTrades.push({ completedItem: Item.of("create:iron_sheet") });
   }
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
