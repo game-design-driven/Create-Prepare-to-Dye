@@ -1,4 +1,4 @@
-![infographic](https://raw.githubusercontent.com/Yarden-zamir/Create-Prepare-to-Dye/main/infographic.webp)
+![infographic](https://raw.githubusercontent.com/Yarden-zamir/Create-Prepare-to-Dye/main/infographic.png)
 # ⚙️ Create : Prepare to Dye         
 [![Discord](https://img.shields.io/discord/890222432605057044?label=Chat+on+Discord)](https://discord.gg/v8cZ83kTPY)
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
