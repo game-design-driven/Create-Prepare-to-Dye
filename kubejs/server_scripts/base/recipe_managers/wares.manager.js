@@ -90,7 +90,7 @@ function getAgreement(agreementID, {
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
-  if (orderedAmount != 0)
+  if (orderedAmount != 0){
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
@@ -118,6 +118,7 @@ function simple(items) {
       ).replaceAll('"', "");
       nbt.id = `#${tag}`;
     }
+    nbt.TagMatching="weak"
     return nbt;
   });
 }
