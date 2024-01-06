@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4e93b966dd739fc59254af7ca5920b31d9c9452a2a8c6fc3de77890a2729d7c7"
+hash = "bc9f79e85f5b13e41e6bd61ab111f27465d217c86798f820ea0cfb17654249f7"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "998ee9c7e0bee44a69bd1f621516602bb6f7daa7e8caffddabf4ba126b817fb3"
+hash = "9f61e6b0664661263589027a8beaf9ac7a5ad3913b304ddbe17e4d96804fb652"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4034,7 +4034,7 @@ hash = "a92f5f87b07ef9bb702a4705b723336628b81922ed118ebefa2ed81aab0b29b4"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/diesel.json"
-hash = "a92f5f87b07ef9bb702a4705b723336628b81922ed118ebefa2ed81aab0b29b4"
+hash = "81043a913dd738d1d688d524d237f2d6dd26f25cef57399a3654cc7ac2544fb2"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/ethanol.json"
@@ -5194,7 +5194,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "779388a505feae3dbcd66803c59321677c93ab598c30da750cb131a59ddb12e2"
+hash = "ff4472b751a0704be609a20fc28a0a0cc0e81351e719b2deb1ac3730f15c723b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6707,6 +6707,10 @@ hash = "0fc30f7c10b75b4219c43c1abc72cda0457a2e020a52e0642decc6e8ce4cc8b2"
 [[files]]
 file = "modpack-update-checker/versions/1.203.6/changelog.txt"
 hash = "78bbaf49ee7745eb71febee5df3e917b4591f6dcf896091679e4b9780699e5d9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.7/changelog.txt"
+hash = "a7eb86cae6d0d115ee6ef6b6ed094dbb5c7c11f71d5fc5b552b48503012fbb45"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

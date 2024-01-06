@@ -1,0 +1,9 @@
+### [1.203.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.6...1.203.7) (2024-01-06)
+
+
+### Fixes
+
+* diesel not powering engines ([193f97f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/193f97f41d928f3e331207849aa2095bae54cda8))
+* slow startup be removing old versions from modpack update checker index ([31fef51](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/31fef51b3a551442ca1e3ad8b76065cd6aba2d16))
+
+
