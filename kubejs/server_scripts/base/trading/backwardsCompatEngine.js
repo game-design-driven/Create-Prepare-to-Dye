@@ -114,14 +114,14 @@ if (feature("Backwards compatibility engine for trades")) {
 
     let player = event.player;
     let revision = item.nbt.getInt("revision");
-    let playerRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
+    let serverRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
     if (!isItemAllowed(Item.of(item), player)) {
       player.tell(
         Component.darkGray(
           "You picked up an item from revision " +
             revision +
             " And you are on revision " +
-            playerRev +
+            serverRev +
             ". This item will be removed from your inventory"
         )
       );
@@ -130,7 +130,7 @@ if (feature("Backwards compatibility engine for trades")) {
   });
 }
 
-function isItemAllowed(item, player) {
+function isItemAllowed(item) {
   item = Item.of(item);
   if (
     item.id !== "wares:delivery_agreement" &&
@@ -139,6 +139,6 @@ function isItemAllowed(item, player) {
     return true;
   let nbt = item.nbt;
   let revision = nbt.getInt("revision");
-  let playerRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
-  return revision >= playerRev;
+  let serverRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
+  return revision >= serverRev;
 }
