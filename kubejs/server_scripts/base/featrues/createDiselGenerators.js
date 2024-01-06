@@ -14,7 +14,6 @@ if (feature("Remove createdieselgenerators things we dont need")) {
     "createdieselgenerators:pumpjack_bearing",
     "createdieselgenerators:pumpjack_head",
     "createdieselgenerators:pumpjack_crank",
-    "createdieselgenerators:canister",
     "createdieselgenerators:asphalt_block",
     "createdieselgenerators:asphalt_slab",
     "createdieselgenerators:asphalt_stairs",
@@ -41,15 +40,15 @@ if (feature("Ethanol")) {
     ["250mb kubejs:fermented_goop", "3x minecraft:white_dye"],
     ["500mb milk"], undefined, 'z'
   );
+  
   addFermenting(
-    ["100mb kubejs:fermented_goop"],
-    ["minecraft:bone_meal", "#forge:fermentable"]
-  );
-
-  addFermenting(
-    ["600mb kubejs:fermented_goop", "2x minecraft:white_dye"],
+    ["600mb kubejs:fermented_goop", "1x minecraft:white_dye"],
     ["4x minecraft:bone_meal", "500mb milk"]
-  );
+    );
+    addFermenting(
+      ["100mb kubejs:fermented_goop"],
+      ["minecraft:bone_meal", "#forge:fermentable"]
+    );
   addFermenting(
     ["500mb kubejs:fermented_goop", "5x minecraft:green_dye", "50mb water"],
     ["4x minecraft:bone_meal", "500mb kubejs:organic_mass"]
