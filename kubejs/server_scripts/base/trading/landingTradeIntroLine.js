@@ -1842,6 +1842,7 @@ tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
 tradeBranch([bhbWheat, wscAxes, bhbCheeseFixed], bhbCheese);
 tradeBranch([wscBread, jsfWelcome], wscAxes);
 tradeBranch([jsfBoats, jsfSquids], jsfWelcome);
+tradeBranch([jsfSquidsFixed], jsfSquids);
 tradeBranch([jsfFishingRods, jsfEnchantedFishingRods], jsfBoats);
 tradeBranch([jsfFishingFixed], jsfFishingRods);
 tradeBranch([wscBreadAndAxesFixed], wscBread);
@@ -1925,7 +1926,6 @@ if (feature("Debug commands for trade related things")) {
     const {
       commands: Commands,
       arguments: Arguments,
-      builtinSuggestions: Suggestions,
     } = event;
     event.register(
       Commands.literal("starterDeals").executes((context) => {

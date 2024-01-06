@@ -44,7 +44,6 @@ if (feature("Backwards compatibility engine for trades")) {
     const {
       commands: Commands,
       arguments: Arguments,
-      builtinSuggestions: Suggestions,
     } = event;
     event.register(
       Commands.literal("tradingTreeRevisionUpgrade").executes((context) => {
