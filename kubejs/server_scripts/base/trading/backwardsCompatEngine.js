@@ -78,9 +78,7 @@ if (feature("Backwards compatibility engine for trades")) {
               );
             }
           });
-        global.starterDeals.forEach((deal) =>
-          player.give(deal.item.copy())
-        );
+        global.starterDeals.forEach((deal) => player.give(deal.item.copy()));
         return 1;
       })
     );
@@ -118,11 +116,7 @@ if (feature("Backwards compatibility engine for trades")) {
     if (!isItemAllowed(Item.of(item), player)) {
       player.tell(
         Component.darkGray(
-          "You picked up an item from revision " +
-            revision +
-            " And you are on revision " +
-            serverRev +
-            ". This item will be removed from your inventory"
+          `You picked up an item from revision ${revision} And you are on revision ${serverRev} This item will be removed from your inventory`
         )
       );
       player.inventory.clear(item);
