@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"adaptingTaste\", isCompleted:1b}"
 					}
 				]
 			}

@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"bfsiPigs\", isCompleted:1b}"
 					}
 				]
 			}

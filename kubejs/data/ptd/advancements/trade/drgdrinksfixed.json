@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"drgDrinksFixed\", isCompleted:1b}"
 					}
 				]
 			}
