@@ -94,8 +94,8 @@ function getAgreement(agreementID, {
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
-
-  addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+    addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+  }
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
