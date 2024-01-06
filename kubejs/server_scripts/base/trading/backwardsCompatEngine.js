@@ -50,7 +50,7 @@ if (feature("Backwards compatibility engine for trades")) {
         let player = context.getSource().getPlayer();
         if (
           Utils.server.persistentData.get("tradeRevisionApplied") &&
-          Utils.server.persistentData.get("tradeRevisionApplied") ==
+          Utils.server.persistentData.get("tradeRevisionApplied") ===
             global.revision
         ) {
           player.tell(
