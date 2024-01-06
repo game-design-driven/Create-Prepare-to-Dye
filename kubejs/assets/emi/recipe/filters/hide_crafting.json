@@ -4,6 +4,7 @@
       {"category": "minecraft:smelting"},
       {"category": "minecraft:smoking"},
       {"category": "minecraft:blasting"},
+      {"category": "emi:grinding"},
       {"category": "easy_villagers:incubating"},
       {"category": "easy_villagers:converting"},
       {"category": "easy_villagers:breeding"},
