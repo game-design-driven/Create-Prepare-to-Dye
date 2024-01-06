@@ -65,6 +65,7 @@ function getAgreement(agreementID, {
   let agreementObj = {
     item: Item.of("wares:delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: orderedAmount,
       message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
@@ -76,6 +77,7 @@ function getAgreement(agreementID, {
 
     completedItem: Item.of("wares:completed_delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: NBT.intTag(orderedAmount),
       buyerName: { color: "#409D9B", text: companyTitle },
       delivered: NBT.intTag(orderedAmount),
