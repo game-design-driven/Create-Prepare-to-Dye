@@ -1,0 +1,17 @@
+### [1.202.14](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.202.13...1.202.14) (2024-01-06)
+
+
+### Minor tweaks
+
+* carryon make cage imovable ([d9f3a37](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d9f3a37ab8be3695d52114987b68a2fbaed22289))
+* disable diamond repair for dark tools ([d235da6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d235da686954b6f9b423939cb99c26b57dde9f92))
+* replace pause menu title with Create Prepare to Dye ([30e7b04](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/30e7b040acbd4aa2b91d4eff400ca85abdbb387c))
+
+
+### Developer experance improvments and changes
+
+* add Avarusa to dict ([27fe3c0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/27fe3c0ede49cbe9867de2b2f6169d6aee3c5a3d))
+* add qube to dict ([a7cc865](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a7cc8652ad655c0826e9a1db718e349f921a5e44))
+* hide button ([d5d3d55](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d5d3d55fb33207195af269b2b71c2d7fcd1a19fd))
+
+
