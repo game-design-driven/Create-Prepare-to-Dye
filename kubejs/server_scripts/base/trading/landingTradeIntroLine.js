@@ -95,7 +95,7 @@ const mlcSand = getAgreement("mlcSand", {
     "64x minecraft:white_concrete_powder",
     "64x minecraft:white_concrete_powder",
   ],
-  title: "Your Sand – Our Beaches?",
+  title: "Your Sand Our Beaches?",
   orderedAmount: 2,
   company: "magical_landscaping_co",
   message:
@@ -186,7 +186,7 @@ const wscAxes = getAgreement("wscAxes", {
   orderedAmount: 1,
   company: "wood_strike_and_co",
   message:
-    "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top-notch, but we're short a few axes. Need more to chop-chop as fast as a moose on a ski slope. Can you help us out?",
+    "Hey there, hoser. Were the fun folks at WSC busier than a beaver in a woodpile! Our tools are top notch, but we're short a few axes. Need more to chop chop as fast as a moose on a ski slope. Can you help us out?",
 });
 const wscBread = getAgreement("wscBread", {
   paymentItems: [
@@ -208,7 +208,7 @@ const wscBreadAndAxesFixed = getAgreement("wscBreadAndAxesFixed", {
   orderedAmount: 0,
   company: "wood_strike_and_co",
   message:
-    "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well-fed. We're thinking long-term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration",
+    "We are reaching out for a bit of a deal. We're looking to set up a fixed rate for two essentials: good, sturdy axes and plenty of bread to keep our crew well fed. We're thinking long term partnership here, with regular orders. Let's talk numbers and see if we can make this work for both of us. Looking forward to a fruitful collaboration",
 });
 const bhbFurnaces = getAgreement("bhbFurnaces", {
   paymentItems: [
@@ -1142,7 +1142,7 @@ const bfsiWastelandClearance = getAgreement("bfsiWastelandClearance", {
   orderedAmount: 7,
   company: "Big Flicks And Solutions Inc",
   message:
-    "We are shooting a new movie, we need to create a wasteland set, it will take a while but with the help of tools from you and some hard work from our lawyers, we can get it done in no-time",
+    "We are shooting a new movie, we need to create a wasteland set, it will take a while but with the help of tools from you and some hard work from our lawyers, we can get it done in no time",
 });
 
 const bfsiShowerUpgrades = getAgreement("bfsiShowerUpgrades", {
@@ -1323,7 +1323,7 @@ const drgPickaxes = getAgreement("drgPickaxes", {
   orderedAmount: 2,
   company: "DRG",
   message:
-    "We need some new tools, retrial of tools from fallen dwarf has proven none-beneficial to the company, we will pay for new tools with some high quality ores",
+    "We need some new tools, retrial of tools from fallen dwarf has proven none beneficial to the company, we will pay for new tools with some high quality ores",
 });
 
 const drgGoodPickaxes = getAgreement("drgGoodPickaxes", {
