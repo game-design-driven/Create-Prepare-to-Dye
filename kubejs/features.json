@@ -279,5 +279,8 @@
 	"Cannot cage betsy": true,
 	"Cag can capture zombies": true,
 	"Cage can capture zombies": true,
-	"Cage can capture pigs": true
+	"Cage can capture pigs": true,
+	"Tooltips for disabled items": true,
+	"Tooltips for food nutrition and saturation": true,
+	"Burn Time tooltips": true
 }

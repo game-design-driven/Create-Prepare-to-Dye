@@ -53,6 +53,7 @@ if (feature("Backwards compatibility engine for trades")) {
       Commands.literal("tradingTreeRevisionUpgrade").executes((context) => {
         let player = context.getSource().getPlayer();
         if (
+          player.persistentData.get("tradeRevisionApplied") &&
           player.persistentData.get("tradeRevisionApplied") == global.revision
         ) {
           player.tell(
