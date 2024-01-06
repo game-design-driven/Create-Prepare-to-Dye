@@ -1,0 +1,13 @@
+### [1.203.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.7...1.203.8) (2024-01-06)
+
+
+### Fixes
+
+* potential fix to backwards compat engine ([02dac07](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/02dac0776c952f12b3227779d3f64485cdb03a8f))
+
+
+### Minor tweaks
+
+* add gray pillar to gray variants ([d5b1309](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d5b1309bdfb65d20e55653c75ab0ec4824672d26))
+
+
