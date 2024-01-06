@@ -105,6 +105,41 @@ if (feature('dye mixing')) {
     addFilling('light_blue_dye', '2x white_dye', 'water')
 }
 
+if (feature('Color combinations output nerf')) {
+    removeRecipe({ id: 'minecraft:pink_dye_from_red_and_white' })
+    addShapeless('pink_dye', ['red_dye','white_dye'])
+    
+    removeRecipe({ id: 'minecraft:purple_dye' })
+    addShapeless('purple_dye', ['red_dye','blue_dye'])
+    
+    removeRecipe({ id: 'minecraft:light_blue_dye_from_blue_and_white_dye' })
+    addShapeless('light_blue_dye', ['blue_dye','white_dye'])
+    
+    removeRecipe({ id: 'minecraft:orange_dye_from_red_and_yellow' })
+    addShapeless('orange_dye', ['red_dye','yellow_dye'])
+    
+    removeRecipe({ id: 'minecraft:magenta_dye_from_purple_and_pink' })
+    removeRecipe({ id: 'minecraft:magenta_dye_from_blue_red_pink' })
+    removeRecipe({ id: 'minecraft:magenta_dye_from_blue_red_white' })
+    addShapeless('magenta_dye', ['purple_dye','pink_dye'])
+    addShapeless('magenta_dye', ['blue_dye','red_dye','pink_dye'])
+    addShapeless('magenta_dye', ['blue_dye','2x red_dye','white_dye'])
+    
+    removeRecipe({ id: 'minecraft:lime_dye' })
+    addShapeless('lime_dye', ['green_dye','white_dye'])
+    
+    removeRecipe({ id: 'minecraft:gray_dye' })
+    addShapeless('gray_dye', ['black_dye','white_dye'])
+    
+    removeRecipe({ id: 'minecraft:light_gray_dye_from_gray_white_dye' })
+    removeRecipe({ id: 'minecraft:light_gray_dye_black_white_dye' })
+    addShapeless('light_gray_dye', ['gray_dye','white_dye'])
+    addShapeless('light_gray_dye', ['black_dye','2x white_dye'])
+    
+    removeRecipe({ id: 'minecraft:cyan_dye' })
+    addShapeless('cyan_dye', ['green_dye','blue_dye'])
+}
+
 if (feature('brown dye is more expensive')) {
     removeRecipe({ id: 'minecraft:brown_dye' })
     addShapeless('brown_dye', ['cocoa_beans','cocoa_beans','cocoa_beans','cocoa_beans'])
