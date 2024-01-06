@@ -2,8 +2,10 @@
 
 global.revision = 1;
 function isFirstLogin() {
-  Utils.server.tell(Utils.server.persistentData.getBoolean("existing_world_compat_engine"))
-  Utils.server.tell(Utils.server.persistentData.getBoolean("existing_world"))
+  console.log(
+    Utils.server.persistentData.getBoolean("existing_world_compat_engine")
+  );
+  console.log(Utils.server.persistentData.getBoolean("existing_world"));
   return !(
     Utils.server.persistentData.getBoolean("existing_world_compat_engine") ||
     Utils.server.persistentData.getBoolean("existing_world")
@@ -19,9 +21,9 @@ function isTradeRevisionUpToDate() {
 if (feature("Backwards compatibility engine for trades")) {
   PlayerEvents.loggedIn((event) => {
     let player = event.player;
-    player.tell("login");
+    console.log("login");
     if (isFirstLogin()) {
-      player.tell("First login");
+      console.log("First login");
       Utils.server.persistentData.putBoolean(
         "existing_world_compat_engine",
         true
