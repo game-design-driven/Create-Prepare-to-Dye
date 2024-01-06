@@ -112,7 +112,7 @@ if (feature("Backwards compatibility engine for trades")) {
     let player = event.player;
     let revision = item.nbt.getInt("revision");
     let serverRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
-    if (!isItemAllowed(Item.of(item), player)) {
+    if (!isItemAllowed(Item.of(item))) {
       player.tell(
         Component.darkGray(
           `You picked up an item from revision ${revision} And you are on revision ${serverRev} This item will be removed from your inventory`
