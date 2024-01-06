@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"vEmpire\", isCompleted:1b}"
 					}
 				]
 			}

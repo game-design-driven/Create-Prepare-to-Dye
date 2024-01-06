@@ -86,7 +86,7 @@ if (feature('Ore processing')) {
 
     addMilling(['2x create:crushed_raw_iron', 'create:crushed_raw_iron %75'], '#forge:ores/iron')
 
-    addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
+    addMilling('6x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
     let crush_to_ingot = [
         {
@@ -243,4 +243,23 @@ if (feature('slime from dough and lime')) {
 // // console.log('^'+Block.getBlock('minecraft:stone').defaultBlockState().asState().properties['hardness'].value)
 if (feature('Replace bricks with copper (orange ingot)')) {
     removeAndReplace('minecraft:brick', '#forge:ingots/copper')
+}
+
+if (feature('Ore crushing does not give cobblestone')) {
+    removeRecipe({ id: "create:crushing/copper_ore" })
+    removeRecipe({ id: "create:crushing/redstone_ore" })
+    addCrushing([
+        '6x redstone',
+        'redstone 50%',
+        'create:experience_nugget %70'
+    ], 'redstone_ore')
+    addCrushing([
+        '5x create:crushed_raw_copper',
+        'create:crushed_raw_copper 50%',
+        'create:experience_nugget %70'
+    ], 'copper_ore')
+}
+
+if (feature('Redstone ore outputs more direct redstone in mill')) {
+    addMilling('7x redstone', 'redstone_ore')
 }

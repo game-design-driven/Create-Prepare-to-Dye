@@ -187,5 +187,8 @@
     "subtitles.entity.cow.death": "Betsy dies. WTF!? Rude!",
     "subtitles.entity.cow.hurt": "Betsy hurts",
     "subtitles.entity.cow.milk": "Betsy gets milked",
-    "item.minecraft.honeycomb": "Wax"
+    "item.minecraft.honeycomb": "Wax",
+    "item.minecraft.oak_boat": "Boat",
+    "item.minecraft.oak_chest_boat": "Boat with Chest"
+
 }

@@ -4,7 +4,6 @@ ServerEvents.commandRegistry((event) => {
     const {
         commands: Commands,
         arguments: Arguments,
-        builtinSuggestions: Suggestions,
       } = event;
   event.register(
     Commands.literal("uuid").executes((context) => {

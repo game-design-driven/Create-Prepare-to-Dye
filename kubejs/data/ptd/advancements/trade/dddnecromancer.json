@@ -1,0 +1,30 @@
+{
+	"parent": "ptd:trade/root",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"wares:completed_delivery_agreement"
+						],
+						"nbt": "{id:\"dddNecromancer\", isCompleted:1b}"
+					}
+				]
+			}
+		},
+		"b": {
+			"trigger": "wares:agreement_completed",
+			"conditions": {
+				"agreementNbt": "{id:\"dddNecromancer\"}"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"a",
+			"b"
+		]
+	]
+}

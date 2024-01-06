@@ -65,6 +65,7 @@ function getAgreement(agreementID, {
   let agreementObj = {
     item: Item.of("wares:delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: orderedAmount,
       message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
@@ -76,6 +77,7 @@ function getAgreement(agreementID, {
 
     completedItem: Item.of("wares:completed_delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: NBT.intTag(orderedAmount),
       buyerName: { color: "#409D9B", text: companyTitle },
       delivered: NBT.intTag(orderedAmount),
@@ -90,12 +92,12 @@ function getAgreement(agreementID, {
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
-  if (orderedAmount != 0)
+  if (orderedAmount != 0){
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
-
-  addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+    addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+  }
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
@@ -118,6 +120,7 @@ function simple(items) {
       ).replaceAll('"', "");
       nbt.id = `#${tag}`;
     }
+    nbt.TagMatching="weak"
     return nbt;
   });
 }
@@ -126,7 +129,7 @@ function tradeBranch(outputTrades, inputTrades) {
   if (!Array.isArray(outputTrades)) outputTrades = [outputTrades];
   if (!Array.isArray(inputTrades)) inputTrades = [inputTrades];
   if (inputTrades.length == 1) {
-    inputTrades.push({ completedItem: Item.of("stick") });
+    inputTrades.push({ completedItem: Item.of("create:iron_sheet") });
   }
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
@@ -152,6 +155,7 @@ function tradeBranch(outputTrades, inputTrades) {
     // addFakeTradeRecipe(outputTrades[0].item,getTradeNbtNameFilter(inputTrades[0].completedItem))
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
+    noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
     // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
   });
 }

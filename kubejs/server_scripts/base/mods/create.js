@@ -292,3 +292,8 @@ if (feature('Block of brass is made with plates instead of ingots')) {
 if (feature('Sugar to white dye')) {
   addMixing('white_dye', ['4x sugar'], temperature.none)
 }
+
+if (feature('Cheaper blaze cake')) {
+  removeRecipe({ id: 'create:filling/blaze_cake' })
+  addFilling('create:blaze_cake', 'create:blaze_cake_base', '10x lava')  
+}

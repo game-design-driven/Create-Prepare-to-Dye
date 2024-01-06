@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"sssArrows\", isCompleted:1b}"
 					}
 				]
 			}

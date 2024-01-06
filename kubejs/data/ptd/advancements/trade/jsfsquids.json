@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": "{id:\"cccRawWhiteOld\", isCompleted:1b}"
+						"nbt": "{id:\"jsfSquids\", isCompleted:1b}"
 					}
 				]
 			}
@@ -17,7 +17,7 @@
 		"b": {
 			"trigger": "wares:agreement_completed",
 			"conditions": {
-				"agreementNbt": "{id:\"cccRawWhiteOld\"}"
+				"agreementNbt": "{id:\"jsfSquids\"}"
 			}
 		}
 	},

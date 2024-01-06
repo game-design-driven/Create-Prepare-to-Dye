@@ -26,7 +26,6 @@ if (feature("Command to teleport to Betsy")) {
     const {
       commands: Commands,
       arguments: Arguments,
-      builtinSuggestions: Suggestions,
     } = event;
     event.register(
       Commands.literal("backToBetsy").executes((context) => {

@@ -9,7 +9,7 @@
 						"items": [
 							"wares:completed_delivery_agreement"
 						],
-						"nbt": ""
+						"nbt": "{id:\"qubeGlass\", isCompleted:1b}"
 					}
 				]
 			}

@@ -476,3 +476,58 @@ if (feature("Wax recipes")) {
   );
   addFilling("minecraft:honeycomb", "ae2:silicon", "750x create:honey");
 }
+
+if (feature("Book back into paper")) {
+  addCutting("3x paper", "book");
+}
+
+if (feature("Spider eye with manapool")) {
+  addInfusion("spider_eye", "red_dye", 1250, "minecraft:grass_block");
+}
+
+if (feature("Blaze rod production")) {
+  addInfusion("blaze_rod", "stick", 20000, "minecraft:magma_block");
+}
+
+if (feature("Remove none oak boats")) {
+  removeItems([
+    "minecraft:acacia_boat",
+    "minecraft:birch_boat",
+    "minecraft:dark_oak_boat",
+    "minecraft:jungle_boat",
+    "minecraft:spruce_boat",
+    "minecraft:mangrove_boat",
+    "minecraft:acacia_chest_boat",
+    "minecraft:birch_chest_boat",
+    "minecraft:dark_oak_chest_boat",
+    "minecraft:jungle_chest_boat",
+    "minecraft:spruce_chest_boat",
+    "minecraft:mangrove_chest_boat",
+    "quark:blossom_boat",
+    "quark:blossom_chest_boat",
+  ]);
+  removeRecipe({ id: "minecraft:oak_boat" });
+  removeRecipe({
+    id: "quark:tweaks/crafting/utility/chest_boat/direct_oak_chest_boat",
+  });
+  addShaped("oak_boat", ["# #", "###"], { "#": "#planks" });
+  addShaped("oak_chest_boat", ["#c#", "###"], { "#": "#logs", "c": "chest" });
+}
+
+if (feature('Crushing or milling enchanted book gives experience')) {
+  addMilling(['2x paper', 'create:experience_nugget %55'], Item.of('minecraft:enchanted_book').weakNBT())
+  addCrushing(['paper %75','create:experience_nugget %75'], Item.of('minecraft:enchanted_book').weakNBT())
+  //todo fix this not showing in EMI
+}
+
+if (feature('Netherite gear regular recipes')) {
+  removeRecipe({ id: 'minecraft:netherite_helmet_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_chestplate_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_leggings_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_boots_smithing' })
+  addShaped('netherite_helmet', ['nnn', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_chestplate', ['n n', 'nnn', 'nnn'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_leggings', ['nnn', 'n n', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_boots', ['n n', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_sword', ['n', 'n', 's'], { n: '#forge:ingots/netherite', s: '#forge:rods' })
+}
