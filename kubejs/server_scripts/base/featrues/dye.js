@@ -130,19 +130,20 @@ if (feature("slime dye")) {
 
 if (feature("dye mixing")) {
   //red_dye + honey = orange dye
+  let milkDyeAmount = 50;
   addFilling("orange_dye", "red_dye", "50x create:honey");
   //green + milk = lime
-  addFilling("lime_dye", "green_dye", "10x minecraft:milk");
+  addFilling("lime_dye", "green_dye", `${milkDyeAmount}x minecraft:milk`);
   //blue + milk = light blue
-  addFilling("light_blue_dye", "blue_dye", "10x minecraft:milk");
+  addFilling("light_blue_dye", "blue_dye", `${milkDyeAmount}x minecraft:milk`);
   //black + milk = gray
-  addFilling("gray_dye", "black_dye", "10x minecraft:milk");
+  addFilling("gray_dye", "black_dye", `${milkDyeAmount}x minecraft:milk`);
   //gray + milk = light gray
-  addFilling("light_gray_dye", "gray_dye", "10x minecraft:milk");
+  addFilling("light_gray_dye", "gray_dye", `${milkDyeAmount}x minecraft:milk`);
   //green + water = cyan
   addFilling("cyan_dye", "2x green_dye", "water");
   //red + milk = pink
-  addFilling("pink_dye", "red_dye", "10x minecraft:milk");
+  addFilling("pink_dye", "red_dye", `${milkDyeAmount}x minecraft:milk`);
   //red + water = purple
   addFilling("purple_dye", "2x red_dye", "water");
   //white + water = light blue
