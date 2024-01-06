@@ -85,4 +85,15 @@ if (feature("Quartz buds drop quartz")) {
       .applyOreBonus("minecraft:fortune")
   });
   //add more with fortune
+
+  //remove flax seed from all loottables
+
+}
+
+
+if (feature('Remove flax seed from all loottables')) {
+  LootJS.modifiers((event) => {
+    event.removeGlobalModifier("@supplementaries");
+  });
+  
 }
