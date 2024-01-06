@@ -1,4 +1,3 @@
-![infographic](https://raw.githubusercontent.com/Yarden-zamir/Create-Prepare-to-Dye/main/infographic.webp)
 # Server files
 ## To start the server for the first time, either 
 - put `mods, config, kubejs, defaultconfigs` in the server folder
