@@ -1,0 +1,13 @@
+### [1.203.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.11...1.203.12) (2024-01-06)
+
+
+### Fixes
+
+* remove dashes from trades to be safe in case of rare weird conversion ([7555000](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/75550009cceb6be6b42678ff5caca9dcda07ca40))
+
+
+### Continuous Integration
+
+* disable nightly ([13b7e33](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/13b7e3332e1f54fbc7c0dc03a34dbd0cb640a8da))
+
+
