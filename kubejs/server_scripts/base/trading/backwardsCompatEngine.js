@@ -6,8 +6,8 @@ if (feature("Backwards compatibility engine for trades")) {
     let player = event.player;
 
     if (
-      Utils.server.persistentData.get(`tradeRevision`) &&
-      Utils.server.persistentData.get(`tradeRevision`) === global.revision
+      Utils.server.persistentData.getInt(`tradeRevision`) &&
+      Utils.server.persistentData.getInt(`tradeRevision`) === global.revision
     )
       return;
     let text = Component.yellow(
@@ -49,8 +49,8 @@ if (feature("Backwards compatibility engine for trades")) {
       Commands.literal("tradingTreeRevisionUpgrade").executes((context) => {
         let player = context.getSource().getPlayer();
         if (
-          Utils.server.persistentData.get("tradeRevisionApplied") &&
-          Utils.server.persistentData.get("tradeRevisionApplied") ===
+          Utils.server.persistentData.getInt("tradeRevisionApplied") &&
+          Utils.server.persistentData.getInt("tradeRevisionApplied") ===
             global.revision
         ) {
           player.tell(
@@ -85,7 +85,7 @@ if (feature("Backwards compatibility engine for trades")) {
       Commands.literal("tradingTreeRevisionIgnore").executes((context) => {
         let player = context.getSource().getPlayer();
         if (
-          Utils.server.persistentData.get(`tradeRevision`) == global.revision
+          Utils.server.persistentData.getInt(`tradeRevision`) == global.revision
         ) {
           player.tell(
             Component.yellow(
@@ -109,6 +109,8 @@ if (feature("Backwards compatibility engine for trades")) {
     )
       return;
 
+
+
     let player = event.player;
     let revision = item.nbt.getInt("revision");
     let serverRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
@@ -124,6 +126,7 @@ if (feature("Backwards compatibility engine for trades")) {
 }
 
 function isItemAllowed(item) {
+  if (Utils.server.persistentData.getInt(`tradeRevisionApplied`) === 0) return true;
   item = Item.of(item);
   if (
     item.id !== "wares:delivery_agreement" &&
@@ -133,5 +136,5 @@ function isItemAllowed(item) {
   let nbt = item.nbt;
   let revision = nbt.getInt("revision");
   let serverRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
-  return revision >= serverRev;
+  return revision === serverRev;
 }
