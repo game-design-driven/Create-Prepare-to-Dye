@@ -2,10 +2,6 @@
 
 global.revision = 1;
 function isFirstLogin() {
-  console.log(
-    Utils.server.persistentData.getBoolean("existing_world_compat_engine")
-  );
-  console.log(Utils.server.persistentData.getBoolean("existing_world"));
   return !(
     Utils.server.persistentData.getBoolean("existing_world_compat_engine") ||
     Utils.server.persistentData.getBoolean("existing_world")
@@ -36,10 +32,10 @@ if (feature("Backwards compatibility engine for trades")) {
     }
 
     if (isTradeRevisionUpToDate()) {
-      player.tell("trade is already up to date");
+      console.log("trade is already up to date");
       return;
     }
-    player.tell("trade is not up to date");
+    console.log("trade is not up to date");
     player.tell(
       Component.yellow(
         "The trading tree underwent significant updates and changes since you last played. Would you like to restart your trading journey? \nYes means you will get the starter trades again now and all old trades will be removed. No means you can keep playing but trade progression recipes will not show when checking uses (but will still work so check EMI index)"
