@@ -52,7 +52,7 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.1
         with:
           tag_prefix: ''
-          custom_release_rules: "dev:patch:Developer experance improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
+          custom_release_rules: "dev:patch:Developer experience improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
           github_token: ${{ secrets.GH_TOKEN }}
 
       - name: Create a GitHub release
