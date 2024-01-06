@@ -570,7 +570,7 @@
 	"Better Elytra Rocket" = false
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
-	"Diamond Repair" = true
+	"Diamond Repair" = false
 	"Sponges Better" = true
 	"Map Washing" = true
 
