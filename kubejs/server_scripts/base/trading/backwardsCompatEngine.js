@@ -10,9 +10,6 @@ if (feature("Backwards compatibility engine for trades")) {
       player.persistentData.get(`tradeRevision`) === global.revision
     )
       return;
-
-    player.persistentData.put(`tradeRevision${global.revision}`, true);
-    player.persistentData.put(`tradeRevision${global.revision}Applied`, true);
     let text = Component.yellow(
       "The trading tree underwent significant updates and changes since you last played. Would you like to restart your trading journey? \nYes means you will get the starter trades again now and all old trades will be removed. No means you can keep playing but trade progression recipes will not show when checking uses (but will still work so check EMI index)"
     );
@@ -61,8 +58,8 @@ if (feature("Backwards compatibility engine for trades")) {
           );
           return 1;
         }
-        player.persistentData.put(`tradeRevision`, global.revision);
-        player.persistentData.put(`tradeRevisionApplied`, global.revision);
+        player.persistentData.putInt(`tradeRevision`, global.revision);
+        player.persistentData.putInt(`tradeRevisionApplied`, global.revision);
         player.tell(Component.green("Applied revision upgrade"));
         player.inventory
           .getAllItems()
@@ -94,7 +91,7 @@ if (feature("Backwards compatibility engine for trades")) {
           );
           return 1;
         }
-        player.persistentData.put(`tradeRevision`, global.revision);
+        player.persistentData.putInt(`tradeRevision`, global.revision);
         player.tell(Component.green("Ignoring revision " + global.revision));
         return 1;
       })
@@ -125,8 +122,10 @@ if (feature("Backwards compatibility engine for trades")) {
       player.inventory.clear(item);
     }
   });
+}
 
   function isItemAllowed(item, player) {
+    item = Item.of(item);
     if (
       item.id !== "wares:delivery_agreement" &&
       item.id !== "wares:completed_delivery_agreement"
@@ -137,4 +136,3 @@ if (feature("Backwards compatibility engine for trades")) {
     let playerRev = player.persistentData.getInt(`tradeRevisionApplied`);
     return revision >= playerRev;
   }
-}
