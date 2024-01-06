@@ -13,4 +13,5 @@ ItemEvents.modification((event) => {
     .forEach((i) => event.modify(i, (item) => item.setMaxStackSize(16)));
   event.modify("minecraft:bow", (item) => item.setMaxStackSize(16));
   event.modify("minecraft:potion", (item) => item.setMaxStackSize(16));
+  event.modify("minecraft:oak_boat", (item) => item.setMaxStackSize(16));
 });
