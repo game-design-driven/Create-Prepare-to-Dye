@@ -244,3 +244,20 @@ if (feature('slime from dough and lime')) {
 if (feature('Replace bricks with copper (orange ingot)')) {
     removeAndReplace('minecraft:brick', '#forge:ingots/copper')
 }
+
+if (feature('Ore crushing does not give cobblestone')) {
+    removeRecipe({ id: "create:crushing/copper_ore" })
+    removeRecipe({ id: "create:crushing/redstone_ore" })
+    addCrushing([
+        '6x redstone',
+        'redstone 50%',
+        'create:experience_nugget %70'
+    ], 'redstone_ore')
+    addCrushing([
+        '5x create:crushed_raw_copper',
+        'create:crushed_raw_copper 50%',
+        'create:experience_nugget %70'
+    ], 'copper_ore')
+}
+
+}
