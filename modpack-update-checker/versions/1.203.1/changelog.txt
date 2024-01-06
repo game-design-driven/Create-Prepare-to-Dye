@@ -1,0 +1,9 @@
+### [1.203.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.0...1.203.1) (2024-01-06)
+
+
+### Modlist related changes
+
+* revert ptdye plus update that broke server play ([dfac578](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dfac578ef9b23c4d0504a26d2b85a7b490c7c48a))
+* revert ptdye plus update that broke server play ([#477](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/477)) ([ed5510e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ed5510e2cbcf795dc8e131abf64583c9763b9b5e))
+
+
