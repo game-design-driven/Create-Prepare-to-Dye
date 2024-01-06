@@ -6,8 +6,8 @@ if (feature("Backwards compatibility engine for trades")) {
     let player = event.player;
 
     if (
-      player.persistentData.get(`tradeRevision`) &&
-      player.persistentData.get(`tradeRevision`) === global.revision
+      Utils.server.persistentData.get(`tradeRevision`) &&
+      Utils.server.persistentData.get(`tradeRevision`) === global.revision
     )
       return;
     let text = Component.yellow(
@@ -50,16 +50,20 @@ if (feature("Backwards compatibility engine for trades")) {
       Commands.literal("tradingTreeRevisionUpgrade").executes((context) => {
         let player = context.getSource().getPlayer();
         if (
-          player.persistentData.get("tradeRevisionApplied") &&
-          player.persistentData.get("tradeRevisionApplied") == global.revision
+          Utils.server.persistentData.get("tradeRevisionApplied") &&
+          Utils.server.persistentData.get("tradeRevisionApplied") ==
+            global.revision
         ) {
           player.tell(
             Component.yellow("Cannot apply revision upgrade more than once")
           );
           return 1;
         }
-        player.persistentData.putInt(`tradeRevision`, global.revision);
-        player.persistentData.putInt(`tradeRevisionApplied`, global.revision);
+        Utils.server.persistentData.putInt(`tradeRevision`, global.revision);
+        Utils.server.persistentData.putInt(
+          `tradeRevisionApplied`,
+          global.revision
+        );
         player.tell(Component.green("Applied revision upgrade"));
         player.inventory
           .getAllItems()
@@ -75,7 +79,7 @@ if (feature("Backwards compatibility engine for trades")) {
             }
           });
         global.starterDeals.forEach((deal) =>
-          player.give(deal.completedItem.copy())
+          player.give(deal.item.copy())
         );
         return 1;
       })
@@ -83,7 +87,9 @@ if (feature("Backwards compatibility engine for trades")) {
     event.register(
       Commands.literal("tradingTreeRevisionIgnore").executes((context) => {
         let player = context.getSource().getPlayer();
-        if (player.persistentData.get(`tradeRevision`) == global.revision) {
+        if (
+          Utils.server.persistentData.get(`tradeRevision`) == global.revision
+        ) {
           player.tell(
             Component.yellow(
               "Cannot ignore revision after applying or ignoring it already"
@@ -91,7 +97,7 @@ if (feature("Backwards compatibility engine for trades")) {
           );
           return 1;
         }
-        player.persistentData.putInt(`tradeRevision`, global.revision);
+        Utils.server.persistentData.putInt(`tradeRevision`, global.revision);
         player.tell(Component.green("Ignoring revision " + global.revision));
         return 1;
       })
@@ -108,7 +114,7 @@ if (feature("Backwards compatibility engine for trades")) {
 
     let player = event.player;
     let revision = item.nbt.getInt("revision");
-    let playerRev = player.persistentData.getInt(`tradeRevisionApplied`);
+    let playerRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
     if (!isItemAllowed(Item.of(item), player)) {
       player.tell(
         Component.darkGray(
@@ -124,15 +130,15 @@ if (feature("Backwards compatibility engine for trades")) {
   });
 }
 
-  function isItemAllowed(item, player) {
-    item = Item.of(item);
-    if (
-      item.id !== "wares:delivery_agreement" &&
-      item.id !== "wares:completed_delivery_agreement"
-    )
-      return true;
-    let nbt = item.nbt;
-    let revision = nbt.getInt("revision");
-    let playerRev = player.persistentData.getInt(`tradeRevisionApplied`);
-    return revision >= playerRev;
-  }
+function isItemAllowed(item, player) {
+  item = Item.of(item);
+  if (
+    item.id !== "wares:delivery_agreement" &&
+    item.id !== "wares:completed_delivery_agreement"
+  )
+    return true;
+  let nbt = item.nbt;
+  let revision = nbt.getInt("revision");
+  let playerRev = Utils.server.persistentData.getInt(`tradeRevisionApplied`);
+  return revision >= playerRev;
+}
