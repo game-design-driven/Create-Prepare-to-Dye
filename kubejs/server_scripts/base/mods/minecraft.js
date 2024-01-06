@@ -496,11 +496,15 @@ if (feature("Remove none oak boats")) {
     "minecraft:dark_oak_boat",
     "minecraft:jungle_boat",
     "minecraft:spruce_boat",
+    "minecraft:mangrove_boat",
     "minecraft:acacia_chest_boat",
     "minecraft:birch_chest_boat",
     "minecraft:dark_oak_chest_boat",
     "minecraft:jungle_chest_boat",
     "minecraft:spruce_chest_boat",
+    "minecraft:mangrove_chest_boat",
+    "quark:blossom_boat",
+    "quark:blossom_chest_boat",
   ]);
   removeRecipe({ id: "minecraft:oak_boat" });
   removeRecipe({
