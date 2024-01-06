@@ -1,0 +1,9 @@
+### [1.203.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.8...1.203.9) (2024-01-06)
+
+
+### Fixes
+
+* backwards compat removing items without strong matching ([003913e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/003913e2feaf36c552672b5d50823ecc58bbf125))
+* long load times from modpack update checker ([3532560](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/35325603271e573041bc33dd00028d0ffb02c8e2))
+
+
