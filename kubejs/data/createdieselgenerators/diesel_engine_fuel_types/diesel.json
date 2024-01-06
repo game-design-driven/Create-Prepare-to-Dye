@@ -1,5 +1,5 @@
 {
-  "fluid": "#forge:biodiesel",
+  "fluid": "#forge:diesel",
   "sound_speed": 8,
   "normal": {
     "speed": 16.0,
