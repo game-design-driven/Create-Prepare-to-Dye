@@ -5,6 +5,7 @@ customization-meta {
   randomgroup = 1
   renderorder = foreground
   randommode = false
+  custom_menu_title = Create: Prepare to Dye
   randomonlyfirsttime = false
 }
 
