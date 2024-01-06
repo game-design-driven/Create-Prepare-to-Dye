@@ -509,3 +509,21 @@ if (feature("Remove none oak boats")) {
   addShaped("oak_boat", ["# #", "###"], { "#": "#planks" });
   addShaped("oak_chest_boat", ["#c#", "###"], { "#": "#logs", "c": "chest" });
 }
+
+if (feature('Crushing or milling enchanted book gives experience')) {
+  addMilling(['2x paper', 'create:experience_nugget %55'], Item.of('minecraft:enchanted_book').weakNBT())
+  addCrushing(['paper %75','create:experience_nugget %75'], Item.of('minecraft:enchanted_book').weakNBT())
+  //todo fix this not showing in EMI
+}
+
+if (feature('Netherite gear regular recipes')) {
+  removeRecipe({ id: 'minecraft:netherite_helmet_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_chestplate_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_leggings_smithing' })
+  removeRecipe({ id: 'minecraft:netherite_boots_smithing' })
+  addShaped('netherite_helmet', ['nnn', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_chestplate', ['n n', 'nnn', 'nnn'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_leggings', ['nnn', 'n n', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_boots', ['n n', 'n n'], { n: '#forge:ingots/netherite' })
+  addShaped('netherite_sword', ['n', 'n', 's'], { n: '#forge:ingots/netherite', s: '#forge:rods' })
+}
