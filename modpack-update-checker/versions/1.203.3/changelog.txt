@@ -1,0 +1,8 @@
+### [1.203.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.2...1.203.3) (2024-01-06)
+
+
+### Documentation and Localization
+
+* add infographic to readme ([5539c2a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5539c2a0158a42982d6be1b108cd851829c88442))
+
+
