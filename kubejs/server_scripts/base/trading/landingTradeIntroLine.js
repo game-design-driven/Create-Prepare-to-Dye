@@ -1140,6 +1140,15 @@ const bfsiAdaptingTaste2 = getAgreement("bfsiAdaptingTaste2", {
   message:
     "Our crew is addicted to sugar, we need some more sugar, just make us a cake shipment, fast",
 });
+const bfsiAdaptingTasteFixed = getAgreement("bfsiAdaptingTasteFixed", {
+  paymentItems: ["4x minecraft:shulker_box", "2x create:stressometer"],
+  requestedItems: ["64x minecraft:cake"],
+  title: "Just keep the cake tap open please",
+  orderedAmount: 0,
+  company: "Big Flicks And Solutions Inc",
+  message:
+    "Yea its us again, I know, I know, look, we got this under control, just need a few more and then i'll ween them off",
+});
 const bfsiWastelandClearance = getAgreement("bfsiWastelandClearance", {
   paymentItems: [
     "32x minecraft:oak_log",
