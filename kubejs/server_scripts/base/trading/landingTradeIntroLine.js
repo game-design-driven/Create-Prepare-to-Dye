@@ -1069,6 +1069,7 @@ const bfsiKillWill = getAgreement("bfsiKillWill", {
     "64x minecraft:red_dye",
     "64x minecraft:red_dye",
     "64x minecraft:red_dye",
+    "64x minecraft:red_dye",
   ],
   title: "Kill Will needs some special effects",
   orderedAmount: 4,
@@ -1084,6 +1085,9 @@ const bfsiKillWillAct2 = getAgreement("bfsiKillWillAct2", {
     "minecraft:painting",
   ],
   requestedItems: [
+    "64x minecraft:red_dye",
+    "64x minecraft:red_dye",
+    "64x minecraft:red_dye",
     "64x minecraft:red_dye",
     "64x minecraft:red_dye",
     "64x minecraft:red_dye",
