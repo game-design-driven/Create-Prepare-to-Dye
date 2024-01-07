@@ -710,6 +710,10 @@ const sssArmor = getAgreement("sssArmor", {
 });
 const sssAssaultContinues = getAgreement("sssAssaultContinues", {
   paymentItems: [
+    "8x emerald",
+    "32x wheat",
+    "32x minecraft:oak_planks",
+    "16x supplementaries:ash",
     Item.of("easy_villagers:villager").withName("Prisoner of war").withCount(4),
   ],
   requestedItems: [
