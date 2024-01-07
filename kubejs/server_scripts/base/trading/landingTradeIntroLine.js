@@ -1905,24 +1905,24 @@ tradeBranch([dddNetherBlazeFixed], dddNether);
 tradeBranch([dddDungeon2, pAgainstAdventurers], dddDungeon);
 tradeBranch([pAdventurersFoundMe], pAgainstAdventurers);
 tradeBranch([pHoneyFixed], pAdventurersFoundMe);
-tradeBranch([dddDungeonFixed, dddNecromancer], dddDungeon2);
-tradeBranch(
-  [dddDungeonFixed, dddNecromancerIsPrincess],
-  [
-    dddDungeon2,
-    {
-      completedItem: Item.of(
-        "minecraft:paper",
-        '{RepairCost:0,display:{Name:\'{"text":"The princess is the necromancer!"}\'}}'
-      ),
-    },
-  ]
-);
+tradeBranch([dddNecromancer], dddDungeon2);
+tradeBranch(dddNecromancerIsPrincess, [
+  dddDungeon2,
+  {
+    completedItem: Item.of(
+      "minecraft:paper",
+      '{RepairCost:0,display:{Name:\'{"text":"The princess is the necromancer!"}\'}}'
+    ),
+  },
+]);
+tradeBranch(dddDungeonFixed, dddNecromancerIsPrincess);
+tradeBranch(dddDungeonFixed, dddNecromancer);
 tradeBranch([sssHelmetsFixedRates, sssBows], sssHelmets);
 tradeBranch([sssArrows], sssBows);
 tradeBranch([sssArmor, vHelp], sssArrows);
 tradeBranch([sssFinalAssault], sssArmor);
 tradeBranch([vHelp2], [vHelp, { completedItem: sssArmor.item }]);
+tradeBranch(vHelp3, vHelp2)
 tradeBranch(
   [vHelpWhileHelpingOtherSide, sssAssaultContinues],
   [vHelp, sssArmor]
