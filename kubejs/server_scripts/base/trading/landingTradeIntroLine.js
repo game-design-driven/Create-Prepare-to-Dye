@@ -293,18 +293,20 @@ const bnwManasteelFixedRates = getAgreement("bnwManasteelFixedRates", {
     "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with electronics, you can supply us with this new material",
 });
 const bnwManasteelFixedRates2 = getAgreement("bnwManasteelFixedRates2", {
-  paymentItems: [
-    Item.of(
-      "ae2:energy_cell",
-      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
-    ),
+  paymentItems: ["32x ptdye:logic_device"],
+  requestedItems: [
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
   ],
-  requestedItems: ["64x botania:manasteel_ingot"],
-  title: "Fixed rates Blue > Cells",
+  title: "Fixed rates Blue > Logic Device",
   orderedAmount: 0,
   company: "boards_and_wires",
   message:
-    "If you prefer we pay in batteries, we are more than happy to. Just get us more of the blue stuff",
+    "If you prefer we pay in electronics, we are more than happy to. Just get us more of the blue stuff",
 });
 const bnwQuartz = getAgreement("bnwQuartz", {
   paymentItems: [
