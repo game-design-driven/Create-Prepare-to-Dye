@@ -1,0 +1,8 @@
+### [1.203.17](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.16...1.203.17) (2024-01-07)
+
+
+### Fixes
+
+* stacksize of cakes 16 -> 64 ([50cebab](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50cebab11330cd1ac4f02a51d1c4b2b5853038dd))
+
+
