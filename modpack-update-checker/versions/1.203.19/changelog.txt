@@ -1,0 +1,11 @@
+### [1.203.19](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.18...1.203.19) (2024-01-07)
+
+
+### Developer experience improvments and changes
+
+* adds update script for server ([39f3d0b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/39f3d0b29f6ede030ada6f79b1ddd3c4f28776c2))
+* adds update script for server ([#480](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/480)) ([c0b8cac](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c0b8cacac55a6af65e166a80f135d47b3cd380fe))
+* removes no directory error in update script ([bf23602](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bf23602ce6c14cc4d7775c9619a186737c109d4d))
+* update server readme ([d8d7c40](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d8d7c40f71d69ecdbf2c7eccd603c8e9dbd98994))
+
+
