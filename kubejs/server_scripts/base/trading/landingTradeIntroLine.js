@@ -1325,8 +1325,8 @@ const drgDrinksFixed = getAgreement("drgDrinksFixed", {
   requestedItems: [
     Item.of("minecraft:potion", '{Potion:"minecraft:poison"}').withCount(16),
   ],
-  title: "Drinks required to sate dwarves",
-  orderedAmount: 1,
+  title: "Drinks fixed rates!",
+  orderedAmount: 0,
   company: "DRG",
   message:
     "HQ is happy with your drinks, seems that the dwarves are pleased too. Those who did not pass out that is",
