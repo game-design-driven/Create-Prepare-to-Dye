@@ -1579,6 +1579,8 @@ const dddExploringAncientRuins = getAgreement("dddExploringAncientRuins", {
     "64x minecraft:torch",
     "64x minecraft:torch",
     "64x minecraft:torch",
+    "64x minecraft:torch",
+    "64x minecraft:torch",
   ],
   title: "Exploring ancient ruins",
   orderedAmount: 3,
@@ -1596,6 +1598,7 @@ const dddNether = getAgreement("dddNether", {
     ).withName("Nether Planet Loot"),
   ],
   requestedItems: [
+    "64x cobblestone",
     "64x cobblestone",
     "64x cobblestone",
     "64x cobblestone",
@@ -1648,7 +1651,7 @@ const dddDungeon = getAgreement("dddDungeon", {
       '{BlockEntityTag:{LootTable:"minecraft:chests/simple_dungeon"}}'
     ).withName("Dungeon loot"),
   ],
-  requestedItems: ["64x arrow"],
+  requestedItems: ["64x arrow", "64x arrow", "64x arrow"],
   title: "Dungeon Delving",
   orderedAmount: 3,
   company: "Dungeon Delving Dave",
@@ -1664,7 +1667,12 @@ const dddDungeon2 = getAgreement("dddDungeon2", {
       '{BlockEntityTag:{LootTable:"minecraft:chests/simple_dungeon"}}'
     ).withName("Dungeon loot"),
   ],
-  requestedItems: ["5x #forge:tools/swords", "5x #forge:armors/helmets"],
+  requestedItems: [
+    "15x #forge:tools/swords",
+    "15x #forge:armors/helmets",
+    "64x arrow",
+    "64x arrow",
+  ],
   title: "Deeper into the dungeon",
   orderedAmount: 2,
   company: "Dungeon Delving Dave",
