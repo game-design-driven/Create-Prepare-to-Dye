@@ -1,6 +1,6 @@
 name = "Ptdye Plus"
 filename = "ptdyeplus-1.0.4+forge-1.19.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/ikDjkgLu/versions/r9cq4FVV/ptdyeplus-1.0.4%2Bforge-1.19.2.jar"
