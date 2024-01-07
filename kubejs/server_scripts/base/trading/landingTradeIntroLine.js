@@ -290,7 +290,7 @@ const bnwManasteelFixedRates = getAgreement("bnwManasteelFixedRates", {
   orderedAmount: 0,
   company: "boards_and_wires",
   message:
-    "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
+    "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with electronics, you can supply us with this new material",
 });
 const bnwManasteelFixedRates2 = getAgreement("bnwManasteelFixedRates2", {
   paymentItems: [
