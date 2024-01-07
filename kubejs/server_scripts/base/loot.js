@@ -95,5 +95,20 @@ if (feature('Remove flax seed from all loottables')) {
   LootJS.modifiers((event) => {
     event.removeGlobalModifier("@supplementaries");
   });
-  
+}
+
+if (feature('Remove white ingot from lootables')) {
+  LootJS.modifiers(event =>{
+    event.addEntityLootModifier("minecraft:zombie").removeLoot("minecraft:iron_ingot")
+    event.addEntityLootModifier("minecraft:zombie_villager").removeLoot("minecraft:iron_ingot")
+    event.addEntityLootModifier("minecraft:husk").removeLoot("minecraft:iron_ingot")
+    event.addEntityLootModifier("minecraft:drowned").removeLoot("minecraft:iron_ingot")
+    event.addLootTypeModifier(LootType.CHEST).removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/abandoned_mineshaft").removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/desert_pyramid").removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/jungle_temple").removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/stronghold_corridor").removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/stronghold_crossing").removeLoot("minecraft:iron_ingot")
+    // event.addLootTypeModifier("minecraft:chests/stronghold_library").removeLoot("minecraft:iron_ingot")
+  })
 }
