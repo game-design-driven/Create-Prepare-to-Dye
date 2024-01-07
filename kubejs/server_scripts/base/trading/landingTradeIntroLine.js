@@ -1708,9 +1708,14 @@ const dddNecromancer = getAgreement("dddNecromancer", {
       '{BlockEntityTag:{LootTable:"minecraft:chests/ancient_city"}}'
     ).withName("Boss loot"),
   ],
-  requestedItems: ["64x arrow", Item.of("netherite_sword").withCount(5)],
+  requestedItems: [
+    "64x arrow",
+    "64x arrow",
+    "64x arrow",
+    Item.of("netherite_sword").withCount(15),
+  ],
   title: "Found the Necromancer!",
-  orderedAmount: 1,
+  orderedAmount: 4,
   company: "Dungeon Delving Dave",
   message:
     "We found the necromancer! It is time to fight! After me! For glory and riches! And the princess!",
@@ -1727,7 +1732,14 @@ const dddNecromancerIsPrincess = getAgreement("dddNecromancerIsPrincess", {
     "64x minecraft:gold_ingot",
     "64x minecraft:gold_ingot",
   ],
-  requestedItems: ["64x arrow", "lead", "supplementaries:cage"],
+  requestedItems: [
+    "64x arrow",
+    "64x arrow",
+    "64x arrow",
+    "lead",
+    "supplementaries:cage",
+    dddNecromancer.item,
+  ],
   title: "The Necromancer is the princess!? ",
   orderedAmount: 1,
   company: "Dungeon Delving Dave",
@@ -1745,12 +1757,12 @@ const pAgainstAdventurers = getAgreement("pAgainstAdventurers", {
     ),
     dddDungeon2.item,
   ],
-  requestedItems: ["32x create:mechanical_saw"],
+  requestedItems: [dddDungeon2.item, "32x create:mechanical_saw"],
   title: "Need materials for traps",
   orderedAmount: 1,
   company: "Princess Avarusa",
   message:
-    "Hello, my name is Princess Avarusa, I managed to track this place down with blood and tears and I thought my army of undead would be enough to protect it. If you help me deal with the adventurers, I will share some of the rare minerals found here, including from the rare Honey deposit",
+    "Hello, my name is Princess Avarusa, I managed to track this place down with blood and tears and I thought my army of undead would be enough to protect it. If you help me instead of the adventurers, I will the rare minerals found here, including from the Honey deposit",
 });
 
 const pAdventurersFoundMe = getAgreement("pAdventurersFoundMe", {
