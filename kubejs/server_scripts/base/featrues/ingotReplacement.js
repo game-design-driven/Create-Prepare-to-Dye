@@ -29,6 +29,9 @@ if (feature("Gold is 4 nuggets")) {
 
 //*
 if (feature("Replace white ingot with white plate directly")) {
+  removeItem("minecraft:iron_ingot");
+
+
   removeFromTag("forge:ingots/iron", "minecraft:iron_ingot");
   removeFromTag("balm:iron_ingots", "minecraft:iron_ingot");
   removeFromTag("minecraft:beacon_payment_items", "minecraft:iron_ingot");
@@ -50,7 +53,7 @@ if (feature("Replace white ingot with white plate directly")) {
   addCompacting("create:iron_sheet", "6x minecraft:iron_nugget");
   
   removeRecipe({ id: "minecraft:iron_nugget" });
-  addShapeless("6x minecraft:iron_nugget", "minecraft:iron_ingot");
+  addShapeless("6x minecraft:iron_nugget", "#forge:ingots/iron");
   ServerEvents.recipes((event) =>
     event
       .shapeless("create:iron_sheet", "minecraft:iron_ingot")
