@@ -1,0 +1,8 @@
+### [1.203.15](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.14...1.203.15) (2024-01-07)
+
+
+### Fixes
+
+* remove flax and white ingot from loottables ([78ef435](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/78ef4356abebf5ef2b3da952e8d18bcb2742aa2e))
+
+

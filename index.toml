@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "14a8b0796fba2de8b84f34a10c3e46f8c8ffa49299127016f631c9920633ef32"
+hash = "4148069e0bc9d987bbbd3dbc7ec037952b023807ffe1cb630ce68f9c7ff86bde"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -758,7 +758,7 @@ hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "262f22933620ca3de12a70f13eea6eb16d3f1f8dd553fd84b8f6984ec3854c3d"
+hash = "56278a7bb90a4bcd26929d00cd78046c96abcd4ceb20f9d27a8b52003782c1f3"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/brass_diode_base.png"
@@ -814,7 +814,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "e453335b68d77aab8c820b1dc8fcb159a09fb09fa4567a5c7541390e9ecc8ac8"
+hash = "dc1362b31c870a92c940414aa87ba95316af09f0ec0028e388b088bc192cced4"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "02f0637f9358e5059a9d85ee92c2dcfb70c434031dda67c42302857b10772f6d"
+hash = "124ab60c6500e3a2e9fc21f471e0e3f54ecf02b0517d4e1819e3af349b50d31e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4769,8 +4769,100 @@ file = "kubejs/data/salt/worldgen/biome_modifier/add_rock_salt_deposit.json"
 hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/ash_from_burning_mobs.json"
+hash = "3453aca4151d11583b45db3178b79420327669346a5116ef1f8d97ee5905b1eb"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/fishing_antique_ink.json"
+hash = "8c594706cd2f9a5a8da6012f26b48a1c9ccafbc1607458d2c55d0ddba3104e81"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/fishing_antique_ink_treasure.json"
+hash = "ad1c3a63c38bbcc8d7f65ebacbbcf85bfd0cc9a5208d2bfdb6eac465a4526062"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_blue_bomb.json"
+hash = "e24b12243a0d11da0661412e64cca222a4cdd7dc11b81e2bfe8c09c3d3af4fb4"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_flax.json"
+hash = "1a1e992cee959d30af23dfbd871c7762b67c1179f4d8f014da2785079541140e"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_quiver.json"
+hash = "caba0efa1b01981e49a33e3a45191b7392c7e690fb0b06df1eac90d90ff6e0b1"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/end_city_stasis.json"
+hash = "bb79fbed692e18fff77efc82894e80f502bb0c00a67c34963d6f82c8dc465fe1"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fishing_treasure_antique_ink.json"
+hash = "9b3b9aa7d517915c50d5fe91031081839e142923d9de20bd14ade0f60fa7f529"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_blue_bomb.json"
+hash = "9b21ef23aa601b69407bd6eca04169de98d1ec756da61a9674cc7948ee8a1e70"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_bomb.json"
+hash = "7981b0777a39838d7918091fbeffdb8bdc91fdf50ff9f2130c5417c5146ed1fd"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mansion_quiver.json"
+hash = "57c9827ece99c2526705c2f767a7a3f204277ee7b1523bc040695f1a7a2a16d6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_blue_bomb.json"
+hash = "ba8175fa095ad55bf11e82507ce276239fb31680135e7cd5758d9e08533c8f2d"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_bomb.json"
+hash = "191863b5d35064786ed495397af2ed6fbdaa582c7381af2cedc931ffd2fbb46d"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_flax.json"
+hash = "b82a52fdcfb46959d7fe61968597e2151fd40a9317472e564ebcaff21c44cd1e"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_rope.json"
+hash = "206f67ada2b76c448b604cded03d846ed99199ebc9e78e1d9594304ad0b27b1a"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/pillager_flax.json"
+hash = "3af03ec2542e8de221d05dda9cea2462019fd8bc990262a46f50d824b7dfe913"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_storage_flax.json"
+hash = "8ac4bace40f1ebaa3b1d65b689186bed22fda8947d84d5e18e16bd2b3233bae6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_treasure_globe.json"
+hash = "fff972d868594dbe0b337155270c00f21ebb565159770b7d564ae56a3399430c"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_blue_bomb.json"
+hash = "2454a05382bfeef3059aca9253d901df0c7307029279baec4e16a9cbbacbc615"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_bomb.json"
+hash = "380237fbae9de64b84ac359ce895fd879809246f00ec8ff37ed374f9bf9466d8"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_blue_bomb.json"
+hash = "be8e7199b5b7bd151544370793dd21dcc0a72977ebe5035787266e80de46cc51"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_bomb.json"
+hash = "193c7502353498f6495a8a73e66dd2419e5df704764c9150d52e728d597541b6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_spikes.json"
+hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
+
+[[files]]
 file = "kubejs/features.json"
-hash = "636039e87b2e37de5c9de5345c14b8e6c613da6357cda44d185b829a34400b02"
+hash = "a30498233c81402425f178f28213e684d9b365da4b59e72ca04cc1ac594ed0e2"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4970,7 +5062,7 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "864aad1332924a13cf357db9ef1fb60cc07c650be7cf348cc78b3ab04c21990f"
+hash = "3585cdaef6f714e1e2bed502b6b5be33c08392909e2dbaa51d8de194d2989b9c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -5070,7 +5162,7 @@ hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "203ef690252fde181e8d6786ed013add3e15ee9dda5fb07466ac03444dde81be"
+hash = "c65c3ddd52c71bccc8e6f4b6c3f62296edf4172477408c8f37e2cbfc5b9cf470"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5170,7 +5262,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "28c5c2580a8db88d22e7d63ad26d0955770c33d2bb8222fc393a2e52d0eab3c1"
+hash = "a48f22875a733f0ebf5abb303753c1a3810bca7c5006c2ad3d3d90dbff5a5164"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -5194,7 +5286,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c5f88a7f72d44ebf5bba48e1f33cc4cceacf9cfac73f624c93d94ec3061b6608"
+hash = "8b2994f8643b7e056526edcd80c7497f67169680e69364aa897a7d370a03d03f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6711,6 +6803,22 @@ hash = "cf9182770dfa72014d643f5ecba3e8911569e759caed72314d22d2a9015b0435"
 [[files]]
 file = "modpack-update-checker/versions/1.203.14/changelog.txt"
 hash = "e50c3719c61e50b8ce77fd0ba22bc88ed46ff407915d2ca2d9931fd9fffe4699"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.15/changelog.txt"
+hash = "a18730f56d111fdd99d6968ccd3be1055a4a225deceb9509dd342351f35606f0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.16/changelog.txt"
+hash = "2df5fb5f0aa58f4c7d3533f73d13fdb2224e6f6ea068f8ca4114258e2a5f1df9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.17/changelog.txt"
+hash = "687760f8270cbbff1e761df97387757966287572adb15e605777ea146bfce022"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.18/changelog.txt"
+hash = "494120f832c43de452303db6d8a9959b6a8c9d025db878fa71acf3cf5d813f0b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.203.2/changelog.txt"

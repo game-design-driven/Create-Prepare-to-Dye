@@ -282,5 +282,6 @@
 	"Cage can capture pigs": true,
 	"Tooltips for disabled items": true,
 	"Tooltips for food nutrition and saturation": true,
-	"Burn Time tooltips": true
+	"Burn Time tooltips": true,
+	"Remove white ingot from lootables": true
 }

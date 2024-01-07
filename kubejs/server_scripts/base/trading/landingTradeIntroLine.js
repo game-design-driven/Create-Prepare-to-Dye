@@ -290,21 +290,23 @@ const bnwManasteelFixedRates = getAgreement("bnwManasteelFixedRates", {
   orderedAmount: 0,
   company: "boards_and_wires",
   message:
-    "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with energy cells, you can supply us with this new material",
+    "Well, well, seems that this blue stuff is working really well for us, we are going to need a lot more, lets fix our rates, we can supply you with electronics, you can supply us with this new material",
 });
 const bnwManasteelFixedRates2 = getAgreement("bnwManasteelFixedRates2", {
-  paymentItems: [
-    Item.of(
-      "ae2:energy_cell",
-      "{internalCurrentPower:200000.0d,internalMaxPower:200000.0d}"
-    ),
+  paymentItems: ["32x ptdye:logic_device"],
+  requestedItems: [
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
+    "64x botania:manasteel_ingot",
   ],
-  requestedItems: ["64x botania:manasteel_ingot"],
-  title: "Fixed rates Blue > Cells",
+  title: "Fixed rates Blue > Logic Device",
   orderedAmount: 0,
   company: "boards_and_wires",
   message:
-    "If you prefer we pay in batteries, we are more than happy to. Just get us more of the blue stuff",
+    "If you prefer we pay in electronics, we are more than happy to. Just get us more of the blue stuff",
 });
 const bnwQuartz = getAgreement("bnwQuartz", {
   paymentItems: [
@@ -1473,8 +1475,6 @@ const jsfSquids = getAgreement("jsfSquids", {
     "We need some buckets, we are running low on them, we will pay you in some of our special squid, only our squids are this black, and plastic content is guaranteed to be lower than the average sampled squid from the market",
 });
 
-
-
 const jsfFishingFixed = getAgreement("jsfFishingFixed", {
   paymentItems: [
     Item.of(
@@ -1534,7 +1534,11 @@ const jsfSquidsFixed = getAgreement("jsfSquidsFixed", {
       '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:squid"},Name:"Squid"}}}'
     ),
   ],
-  requestedItems: ["16x minecraft:bucket","16x minecraft:bucket","16x minecraft:bucket"],
+  requestedItems: [
+    "16x minecraft:bucket",
+    "16x minecraft:bucket",
+    "16x minecraft:bucket",
+  ],
   title: "Squids fixed rates",
   orderedAmount: 0,
   company: "Jaspers Seafood Emporium",
@@ -1570,7 +1574,14 @@ const dddNether = getAgreement("dddNether", {
       '{BlockEntityTag:{LootTable:"minecraft:chests/nether_bridge"}}'
     ).withName("Nether Planet Loot"),
   ],
-  requestedItems: ["64x cobblestone", "64x cobblestone", "64x cobblestone", Item.of('minecraft:enchanted_book').enchant('minecraft:fire_protection', 2).withCount(8)],
+  requestedItems: [
+    "64x cobblestone",
+    "64x cobblestone",
+    "64x cobblestone",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 2)
+      .withCount(8),
+  ],
   title: "Nether Planet Expedition",
   orderedAmount: 10,
   company: "Dungeon Delving Dave",
@@ -1597,7 +1608,11 @@ const dddNetherBlazeFixed = getAgreement("dddNetherBlazeFixed", {
       '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:blaze"},Name:"Blaze"}}}'
     ),
   ],
-  requestedItems: [Item.of('minecraft:enchanted_book').enchant('minecraft:fire_protection', 2).withCount(4)],
+  requestedItems: [
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 2)
+      .withCount(4),
+  ],
   title: "Nether Planet Blaze Exploitation",
   orderedAmount: 0,
   company: "Dungeon Delving Dave",
@@ -1699,7 +1714,7 @@ const pAgainstAdventurers = getAgreement("pAgainstAdventurers", {
       "createdieselgenerators:canister",
       '{BlockEntityTag:{Tanks:[{Level:{Speed:0.25f,Target:1.0f,Value:1.0f},TankContent:{Amount:8000,FluidName:"create:honey"}}]}}'
     ),
-    dddDungeon2.item
+    dddDungeon2.item,
   ],
   requestedItems: ["32x create:mechanical_saw"],
   title: "Need materials for traps",
@@ -1801,9 +1816,6 @@ const pHoneyFixed = getAgreement("pHoneyFixed", {
     "Finally, we can excavate in peace! This was exhausting. Well, anyhow, a deal is a deal. I will pay you in honey in return for more undead to boost my ranks, it is a rare deposit, I hope you can make good use of it",
 });
 
-
-
-
 global.starterDeals = [mlcSand];
 // global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
 tradeBranch([cccRawWhite, bhbCheese, bfsiZombies], [mlcSand]);
@@ -1826,16 +1838,18 @@ tradeBranch(
 );
 tradeBranch(
   [bfsiChickenInvadersFixedRates, bfsiKillWillAct2],
-  [bfsiChickenInvaders, bfsiKillWill]
+  [bfsiKillWill]
 );
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
-tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
-tradeBranch([bnwManasteelFixedRates2], bnwQuartz);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes, mlcSand2], //The next trades in line
+  [bnwCogs, bnwQuartz, bnwManasteelFixedRates2],
+  [bnwManasteel, bfcPickaxes]
+);
+tradeBranch(
+  [bfcPlatesPermanent, bfcPickaxes, bfcHelmets, mlcSand2], //The next trades in line
   [bcfPlates2] //The trades that need to be completed and process for that
 );
 tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
@@ -1912,6 +1926,7 @@ tradeBranch(
 );
 tradeBranch([qubeBetterGlassFixed], qubeBetterGlass);
 tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
+tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwCogs, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
 tradeBranch([drgPickaxes, drgDrinksFixed, drgSpecialDrinks], [drgDrinks]);
 tradeBranch([drgSpecialDrinksFixed], drgSpecialDrinks);
@@ -1923,10 +1938,7 @@ tradeBranch(
 
 if (feature("Debug commands for trade related things")) {
   ServerEvents.commandRegistry((event) => {
-    const {
-      commands: Commands,
-      arguments: Arguments,
-    } = event;
+    const { commands: Commands, arguments: Arguments } = event;
     event.register(
       Commands.literal("starterDeals").executes((context) => {
         global.starterDeals.forEach((deal) =>

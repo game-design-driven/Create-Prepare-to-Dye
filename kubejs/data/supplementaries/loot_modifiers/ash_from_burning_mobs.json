@@ -1,0 +1,47 @@
+{
+  "type": "moonlight:add_item",
+  "conditions": [
+    {
+      "condition": "moonlight:iconditions",
+      "values": [
+        {
+          "type": "supplementaries:flag",
+          "flag": "ash"
+        }
+      ]
+    },
+    {
+      "condition": "damage_source_properties",
+      "predicate": {
+        "is_fire": true
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.8
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "#supplementaries:ash_blacklist"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_fire": true
+        }
+      }
+    }
+  ],
+  "item": {
+    "id": "supplementaries:ash",
+    "Count": 1
+  }
+}

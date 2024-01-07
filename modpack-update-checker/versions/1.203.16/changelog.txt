@@ -1,0 +1,8 @@
+### [1.203.16](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.15...1.203.16) (2024-01-07)
+
+
+### Fixes
+
+* cake and fishing rods stacksize is 1 which prevets some trades form working ([a96c41d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a96c41dd9455a31af958002b9e3f9ddd085b835e))
+
+
