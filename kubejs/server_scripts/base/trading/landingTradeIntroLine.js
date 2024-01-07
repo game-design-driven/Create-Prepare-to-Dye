@@ -1475,8 +1475,6 @@ const jsfSquids = getAgreement("jsfSquids", {
     "We need some buckets, we are running low on them, we will pay you in some of our special squid, only our squids are this black, and plastic content is guaranteed to be lower than the average sampled squid from the market",
 });
 
-
-
 const jsfFishingFixed = getAgreement("jsfFishingFixed", {
   paymentItems: [
     Item.of(
@@ -1536,7 +1534,11 @@ const jsfSquidsFixed = getAgreement("jsfSquidsFixed", {
       '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:squid"},Name:"Squid"}}}'
     ),
   ],
-  requestedItems: ["16x minecraft:bucket","16x minecraft:bucket","16x minecraft:bucket"],
+  requestedItems: [
+    "16x minecraft:bucket",
+    "16x minecraft:bucket",
+    "16x minecraft:bucket",
+  ],
   title: "Squids fixed rates",
   orderedAmount: 0,
   company: "Jaspers Seafood Emporium",
@@ -1572,7 +1574,14 @@ const dddNether = getAgreement("dddNether", {
       '{BlockEntityTag:{LootTable:"minecraft:chests/nether_bridge"}}'
     ).withName("Nether Planet Loot"),
   ],
-  requestedItems: ["64x cobblestone", "64x cobblestone", "64x cobblestone", Item.of('minecraft:enchanted_book').enchant('minecraft:fire_protection', 2).withCount(8)],
+  requestedItems: [
+    "64x cobblestone",
+    "64x cobblestone",
+    "64x cobblestone",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 2)
+      .withCount(8),
+  ],
   title: "Nether Planet Expedition",
   orderedAmount: 10,
   company: "Dungeon Delving Dave",
@@ -1599,7 +1608,11 @@ const dddNetherBlazeFixed = getAgreement("dddNetherBlazeFixed", {
       '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:blaze"},Name:"Blaze"}}}'
     ),
   ],
-  requestedItems: [Item.of('minecraft:enchanted_book').enchant('minecraft:fire_protection', 2).withCount(4)],
+  requestedItems: [
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 2)
+      .withCount(4),
+  ],
   title: "Nether Planet Blaze Exploitation",
   orderedAmount: 0,
   company: "Dungeon Delving Dave",
@@ -1701,7 +1714,7 @@ const pAgainstAdventurers = getAgreement("pAgainstAdventurers", {
       "createdieselgenerators:canister",
       '{BlockEntityTag:{Tanks:[{Level:{Speed:0.25f,Target:1.0f,Value:1.0f},TankContent:{Amount:8000,FluidName:"create:honey"}}]}}'
     ),
-    dddDungeon2.item
+    dddDungeon2.item,
   ],
   requestedItems: ["32x create:mechanical_saw"],
   title: "Need materials for traps",
@@ -1803,9 +1816,6 @@ const pHoneyFixed = getAgreement("pHoneyFixed", {
     "Finally, we can excavate in peace! This was exhausting. Well, anyhow, a deal is a deal. I will pay you in honey in return for more undead to boost my ranks, it is a rare deposit, I hope you can make good use of it",
 });
 
-
-
-
 global.starterDeals = [mlcSand];
 // global.starterDeals = [cccRawWhite, mlcSand, bhbCheese];
 tradeBranch([cccRawWhite, bhbCheese, bfsiZombies], [mlcSand]);
@@ -1828,7 +1838,7 @@ tradeBranch(
 );
 tradeBranch(
   [bfsiChickenInvadersFixedRates, bfsiKillWillAct2],
-  [bfsiChickenInvaders, bfsiKillWill]
+  [bfsiKillWill]
 );
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
