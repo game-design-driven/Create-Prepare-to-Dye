@@ -695,7 +695,7 @@ const sssArrows = getAgreement("sssArrows", {
     "It is crucial for our brave warriors to not only be equipped with the finest weaponry, but also with the ammunition to use those with. We need arrows, and I trust that your donations to the cause will not stop with the bows you have already provided. We have already achieved great things thanks to your help",
 });
 const sssArmor = getAgreement("sssArmor", {
-  paymentItems: ["air"],
+  paymentItems: ["64x emerald", "64x wheat", "64x minecraft:oak_planks", "32x supplementaries:ash"],
   requestedItems: [
     "16 botania:manasteel_helmet",
     "16 botania:manasteel_chestplate",
