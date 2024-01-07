@@ -1926,6 +1926,7 @@ tradeBranch(
 );
 tradeBranch([qubeBetterGlassFixed], qubeBetterGlass);
 tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwQuartz, gbdSticks]);
+tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwCogs, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
 tradeBranch([drgPickaxes, drgDrinksFixed, drgSpecialDrinks], [drgDrinks]);
 tradeBranch([drgSpecialDrinksFixed], drgSpecialDrinks);
@@ -1937,10 +1938,7 @@ tradeBranch(
 
 if (feature("Debug commands for trade related things")) {
   ServerEvents.commandRegistry((event) => {
-    const {
-      commands: Commands,
-      arguments: Arguments,
-    } = event;
+    const { commands: Commands, arguments: Arguments } = event;
     event.register(
       Commands.literal("starterDeals").executes((context) => {
         global.starterDeals.forEach((deal) =>
