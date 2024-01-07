@@ -986,7 +986,7 @@ const bfsiChickenInvaders = getAgreement("bfsiChickenInvadors", {
     "32x minecraft:gold_ingot",
     "16x botania:manasteel_ingot",
     "10x create:cogwheel",
-    "10x minecraft:soulsand",
+    "10x minecraft:soul_sand",
   ],
   requestedItems: [
     Item.of(
