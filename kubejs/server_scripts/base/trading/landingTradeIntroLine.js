@@ -697,10 +697,10 @@ const sssArrows = getAgreement("sssArrows", {
 const sssArmor = getAgreement("sssArmor", {
   paymentItems: ["64x emerald", "64x wheat", "64x minecraft:oak_planks", "32x supplementaries:ash"],
   requestedItems: [
-    "16 botania:manasteel_helmet",
-    "16 botania:manasteel_chestplate",
-    "16 botania:manasteel_helmet",
-    "16 botania:manasteel_chestplate",
+    "16x botania:manasteel_helmet",
+    "16x botania:manasteel_chestplate",
+    "16x botania:manasteel_helmet",
+    "16x botania:manasteel_chestplate",
   ],
   title: "The fight for justice continues, and more protection is needed!",
   orderedAmount: 2,
