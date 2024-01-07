@@ -732,7 +732,12 @@ const sssAssaultContinues = getAgreement("sssAssaultContinues", {
 });
 const sssFinalAssault = getAgreement("sssFinalAssault", {
   paymentItems: [
-    Item.of("easy_villagers:villager").withName("Prisoner of war").withCount(4),
+    "8x emerald",
+    "32x wheat",
+    "64x red_dye",
+    "32x minecraft:oak_planks",
+    "32x supplementaries:ash",
+    Item.of("easy_villagers:villager").withName("Prisoner of war").withCount(2),
   ],
   requestedItems: [
     "16x botania:manasteel_helmet",
