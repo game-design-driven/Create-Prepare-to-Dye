@@ -1,0 +1,8 @@
+### [1.203.20](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.19...1.203.20) (2024-01-07)
+
+
+### Documentation and Localization
+
+* fix: wrench tooltip ([aee1f7f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aee1f7f6ed9ab3c44bd9087e9f86ec869a55bcb4))
+
+
