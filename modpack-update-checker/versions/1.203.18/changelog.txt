@@ -1,0 +1,20 @@
+### [1.203.18](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.203.17...1.203.18) (2024-01-07)
+
+
+### Minor tweaks
+
+* add another branch for gdb people who are friends with gdb and bnw that uses a different bnw trade to avoid possible confusion ([d483273](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d48327301ad28ca1c018c801f66538aa4142b41f))
+
+
+### Fixes
+
+* depency issue between    [bfsiChickenInvaders, bfsiKillWill]   [bfsiKillWill] ([b14d79f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b14d79f469af38490cdbc18872a2d98323947562))
+* dependecny issue with bnw and bfc interactions. Also simplified it for more clarity ([5043b05](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5043b051f0ee23ac0a11c42dc5f73521d58c905c))
+* the improved fixed trade for manasteel was giving battaries isntead of devices ([877755b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/877755bb7a1252c2304b8b54ca561751f8db06ae))
+
+
+### Developer experience improvments and changes
+
+* add minecart to dict ([0a80782](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0a80782e18d1441f51f97b0bfeb7090db9b180c2))
+
+
