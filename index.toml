@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "feb78ed70664ee68ae8fa5754ca5953e55fa42bc59a7e37e28400d8b9d6fe124"
+hash = "6656ed7ab1284de65d423dad58fb7b6913bbc6c57a5b677d9ec628ecc94de6ce"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -814,7 +814,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "dc1362b31c870a92c940414aa87ba95316af09f0ec0028e388b088bc192cced4"
+hash = "fcaf57c4915c2230cc888bbf6636d95a32de76d15d466c04d6d76857dda6b2b0"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -3014,7 +3014,7 @@ hash = "1aa2f733711cd09d655026a238ebd359e7694091bedd0c2a2c47ce395b99d7e4"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
+hash = "fe70c9a6604fb977b5bfc3baee71644fa48b96b7b07ebdbe096672ec716abc0f"
 
 [[files]]
 file = "kubejs/assets/ptdye/blockstates/botanic_device.json"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1771e33cbb8d316567bc7952f08e90387e288aa081427dbe9b293b43ad9d3987"
+hash = "07c44c8f6e0829e4d543d8da78da821dd9288806bbf49e8fda2c87abcce435aa"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4305,6 +4305,10 @@ file = "kubejs/data/ptd/advancements/trade/bfsiadaptingtaste2.json"
 hash = "343e9ac5a89a2d43a313eb89a5f2abbfb17ebfe04f81a914c92023d785c064e7"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsiadaptingtastefixed.json"
+hash = "ea440e738b91e79e428fb954c88c716fd7a2aefcf958bd97217ff1cabe3b82ca"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/bfsichickeninvadors.json"
 hash = "b44aaf0effabc76b996354e6ec534a064e777d6abc61d651df2fae254d495c99"
 
@@ -4942,7 +4946,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "979242c5c99f518e69b3ff9674e630c2b199c206e31486acf66e14285636f7f8"
+hash = "e1808b7a1f9004b6567815efab3d29e83473d8258b50996e02f6c2a02ff32658"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -5142,7 +5146,7 @@ hash = "dca420b4e11fd5ac3ff342ce3bab3fd584debfb5da2037c580569492fb3e6b31"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "889b65c93dbdaa154d302a6adfd345965faa337c51fe480414862683623b8f4e"
+hash = "ac774718690fcf49b7aac14bd3b9ea1a05c7df1b7c52c3c59a53f8bb3b91cb68"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -5162,7 +5166,7 @@ hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "c65c3ddd52c71bccc8e6f4b6c3f62296edf4172477408c8f37e2cbfc5b9cf470"
+hash = "6f11285bbefb9369282567245bbc4a47ff793f5f90efe0ab2e0bb90a1b75c4e3"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5286,7 +5290,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ee6d7d12adaa274e0c21f49e7d8031deb9a1316c18ee06809dd37c002ea73d33"
+hash = "67790ef0f6e1c65e7d467d1778793dcdd82cd4ec23418a4c0259d77c316c5148"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6855,6 +6859,10 @@ hash = "20951ad74df6465f8c65d2a7b5aabf456d75df52774e9f0b352c6f6584516dd3"
 [[files]]
 file = "modpack-update-checker/versions/1.203.9/changelog.txt"
 hash = "6a815dd360de8411bf423ff629854f9071b999f80cc4040e0d88366feb183e29"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.1/changelog.txt"
+hash = "b0d83409b3e885c6eb2c8bc5c09c46871b1ae4c8a8030c0ac4094913b7bd5df2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

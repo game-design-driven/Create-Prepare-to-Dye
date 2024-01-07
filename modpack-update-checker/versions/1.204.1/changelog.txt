@@ -1,0 +1,8 @@
+### [1.204.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.0...1.204.1) (2024-01-07)
+
+
+### Fixes
+
+* ingot required for white nuggets instead if ingot tag ([73a4c60](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/73a4c608578c2fb3ec7d1c734f1d612bf8fc2c0a))
+
+
