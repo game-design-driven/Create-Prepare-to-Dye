@@ -137,14 +137,6 @@ function tradeBranch(outputTrades, inputTrades) {
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => trade.completedItem.weakNBT())
     );
-    let noIdHiddenRecipe = e.recipes.create.mixing(
-      outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => {
-        let item = Item.of(trade.completedItem).copy();
-        if (item.nbt) item.nbt.remove("id")
-        return item.weakNBT();
-      })
-    );
     let hiddenUniversalRecipe = e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
