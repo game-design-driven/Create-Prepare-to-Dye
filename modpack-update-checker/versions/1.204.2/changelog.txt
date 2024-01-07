@@ -1,0 +1,12 @@
+### [1.204.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.1...1.204.2) (2024-01-07)
+
+
+### Modlist related changes
+
+* change ptdye-plus side to client ([e2e2b1b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e2e2b1b51f2f156d0079c62ba8083c29300e9642))
+* change ptdye-plus side to client ([#479](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/479)) ([174eb3a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/174eb3acd9198bafccf17b5602b27173dbecc312))
+* update ptdye-plus to 1.2.4 ([7ac1f42](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7ac1f42aaae09cc9b69ee69ad6f79d257740e36a))
+* update ptdye-plus to 1.3.0 ([39a5126](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/39a5126f020cd53502c74823d4cbd2225d773737))
+* update ptdye-plus to 1.3.0 in curseforge ([2c010a5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2c010a5c7c42f4d3a1038b440193b313092801d7))
+
+
