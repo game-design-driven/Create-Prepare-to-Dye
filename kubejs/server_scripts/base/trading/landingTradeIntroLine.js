@@ -681,12 +681,12 @@ const sssBows = getAgreement("sssBows", {
 const sssArrows = getAgreement("sssArrows", {
   paymentItems: ["air"],
   requestedItems: [
-    "64 minecraft:arrow",
-    "64 minecraft:arrow",
-    "64 minecraft:arrow",
-    "64 minecraft:arrow",
-    "64 minecraft:arrow",
-    "64 minecraft:arrow",
+    "64x minecraft:arrow",
+    "64x minecraft:arrow",
+    "64x minecraft:arrow",
+    "64x minecraft:arrow",
+    "64x minecraft:arrow",
+    "64x minecraft:arrow",
   ],
   title: "The syndicate's fight for justice requires ammunition!",
   orderedAmount: 8,
