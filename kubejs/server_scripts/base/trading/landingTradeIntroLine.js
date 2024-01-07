@@ -1940,7 +1940,7 @@ tradeBranch(
   [vHelpWhileHelpingOtherSide, { completedItem: sssAssaultContinues.item }]
 );
 tradeBranch([vProactive], vHelp3);
-tradeBranch([vProactive, vAttack], [vHelp3, sssHelmetsFixedRates]);
+tradeBranch([vProactive, vAttack], [vHelp3, { completedItem: sssHelmetsFixedRates.item }]);
 tradeBranch([vEmpire], [vAttack]);
 
 tradeBranch(sssSlaveSale, sssFinalAssault);
