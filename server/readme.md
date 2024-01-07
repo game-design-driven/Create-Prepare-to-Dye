@@ -9,6 +9,7 @@
 - run the script `start-or-generate-server`
 
 ## To update the server
+- run the script `update-server` or
 - delete the `mods, config, kubejs, defaultconfigs` folders and repeat the steps of starting the server for the first time
 
 ## Port-forwarding the server
