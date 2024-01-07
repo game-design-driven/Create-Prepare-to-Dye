@@ -116,11 +116,18 @@
   "create.ponder.belt_casing.text_1": "Brass or Gray Casing can be used to decorate Mechanical Belts",
   "create.ponder.brass_funnel.text_1": "Funnels can only ever extract single items.",
   "item.create.andesite_alloy": "Gray Alloy Ingot",
-  "item.create.wrench": "Magnetic Wrench",
   "item.create.bar_of_chocolate": "Brown Ingot",
   "item.create.chocolate_bucket": "Bucket Of Brown",
   "block.create.chocolate": "Brown",
   "fluid.create.chocolate": "Liquid Brown",
   "item.create.chocolate_glazed_berries": "Glazed Berries",
-  "block.create.brass_block": "Block of Plated Yellow"
+  "block.create.brass_block": "Block of Plated Yellow",
+  "item.create.wrench": "Magnetic Wrench",
+  "item.create.wrench.tooltip.behaviour1": "_Puts Blocks_ directly into your inventory",
+  "item.create.wrench.tooltip.behaviour2": "_Rotates components_ around the clicked face. _Sneak_ while interacting to _dismantle_ components.",
+  "item.create.wrench.tooltip.behaviour3": "_Relocates_ assembled minecart and train-based contraptions.",
+  "item.create.wrench.tooltip.condition1": "When used to break Blocks",
+  "item.create.wrench.tooltip.condition2": "When used on Blocks",
+  "item.create.wrench.tooltip.condition3": "When used on Contraptions",
+  "item.create.wrench.tooltip.summary": "_Magnetically augmented Multi-purpose tool_ for working with and _breaking_ things from afar and for _manipulating_ your kinetic contraptions."
 }
