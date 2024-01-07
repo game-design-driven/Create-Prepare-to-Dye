@@ -774,7 +774,7 @@ const vHelp = getAgreement("vHelp", {
   orderedAmount: 4,
   company: "villagers",
   message:
-    "Help! We are under attack and are dying out, we need defences, we don't know why they are attacking us but they are strong and they have helmets and weapons, we don't know what to do, please help us!",
+    "Help! We are under attack and are dying out, we need defenses, we don't know why they are attacking us but they are strong and they have helmets and weapons, we don't know what to do, please help us!",
 });
 
 const vHelp2 = getAgreement("vHelp2", {
