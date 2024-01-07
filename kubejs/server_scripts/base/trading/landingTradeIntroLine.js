@@ -856,11 +856,10 @@ const vEmpire = getAgreement("vEmpire", {
 });
 
 const vHelpWhileHelpingOtherSide = getAgreement("vHelpWhileHelpingOtherSide", {
-  paymentItems: ["8x minecraft:emeralds"],
+  paymentItems: ["8x minecraft:emerald"],
   requestedItems: [
     "16x minecraft:iron_block",
     "4x minecraft:pumpkin",
-    sssArmor.item,
   ],
   title: "They are getting stronger! We are barely holding on! Please help!",
   orderedAmount: 4,
