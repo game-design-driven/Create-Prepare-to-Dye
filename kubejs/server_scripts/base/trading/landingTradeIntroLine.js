@@ -1674,7 +1674,7 @@ const dddDungeon2 = getAgreement("dddDungeon2", {
     "64x arrow",
   ],
   title: "Deeper into the dungeon",
-  orderedAmount: 2,
+  orderedAmount: 1,
   company: "Dungeon Delving Dave",
   message:
     "We are going deeper into the dungeon, our equipment is failing us slowly, swords break, armor bent, this is risky business, we need some new equipment, soon. We think we know where the necromancer is",
@@ -1699,12 +1699,12 @@ const dddNecromancer = getAgreement("dddNecromancer", {
   paymentItems: [
     Item.of(
       "minecraft:chest",
-      5,
+      2,
       '{BlockEntityTag:{LootTable:"minecraft:chests/simple_dungeon"}}'
     ).withName("Dungeon loot"),
     Item.of(
       "minecraft:chest",
-      5,
+      2,
       '{BlockEntityTag:{LootTable:"minecraft:chests/ancient_city"}}'
     ).withName("Boss loot"),
   ],
@@ -1864,23 +1864,21 @@ tradeBranch(
   [bfsiZombiesFixedRates, bfsiChickenInvaders, bfsiFeedTheCrew],
   [bfsiZombies]
 );
-tradeBranch([bfsiKillWill, bfsiWastelandClearance], [bfsiChickenInvaders]);
 tradeBranch(
   [bfsiAdaptingTaste, bfsiSoap, bfsiShowerUpgrades],
   [bfsiFeedTheCrew]
 );
 tradeBranch(
   [bfsiSoapFixed, bfsiPigs],
-  [bfsiShowerUpgrades, bfsiSoap, bfsiWastelandClearance]
+  [bfsiShowerUpgrades, bfsiSoap]
 );
-tradeBranch(
-  [bfsiChickenInvadersFixedRates, bfsiAdaptingTaste2],
-  [bfsiChickenInvaders, bfsiAdaptingTaste]
-);
-tradeBranch(
-  [bfsiChickenInvadersFixedRates, bfsiKillWillAct2],
-  [bfsiKillWill]
-);
+tradeBranch(bfsiAdaptingTaste2, bfsiAdaptingTaste);
+tradeBranch(bfsiAdaptingTasteFixed, bfsiAdaptingTaste2);
+tradeBranch([bfsiKillWill, bfsiWastelandClearance], [bfsiChickenInvaders]);
+tradeBranch(bfsiChickenInvadersFixedRates, [
+  bfsiKillWillAct2,
+  bfsiWastelandClearance,
+]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
 tradeBranch(bnwManasteel, bnwRedstone);
