@@ -1844,10 +1844,12 @@ tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
 tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
-tradeBranch([bnwCogs, bnwQuartz], [bnwManasteel, bfcPickaxes]);
-tradeBranch([bnwManasteelFixedRates2], bnwQuartz);
 tradeBranch(
-  [bfcPlatesPermanent, bfcPickaxes, mlcSand2], //The next trades in line
+  [bnwCogs, bnwQuartz, bnwManasteelFixedRates2],
+  [bnwManasteel, bfcPickaxes]
+);
+tradeBranch(
+  [bfcPlatesPermanent, bfcPickaxes, bfcHelmets, mlcSand2], //The next trades in line
   [bcfPlates2] //The trades that need to be completed and process for that
 );
 tradeBranch([mlcEndstoneFixed, mlcSandFixed], mlcSand2);
