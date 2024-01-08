@@ -1,0 +1,8 @@
+### [1.204.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.4...1.204.5) (2024-01-08)
+
+
+### Fixes
+
+* devices cannot be crafted back in crafting grid, just in assembler ([da52f68](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/da52f68734e6187631008c0d391b68285022344d))
+
+
