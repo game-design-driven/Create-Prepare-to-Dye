@@ -1922,7 +1922,7 @@ tradeBranch([sssArrows], sssBows);
 tradeBranch([sssArmor, vHelp], sssArrows);
 tradeBranch([sssFinalAssault], sssArmor);
 tradeBranch([vHelp2], [vHelp, { completedItem: sssArmor.item }]);
-tradeBranch(vHelp3, vHelp2)
+tradeBranch(vHelp3, vHelp2);
 tradeBranch(
   [vHelpWhileHelpingOtherSide, sssAssaultContinues],
   [vHelp, sssArmor]
@@ -1940,14 +1940,17 @@ tradeBranch(
   [vHelpWhileHelpingOtherSide, { completedItem: sssAssaultContinues.item }]
 );
 tradeBranch([vProactive], vHelp3);
-tradeBranch([vProactive, vAttack], [vHelp3, { completedItem: sssHelmetsFixedRates.item }]);
+tradeBranch(
+  [vProactive, vAttack],
+  [vHelp3, { completedItem: sssHelmetsFixedRates.item }]
+);
 tradeBranch([vEmpire], [vAttack]);
 
 tradeBranch(sssSlaveSale, sssFinalAssault);
 
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([qubeSturdyDevice], qubeAngry);
-tradeBranch([qubeBetterGlass, qubeLogicDevice], qubeSturdyDevice);
+tradeBranch([qubeGlass, qubeLogicDevice], qubeSturdyDevice);
 tradeBranch([qubeLogicDevice2, qubeWheat], qubeLogicDevice);
 tradeBranch([qubeWheatFixed], qubeWheat);
 tradeBranch([qubeTrack], qubeLogicDevice2);
@@ -1955,8 +1958,7 @@ tradeBranch([qubeTrack], qubeLogicDevice2);
 tradeBranch([qubeTrackFixed], qubeLocomotiveDevice);
 tradeBranch(
   [qubeBetterGlass, qubeLocomotiveDevice, qubeWeapons],
-  qubeGlass,
-  qubeTrack
+  [qubeGlass, qubeTrack]
 );
 tradeBranch([qubeWeaponsEnchanted], qubeWeapons);
 tradeBranch(
