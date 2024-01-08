@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptdye-plus.pw.toml"
-hash = "dabd5868f77835fb30696555b92dc274a76cab50b084f0c33748c4732508bf1e"
+hash = "a0418fa499e4f94ffe1cd318551325a122271a3c8be198b584a69e53620edd45"
 metafile = true
 
 [[files]]
