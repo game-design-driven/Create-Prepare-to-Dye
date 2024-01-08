@@ -1,0 +1,8 @@
+### [1.204.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.2...1.204.3) (2024-01-08)
+
+
+### Minor tweaks
+
+* some slight changes to qube trade balance ([0260e98](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0260e984436e4cf145ddad560404500b2c3fccf7))
+
+
