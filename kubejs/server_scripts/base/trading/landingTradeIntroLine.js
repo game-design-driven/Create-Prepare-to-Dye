@@ -70,7 +70,7 @@ const bfcHelmets = getAgreement("bfcHelmets", {
 });
 // const bcfPlates3 = getAgreement(
 const mlcEndstoneFixed = getAgreement("mlcEndstoneFixed", {
-  paymentItems: ["16x quark:chorus_fruit_block"],
+  paymentItems: ["8x quark:chorus_fruit_block"],
   requestedItems: ["32x minecraft:end_stone"],
   title: "Building a moon, materials needed",
   orderedAmount: 0,
@@ -384,7 +384,7 @@ const qubeLogicDevice = getAgreement("qubeLogicDevice", {
   ],
   requestedItems: ["64x ptdye:logic_device", "64x ptdye:logic_device"],
   title: "Logic devices in good condition required",
-  orderedAmount: 3,
+  orderedAmount: 4,
   company: "qube",
   message:
     "Alright, it does seem like your factories are at least competent enough for this, so please make us some logic devices",
@@ -395,7 +395,7 @@ const qubeLogicDevice2 = getAgreement("qubeLogicDevice2", {
     Item.of("minecraft:enchanted_book")
       .enchant("minecraft:looting", 1)
       .withCount(2),
-    Item.of("minecraft:netherite_sword", "{Damage:0}").withCount(16),
+    "5x minecraft:netherite_sword",
   ],
   requestedItems: [
     "64x ptdye:logic_device",
@@ -403,7 +403,7 @@ const qubeLogicDevice2 = getAgreement("qubeLogicDevice2", {
     "64x ptdye:logic_device",
   ],
   title: "More logic devices in good condition required",
-  orderedAmount: 2,
+  orderedAmount: 3,
   company: "qube",
   message: "You already know what you need to do, please do not be late",
 });
@@ -463,7 +463,7 @@ const qubeWheat = getAgreement("qubeWheat", {
   ],
   company: "qube",
   title: "Wheat required",
-  orderedAmount: 3,
+  orderedAmount: 4,
   message:
     "While the wheat produced by us is in great shape as always, we are after a supplementry stream of more wheat",
 });
@@ -489,7 +489,7 @@ const qubeGlass = getAgreement("qubeGlass", {
     "16x gold_ingot",
     Item.of("minecraft:enchanted_book")
       .enchant("minecraft:unbreaking", 1)
-      .withCount(4),
+      .withCount(3),
   ],
   requestedItems: [
     "64x minecraft:glass",
@@ -512,7 +512,7 @@ const qubeBetterGlass = getAgreement("qubeBetterGlass", {
   ],
   requestedItems: ["64x botania:mana_glass", "64x botania:mana_glass"],
   title: "Glass required, of better quality this time",
-  orderedAmount: 2,
+  orderedAmount: 10,
   company: "qube",
   message:
     "Your glass seemed to be good enough at best, while we appreciate any effort, we require a higher quality around here, please do better",
