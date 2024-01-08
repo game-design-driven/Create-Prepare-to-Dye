@@ -9,20 +9,20 @@ if (
       tag: "forge:device/network",
       generic: "ae2:fluix_smart_cable",
       included_devices: [
-        'ae2:toggle_bus',
-        'ae2:inverted_toggle_bus',
-        'ae2:fluix_smart_cable',
-        'ae2:level_emitter',
-        'ae2:storage_bus',
-        'ae2:storage_monitor',
-        'ae2:terminal',
-        "ae2:quartz_fiber"
-      ]
+        "ae2:toggle_bus",
+        "ae2:inverted_toggle_bus",
+        "ae2:fluix_smart_cable",
+        "ae2:level_emitter",
+        "ae2:storage_bus",
+        "ae2:storage_monitor",
+        "ae2:terminal",
+        "ae2:quartz_fiber",
+      ],
     },
     {
       tag: "forge:device/craftingplaceholder",
       generic: "#forge:nuggets/brass",
-      included_devices: ['botania:placeholder', 'create:crafter_slot_cover']
+      included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
       tag: "forge:device/track",
@@ -86,39 +86,71 @@ if (
           "#minecraft:wool_carpets",
           "#forge:nuggets",
           "#minecraft:planks",
-          "#minecraft:planks"
-        ],
-        [
-          "#forge:ingots",
           "#minecraft:planks",
-          "#minecraft:logs"
         ],
+        ["#forge:ingots", "#minecraft:planks", "#minecraft:logs"],
         [
           "#forge:canvasables",
           "#forge:nuggets",
           "#forge:nuggets",
-          "#minecraft:logs"
-        ]
+          "#minecraft:logs",
+        ],
       ],
-      included_devices: ['botania:crafty_crate','minecraft:oak_door', 'minecraft:oak_sign', 'minecraft:light_blue_bed', 'minecraft:composter', 'minecraft:barrel', 'minecraft:campfire', 'create:cuckoo_clock', 'create:wooden_bracket', 'create:white_seat', 'supplementaries:notice_board', 'supplementaries:speaker_block', 'supplementaries:pulley_block', 'supplementaries:bellows', 'supplementaries:hanging_sign_oak', 'storagedrawers:oak_full_drawers_1', 'minecraft:target', 'minecraft:oak_trapdoor', 'minecraft:note_block', 'minecraft:lectern', 'minecraft:jukebox', 'minecraft:chest', 'minecraft:bookshelf', 'supplementaries:sign_post_oak', 'storagedrawers:oak_full_drawers_2', 'minecraft:item_frame', 'storagedrawers:oak_full_drawers_4', 'minecraft:painting'],
+      included_devices: [
+        "botania:crafty_crate",
+        "minecraft:oak_door",
+        "minecraft:oak_sign",
+        "minecraft:light_blue_bed",
+        "minecraft:composter",
+        "minecraft:barrel",
+        "minecraft:campfire",
+        "create:cuckoo_clock",
+        "create:wooden_bracket",
+        "create:white_seat",
+        "supplementaries:notice_board",
+        "supplementaries:speaker_block",
+        "supplementaries:pulley_block",
+        "supplementaries:bellows",
+        "supplementaries:hanging_sign_oak",
+        "storagedrawers:oak_full_drawers_1",
+        "minecraft:target",
+        "minecraft:oak_trapdoor",
+        "minecraft:note_block",
+        "minecraft:lectern",
+        "minecraft:jukebox",
+        "minecraft:chest",
+        "minecraft:bookshelf",
+        "supplementaries:sign_post_oak",
+        "storagedrawers:oak_full_drawers_2",
+        "minecraft:item_frame",
+        "storagedrawers:oak_full_drawers_4",
+        "minecraft:painting",
+      ],
       amount_crafted: 4,
       post_logic: () => {
-
-        ServerEvents.blockLootTables(event=>{
-          event.addSimpleBlock("minecraft:bookshelf","minecraft:bookshelf")
-          event.addSimpleBlock("minecraft:campfire","minecraft:campfire")
-          event.addSimpleBlock("minecraft:soul_campfire","minecraft:campfire")
+        ServerEvents.blockLootTables((event) => {
+          event.addSimpleBlock("minecraft:bookshelf", "minecraft:bookshelf");
+          event.addSimpleBlock("minecraft:campfire", "minecraft:campfire");
+          event.addSimpleBlock("minecraft:soul_campfire", "minecraft:campfire");
         });
-        
-        removeRecipe({id:"create:haunting/soul_campfire"});
-        removeRecipe({id:"minecraft:soul_campfire"});
-        removeRecipe({id:"minecraft:soul_torch"});
-        
-        ['#minecraft:piglin_repellents','#minecraft:soul_fire_base_blocks'].forEach(material=>{
-          ServerEvents.recipes(e=>{
-            e.recipes.create.item_application("minecraft:soul_campfire",["minecraft:campfire",material]).keepHeldItem()
-          })
-        })
+
+        removeRecipe({ id: "create:haunting/soul_campfire" });
+        removeRecipe({ id: "minecraft:soul_campfire" });
+        removeRecipe({ id: "minecraft:soul_torch" });
+
+        [
+          "#minecraft:piglin_repellents",
+          "#minecraft:soul_fire_base_blocks",
+        ].forEach((material) => {
+          ServerEvents.recipes((e) => {
+            e.recipes.create
+              .item_application("minecraft:soul_campfire", [
+                "minecraft:campfire",
+                material,
+              ])
+              .keepHeldItem();
+          });
+        });
       },
     },
     {
@@ -335,7 +367,7 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
-    addToTag('forge:devices/generics', device.generic)
+    addToTag("forge:devices/generics", device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
     device.incomplete =
@@ -366,9 +398,11 @@ if (
     }
     //device transmutation
     addStonecutting(device.generic, device.tag);
+    addShaped(device.generic, ["#"], {
+      "#": device.tag,
+    });
     device.included_devices.forEach((included_device) => {
       let item = Item.of(included_device);
-
       removeAllRecipesForItem(item.id);
 
       let tagSuffix = item.count > 1 ? "/" + item.count : "";
@@ -380,16 +414,16 @@ if (
           );
           addedTagRecipes[device.tag + tagSuffix] = true;
         }
-      } 
-        let allButCurrentDevice = device.included_devices.filter(
-          (element) => element !== item.id && Item.of(element).count == 1
-        ).map(element=>Item.of(element).strongNBT());
-        addStonecutting(
-          included_device,
-          Ingredient.of(allButCurrentDevice),
-          true
-        ); //let players transmute any device but don't show in craftables panel
-      
+      }
+      let allButCurrentDevice = device.included_devices
+        .filter((element) => element !== item.id && Item.of(element).count == 1)
+        .map((element) => Item.of(element).strongNBT());
+      addStonecutting(
+        included_device,
+        Ingredient.of(allButCurrentDevice),
+        true
+      ); //let players transmute any device but don't show in craftables panel
+
       addToTag(device.tag + tagSuffix, item.id);
       addStonecutting(included_device, device.generic);
     });
