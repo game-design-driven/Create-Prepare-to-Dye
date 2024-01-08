@@ -695,7 +695,12 @@ const sssArrows = getAgreement("sssArrows", {
     "It is crucial for our brave warriors to not only be equipped with the finest weaponry, but also with the ammunition to use those with. We need arrows, and I trust that your donations to the cause will not stop with the bows you have already provided. We have already achieved great things thanks to your help",
 });
 const sssArmor = getAgreement("sssArmor", {
-  paymentItems: ["64x emerald", "64x wheat", "64x minecraft:oak_planks", "32x supplementaries:ash"],
+  paymentItems: [
+    "64x emerald",
+    "64x wheat",
+    "64x minecraft:oak_planks",
+    "32x supplementaries:ash",
+  ],
   requestedItems: [
     "16x botania:manasteel_helmet",
     "16x botania:manasteel_chestplate",
@@ -857,10 +862,7 @@ const vEmpire = getAgreement("vEmpire", {
 
 const vHelpWhileHelpingOtherSide = getAgreement("vHelpWhileHelpingOtherSide", {
   paymentItems: ["8x minecraft:emerald"],
-  requestedItems: [
-    "16x minecraft:iron_block",
-    "4x minecraft:pumpkin",
-  ],
+  requestedItems: ["16x minecraft:iron_block", "4x minecraft:pumpkin"],
   title: "They are getting stronger! We are barely holding on! Please help!",
   orderedAmount: 4,
   company: "villagers",
@@ -1868,13 +1870,11 @@ tradeBranch(
   [bfsiAdaptingTaste, bfsiSoap, bfsiShowerUpgrades],
   [bfsiFeedTheCrew]
 );
-tradeBranch(
-  [bfsiSoapFixed, bfsiPigs],
-  [bfsiShowerUpgrades, bfsiSoap]
-);
+tradeBranch([bfsiSoapFixed, bfsiPigs], [bfsiShowerUpgrades, bfsiSoap]);
 tradeBranch(bfsiAdaptingTaste2, bfsiAdaptingTaste);
 tradeBranch(bfsiAdaptingTasteFixed, bfsiAdaptingTaste2);
 tradeBranch([bfsiKillWill, bfsiWastelandClearance], [bfsiChickenInvaders]);
+tradeBranch(bfsiKillWillAct2, bfsiKillWill);
 tradeBranch(bfsiChickenInvadersFixedRates, [
   bfsiKillWillAct2,
   bfsiWastelandClearance,
