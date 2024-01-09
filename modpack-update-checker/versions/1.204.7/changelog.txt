@@ -1,0 +1,8 @@
+### [1.204.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.6...1.204.7) (2024-01-09)
+
+
+### Documentation and Localization
+
+* add tooltips to red stringed devices ([2a4f6b8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2a4f6b8168dc6da46c4df0156ab3344fec064da3))
+
+
