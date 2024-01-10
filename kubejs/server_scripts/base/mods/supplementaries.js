@@ -12,4 +12,6 @@ if (feature('Doormat recipe')) {
     addShaped('supplementaries:doormat', ['www'], {'w': '#minecraft:wool'})
 }
 
+if (feature('Remove rope')) {
+    removeItem('supplementaries:rope')
 }
