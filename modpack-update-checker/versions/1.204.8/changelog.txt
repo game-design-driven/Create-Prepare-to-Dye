@@ -1,0 +1,8 @@
+### [1.204.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.7...1.204.8) (2024-01-10)
+
+
+### Modlist related changes
+
+* update Prepare to Dye Plus to 1.3.7 ([141f3cc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/141f3cce0ffad76493ad526d684f25a2a3552428))
+
+
