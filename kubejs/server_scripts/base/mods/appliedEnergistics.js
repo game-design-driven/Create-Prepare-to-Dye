@@ -114,12 +114,12 @@ if (feature("Slime from silicon")) {
 
 if (feature("Silicon from slime")) {
   addAssembly("3x ae2:silicon", "minecraft:slime_ball", [
+    addPressing("stick", "stick"),
     addFilling(
       "ae2:silicon",
       "minecraft:slime_ball",
       "250x create_enchantment_industry:ink"
     ),
-    addPressing("stick", "stick"),
   ]);
 }
 
