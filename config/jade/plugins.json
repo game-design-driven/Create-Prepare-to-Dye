@@ -46,6 +46,9 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "pondertooltip": {
+    "text": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
