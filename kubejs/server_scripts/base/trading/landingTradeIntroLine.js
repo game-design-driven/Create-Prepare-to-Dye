@@ -1756,8 +1756,7 @@ const pAgainstAdventurers = getAgreement("pAgainstAdventurers", {
     Item.of(
       "createdieselgenerators:canister",
       '{BlockEntityTag:{Tanks:[{Level:{Speed:0.25f,Target:1.0f,Value:1.0f},TankContent:{Amount:8000,FluidName:"create:honey"}}]}}'
-    ),
-    dddDungeon2.item,
+    )
   ],
   requestedItems: [dddDungeon2.item, "32x create:mechanical_saw"],
   title: "Need materials for traps",
