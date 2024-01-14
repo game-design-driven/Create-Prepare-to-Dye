@@ -60,8 +60,8 @@ const bfcPickaxes = getAgreement("bfcPickaxes", {
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement("bfcHelmets", {
-  paymentItems: ["16x ptdye:locomotive_device", "16x create:track"],
-  requestedItems: ["16x minecraft:iron_helmet"],
+  paymentItems: ["16x ptdye:locomotive_device", "64x create:track", '32x minecraft:rail'],
+  requestedItems: ["16x minecraft:iron_helmet","16x minecraft:iron_helmet","16x minecraft:iron_helmet","16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 2,
   company: "bobs_construction_fleet",
