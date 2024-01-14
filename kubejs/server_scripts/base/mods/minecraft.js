@@ -204,10 +204,6 @@ if (feature("Netherrack from nether_wart_block")) {
   addItemApplication("netherrack", "cobblestone", "nether_wart_block");
 }
 
-if (feature("Netherwart to redstone")) {
-  addSmelting("redstone %10", "#forge:crops/nether_wart");
-}
-
 if (feature("Redstone from quartz")) {
   addCrushing(["redstone %50", "quartz %25", "white_dye %25"], "quartz");
   addMilling(["redstone %70", "white_dye %5"], "quartz");
