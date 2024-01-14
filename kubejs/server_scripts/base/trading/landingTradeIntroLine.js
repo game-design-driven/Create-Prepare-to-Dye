@@ -177,7 +177,7 @@ const bhbWheat = getAgreement("bhbWheat", {
 const wscAxes = getAgreement("wscAxes", {
   paymentItems: [
     "16x minecraft:oak_log",
-    "10x storagedrawers:oak_full_drawers_1",
+    "16x storagedrawers:oak_full_drawers_1",
     "2x minecraft:chest",
     "ptdye:trading_transceiver",
   ],
@@ -190,9 +190,9 @@ const wscAxes = getAgreement("wscAxes", {
 });
 const wscBread = getAgreement("wscBread", {
   paymentItems: [
+    "16x storagedrawers:oak_full_drawers_1",
     "8x minecraft:birch_log",
     "minecraft:chest",
-    "4x storagedrawers:oak_full_drawers_1",
   ],
   requestedItems: ["64x minecraft:bread"],
   title: "Food needed for the workers",
