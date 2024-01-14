@@ -1,0 +1,25 @@
+## [1.205.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.204.8...1.205.0) (2024-01-10)
+
+
+### Features
+
+* add tooltip category system that will display mod, category and device type for items ([de0abcf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/de0abcfa96cf017b485fa929208766ceb56ea667))
+
+
+### Developer experience improvments and changes
+
+* move disabled items tooltip to tooltips folder ([d19f18d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d19f18dfadbca1ad06cf47a6823c3e4fa17850ed))
+* move more tooltip scripts to tooltip folder ([e91bfa8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e91bfa80deecbabfda7a1a9113994ab817daaa62))
+* wrap new tooltip logic in a feature ([c7bf5d2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c7bf5d25551eca05e1665507c349f2b58f0c71da))
+
+
+### Minor tweaks
+
+* remove rope ([4fe2ef6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4fe2ef69bc377aa42c14af71df356c807f3b9644))
+
+
+### Fixes
+
+* dormat recipe ([0498865](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0498865bf3f85bdb9e28c3be8d368d657acd97e2))
+
+
