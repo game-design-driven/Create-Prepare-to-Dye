@@ -21,7 +21,7 @@ if (
     },
     {
       tag: "forge:device/craftingplaceholder",
-      generic: "#forge:nuggets/brass",
+      generic: "gold_nugget",
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
