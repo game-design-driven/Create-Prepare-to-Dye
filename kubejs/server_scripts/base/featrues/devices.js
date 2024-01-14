@@ -126,7 +126,7 @@ if (
         "storagedrawers:oak_full_drawers_4",
         "minecraft:painting",
       ],
-      amount_crafted: 4,
+      amount_crafted: 6,
       post_logic: () => {
         ServerEvents.blockLootTables((event) => {
           event.addSimpleBlock("minecraft:bookshelf", "minecraft:bookshelf");
