@@ -66,13 +66,14 @@ if (
       base: "rail",
       incomplete: "rail",
       assembly: [
-        "#forge:ingots/gold",
-        "rail",
         "create:polished_rose_quartz",
+        "rail",
+        "rail",
+        "rail",
         "rail",
       ],
       included_devices: ["activator_rail", "powered_rail", "detector_rail"],
-      amount_crafted: 10,
+      amount_crafted: 5,
       post_logic: () => {
         removeRecipe({ id: "create:crafting/kinetics/controller_rail" });
       },
