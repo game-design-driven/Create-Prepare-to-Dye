@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "88fd88a0e554e482e9dc1135c2f6d5359c0421178c96df3c41917c3ebaebb7c6"
+hash = "12a3447acbb6a7986cabf59e4afbf75674afc818692e3b058f002affc37f23be"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -814,7 +814,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "0247faec52f36f8b614c6e40126c7fc30a8b29e28dc71125e578999003bdeede"
+hash = "def72ca26e3b970e6621e2844ab4f721887d59ef2750eadf309d999659337e51"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "24151205498ffd9049744d27deb3ced5d69416fe256c998d1e79ad42816fe869"
+hash = "206f590395e3862828964ac2e6d406243b0720a8d437bc84337ba5f32da5d97f"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4581,6 +4581,10 @@ file = "kubejs/data/ptd/advancements/trade/qubebetterglassfixed.json"
 hash = "774b4464ebd77ea830c0782bf5e58a96da8ac69c10811cb6408a51c01c8993cb"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/qubecontrollerrail.json"
+hash = "579da372c9a2e84690121e6753f99d0d2c590657f5379984b1ed5cb9022c1428"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/qubeglass.json"
 hash = "f910b6c161fbe649f373e3e7a7550ff88386fbbbf4e957474b58e45d7cae3ce0"
 
@@ -4595,6 +4599,10 @@ hash = "94aeb67fba30960c44a4a295d194c5017a4facb1313db141562aa308215a0189"
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/qubelogicdevice2.json"
 hash = "3bcefa03eeaf93644f7724c615bf5816d83f1a270fdc675a11348baaead640be"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/quberails.json"
+hash = "ff8db218ebf8f511ce51f5e9382b8b98c821ae3edc49f321629d37385e432989"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/qubesturdydevice.json"
@@ -4974,7 +4982,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "e1808b7a1f9004b6567815efab3d29e83473d8258b50996e02f6c2a02ff32658"
+hash = "ae83ab683ef448565c7e4ad9ea5d20cdc9bf4b77514eb4b4a8ed07af879e71a4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -5018,7 +5026,7 @@ hash = "1bb7c9045522e6cc99d73dcf40e2055db8e41319070072e2baff6487c7873bd9"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
-hash = "fcacf54a7fed3cfcfc44ccdceca30f47f94016976fd05962b25c39e38c901246"
+hash = "be8dfca607ec002d98594b9354d83e92d07848ef57181a584475dca7b56837e2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
@@ -5194,7 +5202,7 @@ hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "67d9d7b61de607a9de7041dad48810cbefb3eddc46333aa2461d31d00861be21"
+hash = "571e90d213b843b5c0d0cbde43e37ef2bd2ca9aa3fb56ba255ec7c7a3185e7f8"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5318,7 +5326,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "39797d31730b755d0f71e257126271ffd072aa5e571242207cbfeb1afa19b80c"
+hash = "81d56f932d3af1e8d94e89481c71ff6eba3020a37326d87d7fbdbe57bd81ad33"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6951,6 +6959,10 @@ hash = "5483a9220618069b834602c62f4f79857b0b26b5478f6c19acb30dbe172b7db2"
 [[files]]
 file = "modpack-update-checker/versions/1.208.0/changelog.txt"
 hash = "494fa6de6f58c8f63db2b3a94a2ce2dcfa50d44439ee6711ef48e4ec84370af7"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.1/changelog.txt"
+hash = "4a79b3d40de17de35d58b389fbc04de7010d722f346f0b1999d76156a4611d44"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
