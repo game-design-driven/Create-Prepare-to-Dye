@@ -246,6 +246,7 @@ if (
         "railways:semaphore",
         "railways:track_switch_andesite",
         "4x create:railway_casing",
+        "create:schedule"
       ],
     },
     {
