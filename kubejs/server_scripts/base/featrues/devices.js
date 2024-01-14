@@ -65,13 +65,7 @@ if (
       generic: "create:controller_rail",
       base: "rail",
       incomplete: "rail",
-      assembly: [
-        "create:polished_rose_quartz",
-        "rail",
-        "rail",
-        "rail",
-        "rail",
-      ],
+      assembly: ["create:polished_rose_quartz", "rail", "rail", "rail", "rail"],
       included_devices: ["activator_rail", "powered_rail", "detector_rail"],
       amount_crafted: 5,
       post_logic: () => {
@@ -227,6 +221,22 @@ if (
         "botania:animated_torch",
         "create:pulse_extender",
         "create:powered_latch",
+      ],
+    },
+    {
+      tag: "forge:device/smokestack",
+      generic: "railways:smokestack_woodburner",
+      base: "minecraft:campfire",
+      incomplete: "minecraft:campfire",
+      assembly: ["create:iron_sheet", "black_dye"],
+      amount_crafted: 4,
+      included_devices: [
+        "railways:smokestack_streamlined",
+        "railways:smokestack_woodburner",
+        "railways:smokestack_caboosestyle",
+        "railways:smokestack_long",
+        "railways:smokestack_coalburner",
+        "railways:smokestack_oilburner",
       ],
     },
     {
