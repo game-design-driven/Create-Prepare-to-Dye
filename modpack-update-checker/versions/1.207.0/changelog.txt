@@ -1,0 +1,34 @@
+## [1.207.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.206.2...1.207.0) (2024-01-14)
+
+
+### Features
+
+* crushed raw white no longer gives redstone. It was a left over from when it was iron, it does not make sense anymore and is less interesting than other ways of getting redstone like dyeing stone ([e2f7857](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e2f78570cb415980d9022a39f55d36687cea1d81))
+
+
+### Developer experience improvments and changes
+
+* add infusable to dict ([dbf210b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dbf210bf7d7d6c0a8e6504096e59c65df565b1a2))
+
+
+### Minor tweaks
+
+* buff bfc helmets trade inputs and outputs ([5654f0a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5654f0a79b836a8dadf6d458579f18924bf6a2cc))
+* buff furnished devices recipe output 4 to 6 ([02ee637](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/02ee6376470c38cfac44a8f529d4a15a7d15d650))
+* buff storage drawer reward of wsc deals ([40ed426](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/40ed4265057ac922a7a03548247f7782139a7c34))
+* remove direct netherwart to redstone. Can be made with netherwart + blue rock ([20313ed](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/20313ed830c1cfa2f7a13c8b7f8b4def89bace72))
+* simplify rail device. Now requires rails and rose quartz ([7995232](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7995232f5807533bff9caefc07fd44b78ebcf3f7))
+
+
+### Fixes
+
+* chest recipes still being present even though a chest is a furnished device ([ba28544](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ba2854497e2963b053fdeeb7a94657d833b934dd))
+* covers converting to bariar block instead of back to nuggets ([56d96b9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/56d96b908175e0f80b1bf4c183009656b57f4780))
+* emi showing recipe ids by default ([7b4469e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7b4469ed56b58ea2da2fc206622136e8a386a194))
+* emi trade sync ([286a193](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/286a19374ba3328d7d635e5d8e77ad25df53dae3))
+* lapis can no longer be used to make lapis. Lapis making will now use a wider array of dusts ([19c9427](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/19c942746689b9bcc98513a2f05a04bd39b64ec8))
+* light blue picaxes silk touch voiding blocks that don't have item form. Will not attempt silk touch in those cases ([1e72f20](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1e72f20d975f4137f263c722f2eaa9e34233b300))
+* tooltips adding an empty line if there is no category or device type for the item ([95a3d8b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95a3d8b0070e0260417155dd95b32d6a544afeb2))
+* typo on drg trade ([9a00b64](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9a00b6480d18fe2d8454d71a141ee088a3bbf1f5))
+
+
