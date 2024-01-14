@@ -1,13 +1,13 @@
 name = "Ptdye Plus"
-filename = "ptdyeplus-1.3.7+forge-1.19.2.jar"
+filename = "ptdyeplus-1.3.11+forge-1.19.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ikDjkgLu/versions/uyzG4Y6H/ptdyeplus-1.3.7%2Bforge-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/ikDjkgLu/versions/3bIk5BXQ/ptdyeplus-1.3.11%2Bforge-1.19.2.jar"
 hash-format = "sha1"
-hash = "16448e04649845d7c3634de0e4af8434480abc09"
+hash = "3b438105c29b71364d71597c8a1f7a9682890d6d"
 
 [update]
 [update.modrinth]
 mod-id = "ikDjkgLu"
-version = "uyzG4Y6H"
+version = "3bIk5BXQ"
