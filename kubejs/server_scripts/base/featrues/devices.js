@@ -193,6 +193,8 @@ if (
         "supplementaries:brass_lantern",
         "createdieselgenerators:diesel_engine",
         "storagedrawers:drawer_key",
+        "storagedrawers:shroud_key",
+        "storagedrawers:quantify_key",
         "storagedrawers:controller",
         "create:attribute_filter",
         "4x create:brass_casing",
