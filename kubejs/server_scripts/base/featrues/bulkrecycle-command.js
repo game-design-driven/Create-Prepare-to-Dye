@@ -45,17 +45,19 @@ function compactItems(player,keepOne){
           
           usedItems[id] = usedItems[id] || {c:0,name:i.displayName};
 
-          let fullDevices = Math.floor((i.count - limit)/a.f + 0.000001);
+          let individualLmit = usedItems[id].c > 0 ? 0 : limit
+
+          let fullDevices = Math.floor((i.count - individualLmit)/a.f + 0.000001);
           
           totalDevices += fullDevices;
 
           i.setCount(i.count - fullDevices * a.f)
           usedItems[id].c += fullDevices * a.f;
 
-          if(i.count>limit){
+          if(i.count>individualLmit){
             let previousTally = runningTally;
             
-            runningTally += i.count - limit;
+            runningTally += i.count - individualLmit;
             
             if(runningTally>=a.f){
               totalDevices++;
@@ -65,24 +67,24 @@ function compactItems(player,keepOne){
               runningTally = remainder;
               
               runningItems.forEach(i=>{
-                i.setCount(limit);
+                i.setCount(individualLmit);
               })
 
-              if(remainder > limit){
+              if(remainder > individualLmit){
                 usedItems[id].c += (i.count - remainder)
                 i.setCount(remainder);
                 runningItems = [i];
               }else{
-                usedItems[id].c += (i.count - limit)
-                i.setCount(limit);
+                usedItems[id].c += (i.count - individualLmit)
+                i.setCount(individualLmit);
                 runningItems = [];
               }
             }else{
               runningItems.push(i);
             }
           }else{
-            usedItems[id].c += (i.count - limit)
-            i.setCount(limit)
+            usedItems[id].c += (i.count - individualLmit)
+            i.setCount(individualLmit)
           }
         }
       )
