@@ -504,6 +504,44 @@ const qubeGlass = getAgreement("qubeGlass", {
   message:
     "You seem to be doing well so far, we need glass, a large amount. Please get it to us, and quickly, we are not known to be patient around here",
 });
+const qubeRails = getAgreement("qubeRails", {
+  paymentItems: [
+    "8x gold_ingot",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 1)
+      .withCount(1),
+  ],
+  requestedItems: [
+    "64x minecraft:rail",
+    "64x minecraft:rail",
+  ],
+  title: "Rails. Now.",
+  orderedAmount: 4,
+  company: "qube",
+  message:
+    "You know how this goes. Get us rails, high quality, sturdy. Do not fail us, it will not end well for you"
+});
+
+const qubeControllerRail = getAgreement("qubeControllerRail", {
+  paymentItems: [
+    '16x book',
+    "8x gold_ingot",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:luck_of_the_sea", 1)
+      .withCount(2),
+  ],
+  requestedItems: [
+    "64x create:controller_rail",
+    "64x create:controller_rail",
+    "64x create:controller_rail",
+  ],
+  title: "Controller rails required",
+  orderedAmount: 3,
+  company: "qube",
+  message:
+    "Your rails were adequate, even good enough id say, we are now looking for controller rails, we will supply you with some books and Cubes. ",
+});
+
 const qubeBetterGlass = getAgreement("qubeBetterGlass", {
   paymentItems: [
     "16x gold_ingot",
@@ -2011,7 +2049,8 @@ tradeBranch(sssSlaveSale, sssFinalAssault);
 
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([qubeSturdyDevice], qubeAngry);
-tradeBranch([qubeGlass, qubeLogicDevice], qubeSturdyDevice);
+tradeBranch([qubeGlass, qubeLogicDevice, qubeRails], qubeSturdyDevice);
+tradeBranch([qubeControllerRail], qubeRails);
 tradeBranch([qubeLogicDevice2, qubeWheat], qubeLogicDevice);
 tradeBranch([qubeWheatFixed], qubeWheat);
 tradeBranch([qubeTrack], qubeLogicDevice2);
