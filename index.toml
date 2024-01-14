@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2f212d5374a8fc7824476ae643d1f809219ba063f965a7c9237101fdae9704bb"
+hash = "88a06c63be0d4a3f91735cd34bba9694cab88d0e35565c3a04cb4e9dcb8f1914"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "5c6acf22437a53526d00c71e2cda5cb603a61c5a8124519988c248b81e426889"
+hash = "b691d0bdebcbf388e7d56a417af97bb977e5e6d65b1f415cf63a6bd76f1afdc3"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4914,7 +4914,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "b0c85d084b6dcc08495a4effca35853fe339c64e3edae6002e6cf93fb76bbf7e"
+hash = "a1bb4d98ec43178dcd244399d22a122643eeb2edcc6e47ee1bd568390de27390"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -5294,7 +5294,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1c77018b8a52d56debf02064847fb8ecf064659e21368d4475db5636d3c405da"
+hash = "7eb8e7e3d89c2ce2dc7dc68da0fa5cad7113ff7818a379b2703a11bca79f6a55"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6919,6 +6919,10 @@ hash = "11cb4b80f2b19631d8b05724e0f2619d71bede4c975126c67b43afca4f2c6072"
 [[files]]
 file = "modpack-update-checker/versions/1.207.0/changelog.txt"
 hash = "c785417c3f1894eeadd22f362cc51cb4f38618d3f62b850c203c49092b1bbf92"
+
+[[files]]
+file = "modpack-update-checker/versions/1.207.1/changelog.txt"
+hash = "5483a9220618069b834602c62f4f79857b0b26b5478f6c19acb30dbe172b7db2"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
