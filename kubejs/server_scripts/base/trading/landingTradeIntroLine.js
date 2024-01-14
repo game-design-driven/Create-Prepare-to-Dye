@@ -1270,7 +1270,7 @@ const drgDrinks = getAgreement("drgDrinks", {
   orderedAmount: 1,
   company: "DRG",
   message:
-    "HQ is asking for some drinks and RND has not managed to keep up with the dwarves latley, could be related to the increased death toll, probably not. We need extra supply of some strong drinks",
+    "HQ is asking for some drinks and RND has not managed to keep up with the dwarves lately, could be related to the increased death toll, probably not. We need extra supply of some strong drinks",
 });
 const drgSpecialDrinks = getAgreement("drgSpecialDrinks", {
   paymentItems: ["32x minecraft:barrel", "16x minecraft:warped_hyphae"],
