@@ -430,6 +430,7 @@ const qubeTrack = getAgreement("qubeTrack", {
 const qubeLocomotiveDevice = getAgreement("qubeLocomotiveDevice", {
   paymentItems: [
     Item.of("minecraft:enchanted_book").enchant("minecraft:fire_aspect", 2),
+    Item.of("minecraft:enchanted_book").enchant("minecraft:luck_of_the_sea", 1),
     "64x gold_ingot",
     "16x minecraft:netherite_ingot",
   ],
@@ -1239,6 +1240,66 @@ const bfsiPigs = getAgreement("bfsiPigs", {
     "We have a few pigs left over, dont ask why. If they are of value to you please lets make a trade and get them off our hands",
 });
 
+const drgInitialMiningOperations = getAgreement("drgInitialMiningOperations", {
+  paymentItems: [
+    "8x minecraft:deepslate_redstone_ore",
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", "16x #forge:tools/pickaxes", "16x #forge:armors/helmets"],
+  title: "Initial mining operations",
+  orderedAmount: 2,
+  company: "DRG",
+  message:
+    "We at DRG specialize in securing the most dangerous dig sites in the system. To do so we need reliable suppliers, perhaps like you? ",
+});
+
+const drgCaveExploration = getAgreement("drgCaveExploration", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+    "16x minecraft:deepslate_redstone_ore",
+    "4x minecraft:deepslate_gold_ore",
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", "16x #forge:tools/pickaxes", "16x #forge:armors/helmets","16x #forge:armors/helmets"],
+  title: "Cave exploration",
+  orderedAmount: 3,
+  company: "DRG",
+  message:
+    "We are sending a team of experienced miners deeper into the planets crust, we hope to get a good haul out of this",
+});
+const drgDeepDiveOperationDoomed = getAgreement("drgDeepDiveOperation", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", '64x minecraft:soul_torch','64x minecraft:soul_torch','64x minecraft:soul_torch'],
+  title: "Deep dive operation",
+  orderedAmount: 2,
+  company: "DRG",
+  message:
+    "Deep dives are the most dangerous missions we undertake, we are sending our best miners to the deepest depths of the planets crust. The casualties are high, but the rewards are great. We already crunched the numbers and we are greenlit for this operation",
+});
+
+const drgRescueFromDeepDive = getAgreement("drgRescueFromDeepDive", {
+  paymentItems: [],
+  requestedItems: ['16x create:wrench'],
+  title: "Rescue operation",
+  orderedAmount: 1,
+  company: "DRG",
+  message:
+    "Unfortunately our deep dive operation was a failure, we need to rescue whatever survived of the equipment and the haul. We are sending a team down there asap"
+});
+
+const drgDeepDiverSuccess = getAgreement("drgDeepDiverSuccess", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("14.5% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", '64x minecraft:soul_torch','64x minecraft:soul_torch','64x minecraft:soul_torch'],
+  title: "Another Deep dive operation",
+  orderedAmount: 3,
+  company: "DRG",
+  message:
+    "We got another deep dive greenlit, a few brave and slightly intoxicated dwarves are on their way out of the bar right now, they will be ready to go in no time",
+});
+
 const drgDrinks = getAgreement("drgDrinks", {
   paymentItems: [
     Item.of(
@@ -1879,7 +1940,8 @@ tradeBranch(bfsiChickenInvadersFixedRates, [
   bfsiWastelandClearance,
 ]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
-tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
+tradeBranch([cccIronBars, bcfPlates, drgInitialMiningOperations], [cccRawWhite]);
+tradeBranch([drgDrinks, drgCaveExploration],drgInitialMiningOperations)
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch(
@@ -1970,6 +2032,12 @@ tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwCogs, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
 tradeBranch([drgPickaxes, drgDrinksFixed, drgSpecialDrinks], [drgDrinks]);
 tradeBranch([drgSpecialDrinksFixed], drgSpecialDrinks);
+tradeBranch(drgDeepDiveOperationDoomed, drgCaveExploration)
+tradeBranch(drgRescueFromDeepDive, drgDeepDiveOperationDoomed)
+tradeBranch(drgDeepDiverSuccess, drgRescueFromDeepDive)
+tradeBranch(drgDeepDiveOperationDoomed, drgDeepDiverSuccess)
+
+
 tradeBranch([drgGoodPickaxes], [drgPickaxes]);
 tradeBranch(
   [drgEvenBetterPickaxesFixed, drgEvenBetterPickaxesFixed2],
