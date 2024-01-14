@@ -370,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "88a06c63be0d4a3f91735cd34bba9694cab88d0e35565c3a04cb4e9dcb8f1914"
+hash = "88fd88a0e554e482e9dc1135c2f6d5359c0421178c96df3c41917c3ebaebb7c6"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -814,7 +814,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "87b4bdbf055cbab6df023f1d41113706a3a56f5af4621fd844d4d584391ad5b8"
+hash = "0247faec52f36f8b614c6e40126c7fc30a8b29e28dc71125e578999003bdeede"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -3378,7 +3378,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b691d0bdebcbf388e7d56a417af97bb977e5e6d65b1f415cf63a6bd76f1afdc3"
+hash = "24151205498ffd9049744d27deb3ced5d69416fe256c998d1e79ad42816fe869"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4453,6 +4453,18 @@ file = "kubejs/data/ptd/advancements/trade/dddnetherblazefixed.json"
 hash = "e7ebdaa0c82c21b77b60b759532e3cf1e98b45bd52ffe7ce6fe04b61e7e448af"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/drgcaveexploration.json"
+hash = "f1b476911dbc3176d5ae0517bcd9c0af3608460ad1214e24a8cd32ed23ed4042"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdeepdiveoperation.json"
+hash = "5f84f8865fb04d2a414b7b0df2af5b216917cb716b15f301a4ae164d87d200ff"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdeepdiversuccess.json"
+hash = "55af092ffe71a98a830c0638f212b3b8135c2e6c5aec190bd467ed7cb7c97d98"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/drgdrinks.json"
 hash = "ef84620de028594821cb6f03fd4fea1b42c5b29d729fc0608cc8fd6d420746e9"
 
@@ -4469,8 +4481,16 @@ file = "kubejs/data/ptd/advancements/trade/drggoodpickaxes.json"
 hash = "9a13a943aa05f4a6c77e2f87d6b4d86ee9f99477b38348ab580c2bc2d6fe4ede"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/drginitialminingoperations.json"
+hash = "a15030875183dcbc07233a033034e117f8bc05ce03bdba3f78140b21481c5591"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/drgpickaxes.json"
 hash = "f78cf8ea0176c791b8954f9e08362bfd35047fe09ff12cddaa568b83aa0bd776"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgrescuefromdeepdive.json"
+hash = "8b619aa06b75d80658c5345b8797faa441714a361f610e2403bacdca51cfec1b"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/drgspecialdrinks.json"
@@ -4691,6 +4711,10 @@ hash = "4bb409f878f80c07fcda555d4a22a0a673bbc05001e209bccffd9b162b021f05"
 [[files]]
 file = "kubejs/data/ptd/advancements/white_sheet.json"
 hash = "75754b70c6dc6bc44e256148a7a08ff701b8c4253536d4094735dc5fc1bb5f14"
+
+[[files]]
+file = "kubejs/data/ptd/loot_tables/drg_cave.json"
+hash = "95a7fc1e60f98aec69539a4ba831259f5ecd3533d73b2f723bdc09ce57cd2106"
 
 [[files]]
 file = "kubejs/data/ptd/loot_tables/jaspers_fishing.json"
@@ -4914,7 +4938,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "a1bb4d98ec43178dcd244399d22a122643eeb2edcc6e47ee1bd568390de27390"
+hash = "87cceed0bdd297464340ae41de0d62029d7d91ad4f18a2c1073b11e67633d8c0"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -5082,7 +5106,7 @@ hash = "9427b6c1184f3632c66387e57d147791cd146e464df8d3ea7e52650ddbccb204"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "d5366a32914c581c5040e5c5f4beecfde89611f9ed08f448930ece25a8ee3d4e"
+hash = "d9ebde764578468941ae35d1b7f269fadbf4e74c934ca65b6db9c1ee682b2538"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -5102,7 +5126,7 @@ hash = "0f68367d9ebb62fbb5c1bb2b2c517c65ae1ffd18440b36a293b869b52dad934b"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/storageDrawers.js"
-hash = "76dffa500337a2f1e9460634ad529d4dd8a28c783400d9033610decdefe7517d"
+hash = "425af17d5ce1cf791443a8f3d6b6c1bd5c2261643753ac4b722e6d34853c010f"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/supplementaries.js"
@@ -5170,7 +5194,7 @@ hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "74e70eab965ed5d4dc41efc417230ec466738311e2dd4d9ae0796391ffd23170"
+hash = "67d9d7b61de607a9de7041dad48810cbefb3eddc46333aa2461d31d00861be21"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5270,7 +5294,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "a48f22875a733f0ebf5abb303753c1a3810bca7c5006c2ad3d3d90dbff5a5164"
+hash = "dc1f86df28b22d0f9e4fe63c2a0da7669127fffb465934c8228258a8eb99340f"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -5294,7 +5318,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "7eb8e7e3d89c2ce2dc7dc68da0fa5cad7113ff7818a379b2703a11bca79f6a55"
+hash = "39797d31730b755d0f71e257126271ffd072aa5e571242207cbfeb1afa19b80c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6923,6 +6947,10 @@ hash = "c785417c3f1894eeadd22f362cc51cb4f38618d3f62b850c203c49092b1bbf92"
 [[files]]
 file = "modpack-update-checker/versions/1.207.1/changelog.txt"
 hash = "5483a9220618069b834602c62f4f79857b0b26b5478f6c19acb30dbe172b7db2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.0/changelog.txt"
+hash = "494fa6de6f58c8f63db2b3a94a2ce2dcfa50d44439ee6711ef48e4ec84370af7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
