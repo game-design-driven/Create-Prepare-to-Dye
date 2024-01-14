@@ -258,7 +258,10 @@ if (
         "railways:semaphore",
         "railways:track_switch_andesite",
         "4x create:railway_casing",
-        "create:schedule"
+        "create:schedule",
+        "railways:remote_lens",
+        "railways:conductor_whistle",
+        "railways:yellow_conductor_cap",
       ],
     },
     {
