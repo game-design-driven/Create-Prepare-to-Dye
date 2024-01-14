@@ -12,7 +12,7 @@ if (feature("Paper recipes")) {
     addPressing("stick", "stick"),
   ]);
 }
-if (feature("Chest recipes")) {
+if (feature("Chest recipes") && !feature("Craftable devices that are transmuted to specific things on demand")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
   addShaped("4x chest", ["###", "# #", "###"], { "#": "#logs" });
 }
