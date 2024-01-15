@@ -1,20 +1,20 @@
-## [1.121.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.120.4...1.121.0) (2023-12-07)
+## [1.121.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.120.4...1.121.0) (2023-12-07)
 
 
 ### Features
 
-* add support for translation tools. Use [lang].misssing.json file to see missing translations ([35ca9a3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/35ca9a3e97c1cf2dffb3f3b6d9f0da667c3e94b1))
+* add support for translation tools. Use [lang].misssing.json file to see missing translations ([35ca9a3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/35ca9a3e97c1cf2dffb3f3b6d9f0da667c3e94b1))
 
 
 ### Developer experance improvments and changes
 
-* add support for hidden recipe additions ([1b2b06c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1b2b06c2fb149857ce7c42fc76370ad7576848fa))
-* generate probejs ([54d9f30](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/54d9f30d006c47e873d8a82161a68dbd8b598848))
+* add support for hidden recipe additions ([1b2b06c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1b2b06c2fb149857ce7c42fc76370ad7576848fa))
+* generate probejs ([54d9f30](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/54d9f30d006c47e873d8a82161a68dbd8b598848))
 
 
 ### Fixes
 
-* blaze burners only work when facing specific direction ([af87461](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/af8746131ea4db44ffa10d4a1b4dc13ce76e1c48)), closes [#256](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/256)
-* wrench grab works in creative ([785c355](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/785c35504a5a82aa845a922c259748a512cd6ee9))
+* blaze burners only work when facing specific direction ([af87461](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/af8746131ea4db44ffa10d4a1b4dc13ce76e1c48)), closes [#256](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/256)
+* wrench grab works in creative ([785c355](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/785c35504a5a82aa845a922c259748a512cd6ee9))
 
 

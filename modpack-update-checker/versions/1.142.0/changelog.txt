@@ -1,20 +1,20 @@
-## [1.142.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.141.0...1.142.0) (2023-12-11)
+## [1.142.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.141.0...1.142.0) (2023-12-11)
 
 
 ### Features
 
-* add stone tools from livingrock ([9771c9c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9771c9ce80d68d1497d8ce9b04444d27c7fe1f8f))
-* reword trade backwards compatibility engine ([0fc99bf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0fc99bf977a07116c78b0edd1d88f6cab3c551eb))
+* add stone tools from livingrock ([9771c9c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9771c9ce80d68d1497d8ce9b04444d27c7fe1f8f))
+* reword trade backwards compatibility engine ([0fc99bf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0fc99bf977a07116c78b0edd1d88f6cab3c551eb))
 
 
 ### Documentation and Localization
 
-* add agreements to index ([3242ce3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3242ce3d8bcb033482810c7cfbb9da749f7c2cb2))
+* add agreements to index ([3242ce3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3242ce3d8bcb033482810c7cfbb9da749f7c2cb2))
 
 
 ### Developer experance improvments and changes
 
-* remove redundent log ([4534369](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4534369832a1e9640ea6bf9446d4f41685b3579a))
-* update translation files ([1edc221](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1edc221af9d5c40e2c22347fae423c7de18b7efb))
+* remove redundent log ([4534369](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4534369832a1e9640ea6bf9446d4f41685b3579a))
+* update translation files ([1edc221](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1edc221af9d5c40e2c22347fae423c7de18b7efb))
 
 

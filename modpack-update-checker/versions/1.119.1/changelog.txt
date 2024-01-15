@@ -1,8 +1,8 @@
-### [1.119.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.119.0...1.119.1) (2023-12-06)
+### [1.119.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.119.0...1.119.1) (2023-12-06)
 
 
 ### Fixes
 
-* woodcutters trade progression ([92cb525](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/92cb5255b6faf1b34e5798e07185758a132ec5b9))
+* woodcutters trade progression ([92cb525](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/92cb5255b6faf1b34e5798e07185758a132ec5b9))
 
 

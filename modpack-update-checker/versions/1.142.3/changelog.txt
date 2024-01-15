@@ -1,13 +1,13 @@
-### [1.142.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.142.2...1.142.3) (2023-12-11)
+### [1.142.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.142.2...1.142.3) (2023-12-11)
 
 
 ### Minor tweaks
 
-* reduce black goo cost of coal ore dying ([b1c3e1b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b1c3e1b53ece4d547d251ed079b3ef27241b6238))
+* reduce black goo cost of coal ore dying ([b1c3e1b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b1c3e1b53ece4d547d251ed079b3ef27241b6238))
 
 
 ### Fixes
 
-* silicon from slime recipe being overriden ([c576ef8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c576ef895d9854e9d8607491d587e7eae2961b4b))
+* silicon from slime recipe being overriden ([c576ef8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c576ef895d9854e9d8607491d587e7eae2961b4b))
 
 

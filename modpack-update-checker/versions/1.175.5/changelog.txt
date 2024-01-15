@@ -1,8 +1,8 @@
-### [1.175.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.175.4...1.175.5) (2023-12-20)
+### [1.175.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.175.4...1.175.5) (2023-12-20)
 
 
 ### Documentation and Localization
 
-* add tooltip for wood to hint that it's harder in this pack. Someone complained about it on reddit ([d276a86](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d276a8627a795d01a7cb384aba05bc28d239e2b6))
+* add tooltip for wood to hint that it's harder in this pack. Someone complained about it on reddit ([d276a86](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d276a8627a795d01a7cb384aba05bc28d239e2b6))
 
 

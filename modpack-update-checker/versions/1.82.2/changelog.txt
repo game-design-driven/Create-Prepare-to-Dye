@@ -1,8 +1,8 @@
-### [1.82.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.1...1.82.2) (2023-11-25)
+### [1.82.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.82.1...1.82.2) (2023-11-25)
 
 
 ### Documentation and Localization
 
-* increase item_application recipe viewer priority ([5163977](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5163977ca360cd37fbd61d54d2426a17244a092a))
+* increase item_application recipe viewer priority ([5163977](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5163977ca360cd37fbd61d54d2426a17244a092a))
 
 

@@ -1,23 +1,23 @@
-## [1.97.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.96.2...1.97.0) (2023-11-28)
+## [1.97.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.96.2...1.97.0) (2023-11-28)
 
 
 ### Features
 
-* replace invulnuribility at home with actual invulnuribiliyu ([e3411f4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e3411f498fe9ff8a154e49889651c50404208ab3))
+* replace invulnuribility at home with actual invulnuribiliyu ([e3411f4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e3411f498fe9ff8a154e49889651c50404208ab3))
 
 
 ### Fixes
 
-* gearboxes can't turn back into casings ([077afea](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/077afea97f99568ab3983421b31211ed2c30358d))
+* gearboxes can't turn back into casings ([077afea](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/077afea97f99568ab3983421b31211ed2c30358d))
 
 
 ### Documentation and Localization
 
-* fix scorchia tooltip ([f0e15a0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f0e15a0f6165d974d4fa509179e799ff3cb3b455))
+* fix scorchia tooltip ([f0e15a0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f0e15a0f6165d974d4fa509179e799ff3cb3b455))
 
 
 ### Minor tweaks
 
-* readd quartz fiber ([1b72f00](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1b72f007c9398b95b06559f6b2c3bce1eaf81012))
+* readd quartz fiber ([1b72f00](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1b72f007c9398b95b06559f6b2c3bce1eaf81012))
 
 

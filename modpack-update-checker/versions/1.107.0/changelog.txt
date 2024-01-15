@@ -1,14 +1,14 @@
-## [1.107.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.106.3...1.107.0) (2023-12-01)
+## [1.107.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.106.3...1.107.0) (2023-12-01)
 
 
 ### Features
 
-* milk is now a much better fuel ([c45503e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c45503ea650a6bca9a6762c1252320332027cddb))
-* milk to water distilation is easier ([86155a8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86155a8cf69ca2fc2bf02c4a600f13ef5b9a41d1))
+* milk is now a much better fuel ([c45503e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c45503ea650a6bca9a6762c1252320332027cddb))
+* milk to water distilation is easier ([86155a8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/86155a8cf69ca2fc2bf02c4a600f13ef5b9a41d1))
 
 
 ### Fixes
 
-* large cogwheel recipe conflict ([61d5dbc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/61d5dbc5571c24ee46bf7c10fc19c73705c59361))
+* large cogwheel recipe conflict ([61d5dbc](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/61d5dbc5571c24ee46bf7c10fc19c73705c59361))
 
 

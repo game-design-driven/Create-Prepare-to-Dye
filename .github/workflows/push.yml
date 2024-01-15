@@ -95,7 +95,6 @@ jobs:
         id: get_time
         run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
       - name: Update changelog files
-        if: matrix.platform == 'modrinth'
         run: |
           cd modpack-update-checker
           echo $(jq -r '.versions[.versions| length] |= . + {"id":"${{ needs.tag_and_release.outputs.new_tag }}","releasedAt":${{ steps.get_time.outputs.time }}}' meta.json) > meta.json
@@ -107,7 +106,6 @@ jobs:
           cd ../config
           echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
       - name: Update discord presense text
-        if: matrix.platform == 'modrinth'
         run: |
           cd kubejs/assets/sdrp/lang
           json=$(jq '."sdrp.logo"="Hanging out with Betsy on version ${{ needs.tag_and_release.outputs.new_tag }}"' en_us.json) 

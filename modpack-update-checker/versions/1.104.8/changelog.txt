@@ -1,8 +1,8 @@
-### [1.104.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.7...1.104.8) (2023-11-29)
+### [1.104.8](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.104.7...1.104.8) (2023-11-29)
 
 
 ### Fixes
 
-* sugar cane recipe removal again ([a7306c5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a7306c5a312d2b8a35ff25a0c8146b16ab954953))
+* sugar cane recipe removal again ([a7306c5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a7306c5a312d2b8a35ff25a0c8146b16ab954953))
 
 

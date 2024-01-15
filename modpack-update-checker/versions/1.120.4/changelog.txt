@@ -1,8 +1,8 @@
-### [1.120.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.120.3...1.120.4) (2023-12-07)
+### [1.120.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.120.3...1.120.4) (2023-12-07)
 
 
 ### Fixes
 
-* cf release missing discord button icons ([32f62c3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/32f62c380728d137de1cc499363b05645b15f271))
+* cf release missing discord button icons ([32f62c3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/32f62c380728d137de1cc499363b05645b15f271))
 
 

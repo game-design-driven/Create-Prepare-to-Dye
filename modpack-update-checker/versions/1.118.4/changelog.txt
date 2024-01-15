@@ -1,13 +1,13 @@
-### [1.118.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.118.3...1.118.4) (2023-12-05)
+### [1.118.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.118.3...1.118.4) (2023-12-05)
 
 
 ### Documentation and Localization
 
-* mention the mixer in the agreement tooltip ([49d1b57](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/49d1b57fcc2ce44507c1aafa66f95da566bd02b0))
+* mention the mixer in the agreement tooltip ([49d1b57](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/49d1b57fcc2ce44507c1aafa66f95da566bd02b0))
 
 
 ### Fixes
 
-* trades not mixing properly ([d513c59](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d513c597b0916cbd92a1c1ec002cedf042fd3a87))
+* trades not mixing properly ([d513c59](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d513c597b0916cbd92a1c1ec002cedf042fd3a87))
 
 

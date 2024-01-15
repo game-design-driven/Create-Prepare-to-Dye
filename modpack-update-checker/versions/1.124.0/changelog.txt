@@ -1,8 +1,8 @@
-## [1.124.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.123.4...1.124.0) (2023-12-09)
+## [1.124.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.123.4...1.124.0) (2023-12-09)
 
 
 ### Features
 
-* make the delivery table look good. ([#376](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/376)) by [@chipsams](https://github.com/chipsams) ([73901be](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/73901be8079b4c3b97c25ff804f9b10c18e12255))
+* make the delivery table look good. ([#376](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/376)) by [@chipsams](https://github.com/chipsams) ([73901be](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/73901be8079b4c3b97c25ff804f9b10c18e12255))
 
 

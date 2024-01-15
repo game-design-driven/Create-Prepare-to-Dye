@@ -1,9 +1,9 @@
-### [1.160.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.160.0...1.160.1) (2023-12-16)
+### [1.160.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.160.0...1.160.1) (2023-12-16)
 
 
 ### Minor tweaks
 
-* make default terminal size tall ([1464e7a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1464e7a4cfa87bd533c8c9d8c8590fe3bffb7187))
-* Remove Drum of gathering because it makes milk easy ([4dcc80c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4dcc80c9d55cfcdc1b32b42d9ee604ac3d52b3fb))
+* make default terminal size tall ([1464e7a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1464e7a4cfa87bd533c8c9d8c8590fe3bffb7187))
+* Remove Drum of gathering because it makes milk easy ([4dcc80c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4dcc80c9d55cfcdc1b32b42d9ee604ac3d52b3fb))
 
 

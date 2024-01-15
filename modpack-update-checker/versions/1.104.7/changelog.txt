@@ -1,18 +1,18 @@
-### [1.104.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.6...1.104.7) (2023-11-29)
+### [1.104.7](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.104.6...1.104.7) (2023-11-29)
 
 
 ### Fixes
 
-* sugar cane tweak not removing old recipe ([386837a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/386837ab4bf989e8bc97999ff045543c74607dbe)), closes [#357](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/357)
+* sugar cane tweak not removing old recipe ([386837a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/386837ab4bf989e8bc97999ff045543c74607dbe)), closes [#357](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/357)
 
 
 ### Minor tweaks
 
-* remove mana fluxfield ([81bd793](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/81bd7935e29cf7218bd1171dee0765c18b3c6749)), closes [#342](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/342)
+* remove mana fluxfield ([81bd793](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/81bd7935e29cf7218bd1171dee0765c18b3c6749)), closes [#342](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/342)
 
 
 ### Documentation and Localization
 
-* remove useless comments ([c40fd2a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c40fd2a64bb8070ba80f210a9ddcccfdfa6a60ec))
+* remove useless comments ([c40fd2a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c40fd2a64bb8070ba80f210a9ddcccfdfa6a60ec))
 
 

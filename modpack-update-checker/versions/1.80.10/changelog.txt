@@ -1,9 +1,9 @@
-### [1.80.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.9...1.80.10) (2023-11-23)
+### [1.80.10](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.80.9...1.80.10) (2023-11-23)
 
 
 ### Documentation and Localization
 
-* add banner for modrinth ([014a4de](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/014a4def91cb5f5bdb6f30a4709ddd45be2315fa))
-* remove curseforge link, if we ever support cf again we can readd ([86736ec](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86736ec578ee0a09e489fef7a53b27387d5ae981))
+* add banner for modrinth ([014a4de](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/014a4def91cb5f5bdb6f30a4709ddd45be2315fa))
+* remove curseforge link, if we ever support cf again we can readd ([86736ec](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/86736ec578ee0a09e489fef7a53b27387d5ae981))
 
 

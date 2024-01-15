@@ -1,13 +1,13 @@
-### [1.95.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.95.0...1.95.1) (2023-11-28)
+### [1.95.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.95.0...1.95.1) (2023-11-28)
 
 
 ### Documentation and Localization
 
-* fix overgrowth summery ([5405ea5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5405ea5e041035e541c42d7014f2a148375cbe8e))
+* fix overgrowth summery ([5405ea5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5405ea5e041035e541c42d7014f2a148375cbe8e))
 
 
 ### Minor tweaks
 
-* overgrowth seed recipe will use coral instead of bone meal ([0fc1f7e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0fc1f7e2c3ff9eab99f7bc76b1edfeb30cf20337))
+* overgrowth seed recipe will use coral instead of bone meal ([0fc1f7e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0fc1f7e2c3ff9eab99f7bc76b1edfeb30cf20337))
 
 

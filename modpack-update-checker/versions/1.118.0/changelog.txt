@@ -1,8 +1,8 @@
-## [1.118.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.117.0...1.118.0) (2023-12-04)
+## [1.118.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.117.0...1.118.0) (2023-12-04)
 
 
 ### Features
 
-* buff milk cell spouting ([4a6c2c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4a6c2c847f956d17a1190269daf6404909cc6bdb))
+* buff milk cell spouting ([4a6c2c8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4a6c2c847f956d17a1190269daf6404909cc6bdb))
 
 

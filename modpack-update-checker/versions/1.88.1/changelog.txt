@@ -1,8 +1,8 @@
-### [1.88.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.0...1.88.1) (2023-11-26)
+### [1.88.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.88.0...1.88.1) (2023-11-26)
 
 
 ### Fixes
 
-* hand interactions with enginges should not consume bucket in creative ([cb2b0b2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cb2b0b28c8980c30adad1a2c32fdb00159c5028c))
+* hand interactions with enginges should not consume bucket in creative ([cb2b0b2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cb2b0b28c8980c30adad1a2c32fdb00159c5028c))
 
 

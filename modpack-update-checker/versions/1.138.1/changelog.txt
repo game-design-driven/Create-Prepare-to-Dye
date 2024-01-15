@@ -1,9 +1,9 @@
-### [1.138.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.138.0...1.138.1) (2023-12-11)
+### [1.138.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.138.0...1.138.1) (2023-12-11)
 
 
 ### Minor tweaks
 
-* reduced milk cooldown from 25 seconds to 22 seconds ([c8074eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c8074eb9fc7eb32c13957c4ac749d98c827064a5))
-* tell the player when Betsy needs a break ([53d51e4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/53d51e4cf753099c536e00f384a9a5589ab95134))
+* reduced milk cooldown from 25 seconds to 22 seconds ([c8074eb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c8074eb9fc7eb32c13957c4ac749d98c827064a5))
+* tell the player when Betsy needs a break ([53d51e4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/53d51e4cf753099c536e00f384a9a5589ab95134))
 
 

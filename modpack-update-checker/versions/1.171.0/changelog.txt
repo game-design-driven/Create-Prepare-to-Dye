@@ -1,13 +1,13 @@
-## [1.171.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.170.5...1.171.0) (2023-12-19)
+## [1.171.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.170.5...1.171.0) (2023-12-19)
 
 
 ### Features
 
-* baby blaze can be captured without waiting for them to grow ([2d43fa8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2d43fa89f497a061a356e8816213866d08d9ff77))
+* baby blaze can be captured without waiting for them to grow ([2d43fa8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2d43fa89f497a061a356e8816213866d08d9ff77))
 
 
 ### Minor tweaks
 
-* remove wrench recycling recipe ([760286f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/760286fa1d366c1547dba703d3d98a5ebdbdf204))
+* remove wrench recycling recipe ([760286f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/760286fa1d366c1547dba703d3d98a5ebdbdf204))
 
 

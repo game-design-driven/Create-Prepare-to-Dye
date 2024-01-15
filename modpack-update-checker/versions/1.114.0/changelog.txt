@@ -1,11 +1,11 @@
-## [1.114.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.113.0...1.114.0) (2023-12-02)
+## [1.114.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.113.0...1.114.0) (2023-12-02)
 
 
 ### Features
 
-* add apothecary_default to cobblestone devices ([c91a07a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c91a07af914633cacf3ef56b7bbc3ea4ca974d4b))
-* add railway_casing for all track and railway related devices ([28160c3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/28160c32183347c79bc1687bcceb2f0a20a9a318))
-* special rail tweaks ([63e1fae](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/63e1faea33ba279f5c893395e70da6b1947fb9d3))
-* special rails are a device type now ([1b41f68](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1b41f68208c722603b8dbc88241750f8cb5e8099))
+* add apothecary_default to cobblestone devices ([c91a07a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c91a07af914633cacf3ef56b7bbc3ea4ca974d4b))
+* add railway_casing for all track and railway related devices ([28160c3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/28160c32183347c79bc1687bcceb2f0a20a9a318))
+* special rail tweaks ([63e1fae](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/63e1faea33ba279f5c893395e70da6b1947fb9d3))
+* special rails are a device type now ([1b41f68](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1b41f68208c722603b8dbc88241750f8cb5e8099))
 
 
