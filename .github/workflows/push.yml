@@ -159,7 +159,7 @@ jobs:
         if: matrix.platform == 'modrinth'
         uses: actions-js/push@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }} 
+          github_token: ${{ secrets.GH_TOKEN }}
       - name: Publish to CurseForge
         if: matrix.platform == 'curseforge'
         uses: Kir-Antipov/mc-publish@v3.3.0
