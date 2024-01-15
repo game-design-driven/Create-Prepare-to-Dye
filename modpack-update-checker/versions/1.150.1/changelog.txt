@@ -1,8 +1,8 @@
-### [1.150.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.150.0...1.150.1) (2023-12-13)
+### [1.150.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.150.0...1.150.1) (2023-12-13)
 
 
 ### Minor tweaks
 
-* put bush first before book in lexica botania recipe so that it aligns with regular recipe, yes I know, shut up ([d81fa2c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d81fa2cbc9c803359551bcd00e38f4c8851d14ef))
+* put bush first before book in lexica botania recipe so that it aligns with regular recipe, yes I know, shut up ([d81fa2c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d81fa2cbc9c803359551bcd00e38f4c8851d14ef))
 
 

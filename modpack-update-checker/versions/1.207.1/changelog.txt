@@ -1,0 +1,8 @@
+### [1.207.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.207.0...1.207.1) (2024-01-14)
+
+
+### Minor tweaks
+
+* train schedule is now a railway device ([e7b4ec8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e7b4ec84a20d3f9482a75a2fa38d3b1170e0c939))
+
+

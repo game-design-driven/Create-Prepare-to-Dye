@@ -1,8 +1,8 @@
-### [1.139.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.139.1...1.139.2) (2023-12-11)
+### [1.139.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.139.1...1.139.2) (2023-12-11)
 
 
 ### Fixes
 
-* remove shell comments from bat script :facepalm: ([2df53fe](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2df53fe0035e325cf0947957a50390e6686277ce))
+* remove shell comments from bat script :facepalm: ([2df53fe](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2df53fe0035e325cf0947957a50390e6686277ce))
 
 

@@ -1,8 +1,8 @@
-### [1.131.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.131.0...1.131.1) (2023-12-10)
+### [1.131.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.131.0...1.131.1) (2023-12-10)
 
 
 ### Documentation and Localization
 
-* rename EMI stonecutter category to Device Assembler [V] to show that you have a built in device assembler ([9657a0e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9657a0e00cae2ead5327851263adb6c103dad994))
+* rename EMI stonecutter category to Device Assembler [V] to show that you have a built in device assembler ([9657a0e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9657a0e00cae2ead5327851263adb6c103dad994))
 
 

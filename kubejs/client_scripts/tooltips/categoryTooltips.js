@@ -3,7 +3,14 @@ if (feature("Add special tooltips for mods categories and device types")) {
     event.addAdvanced(/.*/, (item, advanced, text) => {
       item = Item.of(item);
       if (event.isCtrl())
-        text.add(Text.darkGray('[').append(Text.blue(Utils.toTitleCase(item.mod.trim())).append(Text.darkGray(']'))));
+        text.add(
+          Text.darkGray("[").append(
+            Text.blue(Utils.toTitleCase(item.mod.trim())).append(
+              Text.darkGray("]")
+            )
+          )
+        );
+      if (getCategory(item).isEmpty() && getDeviceType(item).isEmpty()) return;
       text.add(getCategory(item).append(getDeviceType(item)));
     });
   });

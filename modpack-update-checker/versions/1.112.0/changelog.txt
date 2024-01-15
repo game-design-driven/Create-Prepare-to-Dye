@@ -1,22 +1,22 @@
-## [1.112.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.111.1...1.112.0) (2023-12-02)
+## [1.112.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.111.1...1.112.0) (2023-12-02)
 
 
 ### Features
 
-* increase max items in quark crate to 1000 ([7cbe804](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7cbe804a2976acb35864375754cb3c81dc5ec33d))
-* rework andesite alloy processing ([0ecb0e9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0ecb0e9f1536d97bd008531670ec0c180302c221))
+* increase max items in quark crate to 1000 ([7cbe804](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7cbe804a2976acb35864375754cb3c81dc5ec33d))
+* rework andesite alloy processing ([0ecb0e9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0ecb0e9f1536d97bd008531670ec0c180302c221))
 
 
 ### Minor tweaks
 
-* buff handcrank, you are a powerful atuomaton, you should be able to debug easier ([6882ea4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6882ea4a7c0e74d271d2cfcf89d331382e3187a5))
-* buff orange ingot from chocolate recipe ([7270d00](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7270d007db5a7519cb426b8f6788162a1953dc05))
-* nerf water wheels further ([73c633b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/73c633ba3a5f69b386c71566488ebc2810e68537))
-* rename andesite alloy to gray alloy ([ce64e0d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ce64e0db666c2dc859db68c4fd31b896feb64737))
+* buff handcrank, you are a powerful atuomaton, you should be able to debug easier ([6882ea4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6882ea4a7c0e74d271d2cfcf89d331382e3187a5))
+* buff orange ingot from chocolate recipe ([7270d00](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7270d007db5a7519cb426b8f6788162a1953dc05))
+* nerf water wheels further ([73c633b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/73c633ba3a5f69b386c71566488ebc2810e68537))
+* rename andesite alloy to gray alloy ([ce64e0d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ce64e0db666c2dc859db68c4fd31b896feb64737))
 
 
 ### Developer experance improvments and changes
 
-* format tooltip file ([3acafc6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3acafc6c8ec28af579356aa380e9dff35b5f4fe9))
+* format tooltip file ([3acafc6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3acafc6c8ec28af579356aa380e9dff35b5f4fe9))
 
 

@@ -108,8 +108,7 @@ if (feature("Replace golden sheet with brass one")) {
   });
   removeItem("create:golden_sheet");
   removeRecipe({ id: "create:crafting/kinetics/wrench" });
-  addShaped("create:wrench", ["pp ", "pc ", " s "], {
-    p: "#forge:plates",
+  addShaped("create:wrench", ["c", "s"], {
     c: "#forge:cogs",
     s: "#forge:rods",
   });

@@ -1,8 +1,8 @@
-## [1.168.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.167.1...1.168.0) (2023-12-18)
+## [1.168.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.167.1...1.168.0) (2023-12-18)
 
 
 ### Features
 
-* fuel values rework. Milk and ethanol buff, goop nerf. Goal here is that the later milk derived fuels are much more efficient in terms of milk usage. Past values were due to a miscalculation on my part ([f38ca01](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f38ca01b02a7e357256d6a09c9bc48c3716955bf))
+* fuel values rework. Milk and ethanol buff, goop nerf. Goal here is that the later milk derived fuels are much more efficient in terms of milk usage. Past values were due to a miscalculation on my part ([f38ca01](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f38ca01b02a7e357256d6a09c9bc48c3716955bf))
 
 

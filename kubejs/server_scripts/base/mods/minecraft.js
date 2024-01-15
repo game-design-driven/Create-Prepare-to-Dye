@@ -12,7 +12,7 @@ if (feature("Paper recipes")) {
     addPressing("stick", "stick"),
   ]);
 }
-if (feature("Chest recipes")) {
+if (feature("Chest recipes") && !feature("Craftable devices that are transmuted to specific things on demand")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
   addShaped("4x chest", ["###", "# #", "###"], { "#": "#logs" });
 }
@@ -202,10 +202,6 @@ if (feature("Separate magma cream")) {
 if (feature("Netherrack from nether_wart_block")) {
   addItemApplication("netherrack", "nether_wart_block", "cobblestone");
   addItemApplication("netherrack", "cobblestone", "nether_wart_block");
-}
-
-if (feature("Netherwart to redstone")) {
-  addSmelting("redstone %10", "#forge:crops/nether_wart");
 }
 
 if (feature("Redstone from quartz")) {

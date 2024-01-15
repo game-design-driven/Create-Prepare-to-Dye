@@ -1,8 +1,8 @@
-### [1.106.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.106.0...1.106.1) (2023-11-30)
+### [1.106.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.106.0...1.106.1) (2023-11-30)
 
 
 ### Fixes
 
-* early trade lines ([61d540b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/61d540b0063b5bd9db0b71c7651aa5ccbc23cdda))
+* early trade lines ([61d540b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/61d540b0063b5bd9db0b71c7651aa5ccbc23cdda))
 
 

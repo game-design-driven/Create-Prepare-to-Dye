@@ -1,8 +1,8 @@
-### [1.88.10](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.9...1.88.10) (2023-11-26)
+### [1.88.10](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.88.9...1.88.10) (2023-11-26)
 
 
 ### Minor tweaks
 
-* increased wood output of wheat trade ([85abb43](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/85abb438b0a77f440e2b6a5eed742cb0df1cf37c))
+* increased wood output of wheat trade ([85abb43](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/85abb438b0a77f440e2b6a5eed742cb0df1cf37c))
 
 

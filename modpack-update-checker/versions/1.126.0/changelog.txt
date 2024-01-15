@@ -1,8 +1,8 @@
-## [1.126.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.5...1.126.0) (2023-12-09)
+## [1.126.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.125.5...1.126.0) (2023-12-09)
 
 
 ### Features
 
-* add playermodel to stonecutter interface ([6deb9a6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6deb9a69cee63aeeda504bc7a0e17e6bf094b670))
+* add playermodel to stonecutter interface ([6deb9a6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6deb9a69cee63aeeda504bc7a0e17e6bf094b670))
 
 

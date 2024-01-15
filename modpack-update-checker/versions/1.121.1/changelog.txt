@@ -1,8 +1,8 @@
-### [1.121.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.121.0...1.121.1) (2023-12-07)
+### [1.121.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.121.0...1.121.1) (2023-12-07)
 
 
 ### Documentation and Localization
 
-* clean readme ([796fd43](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/796fd43bc16b77b53a923bc38ccd05a69c922b1a)), closes [#370](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/370)
+* clean readme ([796fd43](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/796fd43bc16b77b53a923bc38ccd05a69c922b1a)), closes [#370](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/370)
 
 

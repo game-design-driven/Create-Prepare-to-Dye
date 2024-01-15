@@ -1,8 +1,8 @@
-### [1.129.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.129.0...1.129.1) (2023-12-09)
+### [1.129.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.129.0...1.129.1) (2023-12-09)
 
 
 ### Minor tweaks
 
-* Improve spaceship structures ([f749add](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f749add2e0ec6bf5f65ff8f0ed33386f0d5d755f))
+* Improve spaceship structures ([f749add](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f749add2e0ec6bf5f65ff8f0ed33386f0d5d755f))
 
 

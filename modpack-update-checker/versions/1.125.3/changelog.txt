@@ -1,8 +1,8 @@
-### [1.125.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.2...1.125.3) (2023-12-09)
+### [1.125.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.125.2...1.125.3) (2023-12-09)
 
 
 ### Fixes
 
-* z-fighting and overall make the model very slightly better ([#378](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/378)) ([fd0693c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fd0693c22dcd69d88739c2b54ecd416be05bb70b))
+* z-fighting and overall make the model very slightly better ([#378](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/378)) ([fd0693c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fd0693c22dcd69d88739c2b54ecd416be05bb70b))
 
 

@@ -1,19 +1,19 @@
-## [1.129.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.128.0...1.129.0) (2023-12-09)
+## [1.129.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.128.0...1.129.0) (2023-12-09)
 
 
 ### Features
 
-* remove huge engine. Will be replaced with modular engine but for now regular engine is fine ([ea940c2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ea940c25d0f0aaa77e05eab2167b400b5a7738cd))
+* remove huge engine. Will be replaced with modular engine but for now regular engine is fine ([ea940c2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ea940c25d0f0aaa77e05eab2167b400b5a7738cd))
 
 
 ### Minor tweaks
 
-* platoil strength output ([045d59d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/045d59d865ad5d83592c3d01a20528b12339ffd9))
+* platoil strength output ([045d59d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/045d59d865ad5d83592c3d01a20528b12339ffd9))
 
 
 ### Documentation and Localization
 
-* fix some things in the readme ([03cf5b1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/03cf5b1f7b01cc611107739bc1dcdf04c6b41828))
-* revert casing names in favor of devices ([7b1bba7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7b1bba7014383d8c3054eeb3d0ef17ef69e2252c))
+* fix some things in the readme ([03cf5b1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/03cf5b1f7b01cc611107739bc1dcdf04c6b41828))
+* revert casing names in favor of devices ([7b1bba7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7b1bba7014383d8c3054eeb3d0ef17ef69e2252c))
 
 

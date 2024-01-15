@@ -1,18 +1,18 @@
-## [1.106.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.105.4...1.106.0) (2023-11-30)
+## [1.106.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.105.4...1.106.0) (2023-11-30)
 
 
 ### Features
 
-* add filling recipe to grow quartz ([893e92b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/893e92b1769bba924c5636843747b96a9da1ba90))
+* add filling recipe to grow quartz ([893e92b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/893e92b1769bba924c5636843747b96a9da1ba90))
 
 
 ### Documentation and Localization
 
-* rename budding quartz to be more description ([9dc431f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9dc431f05dde806a4f80aaa4e643323800fccf5c))
+* rename budding quartz to be more description ([9dc431f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9dc431f05dde806a4f80aaa4e643323800fccf5c))
 
 
 ### Fixes
 
-* add depleted quartz bud ([f2c0613](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f2c0613f6ff534a17f9c11c962f4dacd2a4fa551))
+* add depleted quartz bud ([f2c0613](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f2c0613f6ff534a17f9c11c962f4dacd2a4fa551))
 
 

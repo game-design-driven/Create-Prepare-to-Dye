@@ -1,8 +1,8 @@
-### [1.92.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.92.0...1.92.1) (2023-11-27)
+### [1.92.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.92.0...1.92.1) (2023-11-27)
 
 
 ### Reverted Changes
 
-* Revert Revert feat: Add trading platforms ([81cc265](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/81cc265593a4f1882b5407870e6be1de8ed63002))
+* Revert Revert feat: Add trading platforms ([81cc265](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/81cc265593a4f1882b5407870e6be1de8ed63002))
 
 

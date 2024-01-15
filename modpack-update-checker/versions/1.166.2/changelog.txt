@@ -1,13 +1,13 @@
-### [1.166.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.166.1...1.166.2) (2023-12-18)
+### [1.166.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.166.1...1.166.2) (2023-12-18)
 
 
 ### Documentation and Localization
 
-* update readme ([41bbfa9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/41bbfa9450e092636b126c2c421110a710e8d440))
+* update readme ([41bbfa9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/41bbfa9450e092636b126c2c421110a710e8d440))
 
 
 ### Minor tweaks
 
-* increase dye output from gray plates for clever players who want to make dye through this route ([a19cf71](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a19cf716b81d92f50bb09e1393f86b7e5255e500))
+* increase dye output from gray plates for clever players who want to make dye through this route ([a19cf71](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a19cf716b81d92f50bb09e1393f86b7e5255e500))
 
 

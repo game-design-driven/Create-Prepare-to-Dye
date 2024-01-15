@@ -1,17 +1,17 @@
-## [1.149.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.148.1...1.149.0) (2023-12-13)
+## [1.149.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.148.1...1.149.0) (2023-12-13)
 
 
 ### Features
 
-* fix DeliveryTableScreen side window being on top tooltips ([d0167db](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d0167db7e72abcef5f9a26e613f44b202ede0341))
-* reduce dye output of fertilizer enhanced fermentation and increased fermented goop output ([c912081](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c91208182f72d9fba387260554e3978277949241))
+* fix DeliveryTableScreen side window being on top tooltips ([d0167db](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d0167db7e72abcef5f9a26e613f44b202ede0341))
+* reduce dye output of fertilizer enhanced fermentation and increased fermented goop output ([c912081](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c91208182f72d9fba387260554e3978277949241))
 
 
 ### Documentation and Localization
 
-* add small crushing output of fertlizer to white powder directly so that players catch on the recipe ([d83aace](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d83aace0d52318bbba988aa6ff65c1116f9d074d))
-* add tooltip to fertilizer ([07cb1f9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/07cb1f9115963b18e71001812a2c758fa361a7db))
-* increase category order of crushing ([aebc461](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aebc461b8291b05ed03bd4b8168f798396bce33e))
-* reduce category order of smelting ([f551693](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f5516936e0f08801db2d2d34714e8918080c07c0))
+* add small crushing output of fertlizer to white powder directly so that players catch on the recipe ([d83aace](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d83aace0d52318bbba988aa6ff65c1116f9d074d))
+* add tooltip to fertilizer ([07cb1f9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/07cb1f9115963b18e71001812a2c758fa361a7db))
+* increase category order of crushing ([aebc461](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/aebc461b8291b05ed03bd4b8168f798396bce33e))
+* reduce category order of smelting ([f551693](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f5516936e0f08801db2d2d34714e8918080c07c0))
 
 

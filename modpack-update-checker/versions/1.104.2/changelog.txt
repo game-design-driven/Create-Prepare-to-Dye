@@ -1,8 +1,8 @@
-### [1.104.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.1...1.104.2) (2023-11-29)
+### [1.104.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.104.1...1.104.2) (2023-11-29)
 
 
 ### Continuous Integration
 
-* add .deepsource.toml ([f02a0eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f02a0ebe59aa1436ffc3c918de3414326b4720f8))
+* add .deepsource.toml ([f02a0eb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f02a0ebe59aa1436ffc3c918de3414326b4720f8))
 
 

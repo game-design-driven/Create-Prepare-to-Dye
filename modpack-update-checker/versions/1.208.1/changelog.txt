@@ -1,0 +1,13 @@
+### [1.208.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.0...1.208.1) (2024-01-14)
+
+
+### Minor tweaks
+
+* add a few early qube trades for rails ([9784f2c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9784f2c65999f2df248934ceff237d6fec97b333))
+
+
+### Fixes
+
+* multiplayer device compensation beeing in casings instead of devices ([c36b98e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c36b98e9f35f109f9d78b335d04a6c0e55255bf1))
+
+

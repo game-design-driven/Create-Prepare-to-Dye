@@ -1,8 +1,8 @@
-### [1.79.35](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.79.34...1.79.35) (2023-11-22)
+### [1.79.35](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.79.34...1.79.35) (2023-11-22)
 
 
 ### Continuous Integration
 
-* move update checker logic to before building the pack ([b529342](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b5293426ee9d0867b8f12691343fcba904c5a958))
+* move update checker logic to before building the pack ([b529342](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b5293426ee9d0867b8f12691343fcba904c5a958))
 
 

@@ -1,14 +1,14 @@
-### [1.134.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.7...1.134.8) (2023-12-10)
+### [1.134.8](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.134.7...1.134.8) (2023-12-10)
 
 
 ### Minor tweaks
 
-* buff default large waterwheel stress output. Need to deleted your defaultconfigs folder for it to refresh on exsisting worlds! It sucks but thats how forge works ([76b209b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/76b209b683014aac9d7cb7060c8024558c65043c))
+* buff default large waterwheel stress output. Need to deleted your defaultconfigs folder for it to refresh on exsisting worlds! It sucks but thats how forge works ([76b209b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/76b209b683014aac9d7cb7060c8024558c65043c))
 
 
 ### Documentation and Localization
 
-* add tooltip to trades about them being repeatable ([2a45283](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2a4528318f6f8453de2e3b77fb364225ccb6c72d))
-* rename Intergalactic Trading Mesh Terminal to Trading Mesh Terminal ([0e2c7ca](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0e2c7caf04fa80df3c4bdc7e41db7ae5f30605f2))
+* add tooltip to trades about them being repeatable ([2a45283](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2a4528318f6f8453de2e3b77fb364225ccb6c72d))
+* rename Intergalactic Trading Mesh Terminal to Trading Mesh Terminal ([0e2c7ca](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0e2c7caf04fa80df3c4bdc7e41db7ae5f30605f2))
 
 

@@ -1,19 +1,19 @@
-### [1.84.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.84.0...1.84.1) (2023-11-25)
+### [1.84.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.84.0...1.84.1) (2023-11-25)
 
 
 ### Minor tweaks
 
-* disabled entity armor and health in jade ([44486d1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/44486d182d508d43aa6dfe11ef9ebd78bb37d33a))
-* reduce storage size of drawers, they should be mainly useful for storage that needs player interface or storage that needs to be type locked. Bulk storage is for other things mostly ([9d58498](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9d5849861bfcfb416572adcb8a6b4889c67ded01))
+* disabled entity armor and health in jade ([44486d1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/44486d182d508d43aa6dfe11ef9ebd78bb37d33a))
+* reduce storage size of drawers, they should be mainly useful for storage that needs player interface or storage that needs to be type locked. Bulk storage is for other things mostly ([9d58498](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9d5849861bfcfb416572adcb8a6b4889c67ded01))
 
 
 ### Documentation and Localization
 
-* add tooltip to drawers ([7aecc6d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7aecc6d87cbb6c5ef24439a89e3450c5bbb58ab1))
+* add tooltip to drawers ([7aecc6d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7aecc6d87cbb6c5ef24439a89e3450c5bbb58ab1))
 
 
 ### Developer experance improvments and changes
 
-* add support for list based item tooltips ([dcbc16a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dcbc16abf685b948c71637b112946a14db6ce1b7))
+* add support for list based item tooltips ([dcbc16a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dcbc16abf685b948c71637b112946a14db6ce1b7))
 
 

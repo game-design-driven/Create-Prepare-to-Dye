@@ -1,41 +1,41 @@
-## [1.117.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.116.5...1.117.0) (2023-12-04)
+## [1.117.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.116.5...1.117.0) (2023-12-04)
 
 
 ### Features
 
-* add organic mass ([a3d74d2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a3d74d2959a7b9fac78c6554d0999939036cab89))
-* make hudcompass be always on by default ([2c702ac](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2c702acb3222786eb5de2a9a8789b032fbf7ae99))
-* modify fuel values of fluids to be more interesting with their scaling ([ea2e8a9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ea2e8a99fff2b9fd8107faaa64244b2d79c9bd9c))
-* replace crude oil which was not actually used with black sludge which is also liquid ink ([6de8b16](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6de8b16515d0ba3e6ef0962274aa798cbca87128))
-* replace water from squeezables to organic mass from squeezables. That adds one more step before you get water ([c2104b0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c2104b05000b6fd884d41d784e2c60103af25f47))
+* add organic mass ([a3d74d2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a3d74d2959a7b9fac78c6554d0999939036cab89))
+* make hudcompass be always on by default ([2c702ac](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2c702acb3222786eb5de2a9a8789b032fbf7ae99))
+* modify fuel values of fluids to be more interesting with their scaling ([ea2e8a9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ea2e8a99fff2b9fd8107faaa64244b2d79c9bd9c))
+* replace crude oil which was not actually used with black sludge which is also liquid ink ([6de8b16](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6de8b16515d0ba3e6ef0962274aa798cbca87128))
+* replace water from squeezables to organic mass from squeezables. That adds one more step before you get water ([c2104b0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c2104b05000b6fd884d41d784e2c60103af25f47))
 
 
 ### Minor tweaks
 
-* remove mod name from jade ([180155b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/180155b3be44a9342ea4ccb04e3af4d50e364855))
-* tweak jade to fit with the hud compass thing. still not perfect, if you have a better configuration please slap me with it on discord ([66bed56](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/66bed56baeb9bb42a44d6a580f75fdb1dc808748))
+* remove mod name from jade ([180155b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/180155b3be44a9342ea4ccb04e3af4d50e364855))
+* tweak jade to fit with the hud compass thing. still not perfect, if you have a better configuration please slap me with it on discord ([66bed56](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/66bed56baeb9bb42a44d6a580f75fdb1dc808748))
 
 
 ### Developer experance improvments and changes
 
-* update modpack update checker config file with new values ([d409ea5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d409ea539d7236f34b473f4ca9648437f0769fd8))
+* update modpack update checker config file with new values ([d409ea5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d409ea539d7236f34b473f4ca9648437f0769fd8))
 
 
 ### Documentation and Localization
 
-* improve milk bucket tooltip ([0ad1e72](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0ad1e72503878d55d4b598443be832e425fc62bc))
-* rename liquid ink to Black Sludge ([e3d3696](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e3d3696675d2b6184f22d14bfa04fb4e8f62d620))
-* slightly improve readme ([b5d8efa](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b5d8efa8d22e4f26c67259dfa40b3927a1245132)), closes [#367](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/367)
+* improve milk bucket tooltip ([0ad1e72](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0ad1e72503878d55d4b598443be832e425fc62bc))
+* rename liquid ink to Black Sludge ([e3d3696](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e3d3696675d2b6184f22d14bfa04fb4e8f62d620))
+* slightly improve readme ([b5d8efa](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b5d8efa8d22e4f26c67259dfa40b3927a1245132)), closes [#367](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/367)
 
 
 ### Modlist related changes
 
-* add hudcompass ([aa744c4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aa744c4a13fdfbd2a5f32ad2e31c80942d7ad9f0))
-* replace crafting on a stick person dist with official new modrinth release ([3e6115a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3e6115adeb02a63ee614accc80c929db3ea9ace6))
-* update create diesel generators ([581b9d7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/581b9d7d7f7df6a2e39a0db440f264d31e1a8b54))
-* update easy villagers ([58f2a56](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/58f2a56a7310e10ea5480287e00067c6d92dc12f))
-* update emi ([66a09a9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/66a09a9f3cad614b4c6409d5458f9642e1eeae04))
-* update modpack update checker ([aeed63c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/aeed63c794838ba11baed4de465f5c322e1e7f34))
-* update not enough crashes ([8efacd5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8efacd513fdddfbeb595093d3262004780173b10))
+* add hudcompass ([aa744c4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/aa744c4a13fdfbd2a5f32ad2e31c80942d7ad9f0))
+* replace crafting on a stick person dist with official new modrinth release ([3e6115a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3e6115adeb02a63ee614accc80c929db3ea9ace6))
+* update create diesel generators ([581b9d7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/581b9d7d7f7df6a2e39a0db440f264d31e1a8b54))
+* update easy villagers ([58f2a56](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/58f2a56a7310e10ea5480287e00067c6d92dc12f))
+* update emi ([66a09a9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/66a09a9f3cad614b4c6409d5458f9642e1eeae04))
+* update modpack update checker ([aeed63c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/aeed63c794838ba11baed4de465f5c322e1e7f34))
+* update not enough crashes ([8efacd5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8efacd513fdddfbeb595093d3262004780173b10))
 
 
