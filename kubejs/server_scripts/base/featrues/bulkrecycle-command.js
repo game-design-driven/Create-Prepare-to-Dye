@@ -9,17 +9,20 @@ function compactItems(player,keepOne){
   let tallies = {}
   player.inventory.allItems.toArray().forEach(
     /** @param {Internal.ItemStack} i */
-    (i,slot)=>{
+    i=>{
       if(i.hasTag("forge:devices")){
-        //highly esoteric way to do it, so sorry!
-        let [type,fraction] = i.tags.toArray().join().match(/devices\/([^\]\s]+)]/)[1].split("/")
+        let [_,type,fraction] = i.getTags()
+          .toList()
+          .filter((tag) => tag.location().path.startsWith("devices/"))[0]
+          .location().path.split("/")
+        
         fraction = fraction || "1";
         let fractionKey = "_"+String(fraction);
         tallies[type] = tallies[type] ?? {}
         tallies[type][fractionKey] = tallies[type][fractionKey] ?? {a:0,f:Number(fraction),items:[]}
         tallies[type][fractionKey].a += i.count;
         tallies[type][fractionKey].items.push(i);
-        console.log(`${i.id} ${type}, 1/${fractionKey} devices`)
+        //console.log(`${i.id} ${type}, 1/${fraction} devices`)
       }
     }
   )
@@ -33,8 +36,6 @@ function compactItems(player,keepOne){
     let totalDevices = 0;
     
     Object.entries(amounts).forEach(([_,a])=>{
-
-      console.log(a.items);
 
       let runningTally = 0;
       let runningItems = [];
@@ -94,12 +95,10 @@ function compactItems(player,keepOne){
       Text.of("Used items:\n").gray()
     ];
     
-    console.log(Object.entries(usedItems))
-    for(let [id,usedItem] of Object.entries(usedItems)){
+    for(let usedItem of Object.values(usedItems)){
       //easier to deal with it like this, but these get in here because an item automatically becomes air once it's count hits 0.
       if(usedItem.c == 0) continue;
-      
-      console.log("text component")
+
       let name = Text.of(usedItem.name)
       name = name.siblings.get(0)
       usedText.push(name.yellow())
@@ -107,8 +106,6 @@ function compactItems(player,keepOne){
       usedText.push(Text.of(usedItem.c).yellow())
       usedText.push(Text.of("\n"))
     }
-
-    console.log(usedText)
 
     if(totalDevices>0){
       player.tell(Text.of([
@@ -155,7 +152,7 @@ global.customCommandBulkRecycle = (c,all) => {
 
 
 ServerEvents.commandRegistry(e => {
-  const { commands: Commands, arguments: Arguments } = e;
+  const { commands: Commands } = e;
   e.register(
     Commands.literal("bulkrecycle")
     .executes(c=>global.customCommandBulkRecycle(c,true))

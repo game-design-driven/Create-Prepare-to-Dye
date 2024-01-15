@@ -285,5 +285,6 @@
 	"Burn Time tooltips": true,
 	"Remove white ingot from lootables": true,
 	"Doormat recipe": true,
-	"Remove rope": true
+	"Remove rope": true,
+	"Add special tooltips for mods categories and device types": true
 }
