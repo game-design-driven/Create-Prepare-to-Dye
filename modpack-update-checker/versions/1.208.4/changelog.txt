@@ -1,0 +1,8 @@
+### [1.208.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.208.3...1.208.4) (2024-01-15)
+
+
+### Reverted Changes
+
+* Revert fixed: white block not having a recipe from white plates ([dc89753](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dc897539444a153e5c2ec6399e7dcf34c1c4f967))
+
+
