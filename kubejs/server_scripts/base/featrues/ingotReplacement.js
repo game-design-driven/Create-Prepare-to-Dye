@@ -49,10 +49,6 @@ if (feature("Replace white ingot with white plate directly")) {
   addShaped("create:iron_sheet", ["iii", "iii"], {
     i: "minecraft:iron_nugget",
   });
-  addShaped("minecraft:iron_block", ["iii", "iii"], {
-    i: "#forge:ingots/iron",
-  });
-  addShapeless("6x create:iron_sheet", "minecraft:iron_block");
 
   addCompacting("create:iron_sheet", "6x minecraft:iron_nugget");
   
@@ -63,8 +59,6 @@ if (feature("Replace white ingot with white plate directly")) {
       .shapeless("create:iron_sheet", "minecraft:iron_ingot")
       .id("kubejs:iron_sheet_from_ingot/hidden/recipe")
   );
-
-
 }
 
 if (feature("No More Ingots")) {
