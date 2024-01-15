@@ -1,0 +1,8 @@
+### [1.208.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.208.1...1.208.2) (2024-01-15)
+
+
+### Fixes
+
+* colored cables not being able to turn back into regular cables ([880088b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/880088b59716eb931b0455dcb604edf7fec7f64b))
+
+
