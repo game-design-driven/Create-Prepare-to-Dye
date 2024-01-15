@@ -175,3 +175,4 @@ jobs:
           version: ${{ needs.tag_and_release.outputs.new_tag }}
           version-type: release
           name: ${{ steps.build_args.outputs.name }}
+          curseforge-version: ${{ needs.tag_and_release.outputs.new_tag }}
