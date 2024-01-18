@@ -19,8 +19,9 @@ if (
       ],
     },
     {
-      tag: "forge:device/craftingplaceholder",
+      tag: "forge:device/crafting_place_holder",
       generic: "gold_nugget",
+      convert_back_recipe: false,
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
@@ -393,7 +394,7 @@ if (
     console.log(device.base);
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
-
+    device.convert_back_recipe = device.convert_back_recipe==false?false:true;
     //device recipe
     if (device.assembly) {
       if (!Array.isArray(device.assembly[0])) {
@@ -414,9 +415,11 @@ if (
     }
     //device transmutation
     addStonecutting(device.generic, device.tag);
-    addShaped(device.generic, ["#"], {
-      "#": device.tag,
-    });
+    if (device.convert_back_recipe) {
+      addShaped(device.generic, ["#"], {
+        "#": device.tag,
+      });
+    }
     device.included_devices.forEach((included_device) => {
       let item = Item.of(included_device);
       removeAllRecipesForItem(item.id);

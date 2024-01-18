@@ -42,7 +42,7 @@ function getDeviceType(item) {
     .filter((tag) => tag.location().path.startsWith("device/"))[0];
   console.log(deviceTag.location().path);
   if (!deviceTag) return " ";
-  let deviceType = deviceTag.location().path.split("/")[1];
+  let deviceType = deviceTag.location().path.split("/")[1].replaceAll("_", " ");
 
   if (allowed_tabs.includes(item.creativeTab)) {
     return Text.darkGray(" - ").append(
