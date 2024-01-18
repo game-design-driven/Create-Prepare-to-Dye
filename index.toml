@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7fbf3a533f07f21d12381eec94f012c413ef5476e3ad92095bdd37ecd1eefda4"
+hash = "7dd06e34f56f9ad810780d8c180e74a3a114e9cf8e213322a21f5292a5e002c1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3382,7 +3382,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "fb1c165d8869f255fd003ffb50f9bcd7b2d1628bba65d920472c4657e5c5f325"
+hash = "7659649fef397bef064f2f26bd6a96d854fff48a10f03bf3651cf352d7c1cc72"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5306,7 +5306,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "dc1f86df28b22d0f9e4fe63c2a0da7669127fffb465934c8228258a8eb99340f"
+hash = "839cff531bf294af24a9bd769e7ef1dcdd098817336c0a1e2e712a3466ad4df1"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -5330,7 +5330,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0429e64a903083ca2368417ae9ac2dfd3b2a7c40747fbdb476f2f9779bbfb790"
+hash = "49d4a5b8e3ab058af05dd9d0b4b171eb944063101ff09ce0bd4c11168f92851c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -6975,6 +6975,10 @@ hash = "2f8f27c35ad4e6444bc93a0bf0a423136050c1c500b16913258ee1d4ee40ec38"
 [[files]]
 file = "modpack-update-checker/versions/1.208.11/changelog.txt"
 hash = "add61729af70799f70fa699ff96400dc5bed7e48fb17095cafee66ca7c5edbb0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.12/changelog.txt"
+hash = "e847db281b314733998232eaae13ee8bf03344b1b7a511f1f0d1aec54c60d3fb"
 
 [[files]]
 file = "modpack-update-checker/versions/1.208.2/changelog.txt"
