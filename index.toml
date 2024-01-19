@@ -7363,7 +7363,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "4e39ccb7de4aff79642cd136f46377f41c9573c2848a9e39190d9a4b6266c65c"
+hash = "0404df67b1976c2bc5cbbf43af1c1a2e64d729f82213d0452f89baa0157f2d60"
 metafile = true
 
 [[files]]
@@ -7577,7 +7577,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "089b6121bb4f077a9e30f5a2c11092c66d667bc6e11e8ce7dce9a1232a5019f5"
+hash = "12966dcb0fcd33211a062aa9e7043800b11d05e9aa97de4a5bb569480e677857"
 metafile = true
 
 [[files]]
