@@ -70,45 +70,66 @@ if (feature("Quartz buds drop quartz")) {
     event
       .addBlockLootModifier("ae2:small_quartz_bud")
       .replaceLoot(ItemFilter.ALWAYS_TRUE, "minecraft:quartz")
-      .applyOreBonus("minecraft:fortune")
+      .applyOreBonus("minecraft:fortune");
     event
       .addBlockLootModifier("ae2:medium_quartz_bud")
       .replaceLoot(ItemFilter.ALWAYS_TRUE, "minecraft:quartz")
-      .applyOreBonus("minecraft:fortune")
+      .applyOreBonus("minecraft:fortune");
     event
       .addBlockLootModifier("ae2:large_quartz_bud")
       .replaceLoot(ItemFilter.ALWAYS_TRUE, "2x minecraft:quartz")
-      .applyOreBonus("minecraft:fortune")
+      .applyOreBonus("minecraft:fortune");
     event
       .addBlockLootModifier("ae2:quartz_cluster")
       .replaceLoot(ItemFilter.ALWAYS_TRUE, "4x minecraft:quartz")
-      .applyOreBonus("minecraft:fortune")
+      .applyOreBonus("minecraft:fortune");
   });
-  //add more with fortune
-
-  //remove flax seed from all loottables
-
+}
+if (feature("Grass, tall grass and ferns drops seeds all the time")) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:grass")
+      .addLoot("minecraft:wheat_seeds")
+      .applyOreBonus("minecraft:fortune");
+    event
+      .addBlockLootModifier("minecraft:tall_grass")
+      .addLoot("minecraft:wheat_seeds")
+      .applyOreBonus("minecraft:fortune");
+    event
+      .addBlockLootModifier("minecraft:fern")
+      .addLoot("minecraft:wheat_seeds")
+      .applyOreBonus("minecraft:fortune");
+  });
 }
 
-
-if (feature('Remove flax seed from all loottables')) {
+if (feature("Remove flax seed from all loottables")) {
   LootJS.modifiers((event) => {
     event.removeGlobalModifier("@supplementaries");
   });
 }
 
-if (feature('Remove white ingot from lootables')) {
-  LootJS.modifiers(event =>{
-    event.addEntityLootModifier("minecraft:zombie").removeLoot("minecraft:iron_ingot")
-    event.addEntityLootModifier("minecraft:zombie_villager").removeLoot("minecraft:iron_ingot")
-    event.addEntityLootModifier("minecraft:husk").removeLoot("minecraft:iron_ingot")
-    event.addEntityLootModifier("minecraft:drowned").removeLoot("minecraft:iron_ingot")
-    event.addLootTypeModifier(LootType.CHEST).removeLoot("minecraft:iron_ingot")
+if (feature("Remove white ingot from lootables")) {
+  LootJS.modifiers((event) => {
+    event
+      .addEntityLootModifier("minecraft:zombie")
+      .removeLoot("minecraft:iron_ingot");
+    event
+      .addEntityLootModifier("minecraft:zombie_villager")
+      .removeLoot("minecraft:iron_ingot");
+    event
+      .addEntityLootModifier("minecraft:husk")
+      .removeLoot("minecraft:iron_ingot");
+    event
+      .addEntityLootModifier("minecraft:drowned")
+      .removeLoot("minecraft:iron_ingot");
+    event
+      .addLootTypeModifier(LootType.CHEST)
+      .removeLoot("minecraft:iron_ingot");
     // event.addLootTypeModifier("minecraft:chests/abandoned_mineshaft").removeLoot("minecraft:iron_ingot")
     // event.addLootTypeModifier("minecraft:chests/desert_pyramid").removeLoot("minecraft:iron_ingot")
     // event.addLootTypeModifier("minecraft:chests/jungle_temple").removeLoot("minecraft:iron_ingot")
     // event.addLootTypeModifier("minecraft:chests/stronghold_corridor").removeLoot("minecraft:iron_ingot")
     // event.addLootTypeModifier("minecraft:chests/stronghold_crossing").removeLoot("minecraft:iron_ingot")
     // event.addLootTypeModifier("minecraft:chests/stronghold_library").removeLoot("minecraft:iron_ingot")
-  })
+  });
 }
