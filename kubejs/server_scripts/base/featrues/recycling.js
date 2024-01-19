@@ -3,12 +3,12 @@ if (feature('Recycle copper')) {
     addCrushing(['orange_dye %75'], 'minecraft:copper_block')
     addCrushing(['orange_dye %5'], 'create:copper_shingles')
     addCrushing(['orange_dye %5'], 'create:copper_tiles')    
-    addCrushing(['light_blue %5'], 'create:oxidized_copper_shingles')
-    addCrushing(['light_blue %5'], 'create:oxidized_copper_tiles')
+    addCrushing(['light_blue_dye %5'], 'create:oxidized_copper_shingles')
+    addCrushing(['light_blue_dye %5'], 'create:oxidized_copper_tiles')
     addCrushing(['orange_dye %75'], 'minecraft:copper_block')
-    addCrushing(['light_blue %15', 'green_dye %15', 'lime_dye %15'], 'minecraft:oxidized_copper')
-    addCrushing(['light_blue %2', 'green_dye %2', 'lime_dye %10'], 'minecraft:oxidized_cut_copper')
-    addCrushing(['light_blue %2', 'green_dye %2', 'lime_dye %10'], 'minecraft:weathered_copper')
+    addCrushing(['light_blue_dye %15', 'green_dye %15', 'lime_dye %15'], 'minecraft:oxidized_copper')
+    addCrushing(['light_blue_dye %2', 'green_dye %2', 'lime_dye %10'], 'minecraft:oxidized_cut_copper')
+    addCrushing(['light_blue_dye %2', 'green_dye %2', 'lime_dye %10'], 'minecraft:weathered_copper')
 }
 
 if (feature('Recycle iron')) {
