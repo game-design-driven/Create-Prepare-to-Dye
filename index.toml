@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "84d230f7c196366e956038498d56fbb14aabe4bfaa68e8393fcfe0c7c0374ba5"
+hash = "34ac92ed5c497d98a1e12fb2cc4948f2a0df68950790e36fd9a8acae9a160f5f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3382,7 +3382,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "47279e75685bd2329a032c7adf1a62b9a96b26c6ab918996481f756bc66aa2bd"
+hash = "82a67e08cc796b7a5e9fccfb49283f0200f405ae0002fe04c008f009d7e604af"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5126,7 +5126,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "9be0f6c5bb8346e5c4354fa6d55538e516de0f55a3e089e58e91a6efb8128a98"
+hash = "65928f4afcb1233f9f92d5092c10d9d729bbf033f73ee158c27ff1a14a68a336"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -5330,7 +5330,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3017b3187d742e9d86600bd96932b87fc33a3e0b6a115b5eefa44091ab5e9c13"
+hash = "3b7259db00122510370b6f7aa790fded77d4e4cbd38cfe548115e1c2daaf2994"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7005,6 +7005,10 @@ file = "modpack-update-checker/versions/1.208.9/changelog.txt"
 hash = "2ff90d164574926d2da8fd565ae77ff617aa4cc725253eb88a35ce53bb75e187"
 
 [[files]]
+file = "modpack-update-checker/versions/1.209.0/changelog.txt"
+hash = "0b34e9d4c992e5e2ceccdb82bc458f48440c8e0cc1dee833942c9639db00c173"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "3ffee41ebf2c4f32db44a257c726f8496cc33446635821d2cf364ce80a6bef3e"
 
@@ -7367,7 +7371,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "0404df67b1976c2bc5cbbf43af1c1a2e64d729f82213d0452f89baa0157f2d60"
+hash = "4e39ccb7de4aff79642cd136f46377f41c9573c2848a9e39190d9a4b6266c65c"
 metafile = true
 
 [[files]]
@@ -7581,7 +7585,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "12966dcb0fcd33211a062aa9e7043800b11d05e9aa97de4a5bb569480e677857"
+hash = "089b6121bb4f077a9e30f5a2c11092c66d667bc6e11e8ce7dce9a1232a5019f5"
 metafile = true
 
 [[files]]
