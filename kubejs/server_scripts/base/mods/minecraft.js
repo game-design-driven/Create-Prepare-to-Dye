@@ -533,4 +533,9 @@ if (feature('Seeds coloring to get other seeds')) {
   addShapeless('melon_seeds', ['green_dye', '#forge:seeds'])
   addShapeless('wheat_seeds', ['yellow_dye', '#forge:seeds'])
 }
+
+if (feature('Beetroot carrot conversions')) {
+  addShapeless('beetroot',['2x red_dye', 'carrot'])
+  addShapeless('carrot',['2x orange_dye', 'beetroot'])
+
 }
