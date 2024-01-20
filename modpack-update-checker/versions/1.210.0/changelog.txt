@@ -1,0 +1,8 @@
+## [1.210.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.209.1...1.210.0) (2024-01-20)
+
+
+### Features
+
+* added ability to combine enchanted books through assembly ([1dd94f1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1dd94f110102169ffbdc8274813fab248fe231af))
+
+
