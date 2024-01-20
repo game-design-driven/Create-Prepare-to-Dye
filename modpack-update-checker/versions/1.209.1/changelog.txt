@@ -1,0 +1,9 @@
+### [1.209.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.209.0...1.209.1) (2024-01-20)
+
+
+### Fixes
+
+* type in setting screen button ([650a17e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/650a17e656f4c0a2edb2600d36689e7231798ea8))
+* typo in setting screen button ([#528](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/528)) ([22ae2b2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/22ae2b288657c9b4d1a9c7f593a54d0bf7ab4111))
+
+

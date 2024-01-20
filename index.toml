@@ -178,7 +178,7 @@ hash = "011675e0e038d84b7d089061d798444a3c203dfa3f9e939d4d9ff26cf9f4cd36"
 
 [[files]]
 file = "config/fancymenu/customization/modpacksettings.txt"
-hash = "30849c9ed5ef2d34f6614a41b87affedb29750729928a87a323c0dfde23a31ba"
+hash = "89620de59539c5670cf0fa746963462df13931cdfcf0e7c61cbd7cb1c8b47c91"
 
 [[files]]
 file = "config/fancymenu/customization/newworld.txt"
@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "34ac92ed5c497d98a1e12fb2cc4948f2a0df68950790e36fd9a8acae9a160f5f"
+hash = "80cd5a853a8fbec3697ecd1048f4d1d0529495ecb4c9b694914f929b1070023d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3382,7 +3382,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "82a67e08cc796b7a5e9fccfb49283f0200f405ae0002fe04c008f009d7e604af"
+hash = "0331f3a32b524a2a829ca293c083a4ba7cd560d0d7ca35561573d340542cd63f"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5330,7 +5330,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3b7259db00122510370b6f7aa790fded77d4e4cbd38cfe548115e1c2daaf2994"
+hash = "4debb8ee14d1bc2f3d29b12a8b0c4cbcc4c6516b35669abc87b11e0cf7585b59"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7007,6 +7007,10 @@ hash = "2ff90d164574926d2da8fd565ae77ff617aa4cc725253eb88a35ce53bb75e187"
 [[files]]
 file = "modpack-update-checker/versions/1.209.0/changelog.txt"
 hash = "0b34e9d4c992e5e2ceccdb82bc458f48440c8e0cc1dee833942c9639db00c173"
+
+[[files]]
+file = "modpack-update-checker/versions/1.209.1/changelog.txt"
+hash = "fbb242394078d55ff22b1ba593a54f7281fd53a2de6daec4e6ab37e20f06ffb3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
