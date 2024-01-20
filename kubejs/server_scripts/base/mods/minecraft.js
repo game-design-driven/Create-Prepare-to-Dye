@@ -527,3 +527,15 @@ if (feature('Netherite gear regular recipes')) {
   addShaped('netherite_boots', ['n n', 'n n'], { n: '#forge:ingots/netherite' })
   addShaped('netherite_sword', ['n', 'n', 's'], { n: '#forge:ingots/netherite', s: '#forge:rods' })
 }
+if (feature('Seeds coloring to get other seeds')) {
+  addShapeless('beetroot_seeds', ['red_dye', '#forge:seeds'])
+  addShapeless('pumpkin_seeds', ['orange_dye', '#forge:seeds'])
+  addShapeless('melon_seeds', ['green_dye', '#forge:seeds'])
+  addShapeless('wheat_seeds', ['yellow_dye', '#forge:seeds'])
+}
+
+if (feature('Beetroot carrot conversions')) {
+  addShapeless('beetroot',['2x red_dye', 'carrot'])
+  addShapeless('carrot',['2x orange_dye', 'beetroot'])
+
+}

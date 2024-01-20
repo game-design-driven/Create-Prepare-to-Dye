@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "ff29316754f5561868f2fde142e4625b14b2130ac6073af78ee9449c4e2fc13b"
+hash = "ca5ab66e55fd02c0ec3a9234d90b5a0f81a42cebabc80ccadc4a2cfd6e806cf5"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "9dada84c55042c3b32e6541eb8d0cd4e85d36c8c9fd9696276ce7ea4aa3d320c"
+hash = "c8a055fb08b9df90d8457bfa8b497d281e441e2d01ce41c1dcf8db79121dadfb"
 metafile = true
 
 [[files]]
