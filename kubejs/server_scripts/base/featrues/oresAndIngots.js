@@ -10,7 +10,7 @@ if (feature('Ores from dyes')) {
     let deepslateOnlyOres = {
         'deepslate_emerald_ore': 'lime_dye',
         'deepslate_lapis_ore': 'blue_dye',
-        'deepslate_diamond_ore': 'cyan_dye',
+        'deepslate_diamond_ore': 'light_blue_dye',
         'deepslate_gold_ore': 'yellow_dye',
     }
     let nether_ores = {
