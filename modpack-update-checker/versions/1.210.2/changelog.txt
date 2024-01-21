@@ -1,0 +1,8 @@
+### [1.210.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.210.1...1.210.2) (2024-01-21)
+
+
+### Fixes
+
+* Scoria Tooltip and DRG Rescure reward ([#530](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/530)) ([8b40ddf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8b40ddfb3b46e17ea70405ecaf2cb091a6b6b7eb))
+
+
