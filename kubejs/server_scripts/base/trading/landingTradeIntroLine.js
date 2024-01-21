@@ -1317,7 +1317,7 @@ const drgDeepDiveOperationDoomed = getAgreement("drgDeepDiveOperation", {
 });
 
 const drgRescueFromDeepDive = getAgreement("drgRescueFromDeepDive", {
-  paymentItems: [],
+  paymentItems: ["air"],
   requestedItems: ['16x create:wrench'],
   title: "Rescue operation",
   orderedAmount: 1,
