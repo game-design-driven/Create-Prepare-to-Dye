@@ -1,8 +1,8 @@
 if (feature("Paper recipes")) {
   removeRecipe({ id: "minecraft:crafting_shaped/paper" });
   addAssembly("2x paper", "createdieselgenerators:wood_chip", [
-    addPressing("stick", "stick"),
     addFilling("stick", "stick", "25x milk"),
+    addPressing("stick", "stick"),
   ]);
   addAssembly("3x paper", "createdieselgenerators:wood_chip", [
     addPressing("stick", "stick"),
