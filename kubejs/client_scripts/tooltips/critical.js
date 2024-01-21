@@ -10,7 +10,7 @@ addTooltip(
 );
 addTooltip(
   "lava_bucket",
-  "Found abundantly underground, can be purified into _red sand_"
+  "Found abundantly underground, can be purified into _orange powder_"
 );
 addTooltip(
   "create:scoria",
@@ -31,7 +31,7 @@ addTooltip(
 );
 addTooltip(
   "createdieselgenerators:diesel_engine",
-  "The _Engine_, a modern invention, can run on various fuels, from _milk_, widely used for space travel, to _bio-diesel_, known for its greater efficiency. The _engine_ has a specialized manual insertion hatch, so in addition to _pumps_, _buckets_ can also top up this device. The _engine_ will output power to the _shaft_ it is connected to. The _engine_ can also be Turbocharged using an _Engine Turbocharger_"
+  "The _Engine_, a modern invention, can run on various fuels, from _milk_, widely used for space travel, to _bio-diesel_, known for its greater efficiency. The _engine_ has a specialized manual insertion hatch, so in addition to _pumps_, _buckets_ can also top up this device. The _engine_ will output power to the _shaft_ it is connected to."
 );
 addTooltip(
   "wares:delivery_agreement",
