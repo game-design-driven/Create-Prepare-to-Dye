@@ -13,7 +13,7 @@ addTooltip(
   "Can be made by dyeing _orange powder_ or _stone_ with _orange dye_"
 );
 
-addTooltip(["deepslate_diamond_ore"], "Can be made by dyeing _deepslate_ with _cyan dye_");
+addTooltip(["deepslate_diamond_ore"], "Can be made by dyeing _deepslate_ with _light blue dye_");
 
 addTooltip(["deepslate_emerald_ore"], "Can be made by dyeing _deepslate_ with _lime dye_");
 
