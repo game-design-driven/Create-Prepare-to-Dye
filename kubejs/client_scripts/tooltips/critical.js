@@ -13,7 +13,7 @@ addTooltip(
   "Found abundantly underground, can be purified into _red sand_"
 );
 addTooltip(
-  "create:scorchia",
+  "create:scoria",
   "Can be made by searing flowing _chocolate_ with _lava_"
 );
 addTooltip("cobblestone", "Can be made by searing flowing _water_ with _lava_");
