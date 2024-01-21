@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "81ba769ca7594d359dae5b5e3957bfdd414fa6c0f80ceeec60ea07abb224e21a"
+hash = "195c9d75a47f808778ddd6fd00f920d08275eac6d2c8ebf94d3e14479040c57d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3382,7 +3382,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1e8f842a3d977f59724dce583a194aa6445c20f96cfae0eae76e0a45b8b5a0bc"
+hash = "437277a0417c6e021b05391eb4212a819358e39ce61228f81da523eac6f0b229"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5022,7 +5022,7 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "7ceb87e9a77949d77fbfbc7b9af4ee2941be15625e49846ee7ee541dac790cb0"
+hash = "8877a564f2c091afc28fcacfbfc6756967baa7b4b649a519f5d9d0244a453a3e"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/personal-equipment-reduction.js"
@@ -5297,6 +5297,10 @@ file = "kubejs/startup_scripts/indestructible.js"
 hash = "e221e5586e7962c4bc396e0b9af073c8295d37e89e55030da1c0d0b652d7c102"
 
 [[files]]
+file = "kubejs/startup_scripts/jade.js"
+hash = "2115021a5d55356ce15e0cfaf5da28ef9618c5505d8b67692ecda1fa114ad800"
+
+[[files]]
 file = "kubejs/startup_scripts/ponderDisplayItems.js"
 hash = "7ca2acb8a7432821271100fef46a858a828b4700f942d3fff2a3d844bc6dbbc7"
 
@@ -5334,7 +5338,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "14435218a9da18b0bffe0dc1fc477b543865bccdecb39d5e35fbab65b3600e4f"
+hash = "a7478ae92e683c09524fa6c0b0fed8a60992990c460201c3e622833343f37be6"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7027,6 +7031,10 @@ hash = "7c8f466e88a5734115425aa001f0160e588ae0c1bc891f4884213aefe1eb7038"
 [[files]]
 file = "modpack-update-checker/versions/1.210.2/changelog.txt"
 hash = "25be3e77d53e891440acb298604ec34a954a053a2c46911d2317ed869bdc045d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.210.4/changelog.txt"
+hash = "25c62788a3ca813ed6bfc19895ec54d11e16c7519ce8ced02a41f7f352141689"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

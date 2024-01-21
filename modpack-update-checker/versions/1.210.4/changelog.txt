@@ -1,0 +1,8 @@
+### [1.210.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.210.3...1.210.4) (2024-01-21)
+
+
+### Fixes
+
+* light blue deepslate ore being crafted from cyan instead of light blue ([7732b31](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7732b3129d53d3d1260497f1430c13e967f8958b))
+
+
