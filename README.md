@@ -48,7 +48,7 @@ Things did start off on the wrong hoof though, as you **crash land on the barren
 Using Create, botania, quark and supplementries to set the style of automation we want. We deconstruct and construct **very intricately built and balanced processing lines.** We heavily focus on the concept of **difficult automation, cheap devices**. You will iterate and design your solutions and each one will take you to new places and areas of problem solving and logistics. 
 
 ---
-we add/alter many processing lines (over 1300 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
+we add/alter many processing lines (over 2500 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
 </details>
 <details>
   <summary>Radical simplification</summary>
