@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "3373c6db5146ec360a1f8c9e040814f49049083ba0aeff6130b64c1a44b26bc1"
+hash = "12a281cdffa76b4707ef3b9751573ee0a8f542d05bfba915f4af8e6cfa548edd"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3386,7 +3386,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "14d44e77e5952529d4613f4950ac13b439dd654b853e025333e6da3f2ec2b120"
+hash = "52f82f5cbb8d9e7edd0455105a465625d43b33a421deadb3093dfd0668871df9"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3593,10 +3593,6 @@ file = "kubejs/client_scripts/documentation.js.d"
 hash = "91edff4cb3c64a323838fe07b75821c153ef71ca52c27cdf4cb233c3961d8509"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "2fcab4d130077b073f20d59db438be312b49eb3ac758c8c1ab5904940455b93a"
-
-[[files]]
 file = "kubejs/client_scripts/features.js"
 hash = "5b820d70e90bc5745e802a3598e98d458b78d3dae9aa0d7fd135cd9831c77c16"
 
@@ -3626,7 +3622,7 @@ hash = "d75bd26d81489521481abeec9d668f48ed0c2a35b10689a7f834e067b050b977"
 
 [[files]]
 file = "kubejs/client_scripts/milkNerf.js"
-hash = "da4584c25b693637435a87b6b3077773db81be54602c355257f655e53e3c3445"
+hash = "1f99a01da70c533bb05d7486baadbfb93729d533f6402a66556ac322c2641e59"
 
 [[files]]
 file = "kubejs/client_scripts/modpack_utils.js"
@@ -3666,7 +3662,7 @@ hash = "f9dc01d474f56d3a6cc9a06e88edcb102f654a14becf241c660d8d350787eab1"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/categoryTooltips.js"
-hash = "3e9dab7c98240f4793d990de073578c19423207826918e97babb224523a2f2b3"
+hash = "ed1b2bd34fc5b6469e6e2a950eb11b9e51ba36936015550dc2cf244eaa02c778"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
@@ -4954,7 +4950,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "609e20f13d49eca7e739c62c675433765f6c3707629d2e19079d73ce39f08eed"
+hash = "94864c27edfd96d976c31c56e39c8dd4e3b29c30c601802eed808e55d53d381f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -4990,7 +4986,7 @@ hash = "149ad132939ca7a28a45a11b900f88956b116a7a236825c4d3f067cd793f105f"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/indestructible.js"
-hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
+hash = "fd7bdedda39a4e842083fd67ea5e59d2fe3e533a5ff58ad045e58bdab79bd2c9"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
@@ -5214,7 +5210,7 @@ hash = "45c772897ed33f1e19b8e5d194fd9cd8131e494b6e319110ee0cd69801adf0bf"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/backwardsCompatEngine.js"
-hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
+hash = "8d6cb7249d28b318c05f369ac139864a949f9677ab0fa499a69b81b7a314dc0a"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
@@ -5346,7 +5342,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "9f539de9ee6679457e346ced7418567db89f49ae81fe328132dc3c62c86fbf7d"
+hash = "6894aacabe34e4558e4847c7d977451b2e7f8a88dacad9bc092c4746b0ee25fa"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7067,6 +7063,10 @@ hash = "e08b925b8358de44652344de9708c6b7e90197f86f76212a2d1148a38b793215"
 [[files]]
 file = "modpack-update-checker/versions/1.211.5/changelog.txt"
 hash = "22a14e684b6a0f10c809efc1ec9a2dca92823d406c3b26158ffe13a5a6f194bf"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.6/changelog.txt"
+hash = "34dd330dbb8a0940b6597d8e554f3e20c655c45eeedf47c9a03893c7806cb7e1"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
