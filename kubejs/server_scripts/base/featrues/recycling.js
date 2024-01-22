@@ -18,11 +18,11 @@ if (feature('Recycle iron')) {
 }
 
 if (feature('Recycle gold')) {
-    addCrushing(['4x yellow_dye %50', '2x yellow_dye %25'], 'minecraft:gold_block')
+    addCrushing(['3x yellow_dye %50', '2x yellow_dye %20'], 'minecraft:gold_block')
 }
 
 if (feature('Recycle diamond')) {
-    addCrushing(['3x yellow_dye %50', '2x yellow_dye %50'], 'minecraft:diamond_block')
+    addCrushing(['3x light_blue_dye %50'], 'minecraft:diamond_block')
 }
 
 if (feature('Recycle emerald')) {
