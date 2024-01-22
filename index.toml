@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "195c9d75a47f808778ddd6fd00f920d08275eac6d2c8ebf94d3e14479040c57d"
+hash = "ef7fa6934b64cd60676d22ef3ba15451dc1d4ec563dd6fcabc871a6ecb0abd2f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -818,7 +818,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "def72ca26e3b970e6621e2844ab4f721887d59ef2750eadf309d999659337e51"
+hash = "d75cedeb4e9020a4a99d83c9b7be119862358024c3979bf58e7e1624ec5b6fce"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -2125,6 +2125,10 @@ file = "kubejs/assets/emi/recipe/additions/generated.create.scorchia.json"
 hash = "38d07e32dab59d634fc80c60863ef3b587324083d518157d028568264794e70a"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.create.scoria.json"
+hash = "cbc24da54cc224873ae61caf314dbe5c01d62da4629b420f74dc9d42b5422a45"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.create.track_station.json"
 hash = "9fc10daa5a3c56973605d77bccf5725a1a6dedad58e63776c8939890c5a066d6"
 
@@ -2422,7 +2426,7 @@ hash = "42e08b47c2fbc9c2c3e7186f8875b53da5ec2b1b9a0bb9ce0fb1e86e3a5f8357"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
-hash = "87292387361181fc8970607e54c3b320ff4f49b03f37ed64d671a7fedf3e6476"
+hash = "c9bffee465ea95edc9536bd65ebb46df8188fb536e6b4b9526c312004674c248"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
@@ -3382,7 +3386,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "437277a0417c6e021b05391eb4212a819358e39ce61228f81da523eac6f0b229"
+hash = "49cd4fb2925dab8bc6e83ee9d36714e48934049c36344f3d488b19ba6cf0af3d"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5037,6 +5041,10 @@ file = "kubejs/server_scripts/base/featrues/playerLogin.js"
 hash = "be8dfca607ec002d98594b9354d83e92d07848ef57181a584475dca7b56837e2"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/potions.js"
+hash = "050070aa224658b465ad90bb5cd7da486a0f4661532a11cfa8bbd04caf08175c"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
 hash = "1581f06b7aa46abed48d8f5bf1baeca26bbfe17b361b4daf10bca9f49603a185"
 
@@ -5146,7 +5154,7 @@ hash = "425af17d5ce1cf791443a8f3d6b6c1bd5c2261643753ac4b722e6d34853c010f"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/supplementaries.js"
-hash = "83a78ab5092ccd6c61897c0c11dcb36c556ce00f2a85ce64e027c2185d263d9a"
+hash = "c1974edde2fff6688da2d214000bac4a6231ec7355a565a91028e363dc0f7f6c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/wands.js"
@@ -5210,7 +5218,7 @@ hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "36ace642381866c0b7282b344815e0c593c8b8a237afc51beea2f883102f41b5"
+hash = "b796f63673d921f6044db4962aeeeac5b16bee499869f9327e393dd9d85bb435"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5338,7 +5346,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "a7478ae92e683c09524fa6c0b0fed8a60992990c460201c3e622833343f37be6"
+hash = "e2505b1a91aeceb2c9464b2b74f3bab1c995208bdf495da423d7f0c3162b7764"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7035,6 +7043,10 @@ hash = "25be3e77d53e891440acb298604ec34a954a053a2c46911d2317ed869bdc045d"
 [[files]]
 file = "modpack-update-checker/versions/1.210.4/changelog.txt"
 hash = "25c62788a3ca813ed6bfc19895ec54d11e16c7519ce8ced02a41f7f352141689"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.0/changelog.txt"
+hash = "35f6840a1f1a3e6d28af5e6406762bf5a6a1c5f3ed771f7eb06a5267820cd713"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
