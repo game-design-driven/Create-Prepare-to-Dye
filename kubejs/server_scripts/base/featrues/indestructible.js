@@ -13,7 +13,6 @@ let indestructibleItems = [
 EntityEvents.spawned(event => {
     if (!event.entity.item) return
     if (indestructibleItems.includes(event.entity.item.id) || Ingredient.of('#forge:indestructible').itemIds.entries && Ingredient.of('#forge:indestructible').itemIds.contains(event.entity.item.id)) {
-        console.log('indestructible item spawned')
         event.entity.age = 2147483647;
     }
 })

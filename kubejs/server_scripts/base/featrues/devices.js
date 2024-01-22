@@ -391,7 +391,7 @@ if (
       device.incomplete ||
       generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
     device.base = device.base || "create:cogwheel";
-    console.log(device.base);
+
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
     device.convert_back_recipe = device.convert_back_recipe==false?false:true;
@@ -401,7 +401,6 @@ if (
         device.assembly = [device.assembly];
       }
       device.assembly.forEach((singleAssembly) => {
-        console.info("device.generic " + device.generic);
         addAssembly(
           Item.of(device.generic).withCount(device.amount_crafted),
           device.base,
