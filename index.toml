@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d05cedf045c3b3b1d3d6540c374aafb45ddc6c750f29466908a881c1a6b2b493"
+hash = "ba2ac7c8cd5d1b6768fa0901aecd3ccef63acb539d363e9c3215649c471b8f2f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3386,7 +3386,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "8f0ba534251dac176be4dfadfb00b5b6f8916cabda123c005ac4a004fbd2b1e3"
+hash = "7b3f91905d5f60c991eebaa2578b5f390a0b8ae5f1ab0a6ecfdc7d9491172498"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4910,7 +4910,7 @@ hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "fe2a90a008000153436cb287c7145ac55ae8e9b9180e1f3d8ffc24082a45d303"
+hash = "006a73f79ffeb42dab00a40b61475d375dee346b14bd699e4d292430a44c7be0"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -5054,7 +5054,7 @@ hash = "38f14c3df6b0fe0bbffe89da5a9dba3506f3a869731e14c1699cc78b982c19b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/recycling.js"
-hash = "9517a19a6eff494726cba7832d926a323f8bda945e2519bf7e4d9b2fd3738806"
+hash = "bd2ae0e96f69478a7237cc20f33971b056a5ee99b49af07fe4bc019387b95b0c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
@@ -5118,7 +5118,7 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "08888d1b95c4f6b933e91500235c2b9e6b9bee99721ee6aeed31f1546b1008d7"
+hash = "c59c83bf609bc137163dfbbb42da437f9c4f00fb46dc137aeb707ae3f896e370"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -5138,7 +5138,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "471708b622348d2e7c6b4f22ef3af65f8d1f84d5a94c1512a45c5a9e387a3202"
+hash = "b38a558308447cf8040b2ad691e6e3315e1204f6b365d66e208647c5a4834c5f"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -5238,7 +5238,7 @@ hash = "a7ac0d60da08620492bd0956da2ebeeb7384ede8db14159a33f6154e31f5cf68"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/trad_related_recipes/trade_recipes.js"
-hash = "34bd024877759a6f9fc2f9e95e22f6f532725bdbf4712f390f51c879a78b94c4"
+hash = "a90e574da706193f6b6105d29ed5b12a7281ec41594d8f4e81cbb9feb9dd0512"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
@@ -5346,7 +5346,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "31b1f07362362fc8478a41c9c8b759c145e4a4c75c7acd42f36c7b9b7502371d"
+hash = "566aad8f9fe38df88dd32ced45c6ed2a986c1d6ca13f8fc152e35f6271053987"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7059,6 +7059,10 @@ hash = "8773c9146432eeac83104fcf17b129ee581869960d5de2ef49c1e77f4f40d3f9"
 [[files]]
 file = "modpack-update-checker/versions/1.211.3/changelog.txt"
 hash = "77bf859c932e4deb7faf02b6845e5243ed5e19631cf757f7864bad80c05b9e08"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.4/changelog.txt"
+hash = "e08b925b8358de44652344de9708c6b7e90197f86f76212a2d1148a38b793215"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
