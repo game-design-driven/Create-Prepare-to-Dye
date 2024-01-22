@@ -1839,7 +1839,6 @@ const dddNecromancerIsPrincess = getAgreement("dddNecromancerIsPrincess", {
     "64x arrow",
     "lead",
     "supplementaries:cage",
-    dddNecromancer.item,
   ],
   title: "The Necromancer is the princess!? ",
   orderedAmount: 1,
