@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "ba2ac7c8cd5d1b6768fa0901aecd3ccef63acb539d363e9c3215649c471b8f2f"
+hash = "3373c6db5146ec360a1f8c9e040814f49049083ba0aeff6130b64c1a44b26bc1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3386,7 +3386,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "7b3f91905d5f60c991eebaa2578b5f390a0b8ae5f1ab0a6ecfdc7d9491172498"
+hash = "14d44e77e5952529d4613f4950ac13b439dd654b853e025333e6da3f2ec2b120"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5118,7 +5118,7 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "c59c83bf609bc137163dfbbb42da437f9c4f00fb46dc137aeb707ae3f896e370"
+hash = "f4437ee03ff8ecd04e1e968b2ca029e30f46f3b63dcfbfa5c9644da9d06184c6"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -5346,7 +5346,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "566aad8f9fe38df88dd32ced45c6ed2a986c1d6ca13f8fc152e35f6271053987"
+hash = "9f539de9ee6679457e346ced7418567db89f49ae81fe328132dc3c62c86fbf7d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7063,6 +7063,10 @@ hash = "77bf859c932e4deb7faf02b6845e5243ed5e19631cf757f7864bad80c05b9e08"
 [[files]]
 file = "modpack-update-checker/versions/1.211.4/changelog.txt"
 hash = "e08b925b8358de44652344de9708c6b7e90197f86f76212a2d1148a38b793215"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.5/changelog.txt"
+hash = "22a14e684b6a0f10c809efc1ec9a2dca92823d406c3b26158ffe13a5a6f194bf"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
