@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "db482269209442f789fed1392c3398af49660b9e18e31c64cdc7cd87fabe21c7"
+hash = "d05cedf045c3b3b1d3d6540c374aafb45ddc6c750f29466908a881c1a6b2b493"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -658,7 +658,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "3afd6f9ec3f6e6abff0515e67f62a67beec070ecb5c580ed40a287e3a4cd089e"
+hash = "838d846b96eef80ec6f3369704e399a022adddbebbe215958153eb021dccf164"
 
 [[files]]
 file = "kubejs/assets/botania/models/block/crafty_crate.json"
@@ -746,7 +746,7 @@ hash = "f943f64f4aad03dd85a09056717471b38cfb335d7760786ada1c38f62531e2fa"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "a3cc177babb5fb896d519f2acc78e120b844ec64325ffba56d2c813ad231953c"
+hash = "57870120a747e1b102643f4e7f1c530abb89d3457f7637998704d70c30275899"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -3386,7 +3386,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "7e9e0752655c90f280d9b6a7a2f18c6edffecf7cd8724553de603a722d3000aa"
+hash = "8f0ba534251dac176be4dfadfb00b5b6f8916cabda123c005ac4a004fbd2b1e3"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3670,11 +3670,11 @@ hash = "3e9dab7c98240f4793d990de073578c19423207826918e97babb224523a2f2b3"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "60f73d73fbd895567b094cdd43ddd22406a3cb6bbc6f33f41759288192e970df"
+hash = "a1c733d88a49d760e92378bd4dd6d4a871842474c5b5386f0f4134050e9c668a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
-hash = "763de94078a4c9043f02538a68b64b50d4cd58fe5ea0a3d869ae7a67b40b6f42"
+hash = "eff230652a58560d484d4a3f71a1514e42fec0b7fa7978dc1b2a3c5f26a453ff"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/diamondToolsSilkTouchTooltip.js"
@@ -3686,7 +3686,7 @@ hash = "421b66674c04185f86c2be250a0740fc74f3273b0ad4152c720494e40c744f54"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
-hash = "e03c209788f2937c19c39b89c45af192b02d8522750378900be3bf48763181d5"
+hash = "aacc8bc8816a7fb710b7799336d2b87a4eb1f081be8ad1b7caf3c58d75a995ac"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
@@ -5346,7 +5346,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f6aa84988344bc8339510f4f168fab761c310adac1a684e4827af4846b36ef10"
+hash = "31b1f07362362fc8478a41c9c8b759c145e4a4c75c7acd42f36c7b9b7502371d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7055,6 +7055,10 @@ hash = "ecd06cd1348e078aec6809f752ff5b8c9fb1c943d937e2313f97085f37fce337"
 [[files]]
 file = "modpack-update-checker/versions/1.211.2/changelog.txt"
 hash = "8773c9146432eeac83104fcf17b129ee581869960d5de2ef49c1e77f4f40d3f9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.3/changelog.txt"
+hash = "77bf859c932e4deb7faf02b6845e5243ed5e19631cf757f7864bad80c05b9e08"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
