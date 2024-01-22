@@ -18,3 +18,6 @@ if (feature("Add direct filling recipes for potions instead of dynamic ones")) {
     );
   });
 }
+if (feature("Disable brewing stand")) {
+  removeItem("minecraft:brewing_stand");
+}
