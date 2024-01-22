@@ -1,0 +1,8 @@
+### [1.211.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.0...1.211.1) (2024-01-22)
+
+
+### Documentation and Localization
+
+* mention that recipe count on readme includes dynamic recipes ([69d37b8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/69d37b8311c71ab0584ea3ac059764207963df7e))
+
+
