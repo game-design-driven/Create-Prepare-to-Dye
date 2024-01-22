@@ -1,6 +1,7 @@
 {
     "filters": [
       {"category": "minecraft:crafting"},
+      {"category": "minecraft:brewing"},
       {"category": "minecraft:smelting"},
       {"category": "minecraft:smoking"},
       {"category": "minecraft:blasting"},
