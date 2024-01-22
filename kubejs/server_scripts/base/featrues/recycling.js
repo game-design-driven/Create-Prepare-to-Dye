@@ -32,3 +32,7 @@ if (feature('Recycle emerald')) {
 if (feature('Recycle lapis')) {
     addCrushing(['blue_dye %50'], 'minecraft:lapis_block')
 }
+
+if (feature('Recycle crossbow')) {
+    addCrushing(['string %15','dark_oak_planks %10'], 'minecraft:crossbow')
+}
