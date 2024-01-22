@@ -374,7 +374,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "7eecfa1b8114a1eb571f4b380c1c5419cb1b3c6f594fc4e6c769c6541f8f09c2"
+hash = "49892fdcd50eb65603ab1cb35c4e102e03fab67129d46c1a71fa58b85c84d466"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -746,7 +746,7 @@ hash = "f943f64f4aad03dd85a09056717471b38cfb335d7760786ada1c38f62531e2fa"
 
 [[files]]
 file = "kubejs/assets/botania_tooltips/lang/en_us.json"
-hash = "57870120a747e1b102643f4e7f1c530abb89d3457f7637998704d70c30275899"
+hash = "d0cadebd12f4160f95e5913b730733b8fb844c00e2b79038dfd11d8d45813979"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/lang/en_us.json"
@@ -818,7 +818,7 @@ hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "d75cedeb4e9020a4a99d83c9b7be119862358024c3979bf58e7e1624ec5b6fce"
+hash = "765f3fcfe9c600221e10c5f83a90866fb5f469df8c039c4cd22b4285fc193d2c"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -2217,6 +2217,14 @@ file = "kubejs/assets/emi/recipe/additions/generated.minecraft.dark_oak_wood.jso
 hash = "01d6a042789dc878fc6be3bfe3d865ba9c6a78dc862f6d2229eb24cf7d42b7de"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_diamond_ore.json"
+hash = "99f14b0cba25c6354fe8e0c48c224243030b0b24a26df30f838eaa749ef8b3e6"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_emerald_ore.json"
+hash = "b475b6eb76ebb1ce202532593a1f0932f4f5591f5c64637ba05c817488950d15"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_axe.json"
 hash = "23bd96ec1862abd20a10f1fb79637e6a8c22a2feb6d7dfe5c8cd80fa3b7ff9ca"
 
@@ -3386,7 +3394,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9893f1c82f492c38fb5dd520c4c2c31845bd57f138a4b36fc885d1a1bf14a9cc"
+hash = "3a3bb48f88f234d6c32c0819c90cea2451da7423b61e45ee62df5119b214fe6c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4906,7 +4914,7 @@ hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "006a73f79ffeb42dab00a40b61475d375dee346b14bd699e4d292430a44c7be0"
+hash = "b8a5a960cd999dd157bb88575ea0217d05d3f14ec0f7326882073f363be064f5"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -5050,7 +5058,7 @@ hash = "38f14c3df6b0fe0bbffe89da5a9dba3506f3a869731e14c1699cc78b982c19b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/recycling.js"
-hash = "bd2ae0e96f69478a7237cc20f33971b056a5ee99b49af07fe4bc019387b95b0c"
+hash = "2986c1de09a2760e42824ad89270982aeef7b25178db22ced1e6cd71bed3a905"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/remove-wooden-tools.js"
@@ -5214,7 +5222,7 @@ hash = "8d6cb7249d28b318c05f369ac139864a949f9677ab0fa499a69b81b7a314dc0a"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "b796f63673d921f6044db4962aeeeac5b16bee499869f9327e393dd9d85bb435"
+hash = "b36b2ef9a2372dfb35774213860da4b7c770275d3a9155a0479967f489836d15"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5342,7 +5350,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d5387a1d48a02b429c3495563231859572136de7865fae77905b3715ff809202"
+hash = "9ea13d6075c655d3c685d02fdcad8203213a306ad6bccb1a88f8cdd7246cec59"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7049,6 +7057,10 @@ file = "modpack-update-checker/versions/1.211.1/changelog.txt"
 hash = "ecd06cd1348e078aec6809f752ff5b8c9fb1c943d937e2313f97085f37fce337"
 
 [[files]]
+file = "modpack-update-checker/versions/1.211.10/changelog.txt"
+hash = "fabd9012a3a312f028b2ad8c9f12120a92f21cd542d02f9ddd180742e8121600"
+
+[[files]]
 file = "modpack-update-checker/versions/1.211.2/changelog.txt"
 hash = "8773c9146432eeac83104fcf17b129ee581869960d5de2ef49c1e77f4f40d3f9"
 
@@ -7071,6 +7083,14 @@ hash = "34dd330dbb8a0940b6597d8e554f3e20c655c45eeedf47c9a03893c7806cb7e1"
 [[files]]
 file = "modpack-update-checker/versions/1.211.7/changelog.txt"
 hash = "5bc8579e7a342ca5b9eff5fd95724e4973a36f48c23d9d9bed46d9a31358b0e7"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.8/changelog.txt"
+hash = "07e79c3ae48f0ecc87dd243d56c4165ec08348dc52ad9a480b94baa7c3ee6ba8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.9/changelog.txt"
+hash = "4db96e581efbaaea818dc3a29d70955b9dee51c707521466c5fc0228da3581d0"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -7435,7 +7455,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "4e39ccb7de4aff79642cd136f46377f41c9573c2848a9e39190d9a4b6266c65c"
+hash = "0404df67b1976c2bc5cbbf43af1c1a2e64d729f82213d0452f89baa0157f2d60"
 metafile = true
 
 [[files]]
@@ -7649,7 +7669,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "089b6121bb4f077a9e30f5a2c11092c66d667bc6e11e8ce7dce9a1232a5019f5"
+hash = "12966dcb0fcd33211a062aa9e7043800b11d05e9aa97de4a5bb569480e677857"
 metafile = true
 
 [[files]]

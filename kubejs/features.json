@@ -298,5 +298,6 @@
 	"Remove bamboo spikes": true,
 	"Disable brewing stand": true,
 	"pillagers drop heads": true,
-	"Recycle crossbow": true
+	"Recycle crossbow": true,
+	"remove crossbow recipe": true
 }
