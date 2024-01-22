@@ -1,0 +1,8 @@
+### [1.211.9](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.8...1.211.9) (2024-01-22)
+
+
+### Fixes
+
+* crushing light blue gem blocks outputting yellow instead of light blue ([ee2cd17](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ee2cd173fc71aa74027b4afc0ef7b881ecc564bc))
+
+
