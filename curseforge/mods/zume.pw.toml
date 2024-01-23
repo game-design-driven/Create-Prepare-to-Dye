@@ -1,13 +1,13 @@
 name = "Zume"
 filename = "zume-0.12.0.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/o6qsdrrQ/versions/bU7jMwfn/zume-0.12.0.jar"
 hash-format = "sha1"
 hash = "24fe1e06bffce43f81a511f299bfa804a90cf90c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "o6qsdrrQ"
-version = "bU7jMwfn"
+[update.curseforge]
+file-id = 5053792
+project-id = 927564
