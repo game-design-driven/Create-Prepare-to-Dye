@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4d237137b858d63a51ddfbd9bb5aede3e1baa59e1632fbfc0b60e28c99d24494"
+hash = "9a91b9467f11ed6c5f4ca360ff5298678d2c5e493b3f1a88dd01b9f307fee586"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3398,7 +3398,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "34f312aa03f24a2b91e7a3eeaba0479fdd8a428d8a7bfbda34453fdb5c3df456"
+hash = "45cb11a88139ca67067eea705cca420dd47a7376ce600f20bab74b7cb1bf2ff1"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3694,7 +3694,7 @@ hash = "421b66674c04185f86c2be250a0740fc74f3273b0ad4152c720494e40c744f54"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
-hash = "aacc8bc8816a7fb710b7799336d2b87a4eb1f081be8ad1b7caf3c58d75a995ac"
+hash = "bcfd0ce87dd6db0b30eca462c98c622382aaf658f56ae30b13e420e8235cb663"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
@@ -5354,7 +5354,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1bacca1bdaf64634f9aa21e3cac21ad0d26f3118261508fcae1800bcf576e13a"
+hash = "3cf23bb31d487be36c4c3c37f2c8a0a3bb0147873f5d5f91c2dddb3395befbf3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7067,6 +7067,10 @@ hash = "fabd9012a3a312f028b2ad8c9f12120a92f21cd542d02f9ddd180742e8121600"
 [[files]]
 file = "modpack-update-checker/versions/1.211.11/changelog.txt"
 hash = "56214e10a3fef5cd4f16163c65ffe3cc28cf9ac7f38878618e38939931ac4e03"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.12/changelog.txt"
+hash = "b1b2bb2019247936a0087461935b4613fd99f058ad3731acbf2067a87701e78c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.2/changelog.txt"
