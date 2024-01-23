@@ -153,16 +153,16 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "7878a3cfc26064a21017963dee1e7195246b6dd25aa9470896ea3ccafc9d6ba5"
 
 [[files]]
+file = "config/fancymenu/customization/.disabled/0-auto-assemble.txt"
+hash = "58291e2cda347ada19eb047dafd004a50dfe73726051e109b42513d076530dbb"
+
+[[files]]
 file = "config/fancymenu/customization/.disabled/0-automatic-assembly-generics-only.txt"
 hash = "66032c77c9be5e7864133b18b9e0783f5f172a4c9750106f5a487f5e9aa44437"
 
 [[files]]
-file = "config/fancymenu/customization/.disabled/0-no-automatic-assembly.txt"
+file = "config/fancymenu/customization/0-no-automatic-assembly.txt"
 hash = "90b4e87c57073349a831b0c5e6eb79d089eef582a240116baa561dcac1b57264"
-
-[[files]]
-file = "config/fancymenu/customization/0-auto-assemble.txt"
-hash = "58291e2cda347ada19eb047dafd004a50dfe73726051e109b42513d076530dbb"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "2e24172a3cf179d0ea0c961ea4180b0118e06b0c11dcf3e0a85096e4be9ea509"
+hash = "3ca2f5e94af37d508b9a8d231d5fb68deb3d38a94cd18466c4576ab00f7c1b4c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -606,11 +606,11 @@ hash = "3214949724539d8fc6bc050d8fefd929a43cd21d92537b35dbc7770ccc157cd3"
 
 [[files]]
 file = "fancymenu_data/tabs-assembler-4.png"
-hash = "31c095b53cbc3be47019a6e19dd09c446062378cfc6a3059bf50ff3fa6e57445"
+hash = "67fceb45266023b445c4965941f48f0c0f38652ddd4a0722583ca3e59453f869"
 
 [[files]]
 file = "fancymenu_data/tags-inventory-8.png"
-hash = "27dd8c2aa017be2c810d837f1c018919876e35abd1838e53281858d76c9a6f10"
+hash = "0c0b5b2d798fed0b7bd5082a1fba195b23680f06528bd35f5624558783ee4ff8"
 
 [[files]]
 file = "fancymenu_data/text.png"
@@ -766,7 +766,7 @@ hash = "e4db1b6a30b979a226861fddc8c407b18afb4b788d7a530de4caf2ee538ec69a"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/textures/item/stonecutter.png"
-hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
+hash = "f265471fc23b4f4ed09cc93ec899436d1af599f09f907f9000fe6131fe9d4032"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
@@ -823,6 +823,10 @@ hash = "d7ca2e67e9917f761aa7181123ea58065832b262b692499ddd2ae51483d31211"
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
 hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
+
+[[files]]
+file = "kubejs/assets/emi/category/properties/retextrue_stonecutter.json"
+hash = "2ea14c0ab73318fc32677989185864b835c1cea65319cd0e5442de260b2e0e0c"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
@@ -3402,7 +3406,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e668a510d0890514f793367cb6e9778f26725edc9495dd2e0e59348c7823b37a"
+hash = "ff325fab32ef8f02f2c4a593f802ce3b4e2bc860196ed97b31195dac645c9bf2"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5358,7 +5362,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "25e5af0b2051932225ec5c5f28a5dd299545caf197d1ba5f7ecf98914f4c1b66"
+hash = "012de43cc29c55fb64e26c2a49ba0b93245748fd7ecd9c26cbe332a265f15bba"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7083,6 +7087,10 @@ hash = "4104249bfafcc66624298aa9c40657b3640b329bf528840880e13264fa6978fa"
 [[files]]
 file = "modpack-update-checker/versions/1.211.14/changelog.txt"
 hash = "327c56cc0670fcfe2a47e216383425b7fcbda3b388c089b00dd3a45d19f65fc3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.15/changelog.txt"
+hash = "06c67b9e6ffac2d0083312c8d238316bf2e0655ee1684fcd637097fb9364671b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.2/changelog.txt"
