@@ -364,3 +364,8 @@ metafile = true
 file = "mods/wares.pw.toml"
 hash = "35da515d65b08f212f6ce97b7ca89d0a22c91c8281bfdd76f67d55a668d44954"
 metafile = true
+
+[[files]]
+file = "mods/zume.pw.toml"
+hash = "1f568c465e6e56cf17b7e6d2ed15951de3bffe001c658439439e7f1f70f430c0"
+metafile = true

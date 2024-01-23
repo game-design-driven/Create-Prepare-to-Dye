@@ -7818,6 +7818,11 @@ hash = "405ac47aaf08f8f7610f70776fba185d350932b55355b994d550ba76b79595d8"
 metafile = true
 
 [[files]]
+file = "mods/zume.pw.toml"
+hash = "1f568c465e6e56cf17b7e6d2ed15951de3bffe001c658439439e7f1f70f430c0"
+metafile = true
+
+[[files]]
 file = "ptdye/format_untranslated_tags.php"
 hash = "f2f68da28dc40aadea3caffb9a018c03c410db817e4bd0955c84e41556f9aeeb"
 
