@@ -1,27 +1,27 @@
-## [1.162.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.161.1...1.162.0) (2023-12-16)
+## [1.162.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.161.1...1.162.0) (2023-12-16)
 
 
 ### Features
 
-* remove rain so no dark sky ever ([657f3b3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/657f3b3b9176df0da7bc242b49b2e8580707c33d))
+* remove rain so no dark sky ever ([657f3b3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/657f3b3b9176df0da7bc242b49b2e8580707c33d))
 
 
 ### Developer experance improvments and changes
 
-* added beachfronts to dict ([9aecff4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9aecff48b81e6ca1b3f4da0db0b9cca14abc6d5e))
-* readd agreements to emi ([928e6c6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/928e6c6b33631d0bc70c6bbde95ae64d924402af))
+* added beachfronts to dict ([9aecff4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9aecff48b81e6ca1b3f4da0db0b9cca14abc6d5e))
+* readd agreements to emi ([928e6c6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/928e6c6b33631d0bc70c6bbde95ae64d924402af))
 
 
 ### Minor tweaks
 
-* cheaper metal gridder from white plates and black dye ([4f9f889](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4f9f8892b501c8b6563ff104905ff8ac35ebfe0b))
-* increase recipe output of gray plate by 4x and you can make it with either black or gray dye ([1f44fc3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1f44fc349f61fe4ce2f3e724a75dedf34703444f))
-* when carying betsy she will face the player ([cd2bd89](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cd2bd89620762f8ccddc3539a69153e14279d3a2))
+* cheaper metal gridder from white plates and black dye ([4f9f889](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4f9f8892b501c8b6563ff104905ff8ac35ebfe0b))
+* increase recipe output of gray plate by 4x and you can make it with either black or gray dye ([1f44fc3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1f44fc349f61fe4ce2f3e724a75dedf34703444f))
+* when carying betsy she will face the player ([cd2bd89](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cd2bd89620762f8ccddc3539a69153e14279d3a2))
 
 
 ### Documentation and Localization
 
-* document golden tools always having fortune ([7e14843](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7e14843a310e479bea20eba16c6b4ea1dd9426d7))
-* improve message of white powder trade and increase it's requirement, goal is to hint further that the player should automate it instead of take it manually ([31d3215](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/31d3215c0058c97f1472d1b89b4f770cc5b9adb7))
+* document golden tools always having fortune ([7e14843](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7e14843a310e479bea20eba16c6b4ea1dd9426d7))
+* improve message of white powder trade and increase it's requirement, goal is to hint further that the player should automate it instead of take it manually ([31d3215](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/31d3215c0058c97f1472d1b89b4f770cc5b9adb7))
 
 

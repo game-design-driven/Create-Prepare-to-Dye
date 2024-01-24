@@ -1,0 +1,8 @@
+### [1.205.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.205.0...1.205.1) (2024-01-11)
+
+
+### Minor tweaks
+
+* category tooltips now only show mod when holding ctrl/cmd ([68435e8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/68435e8fb1db5fe1f33ec0338ace0454cb740805))
+
+

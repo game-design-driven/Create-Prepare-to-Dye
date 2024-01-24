@@ -47,7 +47,6 @@ if (feature("Remove all uneeded things from ae2")) {
     "ae2:red_smart_cable",
     "ae2:black_smart_cable",
     "ae2:fluix_smart_cable",
-    
   ];
 
   Ingredient.of("@ae2").itemIds.forEach((item) => {
@@ -66,13 +65,14 @@ if (feature("Quartz recipes")) {
   // addItemInsidePlace('ae2:flawed_budding_quartz', ['ae2:chipped_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
   // addItemInsidePlace('ae2:chipped_budding_quartz', ['ae2:damaged_budding_quartz', 'create:polished_rose_quartz'], 'minecraft:water')
   // addItemInsidePlace('ae2:damaged_budding_quartz', ['quartz_block', 'create:polished_rose_quartz'], 'minecraft:water')
-  addItemApplication('ae2:quartz_block', 'quartz_block', 'light_blue_dye')
-  addToTag('forge:quartz/lightblue', [
-    'ae2:quartz_block',
-    'ae2:chipped_budding_quartz',
-  ])
+  addItemApplication("ae2:quartz_block", "quartz_block", "light_blue_dye");
+  addToTag("forge:quartz/lightblue", [
+    "ae2:quartz_block",
+    "ae2:chipped_budding_quartz",
+  ]);
   addItemApplication(
-    "ae2:flawed_budding_quartz",'#forge:quartz/lightblue',
+    "ae2:flawed_budding_quartz",
+    "#forge:quartz/lightblue",
     "create:polished_rose_quartz"
   );
 
@@ -114,12 +114,33 @@ if (feature("Slime from silicon")) {
 
 if (feature("Silicon from slime")) {
   addAssembly("3x ae2:silicon", "minecraft:slime_ball", [
+    addPressing("stick", "stick"),
     addFilling(
       "ae2:silicon",
       "minecraft:slime_ball",
       "250x create_enchantment_industry:ink"
     ),
-    addPressing("stick", "stick"),
   ]);
 }
 
+if (feature("Stonecut dyed cables into regular cables")) {
+  let coloredCables = [
+    "ae2:white_smart_cable",
+    "ae2:orange_smart_cable",
+    "ae2:magenta_smart_cable",
+    "ae2:light_blue_smart_cable",
+    "ae2:yellow_smart_cable",
+    "ae2:lime_smart_cable",
+    "ae2:pink_smart_cable",
+    "ae2:gray_smart_cable",
+    "ae2:light_gray_smart_cable",
+    "ae2:cyan_smart_cable",
+    "ae2:purple_smart_cable",
+    "ae2:blue_smart_cable",
+    "ae2:brown_smart_cable",
+    "ae2:green_smart_cable",
+    "ae2:red_smart_cable",
+    "ae2:black_smart_cable",
+  ];
+  addStonecutting('ae2:fluix_smart_cable', Ingredient.of(coloredCables))
+}

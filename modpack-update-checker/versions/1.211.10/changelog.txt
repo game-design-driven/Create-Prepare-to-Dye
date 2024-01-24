@@ -1,0 +1,8 @@
+### [1.211.10](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.9...1.211.10) (2024-01-22)
+
+
+### Fixes
+
+* princess necromancer trade impossible due to a redundent exclusive check ([c09c081](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c09c081c0533b9dd7656528881d31b99f806531c))
+
+

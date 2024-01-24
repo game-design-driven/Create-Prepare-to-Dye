@@ -1,10 +1,10 @@
-### [1.159.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.159.1...1.159.2) (2023-12-16)
+### [1.159.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.159.1...1.159.2) (2023-12-16)
 
 
 ### Minor tweaks
 
-* buff fermented blob generation but also slow it down a little ([60209a5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/60209a52f1c123a165787a22d0010d719bcd4d7c))
-* reduce swim speed bonus from 3 to 2.25 ([a7f12ea](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a7f12ea140294dc57fcb550307a8d24ab7ff26b0))
-* turn table and apothecary are wrenchable ([27cf724](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/27cf724afdd3cf425cdf6ed20d8943acccc34e27))
+* buff fermented blob generation but also slow it down a little ([60209a5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/60209a52f1c123a165787a22d0010d719bcd4d7c))
+* reduce swim speed bonus from 3 to 2.25 ([a7f12ea](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a7f12ea140294dc57fcb550307a8d24ab7ff26b0))
+* turn table and apothecary are wrenchable ([27cf724](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/27cf724afdd3cf425cdf6ed20d8943acccc34e27))
 
 

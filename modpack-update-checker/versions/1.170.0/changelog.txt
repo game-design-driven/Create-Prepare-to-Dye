@@ -1,8 +1,8 @@
-## [1.170.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.169.1...1.170.0) (2023-12-18)
+## [1.170.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.169.1...1.170.0) (2023-12-18)
 
 
 ### Features
 
-* add ghost recipe for grass to hint at actual vanilla method ([6b9add6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6b9add605197bcbefff5e98a2dfe32d02962a542))
+* add ghost recipe for grass to hint at actual vanilla method ([6b9add6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6b9add605197bcbefff5e98a2dfe32d02962a542))
 
 

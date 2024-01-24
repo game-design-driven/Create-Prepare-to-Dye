@@ -1,18 +1,18 @@
-### [1.105.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.105.2...1.105.3) (2023-11-30)
+### [1.105.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.105.2...1.105.3) (2023-11-30)
 
 
 ### Modlist related changes
 
-* update collective ([e45154f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e45154f57aa69a2ee10c5fe4ac36d15d0c380f2f))
-* update create diesel generators ([cd77c33](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cd77c3365a22eba9d7cbd996e5b5e963d553bbd6))
-* update curios ([a8477ca](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a8477ca23432fae316ff22fbea5c1ed6c17359d8))
-* update embeddium ([2e8e91a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2e8e91a7056e19875ac0a95a13bafc191cbd97d7))
-* update jade ([c7d061a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c7d061ad3114c48590c695b3c0d87b9cd0b51d58))
-* update supplementaries ([3449e33](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3449e332be34f611f2b71aca9478e2f8a60184b4))
+* update collective ([e45154f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e45154f57aa69a2ee10c5fe4ac36d15d0c380f2f))
+* update create diesel generators ([cd77c33](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cd77c3365a22eba9d7cbd996e5b5e963d553bbd6))
+* update curios ([a8477ca](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a8477ca23432fae316ff22fbea5c1ed6c17359d8))
+* update embeddium ([2e8e91a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2e8e91a7056e19875ac0a95a13bafc191cbd97d7))
+* update jade ([c7d061a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c7d061ad3114c48590c695b3c0d87b9cd0b51d58))
+* update supplementaries ([3449e33](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3449e332be34f611f2b71aca9478e2f8a60184b4))
 
 
 ### Documentation and Localization
 
-* rename ae2 stuff to not include the name me ([8607096](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/860709602a1f8c414e33f22fbc7c6f5f7a4351c2))
+* rename ae2 stuff to not include the name me ([8607096](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/860709602a1f8c414e33f22fbc7c6f5f7a4351c2))
 
 

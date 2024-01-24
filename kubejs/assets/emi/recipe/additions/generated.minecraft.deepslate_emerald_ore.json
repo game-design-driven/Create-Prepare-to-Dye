@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:deepslate_emerald_ore"
+	],
+	"text": "block.minecraft.deepslate_emerald_ore.tooltip.summary"
+}

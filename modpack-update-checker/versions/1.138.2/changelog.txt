@@ -1,8 +1,8 @@
-### [1.138.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.138.1...1.138.2) (2023-12-11)
+### [1.138.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.138.1...1.138.2) (2023-12-11)
 
 
 ### Documentation and Localization
 
-* make it clear that completed contracts have uses that need to be checked in EMI ([8131589](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/81315899c622ed1f7c8f9fa359005a50c28f6b3c))
+* make it clear that completed contracts have uses that need to be checked in EMI ([8131589](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/81315899c622ed1f7c8f9fa359005a50c28f6b3c))
 
 

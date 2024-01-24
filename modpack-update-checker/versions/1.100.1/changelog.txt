@@ -1,8 +1,8 @@
-### [1.100.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.100.0...1.100.1) (2023-11-29)
+### [1.100.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.100.0...1.100.1) (2023-11-29)
 
 
 ### Developer experance improvments and changes
 
-* clean up lang scripts file ([fd52951](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fd529512d020caf93cb87483241df99ad5a38e0e))
+* clean up lang scripts file ([fd52951](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fd529512d020caf93cb87483241df99ad5a38e0e))
 
 

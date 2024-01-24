@@ -1,16 +1,16 @@
-### [1.153.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.153.8...1.153.9) (2023-12-14)
+### [1.153.9](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.153.8...1.153.9) (2023-12-14)
 
 
 ### Fixes
 
-* gantry shaft for real this time ([cb75af5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cb75af5f91d0cbaac00f85fdca64ca461a72cfb5))
+* gantry shaft for real this time ([cb75af5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cb75af5f91d0cbaac00f85fdca64ca461a72cfb5))
 
 
 ### Minor tweaks
 
-* potentially remove cacti worldgen ([bfa8f9f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bfa8f9ff67c51cc4718c7f29388d01ffcb99e1f8))
-* remove amethyst_geode ([c67e86b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c67e86b8dfe624e4b595d12fa33b6c5a3baed186))
-* remove lake_lava_underground ([17a53f5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/17a53f5877d797b0b9741819bf9611bb36f1710e))
-* remove spring_lava, it's not need we have a lot of lava already ([996b4c8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/996b4c8005f508277f397d0e0505954779a335c8))
+* potentially remove cacti worldgen ([bfa8f9f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bfa8f9ff67c51cc4718c7f29388d01ffcb99e1f8))
+* remove amethyst_geode ([c67e86b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c67e86b8dfe624e4b595d12fa33b6c5a3baed186))
+* remove lake_lava_underground ([17a53f5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/17a53f5877d797b0b9741819bf9611bb36f1710e))
+* remove spring_lava, it's not need we have a lot of lava already ([996b4c8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/996b4c8005f508277f397d0e0505954779a335c8))
 
 

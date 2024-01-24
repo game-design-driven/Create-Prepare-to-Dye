@@ -1,0 +1,8 @@
+## [1.206.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.205.1...1.206.0) (2024-01-11)
+
+
+### Features
+
+* can use personal assembler directly from emi with cmd click or shift click ([73b780a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/73b780a76cb1cdd2a75b5cc0fab2b6f9ddc00a4e))
+
+

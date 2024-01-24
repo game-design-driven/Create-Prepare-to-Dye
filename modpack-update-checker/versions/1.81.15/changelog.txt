@@ -1,9 +1,9 @@
-### [1.81.15](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.14...1.81.15) (2023-11-25)
+### [1.81.15](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.81.14...1.81.15) (2023-11-25)
 
 
 ### Documentation and Localization
 
-* hide unused ae2 and easy villagers recipe categories ([1ceac15](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1ceac15f0a60b79eb5cd31b94a7f0d6455fe43c6))
-* remove kjs empty lang file ([17f7e8f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/17f7e8f2eca697a5d4b24fe5f14faf86082190c4))
+* hide unused ae2 and easy villagers recipe categories ([1ceac15](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1ceac15f0a60b79eb5cd31b94a7f0d6455fe43c6))
+* remove kjs empty lang file ([17f7e8f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/17f7e8f2eca697a5d4b24fe5f14faf86082190c4))
 
 

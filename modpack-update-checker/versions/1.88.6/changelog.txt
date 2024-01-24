@@ -1,8 +1,8 @@
-### [1.88.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.88.5...1.88.6) (2023-11-26)
+### [1.88.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.88.5...1.88.6) (2023-11-26)
 
 
 ### Documentation and Localization
 
-* rename bone meal to fertilizer ([6a00c74](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a00c74d2ada3546ed98b0f0605edb3e5230ac9a))
+* rename bone meal to fertilizer ([6a00c74](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6a00c74d2ada3546ed98b0f0605edb3e5230ac9a))
 
 

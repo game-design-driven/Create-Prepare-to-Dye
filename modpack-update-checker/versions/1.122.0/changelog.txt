@@ -1,8 +1,8 @@
-## [1.122.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.121.3...1.122.0) (2023-12-08)
+## [1.122.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.121.3...1.122.0) (2023-12-08)
 
 
 ### Features
 
-* custom blue planet generation. Choma Prime V2! ([ffac10c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ffac10c09cb999cd96891f6bf286ce894d65c6e3))
+* custom blue planet generation. Choma Prime V2! ([ffac10c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ffac10c09cb999cd96891f6bf286ce894d65c6e3))
 
 

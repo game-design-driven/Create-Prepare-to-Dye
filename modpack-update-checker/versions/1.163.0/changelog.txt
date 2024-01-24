@@ -1,8 +1,8 @@
-## [1.163.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.162.9...1.163.0) (2023-12-17)
+## [1.163.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.162.9...1.163.0) (2023-12-17)
 
 
 ### Features
 
-* buff device recipes, they now output more ([c2e9d72](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c2e9d72a8c790d54a02fdd64d25203509f72a550))
+* buff device recipes, they now output more ([c2e9d72](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c2e9d72a8c790d54a02fdd64d25203509f72a550))
 
 

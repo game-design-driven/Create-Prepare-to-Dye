@@ -1,0 +1,13 @@
+### [1.211.19](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.18...1.211.19) (2024-01-24)
+
+
+### Fixes
+
+* remove very old compensation logic for clipboards, stonecutters and trancievers ([914d8dc](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/914d8dc8ffe422356595567c19cba9e97f49ca49))
+
+
+### Minor tweaks
+
+* pet betsy in clipboard is now unchecked by default ([cc986b2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cc986b2f8cfb6bfacca24d1f45b87237e4d23a0d))
+
+

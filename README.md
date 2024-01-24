@@ -1,23 +1,23 @@
-![infographic](https://raw.githubusercontent.com/Yarden-zamir/Create-Prepare-to-Dye/main/infographic.png)
+![infographic](https://raw.githubusercontent.com/game-design-driven/Create-Prepare-to-Dye/main/infographic.png)
 # ⚙️ Create : Prepare to Dye         
 [![Discord](https://img.shields.io/discord/890222432605057044?label=Chat+on+Discord)](https://discord.gg/v8cZ83kTPY)
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/bMs2ZGmU?label=Avilable+for)](https://modrinth.com/modpack/create-prepare-to-dye)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/releases)
-[![GitHub issues](https://img.shields.io/github/issues/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/Yarden-zamir/create-prepare-to-dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
-[![GitHub commits this week](https://img.shields.io/github/commit-activity/w/yarden-zamir/Create-Prepare-to-Dye)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commits)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/game-design-driven/Create-Prepare-to-Dye)](https://github.com/game-design-driven/Create-Prepare-to-Dye/releases)
+[![GitHub issues](https://img.shields.io/github/issues/game-design-driven/Create-Prepare-to-Dye)](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/game-design-driven/Create-Prepare-to-Dye)](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/game-design-driven/Create-Prepare-to-Dye)](https://github.com/game-design-driven/Create-Prepare-to-Dye/commits)
+[![GitHub commits this week](https://img.shields.io/github/commit-activity/w/game-design-driven/Create-Prepare-to-Dye)](https://github.com/game-design-driven/Create-Prepare-to-Dye/commits)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/bMs2ZGmU?label=Modrinth)](https://modrinth.com/modpack/create-prepare-to-dye)
-[![Release Pipeline](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/actions/workflows/push.yml)
-[![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/Yarden-zamir/Create-Prepare-to-Dye)
+[![Release Pipeline](https://github.com/game-design-driven/Create-Prepare-to-Dye/actions/workflows/push.yml/badge.svg)](https://github.com/game-design-driven/Create-Prepare-to-Dye/actions/workflows/push.yml)
+[![Github](https://img.shields.io/badge/Source%20on-github-black)](https://github.com/game-design-driven/Create-Prepare-to-Dye)
 [![Changelog](https://img.shields.io/badge/Change-logs-white)](https://modrinth.com/modpack/create-prepare-to-dye/changelog)
 
 <p float="left">
   <a href="https://discord.gg/v8cZ83kTPY">
-    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/discord%20banner.png?raw=true" width="49%" />
+    <img src="https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/discord%20banner.png?raw=true" width="49%" />
   </a>
   <a href="https://modrinth.com/modpack/create-prepare-to-dye">
-    <img src="https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/modrinth%20banner%20white.png?raw=true" width="49%" />
+    <img src="https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/modrinth%20banner%20white.png?raw=true" width="49%" />
   </a>
 </p>
 
@@ -48,7 +48,7 @@ Things did start off on the wrong hoof though, as you **crash land on the barren
 Using Create, botania, quark and supplementries to set the style of automation we want. We deconstruct and construct **very intricately built and balanced processing lines.** We heavily focus on the concept of **difficult automation, cheap devices**. You will iterate and design your solutions and each one will take you to new places and areas of problem solving and logistics. 
 
 ---
-we add/alter many processing lines (over 1300 recipe changes and additions) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
+we add/alter many processing lines (over 3000 recipe changes and additions (including dynamic ones)) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
 </details>
 <details>
   <summary>Radical simplification</summary>
@@ -68,7 +68,7 @@ No clutter. Every item and block has ~~a reason~~ at least a few reasons to be i
 <details>
   <summary>Heavily Documented, in game</summary>
   
-You item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
+You item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
@@ -88,7 +88,7 @@ Our script base uses a feature based aproach, where you can enable and disable f
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
 [Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
-~~[Prism Launcher self-updating modpack](https://github.com/yarden-zamir/Create-Prepare-to-Dye/raw/main/Create-Prepare-to-Dye.zip)~~
+~~[Prism Launcher self-updating modpack](https://github.com/game-design-driven/Create-Prepare-to-Dye/raw/main/Create-Prepare-to-Dye.zip)~~
 # Roadmap
 | Goal                                 | Estimated Progress                 | Description          | Priority |
 |--------------------------------------|:-----------------------------------|----------------------|----------------------|

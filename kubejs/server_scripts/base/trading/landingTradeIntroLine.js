@@ -60,8 +60,8 @@ const bfcPickaxes = getAgreement("bfcPickaxes", {
     "Planing to do some work for some computer company on Zora, we need some tools",
 });
 const bfcHelmets = getAgreement("bfcHelmets", {
-  paymentItems: ["16x ptdye:locomotive_device", "16x create:track"],
-  requestedItems: ["16x minecraft:iron_helmet"],
+  paymentItems: ["16x ptdye:locomotive_device", "64x create:track", '32x minecraft:rail'],
+  requestedItems: ["16x minecraft:iron_helmet","16x minecraft:iron_helmet","16x minecraft:iron_helmet","16x minecraft:iron_helmet"],
   title: "Hardhats",
   orderedAmount: 2,
   company: "bobs_construction_fleet",
@@ -177,7 +177,7 @@ const bhbWheat = getAgreement("bhbWheat", {
 const wscAxes = getAgreement("wscAxes", {
   paymentItems: [
     "16x minecraft:oak_log",
-    "10x storagedrawers:oak_full_drawers_1",
+    "16x storagedrawers:oak_full_drawers_1",
     "2x minecraft:chest",
     "ptdye:trading_transceiver",
   ],
@@ -190,9 +190,9 @@ const wscAxes = getAgreement("wscAxes", {
 });
 const wscBread = getAgreement("wscBread", {
   paymentItems: [
+    "16x storagedrawers:oak_full_drawers_1",
     "8x minecraft:birch_log",
     "minecraft:chest",
-    "4x storagedrawers:oak_full_drawers_1",
   ],
   requestedItems: ["64x minecraft:bread"],
   title: "Food needed for the workers",
@@ -351,7 +351,7 @@ const bnwPolishedRoseQuartz = getAgreement("bnwPolishedRoseQuartz", {
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
 const qubeAngry = getAgreement("qubeAngry", {
-  paymentItems: ["minecraft:air"],
+  paymentItems: [],
   requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
   orderedAmount: 1,
@@ -430,6 +430,7 @@ const qubeTrack = getAgreement("qubeTrack", {
 const qubeLocomotiveDevice = getAgreement("qubeLocomotiveDevice", {
   paymentItems: [
     Item.of("minecraft:enchanted_book").enchant("minecraft:fire_aspect", 2),
+    Item.of("minecraft:enchanted_book").enchant("minecraft:luck_of_the_sea", 1),
     "64x gold_ingot",
     "16x minecraft:netherite_ingot",
   ],
@@ -503,6 +504,44 @@ const qubeGlass = getAgreement("qubeGlass", {
   message:
     "You seem to be doing well so far, we need glass, a large amount. Please get it to us, and quickly, we are not known to be patient around here",
 });
+const qubeRails = getAgreement("qubeRails", {
+  paymentItems: [
+    "8x gold_ingot",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:fire_protection", 1)
+      .withCount(1),
+  ],
+  requestedItems: [
+    "64x minecraft:rail",
+    "64x minecraft:rail",
+  ],
+  title: "Rails. Now.",
+  orderedAmount: 4,
+  company: "qube",
+  message:
+    "You know how this goes. Get us rails, high quality, sturdy. Do not fail us, it will not end well for you"
+});
+
+const qubeControllerRail = getAgreement("qubeControllerRail", {
+  paymentItems: [
+    '16x book',
+    "8x gold_ingot",
+    Item.of("minecraft:enchanted_book")
+      .enchant("minecraft:luck_of_the_sea", 1)
+      .withCount(2),
+  ],
+  requestedItems: [
+    "64x create:controller_rail",
+    "64x create:controller_rail",
+    "64x create:controller_rail",
+  ],
+  title: "Controller rails required",
+  orderedAmount: 3,
+  company: "qube",
+  message:
+    "Your rails were adequate, even good enough id say, we are now looking for controller rails, we will supply you with some books and Cubes. ",
+});
+
 const qubeBetterGlass = getAgreement("qubeBetterGlass", {
   paymentItems: [
     "16x gold_ingot",
@@ -654,7 +693,7 @@ const gdbLeadFriend = getAgreement("gdbLeadFriend", {
 });
 
 const sssHelmets = getAgreement("sssHelmets", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
@@ -663,7 +702,7 @@ const sssHelmets = getAgreement("sssHelmets", {
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
 const sssBows = getAgreement("sssBows", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: [
     "16x minecraft:bow",
     "16x minecraft:bow",
@@ -679,7 +718,7 @@ const sssBows = getAgreement("sssBows", {
     "Our fight for justice is forever persistently ongoing and your commitment to the cause did not go unnoticed. We need weaponry if we are to embark on our next endeavor, and I know you are the right cop for the task.",
 });
 const sssArrows = getAgreement("sssArrows", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: [
     "64x minecraft:arrow",
     "64x minecraft:arrow",
@@ -871,7 +910,7 @@ const vHelpWhileHelpingOtherSide = getAgreement("vHelpWhileHelpingOtherSide", {
 });
 
 const sssHelmetsFixedRates = getAgreement("sssHelmetsFixedRates", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
   orderedAmount: 0,
@@ -1239,6 +1278,66 @@ const bfsiPigs = getAgreement("bfsiPigs", {
     "We have a few pigs left over, dont ask why. If they are of value to you please lets make a trade and get them off our hands",
 });
 
+const drgInitialMiningOperations = getAgreement("drgInitialMiningOperations", {
+  paymentItems: [
+    "8x minecraft:deepslate_redstone_ore",
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", "16x #forge:tools/pickaxes", "16x #forge:armors/helmets"],
+  title: "Initial mining operations",
+  orderedAmount: 2,
+  company: "DRG",
+  message:
+    "We at DRG specialize in securing the most dangerous dig sites in the system. To do so we need reliable suppliers, perhaps like you? ",
+});
+
+const drgCaveExploration = getAgreement("drgCaveExploration", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+    "16x minecraft:deepslate_redstone_ore",
+    "4x minecraft:deepslate_gold_ore",
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", "16x #forge:tools/pickaxes", "16x #forge:armors/helmets","16x #forge:armors/helmets"],
+  title: "Cave exploration",
+  orderedAmount: 3,
+  company: "DRG",
+  message:
+    "We are sending a team of experienced miners deeper into the planets crust, we hope to get a good haul out of this",
+});
+const drgDeepDiveOperationDoomed = getAgreement("drgDeepDiveOperation", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("13.4% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", '64x minecraft:soul_torch','64x minecraft:soul_torch','64x minecraft:soul_torch'],
+  title: "Deep dive operation",
+  orderedAmount: 2,
+  company: "DRG",
+  message:
+    "Deep dives are the most dangerous missions we undertake, we are sending our best miners to the deepest depths of the planets crust. The casualties are high, but the rewards are great. We already crunched the numbers and we are greenlit for this operation",
+});
+
+const drgRescueFromDeepDive = getAgreement("drgRescueFromDeepDive", {
+  paymentItems: [],
+  requestedItems: ['16x create:wrench'],
+  title: "Rescue operation",
+  orderedAmount: 1,
+  company: "DRG",
+  message:
+    "Unfortunately our deep dive operation was a failure, we need to rescue whatever survived of the equipment and the haul. We are sending a team down there asap"
+});
+
+const drgDeepDiverSuccess = getAgreement("drgDeepDiverSuccess", {
+  paymentItems: [
+    Item.of('minecraft:chest', 1, '{BlockEntityTag:{LootTable:"ptd:drg_cave"}}').withName(Text.gold("14.5% of expedition loot").italic(false)),
+  ],
+  requestedItems: ["16x #forge:tools/pickaxes", '64x minecraft:soul_torch','64x minecraft:soul_torch','64x minecraft:soul_torch'],
+  title: "Another Deep dive operation",
+  orderedAmount: 3,
+  company: "DRG",
+  message:
+    "We got another deep dive greenlit, a few brave and slightly intoxicated dwarves are on their way out of the bar right now, they will be ready to go in no time",
+});
+
 const drgDrinks = getAgreement("drgDrinks", {
   paymentItems: [
     Item.of(
@@ -1270,7 +1369,7 @@ const drgDrinks = getAgreement("drgDrinks", {
   orderedAmount: 1,
   company: "DRG",
   message:
-    "HQ is asking for some drinks and RND has not managed to keep up with the dwarves latley, could be related to the increased death toll, probably not. We need extra supply of some strong drinks",
+    "HQ is asking for some drinks and RND has not managed to keep up with the dwarves lately, could be related to the increased death toll, probably not. We need extra supply of some strong drinks",
 });
 const drgSpecialDrinks = getAgreement("drgSpecialDrinks", {
   paymentItems: ["32x minecraft:barrel", "16x minecraft:warped_hyphae"],
@@ -1740,7 +1839,6 @@ const dddNecromancerIsPrincess = getAgreement("dddNecromancerIsPrincess", {
     "64x arrow",
     "lead",
     "supplementaries:cage",
-    dddNecromancer.item,
   ],
   title: "The Necromancer is the princess!? ",
   orderedAmount: 1,
@@ -1756,8 +1854,7 @@ const pAgainstAdventurers = getAgreement("pAgainstAdventurers", {
     Item.of(
       "createdieselgenerators:canister",
       '{BlockEntityTag:{Tanks:[{Level:{Speed:0.25f,Target:1.0f,Value:1.0f},TankContent:{Amount:8000,FluidName:"create:honey"}}]}}'
-    ),
-    dddDungeon2.item,
+    )
   ],
   requestedItems: [dddDungeon2.item, "32x create:mechanical_saw"],
   title: "Need materials for traps",
@@ -1880,7 +1977,8 @@ tradeBranch(bfsiChickenInvadersFixedRates, [
   bfsiWastelandClearance,
 ]);
 tradeBranch([bcfPlates2, bnwRedstone], [bcfPlates]);
-tradeBranch([cccIronBars, bcfPlates, drgDrinks], [cccRawWhite]);
+tradeBranch([cccIronBars, bcfPlates, drgInitialMiningOperations], [cccRawWhite]);
+tradeBranch([drgDrinks, drgCaveExploration],drgInitialMiningOperations)
 tradeBranch(bnwManasteel, bnwRedstone);
 tradeBranch([bnwQuartz, bnwManasteelFixedRates], bnwManasteel);
 tradeBranch(
@@ -1950,7 +2048,8 @@ tradeBranch(sssSlaveSale, sssFinalAssault);
 
 tradeBranch([bhbWheatFixedRates, qubeAngry, gbdSticks], bhbFurnaces);
 tradeBranch([qubeSturdyDevice], qubeAngry);
-tradeBranch([qubeGlass, qubeLogicDevice], qubeSturdyDevice);
+tradeBranch([qubeGlass, qubeLogicDevice, qubeRails], qubeSturdyDevice);
+tradeBranch([qubeControllerRail], qubeRails);
 tradeBranch([qubeLogicDevice2, qubeWheat], qubeLogicDevice);
 tradeBranch([qubeWheatFixed], qubeWheat);
 tradeBranch([qubeTrack], qubeLogicDevice2);
@@ -1971,6 +2070,12 @@ tradeBranch([bnwPolishedRoseQuartz, gdbLeadFriend], [bnwCogs, gbdSticks]);
 tradeBranch([bnwPolishedRoseQuartz, gdbLead], [bnwQuartz, bnwCogs]);
 tradeBranch([drgPickaxes, drgDrinksFixed, drgSpecialDrinks], [drgDrinks]);
 tradeBranch([drgSpecialDrinksFixed], drgSpecialDrinks);
+tradeBranch(drgDeepDiveOperationDoomed, drgCaveExploration)
+tradeBranch(drgRescueFromDeepDive, drgDeepDiveOperationDoomed)
+tradeBranch(drgDeepDiverSuccess, drgRescueFromDeepDive)
+tradeBranch(drgDeepDiveOperationDoomed, drgDeepDiverSuccess)
+
+
 tradeBranch([drgGoodPickaxes], [drgPickaxes]);
 tradeBranch(
   [drgEvenBetterPickaxesFixed, drgEvenBetterPickaxesFixed2],

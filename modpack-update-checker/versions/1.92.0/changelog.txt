@@ -1,13 +1,13 @@
-## [1.92.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.91.0...1.92.0) (2023-11-27)
+## [1.92.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.91.0...1.92.0) (2023-11-27)
 
 
 ### Features
 
-* add better rail recipes and rail assembly recipes with white and andesite ([b3ff7f2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b3ff7f2cc98125e512d5b9f90b99afed570e8a29)), closes [#320](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/320)
+* add better rail recipes and rail assembly recipes with white and andesite ([b3ff7f2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b3ff7f2cc98125e512d5b9f90b99afed570e8a29)), closes [#320](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/320)
 
 
 ### Reverted Changes
 
-* Revert feat: Add trading platforms ([a969bda](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a969bdaab41b6b732f01830d51c5853b5f6809c0))
+* Revert feat: Add trading platforms ([a969bda](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a969bdaab41b6b732f01830d51c5853b5f6809c0))
 
 

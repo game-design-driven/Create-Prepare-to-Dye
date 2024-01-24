@@ -56,7 +56,7 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: true;
+	append-mod-id: false;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
@@ -156,7 +156,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 7, 7;
+	left-sidebar-size: 8, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -361,6 +361,7 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in inventory if possible.
 	 */
+	craft-one-to-inventory: "ctrl key.mouse.left";
 	craft-one-to-inventory: "key.mouse.left";
 
 	/**
@@ -447,7 +448,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: true;
+	show-recipe-ids: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

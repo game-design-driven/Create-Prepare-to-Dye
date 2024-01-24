@@ -1,8 +1,8 @@
-### [1.90.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.90.5...1.90.6) (2023-11-27)
+### [1.90.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.90.5...1.90.6) (2023-11-27)
 
 
 ### Minor tweaks
 
-* reduce quark max items in pipe to 10 ([fc043f7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fc043f79d6563fbf33953223319e8c52f7f0cc7b))
+* reduce quark max items in pipe to 10 ([fc043f7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fc043f79d6563fbf33953223319e8c52f7f0cc7b))
 
 

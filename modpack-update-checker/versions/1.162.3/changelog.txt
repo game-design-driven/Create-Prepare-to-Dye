@@ -1,8 +1,8 @@
-### [1.162.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.162.2...1.162.3) (2023-12-16)
+### [1.162.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.162.2...1.162.3) (2023-12-16)
 
 
 ### Fixes
 
-* disable nether brick recipe till we have texture for the transition item ([5c625d1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5c625d1d466bfdb56044579456827d1335b370b1))
+* disable nether brick recipe till we have texture for the transition item ([5c625d1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5c625d1d466bfdb56044579456827d1335b370b1))
 
 

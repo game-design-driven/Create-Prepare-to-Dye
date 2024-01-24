@@ -1,8 +1,8 @@
-### [1.81.14](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.13...1.81.14) (2023-11-25)
+### [1.81.14](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.81.13...1.81.14) (2023-11-25)
 
 
 ### Documentation and Localization
 
-* remove crafting table recipes from recipe viewer ([9e5f7a2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9e5f7a235e3a0f5dada92bad19b450f00538a622))
+* remove crafting table recipes from recipe viewer ([9e5f7a2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9e5f7a235e3a0f5dada92bad19b450f00538a622))
 
 

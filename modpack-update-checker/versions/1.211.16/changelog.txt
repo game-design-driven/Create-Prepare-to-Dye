@@ -1,0 +1,9 @@
+### [1.211.16](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.15...1.211.16) (2024-01-23)
+
+
+### Fixes
+
+* heb lang marked as supported when it is not ([c5b08ee](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c5b08ee6055efd48aef58ae48e74bd38ebe1aefe))
+* zume mod on curseforge targetting modrinth instead ([60fd0e2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/60fd0e29674ed4c16260372019a99d52f1c45e03))
+
+

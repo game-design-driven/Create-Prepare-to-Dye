@@ -1,8 +1,8 @@
-## [1.145.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.144.0...1.145.0) (2023-12-12)
+## [1.145.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.144.0...1.145.0) (2023-12-12)
 
 
 ### Features
 
-* respritings, and transitional items! ([#398](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/398)) ([96b0552](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/96b0552375138c8b8cb90ece72c054166a284ce2))
+* respritings, and transitional items! ([#398](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/398)) ([96b0552](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/96b0552375138c8b8cb90ece72c054166a284ce2))
 
 

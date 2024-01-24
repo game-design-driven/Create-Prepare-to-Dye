@@ -1,21 +1,21 @@
-## [1.169.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.168.0...1.169.0) (2023-12-18)
+## [1.169.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.168.0...1.169.0) (2023-12-18)
 
 
 ### Features
 
-* increase break speed of gray plate ([b9072ba](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b9072ba548a59382afc2ebc47d21f4b372df9416))
-* readd elytra recipe ([e0dd734](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e0dd7345eaad5e46a2dc3282ce6e326514ec9655))
-* replace white powder with white concrete. Push players to automate it with daisy instead of breaking or dying it by hand ([0b7620d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0b7620d71472a619b76e3b654651d4ffe61ddfdf))
-* spouts can be filled with fluids that have block form ([481c3e4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/481c3e41444ce7889d2b03dd7d31a20d5c73121d))
+* increase break speed of gray plate ([b9072ba](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b9072ba548a59382afc2ebc47d21f4b372df9416))
+* readd elytra recipe ([e0dd734](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e0dd7345eaad5e46a2dc3282ce6e326514ec9655))
+* replace white powder with white concrete. Push players to automate it with daisy instead of breaking or dying it by hand ([0b7620d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0b7620d71472a619b76e3b654651d4ffe61ddfdf))
+* spouts can be filled with fluids that have block form ([481c3e4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/481c3e41444ce7889d2b03dd7d31a20d5c73121d))
 
 
 ### Fixes
 
-* gray dye from gunpowder recipe ([2641c17](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/2641c1773cd7c03b4be65f75d9506b77f03d473b))
+* gray dye from gunpowder recipe ([2641c17](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2641c1773cd7c03b4be65f75d9506b77f03d473b))
 
 
 ### Minor tweaks
 
-* remove plalyer model from personal assembler ([76e2ca2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/76e2ca2d6aef12abf410d4270e3bae8ed4d874e2))
+* remove plalyer model from personal assembler ([76e2ca2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/76e2ca2d6aef12abf410d4270e3bae8ed4d874e2))
 
 

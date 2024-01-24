@@ -1,0 +1,8 @@
+### [1.211.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.2...1.211.3) (2024-01-22)
+
+
+### Fixes
+
+* Tooltips, add Tooltips ([#531](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/531)) ([5cda590](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5cda590c96d7fd457aae9385008e156d376ac40c))
+
+

@@ -1,0 +1,8 @@
+### [1.206.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.206.0...1.206.1) (2024-01-11)
+
+
+### Fixes
+
+* slime and silicon recipe conflict ([d52901c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d52901cef27056a89bb7b591e304a8776e9617e7))
+
+

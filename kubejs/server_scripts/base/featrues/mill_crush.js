@@ -41,7 +41,8 @@ if (feature('Improve crushing recipes')) {
 
     addCrushing(['2x sand', 'stick %25'], '#forge:sandstone')
 
-    addCrushing(['sand', 'flint %10', 'clay_ball %10'], 'gravel')
+    removeRecipe({id: 'create:crushing/gravel'})
+    addCrushing(['sand %55', 'flint %10', 'clay_ball %5'], 'gravel')
 
     addCrushing(['black_dye %50', 'gray_dye %25'], 'coal')
     addCrushing(['gray_dye %25', 'black_dye %5'], 'charcoal')

@@ -1,13 +1,13 @@
-### [1.92.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.92.3...1.92.4) (2023-11-27)
+### [1.92.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.92.3...1.92.4) (2023-11-27)
 
 
 ### Minor tweaks
 
-* Improve spaceship wreck ([1b33183](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/1b33183a6b8dbc68df51c1f7412806857abec722))
+* Improve spaceship wreck ([1b33183](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1b33183a6b8dbc68df51c1f7412806857abec722))
 
 
 ### Fixes
 
-* Trading platform transceiver tooltips not rendering correctly on mac (and maybe linux) ([348f505](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/348f505bf8c774db149508161cbc9011c1cd4962))
+* Trading platform transceiver tooltips not rendering correctly on mac (and maybe linux) ([348f505](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/348f505bf8c774db149508161cbc9011c1cd4962))
 
 

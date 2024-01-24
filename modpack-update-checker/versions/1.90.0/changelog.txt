@@ -1,13 +1,13 @@
-## [1.90.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.89.0...1.90.0) (2023-11-26)
+## [1.90.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.89.0...1.90.0) (2023-11-26)
 
 
 ### Features
 
-* remove mineshafts ([f4e7128](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f4e71283ab82bdfe920b0cffe41e10ef426bd2d8))
+* remove mineshafts ([f4e7128](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f4e71283ab82bdfe920b0cffe41e10ef426bd2d8))
 
 
 ### Documentation and Localization
 
-* fix milk cell tooltip ([e8dbba0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e8dbba0b90b9faa2fe5f3136d1e16a69a9b88190))
+* fix milk cell tooltip ([e8dbba0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e8dbba0b90b9faa2fe5f3136d1e16a69a9b88190))
 
 

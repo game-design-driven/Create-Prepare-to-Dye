@@ -1,0 +1,17 @@
+## [1.208.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.207.1...1.208.0) (2024-01-14)
+
+
+### Features
+
+* add smokestack mini device ([d82c491](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d82c491b7beeeb68650f9f363e13e22dfa2235e3))
+* expand drg tradeline to include deep dives and loopable expeditions as an alternative way to aquire some ores. ([bf30ff5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bf30ff544dca7be3d319d41b919de8feaf1644d7))
+
+
+### Minor tweaks
+
+* add remote lense, conductor whistle and conductor hat to railway devices ([c8266e1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c8266e1aa73d5a4b9650f0fd08f95f2d1029b7c5))
+* enable shroud_key and quantify_key as smart devices ([333d5d4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/333d5d41c983aa6d79353277f2dea8317dbcf121))
+* simplify wrench recipe ([21848c5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/21848c53f3db21668930c082ad0646a395639dd0))
+* wrench stacks to 16 ([540770d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/540770dc88be0a267dc66912d8513af983c1a271))
+
+

@@ -1,20 +1,20 @@
-## [1.152.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.151.0...1.152.0) (2023-12-13)
+## [1.152.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.151.0...1.152.0) (2023-12-13)
 
 
 ### Features
 
-* add propper recipes to different sized create and railways tracks ([bf420bc](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bf420bc15f7c068d501192a7983a511fd26c77ab))
-* texture replace green ingot and raw orange ([#402](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/402)) ([25b59ec](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/25b59ec798dc9896c4dd23dad3f9c21ecb14b057))
-* white trap door recipe bigger so it's no longer compacting recipe ([7978f75](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7978f753a42a0ea2ecfee86443a6fd7b2df2c458))
+* add propper recipes to different sized create and railways tracks ([bf420bc](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bf420bc15f7c068d501192a7983a511fd26c77ab))
+* texture replace green ingot and raw orange ([#402](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/402)) ([25b59ec](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/25b59ec798dc9896c4dd23dad3f9c21ecb14b057))
+* white trap door recipe bigger so it's no longer compacting recipe ([7978f75](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7978f753a42a0ea2ecfee86443a6fd7b2df2c458))
 
 
 ### Minor tweaks
 
-* simplify track recipe output and alternate recipe ([2999166](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/29991661cc1773ba0098a4917b75f3713419b625))
+* simplify track recipe output and alternate recipe ([2999166](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/29991661cc1773ba0098a4917b75f3713419b625))
 
 
 ### Fixes
 
-* alternate living wood track recipe output ([cb4fcaf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cb4fcaffe05b3e7993b9022f4a701004239425d5))
+* alternate living wood track recipe output ([cb4fcaf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cb4fcaffe05b3e7993b9022f4a701004239425d5))
 
 

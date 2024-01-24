@@ -1,19 +1,19 @@
-### [1.125.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.125.4...1.125.5) (2023-12-09)
+### [1.125.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.125.4...1.125.5) (2023-12-09)
 
 
 ### Minor tweaks
 
-* add recylcling example to mechanical device ([b3d936d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b3d936dbb18dce5aed9f3635b05abe90a430d2cb))
+* add recylcling example to mechanical device ([b3d936d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b3d936dbb18dce5aed9f3635b05abe90a430d2cb))
 
 
 ### Modlist related changes
 
-* add nonconflictkeys ([790cbf9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/790cbf9db8ffedaefddbe86f734f6d284f0509cf))
+* add nonconflictkeys ([790cbf9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/790cbf9db8ffedaefddbe86f734f6d284f0509cf))
 
 
 ### Documentation and Localization
 
-* add tutorial text for using V to open device assembler until we have a proper ponder tutorial ([a612d87](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a612d878457e609f349f4a69b5e7eb17958fb557))
-* rename redstone casing to redstone device ([fba43d1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fba43d13e0bb64d2fca1204760cca06686ed2fb4))
+* add tutorial text for using V to open device assembler until we have a proper ponder tutorial ([a612d87](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a612d878457e609f349f4a69b5e7eb17958fb557))
+* rename redstone casing to redstone device ([fba43d1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fba43d13e0bb64d2fca1204760cca06686ed2fb4))
 
 

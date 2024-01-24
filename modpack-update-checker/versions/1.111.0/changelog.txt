@@ -1,47 +1,47 @@
-## [1.111.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.110.0...1.111.0) (2023-12-02)
+## [1.111.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.110.0...1.111.0) (2023-12-02)
 
 
 ### Features
 
-* give exsisting players starter trades ([b454dd5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/b454dd54a213865a31c0badd10bbb9aeb31a15b4))
-* make blaze accessable in first trade with galactic_beast_deliveries ([28875b9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/28875b929a0f72441a0c5669ae02d3a6a07cd4d9))
-* rewrite trade progression engine ([95f1e65](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95f1e6550075c2dfea43abed25597ec8d4d641a9))
+* give exsisting players starter trades ([b454dd5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b454dd54a213865a31c0badd10bbb9aeb31a15b4))
+* make blaze accessable in first trade with galactic_beast_deliveries ([28875b9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/28875b929a0f72441a0c5669ae02d3a6a07cd4d9))
+* rewrite trade progression engine ([95f1e65](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/95f1e6550075c2dfea43abed25597ec8d4d641a9))
 
 
 ### Minor tweaks
 
-* add glue to second plates agreement ([3b7cb75](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3b7cb75050ca6e9ef80ba81fa0e565f4c2bf4c5a))
-* add redstone casing to bnw deal ([457af5f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/457af5f8f0b5ed221db7ac3cc6cf40245bd1ba58))
-* add redstone casing to polished quartz bnw deal ([5e93795](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/5e9379567d688aaadf0e62adabb29a2f94ba60bc))
-* buff blaze deal for VALUEABLE customer ([c002d45](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c002d45a297e91fdec9c8b5282590d3ca55420f4))
-* buff bnwQuartz deal ([50fcd3a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50fcd3abad4f953439eefe31fd8e6a78ee2b0109))
-* buff water deal ([6a9ed1f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6a9ed1f64ffd165516cfbc72783a63063cd6b49d))
-* buff wooductters deal ([cc2795a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/cc2795a696cdfe05fff27746be4c0087ba014690))
-* bufgf plates agreement ([79a11b5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/79a11b531567045e1594caa4f205811f91ba2375))
-* change ratios for bnwCogs deal ([21d0b8a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/21d0b8ae2ff919f1f1444adf7a286a0742e8558a))
-* nerf lever reward for bnw deal ([3016403](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/30164037b6051e5c99802a8583c1e1dcc402b139))
-* nerf manasteel to energt cell deal ([4756ba3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4756ba32595ac7f6d600530b44d4a04ea6f93abf))
-* reduce raw iron recipe requirement but increase cycle count ([9a5f847](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9a5f847016d5558ab548f6f4935a893a997b615e))
-* replace blue shovel with 2 yellow pickaxes in mlc dea ([04630d7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/04630d74748ad40d0a837c58ede9f30a00fb47f6))
-* replace energy cell with redstone casing in bnwManasteelFixedRates ([91c2fa2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/91c2fa25128186cc453c7dfdfcd409cdc405054a))
-* update EMI deals ([04b8fe3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/04b8fe394cd5d19aef915e227a5c38f387724606))
+* add glue to second plates agreement ([3b7cb75](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3b7cb75050ca6e9ef80ba81fa0e565f4c2bf4c5a))
+* add redstone casing to bnw deal ([457af5f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/457af5f8f0b5ed221db7ac3cc6cf40245bd1ba58))
+* add redstone casing to polished quartz bnw deal ([5e93795](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5e9379567d688aaadf0e62adabb29a2f94ba60bc))
+* buff blaze deal for VALUEABLE customer ([c002d45](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c002d45a297e91fdec9c8b5282590d3ca55420f4))
+* buff bnwQuartz deal ([50fcd3a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/50fcd3abad4f953439eefe31fd8e6a78ee2b0109))
+* buff water deal ([6a9ed1f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6a9ed1f64ffd165516cfbc72783a63063cd6b49d))
+* buff wooductters deal ([cc2795a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cc2795a696cdfe05fff27746be4c0087ba014690))
+* bufgf plates agreement ([79a11b5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/79a11b531567045e1594caa4f205811f91ba2375))
+* change ratios for bnwCogs deal ([21d0b8a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/21d0b8ae2ff919f1f1444adf7a286a0742e8558a))
+* nerf lever reward for bnw deal ([3016403](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/30164037b6051e5c99802a8583c1e1dcc402b139))
+* nerf manasteel to energt cell deal ([4756ba3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4756ba32595ac7f6d600530b44d4a04ea6f93abf))
+* reduce raw iron recipe requirement but increase cycle count ([9a5f847](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9a5f847016d5558ab548f6f4935a893a997b615e))
+* replace blue shovel with 2 yellow pickaxes in mlc dea ([04630d7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/04630d74748ad40d0a837c58ede9f30a00fb47f6))
+* replace energy cell with redstone casing in bnwManasteelFixedRates ([91c2fa2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/91c2fa25128186cc453c7dfdfcd409cdc405054a))
+* update EMI deals ([04b8fe3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/04b8fe394cd5d19aef915e227a5c38f387724606))
 
 
 ### Modlist related changes
 
-* remove plasmo voice ([74a1f73](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/74a1f731941aecd4c5053666cbeef3126b8dcc38))
+* remove plasmo voice ([74a1f73](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/74a1f731941aecd4c5053666cbeef3126b8dcc38))
 
 
 ### Developer experance improvments and changes
 
-* cleanup of trades script ([8fa33eb](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8fa33eb51ad6d08a515535623b4f4dfb731cb8b7))
-* probejs dump ([fb3c3f0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fb3c3f0164a306b947c77b81867db8f030324f3f))
+* cleanup of trades script ([8fa33eb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8fa33eb51ad6d08a515535623b4f4dfb731cb8b7))
+* probejs dump ([fb3c3f0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fb3c3f0164a306b947c77b81867db8f030324f3f))
 
 
 ### Fixes
 
-* agreements that give nothing give black dye ([50554a2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50554a2a2c89c1086ad5b212ba34cc00e4f53460))
-* raw white trade reward ([7604b96](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7604b96b2b059173792073f481c227263d1abc46))
-* water being infinite ([fc7b826](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fc7b8263509d4173c9b3ea763bdbe1a86c01c596))
+* agreements that give nothing give black dye ([50554a2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/50554a2a2c89c1086ad5b212ba34cc00e4f53460))
+* raw white trade reward ([7604b96](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7604b96b2b059173792073f481c227263d1abc46))
+* water being infinite ([fc7b826](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fc7b8263509d4173c9b3ea763bdbe1a86c01c596))
 
 

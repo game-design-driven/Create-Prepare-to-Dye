@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "ff29316754f5561868f2fde142e4625b14b2130ac6073af78ee9449c4e2fc13b"
+hash = "ca5ab66e55fd02c0ec3a9234d90b5a0f81a42cebabc80ccadc4a2cfd6e806cf5"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "9dada84c55042c3b32e6541eb8d0cd4e85d36c8c9fd9696276ce7ea4aa3d320c"
+hash = "f1b0f273cf7539c459ba9497bffec788915b2f6516e9fae8148c5123f7f70eab"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptdye-plus.pw.toml"
-hash = "612ec1fb99ce6d17735a2e4d51fdc76e91cf3a26d49ded6c3f65c7f1cc005ba4"
+hash = "44b0e24e3d346613908c6304f38d7a64e6df3042f17669db989253d97629a1e3"
 metafile = true
 
 [[files]]
@@ -363,4 +363,9 @@ metafile = true
 [[files]]
 file = "mods/wares.pw.toml"
 hash = "35da515d65b08f212f6ce97b7ca89d0a22c91c8281bfdd76f67d55a668d44954"
+metafile = true
+
+[[files]]
+file = "mods/zume.pw.toml"
+hash = "98117196bc044d43f8b34f6e84ca468e59cd128640fabb7b6cc57dec9ccf232d"
 metafile = true

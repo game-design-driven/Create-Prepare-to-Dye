@@ -1,8 +1,8 @@
 if (feature("Paper recipes")) {
   removeRecipe({ id: "minecraft:crafting_shaped/paper" });
   addAssembly("2x paper", "createdieselgenerators:wood_chip", [
-    addPressing("stick", "stick"),
     addFilling("stick", "stick", "25x milk"),
+    addPressing("stick", "stick"),
   ]);
   addAssembly("3x paper", "createdieselgenerators:wood_chip", [
     addPressing("stick", "stick"),
@@ -12,7 +12,7 @@ if (feature("Paper recipes")) {
     addPressing("stick", "stick"),
   ]);
 }
-if (feature("Chest recipes")) {
+if (feature("Chest recipes") && !feature("Craftable devices that are transmuted to specific things on demand")) {
   addShaped("chest", ["###", "# #", "###"], { "#": "#planks" });
   addShaped("4x chest", ["###", "# #", "###"], { "#": "#logs" });
 }
@@ -202,10 +202,6 @@ if (feature("Separate magma cream")) {
 if (feature("Netherrack from nether_wart_block")) {
   addItemApplication("netherrack", "nether_wart_block", "cobblestone");
   addItemApplication("netherrack", "cobblestone", "nether_wart_block");
-}
-
-if (feature("Netherwart to redstone")) {
-  addSmelting("redstone %10", "#forge:crops/nether_wart");
 }
 
 if (feature("Redstone from quartz")) {
@@ -530,4 +526,19 @@ if (feature('Netherite gear regular recipes')) {
   addShaped('netherite_leggings', ['nnn', 'n n', 'n n'], { n: '#forge:ingots/netherite' })
   addShaped('netherite_boots', ['n n', 'n n'], { n: '#forge:ingots/netherite' })
   addShaped('netherite_sword', ['n', 'n', 's'], { n: '#forge:ingots/netherite', s: '#forge:rods' })
+}
+if (feature('Seeds coloring to get other seeds')) {
+  addShapeless('beetroot_seeds', ['red_dye', '#forge:seeds'])
+  addShapeless('pumpkin_seeds', ['orange_dye', '#forge:seeds'])
+  addShapeless('melon_seeds', ['green_dye', '#forge:seeds'])
+  addShapeless('wheat_seeds', ['yellow_dye', '#forge:seeds'])
+}
+
+if (feature('Beetroot carrot conversions')) {
+  addShapeless('beetroot',['2x red_dye', 'carrot'])
+  addShapeless('carrot',['2x orange_dye', 'beetroot'])
+}
+
+if (feature('remove crossbow recipe')) {
+  removeRecipe({id:'minecraft:crossbow'})
 }
