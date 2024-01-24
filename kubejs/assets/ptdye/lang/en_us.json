@@ -61,9 +61,14 @@
     "item.ptdye.ponder_automaton.tooltip.summary": "Ponder to learn about Automaton",
     "item.ptdye.hammer": "Hammer",
     "item.ptdye.hammer.tooltip.summary": "Turns blocks back into device parts quickly!",
+    "item.ptdye.animation_anchor": "Animation Anchor",
+    "item.ptdye.animation_anchor_set": "Animation Anchor [%s]",
+    "item.ptdye.animation_anchor.desc": "Used to set the anchor of an animated structure",
 
     "block.ptdye.grayFence": "Gray Fence",
     "block.ptdye.block.ptdye.grayFenceGate": "Gray Fence Gate",
+    "block.ptdye.animation_block": "Animation Block",
+    "block.ptdye.animation_block.tooltip": "Place next to glued structure",
 
     "status.ptdye.trading_platform.blocked": "Cannot land in the selected spot - The way is blocked",
     "status.ptdye.trading_platform.platform_nearby": "USCUPP® terms and services do not allow trading platforms this close to each other",
