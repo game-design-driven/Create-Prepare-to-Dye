@@ -56,9 +56,6 @@ if (feature("starter items")) {
           )
         );
         event.player.getPersistentData().putBoolean("starter", true);
-        event.player.getPersistentData().putBoolean("clioboard_comp", true);
-        event.player.getPersistentData().putBoolean("transciver_comp", true);
-        event.player.getPersistentData().putBoolean("stonecutter_comp", true);
 
         if (event.server.getPersistentData().getBoolean("existing_world")) {
           extraPlayerItems.forEach((element) => {
