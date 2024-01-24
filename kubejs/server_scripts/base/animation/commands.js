@@ -1,39 +1,25 @@
 const CREATE_GLUE_ENTITY = Java.loadClass("com.simibubi.create.content.contraptions.glue.SuperGlueEntity")
 
-const findGlue_distance = 50;
-
-
-function findGlue(context, verbose){
-  let player = context.getSource().getPlayer()
-  let level = player.level
-
-  let eye = player.eyePosition
-  let aX = eye.x() - findGlue_distance, aY = eye.y() - findGlue_distance, aZ = eye.z() - findGlue_distance
-  let bX = eye.x() + findGlue_distance, bY = eye.y() + findGlue_distance, bZ = eye.z() + findGlue_distance
-  
-
-  let entities = level.getEntitiesOfClass(CREATE_GLUE_ENTITY, AABB.of(aX,aY,aZ, bX,bY,bZ))
-  player.tell("Found " + entities.size())
-  if (verbose) {
-    for (let i = 0; i < entities.size(); i ++) {
-      let entity = entities[i];
-      player.tell("   " + i + ": "+ entity.getBoundingBox())
-    }
-  }
-  return 0;
-}
-
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands, arguments: Arguments } = event;
     event.register(
-      Commands.literal("findGlue")
+      Commands.literal("animation")
+      .requires(source => source.hasPermission(2))
       .executes((context) => {
-          return findGlue(context, false)
-        })
-      .then(
-        Commands.literal("verbose")
+        // todo show help
+        let player = context.getSource().getPlayer()
+        player.tell(Component.ofString("Help for /animation").gold())
+        player.tell(
+          Component.ofString("  kit").green().append(
+            Component.ofString("\n    Gives the blocks and items that are needed for creating animations that aren't available in the creative tab").white())
+        );
+      }).then(
+        Commands.literal("kit")
         .executes((context) => {
-          return findGlue(context, true)
-        }))
-    );
+          let player = context.getSource().getPlayer()
+          player.give("ptdye:animation_block")
+          player.give("ptdye:animation_anchor")
+          return 0
+        })
+      ));
 })
