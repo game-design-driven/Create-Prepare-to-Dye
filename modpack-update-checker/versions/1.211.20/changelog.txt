@@ -1,0 +1,13 @@
+### [1.211.20](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.19...1.211.20) (2024-01-24)
+
+
+### Developer experience improvments and changes
+
+* remove some leftover code ([ce4e4e5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ce4e4e58bbcf332ca84cf4fe2de07b0cfbdbca70))
+
+
+### Continuous Integration
+
+* call the sync workflow when prs are opened ([13e4a93](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/13e4a93921a3af130be18c5bf9673b2018cc8e11))
+
+
