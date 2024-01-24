@@ -141,14 +141,14 @@ BlockEvents.rightClicked("ptdye:animation_block", (event) => {
 
     const min = blockEntity.data.getIntArray("min")
     const max = blockEntity.data.getIntArray("max")
-    if (min.length < 3 && max.length < 3)
+    if (min.length < 3 || max.length < 3)
       return animation_block_failure(event, "Cannot create structure from nothing. Check that there is a glued structure on one of the cardinal faces.")
     let [minX, minY, minZ] = min
     let [maxX, maxY, maxZ] = max
 
     let anchor = block.getPos()
     const anchorArray = blockEntity.data.getIntArray("anchor")
-    if (anchor.length >= 3)
+    if (anchorArray.length >= 3)
       anchor = new BlockPos(anchorArray[0], anchorArray[1], anchorArray[2])
     else
       player.tell(Text.translate("block.ptdye.animation_block").append(": ").green().append(Component.ofString("No anchor set, using position of animation block").white()))
