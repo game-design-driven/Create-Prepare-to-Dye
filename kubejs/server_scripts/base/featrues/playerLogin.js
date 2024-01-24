@@ -67,29 +67,6 @@ if (feature("starter items")) {
         }
         event.server.getPersistentData().putBoolean("existing_world", true);
       }
-      if (!event.player.getPersistentData().getBoolean("clioboard_comp")) {
-        event.player.getPersistentData().putBoolean("clioboard_comp", true);
-        let stuff = [
-          Item.of(
-            "create:clipboard",
-            '{Pages:[{Entries:[{Checked:1b,Text:\'{"text":"Pet Betsy"}\'},{Checked:1b,Text:\'{"text":"Engine safety checks"}\'},{Checked:0b,Text:\'{"text":"Landing systems safety checks"}\'},{Checked:1b,Text:\'{"text":"Make sure Pure Daisy is ready for landing (!!)"}\'},{Checked:0b,Text:\'{"text":"Don\\\'t crash"}\'},{Checked:0b,Text:\'{"text":"Ponder life"}\'},{Checked:1b,Text:\'{"text":"Fix wrench built in magnet"}\'},{Checked:0b,Text:\'{"text":"Check automated milking system (critical, can\\\'t automate without milk!)"}\'}]}],PreviouslyOpenedPage:0,Type:1}'
-          ),
-        ];
-        stuff.forEach((element) => {
-          event.player.give(element);
-        });
-      }
-      if (!event.player.getPersistentData().getBoolean("transciver_comp")) {
-        event.player.getPersistentData().putBoolean("transciver_comp", true);
-        let stuff = ["ptdye:trading_transceiver"];
-        stuff.forEach((element) => {
-          event.player.give(element);
-        });
-      }
-      if (!event.player.getPersistentData().getBoolean("stonecutter_comp")) {
-        event.player.getPersistentData().putBoolean("stonecutter_comp", true);
-        event.player.give(Item.of("crafting_on_a_stick:stonecutter", 1));
-      }
     }
   });
 }
