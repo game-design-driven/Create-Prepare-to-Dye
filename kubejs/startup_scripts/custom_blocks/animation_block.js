@@ -1,6 +1,4 @@
-let UtilsJS = UtilsJS
-if (!UtilsJS)
-  UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
+const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
 const CreateClient = Java.loadClass('com.simibubi.create.CreateClient')
 const SpecialTextures = Java.loadClass('com.simibubi.create.AllSpecialTextures')
 
