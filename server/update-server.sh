@@ -22,6 +22,8 @@ if [ ! -d mods ]; then
     if [ -d ../mods ]; then
         echo "copying mods from parent folder"
         cp -r ../mods .
+        echo "Removing client-side mods"
+        rm -rf mods/zume*
     else
         echo "warning: mods directory not found in parent folder, starting server without mods"
     fi
