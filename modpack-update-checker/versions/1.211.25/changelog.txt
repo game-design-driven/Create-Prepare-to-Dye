@@ -1,0 +1,18 @@
+### [1.211.25](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.24...1.211.25) (2024-01-25)
+
+
+### Documentation and Localization
+
+* fix server start readme phrasing. Was not clear before ([7b5b879](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7b5b8790e4b44e1cc06f6fb84767d8053439216c))
+
+
+### Minor tweaks
+
+* add eula file for server to save one step ([8b51313](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8b51313d85fd738155fde981c1299f463b93a804))
+
+
+### Fixes
+
+* server crashing on startup because zume mod was copied to server when generating or updating i ([2889cd3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2889cd3c05fee85483c17a8f78f029829d551c24))
+
+
