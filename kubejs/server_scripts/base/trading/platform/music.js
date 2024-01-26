@@ -1,5 +1,3 @@
-const CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
-
 const LANDING_MUSIC_LENGTH = 43;
 const BLOCKS_PER_MUSIC_CYCLE = LANDING_MUSIC_LENGTH * 4;
 const LANDING_MUSIC_OFFSET = -12 + BLOCKS_PER_MUSIC_CYCLE;
@@ -18,7 +16,7 @@ function playMusicAccordingToHeight(landing) {
 
 function playMusicForAllPlayers(landing) {
     Utils.server.players.forEach(player => {
-        let data = CompoundTag();
+        let data = NBT.compoundTag()
         data.putUUID("pilot_entity_uuid", landing.pilot.uuid);
         player.sendData("play_platform_landing_music", data);
     })

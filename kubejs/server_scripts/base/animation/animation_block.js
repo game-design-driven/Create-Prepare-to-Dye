@@ -1,8 +1,3 @@
-const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS');
-const BlockEntityJS = Java.loadClass('dev.latvian.mods.kubejs.block.entity.BlockEntityJS')
-const DyeItem = Java.loadClass('net.minecraft.world.item.DyeItem')
-const StructureTemplate = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate')
-
 const ARMOR_STAND_Y_OFFSET = 0.8
 const ARMOR_STAND_KILL_OFFSET = 0.1
 
@@ -94,7 +89,7 @@ BlockEvents.rightClicked("ptdye:animation_block", (event) => {
   const blockPos = block.getPos()
   /** @type {Internal.BlockEntityJS} */
   const blockEntity = event.level.getBlockEntity(blockPos)
-  if (!(blockEntity instanceof BlockEntityJS))
+  if (!(blockEntity instanceof global.kubejs.BlockEntityJS))
     return;
 
   if (heldItem.id == "minecraft:name_tag")
@@ -111,7 +106,7 @@ BlockEvents.rightClicked("ptdye:animation_block", (event) => {
     animation_block_setAmourStandName(event.server, blockEntity.getBlockPos(), name)
   
     return animation_block_success(event, Component.ofString("Name set to ").white().append(heldItem.getHoverName().italic()), true)
-  }  else if (heldItem.getItem() instanceof DyeItem)
+  }  else if (heldItem.getItem() instanceof global.minecraft.DyeItem)
   { // Set outline color
     let color
     if (player.isShiftKeyDown())

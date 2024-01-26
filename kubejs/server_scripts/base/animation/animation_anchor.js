@@ -5,7 +5,7 @@
  */
 function animation_getAnchorAt(blockPos) {
   const {x, y, z} = blockPos;
-  const pos = [UtilsJS.parseInt(x, 0), UtilsJS.parseInt(y, 0), Utils.parseInt(z, 0)]
+  const pos = [global.kubejs.UtilsJS.parseInt(x, 0), global.kubejs.UtilsJS.parseInt(y, 0), global.kubejs.UtilsJS.parseInt(z, 0)]
   let item = Item.withNBT("ptdye:animation_anchor_set", {
     target: NBT.intArrayTag(pos)
   })

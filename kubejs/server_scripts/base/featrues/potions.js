@@ -1,6 +1,5 @@
 if (feature("Add direct filling recipes for potions instead of dynamic ones")) {
-  let $Registry = Java.loadClass("net.minecraft.core.Registry");
-  $Registry.POTION.entrySet().forEach((potion) => {
+  global.minecraft.Registry.POTION.entrySet().forEach((potion) => {
     let potion_id = String(potion.getKey().location());
     ["potion", "splash_potion", "lingering_potion", "tipped_arrow"].forEach(
       (type) => {

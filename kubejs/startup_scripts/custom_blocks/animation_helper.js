@@ -1,7 +1,5 @@
 // priority: 100
 
-const CREATE_GLUE_SELECTION_HELPER = Java.loadClass("com.simibubi.create.content.contraptions.glue.SuperGlueSelectionHelper")
-
 /**
  * 
  * @param {Internal.BlockContainerJS} block 
@@ -10,7 +8,7 @@ const CREATE_GLUE_SELECTION_HELPER = Java.loadClass("com.simibubi.create.content
  */
 function animation_findGluedNeighbourInDirection(block, direction) {
   const blockPos = block.getPos()
-  const neighbours = CREATE_GLUE_SELECTION_HELPER.searchGlueGroup(block.level, blockPos, blockPos.relative(direction), true)
+  const neighbours = global.create.SuperGlueSelectionHelper.searchGlueGroup(block.level, blockPos, blockPos.relative(direction), true)
   return neighbours && neighbours.size() > 2 ? neighbours : null
 }
 /**

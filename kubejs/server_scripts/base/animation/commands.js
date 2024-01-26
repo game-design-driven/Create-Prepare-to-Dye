@@ -1,5 +1,3 @@
-const CREATE_GLUE_ENTITY = Java.loadClass("com.simibubi.create.content.contraptions.glue.SuperGlueEntity")
-
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands, arguments: Arguments } = event;
     event.register(

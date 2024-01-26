@@ -1,9 +1,3 @@
-let UtilsJS = UtilsJS
-if (!UtilsJS)
-  UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
-const CreateClient = Java.loadClass('com.simibubi.create.CreateClient')
-const SpecialTextures = Java.loadClass('com.simibubi.create.AllSpecialTextures')
-
 StartupEvents.registry("block", (event) => {
   event.create("ptdye:animation_block")
     .translationKey("block.ptdye.animation_block")
@@ -51,18 +45,18 @@ StartupEvents.registry("block", (event) => {
             minX += bx, maxX += bx
             minY += by, maxY += by
             minZ += bz, maxZ += bz
-            CreateClient.OUTLINER.showAABB(blockEntity, AABB.of(maxX, maxY, maxZ, minX, minY, minZ), 6)
+            global.create.CreateClient.OUTLINER.showAABB(blockEntity, AABB.of(maxX, maxY, maxZ, minX, minY, minZ), 6)
               .colored(blockEntity.data.getInt("color"))
-              .withFaceTextures(SpecialTextures.SELECTION, SpecialTextures.CUTOUT_CHECKERED)
+              .withFaceTextures(global.create.SpecialTextures.SELECTION, global.create.SpecialTextures.CUTOUT_CHECKERED)
               .disableLineNormals()
               .disableCull()
               .lineWidth(0.08)
           }
           const anchor = blockEntity.data.getIntArray("anchor")
           if (anchor.length >= 3) {
-            CreateClient.OUTLINER.showAABB({}, AABB.ofBlock(BlockPos(anchor[0], anchor[1], anchor[2])), 6)
+            global.create.CreateClient.OUTLINER.showAABB({}, AABB.ofBlock(BlockPos(anchor[0], anchor[1], anchor[2])), 6)
               .colored(Color.rgba(255, 0, 255, 255).getRgbJS())
-              .withFaceTextures(SpecialTextures.CUTOUT_CHECKERED, SpecialTextures.CUTOUT_CHECKERED)
+              .withFaceTextures(global.create.SpecialTextures.CUTOUT_CHECKERED, global.create.SpecialTextures.CUTOUT_CHECKERED)
               .disableLineNormals()
               .disableCull()
               .lineWidth(0.1)
@@ -94,6 +88,7 @@ StartupEvents.registry("block", (event) => {
             max.z = Math.max(max.z, deltaZ+1)
           }
 
+          const UtilsJS = global.kubejs.UtilsJS
           const minI = [UtilsJS.parseInt(min.x, 0), UtilsJS.parseInt(min.y, 0), UtilsJS.parseInt(min.z, 0)]
           const maxI = [UtilsJS.parseInt(max.x, 0), UtilsJS.parseInt(max.y, 0), UtilsJS.parseInt(max.z, 0)]
 
