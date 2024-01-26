@@ -1,0 +1,9 @@
+### [1.211.26](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.25...1.211.26) (2024-01-25)
+
+
+### Fixes
+
+* incompatible world warning, possibly ([d62bf18](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d62bf1852a333aa908fa627239cd12947c426e1a))
+* update checker confusion ([69a83a2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/69a83a25c6d13c58c3f16308e5d4ca0370062966))
+
+
