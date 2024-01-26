@@ -1,9 +1,7 @@
 # Server files
-## To start the server for the first time, either 
-- put `mods, config, kubejs, defaultconfigs` in the server folder
-- just run the script `start-or-generate-server` and it will do it for you assuming your game folder is a above this one
+## To start the server for the first time
 - read the EULA and accept it, via the `eula.txt` file. Very important stuff
-- run the same script
+- run the script `start-or-generate-server` and it will copy `mods, config, kubejs, defaultconfigs` from the game folder (above this one) if they are not there (you can move them manually if you prefer)
 
 ## To start the server after the first time
 - run the script `start-or-generate-server`
