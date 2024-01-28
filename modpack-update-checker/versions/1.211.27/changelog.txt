@@ -1,0 +1,8 @@
+### [1.211.27](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.26...1.211.27) (2024-01-28)
+
+
+### Fixes
+
+* Movable bedrock ([#555](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/555)) ([adee6f3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/adee6f37209b15307d08d13a2a526e3e3df790a7))
+
+
