@@ -296,3 +296,7 @@ if (feature('Cheaper blaze cake')) {
   removeRecipe({ id: 'create:filling/blaze_cake' })
   addFilling('create:blaze_cake', 'create:blaze_cake_base', '10x lava')  
 }
+
+if (feature('Remove tree Fertilizer')){
+  removeRecipe({ id: 'create:tree_fertilizer'})
+}
