@@ -1,7 +1,6 @@
-const parrotAnimation = Java.loadClass('com.simibubi.create.foundation.ponder.element.ParrotElement')
-const parrotAnimation_stillPose = parrotAnimation.DancePose
-const parrotAnimation_poiPose = parrotAnimation.FacePointOfInterestPose
-const parrotAnimation_cursorPose = parrotAnimation.FaceCursorPose
+const parrotAnimation_stillPose = global.create.ParrotElement.DancePose
+const parrotAnimation_poiPose = global.create.ParrotElement.FacePointOfInterestPose
+const parrotAnimation_cursorPose = global.create.ParrotElement.FaceCursorPose
 
 const textSound = "block.enchantment_table.use"
 

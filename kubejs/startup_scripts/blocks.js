@@ -155,17 +155,6 @@ StartupEvents.registry("block", (event) => {
     .box(2, 0, 1, 14, 14, 15);
 });
 
-const $FlowerBlock = Java.loadClass(
-  "net.minecraft.world.level.block.FlowerBlock"
-);
-const $Blocks = Java.loadClass("net.minecraft.world.level.block.Blocks");
-const $MobEffects = Java.loadClass("net.minecraft.world.effect.MobEffects");
-const $Properties = Java.loadClass(
-  "net.minecraft.world.level.block.state.BlockBehaviour$Properties"
-);
-const $BlockItem = Java.loadClass("net.minecraft.world.item.BlockItem");
-const $IProperties = Java.loadClass("net.minecraft.world.item.Item$Properties");
-
 // let torchflowerBlock
 
 // StartupEvents.registry('block', event => {
@@ -186,10 +175,10 @@ StartupEvents.registry("block", (event) => {
     .createCustom(
       "ptdye:botanic_device",
       () =>
-        new $FlowerBlock(
-          $MobEffects.NIGHT_VISION,
+        new global.minecraft.FlowerBlock(
+          global.minecraft.MobEffects.NIGHT_VISION,
           5,
-          $Properties.copy($Blocks.DANDELION)
+          global.minecraft.Block.BehaviourProperties.copy(Blocks.DANDELION)
         )
     )
 });
@@ -197,6 +186,6 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("item", (event) => {
   let e = event.createCustom(
     "ptdye:botanic_device",
-    () => new $BlockItem(botanicDeviceBlock.get(), new $IProperties())
+    () => new global.minecraft.Block.BlockItem(botanicDeviceBlock.get(), new global.minecraft.ItemProperties())
   );
 });

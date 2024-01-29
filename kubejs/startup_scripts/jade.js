@@ -9,14 +9,6 @@ Remove this comment if you fix it
 
 */
 
-let WailaClientRegistration
-let WailaBlockAccessor
-if (Platform.isClientEnvironment())
-{
-  WailaClientRegistration = Java.loadClass("snownee.jade.impl.WailaClientRegistration")
-  WailaBlockAccessor = Java.loadClass("snownee.jade.api.BlockAccessor")
-}
-
 /**
  * Call within StartupEvents.postInit
  * 
@@ -53,8 +45,8 @@ function addJadeTooltipBlockEntityField(blockId, dataField, prefix, suffix) {
       : prefix ? prefix : emptyComponent
     suffix = suffix ? suffix : emptyComponent
   }
-  WailaClientRegistration.INSTANCE.addTooltipCollectedCallback(0, (tooltip, accessor) => {
-    if (!(accessor instanceof WailaBlockAccessor) || accessor.block.id != blockId)
+  global.jade.WailaClientRegistration.INSTANCE.addTooltipCollectedCallback(0, (tooltip, accessor) => {
+    if (!(accessor instanceof global.jade.WailaBlockAccessor) || accessor.block.id != blockId)
       return
     tooltip.clear()
     let addToTooltip = component => tooltip["add(net.minecraft.network.chat.Component)"](component)

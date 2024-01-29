@@ -299,5 +299,6 @@
 	"Disable brewing stand": true,
 	"pillagers drop heads": true,
 	"Recycle crossbow": true,
-	"remove crossbow recipe": true
+	"remove crossbow recipe": true,
+	"Replace Quark Crate": true
 }
