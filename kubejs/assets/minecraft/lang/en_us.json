@@ -33,7 +33,7 @@
     "block.minecraft.gold_block": "Block of Yellow",
     "block.minecraft.iron_block": "Block of White",
     "block.minecraft.diamond_ore": "Light Blue Ore",
-    "block.minecraft.redstone_dust": "Red Dust",
+    "item.minecraft.redstone_dust": "Red Dust",
     "block.minecraft.redstone_block": "Red Block",
     "block.minecraft.deepslate_diamond_ore": "Deepslate Light Blue Ore",
     "block.minecraft.coal_block": "Block of Black",
