@@ -24,7 +24,7 @@ ItemEvents.rightClicked("ptdye:animation_anchor", (event) => {
     return event.success()
 
   event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
-  player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
+  event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
   event.success()
 })
 
@@ -42,6 +42,6 @@ ItemEvents.rightClicked("ptdye:animation_anchor_set", (event) => {
       return event.success()
     event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
   }
-  player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
+  event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
   event.success()
 })
