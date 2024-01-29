@@ -1,6 +1,3 @@
-const Integer = Java.loadClass('java.lang.Integer');
-const $Heightmap = Java.loadClass("net.minecraft.world.level.levelgen.Heightmap");
-
 const MIN_PLATFORM_SPAWN_HEIGHT = 350.15;
 const MIN_LANDING_HEIGHT_DIFF = 240.15;
 const REGULAR_PLATFORM_SPAWN_RADIUS = 1;
@@ -75,7 +72,7 @@ if (feature("Trading platforms")) {
 }
 
 function update_preview_display_state(player, state) {
-    let data = CompoundTag();
+    let data = NBT.compoundTag()
     data.putString("state", state);
     player.sendData("landing_spot_preview_stage_change", data);
 }
@@ -83,7 +80,7 @@ function update_preview_display_state(player, state) {
 function is_landing_spot_valid(pos) {
     for (let x_diff = -1; x_diff <= 1; x_diff++) {
         for (let z_diff = -1; z_diff <= 1; z_diff++) {
-            let height = Utils.server.getOverworld().getHeight($Heightmap.Types.OCEAN_FLOOR, pos.x + x_diff, pos.z + z_diff);
+            let height = Utils.server.getOverworld().getHeight(global.minecraft.Heightmap.Types.OCEAN_FLOOR, pos.x + x_diff, pos.z + z_diff);
             if (height > pos.y) {
                 return false
             }
@@ -208,10 +205,10 @@ function get_all_coords(x, z, min_height_diff) {
 
 function add_new_platform_coords(x, z) {
     let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();
-    existing_platforms_x.push(Integer.parseInt(Math.trunc(x).toString()));
+    existing_platforms_x.push(global.kubejs.UtilsJS.parseInt(Math.trunc(x), 0));
     Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
     let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();
-    existing_platforms_z.push(Integer.parseInt(Math.trunc(z).toString()));
+    existing_platforms_z.push(global.kubejs.UtilsJS.parseInt(Math.trunc(z), 0));
     Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
 }
 

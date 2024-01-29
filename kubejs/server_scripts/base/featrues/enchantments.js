@@ -1,7 +1,5 @@
 if (feature("Combining enchanted books")) {
-  var $Registry = Java.loadClass("net.minecraft.core.Registry");
-
-  $Registry.ENCHANTMENT.entrySet().forEach((enchant) => {
+  global.minecraft.Registry.ENCHANTMENT.entrySet().forEach((enchant) => {
     var enchant_id = String(enchant.getKey().location());
     var enchant_max_level = parseInt(
       enchant.getValue().getMaxLevel().toFixed(0)
