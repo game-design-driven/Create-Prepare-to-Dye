@@ -298,5 +298,5 @@ if (feature('Cheaper blaze cake')) {
 }
 
 if (feature('Remove tree Fertilizer')){
-  removeRecipe({ id: 'create:tree_fertilizer'})
+  removeItem('create:tree_fertilizer')
 }
