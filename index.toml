@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "185b3e883cf5ee8937d294a52f38609b18d46bdd300c6fbcdbea9befc8fde38d"
+hash = "d566d76d04fea41112763cf0cc7d3f3c8a05014ad880b93087ba882657abdd2e"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3406,7 +3406,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "8a31ed3ad9b9e2734a68b25cfbd38bdc73a1cd6081da4d0f8e0884a1c1ca255c"
+hash = "01c5852716f9e3e79245dcc8dc30311f19b89b939aa1816b8f3cc80e02564c65"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4938,7 +4938,7 @@ hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_anchor.js"
-hash = "5a2c504e802111d210118183e0db16da1d2e980f068e1570953b380e7bd8b1c9"
+hash = "5ce52aa4ba21bed64a61b69f9513d37e64326d0c40e6070ef53218701798ca7a"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_block.js"
@@ -5398,7 +5398,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "0632188da37462fa25e8979edf26675888cc0556d2697ffc2affbd216dba8c40"
+hash = "f105d3977c7acffa0a9225dd34ca906b4efab405bfc5e2653a8c049cfc3120af"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7199,6 +7199,10 @@ hash = "f37ae55d022afc1c3a0570df5d3bf2b91120b756d32a528a4acddf31fcf735ff"
 [[files]]
 file = "modpack-update-checker/versions/1.211.33/changelog.txt"
 hash = "f22786a8ba3907d419a4025e4eab2b4866110acbafcc8fd2f0d3e9ac09ab3312"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.34/changelog.txt"
+hash = "7039c9e4116d9da31f70e7f91564cc547d8830312c3d340247987719b4465175"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.4/changelog.txt"
