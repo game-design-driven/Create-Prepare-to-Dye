@@ -1,0 +1,8 @@
+### [1.211.32](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.31...1.211.32) (2024-01-29)
+
+
+### Reverted Changes
+
+* Revert ci: call the sync workflow when prs are opened ([d4cb622](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d4cb6222873d635b7b0ea668e64a4a2e7e8d98b0))
+
+
