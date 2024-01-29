@@ -149,12 +149,12 @@ BlockEvents.rightClicked("ptdye:animation_block", (event) => {
       player.tell(Text.translate("block.ptdye.animation_block").append(": ").green().append(Component.ofString("No anchor set, using position of animation block").white()))
 
     const [neighbours] = animation_findGluedNeighbours(block)
-    const nbt = Ptdye.utils.createContraptionNBTFrom(event.level, neighbours, anchor, AABB.of(minX, minY, minZ, maxX, maxY, maxZ))
+    const nbt = Ptdye.animation.createContraptionNBTFrom(event.level, neighbours, anchor, AABB.of(minX, minY, minZ, maxX, maxY, maxZ))
     console.log(nbt)
 
     const filePath = CONTRAPTION_DIRECTORY + name + ".contraption"
     
-    Ptdye.utils.createDirectory(getDirectoryPath(filePath))
+    Ptdye.animation.createDirectory(getDirectoryPath(filePath))
     NBTIO.write(filePath, nbt)
 
     return animation_block_success(event, Component.ofString('Saved at ').append(Component.ofString(filePath).clickOpenFile(filePath).underlined().aqua()).white(), true)
