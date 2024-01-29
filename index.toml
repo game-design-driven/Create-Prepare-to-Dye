@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "f212e1f72c1dfcc5022e73e2a3587bb0b1bf83c68f497ee0d71e73d937495e5c"
+hash = "185b3e883cf5ee8937d294a52f38609b18d46bdd300c6fbcdbea9befc8fde38d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3406,7 +3406,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "c522e426f1badddd76bf42e6e9a7648715b16579c697f359a1a963526f17844d"
+hash = "8a31ed3ad9b9e2734a68b25cfbd38bdc73a1cd6081da4d0f8e0884a1c1ca255c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4938,11 +4938,11 @@ hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_anchor.js"
-hash = "f136d338d64f182d7b70be899ab88a25504121bbd2a259d6f84182520e11d645"
+hash = "5a2c504e802111d210118183e0db16da1d2e980f068e1570953b380e7bd8b1c9"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_block.js"
-hash = "4c315ea79467206b40bcea3be172020fce3ce3a28abf498b4f37f31756063f27"
+hash = "153173b04e52a4dfcc2c95be989342310ebdbef781edf6c25c7bff4c3dea0e4d"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_helper.js"
@@ -5398,7 +5398,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "a8dc14e5de261051a14bda5e1f00a59cdbcd1569735b0c1bfada6fb58f8a6899"
+hash = "0632188da37462fa25e8979edf26675888cc0556d2697ffc2affbd216dba8c40"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7195,6 +7195,10 @@ hash = "81e10f09b1b36ee9784b09373e3a5f14b0d54264ae1d18d911ee3fc926e21f01"
 [[files]]
 file = "modpack-update-checker/versions/1.211.32/changelog.txt"
 hash = "f37ae55d022afc1c3a0570df5d3bf2b91120b756d32a528a4acddf31fcf735ff"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.33/changelog.txt"
+hash = "f22786a8ba3907d419a4025e4eab2b4866110acbafcc8fd2f0d3e9ac09ab3312"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.4/changelog.txt"

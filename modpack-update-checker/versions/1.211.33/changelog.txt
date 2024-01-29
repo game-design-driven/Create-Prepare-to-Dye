@@ -1,0 +1,8 @@
+### [1.211.33](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.32...1.211.33) (2024-01-29)
+
+
+### Fixes
+
+* Update animation bindings for ptdyeplus 1.5 ([#559](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/559)) ([2e09c73](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2e09c7347c4d9825d63fb3b84241294cf65e23d3))
+
+
