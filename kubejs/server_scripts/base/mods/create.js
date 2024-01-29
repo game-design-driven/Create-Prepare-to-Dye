@@ -297,6 +297,6 @@ if (feature('Cheaper blaze cake')) {
   addFilling('create:blaze_cake', 'create:blaze_cake_base', '10x lava')  
 }
 
-if (feature('Remove tree Fertilizer')){
+if (feature('Remove tree fertilizer')){
   removeItem('create:tree_fertilizer')
 }
