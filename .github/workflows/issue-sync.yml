@@ -7,11 +7,15 @@ on:
   issues: 
     types: 
       - opened
+  pull_request: 
+    types: 
+      - opened
   
 jobs:
   test:
     permissions:
       issues: write
+      pull-requests: write
     env: 
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
