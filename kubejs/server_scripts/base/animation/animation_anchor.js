@@ -13,35 +13,35 @@ function animation_getAnchorAt(blockPos) {
   return item
 }
 
-// ItemEvents.rightClicked("ptdye:animation_anchor", (event) => {
-//   if (event.getHand().name() != "MAIN_HAND")
-//     return event.cancel();
+ItemEvents.rightClicked("ptdye:animation_anchor", (event) => {
+  if (event.getHand().name() != "MAIN_HAND")
+    return event.cancel();
 
-//   event.player.swing()
+  event.player.swing()
 
-//   const block = event.target.block
-//   if (!block || block == Blocks.AIR || block.id == "ptdye:animation_block")
-//     return event.success()
+  const block = event.target.block
+  if (!block || block == Blocks.AIR || block.id == "ptdye:animation_block")
+    return event.success()
 
-//   event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
-//   event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
-//   event.success()
-// })
+  event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
+  event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
+  event.success()
+})
 
-// ItemEvents.rightClicked("ptdye:animation_anchor_set", (event) => {
-//   if (event.getHand().name() != "MAIN_HAND")
-//     return event.cancel();
+ItemEvents.rightClicked("ptdye:animation_anchor_set", (event) => {
+  if (event.getHand().name() != "MAIN_HAND")
+    return event.cancel();
 
-//   event.player.swing()
+  event.player.swing()
 
-//   if (event.player.isShiftKeyDown())
-//     event.player.setMainHandItem("ptdye:animation_anchor")
-//   else {
-//     const block = event.target.block
-//     if (!block || block == Blocks.AIR || block.id == "ptdye:animation_block")
-//       return event.success()
-//     event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
-//   }
-//   event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
-//   event.success()
-// })
+  if (event.player.isShiftKeyDown())
+    event.player.setMainHandItem("ptdye:animation_anchor")
+  else {
+    const block = event.target.block
+    if (!block || block == Blocks.AIR || block.id == "ptdye:animation_block")
+      return event.success()
+    event.player.setMainHandItem(animation_getAnchorAt(block.getPos()))
+  }
+  event.player.playNotifySound("minecraft:entity.player.levelup", "players", 1, 5)
+  event.success()
+})
