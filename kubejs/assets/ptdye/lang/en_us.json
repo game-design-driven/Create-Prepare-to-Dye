@@ -1,4 +1,9 @@
 {
+    "text.ptdye.name": "Prepare To Dye",
+    "text.ptdye.replacePlacedCrate": "Placed out-of-date crate has been replaced by updated crate",
+    "text.ptdye.pickedUpOutofdate": "Picked up out-of-date item!",
+    "text.ptdye.outOfDate.QuarkCrate": "Quark Crate has been replaced. Update in personal assembler, or place for it to be automatically updated.",
+
     "advancement.ptdye.root": "Welcome to Chroma Prime",
     "advancement.ptdye.root.desc": "Crash land on Chroma Prime",
     "advancement.ptdye.toolbox": "In case of Crash Landing",

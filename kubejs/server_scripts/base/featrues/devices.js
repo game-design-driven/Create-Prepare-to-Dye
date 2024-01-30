@@ -321,7 +321,8 @@ if (
         "supplementaries:turn_table",
         "supplementaries:spring_launcher",
         "botania:apothecary_default",
-        "quark:crate",
+        "ptdyeplus:crate_barrel",
+        "ptdyeplus:barrel_barrel"
       ],
     },
     {

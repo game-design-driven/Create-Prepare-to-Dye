@@ -1,0 +1,8 @@
+### [1.211.30](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.29...1.211.30) (2024-01-29)
+
+
+### Fixes
+
+* Force MUC to treat all worlds as compatible ([#557](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/557)) ([b8f8071](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b8f80718492f81ca945f2cf60348681d9fba1e77))
+
+

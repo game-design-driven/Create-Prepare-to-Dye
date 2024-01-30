@@ -299,5 +299,6 @@
 	"Pillagers drop heads": true,
 	"Recycle crossbow": true,
 	"Remove crossbow recipe": true,
-	"Remove tree fertilizer": true
+	"Replace Quark Crate": true,
+  "Remove tree fertilizer": true
 }
