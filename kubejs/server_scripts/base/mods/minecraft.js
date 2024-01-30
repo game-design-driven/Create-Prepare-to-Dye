@@ -539,6 +539,6 @@ if (feature('Beetroot carrot conversions')) {
   addShapeless('carrot',['2x orange_dye', 'beetroot'])
 }
 
-if (feature('remove crossbow recipe')) {
+if (feature('Remove crossbow recipe')) {
   removeRecipe({id:'minecraft:crossbow'})
 }
