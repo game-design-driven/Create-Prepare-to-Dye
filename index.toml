@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "fb3ee625842c42e82ff5f3757559d3048a686af52cfdff6cedb0f3951327b8cb"
+hash = "cdfcef2d15c1b1c3551946cdae83330b2b10856887b6bf4dbbe7979074514e1d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -2654,7 +2654,7 @@ hash = "b8f8b395e1c93923857b98ddffa00a463d53c37f59016ac8ea6c75e84281aeeb"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds.json"
-hash = "a15b4f1fa370c25325dd1b06f341ac52614902621fb1527992f4c49fab2a0ff9"
+hash = "76127a1ec77319e0300e91cc4c3adcec241d13af976f54e041c3ac13b742ec74"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds/ambient/weather/rain1.ogg"
@@ -3177,6 +3177,10 @@ file = "kubejs/assets/ptdye/sounds/hammer_03.ogg"
 hash = "a88359456d786147f78254eac42e754702074858b37fc46748f54b4874a8d795"
 
 [[files]]
+file = "kubejs/assets/ptdye/sounds/silent.ogg"
+hash = "d972760043393ac1fc0706fcabf348484bd76a7e78a5b780cede32e668bba40c"
+
+[[files]]
 file = "kubejs/assets/ptdye/sounds/trading_platform_fanfare.ogg"
 hash = "c85d66dbff1668f9aee29e4c76b4a4608948d65246f1fc422d24bad92c9ece2e"
 
@@ -3462,7 +3466,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "2882605b9427c9f62b6179ba7d929cc7a6e7d90001ef447af0e7e347cc2ba619"
+hash = "3a9a946b3b1aedcef3a1f5ad875e83ecbcb4ed7ec87d9b731a3ba2c03bb81110"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5458,7 +5462,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "45937e56eeb2b0e7d79f1ba59d4a62406d517fbbb1c27d6ed598e05f24244dcb"
+hash = "ae7057d8018e8929767b105dceb91f73f12a26269401d71592e9bfd513f16dcc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7295,6 +7299,10 @@ hash = "0066478f48597de07790bf385944f9bf31febcd9738cb7cc090a3e6780e1d7f8"
 [[files]]
 file = "modpack-update-checker/versions/1.211.42/changelog.txt"
 hash = "5e2e3e54f88dfe9aa224a23ac5798cc5a4cf54d5f192d427da1169ceb116011d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.44/changelog.txt"
+hash = "1a68c081dc7a463ea022aa4f655e5eb10af8bc57c796412f9db97e50c51a2e8c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.5/changelog.txt"
