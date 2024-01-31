@@ -156,6 +156,17 @@ customization {
 }
 
 customization {
+  path = discord-mark-shadow.png
+  orientation = top-left
+  x = 11
+  width = 26
+  action = addtexture
+  actionid = 211a151c-b2a9-4c68-9ac0-2b3fb67050611706717205608
+  y = 316
+  height = 18
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 106
