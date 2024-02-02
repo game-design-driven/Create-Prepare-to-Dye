@@ -280,7 +280,7 @@
 				turntable = 2.0
 				sticky_mechanical_piston = 2.0
 				sequenced_gearshift = 0.0
-				weighted_ejector = 1.0
+				weighted_ejector = 8.0
 				cogwheel = 0.0
 				andesite_encased_cogwheel = 0.0
 				belt = 0.0
