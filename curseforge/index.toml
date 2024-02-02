@@ -216,6 +216,11 @@ hash = "ad64853eb5ba56dc6e4b1bb9214dbfe28e2a0c865dc76b4b77edee0f11adceff"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "cdf4086807948056bc41b09f08fd49f891ae9389b267d0da5d039532a58cc1a6"
+metafile = true
+
+[[files]]
 file = "mods/modpack-update-checker.pw.toml"
 hash = "f1b0f273cf7539c459ba9497bffec788915b2f6516e9fae8148c5123f7f70eab"
 metafile = true
