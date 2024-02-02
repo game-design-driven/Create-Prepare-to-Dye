@@ -373,12 +373,16 @@ file = "config/leavesbegone-server.toml"
 hash = "5461ea48b86cd51ac9a218ac6a7ecc32cf4c4fb0acc70c68de4329766027ca15"
 
 [[files]]
+file = "config/modernfix-common.toml"
+hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
+
+[[files]]
 file = "config/modpack-update-checker-info.txt"
 hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "cdfcef2d15c1b1c3551946cdae83330b2b10856887b6bf4dbbe7979074514e1d"
+hash = "0feb2011b8ee005067041508475e7d865b10ed716d3947fa90d14c44745d558a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -774,7 +778,7 @@ hash = "f265471fc23b4f4ed09cc93ec899436d1af599f09f907f9000fe6131fe9d4032"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "6f9190a4c6914c1f01376623d44ba5eabb1d5e6f1a717ac378f1992865dee185"
+hash = "411649732551b525e78a41f491fb02561fb40ce6ad68302cf294ea1b12d47dcc"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/brass_diode_base.png"
@@ -2137,10 +2141,6 @@ file = "kubejs/assets/emi/recipe/additions/generated.create.schematicannon.json"
 hash = "0a2c6fe509015eab62abe6833dce1c16435f8e2f4cf82caa1db0ae45305ea157"
 
 [[files]]
-file = "kubejs/assets/emi/recipe/additions/generated.create.scorchia.json"
-hash = "38d07e32dab59d634fc80c60863ef3b587324083d518157d028568264794e70a"
-
-[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.create.scoria.json"
 hash = "cbc24da54cc224873ae61caf314dbe5c01d62da4629b420f74dc9d42b5422a45"
 
@@ -2239,6 +2239,10 @@ hash = "99f14b0cba25c6354fe8e0c48c224243030b0b24a26df30f838eaa749ef8b3e6"
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_emerald_ore.json"
 hash = "b475b6eb76ebb1ce202532593a1f0932f4f5591f5c64637ba05c817488950d15"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_lapis_ore.json"
+hash = "e120c33dc037c34495e7dc6285830b9d9ce36009d3d1c150fe2af15d3e6f8195"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_axe.json"
@@ -2431,10 +2435,6 @@ hash = "fae8a555b1788c57f2f3d55d6944d9d6152334e68df3bb43240ef1d6af14e841"
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.quark.stripped_blossom_wood.json"
 hash = "d24359eedbc04bafe1504b435246846289124e51a0673b55f7f2fa69e87a21c6"
-
-[[files]]
-file = "kubejs/assets/emi/recipe/additions/generated.storagedrawers.oak_full_drawers_1.json"
-hash = "0b95b04dc8d2bcd049ba922fa92087901ab93ed6428dde3308b2b7afe0905c61"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.supplementaries.ash.json"
@@ -3466,7 +3466,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "3a9a946b3b1aedcef3a1f5ad875e83ecbcb4ed7ec87d9b731a3ba2c03bb81110"
+hash = "9933b9622d959de5623e8fa16e5ecc0a59468a00cacb1c3597a9616c5a98c8c2"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4990,7 +4990,7 @@ hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "3adfd8ad7fdbd80b4abe3f0acea179c3cce7d91339941e10a1a0729bf838436f"
+hash = "cb5a2e9a07fdff1fa3948e57c3e158243cc488a124058f12ef7602cb720b9641"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -5462,7 +5462,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "ae7057d8018e8929767b105dceb91f73f12a26269401d71592e9bfd513f16dcc"
+hash = "301de9caf3034a57ed40d94f68bef871dd62f126e6e28dc3e2d7b81d5d7f775e"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7305,6 +7305,10 @@ file = "modpack-update-checker/versions/1.211.44/changelog.txt"
 hash = "1a68c081dc7a463ea022aa4f655e5eb10af8bc57c796412f9db97e50c51a2e8c"
 
 [[files]]
+file = "modpack-update-checker/versions/1.211.45/changelog.txt"
+hash = "5fbd32e9a2a85a06052c6bebe328ef0a89cca2f0c4321909dd6a53880e627a34"
+
+[[files]]
 file = "modpack-update-checker/versions/1.211.5/changelog.txt"
 hash = "22a14e684b6a0f10c809efc1ec9a2dca92823d406c3b26158ffe13a5a6f194bf"
 
@@ -7976,7 +7980,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptdye-plus.pw.toml"
-hash = "4b618ec029507932395343f2fefbf6bcaa5856a217606b04b2de594ed6ac1895"
+hash = "83d634c7bdd2d336d192f35514812eb800abc5a032073b4028497d9d7f08c790"
 metafile = true
 
 [[files]]
