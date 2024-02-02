@@ -1,0 +1,13 @@
+### [1.211.46](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.45...1.211.46) (2024-02-02)
+
+
+### Developer experience improvments and changes
+
+* add pr template ([e17508b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e17508bc4fcf26fc37ef34bcd1efca014094dd1b))
+
+
+### Minor tweaks
+
+* increased stress cost of weighted ejector. The decreased stress costs that we implemented across the board are great but they do leave ejectors as too good an options with too little infra cost, this should help with making other options viable in more cases ([f3e41f3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f3e41f3734e77c7f14131c720a1654163d292aab))
+
+
