@@ -378,7 +378,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "547e9d721198006f1c1087f5387f03b250087377f039655343c838ae710af010"
+hash = "cdfcef2d15c1b1c3551946cdae83330b2b10856887b6bf4dbbe7979074514e1d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -565,6 +565,10 @@ file = "discord-mark-blue.png"
 hash = "b2939df5a48f422fc9d62f270c182f07b5fd5a7a334478ea73af4fdb5eb12d3b"
 
 [[files]]
+file = "discord-mark-shadow.png"
+hash = "6c8990747d17d6a58bfb7feb83e0bc32eba234c95d292b9836595a6ba5c45676"
+
+[[files]]
 file = "discord-mark-white.png"
 hash = "3e862997885fc898199365b6907ddd71b9297e2a56b845fa9bfbbd3663600a36"
 
@@ -666,7 +670,7 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "838d846b96eef80ec6f3369704e399a022adddbebbe215958153eb021dccf164"
+hash = "ef17ffed3b839b10a51ff8c39c367e724c457027a2abf09334ba39d23e8cd542"
 
 [[files]]
 file = "kubejs/assets/botania/models/block/crafty_crate.json"
@@ -2490,7 +2494,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "7e9bd05696778c6edab175aea53a4d17f65eb7c65246d8a92d70a3b23fea16c0"
+hash = "2b85c93157fca322db34e91e28d3b600b753742aedc67ab348206fed82dd02a0"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -2650,7 +2654,7 @@ hash = "b8f8b395e1c93923857b98ddffa00a463d53c37f59016ac8ea6c75e84281aeeb"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds.json"
-hash = "a15b4f1fa370c25325dd1b06f341ac52614902621fb1527992f4c49fab2a0ff9"
+hash = "76127a1ec77319e0300e91cc4c3adcec241d13af976f54e041c3ac13b742ec74"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds/ambient/weather/rain1.ogg"
@@ -3045,12 +3049,24 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "fe70c9a6604fb977b5bfc3baee71644fa48b96b7b07ebdbe096672ec716abc0f"
 
 [[files]]
+file = "kubejs/assets/ptdye/blockstates/animation_block.json"
+hash = "2dd733df8e54a6cdddf9d69d0cf3414a57aa5f099448d4edb6125c2d9af6b513"
+
+[[files]]
 file = "kubejs/assets/ptdye/blockstates/botanic_device.json"
 hash = "7502b3535f8010c81781cbe80b92a6408598d83f88eb50089c68495a275a404b"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "0c956be7781c06d4db46ceb78d3cf7256b4e2130c6bc6eb19528da895e3357e4"
+hash = "94e53e933d3b7bd9bc582eb68616f2061fc25f9cfb2109a55a1f2edd41345f4d"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/animation_block.json"
+hash = "b185cad932af23c8dcd977b9e38501e8708144ff0f34955095b7efec5fd6b845"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/animation_block_directional.json"
+hash = "d0cd9dafd4397ce1803a8019311fb03ccc039353d64e078799943afa49884ec9"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/botanic_device.json"
@@ -3099,6 +3115,14 @@ hash = "171c472e2aaf88d3195237eb23fc521e9c8e5b14623bf022022fa412859c2bcc"
 [[files]]
 file = "kubejs/assets/ptdye/models/block/upside_down_fire.json"
 hash = "a46781db961500e985af8d24b57a3c4bd6c0a160e56fb57b79337058fa93327d"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/item/animation_anchor.json"
+hash = "65e89d53e4e38d6d563bf1476db9f506cf2cf6a3bf8aa0f93ed55d049caec91b"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/item/animation_anchor_set.json"
+hash = "024514fa0f05fef4267d6a54234b912f95f13ba6438546bd65cb02b8535b9deb"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/item/hammer.json"
@@ -3153,12 +3177,32 @@ file = "kubejs/assets/ptdye/sounds/hammer_03.ogg"
 hash = "a88359456d786147f78254eac42e754702074858b37fc46748f54b4874a8d795"
 
 [[files]]
+file = "kubejs/assets/ptdye/sounds/silent.ogg"
+hash = "d972760043393ac1fc0706fcabf348484bd76a7e78a5b780cede32e668bba40c"
+
+[[files]]
 file = "kubejs/assets/ptdye/sounds/trading_platform_fanfare.ogg"
 hash = "c85d66dbff1668f9aee29e4c76b4a4608948d65246f1fc422d24bad92c9ece2e"
 
 [[files]]
 file = "kubejs/assets/ptdye/sounds/trading_platform_request.ogg"
 hash = "40ad902d06b1befdc4deafbce02a1f23d4a9daecdc61a47481248f253196929f"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/animation_block.png"
+hash = "705f1adbe20640a0705aabf11e695ab59b85807886df3932243f451853ea75cb"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/animation_block.png.mcmeta"
+hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/animation_block_arrow.png"
+hash = "ef63a3cdd6947e914dc450ce43193927ee155ee0b4a84f42fdcb5e52bb3ac745"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/animation_block_arrow.png.mcmeta"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/botanic_device.png"
@@ -3345,6 +3389,22 @@ file = "kubejs/assets/ptdye/textures/block/upside_down_fire.png.mcmeta"
 hash = "3aa19621a27576418f766365fc8c57d6c35a65cf1a6d16668db6fc1648a0496b"
 
 [[files]]
+file = "kubejs/assets/ptdye/textures/item/animation_anchor.png"
+hash = "845261aee2c556eff718263172a30638d99cb73ae3a6b739ba878133b210d6c5"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/item/animation_anchor.png.mcmeta"
+hash = "34a57f54834e88cc5b63f107e05276bc70580dff0fffde3c8654e4942d509a19"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/item/animation_anchor_set.png"
+hash = "afb682024ed80b291f31ce1e19bfd0a1e7a03e87ca101e1e475b9d00dd2c09cc"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/item/animation_anchor_set.png.mcmeta"
+hash = "34a57f54834e88cc5b63f107e05276bc70580dff0fffde3c8654e4942d509a19"
+
+[[files]]
 file = "kubejs/assets/ptdye/textures/item/hammer.png"
 hash = "820a0a03baee0dedf6dfc58babda3a1942798c560055afaa8347fea13de34c19"
 
@@ -3406,7 +3466,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "1f7e11e9ff6bd1e297904cbf9aa3c2fd9cd9ee46c1d9e5eb00d39d84e3e96973"
+hash = "3a9a946b3b1aedcef3a1f5ad875e83ecbcb4ed7ec87d9b731a3ba2c03bb81110"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3706,7 +3766,7 @@ hash = "421b66674c04185f86c2be250a0740fc74f3273b0ad4152c720494e40c744f54"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
-hash = "bcfd0ce87dd6db0b30eca462c98c622382aaf658f56ae30b13e420e8235cb663"
+hash = "59a0b542b3197b76d80cf1ec080435b4417c07bc0bd0527803e4f4ce425a1fa6"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
@@ -4930,7 +4990,7 @@ hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
 
 [[files]]
 file = "kubejs/features.json"
-hash = "f0c24938dd9be165766bcaae3c588e664390f85ae61936d585f18a6fcf70b7bd"
+hash = "3adfd8ad7fdbd80b4abe3f0acea179c3cce7d91339941e10a1a0729bf838436f"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4938,7 +4998,7 @@ hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_anchor.js"
-hash = "5ce52aa4ba21bed64a61b69f9513d37e64326d0c40e6070ef53218701798ca7a"
+hash = "5a2c504e802111d210118183e0db16da1d2e980f068e1570953b380e7bd8b1c9"
 
 [[files]]
 file = "kubejs/server_scripts/base/animation/animation_block.js"
@@ -5162,7 +5222,7 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "f4437ee03ff8ecd04e1e968b2ca029e30f46f3b63dcfbfa5c9644da9d06184c6"
+hash = "0c8760edb6f8f803e5fc1447ca990c4b4501495ea6e9dd5ba91228b8bf2f4cc7"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
@@ -5174,7 +5234,7 @@ hash = "9427b6c1184f3632c66387e57d147791cd146e464df8d3ea7e52650ddbccb204"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "d9ebde764578468941ae35d1b7f269fadbf4e74c934ca65b6db9c1ee682b2538"
+hash = "ba6db3e1107f9151acce835768117c218022816ab431562b45a6f003e61ad6f2"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -5182,7 +5242,7 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "ffca61454b05c7ba8687e6777ca491b4800dfe113fb5a249009f653e3273c985"
+hash = "b0060fb51f97e29201635bb296dfde2ed40295116bd05afda5ffabda5fba37ec"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
@@ -5278,7 +5338,7 @@ hash = "30b2e56fd22a316b2f20fe5bb7695ce220c725d2cd2ffa4edead0613727c7182"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/spawn.js"
-hash = "f71553b1115d7be5840cb23ce9afca53ab7dc65fde200c2e22d229e76276d915"
+hash = "a64e974750e28d136d30322fdcc3ca45ba55d08c37b3e30f8c8d6012dc6aafa7"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/trad_related_recipes/trade_recipes.js"
@@ -5333,6 +5393,14 @@ file = "kubejs/startup_scripts/custom_blocks/gray_fence_gate.js"
 hash = "8211d7b5a57b41ffb309d9ee08eb1c682be677253a7eeb9f5bd277c04e15ca24"
 
 [[files]]
+file = "kubejs/startup_scripts/custom_items/animation_anchor.js"
+hash = "272d67bbb93021e6f22827e02bb577946ed0542fa53cd31d44caf4474f235845"
+
+[[files]]
+file = "kubejs/startup_scripts/custom_items/hammer.js"
+hash = "f2973037509e10f7e9c9443956060ee01f7374a706e37f186c8808570d98821e"
+
+[[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
 hash = "560821791baecc3f25802afb80befc97943a76f73165645b5709f9da210eed89"
 
@@ -5347,10 +5415,6 @@ hash = "31800ac4752f5e282d5a6637990eece41b641050a22321fa5a4d40b4e5067848"
 [[files]]
 file = "kubejs/startup_scripts/global.js"
 hash = "863c5485e4afbe8138241e5fae48cbdf9e37c7788cfd71f0de183f08cc5fcb34"
-
-[[files]]
-file = "kubejs/startup_scripts/hammer.js"
-hash = "f2973037509e10f7e9c9443956060ee01f7374a706e37f186c8808570d98821e"
 
 [[files]]
 file = "kubejs/startup_scripts/indestructible.js"
@@ -5398,7 +5462,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c010536cd2f12e50f276084ad368239e295e629e64f236b4a332b8a74301c210"
+hash = "ae7057d8018e8929767b105dceb91f73f12a26269401d71592e9bfd513f16dcc"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7209,8 +7273,36 @@ file = "modpack-update-checker/versions/1.211.35/changelog.txt"
 hash = "8396317887deccacc2037d7421656ddacea6c23884c839ce7237c5832d0fac7f"
 
 [[files]]
+file = "modpack-update-checker/versions/1.211.36/changelog.txt"
+hash = "f06185c877360c4e5816de5a76a7cf98f13a1fa472ac9fda1151bf6b48b04860"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.37/changelog.txt"
+hash = "5bfd0e8950d682584494ad8978f2b501c843935108ebde7a5ae16d23efe26c44"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.38/changelog.txt"
+hash = "4dac132f20a6443518e6deec35605b1dbd93a4715aed63a1d591220c6dc89217"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.39/changelog.txt"
+hash = "bb8e2c2f865456d2ccb672f5b82191d7bdf9277568ed27b2fdec6126fc7cdd70"
+
+[[files]]
 file = "modpack-update-checker/versions/1.211.4/changelog.txt"
 hash = "e08b925b8358de44652344de9708c6b7e90197f86f76212a2d1148a38b793215"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.40/changelog.txt"
+hash = "0066478f48597de07790bf385944f9bf31febcd9738cb7cc090a3e6780e1d7f8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.42/changelog.txt"
+hash = "5e2e3e54f88dfe9aa224a23ac5798cc5a4cf54d5f192d427da1169ceb116011d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.44/changelog.txt"
+hash = "1a68c081dc7a463ea022aa4f655e5eb10af8bc57c796412f9db97e50c51a2e8c"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.5/changelog.txt"
@@ -7879,7 +7971,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptdye-plus.pw.toml"
-hash = "b8200fb2516dac5488122b0a50afd814255000b350d33ada7055a2ce60a983fd"
+hash = "4b618ec029507932395343f2fefbf6bcaa5856a217606b04b2de594ed6ac1895"
 metafile = true
 
 [[files]]

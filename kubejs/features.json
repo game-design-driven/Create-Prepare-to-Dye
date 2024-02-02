@@ -277,7 +277,6 @@
 	"Color combinations output nerf": true,
 	"Backwards compatibility engine for trades": true,
 	"Cannot cage betsy": true,
-	"Cag can capture zombies": true,
 	"Cage can capture zombies": true,
 	"Cage can capture pigs": true,
 	"Tooltips for disabled items": true,
@@ -288,7 +287,7 @@
 	"Remove rope": true,
 	"Add special tooltips for mods categories and device types": true,
 	"Stonecut dyed cables into regular cables": true,
-	"orange ingot slightly more involved line from clay": true,
+	"Orange ingot slightly more involved line from clay": true,
 	"Remove clay": true,
 	"Grass, tall grass and ferns drops seeds all the time": true,
 	"Seeds coloring to get other seeds": true,
@@ -297,8 +296,9 @@
 	"Add direct filling recipes for potions instead of dynamic ones": true,
 	"Remove bamboo spikes": true,
 	"Disable brewing stand": true,
-	"pillagers drop heads": true,
+	"Pillagers drop heads": true,
 	"Recycle crossbow": true,
-	"remove crossbow recipe": true,
-	"Replace Quark Crate": true
+	"Remove crossbow recipe": true,
+	"Replace Quark Crate": true,
+  "Remove tree fertilizer": true
 }

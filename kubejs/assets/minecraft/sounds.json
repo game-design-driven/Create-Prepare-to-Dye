@@ -43,5 +43,13 @@
       }
     ],
     "subtitle": "subtitles.entity.chicken.step"
+  },
+  "entity.player.big_fall": {
+    "replace": true,
+    "sounds": [ "ptdye:silent" ]
+  },
+  "entity.player.small_fall": {
+    "replace": true,
+    "sounds": [ "ptdye:silent" ]
   }
 }

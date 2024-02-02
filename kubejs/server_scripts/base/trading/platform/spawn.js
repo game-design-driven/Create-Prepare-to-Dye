@@ -64,7 +64,10 @@ if (feature("Trading platforms")) {
         let spawn_coordinates = get_all_coords(x, z, MIN_LANDING_HEIGHT_DIFF);
 
         spawnTradingPlatform(event.player, generatePilotName(), spawn_coordinates);
-        event.item.count --;
+
+        if (!event.player.isCreative())
+            event.item.count --;
+
         Utils.server.runCommandSilent(`playsound ptdye:trading_platform.transceiver.use player @a ${event.player.x} ${event.player.y} ${event.player.z} 0.4`);
         
         event.cancel();
