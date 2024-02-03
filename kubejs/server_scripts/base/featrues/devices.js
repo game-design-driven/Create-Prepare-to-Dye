@@ -322,7 +322,7 @@ if (
         "supplementaries:spring_launcher",
         "botania:apothecary_default",
         "ptdyeplus:crate_barrel",
-        "ptdyeplus:barrel_barrel"
+        "ptdyeplus:barrel_barrel",
       ],
     },
     {
@@ -388,14 +388,23 @@ if (
     addToTag("forge:devices/generics", device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
-    device.incomplete =
-      device.incomplete ||
-      generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
+    if (!device.incomplete) {
+      let incomplete =
+        generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
+      if (Item.of(incomplete).isEmpty()) {
+        incomplete = `ptdye:incomplete_${generic_id.split(":")[1]}`;
+      } 
+      if (Item.of(incomplete).isEmpty()) {
+        incomplete = 'create:incomplete_precision_mechanism'
+      }
+      device.incomplete = incomplete;
+    }
     device.base = device.base || "create:cogwheel";
 
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
-    device.convert_back_recipe = device.convert_back_recipe==false?false:true;
+    device.convert_back_recipe =
+      device.convert_back_recipe == false ? false : true;
     //device recipe
     if (device.assembly) {
       if (!Array.isArray(device.assembly[0])) {
