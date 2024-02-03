@@ -386,19 +386,7 @@ if (
 
   deviceDefinitions.forEach((device) => {
     addToTag("forge:devices/generics", device.generic);
-    let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
-    if (!device.incomplete) {
-      let incomplete =
-        generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
-      if (Item.of(incomplete).isEmpty()) {
-        incomplete = `ptdye:incomplete_${generic_id.split(":")[1]}`;
-      } 
-      if (Item.of(incomplete).isEmpty()) {
-        incomplete = 'create:incomplete_precision_mechanism'
-      }
-      device.incomplete = incomplete;
-    }
     device.base = device.base || "create:cogwheel";
 
     device.assembly_loops = device.assembly_loops || undefined;
@@ -418,7 +406,7 @@ if (
             return addDeploying("stick", "stick", ingredient);
           }),
           device.assembly_loops,
-          device.incomplete
+          device.incomplete || undefined
         );
       });
     }
