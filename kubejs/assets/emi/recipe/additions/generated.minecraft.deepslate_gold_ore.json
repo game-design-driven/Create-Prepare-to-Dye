@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:deepslate_gold_ore"
+	],
+	"text": "block.minecraft.deepslate_gold_ore.tooltip.summary"
+}
