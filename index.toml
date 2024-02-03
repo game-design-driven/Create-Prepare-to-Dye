@@ -382,7 +382,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e6cf1284b6c029e9040eb14f484b17c129aabaa2cfe3f35b8b22a3063fd38224"
+hash = "fb3019ee03d4348c70ff1c93d85afedbab234f9d6d5f112c89eebf077c94d7da"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -778,7 +778,7 @@ hash = "f265471fc23b4f4ed09cc93ec899436d1af599f09f907f9000fe6131fe9d4032"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "411649732551b525e78a41f491fb02561fb40ce6ad68302cf294ea1b12d47dcc"
+hash = "f49ca430246f04d824f68e1052502c4c0fc908c0426a16b4646f477b1d414830"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/brass_diode_base.png"
@@ -2233,6 +2233,14 @@ file = "kubejs/assets/emi/recipe/additions/generated.minecraft.dark_oak_wood.jso
 hash = "01d6a042789dc878fc6be3bfe3d865ba9c6a78dc862f6d2229eb24cf7d42b7de"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_coal_ore.json"
+hash = "98998cfefbbaae4ce9ac0cd9235c70ae2c9e4877b6d4c21413e2ac6f358fe483"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_copper_ore.json"
+hash = "6b8c2edc2b2ab9fe9df158f7a9f2b008e86884b89a1b27b9bab382290963bf3e"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_diamond_ore.json"
 hash = "99f14b0cba25c6354fe8e0c48c224243030b0b24a26df30f838eaa749ef8b3e6"
 
@@ -2241,8 +2249,20 @@ file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_emerald
 hash = "b475b6eb76ebb1ce202532593a1f0932f4f5591f5c64637ba05c817488950d15"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_gold_ore.json"
+hash = "74920f0f498b07c4ff18f3f3571f1ef6c6206c7297227a4bc141bfddffba244a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_iron_ore.json"
+hash = "7a157aecd2765edd071274f92dd8624055fba90bd153360000e10d20ac582893"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_lapis_ore.json"
 hash = "e120c33dc037c34495e7dc6285830b9d9ce36009d3d1c150fe2af15d3e6f8195"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.deepslate_redstone_ore.json"
+hash = "19235e45d69d9cfbf7b9c45dfdd4d7c7a87a287e911b3dbe7c6e490ea7f5cde7"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_axe.json"
@@ -3466,7 +3486,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "ca91ff15777f41c2932fc587b36e91afd8dfc6cbd26ca3fac9e50573782cdc89"
+hash = "9a6cdc811a38c3731beecbe25f84943c17fc41f23254e102cb41003341b486be"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5054,7 +5074,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "0a383eb5d81796f37d8d60619e74e478cd84425aca577d6ec3787b3eb9a76759"
+hash = "92b7b0d8e6ed845528d5d4b3f6ebeb26ad05fdfd47224b5383c79f22fb67a6bf"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
@@ -5286,7 +5306,7 @@ hash = "5b31606659a2066a4abbaf50b1632754ae8e41a85029ad2dde21984cedc6ab14"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/create.manager.js"
-hash = "2aea335cbd56b2b29eef653bcff91ed170d15ad34f230ddcf64cc48d83549f1a"
+hash = "51f10208e2fba7fe76fa3e8a0974fd6c8b4604801952b0fceadf21e14679e3d7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/createdieselgenerators.manager.js"
@@ -5401,6 +5421,10 @@ file = "kubejs/startup_scripts/custom_items/hammer.js"
 hash = "f2973037509e10f7e9c9443956060ee01f7374a706e37f186c8808570d98821e"
 
 [[files]]
+file = "kubejs/startup_scripts/custom_items/in_progress_items.js"
+hash = "2424f91be488e14465431c1acd4b3116a990435c31cd936d16a5ed901299e410"
+
+[[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
 hash = "560821791baecc3f25802afb80befc97943a76f73165645b5709f9da210eed89"
 
@@ -5462,7 +5486,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "6377304a3ce6486526a550586968651abffa98acb6b8a5cbdd23072ec74ba4e5"
+hash = "5a0c7e5b0291d4b76689d0cbb98d0336fdb21a4da3aa9bdd2f4cecc95233e095"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7319,6 +7343,10 @@ hash = "8749d81661bf8ec8c9a10de19ffe8f41f3e7283381fdcbd457dc78ff7105cfaa"
 [[files]]
 file = "modpack-update-checker/versions/1.211.48/changelog.txt"
 hash = "92001df06ce3f1268106beacb2922fb73641ec8e39dc8d93bf652008f67110bd"
+
+[[files]]
+file = "modpack-update-checker/versions/1.211.49/changelog.txt"
+hash = "9ee976f86c8da0a3132f2a08dd0233cc96ace84e99df9e260011e1d7924b084b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.211.5/changelog.txt"
