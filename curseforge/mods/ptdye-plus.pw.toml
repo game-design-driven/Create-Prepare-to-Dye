@@ -1,13 +1,13 @@
 name = "Ptdye Plus"
-filename = "ptdyeplus-1.5.5+forge-1.19.2.jar"
+filename = "ptdyeplus-1.5.6+forge-1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "90e03fd5161a4d12a5a27875ee96b03dba8053eb"
+hash = "80113038a2ead4187bee98b1e239ca0a533490f2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5071961
+file-id = 5072599
 project-id = 952113
