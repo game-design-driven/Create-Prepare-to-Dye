@@ -1,0 +1,10 @@
+### [1.211.51](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.50...1.211.51) (2024-02-04)
+
+
+### Fixes
+
+* compacting recipe for blue rock requiring dust instead of dust/infusable ([4d31d2a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4d31d2a01b6b448bae79c20235734c3028602bb4))
+* missing incomplete rail recipe ([247bff4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/247bff4c0b3889068ec6a2102478672019785002))
+* mlc Lets seal the deal on that beautiful sand not being fixed rates. If you already have this trade you will need to get a new copy of it from EMI ([c1d6e83](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c1d6e838e2653634694d33eaa897d40b7e379c59))
+
+
