@@ -53,3 +53,10 @@ BlockEvents.rightClicked("create:spout", (event) => {
     event.cancel();
   }
 });
+if (feature('Fix wand of the forest duplicating belts')) {
+  BlockEvents.rightClicked("create:belt_connector", (event) => {
+    if (event.player.handSlots[0].id == "botania:twig_wand") {
+      event.cancel();
+    }
+  })
+}
