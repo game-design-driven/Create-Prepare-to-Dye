@@ -132,9 +132,10 @@ const mlcSandFixed = getAgreement("mlcSandFixed", {
     "64x minecraft:sand",
     "64x minecraft:sand",
     "64x minecraft:sand",
+    "64x minecraft:sand",
   ],
   title: "Lets seal the deal on that beautiful sand",
-  orderedAmount: 5,
+  orderedAmount: 0,
   company: "magical_landscaping_co",
   message:
     "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
