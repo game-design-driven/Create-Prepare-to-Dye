@@ -297,9 +297,10 @@ if (
       tag: "forge:device/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
-      amount_crafted: 4,
+      amount_crafted: 6,
       included_devices: [
         "botania:open_crate",
+        "create:item_vault",
         "create:redstone_contact",
         "minecraft:stonecutter",
         "minecraft:cauldron",
