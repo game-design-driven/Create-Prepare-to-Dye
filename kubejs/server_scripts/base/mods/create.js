@@ -300,3 +300,4 @@ if (feature('Cheaper blaze cake')) {
 if (feature('Remove tree fertilizer')){
   removeItem('create:tree_fertilizer')
 }
+
