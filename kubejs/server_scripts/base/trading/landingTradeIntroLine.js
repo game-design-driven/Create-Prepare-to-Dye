@@ -80,11 +80,10 @@ const mlcEndstoneFixed = getAgreement("mlcEndstoneFixed", {
 });
 const mlcSand = getAgreement("mlcSand", {
   paymentItems: [
-    // "botania:manasteel_shovel",
     Item.of("minecraft:golden_pickaxe", 2, "{Damage:0}"),
     Item.of("minecraft:diamond_pickaxe", 2, "{Damage:0}"),
     "16x gold_ingot",
-    "16x ptdye:mechanical_device",
+    "24x ptdye:mechanical_device",
     "8x create:iron_sheet",
     "2x botania:hopperhock",
   ],
