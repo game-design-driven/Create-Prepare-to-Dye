@@ -9,3 +9,15 @@ if (feature("Tomato")) {
   });
 }
 
+if (feature('Pizza')) {
+    StartupEvents.registry("item", (event) => {
+        event
+        .create("ptdye:pizza")
+        .group("food")
+        .food((food) => {
+            food.hunger(3).saturation(1);
+        });
+    });
+}
+
+
