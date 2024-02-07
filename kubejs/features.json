@@ -300,5 +300,14 @@
 	"Recycle crossbow": true,
 	"Remove crossbow recipe": true,
 	"Replace Quark Crate": true,
-	"Remove tree fertilizer": true
+	"Remove tree fertilizer": true,
+	"Fix wand of the forest duplicating belts": true,
+	"Remove conductors cap colored recipes in assembly": true,
+	"Tomato sauce recipes": true,
+	"Remove shapeless dough recipe": true,
+	"Better pancake recipe": true,
+	"Better dough recipes": true,
+	"Water from kelp": true,
+	"Water from kelp and seagrass": true,
+	"Pizza recipes": true
 }
