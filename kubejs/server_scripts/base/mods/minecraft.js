@@ -542,3 +542,7 @@ if (feature('Beetroot carrot conversions')) {
 if (feature('Remove crossbow recipe')) {
   removeRecipe({id:'minecraft:crossbow'})
 }
+
+if (feature('Water from kelp and seagrass')) {
+  addBlockInteract('minecraft:water', 'minecraft:water', Ingredient.of(['minecraft:kelp', 'minecraft:seagrass']), true)
+}
