@@ -330,7 +330,7 @@ if (feature("Fertilizer into water and organic mass")) {
     "#forge:squeezables/seeds",
     temperature.heated
   );
-  addCompacting("100mb kubejs:organic_mass", "minecraft:poisonous_potato");
+  addCompacting("200mb kubejs:organic_mass", "minecraft:poisonous_potato");
   addCompacting("250mb kubejs:organic_mass", "#forge:squeezables/poor");
   addCompacting("500mb kubejs:organic_mass", "#forge:squeezables/rich");
   addDistillation(
