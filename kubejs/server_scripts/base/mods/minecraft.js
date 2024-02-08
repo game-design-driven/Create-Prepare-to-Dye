@@ -102,12 +102,7 @@ if (feature("Red sand")) {
 if (feature("Diamond recipes")) {
   addCompacting(
     "diamond",
-    "8x #forge:storage_blocks/coal",
-    temperature.superHeated
-  );
-  addCompacting(
-    "diamond",
-    "64x #forge:storage_blocks/charcoal",
+    Ingredient.of(["#forge:storage_blocks/coal","#forge:storage_blocks/charcoal"],8),
     temperature.superHeated
   );
 }
