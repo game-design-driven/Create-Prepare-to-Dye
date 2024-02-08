@@ -1,0 +1,8 @@
+### [1.213.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.213.1...1.213.2) (2024-02-08)
+
+
+### Minor tweaks
+
+* reduce charcoal cost for diamond compacting recipe from 64 to 8 ([393e4b8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/393e4b83c69e58836639601001b21218ebad310c))
+
+
