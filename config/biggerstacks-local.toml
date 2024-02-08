@@ -1,0 +1,16 @@
+
+[biggerstacks]
+	#Whether to increase max transfer rate of some mods to the new stack limit/t.
+	#E.g. if max stack limit is 1000, it will become 1000 items per tick (where applicable).
+	#How this is done will vary for each mod
+	#- Modular routers will require more stack upgrades
+	#- Pipez does not need this option, it has a config for transfer rate, which you can set to anything
+	#- Mekanism also has its own config value, though the logistical sorter has its extract rate increased
+	#- Pretty pipes has its extract rate scaled up
+	#- XNet can already extract a variable amount, but you will be able to go past 64 to the new maximum stack limit
+	#- Cyclic still extracts 1 stack (more than 64 items) per tick, but the size of the stack is adjusted
+	"Increase transfer rate" = true
+	#DOES NOTHING. IGNORE THIS.
+	#Range: 1 ~ 1073741823
+	"Max global stack size" = 1
+
