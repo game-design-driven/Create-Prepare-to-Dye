@@ -1,13 +1,13 @@
-### [1.206.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.206.1...1.206.2) (2024-01-12)
+### [1.206.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.206.1...1.206.2) (2024-01-12)
 
 
 ### Fixes
 
-* ddd questilne necomancer rewaed includin source trade ([df34a52](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/df34a52978ccbb1b41306f4745722ec3a120ca15))
+* ddd questilne necomancer rewaed includin source trade ([df34a52](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/df34a52978ccbb1b41306f4745722ec3a120ca15))
 
 
 ### Developer experience improvments and changes
 
-* turn on ponder tooltips ([7a0e762](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7a0e762472ab3a918df7c7e2a68bf72619bb9d14))
+* turn on ponder tooltips ([7a0e762](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7a0e762472ab3a918df7c7e2a68bf72619bb9d14))
 
 

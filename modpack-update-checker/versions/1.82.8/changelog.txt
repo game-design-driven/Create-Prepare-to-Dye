@@ -1,8 +1,8 @@
-### [1.82.8](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.7...1.82.8) (2023-11-25)
+### [1.82.8](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.82.7...1.82.8) (2023-11-25)
 
 
 ### Fixes
 
-* Update starter trades in the spaceship ([8b0c2c6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8b0c2c64900b39e8b655a40a4cf8e0b2ea2c06d6))
+* Update starter trades in the spaceship ([8b0c2c6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8b0c2c64900b39e8b655a40a4cf8e0b2ea2c06d6))
 
 

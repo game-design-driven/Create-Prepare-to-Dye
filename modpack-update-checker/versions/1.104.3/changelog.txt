@@ -1,8 +1,8 @@
-### [1.104.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.2...1.104.3) (2023-11-29)
+### [1.104.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.104.2...1.104.3) (2023-11-29)
 
 
 ### Documentation and Localization
 
-* rename petal apothecary to apothecary ([81874e0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/81874e0cf91f7706fbe610486065d9f43fdc2e4d))
+* rename petal apothecary to apothecary ([81874e0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/81874e0cf91f7706fbe610486065d9f43fdc2e4d))
 
 

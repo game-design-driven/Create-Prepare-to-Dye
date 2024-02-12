@@ -1,9 +1,9 @@
-### [1.134.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.5...1.134.6) (2023-12-10)
+### [1.134.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.134.5...1.134.6) (2023-12-10)
 
 
 ### Documentation and Localization
 
-* improve tooltips for devices ([037b30d](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/037b30db9f19476805d04ef8f7c74cb0958201b8))
-* rename delivery_table to Intergalactic Trading Mesh Terminal ([d0f869a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/d0f869a0ad5fe1536e687ac318923988150c4ef0))
+* improve tooltips for devices ([037b30d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/037b30db9f19476805d04ef8f7c74cb0958201b8))
+* rename delivery_table to Intergalactic Trading Mesh Terminal ([d0f869a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d0f869a0ad5fe1536e687ac318923988150c4ef0))
 
 

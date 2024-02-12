@@ -1,16 +1,16 @@
-## [1.113.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.112.0...1.113.0) (2023-12-02)
+## [1.113.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.112.0...1.113.0) (2023-12-02)
 
 
 ### Features
 
-* add gantry shaft recipe ([0288f1c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/0288f1c836732820347a912b081208d880685998))
-* automaton can reach 30 blocks ([421dabf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/421dabfb6f15560f72c5a0d9021f87b037c3898b))
-* automaton move fast ([eb7ea01](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/eb7ea018533d73c8d3bd64734edb846605c9f165))
+* add gantry shaft recipe ([0288f1c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0288f1c836732820347a912b081208d880685998))
+* automaton can reach 30 blocks ([421dabf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/421dabfb6f15560f72c5a0d9021f87b037c3898b))
+* automaton move fast ([eb7ea01](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eb7ea018533d73c8d3bd64734edb846605c9f165))
 
 
 ### Modlist related changes
 
-* add accurate block placement ([56ca1da](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/56ca1da27387817201acdb5cec4c74941b7a8fe6))
-* remove effortless building ([15f83cf](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/15f83cf56c3cddc767303e38c3d1e51e408baef3))
+* add accurate block placement ([56ca1da](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/56ca1da27387817201acdb5cec4c74941b7a8fe6))
+* remove effortless building ([15f83cf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/15f83cf56c3cddc767303e38c3d1e51e408baef3))
 
 

@@ -1,8 +1,8 @@
-### [1.80.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.5...1.80.6) (2023-11-23)
+### [1.80.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.80.5...1.80.6) (2023-11-23)
 
 
 ### Continuous Integration
 
-* git pull before pushing changelog commit ([8e03a95](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8e03a95c26836f2608e61755026e768bd41e8182))
+* git pull before pushing changelog commit ([8e03a95](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8e03a95c26836f2608e61755026e768bd41e8182))
 
 

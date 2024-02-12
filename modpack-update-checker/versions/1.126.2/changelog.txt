@@ -1,8 +1,8 @@
-### [1.126.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.126.1...1.126.2) (2023-12-09)
+### [1.126.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.126.1...1.126.2) (2023-12-09)
 
 
 ### Minor tweaks
 
-* make player character smaller in device assembler, stone cutter interface ([8088c89](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8088c89dc0f32ebeb0ad5d8fb54a8ce1b838a487))
+* make player character smaller in device assembler, stone cutter interface ([8088c89](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8088c89dc0f32ebeb0ad5d8fb54a8ce1b838a487))
 
 

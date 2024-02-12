@@ -1,16 +1,16 @@
-## [1.136.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.135.1...1.136.0) (2023-12-11)
+## [1.136.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.135.1...1.136.0) (2023-12-11)
 
 
 ### Features
 
-* generic devices are also devices ([95ec545](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95ec5452bbc675b043454c289584d3f1d59840c8))
-* make itemframes easier to make ([dc614a0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dc614a04440125d64bfb01cdac2fd212b3de4a1f))
-* water in small amounts can be made from organic mass ([4ca84da](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4ca84da5dd27715234b9e7dffb4e9e283f67e613))
+* generic devices are also devices ([95ec545](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/95ec5452bbc675b043454c289584d3f1d59840c8))
+* make itemframes easier to make ([dc614a0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dc614a04440125d64bfb01cdac2fd212b3de4a1f))
+* water in small amounts can be made from organic mass ([4ca84da](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4ca84da5dd27715234b9e7dffb4e9e283f67e613))
 
 
 ### Fixes
 
-* lever duplication recipe ([3f36e7a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3f36e7a96578bef99eb4f9c8d42d406abce59882))
-* remove white dye from green goop processing ([65f65f6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/65f65f606a99b41b1192ca39e5dbcc1caa0756d5))
+* lever duplication recipe ([3f36e7a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3f36e7a96578bef99eb4f9c8d42d406abce59882))
+* remove white dye from green goop processing ([65f65f6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/65f65f606a99b41b1192ca39e5dbcc1caa0756d5))
 
 

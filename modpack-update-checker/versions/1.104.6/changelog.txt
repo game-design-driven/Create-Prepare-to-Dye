@@ -1,9 +1,9 @@
-### [1.104.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.104.5...1.104.6) (2023-11-29)
+### [1.104.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.104.5...1.104.6) (2023-11-29)
 
 
 ### Fixes
 
-* Add missing attribution in credits ([e11c3ec](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e11c3ecd401f388db904b5b90cf21df54f4eb645))
-* make active landings global to prevent script loading order edge-cases ([8acc11a](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8acc11a566a593d7ca3327e4d1412e7f303d7804))
+* Add missing attribution in credits ([e11c3ec](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e11c3ecd401f388db904b5b90cf21df54f4eb645))
+* make active landings global to prevent script loading order edge-cases ([8acc11a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8acc11a566a593d7ca3327e4d1412e7f303d7804))
 
 

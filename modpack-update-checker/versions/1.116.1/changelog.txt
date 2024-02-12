@@ -1,8 +1,8 @@
-### [1.116.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.116.0...1.116.1) (2023-12-03)
+### [1.116.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.116.0...1.116.1) (2023-12-03)
 
 
 ### Developer experance improvments and changes
 
-* remove commented out code in wares manager ([10913a3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/10913a34f6f5f7e1e86afab8a2693acf85c79973))
+* remove commented out code in wares manager ([10913a3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/10913a34f6f5f7e1e86afab8a2693acf85c79973))
 
 

@@ -1,8 +1,8 @@
-### [1.134.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.134.1...1.134.2) (2023-12-10)
+### [1.134.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.134.1...1.134.2) (2023-12-10)
 
 
 ### Minor tweaks
 
-* buff ethanol output of fermented goop distilation ([9f269b1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9f269b1b0d4812fc03c494c2e9b98d37287ddef2))
+* buff ethanol output of fermented goop distilation ([9f269b1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9f269b1b0d4812fc03c494c2e9b98d37287ddef2))
 
 

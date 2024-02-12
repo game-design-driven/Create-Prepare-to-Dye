@@ -1,8 +1,8 @@
-### [1.172.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.172.0...1.172.1) (2023-12-19)
+### [1.172.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.172.0...1.172.1) (2023-12-19)
 
 
 ### Fixes
 
-* add authtoken command ([9031ffe](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9031ffe27c161d4dac2419f7d52bcfdf8c412a1e))
+* add authtoken command ([9031ffe](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9031ffe27c161d4dac2419f7d52bcfdf8c412a1e))
 
 

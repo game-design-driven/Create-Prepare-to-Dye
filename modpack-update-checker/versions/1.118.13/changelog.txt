@@ -1,8 +1,8 @@
-### [1.118.13](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.118.12...1.118.13) (2023-12-06)
+### [1.118.13](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.118.12...1.118.13) (2023-12-06)
 
 
 ### Documentation and Localization
 
-* replace checkbox for Feed Betsy with Pet Betsy due to confusion ([c1fdd7c](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/c1fdd7c4fb2f952e5aaa115e53bf2aecb8d4704d))
+* replace checkbox for Feed Betsy with Pet Betsy due to confusion ([c1fdd7c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c1fdd7c4fb2f952e5aaa115e53bf2aecb8d4704d))
 
 

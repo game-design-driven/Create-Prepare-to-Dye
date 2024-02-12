@@ -4,6 +4,8 @@
 if (feature("Remove all uneeded things from storage drawers")) {
   let keep = [
     "storagedrawers:drawer_key",
+    "storagedrawers:shroud_key",
+    "storagedrawers:quantify_key",
     "storagedrawers:oak_full_drawers_1",
     "storagedrawers:oak_full_drawers_2",
     "storagedrawers:oak_full_drawers_4",

@@ -1,8 +1,8 @@
-### [1.80.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.0...1.80.1) (2023-11-22)
+### [1.80.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.80.0...1.80.1) (2023-11-22)
 
 
 ### Documentation and Localization
 
-* improve cauldron tooltip ([91b1864](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/91b18647deca9236f277bcd5d36877c8c81ee58b))
+* improve cauldron tooltip ([91b1864](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/91b18647deca9236f277bcd5d36877c8c81ee58b))
 
 

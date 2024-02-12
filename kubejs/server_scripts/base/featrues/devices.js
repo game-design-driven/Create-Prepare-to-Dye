@@ -21,7 +21,7 @@ if (
     },
     {
       tag: "forge:devices/craftingplaceholder",
-      generic: "#forge:nuggets/brass",
+      generic: "gold_nugget",
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
@@ -65,14 +65,9 @@ if (
       generic: "create:controller_rail",
       base: "rail",
       incomplete: "rail",
-      assembly: [
-        "#forge:ingots/gold",
-        "rail",
-        "create:polished_rose_quartz",
-        "rail",
-      ],
+      assembly: ["create:polished_rose_quartz", "rail", "rail", "rail", "rail"],
       included_devices: ["activator_rail", "powered_rail", "detector_rail"],
-      amount_crafted: 10,
+      amount_crafted: 5,
       post_logic: () => {
         removeRecipe({ id: "create:crafting/kinetics/controller_rail" });
       },
@@ -126,7 +121,7 @@ if (
         "storagedrawers:oak_full_drawers_4",
         "minecraft:painting",
       ],
-      amount_crafted: 4,
+      amount_crafted: 6,
       post_logic: () => {
         ServerEvents.blockLootTables((event) => {
           event.addSimpleBlock("minecraft:bookshelf", "minecraft:bookshelf");
@@ -192,6 +187,8 @@ if (
         "supplementaries:brass_lantern",
         "createdieselgenerators:diesel_engine",
         "storagedrawers:drawer_key",
+        "storagedrawers:shroud_key",
+        "storagedrawers:quantify_key",
         "storagedrawers:controller",
         "create:attribute_filter",
         "4x create:brass_casing",
@@ -227,6 +224,22 @@ if (
       ],
     },
     {
+      tag: "forge:device/smokestack",
+      generic: "railways:smokestack_woodburner",
+      base: "minecraft:campfire",
+      incomplete: "minecraft:campfire",
+      assembly: ["create:iron_sheet", "black_dye"],
+      amount_crafted: 4,
+      included_devices: [
+        "railways:smokestack_streamlined",
+        "railways:smokestack_woodburner",
+        "railways:smokestack_caboosestyle",
+        "railways:smokestack_long",
+        "railways:smokestack_coalburner",
+        "railways:smokestack_oilburner",
+      ],
+    },
+    {
       tag: "forge:devices/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
@@ -245,6 +258,10 @@ if (
         "railways:semaphore",
         "railways:track_switch_andesite",
         "4x create:railway_casing",
+        "create:schedule",
+        "railways:remote_lens",
+        "railways:conductor_whistle",
+        "railways:yellow_conductor_cap",
       ],
     },
     {

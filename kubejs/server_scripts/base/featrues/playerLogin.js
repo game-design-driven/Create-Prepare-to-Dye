@@ -1,10 +1,10 @@
 //priority: 0
 let extraPlayerItems = [
-  Item.of("create:andesite_casing", 8),
-  Item.of("create:brass_casing", 8),
-  Item.of("create:copper_casing", 8),
-  Item.of("ptdye:cobblestone_casing", 8),
-  Item.of("ptdye:redstone_casing", 8),
+  Item.of("ptdye:mechanical_device", 8),
+  Item.of("ptdye:smart_device", 8),
+  Item.of("ptdye:sealed_device", 8),
+  Item.of("ptdye:sturdy_device", 8),
+  Item.of("ptdye:logic_device", 8),
 ];
 function automatonAttributes(player) {
   player.setAttributeBaseValue("forge:swim_speed", 2.25);

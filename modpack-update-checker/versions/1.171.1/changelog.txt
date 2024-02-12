@@ -1,8 +1,8 @@
-### [1.171.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.171.0...1.171.1) (2023-12-19)
+### [1.171.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.171.0...1.171.1) (2023-12-19)
 
 
 ### Fixes
 
-* none list inputs for shapless crafting added to infusion when the shouldn't ([bcf49dd](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/bcf49dd8a8ddc475dba926207410a92a59267925))
+* none list inputs for shapless crafting added to infusion when the shouldn't ([bcf49dd](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bcf49dd8a8ddc475dba926207410a92a59267925))
 
 

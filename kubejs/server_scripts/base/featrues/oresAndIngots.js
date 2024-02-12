@@ -70,7 +70,7 @@ if (feature('Milling recipes for crushed white, orange and yellow')) {
 
 if (feature('Nerf nugget output of washing crushed stuff')) {
     removeRecipe({ id: 'create:splashing/crushed_raw_iron' })
-    addSplashing(['5x iron_nugget', 'redstone %50'], 'create:crushed_raw_iron')
+    addSplashing(['5x iron_nugget', 'white_dye'], 'create:crushed_raw_iron')
     removeRecipe({ id: 'create:splashing/crushed_raw_copper' })
     addSplashing(['7x create:copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
 }

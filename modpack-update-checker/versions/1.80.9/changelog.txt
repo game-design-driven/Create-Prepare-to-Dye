@@ -1,8 +1,8 @@
-### [1.80.9](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.8...1.80.9) (2023-11-23)
+### [1.80.9](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.80.8...1.80.9) (2023-11-23)
 
 
 ### Documentation and Localization
 
-* add modrinth banner resource ([ec3e003](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ec3e00354979f8a0879d0b94a400959b662b1623))
+* add modrinth banner resource ([ec3e003](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ec3e00354979f8a0879d0b94a400959b662b1623))
 
 

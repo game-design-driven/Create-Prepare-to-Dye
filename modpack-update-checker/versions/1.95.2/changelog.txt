@@ -1,8 +1,8 @@
-### [1.95.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.95.1...1.95.2) (2023-11-28)
+### [1.95.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.95.1...1.95.2) (2023-11-28)
 
 
 ### Fixes
 
-* Andesite devices can't be converted to casing ([4827093](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4827093c4f583207971270a4d4155e8cdb0a310b))
+* Andesite devices can't be converted to casing ([4827093](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4827093c4f583207971270a4d4155e8cdb0a310b))
 
 

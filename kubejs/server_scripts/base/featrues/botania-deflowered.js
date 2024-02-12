@@ -1,6 +1,6 @@
 if (feature("Replace mystical flowers and petals with dyes")) {
   removeAndReplace("botania:fertilizer", "bone_meal");
-  
+
   let functionalFlowers = [
     "pure_daisy",
     "manastar",
@@ -53,7 +53,7 @@ if (feature("Replace mystical flowers and petals with dyes")) {
     "bubbell_chibi",
     "solegnolia_chibi",
   ];
-  
+
   global.colors.forEach((color) => {
     addToTag("botania:petals/" + color, "minecraft:" + color + "_dye");
     removeItem("botania:" + color + "_petal_block");
@@ -70,11 +70,11 @@ if (feature("Replace mystical flowers and petals with dyes")) {
       "minecraft:" + color + "_dye"
     );
 
-    // remove create/botania petal to dye recipes  
-    removeRecipe({ id: "create:compat/botania/milling/"+color+"_petal" });
+    // remove create/botania petal to dye recipes
+    removeRecipe({ id: "create:compat/botania/milling/" + color + "_petal" });
 
     // remove botania petal to dye recipes
-    removeRecipe({ id: "botania:dye_"+color });
+    removeRecipe({ id: "botania:dye_" + color });
   });
 
   // remove 16 shroom recipes from botania
@@ -95,8 +95,6 @@ if (feature("Replace mystical flowers and petals with dyes")) {
       "botania:grass_seeds",
     ]);
   });
-
-  
 }
 if (
   feature("Petal processing") &&
@@ -157,20 +155,37 @@ if (
   });
 }
 
-if (feature('Replace_mana_string')) {
-    removeAndReplace('botania:mana_string', 'string')
+if (feature("Replace_mana_string")) {
+  removeAndReplace("botania:mana_string", "string");
 }
 
-if (feature('Remove manaweavmanae cloth')) {
-    removeAndReplace('botania:manaweave_cloth', 'botania:spell_cloth')
-    replaceShaped('botania:spell_cloth', [' s ', 'sms', ' s '], { s: 'string', m: 'botania:mana_pearl' })
-    addMixing('2x botania:spell_cloth', ['botania:mana_pearl', '8x minecraft:white_wool'], temperature.heated)
+if (feature("Remove manaweavmanae cloth")) {
+  removeAndReplace("botania:manaweave_cloth", "botania:spell_cloth");
+  replaceShaped("botania:spell_cloth", [" s ", "sms", " s "], {
+    s: "string",
+    m: "botania:mana_pearl",
+  });
+  addMixing(
+    "2x botania:spell_cloth",
+    ["botania:mana_pearl", "8x minecraft:white_wool"],
+    temperature.heated
+  );
 }
 
 if (feature('Replace mana powder with lapis')){
     // removeAndReplace('botania:mana_powder', 'mrinecraft:lapis_lazuli')
+    addToTag('forge:dusts/infusable',[
+      'glowstone_dust',
+      'redstone',
+      'sugar',
+      'gunpowder',
+      'blaze_powder', 
+      'supplementaries:ash',
+      'create:cinder_flour',
+      'create:wheat_flour',
+    ])
     removeRecipe({ id: 'botania:mana_infusion/mana_powder_dust' })
-    addInfusion('minecraft:lapis_lazuli', '#forge:dusts', 10)
+    addInfusion('minecraft:lapis_lazuli', '#forge:dusts/infusable', 10)
     replaceInputForRecipes('botania:mana_powder', 'minecraft:lapis_lazuli')
     addToTag('botania:mana_dusts', 'minecraft:lapis_lazuli')
     removeFromTag('botania:mana_dusts', 'botania:mana_powder')

@@ -1,0 +1,8 @@
+### [1.208.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.2...1.208.3) (2024-01-15)
+
+
+### Fixes
+
+* curseforge version number not showing correctly ([c9b0ffd](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c9b0ffd081f8b7e4d0c176fdf8fbf5104fa817e8))
+
+

@@ -1,8 +1,8 @@
-### [1.82.4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.3...1.82.4) (2023-11-25)
+### [1.82.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.82.3...1.82.4) (2023-11-25)
 
 
 ### Fixes
 
-* case of hide crafting ([9a3f61f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9a3f61f1e13f50475c6587f8f4539816235a1105))
+* case of hide crafting ([9a3f61f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9a3f61f1e13f50475c6587f8f4539816235a1105))
 
 

@@ -1,13 +1,13 @@
-## [1.158.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.157.0...1.158.0) (2023-12-15)
+## [1.158.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.157.0...1.158.0) (2023-12-15)
 
 
 ### Features
 
-* sticks are more than just wood! ([47755a3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/47755a3c364011e630278ec129a2c6bc9e9b41fb))
+* sticks are more than just wood! ([47755a3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/47755a3c364011e630278ec129a2c6bc9e9b41fb))
 
 
 ### Fixes
 
-* livingwood output more charcoal ([de1c69e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/de1c69e68c47c667566092c999e15b1c708809e6))
+* livingwood output more charcoal ([de1c69e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/de1c69e68c47c667566092c999e15b1c708809e6))
 
 
