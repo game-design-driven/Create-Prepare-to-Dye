@@ -133,7 +133,7 @@ customization {
   action = addbutton
   actionid = c3339d5c-0cba-4053-be2e-ca9b34a491a61703255162333
   y = 236
-  label = Apply Featues (reload)
+  label = Apply Features (reload)
   height = 20
 }
 

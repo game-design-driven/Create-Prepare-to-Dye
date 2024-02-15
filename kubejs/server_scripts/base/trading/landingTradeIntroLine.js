@@ -80,11 +80,10 @@ const mlcEndstoneFixed = getAgreement("mlcEndstoneFixed", {
 });
 const mlcSand = getAgreement("mlcSand", {
   paymentItems: [
-    // "botania:manasteel_shovel",
     Item.of("minecraft:golden_pickaxe", 2, "{Damage:0}"),
     Item.of("minecraft:diamond_pickaxe", 2, "{Damage:0}"),
     "16x gold_ingot",
-    "16x ptdye:mechanical_device",
+    "24x ptdye:mechanical_device",
     "8x create:iron_sheet",
     "2x botania:hopperhock",
   ],
@@ -132,9 +131,10 @@ const mlcSandFixed = getAgreement("mlcSandFixed", {
     "64x minecraft:sand",
     "64x minecraft:sand",
     "64x minecraft:sand",
+    "64x minecraft:sand",
   ],
   title: "Lets seal the deal on that beautiful sand",
-  orderedAmount: 5,
+  orderedAmount: 0,
   company: "magical_landscaping_co",
   message:
     "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
@@ -351,7 +351,7 @@ const bnwPolishedRoseQuartz = getAgreement("bnwPolishedRoseQuartz", {
     "We are expanding our assembly line, we need some parts, we are willing to shell out a bit more for this one, we are in a hurry",
 });
 const qubeAngry = getAgreement("qubeAngry", {
-  paymentItems: ["minecraft:air"],
+  paymentItems: [],
   requestedItems: [bhbWheatFixedRates.item],
   title: "Who do you think you are?!",
   orderedAmount: 1,
@@ -693,7 +693,7 @@ const gdbLeadFriend = getAgreement("gdbLeadFriend", {
 });
 
 const sssHelmets = getAgreement("sssHelmets", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: ["16x botania:manasteel_helmet"],
   title: "The syndicate needs YOU!",
   orderedAmount: 2,
@@ -702,7 +702,7 @@ const sssHelmets = getAgreement("sssHelmets", {
     "We are the syndicate, we know you have heard of us, we are here to make the world a better place, and we want you to be a part of that! We need some helmets for our new recruits, if you help us out with this, you can enjoy the feeling of being a part of something bigger than yourself!",
 });
 const sssBows = getAgreement("sssBows", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: [
     "16x minecraft:bow",
     "16x minecraft:bow",
@@ -718,7 +718,7 @@ const sssBows = getAgreement("sssBows", {
     "Our fight for justice is forever persistently ongoing and your commitment to the cause did not go unnoticed. We need weaponry if we are to embark on our next endeavor, and I know you are the right cop for the task.",
 });
 const sssArrows = getAgreement("sssArrows", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: [
     "64x minecraft:arrow",
     "64x minecraft:arrow",
@@ -910,7 +910,7 @@ const vHelpWhileHelpingOtherSide = getAgreement("vHelpWhileHelpingOtherSide", {
 });
 
 const sssHelmetsFixedRates = getAgreement("sssHelmetsFixedRates", {
-  paymentItems: ["air"],
+  paymentItems: [],
   requestedItems: ["32x botania:manasteel_helmet"],
   title: "Making the world a better place!",
   orderedAmount: 0,
@@ -1839,7 +1839,6 @@ const dddNecromancerIsPrincess = getAgreement("dddNecromancerIsPrincess", {
     "64x arrow",
     "lead",
     "supplementaries:cage",
-    dddNecromancer.item,
   ],
   title: "The Necromancer is the princess!? ",
   orderedAmount: 1,

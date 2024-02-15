@@ -1,0 +1,15 @@
+### [1.208.14](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.13...1.208.14) (2024-01-19)
+
+
+### Minor tweaks
+
+* Grass, tall grass and ferns drops seeds all the time ([b3c572f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b3c572f252757a8fcbee6603c793b6eea7e2c9f2))
+* slight nerf to yellow dye from gold block ([bde4b67](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bde4b6777bb39dadf9d9b0888d32d28d4ef64baa))
+
+
+### Fixes
+
+* device type tooltips not handling device names with dashes, will now replace with space ([4a9f7ac](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4a9f7ac18a327505870432105a501b5f7a1a68a5))
+* oxydized copper recycling not giving light blue dye ([c202627](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c202627f9b0bb03560c9187739c6abd92cf3b784))
+
+

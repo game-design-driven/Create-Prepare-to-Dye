@@ -10,10 +10,10 @@ addTooltip(
 );
 addTooltip(
   "lava_bucket",
-  "Found abundantly underground, can be purified into _red sand_"
+  "Found abundantly underground, can be purified into _orange powder_"
 );
 addTooltip(
-  "create:scorchia",
+  "create:scoria",
   "Can be made by searing flowing _chocolate_ with _lava_"
 );
 addTooltip("cobblestone", "Can be made by searing flowing _water_ with _lava_");
@@ -43,7 +43,7 @@ addTooltip(
 );
 addTooltip(
   "create:blaze_burner",
-  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find a _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_. Experts also say that it is possible to fabricate a _fell blaze_ with a _fell pumpkin_ and that it can work as a blaze alternative"
+  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find a _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_. Experts also say that it is possible to fabricate a _fel blaze_ with a _fel pumpkin_ and that it can work as a blaze alternative"
 );
 addTooltip("supplementaries:ash", "Ash is created when things burn down");
 

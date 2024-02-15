@@ -1,0 +1,9 @@
+### [1.211.8](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.7...1.211.8) (2024-01-22)
+
+
+### Modlist related changes
+
+* update ae2 ([f443721](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f4437215ced2c076a4e27725a68c5e8a354ff989))
+* update modpack update checker ([5a0c74e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5a0c74e5953a868ae50c0e3736806dfa533e77f4))
+
+

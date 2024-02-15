@@ -1,0 +1,8 @@
+### [1.211.7](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.6...1.211.7) (2024-01-22)
+
+
+### Fixes
+
+* kjs syntax error ([392b2e7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/392b2e7693949e431f376abdaf095f50192a5e6d))
+
+

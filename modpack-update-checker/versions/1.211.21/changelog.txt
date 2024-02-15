@@ -1,0 +1,8 @@
+### [1.211.21](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.20...1.211.21) (2024-01-24)
+
+
+### Features
+
+* Create contraptions to animate ([#544](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/544)) ([3c06bb2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3c06bb24751cc49754d2d62af07e4330dd7a9249))
+
+

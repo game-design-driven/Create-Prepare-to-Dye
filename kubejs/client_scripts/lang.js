@@ -1,13 +1,5 @@
 global.itemTooltips = [];
-const $ItemDescription = Java.loadClass(
-  "com.simibubi.create.foundation.item.ItemDescription$Modifier"
-);
-const $TooltipModifier = Java.loadClass(
-  "com.simibubi.create.foundation.item.TooltipModifier"
-);
-const $Palette = Java.loadClass(
-  "com.simibubi.create.foundation.item.TooltipHelper$Palette"
-);
+
 ClientEvents.lang("en_us", (event) => {
   global.itemTooltips.forEach((tooltipObject) => {
     let [id, tooltip] = tooltipObject;
@@ -17,9 +9,9 @@ ClientEvents.lang("en_us", (event) => {
   });
   let infoPages = {};
   Ingredient.all.itemIds.forEach((id) => {
-    $TooltipModifier.REGISTRY.registerDeferred(
+    global.create.TooltipModifier.REGISTRY.registerDeferred(
       id,
-      (item) => new $ItemDescription(item, $Palette.STANDARD_CREATE)
+      (item) => new global.create.ItemDescription(item, global.create.Palette.STANDARD_CREATE)
     );
     let key = Item.of(id).descriptionId+'.tooltip.summary'
     if ((Text.translate(key).string!=key)){

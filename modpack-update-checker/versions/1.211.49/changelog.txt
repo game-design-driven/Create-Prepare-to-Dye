@@ -1,0 +1,20 @@
+### [1.211.49](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.48...1.211.49) (2024-02-03)
+
+
+### Developer experience improvments and changes
+
+* move all incomplete item resulution logic out of devices script and into the add assembly funciton ([00b26e4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/00b26e4d5d98cf1270d2772a6c6f937bf17da0c6))
+
+
+### Fixes
+
+* aseebly recipes will now use incomplete items from the same mod, then fallback to incomplete items from ptdye, then fall back on incomplete assembly or input item ([9cd24a2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9cd24a29b6a076ce03f5737cdfcc4238fb212486))
+* missing tooltips for some items on first login ([ac49a17](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ac49a173fa6e0727199831bdd121281564fad109))
+
+
+### Minor tweaks
+
+* add incomplete rail item ([db95d1a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/db95d1aead3c85fe77d421d285968015a9d962b0))
+* rename incomplete precision mechanism to incomplete assembly for use in other assebmly recipes that use list ingredient instead of single item as input ([963c622](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/963c622accfcdac69769d7acde15c6ee918d1a63))
+
+

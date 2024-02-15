@@ -11,7 +11,6 @@ if (
       included_devices: [
         "ae2:toggle_bus",
         "ae2:inverted_toggle_bus",
-        "ae2:fluix_smart_cable",
         "ae2:level_emitter",
         "ae2:storage_bus",
         "ae2:storage_monitor",
@@ -22,6 +21,7 @@ if (
     {
       tag: "forge:devices/craftingplaceholder",
       generic: "gold_nugget",
+      convert_back_recipe: false,
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
@@ -224,7 +224,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/smokestack",
+      tag: "forge:devices/smokestack",
       generic: "railways:smokestack_woodburner",
       base: "minecraft:campfire",
       incomplete: "minecraft:campfire",
@@ -297,9 +297,10 @@ if (
       tag: "forge:devices/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
-      amount_crafted: 4,
+      amount_crafted: 6,
       included_devices: [
         "botania:open_crate",
+        "create:item_vault",
         "create:redstone_contact",
         "minecraft:stonecutter",
         "minecraft:cauldron",
@@ -321,7 +322,8 @@ if (
         "supplementaries:turn_table",
         "supplementaries:spring_launcher",
         "botania:apothecary_default",
-        "quark:crate",
+        "ptdyeplus:crate_barrel",
+        "ptdyeplus:barrel_barrel",
       ],
     },
     {
@@ -388,21 +390,17 @@ if (
     addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic)
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
-    device.incomplete =
-      device.incomplete ||
-      generic_id.split(":")[0] + ":incomplete_" + generic_id.split(":")[1];
     device.base = device.base || "create:cogwheel";
-    //console.log(device.base);
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
-
+    device.convert_back_recipe =
+      device.convert_back_recipe == false ? false : true;
     //device recipe
     if (device.assembly) {
       if (!Array.isArray(device.assembly[0])) {
         device.assembly = [device.assembly];
       }
       device.assembly.forEach((singleAssembly) => {
-        console.info("device.generic " + device.generic);
         addAssembly(
           Item.of(device.generic).withCount(device.amount_crafted),
           device.base,
@@ -410,15 +408,17 @@ if (
             return addDeploying("stick", "stick", ingredient);
           }),
           device.assembly_loops,
-          device.incomplete
+          device.incomplete || undefined
         );
       });
     }
     //device transmutation
     addStonecutting(device.generic, device.tag);
-    addShaped(device.generic, ["#"], {
-      "#": device.tag,
-    });
+    if (device.convert_back_recipe) {
+      addShaped(device.generic, ["#"], {
+        "#": device.tag,
+      });
+    }
     device.included_devices.forEach((included_device) => {
       let item = Item.of(included_device);
       removeAllRecipesForItem(item.id);

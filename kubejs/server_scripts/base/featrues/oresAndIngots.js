@@ -10,7 +10,7 @@ if (feature('Ores from dyes')) {
     let deepslateOnlyOres = {
         'deepslate_emerald_ore': 'lime_dye',
         'deepslate_lapis_ore': 'blue_dye',
-        'deepslate_diamond_ore': 'cyan_dye',
+        'deepslate_diamond_ore': 'light_blue_dye',
         'deepslate_gold_ore': 'yellow_dye',
     }
     let nether_ores = {
@@ -214,16 +214,8 @@ if (feature('Copper')) {
     addFilling('minecraft:copper_ingot', '#forge:ingots', '100x create:chocolate')
 }
 if (feature('Lapis')) {
-    // Recipes.addFluidToItem([<item:minecraft: lapis_lazuli>*2],[<tag:items:forge:dyes>,<tag:items:forge:lime>]);
-    //     Recipes.addFluidToItem([<item:minecraft:lapis_lazuli>],[<tag:items:forge:dusts/mana>]);
-    //     //remove lapis ore
-    //     <item:minecraft:lapis_ore>.murdurFamily();
-    //     Orechid.main.removeOreWeight(<blockstate:minecraft:lapis_ore>);
     removeItem('lapis_ore')
-    addCompacting('lapis_lazuli', ['2x #forge:dusts','500mb water'])
-    //remove from orechid
-    // addFluidTransomItem('2x lapis_lazuli', ['#forge:dyes', '#forge:lime'])
-    // addFluidTransomItem('2x lapis_lazuli', '#forge:dusts/mana')
+    addCompacting('lapis_lazuli', ['2x #forge:dusts/infusable','500mb water'])
 }
 // if (feature('Rose quartz')) {
 //     addCrushing(['create:rose_quartz %90', 'rose_bush %80', 'black_dye %70'], 'wither_rose')

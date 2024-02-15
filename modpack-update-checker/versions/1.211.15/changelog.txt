@@ -1,0 +1,14 @@
+### [1.211.15](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.14...1.211.15) (2024-01-23)
+
+
+### Minor tweaks
+
+* change default automatic assembler mode to no assembly ([43472fe](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/43472fe26228b5a64eeb3c4a01f6862ef3072e6c))
+* replace personal assembler icon with the screwdriver icon in item and emi ([c1598e8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c1598e800d83eee1d23aa83206a5d724542dcfeb))
+
+
+### Fixes
+
+* assembler icon being flipped ([56d1690](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/56d16904c77e2c9ff095d3ec8145c7b8c26935cd))
+
+

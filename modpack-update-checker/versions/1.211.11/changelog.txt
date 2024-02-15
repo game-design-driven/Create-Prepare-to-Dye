@@ -1,0 +1,8 @@
+### [1.211.11](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.10...1.211.11) (2024-01-23)
+
+
+### Documentation and Localization
+
+* Create CONTRIBUTING.md ([#536](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/536)) ([eab5609](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eab5609b0b7214a0cd3837192576051a6fc4b7fb))
+
+

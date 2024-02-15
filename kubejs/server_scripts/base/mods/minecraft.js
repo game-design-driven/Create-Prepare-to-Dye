@@ -1,8 +1,8 @@
 if (feature("Paper recipes")) {
   removeRecipe({ id: "minecraft:crafting_shaped/paper" });
   addAssembly("2x paper", "createdieselgenerators:wood_chip", [
-    addPressing("stick", "stick"),
     addFilling("stick", "stick", "25x milk"),
+    addPressing("stick", "stick"),
   ]);
   addAssembly("3x paper", "createdieselgenerators:wood_chip", [
     addPressing("stick", "stick"),
@@ -102,12 +102,7 @@ if (feature("Red sand")) {
 if (feature("Diamond recipes")) {
   addCompacting(
     "diamond",
-    "8x #forge:storage_blocks/coal",
-    temperature.superHeated
-  );
-  addCompacting(
-    "diamond",
-    "64x #forge:storage_blocks/charcoal",
+    Ingredient.of(["#forge:storage_blocks/coal","#forge:storage_blocks/charcoal"],8),
     temperature.superHeated
   );
 }
@@ -330,7 +325,7 @@ if (feature("Fertilizer into water and organic mass")) {
     "#forge:squeezables/seeds",
     temperature.heated
   );
-  addCompacting("100mb kubejs:organic_mass", "minecraft:poisonous_potato");
+  addCompacting("200mb kubejs:organic_mass", "minecraft:poisonous_potato");
   addCompacting("250mb kubejs:organic_mass", "#forge:squeezables/poor");
   addCompacting("500mb kubejs:organic_mass", "#forge:squeezables/rich");
   addDistillation(
@@ -526,4 +521,23 @@ if (feature('Netherite gear regular recipes')) {
   addShaped('netherite_leggings', ['nnn', 'n n', 'n n'], { n: '#forge:ingots/netherite' })
   addShaped('netherite_boots', ['n n', 'n n'], { n: '#forge:ingots/netherite' })
   addShaped('netherite_sword', ['n', 'n', 's'], { n: '#forge:ingots/netherite', s: '#forge:rods' })
+}
+if (feature('Seeds coloring to get other seeds')) {
+  addShapeless('beetroot_seeds', ['red_dye', '#forge:seeds'])
+  addShapeless('pumpkin_seeds', ['orange_dye', '#forge:seeds'])
+  addShapeless('melon_seeds', ['green_dye', '#forge:seeds'])
+  addShapeless('wheat_seeds', ['yellow_dye', '#forge:seeds'])
+}
+
+if (feature('Beetroot carrot conversions')) {
+  addShapeless('beetroot',['2x red_dye', 'carrot'])
+  addShapeless('carrot',['2x orange_dye', 'beetroot'])
+}
+
+if (feature('Remove crossbow recipe')) {
+  removeRecipe({id:'minecraft:crossbow'})
+}
+
+if (feature('Water from kelp and seagrass')) {
+  addBlockInteract('minecraft:water', 'minecraft:water', Ingredient.of(['minecraft:kelp', 'minecraft:seagrass']), true)
 }

@@ -1,0 +1,15 @@
+## [1.212.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.52...1.212.0) (2024-02-05)
+
+
+### Features
+
+* add tomato sauce. Will soon be used for pizza ([e2fc815](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e2fc8152d990f74b4e1168c594e7e4614d6b19e4))
+
+
+### Minor tweaks
+
+* add item vault to sturdy devices ([988c114](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/988c11439f8fece6e626ce09e9b205a4e1d16df0))
+* increase mechanical device return from first trade to 24 from 16 ([445b65f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/445b65f03fed0d2ef6cf2e6e2b6ad3b7638667ed))
+* Remove conductors cap colored recipes in assembly ([96ec59c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/96ec59c885346c84fe2a4ac7de77b10d50d60167))
+
+

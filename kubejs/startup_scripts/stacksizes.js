@@ -19,5 +19,6 @@ ItemEvents.modification((event) => {
   event.modify("create:wrench", (item) => item.setMaxStackSize(16));
   event.modify("minecraft:fishing_rod", (item) => item.setMaxStackSize(16));
   event.modify("minecraft:cake", (item) => item.setMaxStackSize(64));
+  event.modify("minecraft:shulker_box", (item) => item.setMaxStackSize(8));
 
 });

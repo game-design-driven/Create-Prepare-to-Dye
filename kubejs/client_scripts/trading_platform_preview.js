@@ -1,11 +1,9 @@
-const $CreateClient = Java.loadClass("com.simibubi.create.CreateClient");
-const $AABB = Java.loadClass("net.minecraft.world.phys.AABB");
-const $PonderPalette = Java.loadClass("com.simibubi.create.foundation.ponder.PonderPalette");
-
+let CreateClient = global.create.CreateClient
+let PonderPalette = global.create.PonderPalette
 const COLORS = {
-    "blocked": $PonderPalette.RED,
-    "platform_nearby": $PonderPalette.RED,
-    "ok": $PonderPalette.WHITE,
+    "blocked": PonderPalette.RED,
+    "platform_nearby":PonderPalette.RED,
+    "ok": PonderPalette.WHITE,
 }
 
 const MESSAGES = {
@@ -29,8 +27,8 @@ ClientEvents.tick(event => {
 
         let color = COLORS[current_preview_state];
 
-        let box = $AABB(target_block.x - 1, target_block.y + 1, target_block.z - 1, target_block.x + 2, target_block.y + 8.5, target_block.z + 2);
-        $CreateClient.OUTLINER.showAABB("trading_platform_location_marker", box).colored(color.getColor());
+        let box = AABB.of(target_block.x - 1, target_block.y + 1, target_block.z - 1, target_block.x + 2, target_block.y + 8.5, target_block.z + 2);
+        CreateClient.OUTLINER.showAABB("trading_platform_location_marker", box).colored(color.getColor());
 
         let message = MESSAGES[current_preview_state];
 

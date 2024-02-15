@@ -1,0 +1,8 @@
+### [1.208.12](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.11...1.208.12) (2024-01-18)
+
+
+### Fixes
+
+* cake not stacking preventing the crew from getting their due ([75efee1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/75efee17654e02ad98cca55654a44936b637b9af))
+
+

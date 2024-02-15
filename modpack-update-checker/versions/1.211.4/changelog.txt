@@ -1,0 +1,16 @@
+### [1.211.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.3...1.211.4) (2024-01-22)
+
+
+### Developer experience improvments and changes
+
+* probejs ([eee775d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eee775dff51510e13a3421ce88507005426ee166))
+
+
+### Minor tweaks
+
+* add crossbow recycling for wood and string ([9ca0022](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9ca00221739cf93014d6fa80ed2934893c1aa869))
+* pillagers from the syndicate tradeline now drop heads arrows and crossbows ([673367f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/673367f2ad1bcf9b4e4a4d3310d6aea98a7f822c))
+* remove crossbow crafting recipe ([43f0b75](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/43f0b759c39a1e5c3d27f0cd04a3d99c2c860133))
+* slightly nerf gunpowder output of pillager head gunpowder output ([5585385](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/558538518b4d4c4db92abc0c5437280f8a186324))
+
+

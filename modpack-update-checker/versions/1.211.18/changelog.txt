@@ -1,0 +1,8 @@
+### [1.211.18](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.17...1.211.18) (2024-01-24)
+
+
+### Modlist related changes
+
+* downgrade modpack update checker version to fix resource loading issue ([3f40eec](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3f40eec0089a6c363f381c1832e10609909d4b57))
+
+

@@ -47,6 +47,8 @@ if not exist "mods" (
     if exist "..\mods" (
         echo Copying mods from parent folder
         xcopy /E /I /Y "..\mods" "mods"
+        echo Removing client-side mods
+        del /S /Q mods\zume*
     ) else (
         echo Mods directory not found in parent folder, starting server without mods
     )

@@ -1,0 +1,8 @@
+### [1.213.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.213.2...1.213.3) (2024-02-12)
+
+
+### Minor tweaks
+
+* Added shadow to discord button ([#566](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/566)) ([ccb55d7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ccb55d71580e79803cfb660f28ca03cb06159f23))
+
+

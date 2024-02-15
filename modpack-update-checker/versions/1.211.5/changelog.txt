@@ -1,0 +1,8 @@
+### [1.211.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.4...1.211.5) (2024-01-22)
+
+
+### Minor tweaks
+
+* pillager drops effected by looting ([2667349](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2667349c23b5fba1bcc449afb682b655cf94d8de))
+
+

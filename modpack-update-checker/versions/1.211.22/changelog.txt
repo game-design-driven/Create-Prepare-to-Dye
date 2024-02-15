@@ -1,0 +1,9 @@
+### [1.211.22](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.21...1.211.22) (2024-01-25)
+
+
+### Fixes
+
+* declaring UtilsJS again ([f72c927](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f72c927ef98228187c6625380d2121914b876436))
+* declaring UtilsJS again ([#547](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/547)) ([8840680](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8840680b2f4cbfe93cd01ecbd6ff7ca220a6c98e))
+
+

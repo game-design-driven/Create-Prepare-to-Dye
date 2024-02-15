@@ -67,7 +67,8 @@ function addDripping(block_out, target_block, source_block) {
   };
   modpackRecipes.push(result);
 }
-function addBlockInteract(block_out, block_in, item_in) {
+function addBlockInteract(block_out, block_in, item_in, ghost) {
+  ghost = ghost || false;
   let post = {
     type: "place",
     block: block_out,
@@ -77,6 +78,7 @@ function addBlockInteract(block_out, block_in, item_in) {
     item_in: solveLimitedIngredient(item_in),
     block_in: block_in,
     post: post,
+    ghost: ghost,
   };
   modpackRecipes.push(recipe);
 }

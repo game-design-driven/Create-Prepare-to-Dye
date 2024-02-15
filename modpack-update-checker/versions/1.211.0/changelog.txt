@@ -1,0 +1,19 @@
+## [1.211.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.210.4...1.211.0) (2024-01-22)
+
+
+### Features
+
+* Add direct filling recipes for potions instead of dynamic ones. This should fix emi display of potions. Also adds support for filling arrows to make tipped arrows ([e664fb3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e664fb3eb40bea0e0ee61acfee17d85819ce7467))
+* remove brewing stand. Exsiting brewing stands will still work but no new ones can be crafted and it wont show in emi ([d217549](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d2175492c97ddc9aad57d172cc7114448e1553b7))
+
+
+### Minor tweaks
+
+* Remove bamboo spikes ([44456c2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/44456c250350cdc202eaed55821e11f5ed17d38a))
+
+
+### Documentation and Localization
+
+* tweak trades that return nothing to show nothing instead of empty tile ([cfcc84b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cfcc84b67ed021944ad04453258ab12de25b7fc4))
+
+

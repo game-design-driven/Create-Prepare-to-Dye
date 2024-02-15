@@ -1,0 +1,11 @@
+{
+    "minecraft:stonecutting": {
+      "sort": "none",
+      "icon": {
+        "stack": "item:crafting_on_a_stick:stonecutter"
+      },
+      "simplified_icon": {
+        "texture": "crafting_on_a_stick:textures/item/stonecutter.png"
+      }
+    }
+  }

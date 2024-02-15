@@ -1,0 +1,13 @@
+### [1.208.13](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.12...1.208.13) (2024-01-18)
+
+
+### Minor tweaks
+
+* slightly nerf sand crushing recipe ([dfa12ac](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dfa12ace78650b599bdb0d92f92db33bc6c992b7))
+
+
+### Fixes
+
+* smart cable being both a generic and a device ([03e4f03](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/03e4f03728bde5995a6030961b9da00658fa3948))
+
+
