@@ -46,8 +46,10 @@ function compactItems(player,keepOne){
           
           usedItems[id] = usedItems[id] || {c:0,name:i.displayName};
 
+          //there shouldn't be two identical stacks with a single residual item. this handles that
           let individualLmit = usedItems[id].c > 0 ? 0 : limit
 
+          //we need a tiny corrective figure here, because rounding errors are EVIL.
           let fullDevices = Math.floor((i.count - individualLmit)/a.f + 0.000001);
           
           totalDevices += fullDevices;
@@ -117,10 +119,7 @@ function compactItems(player,keepOne){
         Text.of(`used`).gray().hover(Text.of(usedText)),
         Text.of(`)`).darkGray()
       ]));
-
       
-      
-  
       player.give(Item.of(`#forge:generics/devices/${type}`,totalDevices))
 
       anySucceeded = true;
