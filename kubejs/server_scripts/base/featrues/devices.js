@@ -6,7 +6,7 @@ if (
 ) {
   let deviceDefinitions = [
     {
-      tag: "forge:device/network",
+      tag: "forge:devices/network",
       generic: "ae2:fluix_smart_cable",
       included_devices: [
         "ae2:toggle_bus",
@@ -19,13 +19,13 @@ if (
       ],
     },
     {
-      tag: "forge:device/crafting_place_holder",
+      tag: "forge:devices/craftingplaceholder",
       generic: "gold_nugget",
       convert_back_recipe: false,
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
-      tag: "forge:device/track",
+      tag: "forge:devices/track",
       generic: "create:track",
       base: "#create:sleepers",
       amount_crafted: 32,
@@ -61,7 +61,7 @@ if (
       },
     },
     {
-      tag: "forge:device/rail",
+      tag: "forge:devices/rail",
       generic: "create:controller_rail",
       base: "rail",
       incomplete: "rail",
@@ -73,7 +73,7 @@ if (
       },
     },
     {
-      tag: "forge:device/furniture",
+      tag: "forge:devices/furniture",
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
       assembly: [
@@ -149,7 +149,7 @@ if (
       },
     },
     {
-      tag: "forge:device/red_stringed",
+      tag: "forge:devices/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
       amount_crafted: 2,
@@ -163,7 +163,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/smart",
+      tag: "forge:devices/smart",
       generic: "ptdye:smart_device",
       assembly: [
         "#forge:plates/brass",
@@ -196,7 +196,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/logic",
+      tag: "forge:devices/logic",
       generic: "ptdye:logic_device",
       amount_crafted: 8,
       assembly: [
@@ -224,7 +224,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/smokestack",
+      tag: "forge:devices/smokestack",
       generic: "railways:smokestack_woodburner",
       base: "minecraft:campfire",
       incomplete: "minecraft:campfire",
@@ -240,7 +240,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/locomotive",
+      tag: "forge:devices/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
         "#forge:plates/obsidian",
@@ -265,7 +265,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/sealed",
+      tag: "forge:devices/sealed",
       generic: "ptdye:sealed_device",
       assembly: [
         "#forge:plates/copper",
@@ -294,7 +294,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/sturdy",
+      tag: "forge:devices/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
       amount_crafted: 6,
@@ -327,7 +327,7 @@ if (
       ],
     },
     {
-      tag: "forge:device/mechanical",
+      tag: "forge:devices/mechanical",
       generic: "ptdye:mechanical_device",
       assembly: [
         "create:iron_sheet",
@@ -386,10 +386,11 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
-    addToTag("forge:devices/generics", device.generic);
+    addToTag('forge:generics/devices', device.generic)
+    addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic)
+    let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
     device.base = device.base || "create:cogwheel";
-
     device.assembly_loops = device.assembly_loops || undefined;
     device.tag = device.tag.startsWith("#") ? device.tag : "#" + device.tag;
     device.convert_back_recipe =
