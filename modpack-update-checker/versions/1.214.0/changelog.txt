@@ -1,0 +1,9 @@
+## [1.214.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.213.3...1.214.0) (2024-02-18)
+
+
+### Features
+
+* Bulk recycle command, for compacting devices once you're done. ([#499](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/499)) ([92c21b6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/92c21b6256ce68efdf7b3b2a472410ba89a8f4e4))
+* command for auto-compacting device items! ([e3025d8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e3025d80f90c3863dab90a73235c1e7f09bb1f6c))
+
+
