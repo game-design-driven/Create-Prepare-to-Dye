@@ -81,3 +81,7 @@ addToTag("forge:meat/fat", [
   "minecraft:porkchop",
   "minecraft:salmon",
 ]);
+
+addToTag("ptdye:primarily_decorative_blocks",[
+  "#minecraft:concrete"
+])

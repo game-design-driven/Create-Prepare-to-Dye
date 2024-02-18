@@ -309,5 +309,12 @@
 	"Better dough recipes": true,
 	"Water from kelp": true,
 	"Water from kelp and seagrass": true,
-	"Pizza recipes": true
+	"Pizza recipes": true,
+	"Armor, Tools and a few other pieces of equipment stack to 16": true,
+	"Increase a few trading": true,
+	"Building blocks stack to a big number": true,
+	"Building blocks stack to 1024": true,
+	"Some trade inputs/outputs stack higher": true,
+	"Building blocks stack to 512": true,
+	"Generic Devices stack to 128": true
 }

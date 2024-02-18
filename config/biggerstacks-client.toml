@@ -1,0 +1,25 @@
+#Client configs
+#Enable number shortening. E.g. 1000000 becomes 1M.
+"Enable number shortening" = true
+#Disables warning for stack size that is potentially wrong due to behaviour changes.
+"STFU Warning" = false
+#The colour of the exact count tooltip shown on items.
+#Available colours (case insensitive):
+#aqua,
+#black,
+#blue,
+#dark_aqua,
+#dark_blue,
+#dark_gray,
+#dark_green,
+#dark_purple,
+#dark_red,
+#gold,
+#gray,
+#green,
+#light_purple,
+#red,
+#white,
+#yellow
+"Exact count number colour" = "dark_aqua"
+

@@ -1,0 +1,16 @@
+<ruleset version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://codeberg.org/PORTB/BiggerStacksConfigLib/raw/branch/master/extra/schema.xsd">
+  <!-- don't make filled buckets stack -->
+  <rule stacksize="1"><condition>tag ptdye:stacks_to_1</condition></rule>
+  <rule stacksize="2"><condition>tag ptdye:stacks_to_2</condition></rule>
+  <rule stacksize="3"><condition>tag ptdye:stacks_to_3</condition></rule>
+  <rule stacksize="4"><condition>tag ptdye:stacks_to_4</condition></rule>
+  <rule stacksize="8"><condition>tag ptdye:stacks_to_8</condition></rule>
+  <rule stacksize="16"><condition>tag ptdye:stacks_to_16</condition></rule>
+  <rule stacksize="32"><condition>tag ptdye:stacks_to_32</condition></rule>
+  <rule stacksize="64"><condition>tag ptdye:stacks_to_64</condition></rule>
+  <rule stacksize="128"><condition>tag ptdye:stacks_to_128</condition></rule>
+  <rule stacksize="256"><condition>tag ptdye:stacks_to_256</condition></rule>
+  <rule stacksize="512"><condition>tag ptdye:stacks_to_512</condition></rule>
+  <rule stacksize="1024"><condition>tag ptdye:stacks_to_1024</condition></rule>
+  <rule stacksize="2048"><condition>tag ptdye:stacks_to_2048</condition></rule>
+</ruleset>
