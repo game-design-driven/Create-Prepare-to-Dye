@@ -12,7 +12,7 @@ if (featuresUserSettings !== null) {
     })
 }
 function feature(name) {
-    if (global.features.get(name) !== null){
+    if (global.features.get(name) !== null && global.features.get(name) !== undefined){
         return global.features.get(name)
     }
     else{
