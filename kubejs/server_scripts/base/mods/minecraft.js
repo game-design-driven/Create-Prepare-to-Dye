@@ -541,3 +541,8 @@ if (feature('Remove crossbow recipe')) {
 if (feature('Water from kelp and seagrass')) {
   addBlockInteract('minecraft:water', 'minecraft:water', Ingredient.of(['minecraft:kelp', 'minecraft:seagrass']), true)
 }
+
+if (feature('Replace bucket recipe with assembler recipe')) {
+  removeRecipe({id:'minecraft:bucket'})
+  addStonecutting('bucket', '#forge:ingots/iron')
+}
