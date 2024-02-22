@@ -6,12 +6,13 @@ let featuresUserSettings = JsonIO.read(
   "kubejs/features.json"
 )
 if (featuresUserSettings !== null) {
+    console.log("Features list found")
     featuresUserSettings.forEach((key, value) =>{
         global.features.set(key,value)
     })
 }
 function feature(name) {
-    if (global.features.get(name)){
+    if (global.features.get(name) !== null){
         return global.features.get(name)
     }
     else{
