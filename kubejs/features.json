@@ -310,5 +310,6 @@
 	"Water from kelp": true,
 	"Water from kelp and seagrass": true,
 	"Pizza recipes": true,
-	"Replace bucket recipe with assembler recipe": true
+	"Replace bucket recipe with assembler recipe": true,
+	"Remove crafting tables on a stick": true
 }
