@@ -5,11 +5,14 @@ console.log("Reading features.json and indexing all feature rules");
 let featuresUserSettings = JsonIO.read(
   "kubejs/features.json"
 )
-featuresUserSettings.forEach((key, value) =>{
-    global.features.set(key,value)
-})
+if (featuresUserSettings !== null) {
+    console.log("Features list found")
+    featuresUserSettings.forEach((key, value) =>{
+        global.features.set(key,value)
+    })
+}
 function feature(name) {
-    if (global.features.get(name)){
+    if (global.features.get(name) !== null && global.features.get(name) !== undefined){
         return global.features.get(name)
     }
     else{

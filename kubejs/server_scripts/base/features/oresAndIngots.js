@@ -45,6 +45,10 @@ if (feature('Ores from dyes')) {
     // addCompacting('raw_iron', ['4x #forge:dyes', '750mb milk'])
 }
 
+if (!(feature('Disable Raw White on Belts'))) {
+    addDeploying(['minecraft:raw_iron'],'minecraft:white_concrete_powder','minecraft:white_dye')
+}
+
 if (feature('Raw white, orange and yellow produce less xp in crushing wheels')) {
     removeRecipe({ id: 'create:crushing/raw_iron' })
     removeRecipe({ id: 'create:crushing/raw_copper' })

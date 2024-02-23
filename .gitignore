@@ -80,3 +80,4 @@ kubejs/translation_tools/missing_translations/*.missing.json
 kubejs/allEnglishTranslationKeys.json
 /schmatics/
 /contraptions/
+/kubejs/features.json
