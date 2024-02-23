@@ -382,7 +382,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d4adb1ae8828d7eac46cb991a00a107ded9810dff2d04c82021afb993f2ea7fa"
+hash = "36bb46af1ec8d053f3e95a8f515f032d1034d14b1c9ac5dd855e2afa6df6f2f1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3510,7 +3510,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "7f3d3f0269b7c3ad1c078965d357a5ec9a0777878d879aa24c0df1a1032a16bb"
+hash = "2908a72469f795d6f92bed471edf3dd582bb5523b5914f845f688f2db05089c7"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5281,6 +5281,10 @@ file = "kubejs/server_scripts/base/mods/botania.js"
 hash = "9427b6c1184f3632c66387e57d147791cd146e464df8d3ea7e52650ddbccb204"
 
 [[files]]
+file = "kubejs/server_scripts/base/mods/craftingOnAStick.js"
+hash = "cdf539f8b9068e29a5b53b9d8c2a6ddff0fc62c9ae2334de684d0a27c8e9559e"
+
+[[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
 hash = "a67eec2bda6d41b434b834908ccbd692111087dcba3e6dd18a335c19c2da177c"
 
@@ -5522,7 +5526,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1055a29ab6609776bf9c7b58768aa648e30efa8b88336e7319e5cdc8900b2ee8"
+hash = "d4ea043699b49bec8964309dea88ebc68a03574017f644a3e8de4d4743f4fafa"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7451,6 +7455,10 @@ hash = "c6493ace6640f0dc83cc739414ee385403d836fb353e75295ae6e94c5b80e07a"
 [[files]]
 file = "modpack-update-checker/versions/1.214.2/changelog.txt"
 hash = "2b17fe434494ef53a8389e18c2f7f14f5811885dbeb567a5907912bcd7f72c9b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.214.3/changelog.txt"
+hash = "748b0c81edf93ffe8dc7934243bbcd15df00d3d625255f36693bd289e365d079"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
