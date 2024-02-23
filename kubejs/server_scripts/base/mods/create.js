@@ -301,3 +301,7 @@ if (feature('Remove tree fertilizer')){
   removeItem('create:tree_fertilizer')
 }
 
+if (feature('Straighten Minecart Couplings')) {
+  removeRecipe('create:crafting/curiosities/minecart_coupling')
+  addShaped('create:minecart_coupling', ['apa'], { a: 'create:andesite_alloy', p: 'create:iron_sheet' })
+}
