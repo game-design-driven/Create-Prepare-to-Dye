@@ -73,6 +73,15 @@ if (
       },
     },
     {
+      tag: "forge:devices/window",
+      generic: 'create:ornate_iron_window',
+      included_devices: ['create:oak_window', 'create:spruce_window', 'create:birch_window', 'create:jungle_window', 'create:acacia_window', 'create:dark_oak_window', 'create:mangrove_window', 'create:crimson_window', 'create:warped_window'],
+      post_logic: () => {
+        removeAllRecipesForItem('create:ornate_iron_window')
+        addMixing('16x create:ornate_iron_window',["#forge:glass",'16x quark:iron_plate'])
+      },
+    },
+    {
       tag: "forge:devices/lamp",
       generic: "minecraft:redstone_lamp",
       included_devices: ['quark:red_crystal_lamp', 'quark:orange_crystal_lamp', 'quark:yellow_crystal_lamp', 'quark:green_crystal_lamp', 'quark:blue_crystal_lamp', 'quark:indigo_crystal_lamp', 'quark:violet_crystal_lamp', 'quark:white_crystal_lamp', 'quark:black_crystal_lamp', 'create:rose_quartz_lamp', 'supplementaries:redstone_illuminator'],
