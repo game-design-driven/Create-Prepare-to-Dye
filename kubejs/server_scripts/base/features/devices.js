@@ -149,6 +149,21 @@ if (
       },
     },
     {
+      recycleExcluded: true,
+      tag: "forge:util_devices/tools",
+      generic: "ptdye:tool_parts",
+      included_devices: ['create:wand_of_symmetry', 'create:wrench', 'create:linked_controller', 'create:clipboard', 'create:schematic_and_quill', 'create:empty_schematic', 'ptdye:hammer', 'crafting_on_a_stick:stonecutter', 'quark:abacus'],
+      post_logic: () => {
+        addMixing("2x ptdye:tool_parts",[
+          "#forge:nuggets/gold",
+          "2x #forge:plates/iron",
+          "#forge:rods"
+        ])
+        //for recycling currently filled schematics 
+        addStonecutting("ptdye:tool_parts","create:schematic")
+      },
+    },
+    {
       tag: "forge:devices/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
