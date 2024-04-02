@@ -36,6 +36,8 @@ addToTag("forge:meat", [
   "minecraft:mutton",
   "minecraft:cod",
   "minecraft:salmon",
+  "minecraft:tropical_fish",
+  "minecraft:pufferfish",
 ]);
 addToTag("forge:lime", "create:limesand");
 addToTag("forge:acidic", ["botania:fel_pumpkin"]);

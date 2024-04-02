@@ -10,10 +10,10 @@ addTooltip(
 );
 addTooltip(
   "lava_bucket",
-  "Found abundantly underground, can be purified into _red sand_"
+  "Found abundantly underground, can be purified into _orange powder_"
 );
 addTooltip(
-  "create:scorchia",
+  "create:scoria",
   "Can be made by searing flowing _chocolate_ with _lava_"
 );
 addTooltip("cobblestone", "Can be made by searing flowing _water_ with _lava_");
@@ -23,7 +23,7 @@ addTooltip(
 );
 addTooltip(
   "milk_bucket",
-  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a _deployer_"
+  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a _deployer_. The modern _cow_ can produce milk every _22 seconds_"
 );
 addTooltip(
   "cauldron",
@@ -42,12 +42,8 @@ addTooltip(
   "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall, pretty piece of paper"
 );
 addTooltip(
-  "storagedrawers:oak_full_drawers_1",
-  "a drawer, type of drawer can be cycled through using the variant button (default R)"
-);
-addTooltip(
   "create:blaze_burner",
-  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find an adult _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_"
+  "A _blaze burner_, a device that can be used to power _mana pool_, Heating and Super-Heating _Basins_, _boilers_ and _distillation towers_ and can also be used as pretty lighting emitter. To acquire _blaze burner_ you will need to find a _blaze_ and catch it, unfortunately _blaze_ are not native to this planet, so _importing them from space may be needed_. Experts also say that it is possible to fabricate a _fel blaze_ with a _fel pumpkin_ and that it can work as a blaze alternative"
 );
 addTooltip("supplementaries:ash", "Ash is created when things burn down");
 
@@ -56,6 +52,8 @@ addTooltip('crafting_on_a_stick:stonecutter', "A _Personal Assembler_ is a power
 addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it was the only resource this planet was good for, because of all the _bones_ found on this while soil, _White Powder_ rather.')
 
 addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Controller_ allows you to assemble a _Distillery_. Right click on the _tank structure_ you want to transform into a distillery, a controller will be used for each tank attached. Note that you need _one tank per output in addition to the one on the bottom_ that takes the input')
+
+addTooltip('minecraft:egg', 'Feed a _seed_ to a _chicken_ to get an _egg_');
 
 addTooltip([
   'golden_pickaxe',

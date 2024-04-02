@@ -1,0 +1,35 @@
+## [1.213.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.212.1...1.213.0) (2024-02-07)
+
+
+### Features
+
+* add pizza, will be player accessable soon ([14ebbf3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/14ebbf3b6e08820538d5d7c7b015134289146355))
+
+
+### Documentation and Localization
+
+* add ghost recipe that show s water from kelp ([c728fe6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c728fe6f7be7fc121e24831d82b6b8df1ccc9014))
+
+
+### Developer experience improvments and changes
+
+* add support for ghost recipes in block interact ([75f7f58](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/75f7f58a9a028335b92c9ee6620f90fe08ee17cc))
+* put hammer under a feature ([eda4a21](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eda4a21bd0dc93c06729ce9280cb95012b1b2561))
+
+
+### Minor tweaks
+
+* add incomplete pancake ([eba1539](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eba15396ba6bbae3797301aeb8bbab79b4007db4))
+* add textures for pizza ([b984710](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b984710adb09c0d321ce23003ff1a72e396289e4))
+* better dough and pancake recipes ([ef2b266](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ef2b2663f0e7a36d1a5db21f1d1a799700b87e3f))
+* buff amount of water generated from poison potato ([eed0a47](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/eed0a474c35278e6ac9770b313d0e5b719c336a7))
+* double steam engine maximum stress output. This is a server config change, delete your world/server config folder to apply ([425286b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/425286bea8d3a0292e2a974d0710c6af917a2435))
+* pizza recipe ([a64cfaf](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a64cfaf1f886a3aaf45b6e7d9dbbbf333c2f20a2))
+* Tomato sauce recipes ([a78e32b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a78e32b52ad917a1476f65cd2ba1794e7876d662))
+
+
+### Fixes
+
+* out of date emi trades ([467ac67](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/467ac6729c9880f7eff324f4aa92295b92c0bd6d))
+
+

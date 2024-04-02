@@ -1,0 +1,8 @@
+### [1.211.34](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.33...1.211.34) (2024-01-29)
+
+
+### Fixes
+
+* right click voids items ([69f2f7a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/69f2f7a7613cb388f525db13dd49af64a473d068))
+
+

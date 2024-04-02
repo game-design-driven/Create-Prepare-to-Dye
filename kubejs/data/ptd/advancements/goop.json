@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:milk",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["kubejs:fermented_goop_bucket"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "kubejs:fermented_goop_bucket"
+      },
+      "title": { "translate": "advancement.ptdye.goop", "color": "white" },
+      "description": { "translate": "advancement.ptdye.goop.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

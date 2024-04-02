@@ -1,8 +1,8 @@
-### [1.120.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.120.2...1.120.3) (2023-12-07)
+### [1.120.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.120.2...1.120.3) (2023-12-07)
 
 
 ### Fixes
 
-* cf release pretty name ([4c0c922](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4c0c922e90aed352ed62a8090b71f92133d55014))
+* cf release pretty name ([4c0c922](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4c0c922e90aed352ed62a8090b71f92133d55014))
 
 

@@ -2,6 +2,15 @@
     "filters": [
       {
         "id": "/.*/hidden.*/"
+      },
+      {
+        "id": "/.*world/flower_duping.*/"
+      },
+      {
+        "id": "/.*world/stripping.*/"
+      },
+      {
+        "id": "emi:/world/fluid_spring/minecraft/water"
       }
     ]
   }

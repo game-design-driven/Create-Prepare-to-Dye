@@ -1,5 +1,5 @@
 {
-  "parent": "ptd:root",
+  "parent": "ptd:daisy",
   "criteria": {
         "0": {
             "trigger": "minecraft:impossible",

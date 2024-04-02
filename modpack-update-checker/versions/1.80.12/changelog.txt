@@ -1,8 +1,8 @@
-### [1.80.12](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.80.11...1.80.12) (2023-11-23)
+### [1.80.12](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.80.11...1.80.12) (2023-11-23)
 
 
 ### Continuous Integration
 
-* fix pulling on curseforge build ([7ef642f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7ef642fd24650bb371fc9e054da947247174c783))
+* fix pulling on curseforge build ([7ef642f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7ef642fd24650bb371fc9e054da947247174c783))
 
 

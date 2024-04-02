@@ -11,6 +11,7 @@ function removeItem(item) {
     ServerEvents.tags('item', event => {
         event.removeAllTagsFrom(item)
         event.add('c:hidden_from_recipe_viewers', item)
+        event.add('c:removed', item)
 	})
 }
 
@@ -31,4 +32,17 @@ function removeItems(items) {
     items.forEach(item => {
         removeItem(item)
     });
+}
+
+/**
+ * Send a message to the player
+ * @param {Internal.Player} player Targetted player
+ * @param {Internal.Component|String} component Message to tell the player. String must be a translation key
+ */
+function tellPlayer(player, component) {
+    if (player) {
+        if (typeof component === "string")
+            component = Text.translate(component).white()
+        player.tell(Text.translate("text.ptdye.name").append(": ").green().append(component))
+    }
 }

@@ -59,7 +59,7 @@
 	"Pistons Move Tile Entities" = true
 	"Ender Watcher" = true
 	"Redstone Randomizer" = true
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 	"Metal Buttons" = true
 	"Iron Rod" = true
 	"Obsidian Plate" = true
@@ -289,7 +289,7 @@
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -328,7 +328,7 @@
 		"Enable Enchant Matching" = true
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
-		"Unstackables Only" = false
+		"Unstackables Only" = true
 		#Any items you place in this list will be ignored by the restock feature
 		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
@@ -570,7 +570,7 @@
 	"Better Elytra Rocket" = false
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
-	"Diamond Repair" = true
+	"Diamond Repair" = false
 	"Sponges Better" = true
 	"Map Washing" = true
 
@@ -1572,7 +1572,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1580,7 +1580,7 @@
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
-		"Show Saturation" = true
+		"Show Saturation" = false
 		"Food Compression Threshold" = 4
 		"Fuel Time Divisor" = 200
 		#The value of each shank of food.

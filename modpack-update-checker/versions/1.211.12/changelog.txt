@@ -1,0 +1,8 @@
+### [1.211.12](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.11...1.211.12) (2024-01-23)
+
+
+### Fixes
+
+* Lapis ore tooltip ([#535](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/535)) ([6cc3d4f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6cc3d4ff668ee4650efbbc0e6eceb72380dd11b2))
+
+

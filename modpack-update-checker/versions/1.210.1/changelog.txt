@@ -1,0 +1,13 @@
+### [1.210.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.210.0...1.210.1) (2024-01-21)
+
+
+### Fixes
+
+* recipe conflict for making paper in assembly ([8ac2a59](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8ac2a5983284f2c8d373784a17793b00650f3040))
+
+
+### Documentation and Localization
+
+* update readme recipe changes number ([5f392ac](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5f392ac5a2670ac88c7e52f457aa99fb199cf685))
+
+

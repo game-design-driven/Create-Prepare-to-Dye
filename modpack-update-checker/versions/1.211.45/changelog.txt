@@ -1,0 +1,14 @@
+### [1.211.45](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.44...1.211.45) (2024-02-02)
+
+
+### Minor tweaks
+
+* revert chocolate to liquid brown rename. I prefer that chocolate will reperesent brown instead of being brown in essense, same for other things like honey and the upcoming tomato sauce ([226d5a4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/226d5a4c3401e54200ae484b4e8823ee337ef1bb))
+
+
+### Fixes
+
+* ptd plus only installs on client ([d7907b7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d7907b717cedd91d3969684fdb0f5a03c4b60fd4))
+* tooltips appear after they have been removed ([8444293](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8444293dcd0a02bdc2f960403017317ba8a014f4))
+
+

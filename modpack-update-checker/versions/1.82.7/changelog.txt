@@ -1,9 +1,9 @@
-### [1.82.7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.6...1.82.7) (2023-11-25)
+### [1.82.7](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.82.6...1.82.7) (2023-11-25)
 
 
 ### Minor tweaks
 
-* increase handcrank su for easier debugging ([6448546](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/64485464ae9b5138169f223082bc8d385fa2e11d))
-* nerf waterwheels ([fcf48a1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/fcf48a1e7adecc7a058e76f5faa256f5ca91375b)), closes [#295](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/295)
+* increase handcrank su for easier debugging ([6448546](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/64485464ae9b5138169f223082bc8d385fa2e11d))
+* nerf waterwheels ([fcf48a1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fcf48a1e7adecc7a058e76f5faa256f5ca91375b)), closes [#295](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/295)
 
 

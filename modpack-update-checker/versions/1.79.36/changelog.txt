@@ -1,8 +1,8 @@
-### [1.79.36](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.79.35...1.79.36) (2023-11-22)
+### [1.79.36](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.79.35...1.79.36) (2023-11-22)
 
 
 ### Minor tweaks
 
-* add recycling recipe for wrench ([4d95bb3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/4d95bb3974c89626bd7e8125ce40cef4602c92ee))
+* add recycling recipe for wrench ([4d95bb3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4d95bb3974c89626bd7e8125ce40cef4602c92ee))
 
 

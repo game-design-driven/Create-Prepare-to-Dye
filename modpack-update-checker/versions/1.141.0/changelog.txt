@@ -1,8 +1,8 @@
-## [1.141.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.140.0...1.141.0) (2023-12-11)
+## [1.141.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.140.0...1.141.0) (2023-12-11)
 
 
 ### Features
 
-* rework drawer controller texture and model to fit it's new life as a smart device @EngineerSmith ([92d7729](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/92d77294ef642f7c5a6be7f79fad286a022dfea1))
+* rework drawer controller texture and model to fit it's new life as a smart device @EngineerSmith ([92d7729](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/92d77294ef642f7c5a6be7f79fad286a022dfea1))
 
 

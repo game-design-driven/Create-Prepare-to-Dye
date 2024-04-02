@@ -4,6 +4,8 @@
 if (feature("Remove all uneeded things from storage drawers")) {
   let keep = [
     "storagedrawers:drawer_key",
+    "storagedrawers:shroud_key",
+    "storagedrawers:quantify_key",
     "storagedrawers:oak_full_drawers_1",
     "storagedrawers:oak_full_drawers_2",
     "storagedrawers:oak_full_drawers_4",
@@ -21,13 +23,13 @@ if (feature("Remove all uneeded things from storage drawers")) {
 
 }
 
-if (feature('Drawer from any wood')) {
-  removeRecipe({id: 'storagedrawers:oak_full_drawers_1'})
-  addShaped('2x storagedrawers:oak_full_drawers_1', [
-    'AC',
-    'CA',
-  ], {
-    A: '#minecraft:planks',
-    C: 'minecraft:chest'
-  })
-}
+// if (feature('Drawer from any wood')) {
+//   removeRecipe({id: 'storagedrawers:oak_full_drawers_1'})
+//   addShaped('2x storagedrawers:oak_full_drawers_1', [
+//     'AC',
+//     'CA',
+//   ], {
+//     A: '#minecraft:planks',
+//     C: 'minecraft:chest'
+//   })
+// }

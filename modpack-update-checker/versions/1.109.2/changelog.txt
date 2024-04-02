@@ -1,8 +1,8 @@
-### [1.109.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.109.1...1.109.2) (2023-12-01)
+### [1.109.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.109.1...1.109.2) (2023-12-01)
 
 
 ### Fixes
 
-* index not showing trades properly ([dc7c99b](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/dc7c99b8e33bd52fbc66582bf2cbb4ab5cb4c48f))
+* index not showing trades properly ([dc7c99b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dc7c99b8e33bd52fbc66582bf2cbb4ab5cb4c48f))
 
 

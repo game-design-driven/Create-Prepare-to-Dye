@@ -1,0 +1,8 @@
+### [1.208.11](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.208.10...1.208.11) (2024-01-18)
+
+
+### Modlist related changes
+
+* update Prepare to Dye Plus to 1.3.11 ([2586b45](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2586b45bf8b846e7de8399a720aa30129edadbd1))
+
+

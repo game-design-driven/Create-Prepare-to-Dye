@@ -1,0 +1,8 @@
+### [1.211.38](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.37...1.211.38) (2024-01-30)
+
+
+### Fixes
+
+* Animation ([#561](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/561)) ([b2027c4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b2027c44889e60718bb0c7d1d6fe8d0bdca6d13e))
+
+

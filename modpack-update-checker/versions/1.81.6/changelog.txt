@@ -1,8 +1,8 @@
-### [1.81.6](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.81.5...1.81.6) (2023-11-23)
+### [1.81.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.81.5...1.81.6) (2023-11-23)
 
 
 ### Documentation and Localization
 
-* improve version text in discord presence ([60f7977](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/60f79770846a4f55bb44a9925e54d873cea78fec))
+* improve version text in discord presence ([60f7977](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/60f79770846a4f55bb44a9925e54d873cea78fec))
 
 

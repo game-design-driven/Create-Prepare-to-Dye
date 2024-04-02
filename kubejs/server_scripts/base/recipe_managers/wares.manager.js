@@ -65,17 +65,19 @@ function getAgreement(agreementID, {
   let agreementObj = {
     item: Item.of("wares:delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: orderedAmount,
       message: NBT.stringTag(`{"text":"${message}"}`),
       seal: seal,
       buyerName: { color: "#409D9B", text: companyTitle },
       paymentItems: simple(paymentItems),
-      requestedItems: simple(requestedItems),
+      requestedItems: simple(requestedItems, true),
       title: NBT.stringTag(`{"text":"${title}"}`),
     }).withName(Text.gold(companyTitle + " - " + title).italic(false)),
 
     completedItem: Item.of("wares:completed_delivery_agreement", {
       id: agreementID,
+      revision: global.revision,
       ordered: NBT.intTag(orderedAmount),
       buyerName: { color: "#409D9B", text: companyTitle },
       delivered: NBT.intTag(orderedAmount),
@@ -90,17 +92,18 @@ function getAgreement(agreementID, {
   global.allAgreements = global.allAgreements
     .filter((f) => f.nbt !== agreementObj.item.nbt)
     .concat([agreementObj.item]);
-  if (orderedAmount != 0)
+  if (orderedAmount != 0){
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
-
-  addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+    addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+  }
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
 }
-function simple(items) {
+function simple(items, weaknbt) {
+  weaknbt = weaknbt || false;
   if (!Array.isArray(items)) items = [items];
   return items.map((item_obj) => {
     let item = item_obj;
@@ -118,6 +121,7 @@ function simple(items) {
       ).replaceAll('"', "");
       nbt.id = `#${tag}`;
     }
+    if (weaknbt) nbt.TagMatching = "weak";
     return nbt;
   });
 }
@@ -126,20 +130,12 @@ function tradeBranch(outputTrades, inputTrades) {
   if (!Array.isArray(outputTrades)) outputTrades = [outputTrades];
   if (!Array.isArray(inputTrades)) inputTrades = [inputTrades];
   if (inputTrades.length == 1) {
-    inputTrades.push({ completedItem: Item.of("stick") });
+    inputTrades.push({ completedItem: Item.of("create:iron_sheet") });
   }
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
       inputTrades.map((trade) => trade.completedItem.weakNBT())
-    );
-    let noIdHiddenRecipe = e.recipes.create.mixing(
-      outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => {
-        let item = Item.of(trade.completedItem).copy();
-        if (item.nbt) item.nbt.remove("id")
-        return item.weakNBT();
-      })
     );
     let hiddenUniversalRecipe = e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),

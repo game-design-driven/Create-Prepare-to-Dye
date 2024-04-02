@@ -1,8 +1,8 @@
-### [1.118.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.118.0...1.118.1) (2023-12-04)
+### [1.118.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.118.0...1.118.1) (2023-12-04)
 
 
 ### Minor tweaks
 
-* Make trading platform landing faster ([6df2172](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/6df2172fb6774fc6e2ad4c3730eaa0845a2238df))
+* Make trading platform landing faster ([6df2172](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6df2172fb6774fc6e2ad4c3730eaa0845a2238df))
 
 

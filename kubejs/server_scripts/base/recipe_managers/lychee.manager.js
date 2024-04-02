@@ -67,7 +67,8 @@ function addDripping(block_out, target_block, source_block) {
   };
   modpackRecipes.push(result);
 }
-function addBlockInteract(block_out, block_in, item_in) {
+function addBlockInteract(block_out, block_in, item_in, ghost) {
+  ghost = ghost || false;
   let post = {
     type: "place",
     block: block_out,
@@ -77,6 +78,7 @@ function addBlockInteract(block_out, block_in, item_in) {
     item_in: solveLimitedIngredient(item_in),
     block_in: block_in,
     post: post,
+    ghost: ghost,
   };
   modpackRecipes.push(recipe);
 }
@@ -100,6 +102,7 @@ function addBlockInteractToItem(
   advancement,
   ghost
 ) {
+  item_out = Item.of(item_out);
   ghost = ghost || false;
   let post = [
     {
@@ -107,16 +110,31 @@ function addBlockInteractToItem(
       block: "air",
     },
     {
-      type: "drop_item",
-      item: item_out,
+      type: "delay",
+      s: 0.1,
+    },
+    {
+      type: "move_towards_face",
+      factor: -0.05,
+    },
+    {
+      type: "execute",
+      hide: true,
+      command: `summon item ~ ~ ~ {Item:{id:"${item_out.id}",Count:${item_out.count}b}}`,
     },
   ];
+  let postFake = [
+    {
+      type: "drop_item",
+      item: item_out.id,
+    },
+  ]
   if (advancement != null) {
-    post[2] = {
+    post.push({
       type: "execute",
       hide: true,
       command: `advancement grant @a[dx=${advancementRadius},dy=${advancementRadius},dz=${advancementRadius}] until ${advancement}`,
-    };
+    });
   }
   let recipe = {
     type: "lychee:block_interacting",
@@ -124,8 +142,17 @@ function addBlockInteractToItem(
     block_in: block_in,
     post: post,
     ghost: ghost,
+    hidden: true,
+  };
+  let recipeFake = {
+    type: "lychee:block_interacting",
+    item_in: solveLimitedIngredient(item_in),
+    block_in: block_in,
+    post: postFake,
+    ghost: true,
   };
   modpackRecipes.push(recipe);
+  modpackRecipes.push(recipeFake);
 }
 function addGrow(block_out, block_in, item_in, ghost) {
   ghost = ghost || false;

@@ -1,8 +1,8 @@
-### [1.142.2](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.142.1...1.142.2) (2023-12-11)
+### [1.142.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.142.1...1.142.2) (2023-12-11)
 
 
 ### Documentation and Localization
 
-* rename wrench to magnetic wrench ([9248a1e](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9248a1e3f9396e9b83764966e1a2db80b550328f))
+* rename wrench to magnetic wrench ([9248a1e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9248a1e3f9396e9b83764966e1a2db80b550328f))
 
 

@@ -1,0 +1,27 @@
+{
+  "parent": "ptd:bread",
+  "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                    "items": ["minecraft:cake"]
+                } ]
+            }
+        }
+  },
+  "display": {
+      "icon": {
+          "item": "minecraft:cake"
+      },
+      "title": { "translate": "advancement.ptdye.cake", "color": "white" },
+      "description": { "translate": "advancement.ptdye.cake.desc", "color": "grey" },
+      "frame": "task",
+      "hidden": false,
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "requirements": [ [ 
+      "0"
+  ] ]
+}

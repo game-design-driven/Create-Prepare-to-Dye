@@ -1,8 +1,8 @@
-## [1.103.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.102.0...1.103.0) (2023-11-29)
+## [1.103.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.102.0...1.103.0) (2023-11-29)
 
 
 ### Features
 
-* expand on silicon from slime ([3bfde41](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3bfde4174d9caf7115e7bf3c1766b6cff5b1153e))
+* expand on silicon from slime ([3bfde41](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3bfde4174d9caf7115e7bf3c1766b6cff5b1153e))
 
 

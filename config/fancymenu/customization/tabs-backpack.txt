@@ -1,0 +1,90 @@
+type = menu
+
+customization-meta {
+  identifier = vazkii.quark.addons.oddities.client.screen.BackpackInventoryScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=516478%
+  action = hidebutton
+}
+
+customization {
+  path = fancymenu_data/tags-inventory-8.png
+  orientation = mid-centered
+  x = -88
+  width = 256
+  action = addtexture
+  actionid = aba7d8bf-0b3b-4326-a5f3-1313369dff4f1703459401762
+  y = -134
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/openStonecutter%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -63
+  width = 20
+  action = addbutton
+  actionid = e14a0e08-66be-474b-bc4e-9eb58703e0341703802580796
+  y = -133
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
+  path = fancymenu_data/smart_device.png
+  orientation = mid-centered
+  x = -12
+  width = 15
+  action = addtexture
+  actionid = 20b65583-7339-4824-ad96-84ef896833311703513317383
+  y = -129
+  height = 15
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/openPonderIndex%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -39
+  width = 20
+  action = addbutton
+  actionid = 272f388c-5bf5-4751-ae79-113c9f11a1291703803802554
+  y = -133
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.advancements.AdvancementsScreen%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
+  label = 
+  loopbackgroundanimations = false
+  x = -15
+  width = 20
+  action = addbutton
+  actionid = 58b067c8-230d-43d9-8d3a-720ebeabb39f1703803950710
+  y = -133
+  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  height = 29
+}
+

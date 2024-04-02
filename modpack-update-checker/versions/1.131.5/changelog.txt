@@ -1,8 +1,8 @@
-### [1.131.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.131.4...1.131.5) (2023-12-10)
+### [1.131.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.131.4...1.131.5) (2023-12-10)
 
 
 ### Documentation and Localization
 
-* update pure daisy tagline to be more helpful for white powder ([86d0294](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/86d0294100cb0461507234292260d65bc8307c9d))
+* update pure daisy tagline to be more helpful for white powder ([86d0294](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/86d0294100cb0461507234292260d65bc8307c9d))
 
 

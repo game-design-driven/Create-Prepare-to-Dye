@@ -1,8 +1,8 @@
-### [1.152.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.152.0...1.152.1) (2023-12-14)
+### [1.152.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.152.0...1.152.1) (2023-12-14)
 
 
 ### Documentation and Localization
 
-* add tooltip to controller ([95258ca](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/95258ca4578941c383faa6cc0027df54f35d4bac))
+* add tooltip to controller ([95258ca](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/95258ca4578941c383faa6cc0027df54f35d4bac))
 
 

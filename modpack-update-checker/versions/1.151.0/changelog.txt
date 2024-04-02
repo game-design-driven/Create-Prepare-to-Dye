@@ -1,14 +1,14 @@
-## [1.151.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.150.2...1.151.0) (2023-12-13)
+## [1.151.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.150.2...1.151.0) (2023-12-13)
 
 
 ### Features
 
-* add propper track and monorail recipes ([7ef8e53](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/7ef8e53d148c2f01f389995a7f36fe61e8478c38))
-* remove irrelevent racks from game ([e19d4d4](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/e19d4d42120130cce601367aa7b63f69944ada0b))
+* add propper track and monorail recipes ([7ef8e53](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7ef8e53d148c2f01f389995a7f36fe61e8478c38))
+* remove irrelevent racks from game ([e19d4d4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e19d4d42120130cce601367aa7b63f69944ada0b))
 
 
 ### Documentation and Localization
 
-* rename chocolate to brown ingot ([f86b0f1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/f86b0f14ae14b77277d4d8686089863f8e9191fa))
+* rename chocolate to brown ingot ([f86b0f1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f86b0f14ae14b77277d4d8686089863f8e9191fa))
 
 

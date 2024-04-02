@@ -1,13 +1,13 @@
-## [1.88.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.87.3...1.88.0) (2023-11-26)
+## [1.88.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.87.3...1.88.0) (2023-11-26)
 
 
 ### Features
 
-* add manual refuling support for regular engine ([50cf127](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/50cf12773786eb042adeb39bc1344c0e39739aac))
+* add manual refuling support for regular engine ([50cf127](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/50cf12773786eb042adeb39bc1344c0e39739aac))
 
 
 ### Documentation and Localization
 
-* update engine tooltip ([02b7fe1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/02b7fe1bd65f46271c76147816e2e617501f38a7))
+* update engine tooltip ([02b7fe1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/02b7fe1bd65f46271c76147816e2e617501f38a7))
 
 

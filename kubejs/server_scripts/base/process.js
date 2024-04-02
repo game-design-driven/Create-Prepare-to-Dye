@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     removeAirFromRecipe(recipe);
     if (!hasRemovedItems(recipe)) {
       let r = event.custom(recipe);
-      r.id = getUniqueRecipeName(r);
+      r.id = getUniqueRecipeName(r, recipe.prefix);
       if (recipe.hidden) {
         r.id = r.id + "/hidden";
       }
@@ -15,10 +15,21 @@ ServerEvents.recipes((event) => {
     event.remove(recipeFilter);
   });
 
-  event.forEachRecipe([{ type: 'minecraft:stonecutting' }], recipe => {
-    allStonecuttingRecipes.push(recipe);
+  event.forEachRecipe([{ type: "minecraft:stonecutting" }], (recipe) => {
+    if (!recipe) return;
+    allStonecuttingRecipes.push({
+      type: "minecraft:stonecutting",
+      result: solveResult(
+        Item.of(
+          recipe.json.asJsonObject.get("result"),
+          recipe.json.asJsonObject.get("count") || 1
+        )
+      ),
+      ingredient: solveLimitedIngredient(
+        recipe.json.asJsonObject.get("ingredient")
+      ),
+    });
   });
-
 });
 
 function hasRemovedItems(recipe) {

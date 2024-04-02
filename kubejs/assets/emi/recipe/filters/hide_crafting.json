@@ -1,8 +1,11 @@
 {
     "filters": [
       {"category": "minecraft:crafting"},
+      {"category": "minecraft:brewing"},
       {"category": "minecraft:smelting"},
+      {"category": "minecraft:smoking"},
       {"category": "minecraft:blasting"},
+      {"category": "emi:grinding"},
       {"category": "easy_villagers:incubating"},
       {"category": "easy_villagers:converting"},
       {"category": "easy_villagers:breeding"},
@@ -10,7 +13,6 @@
       {"category": "ae2:attunement"},
       {"category": "ae2:certus_growth"},
       {"category": "ae2:condenser"},
-      {"category": "emi:anvil_repairing"},
-      {"category": "emi:world_interaction"}
+      {"category": "emi:anvil_repairing"}
     ]
 }

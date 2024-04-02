@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:deepslate_redstone_ore"
+	],
+	"text": "block.minecraft.deepslate_redstone_ore.tooltip.summary"
+}

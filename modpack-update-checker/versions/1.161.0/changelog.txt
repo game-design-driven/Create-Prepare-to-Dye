@@ -1,14 +1,14 @@
-## [1.161.0](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.160.1...1.161.0) (2023-12-16)
+## [1.161.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.160.1...1.161.0) (2023-12-16)
 
 
 ### Features
 
-* buff shaft recipe dramatically and slightly nerf gantry shaft and extension pole ([a4319d7](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/a4319d78f8cd0a2e960414c2e16f1f1bf81786d4))
-* Nether brick from chocolate and black ([699872f](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/699872f483ccb83405c8fa4b1cf6139d4ca1ee91))
+* buff shaft recipe dramatically and slightly nerf gantry shaft and extension pole ([a4319d7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a4319d78f8cd0a2e960414c2e16f1f1bf81786d4))
+* Nether brick from chocolate and black ([699872f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/699872f483ccb83405c8fa4b1cf6139d4ca1ee91))
 
 
 ### Minor tweaks
 
-* nerf redstone from nether wart recipe ([8abe259](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/8abe259d3e6fcb34be3cd09676e16077d958d85f))
+* nerf redstone from nether wart recipe ([8abe259](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8abe259d3e6fcb34be3cd09676e16077d958d85f))
 
 

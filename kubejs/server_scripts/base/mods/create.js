@@ -103,13 +103,12 @@ if (feature("Replace golden sheet with brass one")) {
   addShaped("create:brown_toolbox", [" c ", "pCp", " l "], {
     c: "#forge:cogs",
     p: "#forge:plates",
-    l: "#forge:leather",
+    l: "#forge:canvasables",
     C: "#forge:chests",
   });
   removeItem("create:golden_sheet");
   removeRecipe({ id: "create:crafting/kinetics/wrench" });
-  addShaped("create:wrench", ["pp ", "pc ", " s "], {
-    p: "#forge:plates",
+  addShaped("create:wrench", ["c", "s"], {
     c: "#forge:cogs",
     s: "#forge:rods",
   });
@@ -280,3 +279,25 @@ if (feature("Blaze is capturable")) {
     event.add("create:blaze_burner_capturable", ["more_babies:blaze"]);
   });
 }
+
+if (feature('Block of brass is made with plates instead of ingots')) {
+  removeRecipe({ id: 'create:crafting/materials/brass_block_from_compacting' })
+  addShaped('create:brass_block', ['ppp', 'ppp', 'ppp'], {
+    p: '#forge:plates/brass'
+  })
+  addShapeless('9x create:brass_sheet', 'create:brass_block')
+}
+
+if (feature('Sugar to white dye')) {
+  addMixing('white_dye', ['4x sugar'], temperature.none)
+}
+
+if (feature('Cheaper blaze cake')) {
+  removeRecipe({ id: 'create:filling/blaze_cake' })
+  addFilling('create:blaze_cake', 'create:blaze_cake_base', '10x lava')  
+}
+
+if (feature('Remove tree fertilizer')){
+  removeItem('create:tree_fertilizer')
+}
+

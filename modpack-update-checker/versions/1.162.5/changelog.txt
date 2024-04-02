@@ -1,8 +1,8 @@
-### [1.162.5](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.162.4...1.162.5) (2023-12-17)
+### [1.162.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.162.4...1.162.5) (2023-12-17)
 
 
 ### Features
 
-* Adds deployer recipe for name tag ([#419](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/419)) ([3b92d59](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/3b92d5948831e99f9cd93446e406470247a0ab40))
+* Adds deployer recipe for name tag ([#419](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/419)) ([3b92d59](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3b92d5948831e99f9cd93446e406470247a0ab40))
 
 

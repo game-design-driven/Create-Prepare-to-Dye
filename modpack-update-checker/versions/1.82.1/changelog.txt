@@ -1,8 +1,8 @@
-### [1.82.1](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.82.0...1.82.1) (2023-11-25)
+### [1.82.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.82.0...1.82.1) (2023-11-25)
 
 
 ### Minor tweaks
 
-* buff early plate trade ([ef8f053](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/ef8f0532578503c1c40eaab06fccc9ccb18083f3)), closes [#296](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/issues/296)
+* buff early plate trade ([ef8f053](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ef8f0532578503c1c40eaab06fccc9ccb18083f3)), closes [#296](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/296)
 
 

@@ -1,5 +1,5 @@
 {
-  "parent": "ptd:white_ingot",
+  "parent": "ptd:raw_white",
   "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed",

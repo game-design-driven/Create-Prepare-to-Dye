@@ -1,8 +1,8 @@
-### [1.93.3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/compare/1.93.2...1.93.3) (2023-11-28)
+### [1.93.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.93.2...1.93.3) (2023-11-28)
 
 
 ### Fixes
 
-* event for trading_transceiver getting canceled too soon ([9edbcd3](https://github.com/Yarden-zamir/Create-Prepare-to-Dye/commit/9edbcd3927dc01791a4ec04ec001fbe0e1fd5e46))
+* event for trading_transceiver getting canceled too soon ([9edbcd3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9edbcd3927dc01791a4ec04ec001fbe0e1fd5e46))
 
 

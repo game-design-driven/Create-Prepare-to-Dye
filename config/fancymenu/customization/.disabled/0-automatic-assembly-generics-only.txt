@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.inventory.StonecutterScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_data/auto-assembler-only-1.png
+  orientation = mid-centered
+  x = 68
+  width = 15
+  action = addtexture
+  actionid = 0a7ba3dd-9154-4de9-9061-9eb1a05bff261703501068152
+  y = -102
+  height = 20
+}
+

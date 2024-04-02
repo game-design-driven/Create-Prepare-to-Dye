@@ -1,0 +1,8 @@
+### [1.211.52](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.211.51...1.211.52) (2024-02-04)
+
+
+### Fixes
+
+* dupe glitch with belts and wand of the forest ([8c90129](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8c9012948e6bf1e2fe1e1da3769937b15d0a4aa7))
+
+
