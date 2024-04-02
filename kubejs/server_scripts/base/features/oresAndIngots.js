@@ -176,8 +176,8 @@ if (feature('Remove zinc')) {
     removeRecipe({ id: 'create:crafting/kinetics/rose_quartz_lamp' })
     removeRecipe({ id: 'create:copycat_step_from_ingots_zinc_stonecutting'})
     removeRecipe({ id: 'create:copycat_panel_from_ingots_zinc_stonecutting'})
-    addCutting('create:copycat_step', '#forge:ingots')
-    addCutting('create:copycat_panel', '#forge:ingots')
+    addStonecutting('4x create:copycat_step', 'railways:conductor_vent')
+    addStonecutting('4x create:copycat_panel', 'railways:conductor_vent')
     // addItemApplication('create:rose_quartz_lamp', ['minecraft:redstone_lamp', 'create:polished_rose_quartz'])
 
 }
