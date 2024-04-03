@@ -73,6 +73,14 @@ addToTag("forge:canvasables", [
   "minecraft:phantom_membrane",
 ]);
 
+addToTag("forge:glowy_items", [
+  'minecraft:redstone',
+  'minecraft:glowstone_dust',
+  'minecraft:glow_ink_sac',
+  'minecraft:prismarine_crystals',
+  'minecraft:glow_berries'
+]);
+
 removeFromTag("logs_that_burn", "botania:livingwood");
 
 addToTag("forge:meat/fat", [
