@@ -20,3 +20,8 @@ if (feature("Remove bamboo spikes")) {
   removeItem("supplementaries:bamboo_spikes");
   removeItem("supplementaries:bamboo_spikes_tipped");
 }
+
+if (feature("No gaps in wrench recipe")) {
+  removeRecipe({id:"supplementaries:wrench"})
+  addShaped("supplementaries:wrench", ["ini"," i "," i "], { i: "minecraft:copper_ingot", n: "create:copper_nugget"})
+}
