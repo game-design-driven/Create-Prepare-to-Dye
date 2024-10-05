@@ -120,7 +120,7 @@ BlockEvents.rightClicked("ptdye:animation_block", (event) => {
     if (heldItem.id == "ptdye:animation_anchor")
       return animation_block_failure(event, "Anchor has no target set")
     blockEntity.data.put("anchor", heldItem.nbt.get("target"))
-    return animation_block_success(event, `Anchor set to [${heldItem.nbt.getIntArray("target").join(' ,')}]`)
+    return animation_block_success(event, `Anchor set to [${heldItem.nbt.getIntArray("target").join(', ')}]`)
   } else if(player.isShiftKeyDown())
   { // Schematic
     const name = blockEntity.data.getString("name")
