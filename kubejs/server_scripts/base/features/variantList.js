@@ -34,7 +34,6 @@ global.variants = [
   ["botania:livingrock_wall", "botania:livingrock"],
   ["botania:livingwood_fence", "botania:livingwood_planks"],
   ["botania:livingwood_fence_gate", "botania:livingwood_planks"],
-  ["botania:livingwood_slab", "botania:livingwood_planks"],
   ["botania:livingwood_stairs", "botania:livingwood_planks"],
   ["botania:livingwood_wall", "botania:livingwood_planks"],
   ["botania:mana_glass_pane", "botania:mana_glass"],
