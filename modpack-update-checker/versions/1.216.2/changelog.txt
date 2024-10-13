@@ -1,0 +1,8 @@
+### [1.216.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.216.1...1.216.2) (2024-10-13)
+
+
+### Fixes
+
+* Texture fix for animation block ([#605](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/605)) ([bfd7670](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bfd76709bcb70520b78feb9e6218134075130897))
+
+
