@@ -382,7 +382,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "61fc5387e8f9d17e6a435b4dd572eb6bbd44b6d330cfe54eff14a193c60d543d"
+hash = "060a95af867a1858e76272a7c1c2864fb1b162131caed2b39f3955dff67a4fa3"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3514,7 +3514,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "83bf78074758ba6c165a5adbd6a6dd804f0905afe9489c3e3d27004ee3590513"
+hash = "aa4232e214ef0113d05cf165a20d87849a32484d4de0490c8460d3bc2fbf2cc6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4214,7 +4214,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
-hash = "cccef32bc8a5bad284752caeb33bb613d9d0f834d19d6a64b2814b23187879b8"
+hash = "c439827cd3f33eaf3bfa96c5ce4fcc3ffb4cd7b46e7d443cf99dcc3e2a1421b0"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/bigbonedfish.nbt"
@@ -4262,7 +4262,7 @@ hash = "81335a2fe5ae7e3ae45c22c4215cbeac433ef327eb63418587f4e38f98643004"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
-hash = "844d7406abcd60b0759f2cef24ebb35fea049a281e530f96c8c9372ff0b078e5"
+hash = "c7443502d8759769d7b55cab64de74d143c4139d517a512ef194b02699fbbfd0"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure/large_fossil.json"
@@ -5534,7 +5534,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "1ae679f0efd9a5bf6c79c3226cbfdaf63902c82d78b565335630a1ab00376d41"
+hash = "f6d0a5e5ef4141e4033dce071a8e65bbc6e0aba2f4086788c3595d6c4b169f04"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7479,6 +7479,10 @@ hash = "0c5c87685a06cc604efe7a3ccaac2db724ec57068e35edb630ccedcf3542242c"
 [[files]]
 file = "modpack-update-checker/versions/1.216.4/changelog.txt"
 hash = "f1f0313739bb5c1c999e48b9ba760d208632468368a3e20c8ff2bdc329d91d1b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.216.5/changelog.txt"
+hash = "754ec9cc40cdb54bea34d849badb32fcb6011bf226aa91881864af21fbec8057"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

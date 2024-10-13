@@ -1,0 +1,8 @@
+### [1.216.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.216.4...1.216.5) (2024-10-13)
+
+
+### Features
+
+* Make spawn less crazy ([#611](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/611)) ([77c9131](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/77c9131dabd60db941c86c1106ddbf14e2e4229a))
+
+
