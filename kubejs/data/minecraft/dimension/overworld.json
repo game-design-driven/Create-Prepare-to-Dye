@@ -9,55 +9,55 @@
         {
           "biome": "minecraft:eroded_badlands",
           "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
             "continentalness": [
               0.03,
               0.3
             ],
-            "depth": 0.0,
             "erosion": [
               -0.2225,
               0.05
             ],
-            "humidity": [
-              -1.0,
-              -0.35
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
-            ],
             "weirdness": [
               0.4,
               0.5666
-            ]
+            ],
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:badlands",
           "parameters": {
+            "temperature": [
+              0.5,
+              2
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
             "continentalness": [
               0.03,
               0.3
             ],
-            "depth": 0.0,
             "erosion": [
-              -1.0,
+              -1,
               -0.7799
-            ],
-            "humidity": [
-              -1.0,
-              -0.35
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
             ],
             "weirdness": [
               0.4,
               0.5
-            ]
+            ],
+            "depth": 0,
+            "offset": 0
           }
         }
       ]
