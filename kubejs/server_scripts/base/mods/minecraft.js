@@ -546,3 +546,23 @@ if (feature('Replace bucket recipe with assembler recipe')) {
   removeRecipe({id:'minecraft:bucket'})
   addStonecutting('bucket', '#forge:ingots/iron')
 }
+
+if (feature('Handled shears')) {
+  removeRecipe({id:'minecraft:shears'})
+  addShaped('minecraft:shears', ['ri','ir'], { r: '#forge:rods', i: '#forge:ingots/iron' })
+}
+
+if (feature('Replace bottle recipe with assembler recipe')) {
+  removeRecipe({id:'minecraft:glass_bottle'})
+  addStonecutting('minecraft:glass_bottle', 'minecraft:glass')
+}
+
+if (feature('New lead recipe')) {
+  removeRecipe({id:'minecraft:lead'})
+  addShaped('minecraft:lead', ['s ','ss'], { s: 'minecraft:string'})
+  addShaped('minecraft:lead', ['s ','ss'], { s: 'ae2:silicon'})
+}
+
+if (feature('Alternate Bottle Recipe')) {
+  addDeploying(['minecraft:glass_bottle'],'minecraft:glass','#minecraft:buttons')
+}

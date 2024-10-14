@@ -143,3 +143,14 @@ if (feature('Reduce mana price of manasteel')) {
   addInfusion('botania:manasteel_ingot', '#forge:ingots/iron', 1000)
   addInfusion('botania:manasteel_block', '#forge:storage_blocks/iron', 9000)
 }
+
+if (feature('Handled shears')) {
+  removeRecipe({id:'botania:manasteel_shears'})
+  addShaped('botania:manasteel_shears', ['rm','mr'], { r: '#forge:rods', m: 'botania:manasteel_ingot' })
+}
+
+if (feature('Straighten livingwood twig')) {
+  removeRecipe({input:'botania:livingwood_log',output:'minecraft:stick'})
+  removeRecipe({id:'botania:livingwood_twig'})
+  addShaped('botania:livingwood_twig', ['l','l'], { l: 'botania:livingwood_log' })
+}
