@@ -2,6 +2,7 @@ This pull request will be merged when its done, when the following checkboxes ar
 [ ] - tested and confirmed working
     [ ] - singleplayer
     [ ] - server
+    [ ] - exsisting world
     [ ] - all test cases
         [ ] - case 1
         [ ] - case 2
