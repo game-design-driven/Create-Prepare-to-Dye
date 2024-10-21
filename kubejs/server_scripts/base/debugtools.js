@@ -13,7 +13,6 @@ ServerEvents.commandRegistry((event) => {
       return 0;
     })
   );
-});
   event.register(
     Commands.literal("trading").executes((context) => {return 0})
     .then(Commands.literal("getPostageStamp").executes((context) => {
@@ -37,4 +36,23 @@ ServerEvents.commandRegistry((event) => {
         context.getSource().player.tell(Text.of(index + ": " + x + "," + z));
       }
       return 0;
+    })).then(Commands.literal("delete").executes((context) => {return 0;}).then(Commands.argument("index", Arguments.INTEGER.create(event)).executes((context) => {
+      let index = Arguments.INTEGER.getResult(context, "index");
+      context.getSource().player.tell(Text.of("Deleting platform at index " + index));
 
+      let existing_platforms_x = Utils.server.persistentData.getIntArray("existing_platforms_x").slice();;
+      let existing_platforms_z = Utils.server.persistentData.getIntArray("existing_platforms_z").slice();;
+      if (index < existing_platforms_x.length) {
+        existing_platforms_x.splice(index, 1);
+        existing_platforms_z.splice(index, 1);
+        Utils.server.persistentData.putIntArray("existing_platforms_x", existing_platforms_x);
+        Utils.server.persistentData.putIntArray("existing_platforms_z", existing_platforms_z);
+        context.getSource().player.tell(Text.of("Successfully deleted platform at index " + index));
+        return 0;
+      } else {
+        context.getSource().player.tell(Text.of("There is no platform at index " + index));
+        return 1;
+      }
+    }))))
+  )
+});
