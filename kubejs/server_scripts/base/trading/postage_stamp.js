@@ -1,7 +1,11 @@
 if (feature('Postage stamp')) {
     BlockEvents.rightClicked("wares:delivery_table",(event) => {
-        if (event.player.mainHandItem.id !== "ptdye:postage_stamp_transceiver") return;
+        if (event.getHand().name() != "MAIN_HAND")
+            return event.cancel();
         
+        event.player.swing()
+        if (event.player.mainHandItem.id !== 'ptdye:postage_stamp_transceiver') return;
+
         let delivery_table_platform = event.getLevel().getBlock(event.block.getPos().below())
         
         event.block.set('minecraft:air')
@@ -20,15 +24,15 @@ if (feature('Postage stamp')) {
             }else{
             //this was a pirated trading platform, insert funny thing here
             }
-            Utils.server.runCommand(`/playsound minecraft:entity.enderman.teleport block @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1.0 2.0`);
-            Utils.server.runCommand(`/playsound minecraft:block.gilded_blackstone.break ambient @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1 1.2`);
-            Utils.server.runCommand(`/playsound minecraft:entity.enderman.teleport block @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1.0 2.0`);
-            Utils.server.runCommand(`/particle minecraft:portal ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 0 -100 0 0.1 10000 force @a`);
-            Utils.server.runCommand(`/particle minecraft:portal ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 0.1 0 0.1 0.1 1000 normal @a`);
-            event.server.scheduleInTicks(50, callback => {
-            event.block.popItem("ptdye:trading_transceiver");
-            })
         }
+        Utils.server.runCommandSilent(`/playsound minecraft:entity.enderman.teleport block @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1.0 2.0`);
+        Utils.server.runCommandSilent(`/playsound minecraft:block.gilded_blackstone.break ambient @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1 1.2`);
+        Utils.server.runCommandSilent(`/playsound minecraft:entity.enderman.teleport block @a ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 1.0 2.0`);
+        Utils.server.runCommandSilent(`/particle minecraft:portal ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 0 -100 0 0.1 10000 force @a`);
+        Utils.server.runCommandSilent(`/particle minecraft:portal ${event.block.getPos().getX()} ${event.block.getPos().getY()} ${event.block.getPos().getZ()} 0.1 0 0.1 0.1 1000 normal @a`);
+        event.server.scheduleInTicks(50, callback => {
+            event.block.popItem("ptdye:trading_transceiver");
+        })
         event.cancel();
       
     });    
