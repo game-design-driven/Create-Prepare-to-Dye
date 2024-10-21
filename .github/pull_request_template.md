@@ -1,8 +1,9 @@
 This pull request will be merged when its done, when the following checkboxes are checked and when it passes review.
-[ ] - tested and confirmed working
-    [ ] - singleplayer
-    [ ] - server
-    [ ] - exsisting world
-    [ ] - all test cases
-        [ ] - case 1
-        [ ] - case 2
+
+# basic checks
+- [ ] feature works in singleplayer
+- [ ] feature works in multiplayer (verify no de-sync issues)
+- [ ] feature works in existing world
+# feature specific checks
+- [ ] test case 1
+- [ ] test case 2
