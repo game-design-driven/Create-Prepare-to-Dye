@@ -1,0 +1,8 @@
+### [1.216.8](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.216.7...1.216.8) (2024-10-21)
+
+
+### Fixes
+
+* cleanup pull request template ([dab2c27](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dab2c27ee6719bf2b7f132fef86791840819f898))
+
+
