@@ -27,8 +27,8 @@ modpackRecipes.push({//special hack to only work on flowing milk
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     if (!event.getTarget().getType() == "minecraft:cow") return
     let currentTime = event.getTarget().level.getTime();
+    event.player.swing();
     if (!event.getTarget().persistentData.get("lastMilked")) {
-        event.player.swing();
         event.getTarget().persistentData.put("lastMilked", currentTime)
     }else{
         let lastMilked = event.getTarget().persistentData.getLong("lastMilked");
@@ -38,7 +38,6 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
             event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
             event.cancel();
         }else{
-            event.player.swing();
             event.getTarget().persistentData.put("lastMilked", currentTime)
         }
     }
