@@ -15,17 +15,18 @@ ServerEvents.commandRegistry((event) => {
   );
   event.register(
     Commands.literal("trading").executes((context) => {return 0})
-    .then(Commands.literal("getPostageStamp").executes((context) => {
+    .then(Commands.literal("getPostageStamp").requires(s => s.hasPermission(2))
+    .executes((context) => {
       let postageStamp = Item.of("ptdye:postage_stamp_transceiver");
       context.getSource().player.give(postageStamp);
       return 0;
     }))
-    .then(Commands.literal("getTradingTransceiver").executes((context) => {
+    .then(Commands.literal("getTradingTransceiver").requires(s => s.hasPermission(2)).executes((context) => {
       let tradingTransceiver = Item.of("ptdye:trading_transceiver");
       context.getSource().player.give(tradingTransceiver);
       return 0;
     }))
-    .then(Commands.literal("getPostageTradeAgreement").executes((context) => {
+    .then(Commands.literal("getPostageTradeAgreement").requires(s => s.hasPermission(2)).executes((context) => {
       let player = context.getSource().getPlayer();
       player.give(postage_stamp_transceiver_agreement.item);
       return 0;
@@ -41,7 +42,7 @@ ServerEvents.commandRegistry((event) => {
         context.getSource().player.tell(Text.of(index + ": " + x + "," + z));
       }
       return 0;
-    })).then(Commands.literal("delete").executes((context) => {return 0;}).then(Commands.argument("index", Arguments.INTEGER.create(event)).executes((context) => {
+    })).then(Commands.literal("delete").requires(s => s.hasPermission(2)).executes((context) => {return 0;}).then(Commands.argument("index", Arguments.INTEGER.create(event)).executes((context) => {
       let index = Arguments.INTEGER.getResult(context, "index");
       context.getSource().player.tell(Text.of("Deleting platform at index " + index));
 
@@ -59,7 +60,5 @@ ServerEvents.commandRegistry((event) => {
         return 1;
       }
     }))))
-    // .then(Commands.argument("index", Arguments.INTEGER.create(event)).executes((context) => {
-    
   )
 });
