@@ -13,13 +13,16 @@ let postage_stamp_transceiver_agreement = getAgreement(
         "9x botania:mana_glass"
       ],
       title: "Wrong place?",
-      orderedAmount: 1,
+      orderedAmount: 0,
       company: "United SPACE consumer union plus plus",
       message:
         "If you want to return your trading terminal so you can place it again somewhere else, weve got you covered!",
     });
 if (feature('Postage stamp')) {
-      
+    addPressing(
+      postage_stamp_transceiver_agreement.item,
+      "ptdye:smart_device"
+    )
     BlockEvents.rightClicked("wares:delivery_table",(event) => {
         if (event.getHand().name() != "MAIN_HAND")
             return event.cancel();
