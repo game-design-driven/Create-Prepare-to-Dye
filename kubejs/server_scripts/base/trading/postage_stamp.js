@@ -1,4 +1,25 @@
+let postage_stamp_transceiver_agreement = getAgreement(
+    "postage_stamp_transceiver_agreement",{
+      paymentItems: [
+        Item.of(
+          "ptdye:postage_stamp_transceiver",
+        )
+      ],
+      requestedItems: [
+        "31x quark:iron_plate",
+        "12x create:metal_girder",
+        "ptdye:furnished_device",
+        "ptdye:mechanical_device",
+        "9x botania:mana_glass"
+      ],
+      title: "Wrong place?",
+      orderedAmount: 1,
+      company: "United SPACE consumer union plus plus",
+      message:
+        "If you want to return your trading terminal so you can place it again somewhere else, weve got you covered!",
+    });
 if (feature('Postage stamp')) {
+      
     BlockEvents.rightClicked("wares:delivery_table",(event) => {
         if (event.getHand().name() != "MAIN_HAND")
             return event.cancel();
