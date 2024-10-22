@@ -1,0 +1,8 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"fluid:minecraft:milk",
+		"fluid:ptdye:flowing_milk"
+	],
+	"text": "fluid.ptdye.milk.info"
+}

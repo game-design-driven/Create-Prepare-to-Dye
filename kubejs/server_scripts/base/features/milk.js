@@ -1,3 +1,29 @@
+// addPurify('white_concrete_powder', 'milk', 15)
+addPurify('white_concrete_powder', 'ptdye:flowing_milk', 15)
+ServerEvents.tags("fluid", (event) => {event.add("ptdye:flowing_milk", ["minecraft:flowing_milk"]);});
+ServerEvents.tags("block", (event) => {event.add("ptdye:milk", ["minecraft:milk"]);});
+modpackRecipes.push({//special hack to only work on flowing milk
+    type: "botania:pure_daisy",
+    hidden: true,
+    time: 15,
+    input: {
+      type: "tag_excluding",
+      tag: "ptdye:milk",
+      exclude: [
+        {
+          type: "state",
+          name: "minecraft:milk",
+          properties: {
+            level: "0",
+          },
+        },
+      ],
+    },
+    output: {
+      name: "minecraft:white_concrete_powder",
+    },
+});
+
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     if (event.getTarget().getType() == "minecraft:cow") {
     let currentTime = event.getTarget().level.getTime();
@@ -17,5 +43,5 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
         event.getTarget().persistentData.put("lastMilked", currentTime);
     }
   }
-  });
+});
   

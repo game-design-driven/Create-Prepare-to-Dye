@@ -219,6 +219,7 @@
     "tag.item.wares.agreements": "Agreements",
     "tag.item.wares.cardboard_box_blacklisted": "Blacklisted Cardboard Boxes",
     "tag.item.wares.delivery_boxes": "Delivery Boxes",
+    "fluid.ptdye.milk.info": "Milk, the ultimate lifeblood of the universe, is a versatile fluid that can be used to fuel rockets, create matter and sate the thirsty. _Can be acquired by milking Betsy_",
 
     "ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
 }
