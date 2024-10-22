@@ -4,6 +4,7 @@ ServerEvents.tags("fluid", (event) => {event.add("ptdye:flowing_milk", ["minecra
 ServerEvents.tags("block", (event) => {event.add("ptdye:milk", ["minecraft:milk"]);});
 modpackRecipes.push({//special hack to only work on flowing milk
     type: "botania:pure_daisy",
+    hidden: true,
     time: 15,
     input: {
       type: "tag_excluding",
@@ -21,27 +22,7 @@ modpackRecipes.push({//special hack to only work on flowing milk
     output: {
       name: "minecraft:white_concrete_powder",
     },
-  });
-  modpackRecipes.push({
-    type: "botania:pure_daisy",
-    time: 1,
-    input: {
-      type: "compound",
-      ingredients: [
-        {
-          type: "state",
-          name: "minecraft:milk",
-          properties: {
-            displayName: "Flowing Milk",
-            level: "7",
-          },
-        },
-      ],
-    },
-    output: {
-      name: "minecraft:white_concrete_powder",
-    },
-  });
+});
 
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     if (event.getTarget().getType() == "minecraft:cow") {
