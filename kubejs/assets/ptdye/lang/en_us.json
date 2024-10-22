@@ -219,6 +219,7 @@
     "tag.item.wares.agreements": "Agreements",
     "tag.item.wares.cardboard_box_blacklisted": "Blacklisted Cardboard Boxes",
     "tag.item.wares.delivery_boxes": "Delivery Boxes",
+    "fluid.ptdye.flowing_milk.info": "Flowing Milk is milk that flows",
 
     "ptdye.lang.EOF": "Ignore! This is here so you don't have to keep adding ',' to previous lines adding additional changes to git"
 }
