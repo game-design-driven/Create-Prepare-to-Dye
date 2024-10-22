@@ -1,0 +1,16 @@
+### [1.218.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.0...1.218.1) (2024-10-22)
+
+
+### Minor tweaks
+
+* reduce milk timer from 440 to 400 ticks ([bcad834](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bcad83437290e81e9add094726ee7d09ea08ae79))
+* swing when trying to milk betsy even if failed ([7fada8b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7fada8b0ae6e4aaf2966c3b4d5f6802c01a79c5c))
+
+
+### Fixes
+
+* milk desync ([062138e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/062138e5c66892731a490a77d3c6098d26bbc672))
+* milk desync and reduce timer to 10 seconds ([#615](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/615)) ([9b7cfc5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9b7cfc5b14b4c51b6d767b4d7e389785bf994799))
+* remove all milking funcionality from the client including minecraft functionality ([a301391](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a301391cb28482e0fbe85fcde2dd84ccd77eeea0))
+
+
