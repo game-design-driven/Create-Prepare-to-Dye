@@ -4,5 +4,5 @@
 		"fluid:minecraft:milk",
 		"fluid:ptdye:flowing_milk"
 	],
-	"text": "fluid.ptdye.flowing_milk.info"
+	"text": "fluid.ptdye.milk.info"
 }
