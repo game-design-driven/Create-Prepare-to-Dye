@@ -20,6 +20,13 @@ if (feature("Trading platforms")) {
         .rarity("epic")
         .group("tools");
     });
+    StartupEvents.registry("item", event => {
+        event.create("ptdye:postage_stamp_transceiver")
+        .displayName("Intergalactic Postage Stamp Transceiver")
+        .unstackable()
+        .rarity("epic")
+        .group("tools");
+    });
 
     BlockEvents.modification(event => {
         event.modify("wares:delivery_table", block => {
