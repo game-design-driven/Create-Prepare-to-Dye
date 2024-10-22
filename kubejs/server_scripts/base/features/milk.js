@@ -33,7 +33,7 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     }else{
         let lastMilked = event.getTarget().persistentData.getLong("lastMilked");
         let timeSinceLastMilked = currentTime - lastMilked;
-        if (timeSinceLastMilked < 440) {
+        if (timeSinceLastMilked < 400) {
             event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
             event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
             event.cancel();
