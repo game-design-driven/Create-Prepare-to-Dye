@@ -25,6 +25,11 @@ ServerEvents.commandRegistry((event) => {
       context.getSource().player.give(tradingTransceiver);
       return 0;
     }))
+    .then(Commands.literal("getPostageTradeAgreement").executes((context) => {
+      let player = context.getSource().getPlayer();
+      player.give(postage_stamp_transceiver_agreement.item);
+      return 0;
+    }))
     .then(Commands.literal("platform").executes((context) => {return 0})
     .then(Commands.literal("list").executes((context) => {
       //prints all trading platforms with ids and cordinates eg : "1: 78,11867"
@@ -54,5 +59,7 @@ ServerEvents.commandRegistry((event) => {
         return 1;
       }
     }))))
+    // .then(Commands.argument("index", Arguments.INTEGER.create(event)).executes((context) => {
+    
   )
 });
