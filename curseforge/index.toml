@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e81baa549b913cf7d30a730d18846ff41aa833928328e3e1f2ec0686d815cd47"
+hash = "3bea0442d74ad9116aa556afd0b84b54ecfd9504af3dabd914c829728082a34c"
 metafile = true
 
 [[files]]
@@ -72,12 +72,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "ee577339c5678df311ec188bb41eef2ca7c02607430b707b5925600328d144c3"
+hash = "1d3277b6c9d52969c9a71f51f0fa63cb46040f56cdec7065edd361706887dbc0"
 metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "978e844d3f6cff7b48c4d5ccb4586665ce43c091a18e4aacbbbcabfcbf39266b"
+hash = "e3fdd68be29336a999c4b2bca692a8314c9bb51f6b58f71fa577435a16410ae5"
 metafile = true
 
 [[files]]
