@@ -1,30 +1,63 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729765727899
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:b9dbf57c-eba7-4e7a-afc7-a68db0539e91-1729765727899] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = fancymenu_data/text.png
-  orientation = mid-centered
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]fancymenu_data/text.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 6295b340-3767-4a70-9716-ed4143ed02bc1702229954929
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -231
-  width = 144
-  action = addtexture
-  actionid = 6295b340-3767-4a70-9716-ed4143ed02bc1702229954929
   y = -58
+  width = 144
   height = 143
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ddc24725-1d09-4a7f-9766-850ce5bd4cff-1729765727899
+  [loading_requirement_container_meta:ddc24725-1d09-4a7f-9766-850ce5bd4cff-1729765727899] = [groups:][instances:]
 }
 
-customization {
+element {
   orientation = mid-centered
   grabber_texture_normal = fancymenu_data/auto-assembler-empty-space.png
   enable_scrolling = true
@@ -44,5 +77,6 @@ customization {
   alignment = left
   base_color = #000000
   height = 125
+  element_type = fancymenu_customization_item_text
 }
 
