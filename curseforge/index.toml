@@ -356,11 +356,6 @@ hash = "5b41c25289361f7791a080ef812c7cab6d9f63ab57b63b0d3ec6694bb78d18dc"
 metafile = true
 
 [[files]]
-file = "mods/tool-kit.pw.toml"
-hash = "10a1f4b25ffb970f98c8394c982b3d9cc80d933de463822ba551ffa6a2192109"
-metafile = true
-
-[[files]]
 file = "mods/universal-bone-meal-forge.pw.toml"
 hash = "dde205665711c195efaf2ef7820885940adeb94c922964331430d7410bcf7f90"
 metafile = true
