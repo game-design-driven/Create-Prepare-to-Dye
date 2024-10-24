@@ -25,23 +25,22 @@ modpackRecipes.push({//special hack to only work on flowing milk
 });
 
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
-    if (event.getTarget().getType() == "minecraft:cow") {
+    if (!event.getTarget().getType() == "minecraft:cow") return
     let currentTime = event.getTarget().level.getTime();
-    if (event.getTarget().persistentData.get("lastMilked")) {
-      let lastMilked = event.getTarget().persistentData.getInt("lastMilked");
-      let timeSinceLastMilked = currentTime - lastMilked;
-      if (timeSinceLastMilked < 440) {
-        
-        event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
-        event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
-
-        event.cancel();
-      }else{
-        event.getTarget().persistentData.put("lastMilked", currentTime);
-      }
+    event.player.swing();
+    if (!event.getTarget().persistentData.get("lastMilked")) {
+        event.getTarget().persistentData.put("lastMilked", currentTime)
     }else{
-        event.getTarget().persistentData.put("lastMilked", currentTime);
+        let lastMilked = event.getTarget().persistentData.getLong("lastMilked");
+        let timeSinceLastMilked = currentTime - lastMilked;
+        if (timeSinceLastMilked < 400) {
+            event.getLevel().runCommandSilent("/particle angry_villager " + event.getTarget().getX() + " " + event.getTarget().getY() + " " + event.getTarget().getZ() + " 0.3 0.7 0.3 1 4");
+            event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
+            event.cancel();
+        }else{
+            event.getTarget().persistentData.put("lastMilked", currentTime)
+        }
     }
-  }
+    
 });
   

@@ -1,0 +1,22 @@
+## [1.218.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.217.0...1.218.0) (2024-10-22)
+
+
+### Features
+
+* only flowing milk turns to white powder ([#614](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/614)) ([d9e7e27](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d9e7e2721d51704946b21d2e8b87e3c8363c13e4))
+* only flowing milk turns to white powder. This will reduce confusion where people used up their milk production without knowing they don't have to ([04ae133](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/04ae1336ffe12caff93df2914f345dbcc0b0cba2))
+
+
+### Documentation and Localization
+
+* add a blurb about milk in an info panel ([9f2a44b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9f2a44b4d302c2d815640927ffa6934d576c674c))
+* fix milk and white powder tooltip to match change ([481659a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/481659aec4df92232c07121b0bd4cc4afc2d34a1))
+* use info panel to connect milk and flowing milk in EMI ([1612cbb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1612cbbba61211c05623bbd744540b910f993810))
+
+
+### Fixes
+
+* actual milk to white powder recipe hidden ([20462fe](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/20462fe8ff2cfd4300792506a6083c4043c8f776))
+* backwards compat triggering on new world. Load order issue ([6886946](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6886946e2e36ef47106d4b5ea2462a4ae548134a))
+
+
