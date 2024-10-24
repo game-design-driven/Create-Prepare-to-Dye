@@ -52,7 +52,7 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.1
         with:
           tag_prefix: ''
-          custom_release_rules: "dev:patch:Developer experience improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
+          custom_release_rules: "chore:patch:chores,dev:patch:Developer experience improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
           github_token: ${{ secrets.GH_TOKEN }}
 
       - name: Create a GitHub release
@@ -113,6 +113,7 @@ jobs:
       - name: Move to curseforge folder and take some folders with me
         if: matrix.platform == 'curseforge'
         run: |
+          rm -rf *.sh 
           cd curseforge
           cp -R ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
       - name: Build Modpack modrinth
