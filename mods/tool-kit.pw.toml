@@ -1,13 +1,13 @@
 name = "Tool Kit"
-filename = "ToolKit-2.3.6-build.10+mc1.19.1.jar"
+filename = "ToolKit-forge-77.0.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fWj0tJp5/versions/b9sKw78J/ToolKit-2.3.6-build.10%2Bmc1.19.1.jar"
+url = "https://cdn.modrinth.com/data/fWj0tJp5/versions/NJEpXBDG/ToolKit-forge-77.0.0.jar"
 hash-format = "sha1"
-hash = "448eb22ef2de274c0eeb5b0576c50094dfb23c0f"
+hash = "ec71436bc96aeb8b22fee649c88c9bdd9e2408fb"
 
 [update]
 [update.modrinth]
 mod-id = "fWj0tJp5"
-version = "b9sKw78J"
+version = "NJEpXBDG"
