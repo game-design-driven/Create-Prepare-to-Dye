@@ -1,13 +1,13 @@
 name = "Simple Rich Discord Presence"
-filename = "SimpleDiscordRichPresence-forge-3.0.5-build.37+mc1.19.2.jar"
+filename = "SimpleDiscordRichPresence-forge-3.0.6-build.39+mc1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SCAopByd/versions/DlRngyOd/SimpleDiscordRichPresence-forge-3.0.5-build.37%2Bmc1.19.2.jar"
+url = "https://cdn.modrinth.com/data/SCAopByd/versions/8dzaSxiR/SimpleDiscordRichPresence-forge-3.0.6-build.39%2Bmc1.19.2.jar"
 hash-format = "sha1"
-hash = "62cfb6b6e4bab3e878783d216db2387e80f49507"
+hash = "fd788092b74b8d1b8a6af2e909f49dc09c2b7202"
 
 [update]
 [update.modrinth]
 mod-id = "SCAopByd"
-version = "DlRngyOd"
+version = "8dzaSxiR"
