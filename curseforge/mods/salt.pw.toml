@@ -1,13 +1,13 @@
 name = "The Salt"
-filename = "salt-1.19.2-1.2.1.jar"
+filename = "salt-1.19.2-1.2.4.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "414b84cd5626ac8cbcde960d17530c8adcb3fd10"
+hash = "2d9e01126dfbc69ec56c0346ec73ecd6995ea8ea"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4634290
+file-id = 5550436
 project-id = 832006
