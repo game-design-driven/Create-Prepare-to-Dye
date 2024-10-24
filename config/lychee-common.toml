@@ -1,0 +1,7 @@
+dispenserFallableBlockPlacement = true
+
+[debug]
+enable = false
+
+[fragment]
+enable = true
