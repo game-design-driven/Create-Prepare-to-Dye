@@ -1,9 +1,9 @@
 ![infographic](https://raw.githubusercontent.com/game-design-driven/Create-Prepare-to-Dye/main/infographic.png)
 # Create : Prepare to Dye         
-[Discord](https://discord.gg/v8cZ83kTPY)
-[GitHub releases](https://github.com/game-design-driven/Create-Prepare-to-Dye/releases)
-[Modrinth Game Versions](https://modrinth.com/modpack/create-prepare-to-dye)
-[Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
+[Discord](https://discord.gg/v8cZ83kTPY)  
+[GitHub releases](https://github.com/game-design-driven/Create-Prepare-to-Dye/releases)  
+[Modrinth Game Versions](https://modrinth.com/modpack/create-prepare-to-dye)  
+[Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)  
 
 ### Create : Prepare to Dye is an opinionated new take on automation based gameplay
 
