@@ -1,0 +1,25 @@
+### [1.218.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.1...1.218.2) (2024-10-24)
+
+
+### Fixes
+
+* remove metal modification from quark crate ([e491bcd](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e491bcd90db2f248eda20a909d32c35b3e8188bf))
+
+
+### Minor tweaks
+
+* increased nightspeed from 11 to 12 ([1197d5d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1197d5d66320f000f9ae9fa2b320da3550551c05))
+
+
+### Modlist related changes
+
+* add melody ([2c9226b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2c9226b1eb2797bfb59d6024a4550be51e8de40d))
+* remove toolkit ([106d925](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/106d925872ef4591030ae39b8608a52fbfe275fc))
+
+
+### Developer experience improvments and changes
+
+* added update_mod script to update mods both in cf and mr. Requires packwiz fd and fzf ([20b74a7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/20b74a707908e65b25769bcdbb315d232b72a6d8))
+* update probjs dumb ([a655cbb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a655cbbf77b21b80bc15c672b5174c5f394832c7))
+
+
