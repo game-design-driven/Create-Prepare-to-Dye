@@ -211,6 +211,11 @@ hash = "4df789d304bb64ca80a65f2af2201e48cf2288c21f1459b7494dba0f6dcf7ec0"
 metafile = true
 
 [[files]]
+file = "mods/melody.pw.toml"
+hash = "dee32dbc5c856b93e3d60c187ff4045be23dd0585fcca47cff72e7b11e9d49b7"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "ad64853eb5ba56dc6e4b1bb9214dbfe28e2a0c865dc76b4b77edee0f11adceff"
 metafile = true
@@ -222,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
-hash = "f1b0f273cf7539c459ba9497bffec788915b2f6516e9fae8148c5123f7f70eab"
+hash = "41ef31e4f3a259bcefa9dced36a1453577bddc967162a058bf352c6ed973ced1"
 metafile = true
 
 [[files]]
