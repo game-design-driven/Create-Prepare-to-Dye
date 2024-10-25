@@ -418,7 +418,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d6b66e059227d5155faec18758cb7dfaaa9c82083314b9b29eb9345ef73e5a5e"
+hash = "4bf85a551c0a00163e9a8c07d452bbf1d1d00abad633c9b478d16784840423ad"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3578,7 +3578,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "014eef76cbf418dd063233aca3a852db3716ca29eb4ad5f8cfd59afabb22e238"
+hash = "033fac29c9ad26860184e0447a3a925fc93cb9b01ab42e2912aed699b5d17e6e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5170,7 +5170,7 @@ hash = "d57d4bfdbee3dac33ac14eeaf6512aec28c6b7ab45ea5ced71b17f93f57f59d4"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/deadPlanet.js"
-hash = "f25b695b5d648312be1921b67db69adec8268f3ccced79fe9bdca28ef075a565"
+hash = "2fc97c18c113918e23b3b25db39756abb7d1e312b60978a8e720d2c01efaf75c"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/developerCommands.js"
@@ -5610,7 +5610,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "71066905d4034bffb2d05220335c25e5d2cfa6ea7578e034d8b8ff4b50388117"
+hash = "c3f860002d401d8c73652aaf4844c3f4527f15ff6b761066510048819c6c135f"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7587,6 +7587,10 @@ hash = "9c123627b775e7bea6d6a93ed2df41c83e0e34435a9985ea8383ea0183e3da66"
 [[files]]
 file = "modpack-update-checker/versions/1.218.3/changelog.txt"
 hash = "ec3aa4bd638128bbb619a17e7609da1a6cdaa794580b17239dc355ab6febb2fa"
+
+[[files]]
+file = "modpack-update-checker/versions/1.218.4/changelog.txt"
+hash = "e22eb2dd67a19b5484d6c67b50c9a675984e533a75518b1a65390296489540a3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
