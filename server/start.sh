@@ -29,11 +29,13 @@ delete_directory() {
 }
 
 grab_directory() {
-    if [ -d "${MODPACK_DIR}"/"$1" ]; then
-        echo "grabbing $1 from modpack folder"
-        cp -r "${MODPACK_DIR}"/"$1" .
-    else
-        echo "$1 directory not found in parent folder, continuing without $1"
+    if [ ! -d "$1" ]; then
+        if [ -d "${MODPACK_DIR}"/"$1" ]; then
+            echo "grabbing $1 from modpack folder"
+            cp -r "${MODPACK_DIR}"/"$1" .
+        else
+            echo "$1 directory not found in parent folder, continuing without $1"
+        fi
     fi
 }
 
@@ -59,13 +61,13 @@ if [ -e VERSION ]; then # only check for updates if there is a VERSION file in t
     fi
 fi
 
+echo grabing relevent game data from modpack folder
+grab_directory mods
+echo "Removing client-side mods" && rm -rf mods/zume* || echo ""
+grab_directory config
+grab_directory kubejs
+grab_directory defaultconfigs
 if [ ! -e VERSION ]; then
-    echo grabing game data from modack folder
-    grab_directory mods
-    echo "Removing client-side mods" && rm -rf mods/zume* || echo ""
-    grab_directory config
-    grab_directory kubejs
-    grab_directory defaultconfigs
     cp "${MODPACK_DIR}"/VERSION VERSION || echo "Failed to copy VERSION file"
 fi
 cd "$(dirname "$0")"
@@ -90,6 +92,7 @@ if [ ! -d libraries ]; then
 
     echo "Running Forge installer."
     "${JAVA_PATH:-java}" -jar "$INSTALLER" -installServer -mirror "$MIRROR"
+    rm run.sh run.bat || echo "Failed to remove run.sh and run.bat"
 fi
 
 if [ ! -e server.properties ]; then
