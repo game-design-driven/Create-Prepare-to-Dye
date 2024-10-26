@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "dee32dbc5c856b93e3d60c187ff4045be23dd0585fcca47cff72e7b11e9d49b7"
+hash = "313e8d86888699c1b31c8440938b7512171ad7f123f0ef4689878f933eff188e"
 metafile = true
 
 [[files]]
