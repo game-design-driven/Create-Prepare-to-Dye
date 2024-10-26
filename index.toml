@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "e74caedc8573843bf7d32ecc0cde8b5ac6d7c874b980284079bace093f8886b8"
+hash = "210e023fdab081698f96d651c6aa7e14b80df729c8ac7d3d1382e45a4dd3fd70"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -422,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6d7f35ba813f05b19a26a9f4001473906336de33ee2967509155d4c8d418f51f"
+hash = "c9d05e2a2979d883530ee91d0ab20560a3b7e60ba26f081764f83b75bc319888"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3582,7 +3582,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "46646a136792c6e0ca39327f3d93a98c27d56a60ba8ea2155579211dbae3ebaf"
+hash = "0c7b30ad541571c5886649ea4297ec8ae7520ed2529e280f7310e7baa645894e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5614,7 +5614,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "18996a20ef073edba78b3cc7f2dc5d441abf99cfa511281360c77e32d9d8b447"
+hash = "e3d6587a2b7c7750008fba3a7c6f59cc075a2b71dccb18ae93716cb8f31dcba8"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7613,6 +7613,10 @@ file = "modpack-update-checker/versions/1.219.0/changelog.txt"
 hash = "900f0f38e41db47c9f0498b70ddbcdee2d424e18c16a0b90c05658271d0912e2"
 
 [[files]]
+file = "modpack-update-checker/versions/1.219.1/changelog.txt"
+hash = "9aafc0c38d5864ec69cfb9d187f23e3e719cfba8826f3634bf32cd8076ed1ae9"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "3ffee41ebf2c4f32db44a257c726f8496cc33446635821d2cf364ce80a6bef3e"
 
@@ -8393,7 +8397,7 @@ hash = "7a9d502a49cdf546f1e814088bb5947a7a0b05412c0c3dca644d2f768e81d35d"
 
 [[files]]
 file = "server/readme.md"
-hash = "9ffd93f01302906b986171a07fa277f8c354989287b50345ecd8ef78c1ce28fb"
+hash = "c156ae348359efb1c1701f8a61d8b95564534d0925d6fc45afad82d424883cb5"
 
 [[files]]
 file = "server/server-icon.png"
