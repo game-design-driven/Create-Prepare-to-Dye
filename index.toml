@@ -25,6 +25,10 @@ file = "SECURITY.md"
 hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
+file = "VERSION"
+hash = "e74caedc8573843bf7d32ecc0cde8b5ac6d7c874b980284079bace093f8886b8"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -418,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c429210772f663b3f3ff42c1c6825c800ae945ebb3683809baed5ce27e47bc82"
+hash = "6d7f35ba813f05b19a26a9f4001473906336de33ee2967509155d4c8d418f51f"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3578,7 +3582,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "53b69598a4293915a6596c13b5186eaa00f1fd80c7f93c0da521280b7d450008"
+hash = "46646a136792c6e0ca39327f3d93a98c27d56a60ba8ea2155579211dbae3ebaf"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5610,7 +5614,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "82e3433cac4bb1a783b84a02518a4959d3a24b3d49a1e6a1b8ac7c155f1159d3"
+hash = "18996a20ef073edba78b3cc7f2dc5d441abf99cfa511281360c77e32d9d8b447"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7605,6 +7609,10 @@ file = "modpack-update-checker/versions/1.218.9/changelog.txt"
 hash = "6d205310fad64ef7e56f599b5b38cbe4a6de24f790b95af07b5232962301cac5"
 
 [[files]]
+file = "modpack-update-checker/versions/1.219.0/changelog.txt"
+hash = "900f0f38e41db47c9f0498b70ddbcdee2d424e18c16a0b90c05658271d0912e2"
+
+[[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
 hash = "3ffee41ebf2c4f32db44a257c726f8496cc33446635821d2cf364ce80a6bef3e"
 
@@ -8396,20 +8404,12 @@ file = "server/server.properties"
 hash = "312c5cf24a0588cca50a2ce87c27f645ba152c5eb34554d4111671bb8d8c34d1"
 
 [[files]]
-file = "server/start-or-generate-server.bat"
-hash = "1834ae31864f549eaf85f6ca25ce29e4a4570e64bcfd9e5b5571307dded9f633"
+file = "server/start.bat"
+hash = "38be3820fc816086d658a7e1b35f74fb061afd13ea84bf341722468d1bea9568"
 
 [[files]]
-file = "server/start-or-generate-server.sh"
-hash = "4872cbea89dbed44a9e29f0ab7a9fa0686cf1d99c25f161aecfd6145f7f1337f"
-
-[[files]]
-file = "server/update-server.bat"
-hash = "94bdeb60a9015648f12f9aa803be2dec10d775e638b8e2beb2a55cc07355aef6"
-
-[[files]]
-file = "server/update-server.sh"
-hash = "57d91b9e5c51be627193ff4bfed1a9ac5f7981e70046f1e117e2b9253626e8cd"
+file = "server/start.sh"
+hash = "c7a47ddd80ff8c0c93bbc3302610254b4fe233141d5696dfe04a11bc37ac2da1"
 
 [[files]]
 file = "tools/create_original_name_aliases.py"
