@@ -83,7 +83,8 @@ jobs:
           uri: "https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
           name: "packwiz"
           version: "linux"
-
+      - name: Install dasel
+        run: go install github.com/tomwright/dasel/v2/cmd/dasel@master
       - name: Build args
         id: build_args
         run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }}-${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
@@ -91,9 +92,13 @@ jobs:
       # - name: Detect curseforge jars
       #   if: matrix.platform == 'curseforge'
       #   run: packwiz curseforge detect
+      - name: Update version in pack.toml
+        run: |
+          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} pack.toml
       - name: Get unix time
         id: get_time
         run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
+        
       - name: Update changelog files
         run: |
           cd modpack-update-checker
@@ -105,6 +110,8 @@ jobs:
           
           cd ../config
           echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
+
+          
       - name: Update discord presense text
         run: |
           cd kubejs/assets/sdrp/lang
