@@ -18,7 +18,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "5ee7f89e819a75c4b28906b331706500022c40cd89ab0def170e3e2f8330acce"
+hash = "6b37f689564226736cb27d569a4f14f05da465d488dc866c861529a954fc7fb0"
 
 [[files]]
 file = "SECURITY.md"
@@ -418,7 +418,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "4bf85a551c0a00163e9a8c07d452bbf1d1d00abad633c9b478d16784840423ad"
+hash = "1b91860dc572bd6803d36c2101084d7cef4e03eee74b120b101c354c6ad53876"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3578,7 +3578,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "033fac29c9ad26860184e0447a3a925fc93cb9b01ab42e2912aed699b5d17e6e"
+hash = "e3399bbfca91b87d2121bb8fc37336d1ff3eeef0f793714e2062171b5d147381"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5610,7 +5610,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "c3f860002d401d8c73652aaf4844c3f4527f15ff6b761066510048819c6c135f"
+hash = "1076ad559b39e93ea486e0fe52ef5898bc59918dee595bdacbbc2625dad8a420"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7591,6 +7591,10 @@ hash = "ec3aa4bd638128bbb619a17e7609da1a6cdaa794580b17239dc355ab6febb2fa"
 [[files]]
 file = "modpack-update-checker/versions/1.218.4/changelog.txt"
 hash = "e22eb2dd67a19b5484d6c67b50c9a675984e533a75518b1a65390296489540a3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.218.6/changelog.txt"
+hash = "52e3243a8429ccc242ea082321f364b7dd29863a10fd8d71c2ce6d56e024758b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
