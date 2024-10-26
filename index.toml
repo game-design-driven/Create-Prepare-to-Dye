@@ -418,7 +418,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "86258d2ed9003752fcddeaf2fafa9eb5473349281e2a022f2af0957769993484"
+hash = "c429210772f663b3f3ff42c1c6825c800ae945ebb3683809baed5ce27e47bc82"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3578,7 +3578,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b51fdf81d855ad2756769e1bfa9eb78a8a3713d201dd15605aa2542858e0ccc3"
+hash = "53b69598a4293915a6596c13b5186eaa00f1fd80c7f93c0da521280b7d450008"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5610,7 +5610,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "756b04e8d7d83117b03cbc8b613cd6aba726f5ee72b04b245bfd5c9d94896d59"
+hash = "82e3433cac4bb1a783b84a02518a4959d3a24b3d49a1e6a1b8ac7c155f1159d3"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7581,6 +7581,10 @@ file = "modpack-update-checker/versions/1.218.1/changelog.txt"
 hash = "0f84fd0e3f0743bcbd122347047e23bfc3620c327aa3c5814fb57e425195a626"
 
 [[files]]
+file = "modpack-update-checker/versions/1.218.10/changelog.txt"
+hash = "38d2dab87b576698a0ad58e1bcbf366e4e4a050043845dcb039ba77d26f25aa8"
+
+[[files]]
 file = "modpack-update-checker/versions/1.218.2/changelog.txt"
 hash = "9c123627b775e7bea6d6a93ed2df41c83e0e34435a9985ea8383ea0183e3da66"
 
@@ -8334,10 +8338,6 @@ metafile = true
 file = "mods/zume.pw.toml"
 hash = "e092abfa46aa80f35820605c6b495cbed6ca63a22a02a143d377d59199a74dda"
 metafile = true
-
-[[files]]
-file = "pack.toml.new"
-hash = "936693ef7881e52c228d8f08d8b6be88ce636a03137f356baec10675cb28cf80"
 
 [[files]]
 file = "ptdye/format_untranslated_tags.php"
