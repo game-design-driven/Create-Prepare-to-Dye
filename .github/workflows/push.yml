@@ -96,7 +96,7 @@ jobs:
       - name: Update version in pack.toml
         run: |
           export PATH=$PATH:$(go env GOPATH)/bin
-          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} pack.toml > pack.toml.new
+          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} version -f pack.toml
       - name: Get unix time
         id: get_time
         run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
