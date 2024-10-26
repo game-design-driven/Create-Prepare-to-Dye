@@ -1,14 +1,22 @@
 # Server files
-## To start the server for the first time
-- read the EULA and accept it, via the `eula.txt` file. Very important stuff
-- run the script `start-or-generate-server` and it will copy `mods, config, kubejs, defaultconfigs` from the game folder (above this one) if they are not there (you can move them manually if you prefer)
+To install, update and run the server we use the start script.
+The start script needs to be in the modpack/server folder or ran with the modpack folder as an argument.
 
-## To start the server after the first time
-- run the script `start-or-generate-server`
+tldr: run `start` script
+## Starting the server for the first time
+Running script `start` and it will 
+- copy `mods, config, kubejs, defaultconfigs, VERSION` from the game folder if they are not there (you can move them manually if you prefer)
+- start the server
+
+## Starting the server after the first time
+Running `start` script will 
+- start the server
 
 ## To update the server
-- run the script `update-server` or
-- delete the `mods, config, kubejs, defaultconfigs` folders and repeat the steps of starting the server for the first time
+Running `start` when VERSION in server files is different from the one in the game folder will
+- remove current files `mods, config, kubejs, defaultconfigs, VERSION` and get the new ones from the game folder. (you can move them manually if you prefer)
+- start the server
+
 
 ## Port-forwarding the server
 ### Refer to router manual or websearch for port-forwarding
