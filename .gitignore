@@ -81,3 +81,9 @@ kubejs/allEnglishTranslationKeys.json
 /schmatics/
 /contraptions/
 /kubejs/features.json
+/server/config
+/server/defaultconfigs
+/server/kubejs
+/server/libraries
+/server/logs
+/server/mods
