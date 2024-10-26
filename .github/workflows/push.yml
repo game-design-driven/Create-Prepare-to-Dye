@@ -96,7 +96,7 @@ jobs:
       - name: Update version in pack.toml
         run: |
           export PATH=$PATH:$(go env GOPATH)/bin
-          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} pack.toml
+          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} pack.toml > pack.toml.new
       - name: Get unix time
         id: get_time
         run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
@@ -124,7 +124,7 @@ jobs:
         run: |
           rm -rf *.sh 
           cd curseforge
-          cp -R ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
+          cp -R ../pack.toml ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
       - name: Build Modpack modrinth
         if : matrix.platform == 'modrinth'
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"
