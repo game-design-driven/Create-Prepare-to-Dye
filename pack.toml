@@ -1,14 +1,13 @@
-a = '.version'
-author = 'yarden-zamir'
-name = 'Create-Prepare-to-Dye'
-pack-format = 'packwiz:1.1.0'
-version = '1.0.0'
+name = "Create-Prepare-to-Dye"
+author = "yarden-zamir"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
 
 [index]
-  file = 'index.toml'
-  hash = 'b421ffaddccc154a955b7f0bee2326a1873cd56910181e909c4958016f7cbd51'
-  hash-format = 'sha256'
+file = "index.toml"
+hash-format = "sha256"
+hash = "43b9e77f11e4a79d8bd7367b1ec3251688c6720c9cc359535c5f531defc183f8"
 
 [versions]
-  forge = '43.4.4'
-  minecraft = '1.19.2'
+forge = "43.4.4"
+minecraft = "1.19.2"
