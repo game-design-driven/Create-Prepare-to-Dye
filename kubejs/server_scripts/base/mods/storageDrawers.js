@@ -9,9 +9,6 @@ if (feature("Remove all uneeded things from storage drawers")) {
     "storagedrawers:oak_full_drawers_1",
     "storagedrawers:oak_full_drawers_2",
     "storagedrawers:oak_full_drawers_4",
-    "storagedrawers:oak_half_drawers_1",
-    "storagedrawers:oak_half_drawers_2",
-    "storagedrawers:oak_half_drawers_4",
     "storagedrawers:controller",
   ];
 

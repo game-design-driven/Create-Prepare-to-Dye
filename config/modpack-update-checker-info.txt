@@ -1,1 +1,74 @@
-Create: Prepare to Dye
+![infographic](https://raw.githubusercontent.com/game-design-driven/Create-Prepare-to-Dye/main/infographic.png)
+# Create : Prepare to Dye         
+[Discord](https://discord.gg/v8cZ83kTPY)  
+[GitHub releases](https://github.com/game-design-driven/Create-Prepare-to-Dye/releases)  
+[Modrinth Game Versions](https://modrinth.com/modpack/create-prepare-to-dye)  
+[Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)  
+
+### Create : Prepare to Dye is an opinionated new take on automation based gameplay
+
+## Intro
+As the head of a crumbling, inherited, capitalistic space company, you are forced to use the last card you have left, the rights to a small, dead, irradiated planet called **Chroma Prime**.
+
+**Chroma Prime** is mostly depleted in resources, but it is all you have left. You must take the planet, and **sell as much as possible** back to the hungry society of the "United SPACE consumer union plus plus" in order to **reestablish your company** as the "top shelf", "high volume production", "safe importer/exporter" "wheelchair accessible" winner it once was. You will need to **build factories** and **trade routes**, create lasting **relationships**, compete with rivals and back-stab your way **to the top.**
+
+Things did start off on the wrong hoof though, as you **crash land on the barren planet, your milk powered spaceship is destroyed** as **you and Betsy are left to pick up the scraps and build your empire from sand and... milk?.**
+
+## About the project
+
+### Concept
+- Your goal is to be the highest rated producer in the system. Trade with the best of them and have the most productive and reliable production lines.
+- This planet is depleted, you will need to figure out how to produce the resources you'll need on your own, mining need not apply.
+- You inhibit the shell of a powerful automaton. You don't eat, you don't sleep, you can build and break blocks with ease, even at a distance.
+### Gameplay loop
+- You accept trade deals with various companies
+- You produce the resources needed to fulfill the trade deals
+- You use the resources to grow your production and get better trade deals
+- Successful trade deals can level up your trade contract, giving you access to more advanced trade deals
+### Core values
+<details>
+  <summary>Complex and unique automation</summary>
+  
+Using Create, botania, quark and supplementries to set the style of automation we want. We deconstruct and construct **very intricately built and balanced processing lines.** We heavily focus on the concept of **difficult automation, cheap devices**. You will iterate and design your solutions and each one will take you to new places and areas of problem solving and logistics. 
+
+---
+we add/alter many processing lines (over 3000 recipe changes and additions (including dynamic ones)) that focus on the core gameplay loop of the pack, and are designed to be interesting and fun to automate. They are not arbitrary or random, they are finely tuned specifically for this experience.
+</details>
+<details>
+  <summary>Radical simplification</summary>
+
+No clutter. Every item and block has ~~a reason~~ at least a few reasons to be in the game. Otherwise it gets yeeted. And many things do indeed get yeeted, including from vanilla. Did anyone say nether? Never heard of it. To clarify, a reason is not "it's fun" there are many fun things you won't find in this modpack that are available somewhere else. A reason is "it's fun and it fits the core gameplay loop of the pack".
+</details>
+<details>
+  <summary>Remove tiers</summary>
+
+* all other recipes have a place in any stage of the game. For example the grindstones from Create are not a flat upgrade over the millstone, the millstone produces a lot of a single product, while the grindstones produce multiple products, but at a lower quantity. Every recipe will have advantages and disadvantages, and depending on your existing processing lines it might make sense to use different ones.
+</details>
+<details>
+  <summary>Low amount of tasks that aren't "making cool stuff"</summary>
+  
+**We do everything within our power to prevent the possibility of optimizing the fun out of this game.** Specifically with regard to our core gameplay loop. If you are not automating, making and building cool stuff, we assume we have done something wrong, and we sprint to fix it.
+</details>
+<details>
+  <summary>Heavily Documented, in game</summary>
+  
+You item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
+</details>
+<details>
+  <summary>A new take on progression</summary>
+  
+Progression and "tiers" in this modpack are not done with more and more expansive machines and devices. **You are not leveling up your machines, you are leveling up your production.** Your early game white plate production will tie well into your late game, like most of the processes in this pack. As the game progresses the scale and the complexity of your lines will grow. You upgrade processes, not machines.
+</details>
+
+<details>
+  <summary>Customization and Modularity</summary>
+  
+We have a clear gameplay loop we try to enforce, but if there is something that doesn't fit, you should be able to change it easily.
+Our script base uses a feature based aproach, where you can enable and disable features of the pack, and even add your own using our recipe managers.
+</details>
+
+
+
+
+[Join us on Discord](https://discord.gg/v8cZ83kTPY)   
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\

@@ -85,6 +85,14 @@ Our script base uses a feature based aproach, where you can enable and disable f
 
 
 
+### Server setup
+#### Modrinth
+1. Go to server/readme.md and follow the instructions
+#### Curseforge
+Not uploaded as part of the cf release so a few more steps are required  
+1. download folder manually from [here](https://download-directory.github.io/?url=https://github.com/game-design-driven/Create-Prepare-to-Dye/tree/main/server) 
+2. Extract it into a new `server` folder under your modpack folder (can be named anything)
+3. Go there and read readme.md and follow the instructions
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
 [Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\

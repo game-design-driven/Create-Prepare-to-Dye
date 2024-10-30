@@ -52,7 +52,7 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.1
         with:
           tag_prefix: ''
-          custom_release_rules: "dev:patch:Developer experience improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
+          custom_release_rules: "chore:patch:chores,dev:patch:Developer experience improvments and changes,tweak:patch:Minor tweaks,feat:minor:Features,fix:patch:Fixes,revert:patch:Reverted Changes,docs:patch:Documentation and Localization,test:patch:Tests and testing related changes,mods:patch:Modlist related changes,ci:patch:Continuous Integration"
           github_token: ${{ secrets.GH_TOKEN }}
 
       - name: Create a GitHub release
@@ -83,7 +83,9 @@ jobs:
           uri: "https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
           name: "packwiz"
           version: "linux"
-
+      - name: Install dasel
+        run: |
+          go install github.com/tomwright/dasel/v2/cmd/dasel@master
       - name: Build args
         id: build_args
         run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }}-${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
@@ -91,9 +93,18 @@ jobs:
       # - name: Detect curseforge jars
       #   if: matrix.platform == 'curseforge'
       #   run: packwiz curseforge detect
+      - name: Update version in pack.toml
+        run: |
+          export PATH=$PATH:$(go env GOPATH)/bin
+          dasel put -r toml -t string -v ${{ needs.tag_and_release.outputs.new_tag }} version -f pack.toml
+      - name: Update version file
+        run: |
+          export PATH=$PATH:$(go env GOPATH)/bin
+          echo ${{ needs.tag_and_release.outputs.new_tag }} > VERSION
       - name: Get unix time
         id: get_time
         run: echo "time=$(date +%s%3N)" >> $GITHUB_OUTPUT
+        
       - name: Update changelog files
         run: |
           cd modpack-update-checker
@@ -105,6 +116,8 @@ jobs:
           
           cd ../config
           echo $(jq -r '.currentVersion = "${{ needs.tag_and_release.outputs.new_tag }}"' modpack-update-checker/config.json) > modpack-update-checker/config.json
+
+          
       - name: Update discord presense text
         run: |
           cd kubejs/assets/sdrp/lang
@@ -113,8 +126,9 @@ jobs:
       - name: Move to curseforge folder and take some folders with me
         if: matrix.platform == 'curseforge'
         run: |
+          rm -rf *.sh 
           cd curseforge
-          cp -R ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
+          cp -R ../pack.toml ../config ../defaultconfigs ../fancymenu_data ../kubejs ../modpack-update-checker ../discord-mark-blue.png ../discord-mark-white.png .
       - name: Build Modpack modrinth
         if : matrix.platform == 'modrinth'
         run: packwiz ${{ matrix.platform }} export --output "${{ steps.build_args.outputs.name }}.${{ matrix.file_suffix }}"

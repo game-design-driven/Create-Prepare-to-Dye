@@ -1,6 +1,9 @@
 {
 	"added": [
 		{
+			"stack": "item:wares:delivery_agreement{buyerName:{color:\"#409D9B\",text:\"United SPACE consumer union plus plus\"},display:{Name:'{\"italic\":false,\"color\":\"gold\",\"text\":\"United SPACE consumer union plus plus - Wrong place?\"}'},id:\"postage_stamp_transceiver_agreement\",message:'{\"text\":\"If you want to return your trading terminal so you can place it again somewhere else, weve got you covered!\"}',ordered:0.0d,paymentItems:[{Count:1,id:\"ptdye:postage_stamp_transceiver\"}],requestedItems:[{Count:31,TagMatching:\"weak\",id:\"quark:iron_plate\"},{Count:12,TagMatching:\"weak\",id:\"create:metal_girder\"},{Count:1,TagMatching:\"weak\",id:\"ptdye:furnished_device\"},{Count:1,TagMatching:\"weak\",id:\"ptdye:mechanical_device\"},{Count:9,TagMatching:\"weak\",id:\"botania:mana_glass\"}],revision:1.0d,seal:\"default\",title:'{\"text\":\"Wrong place?\"}'}"
+		},
+		{
 			"stack": "item:wares:delivery_agreement{buyerName:{color:\"#409D9B\",text:\"Bobs Construction Fleet\"},display:{Name:'{\"italic\":false,\"color\":\"gold\",\"text\":\"Bobs Construction Fleet - We want plates\"}'},id:\"bcfPlates\",message:'{\"text\":\"Hello, I see you are new here in the trading mesh, doesnt matter much, Im from BCF and we want to contract some white plates, willing to pay too\"}',ordered:3.0d,paymentItems:[{Count:32,id:\"minecraft:andesite\"},{Count:10,id:\"create:cogwheel\"},{Count:8,id:\"create:belt_connector\"}],requestedItems:[{Count:64,TagMatching:\"weak\",id:\"create:iron_sheet\"}],revision:1.0d,seal:\"bobs_construction_fleet\",title:'{\"text\":\"We want plates\"}'}"
 		},
 		{

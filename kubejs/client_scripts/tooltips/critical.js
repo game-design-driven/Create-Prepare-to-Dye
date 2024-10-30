@@ -6,7 +6,7 @@ addTooltip(
 );
 addTooltip(
   "white_concrete_powder",
-  "Seems that the _milk_ here, flowing or source, can be purified with _pure daisy_ to make _white powder_"
+  "Flowing milk can be purified with _pure daisy_ to make _white powder_"
 );
 addTooltip(
   "lava_bucket",

@@ -1,0 +1,13 @@
+### [1.218.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.2...1.218.3) (2024-10-24)
+
+
+### Developer experience improvments and changes
+
+* remove scripts before uploading ([262f839](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/262f8390df1646d6c0e958380e57ff548b5cc5ea))
+
+
+### chores
+
+* autopublish 2024-10-24T15:35:44Z ([adf10ab](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/adf10abfd3f2cf6f934249f8fa18f39309b226cc))
+
+

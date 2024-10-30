@@ -142,3 +142,11 @@ if (feature('Pillagers drop heads')) {
   })
   
 }
+
+if (feature('Replace white ingot (iron ingot) with white plates')) {
+  LootJS.modifiers((event) => {
+    event
+      .addEntityLootModifier("minecraft:iron_golem")
+      .replaceLoot("minecraft:iron_ingot", "create:iron_sheet", true)
+  }); 
+}

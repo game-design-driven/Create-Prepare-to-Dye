@@ -1,85 +1,210 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.inventory.StonecutterScreen
-  randomgroup = 1
-  renderorder = background
+layout-meta {
+  identifier = stonecutter_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1729765727935
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:0dbea5bf-e2f4-4ea6-b0c0-7d142bef85c3-1729765727935] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = fancymenu_data/tabs-assembler-4.png
-  orientation = mid-centered
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]fancymenu_data/tabs-assembler-4.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 975b194b-61fd-4bb9-8b35-84954c2911f41703497745372
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -88
-  width = 256
-  action = addtexture
-  actionid = 975b194b-61fd-4bb9-8b35-84954c2911f41703497745372
   y = -106
+  width = 256
   height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1001fbc3-947c-470e-b408-6a39ba965dd9-1729765727935
+  [loading_requirement_container_meta:1001fbc3-947c-470e-b408-6a39ba965dd9-1729765727935] = [groups:][instances:]
 }
 
-customization {
-  path = fancymenu_data/smart_device.png
-  orientation = mid-centered
+element {
+  source = [source:local]fancymenu_data/smart_device.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = df36f6ff-605f-4224-b214-5f5c5f215e7b1703513150807
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -12
-  width = 15
-  action = addtexture
-  actionid = df36f6ff-605f-4224-b214-5f5c5f215e7b1703513150807
   y = -101
+  width = 15
   height = 15
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ebac4f0a-374a-49f1-9eb7-d92407179440-1729765727935
+  [loading_requirement_container_meta:ebac4f0a-374a-49f1-9eb7-d92407179440-1729765727935] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = 5f5fa2e5-ce94-40aa-997b-4c330acf53e5-1729765727935
+  [executable_action_instance:5c834cd4-f4c2-4ad9-b2e7-bee9ca292949-1729765727935][action_type:opengui] = net.minecraft.client.gui.screens.inventory.InventoryScreen
+  [executable_block:5f5fa2e5-ce94-40aa-997b-4c330acf53e5-1729765727935][type:generic] = [executables:5c834cd4-f4c2-4ad9-b2e7-bee9ca292949-1729765727935;]
+  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
   restartbackgroundanimations = true
-  buttonaction = opengui;net.minecraft.client.gui.screens.inventory.InventoryScreen%btnaction_splitter_fm%
-  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
-  label = 
   loopbackgroundanimations = false
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0ada4de9-91a3-46e4-9bb4-e203e6c5c099-1729765727935
+  [loading_requirement_container_meta:0ada4de9-91a3-46e4-9bb4-e203e6c5c099-1729765727935] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 83404a90-3bab-473d-8747-0132a08f4e031703804221726
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -87
-  width = 20
-  action = addbutton
-  actionid = 83404a90-3bab-473d-8747-0132a08f4e031703804221726
   y = -104
-  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  width = 20
   height = 29
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6c99eafc-7ccf-4333-906a-6f2502125c6a-1729765727935
+  [loading_requirement_container_meta:6c99eafc-7ccf-4333-906a-6f2502125c6a-1729765727935] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = 53750875-8997-4b04-b8f1-7513e5367792-1729765727935
+  [executable_action_instance:b5bdf212-821b-4ccd-ab8a-ce69978f2f61-1729765727935][action_type:sendmessage] = /openPonderIndex
+  [executable_block:53750875-8997-4b04-b8f1-7513e5367792-1729765727935][type:generic] = [executables:b5bdf212-821b-4ccd-ab8a-ce69978f2f61-1729765727935;]
+  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
   restartbackgroundanimations = true
-  buttonaction = sendmessage;/openPonderIndex%btnaction_splitter_fm%
-  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
-  label = 
   loopbackgroundanimations = false
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = b7c83d26-7cf9-44d4-9f37-80750a107862-1729765727935
+  [loading_requirement_container_meta:b7c83d26-7cf9-44d4-9f37-80750a107862-1729765727935] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = c2a0f3ae-b9d8-4d5f-9ebe-9e485ae2d9f21703804359039
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -39
-  width = 20
-  action = addbutton
-  actionid = c2a0f3ae-b9d8-4d5f-9ebe-9e485ae2d9f21703804359039
   y = -105
-  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  width = 20
   height = 29
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ada7e3b4-52de-462e-9a29-5ec8678d33e3-1729765727935
+  [loading_requirement_container_meta:ada7e3b4-52de-462e-9a29-5ec8678d33e3-1729765727935] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = 6ee9903f-b22b-467d-9ce0-0af27259da71-1729765727935
+  [executable_action_instance:99ad11db-f176-4780-b3f6-698b1b2fa89b-1729765727935][action_type:opengui] = net.minecraft.client.gui.screens.advancements.AdvancementsScreen
+  [executable_block:6ee9903f-b22b-467d-9ce0-0af27259da71-1729765727935][type:generic] = [executables:99ad11db-f176-4780-b3f6-698b1b2fa89b-1729765727935;]
+  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
   restartbackgroundanimations = true
-  buttonaction = opengui;net.minecraft.client.gui.screens.advancements.AdvancementsScreen%btnaction_splitter_fm%
-  backgroundhovered = fancymenu_data/auto-assembler-empty-space.png
-  label = 
   loopbackgroundanimations = false
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = c64f7c4d-8689-4658-b546-8fb30816aa64-1729765727935
+  [loading_requirement_container_meta:c64f7c4d-8689-4658-b546-8fb30816aa64-1729765727935] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 21884f12-7d90-4353-9786-3e6665c314691703804395402
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -15
-  width = 20
-  action = addbutton
-  actionid = 21884f12-7d90-4353-9786-3e6665c314691703804395402
   y = -105
-  backgroundnormal = fancymenu_data/auto-assembler-empty-space.png
+  width = 20
   height = 29
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3b289d7e-2ec3-45d9-bece-3650ab387170-1729765727935
+  [loading_requirement_container_meta:3b289d7e-2ec3-45d9-bece-3650ab387170-1729765727935] = [groups:][instances:]
 }
 

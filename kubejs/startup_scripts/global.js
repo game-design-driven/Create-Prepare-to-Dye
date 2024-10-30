@@ -1,4 +1,4 @@
-// Priority: 10000
+// priority: 10000
 const IS_CLIENT_ENVIRONMENT = Platform.isClientEnvironment() 
 
 global.colors = ['white', 'orange', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'magenta', 'blue', 'brown', 'green', 'red', 'black']

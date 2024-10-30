@@ -1,13 +1,13 @@
 name = "Zume"
-filename = "zume-0.12.0.jar"
+filename = "zume-1.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "24fe1e06bffce43f81a511f299bfa804a90cf90c"
+hash = "28fc01488989b607f11a9a09fe74470b4d955ac9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5053792
+file-id = 5840427
 project-id = 927564

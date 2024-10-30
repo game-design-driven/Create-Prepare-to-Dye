@@ -1,29 +1,66 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729765727960
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3dffb0e5-5b26-4fa1-bdb9-6c5c3bbad17c-1729765727960] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 6dae03d5-f974-4c4e-bcb1-ffd4f3f0d19b-1729765727960
+  [executable_action_instance:1a336f69-9bab-469f-b201-139657746132-1729765727960][action_type:toggle_layout] = personalassembler
+  [executable_block:6dae03d5-f974-4c4e-bcb1-ffd4f3f0d19b-1729765727960][type:generic] = [executables:1a336f69-9bab-469f-b201-139657746132-1729765727960;]
   restartbackgroundanimations = true
-  buttonaction = toggle_layout;personalassembler%btnaction_splitter_fm%
-  x = -9
-  width = 18
-  action = addbutton
-  actionid = 3126beab-d0ec-492c-975e-d9efe1cdde6d1703252308756
-  y = -28
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = ?
+  navigatable = true
+  widget_active_state_requirement_container_identifier = d6d473db-f93d-4dd7-88fe-371abe88bda0-1729765727960
+  [loading_requirement_container_meta:d6d473db-f93d-4dd7-88fe-371abe88bda0-1729765727960] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 3126beab-d0ec-492c-975e-d9efe1cdde6d1703252308756
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -9
+  y = -28
+  width = 18
   height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 9984aa49-6beb-42eb-b2f8-4c6b6c9f81a8-1729765727960
+  [loading_requirement_container_meta:9984aa49-6beb-42eb-b2f8-4c6b6c9f81a8-1729765727960] = [groups:][instances:]
 }
 

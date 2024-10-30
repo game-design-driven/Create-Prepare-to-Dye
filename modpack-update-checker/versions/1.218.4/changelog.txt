@@ -1,0 +1,13 @@
+### [1.218.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.3...1.218.4) (2024-10-25)
+
+
+### Fixes
+
+* remove unintended tree_fertilizer recipe ([600c6b0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/600c6b072c7489e18d964df140c32d4ab9906881))
+
+
+### chores
+
+* autopublish 2024-10-24T15:51:28Z ([daf2a8e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/daf2a8e4f6a4eb54e3bd80b15e10d51192dff2ce))
+
+

@@ -1,13 +1,13 @@
 name = "Carry On"
-filename = "carryon-forge-1.19.2-2.1.1.22.jar"
+filename = "carryon-forge-1.19.2-2.1.2.23.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/joEfVgkn/versions/6pIQMDen/carryon-forge-1.19.2-2.1.1.22.jar"
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/CE3MquDi/carryon-forge-1.19.2-2.1.2.23.jar"
 hash-format = "sha1"
-hash = "8c91c8e154ae9ac125bf88d7a0bf411f1139f3f8"
+hash = "5d2f59451665f5b703cce9fbd9bd6af1aec4c6ad"
 
 [update]
 [update.modrinth]
 mod-id = "joEfVgkn"
-version = "6pIQMDen"
+version = "CE3MquDi"

@@ -1,0 +1,8 @@
+### [1.218.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.5...1.218.6) (2024-10-26)
+
+
+### Fixes
+
+* melody version in cf ([82ee53e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/82ee53e657bf56cb918ced7c7c48cae7f9a14238))
+
+

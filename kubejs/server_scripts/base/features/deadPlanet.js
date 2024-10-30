@@ -8,7 +8,6 @@ addCompacting('dirt %75',['4x stick','2x #forge:sand'])
 addMixing('white_dye %75',['16x snowball', '10mb kubejs:fermented_goop'])
 addPurify('orange_concrete_powder', 'lava', 15)
 addPurify('blue_concrete_powder', 'water', 15)
-addPurify('white_concrete_powder', 'milk', 15)
 addPurify('yellow_concrete_powder', 'create:honey', 15)
 addPurify('brown_concrete_powder', 'create:chocolate', 15)
 addPurify('green_concrete_powder', 'kubejs:organic_mass', 15)
@@ -19,7 +18,7 @@ addMilling(['stick','stick %75'], 'dead_bush')
 addFilling('sand', 'red_sand', '100x milk')
 
 addAltar('2x bone_meal', ['bone_meal', '4x kubejs:fermented_blob'], 1000)
-addAltar('create:tree_fertilizer', ['2x bone_meal','#forge:coral', '8x kubejs:fermented_blob'], 7000)
+// addAltar('create:tree_fertilizer', ['2x bone_meal','#forge:coral', '8x kubejs:fermented_blob'], 7000)
 
 addDripping('grass', 'dead_bush')
 

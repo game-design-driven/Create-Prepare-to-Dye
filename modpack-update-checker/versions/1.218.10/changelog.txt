@@ -1,0 +1,13 @@
+### [1.218.10](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.218.9...1.218.10) (2024-10-26)
+
+
+### Fixes
+
+* ci ([d651190](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d651190ada33d6f5ed9841ce88d2fa9e5fb05f59))
+
+
+### chores
+
+* autopublish 2024-10-26T08:40:30Z ([815762c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/815762c4b33f930ffc1bd093ae686523cc8b68c7))
+
+

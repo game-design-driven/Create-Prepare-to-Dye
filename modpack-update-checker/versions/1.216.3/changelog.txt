@@ -1,0 +1,8 @@
+### [1.216.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.216.2...1.216.3) (2024-10-13)
+
+
+### Fixes
+
+* added loot fix for iron golem [#595](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/595) ([#609](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/609)) ([2c42469](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2c42469b8f06ca085fc6572e1d60273f6e0c020e))
+
+

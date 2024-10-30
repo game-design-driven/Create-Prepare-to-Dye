@@ -1,30 +1,68 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = %fancymenu:universal_layout%
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729765727957
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
-  universal_layout_whitelist = net.minecraft.client.gui.screens.inventory.InventoryScreen;net.minecraft.client.gui.screens.inventory.StonecutterScreen;
+  layout_index = 0
+  universal_layout_whitelist = inventory_screen;stonecutter_screen;
+  [loading_requirement_container_meta:ff95a300-e048-4372-bdcb-84bfd4053dae-1729765727957] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = bottom-left
-  loopbackgroundanimations = true
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957
+  [executable_action_instance:fa4fff14-a0b4-4ba2-b001-6055c6bff916-1729765727957][action_type:closegui] = 
+  [executable_action_instance:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957][action_type:sendmessage] = /backToBetsy
+  [executable_block:82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957][type:generic] = [executables:fa4fff14-a0b4-4ba2-b001-6055c6bff916-1729765727957;eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957;]
   restartbackgroundanimations = true
-  buttonaction = closegui%btnaction_splitter_fm%sendmessage;/backToBetsy%btnaction_splitter_fm%
-  x = 46
-  width = 79
-  action = addbutton
-  actionid = a2e84bf7-70ac-49d0-9425-0910ee0de1e81703260368390
-  y = -22
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Back to Betsy!
+  navigatable = true
+  widget_active_state_requirement_container_identifier = fe42b35b-c0ad-4708-b365-efa0b933835f-1729765727957
+  [loading_requirement_container_meta:fe42b35b-c0ad-4708-b365-efa0b933835f-1729765727957] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = a2e84bf7-70ac-49d0-9425-0910ee0de1e81703260368390
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = bottom-left
+  x = 46
+  y = -22
+  width = 79
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = d5b5e15b-9eb7-47d9-a58f-de1a1208d3a4-1729765727957
+  [loading_requirement_container_meta:d5b5e15b-9eb7-47d9-a58f-de1a1208d3a4-1729765727957] = [groups:][instances:]
 }
 

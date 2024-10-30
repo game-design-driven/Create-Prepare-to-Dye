@@ -1,7 +1,9 @@
-// Priority: 100
+// priority: 99
 
 global.revision = 1;
 function isFirstLogin() {
+  console.log("existing_world_compat_engine: " + Utils.server.persistentData.getBoolean("existing_world_compat_engine"));
+  console.log("existing_world: " + Utils.server.persistentData.getBoolean("existing_world"));
   return !(
     Utils.server.persistentData.getBoolean("existing_world_compat_engine") ||
     Utils.server.persistentData.getBoolean("existing_world")
