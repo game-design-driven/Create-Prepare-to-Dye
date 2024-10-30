@@ -10,5 +10,5 @@ if (feature('Remove crafting tables on a stick')) {
       'crafting_on_a_stick:chipped_anvil',
       'crafting_on_a_stick:damaged_anvil'
     ])
-    addShaped('crafting_on_a_stick:stonecutter', ['s','r'], { s: 'minecraft:stonecutter', r: '#forge:rods' })
+    if(!feature("Craftable devices that are transmuted to specific things on demand")) addShaped('crafting_on_a_stick:stonecutter', ['s','r'], { s: 'minecraft:stonecutter', r: '#forge:rods' })
 }
