@@ -1,0 +1,13 @@
+### [1.220.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.220.2...1.220.3) (2024-11-01)
+
+
+### Fixes
+
+* wrong emi version ([febcb90](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/febcb90d7c8c233b75241c16f69d95f5d8e7f4c3))
+
+
+### chores
+
+* autopublish 2024-11-01T13:12:29Z ([f4078a4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f4078a4043601bff0e1e38fa2f031d0c1eb3e558))
+
+
