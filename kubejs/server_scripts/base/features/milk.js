@@ -29,7 +29,7 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     let currentTime = event.getTarget().level.getTime();
     event.player.swing();
     if (!event.getTarget().persistentData.get("lastMilked")) {
-        event.getTarget().persistentData.put("lastMilked", currentTime)
+        event.getTarget().persistentData.put("lastMilked", currentTime) // first time milking
     }else{
         let lastMilked = event.getTarget().persistentData.getLong("lastMilked");
         let timeSinceLastMilked = currentTime - lastMilked;
@@ -38,9 +38,17 @@ ItemEvents.entityInteracted("minecraft:bucket", (event) => {
             event.getLevel().runCommandSilent(`/title ${event.player.displayName.getString()} actionbar "Betsy needs a break"`);
             event.cancel();
         }else{
-            event.getTarget().persistentData.put("lastMilked", currentTime)
+          event.getTarget().persistentData.put("lastMilked", currentTime)
+
+          let pitch =  Math.random() + 0.8;
+          Utils.server.runCommandSilent(`playsound minecraft:entity.cow.milk neutral @a ${event.getTarget().getX()} ${event.getTarget().getY()} ${event.getTarget().getZ()} 0.3 ${pitch}`)
+
+          event.player.setMainHandItem("air");
+          event.server.scheduleInTicks(1, () => {
+            event.player.setMainHandItem("minecraft:milk_bucket");
+          });
+          event.cancel();
         }
     }
     
 });
-  
