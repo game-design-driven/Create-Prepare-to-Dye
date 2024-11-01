@@ -146,6 +146,11 @@ hash = "bb518179d75a66c7a237c54cd461c48bc03544886d180be5db18b3bcc0e001b9"
 metafile = true
 
 [[files]]
+file = "mods/free-cam.pw.toml"
+hash = "ed34f063685e59883414cb3dc5b2d4dfa46036424a7450e86b3c135d1434c840"
+metafile = true
+
+[[files]]
 file = "mods/hourglass.pw.toml"
 hash = "0fd4e39201d42fc5f347a386b0beedcb7a9e81e3dcf7752d3ae88cd3968e0d27"
 metafile = true

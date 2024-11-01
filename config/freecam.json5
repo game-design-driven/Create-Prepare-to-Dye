@@ -7,7 +7,7 @@
 	"collision": {
 		"ignoreTransparent": true,
 		"ignoreOpenable": true,
-		"ignoreAll": false,
+		"ignoreAll": true,
 		"alwaysCheck": false
 	},
 	"visual": {
@@ -18,7 +18,7 @@
 		"showSubmersion": false
 	},
 	"utility": {
-		"disableOnDamage": true,
+		"disableOnDamage": false,
 		"freezePlayer": false,
 		"allowInteract": false,
 		"interactionMode": "CAMERA"
