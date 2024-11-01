@@ -8088,7 +8088,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "32a0ad242d7d83da238532b2be737876f3fbf699086b0e653b5c1d343ebc0072"
+hash = "203f848b6cfe6ad8f7482cfd3be70276208d9533859d5484e0f26f31960e713c"
 metafile = true
 
 [[files]]
@@ -8348,7 +8348,7 @@ metafile = true
 
 [[files]]
 file = "mods/zume.pw.toml"
-hash = "e092abfa46aa80f35820605c6b495cbed6ca63a22a02a143d377d59199a74dda"
+hash = "434ac58bf0c398eb06d03856a3de1edf30aba72ff11ac953bda99e34132c0376"
 metafile = true
 
 [[files]]

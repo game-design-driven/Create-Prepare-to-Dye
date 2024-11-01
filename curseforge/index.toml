@@ -372,5 +372,5 @@ metafile = true
 
 [[files]]
 file = "mods/zume.pw.toml"
-hash = "bd6ad7255ce547d1accae7d321e2630da540762dc8b0bb2964d7382c5fb92702"
+hash = "b242b6de5a59d1f480d2af1cdee0c91cdce35f3d364496896de71445d0907dcc"
 metafile = true
