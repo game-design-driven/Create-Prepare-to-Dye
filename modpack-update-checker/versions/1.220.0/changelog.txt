@@ -1,0 +1,32 @@
+## [1.220.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.219.2...1.220.0) (2024-11-01)
+
+
+### Features
+
+* remove badlands biome. Now only erroded badlands which is less crazy ([b75d1dd](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b75d1dd18ea0e84ba0ddbd5d283a3b4e1ef93154))
+* simplify basic belt recipe and improve yeild of advanced belt recipe ([2a96a1d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2a96a1d610dad870548675996f173ece14126c03))
+
+
+### Developer experience improvments and changes
+
+* addIgnemOrechid function ([bea198c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bea198c78010229f21c506d1c7e14f9303c45378))
+
+
+### Modlist related changes
+
+* add freecam mod. Now you press f4 to spectate and fly around your machines ([4d143f2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4d143f29f6c586cabca6da3238e8360fff5e7115))
+
+
+### Fixes
+
+* emi showing all trading routes instead of specific for held trade ([9bfeefa](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9bfeefa32476df0ee43729c7a3937129a6c9bc2c))
+* milking betsy manually also places milk on ground ([edb9ae4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/edb9ae45e489939770fd6ae2f99b938c01796c73))
+* remove blaze rod from rods tag, was confusing and didnt add much value ([09afd9e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/09afd9e8f350b5db67f4a335a05b44fb12cd8ab8))
+* zume failed to load correctly on some machines ([93f9ad2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/93f9ad2970d1ad82af550fdb4c2a37a163d64e45))
+
+
+### chores
+
+* autopublish 2024-10-27T18:26:21Z ([a7d5c89](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a7d5c892f80686874f92d88cb6c383416302e10c))
+
+

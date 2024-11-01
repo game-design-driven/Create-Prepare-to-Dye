@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "d629bfa4a13d2a2a1801338eb4a2eca40f36ba7dba6a5fed0ce8291ff7da32a7"
+hash = "b2383eb166454a6ec82277aad6665e11daefadeddd9a83f0eda7d3a514599929"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -334,7 +334,7 @@ hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
 file = "config/freecam.json5"
-hash = "a2b1625a28435585864150c3686c03cefa8f1957d97051705963237c02bfa336"
+hash = "d12f6cb5e4eb653e0a43a6f903c9a34148642fd821838dbf23ef8da5ec2221c9"
 
 [[files]]
 file = "config/globalgamerules-common.toml"
@@ -422,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "cec6f100f043026010491d5ba6b92ed0eb6e65042352a891429c0d1cc2ec1b57"
+hash = "46c8fb33e5f02d0357e16fd65c5a78367bb1d250388a2bc314aac8af9826591d"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3582,7 +3582,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "00a29cb0bc96f30aaad2b6fe1994042de1b3cacf976ef1d4c77d35ad8bababcc"
+hash = "320713f6d757494ed3c0735c901cf0740fba7da8ae43ac160c9522f19031f83c"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -4282,7 +4282,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
-hash = "cccef32bc8a5bad284752caeb33bb613d9d0f834d19d6a64b2814b23187879b8"
+hash = "260ba4d6103a55cb2ac3b61a501f273f7b14dd84a9b75e6c0dd6c6e03a21ae57"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/bigbonedfish.nbt"
@@ -5238,7 +5238,7 @@ hash = "881aea37453b0502c36df3aa3a6c693641ef4b2442a3549beb7c0b798709d3fe"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/milk.js"
-hash = "f9afc413217486dee83b25384a52822a58dbe2214cf0a46b61a9bd3fa4be7643"
+hash = "055ecf2326a47860218a612a6aa8cc82783d6a7128ffee7bdac8d8f90d87c8a6"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/milkAdvancementTrigger.js"
@@ -5366,7 +5366,7 @@ hash = "cdf539f8b9068e29a5b53b9d8c2a6ddff0fc62c9ae2334de684d0a27c8e9559e"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "a67eec2bda6d41b434b834908ccbd692111087dcba3e6dd18a335c19c2da177c"
+hash = "dd4f4f4c7ac15e68475260f250316386d167143112a6e44e3edf2cfea92d7f29"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -5414,7 +5414,7 @@ hash = "db5932ad70fb2d82dbca85d27bc740a4554e375ae4479fc1b027b387598d9bda"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/botania.manager.js"
-hash = "5b31606659a2066a4abbaf50b1632754ae8e41a85029ad2dde21984cedc6ab14"
+hash = "e04c5fdbb4389307d8dcb3b5629d4c5cb3c0b1634a2ae8a2ad053f97df97f8b1"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/create.manager.js"
@@ -5446,7 +5446,7 @@ hash = "b1b703beb77b0c9f89c537de5f9612be5ce26d64ee0c9a1d7b069b915256b601"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags.js"
-hash = "424b929e1fd1beb3e69c205b9d912006e40a4380e868a3021b315906ea44ded3"
+hash = "1a26d7b92ffae963fe56cb39861b240ffa6a3dabe431cc0327a3bc5a5ac61127"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/backwardsCompatEngine.js"
@@ -5614,7 +5614,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "f6935b9a7ec7f74781442a00da647e1df7f745c9f20acbee8831f4385eb2fa71"
+hash = "a928c974d08f285fd3ada47574d515e463097a5a12ecefda12424f9535bea3bd"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7619,6 +7619,10 @@ hash = "9aafc0c38d5864ec69cfb9d187f23e3e719cfba8826f3634bf32cd8076ed1ae9"
 [[files]]
 file = "modpack-update-checker/versions/1.219.2/changelog.txt"
 hash = "811ea6831097d0784081b78bf08bfcf074581f4bcb74a0b37a7e8d3a947346bf"
+
+[[files]]
+file = "modpack-update-checker/versions/1.220.0/changelog.txt"
+hash = "f5401f6a3e25cee2a246c5fb6f3ef4ddfd485ad15cdc37d2deff3505c1cc9cc7"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
