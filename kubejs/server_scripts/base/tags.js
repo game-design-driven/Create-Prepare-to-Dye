@@ -57,6 +57,8 @@ addToTag("minecraft:stairs", [
   "create:oxidized_copper_tile_stairs",
 ]);
 
+removeFromTag("forge:rods", ["minecraft:blaze_rod"]);
+removeFromTag("forge:rods/blaze", ["minecraft:blaze_rod"]);
 addToTag("forge:rods", ["create:shaft", "bone", "bamboo"]);
 
 addToTag("forge:coral", [
