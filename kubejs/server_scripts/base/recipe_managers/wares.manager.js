@@ -96,8 +96,11 @@ function getAgreement(agreementID, {
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
-    addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+    let strippedCompletedItem = Item.of(agreementObj.completedItem.id).withNBT({"id": agreementID, "ordered": orderedAmount}).withName(Text.gold(companyTitle + " - " + title).italic(false));
+    paymentItems.unshift(strippedCompletedItem)        
   }
+  requestedItems.unshift(Item.of(agreementObj.item.id).withNBT({"id": agreementID, "ordered": orderedAmount}).withName(Text.gold(companyTitle + " - " + title).italic(false)))
+  addFakeTradeItemsRecipe(paymentItems, requestedItems, 'wares:delivery_table');
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
@@ -135,10 +138,6 @@ function tradeBranch(outputTrades, inputTrades) {
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
-    );
-    let hiddenUniversalRecipe = e.recipes.create.mixing(
-      outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
       inputTrades.map((trade) => getTradeNbtIdFilter(trade.completedItem))
     );
     // addTradeBlendingRecipe(
@@ -147,6 +146,7 @@ function tradeBranch(outputTrades, inputTrades) {
     // );
   });
 }
+function getTradeNbtIdFilter(item) {
   if (!item.getNbt()) return item.weakNBT();
   if (item.nbt.get("id") == null) return item.weakNBT();
   return Item.of(item.id).withNBT({"id": item.nbt.get("id")}).weakNBT();
