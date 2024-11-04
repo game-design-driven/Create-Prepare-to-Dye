@@ -1,0 +1,36 @@
+## [1.222.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.221.0...1.222.0) (2024-11-04)
+
+
+### Features
+
+* add all trade contents to EMI. Now you can see when an item can be aquired by a trade or sold with one etc ([0383eb1](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0383eb17edb17c2e6f768194f783c4d623268754))
+* add trade tooltips for how many times a trade can be repeated or if it is infinite ([b18ae9b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b18ae9bea273e5347caea6dbf45287376f429f28))
+* buf dirt from wood chips and clay recipe ([479e8f3](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/479e8f391ad1509cf6f4b16231f11e694b856ad1))
+* reduce MIN_PLATFORM_DISTANCE from 70 to 32 ([f3d3be5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f3d3be5f47ce7fb445441d8e1ad373a1f7629823))
+
+
+### Fixes
+
+* downgrade jei in attempt to fix trades showing recipes for all possible trades. And also downgraded modrnfix to work with the older jei ([a97da01](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a97da015b3eacadc1c06dbcbf3f8902b4cbb1370))
+* emi nbt check for trades taking all nbt into account instead of just id ([ca45861](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ca4586167fe40da6f4939355d882ac7c070dddc6))
+
+
+### Developer experience improvments and changes
+
+* add support for joint fake recipes ([def60a9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/def60a9d5f7826c61cf2f3abae5d39ea2be0f68d))
+* update configs ([0af10a9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0af10a9b32fecf29c533d8d70470e990b18b2efa))
+* update generated emi entries ([236bde2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/236bde2c123bf96b55c741ff08df498d1e5c6005))
+
+
+### Minor tweaks
+
+* increase default maximum-recipe-screen-height to 512 ([73934bb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/73934bbefc73fe9480f40d64814c18c214845261))
+* replace birch log rewards in wsc tradeline with oak (applewood) logs for consistancy and ease of viewing recipes ([a7a813d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a7a813dba84c14fe4550bf2f42afc3c248d7ac13))
+* replace recipe trade recipe filter to use trade id instead of name ([38d77ab](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/38d77ab8bd1182384899d722ad1ebd4690d683ae))
+
+
+### chores
+
+* autopublish 2024-11-03T18:22:52Z ([b8a3784](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b8a37840f91f32df98d5beee15e9af653b4b19a5))
+
+
