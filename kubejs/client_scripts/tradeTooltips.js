@@ -2,6 +2,7 @@ if (feature('Tooltips for trades denoting amount of time they can be repeated'))
   ItemEvents.tooltip((event) => {
     event.addAdvanced(Ingredient.of(/.*/), (item, advanced, text) => {
       if (!item.hasNBT()) return;
+      if (item.mod != "wares") return;
       let nbt = item.nbt;
       let ordered = nbt.getInt("ordered");
       if (ordered != null) {
