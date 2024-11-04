@@ -1,0 +1,13 @@
+### [1.222.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.222.2...1.222.3) (2024-11-04)
+
+
+### Fixes
+
+* trade tooltip showing on none trade items like the clipboard ([cad2f3b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cad2f3b2f6325cafa403c6e76b5850f9e0ad9567))
+
+
+### chores
+
+* autopublish 2024-11-04T13:22:17Z ([14c4357](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/14c4357d420b105723ef281cfa12e2acb71781f0))
+
+
