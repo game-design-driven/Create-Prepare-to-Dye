@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:railways:buffer"
+	],
+	"text": "block.railways.buffer.tooltip.summary"
+}
