@@ -31,7 +31,11 @@ function addFakeTradeItemsRecipe(output_items, input_items, block_in){
     let entry = {}
     let item = Item.of(i)
     entry.item = item.id
-    if (items_in_obj.find(i => i.item == item.id)) return;
+    if (item.hasNBT()){
+      entry.nbt = item.nbtString
+      entry.type = "forge:nbt"
+    } 
+    // if (items_in_obj.find(i => i.item == item.id)) return;
     items_in_obj.push(entry)
   })
   output_items.forEach(i => {
