@@ -11,13 +11,13 @@ if (feature('Rail recipes')) {
     // addShaped('16x detector_rail', ['m m', 'mpm', 'mrm'], { m: '#forge:ingots/andesite_alloy', p: 'stone_pressure_plate', r: 'redstone' })
     
     //assembly for rails will cost more sticks and less ingots
-    addAssembly('2x minecraft:rail', '#forge:rods', [
+    addAssembly('4x minecraft:rail', '#forge:rods', [
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:rods'),
     ],4)
-    addAssembly('4x minecraft:rail', '#forge:rods', [
+    addAssembly('10x minecraft:rail', '#forge:rods', [
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),

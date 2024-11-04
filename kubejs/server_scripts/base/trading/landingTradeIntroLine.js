@@ -191,7 +191,7 @@ const wscAxes = getAgreement("wscAxes", {
 const wscBread = getAgreement("wscBread", {
   paymentItems: [
     "16x storagedrawers:oak_full_drawers_1",
-    "8x minecraft:birch_log",
+    "8x minecraft:oak_log",
     "minecraft:chest",
   ],
   requestedItems: ["64x minecraft:bread"],
@@ -202,7 +202,7 @@ const wscBread = getAgreement("wscBread", {
     "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well",
 });
 const wscBreadAndAxesFixed = getAgreement("wscBreadAndAxesFixed", {
-  paymentItems: ["8x minecraft:birch_log"],
+  paymentItems: ["8x minecraft:oak_log"],
   requestedItems: ["64x minecraft:bread", "16x #forge:tools/axes"],
   title: "Food and tools, fixed rates",
   orderedAmount: 0,

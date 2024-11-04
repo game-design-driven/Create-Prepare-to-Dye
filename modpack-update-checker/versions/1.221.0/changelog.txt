@@ -1,0 +1,21 @@
+## [1.221.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.220.4...1.221.0) (2024-11-03)
+
+
+### Features
+
+* increase yield of rails in both assembly recipes ([7aa4a97](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7aa4a9747b5b28f7f6967a5af219be54892e26b3))
+* remove grass_seeds from floating flower recipes ([c3a58f4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c3a58f43f1eadb27a1605a19870dc1f7b50f14e6))
+* simplify and increase yield of devices. This means that existing processing lines that make them will break! ([5fedf8b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5fedf8b9d4c70f5f421a0744f48d16d8a03f029f))
+* simplify wand of the forest recipe ([bd0bab7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bd0bab7f8ba177f2328f2a90e1db805dea63e1d8))
+
+
+### Developer experience improvments and changes
+
+* structureCacheV1 to gitignore ([b3e9fa4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b3e9fa441ad8b496939cf729c3edd624a6e97437))
+
+
+### chores
+
+* autopublish 2024-11-01T13:39:04Z ([1fd1cb0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1fd1cb0d88c5bf3444bd34e881621869595f1145))
+
+

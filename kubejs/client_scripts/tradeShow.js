@@ -1,5 +1,6 @@
 JEIEvents.subtypes(event => {
-    // Splits recipes in JEI by nbt:
-    event.useNBT('wares:delivery_agreement')
-    event.useNBT('wares:completed_delivery_agreement')
+    // event.useNBT('wares:sealed_delivery_agreement')
+    // event.useNBT('wares:completed_delivery_agreement')
+    event.useNBTKey('wares:delivery_agreement', 'id')
+    event.useNBTKey('wares:completed_delivery_agreement', 'id')
 })

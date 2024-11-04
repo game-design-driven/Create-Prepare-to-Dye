@@ -92,7 +92,6 @@ if (feature("Replace mystical flowers and petals with dyes")) {
     replaceShapeless("botania:floating_" + flower, [
       "botania:" + flower,
       "#minecraft:dirt",
-      "botania:grass_seeds",
     ]);
   });
 }
