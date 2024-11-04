@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "492ec57fd4e2caa6240cd269f5e53606cf29f346a1bdf14fbfbd0e8b0d0f2f48"
+hash = "299fc9885deb742808920abfbbc8a51131b4c03de0fed3a08adf97f34c347c0b"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -422,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "9ba979e06aeac1f21671da3daf1e3fb91ff6ca71d2a1764a907a652d24c5b85f"
+hash = "a9db97f043b110aff6c2797a957bd3e134a3ed3af188eed738efdbd8470cc1af"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3590,7 +3590,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "b39ff2f2c183d660908a417d0fd8c1f172cf0c4152723f033c0abc066de13ea6"
+hash = "7bfe9991e4bb2da4047994998c628d6c88ad0d03805d6e68e38707696a26d287"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3639,6 +3639,14 @@ hash = "31d909aee01e7169420bae66ea1043aaff20165c16cbc029b7d733e60b8700ec"
 [[files]]
 file = "kubejs/assets/wares/models/block/delivery_table.json"
 hash = "799ea0c163cf2fc0ed1d43f66db3c5d094edace87651a78ef6d76858ce51bd2e"
+
+[[files]]
+file = "kubejs/assets/wares/models/item/delivery_agreement.json"
+hash = "3cc40c6227530019634c84493760fe2acec0a43b27ee3534ae5a357762122ccd"
+
+[[files]]
+file = "kubejs/assets/wares/models/item/fixed_rates_delivery_agreement.json"
+hash = "4454e4f42e6e344c939be62ed6b1da8c2a6b9d95f5802d6b8ce87c2d4d10d0ea"
 
 [[files]]
 file = "kubejs/assets/wares/textures/block/agreement_completed.aseprite"
@@ -3779,6 +3787,10 @@ hash = "35cffbbcf38b7b09a94ff4371ff503caa47eb99b55c7510391e98444933b5e3d"
 [[files]]
 file = "kubejs/assets/wares/textures/item/expired_delivery_agreement.png"
 hash = "446c32fbed7ea6d810c8bfa4d53aaac035c110feba784442292d9dfe385698c1"
+
+[[files]]
+file = "kubejs/assets/wares/textures/item/fixed_rates_delivery_agreement.png"
+hash = "1f274032e19d4783bee0472912041370aeb2308fa18921a3491c12fbea557870"
 
 [[files]]
 file = "kubejs/assets/wares/textures/item/package.png"
@@ -5438,7 +5450,7 @@ hash = "f52597e9a0e29791bc8c740ad5fb73a9f6f1bf4a6b2d1349313a2e26e352ce03"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "901819d86244fdfca0e88da030b88ef6806b45723b75c7492a7b289a36e2e2e9"
+hash = "2ce80913cc37c4774d4a69dc753d06ed27410119b950e215492617a42ef9ccb2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
@@ -5593,6 +5605,10 @@ file = "kubejs/startup_scripts/ponderDisplayItems.js"
 hash = "7ca2acb8a7432821271100fef46a858a828b4700f942d3fff2a3d844bc6dbbc7"
 
 [[files]]
+file = "kubejs/startup_scripts/predicates.js"
+hash = "f6bf6d0ed4008f037b77cadd5ff358e36640be7e43c33f35b92b7223cd6fdbe7"
+
+[[files]]
 file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
 hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
 
@@ -5626,7 +5642,7 @@ hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "61ca701eb2c240ac359f1ce8e5c2973a3f7d98eb54a09019bad821ac378e20ec"
+hash = "aa47b43a5b9480e4632d82ef6ce345b07595abfda5c39c685f7a7167b4eb245b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7659,6 +7675,10 @@ hash = "882758906939dab6b75a340dd60704205f5a8268aa0b72238e7131860ebc1e01"
 [[files]]
 file = "modpack-update-checker/versions/1.222.0/changelog.txt"
 hash = "1f5fd82aebcb5d1d0326f6fcf9838a760b0aec5bea48ff38232d25de1c68fc63"
+
+[[files]]
+file = "modpack-update-checker/versions/1.222.2/changelog.txt"
+hash = "27130c0e5e9a0bfbbcdb6c5c9d4a6f3f1ffc00f7cf130360e3a095f3810f7c4a"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
