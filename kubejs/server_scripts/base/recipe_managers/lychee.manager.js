@@ -23,6 +23,35 @@ function addFakeTradeRecipe(output_item, input, block_in) {
   };
   modpackRecipes.push(result);
 }
+function addFakeTradeItemsRecipe(output_items, input_items, block_in){
+  output_items = Array.isArray(output_items) ? output_items : [output_items];
+  let post_obj = []
+  let items_in_obj = []
+  input_items.forEach(i => {
+    let entry = {}
+    let item = Item.of(i)
+    entry.item = item.id
+    if (items_in_obj.find(i => i.item == item.id)) return;
+    items_in_obj.push(entry)
+  })
+  output_items.forEach(i => {
+    let entry = {}
+    let item = Item.of(i)
+    entry.type = "drop_item"
+    entry.item = item.id
+    if (item.hasNBT()) entry.nbt = item.nbtString
+    if (item.count) entry.count = item.count
+    post_obj.push(entry)
+  })
+  let result = {
+    type: "lychee:item_inside",
+    item_in: items_in_obj,
+    block_in: block_in,
+    post: post_obj,
+    ghost: true
+  };
+  modpackRecipes.push(result);
+}
 function addTradeBlendingRecipe(output_item, input) {
   output_item = Array.isArray(output_item) ? output_item : [output_item];
   let result = {
