@@ -1,5 +1,7 @@
 if (feature("Paper recipes")) {
   removeRecipe({ id: "minecraft:crafting_shaped/paper" });
+  removeRecipe({ id: "minecraft:paper" });
+  removeRecipe({ id: "quark:tweaks/utility/bent/paper" });
   addAssembly("2x paper", "createdieselgenerators:wood_chip", [
     addFilling("stick", "stick", "25x milk"),
     addPressing("stick", "stick"),
