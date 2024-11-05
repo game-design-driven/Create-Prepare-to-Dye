@@ -547,7 +547,8 @@ if (feature('Water from kelp and seagrass')) {
 if (feature('Replace bucket recipe with assembler recipe')) {
   removeRecipe({id:'minecraft:bucket'})
   addStonecutting('bucket', '#forge:ingots/iron')
-}if (feature('Remove stick recipes')) {
+}
+
 if (feature('Remove packing recipes that are not needed because of personal assembler')) {
   removeRecipe({id:'minecraft:polished_andesite'})
   removeRecipe({id:'minecraft:botania/metamorphic_swamp_bricks'})
