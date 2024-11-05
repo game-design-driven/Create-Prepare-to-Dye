@@ -47,3 +47,6 @@ if (feature("Remove conductors cap colored recipes in assembly")) {
     removeRecipe({ id: `railways:sequenced_assembly/${color}_conductor_cap` });
   });
 }
+if (feature('Remove minecart with workbench')) {
+  removeItem('railways:benchcart')
+}
