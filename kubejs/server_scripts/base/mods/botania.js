@@ -155,3 +155,7 @@ if (feature('Remove apothecary recipes')) {
 }
 
 removeRecipe({id:'botania:laputa_shard'})
+if (feature('Mana tablet recipe')) {
+  addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_diamond')
+  addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_pearl')
+}
