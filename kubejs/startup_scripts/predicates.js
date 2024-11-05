@@ -15,7 +15,7 @@ global.predicates.waresPredicate = function (stack) {
 //by @reveter from the kubejs discord
 StartupEvents.postInit((event) => {
   console.log("= predicate");
-  if (!Platform.isClientEnvironment) return;
+  if (!IS_CLIENT_ENVIRONMENT) return;
   const $ItemProperties = Java.loadClass(
     "net.minecraft.client.renderer.item.ItemProperties"
   );
