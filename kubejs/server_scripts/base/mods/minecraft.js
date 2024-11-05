@@ -563,3 +563,8 @@ if (feature('Remove stick recipes')) {
   removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks'})
   removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks_bamboo'})
 }
+
+if (feature('Lead can be made from string in assmebler')) {
+  removeRecipe({id:'minecraft:lead'})
+  addStonecutting('lead', 'string')
+}
