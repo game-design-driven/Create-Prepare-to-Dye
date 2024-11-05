@@ -39,7 +39,7 @@ addTooltip(
 );
 addTooltip(
   "wares:completed_delivery_agreement",
-  "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall, pretty piece of paper"
+  "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall"
 );
 addTooltip(
   "create:blaze_burner",
