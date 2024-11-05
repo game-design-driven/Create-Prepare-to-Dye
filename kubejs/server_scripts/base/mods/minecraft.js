@@ -557,6 +557,8 @@ if (feature('Remove packing recipes that are not needed because of personal asse
   addCompacting('gold_block', '9x gold_ingot')
 
 }
+
+if (feature('Remove stick recipes')) {
   removeRecipe({id:'minecraft:stick_from_bamboo_item'})
   removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks'})
   removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks_bamboo'})
