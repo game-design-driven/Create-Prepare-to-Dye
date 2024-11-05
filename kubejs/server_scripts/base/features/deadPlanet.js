@@ -13,7 +13,7 @@ addPurify('brown_concrete_powder', 'create:chocolate', 15)
 addPurify('green_concrete_powder', 'kubejs:organic_mass', 15)
 addPurify('black_concrete_powder', 'create_enchantment_industry:ink', 15)
 
-addShaped('stick', ['a', 'a'], { a: 'cactus' })
+// addShaped('stick', ['a', 'a'], { a: 'cactus' })
 addMilling(['stick','stick %75'], 'dead_bush')
 addFilling('sand', 'red_sand', '100x milk')
 
