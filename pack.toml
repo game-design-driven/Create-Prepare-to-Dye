@@ -1,12 +1,12 @@
 name = "Create-Prepare-to-Dye"
 author = "yarden-zamir"
-version = "1.222.3"
+version = "1.222.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b7e74530ebba0ab919fd2fdcdae54ee64a352f02eb818f2fddbecfaf8804f4f6"
+hash = "ab72319a5f58f987879356a44a36c620cce55e1119ae5326936b6f94a63bc979"
 
 [versions]
 forge = "43.4.4"
