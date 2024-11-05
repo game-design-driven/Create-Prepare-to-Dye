@@ -1015,13 +1015,6 @@ const bfsiZombiesFixedRates = getAgreement("bfsiZombiesFixedRates", {
   message:
     "This worked really well for us! We have managed to sign some record breaking amounts of props, eh, I mean actors this season. Lets keep this going, we need more paper, we can offer more props, we have a lot of them, a lot",
 });
-addMixing(
-  "stick",
-  Item.of(
-    "supplementaries:cage",
-    '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:chicken"},Name:"Chicken",Scale:0.87719303f}}}'
-  ).weakNBT()
-);
 const bfsiChickenInvaders = getAgreement("bfsiChickenInvadors", {
   paymentItems: [
     "32x minecraft:gold_ingot",
