@@ -144,3 +144,13 @@ if (feature('Reduce mana price of manasteel')) {
   addInfusion('botania:manasteel_ingot', '#forge:ingots/iron', 1000)
   addInfusion('botania:manasteel_block', '#forge:storage_blocks/iron', 9000)
 }
+
+if (feature('Remove apothecary recipes')) {
+  let types=[
+    'forest', 'plains', 'mountain', 'fungal', 'swamp', 'jungle', 'taiga', 'mesa', 'mossy', 'livingrock', 'deepslate'
+  ]
+  types.forEach(type => {
+    removeRecipe({id:`botania:apothecary_${type}`})
+  })
+}
+
