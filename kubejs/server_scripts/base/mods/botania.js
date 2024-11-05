@@ -154,3 +154,4 @@ if (feature('Remove apothecary recipes')) {
   })
 }
 
+removeRecipe({id:'botania:laputa_shard'})
