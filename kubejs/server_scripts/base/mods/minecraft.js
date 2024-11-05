@@ -545,4 +545,8 @@ if (feature('Water from kelp and seagrass')) {
 if (feature('Replace bucket recipe with assembler recipe')) {
   removeRecipe({id:'minecraft:bucket'})
   addStonecutting('bucket', '#forge:ingots/iron')
+}if (feature('Remove stick recipes')) {
+  removeRecipe({id:'minecraft:stick_from_bamboo_item'})
+  removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks'})
+  removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks_bamboo'})
 }

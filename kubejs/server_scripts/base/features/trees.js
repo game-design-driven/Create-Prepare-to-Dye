@@ -13,8 +13,8 @@ if (feature("Oak aka applewood")) {
 // }
 if (feature("Acacia")) {
   removeRecipe({ id: "minecraft:stick" });
-  addShaped("4x stick", ["w", "w"], { w: "#planks" });
-  addShaped("6x stick", ["w", "w"], { w: "acacia_planks" });
+  // addShaped("4x stick", ["w", "w"], { w: "#planks" });
+  // addShaped("6x stick", ["w", "w"], { w: "acacia_planks" });
   addCutting("3x stick", "acacia_planks");
 }
 if (feature("Spruce")) {
