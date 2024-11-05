@@ -144,12 +144,23 @@ function tradeBranch(outputTrades, inputTrades) {
     //   outputTrades.map((trade) => trade.item),
     //   inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
     // );
+
+    let hiddenUniversalRecipe = e.recipes.create.mixing(
+      outputTrades.map((trade) => trade.item),
+      inputTrades.map((trade) => getTradeNbtIdFilter(trade.completedItem, true))
+    );
+    let random_string_id_10_chars= Math.random().toString(36).substring(7);
+    hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
+    
   });
 }
-function getTradeNbtIdFilter(item) {
+function getTradeNbtIdFilter(item, compat) {
   if (!item.getNbt()) return item.weakNBT();
   if (item.nbt.get("id") == null) return item.weakNBT();
-  return Item.of(item.id).withNBT({"id": item.nbt.get("id")}).weakNBT();
+  if (compat) return Item.of(item.id).withNBT({"id": item.nbt.get("id")}).weakNBT();
+  return Item.of(item.id).withNBT({
+    "id": item.nbt.get("id"), 'ordered': item.nbt.get("ordered"), "display": item.nbt.get("display")
+  }).weakNBT();
 }
 console.info("Loading wares manager");
 ServerEvents.lowPriorityData((event) => {
