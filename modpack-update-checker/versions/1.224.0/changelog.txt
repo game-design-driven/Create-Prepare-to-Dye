@@ -1,0 +1,26 @@
+## [1.224.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.223.2...1.224.0) (2024-11-06)
+
+
+### Features
+
+* Better mana pool recipes ([dc5165d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/dc5165d5b40fe7c1278982eb7765acbd198f853d))
+* increase yield of ores and doubly increase yield when using fortune (golden tools) when the ore is deepslate ([4b0c037](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4b0c037d8dbc56dd788c65cd0b02783fbd70df46))
+* pointed_dripstone recipe from dripstone block ([f4dfd4b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/f4dfd4b142c1ca1cba6502eefa2ef4972dc87039))
+
+
+### Fixes
+
+* remove deepslate_zinc_ore ([ca23977](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ca23977508595dcacf20392ede00defd0aab0089))
+
+
+### Minor tweaks
+
+* remove salt ores ([c260566](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c260566a4e06d84826e2856ff63627a1552c484a))
+* wand of the forest in early bhb trade for fermented goo ([b230372](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b230372f717b4b00241605f3517db7a7837842f0))
+
+
+### chores
+
+* autopublish 2024-11-06T08:26:35Z ([55c60ef](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/55c60ef1d4e1c6b5e49d8ee42324f67031f445a3))
+
+
