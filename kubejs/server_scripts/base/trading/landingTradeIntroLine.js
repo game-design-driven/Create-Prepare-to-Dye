@@ -147,6 +147,7 @@ const bhbCheese = getAgreement("bhbCheese", {
     "1x botania:gourmaryllis",
     "1x minecraft:water_bucket",
     "1x minecraft:water_bucket",
+    "botania:twig_wand"
   ],
   requestedItems: ["64x kubejs:fermented_blob"],
   title: "Ingredients needed",
