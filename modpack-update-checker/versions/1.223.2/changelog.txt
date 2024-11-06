@@ -1,0 +1,13 @@
+### [1.223.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.223.1...1.223.2) (2024-11-06)
+
+
+### Fixes
+
+* add missing translations to version control ([532056a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/532056a727669450dc808f7bfd79a3727860b007))
+
+
+### chores
+
+* autopublish 2024-11-06T08:25:03Z ([9a73509](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9a735099f720912fa35538a96803af86502126d4))
+
+
