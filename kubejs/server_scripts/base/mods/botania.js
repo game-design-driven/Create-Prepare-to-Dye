@@ -120,7 +120,7 @@ if (feature("Lexica botania from book")) {
 
 if (feature("Wand easy recipe")) {
   removeAllRecipesForItem("botania:twig_wand");
-  addShapeless("botania:twig_wand", ["botania:livingwood_twig", "#forge:dyes"]);
+  if(!feature("Craftable devices that are transmuted to specific things on demand")) addShapeless("botania:twig_wand", ["botania:livingwood_twig", "#forge:dyes"]);
 }
 
 if (feature("Remove Drum of gathering because it makes milk easy")) {

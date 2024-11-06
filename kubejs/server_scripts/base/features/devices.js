@@ -74,20 +74,49 @@ if (
     },
     {
       tag: "forge:devices/window",
-      generic: 'create:ornate_iron_window',
-      included_devices: ['create:oak_window', 'create:spruce_window', 'create:birch_window', 'create:jungle_window', 'create:acacia_window', 'create:dark_oak_window', 'create:mangrove_window', 'create:crimson_window', 'create:warped_window'],
+      generic: "create:ornate_iron_window",
+      included_devices: [
+        "create:oak_window",
+        "create:spruce_window",
+        "create:birch_window",
+        "create:jungle_window",
+        "create:acacia_window",
+        "create:dark_oak_window",
+        "create:mangrove_window",
+        "create:crimson_window",
+        "create:warped_window",
+      ],
       post_logic: () => {
-        removeAllRecipesForItem('create:ornate_iron_window')
-        addMixing('16x create:ornate_iron_window',["#forge:glass",'16x quark:iron_plate'])
+        removeAllRecipesForItem("create:ornate_iron_window");
+        addMixing("16x create:ornate_iron_window", [
+          "#forge:glass",
+          "16x quark:iron_plate",
+        ]);
       },
     },
     {
       tag: "forge:devices/lamp",
       generic: "minecraft:redstone_lamp",
-      included_devices: ['quark:red_crystal_lamp', 'quark:orange_crystal_lamp', 'quark:yellow_crystal_lamp', 'quark:green_crystal_lamp', 'quark:blue_crystal_lamp', 'quark:indigo_crystal_lamp', 'quark:violet_crystal_lamp', 'quark:white_crystal_lamp', 'quark:black_crystal_lamp', 'create:rose_quartz_lamp', 'supplementaries:redstone_illuminator'],
+      included_devices: [
+        "quark:red_crystal_lamp",
+        "quark:orange_crystal_lamp",
+        "quark:yellow_crystal_lamp",
+        "quark:green_crystal_lamp",
+        "quark:blue_crystal_lamp",
+        "quark:indigo_crystal_lamp",
+        "quark:violet_crystal_lamp",
+        "quark:white_crystal_lamp",
+        "quark:black_crystal_lamp",
+        "create:rose_quartz_lamp",
+        "supplementaries:redstone_illuminator",
+      ],
       post_logic: () => {
-        removeAllRecipesForItem("minecraft:redstone_lamp")
-        addItemApplication("minecraft:redstone_lamp","#forge:glass","#forge:glowy_items")
+        removeAllRecipesForItem("minecraft:redstone_lamp");
+        addItemApplication(
+          "minecraft:redstone_lamp",
+          "#forge:glass",
+          "#forge:glowy_items"
+        );
       },
     },
     {
@@ -170,15 +199,26 @@ if (
       recycleExcluded: true,
       tag: "forge:util_devices/tools",
       generic: "ptdye:tool_parts",
-      included_devices: ['create:wand_of_symmetry', 'create:wrench', 'create:linked_controller', 'create:clipboard', 'create:schematic_and_quill', 'create:empty_schematic', 'ptdye:hammer', 'crafting_on_a_stick:stonecutter', 'quark:abacus'],
+      included_devices: [
+        "create:wrench",
+        "ptdye:hammer",
+        "create:schematic_and_quill",
+        "create:empty_schematic",
+        "create:linked_controller",
+        "create:wand_of_symmetry",
+        "botania:twig_wand",
+        "create:clipboard",
+        "crafting_on_a_stick:stonecutter",
+        "quark:abacus",
+      ],
       post_logic: () => {
-        addMixing("2x ptdye:tool_parts",[
+        addMixing("2x ptdye:tool_parts", [
           "#forge:nuggets/gold",
           "2x #forge:plates/iron",
-          "#forge:rods"
-        ])
-        //for recycling currently filled schematics 
-        addStonecutting("ptdye:tool_parts","create:schematic")
+          "#forge:rods",
+        ]);
+        //for recycling currently filled schematics
+        addStonecutting("ptdye:tool_parts", "create:schematic");
       },
     },
     {
@@ -419,8 +459,8 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
-    addToTag('forge:generics/devices', device.generic)
-    addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic)
+    addToTag("forge:generics/devices", device.generic);
+    addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
     device.base = device.base || "create:cogwheel";
