@@ -568,3 +568,7 @@ if (feature('Lead can be made from string in assmebler')) {
   removeRecipe({id:'minecraft:lead'})
   addStonecutting('lead', 'string')
 }
+
+if (feature('Dripstone')) {
+  addItemApplication('minecraft:pointed_dripstone', 'minecraft:dripstone_block', '#forge:tools/pickaxes')
+}
