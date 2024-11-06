@@ -1,0 +1,20 @@
+### [1.223.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.223.0...1.223.1) (2024-11-06)
+
+
+### Developer experience improvments and changes
+
+* update allAssetNamespaces.json ([12da74d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/12da74d50a240cb84a849176a7d00adf2003b91b))
+
+
+### Documentation and Localization
+
+* add example translation entry ([64ae27d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/64ae27d1d4a9e1397189547f0be34c1adac9d52d))
+* add zh_cn to supported language so that we have at least on there for example ([1966d22](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1966d2200b002d039dc77966f8348776f16cd93c))
+* document how the translation helper works ([5e0fe24](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5e0fe245016b0a32cfcf205095b744bc1f086c4b))
+
+
+### chores
+
+* autopublish 2024-11-05T21:01:30Z ([fff893d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fff893db3ee7eb7338c99e1ae28598e7515f0109))
+
+

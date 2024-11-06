@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "87c2028a4b9e7f31ce7cdce376022710bf7b7fd4065e766ce8bb64727ecd96eb"
+hash = "9b0d4a0d3aecbd9e4510b904f242a8e88d50be4948872f8dcb23de6bde70228d"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -422,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "d3b8a820dde9cf706ff0563a9cb55aee454d5df27fc222912adc759594a4c3cf"
+hash = "0f9faa63ecf70f02ee8f5c6cdfa6921ab2c454bf6019f69c86b57cdd198df7bf"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -702,11 +702,15 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
-hash = "b3fe541b0611d9f05f37f8b2cfeb2e72531ccecf1cd413f9d0bb0ca870e7d513"
+hash = "717e446265952335130387ccf95d31fdbd98d9f6c4af319ed7d063783f047efe"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/he_il.json"
-hash = "a452fa9447bddfaef3605e6c63537f49924429c0185411f3b39dd0122d59edeb"
+hash = "daf411f5b068a72d2c5ff8a5b310ad6f6fd4379b5bbda95b3d561f320c93a2d0"
+
+[[files]]
+file = "kubejs/assets/ae2/lang/zh_cn.json"
+hash = "6cb66cfa55e7525e1e9277fd781aaecf50b96354c0798475a5cb6204bd8c8f5d"
 
 [[files]]
 file = "kubejs/assets/ae2/textures/block/energy_cell.png"
@@ -3590,7 +3594,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "9733e5827ee81b39d602c9ea93c1b776e8c1359b09b9c795d205f103e5398eae"
+hash = "cf6bb35c372f85c1f26e653a12b76477fa78350ea2d8a1977edac1e7207f34b6"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5629,8 +5633,12 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "0743674513b23686c277cb2f11dbe02cb7cd43d50984ad29b4da66c3ba3a1552"
 
 [[files]]
+file = "kubejs/translation_tools/README.md"
+hash = "fc7066d69f581a1ab30263fa6784fa48414344a126960f0d886cfb492200bd4f"
+
+[[files]]
 file = "kubejs/translation_tools/allAssetNamespaces.json"
-hash = "590f1bc3496d594817ca96d04e2be818a884d59d7bed2e7fc3a9dc84fc760314"
+hash = "6411e0407fc8ea57021518051e39f5ef4722a6d99cdb9910a82ceb9252ff5c9d"
 
 [[files]]
 file = "kubejs/translation_tools/listAllNamespaces.py"
@@ -5638,11 +5646,11 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
-hash = "9a98aaa3725dcc73d4df2d6b3d9856eeccba21f5a20f226aa8a75759743f99c4"
+hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "3b55ec67e63d2118445fb5bb35027fd47736be0d449bd2caf39ecea793c84408"
+hash = "49ea9eb9ddcdeabc749e748d59f7d86dc8cd130e3a2109c36fca35925d58e942"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7691,6 +7699,10 @@ hash = "88bcf8313630b779c06245978962f84eea0307febbd81ec8238a19b2109fa13c"
 [[files]]
 file = "modpack-update-checker/versions/1.223.0/changelog.txt"
 hash = "6fbdd207a60d0bb5a8139ed43f5af78efd9c75a5b37643f2ddb3f2669a29aa12"
+
+[[files]]
+file = "modpack-update-checker/versions/1.223.1/changelog.txt"
+hash = "e927d337d9623ca5f38c0001264c19bced1872334d985c5bde6292fd8272cf42"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
