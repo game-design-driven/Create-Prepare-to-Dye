@@ -159,3 +159,10 @@ if (feature('Mana tablet recipe')) {
   addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_diamond')
   addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_pearl')
 }
+
+if (feature('Better mana pool recipes')) {
+  removeRecipe({id: 'botania:mana_pool'})
+  removeRecipe({id: 'botania:diluted_mana_pool'})
+  addItemApplication('botania:mana_pool', 'botania:livingrock', '#forge:tools/pickaxes')
+  addItemApplication('botania:diluted_pool', 'botania:mana_pool', '#forge:tools/pickaxes')
+}
