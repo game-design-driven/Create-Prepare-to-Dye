@@ -104,6 +104,7 @@ const mlcSand2 = getAgreement("mlcSand2", {
   paymentItems: [
     Item.of("minecraft:golden_pickaxe", 4, "{Damage:0}"),
     "64x dirt",
+    "16x minecraft:redstone",
     "16x supplementaries:jar",
     "8x ptdye:smart_device",
     "ptdye:trading_transceiver",
@@ -225,7 +226,7 @@ const bhbFurnaces = getAgreement("bhbFurnaces", {
     "We are expanding our presence on Zora, we need some furnaces, you have proven yourself so far, lets see if we can work some fixed rates for your wheat after this",
 });
 const bhbWheatFixedRates = getAgreement("bhbWheatFixedRates", {
-  paymentItems: ["32x clay"],
+  paymentItems: ["32x clay", "10x minecraft:redstone"],
   requestedItems: ["64x wheat", "64x wheat"],
   title: "Clean wheat fixed rates",
   orderedAmount: 0,
@@ -1022,6 +1023,7 @@ const bfsiChickenInvaders = getAgreement("bfsiChickenInvadors", {
     "16x botania:manasteel_ingot",
     "10x create:cogwheel",
     "10x minecraft:soul_sand",
+    "32x minecraft:redstone"
   ],
   requestedItems: [
     Item.of(
