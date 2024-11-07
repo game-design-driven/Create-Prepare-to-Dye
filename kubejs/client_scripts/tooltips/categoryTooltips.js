@@ -35,13 +35,17 @@ let allowed_tabs = [
 // }
 function getDeviceType(item) {
   let item2 = Item.of(item);
-  if (!item2.hasTag("forge:device")) return Text.of("");
+  if (!item2.hasTag("forge:devices") && !item2.hasTag("forge:generics/devices")) return Text.of("");
   let deviceTag = item2
     .getTags()
     .toList()
-    .filter((tag) => tag.location().path.startsWith("device/"))[0];
+    .filter((tag) => tag.location().path.startsWith("devices/"))[0];
+  if (!deviceTag)
+    deviceTag = item2.getTags()
+    .toList()
+    .filter((tag) => tag.location().path.startsWith("generics/devices/"))[0];
   if (!deviceTag) return " ";
-  let deviceType = deviceTag.location().path.split("/")[1].replaceAll("_", " ");
+  let deviceType = deviceTag.location().path.split("/").pop().replaceAll("_", " ");
 
   if (allowed_tabs.includes(item.creativeTab)) {
     return Text.darkGray(" - ").append(
