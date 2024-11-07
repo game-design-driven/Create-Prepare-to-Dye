@@ -390,6 +390,9 @@
 		"item.botania.water_rod.tooltip.summary": "_A rod for creating water._ Similarly to its land-themed counterpart, the _Rod of the Seas_ will (at the cost of some _Mana_) place a block of _Water_ wherever it's used. Furthermore, it can refill a __Petal Apothecary__, as well as empty _Buckets_ in the inventory. Keep the Earth clean, it isn't Uranus",
 		"item.botania.world_seed.tooltip.summary": "_Single-use jump to world spawn._ _World Seeds_ are energized pieces of elemental matter with the ability to return their user to the world's spawn point. If its user is 24 or more blocks from the world's spawnpoint, a right-click with one held will instantly teleport them to that location, consuming the seed in the process. Where the heart is"
 	},
+	"crafting_on_a_stick": {
+		"item.crafting_on_a_stick.stonecutter": "Personal Assembler"
+	},
 	"create": {
 		"advancement.create.andesite_alloy.desc": "Obtain some Gray Alloy, Create's most important resource",
 		"advancement.create.andesite_casing": "The Gray Age",
@@ -902,6 +905,10 @@
 		"emi.sidebar.type.favorites": "Favorites [A] to add"
 	},
 	"kubejs": null,
+	"lychee": {
+		"recipeType.lychee.block_interacting": "World Interaction",
+		"recipeType.lychee.item_inside": "Trading Mesh Interactions"
+	},
 	"minecraft": {
 		"advancements.adventure.summon_iron_golem.description": "Summon a Golem to help defend a village",
 		"advancements.husbandry.netherite_hoe.description": "Use a Black Ingot to upgrade a Hoe, and then reevaluate your life choices",
@@ -1390,8 +1397,9 @@
 		"tag.item.c.storage_blocks.golden_apple": "Yellow Apple Storage Blocks",
 		"tag.item.c.storage_blocks.golden_carrot": "Yellow Carrot Storage Blocks"
 	},
+	"railways": null,
 	"sdrp": {
-		"sdrp.logo": "Hanging out with Betsy on version 1.223.0",
+		"sdrp.logo": "Hanging out with Betsy on version 1.224.1",
 		"sdrp.mainmenu": "Main Menu",
 		"sdrp.overworld": "Chroma Prime",
 		"sdrp.overworld.in": "On Chroma Prime"
