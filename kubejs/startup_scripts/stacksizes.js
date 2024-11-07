@@ -22,3 +22,4 @@ ItemEvents.modification((event) => {
   event.modify("minecraft:shulker_box", (item) => item.setMaxStackSize(8));
 
 });
+
