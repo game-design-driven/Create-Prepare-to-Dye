@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "dc860cb8b7bcc6ff1381092db20419252ec703def72d25bcece10e7b236d54c0"
+hash = "429a663e052ebe919792c1584655a5bad1b5b00ee9326fca7f81ead16f53e223"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -422,7 +422,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "bda7c5aded2349ae50faec4a27d3fd719e501f2b5aae7337956547aecfa25ebf"
+hash = "5079c01c2c1cee95aa1e6174e1651c37b4ea0002a962472e29b9dcdfd9bbe944"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -906,7 +906,7 @@ hash = "2ea14c0ab73318fc32677989185864b835c1cea65319cd0e5442de260b2e0e0c"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "000c018c57a9a0e0934d81628c0e0d0e759690bf29ea24482d5e916cd2132d63"
+hash = "dc2e054c704b046f34331373753a8c690eb5ac1acc0873d95bf20c9a8bb41d18"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
@@ -3594,7 +3594,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "01be341c3e147428dc88d4947c4667b5ae68d4a770b313c02df57064ae189b20"
+hash = "fd8b4df3f824466f8245753838ff09705beadfe00022202271ba9fd474308e1d"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3886,7 +3886,7 @@ hash = "8efb686f97aad8a699a8fb07f8de5bb3616d4bc36ea46da99148d316a434d8c4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/categoryTooltips.js"
-hash = "ed1b2bd34fc5b6469e6e2a950eb11b9e51ba36936015550dc2cf244eaa02c778"
+hash = "e45f04d38b6889113b201062d2d1fac9c7f352021e84993fa999dec90370cbb3"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
@@ -5486,7 +5486,7 @@ hash = "2a1c785d0f5576c274104d078976be3be472f2a8b2f30dab6200ee2fac727341"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "ac221bf195dab10bb70c10784940e354832c68c3c3439fdc6efaf5cfe59ddef2"
+hash = "3d8fc5fb37bb416599d7256bb493a153e346845b60a41b4a91a2fa89835a3e03"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -5626,7 +5626,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "839cff531bf294af24a9bd769e7ef1dcdd098817336c0a1e2e712a3466ad4df1"
+hash = "2e753aa396861ddf4b48e84588bf18fb3399f56e252b6623a8ef9f10e689e9d8"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -5650,7 +5650,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/zh_cn.missing.json"
-hash = "c1848b4a17bdcb8d1ab686118f486e4b087f496bfbb8e034be43a0788a301fde"
+hash = "5e7d129fcf16d32d0db72c36ca8f3c1032a26ea52fa70f2b0eb7f7da279aaff1"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -5658,7 +5658,7 @@ hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "abadfb2a6a4cc807ec7407c02b9cda869927d2d08438499eef93fdf1beb7c17c"
+hash = "7110225acb35e7841ad4b0730e7c9884b1241f94ac94cd72e03a49a2aabfc1b9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7723,6 +7723,10 @@ hash = "ee2d165190b0e747ff2fc3bab3c552981fc4ffc83edb2da4209f78200e7216d1"
 [[files]]
 file = "modpack-update-checker/versions/1.224.1/changelog.txt"
 hash = "23553eb335b538fa3b94732a12e6c8729047c1360f7cc688b7cad808945fdafd"
+
+[[files]]
+file = "modpack-update-checker/versions/1.224.2/changelog.txt"
+hash = "c9e6018fabc67617ef588ee75ba11959397f2875e121f71994473380a7c69e66"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
