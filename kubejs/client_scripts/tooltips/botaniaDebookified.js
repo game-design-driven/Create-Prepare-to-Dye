@@ -15,7 +15,8 @@ function grabPage(camelCasedName, num, maxDepth) {
 function parseBotaniaPageSyntax(str) {
   return str
     .replace(/\$\((p)?([^)]*)\)/g, (match, p1) => (p1 ? "" : "_")) // clean book references and replace with bold (_)
-    .replace(/(\.\s*)([A-Z])/g, ". $2"); //add a space after a period if it's followed by an uppercase letter without a space
+    .replace(/(\.\s*)([A-Z])/g, ". $2") //add a space after a period if it's followed by an uppercase letter without a space
+    .replace(/__/g, "_")
 }
 
 const inconsistentNamesMap = {
@@ -66,7 +67,7 @@ ClientEvents.highPriorityAssets((event) => {
       console.info(`missing description for ${item} key ${key}`);
       return;
     }
-    let description = `_${translated}._${parseBotaniaPageSyntax(
+    let description = `_${translated}._ ${parseBotaniaPageSyntax(
       grabPage(cameCaseName, 0)
     )}`;
     // also add floating and chibi versions
