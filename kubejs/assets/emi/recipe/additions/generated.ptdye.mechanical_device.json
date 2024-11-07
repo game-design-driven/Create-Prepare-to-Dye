@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ptdye:mechanical_device"
 	],
-	"text": "block.ptdye.mechanical_device.tooltip.summary"
+	"text": "block.ptdye.mechanical_device.emi.info"
 }

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:create:limestone"
 	],
-	"text": "block.create.limestone.tooltip.summary"
+	"text": "block.create.limestone.emi.info"
 }

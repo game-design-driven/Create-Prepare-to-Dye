@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ptdye:trading_transceiver"
 	],
-	"text": "item.ptdye.trading_transceiver.tooltip.summary"
+	"text": "item.ptdye.trading_transceiver.emi.info"
 }

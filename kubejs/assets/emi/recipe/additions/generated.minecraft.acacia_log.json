@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:acacia_log"
 	],
-	"text": "block.minecraft.acacia_log.tooltip.summary"
+	"text": "block.minecraft.acacia_log.emi.info"
 }

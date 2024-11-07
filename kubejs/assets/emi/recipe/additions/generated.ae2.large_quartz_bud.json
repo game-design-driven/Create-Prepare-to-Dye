@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ae2:large_quartz_bud"
 	],
-	"text": "block.ae2.large_quartz_bud.tooltip.summary"
+	"text": "block.ae2.large_quartz_bud.emi.info"
 }

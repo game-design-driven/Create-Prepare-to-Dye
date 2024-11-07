@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:golden_pickaxe"
 	],
-	"text": "item.minecraft.golden_pickaxe.tooltip.summary"
+	"text": "item.minecraft.golden_pickaxe.emi.info"
 }

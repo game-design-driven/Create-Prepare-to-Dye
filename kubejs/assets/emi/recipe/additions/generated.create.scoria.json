@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:create:scoria"
 	],
-	"text": "block.create.scoria.tooltip.summary"
+	"text": "block.create.scoria.emi.info"
 }

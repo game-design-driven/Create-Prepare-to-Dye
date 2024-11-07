@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:supplementaries:ash"
 	],
-	"text": "block.supplementaries.ash.tooltip.summary"
+	"text": "block.supplementaries.ash.emi.info"
 }

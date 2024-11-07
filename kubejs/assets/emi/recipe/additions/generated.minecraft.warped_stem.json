@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:warped_stem"
 	],
-	"text": "block.minecraft.warped_stem.tooltip.summary"
+	"text": "block.minecraft.warped_stem.emi.info"
 }

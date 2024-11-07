@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:raw_iron"
 	],
-	"text": "item.minecraft.raw_iron.tooltip.summary"
+	"text": "item.minecraft.raw_iron.emi.info"
 }

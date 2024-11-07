@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:egg"
 	],
-	"text": "item.minecraft.egg.tooltip.summary"
+	"text": "item.minecraft.egg.emi.info"
 }

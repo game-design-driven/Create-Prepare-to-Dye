@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:lava_bucket"
 	],
-	"text": "item.minecraft.lava_bucket.tooltip.summary"
+	"text": "item.minecraft.lava_bucket.emi.info"
 }

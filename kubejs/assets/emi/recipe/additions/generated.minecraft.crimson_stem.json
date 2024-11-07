@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:crimson_stem"
 	],
-	"text": "block.minecraft.crimson_stem.tooltip.summary"
+	"text": "block.minecraft.crimson_stem.emi.info"
 }

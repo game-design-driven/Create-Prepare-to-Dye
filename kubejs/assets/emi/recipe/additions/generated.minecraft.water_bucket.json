@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:water_bucket"
 	],
-	"text": "item.minecraft.water_bucket.tooltip.summary"
+	"text": "item.minecraft.water_bucket.emi.info"
 }

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:acacia_wood"
 	],
-	"text": "block.minecraft.acacia_wood.tooltip.summary"
+	"text": "block.minecraft.acacia_wood.emi.info"
 }

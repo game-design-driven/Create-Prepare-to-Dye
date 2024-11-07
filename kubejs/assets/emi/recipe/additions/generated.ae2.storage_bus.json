@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ae2:storage_bus"
 	],
-	"text": "item.ae2.storage_bus.tooltip.summary"
+	"text": "item.ae2.storage_bus.emi.info"
 }

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:golden_sword"
 	],
-	"text": "item.minecraft.golden_sword.tooltip.summary"
+	"text": "item.minecraft.golden_sword.emi.info"
 }

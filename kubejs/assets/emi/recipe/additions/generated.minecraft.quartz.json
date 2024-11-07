@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:quartz"
 	],
-	"text": "item.minecraft.quartz.tooltip.summary"
+	"text": "item.minecraft.quartz.emi.info"
 }

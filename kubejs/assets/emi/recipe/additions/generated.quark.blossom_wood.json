@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:quark:blossom_wood"
 	],
-	"text": "block.quark.blossom_wood.tooltip.summary"
+	"text": "block.quark.blossom_wood.emi.info"
 }

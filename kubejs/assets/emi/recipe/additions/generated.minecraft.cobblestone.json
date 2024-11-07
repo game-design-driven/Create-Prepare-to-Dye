@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:cobblestone"
 	],
-	"text": "block.minecraft.cobblestone.tooltip.summary"
+	"text": "block.minecraft.cobblestone.emi.info"
 }

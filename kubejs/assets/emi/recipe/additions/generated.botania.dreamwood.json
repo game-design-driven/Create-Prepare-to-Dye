@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:botania:dreamwood"
 	],
-	"text": "block.botania.dreamwood.tooltip.summary"
+	"text": "block.botania.dreamwood.emi.info"
 }

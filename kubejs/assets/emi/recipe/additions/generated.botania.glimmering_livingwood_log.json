@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:botania:glimmering_livingwood_log"
 	],
-	"text": "block.botania.glimmering_livingwood_log.tooltip.summary"
+	"text": "block.botania.glimmering_livingwood_log.emi.info"
 }

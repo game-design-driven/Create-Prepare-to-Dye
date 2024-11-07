@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ptdye:postage_stamp_transceiver"
 	],
-	"text": "item.ptdye.postage_stamp_transceiver.tooltip.summary"
+	"text": "item.ptdye.postage_stamp_transceiver.emi.info"
 }
