@@ -1,0 +1,18 @@
+### [1.224.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.224.3...1.224.4) (2024-11-07)
+
+
+### Modlist related changes
+
+* update lychee ([cfe66d8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cfe66d8f1cf962ecc28dfbb54e2b60ac8d9478d0))
+
+
+### Fixes
+
+* some words in tooltips not being highlighted when they should be ([118c1be](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/118c1beb2a56e2de45fd056e7bcfb17046275bde))
+
+
+### chores
+
+* autopublish 2024-11-07T12:24:42Z ([351512c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/351512ccea2704e4be49816c36d060b65bb78940))
+
+
