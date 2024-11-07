@@ -27,16 +27,23 @@ function addFakeTradeItemsRecipe(output_items, input_items, block_in){
   output_items = Array.isArray(output_items) ? output_items : [output_items];
   let post_obj = []
   let items_in_obj = []
-  input_items.forEach(i => {
-    let entry = {}
-    let item = Item.of(i)
-    entry.item = item.id
-    if (item.hasNBT()){
-      entry.nbt = item.nbtString
-      entry.type = "forge:nbt"
-    } 
-    if (items_in_obj.find(i => i.item == item.id)) return;
-    items_in_obj.push(entry)
+  input_items.forEach(item => {
+      /** @type {Internal.Ingredient} */
+      let ingredient = item
+      let amount = 1
+      if (typeof item === "string"){
+          ingredient = Ingredient.of(item.split("x ").pop())
+          /** @type {Internal.ItemStack} */
+          item = Item.of(item)
+          amount = item.count
+      }
+      for (let i = 0; i < item.count; i++) {
+        if (Item.of(item).hasNBT() && Item.of(item).nbtString != "{Damage:0}"){
+          items_in_obj.push(Item.of(item).strongNBT().toJson())
+        }else{
+          items_in_obj.push(ingredient.toJson())
+        }
+      }
   })
   output_items.forEach(i => {
     let entry = {}
