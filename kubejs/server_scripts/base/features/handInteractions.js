@@ -27,7 +27,6 @@ function fillBlockEntity(block, event) {
 
 BlockEvents.rightClicked("createdieselgenerators:diesel_engine", (event) => {
   if (
-
     (event.player.handSlots[0].id.endsWith('_bucket')) &&
     event.block.getEntityData().Tanks[0].Level.Value == 0
   ) {
