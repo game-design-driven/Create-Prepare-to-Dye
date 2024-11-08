@@ -4,9 +4,9 @@ if (feature("Remove crafting table")) {
 
 
 if (true) {
-  const ComponentDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Components (e.g. basins, gearboxes)")
-  const DecorativeDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Decorative Blocks (e.g. copycat blocks)")
-  const ToolDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")
+  let ComponentDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Components (e.g. basins, gearboxes)")
+  let DecorativeDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Decorative Blocks (e.g. copycat blocks)")
+  let ToolDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")
 
   let deviceDefinitions = [
     {
