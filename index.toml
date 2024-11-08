@@ -8162,6 +8162,11 @@ hash = "7342959eb86faf584e6d64417064dd793ae6b4667f51954f4169d11fe5f0d5da"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "65b09221852b7ec21ed8bccc309ed82e4647e67095e17c39d823a0683613ecdd"
+metafile = true
+
+[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "690581be60dbaa3851ac35df5cf137cbd8db334d9df9c07402eea9fbbd0b8285"
 metafile = true
