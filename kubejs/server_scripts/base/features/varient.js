@@ -49,7 +49,7 @@ function inputPredicate(player, item, inventoryItem) {
   if (
     player.persistentData.get("auto_assemble") == true ||
     (player.persistentData.get("auto_assemble_generic_only") == true &&
-      Item.of(item).hasTag("forge:devices/generics"))
+      Item.of(item).hasTag('forge:generics/devices'))
   ) {
     if (inventoryItem.id=="quark:backpack") return false;
     // console.log(typeof inventoryItem)
