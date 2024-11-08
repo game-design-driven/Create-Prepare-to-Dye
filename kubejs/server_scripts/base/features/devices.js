@@ -179,6 +179,14 @@ if (
       ],
     },
     {
+      tag: "forge:devices/copycats",
+      generic: "copycats:copycat_ghost_block",
+      included_devices: Ingredient.of("@copycats").itemIds,
+      post_logic: () => {
+        addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')
+      }
+    },
+    {
       tag: "forge:devices/smart",
       generic: "ptdye:smart_device",
       assembly: [
