@@ -1,11 +1,16 @@
 if (feature("Remove crafting table")) {
   removeItem("minecraft:crafting_table");
 }
-if (
-  feature("Craftable devices that are transmuted to specific things on demand")
-) {
+
+
+if (true) {
+  const ComponentDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Components (e.g. basins, gearboxes)")
+  const DecorativeDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Decorative Blocks (e.g. copycat blocks)")
+  const ToolDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")
+
   let deviceDefinitions = [
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/network",
       generic: "ae2:fluix_smart_cable",
       included_devices: [
@@ -19,12 +24,14 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/craftingplaceholder",
       generic: "gold_nugget",
       convert_back_recipe: false,
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/track",
       generic: "create:track",
       base: "#create:sleepers",
@@ -61,6 +68,7 @@ if (
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/rail",
       generic: "create:controller_rail",
       base: "rail",
@@ -73,6 +81,7 @@ if (
       },
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/window",
       generic: "create:ornate_iron_window",
       included_devices: [
@@ -95,6 +104,7 @@ if (
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/lamp",
       generic: "minecraft:redstone_lamp",
       included_devices: [
@@ -120,6 +130,7 @@ if (
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/furniture",
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
@@ -175,11 +186,11 @@ if (
           event.addSimpleBlock("minecraft:campfire", "minecraft:campfire");
           event.addSimpleBlock("minecraft:soul_campfire", "minecraft:campfire");
         });
-
+  
         removeRecipe({ id: "create:haunting/soul_campfire" });
         removeRecipe({ id: "minecraft:soul_campfire" });
         removeRecipe({ id: "minecraft:soul_torch" });
-
+  
         [
           "#minecraft:piglin_repellents",
           "#minecraft:soul_fire_base_blocks",
@@ -196,6 +207,7 @@ if (
       },
     },
     {
+      enable: ToolDevicesFeature,
       recycleExcluded: true,
       tag: "forge:util_devices/tools",
       generic: "ptdye:tool_parts",
@@ -222,6 +234,7 @@ if (
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
@@ -236,6 +249,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/smart",
       generic: "ptdye:smart_device",
       assembly: [
@@ -269,6 +283,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/logic",
       generic: "ptdye:logic_device",
       amount_crafted: 8,
@@ -297,6 +312,7 @@ if (
       ],
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/smokestack",
       generic: "railways:smokestack_woodburner",
       base: "minecraft:campfire",
@@ -313,6 +329,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
@@ -338,6 +355,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/sealed",
       generic: "ptdye:sealed_device",
       assembly: [
@@ -367,6 +385,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
@@ -400,6 +419,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/mechanical",
       generic: "ptdye:mechanical_device",
       assembly: [
@@ -459,6 +479,7 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
+    if(!device.enable) return;
     addToTag("forge:generics/devices", device.generic);
     addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
