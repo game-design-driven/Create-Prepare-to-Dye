@@ -29,7 +29,7 @@ BlockEvents.placed((event) => {
             Utils.server.scheduleInTicks(1, () => {
               let randomPitch = Math.random() + 1.0 
               Utils.server.runCommandSilent(
-                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.4 1.3`
+                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.1 ${randomPitch}`
               );
               Utils.server.runCommandSilent(
                 `/item replace entity ${event.player.displayName.getString()} weapon.mainhand with ${
