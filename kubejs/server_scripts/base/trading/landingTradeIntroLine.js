@@ -140,7 +140,7 @@ const mlcSandFixed = getAgreement("mlcSandFixed", {
   message:
     "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
 });
-const bhbCheese = getAgreement("bhbCheese", {
+const bhbCheeseBroken = getAgreement("bhbCheese", {
   paymentItems: [
     "16x minecraft:sugar_cane",
     "2x botania:mana_pool",
@@ -157,6 +157,23 @@ const bhbCheese = getAgreement("bhbCheese", {
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
+const bhbCheese = getAgreement("bhbCheese", {
+  paymentItems: [
+    "16x minecraft:sugar_cane",
+    "2x botania:mana_pool",
+    "botania:mana_spreader",
+    "1x botania:gourmaryllis",
+    "1x minecraft:water_bucket",
+    "botania:twig_wand"
+  ],
+  requestedItems: ["64x kubejs:fermented_blob"],
+  title: "Ingredients needed",
+  orderedAmount: 3,
+  company: "black_hole_bagels_llc",
+  message:
+    "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
+});
+addShapeless(bhbCheese.item, bhbCheeseBroken.item); 
 const bhbCheeseFixed = getAgreement("bhbCheeseFixed", {
   paymentItems: ["32x supplementaries:soap"],
   requestedItems: ["64x kubejs:fermented_blob", "32x kubejs:fermented_blob"],
