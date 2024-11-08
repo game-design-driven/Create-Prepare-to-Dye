@@ -23,7 +23,7 @@ addTooltip(
 );
 addTooltip(
   "milk_bucket",
-  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a _deployer_. The modern _cow_ can produce milk every _22 seconds_"
+  "Ever since the invention of modern _engines_, _milk_ has been the building block of civilizations, _rocket fuel for the masses._ Easy to produce, easy to consume, and tasty too! To acquire _milk_ you will need to find a _cow_ and interact with it using a _bucket_, either by hand or using a _deployer_. The modern _cow_ can produce milk every _20 seconds_"
 );
 addTooltip(
   "cauldron",
@@ -39,7 +39,7 @@ addTooltip(
 );
 addTooltip(
   "wares:completed_delivery_agreement",
-  "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall, pretty piece of paper"
+  "A completed intergalactic agreement, check it's uses (U by default) with your index module (EMI) to see what new trades await you in the mesh. Bound by the United SPACE consumer union plus plus treaty. Can (usually) be mixed in a _Mechanical Mixer_ to acquire more contracts. Or hanged on the wall"
 );
 addTooltip(
   "create:blaze_burner",

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:redstone_ore"
 	],
-	"text": "block.minecraft.redstone_ore.tooltip.summary"
+	"text": "block.minecraft.redstone_ore.emi.info"
 }

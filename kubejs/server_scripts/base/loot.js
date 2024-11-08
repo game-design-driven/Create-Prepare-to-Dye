@@ -44,10 +44,86 @@ if (feature("Gold ore drops more gold")) {
     event
       .addBlockLootModifier("minecraft:nether_gold_ore")
       .addLoot("minecraft:gold_nugget")
-      .addLoot("minecraft:gold_nugget");
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+      .addLoot("minecraft:gold_nugget")
+
+      .applyOreBonus("minecraft:fortune"); 
     event
       .addBlockLootModifier("minecraft:deepslate_gold_ore")
-      .addLoot("minecraft:raw_gold");
+      .addLoot("minecraft:raw_gold")
+      .addLoot("minecraft:raw_gold")
+      .addLoot("minecraft:raw_gold")
+      .applyOreBonus("minecraft:fortune"); 
+
+  });
+}
+
+if (feature('Iron ore drops more raw iron')) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:iron_ore")
+      .addLoot("minecraft:raw_iron")
+      .addLoot("minecraft:raw_iron")
+      .addLoot("minecraft:raw_iron");
+    event
+      .addBlockLootModifier("minecraft:deepslate_iron_ore")
+      .addLoot("minecraft:raw_iron")
+      .addLoot("minecraft:raw_iron")
+      .addLoot("minecraft:raw_iron")
+      .applyOreBonus("minecraft:fortune"); 
+
+  });
+}
+
+if (feature('Coal ore drops more coal')) {
+
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:coal_ore")
+      .addLoot("minecraft:coal")
+    event
+      .addBlockLootModifier("minecraft:deepslate_coal_ore")
+      .addLoot("minecraft:coal")
+      .applyOreBonus("minecraft:fortune"); 
+  });
+}
+if (feature('Copper ore drops more copper')) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:copper_ore")
+      .addLoot("minecraft:raw_copper")
+      .addLoot("minecraft:raw_copper")
+    event
+      .addBlockLootModifier("minecraft:deepslate_copper_ore")
+      .addLoot("minecraft:raw_copper")
+      .addLoot("minecraft:raw_copper")
+      .applyOreBonus("minecraft:fortune"); 
+  });
+  
+}
+
+if (feature('Redstone ore drops more redstone')) {
+  LootJS.modifiers((event) => {
+    event
+      .addBlockLootModifier("minecraft:redstone_ore")
+      .addLoot("minecraft:redstone")
+      .addLoot("minecraft:redstone")
+      event
+      .addBlockLootModifier("minecraft:deepslate_redstone_ore")
+      .addLoot("minecraft:redstone")
+      .addLoot("minecraft:redstone")
+      .applyOreBonus("minecraft:fortune"); 
   });
 }
 

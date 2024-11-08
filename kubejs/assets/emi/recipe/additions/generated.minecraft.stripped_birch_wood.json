@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:stripped_birch_wood"
 	],
-	"text": "block.minecraft.stripped_birch_wood.tooltip.summary"
+	"text": "block.minecraft.stripped_birch_wood.emi.info"
 }

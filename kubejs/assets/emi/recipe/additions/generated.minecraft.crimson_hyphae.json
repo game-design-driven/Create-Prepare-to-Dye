@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:crimson_hyphae"
 	],
-	"text": "block.minecraft.crimson_hyphae.tooltip.summary"
+	"text": "block.minecraft.crimson_hyphae.emi.info"
 }

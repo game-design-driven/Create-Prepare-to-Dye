@@ -1,0 +1,13 @@
+### [1.222.4](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.222.3...1.222.4) (2024-11-05)
+
+
+### Fixes
+
+* kjs scripts failing to load on server because they try to load client classes ([b9b44cb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b9b44cb66718153bdecfd9ed164e496de942b26a))
+
+
+### chores
+
+* autopublish 2024-11-04T13:54:19Z ([a4a6be8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a4a6be82574145126dbb7ba024fcaabe3341c9cf))
+
+

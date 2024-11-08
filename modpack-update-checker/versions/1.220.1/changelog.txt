@@ -1,0 +1,18 @@
+### [1.220.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.220.0...1.220.1) (2024-11-01)
+
+
+### Developer experience improvments and changes
+
+* simplify milk function ([fbf87df](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fbf87df34601eca5bd407e72104121ec86035db1))
+
+
+### Minor tweaks
+
+* remove shaped crafting recipe for rails ([a5fe508](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a5fe508473db29b2a213dbfb09bdbf779696e296))
+
+
+### chores
+
+* autopublish 2024-11-01T09:27:41Z ([ca93320](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ca933204938a2fcee243287108dd337c936b5f38))
+
+

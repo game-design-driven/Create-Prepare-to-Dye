@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:create:blaze_burner"
 	],
-	"text": "block.create.blaze_burner.tooltip.summary"
+	"text": "block.create.blaze_burner.emi.info"
 }

@@ -66,6 +66,11 @@ hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "2e8ff8a637ed1b45e4d6f109efdef56d3a569145302b9c3c962f8fde83e6280f"
+metafile = true
+
+[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "212f7b37088179f287455f19d0dde6f17bcb769a53738b5bd4ae25d54c15659f"
 metafile = true
@@ -127,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu-forge.pw.toml"
-hash = "c1610b9ecd0d77d76661930e0ec9f42dd145f86689137a75e5ea4ed60b02f5ae"
+hash = "c4be1cb2d4eb3bc8bc44236f8b68f419a52b58dce885d3c6e0f3de532e28b664"
 metafile = true
 
 [[files]]
@@ -143,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/forgery.pw.toml"
 hash = "bb518179d75a66c7a237c54cd461c48bc03544886d180be5db18b3bcc0e001b9"
+metafile = true
+
+[[files]]
+file = "mods/free-cam.pw.toml"
+hash = "ed34f063685e59883414cb3dc5b2d4dfa46036424a7450e86b3c135d1434c840"
 metafile = true
 
 [[files]]
@@ -167,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "708c9eb59187d616007ba99f8f2ecadb87f5df0bf7dbe63df940fbcf7236e02c"
+hash = "34beff832b98f209ac50078a6901688c2f1318739c3ebb242ee31d00e2409d3a"
 metafile = true
 
 [[files]]
@@ -207,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "4df789d304bb64ca80a65f2af2201e48cf2288c21f1459b7494dba0f6dcf7ec0"
+hash = "9960116a4c48187823c131361dd6a82291d0f23d55d7ff44e3a60c941c453207"
 metafile = true
 
 [[files]]
@@ -222,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d5ebd6a072c380a9872729df7c48021f5f187329f51afbfcee43e952c49f6d08"
+hash = "d983d5888b3a25eae8f3dadba39149ddc2f2fc8ac0c1da57b0c67e3e8e2e86e7"
 metafile = true
 
 [[files]]
@@ -372,5 +382,5 @@ metafile = true
 
 [[files]]
 file = "mods/zume.pw.toml"
-hash = "bd6ad7255ce547d1accae7d321e2630da540762dc8b0bb2964d7382c5fb92702"
+hash = "b242b6de5a59d1f480d2af1cdee0c91cdce35f3d364496896de71445d0907dcc"
 metafile = true

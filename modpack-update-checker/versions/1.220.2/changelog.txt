@@ -1,0 +1,13 @@
+### [1.220.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.220.1...1.220.2) (2024-11-01)
+
+
+### Fixes
+
+* freecam wrong version ([52740f5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/52740f5ad6a44f1b71dc30eb7b5de4a145f74c67))
+
+
+### chores
+
+* autopublish 2024-11-01T09:45:39Z ([0527c8a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0527c8a53f786d9c2823c161fe6856abadd432df))
+
+

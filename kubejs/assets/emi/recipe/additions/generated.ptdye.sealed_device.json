@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ptdye:sealed_device"
 	],
-	"text": "block.ptdye.sealed_device.tooltip.summary"
+	"text": "block.ptdye.sealed_device.emi.info"
 }

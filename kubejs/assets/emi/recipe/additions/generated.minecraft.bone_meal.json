@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:bone_meal"
 	],
-	"text": "item.minecraft.bone_meal.tooltip.summary"
+	"text": "item.minecraft.bone_meal.emi.info"
 }

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ae2:chipped_budding_quartz"
 	],
-	"text": "block.ae2.chipped_budding_quartz.tooltip.summary"
+	"text": "block.ae2.chipped_budding_quartz.emi.info"
 }

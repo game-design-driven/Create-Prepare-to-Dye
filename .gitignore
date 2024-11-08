@@ -76,7 +76,7 @@ config/plasmovoice/server/voice_mutes.json
 kubejs/server_scripts/base/featrues/removeCraftingTable.js
 config/bcc-common.toml
 mods/.index/figura.pw.toml
-kubejs/translation_tools/missing_translations/*.missing.json
+# kubejs/translation_tools/missing_translations/*.missing.json
 kubejs/allEnglishTranslationKeys.json
 /schmatics/
 /contraptions/
@@ -87,3 +87,4 @@ kubejs/allEnglishTranslationKeys.json
 /server/libraries
 /server/logs
 /server/mods
+/modernfix/structureCacheV1

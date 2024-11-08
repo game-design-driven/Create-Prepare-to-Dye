@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ae2:toggle_bus"
 	],
-	"text": "item.ae2.toggle_bus.tooltip.summary"
+	"text": "item.ae2.toggle_bus.emi.info"
 }

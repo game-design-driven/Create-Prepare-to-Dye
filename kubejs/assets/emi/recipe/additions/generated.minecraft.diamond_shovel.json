@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:diamond_shovel"
 	],
-	"text": "item.minecraft.diamond_shovel.tooltip.summary"
+	"text": "item.minecraft.diamond_shovel.emi.info"
 }

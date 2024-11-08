@@ -6,6 +6,7 @@ ClientEvents.lang("en_us", (event) => {
     let item = Item.of(id);
     console.info(`adding ${tooltip} to ${item}`);
     event.add(`${item.getDescriptionId()}.tooltip.summary`, tooltip);
+    event.add(`${item.getDescriptionId()}.emi.info`, tooltip.replace(/_/g,""));
   });
   let infoPages = {};
   Ingredient.all.itemIds.forEach((id) => {
@@ -13,7 +14,7 @@ ClientEvents.lang("en_us", (event) => {
       id,
       (item) => new global.create.ItemDescription(item, global.create.Palette.STANDARD_CREATE)
     );
-    let key = Item.of(id).descriptionId+'.tooltip.summary'
+    let key = Item.of(id).descriptionId+'.emi.info'
     if ((Text.translate(key).string!=key)){
       infoPages[id] = {
         type: "emi:info",

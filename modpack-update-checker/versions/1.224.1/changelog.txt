@@ -1,0 +1,13 @@
+### [1.224.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.224.0...1.224.1) (2024-11-06)
+
+
+### Fixes
+
+* fancymenu version on curse forge ([34d7ba4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/34d7ba4b47a1d04c61fb9ae58922e6e7b206d3fb))
+
+
+### chores
+
+* autopublish 2024-11-06T12:27:07Z ([efa71ae](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/efa71ae7f1d08ccefca6f6ce11a2116963c30442))
+
+

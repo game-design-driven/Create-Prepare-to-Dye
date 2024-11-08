@@ -104,6 +104,7 @@ const mlcSand2 = getAgreement("mlcSand2", {
   paymentItems: [
     Item.of("minecraft:golden_pickaxe", 4, "{Damage:0}"),
     "64x dirt",
+    "16x minecraft:redstone",
     "16x supplementaries:jar",
     "8x ptdye:smart_device",
     "ptdye:trading_transceiver",
@@ -139,7 +140,7 @@ const mlcSandFixed = getAgreement("mlcSandFixed", {
   message:
     "Alright this is a done deal. Lets have a relationship you and I, lets start a constant thing, lets tell the family. First lets make sure we got solid lines right? Consider us partners forever, you keep sending us your golden dust and we are happy bees",
 });
-const bhbCheese = getAgreement("bhbCheese", {
+const bhbCheeseBroken = getAgreement("bhbCheese", {
   paymentItems: [
     "16x minecraft:sugar_cane",
     "2x botania:mana_pool",
@@ -147,6 +148,7 @@ const bhbCheese = getAgreement("bhbCheese", {
     "1x botania:gourmaryllis",
     "1x minecraft:water_bucket",
     "1x minecraft:water_bucket",
+    "botania:twig_wand"
   ],
   requestedItems: ["64x kubejs:fermented_blob"],
   title: "Ingredients needed",
@@ -155,6 +157,23 @@ const bhbCheese = getAgreement("bhbCheese", {
   message:
     "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
 });
+const bhbCheese = getAgreement("bhbCheese", {
+  paymentItems: [
+    "16x minecraft:sugar_cane",
+    "2x botania:mana_pool",
+    "botania:mana_spreader",
+    "1x botania:gourmaryllis",
+    "1x minecraft:water_bucket",
+    "botania:twig_wand"
+  ],
+  requestedItems: ["64x kubejs:fermented_blob"],
+  title: "Ingredients needed",
+  orderedAmount: 3,
+  company: "black_hole_bagels_llc",
+  message:
+    "Hello, we are a new company that is trying to make a new recipe for bagels, we need some ingredients, willing to pay, simple as that",
+});
+addShapeless(bhbCheese.item, bhbCheeseBroken.item); 
 const bhbCheeseFixed = getAgreement("bhbCheeseFixed", {
   paymentItems: ["32x supplementaries:soap"],
   requestedItems: ["64x kubejs:fermented_blob", "32x kubejs:fermented_blob"],
@@ -191,7 +210,7 @@ const wscAxes = getAgreement("wscAxes", {
 const wscBread = getAgreement("wscBread", {
   paymentItems: [
     "16x storagedrawers:oak_full_drawers_1",
-    "8x minecraft:birch_log",
+    "8x minecraft:oak_log",
     "minecraft:chest",
   ],
   requestedItems: ["64x minecraft:bread"],
@@ -202,7 +221,7 @@ const wscBread = getAgreement("wscBread", {
     "Its WSC here. After any long day among the pines, our teams as hungry as a bear in spring! Were on the hunt for some good, hearty food to fill our bellies and fuel our saws. Barring that, bread would do as well",
 });
 const wscBreadAndAxesFixed = getAgreement("wscBreadAndAxesFixed", {
-  paymentItems: ["8x minecraft:birch_log"],
+  paymentItems: ["8x minecraft:oak_log"],
   requestedItems: ["64x minecraft:bread", "16x #forge:tools/axes"],
   title: "Food and tools, fixed rates",
   orderedAmount: 0,
@@ -224,7 +243,7 @@ const bhbFurnaces = getAgreement("bhbFurnaces", {
     "We are expanding our presence on Zora, we need some furnaces, you have proven yourself so far, lets see if we can work some fixed rates for your wheat after this",
 });
 const bhbWheatFixedRates = getAgreement("bhbWheatFixedRates", {
-  paymentItems: ["32x clay"],
+  paymentItems: ["32x clay", "10x minecraft:redstone"],
   requestedItems: ["64x wheat", "64x wheat"],
   title: "Clean wheat fixed rates",
   orderedAmount: 0,
@@ -1015,19 +1034,13 @@ const bfsiZombiesFixedRates = getAgreement("bfsiZombiesFixedRates", {
   message:
     "This worked really well for us! We have managed to sign some record breaking amounts of props, eh, I mean actors this season. Lets keep this going, we need more paper, we can offer more props, we have a lot of them, a lot",
 });
-addMixing(
-  "stick",
-  Item.of(
-    "supplementaries:cage",
-    '{BlockEntityTag:{MobHolder:{EntityData:{id:"minecraft:chicken"},Name:"Chicken",Scale:0.87719303f}}}'
-  ).weakNBT()
-);
 const bfsiChickenInvaders = getAgreement("bfsiChickenInvadors", {
   paymentItems: [
     "32x minecraft:gold_ingot",
     "16x botania:manasteel_ingot",
     "10x create:cogwheel",
     "10x minecraft:soul_sand",
+    "32x minecraft:redstone"
   ],
   requestedItems: [
     Item.of(

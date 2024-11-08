@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:diamond_pickaxe"
 	],
-	"text": "item.minecraft.diamond_pickaxe.tooltip.summary"
+	"text": "item.minecraft.diamond_pickaxe.emi.info"
 }

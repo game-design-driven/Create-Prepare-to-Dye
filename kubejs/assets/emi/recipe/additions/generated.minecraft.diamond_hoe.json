@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:diamond_hoe"
 	],
-	"text": "item.minecraft.diamond_hoe.tooltip.summary"
+	"text": "item.minecraft.diamond_hoe.emi.info"
 }

@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ae2:magenta_smart_cable"
 	],
-	"text": "item.ae2.magenta_smart_cable.tooltip.summary"
+	"text": "item.ae2.magenta_smart_cable.emi.info"
 }

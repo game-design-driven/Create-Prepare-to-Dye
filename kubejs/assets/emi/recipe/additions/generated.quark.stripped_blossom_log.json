@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:quark:stripped_blossom_log"
 	],
-	"text": "block.quark.stripped_blossom_log.tooltip.summary"
+	"text": "block.quark.stripped_blossom_log.emi.info"
 }

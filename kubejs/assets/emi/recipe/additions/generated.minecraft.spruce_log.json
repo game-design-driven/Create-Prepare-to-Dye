@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:spruce_log"
 	],
-	"text": "block.minecraft.spruce_log.tooltip.summary"
+	"text": "block.minecraft.spruce_log.emi.info"
 }

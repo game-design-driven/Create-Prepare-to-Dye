@@ -136,15 +136,13 @@ if (true) {
       base: "minecraft:stick",
       assembly: [
         [
-          "#minecraft:wool_carpets",
+          "#minecraft:wool",
           "#forge:nuggets",
-          "#minecraft:planks",
-          "#minecraft:planks",
+          "#forge:rods",
         ],
-        ["#forge:ingots", "#minecraft:planks", "#minecraft:logs"],
+        ["#forge:ingots", "#forge:ingots", "#forge:ingots", "#minecraft:logs"], 
         [
           "#forge:canvasables",
-          "#forge:nuggets",
           "#forge:nuggets",
           "#minecraft:logs",
         ],
@@ -179,7 +177,7 @@ if (true) {
         "storagedrawers:oak_full_drawers_4",
         "minecraft:painting",
       ],
-      amount_crafted: 6,
+      amount_crafted: 8,
       post_logic: () => {
         ServerEvents.blockLootTables((event) => {
           event.addSimpleBlock("minecraft:bookshelf", "minecraft:bookshelf");
@@ -239,7 +237,7 @@ if (true) {
       tag: "forge:devices/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
-      amount_crafted: 2,
+      amount_crafted: 8,
       included_devices: [
         "botania:red_string_container",
         "botania:red_string_dispenser",
@@ -250,15 +248,23 @@ if (true) {
       ],
     },
     {
+      tag: "forge:devices/copycats",
+      generic: "copycats:copycat_ghost_block",
+      included_devices: Ingredient.of("@copycats").itemIds,
+      post_logic: () => {
+        addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')
+      }
+    },
+    {
       enable: ComponentDevicesFeature,
       tag: "forge:devices/smart",
       generic: "ptdye:smart_device",
       assembly: [
         "#forge:plates/brass",
-        "#forge:stripped_logs",
+        "#minecraft:logs",
         "create:polished_rose_quartz",
       ],
-      amount_crafted: 4,
+      amount_crafted: 8,
       included_devices: [
         "create:smart_chute",
         "create:elevator_pulley",
@@ -279,7 +285,7 @@ if (true) {
         "storagedrawers:quantify_key",
         "storagedrawers:controller",
         "create:attribute_filter",
-        "4x create:brass_casing",
+        "create:brass_casing",
         "create_enchantment_industry:enchanting_guide",
       ],
     },
@@ -287,7 +293,7 @@ if (true) {
       enable: ComponentDevicesFeature,
       tag: "forge:devices/logic",
       generic: "ptdye:logic_device",
-      amount_crafted: 8,
+      amount_crafted: 12,
       assembly: [
         "minecraft:smooth_stone",
         "#forge:plates/copper",
@@ -319,7 +325,7 @@ if (true) {
       base: "minecraft:campfire",
       incomplete: "minecraft:campfire",
       assembly: ["create:iron_sheet", "black_dye"],
-      amount_crafted: 4,
+      amount_crafted: 8,
       included_devices: [
         "railways:smokestack_streamlined",
         "railways:smokestack_woodburner",
@@ -335,10 +341,9 @@ if (true) {
       generic: "ptdye:locomotive_device",
       assembly: [
         "#forge:plates/obsidian",
-        "#forge:plates/obsidian",
         "#forge:plates/brass",
       ],
-      amount_crafted: 4,
+      amount_crafted: 8,
       included_devices: [
         "create:controls",
         "create:track_observer",
@@ -348,7 +353,7 @@ if (true) {
         "railways:track_switch_brass",
         "railways:semaphore",
         "railways:track_switch_andesite",
-        "4x create:railway_casing",
+        "create:railway_casing",
         "create:schedule",
         "railways:remote_lens",
         "railways:conductor_whistle",
@@ -361,10 +366,10 @@ if (true) {
       generic: "ptdye:sealed_device",
       assembly: [
         "#forge:plates/copper",
-        "#forge:stripped_logs",
+        "#minecraft:logs",
         "#forge:silicon",
       ],
-      amount_crafted: 4,
+      amount_crafted: 16,
       included_devices: [
         "create_enchantment_industry:printer",
         "create_enchantment_industry:disenchanter",
@@ -380,9 +385,9 @@ if (true) {
         "create:smart_fluid_pipe",
         "create:mechanical_pump",
         "supplementaries:copper_lantern",
-        "4x create:copper_casing",
-        "4x create:fluid_pipe",
-        "4x createdieselgenerators:distillation_controller",
+        "create:copper_casing",
+        "create:fluid_pipe",
+        "createdieselgenerators:distillation_controller",
       ],
     },
     {
@@ -390,7 +395,7 @@ if (true) {
       tag: "forge:devices/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
-      amount_crafted: 6,
+      amount_crafted: 8,
       included_devices: [
         "botania:open_crate",
         "create:item_vault",
@@ -425,12 +430,12 @@ if (true) {
       generic: "ptdye:mechanical_device",
       assembly: [
         "create:iron_sheet",
-        "#forge:stripped_logs",
+        "#minecraft:logs",
         "create:andesite_alloy",
       ],
-      amount_crafted: 4,
+      amount_crafted: 10,
       included_devices: [
-        "4x create:andesite_casing",
+        "create:andesite_casing",
         "create:stressometer",
         "create:speedometer",
         "create:schematic_table",

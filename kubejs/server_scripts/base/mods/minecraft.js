@@ -1,5 +1,7 @@
 if (feature("Paper recipes")) {
   removeRecipe({ id: "minecraft:crafting_shaped/paper" });
+  removeRecipe({ id: "minecraft:paper" });
+  removeRecipe({ id: "quark:tweaks/utility/bent/paper" });
   addAssembly("2x paper", "createdieselgenerators:wood_chip", [
     addFilling("stick", "stick", "25x milk"),
     addPressing("stick", "stick"),
@@ -545,4 +547,28 @@ if (feature('Water from kelp and seagrass')) {
 if (feature('Replace bucket recipe with assembler recipe')) {
   removeRecipe({id:'minecraft:bucket'})
   addStonecutting('bucket', '#forge:ingots/iron')
+}
+
+if (feature('Remove packing recipes that are not needed because of personal assembler')) {
+  removeRecipe({id:'minecraft:polished_andesite'})
+  removeRecipe({id:'minecraft:botania/metamorphic_swamp_bricks'})
+  
+  removeRecipe({id:'minecraft:gold_block'})
+  addCompacting('gold_block', '9x gold_ingot')
+
+}
+
+if (feature('Remove stick recipes')) {
+  removeRecipe({id:'minecraft:stick_from_bamboo_item'})
+  removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks'})
+  removeRecipe({id:'quark:tweaks/crafting/utility/misc/easy_sticks_bamboo'})
+}
+
+if (feature('Lead can be made from string in assmebler')) {
+  removeRecipe({id:'minecraft:lead'})
+  addStonecutting('lead', 'string')
+}
+
+if (feature('Dripstone')) {
+  addItemApplication('minecraft:pointed_dripstone', 'minecraft:dripstone_block', '#forge:tools/pickaxes')
 }

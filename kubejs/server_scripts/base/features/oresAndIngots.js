@@ -164,6 +164,7 @@ if (feature('Remove zinc')) {
         'create:crushed_zinc_ore',
         'create:zinc_block',
         'create:zinc_ore',
+        'create:deepslate_zinc_ore',
         'create:raw_zinc',
         'create:crushed_raw_zinc'
     ])

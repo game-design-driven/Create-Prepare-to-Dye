@@ -47,3 +47,11 @@ if (feature("Remove conductors cap colored recipes in assembly")) {
     removeRecipe({ id: `railways:sequenced_assembly/${color}_conductor_cap` });
   });
 }
+
+if (feature('Fix railways adding bariar blocks to recipes by using empty tags')) {
+  addToTag('railways:internal/nuggets/zinc_nuggets', 'iron_nugget')
+}
+
+if (feature('Remove minecart with workbench')) {
+  removeItem('railways:benchcart')
+}

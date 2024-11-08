@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:ptdye:smart_device"
 	],
-	"text": "block.ptdye.smart_device.tooltip.summary"
+	"text": "block.ptdye.smart_device.emi.info"
 }

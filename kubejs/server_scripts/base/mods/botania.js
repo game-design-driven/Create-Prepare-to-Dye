@@ -121,6 +121,7 @@ if (feature("Lexica botania from book")) {
 if (feature("Wand easy recipe")) {
   removeAllRecipesForItem("botania:twig_wand");
   if(!feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")) addShapeless("botania:twig_wand", ["botania:livingwood_twig", "#forge:dyes"]);
+
 }
 
 if (feature("Remove Drum of gathering because it makes milk easy")) {
@@ -142,4 +143,26 @@ if (feature('Reduce mana price of manasteel')) {
   removeRecipe({ id: 'botania:mana_infusion/manasteel_block' })
   addInfusion('botania:manasteel_ingot', '#forge:ingots/iron', 1000)
   addInfusion('botania:manasteel_block', '#forge:storage_blocks/iron', 9000)
+}
+
+if (feature('Remove apothecary recipes')) {
+  let types=[
+    'forest', 'plains', 'mountain', 'fungal', 'swamp', 'jungle', 'taiga', 'mesa', 'mossy', 'livingrock', 'deepslate'
+  ]
+  types.forEach(type => {
+    removeRecipe({id:`botania:apothecary_${type}`})
+  })
+}
+
+removeRecipe({id:'botania:laputa_shard'})
+if (feature('Mana tablet recipe')) {
+  addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_diamond')
+  addItemApplication('botania:mana_tablet', 'botania:livingrock', 'botania:mana_pearl')
+}
+
+if (feature('Better mana pool recipes')) {
+  removeRecipe({id: 'botania:mana_pool'})
+  removeRecipe({id: 'botania:diluted_mana_pool'})
+  addItemApplication('botania:mana_pool', 'botania:livingrock', '#forge:tools/pickaxes')
+  addItemApplication('botania:diluted_pool', 'botania:mana_pool', '#forge:tools/pickaxes')
 }

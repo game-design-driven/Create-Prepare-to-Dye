@@ -22,12 +22,12 @@ if (feature("Mechanical belt recipes")) {
   //kelp
   removeRecipe({ id: "create:crafting/kinetics/belt_connector" });
   //leather
-  addShaped("2x create:belt_connector", ["lll", "lll"], {
+  addShaped("2x create:belt_connector", ["ll"], {
     l: "#forge:canvasables",
   });
   //silicon
   //combined
-  addShaped("4x create:belt_connector", ["lll", "sss", "kkk"], {
+  addShaped("12x create:belt_connector", ["lll", "sss", "kkk"], {
     l: "#forge:leather",
     s: "#forge:silicon",
     k: "minecraft:dried_kelp",

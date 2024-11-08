@@ -1,5 +1,6 @@
 if (feature('Rail recipes')) {
-    replaceShaped('8x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/iron', s: 'stick' })
+    // replaceShaped('8x rail', ['m m', 'msm', 'm m'], { m: '#forge:ingots/iron', s: 'stick' })
+    removeRecipe({ id: 'minecraft:rail' })
     // replaceShaped('8x powered_rail', ['m m', 'msm', 'mrm'], { m: '#forge:ingots/gold', s: 'stick', r: 'redstone' })
     // replaceShaped('8x activator_rail', ['msm', 'mrm', 'msm'], { m: '#forge:ingots/brass', s: 'stick', r: 'redstone' })
     // replaceShaped('8x detector_rail', ['m m', 'mpm', 'mrm'], { m: '#forge:ingots/brass', p: 'stone_pressure_plate', r: 'redstone' })
@@ -10,13 +11,13 @@ if (feature('Rail recipes')) {
     // addShaped('16x detector_rail', ['m m', 'mpm', 'mrm'], { m: '#forge:ingots/andesite_alloy', p: 'stone_pressure_plate', r: 'redstone' })
     
     //assembly for rails will cost more sticks and less ingots
-    addAssembly('2x minecraft:rail', '#forge:rods', [
+    addAssembly('4x minecraft:rail', '#forge:rods', [
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', 'minecraft:iron_nugget'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:rods'),
     ],4)
-    addAssembly('4x minecraft:rail', '#forge:rods', [
+    addAssembly('10x minecraft:rail', '#forge:rods', [
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),
       addDeploying('minecraft:rail', '#forge:rods', '#forge:ingots/andesite_alloy'),

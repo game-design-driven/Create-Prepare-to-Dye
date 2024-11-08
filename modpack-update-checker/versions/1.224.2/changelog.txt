@@ -1,0 +1,18 @@
+### [1.224.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.224.1...1.224.2) (2024-11-07)
+
+
+### Fixes
+
+* device tooltips ([9563825](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9563825df5b922d0a28efb069555e98e56de0b98))
+
+
+### Minor tweaks
+
+* add redstone as reward for a few trade lines ([3927511](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3927511ee1fa1d993b623a3a578917aaac9e6735))
+
+
+### chores
+
+* autopublish 2024-11-06T18:51:10Z ([38fdda8](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/38fdda8e638c6b40f8f6ef372d9bdfd147fb65fe))
+
+

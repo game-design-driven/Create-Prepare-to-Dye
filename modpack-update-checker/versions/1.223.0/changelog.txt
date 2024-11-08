@@ -1,0 +1,37 @@
+## [1.223.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.222.4...1.223.0) (2024-11-05)
+
+
+### Features
+
+* Lead can be made from string in assmebler ([761b88a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/761b88a88d22a686aa1d2f35f6aa21d02c7d262c))
+* mana tablem item application recipes ([d636176](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d636176dbb27269740b59e7c34fc5cfb4d9d5e00))
+* remove stick crafting recipes ([e50b807](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e50b8077c2ab6d1f40f632006bc90071647ff18a))
+
+
+### Minor tweaks
+
+* Remove alternate apothecary recipes ([5a5739f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5a5739f92a4c53da0786f37dd2907366e062899d))
+* Remove packing recipes that are not needed because of personal assembler ([bdd4e80](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bdd4e801b0625978c1181739338fc8f58f4bf430))
+* remove pumpjack_hole ([7555f0b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7555f0b4278cb73e31381e48d0475eced21f8c1e))
+
+
+### Documentation and Localization
+
+* tweak completed_delivery_agreement tooltip ([35b2fe4](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/35b2fe45dd9d7dd8c213732560b61bc313d879e4))
+
+
+### Fixes
+
+* railways adding bariar blocks to recipes by using empty tags ([ec4980e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ec4980e4f7a90aec75aea9487cf8de073db81d4d))
+* remove broken laputa_shard recipe ([4a89bcb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4a89bcbf9790cba495ee62e797f750817f82d2ce))
+* Remove minecart with workbench ([152ce8d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/152ce8dd4c3e4cd43d0470b4879c6073ebb265c5))
+* remove stick from chicken cage test recipe that somehow slipped into the game ([670f39f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/670f39f553a99c6f37ecfe5924e43fbca168306b))
+* remove unintended paper recipes ([5ee197c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5ee197c5a9a8ea54fb623854abcefcf3c1286bfd))
+* trade mixing recipes not displaying names. Also added a hidden recipe without names that only uses ids for backwards compat ([b729aa5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b729aa583a7763871549a67d25ef9accae884f24))
+
+
+### chores
+
+* autopublish 2024-11-05T14:33:17Z ([cd91b35](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cd91b35c768706a07c701955da7e21f977a2f5b1))
+
+

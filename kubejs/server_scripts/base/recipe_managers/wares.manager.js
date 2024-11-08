@@ -96,8 +96,11 @@ function getAgreement(agreementID, {
     global.allAgreements = global.allAgreements
       .filter((f) => f.nbt !== agreementObj.completedItem.nbt)
     .concat([agreementObj.completedItem]);
-    addFakeTradeRecipe(agreementObj.completedItem, agreementObj.item.weakNBT(), 'wares:delivery_table');
+    let strippedCompletedItem = Item.of(agreementObj.completedItem.id).withNBT({"id": agreementID, "ordered": orderedAmount}).withName(Text.gold(companyTitle + " - " + title).italic(false));
+    paymentItems.unshift(strippedCompletedItem)        
   }
+  requestedItems.unshift(Item.of(agreementObj.item.id).withNBT({"id": agreementID, "ordered": orderedAmount}).withName(Text.gold(companyTitle + " - " + title).italic(false)))
+  addFakeTradeItemsRecipe(paymentItems, requestedItems, 'wares:delivery_table');
   getAgreementAdvancement(agreementID)
 
   return agreementObj;
@@ -135,26 +138,29 @@ function tradeBranch(outputTrades, inputTrades) {
   ServerEvents.recipes((e) => {
     e.recipes.create.mixing(
       outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => trade.completedItem.weakNBT())
-    );
-    let hiddenUniversalRecipe = e.recipes.create.mixing(
-      outputTrades.map((trade) => trade.item),
-      inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
+      inputTrades.map((trade) => getTradeNbtIdFilter(trade.completedItem))
     );
     // addTradeBlendingRecipe(
     //   outputTrades.map((trade) => trade.item),
     //   inputTrades.map((trade) => getTradeNbtNameFilter(trade.completedItem))
     // );
-    // addFakeTradeRecipe(outputTrades[0].item,getTradeNbtNameFilter(inputTrades[0].completedItem))
+
+    let hiddenUniversalRecipe = e.recipes.create.mixing(
+      outputTrades.map((trade) => trade.item),
+      inputTrades.map((trade) => getTradeNbtIdFilter(trade.completedItem, true))
+    );
     let random_string_id_10_chars= Math.random().toString(36).substring(7);
     hiddenUniversalRecipe.id = random_string_id_10_chars + "/hidden";
-    // noIdHiddenRecipe.id = random_string_id_10_chars + "/no_id/hidden";
+    
   });
 }
-
-function getTradeNbtNameFilter(item) {
+function getTradeNbtIdFilter(item, compat) {
   if (!item.getNbt()) return item.weakNBT();
-  return Item.of(item.id).withName(item.nbt.get("display").get("Name")).weakNBT();
+  if (item.nbt.get("id") == null) return item.weakNBT();
+  if (compat) return Item.of(item.id).withNBT({"id": item.nbt.get("id")}).weakNBT();
+  return Item.of(item.id).withNBT({
+    "id": item.nbt.get("id"), 'ordered': item.nbt.get("ordered"), "display": item.nbt.get("display")
+  }).weakNBT();
 }
 console.info("Loading wares manager");
 ServerEvents.lowPriorityData((event) => {

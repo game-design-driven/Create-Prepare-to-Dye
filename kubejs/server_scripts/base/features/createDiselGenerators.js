@@ -88,3 +88,7 @@ if (feature("Overhaul wooden chips recipes")) {
   removeRecipe({ id: "createdieselgenerators:crushing/wood_chip_fences" });
   addCutting("createdieselgenerators:wood_chip", "minecraft:stick");
 }
+
+if (feature('Remove oil pumping')) {
+  removeItem('createdieselgenerators:pumpjack_hole')
+}

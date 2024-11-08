@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:botania:livingwood"
 	],
-	"text": "block.botania.livingwood.tooltip.summary"
+	"text": "block.botania.livingwood.emi.info"
 }

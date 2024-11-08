@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:cauldron"
 	],
-	"text": "block.minecraft.cauldron.tooltip.summary"
+	"text": "block.minecraft.cauldron.emi.info"
 }

@@ -87,6 +87,21 @@ function addPurify(output, input, time) {
     });
 }
 /**
+ * @param {block} output
+ * @param {block} input
+ * @param {number} time amount of time in ticks default(150)
+ */
+function addIgnemOrechid(output, input, time, weight) {
+    weight = weight || 1
+    time = time || 30
+    modpackRecipes.push({
+        type: 'botania:orechid_ignem',
+        input: solveStateIngredient(input),
+        output: solveStateIngredient(output),
+        weight: weight
+    });
+}
+/**
  * @param {result[]} outputs
  * @param {ingredient[]} inputs
  */

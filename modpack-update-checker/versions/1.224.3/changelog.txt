@@ -1,0 +1,16 @@
+### [1.224.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.224.2...1.224.3) (2024-11-07)
+
+
+### Fixes
+
+* emi info pages lang keys says tooltip insteado f info page ([1d47392](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1d47392371c88e703bb30ce9ba543525f2fe5049))
+* info pages have underscores even though they don't support text formatting ([d5cea17](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/d5cea17e3774e0f2ef2f5072e4c6c378eeaab54b))
+* milk tooltip says 22 instead of 20 seconds ([e92d9dd](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/e92d9dd2bb112959dedda7e01c3a41888bf6cf68))
+* trade recipes in emi not showing tags and input amounts ([6a7a183](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6a7a183b420d83c190745d41c64016f41c4e8a73))
+
+
+### chores
+
+* autopublish 2024-11-07T09:09:34Z ([ffc8ba6](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ffc8ba622089dbaf7255c816bc929337ac4649f8))
+
+

@@ -1,0 +1,29 @@
+## [1.225.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.224.5...1.225.0) (2024-11-08)
+
+
+### Features
+
+* add copycats as a device ([65784e9](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/65784e9236a09747806808fdace172be92ec38b3))
+
+
+### Modlist related changes
+
+* add copycat mod ([3fc682e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3fc682e046b6368c12c82d0e507db497c9684a6f))
+
+
+### Minor tweaks
+
+* automatic assembly pitch is now random ([6aaa766](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6aaa766cdc6bd60b7218254f7bc8a620c4436496))
+* reduce volume of automatic assembly ([67f484c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/67f484c63c60d94cc13d9c6275bc5257feb9f92e))
+
+
+### Fixes
+
+* automatic assembly only from generics not working ([fcf7ac2](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fcf7ac20d53e234c609552df172960b1d427076e))
+
+
+### chores
+
+* autopublish 2024-11-08T06:52:16Z ([7b58837](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/7b58837ab43c30ea38e8b6cbe423090ce9eb1389))
+
+

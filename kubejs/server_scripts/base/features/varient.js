@@ -27,8 +27,9 @@ BlockEvents.placed((event) => {
             if (x[0].Count) x[0].Count = x[0].Count - 1;
             else x[0].count = x[0].count - 1;
             Utils.server.scheduleInTicks(1, () => {
+              let randomPitch = Math.random() + 1.0 
               Utils.server.runCommandSilent(
-                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.4 1.3`
+                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.1 ${randomPitch}`
               );
               Utils.server.runCommandSilent(
                 `/item replace entity ${event.player.displayName.getString()} weapon.mainhand with ${
@@ -49,7 +50,7 @@ function inputPredicate(player, item, inventoryItem) {
   if (
     player.persistentData.get("auto_assemble") == true ||
     (player.persistentData.get("auto_assemble_generic_only") == true &&
-      Item.of(item).hasTag("forge:devices/generics"))
+      Item.of(item).hasTag('forge:generics/devices'))
   ) {
     if (inventoryItem.id=="quark:backpack") return false;
     // console.log(typeof inventoryItem)

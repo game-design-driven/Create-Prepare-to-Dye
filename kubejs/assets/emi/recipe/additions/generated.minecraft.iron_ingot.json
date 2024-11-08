@@ -3,5 +3,5 @@
 	"stacks": [
 		"item:minecraft:iron_ingot"
 	],
-	"text": "item.minecraft.iron_ingot.tooltip.summary"
+	"text": "item.minecraft.iron_ingot.emi.info"
 }
