@@ -222,6 +222,7 @@ if (true) {
         "create:clipboard",
         "crafting_on_a_stick:stonecutter",
         "quark:abacus",
+        "minecraft:elytra",
       ],
       post_logic: () => {
         addMixing("2x ptdye:tool_parts", [
