@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "bb3b69fc6f9357856f685fc3ddef64bee2d197509871f178280938df202b868f"
+hash = "e53c413845a32f8076bc87282b5d7e73d9873c882108dc4b7be31bea53c14db2"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -79,6 +79,14 @@ hash = "eb62dfa3c0b52eb240bcc7a5b50ffbf4d0ff7bdae2fe94fec5f44ab0feeff9c2"
 [[files]]
 file = "config/collective.json5"
 hash = "600046b205e20aa3a2ff5af8a66a202c00a97b1c27a6c0675211dbe11d4c0b5f"
+
+[[files]]
+file = "config/copycats-client.toml"
+hash = "70a02fe59453e5b8ad07512adf5feb85fff05bfc3c615349f13d429496f9f7ea"
+
+[[files]]
+file = "config/copycats-common.toml"
+hash = "9ace473150966d2f8703c7d00b3a4a56995b1f2e236c243f24e0cce2b7b37474"
 
 [[files]]
 file = "config/create-client.toml"
@@ -426,7 +434,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "c5f5a2d61b1a52dbab86e2b7188017b8b6833a538c9121c74a4192a358a92810"
+hash = "0428dd761e0ca3125dacc889d8a2c98819a1d5bd4d01252bd0b70a0aa44c2d7c"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3598,7 +3606,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "e31bd8980a3464078dd4edec53efc667c77e302aa4136732d3c91b4c58e53c71"
+hash = "369fffd0ac63633e55acb8226cc7a7d3f9cbae12f9a462b40f737774c4665f2e"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -5214,7 +5222,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/devices.js"
-hash = "3a4c364f2a19bb6aa7539cf04bb75fa7215536214ca6c57d14b7462bdb01707e"
+hash = "1aea7b8f030f2d4befe425e5e6f27ef123d7f0e734c55d7da51726b97afe7078"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/diamondToolsSilkTouch.js"
@@ -5358,7 +5366,7 @@ hash = "a6f29339097133658df0e93a17685a11fd9610cb19161589f5099da7c529d045"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/varient.js"
-hash = "7d4fcd5a92d4743f06f66cd7a740b838c6b40bb9709a2227952a1a64282ee87d"
+hash = "bd40561917fcf6d739e0114b7f029684e5ff570c6d5c7d629aa56a63eaa97157"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/villagers.js"
@@ -5654,7 +5662,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/zh_cn.missing.json"
-hash = "24a17514fa53b4c8ea7edf267dfc93cb57f60263b4341ede74ebb09b6a551422"
+hash = "549c6c9d12b88b9b21c4bdff53cefbfe5aafdcf0ccf172049a5e7d001e55bb6f"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -5662,7 +5670,7 @@ hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "370c8b12bbccca264aefbd06bbf08233dc6f0cada99d39133e537f0feafdf22a"
+hash = "53f7b4253517b064aebae349923e8e7db38bdd783e1bb18a9c989ef8d12f8fb5"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -7743,6 +7751,10 @@ hash = "89feb630781717cf7d1227e23773451015579aeffd15b76689e5c07c648d6883"
 [[files]]
 file = "modpack-update-checker/versions/1.224.5/changelog.txt"
 hash = "bdb76a55aab656edaa2d907ad88da26aeca93ad76d6ab20d82354d4898ea7070"
+
+[[files]]
+file = "modpack-update-checker/versions/1.225.0/changelog.txt"
+hash = "b124192fc75ed60d102faf5d46464a7554c50dc7db52813ab868f64cea0e0b45"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
