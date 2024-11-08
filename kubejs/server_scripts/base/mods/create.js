@@ -108,7 +108,7 @@ if (feature("Replace golden sheet with brass one")) {
   });
   removeItem("create:golden_sheet");
   removeRecipe({ id: "create:crafting/kinetics/wrench" });
-  addShaped("create:wrench", ["c", "s"], {
+  if(!feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)"))  addShaped("create:wrench", ["c", "s"], {
     c: "#forge:cogs",
     s: "#forge:rods",
   });
