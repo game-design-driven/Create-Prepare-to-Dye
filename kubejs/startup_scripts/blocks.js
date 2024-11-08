@@ -28,6 +28,8 @@ StartupEvents.registry("item", (event) => {
 
   event.create("ptdye:orange_tubes");
 
+  event.create("ptdye:tool_parts");
+
   event.create("ptdye:incomplete_sturdy_device", "create:sequenced_assembly");
   event.create(
     "ptdye:incomplete_mechanical_device",
