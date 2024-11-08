@@ -1,0 +1,14 @@
+## [1.226.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.225.0...1.226.0) (2024-11-08)
+
+
+### Features
+
+* devicify player-utility items ([56f2791](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/56f279183173be2358b7f641fbad26bee0264d99))
+* devicify player-utility items ([#597](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/597)) ([894822b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/894822b6a515d3278cd2ceb4cd2d683c584dbe82))
+
+
+### chores
+
+* autopublish 2024-11-08T09:15:59Z ([ae79337](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ae79337bd459be5b8819eef39009b05e0f7ad69b))
+
+
