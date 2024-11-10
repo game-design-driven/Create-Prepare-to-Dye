@@ -120,8 +120,8 @@ if (feature("Lexica botania from book")) {
 
 if (feature("Wand easy recipe")) {
   removeAllRecipesForItem("botania:twig_wand");
-  addShapeless("botania:twig_wand", ["botania:livingwood_twig"]);
-  addStonecutting("botania:twig_wand", "botania:livingwood_twig");
+  if(!feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")) addShapeless("botania:twig_wand", ["botania:livingwood_twig", "#forge:dyes"]);
+
 }
 
 if (feature("Remove Drum of gathering because it makes milk easy")) {

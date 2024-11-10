@@ -1,11 +1,16 @@
 if (feature("Remove crafting table")) {
   removeItem("minecraft:crafting_table");
 }
-if (
-  feature("Craftable devices that are transmuted to specific things on demand")
-) {
+
+
+if (true) {
+  let ComponentDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Components (e.g. basins, gearboxes)")
+  let DecorativeDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Decorative Blocks (e.g. copycat blocks)")
+  let ToolDevicesFeature = feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")
+
   let deviceDefinitions = [
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/network",
       generic: "ae2:fluix_smart_cable",
       included_devices: [
@@ -19,12 +24,14 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/craftingplaceholder",
       generic: "gold_nugget",
       convert_back_recipe: false,
       included_devices: ["botania:placeholder", "create:crafter_slot_cover"],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/track",
       generic: "create:track",
       base: "#create:sleepers",
@@ -61,6 +68,7 @@ if (
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/rail",
       generic: "create:controller_rail",
       base: "rail",
@@ -73,24 +81,56 @@ if (
       },
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/window",
-      generic: 'create:ornate_iron_window',
-      included_devices: ['create:oak_window', 'create:spruce_window', 'create:birch_window', 'create:jungle_window', 'create:acacia_window', 'create:dark_oak_window', 'create:mangrove_window', 'create:crimson_window', 'create:warped_window'],
+      generic: "create:ornate_iron_window",
+      included_devices: [
+        "create:oak_window",
+        "create:spruce_window",
+        "create:birch_window",
+        "create:jungle_window",
+        "create:acacia_window",
+        "create:dark_oak_window",
+        "create:mangrove_window",
+        "create:crimson_window",
+        "create:warped_window",
+      ],
       post_logic: () => {
-        removeAllRecipesForItem('create:ornate_iron_window')
-        addMixing('16x create:ornate_iron_window',["#forge:glass",'16x quark:iron_plate'])
+        removeAllRecipesForItem("create:ornate_iron_window");
+        addMixing("16x create:ornate_iron_window", [
+          "#forge:glass",
+          "16x quark:iron_plate",
+        ]);
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/lamp",
       generic: "minecraft:redstone_lamp",
-      included_devices: ['quark:red_crystal_lamp', 'quark:orange_crystal_lamp', 'quark:yellow_crystal_lamp', 'quark:green_crystal_lamp', 'quark:blue_crystal_lamp', 'quark:indigo_crystal_lamp', 'quark:violet_crystal_lamp', 'quark:white_crystal_lamp', 'quark:black_crystal_lamp', 'create:rose_quartz_lamp', 'supplementaries:redstone_illuminator'],
+      included_devices: [
+        "quark:red_crystal_lamp",
+        "quark:orange_crystal_lamp",
+        "quark:yellow_crystal_lamp",
+        "quark:green_crystal_lamp",
+        "quark:blue_crystal_lamp",
+        "quark:indigo_crystal_lamp",
+        "quark:violet_crystal_lamp",
+        "quark:white_crystal_lamp",
+        "quark:black_crystal_lamp",
+        "create:rose_quartz_lamp",
+        "supplementaries:redstone_illuminator",
+      ],
       post_logic: () => {
-        removeAllRecipesForItem("minecraft:redstone_lamp")
-        addItemApplication("minecraft:redstone_lamp","#forge:glass","#forge:glowy_items")
+        removeAllRecipesForItem("minecraft:redstone_lamp");
+        addItemApplication(
+          "minecraft:redstone_lamp",
+          "#forge:glass",
+          "#forge:glowy_items"
+        );
       },
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/furniture",
       generic: "ptdye:furnished_device",
       base: "minecraft:stick",
@@ -144,11 +184,11 @@ if (
           event.addSimpleBlock("minecraft:campfire", "minecraft:campfire");
           event.addSimpleBlock("minecraft:soul_campfire", "minecraft:campfire");
         });
-
+  
         removeRecipe({ id: "create:haunting/soul_campfire" });
         removeRecipe({ id: "minecraft:soul_campfire" });
         removeRecipe({ id: "minecraft:soul_torch" });
-
+  
         [
           "#minecraft:piglin_repellents",
           "#minecraft:soul_fire_base_blocks",
@@ -165,6 +205,35 @@ if (
       },
     },
     {
+      enable: ToolDevicesFeature,
+      recycleExcluded: true,
+      tag: "forge:util_devices/tools",
+      generic: "ptdye:tool_parts",
+      included_devices: [
+        "create:wrench",
+        "ptdye:hammer",
+        "create:schematic_and_quill",
+        "create:empty_schematic",
+        "create:linked_controller",
+        "create:wand_of_symmetry",
+        "botania:twig_wand",
+        "create:clipboard",
+        "crafting_on_a_stick:stonecutter",
+        "quark:abacus",
+        "minecraft:elytra",
+      ],
+      post_logic: () => {
+        addMixing("2x ptdye:tool_parts", [
+          "#forge:nuggets/gold",
+          "2x #forge:plates/iron",
+          "#forge:rods",
+        ]);
+        //for recycling currently filled schematics
+        addStonecutting("ptdye:tool_parts", "create:schematic");
+      },
+    },
+    {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/red_stringed",
       generic: "ptdye:red_stringed_device", //better to use fully qualifed names for better refactorability in future
       assembly: ["botania:livingrock", "string", "red_dye"],
@@ -187,6 +256,7 @@ if (
       }
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/smart",
       generic: "ptdye:smart_device",
       assembly: [
@@ -220,6 +290,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/logic",
       generic: "ptdye:logic_device",
       amount_crafted: 12,
@@ -248,6 +319,7 @@ if (
       ],
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/smokestack",
       generic: "railways:smokestack_woodburner",
       base: "minecraft:campfire",
@@ -264,6 +336,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/locomotive",
       generic: "ptdye:locomotive_device",
       assembly: [
@@ -288,6 +361,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/sealed",
       generic: "ptdye:sealed_device",
       assembly: [
@@ -317,6 +391,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/sturdy",
       generic: "ptdye:sturdy_device",
       assembly: ["cobblestone", "#forge:plates/iron"],
@@ -351,6 +426,7 @@ if (
       ],
     },
     {
+      enable: ComponentDevicesFeature,
       tag: "forge:devices/mechanical",
       generic: "ptdye:mechanical_device",
       assembly: [
@@ -410,8 +486,9 @@ if (
   let addedTagRecipes = {};
 
   deviceDefinitions.forEach((device) => {
-    addToTag('forge:generics/devices', device.generic)
-    addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic)
+    if(!device.enable) return;
+    addToTag("forge:generics/devices", device.generic);
+    addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
 
     device.base = device.base || "create:cogwheel";
