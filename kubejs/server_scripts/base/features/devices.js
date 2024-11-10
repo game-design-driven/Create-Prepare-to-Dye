@@ -211,6 +211,7 @@ if (true) {
       generic: "ptdye:tool_parts",
       included_devices: [
         "create:wrench",
+        "wands:netherite_wand",
         "ptdye:hammer",
         "create:schematic_and_quill",
         "create:empty_schematic",
