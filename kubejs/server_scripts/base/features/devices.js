@@ -322,6 +322,7 @@ if (
       assembly: ["cobblestone", "#forge:plates/iron"],
       amount_crafted: 8,
       included_devices: [
+        "create:sticker",
         "botania:open_crate",
         "create:item_vault",
         "create:redstone_contact",
