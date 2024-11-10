@@ -2095,32 +2095,3 @@ tradeBranch(
   [drgGoodPickaxes]
 );
 
-if (feature("Debug commands for trade related things")) {
-  ServerEvents.commandRegistry((event) => {
-    const { commands: Commands, arguments: Arguments } = event;
-    event.register(
-      Commands.literal("starterDeals").executes((context) => {
-        global.starterDeals.forEach((deal) =>
-          context.getSource().getPlayer().give(deal.item)
-        );
-        return 0;
-      })
-    );
-    event.register(
-      Commands.literal("starterDealCompleted").executes((context) => {
-        global.starterDeals.forEach((deal) =>
-          context.getSource().getPlayer().give(deal.completedItem.copy())
-        );
-        return 0;
-      })
-    );
-    event.register(
-      Commands.literal("allAgreements").executes((context) => {
-        global.allAgreements.forEach((deal) =>
-          context.getSource().getPlayer().give(deal.copy())
-        );
-        return 0;
-      })
-    );
-  });
-}
