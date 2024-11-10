@@ -207,7 +207,7 @@ if (true) {
     {
       enable: ToolDevicesFeature,
       recycleExcluded: true,
-      tag: "forge:util_devices/tools",
+      tag: "forge:devices/tools",
       generic: "ptdye:tool_parts",
       included_devices: [
         "create:wrench",
