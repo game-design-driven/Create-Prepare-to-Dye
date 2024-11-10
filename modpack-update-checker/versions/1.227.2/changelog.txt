@@ -1,0 +1,13 @@
+### [1.227.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.227.1...1.227.2) (2024-11-10)
+
+
+### Developer experience improvments and changes
+
+* move debug commands to debugtools file ([4755573](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/475557336452e8b0b5b3ea94cbbd4a4630a37f29))
+
+
+### chores
+
+* autopublish 2024-11-10T09:03:01Z ([258531d](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/258531d3927f4f21ac73e7d41385a2f0c1f5429c))
+
+
