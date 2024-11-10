@@ -249,6 +249,7 @@ if (true) {
       ],
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/copycats",
       generic: "copycats:copycat_ghost_block",
       included_devices: Ingredient.of("@copycats").itemIds,
