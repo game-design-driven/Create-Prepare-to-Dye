@@ -254,6 +254,7 @@ if (true) {
       generic: "copycats:copycat_ghost_block",
       included_devices: Ingredient.of("@copycats").itemIds,
       post_logic: () => {
+        removeRecipe({ mod: 'copycats'})
         addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')
       }
     },
