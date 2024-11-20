@@ -1,0 +1,24 @@
+## [1.229.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.228.2...1.229.0) (2024-11-20)
+
+
+### Features
+
+* add ItemConverter mod to allow holding caps and converting items on the fly in additon to middle mouse button pick block conversion ([c63f3cb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c63f3cbaa63dc490cb11c0d226ee247829c1ef79))
+* inventory tabs now use chibi icons to prepare for future button panel on the left ([bf98750](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bf98750c3ffac1abc9c1ebc477d94c408af2ab2a))
+
+
+### Minor tweaks
+
+* 8x create:fluid_pipe for one device ([fabbe27](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/fabbe272bb22317bf3ff299b610c59933d195a00))
+
+
+### Developer experience improvments and changes
+
+* item_converter_generated to gitignore ([42deb00](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/42deb00c6c31449d4491053bb412a41bd5f9632b))
+
+
+### chores
+
+* autopublish 2024-11-18T08:57:28Z ([3516ce5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3516ce586b66aa5c8663ccf75c01fe5de2990de4))
+
+
