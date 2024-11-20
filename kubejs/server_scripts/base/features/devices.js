@@ -389,7 +389,7 @@ if (true) {
         "create:mechanical_pump",
         "supplementaries:copper_lantern",
         "create:copper_casing",
-        "create:fluid_pipe",
+        "8x create:fluid_pipe",
         "createdieselgenerators:distillation_controller",
       ],
     },
