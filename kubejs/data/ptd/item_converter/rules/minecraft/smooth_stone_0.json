@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:smooth_stone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:smooth_stone_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:smooth_stone_vertical_slab",
+      "Count": 1
+    }
+  ]
+}

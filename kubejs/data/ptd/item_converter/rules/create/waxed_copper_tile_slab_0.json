@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:waxed_copper_tile_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:waxed_copper_tiles",
+      "Count": 1
+    }
+  ]
+}

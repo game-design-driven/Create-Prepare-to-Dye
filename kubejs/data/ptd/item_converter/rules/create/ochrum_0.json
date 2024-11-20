@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:ochrum",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:ochrum_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_ochrum",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_ochrum",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_ochrum",
+      "Count": 1
+    },
+    {
+      "id": "create:small_ochrum_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:ochrum",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_ochrum_bricks",
+      "Count": 1
+    }
+  ]
+}

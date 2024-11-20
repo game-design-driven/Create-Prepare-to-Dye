@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:elf_quartz",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:elf_quartz_slab",
+      "Count": 1
+    },
+    {
+      "id": "botania:elf_quartz_stairs",
+      "Count": 1
+    },
+    {
+      "id": "botania:chiseled_elf_quartz",
+      "Count": 1
+    },
+    {
+      "id": "botania:elf_quartz_pillar",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:jungle_fence",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:jungle_planks",
+      "Count": 1
+    }
+  ]
+}

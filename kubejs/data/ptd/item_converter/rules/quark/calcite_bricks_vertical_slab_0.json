@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:calcite_bricks_vertical_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:calcite_bricks",
+      "Count": 1
+    }
+  ]
+}

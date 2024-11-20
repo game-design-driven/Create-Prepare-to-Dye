@@ -1,0 +1,63 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:track_observer",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "railways:conductor_whistle",
+      "Count": 1
+    },
+    {
+      "id": "railways:track_switch_brass",
+      "Count": 1
+    },
+    {
+      "id": "create:track_station",
+      "Count": 1
+    },
+    {
+      "id": "railways:yellow_conductor_cap",
+      "Count": 1
+    },
+    {
+      "id": "create:track_signal",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:locomotive_device",
+      "Count": 1
+    },
+    {
+      "id": "railways:track_switch_andesite",
+      "Count": 1
+    },
+    {
+      "id": "create:controls",
+      "Count": 1
+    },
+    {
+      "id": "railways:remote_lens",
+      "Count": 1
+    },
+    {
+      "id": "create:railway_casing",
+      "Count": 1
+    },
+    {
+      "id": "railways:semaphore",
+      "Count": 1
+    },
+    {
+      "id": "create:schedule",
+      "Count": 1
+    },
+    {
+      "id": "railways:track_coupler",
+      "Count": 1
+    }
+  ]
+}

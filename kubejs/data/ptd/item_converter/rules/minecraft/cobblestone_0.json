@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:cobblestone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:cobblestone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:cobblestone_wall",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:cobblestone_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:cobblestone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:cobblestone_vertical_slab",
+      "Count": 1
+    }
+  ]
+}

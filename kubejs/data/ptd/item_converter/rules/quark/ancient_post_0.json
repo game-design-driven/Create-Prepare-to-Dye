@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:ancient_post",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:ancient_wood",
+      "Count": 1
+    }
+  ]
+}

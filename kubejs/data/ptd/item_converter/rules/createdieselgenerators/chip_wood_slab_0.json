@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "createdieselgenerators:chip_wood_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "createdieselgenerators:chip_wood_block",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:birch_planks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:birch_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:birch_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:birch_fence",
+      "Count": 1
+    },
+    {
+      "id": "quark:birch_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:birch_fence_gate",
+      "Count": 1
+    }
+  ]
+}

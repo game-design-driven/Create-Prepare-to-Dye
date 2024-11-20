@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:limestone_bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:limestone_bricks_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:limestone_bricks_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:limestone_bricks_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:limestone_bricks_wall",
+      "Count": 1
+    }
+  ]
+}

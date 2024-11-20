@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:bamboo_block",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:bamboo_post",
+      "Count": 1
+    },
+    {
+      "id": "quark:bamboo_fence_gate",
+      "Count": 1
+    }
+  ]
+}

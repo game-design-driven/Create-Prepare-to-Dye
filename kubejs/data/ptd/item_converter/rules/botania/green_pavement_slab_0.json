@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:green_pavement_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:green_pavement",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "supplementaries:blackstone_tile",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "supplementaries:blackstone_tile_wall",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:blackstone_tile_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:blackstone_tile_stairs",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:blackstone_tile_slab",
+      "Count": 1
+    }
+  ]
+}

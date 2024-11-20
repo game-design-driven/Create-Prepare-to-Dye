@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:hollow_dark_oak_log",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:dark_oak_wood",
+      "Count": 1
+    }
+  ]
+}

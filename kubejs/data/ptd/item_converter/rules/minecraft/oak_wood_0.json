@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:oak_wood",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:oak_post",
+      "Count": 1
+    },
+    {
+      "id": "quark:hollow_oak_log",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:vertical_framed_glass",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:vertical_framed_glass",
+      "Count": 1
+    },
+    {
+      "id": "create:vertical_framed_glass_pane",
+      "Count": 1
+    },
+    {
+      "id": "create:framed_glass",
+      "Count": 1
+    },
+    {
+      "id": "create:tiled_glass",
+      "Count": 1
+    },
+    {
+      "id": "create:horizontal_framed_glass",
+      "Count": 1
+    }
+  ]
+}

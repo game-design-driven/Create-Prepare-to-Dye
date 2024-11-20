@@ -1,0 +1,51 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:polished_cut_andesite",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:polished_cut_andesite_stairs",
+      "Count": 1
+    },
+    {
+      "id": "create:small_andesite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_andesite_slab",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_andesite_wall",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_andesite",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:andesite",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_andesite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_andesite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:andesite_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_andesite",
+      "Count": 1
+    }
+  ]
+}

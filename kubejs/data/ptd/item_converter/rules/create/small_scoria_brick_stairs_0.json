@@ -1,0 +1,43 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:small_scoria_brick_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:small_scoria_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_scoria",
+      "Count": 1
+    },
+    {
+      "id": "create:scoria",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_scoria",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scoria_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scoria",
+      "Count": 1
+    },
+    {
+      "id": "create:scoria_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:small_scoria_bricks",
+      "Count": 1
+    }
+  ]
+}

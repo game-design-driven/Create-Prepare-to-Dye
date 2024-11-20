@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:light_gray_stained_glass_pane",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:light_gray_stained_glass",
+      "Count": 1
+    }
+  ]
+}

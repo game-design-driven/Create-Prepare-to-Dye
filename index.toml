@@ -8310,6 +8310,11 @@ hash = "ac3118e58b0f31297ee97717486d2a49aeac4ec7a92dd051a56e2780ac1f76e4"
 metafile = true
 
 [[files]]
+file = "mods/item-converter.pw.toml"
+hash = "5e2758edad329516970f94189f807a6caf00c05e25d5ee69a7d266580a295dc3"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "c11011cc9fb5bd521e5805e732dd131357ae8fb21f682a7ab2db4aa8ad9a0e41"
 metafile = true
@@ -8327,6 +8332,11 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "aa241e1683fe80eee9cb233d2a1685e4ee771f85723db9861c168be584d60c60"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "d5fba76e70c85347ac615a1b2bcb0f02041e2ffb03fb670ce10685054fb61b46"
 metafile = true
 
 [[files]]

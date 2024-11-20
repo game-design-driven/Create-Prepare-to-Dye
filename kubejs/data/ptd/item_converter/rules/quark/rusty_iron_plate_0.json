@@ -1,0 +1,23 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:rusty_iron_plate",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:rusty_iron_plate_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:rusty_iron_plate_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:rusty_iron_plate_stairs",
+      "Count": 1
+    }
+  ]
+}

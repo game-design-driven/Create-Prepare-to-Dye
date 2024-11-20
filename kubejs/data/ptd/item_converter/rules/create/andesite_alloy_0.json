@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:andesite_alloy",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:andesite_scaffolding",
+      "Count": 2
+    },
+    {
+      "id": "quark:iron_plate",
+      "Count": 32
+    },
+    {
+      "id": "create:andesite_ladder",
+      "Count": 2
+    },
+    {
+      "id": "copycats:copycat_ghost_block",
+      "Count": 4
+    },
+    {
+      "id": "create:andesite_bars",
+      "Count": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:violet_corundum",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:violet_corundum_pane",
+      "Count": 1
+    }
+  ]
+}

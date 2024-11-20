@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:metamorphic_plains_stone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:metamorphic_plains_stone_wall",
+      "Count": 1
+    },
+    {
+      "id": "botania:chiseled_metamorphic_plains_bricks",
+      "Count": 1
+    },
+    {
+      "id": "botania:metamorphic_plains_stone_slab",
+      "Count": 1
+    },
+    {
+      "id": "botania:metamorphic_plains_stone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "botania:metamorphic_plains_bricks",
+      "Count": 1
+    }
+  ]
+}

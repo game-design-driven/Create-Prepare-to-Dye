@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:mossy_livingrock_bricks_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:mossy_livingrock_bricks",
+      "Count": 1
+    }
+  ]
+}

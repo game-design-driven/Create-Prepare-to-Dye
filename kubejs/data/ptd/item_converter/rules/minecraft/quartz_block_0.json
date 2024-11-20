@@ -1,0 +1,35 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:quartz_block",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:quartz_vertical_slab",
+      "Count": 2
+    },
+    {
+      "id": "minecraft:quartz_pillar",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:quartz_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:quartz_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:quartz_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:chiseled_quartz_block",
+      "Count": 1
+    }
+  ]
+}

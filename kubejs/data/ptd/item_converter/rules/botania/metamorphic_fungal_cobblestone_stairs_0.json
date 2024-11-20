@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:metamorphic_fungal_cobblestone_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:metamorphic_fungal_cobblestone",
+      "Count": 1
+    }
+  ]
+}

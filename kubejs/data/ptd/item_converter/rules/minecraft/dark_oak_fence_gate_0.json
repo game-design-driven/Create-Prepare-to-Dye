@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:dark_oak_fence_gate",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:dark_oak_planks",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:red_string_container",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:red_string_fertilizer",
+      "Count": 1
+    },
+    {
+      "id": "botania:red_string_relay",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:red_stringed_device",
+      "Count": 1
+    },
+    {
+      "id": "botania:red_string_dispenser",
+      "Count": 1
+    },
+    {
+      "id": "botania:red_string_comparator",
+      "Count": 1
+    },
+    {
+      "id": "botania:red_string_interceptor",
+      "Count": 1
+    }
+  ]
+}

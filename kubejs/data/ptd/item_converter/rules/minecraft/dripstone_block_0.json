@@ -1,0 +1,55 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:dripstone_block",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:dripstone_block_wall",
+      "Count": 1
+    },
+    {
+      "id": "quark:dripstone_block_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:dripstone_block",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_dripstone",
+      "Count": 1
+    },
+    {
+      "id": "create:small_dripstone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_dripstone",
+      "Count": 1
+    },
+    {
+      "id": "quark:dripstone_block_slab",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_dripstone",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_dripstone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "quark:dripstone_block_stairs",
+      "Count": 1
+    },
+    {
+      "id": "create:dripstone_pillar",
+      "Count": 1
+    }
+  ]
+}

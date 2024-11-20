@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:end_stone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:end_stone_bricks",
+      "Count": 1
+    }
+  ]
+}

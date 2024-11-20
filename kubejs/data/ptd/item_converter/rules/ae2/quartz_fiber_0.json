@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "ae2:quartz_fiber",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "ae2:fluix_smart_cable",
+      "Count": 1
+    },
+    {
+      "id": "ae2:storage_monitor",
+      "Count": 1
+    },
+    {
+      "id": "ae2:toggle_bus",
+      "Count": 1
+    },
+    {
+      "id": "ae2:level_emitter",
+      "Count": 1
+    },
+    {
+      "id": "ae2:terminal",
+      "Count": 1
+    },
+    {
+      "id": "ae2:storage_bus",
+      "Count": 1
+    },
+    {
+      "id": "ae2:inverted_toggle_bus",
+      "Count": 1
+    }
+  ]
+}

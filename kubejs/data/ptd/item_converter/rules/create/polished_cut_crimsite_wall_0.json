@@ -1,0 +1,43 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:polished_cut_crimsite_wall",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:layered_crimsite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_crimsite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:crimsite_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_crimsite",
+      "Count": 1
+    },
+    {
+      "id": "create:crimsite",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_crimsite",
+      "Count": 1
+    },
+    {
+      "id": "create:small_crimsite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_crimsite",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:brown_wool",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:brown_carpet",
+      "Count": 1
+    }
+  ]
+}

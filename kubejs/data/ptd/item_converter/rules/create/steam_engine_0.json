@@ -1,0 +1,79 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:steam_engine",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:item_drain",
+      "Count": 1
+    },
+    {
+      "id": "create:steam_whistle",
+      "Count": 1
+    },
+    {
+      "id": "create:portable_fluid_interface",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:sealed_device",
+      "Count": 1
+    },
+    {
+      "id": "create:copper_casing",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:copper_lantern",
+      "Count": 1
+    },
+    {
+      "id": "create:copper_valve_handle",
+      "Count": 1
+    },
+    {
+      "id": "createdieselgenerators:distillation_controller",
+      "Count": 1
+    },
+    {
+      "id": "create:spout",
+      "Count": 1
+    },
+    {
+      "id": "create_enchantment_industry:disenchanter",
+      "Count": 1
+    },
+    {
+      "id": "create:fluid_pipe",
+      "Count": 8
+    },
+    {
+      "id": "create:smart_fluid_pipe",
+      "Count": 1
+    },
+    {
+      "id": "create:fluid_valve",
+      "Count": 1
+    },
+    {
+      "id": "create:hose_pulley",
+      "Count": 1
+    },
+    {
+      "id": "create_enchantment_industry:printer",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_pump",
+      "Count": 1
+    },
+    {
+      "id": "create:fluid_tank",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:spruce_planks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:spruce_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:spruce_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:spruce_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:spruce_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:spruce_fence",
+      "Count": 1
+    }
+  ]
+}
