@@ -1,0 +1,60 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1732293840240
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  universal_layout_whitelist = inventory_screen;stonecutter_screen;
+  [loading_requirement_container_meta:bf0fd6fe-f2ae-4b12-91ec-4e94cf6328b2-1732299213136] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/auto-assembler-all.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = dc7ba26e-4ad5-41b2-b93c-beeda7eea3cf-1732289985447
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 74
+  y = -98
+  width = 10
+  height = 15
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5910fd19-4dd4-4aea-bfbe-a0646c34d429-1732278506155
+  [loading_requirement_container_meta:5910fd19-4dd4-4aea-bfbe-a0646c34d429-1732278506155] = [groups:][instances:]
+}
+

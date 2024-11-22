@@ -1,15 +1,16 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = stonecutter_screen
+  identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1729765727848
+  last_edited_time = 1732293730057
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:dd6c750d-46d7-45cc-a0d2-421b2deec97b-1729766105706] = [groups:][instances:]
+  universal_layout_whitelist = inventory_screen;stonecutter_screen;
+  [loading_requirement_container_meta:367ebcd8-c061-4c6f-9d2a-67ae603d9f5f-1732299213145] = [groups:][instances:]
 }
 
 customization {
@@ -27,13 +28,13 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]fancymenu_data/auto-assembler-only-1.png
+  source = [source:local]/config/fancymenu/assets/auto-assembler.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
   nine_slice_texture_border_y = 5
   element_type = image
-  instance_identifier = 0a7ba3dd-9154-4de9-9061-9eb1a05bff261703501068152
+  instance_identifier = 9f22541d-d5a6-4c53-9e9e-d2c5f633b153-1732293672216
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -42,18 +43,18 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 68
-  y = -102
-  width = 15
-  height = 20
+  x = 65
+  y = -98
+  width = 10
+  height = 15
   stretch_x = false
   stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 866ccb16-ee9a-489a-9152-4b58dde484db-1729765727857
-  [loading_requirement_container_meta:866ccb16-ee9a-489a-9152-4b58dde484db-1729765727857] = [groups:][instances:]
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5910fd19-4dd4-4aea-bfbe-a0646c34d429-1732278506155
+  [loading_requirement_container_meta:5910fd19-4dd4-4aea-bfbe-a0646c34d429-1732278506155] = [groups:][instances:]
 }
 
