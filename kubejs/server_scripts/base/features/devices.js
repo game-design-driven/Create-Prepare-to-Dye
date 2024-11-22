@@ -252,7 +252,7 @@ if (true) {
       enable: DecorativeDevicesFeature,
       tag: "forge:devices/copycats",
       generic: "copycats:copycat_ghost_block",
-      included_devices: Ingredient.of("@copycats").itemIds,
+      included_devices: Ingredient.of("@copycats").itemIds.concat(['create:copycat_panel','create:copycat_step']),
       post_logic: () => {
         removeRecipe({ mod: 'copycats'})
         addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')
