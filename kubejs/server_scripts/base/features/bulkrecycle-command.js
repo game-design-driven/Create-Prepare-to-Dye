@@ -127,7 +127,9 @@ function compactItems(player,keepOne){
   }
 
   if(!anySucceeded){
-    player.tell(Text.of("Nothing to compact!").red())
+    Utils.server.runCommandSilent(
+      `/title ${player.displayName.getString()} actionbar "Nothing to compact!"`
+    );
   }
 }
 

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = stonecutter_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1729765727935
+  last_edited_time = 1732299140192
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:0dbea5bf-e2f4-4ea6-b0c0-7d142bef85c3-1729765727935] = [groups:][instances:]
+  [loading_requirement_container_meta:e9f8f912-4b84-49c5-831a-46848e3a6a2d-1732299122968] = [groups:][instances:]
 }
 
 customization {
@@ -27,7 +27,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]fancymenu_data/tabs-assembler-4.png
+  source = [source:local]/config/fancymenu/assets/tabs-assembler.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -42,12 +42,12 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
   sticky_anchor = false
   anchor_point = mid-centered
   x = -88
-  y = -106
+  y = -111
   width = 256
   height = 30
   stretch_x = false
@@ -55,37 +55,6 @@ element {
   stay_on_screen = false
   element_loading_requirement_container_identifier = 1001fbc3-947c-470e-b408-6a39ba965dd9-1729765727935
   [loading_requirement_container_meta:1001fbc3-947c-470e-b408-6a39ba965dd9-1729765727935] = [groups:][instances:]
-}
-
-element {
-  source = [source:local]fancymenu_data/smart_device.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  element_type = image
-  instance_identifier = df36f6ff-605f-4224-b214-5f5c5f215e7b1703513150807
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -12
-  y = -101
-  width = 15
-  height = 15
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = ebac4f0a-374a-49f1-9eb7-d92407179440-1729765727935
-  [loading_requirement_container_meta:ebac4f0a-374a-49f1-9eb7-d92407179440-1729765727935] = [groups:][instances:]
 }
 
 element {
@@ -113,14 +82,14 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
   sticky_anchor = false
   anchor_point = mid-centered
   x = -87
-  y = -104
-  width = 20
-  height = 29
+  y = -99
+  width = 15
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
@@ -153,14 +122,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = -39
-  y = -105
-  width = 20
-  height = 29
+  anchor_point = element
+  anchor_point_element = 975b194b-61fd-4bb9-8b35-84954c2911f41703497745372
+  x = 46
+  y = 12
+  width = 15
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
@@ -193,14 +163,14 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1728
+  auto_sizing_base_screen_height = 1052
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -15
-  y = -105
-  width = 20
-  height = 29
+  x = -57
+  y = -99
+  width = 14
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
