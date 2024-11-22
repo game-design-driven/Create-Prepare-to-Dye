@@ -1,0 +1,55 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:yellow_crystal_lamp",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:blue_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:violet_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:indigo_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:red_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:orange_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:black_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "create:rose_quartz_lamp",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:redstone_lamp",
+      "Count": 1
+    },
+    {
+      "id": "quark:white_crystal_lamp",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:redstone_illuminator",
+      "Count": 1
+    },
+    {
+      "id": "quark:green_crystal_lamp",
+      "Count": 1
+    }
+  ]
+}

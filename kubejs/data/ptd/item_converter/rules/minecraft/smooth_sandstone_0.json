@@ -1,0 +1,23 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:smooth_sandstone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:smooth_sandstone_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:smooth_sandstone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:smooth_sandstone_slab",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:powered_rail",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:detector_rail",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:activator_rail",
+      "Count": 1
+    },
+    {
+      "id": "create:controller_rail",
+      "Count": 1
+    }
+  ]
+}

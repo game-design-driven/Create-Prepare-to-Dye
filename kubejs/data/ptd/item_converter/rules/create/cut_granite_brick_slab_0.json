@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:cut_granite_brick_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:cut_granite_bricks",
+      "Count": 1
+    }
+  ]
+}

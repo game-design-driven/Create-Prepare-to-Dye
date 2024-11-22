@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:polished_cut_diorite_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:polished_cut_diorite",
+      "Count": 1
+    }
+  ]
+}

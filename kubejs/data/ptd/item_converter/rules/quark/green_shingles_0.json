@@ -1,0 +1,23 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:green_shingles",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:green_shingles_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:green_shingles_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:green_shingles_slab",
+      "Count": 1
+    }
+  ]
+}

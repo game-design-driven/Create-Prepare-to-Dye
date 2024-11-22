@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:tuff_bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:tuff_bricks_wall",
+      "Count": 1
+    },
+    {
+      "id": "quark:tuff_bricks_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:tuff_bricks_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:tuff_bricks_stairs",
+      "Count": 1
+    }
+  ]
+}

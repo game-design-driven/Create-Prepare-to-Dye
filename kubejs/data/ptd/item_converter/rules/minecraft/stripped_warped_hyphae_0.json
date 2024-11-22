@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:stripped_warped_hyphae",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:stripped_warped_post",
+      "Count": 1
+    }
+  ]
+}

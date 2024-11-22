@@ -1,0 +1,71 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:azulejo_4",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:azulejo_13",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_12",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_11",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_10",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_15",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_14",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_6",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_5",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_8",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_7",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_9",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_0",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_2",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_1",
+      "Count": 1
+    },
+    {
+      "id": "botania:azulejo_3",
+      "Count": 1
+    }
+  ]
+}

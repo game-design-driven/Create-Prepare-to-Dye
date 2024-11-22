@@ -1,0 +1,51 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:dark_oak_window",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:spruce_window",
+      "Count": 1
+    },
+    {
+      "id": "create:oak_window",
+      "Count": 1
+    },
+    {
+      "id": "create:dark_oak_window_pane",
+      "Count": 1
+    },
+    {
+      "id": "create:ornate_iron_window",
+      "Count": 1
+    },
+    {
+      "id": "create:acacia_window",
+      "Count": 1
+    },
+    {
+      "id": "create:mangrove_window",
+      "Count": 1
+    },
+    {
+      "id": "create:jungle_window",
+      "Count": 1
+    },
+    {
+      "id": "create:crimson_window",
+      "Count": 1
+    },
+    {
+      "id": "create:warped_window",
+      "Count": 1
+    },
+    {
+      "id": "create:birch_window",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:prismarine",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:prismarine_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:prismarine_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:prismarine_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:prismarine_wall",
+      "Count": 1
+    }
+  ]
+}

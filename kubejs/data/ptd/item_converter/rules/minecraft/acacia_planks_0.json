@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:acacia_planks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:acacia_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:acacia_fence",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:acacia_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:acacia_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:acacia_vertical_slab",
+      "Count": 1
+    }
+  ]
+}

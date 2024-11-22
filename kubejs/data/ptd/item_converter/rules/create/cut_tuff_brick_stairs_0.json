@@ -1,0 +1,43 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:cut_tuff_brick_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:small_tuff_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_tuff_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_tuff",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_tuff",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:tuff",
+      "Count": 1
+    },
+    {
+      "id": "create:tuff_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_tuff_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_tuff",
+      "Count": 1
+    }
+  ]
+}

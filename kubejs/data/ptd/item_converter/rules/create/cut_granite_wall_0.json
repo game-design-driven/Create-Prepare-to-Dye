@@ -1,0 +1,43 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:cut_granite_wall",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:granite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_granite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_granite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_granite",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_granite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_granite",
+      "Count": 1
+    },
+    {
+      "id": "create:granite_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:small_granite_bricks",
+      "Count": 1
+    }
+  ]
+}

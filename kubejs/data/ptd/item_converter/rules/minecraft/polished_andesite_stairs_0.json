@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:polished_andesite_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:polished_andesite",
+      "Count": 1
+    }
+  ]
+}

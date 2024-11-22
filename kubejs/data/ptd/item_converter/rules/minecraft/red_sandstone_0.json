@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:red_sandstone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:cut_red_sandstone",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:red_sandstone_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:red_sandstone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:chiseled_red_sandstone",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:red_sandstone_wall",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:red_sandstone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:red_sandstone_vertical_slab",
+      "Count": 1
+    }
+  ]
+}

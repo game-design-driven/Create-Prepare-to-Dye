@@ -1,0 +1,23 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:duskbound_block",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:duskbound_block_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:duskbound_block_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:duskbound_block_stairs",
+      "Count": 1
+    }
+  ]
+}

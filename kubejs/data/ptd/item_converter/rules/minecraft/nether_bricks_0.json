@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:nether_bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:nether_brick_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:nether_brick_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:nether_brick_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:chiseled_nether_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:nether_brick_wall",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:nether_brick_fence",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:nether_brick_slab",
+      "Count": 1
+    }
+  ]
+}

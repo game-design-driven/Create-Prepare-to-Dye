@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:flowering_azalea_leaves",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:flowering_azalea_leaf_carpet",
+      "Count": 1
+    }
+  ]
+}

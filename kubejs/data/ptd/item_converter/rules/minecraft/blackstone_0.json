@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:blackstone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:polished_blackstone",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:blackstone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:blackstone_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:polished_blackstone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:chiseled_polished_blackstone",
+      "Count": 1
+    },
+    {
+      "id": "quark:blackstone_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:blackstone_wall",
+      "Count": 1
+    }
+  ]
+}

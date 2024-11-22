@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:jasper",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:jasper_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:jasper_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:jasper_wall",
+      "Count": 1
+    },
+    {
+      "id": "quark:jasper_slab",
+      "Count": 1
+    }
+  ]
+}

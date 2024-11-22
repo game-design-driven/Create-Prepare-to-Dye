@@ -1,0 +1,51 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:cut_diorite",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:cut_diorite",
+      "Count": 1
+    },
+    {
+      "id": "create:small_diorite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:diorite",
+      "Count": 1
+    },
+    {
+      "id": "create:diorite_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_diorite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_diorite_wall",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_diorite_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_diorite_stairs",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_diorite",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_diorite_slab",
+      "Count": 1
+    }
+  ]
+}

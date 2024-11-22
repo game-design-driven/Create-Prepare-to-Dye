@@ -1,0 +1,51 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:polished_cut_veridium",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:cut_veridium_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_veridium_slab",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_veridium",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_veridium_wall",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_veridium_stairs",
+      "Count": 1
+    },
+    {
+      "id": "create:veridium",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_veridium",
+      "Count": 1
+    },
+    {
+      "id": "create:small_veridium_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_veridium",
+      "Count": 1
+    },
+    {
+      "id": "create:veridium_pillar",
+      "Count": 1
+    }
+  ]
+}

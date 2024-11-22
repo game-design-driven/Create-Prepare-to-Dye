@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:jungle_wood",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:hollow_jungle_log",
+      "Count": 1
+    },
+    {
+      "id": "quark:jungle_post",
+      "Count": 1
+    }
+  ]
+}

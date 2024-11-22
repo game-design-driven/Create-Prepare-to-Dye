@@ -1,0 +1,65 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:empty_schematic",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:wrench",
+      "Count": 1
+    },
+    {
+      "id": "wands:netherite_wand",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    },
+    {
+      "id": "ptdye:hammer",
+      "Count": 1
+    },
+    {
+      "id": "create:schematic_and_quill",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:elytra",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    },
+    {
+      "id": "crafting_on_a_stick:stonecutter",
+      "Count": 1
+    },
+    {
+      "id": "quark:abacus",
+      "Count": 1
+    },
+    {
+      "id": "create:linked_controller",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:tool_parts",
+      "Count": 1
+    },
+    {
+      "id": "create:wand_of_symmetry",
+      "Count": 1
+    },
+    {
+      "id": "create:clipboard",
+      "Count": 1
+    },
+    {
+      "id": "botania:twig_wand",
+      "Count": 1
+    }
+  ]
+}

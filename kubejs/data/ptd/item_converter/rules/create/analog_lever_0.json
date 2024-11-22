@@ -1,0 +1,75 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:analog_lever",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:redstone_randomizer",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:comparator",
+      "Count": 1
+    },
+    {
+      "id": "create:pulse_repeater",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:lever",
+      "Count": 1
+    },
+    {
+      "id": "create:powered_toggle_latch",
+      "Count": 1
+    },
+    {
+      "id": "create:redstone_link",
+      "Count": 1
+    },
+    {
+      "id": "create:powered_latch",
+      "Count": 1
+    },
+    {
+      "id": "create:pulse_extender",
+      "Count": 1
+    },
+    {
+      "id": "botania:animated_torch",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:daylight_detector",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:tripwire_hook",
+      "Count": 1
+    },
+    {
+      "id": "botania:hourglass",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:hourglass",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:logic_device",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:repeater",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:redstone_torch",
+      "Count": 1
+    }
+  ]
+}

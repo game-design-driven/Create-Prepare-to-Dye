@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "railways:track_create_andesite_narrow",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:track",
+      "Count": 1
+    },
+    {
+      "id": "railways:track_create_andesite_wide",
+      "Count": 1
+    }
+  ]
+}

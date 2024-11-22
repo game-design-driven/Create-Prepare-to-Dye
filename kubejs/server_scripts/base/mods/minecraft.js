@@ -404,7 +404,7 @@ if (feature("Cactus from Choros fruite alchemy")) {
   addAlchemyRecipe("cactus", "quark:chorus_fruit_block");
 }
 
-if (feature("Elytra recipe")) {
+if (feature("Elytra recipe") && !feature("Craftable Devices that can be reversibly transformed to Player Tools (e.g. wrenches, schematics)")) {
   addShaped("elytra", ["lpl", "l l", "g g"], {
     l: "#forge:canvasables",
     p: "purple_dye",

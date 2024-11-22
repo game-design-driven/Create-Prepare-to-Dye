@@ -9,9 +9,6 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.InventoryScreen {
-}
-
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
@@ -27,9 +24,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 top.theillusivec4.curios.client.gui.CuriosScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.StonecutterScreen {
-}
-
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
@@ -40,5 +34,11 @@ dev.emi.emi.screen.RecipeScreen {
 }
 
 vazkii.quark.addons.oddities.client.screen.BackpackInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.StonecutterScreen {
 }
 

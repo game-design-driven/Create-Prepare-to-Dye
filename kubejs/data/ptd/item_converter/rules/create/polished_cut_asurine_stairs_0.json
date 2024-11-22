@@ -1,0 +1,43 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:polished_cut_asurine_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:asurine_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_asurine",
+      "Count": 1
+    },
+    {
+      "id": "create:asurine",
+      "Count": 1
+    },
+    {
+      "id": "create:small_asurine_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_asurine_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_asurine",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_asurine",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_asurine",
+      "Count": 1
+    }
+  ]
+}

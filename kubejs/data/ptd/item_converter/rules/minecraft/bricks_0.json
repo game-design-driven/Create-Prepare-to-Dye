@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:brick_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:brick_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:brick_stairs",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:brick_wall",
+      "Count": 1
+    }
+  ]
+}

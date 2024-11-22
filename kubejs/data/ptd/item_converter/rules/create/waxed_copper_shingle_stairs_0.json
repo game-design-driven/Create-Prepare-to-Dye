@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:waxed_copper_shingle_stairs",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:waxed_copper_shingles",
+      "Count": 1
+    }
+  ]
+}

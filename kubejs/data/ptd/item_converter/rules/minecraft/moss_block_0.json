@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:moss_block",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:moss_carpet",
+      "Count": 1
+    }
+  ]
+}

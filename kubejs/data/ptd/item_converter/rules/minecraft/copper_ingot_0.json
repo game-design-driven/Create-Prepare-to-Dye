@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:copper_ingot",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:copper_bars",
+      "Count": 4
+    },
+    {
+      "id": "create:copper_shingles",
+      "Count": 2
+    },
+    {
+      "id": "create:copper_scaffolding",
+      "Count": 2
+    },
+    {
+      "id": "create:copper_tiles",
+      "Count": 2
+    },
+    {
+      "id": "create:copper_ladder",
+      "Count": 2
+    }
+  ]
+}

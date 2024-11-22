@@ -1,0 +1,8 @@
+### [1.227.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.227.0...1.227.1) (2024-11-10)
+
+
+### Documentation and Localization
+
+* remove infographic from main page because it's causing slow load on modrinth ([b4abcba](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/b4abcbaf14303f3ee5c98f42e64c1321840d6b13))
+
+

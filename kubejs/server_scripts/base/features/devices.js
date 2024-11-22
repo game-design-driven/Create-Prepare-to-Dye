@@ -207,10 +207,11 @@ if (true) {
     {
       enable: ToolDevicesFeature,
       recycleExcluded: true,
-      tag: "forge:util_devices/tools",
+      tag: "forge:devices/tools",
       generic: "ptdye:tool_parts",
       included_devices: [
         "create:wrench",
+        "wands:netherite_wand",
         "ptdye:hammer",
         "create:schematic_and_quill",
         "create:empty_schematic",
@@ -248,10 +249,12 @@ if (true) {
       ],
     },
     {
+      enable: DecorativeDevicesFeature,
       tag: "forge:devices/copycats",
       generic: "copycats:copycat_ghost_block",
       included_devices: Ingredient.of("@copycats").itemIds,
       post_logic: () => {
+        removeRecipe({ mod: 'copycats'})
         addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')
       }
     },
@@ -386,7 +389,7 @@ if (true) {
         "create:mechanical_pump",
         "supplementaries:copper_lantern",
         "create:copper_casing",
-        "create:fluid_pipe",
+        "8x create:fluid_pipe",
         "createdieselgenerators:distillation_controller",
       ],
     },
@@ -397,6 +400,7 @@ if (true) {
       assembly: ["cobblestone", "#forge:plates/iron"],
       amount_crafted: 8,
       included_devices: [
+        "create:sticker",
         "botania:open_crate",
         "create:item_vault",
         "create:redstone_contact",

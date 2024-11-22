@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:livingrock_bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:livingrock_bricks_slab",
+      "Count": 1
+    },
+    {
+      "id": "botania:livingrock_bricks_wall",
+      "Count": 1
+    },
+    {
+      "id": "botania:chiseled_livingrock_bricks",
+      "Count": 1
+    },
+    {
+      "id": "botania:livingrock_bricks_stairs",
+      "Count": 1
+    }
+  ]
+}

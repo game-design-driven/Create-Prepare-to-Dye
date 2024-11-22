@@ -1,0 +1,13 @@
+### [1.228.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.228.1...1.228.2) (2024-11-18)
+
+
+### Fixes
+
+* copycats leftover recipes ([c2747d5](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c2747d59805b8b50736dc41e85f6d52ae7c41f64))
+
+
+### chores
+
+* autopublish 2024-11-11T17:29:59Z ([9cd397c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9cd397cb1f38b693acd4ec7e399e5c18d5648da4))
+
+

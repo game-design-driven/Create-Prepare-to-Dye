@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:yellow_shingles_slab",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:yellow_shingles",
+      "Count": 1
+    }
+  ]
+}

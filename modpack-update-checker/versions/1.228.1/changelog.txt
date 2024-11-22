@@ -1,0 +1,18 @@
+### [1.228.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.228.0...1.228.1) (2024-11-11)
+
+
+### Fixes
+
+* potential bug where client cancels right click event animation and sound ([2660aae](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2660aaef98376357b49d20da8378aeaa69f037e8))
+
+
+### Minor tweaks
+
+* increase milk cell enrgy from milk by 4x ([37087ef](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/37087ef0d9ca88f552103448f2302425d808e6cd))
+
+
+### chores
+
+* autopublish 2024-11-11T08:23:40Z ([2f21113](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2f2111386e51356e1b8cad06293c72ffd554add9))
+
+

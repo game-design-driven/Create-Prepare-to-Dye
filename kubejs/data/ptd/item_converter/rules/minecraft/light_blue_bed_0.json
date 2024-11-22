@@ -1,0 +1,123 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:light_blue_bed",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "minecraft:lectern",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:oak_door",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:oak_sign",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:pulley_block",
+      "Count": 1
+    },
+    {
+      "id": "create:wooden_bracket",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:note_block",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:bookshelf",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:hanging_sign_oak",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:campfire",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:oak_trapdoor",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:notice_board",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:oak_full_drawers_2",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:sign_post_oak",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:item_frame",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:oak_full_drawers_4",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:oak_full_drawers_1",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:barrel",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:target",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:composter",
+      "Count": 1
+    },
+    {
+      "id": "create:white_seat",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:speaker_block",
+      "Count": 1
+    },
+    {
+      "id": "botania:crafty_crate",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:furnished_device",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:bellows",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:painting",
+      "Count": 1
+    },
+    {
+      "id": "create:cuckoo_clock",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:jukebox",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:cut_scorchia_bricks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:cut_scorchia_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scorchia_brick_wall",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scorchia",
+      "Count": 1
+    },
+    {
+      "id": "create:scorchia_pillar",
+      "Count": 1
+    },
+    {
+      "id": "create:scorchia",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scorchia_brick_stairs",
+      "Count": 1
+    },
+    {
+      "id": "create:small_scorchia_bricks",
+      "Count": 1
+    },
+    {
+      "id": "create:cut_scorchia_brick_slab",
+      "Count": 1
+    },
+    {
+      "id": "create:layered_scorchia",
+      "Count": 1
+    },
+    {
+      "id": "create:polished_cut_scorchia",
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "railways:conductor_vent",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:copycat_step",
+      "Count": 4
+    },
+    {
+      "id": "create:copycat_panel",
+      "Count": 4
+    }
+  ]
+}

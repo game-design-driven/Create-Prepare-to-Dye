@@ -1,0 +1,31 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "minecraft:mossy_cobblestone",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:mossy_cobblestone_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:mossy_cobblestone_bricks",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_wall",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_slab",
+      "Count": 1
+    }
+  ]
+}

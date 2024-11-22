@@ -1,0 +1,39 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:iron_plate",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:iron_pillar",
+      "Count": 1
+    },
+    {
+      "id": "quark:iron_plate_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:iron_pillar",
+      "Count": 1
+    },
+    {
+      "id": "quark:iron_plate_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:gray_fence",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:gray_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "quark:iron_plate_slab",
+      "Count": 1
+    }
+  ]
+}

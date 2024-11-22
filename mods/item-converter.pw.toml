@@ -1,0 +1,13 @@
+name = "Item Converter"
+filename = "item-converter-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9pniJAtk/versions/c545gEZS/item-converter-0.3.0.jar"
+hash-format = "sha512"
+hash = "c516f9814d8f140ff0b48e614aba9983d43ab915dd9408ea3c698d3f0a5557a22096302e1b113a2b09466367188dfa536c1ddd83f6fc11b8d5af755a5dbfcefb"
+
+[update]
+[update.modrinth]
+mod-id = "9pniJAtk"
+version = "c545gEZS"

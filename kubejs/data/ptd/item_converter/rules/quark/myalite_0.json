@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:myalite",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:myalite_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:myalite_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:myalite_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:myalite_wall",
+      "Count": 1
+    }
+  ]
+}

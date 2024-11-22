@@ -1,0 +1,15 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "create:warped_window_pane",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "create:warped_window",
+      "Count": 1
+    }
+  ]
+}

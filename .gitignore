@@ -88,3 +88,4 @@ kubejs/allEnglishTranslationKeys.json
 /server/logs
 /server/mods
 /modernfix/structureCacheV1
+/.item_converter_generated

@@ -16,13 +16,13 @@ CreateEvents.spoutHandler((event) => {
   event.add("fill_battery", "ae2:energy_cell", (block, fluid, simulate) => {
     if (
       fluid.id == "minecraft:milk" &&
-      fluid.amount >= 1000 &&
+      fluid.amount >= 250 &&
       block.entityData.internalCurrentPower < 200000.0 - amount - 1
     ) {
       if (!simulate) {
         fillBattery(block, amount);
       }
-      return 1000;
+      return 250;
     }
     return 0;
   });

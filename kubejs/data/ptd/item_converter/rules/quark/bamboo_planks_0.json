@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "quark:bamboo_planks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "quark:bamboo_planks_stairs",
+      "Count": 1
+    },
+    {
+      "id": "quark:bamboo_planks_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:bamboo_planks_vertical_slab",
+      "Count": 1
+    },
+    {
+      "id": "quark:bamboo_fence",
+      "Count": 1
+    }
+  ]
+}

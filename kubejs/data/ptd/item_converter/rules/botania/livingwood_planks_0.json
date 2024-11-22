@@ -1,0 +1,27 @@
+{
+  "sound": "minecraft:ui.stonecutter.take_result",
+  "pitch": 1.0,
+  "volume": 1.0,
+  "input": {
+    "id": "botania:livingwood_planks",
+    "Count": 1
+  },
+  "output": [
+    {
+      "id": "botania:livingwood_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "botania:livingwood_stairs",
+      "Count": 1
+    },
+    {
+      "id": "botania:livingwood_wall",
+      "Count": 1
+    },
+    {
+      "id": "botania:livingwood_fence",
+      "Count": 1
+    }
+  ]
+}
