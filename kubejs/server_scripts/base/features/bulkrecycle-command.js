@@ -10,7 +10,7 @@ function compactItems(player,keepOne){
   player.inventory.allItems.toArray().forEach(
     /** @param {Internal.ItemStack} i */
     i=>{
-      if(i.hasTag("forge:devices")){
+      if(i.hasTag("forge:devices") && !i.hasTag("ptdye:recycle_excluded") && !i.hasNBT()){
         let [_,type,fraction] = i.getTags()
           .toList()
           .filter((tag) => tag.location().path.startsWith("devices/"))[0]
