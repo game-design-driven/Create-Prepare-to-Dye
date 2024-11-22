@@ -1,0 +1,13 @@
+## [1.230.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.229.1...1.230.0) (2024-11-22)
+
+
+### Features
+
+* exclude some devices from bulk recycling ([#622](https://github.com/game-design-driven/Create-Prepare-to-Dye/issues/622)) ([1e84ce7](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1e84ce7edd6aaedc611d44607cd590ccd362d0d6))
+
+
+### chores
+
+* autopublish 2024-11-21T14:03:53Z ([267a244](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/267a244148e49e79317ff0f576cccd43623b9b9f))
+
+
