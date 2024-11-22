@@ -490,6 +490,7 @@ if (true) {
 
   deviceDefinitions.forEach((device) => {
     if(!device.enable) return;
+    
     addToTag("forge:generics/devices", device.generic);
     addToTag(`forge:generics/${device.tag.split(":")[1]}`, device.generic);
     let generic_id = Item.of(device.generic).id; //support both ids and kjs items
@@ -546,6 +547,7 @@ if (true) {
         true
       ); //let players transmute any device but don't show in craftables panel
 
+      if(device.recycleExcluded) addToTag("ptdye:recycle_excluded")
       addToTag(device.tag + tagSuffix, item.id);
       addStonecutting(included_device, device.generic);
     });
