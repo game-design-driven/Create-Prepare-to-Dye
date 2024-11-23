@@ -1,0 +1,13 @@
+### [1.231.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.231.0...1.231.1) (2024-11-23)
+
+
+### Fixes
+
+* dedicated server crash due to itemconverter issue. Updated itemconverter ([c05448e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c05448e55d94fef1c6a723da04ca07c8a09bab7c))
+
+
+### chores
+
+* autopublish 2024-11-22T18:20:17Z ([cd0db79](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/cd0db79b51e396d0231c4273fb08dd3df11eebfc))
+
+
