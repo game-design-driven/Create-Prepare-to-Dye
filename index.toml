@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "1350483f3a7d5d2cba7bc9bb11a624ff6d9a24ad863a47d20c63697bd5aa352e"
+hash = "22f7554cfdde8523bea31db126973a161ef1e6e45b92027e2becf80b81b99e6e"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -165,24 +165,32 @@ file = "config/experimentalsettingsdisabler-client.toml"
 hash = "8bd61f7b0aaf5006922b82489f51717f2c9a39d8aca4b37894a19cb546024b85"
 
 [[files]]
-file = "config/fancymenu/assets/auto-assembler-1.png"
-hash = "fe2ee641a00a671a98fce23e42fcfd59aa0fe91a405af0a0492117ddefda0e64"
+file = "config/fancymenu/assets/action_panel.png"
+hash = "24cb23d35075c651eea36503065317c5a2b144584aa9d9671b2296e848f8635c"
 
 [[files]]
-file = "config/fancymenu/assets/auto-assembler-disabled-1.png"
-hash = "26194c7d1fee0cb16aec5bd3cc576a74596bf4183563d18406dd0ae1e28cbc1b"
+file = "config/fancymenu/assets/advancements-tabs.png"
+hash = "ceab209a02e35b9d750d761898a32acafa117f842fb7607bfb1952c99aad65fd"
+
+[[files]]
+file = "config/fancymenu/assets/auto-assembler-all.png"
+hash = "2f1241523fa493970f5d4cf093ee45498e4c2ab5b03f1f5d12d1a86116905406"
+
+[[files]]
+file = "config/fancymenu/assets/auto-assembler-disabled.png"
+hash = "cd904b31c7edecb5ca6fe5781e7a925390cf70890bd817df7706d0d3c822a27e"
 
 [[files]]
 file = "config/fancymenu/assets/auto-assembler-empty-space.png"
 hash = "ccf22bb75e0ea26f6107a3d260f452a4de10adaad71e200619dbc460cfb6c47f"
 
 [[files]]
-file = "config/fancymenu/assets/auto-assembler-only-1.png"
-hash = "12930f4165833cdb86842228266dcc77e917ec3093209702605517b313e0d02c"
-
-[[files]]
 file = "config/fancymenu/assets/auto-assembler-slider-base.png"
 hash = "2d27ac04fcefde732e1df11e8ecd1af91b0c1344da4a505ef1ce51bc1b5e23ce"
+
+[[files]]
+file = "config/fancymenu/assets/auto-assembler.png"
+hash = "f2512ad2ad22526a6d1e14da7c929dfd16cf628e3edc97597747c96a5dba561a"
 
 [[files]]
 file = "config/fancymenu/assets/background.png"
@@ -202,7 +210,11 @@ hash = "3214949724539d8fc6bc050d8fefd929a43cd21d92537b35dbc7770ccc157cd3"
 
 [[files]]
 file = "config/fancymenu/assets/tabs-assembler-4.png"
-hash = "67fceb45266023b445c4965941f48f0c0f38652ddd4a0722583ca3e59453f869"
+hash = "16f3dfba410ffc9e838c2ffec55bf17b40cdea2a139a45d878fea77bfdd6fc46"
+
+[[files]]
+file = "config/fancymenu/assets/tabs-assembler.png"
+hash = "16f3dfba410ffc9e838c2ffec55bf17b40cdea2a139a45d878fea77bfdd6fc46"
 
 [[files]]
 file = "config/fancymenu/assets/tags-inventory-8.png"
@@ -222,31 +234,39 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a3556d9034d67556bcd5e8497a86b061f6fe2cc7327e1873f8bfd59276b4d2c3"
-
-[[files]]
-file = "config/fancymenu/customization/0-auto-assemble.txt"
-hash = "d442ee73e33b8bd32e206f20f98993d4cb2108b87c8771d4f37c2e929ffdfef4"
-
-[[files]]
-file = "config/fancymenu/customization/0-automatic-assembly-generics-only.txt"
-hash = "f1b9d2eaa220f6b603e7739848f946cd14885d8f2955191d4459869c57766e08"
-
-[[files]]
-file = "config/fancymenu/customization/0-no-automatic-assembly.txt"
-hash = "dcebcf403176ce2633572be8eeb859cf284a369f27a8876d4d68c838617fc313"
+hash = "744cd7933e9d423d4710d019ffe0ffb2b0f5f088cd31b0bea30441c67354ccc1"
 
 [[files]]
 file = "config/fancymenu/customization/4.txt"
 hash = "456f2bf76890395b14540c2e3ebddd2ab81cfd0b5f228e2f5c7758a5dac2a0d1"
 
 [[files]]
-file = "config/fancymenu/customization/auto-assembler-slider-base.txt"
-hash = "c442f934ca6ea2ac605f9f6f752d2cb95cda3301f87b68b386087aa8a2a9541a"
+file = "config/fancymenu/customization/action_panel.txt"
+hash = "982ec98892229ea26cf5c607296401dd648223d6a75bfd54fbf457de9be6c798"
+
+[[files]]
+file = "config/fancymenu/customization/advancements-tabs.txt"
+hash = "7cdac5ad8a9f277f52527132027f50117d636262c2606d1207b3b160d3e5f8fe"
+
+[[files]]
+file = "config/fancymenu/customization/advanements-tabs.txt"
+hash = "c661a6d38f1200af7e91e68e9d687b78fbfd3c1d3c89e5f229cb6f561a5b2ae0"
+
+[[files]]
+file = "config/fancymenu/customization/auto-assembler-all.txt"
+hash = "2caccdc0260ee5367aab47d78a2311e2a674b1bfdf5487c3c7b8f50bcb3a1716"
+
+[[files]]
+file = "config/fancymenu/customization/auto-assembler-disabled.txt"
+hash = "c3f581dd8c1949b52b5e4aa733b355b71be5208f75f459805563b9d9dbac6db9"
+
+[[files]]
+file = "config/fancymenu/customization/auto-assembler.txt"
+hash = "98f7c9731d51d8081acf46ba6e2d089b6202e57e7675a3776d77e284a7765f33"
 
 [[files]]
 file = "config/fancymenu/customization/betsy.txt"
-hash = "809f218800b6bb9f295126b4a15258d08c48e0221fda327986c1aaeffcaafcd2"
+hash = "4c39148b54ff29ffc1cf91c7066b91050d90dac5e113295dfd48d56a8c261cc5"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -266,11 +286,11 @@ hash = "ee814559ed3dedebc26387789f47ffceca11e2853d778b88f481790b16775a1b"
 
 [[files]]
 file = "config/fancymenu/customization/personalassembler.txt"
-hash = "33e931dfadc250b3c93f35a1b471a4e47aa1df7c849453cb02385cb61824098a"
+hash = "2d9554de9991e7084fb64ee07fa1b593619d8b1ff80a5108036d1fc94dc55d3a"
 
 [[files]]
 file = "config/fancymenu/customization/q.txt"
-hash = "93436e68cc04e9272a176a9481b9e9cf333daeece28cc2812d4cc3119a0f03ba"
+hash = "4148300babd71971c32b643174129f3253dc2af44f4790da15c63f3afeebd91f"
 
 [[files]]
 file = "config/fancymenu/customization/removecorios.txt"
@@ -286,11 +306,11 @@ hash = "a8d925d2b5b8a5320c1ae09855051fc0a5ad2fde693961ca78b94cbf75e4aab1"
 
 [[files]]
 file = "config/fancymenu/customization/tabs-for-assembler.txt"
-hash = "1c8e58ff1f89e8e2b43566d7f4132ae4ae71058cd557205cebb31ea0edbc28a4"
+hash = "56f245fb5faedeced9d603926d1ac9aad2bcdcb6de2705a801b7064ed2043b07"
 
 [[files]]
 file = "config/fancymenu/customization/tabs.txt"
-hash = "88fe947a923b6d28a02e21e105ec52fc963b93ce7dba48d3b1e338418b91e9d0"
+hash = "839ddc79d9fc514e9e53ede78f02c210b9fecd4e4627776cd6060a40def84446"
 
 [[files]]
 file = "config/fancymenu/customization/toggleinfo.txt"
@@ -490,7 +510,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "05d46c1b8ce56ba9ea214ca62150267f6bcd219520777410fd458a866119cd91"
+hash = "a9c38a25968d7fd69fb08e1d232077036d329083875c3fe9275b8d3832508128"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -683,6 +703,10 @@ hash = "6c8990747d17d6a58bfb7feb83e0bc32eba234c95d292b9836595a6ba5c45676"
 [[files]]
 file = "discord-mark-white.png"
 hash = "3e862997885fc898199365b6907ddd71b9297e2a56b845fa9bfbbd3663600a36"
+
+[[files]]
+file = "fancymenu_data/action_panel.png"
+hash = "ab88953017b0508e198b49e1e836d93950e5388d16205c2ea3a69392c9ed554f"
 
 [[files]]
 file = "fancymenu_data/auto-assembler-1.png"
@@ -3097,12 +3121,24 @@ file = "kubejs/assets/minecraft/textures/environment/sun.png"
 hash = "3229ab5a0fbe7e6ae22c5d3f69794f2c68fa7090c0db549f2114deda0fcb5423"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/gui/advancements/tabs.png"
+hash = "1d4ec8e1bd26e6b27b032c48b79bc0e6fe89fb6d5e09dba2e5601220d1a20807"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/advancements/widgets.png"
+hash = "736aab9c4eea2db6879a5c863b89f41b38e6f4d3ae7626c65070338bd806cd19"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/advancements/window.png"
+hash = "a9ab21a45a9aab1df3f64e54098b022008e804c1823bb60a4dee61ad5e59412c"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/gui/container/inventory.png"
-hash = "2f80247714de3b3e3aebf4e48a7b80a53572f1e0321cea44dbb9e16f924b7c7c"
+hash = "1c1baa7b41669b295a00661e7520d86968a3d7a91e68f4da7d230e55060f30c9"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/container/stonecutter.png"
-hash = "7050f0fa581c3295ce8d5cbd60ed9f43896d0831abf7e7c1c682fbfb3ccb7f42"
+hash = "8fbfe0760697f6c82bc51f261599ef6fba447ab61521bbcf52dfaae6776f6c50"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/icons.png"
@@ -3666,7 +3702,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "25f8bf41edd31a48e59ebaaa9ece41a36a23b0cdf54c315939a9ba36f385fd81"
+hash = "f86b961bcf95a7d8ed5d217fffadd7854cb768c27acfe9324ab5b0433a5f5321"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -11902,7 +11938,7 @@ hash = "93c6dbc1d292260a792d86fbd72804f31e7b12e5b6bc0dfb2d9cad3020d0d747"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/bulkrecycle-command.js"
-hash = "7fa4b70b4c7a71b8c7b19e9d578d3a96db297f577046f95f12971bec0b9ddd87"
+hash = "4d9ec5bdbb95bddaa1e83ed7ad6972a0642d0b2652e234949e29af1f7e70b32d"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/chickenEggs.js"
@@ -11934,7 +11970,7 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/devices.js"
-hash = "c3f78770d6ab83c80ed2e2649db4f141b3fdd94c28d67f709f107924ccc6eec4"
+hash = "bdd439f360bc052035df4a5d1cf7b51bf433678488c7decfa0070fdeeb42aa65"
 
 [[files]]
 file = "kubejs/server_scripts/base/features/diamondToolsSilkTouch.js"
@@ -12378,7 +12414,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/zh_cn.missing.json"
-hash = "7df5df588e6eec3773ab4364d90f1bff15968feba88f078d135a92fb95457d87"
+hash = "05a8bff3f5072b920c07f3fe7674e489e78ea30999e9c5db1b7338b7292eeccd"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -12386,7 +12422,7 @@ hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "d011891e17adac35125d36770c9443d1739dbfe56d35af89fc991dd5f7838002"
+hash = "7785df6680e55d03f7ccd58972bd93983dc5583b73907462f5019c12ab1d10a9"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -14507,6 +14543,10 @@ hash = "f18e7cc5582372ee4fa2665404458ef28eba715164e18d7d70cd5bd3504b8abc"
 [[files]]
 file = "modpack-update-checker/versions/1.230.0/changelog.txt"
 hash = "9b3b892de66e8cba8cc3f256b88fae773ef1af2c075b7fcefff44aa2e49fa301"
+
+[[files]]
+file = "modpack-update-checker/versions/1.231.0/changelog.txt"
+hash = "c90bbcc13db4e0337f6ea842503f5a863d30800fd7a0bac1cf5a331b15ca3d57"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"

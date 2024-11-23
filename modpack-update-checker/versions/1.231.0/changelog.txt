@@ -1,0 +1,25 @@
+## [1.231.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.230.0...1.231.0) (2024-11-22)
+
+
+### Features
+
+* add action panel to the top right of the inventory which allows autoassembly, recycling and teleporting to betsy ([909c598](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/909c5981777e9fa5fd9f3be23d312dbab2b1646e))
+* add tabs to advancement screen ([2fb873a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/2fb873a604115f1422b5a7b823ebf74bd3977ec4))
+
+
+### Fixes
+
+* some copycats are not in copycat category ([90fc45c](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/90fc45ce6313a83d668ba952d5d2235b40d66544))
+
+
+### Minor tweaks
+
+* bulk recycle uses title command instead of tell for nothing to compact message ([9f4f0cb](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/9f4f0cb89d89e0d39609b4ab37eb83634a8215a8))
+* improve icons for tabs and buttons ([0b49310](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0b49310408b9aeb3d74cdef6ae594f8098a6fd5f))
+
+
+### chores
+
+* autopublish 2024-11-22T15:20:43Z ([3559b91](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3559b91be0b284f6110dadc0edf942ce0370fe25))
+
+
