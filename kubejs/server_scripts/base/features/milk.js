@@ -28,9 +28,15 @@ function milk(event, currentTime) {
   event.getTarget().persistentData.put("lastMilked", currentTime)
   let pitch =  Math.random() + 0.8;
   Utils.server.runCommandSilent(`playsound minecraft:entity.cow.milk neutral @a ${event.getTarget().getX()} ${event.getTarget().getY()} ${event.getTarget().getZ()} 1 ${pitch}`)
-  event.server.scheduleInTicks(1, () => {
-    event.player.setMainHandItem("minecraft:milk_bucket");
-  });
+  if (event.player.getMainHandItem().count == 1)
+    event.server.scheduleInTicks(1, () => {
+      event.player.setMainHandItem("minecraft:milk_bucket");
+    });
+  else{
+    event.player.setMainHandItem(event.player.getMainHandItem().withCount(event.player.getMainHandItem().count - 1))
+    event.player.give(Item.of("minecraft:milk_bucket").withCount(1))
+  }
+
 }
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     if (!event.getTarget().getType() == "minecraft:cow") return
