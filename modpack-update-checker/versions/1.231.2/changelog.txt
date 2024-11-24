@@ -1,0 +1,13 @@
+### [1.231.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.231.1...1.231.2) (2024-11-24)
+
+
+### Fixes
+
+* milking betsy with more than one empty bucket in hand voids the extra buckets. Now will reduce by 1 instead ([ce095dc](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ce095dc59b39caee3cad5950568debb990f2ced0))
+
+
+### chores
+
+* autopublish 2024-11-23T12:02:09Z ([bac240e](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/bac240e67d40453e3e1b19926ba678fca352ff58))
+
+
