@@ -21,25 +21,52 @@ function hammer_breakBlock(block, item, player){
   block.set("air")
 }
 
+function hammer_handleEvent(event, block) {
+  if (block == null) block = event.target.block
+  if (block && block.hasTag("forge:devices") || block.hasTag("forge:generics/devices")) {
+    event.player.swing()
+    // there should never be a block with devices tag that does not have a generic of the same type
+    let generic = block.id
+    if (block.hasTag("forge:devices")) {
+      let device_category = "#forge:generics/"+block.getTags().filter(
+        tag => (tag+"").startsWith("forge:devices/")
+      )[0].path
+      generic = Ingredient.of(device_category).itemIds[0]
+    }
+
+    let {x, y, z} = block.getPos()
+    
+    event.level.runCommandSilent(`/playsound ptdye:hammer player @a[dx=1,dy=1,dz=1] ${x} ${y} ${z} 1 1 .3`)
+    event.level.runCommandSilent(`/particle minecraft:wax_off ${x} ${y + 0.5} ${z} .25 .25 .25 .15 25`)
+    
+    hammer_breakBlock(block, generic, event.player)
+    event.cancel()
+  }
+}
+
 ItemEvents.rightClicked((event) => {
   if (event.item.id != "ptdye:hammer" || event.player.getOffHandItem() != "minecraft:air")
     return
-  
-  event.player.swing()
+  hammer_handleEvent(event)
 
-  const block = event.target.block
-  if (block) {
-    for(const [tag, item] of hammer_deviceMap.entries()) {
-      if (block.hasTag(tag)) {
-        // Sound + Particles
-        const {x, y, z} = block.getPos()
-        event.level.runCommandSilent(`/playsound ptdye:hammer player @a[dx=1,dy=1,dz=1] ${x} ${y} ${z} 1 1 .3`)
-        event.level.runCommandSilent(`/particle minecraft:wax_off ${x} ${y + 0.5} ${z} .25 .25 .25 .15 25`)
-        // Breaking Block
-        hammer_breakBlock(block, item, event.player)
-        break
-      }
-    }
-  }
 })
 
+
+
+BlockEvents.broken((event) => {
+  if (event.player.getMainHandItem().id != "ptdye:hammer" || event.player.getOffHandItem() != "minecraft:air") return
+  let block = event.block
+  hammer_handleEvent(event, block)
+})
+
+if (feature('Hammer picks up broken blocks')) {
+  BlockEvents.broken((event) => {
+    if (event.player.getMainHandItem().id === 'ptdye:hammer' && !event.player.creative) {
+      event.block.getDrops(event.player, event.item).forEach((item) => {
+        event.player.give(item);
+      });
+      event.block.set('minecraft:air')
+      event.cancel();
+    }
+  });
+}
