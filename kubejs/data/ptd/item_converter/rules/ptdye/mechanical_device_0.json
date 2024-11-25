@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,43 +7,7 @@
   },
   "output": [
     {
-      "id": "create:filter",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_drill",
-      "Count": 1
-    },
-    {
-      "id": "create:schematicannon",
-      "Count": 1
-    },
-    {
-      "id": "create:sticky_mechanical_piston",
-      "Count": 1
-    },
-    {
-      "id": "create:schematic_table",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_mixer",
-      "Count": 1
-    },
-    {
-      "id": "create:gearbox",
-      "Count": 1
-    },
-    {
-      "id": "create:encased_chain_drive",
-      "Count": 1
-    },
-    {
-      "id": "create:vertical_gearbox",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_piston",
+      "id": "quark:pipe",
       "Count": 1
     },
     {
@@ -52,15 +15,7 @@
       "Count": 1
     },
     {
-      "id": "create:deployer",
-      "Count": 1
-    },
-    {
-      "id": "create:linear_chassis",
-      "Count": 1
-    },
-    {
-      "id": "create:adjustable_chain_gearshift",
+      "id": "create:filter",
       "Count": 1
     },
     {
@@ -68,71 +23,11 @@
       "Count": 1
     },
     {
-      "id": "create:radial_chassis",
+      "id": "create:mechanical_drill",
       "Count": 1
     },
     {
-      "id": "create:cart_assembler",
-      "Count": 1
-    },
-    {
-      "id": "quark:pipe",
-      "Count": 1
-    },
-    {
-      "id": "create:weighted_ejector",
-      "Count": 1
-    },
-    {
-      "id": "create:large_water_wheel",
-      "Count": 1
-    },
-    {
-      "id": "create:hand_crank",
-      "Count": 1
-    },
-    {
-      "id": "create:andesite_tunnel",
-      "Count": 1
-    },
-    {
-      "id": "create:andesite_casing",
-      "Count": 1
-    },
-    {
-      "id": "create:turntable",
-      "Count": 1
-    },
-    {
-      "id": "create:portable_storage_interface",
-      "Count": 1
-    },
-    {
-      "id": "create:rope_pulley",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_harvester",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_plough",
-      "Count": 1
-    },
-    {
-      "id": "create:water_wheel",
-      "Count": 1
-    },
-    {
-      "id": "create:stressometer",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_bearing",
-      "Count": 1
-    },
-    {
-      "id": "create:gearshift",
+      "id": "create:linear_chassis",
       "Count": 1
     },
     {
@@ -140,15 +35,15 @@
       "Count": 1
     },
     {
-      "id": "create:mechanical_saw",
+      "id": "create:sticky_mechanical_piston",
       "Count": 1
     },
     {
-      "id": "create:andesite_funnel",
+      "id": "create:water_wheel",
       "Count": 1
     },
     {
-      "id": "create:mechanical_press",
+      "id": "create:mechanical_mixer",
       "Count": 1
     },
     {
@@ -156,7 +51,35 @@
       "Count": 1
     },
     {
-      "id": "create:encased_fan",
+      "id": "create:rope_pulley",
+      "Count": 1
+    },
+    {
+      "id": "create:hand_crank",
+      "Count": 1
+    },
+    {
+      "id": "create:gearshift",
+      "Count": 1
+    },
+    {
+      "id": "create:deployer",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_bearing",
+      "Count": 1
+    },
+    {
+      "id": "create:stressometer",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_piston",
+      "Count": 1
+    },
+    {
+      "id": "create:andesite_funnel",
       "Count": 1
     },
     {
@@ -166,6 +89,83 @@
     {
       "id": "create:gantry_carriage",
       "Count": 1
+    },
+    {
+      "id": "create:large_water_wheel",
+      "Count": 1
+    },
+    {
+      "id": "create:turntable",
+      "Count": 1
+    },
+    {
+      "id": "create:adjustable_chain_gearshift",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_plough",
+      "Count": 1
+    },
+    {
+      "id": "create:andesite_casing",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_harvester",
+      "Count": 1
+    },
+    {
+      "id": "create:vertical_gearbox",
+      "Count": 1
+    },
+    {
+      "id": "create:andesite_tunnel",
+      "Count": 1
+    },
+    {
+      "id": "create:radial_chassis",
+      "Count": 1
+    },
+    {
+      "id": "create:encased_chain_drive",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_saw",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_press",
+      "Count": 1
+    },
+    {
+      "id": "create:schematic_table",
+      "Count": 1
+    },
+    {
+      "id": "create:cart_assembler",
+      "Count": 1
+    },
+    {
+      "id": "create:weighted_ejector",
+      "Count": 1
+    },
+    {
+      "id": "create:gearbox",
+      "Count": 1
+    },
+    {
+      "id": "create:encased_fan",
+      "Count": 1
+    },
+    {
+      "id": "create:schematicannon",
+      "Count": 1
+    },
+    {
+      "id": "create:portable_storage_interface",
+      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

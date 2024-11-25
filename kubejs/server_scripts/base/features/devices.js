@@ -170,6 +170,7 @@ if (true) {
         "minecraft:lectern",
         "minecraft:jukebox",
         "minecraft:chest",
+        "minecraft:trapped_chest",
         "minecraft:bookshelf",
         "supplementaries:sign_post_oak",
         "storagedrawers:oak_full_drawers_2",
@@ -249,10 +250,23 @@ if (true) {
       ],
     },
     {
+      enable : ComponentDevicesFeature,
+      tag : "forge:devices/cogs",
+      generic : "create:cogwheel",
+      included_devices : ["create:large_cogwheel", "copycats:copycat_cogwheel", "copycats:copycat_large_cogwheel"],
+      assembly: [
+        "create:shaft",
+        "#minecraft:planks"
+      ],
+      amount_crafted : 4,
+    },
+    {
       enable: DecorativeDevicesFeature,
       tag: "forge:devices/copycats",
       generic: "copycats:copycat_ghost_block",
-      included_devices: Ingredient.of("@copycats").itemIds.concat(['create:copycat_panel','create:copycat_step']),
+      included_devices: Ingredient.of("@copycats").itemIds
+        .concat(['create:copycat_panel','create:copycat_step'])
+        .filter(item => !["copycats:copycat_cogwheel", "copycats:copycat_large_cogwheel"].includes(item)),
       post_logic: () => {
         removeRecipe({ mod: 'copycats'})
         addStonecutting('4x copycats:copycat_ghost_block', '#forge:ingots/andesite_alloy')

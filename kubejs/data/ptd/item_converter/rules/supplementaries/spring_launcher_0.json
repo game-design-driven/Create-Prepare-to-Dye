@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,7 +7,7 @@
   },
   "output": [
     {
-      "id": "create:windmill_bearing",
+      "id": "minecraft:dispenser",
       "Count": 1
     },
     {
@@ -16,7 +15,7 @@
       "Count": 1
     },
     {
-      "id": "createdieselgenerators:basin_lid",
+      "id": "create:basin",
       "Count": 1
     },
     {
@@ -24,7 +23,7 @@
       "Count": 1
     },
     {
-      "id": "create:basin",
+      "id": "createdieselgenerators:basin_lid",
       "Count": 1
     },
     {
@@ -40,11 +39,15 @@
       "Count": 1
     },
     {
+      "id": "ptdyeplus:crate_barrel",
+      "Count": 1
+    },
+    {
       "id": "ptdyeplus:barrel_barrel",
       "Count": 1
     },
     {
-      "id": "ptdyeplus:crate_barrel",
+      "id": "create:item_vault",
       "Count": 1
     },
     {
@@ -56,11 +59,11 @@
       "Count": 1
     },
     {
-      "id": "minecraft:piston",
+      "id": "ptdye:sturdy_device",
       "Count": 1
     },
     {
-      "id": "ptdye:sturdy_device",
+      "id": "minecraft:dropper",
       "Count": 1
     },
     {
@@ -68,7 +71,23 @@
       "Count": 1
     },
     {
-      "id": "create:nozzle",
+      "id": "minecraft:sticky_piston",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:minecart",
+      "Count": 1
+    },
+    {
+      "id": "create:windmill_bearing",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:piston",
+      "Count": 1
+    },
+    {
+      "id": "create:sticker",
       "Count": 1
     },
     {
@@ -80,36 +99,17 @@
       "Count": 1
     },
     {
-      "id": "create:crushing_wheel",
-      "Count": 1
-    },
-    {
-      "id": "create:sticker",
-      "Count": 1
-    },
-    {
-      "id": "create:item_vault",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:dropper",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:minecart",
-      "Count": 1
-    },
-    {
       "id": "botania:open_crate",
       "Count": 1
     },
     {
-      "id": "minecraft:dispenser",
+      "id": "create:nozzle",
       "Count": 1
     },
     {
-      "id": "minecraft:sticky_piston",
+      "id": "create:crushing_wheel",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

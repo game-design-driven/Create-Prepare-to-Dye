@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,15 +7,7 @@
   },
   "output": [
     {
-      "id": "create:portable_fluid_interface",
-      "Count": 1
-    },
-    {
       "id": "create_enchantment_industry:printer",
-      "Count": 1
-    },
-    {
-      "id": "create:fluid_valve",
       "Count": 1
     },
     {
@@ -24,7 +15,11 @@
       "Count": 8
     },
     {
-      "id": "create:smart_fluid_pipe",
+      "id": "create:fluid_tank",
+      "Count": 1
+    },
+    {
+      "id": "createdieselgenerators:distillation_controller",
       "Count": 1
     },
     {
@@ -36,23 +31,11 @@
       "Count": 1
     },
     {
-      "id": "createdieselgenerators:distillation_controller",
+      "id": "create:mechanical_pump",
       "Count": 1
     },
     {
-      "id": "create:steam_whistle",
-      "Count": 1
-    },
-    {
-      "id": "create:item_drain",
-      "Count": 1
-    },
-    {
-      "id": "create:copper_casing",
-      "Count": 1
-    },
-    {
-      "id": "supplementaries:copper_lantern",
+      "id": "create:fluid_valve",
       "Count": 1
     },
     {
@@ -60,7 +43,23 @@
       "Count": 1
     },
     {
-      "id": "create:fluid_tank",
+      "id": "create:smart_fluid_pipe",
+      "Count": 1
+    },
+    {
+      "id": "create:portable_fluid_interface",
+      "Count": 1
+    },
+    {
+      "id": "create:hose_pulley",
+      "Count": 1
+    },
+    {
+      "id": "create:steam_whistle",
+      "Count": 1
+    },
+    {
+      "id": "create:copper_casing",
       "Count": 1
     },
     {
@@ -68,12 +67,13 @@
       "Count": 1
     },
     {
-      "id": "create:mechanical_pump",
+      "id": "create:item_drain",
       "Count": 1
     },
     {
-      "id": "create:hose_pulley",
+      "id": "supplementaries:copper_lantern",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

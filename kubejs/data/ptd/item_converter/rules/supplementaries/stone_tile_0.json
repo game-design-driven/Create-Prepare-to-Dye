@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -23,5 +22,6 @@
       "id": "supplementaries:stone_tile_vertical_slab",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

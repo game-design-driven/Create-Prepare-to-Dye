@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,11 +7,11 @@
   },
   "output": [
     {
-      "id": "create:stressometer",
+      "id": "create:mechanical_mixer",
       "Count": 1
     },
     {
-      "id": "create:andesite_casing",
+      "id": "create:clutch",
       "Count": 1
     },
     {
@@ -24,19 +23,11 @@
       "Count": 1
     },
     {
-      "id": "create:schematic_table",
-      "Count": 1
-    },
-    {
       "id": "create:mechanical_piston",
       "Count": 1
     },
     {
-      "id": "create:weighted_ejector",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_mixer",
+      "id": "create:andesite_casing",
       "Count": 1
     },
     {
@@ -48,15 +39,7 @@
       "Count": 1
     },
     {
-      "id": "create:clutch",
-      "Count": 1
-    },
-    {
-      "id": "create:linear_chassis",
-      "Count": 1
-    },
-    {
-      "id": "create:contraption_controls",
+      "id": "create:weighted_ejector",
       "Count": 1
     },
     {
@@ -64,7 +47,11 @@
       "Count": 1
     },
     {
-      "id": "create:gantry_carriage",
+      "id": "ptdye:mechanical_device",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_press",
       "Count": 1
     },
     {
@@ -72,7 +59,19 @@
       "Count": 1
     },
     {
-      "id": "create:mechanical_press",
+      "id": "create:schematic_table",
+      "Count": 1
+    },
+    {
+      "id": "create:linear_chassis",
+      "Count": 1
+    },
+    {
+      "id": "create:gantry_carriage",
+      "Count": 1
+    },
+    {
+      "id": "create:contraption_controls",
       "Count": 1
     },
     {
@@ -84,15 +83,15 @@
       "Count": 1
     },
     {
-      "id": "create:andesite_tunnel",
+      "id": "create:mechanical_harvester",
+      "Count": 1
+    },
+    {
+      "id": "create:stressometer",
       "Count": 1
     },
     {
       "id": "create:schematicannon",
-      "Count": 1
-    },
-    {
-      "id": "create:encased_chain_drive",
       "Count": 1
     },
     {
@@ -116,27 +115,7 @@
       "Count": 1
     },
     {
-      "id": "create:water_wheel",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_harvester",
-      "Count": 1
-    },
-    {
-      "id": "create:turntable",
-      "Count": 1
-    },
-    {
-      "id": "create:andesite_funnel",
-      "Count": 1
-    },
-    {
-      "id": "create:adjustable_chain_gearshift",
-      "Count": 1
-    },
-    {
-      "id": "create:portable_storage_interface",
+      "id": "create:andesite_tunnel",
       "Count": 1
     },
     {
@@ -144,15 +123,15 @@
       "Count": 1
     },
     {
-      "id": "create:encased_fan",
-      "Count": 1
-    },
-    {
       "id": "create:radial_chassis",
       "Count": 1
     },
     {
-      "id": "create:gearbox",
+      "id": "create:water_wheel",
+      "Count": 1
+    },
+    {
+      "id": "create:encased_fan",
       "Count": 1
     },
     {
@@ -160,12 +139,33 @@
       "Count": 1
     },
     {
-      "id": "ptdye:mechanical_device",
+      "id": "create:encased_chain_drive",
+      "Count": 1
+    },
+    {
+      "id": "create:andesite_funnel",
+      "Count": 1
+    },
+    {
+      "id": "create:turntable",
+      "Count": 1
+    },
+    {
+      "id": "create:portable_storage_interface",
+      "Count": 1
+    },
+    {
+      "id": "create:gearbox",
+      "Count": 1
+    },
+    {
+      "id": "create:adjustable_chain_gearshift",
       "Count": 1
     },
     {
       "id": "create:mechanical_saw",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

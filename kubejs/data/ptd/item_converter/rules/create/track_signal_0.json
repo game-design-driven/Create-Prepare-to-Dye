@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,7 +7,7 @@
   },
   "output": [
     {
-      "id": "railways:conductor_whistle",
+      "id": "ptdye:locomotive_device",
       "Count": 1
     },
     {
@@ -24,11 +23,11 @@
       "Count": 1
     },
     {
-      "id": "railways:yellow_conductor_cap",
+      "id": "railways:conductor_whistle",
       "Count": 1
     },
     {
-      "id": "ptdye:locomotive_device",
+      "id": "railways:yellow_conductor_cap",
       "Count": 1
     },
     {
@@ -59,5 +58,6 @@
       "id": "railways:track_coupler",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

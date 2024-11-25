@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,7 +7,11 @@
   },
   "output": [
     {
-      "id": "create:item_drain",
+      "id": "create:copper_casing",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_pump",
       "Count": 1
     },
     {
@@ -17,14 +20,6 @@
     },
     {
       "id": "create:portable_fluid_interface",
-      "Count": 1
-    },
-    {
-      "id": "ptdye:sealed_device",
-      "Count": 1
-    },
-    {
-      "id": "create:copper_casing",
       "Count": 1
     },
     {
@@ -40,20 +35,20 @@
       "Count": 1
     },
     {
-      "id": "create:spout",
+      "id": "ptdye:sealed_device",
       "Count": 1
     },
     {
-      "id": "create_enchantment_industry:disenchanter",
+      "id": "create:smart_fluid_pipe",
+      "Count": 1
+    },
+    {
+      "id": "create:spout",
       "Count": 1
     },
     {
       "id": "create:fluid_pipe",
       "Count": 8
-    },
-    {
-      "id": "create:smart_fluid_pipe",
-      "Count": 1
     },
     {
       "id": "create:fluid_valve",
@@ -64,16 +59,21 @@
       "Count": 1
     },
     {
-      "id": "create_enchantment_industry:printer",
+      "id": "create:item_drain",
       "Count": 1
     },
     {
-      "id": "create:mechanical_pump",
+      "id": "create_enchantment_industry:printer",
       "Count": 1
     },
     {
       "id": "create:fluid_tank",
       "Count": 1
+    },
+    {
+      "id": "create_enchantment_industry:disenchanter",
+      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

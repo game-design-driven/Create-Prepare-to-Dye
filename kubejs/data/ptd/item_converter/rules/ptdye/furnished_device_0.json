@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -16,11 +15,15 @@
       "Count": 1
     },
     {
-      "id": "minecraft:painting",
+      "id": "storagedrawers:oak_full_drawers_4",
       "Count": 1
     },
     {
       "id": "minecraft:target",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:painting",
       "Count": 1
     },
     {
@@ -48,7 +51,7 @@
       "Count": 1
     },
     {
-      "id": "storagedrawers:oak_full_drawers_4",
+      "id": "minecraft:item_frame",
       "Count": 1
     },
     {
@@ -72,7 +75,7 @@
       "Count": 1
     },
     {
-      "id": "supplementaries:sign_post_oak",
+      "id": "minecraft:bookshelf",
       "Count": 1
     },
     {
@@ -80,7 +83,7 @@
       "Count": 1
     },
     {
-      "id": "storagedrawers:oak_full_drawers_2",
+      "id": "supplementaries:sign_post_oak",
       "Count": 1
     },
     {
@@ -96,11 +99,11 @@
       "Count": 1
     },
     {
-      "id": "minecraft:bookshelf",
+      "id": "minecraft:trapped_chest",
       "Count": 1
     },
     {
-      "id": "minecraft:item_frame",
+      "id": "storagedrawers:oak_full_drawers_2",
       "Count": 1
     },
     {
@@ -119,5 +122,6 @@
       "id": "storagedrawers:oak_full_drawers_1",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -7,6 +6,10 @@
     "Count": 1
   },
   "output": [
+    {
+      "id": "minecraft:lever",
+      "Count": 1
+    },
     {
       "id": "quark:redstone_randomizer",
       "Count": 1
@@ -20,19 +23,7 @@
       "Count": 1
     },
     {
-      "id": "minecraft:lever",
-      "Count": 1
-    },
-    {
       "id": "create:powered_toggle_latch",
-      "Count": 1
-    },
-    {
-      "id": "create:analog_lever",
-      "Count": 1
-    },
-    {
-      "id": "create:powered_latch",
       "Count": 1
     },
     {
@@ -44,15 +35,15 @@
       "Count": 1
     },
     {
-      "id": "minecraft:daylight_detector",
-      "Count": 1
-    },
-    {
       "id": "minecraft:tripwire_hook",
       "Count": 1
     },
     {
-      "id": "botania:hourglass",
+      "id": "minecraft:daylight_detector",
+      "Count": 1
+    },
+    {
+      "id": "create:powered_latch",
       "Count": 1
     },
     {
@@ -60,7 +51,7 @@
       "Count": 1
     },
     {
-      "id": "ptdye:logic_device",
+      "id": "botania:hourglass",
       "Count": 1
     },
     {
@@ -70,6 +61,15 @@
     {
       "id": "minecraft:redstone_torch",
       "Count": 1
+    },
+    {
+      "id": "create:analog_lever",
+      "Count": 1
+    },
+    {
+      "id": "ptdye:logic_device",
+      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

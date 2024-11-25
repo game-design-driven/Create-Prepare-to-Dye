@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,11 +7,15 @@
   },
   "output": [
     {
-      "id": "railways:smokestack_coalburner",
+      "id": "railways:smokestack_long",
       "Count": 1
     },
     {
       "id": "railways:smokestack_oilburner",
+      "Count": 1
+    },
+    {
+      "id": "railways:smokestack_coalburner",
       "Count": 1
     },
     {
@@ -24,12 +27,9 @@
       "Count": 1
     },
     {
-      "id": "railways:smokestack_long",
-      "Count": 1
-    },
-    {
       "id": "railways:smokestack_woodburner",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

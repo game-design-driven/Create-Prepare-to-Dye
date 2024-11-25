@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,19 +7,23 @@
   },
   "output": [
     {
+      "id": "storagedrawers:drawer_key",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:quantify_key",
+      "Count": 1
+    },
+    {
+      "id": "create:content_observer",
+      "Count": 1
+    },
+    {
       "id": "create:rotation_speed_controller",
       "Count": 1
     },
     {
-      "id": "create:stockpile_switch",
-      "Count": 1
-    },
-    {
-      "id": "create:sequenced_gearshift",
-      "Count": 1
-    },
-    {
-      "id": "ptdye:smart_device",
+      "id": "createdieselgenerators:diesel_engine",
       "Count": 1
     },
     {
@@ -32,19 +35,7 @@
       "Count": 1
     },
     {
-      "id": "storagedrawers:drawer_key",
-      "Count": 1
-    },
-    {
-      "id": "create:content_observer",
-      "Count": 1
-    },
-    {
-      "id": "storagedrawers:quantify_key",
-      "Count": 1
-    },
-    {
-      "id": "create:mechanical_arm",
+      "id": "ptdye:smart_device",
       "Count": 1
     },
     {
@@ -52,7 +43,7 @@
       "Count": 1
     },
     {
-      "id": "create:clockwork_bearing",
+      "id": "create:mechanical_arm",
       "Count": 1
     },
     {
@@ -60,15 +51,11 @@
       "Count": 1
     },
     {
+      "id": "create:clockwork_bearing",
+      "Count": 1
+    },
+    {
       "id": "create:smart_chute",
-      "Count": 1
-    },
-    {
-      "id": "createdieselgenerators:diesel_engine",
-      "Count": 1
-    },
-    {
-      "id": "create:brass_funnel",
       "Count": 1
     },
     {
@@ -84,12 +71,25 @@
       "Count": 1
     },
     {
-      "id": "storagedrawers:shroud_key",
+      "id": "create:brass_funnel",
       "Count": 1
     },
     {
       "id": "create:brass_casing",
       "Count": 1
+    },
+    {
+      "id": "create:sequenced_gearshift",
+      "Count": 1
+    },
+    {
+      "id": "create:stockpile_switch",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:shroud_key",
+      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

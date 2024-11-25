@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,27 +7,7 @@
   },
   "output": [
     {
-      "id": "create:mechanical_crafter",
-      "Count": 1
-    },
-    {
-      "id": "create:brass_funnel",
-      "Count": 1
-    },
-    {
-      "id": "create:clockwork_bearing",
-      "Count": 1
-    },
-    {
-      "id": "create:brass_casing",
-      "Count": 1
-    },
-    {
-      "id": "create_enchantment_industry:enchanting_guide",
-      "Count": 1
-    },
-    {
-      "id": "create:brass_tunnel",
+      "id": "create:elevator_pulley",
       "Count": 1
     },
     {
@@ -36,11 +15,15 @@
       "Count": 1
     },
     {
-      "id": "createdieselgenerators:diesel_engine",
+      "id": "storagedrawers:controller",
       "Count": 1
     },
     {
-      "id": "storagedrawers:controller",
+      "id": "create:brass_casing",
+      "Count": 1
+    },
+    {
+      "id": "create:brass_funnel",
       "Count": 1
     },
     {
@@ -48,7 +31,23 @@
       "Count": 1
     },
     {
-      "id": "create:sequenced_gearshift",
+      "id": "create_enchantment_industry:enchanting_guide",
+      "Count": 1
+    },
+    {
+      "id": "create:smart_chute",
+      "Count": 1
+    },
+    {
+      "id": "storagedrawers:shroud_key",
+      "Count": 1
+    },
+    {
+      "id": "create:brass_tunnel",
+      "Count": 1
+    },
+    {
+      "id": "create:mechanical_arm",
       "Count": 1
     },
     {
@@ -56,19 +55,11 @@
       "Count": 1
     },
     {
-      "id": "supplementaries:brass_lantern",
-      "Count": 1
-    },
-    {
-      "id": "create:content_observer",
+      "id": "create:sequenced_gearshift",
       "Count": 1
     },
     {
       "id": "create:rotation_speed_controller",
-      "Count": 1
-    },
-    {
-      "id": "storagedrawers:shroud_key",
       "Count": 1
     },
     {
@@ -80,16 +71,25 @@
       "Count": 1
     },
     {
-      "id": "create:mechanical_arm",
+      "id": "create:content_observer",
       "Count": 1
     },
     {
-      "id": "create:smart_chute",
+      "id": "supplementaries:brass_lantern",
       "Count": 1
     },
     {
-      "id": "create:elevator_pulley",
+      "id": "create:mechanical_crafter",
+      "Count": 1
+    },
+    {
+      "id": "createdieselgenerators:diesel_engine",
+      "Count": 1
+    },
+    {
+      "id": "create:clockwork_bearing",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

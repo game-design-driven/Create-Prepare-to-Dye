@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,35 +7,7 @@
   },
   "output": [
     {
-      "id": "quark:magnet",
-      "Count": 1
-    },
-    {
-      "id": "create:millstone",
-      "Count": 1
-    },
-    {
-      "id": "create:item_vault",
-      "Count": 1
-    },
-    {
-      "id": "create:nozzle",
-      "Count": 1
-    },
-    {
-      "id": "create:redstone_contact",
-      "Count": 1
-    },
-    {
-      "id": "create:crushing_wheel",
-      "Count": 1
-    },
-    {
-      "id": "ptdyeplus:barrel_barrel",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:stonecutter",
+      "id": "minecraft:minecart",
       "Count": 1
     },
     {
@@ -44,55 +15,7 @@
       "Count": 1
     },
     {
-      "id": "minecraft:minecart",
-      "Count": 1
-    },
-    {
-      "id": "ptdyeplus:crate_barrel",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:hopper",
-      "Count": 1
-    },
-    {
-      "id": "botania:apothecary_default",
-      "Count": 1
-    },
-    {
-      "id": "create:basin",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:piston",
-      "Count": 1
-    },
-    {
-      "id": "supplementaries:spring_launcher",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:cauldron",
-      "Count": 1
-    },
-    {
-      "id": "createdieselgenerators:basin_lid",
-      "Count": 1
-    },
-    {
-      "id": "create:windmill_bearing",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:dispenser",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:sticky_piston",
-      "Count": 1
-    },
-    {
-      "id": "minecraft:observer",
+      "id": "ptdyeplus:barrel_barrel",
       "Count": 1
     },
     {
@@ -100,7 +23,31 @@
       "Count": 1
     },
     {
-      "id": "supplementaries:turn_table",
+      "id": "minecraft:sticky_piston",
+      "Count": 1
+    },
+    {
+      "id": "quark:magnet",
+      "Count": 1
+    },
+    {
+      "id": "create:chute",
+      "Count": 1
+    },
+    {
+      "id": "create:nozzle",
+      "Count": 1
+    },
+    {
+      "id": "createdieselgenerators:basin_lid",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:piston",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:hopper",
       "Count": 1
     },
     {
@@ -108,8 +55,61 @@
       "Count": 1
     },
     {
-      "id": "create:chute",
+      "id": "create:crushing_wheel",
+      "Count": 1
+    },
+    {
+      "id": "create:item_vault",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:dispenser",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:spring_launcher",
+      "Count": 1
+    },
+    {
+      "id": "create:windmill_bearing",
+      "Count": 1
+    },
+    {
+      "id": "supplementaries:turn_table",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:observer",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:cauldron",
+      "Count": 1
+    },
+    {
+      "id": "botania:apothecary_default",
+      "Count": 1
+    },
+    {
+      "id": "create:redstone_contact",
+      "Count": 1
+    },
+    {
+      "id": "create:millstone",
+      "Count": 1
+    },
+    {
+      "id": "ptdyeplus:crate_barrel",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:stonecutter",
+      "Count": 1
+    },
+    {
+      "id": "create:basin",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

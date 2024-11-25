@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -7,6 +6,10 @@
     "Count": 1
   },
   "output": [
+    {
+      "id": "ptdye:locomotive_device",
+      "Count": 1
+    },
     {
       "id": "railways:track_switch_brass",
       "Count": 1
@@ -25,10 +28,6 @@
     },
     {
       "id": "create:track_signal",
-      "Count": 1
-    },
-    {
-      "id": "ptdye:locomotive_device",
       "Count": 1
     },
     {
@@ -59,5 +58,6 @@
       "id": "railways:track_coupler",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

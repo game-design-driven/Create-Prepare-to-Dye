@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -23,7 +22,19 @@
       "Count": 1
     },
     {
-      "id": "create:schematic_and_quill",
+      "id": "quark:abacus",
+      "Count": 1
+    },
+    {
+      "id": "create:clipboard",
+      "Count": 1
+    },
+    {
+      "id": "crafting_on_a_stick:stonecutter",
+      "Count": 1
+    },
+    {
+      "id": "create:empty_schematic",
       "Count": 1
     },
     {
@@ -34,15 +45,11 @@
       }
     },
     {
-      "id": "crafting_on_a_stick:stonecutter",
-      "Count": 1
-    },
-    {
-      "id": "quark:abacus",
-      "Count": 1
-    },
-    {
       "id": "create:linked_controller",
+      "Count": 1
+    },
+    {
+      "id": "create:schematic_and_quill",
       "Count": 1
     },
     {
@@ -52,14 +59,7 @@
     {
       "id": "create:wand_of_symmetry",
       "Count": 1
-    },
-    {
-      "id": "create:empty_schematic",
-      "Count": 1
-    },
-    {
-      "id": "create:clipboard",
-      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

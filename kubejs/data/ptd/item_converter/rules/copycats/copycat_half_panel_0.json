@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,27 +7,11 @@
   },
   "output": [
     {
-      "id": "copycats:copycat_iron_door",
+      "id": "copycats:copycat_layer",
       "Count": 1
     },
     {
-      "id": "copycats:copycat_vertical_stairs",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_wall",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_large_cogwheel",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_door",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_half_layer",
+      "id": "copycats:copycat_beam",
       "Count": 1
     },
     {
@@ -36,31 +19,11 @@
       "Count": 1
     },
     {
-      "id": "copycats:copycat_layer",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_slab",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_slice",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_catwalk",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_heavy_weighted_pressure_plate",
+      "id": "copycats:copycat_iron_door",
       "Count": 1
     },
     {
       "id": "copycats:copycat_wooden_pressure_plate",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_vertical_slice",
       "Count": 1
     },
     {
@@ -72,7 +35,63 @@
       "Count": 1
     },
     {
+      "id": "create:copycat_step",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_wooden_button",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_fence_gate",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_door",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_slice",
+      "Count": 1
+    },
+    {
+      "id": "create:copycat_panel",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_ghost_block",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_slope_layer",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_vertical_slice",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_box",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_fluid_pipe",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_vertical_slope",
+      "Count": 1
+    },
+    {
       "id": "copycats:copycat_fence",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_vertical_stairs",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_ghost_block",
       "Count": 1
     },
     {
@@ -84,43 +103,7 @@
       "Count": 1
     },
     {
-      "id": "copycats:copycat_board",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_stone_button",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_box",
-      "Count": 1
-    },
-    {
       "id": "copycats:copycat_trapdoor",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_fluid_pipe",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_slope",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_fence_gate",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_vertical_slope",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_slope_layer",
-      "Count": 1
-    },
-    {
-      "id": "copycats:copycat_ladder",
       "Count": 1
     },
     {
@@ -128,11 +111,23 @@
       "Count": 1
     },
     {
-      "id": "copycats:copycat_wooden_button",
+      "id": "copycats:copycat_ladder",
       "Count": 1
     },
     {
-      "id": "copycats:copycat_ghost_block",
+      "id": "copycats:copycat_board",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_heavy_weighted_pressure_plate",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_wall",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_half_layer",
       "Count": 1
     },
     {
@@ -140,20 +135,25 @@
       "Count": 1
     },
     {
-      "id": "copycats:copycat_ghost_block",
+      "id": "copycats:copycat_slab",
       "Count": 1
     },
     {
-      "id": "copycats:copycat_beam",
+      "id": "copycats:copycat_stone_button",
       "Count": 1
     },
     {
-      "id": "copycats:copycat_cogwheel",
+      "id": "copycats:copycat_slope",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_catwalk",
       "Count": 1
     },
     {
       "id": "copycats:copycat_byte",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

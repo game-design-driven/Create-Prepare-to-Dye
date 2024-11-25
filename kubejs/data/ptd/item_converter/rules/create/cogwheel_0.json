@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -10,6 +9,19 @@
     {
       "id": "create:large_cogwheel",
       "Count": 1
+    },
+    {
+      "id": "copycats:copycat_cogwheel",
+      "Count": 1
+    },
+    {
+      "id": "copycats:copycat_large_cogwheel",
+      "Count": 1
+    },
+    {
+      "id": "create:large_cogwheel",
+      "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }

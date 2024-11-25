@@ -1,5 +1,4 @@
 {
-  "sound": "minecraft:ui.stonecutter.take_result",
   "pitch": 1.0,
   "volume": 1.0,
   "input": {
@@ -8,23 +7,7 @@
   },
   "output": [
     {
-      "id": "railways:track_coupler",
-      "Count": 1
-    },
-    {
       "id": "railways:conductor_whistle",
-      "Count": 1
-    },
-    {
-      "id": "create:track_station",
-      "Count": 1
-    },
-    {
-      "id": "railways:track_switch_brass",
-      "Count": 1
-    },
-    {
-      "id": "railways:remote_lens",
       "Count": 1
     },
     {
@@ -32,11 +15,15 @@
       "Count": 1
     },
     {
-      "id": "railways:track_switch_andesite",
+      "id": "create:schedule",
       "Count": 1
     },
     {
-      "id": "railways:yellow_conductor_cap",
+      "id": "railways:track_coupler",
+      "Count": 1
+    },
+    {
+      "id": "railways:track_switch_brass",
       "Count": 1
     },
     {
@@ -44,11 +31,19 @@
       "Count": 1
     },
     {
+      "id": "create:track_station",
+      "Count": 1
+    },
+    {
+      "id": "railways:remote_lens",
+      "Count": 1
+    },
+    {
       "id": "create:controls",
       "Count": 1
     },
     {
-      "id": "create:track_observer",
+      "id": "railways:track_switch_andesite",
       "Count": 1
     },
     {
@@ -56,8 +51,13 @@
       "Count": 1
     },
     {
-      "id": "create:schedule",
+      "id": "create:track_observer",
+      "Count": 1
+    },
+    {
+      "id": "railways:yellow_conductor_cap",
       "Count": 1
     }
-  ]
+  ],
+  "sound": "minecraft:ui.stonecutter.take_result"
 }
