@@ -1,0 +1,19 @@
+## [1.232.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.231.2...1.232.0) (2024-11-25)
+
+
+### Features
+
+* hammer will now work when breaking blocks. It also uses tags instead of a list for its logic so should cover more cases that were surly missed. Also works on generics themselves now ([0af5b50](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/0af5b50085c01493fca0d24997102b8a2567d600))
+* make cogs a device and add copycat cogs to the group ([c465797](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c4657978c33463d6bb4a38c66acb0a020d7a0586))
+
+
+### Documentation and Localization
+
+* rename hammer to magnetic hammer match the magnetic wrench ([15ded56](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/15ded56b06261ebfbb23920b2da7ca02a306920a))
+
+
+### chores
+
+* autopublish 2024-11-24T09:01:13Z ([16e3ffe](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/16e3ffe0741e5a30d7bd979fb2f2dc2892e28f8e))
+
+
