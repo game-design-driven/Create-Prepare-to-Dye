@@ -68,12 +68,12 @@ No clutter. Every item and block has ~~a reason~~ at least a few reasons to be i
 <details>
   <summary>Heavily Documented, in game</summary>
   
-You item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
+Your item and recipe index is a core gameplay element. Imagine playing Botania without needing to open a book or a wiki. See [botania-debookified](https://github.com/game-design-driven/Create-Prepare-to-Dye/blob/main/kubejs/client_scripts/tooltips/botaniaDebookified.js) for technical details.
 </details>
 <details>
   <summary>A new take on progression</summary>
   
-Progression and "tiers" in this modpack are not done with more and more expansive machines and devices. **You are not leveling up your machines, you are leveling up your production.** Your early game white plate production will tie well into your late game, like most of the processes in this pack. As the game progresses the scale and the complexity of your lines will grow. You upgrade processes, not machines.
+Progression and "tiers" in this modpack are not done with more and more expansive machines and devices. **You are not leveling up your machines, you are leveling up your production.** Your early game white plate production will tie well into your late game, like most of the processes in this pack. As the game progresses the scale and the complexity of your lines will grow. **You upgrade processes, not machines.**
 </details>
 
 <details>
@@ -96,19 +96,5 @@ Not uploaded as part of the cf release so a few more steps are required
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
 [Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
-~~[Prism Launcher self-updating modpack](https://github.com/game-design-driven/Create-Prepare-to-Dye/raw/main/Create-Prepare-to-Dye.zip)~~
-# Roadmap
-| Goal                                 | Estimated Progress                 | Description          | Priority |
-|--------------------------------------|:-----------------------------------|----------------------|----------------------|
-| Core Mod List                        | ![](https://progress-bar.dev/96)   | The mods that help construct the core gameplay loop| Critical | 
-| Core Gameplay loop                   | ![](https://progress-bar.dev/90)   | The basic elements that repeats and evolve as the game loops| Critical | 
-| Loop Entry Point / Game Start and End| ![](https://progress-bar.dev/71)   | A goal for the player to push them into the game and give them a reason to enter the core gameplay loop| High     |
-| Documentation                        | ![](https://progress-bar.dev/57)   | The player can figure out easily what every game element does and how fast, and without tabbing out of the game or reading a lot of text. Books should be optional if added value | High     |
-| Script base                          | ![](https://progress-bar.dev/100)  | The scripting tools and libraries needed to develop and modify the pack efficiently are implemented| Critical | 
-| Modularity                           | ![](https://progress-bar.dev/88)   | All core aspects of the pack are configurable| Standard |
-| Performance                          | ![](https://progress-bar.dev/90)   | The pack starts up fast and can run on low end pcs well even through the end game| Low      | 
-| Trading System                       | ![](https://progress-bar.dev/90)   | The system responsible for making intergalactic trades| Critical | 
-| Trading Implementation               | ![](https://progress-bar.dev/59)   | Using the system to create lines of trades from the early game up to the high volume end game | Critical |
-| Community                            | ![](https://progress-bar.dev/80)    | The pack has a community, ie Discord server or something similar that can help each other and give feedback / contribute| Low      | 
 
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
