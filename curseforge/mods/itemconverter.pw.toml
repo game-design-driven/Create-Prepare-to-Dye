@@ -1,13 +1,13 @@
 name = "ItemConverter"
-filename = "item-converter-0.3.1.jar"
+filename = "item-converter-0.3.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1e461c9ac3e05648877fe788614d222b89997de7"
+hash = "c488e7f9b3b9e19e2632c3ff12b20fa5297bf757"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5930572
+file-id = 5959068
 project-id = 1143473
