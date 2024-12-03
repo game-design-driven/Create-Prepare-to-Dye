@@ -1,0 +1,8 @@
+### [1.232.2](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.1...1.232.2) (2024-12-03)
+
+
+### Modlist related changes
+
+* update itemconverter ([8e2ae0b](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8e2ae0b739311c0e2ba56391472a37c881e93313))
+
+
