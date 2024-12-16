@@ -1,0 +1,13 @@
+### [1.232.5](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.4...1.232.5) (2024-12-16)
+
+
+### Fixes
+
+* Milk automation advancement not triggering ([19eb07f](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/19eb07ff072f2d7f9c3ffcc1fb8567fb1d9f7953))
+
+
+### chores
+
+* autopublish 2024-12-16T07:16:25Z ([6ef7c45](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/6ef7c4503a1bfa95b489583356288dea9a45eeb7))
+
+
