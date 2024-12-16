@@ -1,3 +1,5 @@
+// Priority: 1
+
 // addPurify('white_concrete_powder', 'milk', 15)
 addPurify('white_concrete_powder', 'ptdye:flowing_milk', 15)
 ServerEvents.tags("fluid", (event) => {event.add("ptdye:flowing_milk", ["minecraft:flowing_milk"]);});
@@ -40,6 +42,11 @@ function milk(event, currentTime) {
 }
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
     if (!event.getTarget().getType() == "minecraft:cow") return
+    if (event.getTarget().getType() == "minecraft:cow") { // advancement trigger
+      if (event.player.persistentData.isEmpty()){ //this makes sure it's a deployer
+          Utils.server.runCommandSilent(`advancement grant ${event.player.name.string} only ptd:milk`)
+      }
+    }
     let currentTime = event.getTarget().level.getTime();
     event.player.swing();
     if (!event.getTarget().persistentData.get("lastMilked")) {
