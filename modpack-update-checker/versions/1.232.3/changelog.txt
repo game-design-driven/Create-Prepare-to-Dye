@@ -1,0 +1,13 @@
+### [1.232.3](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.2...1.232.3) (2024-12-03)
+
+
+### Documentation and Localization
+
+* simplify readme ([8ddf148](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/8ddf14896cb1d82e96b7ebc8df7ce2cc25c81e49))
+
+
+### chores
+
+* autopublish 2024-12-03T14:17:00Z ([578b871](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/578b8719595d8be995397c60ffe47347a490a5b4))
+
+

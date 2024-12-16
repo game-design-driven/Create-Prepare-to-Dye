@@ -18,7 +18,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "627e5469a2bfd3e6e28f3745c3bef0a0d19724cde555f893c8fc143d209c8edb"
+hash = "c9147f879b2172e689dfc1d51f3db5c17e0634bec2056e7c144c7090a11e5d48"
 
 [[files]]
 file = "SECURITY.md"
@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "780a1c4abcfacbb0298fe7bae126ff3e244cbf6d6b5474e88a1ec60b81a50b2b"
+hash = "5dcd5b2c2e0612bc537110021380838b1e5735ca223c2508b7e9a6854d2e84e9"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -510,7 +510,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "ef803db133edee1d0397534c2c3f423c6fb2392837e3541fa2582dee0fe372e3"
+hash = "64d4a83280faf6b9d546ba564ecb007b023740c00d0e6a431984cabda52a0e6a"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3702,7 +3702,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "a762b7348b226b80ba5fc41ec804774a0b4d676ebec50835d41e297e0e024561"
+hash = "f6f6cd9d5038a60294ec802e78735968e8ba924e0cbbbf0b249d0c0fe830fa78"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -12434,7 +12434,7 @@ hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "cceaa825cca14b2b4c42f3f151bd7d66c403c849a9ea5dcb090d1e6585f045d9"
+hash = "b9da5e0f9953ba272f58ac4b1df9fb6e1f49d7f76464fcedd4d69667513dcbea"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -14571,6 +14571,14 @@ hash = "9548686dd1ad01d5696794e45c82e4b772c4e2ec31894c727a61209502d23a12"
 [[files]]
 file = "modpack-update-checker/versions/1.232.0/changelog.txt"
 hash = "ce1b30cfe1fcb72245655a8bbca5bd829487c624fb94aee97426fb302d6ffbb2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.232.2/changelog.txt"
+hash = "d29dfa8b854af07088bac2794d22e6a6f2697e3780f574ee5a9f5657c3d1da31"
+
+[[files]]
+file = "modpack-update-checker/versions/1.232.3/changelog.txt"
+hash = "8a4cdd04fd229cafb1f0f3d6b8cdefe9cbe444d2bb61c127e64e92b131cffb0b"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
