@@ -41,11 +41,11 @@ function milk(event, currentTime) {
 
 }
 ItemEvents.entityInteracted("minecraft:bucket", (event) => {
-    if (!event.getTarget().getType() == "minecraft:cow") return
-    if (event.getTarget().getType() == "minecraft:cow") { // advancement trigger
-      if (event.player.persistentData.isEmpty()){ //this makes sure it's a deployer
-          Utils.server.runCommandSilent(`advancement grant ${event.player.name.string} only ptd:milk`)
-      }
+    if (event.getTarget().getType() != "minecraft:cow") return
+    
+    // advancement trigger
+    if (event.player.persistentData.isEmpty()){ //this makes sure it's a deployer
+        Utils.server.runCommandSilent(`advancement grant ${event.player.name.string} only ptd:milk`)
     }
     let currentTime = event.getTarget().level.getTime();
     event.player.swing();
