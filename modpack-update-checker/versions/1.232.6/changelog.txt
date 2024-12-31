@@ -1,0 +1,13 @@
+### [1.232.6](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.5...1.232.6) (2024-12-31)
+
+
+### Fixes
+
+* counterfeit milk from any none cow entity ([a0e4eec](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/a0e4eec166e9589ae0f0000db3654f1c82513630))
+
+
+### chores
+
+* autopublish 2024-12-16T07:25:08Z ([96dd0f0](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/96dd0f08b363668de6708779a988383e521fc9a3))
+
+
