@@ -94,6 +94,6 @@ Not uploaded as part of the cf release so a few more steps are required
 3. Go there and read readme.md and follow the instructions
 
 [Join us on Discord](https://discord.gg/v8cZ83kTPY)   
-[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)\
+[Play now on Modrinth](https://modrinth.com/modpack/create-prepare-to-dye)
 
 [![Discord Banner 3](https://discordapp.com/api/guilds/890222432605057044/widget.png?style=banner3)](https://discord.gg/v8cZ83kTPY)
