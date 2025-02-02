@@ -18,7 +18,7 @@ hash = "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
 
 [[files]]
 file = "README.md"
-hash = "c9147f879b2172e689dfc1d51f3db5c17e0634bec2056e7c144c7090a11e5d48"
+hash = "d7f928e28c762f671157c408640009eef928045803640bc46c57629b93439a94"
 
 [[files]]
 file = "SECURITY.md"
@@ -26,7 +26,7 @@ hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "VERSION"
-hash = "7b0a5f9588ab21e40fe4c8f8647dd6631ffcec43370159135fe3c81d47419ca8"
+hash = "d4c04da6fbfc0214d814fdae8c43bace672e4c428faf41ecc9f5f39e02e340a5"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -510,7 +510,7 @@ hash = "f5029b0a3ca477b85c097983a9c7d1747dc2f2fdff6ede904e3d11ba4ab169fa"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "ac61119b1d0e328be2490a94977e2441f9f383874746de45e736d0244e791b7c"
+hash = "dfe6e8fae1b4dbc43880983cbb0fbc95c7e3006a77bf9aa9f4ad26e71563e722"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -3702,7 +3702,7 @@ hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "85cc22cac02f3cd80b8fe7d0df9e63534a6009373b314e152d03ccdb43c31505"
+hash = "90cee4b8e83755b567e3719cdee5cd1289e8bf978aa720921435df657b986c47"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -12422,7 +12422,7 @@ hash = "81fbbc72898372a704d5de9de110e818a84fa6f8fa10fd3a3a781af629965224"
 
 [[files]]
 file = "kubejs/translation_tools/missing_translations/zh_cn.missing.json"
-hash = "abc207470be6e02a8b51f627a8a5e69c253ff8c27f8e2f5b63b6f47930594182"
+hash = "d33f502dd9fd5e803f468595b5b15c7eb7aa6a1eeafdbb7115b3868cdec312b4"
 
 [[files]]
 file = "kubejs/translation_tools/supported_langs.json"
@@ -12430,7 +12430,7 @@ hash = "85eb8219412efbf27a5f1bdde418a11fd606c07de4ea599177ad3f430655630c"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "e52694f1238a875d5a586b58e41bd31820d4fe0caef161c46fa60049c22351cf"
+hash = "86bf8ec8350d58d55e8af7b33d63e2faf17a02b0f40497099f0525c7a351b24d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -14587,6 +14587,10 @@ hash = "5f7fd2f76143bfd102d2e6a07cfb4d3dba0cd1f528b5ce834a82c6d361ffa4f1"
 [[files]]
 file = "modpack-update-checker/versions/1.232.6/changelog.txt"
 hash = "5c6151d1a7d7699af17972b35fa7cbd92137eb884de8cc279956f5ea91b0e00d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.232.9/changelog.txt"
+hash = "1849092360ee772e5572627025a85baf1af67ce6a4e5b866a5d3eeb59de4fe13"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
