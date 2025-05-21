@@ -561,7 +561,7 @@ if (true) {
         true
       ); //let players transmute any device but don't show in craftables panel
 
-      if(device.recycleExcluded) addToTag("ptdye:recycle_excluded")
+      if(device.recycleExcluded) addToTag("ptdye:recycle_excluded", item.id);
       addToTag(device.tag + tagSuffix, item.id);
       addStonecutting(included_device, device.generic);
     });
