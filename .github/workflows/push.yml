@@ -80,6 +80,7 @@ jobs:
       - name: Install packwiz
         run: |
           go install github.com/packwiz/packwiz@latest
+          export PATH=${PATH}:$(go env GOPATH)/bin
       - name: Install dasel
         run: |
           go install github.com/tomwright/dasel/v2/cmd/dasel@master
