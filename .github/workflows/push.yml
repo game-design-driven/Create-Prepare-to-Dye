@@ -78,11 +78,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install packwiz
-        uses: supplypike/setup-bin@v3
-        with:
-          uri: "https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
-          name: "packwiz"
-          version: "linux"
+        run: |
+          go install github.com/packwiz/packwiz@latest
       - name: Install dasel
         run: |
           go install github.com/tomwright/dasel/v2/cmd/dasel@master
