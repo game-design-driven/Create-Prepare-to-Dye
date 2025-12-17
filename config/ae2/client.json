@@ -5,6 +5,8 @@
     "enableFacadesInJEI": true,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
     "enableFacadeRecipesInJEI": true,
+    "exposeInventoryToEmi_comment": "Expose the full network inventory to EMI, which might cause performance problems.",
+    "exposeInventoryToEmi": false,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
@@ -22,17 +24,15 @@
     "terminalMargin": 25
   },
   "terminals": {
-    "terminalStyle": "tall",
+    "terminalStyle": "small",
     "pinAutoCraftedItems_comment": "Pin items that the player auto-crafts to the top of the terminal",
     "pinAutoCraftedItems": true
   },
   "search": {
-    "searchTooltips_comment": "Should tooltips be searched. Performance impact",
-    "searchTooltips": true,
     "searchModNameInTooltips_comment": "Should the mod name be included when searching in tooltips.",
     "searchModNameInTooltips": false,
     "useExternalSearch_comment": "Replaces AEs own search with the search of REI or JEI",
-    "useExternalSearch": true,
+    "useExternalSearch": false,
     "clearExternalSearchOnOpen_comment": "When using useExternalSearch, clears the search when the terminal opens",
     "clearExternalSearchOnOpen": true,
     "syncWithExternalSearch_comment": "When REI/JEI is installed, automatically set the AE or REI/JEI search text when either is changed while the terminal is open",
@@ -48,6 +48,8 @@
     "showCellContent_comment": "Show a preview of the content in the tooltips of storage cells, color applicators and matter cannons",
     "showCellContent": true,
     "maxCellContentShown_comment": "The maximum number of content entries to show in the tooltip of storage cells, color applicators and matter cannons",
-    "maxCellContentShown": 5
+    "maxCellContentShown": 5,
+    "enableGuideHotkey_comment": "Enables the \u0027hold key to show guide\u0027 functionality in tooltips",
+    "enableGuideHotkey": true
   }
 }
