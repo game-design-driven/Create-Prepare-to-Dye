@@ -1,21 +1,8 @@
 {
-  "kubejs.ponder.introduction.header": "AUTOMATON CQ1503",
-  "kubejs.ponder.introduction.text_1": "Thank you for purchasing the AUTOMATON CQ1503",
-  "kubejs.ponder.introduction.text_2": "We hope it brings you many years of good use!",
-  "kubejs.ponder.introduction.text_3": "Version CQ1503 brings all new features!",
-  "kubejs.ponder.introduction.text_4": "No need for maintenance, fuel, or down time! Made with indestructible materials",
-  "kubejs.ponder.jump.header": "Triple Jump",
-  "kubejs.ponder.jump.text_1": "Introducing Triple Jump",
-  "kubejs.ponder.jump.text_2": "It can jump across wide gaps",
-  "kubejs.ponder.jump.text_3": "And up to high places",
   "kubejs.ponder.stone.header": "stone generation",
   "kubejs.ponder.stone.text_1": "This is a cobblestone generator! But you probably already knew how that works",
   "kubejs.ponder.stone.text_2": "But did you know you can make a stone generator too?",
   "kubejs.ponder.stone.text_3": "By having lava flow onto the top of water it generates stone!",
-  "kubejs.ponder.tools.header": "Tool set",
-  "kubejs.ponder.tools.text_1": "The automaton comes with it\u0027s own Personal Assembler!",
-  "kubejs.ponder.tools.text_2": "Open by pressing the V key",
-  "kubejs.ponder.tools.text_3": "The automaton is able to break and place any block from up to 30 blocks away!",
   "ptdye.ponder.tag.tutorial": "Create: Prepare To Dye - Tutorials",
   "ptdye.ponder.tag.tutorial.description": "Learn \u0027how to\u0027 in this overhauled modpack"
 }
