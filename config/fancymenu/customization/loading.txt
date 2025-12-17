@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = level_loading_screen
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1729765727955
   is_enabled = true

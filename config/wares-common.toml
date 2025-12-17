@@ -1,8 +1,8 @@
-#Wandering Trader will sell Sealed Delivery Agreements.
-WanderingTraderSellsAgreements = true
 #Item nbt-tags will be transferred to the newly created Delivery Agreement item when Sealed Delivery Agreement is opened. 
 #Useful when you want to keep custom item name, etc.
 KeepNBTWhenOpeningAgreement = true
+#Wandering Trader will sell Sealed Delivery Agreements.
+WanderingTraderSellsAgreements = true
 
 [Delivery]
 	#Time in ticks that deliveries take. Agreement can override this value. Default: 200 ticks (10 seconds)
@@ -42,6 +42,20 @@ KeepNBTWhenOpeningAgreement = true
 		#Range: 1.0 ~ 999.0
 		ManualDeliveryTimeModifier = 3.0
 
+[Package]
+	#Breaking placed Package while sneaking will not unpack it, but will drop intact package as an item instead.
+	#Default: true
+	SneakPreventsUnpacking = true
+	#Package is placed as a block only when sneaking. Set to 'true' to restore old behavior.
+	#Default: false
+	PlacingRequiresSneak = false
+	#Dispensers can place Packages as blocks.
+	#Default: true
+	DispenserPlace = true
+	#Packages pushed by pistons will break and drop their contents.
+	#Default: true
+	BrokenByPistons = true
+
 [Structures]
 	#Warehouses will generate in villages.
 	GenerateWarehouses = false
@@ -56,18 +70,4 @@ KeepNBTWhenOpeningAgreement = true
 	ChangeOwnerToLastPlayer = false
 	#Delivery Table advancements would be triggered on the closest player if owner is offline or table doesn't have one.
 	TriggerTableAdvancementOnNearestPlayer = true
-
-[Package]
-	#Breaking placed Package while sneaking will not unpack it, but will drop intact package as an item instead.
-	#Default: true
-	SneakPreventsUnpacking = true
-	#Package is placed as a block only when sneaking. Set to 'true' to restore old behavior.
-	#Default: false
-	PlacingRequiresSneak = false
-	#Dispensers can place Packages as blocks.
-	#Default: true
-	DispenserPlace = true
-	#Packages pushed by pistons will break and drop their contents.
-	#Default: true
-	BrokenByPistons = true
 

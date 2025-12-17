@@ -1,0 +1,68 @@
+
+#You can set what items are used to ponder each scene in the mod
+#Noted that disabled Modules in Quark will also disable the corresponding Ponder scene
+#
+#Automation module settings
+[Automation]
+	#List of items for the Chains connect blocks ponder scene, sepparated by ','.
+	chainConnectBlocks_module = ["minecraft:chain"]
+	#List of items for the Chute ponder scene, sepparated by ','.
+	chute_module = ["quark:chute"]
+	#List of items for the Dispenser places blocks ponder scene, sepparated by ','.
+	dispenser_module = ["minecraft:dispenser"]
+	#List of items for the Ender Watcher ponder scene, sepparated by ','.
+	enderWatcher_module = ["quark:ender_watcher"]
+	#List of items for the Feeding Trough ponder scene, sepparated by ','.
+	feedingTrough_module = ["quark:feeding_trough"]
+	#List of items for the Gravisand ponder scene, sepparated by ','.
+	gravisand_module = ["quark:gravisand"]
+	#List of items for the Iron Rod ponder scene, sepparated by ','.
+	ironRod_module = ["quark:iron_rod"]
+	#List of items for the Metal Buttons ponder scene, sepparated by ','.
+	metalButtons_module = ["quark:iron_button", "quark:gold_button"]
+	#List of items for the Obsidian pressure plate ponder scene, sepparated by ','.
+	obsidianPressurePlate_module = ["quark:obsidian_pressure_plate"]
+	#List of items for the Pistons move Tile Entities ponder scene, sepparated by ','.
+	pistonsMoveTE_module = ["minecraft:piston", "minecraft:sticky_piston"]
+	#List of items for the Redstone Randomizer ponder scene, sepparated by ','.
+	redstoneRandomizer_module = ["quark:redstone_randomizer"]
+
+#Building module settings
+[Building]
+	#List of items for the Glass Items Frames ponder scene, sepparated by ','.
+	glassItemFrames_module = ["quark:glass_item_frame", "quark:glowing_glass_item_frame"]
+	#List of items for the Grate ponder scene, sepparated by ','.
+	grate_module = ["quark:grate"]
+	#List of items for the Rope ponder scene, sepparated by ','.
+	rope_module = ["quark:rope"]
+	#List of items for the Stools ponder scene, sepparated by ','.
+	stools_module = ["quark:black_stool", "quark:blue_stool", "quark:brown_stool", "quark:cyan_stool", "quark:gray_stool", "quark:green_stool", "quark:light_blue_stool", "quark:light_gray_stool", "quark:lime_stool", "quark:magenta_stool", "quark:orange_stool", "quark:pink_stool", "quark:purple_stool", "quark:red_stool", "quark:white_stool", "quark:yellow_stool"]
+
+#Mobs module settings
+[Mobs]
+	#List of items for the Oretoise ponder scene, sepparated by ','.
+	oretoise_module = ["minecraft:coal", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:redstone", "minecraft:lapis_lazuli"]
+	#List of items for the FoxHound ponder scene, sepparated by ','.
+	foxhound_module = ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker", "quark:blackstone_furnace", "quark:deepslate_furnace"]
+
+#Tools module settings
+[Tools]
+	#List of items for the Pikes ponder scene, sepparated by ','.
+	skullPikes_module = ["minecraft:creeper_head", "minecraft:zombie_head", "minecraft:skeleton_skull"]
+
+#Tweaks module settings
+[Tweaks]
+	#List of items for the Enhanced Ladders ponder scene, sepparated by ','.
+	enhancedLadders_module = ["minecraft:ladder", "quark:spruce_ladder", "quark:birch_ladder", "quark:jungle_ladder", "quark:acacia_ladder", "quark:dark_oak_ladder", "quark:crimson_ladder", "quark:warped_ladder", "quark:mangrove_ladder", "quark:bamboo_ladder", "quark:cherry_ladder", "quark:iron_ladder", "quark:azalea_ladder", "quark:ancient_ladder"]
+	#List of items for the Replace scaffoldings ponder scene, sepparated by ','.
+	replaceScaffolding_module = ["minecraft:scaffolding"]
+	#List of items for the Slime to magma cubes ponder scene, sepparated by ','.
+	slimeToMagma_module = ["minecraft:magma_cream"]
+
+#Oddities module settings
+[Oddities]
+	#List of items for the Copper Pipes ponder scene, sepparated by ','.
+	pipes_module = ["quark:pipe", "quark:encased_pipe"]
+	#List of items for the Magnet ponder scene, sepparated by ','.
+	magnet_module = ["quark:magnet"]
+

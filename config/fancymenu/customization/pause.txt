@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = pause_screen
+  identifier = net.minecraft.client.gui.screens.PauseScreen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1729765727961
   is_enabled = true

@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = inventory_screen
+  identifier = net.minecraft.client.gui.screens.inventory.InventoryScreen
   render_custom_elements_behind_vanilla = true
   last_edited_time = 1732299031848
   is_enabled = true
@@ -27,7 +27,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/tags-inventory-8.png
+  source = [source:local]config/fancymenu/assets/tags-inventory-8.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -61,8 +61,8 @@ element {
   button_element_executable_block_identifier = 71a71603-2b4c-4f42-966e-7011fc2900e5-1729765727926
   [executable_action_instance:b8ea03ad-fdef-47cd-a8c0-61184404da8d-1729765727926][action_type:sendmessage] = /openStonecutter
   [executable_block:71a71603-2b4c-4f42-966e-7011fc2900e5-1729765727926][type:generic] = [executables:b8ea03ad-fdef-47cd-a8c0-61184404da8d-1729765727926;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false
@@ -101,8 +101,8 @@ element {
   button_element_executable_block_identifier = 49efa826-dd66-4614-9e43-7d2937e67ab7-1729765727927
   [executable_action_instance:70cb04e6-8dd2-416d-a660-8b2cfef9f918-1729765727930][action_type:sendmessage] = /openPonderIndex
   [executable_block:49efa826-dd66-4614-9e43-7d2937e67ab7-1729765727927][type:generic] = [executables:70cb04e6-8dd2-416d-a660-8b2cfef9f918-1729765727930;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false
@@ -141,8 +141,8 @@ element {
   button_element_executable_block_identifier = 039c6d12-e731-4644-9dc6-37a04efa529a-1729765727931
   [executable_action_instance:65d5d725-25dd-4703-8242-4d93890191fb-1729765727931][action_type:opengui] = net.minecraft.client.gui.screens.advancements.AdvancementsScreen
   [executable_block:039c6d12-e731-4644-9dc6-37a04efa529a-1729765727931][type:generic] = [executables:65d5d725-25dd-4703-8242-4d93890191fb-1729765727931;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false

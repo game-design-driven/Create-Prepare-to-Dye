@@ -10,7 +10,7 @@ layout-meta {
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = inventory_screen;stonecutter_screen;
-  [loading_requirement_container_meta:23827322-0480-4cee-ab0a-599c1600f774-1732298376354] = [groups:][instances:]
+  [loading_requirement_container_meta:d4b0ffbc-1525-4a31-a77d-70c308ef0855-1765975485881] = [groups:][instances:]
 }
 
 customization {
@@ -25,10 +25,15 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/action_panel.png
+  source = [source:local]config/fancymenu/assets/action_panel.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -65,8 +70,8 @@ element {
   [executable_action_instance:bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950][action_type:disable_layout] = auto-assembler-all
   [executable_action_instance:174994f5-f26a-435e-821c-b5967be495e4-1729765727950][action_type:disable_layout] = auto-assembler
   [executable_block:52b035d8-afa1-4c07-8b55-1bb20d8b29f3-1732279307902][type:generic] = [executables:e3e9cf67-b47f-4624-8d13-b59f363d3568-1729765727950;13e60b43-37f0-4c07-b993-02e90b04989d-1729765727950;bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950;174994f5-f26a-435e-821c-b5967be495e4-1729765727950;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -109,8 +114,8 @@ element {
   [executable_action_instance:bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950][action_type:disable_layout] = auto-assembler-all
   [executable_action_instance:174994f5-f26a-435e-821c-b5967be495e4-1729765727950][action_type:enable_layout] = auto-assembler
   [executable_block:52b035d8-afa1-4c07-8b55-1bb20d8b29f3-1732279307902][type:generic] = [executables:e3e9cf67-b47f-4624-8d13-b59f363d3568-1729765727950;13e60b43-37f0-4c07-b993-02e90b04989d-1729765727950;bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950;174994f5-f26a-435e-821c-b5967be495e4-1729765727950;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -153,8 +158,8 @@ element {
   [executable_action_instance:bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950][action_type:enable_layout] = auto-assembler-all
   [executable_action_instance:174994f5-f26a-435e-821c-b5967be495e4-1729765727950][action_type:disable_layout] = auto-assembler
   [executable_block:52b035d8-afa1-4c07-8b55-1bb20d8b29f3-1732279307902][type:generic] = [executables:e3e9cf67-b47f-4624-8d13-b59f363d3568-1729765727950;13e60b43-37f0-4c07-b993-02e90b04989d-1729765727950;bd3df041-b6cb-45b2-be25-e6c9a7ff4c6c-1729765727950;174994f5-f26a-435e-821c-b5967be495e4-1729765727950;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -195,8 +200,8 @@ element {
   [executable_action_instance:fa4fff14-a0b4-4ba2-b001-6055c6bff916-1729765727957][action_type:closegui] = 
   [executable_action_instance:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957][action_type:sendmessage] = /backToBetsy
   [executable_block:82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957][type:generic] = [executables:fa4fff14-a0b4-4ba2-b001-6055c6bff916-1729765727957;eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -237,8 +242,8 @@ element {
   button_element_executable_block_identifier = 82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957
   [executable_action_instance:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957][action_type:sendmessage] = /bulkrecycle
   [executable_block:82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957][type:generic] = [executables:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -279,8 +284,8 @@ element {
   button_element_executable_block_identifier = 82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957
   [executable_action_instance:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957][action_type:sendmessage] = /bulkrecycle all
   [executable_block:82912b39-341a-4bf7-8f8c-baf7b2170906-1729765727957][type:generic] = [executables:eb3b7b79-d118-438c-bd73-2613d0d69fea-1729765727957;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false

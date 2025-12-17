@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = stonecutter_screen
+  identifier = net.minecraft.client.gui.screens.inventory.StonecutterScreen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1729765727958
   is_enabled = true

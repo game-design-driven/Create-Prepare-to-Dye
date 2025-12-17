@@ -10,7 +10,7 @@ layout-meta {
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = inventory_screen;stonecutter_screen;
-  [loading_requirement_container_meta:bf0fd6fe-f2ae-4b12-91ec-4e94cf6328b2-1732299213136] = [groups:][instances:]
+  [loading_requirement_container_meta:8581c954-39bd-43bf-9aab-8f1b27809156-1765976101095] = [groups:][instances:]
 }
 
 customization {
@@ -25,10 +25,15 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/auto-assembler-all.png
+  source = [source:local]config/fancymenu/assets/auto-assembler-all.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

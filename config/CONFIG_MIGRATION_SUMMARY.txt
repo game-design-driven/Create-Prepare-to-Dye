@@ -1,0 +1,179 @@
+Config Migration Summary: 1.19.2 -> 1.20.6
+==========================================
+Generated during config review session
+
+MODS REVIEWED
+=============
+
+1. BOTANIA
+   Files: botania-client.toml, botania-common.toml
+   Changes applied:
+   - staticFloaters = true (performance optimization)
+   - disableWorldGen already handled differently in new version
+   Note: orechidPriorityMods option removed in newer Botania
+
+2. CREATE
+   Files: create-client.toml, create-common.toml
+   Changes applied:
+   - disableWorldGen = true (disable Create's ore generation)
+   Note: Client config restructured, no migration needed
+
+3. EMI
+   Files: emi.css
+   Changes applied:
+   - Full custom layout imported from old pack
+   - Craftables on left, index+history on right, favorites on bottom
+   - Custom keybinds (Ctrl+F for search)
+   - Dev options enabled (show recipe IDs)
+
+4. FORGE
+   Files: forge-client.toml
+   Status: No changes needed - shared settings identical
+
+5. MOUSE TWEAKS
+   Files: MouseTweaks.cfg
+   Status: Identical - no changes needed
+
+6. STORAGE DRAWERS
+   Files: storagedrawers-common.v2.toml
+   Changes applied:
+   - Drawer capacities halved to match old pack (16/8/4 for full, 8/4/2 for half)
+   - controllerRange = 5 (short range, was 50)
+   Note: Config structure completely changed (v1 -> v2)
+
+7. SUPPLEMENTARIES
+   Files: supplementaries-common.toml
+   Changes applied:
+   Disabled features:
+   - faucet, cog_block, gold_door, gold_trapdoor
+   - rope_arrow, way_sign, throwable_bricks
+   - placeable_sticks, blaze_rods, wild_flax, fodder
+   Enabled features:
+   - bottle_xp, drink_from_jar, jar_auto_detect
+   - cage_allow_all_babies, cage_auto_detect
+   - notice_board.allow_any_item, planter.broken_by_sapling
+   - colored_blackboard
+   Other:
+   - Fixed soap blacklist typo
+   - Merged soap blacklist entries
+
+8. AMENDMENTS (NEW in 1.20.6)
+   Files: amendments-common.toml
+   Status: Defaults match old supplementaries - no changes needed
+   Note: Features split from supplementaries (wall lanterns, cake tweaks, etc.)
+
+9. QUARK
+   Files: quark-common.toml
+   Major changes applied:
+
+   General:
+   - Enable 'q' Button = false
+   - Enable Onboarding = false
+   - Terrablender Add Region = false
+   - Generate Programmer Art = false
+
+   Automation:
+   - Crafter = false (new feature)
+   - Feeding Trough = false
+
+   Building (disabled for mod overlap):
+   - Variant Bookshelves/Chests/Furnaces/Ladders = false
+   - Vertical Planks = false
+   - Rope = false (supplementaries overlap)
+   - More Stone Variants = false
+   - More Mud Blocks = false
+   - Midori = false
+
+   Management:
+   - Automatic Tool Restock = false
+
+   Tools:
+   - Ambient Discs, Ancient Tomes, Color Runes = false
+   - Endermosh Music Disc, Parrot Eggs, Pathfinder Maps = false
+   - Pickarang, Seed Pouch = false
+
+   Tweaks:
+   - Better Elytra Rocket, Campfires Boost Elytra = false
+   - Diamond Repair, Dragon Scales, Glass Shard = false
+   - Grab Chickens, Improved Sponges = false
+   - More Villagers, Petals On Water = false
+   - Shulker Packing, Slabs To Blocks = false
+
+   World (worldgen disabled):
+   - Ancient Wood, Azalea Wood, Big Stone Clusters = false
+   - Chorus Vegetation, Corundum, Fallen Logs = false
+   - Glimmering Weald, New Stone Types = false
+   - No More Lava Pockets, Permafrost, Spiral Spires = false
+   - Add New Stones To Mason Trades = false
+
+   Mobs:
+   - Forgotten, Foxhound, Wraith = false
+   - Add Crab Leg To Fisherman Trades = false
+
+   Client:
+   - Chest Searching, Elytra Indicator = false
+
+   Experimental:
+   - Game Nerfs = true (enabled)
+   - Villager Rerolling Rework = true (enabled)
+
+   Oddities:
+   - Backpack = false
+   - Matrix Enchanting = false
+
+   Improved Tooltips:
+   - Food Tooltips = false
+   - Show Saturation = false
+
+10. WARES
+    Files: wares-client.toml, wares-common.toml
+    Changes applied:
+    - AgreementScreenInfinitySymbol = true
+    - DefaultDeliveryTime = 250 (slower)
+    - DeliveriesRequireBoxes = false (simpler)
+    - TableOutputsFromSides = true (automation friendly)
+    - MoveCompletedAgreementToOutput = false
+    - PackagerRequiredForDelivery = false (no villager needed)
+    - GenerateWarehouses = false (no worldgen)
+    - WarehouseWeight = 5
+
+11. AE2 (Applied Energistics 2)
+    Files: ae2/client.json, ae2/common.json
+    Changes applied:
+    - terminalStyle = "tall" (taller terminal UI)
+    - useExternalSearch = true (integrate with EMI search)
+    - spawnPressesInMeteorites = false (no presses in worldgen)
+    - InscriberMin/Max = 1 (faster inscriber operation)
+    Note: Config format changed from TOML to JSON
+
+12. FANCYMENU
+    Files: fancymenu/options.txt, fancymenu/customizablemenus.txt
+    Folders: fancymenu/assets/, fancymenu/customization/, fancymenu/minecraftwindow/
+    Changes applied:
+    - advanced_customization_mode = true
+    - custom_game_intro_skip_text = 'Create Prepare to Dye'
+    - custom_window_title = 'Create: Prepare to Dye'
+    - show_custom_window_icon = true (with icon paths set)
+    - Copied all custom menu layouts (21 files)
+    - Copied all custom assets (backgrounds, tabs, icons)
+    - Copied custom window icons (16x16, 32x32)
+    - Copied registered customizable menus
+    Note: Config structure changed significantly between versions
+    Note: Some layouts reference screens that may not exist (Quark backpack, Curios)
+          - these will be safely ignored
+
+MODS NOT IN NEW VERSION (addon configs in old only)
+===================================================
+- create_jetpack
+- createdieselgenerators
+- createtweakedcontrollers
+- create_central_kitchen
+
+GENERAL PACK PHILOSOPHY
+=======================
+- Disable features that overlap with other mods
+- Minimize worldgen additions (use other mods or vanilla)
+- Disable "OP" convenience items
+- Simplify complex mechanics where possible
+- Keep UI clean (disable extra buttons, popups)
+- Enable balance/nerf features

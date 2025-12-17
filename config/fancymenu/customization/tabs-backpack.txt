@@ -27,7 +27,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]fancymenu_data/tags-inventory-8.png
+  source = [source:local]config/fancymenu/assets/tags-inventory-8.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -61,8 +61,8 @@ element {
   button_element_executable_block_identifier = 7a0108d7-c066-40e7-a4e0-b231e0b84657-1729765727911
   [executable_action_instance:31e62f88-767f-4445-81ee-001df4522a45-1729765727913][action_type:sendmessage] = /openStonecutter
   [executable_block:7a0108d7-c066-40e7-a4e0-b231e0b84657-1729765727911][type:generic] = [executables:31e62f88-767f-4445-81ee-001df4522a45-1729765727913;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false
@@ -98,7 +98,7 @@ element {
 }
 
 element {
-  source = [source:local]fancymenu_data/smart_device.png
+  source = [source:local]config/fancymenu/assets/smart_device.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -132,8 +132,8 @@ element {
   button_element_executable_block_identifier = 8a0afc24-6596-434a-9c67-8b0edd580452-1729765727913
   [executable_action_instance:a877cdf1-fe46-4fd7-a686-a187b0c916f6-1729765727913][action_type:sendmessage] = /openPonderIndex
   [executable_block:8a0afc24-6596-434a-9c67-8b0edd580452-1729765727913][type:generic] = [executables:a877cdf1-fe46-4fd7-a686-a187b0c916f6-1729765727913;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false
@@ -172,8 +172,8 @@ element {
   button_element_executable_block_identifier = 52daab0f-b58e-42e9-8664-5bcafe949834-1729765727913
   [executable_action_instance:8a776391-bb8c-4541-a81a-bb2c7e689710-1729765727913][action_type:opengui] = net.minecraft.client.gui.screens.advancements.AdvancementsScreen
   [executable_block:52daab0f-b58e-42e9-8664-5bcafe949834-1729765727913][type:generic] = [executables:8a776391-bb8c-4541-a81a-bb2c7e689710-1729765727913;]
-  backgroundnormal = [source:local]fancymenu_data/auto-assembler-empty-space.png
-  backgroundhovered = [source:local]fancymenu_data/auto-assembler-empty-space.png
+  backgroundnormal = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
+  backgroundhovered = [source:local]config/fancymenu/assets/auto-assembler-empty-space.png
   restartbackgroundanimations = true
   loopbackgroundanimations = false
   nine_slice_custom_background = false

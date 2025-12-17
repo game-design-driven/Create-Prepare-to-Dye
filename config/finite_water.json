@@ -1,0 +1,21 @@
+{
+  "_comment": "when isBlackList is set to false, only biomes in the list are allowed to from water sources. If isBlackList is set to true, only biomes in the list are prevented from forming water sources.",
+  "isBlackList": false,
+  "biomes": [
+    "minecraft:cold_ocean",
+    "minecraft:beach",
+    "minecraft:river",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:stony_shore",
+    "minecraft:deep_cold_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:frozen_river",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:ocean",
+    "minecraft:swamp",
+    "minecraft:snowy_beach",
+    "minecraft:warm_ocean",
+    "minecraft:deep_lukewarm_ocean"
+  ]
+}

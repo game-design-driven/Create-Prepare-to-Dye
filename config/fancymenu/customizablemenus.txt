@@ -33,9 +33,6 @@ io.github.mortuusars.wares.client.gui.screen.DeliveryTableScreen {
 dev.emi.emi.screen.RecipeScreen {
 }
 
-vazkii.quark.addons.oddities.client.screen.BackpackInventoryScreen {
-}
-
 net.minecraft.client.gui.screens.inventory.StonecutterScreen {
 }
 
@@ -43,5 +40,8 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
 net.minecraft.client.gui.screens.advancements.AdvancementsScreen {
+}
+
+appeng.client.gui.me.common.MEStorageScreen {
 }
 

@@ -27,7 +27,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]fancymenu_data/text.png
+  source = [source:local]config/fancymenu/assets/text.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -59,12 +59,12 @@ element {
 
 element {
   orientation = mid-centered
-  grabber_texture_normal = fancymenu_data/auto-assembler-empty-space.png
+  grabber_texture_normal = assets/auto-assembler-empty-space.png
   enable_scrolling = true
   shadow = false
   scale = 1.0
   source = Welcome to your very own %n%Intergalactic Mesh %n%Trading Terminal! Here %n%You can trade with other %n%awesome capitalistic %n%companies like YOU! %n%%n%Completed trades are %n%mixed in the mixer to get%n%new trades. Press U or %n%check in your index To %n%find out how! %n%%n%(No safety checks are%n%made on any goods%n%bought or sold.)
-  grabber_texture_hover = fancymenu_data/auto-assembler-empty-space.png
+  grabber_texture_hover = assets/auto-assembler-empty-space.png
   text_border = 0
   case_mode = normal
   source_mode = direct

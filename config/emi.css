@@ -22,6 +22,11 @@
 	index-source: creative;
 
 	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -96,6 +101,16 @@
 	empty-search-sidebar-focus: index;
 
 	/**
+	 * Whether the EMI config button should be visible.
+	 */
+	emi-config-button-visibility: shown;
+
+	/**
+	 * Whether the recipe tree button should be visible.
+	 */
+	recipe-tree-button-visibility: auto;
+
+	/**
 	 * The maximum height the recipe screen will grow to be if space is available in
 	 * pixels.
 	 */
@@ -152,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: craftables;
+	left-sidebar-pages: none;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -454,7 +469,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.
