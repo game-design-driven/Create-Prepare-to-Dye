@@ -139,7 +139,7 @@
 	"Variant Furnaces" = false
 	"Variant Ladders" = false
 	"Vertical Planks" = false
-	"Vertical Slabs" = true
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
 	"More Stone Variants" = false
 
