@@ -10,7 +10,7 @@ layout-meta {
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = inventory_screen;stonecutter_screen;
-  [loading_requirement_container_meta:8581c954-39bd-43bf-9aab-8f1b27809156-1765976101095] = [groups:][instances:]
+  [loading_requirement_container_meta:0b1abe6a-9aeb-45ea-be61-5aa17a1bd979-1766077023921] = [groups:][instances:]
 }
 
 customization {
