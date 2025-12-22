@@ -305,6 +305,114 @@ const DEVICE_GROUPS = {
       "copycats:copycat_large_cogwheel",
     ],
   },
+
+  network: {
+    generic: "ae2:fluix_smart_cable",
+    tag: "ptd:devices/network",
+    // No assembly - cables crafted separately
+    devices: [
+      "ae2:toggle_bus",
+      "ae2:inverted_toggle_bus",
+      "ae2:level_emitter",
+      "ae2:storage_bus",
+      "ae2:storage_monitor",
+      "ae2:terminal",
+      "ae2:quartz_fiber",
+      "ae2:wireless_access_point",
+      "ae2:wireless_terminal",
+    ],
+  },
+
+  craftingplaceholder: {
+    generic: "minecraft:gold_nugget",
+    tag: "ptd:devices/craftingplaceholder",
+    // No assembly - simple placeholder conversion
+    convertBack: false,
+    devices: [
+      "botania:placeholder",
+      "create:crafter_slot_cover",
+    ],
+  },
+
+  track: {
+    generic: "create:track",
+    tag: "ptd:devices/track",
+    incomplete: "create:incomplete_track",
+    assembly: ["#create:sleepers", "botania:livingwood_planks", "botania:livingwood_planks", "#forge:nuggets"],
+    amount: 32,
+    loops: 2,
+    devices: [
+      "railways:track_create_andesite_wide",
+      "railways:track_create_andesite_narrow",
+    ],
+  },
+
+  rail: {
+    generic: "create:controller_rail",
+    tag: "ptd:devices/rail",
+    incomplete: "minecraft:rail",
+    assembly: ["minecraft:rail", "create:polished_rose_quartz", "minecraft:rail", "minecraft:rail", "minecraft:rail", "minecraft:rail"],
+    amount: 5,
+    devices: [
+      "minecraft:activator_rail",
+      "minecraft:powered_rail",
+      "minecraft:detector_rail",
+    ],
+  },
+
+  window: {
+    generic: "create:ornate_iron_window",
+    tag: "ptd:devices/window",
+    // No assembly - made via mixing
+    devices: [
+      "create:oak_window",
+      "create:spruce_window",
+      "create:birch_window",
+      "create:jungle_window",
+      "create:acacia_window",
+      "create:dark_oak_window",
+      "create:mangrove_window",
+      "create:crimson_window",
+      "create:warped_window",
+    ],
+  },
+
+  copycats: {
+    generic: "copycats:copycat_ghost_block",
+    tag: "ptd:devices/copycats",
+    // No assembly - made via stonecutting from andesite alloy
+    devices: [
+      "create:copycat_panel",
+      "create:copycat_step",
+      "copycats:copycat_block",
+      "copycats:copycat_slab",
+      "copycats:copycat_beam",
+      "copycats:copycat_vertical_step",
+      "copycats:copycat_stairs",
+      "copycats:copycat_fence",
+      "copycats:copycat_fence_gate",
+      "copycats:copycat_wall",
+      "copycats:copycat_board",
+      "copycats:copycat_box",
+      "copycats:copycat_catwalk",
+      "copycats:copycat_ladder",
+    ],
+  },
+
+  smokestack: {
+    generic: "railways:smokestack_woodburner",
+    tag: "ptd:devices/smokestack",
+    incomplete: "minecraft:campfire",
+    assembly: ["minecraft:campfire", "create:iron_sheet", "minecraft:black_dye"],
+    amount: 8,
+    devices: [
+      "railways:smokestack_streamlined",
+      "railways:smokestack_caboosestyle",
+      "railways:smokestack_long",
+      "railways:smokestack_coalburner",
+      "railways:smokestack_oilburner",
+    ],
+  },
 };
 
 // =============================================================================
@@ -378,7 +486,8 @@ ServerEvents.recipes(function(event) {
     }
 
     // Shapeless: tag → generic (inventory conversion)
-    if (!Item.of(group.generic).isEmpty()) {
+    // Skip if convertBack is explicitly false
+    if (!Item.of(group.generic).isEmpty() && group.convertBack !== false) {
       event.shapeless(group.generic, ["#" + group.tag]);
     }
 
@@ -391,7 +500,7 @@ ServerEvents.recipes(function(event) {
       event.recipes.create
         .sequenced_assembly(Item.of(group.generic, group.amount || 1), group.assembly[0], deploySteps)
         .transitionalItem(group.incomplete)
-        .loops(1);
+        .loops(group.loops || 1);
     }
   }
 
@@ -399,17 +508,42 @@ ServerEvents.recipes(function(event) {
   // SPECIAL RECIPES
   // =============================================================================
 
+  // Tool parts - made via mixing
   event.recipes.create.mixing("2x ptdye:tool_parts", [
     "#forge:nuggets/gold",
     "2x create:iron_sheet",
     "#forge:rods/wooden",
   ]);
-
   event.stonecutting("ptdye:tool_parts", "create:schematic");
 
+  // Redstone lamp - made via item application
   event.remove({ output: "minecraft:redstone_lamp" });
   event.recipes.create.item_application("minecraft:redstone_lamp", ["#forge:glass", "minecraft:glowstone"]);
 
+  // Gearbox conversion
   event.shapeless("create:gearbox", ["create:vertical_gearbox"]);
   event.shapeless("create:vertical_gearbox", ["create:gearbox"]);
+
+  // Track - remove original sequenced assembly
+  event.remove({ id: "create:sequenced_assembly/track" });
+
+  // Rails - remove original controller rail recipe
+  event.remove({ id: "create:crafting/kinetics/controller_rail" });
+
+  // Copycats - stonecutting from andesite alloy (recipes already removed in recipe_removals.js)
+  event.stonecutting("4x copycats:copycat_ghost_block", "#forge:ingots/andesite_alloy");
+});
+
+// Sleepers tag modification
+ServerEvents.tags("block", function(event) {
+  // Clear and repopulate sleepers tag for tracks
+  event.removeAll("create:sleepers");
+  event.add("create:sleepers", [
+    "minecraft:stone",
+    "botania:livingrock",
+    "minecraft:gray_concrete",
+    "minecraft:light_gray_concrete",
+    "minecraft:black_concrete",
+    "minecraft:smooth_stone",
+  ]);
 });
