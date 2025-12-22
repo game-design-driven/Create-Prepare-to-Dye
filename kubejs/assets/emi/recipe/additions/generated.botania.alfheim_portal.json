@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:alfheim_portal"
+	],
+	"text": "block.botania.alfheim_portal.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_narslimmus"
+	],
+	"text": "block.botania.floating_narslimmus.tooltip.summary"
+}

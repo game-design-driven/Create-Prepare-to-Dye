@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:apothecary_swamp"
+	],
+	"text": "block.botania.apothecary_swamp.tooltip.summary"
+}

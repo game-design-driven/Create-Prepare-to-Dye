@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:dreamwood_wand"
+	],
+	"text": "item.botania.dreamwood_wand.tooltip.summary"
+}

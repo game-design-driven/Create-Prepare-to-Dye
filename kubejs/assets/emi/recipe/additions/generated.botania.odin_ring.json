@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:odin_ring"
+	],
+	"text": "item.botania.odin_ring.tooltip.summary"
+}

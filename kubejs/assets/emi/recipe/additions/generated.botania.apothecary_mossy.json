@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:apothecary_mossy"
+	],
+	"text": "block.botania.apothecary_mossy.tooltip.summary"
+}

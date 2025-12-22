@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:obedience_stick"
+	],
+	"text": "item.botania.obedience_stick.tooltip.summary"
+}

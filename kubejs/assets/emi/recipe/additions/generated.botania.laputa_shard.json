@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:laputa_shard"
+	],
+	"text": "item.botania.laputa_shard.tooltip.summary"
+}

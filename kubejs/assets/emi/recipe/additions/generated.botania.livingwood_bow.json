@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:livingwood_bow"
+	],
+	"text": "item.botania.livingwood_bow.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:schematic"
+	],
+	"text": "item.create.schematic.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:missile_rod"
+	],
+	"text": "item.botania.missile_rod.tooltip.summary"
+}

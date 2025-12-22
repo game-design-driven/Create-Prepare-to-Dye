@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:cobble_rod"
+	],
+	"text": "item.botania.cobble_rod.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:fork_light_relay"
+	],
+	"text": "block.botania.fork_light_relay.tooltip.summary"
+}

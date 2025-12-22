@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wares:item/delivery_agreement"
+  },
+  "overrides": [
+    {"predicate": { "count": 1.0000 },"model": "wares:item/fixed_rates_delivery_agreement"}
+  ]
+}

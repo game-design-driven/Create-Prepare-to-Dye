@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:creative_crate"
+	],
+	"text": "block.create.creative_crate.tooltip.summary"
+}

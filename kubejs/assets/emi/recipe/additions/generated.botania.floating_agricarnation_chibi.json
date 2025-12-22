@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_agricarnation_chibi"
+	],
+	"text": "block.botania.floating_agricarnation_chibi.tooltip.summary"
+}

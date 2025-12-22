@@ -1,0 +1,23 @@
+{
+    "trading_platform.transceiver.use": {
+      "sounds": [
+        "ptdye:trading_platform_request"
+      ],
+      "subtitle": "Transceiver sending message"
+    },
+    "trading_platform.fanfare": {
+      "sounds": [
+        "ptdye:trading_platform_fanfare"
+      ],
+      "subtitle": "Trading Platform® fanfare"
+    },
+    "hammer": {
+        "sounds": [
+            "ptdye:hammer_01",
+            "ptdye:hammer_02",
+            "ptdye:hammer_03"
+        ],
+        "subtitle": "Hammer bash"
+    }
+  }
+  

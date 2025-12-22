@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:wooden_bracket"
+	],
+	"text": "block.create.wooden_bracket.tooltip.summary"
+}

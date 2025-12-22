@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spectranthemum"
+	],
+	"text": "block.botania.spectranthemum.tooltip.summary"
+}

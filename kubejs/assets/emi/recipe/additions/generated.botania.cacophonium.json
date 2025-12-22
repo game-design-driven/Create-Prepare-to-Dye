@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:cacophonium"
+	],
+	"text": "item.botania.cacophonium.tooltip.summary"
+}

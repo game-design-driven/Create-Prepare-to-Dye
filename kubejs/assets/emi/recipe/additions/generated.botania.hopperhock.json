@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:hopperhock"
+	],
+	"text": "block.botania.hopperhock.tooltip.summary"
+}

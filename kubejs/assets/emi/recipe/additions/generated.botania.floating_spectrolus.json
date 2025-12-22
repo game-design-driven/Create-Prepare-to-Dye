@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_spectrolus"
+	],
+	"text": "block.botania.floating_spectrolus.tooltip.summary"
+}

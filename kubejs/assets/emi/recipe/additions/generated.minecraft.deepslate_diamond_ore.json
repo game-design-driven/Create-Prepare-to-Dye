@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:minecraft:deepslate_diamond_ore"
+	],
+	"text": "block.minecraft.deepslate_diamond_ore.emi.info"
+}

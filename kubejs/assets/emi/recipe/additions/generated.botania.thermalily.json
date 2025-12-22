@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:thermalily"
+	],
+	"text": "block.botania.thermalily.tooltip.summary"
+}

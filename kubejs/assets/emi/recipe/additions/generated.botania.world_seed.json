@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:world_seed"
+	],
+	"text": "item.botania.world_seed.tooltip.summary"
+}

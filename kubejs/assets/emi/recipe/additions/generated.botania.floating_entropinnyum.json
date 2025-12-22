@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_entropinnyum"
+	],
+	"text": "block.botania.floating_entropinnyum.tooltip.summary"
+}

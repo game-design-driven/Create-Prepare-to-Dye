@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:ghost_rail"
+	],
+	"text": "block.botania.ghost_rail.tooltip.summary"
+}

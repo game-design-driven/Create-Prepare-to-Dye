@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:flower_bag"
+	],
+	"text": "item.botania.flower_bag.tooltip.summary"
+}

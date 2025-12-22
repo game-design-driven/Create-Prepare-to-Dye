@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:divining_rod"
+	],
+	"text": "item.botania.divining_rod.tooltip.summary"
+}

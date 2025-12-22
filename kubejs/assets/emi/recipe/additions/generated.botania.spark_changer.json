@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spark_changer"
+	],
+	"text": "block.botania.spark_changer.tooltip.summary"
+}

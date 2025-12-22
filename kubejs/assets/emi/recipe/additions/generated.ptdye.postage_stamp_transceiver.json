@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:ptdye:postage_stamp_transceiver"
+	],
+	"text": "item.ptdye.postage_stamp_transceiver.emi.info"
+}

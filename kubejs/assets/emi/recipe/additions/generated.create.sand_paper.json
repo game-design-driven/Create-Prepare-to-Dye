@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:sand_paper"
+	],
+	"text": "item.create.sand_paper.tooltip.summary"
+}

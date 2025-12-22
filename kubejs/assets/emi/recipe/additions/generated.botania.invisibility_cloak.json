@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:invisibility_cloak"
+	],
+	"text": "item.botania.invisibility_cloak.tooltip.summary"
+}

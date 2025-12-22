@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:heisei_dream"
+	],
+	"text": "block.botania.heisei_dream.tooltip.summary"
+}

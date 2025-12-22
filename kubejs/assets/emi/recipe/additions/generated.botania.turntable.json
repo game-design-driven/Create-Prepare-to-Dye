@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:turntable"
+	],
+	"text": "block.botania.turntable.tooltip.summary"
+}

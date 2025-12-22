@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:aura_ring"
+	],
+	"text": "item.botania.aura_ring.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:cloud_pendant"
+	],
+	"text": "item.botania.cloud_pendant.tooltip.summary"
+}

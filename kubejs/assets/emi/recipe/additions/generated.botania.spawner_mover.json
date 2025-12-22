@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:spawner_mover"
+	],
+	"text": "item.botania.spawner_mover.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:speed_up_belt"
+	],
+	"text": "item.botania.speed_up_belt.tooltip.summary"
+}

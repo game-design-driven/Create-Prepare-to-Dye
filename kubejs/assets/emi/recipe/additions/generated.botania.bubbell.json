@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:bubbell"
+	],
+	"text": "block.botania.bubbell.tooltip.summary"
+}

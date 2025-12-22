@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:tangleberrie_chibi"
+	],
+	"text": "block.botania.tangleberrie_chibi.tooltip.summary"
+}

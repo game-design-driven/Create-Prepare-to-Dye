@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:mana_spreader"
+	],
+	"text": "block.botania.mana_spreader.tooltip.summary"
+}

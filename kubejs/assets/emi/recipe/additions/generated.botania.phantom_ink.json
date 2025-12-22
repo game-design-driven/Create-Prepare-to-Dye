@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:phantom_ink"
+	],
+	"text": "item.botania.phantom_ink.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:floating_marimorphosis"
+	],
+	"text": "block.botania.floating_marimorphosis.tooltip.summary"
+}

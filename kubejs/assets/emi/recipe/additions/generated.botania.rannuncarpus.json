@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:rannuncarpus"
+	],
+	"text": "block.botania.rannuncarpus.tooltip.summary"
+}

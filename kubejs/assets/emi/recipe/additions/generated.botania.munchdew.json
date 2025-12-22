@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:munchdew"
+	],
+	"text": "block.botania.munchdew.tooltip.summary"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:terra_pick"
+	],
+	"text": "item.botania.terra_pick.tooltip.summary"
+}

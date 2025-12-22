@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:create:copper_backtank"
+	],
+	"text": "item.create.copper_backtank.tooltip.summary"
+}

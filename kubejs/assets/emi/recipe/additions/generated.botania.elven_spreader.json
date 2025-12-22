@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:elven_spreader"
+	],
+	"text": "block.botania.elven_spreader.tooltip.summary"
+}

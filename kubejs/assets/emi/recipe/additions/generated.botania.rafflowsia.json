@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:rafflowsia"
+	],
+	"text": "block.botania.rafflowsia.tooltip.summary"
+}

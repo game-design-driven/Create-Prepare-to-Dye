@@ -1,0 +1,41 @@
+{
+  "lychee:block_interacting/minecraft/default": {
+    "order": -100
+  },
+  "create:item_application": {
+    "order": -95
+  },
+  "createdieselgenerators:basin_fermenting": {
+    "order": -90
+  },
+  "botania:pure_daisy": {
+    "order": -80
+  },
+  "create:spout_filling": {
+    "order": -70
+  },
+  "create:fan_washing": {
+    "order": -70
+  },
+  "create:mixing": {
+    "order": -60
+  },
+  "create:sequenced_assembly": {
+    "order": -50
+  },
+  "create:pressing": {
+    "order": -40
+  },
+  "create:crushing": {
+    "order": -30
+  },
+  "create:deploying": {
+    "order": -20
+  },
+  "minecraft:stonecutting": {
+    "order": -10
+  },
+  "create:automatic_shaped": {
+    "order": -9
+  }
+}

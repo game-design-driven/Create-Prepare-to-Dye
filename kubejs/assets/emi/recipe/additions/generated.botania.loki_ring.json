@@ -1,0 +1,7 @@
+{
+	"type": "emi:info",
+	"stacks": [
+		"item:botania:loki_ring"
+	],
+	"text": "item.botania.loki_ring.tooltip.summary"
+}
