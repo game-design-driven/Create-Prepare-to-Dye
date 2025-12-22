@@ -288,7 +288,7 @@
 				gearbox = 0.0
 				hose_pulley = 4.0
 				elevator_pulley = 4.0
-				mechanical_crafter = 2.0
+				mechanical_crafter = 8.0
 
 			#.
 			#[in Stress Units]
