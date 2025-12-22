@@ -45,7 +45,6 @@ ServerEvents.tags("block", function(event) {
     "minecraft:campfire",
     "minecraft:blast_furnace",
     "minecraft:smoker",
-    "minecraft:brewing_stand",
     "minecraft:beacon",
     "minecraft:anvil",
     "minecraft:chipped_anvil",
@@ -250,6 +249,11 @@ ServerEvents.tags("item", function(event) {
 
   // Railways zinc tag fix (prevents barrier block recipes)
   event.add("railways:internal/nuggets/zinc_nuggets", "minecraft:iron_nugget");
+
+  // Create Enchantment Industry - hide experience rotor
+  event.removeAllTagsFrom("create_enchantment_industry:experience_rotor");
+  event.add("c:hidden_from_recipe_viewers", "create_enchantment_industry:experience_rotor");
+  event.add("c:removed", "create_enchantment_industry:experience_rotor");
 
   // Dyes as botania petals (mystical flowers removed)
   var colors = [
