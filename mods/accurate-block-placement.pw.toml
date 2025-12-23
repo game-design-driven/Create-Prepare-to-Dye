@@ -1,7 +1,0 @@
-name = "accurate_block_placement"
-filename = "accurate_block_placement-1.19.2_1.0.jar"
-
-[download]
-url = "https://github.com/Yarden-zamir/AccurateBlockPlacementReforged/releases/download/2.1.0/accurate_block_placement-1.19.2_1.0.jar"
-hash-format = "sha256"
-hash = "05c2711bd58b983026d9f69251d4d225bbb0731d7c057b1732423c9406ebcb88"
