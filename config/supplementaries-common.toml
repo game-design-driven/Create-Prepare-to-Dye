@@ -419,7 +419,7 @@
 		quiver_pickup = true
 
 	[tools.lunch_basket]
-		enabled = true
+		enabled = false
 		#Allows lunch baskets to be placed on the ground
 		placeable = true
 		#Arrow stacks that can fit inside a lunch basket. Requires reboot
