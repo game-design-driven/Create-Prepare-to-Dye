@@ -1,0 +1,10 @@
+{
+    "pressTicks": 0,
+    "playSound": true,
+    "soundVolume": 0.3,
+    "soundPitch": 1.4,
+    "closeOnRelease": true,
+    "highlightColor": -2130706433,
+    "showTooltips": true,
+    "allowScroll": true
+}
