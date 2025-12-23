@@ -15,7 +15,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/sturdy",
     incomplete: "ptdye:incomplete_sturdy_device",
     assembly: ["cobblestone", "create:iron_sheet"],
-    amount: 8,
+    configKey: "config_deviceSturdy",
+    defaultAmount: 8,
     devices: [
       "create:sticker",
       "create:schematicannon",
@@ -50,7 +51,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/mechanical",
     incomplete: "ptdye:incomplete_mechanical_device",
     assembly: ["create:iron_sheet", "create:andesite_alloy"],
-    amount: 10,
+    configKey: "config_deviceMechanical",
+    defaultAmount: 10,
     devices: [
       "create:andesite_casing",
       "create:vertical_gearbox",
@@ -94,7 +96,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/sealed",
     incomplete: "ptdye:incomplete_sealed_device",
     assembly: ["create:copper_sheet", "ae2:silicon"],
-    amount: 16,
+    configKey: "config_deviceSealed",
+    defaultAmount: 16,
     devices: [
       "create_enchantment_industry:printer",
       "create_enchantment_industry:disenchanter",
@@ -121,7 +124,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/smart",
     incomplete: "ptdye:incomplete_smart_device",
     assembly: ["create:brass_sheet", "create:polished_rose_quartz"],
-    amount: 8,
+    configKey: "config_deviceSmart",
+    defaultAmount: 8,
     devices: [
       "create:smart_chute",
       "create:elevator_pulley",
@@ -155,7 +159,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/locomotive",
     incomplete: "ptdye:incomplete_locomotive_device",
     assembly: ["create:sturdy_sheet", "create:brass_sheet"],
-    amount: 8,
+    configKey: "config_deviceLocomotive",
+    defaultAmount: 8,
     devices: [
       "create:controls",
       "create:track_observer",
@@ -178,7 +183,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/logic",
     incomplete: "ptdye:incomplete_logic_device",
     assembly: ["minecraft:smooth_stone", "create:copper_sheet", "minecraft:redstone"],
-    amount: 12,
+    configKey: "config_deviceLogic",
+    defaultAmount: 12,
     devices: [
       "create:powered_toggle_latch",
       "create:analog_lever",
@@ -204,7 +210,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/red_stringed",
     incomplete: "ptdye:incomplete_red_stringed_device",
     assembly: ["botania:livingrock", "minecraft:string", "minecraft:red_dye"],
-    amount: 8,
+    configKey: "config_deviceRedStringed",
+    defaultAmount: 8,
     devices: [
       "botania:red_string_container",
       "botania:red_string_dispenser",
@@ -220,7 +227,8 @@ const DEVICE_GROUPS = {
     tag: "ptd:devices/furnished",
     incomplete: "ptdye:incomplete_furnished_device",
     assembly: ["#minecraft:wool", "#minecraft:logs"],
-    amount: 8,
+    configKey: "config_deviceFurnished",
+    defaultAmount: 8,
     devices: [
       "botania:crafty_crate",
       "create:schematic_table",
@@ -497,8 +505,13 @@ ServerEvents.recipes(function(event) {
       for (let i = 1; i < group.assembly.length; i++) {
         deploySteps.push(event.recipes.create.deploying(group.incomplete, [group.incomplete, group.assembly[i]]));
       }
+      // Use config value if available, otherwise use defaultAmount or amount
+      let outputAmount = group.defaultAmount || group.amount || 1;
+      if (group.configKey && global[group.configKey]) {
+        outputAmount = global[group.configKey].get();
+      }
       event.recipes.create
-        .sequenced_assembly(Item.of(group.generic, group.amount || 1), group.assembly[0], deploySteps)
+        .sequenced_assembly(Item.of(group.generic, outputAmount), group.assembly[0], deploySteps)
         .transitionalItem(group.incomplete)
         .loops(group.loops || 1);
     }
