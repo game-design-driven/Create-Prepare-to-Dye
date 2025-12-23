@@ -1,0 +1,32 @@
+{
+  "allowMovement": {
+    "yarden_zamir.column_quick_swap.client.ColumnPickScreen": true,
+    "settingdust.item_converter.client.ItemConvertScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "com.iafenvoy.jupiter.render.screen.ConfigContainerScreen": true,
+    "com.iafenvoy.jupiter.render.screen.dialog.EnumSelectDialog": true,
+    "net.minecraft.client.gui.screens.OptionsScreen": true,
+    "dev.emi.emi.screen.ConfigScreen": true,
+    "yalter.mousetweaks.ConfigScreen": true,
+    "net.minecraft.client.gui.screens.VideoSettingsScreen": true,
+    "org.anti_ad.mc.ipnrejects.gui.screens.ConfigScreen": true,
+    "appeng.client.gui.me.common.MEStorageScreen": true,
+    "appeng.client.gui.implementations.ChestScreen": true,
+    "appeng.client.gui.implementations.WirelessAccessPointScreen": true,
+    "settingdust.item_converter.compat.ae2.MEItemConvertScreen": true,
+    "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true,
+    "com.simibubi.create.foundation.blockEntity.behaviour.ValueSettingsScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.example.personalmesystem.client.gui.PersonalMEScreen": true
+  },
+  "hideBackground": {
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "appeng.client.gui.me.common.MEStorageScreen": true,
+    "appeng.client.gui.implementations.ChestScreen": true,
+    "appeng.client.gui.implementations.WirelessAccessPointScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.example.personalmesystem.client.gui.PersonalMEScreen": true
+  }
+}

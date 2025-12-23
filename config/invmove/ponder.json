@@ -1,0 +1,13 @@
+{
+  "movement": {
+    "holdPonderAllowMovement": false,
+    "ponder": false,
+    "tag": true,
+    "index": true
+  },
+  "backgroundHide": {
+    "ponder": false,
+    "tag": true,
+    "index": true
+  }
+}
