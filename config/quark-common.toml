@@ -1607,7 +1607,7 @@
 			B = [0.0, 0.0, 1.22]
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
+		"Attribute Tooltips" = false
 		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true

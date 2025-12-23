@@ -1,0 +1,6 @@
+{
+  "general": {
+    "loadForgeConfigs": true,
+    "configButtonReplacement": "NEVER"
+  }
+}

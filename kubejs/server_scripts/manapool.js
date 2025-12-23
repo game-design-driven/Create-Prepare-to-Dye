@@ -69,17 +69,21 @@ ServerEvents.recipes(function (event) {
       // Extract recipe name from original ID (e.g., botania:mana_infusion/peony_to_dandelion -> peony_to_dandelion)
       var recipeName = r.id.split("/").pop();
 
+      // Get multipliers from config
+      var fadingMult = global.config_fadingMultiplier ? global.config_fadingMultiplier.get() : 0.5;
+      var kindledMult = global.config_kindledMultiplier ? global.config_kindledMultiplier.get() : 2.0;
+
       for (var d = 0; d < directions.length; d++) {
         var dir = directions[d];
         var isDirectionHidden = dir !== "south";
 
-        // Fading blaze burner (half mana) - always hidden from EMI
+        // Fading blaze burner (reduced mana) - always hidden from EMI
         event.custom({
           type: "botania:mana_infusion",
           hidden: true,
           input: inputObj,
           output: outputObj,
-          mana: Math.floor(r.mana / 2),
+          mana: Math.floor(r.mana * fadingMult),
           catalyst: {
             type: "state",
             name: "create:blaze_burner",
@@ -87,13 +91,13 @@ ServerEvents.recipes(function (event) {
           },
         }).id("ptd:alchemy/fading_" + dir + "/" + recipeName + "/hidden");
 
-        // Kindled blaze burner (double mana) - only south visible
+        // Kindled blaze burner (increased mana) - only south visible
         event.custom({
           type: "botania:mana_infusion",
           hidden: isDirectionHidden,
           input: inputObj,
           output: outputObj,
-          mana: r.mana * 2,
+          mana: Math.floor(r.mana * kindledMult),
           catalyst: {
             type: "state",
             name: "create:blaze_burner",
