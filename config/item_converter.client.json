@@ -1,3 +1,7 @@
 {
-    "pressTicks": 0
+    "pressTicks": 0,
+    "highlightColor": -2130706433,
+    "showTooltips": true,
+    "showRatioInTooltip": true,
+    "allowScroll": true
 }
