@@ -1,0 +1,82 @@
+{
+  "level": 1,
+  "experience": 0,
+  "achievements": {
+    "FIRST_STEPS": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "FRIENDLY_TOUCH": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "CARETAKER": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "PLAYFUL_FRIEND": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "CLEANUP_CREW": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "BEST_BUDDIES": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "WELL_FED": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "ENERGIZER": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "FUN_TIMES": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "MARATHON_SESSION": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "MASTER_TRAINER": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "COMPLETION_COLLECTOR": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "MIDNIGHT_COMPANION": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "DESIGN_MARATHON": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "LOYAL_FRIEND": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "PERFECT_HARMONY": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    },
+    "ACHIEVEMENT_HUNTER": {
+      "unlocked": false,
+      "unlockTimestamp": 0
+    }
+  },
+  "activity": {
+    "petCount": 0,
+    "feedCount": 0,
+    "playCount": 0,
+    "poopCleanCount": 0,
+    "totalSessionTime": 0,
+    "layoutCreationCount": 0
+  }
+}
