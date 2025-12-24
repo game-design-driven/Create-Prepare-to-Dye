@@ -4,12 +4,12 @@ layout-meta {
   identifier = appeng.client.gui.me.common.MEStorageScreen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1765975986101
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4103c484-1d33-468e-ad20-88b8a56be9d3-1766004152774] = [groups:][instances:]
+  [loading_requirement_container_meta:02ababda-0117-4fbd-b2d3-b938e66cf283-1766527363613] = [groups:][instances:]
 }
 
 customization {

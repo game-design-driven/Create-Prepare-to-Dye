@@ -4,13 +4,13 @@ layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1732293840240
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = inventory_screen;stonecutter_screen;
-  [loading_requirement_container_meta:0b1abe6a-9aeb-45ea-be61-5aa17a1bd979-1766077023921] = [groups:][instances:]
+  [loading_requirement_container_meta:574b5572-3255-487d-84d7-71bc4b912263-1766527363518] = [groups:][instances:]
 }
 
 customization {
