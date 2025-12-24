@@ -51,7 +51,23 @@ global.flowers_that_float = [
   "botania:floating_thermalily",
   "botania:floating_tigerseye"
 ]
+
+// its unlikely to change, no point in running it every time
+if(false){
+  global.flowers_that_float.forEach(f=>{
+    let path = `kubejs/assets/botania/models/item/${f.replace("botania:","")}.json`
+    console.log(path)
+    JsonIO.write(path,{
+      parent: "minecraft:item/generated",
+      textures: {
+        "layer0": "botania:block/"+f.replace("botania:floating_","")
+      }
+    })
+  })
+}
+
 if (feature("Botania flowers placable anywhere.")) {
+
   // i was reasonably sure that tags can't be used here, but i'd love to be wrong.
   BlockEvents.modification(e=>{
     global.flowers_that_float.forEach(flower=>{
@@ -61,7 +77,6 @@ if (feature("Botania flowers placable anywhere.")) {
   ItemEvents.modification(e=>{
     global.flowers_that_float.forEach(flower=>{
       e.modify(flower,f=>{
-        f.block
       })
     })
   })
