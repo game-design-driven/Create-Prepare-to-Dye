@@ -2,7 +2,7 @@
 // Create Prepare to Dye 2 - Configuration
 // Uses ConfigJS to create user-configurable settings
 
-ConfigsEvent.server((event) => {
+ConfigsEvent.common((event) => {
   event.setName("create-prepare-to-dye-2");
 
   // =============================================================================
