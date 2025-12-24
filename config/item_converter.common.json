@@ -1,6 +1,5 @@
 {
     "recipeTypes": [
         "minecraft:stonecutting"
-    ],
-    "bidirectionalConversion": true
+    ]
 }

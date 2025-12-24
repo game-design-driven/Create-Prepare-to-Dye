@@ -2,6 +2,8 @@
     "pressTicks": 0,
     "highlightColor": -2130706433,
     "showTooltips": true,
-    "showRatioInTooltip": true,
-    "allowScroll": true
+    "allowScroll": true,
+    "middleClickConvert": true,
+    "specialTags": [],
+    "specialTagBorderColor": -10496
 }
