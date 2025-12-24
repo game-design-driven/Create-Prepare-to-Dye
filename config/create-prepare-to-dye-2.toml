@@ -1,0 +1,71 @@
+
+[player]
+	#Player attribute and survival settings
+	#Swim speed multiplier (default: 2.25)
+	#Range: 0.1 ~ 10.0
+	swimSpeed = 2.25
+	#Reach distance in blocks (default: 30)
+	#Range: 1 ~ 100
+	reachDistance = 30
+	#Attack range in blocks (default: 30)
+	#Range: 1 ~ 100
+	attackRange = 30
+	#Base attack damage (default: 3)
+	#Range: 0 ~ 100
+	attackDamage = 3
+	#Player invincibility - immune to all damage except void/kill (default: true)
+	invincibility = true
+	#Enable fall damage (default: false)
+	fallDamage = false
+	#Enable drowning damage (default: false)
+	drowningDamage = false
+	#Keep inventory on death (default: true)
+	keepInventory = true
+
+[starterKit]
+	#Starter kit settings for new players
+	#Number of each device type given to additional players joining an existing server (default: 8)
+	#Range: 0 ~ 64
+	additionalPlayerDevices = 8
+
+[deviceAssembly]
+	#Output quantities for device sequenced assembly recipes
+	#Sturdy devices per assembly (default: 8)
+	#Range: 1 ~ 64
+	sturdy = 8
+	#Mechanical devices per assembly (default: 10)
+	#Range: 1 ~ 64
+	mechanical = 10
+	#Sealed devices per assembly (default: 16)
+	#Range: 1 ~ 64
+	sealed = 16
+	#Smart devices per assembly (default: 8)
+	#Range: 1 ~ 64
+	smart = 8
+	#Logic devices per assembly (default: 12)
+	#Range: 1 ~ 64
+	logic = 12
+	#Locomotive devices per assembly (default: 8)
+	#Range: 1 ~ 64
+	locomotive = 8
+	#Red stringed devices per assembly (default: 8)
+	#Range: 1 ~ 64
+	redStringed = 8
+	#Furnished devices per assembly (default: 8)
+	#Range: 1 ~ 64
+	furnished = 8
+
+[manaPoolBurner]
+	#Mana cost multipliers for blaze burner alchemy recipes
+	#Fading burner mana multiplier - lower = cheaper (default: 0.5)
+	#Range: 0.1 ~ 10.0
+	fadingMultiplier = 0.5
+	#Kindled burner mana multiplier - higher = more expensive (default: 2.0)
+	#Range: 0.1 ~ 10.0
+	kindledMultiplier = 2.0
+
+[schematicannon]
+	#Schematicannon settings
+	#Schematicannon requires no fuel when placed (default: true)
+	freeFuel = true
+
