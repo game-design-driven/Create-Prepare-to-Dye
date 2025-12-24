@@ -90,3 +90,4 @@ kubejs/allEnglishTranslationKeys.json
 /modernfix/structureCacheV1
 /.item_converter_generated
 /mods/.index
+.claude/settings.local.json
