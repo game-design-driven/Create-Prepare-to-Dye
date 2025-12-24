@@ -1,0 +1,25 @@
+{
+  "parent": "botania:main/flower_pickup",
+  "criteria": {
+    "pickup": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:mana_pool",
+              "botania:creative_pool",
+              "botania:diluted_pool",
+              "botania:fabulous_pool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

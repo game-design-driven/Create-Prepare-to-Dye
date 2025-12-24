@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/elf_portal_open",
+  "criteria": {
+    "heisei_dream": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:heisei_dream"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "heisei_dream"
+    ]
+  ]
+}

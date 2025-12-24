@@ -1,0 +1,13 @@
+{
+  "parent": "ae2:main/spatial_ioport",
+  "criteria": {
+    "explorer": {
+      "trigger": "ae2:spatial_explorer"
+    }
+  },
+  "requirements": [
+    [
+      "explorer"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "botania:main/mana_pool_pickup",
+  "criteria": {
+    "code_triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "code_triggered"
+    ]
+  ]
+}

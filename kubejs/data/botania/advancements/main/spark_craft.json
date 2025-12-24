@@ -1,0 +1,22 @@
+{
+  "parent": "botania:main/mana_pool_pickup",
+  "criteria": {
+    "spark": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:spark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "spark"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "ae2:main/glass_cable",
+  "criteria": {
+    "part": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:storage_bus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "part"
+    ]
+  ]
+}
