@@ -2,9 +2,9 @@
 #Client only settings, mostly things related to rendering
 [client]
 	#Set to true to enable rendering curios
-	renderCurios = true
+	renderCurios = false
 	#Set to true to enable the Curios GUI button
-	enableButton = true
+	enableButton = false
 	#The X-Offset for the Curios GUI button
 	#Range: -100 ~ 100
 	buttonXOffset = 0
