@@ -506,10 +506,7 @@ ServerEvents.recipes(function(event) {
         deploySteps.push(event.recipes.create.deploying(group.incomplete, [group.incomplete, group.assembly[i]]));
       }
       // Use config value if available, otherwise use defaultAmount or amount
-      let outputAmount = group.defaultAmount || group.amount || 1;
-      if (group.configKey && global[group.configKey]) {
-        outputAmount = global[group.configKey].get();
-      }
+      let outputAmount = group.configKey ? global[group.configKey].get() : (group.defaultAmount || group.amount || 1);
       event.recipes.create
         .sequenced_assembly(Item.of(group.generic, outputAmount), group.assembly[0], deploySteps)
         .transitionalItem(group.incomplete)

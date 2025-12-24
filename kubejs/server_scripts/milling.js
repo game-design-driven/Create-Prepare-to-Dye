@@ -2,53 +2,44 @@
 //Create Prepare to Dye 2 - Milling Recipes
 
 ServerEvents.recipes((event) => {
-  // Carrot milling
+  // DYE - carrot to orange dye
   event.recipes.create.milling("minecraft:orange_dye", "#forge:crops/carrot");
 
-  // Cocoa beans milling (replaces default)
+  // DYE - cocoa beans to brown dye (replaces default)
   event.remove({ id: "create:milling/cocoa_beans" });
   event.recipes.create.milling("minecraft:brown_dye", "minecraft:cocoa_beans");
 
-  // Sandstone milling (replaces default)
-  event.remove({ id: "create:milling/sandstone" });
-  event.recipes.create.milling(
-    ["3x minecraft:sand", Item.of("minecraft:sand").withChance(0.50)],
-    "#forge:sandstone"
-  );
-
-  // Coal milling (replaces default)
+  // DYE - coal to black dye (replaces default)
   event.remove({ id: "create:milling/coal" });
   event.remove({ id: "create:milling/charcoal" });
   event.recipes.create.milling("minecraft:black_dye", "minecraft:coal");
 
-  // Ink sac milling (replaces default)
+  // DYE - ink sac to black dye (replaces default)
   event.remove({ id: "create:milling/ink_sac" });
   event.recipes.create.milling("2x minecraft:black_dye", "minecraft:ink_sac");
 
-  // Lilac milling (replaces default)
+  // DYE - lilac to magenta dye (replaces default)
   event.remove({ id: "create:milling/lilac" });
   event.recipes.create.milling("3x minecraft:magenta_dye", "minecraft:lilac");
 
-  // Soul sand milling
+  // DYE - soul sand to brown dye
   event.recipes.create.milling("minecraft:brown_dye", "minecraft:soul_sand");
 
-  // Bone meal milling (replaces default)
+  // DYE - bone meal to white dye (replaces default)
   event.remove({ id: "create:milling/bone_meal" });
-  event.remove({ id: "create:milling/bone" });
   event.recipes.create.milling("minecraft:white_dye", "minecraft:bone_meal");
+
+  // DYE - bone to bone meal (replaces default)
+  event.remove({ id: "create:milling/bone" });
   event.recipes.create.milling(
     ["2x minecraft:bone_meal", Item.of("minecraft:bone_meal").withChance(0.50)],
     "minecraft:bone"
   );
 
-  // Wheat milling (replaces default)
-  event.remove({ id: "create:milling/wheat" });
-  event.recipes.create.milling("2x create:wheat_flour", "#forge:crops/wheat");
-
-  // Apple milling
+  // DYE - apple to red dye
   event.recipes.create.milling("minecraft:red_dye", "minecraft:apple");
 
-  // Seeds milling
+  // DYE - seeds to green/brown dye
   event.recipes.create.milling(
     [
       Item.of("minecraft:green_dye").withChance(0.05),
@@ -57,47 +48,41 @@ ServerEvents.recipes((event) => {
     "#forge:seeds"
   );
 
-  // Wheat flour milling
+  // DYE - wheat flour to white dye
   event.recipes.create.milling(
     [Item.of("minecraft:white_dye").withChance(0.50)],
     "create:wheat_flour"
   );
 
-  // Lily of the valley milling (replaces default)
+  // DYE - lily of the valley to white dye (replaces default)
   event.remove({ id: "create:milling/lily_of_the_valley" });
   event.recipes.create.milling("3x minecraft:white_dye", "minecraft:lily_of_the_valley");
 
-  // Charcoal milling
+  // DYE - charcoal to gray dye
   event.recipes.create.milling("minecraft:gray_dye", "minecraft:charcoal");
 
-  // Meat milling
+  // DYE - meat to red dye
   event.recipes.create.milling(
     [Item.of("minecraft:red_dye").withChance(0.80)],
     "#forge:meat"
   );
 
-  // Netherrack milling
-  event.recipes.create.milling(
-    [Item.of("create:cinder_flour").withChance(0.25)],
-    "minecraft:netherrack"
-  );
-
-  // Cinder flour milling
+  // DYE - cinder flour to red dye
   event.recipes.create.milling(
     [Item.of("minecraft:red_dye").withChance(0.80)],
     "create:cinder_flour"
   );
 
-  // Wart blocks milling
+  // DYE - wart blocks to red dye
   event.recipes.create.milling("minecraft:red_dye", "#minecraft:wart_blocks");
 
-  // Red mushroom milling
+  // DYE - red mushroom to red dye
   event.recipes.create.milling("minecraft:red_dye", "minecraft:red_mushroom");
 
-  // Ash milling
+  // DYE - ash to gray dye
   event.recipes.create.milling("minecraft:gray_dye", "supplementaries:ash");
 
-  // Glow ink sac milling
+  // DYE - glow ink sac to light blue dye
   event.recipes.create.milling(
     [
       Item.of("minecraft:light_blue_dye").withChance(0.50),
@@ -106,80 +91,111 @@ ServerEvents.recipes((event) => {
     "minecraft:glow_ink_sac"
   );
 
-  // Popped chorus fruit milling
+  // DYE - popped chorus fruit to purple dye
   event.recipes.create.milling(
     ["minecraft:purple_dye", Item.of("minecraft:string").withChance(0.10)],
     "minecraft:popped_chorus_fruit"
   );
 
-  // Raw ore milling
-  event.recipes.create.milling(
-    ["create:crushed_raw_iron", Item.of("create:crushed_raw_iron").withChance(0.05)],
-    "minecraft:raw_iron"
-  );
-  event.recipes.create.milling(
-    ["create:crushed_raw_copper", Item.of("create:crushed_raw_copper").withChance(0.05)],
-    "minecraft:raw_copper"
-  );
-  event.recipes.create.milling(
-    ["create:crushed_raw_gold", Item.of("create:crushed_raw_gold").withChance(0.05)],
-    "minecraft:raw_gold"
-  );
-
-  // Crushed ore milling
-  event.recipes.create.milling("5x minecraft:iron_nugget", "create:crushed_raw_iron");
-  event.recipes.create.milling("8x create:copper_nugget", "create:crushed_raw_copper");
-  event.recipes.create.milling(
-    ["3x minecraft:gold_nugget", Item.of("minecraft:gold_nugget").withChance(0.50)],
-    "create:crushed_raw_gold"
-  );
-
-  // Coal ore milling
-  event.recipes.create.milling("3x minecraft:coal", "#forge:ores/coal");
-
-  // Iron ore milling
-  event.recipes.create.milling(
-    ["2x create:crushed_raw_iron", Item.of("create:crushed_raw_iron").withChance(0.75)],
-    "#forge:ores/iron"
-  );
-
-  // Copper ore milling
-  event.recipes.create.milling("6x create:crushed_raw_copper", "#forge:ores/copper");
-
-  // Quartz milling
+  // DYE - quartz to redstone/white dye
   event.recipes.create.milling(
     [Item.of("minecraft:redstone").withChance(0.70), Item.of("minecraft:white_dye").withChance(0.05)],
     "minecraft:quartz"
   );
 
-  // Dirt milling
-  event.recipes.create.milling([Item.of("minecraft:sand").withChance(0.20)], "minecraft:dirt");
-
-  // Redstone ore milling
-  event.recipes.create.milling("7x minecraft:redstone", "minecraft:redstone_ore");
-
-  // Calcite milling
-  event.recipes.create.milling(
-    [Item.of("minecraft:bone_meal").withChance(0.40)],
-    "minecraft:calcite"
-  );
-
-  // Egg milling
+  // DYE - egg to yellow dye
   event.recipes.create.milling(
     [Item.of("minecraft:yellow_dye").withChance(0.20)],
     "minecraft:egg"
   );
 
-  // Sugar cane milling (replaces default)
+  // FOOD - wheat to flour (replaces default)
+  event.remove({ id: "create:milling/wheat" });
+  event.recipes.create.milling("2x create:wheat_flour", "#forge:crops/wheat");
+
+  // FOOD - sugar cane to sugar (replaces default)
   event.remove({ id: "create:milling/sugar_cane" });
   event.recipes.create.milling(
     [Item.of("minecraft:sugar").withChance(0.25)],
     "minecraft:sugar_cane"
   );
 
-  // Enchanted book milling
+  // ORE - sandstone to sand (replaces default)
+  event.remove({ id: "create:milling/sandstone" });
+  event.recipes.create.milling(
+    ["3x minecraft:sand", Item.of("minecraft:sand").withChance(0.50)],
+    "#forge:sandstone"
+  );
+
+  // ORE - netherrack to cinder flour
+  event.recipes.create.milling(
+    [Item.of("create:cinder_flour").withChance(0.25)],
+    "minecraft:netherrack"
+  );
+
+  // ORE - raw iron to crushed
+  event.recipes.create.milling(
+    ["create:crushed_raw_iron", Item.of("create:crushed_raw_iron").withChance(0.05)],
+    "minecraft:raw_iron"
+  );
+
+  // ORE - raw copper to crushed
+  event.recipes.create.milling(
+    ["create:crushed_raw_copper", Item.of("create:crushed_raw_copper").withChance(0.05)],
+    "minecraft:raw_copper"
+  );
+
+  // ORE - raw gold to crushed
+  event.recipes.create.milling(
+    ["create:crushed_raw_gold", Item.of("create:crushed_raw_gold").withChance(0.05)],
+    "minecraft:raw_gold"
+  );
+
+  // ORE - crushed iron to nuggets
+  event.recipes.create.milling("5x minecraft:iron_nugget", "create:crushed_raw_iron");
+
+  // ORE - crushed copper to nuggets
+  event.recipes.create.milling("8x create:copper_nugget", "create:crushed_raw_copper");
+
+  // ORE - crushed gold to nuggets
+  event.recipes.create.milling(
+    ["3x minecraft:gold_nugget", Item.of("minecraft:gold_nugget").withChance(0.50)],
+    "create:crushed_raw_gold"
+  );
+
+  // ORE - coal ore to coal
+  event.recipes.create.milling("3x minecraft:coal", "#forge:ores/coal");
+
+  // ORE - iron ore to crushed
+  event.recipes.create.milling(
+    ["2x create:crushed_raw_iron", Item.of("create:crushed_raw_iron").withChance(0.75)],
+    "#forge:ores/iron"
+  );
+
+  // ORE - copper ore to crushed
+  event.recipes.create.milling("6x create:crushed_raw_copper", "#forge:ores/copper");
+
+  // ORE - dirt to sand
+  event.recipes.create.milling([Item.of("minecraft:sand").withChance(0.20)], "minecraft:dirt");
+
+  // ORE - redstone ore to redstone
+  event.recipes.create.milling("7x minecraft:redstone", "minecraft:redstone_ore");
+
+  // ORE - calcite to bone meal
+  event.recipes.create.milling(
+    [Item.of("minecraft:bone_meal").withChance(0.40)],
+    "minecraft:calcite"
+  );
+
+  // RECYCLING - enchanted book to paper/XP
   event.recipes.create.milling(
     ["2x minecraft:paper", Item.of("create:experience_nugget").withChance(0.55)],
     Item.of("minecraft:enchanted_book").weakNBT()
+  );
+
+  // TREES - oak leaves to apples
+  event.recipes.create.milling(
+    [Item.of("minecraft:apple").withChance(0.20)],
+    "minecraft:oak_leaves"
   );
 });

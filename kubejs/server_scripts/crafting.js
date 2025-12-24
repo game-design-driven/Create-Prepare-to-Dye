@@ -369,4 +369,36 @@ ServerEvents.recipes((event) => {
     o: "minecraft:obsidian",
     n: "#forge:storage_blocks/netherite",
   });
+
+  // TREES - remove vanilla stick recipe (replaced by cutting)
+  event.remove({ id: "minecraft:stick" });
+
+  // TREES - birch logs give 5x planks (bonus yield)
+  event.remove({ id: "minecraft:birch_planks" });
+  event.shapeless("5x minecraft:birch_planks", "minecraft:birch_log");
+
+  // QUARK - iron plate from plates and black/gray dye
+  event.remove({ id: "quark:building/crafting/iron_plate" });
+  event.shapeless("64x quark:iron_plate", [
+    "3x #forge:plates/iron",
+    Ingredient.of("#forge:dyes/black").or(Ingredient.of("#forge:dyes/gray")),
+  ]);
+
+  // QUARK - backpack from silicon
+  event.shaped("quark:backpack", ["sis", "scs", "sis"], {
+    s: "#forge:silicon",
+    i: "#forge:ingots",
+    c: "#forge:chests",
+  });
+
+  // QUARK - stick block simpler recipe
+  event.remove({ id: "quark:building/crafting/compressed/stick_block" });
+  event.shapeless("quark:stick_block", "9x minecraft:stick");
+
+  // QUARK - iron ladder higher output
+  event.remove({ id: "quark:building/crafting/iron_ladder" });
+  event.shaped("16x quark:iron_ladder", ["i i", "iIi", "i i"], {
+    I: "#forge:ingots/iron",
+    i: "#forge:nuggets/iron",
+  });
 });

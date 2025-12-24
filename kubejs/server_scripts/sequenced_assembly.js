@@ -2,7 +2,7 @@
 //Create Prepare to Dye 2 - Sequenced Assembly Recipes
 
 ServerEvents.recipes((event) => {
-  // Pancake assembly
+  // FOOD - pancake assembly (multiple fluid variants)
   ["create:chocolate", "create:honey", "minecraft:milk"].forEach((fluid) => {
     event.recipes.create
       .sequenced_assembly("4x supplementaries:pancake", "create:dough", [
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
       .loops(1);
   });
 
-  // Pizza assembly
+  // FOOD - pizza assembly
   event.recipes.create
     .sequenced_assembly("ptdye:pizza", "ptdye:pizza_base", [
       event.recipes.create.filling("ptdye:pizza_base", [
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("ptdye:pizza_base")
     .loops(1);
 
-  // Sweet roll assembly
+  // FOOD - sweet roll assembly
   event.remove({ id: "create:filling/sweet_roll" });
   event.recipes.create
     .sequenced_assembly("create:sweet_roll", "minecraft:bread", [
@@ -59,52 +59,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:bread")
     .loops(1);
 
-  // Paper assembly - TODO: Uncomment when Create Diesel Generators mod is added
-  // event.remove({ id: "minecraft:crafting_shaped/paper" });
-  // event.remove({ id: "minecraft:paper" });
-  // event.remove({ id: "quark:tweaks/utility/bent/paper" });
-
-  // event.recipes.create
-  //   .sequenced_assembly("2x minecraft:paper", "createdieselgenerators:wood_chip", [
-  //     event.recipes.create.filling("createdieselgenerators:wood_chip", [
-  //       Fluid.of("minecraft:milk", 25),
-  //       "createdieselgenerators:wood_chip",
-  //     ]),
-  //     event.recipes.create.pressing(
-  //       "createdieselgenerators:wood_chip",
-  //       "createdieselgenerators:wood_chip"
-  //     ),
-  //   ])
-  //   .transitionalItem("createdieselgenerators:wood_chip")
-  //   .loops(1);
-
-  // event.recipes.create
-  //   .sequenced_assembly("3x minecraft:paper", "createdieselgenerators:wood_chip", [
-  //     event.recipes.create.pressing(
-  //       "createdieselgenerators:wood_chip",
-  //       "createdieselgenerators:wood_chip"
-  //     ),
-  //     event.recipes.create.filling("createdieselgenerators:wood_chip", [
-  //       Fluid.water(25),
-  //       "createdieselgenerators:wood_chip",
-  //     ]),
-  //     event.recipes.create.pressing(
-  //       "createdieselgenerators:wood_chip",
-  //       "createdieselgenerators:wood_chip"
-  //     ),
-  //     event.recipes.create.filling("createdieselgenerators:wood_chip", [
-  //       Fluid.water(75),
-  //       "createdieselgenerators:wood_chip",
-  //     ]),
-  //     event.recipes.create.pressing(
-  //       "createdieselgenerators:wood_chip",
-  //       "createdieselgenerators:wood_chip"
-  //     ),
-  //   ])
-  //   .transitionalItem("createdieselgenerators:wood_chip")
-  //   .loops(1);
-
-  // Slime from dough
+  // SLIME - slime from dough and lime dye
   event.recipes.create
     .sequenced_assembly("3x minecraft:slime_ball", "create:dough", [
       event.recipes.createDeploying("create:dough", [
@@ -115,7 +70,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("create:dough")
     .loops(3);
 
-  // Andesite alloy assembly
+  // ALLOY - andesite alloy from iron nugget
   event.recipes.create
     .sequenced_assembly("create:andesite_alloy", "minecraft:iron_nugget", [
       event.recipes.createDeploying("minecraft:iron_nugget", [
@@ -134,6 +89,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:iron_nugget")
     .loops(1);
 
+  // ALLOY - andesite alloy from iron ingot
   event.recipes.create
     .sequenced_assembly("2x create:andesite_alloy", "minecraft:iron_ingot", [
       event.recipes.create.filling("minecraft:iron_ingot", [
@@ -148,7 +104,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:iron_ingot")
     .loops(1);
 
-  // Precision mechanism alternate
+  // CRAFT - precision mechanism alternate
   event.recipes.create
     .sequenced_assembly(
       [
@@ -177,7 +133,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("create:incomplete_precision_mechanism")
     .loops(4);
 
-  // Magma cream separation
+  // SLIME - magma cream separation
   event.recipes.create
     .sequenced_assembly(
       [
@@ -193,7 +149,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:magma_cream")
     .loops(2);
 
-  // Silicon from slime
+  // AE2 - silicon from slime
   event.recipes.create
     .sequenced_assembly("3x ae2:silicon", "minecraft:slime_ball", [
       event.recipes.create.pressing(
@@ -208,7 +164,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:slime_ball")
     .loops(1);
 
-  // Monorail track alternate
+  // RAILWAYS - monorail track alternate
   event.remove({ id: "railways:sequenced_assembly/track_monorail" });
   event.recipes.create
     .sequenced_assembly("32x railways:track_monorail", "create:metal_girder", [
@@ -220,7 +176,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("create:incomplete_track")
     .loops(16);
 
-  // Emerald from diamond
+  // ORE - emerald from diamond
   event.remove({ id: "create:smelting/zinc_ingot_from_ore" });
   event.remove({ id: "create:blasting/zinc_ingot_from_ore" });
   event.recipes.create
@@ -247,6 +203,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem("minecraft:diamond")
     .loops(2);
 
+  // ORE - emerald from mana diamond
   event.recipes.create
     .sequenced_assembly(
       [

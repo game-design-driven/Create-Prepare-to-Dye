@@ -2,21 +2,21 @@
 //Create Prepare to Dye 2 - Splashing/Washing Recipes
 
 ServerEvents.recipes((event) => {
-  // Crushed iron washing (nerfed)
+  // ORE - crushed iron washing (nerfed)
   event.remove({ id: "create:splashing/crushed_raw_iron" });
   event.recipes.create.splashing(
     ["5x minecraft:iron_nugget", "minecraft:white_dye"],
     "create:crushed_raw_iron"
   );
 
-  // Crushed copper washing (nerfed)
+  // ORE - crushed copper washing (nerfed)
   event.remove({ id: "create:splashing/crushed_raw_copper" });
   event.recipes.create.splashing(
     ["7x create:copper_nugget", Item.of("minecraft:clay_ball").withChance(0.50)],
     "create:crushed_raw_copper"
   );
 
-  // Soul sand washing for quartz
+  // ORE - soul sand washing for quartz
   event.remove({ id: "create:splashing/soul_sand" });
   event.recipes.create.splashing(
     [
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
     "minecraft:soul_sand"
   );
 
-  // Red sand washing (nerfed)
+  // ORE - red sand washing (nerfed)
   event.remove({ id: "create:splashing/red_sand" });
   event.recipes.create.splashing(
     [

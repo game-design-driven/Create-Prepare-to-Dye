@@ -70,8 +70,8 @@ ServerEvents.recipes(function (event) {
       var recipeName = r.id.split("/").pop();
 
       // Get multipliers from config
-      var fadingMult = global.config_fadingMultiplier ? global.config_fadingMultiplier.get() : 0.5;
-      var kindledMult = global.config_kindledMultiplier ? global.config_kindledMultiplier.get() : 2.0;
+      var fadingMult = global.config_fadingMultiplier.get();
+      var kindledMult = global.config_kindledMultiplier.get();
 
       for (var d = 0; d < directions.length; d++) {
         var dir = directions[d];

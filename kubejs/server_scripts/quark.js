@@ -1,5 +1,6 @@
 //priority: 0
-// Quark tweaks - item hiding, recipe modifications
+// Quark - item hiding and tag modifications
+// Recipes split into: smelting.js, crafting.js, variants.js (searchable via "QUARK -")
 
 // Items to hide from Quark
 var QUARK_HIDDEN_ITEMS = [
@@ -77,38 +78,6 @@ ServerEvents.recipes(function (event) {
   for (var i = 0; i < QUARK_HIDDEN_ITEMS.length; i++) {
     event.remove({ output: QUARK_HIDDEN_ITEMS[i] });
   }
-
-  // XP from experience bottle in furnace
-  event.smelting("minecraft:glass_bottle", "minecraft:experience_bottle").xp(6);
-
-  // Gold nugget from gold bars
-  event.smelting("minecraft:gold_nugget", "quark:gold_bars");
-
-  // Iron plate from iron plates and black/gray dye
-  event.remove({ id: "quark:building/crafting/iron_plate" });
-  event.shapeless("64x quark:iron_plate", [
-    "3x #forge:plates/iron",
-    Ingredient.of("#forge:dyes/black").or(Ingredient.of("#forge:dyes/gray")),
-  ]);
-  event.stonecutting("32x quark:iron_plate", "#forge:ingots/andesite_alloy");
-
-  // Backpack from silicon
-  event.shaped("quark:backpack", ["sis", "scs", "sis"], {
-    s: "#forge:silicon",
-    i: "#forge:ingots",
-    c: "#forge:chests",
-  });
-
-  // Stick block - simpler recipe
-  event.remove({ id: "quark:building/crafting/compressed/stick_block" });
-  event.shapeless("quark:stick_block", "9x minecraft:stick");
-
-  // Iron ladder - higher output
-  event.remove({ id: "quark:building/crafting/iron_ladder" });
-  event.shaped("16x quark:iron_ladder", ["i i", "iIi", "i i"], {
-    I: "#forge:ingots/iron",
-    i: "#forge:nuggets/iron",
-  });
 });
 
 ServerEvents.tags("item", function (event) {
