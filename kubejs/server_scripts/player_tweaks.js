@@ -3,7 +3,7 @@
 
 // Player invincibility - players cannot take damage except from void/kill
 EntityEvents.hurt(function (event) {
-  if (event.entity.player && !event.source.isBypassInvul()) {
+  if (global.config_invincibility.get() && event.entity.player && !event.source.isBypassInvul()) {
     event.cancel();
   }
 });
@@ -46,6 +46,18 @@ function fillBlockWithBucket(block, event) {
 
 // Fill diesel engine with bucket
 BlockEvents.rightClicked("createdieselgenerators:diesel_engine", function (event) {
+  var heldItem = event.player.handSlots[0].id;
+  if (
+    heldItem.endsWith("_bucket") &&
+    event.block.getEntityData().Tanks[0].Level.Value === 0
+  ) {
+    fillBlockWithBucket(event.block, event);
+    event.cancel();
+  }
+});
+
+// Fill huge diesel engine with bucket
+BlockEvents.rightClicked("createdieselgenerators:huge_diesel_engine", function (event) {
   var heldItem = event.player.handSlots[0].id;
   if (
     heldItem.endsWith("_bucket") &&

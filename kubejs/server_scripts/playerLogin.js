@@ -2,7 +2,7 @@
 //Create Prepare to Dye 2 - Player Login Events
 
 function getExtraPlayerItems() {
-  let amount = global.config_additionalPlayerDevices ? global.config_additionalPlayerDevices.get() : 8;
+  let amount = global.config_additionalPlayerDevices.get();
   return [
     Item.of("ptdye:mechanical_device", amount),
     Item.of("ptdye:smart_device", amount),
@@ -13,15 +13,10 @@ function getExtraPlayerItems() {
 }
 
 function applyAutomatonAttributes(player) {
-  let swimSpeed = global.config_swimSpeed ? global.config_swimSpeed.get() : 2.25;
-  let reachDistance = global.config_reachDistance ? global.config_reachDistance.get() : 30;
-  let attackRange = global.config_attackRange ? global.config_attackRange.get() : 30;
-  let attackDamage = global.config_attackDamage ? global.config_attackDamage.get() : 3;
-
-  player.setAttributeBaseValue("forge:swim_speed", swimSpeed);
-  player.setAttributeBaseValue("forge:reach_distance", reachDistance);
-  player.setAttributeBaseValue("forge:attack_range", attackRange);
-  player.setAttributeBaseValue("minecraft:generic.attack_damage", attackDamage);
+  player.setAttributeBaseValue("forge:swim_speed", global.config_swimSpeed.get());
+  player.setAttributeBaseValue("forge:reach_distance", global.config_reachDistance.get());
+  player.setAttributeBaseValue("forge:attack_range", global.config_attackRange.get());
+  player.setAttributeBaseValue("minecraft:generic.attack_damage", global.config_attackDamage.get());
 
   Utils.server.runCommandSilent(
     `curios replace crafting_on_a_stick 0 ${player.displayName.getString()} with crafting_on_a_stick:stonecutter`
