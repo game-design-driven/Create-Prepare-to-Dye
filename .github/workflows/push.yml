@@ -69,7 +69,7 @@ jobs:
           go install github.com/tomwright/dasel/v2/cmd/dasel@master
       - name: Build args
         id: build_args
-        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }}-${{ env.slug }} [forge][${{ matrix.platform }}]' >> $GITHUB_OUTPUT
+        run: echo 'name=${{ needs.tag_and_release.outputs.new_tag }}-${{ env.slug }} -forge-${{ matrix.platform }}]' >> $GITHUB_OUTPUT
 
       # - name: Detect curseforge jars
       #   if: matrix.platform == 'curseforge'
