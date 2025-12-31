@@ -1,0 +1,8 @@
+### [1.232.15](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.14...1.232.15) (2025-12-31)
+
+
+### Fixes
+
+* brackets breaking newer shells ([1e69720](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/1e69720af79bdfb8337f03f9f9bbb7ceed1cbfae))
+
+
