@@ -16,23 +16,6 @@ env:
   mc_version: '1.19.2'
 
 jobs:
-  check_rank:
-    needs: [tag_and_release]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: |
-          limit=100
-          offset=0
-          totalItems=1000
-          while [ $offset -lt $totalItems ]; do
-              curl --silent "https://api.modrinth.com/v2/search?limit=$limit&offset=$offset&facets=%5B%5B%22project_type%3Amodpack%22%5D%5D" | \
-              jq '.hits | to_entries[] | "\(.key + $offset): \(.value.title)"' --argjson offset $offset | grep "${{env.name}}" | sed 's/:.*//' | tr -d '"' >> rank
-              offset=$((offset + limit))
-          done
-
-          old_rank=$(cat README.md | grep -o 'Modrint%20Rank-[0-9]*' | sed 's/Modrint%20Rank-//')
-          new_rank=$(cat rank)
   tests:
     runs-on: ubuntu-latest
     steps:
