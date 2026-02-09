@@ -23,15 +23,31 @@ function hammer_breakBlock(block, item, player){
 
 function hammer_handleEvent(event, block) {
   if (block == null) block = event.target.block
-  if (block && block.hasTag("forge:devices") || block.hasTag("forge:generics/devices")) {
+  if (!block) return
+
+  const isDevice = block.hasTag("forge:devices")
+  const isGenericDevice = block.hasTag("forge:generics/devices")
+  if (isDevice || isGenericDevice) {
     event.player.swing()
     // there should never be a block with devices tag that does not have a generic of the same type
     let generic = block.id
-    if (block.hasTag("forge:devices")) {
-      let device_category = "#forge:generics/"+block.getTags().filter(
-        tag => (tag+"").startsWith("forge:devices/")
-      )[0].path
-      generic = Ingredient.of(device_category).itemIds[0]
+    if (isDevice) {
+      let deviceTag = block.getTags().filter(
+        tag => (tag + "").startsWith("forge:devices/")
+      )[0]
+      if (!deviceTag) return
+
+      let deviceTagParts = (deviceTag + "").split("/")
+      if (deviceTagParts.length < 2) return
+
+      // Fraction-tagged devices (e.g. forge:devices/sealed/8) should not convert to full generics.
+      if (deviceTagParts.length > 2) return
+
+      let deviceType = deviceTagParts[1]
+      let deviceCategory = `#forge:generics/devices/${deviceType}`
+      let genericItems = Ingredient.of(deviceCategory).itemIds
+      if (!genericItems || genericItems.length == 0) return
+      generic = genericItems[0]
     }
 
     let {x, y, z} = block.getPos()
