@@ -15123,7 +15123,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-converter.pw.toml"
-hash = "428575606ba752266a82ec9a0083c9b350ab702704641777e0c224b771596d0a"
+hash = "069b7a8b97c1f9f149b2a8ee5ca5eba2eafc59bb4ee5ffba6735b3e302531cba"
 metafile = true
 
 [[files]]
@@ -15314,6 +15314,11 @@ metafile = true
 [[files]]
 file = "mods/srdp.pw.toml"
 hash = "4997a08804d4767bc12143e0b10b939ddf6e770996d28e0c1d9d84752ddf83e9"
+metafile = true
+
+[[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "817bb219a53e00b8d99485cccc123d97d8506b4fb8a309de72fb78b1c283c8e5"
 metafile = true
 
 [[files]]

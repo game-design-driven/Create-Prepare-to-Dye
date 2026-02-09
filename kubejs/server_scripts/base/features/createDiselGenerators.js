@@ -42,10 +42,10 @@ if (feature("Ethanol")) {
   );
   
   addFermenting(
-    ["600mb kubejs:fermented_goop", "1x minecraft:white_dye"],
-    ["4x minecraft:bone_meal", "500mb milk"]
+    ["250mb kubejs:fermented_goop", "minecraft:white_dye %20"],
+    ["minecraft:bone_meal", "200mb milk"]
     );
-    addFermenting(
+  addFermenting(
       ["100mb kubejs:fermented_goop"],
       ["minecraft:bone_meal", "#forge:fermentable"]
     );
