@@ -37,8 +37,8 @@ if (feature("Ethanol")) {
   removeRecipe({ id: "createdieselgenerators:basin_fermenting/fermentable" });
   //createdieselgenerators:ethanol
   addFermenting(
-    ["250mb kubejs:fermented_goop", "3x minecraft:white_dye"],
-    ["500mb milk"], undefined, 'z'
+    ["750mb kubejs:fermented_goop", "6x minecraft:white_dye"],
+    ["1000mb milk"], undefined, 'z'
   );
   
   addFermenting(
