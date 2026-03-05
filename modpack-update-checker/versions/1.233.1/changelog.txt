@@ -1,0 +1,13 @@
+### [1.233.1](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.233.0...1.233.1) (2026-03-05)
+
+
+### Fixes
+
+* potentially fix issue with Who Do You Think You Are softlock ([c17e2dc](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/c17e2dcf0c1cb2a2f1dfa268568387a24eb3b080))
+
+
+### chores
+
+* autopublish 2026-02-09T12:57:28Z ([3b49e74](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/3b49e74375861bf78eefe452b956c7020b3c7f49))
+
+
