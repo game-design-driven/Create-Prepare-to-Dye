@@ -1,0 +1,20 @@
+## [1.233.0](https://github.com/game-design-driven/Create-Prepare-to-Dye/compare/1.232.15...1.233.0) (2026-02-09)
+
+
+### Features
+
+* alter fermented goop with fertelizer to be slower but more efficient ([4e00993](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/4e00993eac2239cb991a569acf54d162987207bc))
+* buff fermented goop output of base recipe ([ac9556a](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/ac9556abd35dce764cfca2ad2a2fd355ea212dee))
+
+
+### Fixes
+
+* hammer creating barrier items when recycling Fraction-tagged devices ([5c1fa17](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/5c1fa17856bb1fdee813e5cdbb4b0baacbe95926))
+* stutters and occasional lag by adding starlight ([38a91ca](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/38a91ca3ddffa111d1fd4de1a45988843dbea8b1))
+
+
+### chores
+
+* autopublish 2025-12-31T09:29:32Z ([db1b443](https://github.com/game-design-driven/Create-Prepare-to-Dye/commit/db1b443473a0c3435f905a5e587f956ea4fb08d2))
+
+
