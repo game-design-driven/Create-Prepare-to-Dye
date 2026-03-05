@@ -124,6 +124,14 @@ function simple(items, weaknbt) {
       ).replaceAll('"', "");
       nbt.id = `#${tag}`;
     }
+    if (
+      weaknbt &&
+      nbt.tag &&
+      (nbt.id === "wares:delivery_agreement" ||
+        nbt.id === "wares:completed_delivery_agreement")
+    ) {
+      delete nbt.tag.revision;
+    }
     if (weaknbt) nbt.TagMatching = "weak";
     return nbt;
   });
